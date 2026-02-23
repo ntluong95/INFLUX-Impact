@@ -1,0 +1,393 @@
+---
+title: "Zika 2015 Classification Pipeline Report"
+subtitle: "Data Processing + Ensemble Classification"
+author: "INFLUX Impact"
+date: last-modified
+format:
+  html:
+    toc: true
+    number-sections: true
+    code-fold: true
+execute:
+  echo: false
+  warning: false
+  message: false
+jupyter: python3
+---
+
+## Scope
+
+This report summarizes the current Step 2 pipeline outputs generated from:
+
+- `data/Zika_News_2015.csv`
+- Pipeline code in `src/classification/`
+- Final output `data/processed/articles_classified.csv`
+
+```{python}
+from __future__ import annotations
+
+import re
+import sqlite3
+from datetime import datetime
+from pathlib import Path
+from urllib.parse import urlsplit
+
+import pandas as pd
+import yaml
+
+pd.set_option("display.max_columns", 200)
+pd.set_option("display.max_colwidth", 120)
+
+
+def find_repo_root(start: Path) -> Path:
+    for p in [start, *start.parents]:
+        if (p / "data").exists() and (p / "src").exists():
+            return p
+    raise RuntimeError("Could not locate repository root from current working directory.")
+
+
+ROOT = find_repo_root(Path.cwd())
+PROC = ROOT / "data" / "processed"
+LOGS = ROOT / "data" / "logs"
+RAW = ROOT / "data" / "raw_html"
+
+CFG_PATH = ROOT / "src" / "classification" / "config.yaml"
+INPUT_PATH = ROOT / "data" / "Zika_News_2015.csv"
+UNIQUE_PATH = PROC / "zika_2015_unique.csv"
+FETCH_PATH = PROC / "fetch_results.csv"
+EXTRACT_PATH = PROC / "articles_extracted.parquet"
+CLASSIFIED_PATH = PROC / "articles_classified.csv"
+URL_REGISTRY_DB = ROOT / "data" / "url_registry.sqlite"
+LOG_PATH = LOGS / "classification_pipeline.log"
+
+import sys
+sys.path.insert(0, str(ROOT / "src" / "classification"))
+from utils import canonicalize_url, detect_schema, is_google_news_wrapper_url
+from IPython.display import display
+
+
+input_df = pd.read_csv(INPUT_PATH, low_memory=False)
+unique_df = pd.read_csv(UNIQUE_PATH, low_memory=False) if UNIQUE_PATH.exists() else pd.DataFrame()
+fetch_df = pd.read_csv(FETCH_PATH, low_memory=False) if FETCH_PATH.exists() else pd.DataFrame()
+extracted_df = pd.read_parquet(EXTRACT_PATH) if EXTRACT_PATH.exists() else pd.DataFrame()
+classified_df = pd.read_csv(CLASSIFIED_PATH, low_memory=False) if CLASSIFIED_PATH.exists() else pd.DataFrame()
+
+with open(CFG_PATH, "r", encoding="utf-8") as f:
+    cfg = yaml.safe_load(f) or {}
+```
+
+## Artifacts
+
+```{python}
+rows = []
+for label, path in [
+    ("Input RSS CSV", INPUT_PATH),
+    ("Deduplicated URLs", UNIQUE_PATH),
+    ("Fetch Results", FETCH_PATH),
+    ("Extracted Articles", EXTRACT_PATH),
+    ("Classified Articles", CLASSIFIED_PATH),
+    ("URL Registry (SQLite)", URL_REGISTRY_DB),
+    ("Pipeline Log", LOG_PATH),
+]:
+    exists = path.exists()
+    size_mb = (path.stat().st_size / (1024 * 1024)) if exists else None
+    mtime = datetime.fromtimestamp(path.stat().st_mtime).isoformat(timespec="seconds") if exists else None
+    rows.append(
+        {
+            "artifact": label,
+            "path": str(path.relative_to(ROOT)),
+            "exists": exists,
+            "size_mb": round(size_mb, 3) if size_mb is not None else None,
+            "last_modified": mtime,
+        }
+    )
+
+pd.DataFrame(rows)
+```
+
+## 1) CSV Inspection
+
+```{python}
+schema = detect_schema(input_df)
+
+pd.DataFrame(
+    [
+        {"metric": "rows", "value": len(input_df)},
+        {"metric": "columns", "value": len(input_df.columns)},
+        {"metric": "inferred_url_column", "value": schema.get("url_col")},
+        {"metric": "inferred_title_column", "value": schema.get("title_col")},
+        {"metric": "inferred_description_column", "value": schema.get("description_col")},
+        {"metric": "inferred_date_column", "value": schema.get("date_col")},
+    ]
+)
+```
+
+```{python}
+(
+    input_df.isna()
+    .mean()
+    .mul(100)
+    .round(2)
+    .rename("null_rate_pct")
+    .reset_index()
+    .rename(columns={"index": "column"})
+    .sort_values(["null_rate_pct", "column"], ascending=[False, True])
+)
+```
+
+```{python}
+sample_cols = [c for c in [schema.get("url_col"), schema.get("title_col"), schema.get("description_col"), schema.get("date_col")] if c]
+input_df[sample_cols].head(5) if sample_cols else pd.DataFrame({"note": ["No inferred columns."]})
+```
+
+## 2) URL Resolution + De-duplication
+
+```{python}
+url_col = schema.get("url_col")
+tmp = input_df.copy()
+tmp["_canonical_raw"] = tmp[url_col].map(canonicalize_url) if url_col else None
+
+valid_raw_urls = int(tmp["_canonical_raw"].notna().sum()) if url_col else 0
+unique_raw_canonical = int(tmp["_canonical_raw"].nunique(dropna=True)) if url_col else 0
+raw_duplicates_removed = int(valid_raw_urls - unique_raw_canonical)
+google_wrapper_rows = int(tmp[url_col].astype(str).apply(is_google_news_wrapper_url).sum()) if url_col else 0
+
+resolved_rows = 0
+resolver_failures = 0
+if not unique_df.empty:
+    if "resolved_url" in unique_df.columns:
+        resolved_rows = int(unique_df["resolved_url"].fillna("").astype(str).str.strip().ne("").sum())
+    elif "url_resolution_method" in unique_df.columns:
+        resolved_rows = int(
+            unique_df["url_resolution_method"].fillna("").astype(str).str.contains("google_decode|resolved", case=False).sum()
+        )
+
+    if "url_resolution_error" in unique_df.columns:
+        resolver_failures = int(unique_df["url_resolution_error"].fillna("").astype(str).str.strip().ne("").sum())
+    elif "url_resolution_method" in unique_df.columns:
+        resolver_failures = int(
+            unique_df["url_resolution_method"].isin(["google_decode_failed", "resolver_exception"]).sum()
+        )
+
+pd.DataFrame(
+    [
+        {"metric": "input_rows", "value": len(input_df)},
+        {"metric": "rows_with_valid_raw_canonical", "value": valid_raw_urls},
+        {"metric": "unique_raw_canonical_urls", "value": unique_raw_canonical},
+        {"metric": "raw_duplicates_removed", "value": raw_duplicates_removed},
+        {"metric": "google_wrapper_rows_in_input", "value": google_wrapper_rows},
+        {"metric": "resolved_google_wrapper_rows", "value": resolved_rows},
+        {"metric": "resolver_failures", "value": resolver_failures},
+        {"metric": "output_rows_in_zika_2015_unique.csv", "value": len(unique_df)},
+    ]
+)
+```
+
+```{python}
+if URL_REGISTRY_DB.exists():
+    with sqlite3.connect(URL_REGISTRY_DB) as conn:
+        reg_rows = pd.read_sql_query("SELECT COUNT(*) AS n_rows FROM url_registry", conn)
+        reg_sources = pd.read_sql_query(
+            "SELECT COALESCE(source, 'NULL') AS source, COUNT(*) AS n_rows FROM url_registry GROUP BY source ORDER BY n_rows DESC",
+            conn,
+        )
+    reg_rows
+    reg_sources
+else:
+    pd.DataFrame({"note": ["URL registry database not found."]})
+```
+
+## 3) HTML Fetch + Text Extraction
+
+```{python}
+blocked_consent = int((fetch_df["fetch_status"] == "blocked_consent").sum()) if not fetch_df.empty else 0
+
+pd.DataFrame(
+    [
+        {"metric": "fetch_rows", "value": len(fetch_df)},
+        {"metric": "fetch_status_distinct", "value": fetch_df["fetch_status"].nunique(dropna=False) if not fetch_df.empty else 0},
+        {"metric": "blocked_consent_rows", "value": blocked_consent},
+        {"metric": "raw_html_files", "value": len(list(RAW.glob("*.html"))) if RAW.exists() else 0},
+        {"metric": "extracted_rows", "value": len(extracted_df)},
+        {"metric": "unique_extracted_titles", "value": extracted_df["extracted_title"].nunique(dropna=False) if not extracted_df.empty else 0},
+        {"metric": "unique_extracted_texts", "value": extracted_df["extracted_text"].nunique(dropna=False) if not extracted_df.empty else 0},
+    ]
+)
+```
+
+```{python}
+if not fetch_df.empty:
+    fetch_df["fetch_status"].value_counts(dropna=False).rename_axis("fetch_status").reset_index(name="count")
+else:
+    pd.DataFrame({"note": ["No fetch results found."]})
+```
+
+```{python}
+if not extracted_df.empty:
+    ex = extracted_df.copy()
+    ex["text_len"] = ex["extracted_text"].fillna("").str.len()
+    ex["title_len"] = ex["extracted_title"].fillna("").str.len()
+    ex[["title_len", "text_len"]].describe().round(2)
+else:
+    pd.DataFrame({"note": ["No extracted dataset found."]})
+```
+
+```{python}
+if not extracted_df.empty:
+    extracted_df[["canonical_url", "extracted_title", "extracted_text", "extraction_method"]].head(3)
+else:
+    pd.DataFrame({"note": ["No extraction sample available."]})
+```
+
+## 4) Ensemble Classification Results
+
+```{python}
+if not classified_df.empty:
+    out = classified_df["final_label"].value_counts(dropna=False).rename_axis("final_label").reset_index(name="count")
+    out["share_pct"] = (out["count"] / len(classified_df) * 100).round(2)
+    display(out)
+else:
+    display(pd.DataFrame({"note": ["No classification output found."]}))
+```
+
+```{python}
+if not classified_df.empty:
+    model_aliases = sorted({c[: -len("_model_id")] for c in classified_df.columns if c.endswith("_model_id")})
+    rows = []
+    for alias in model_aliases:
+        rel_col = f"{alias}_relevant"
+        conf_col = f"{alias}_confidence"
+        err_col = f"{alias}_error"
+        model_id_col = f"{alias}_model_id"
+
+        rel_true = int((classified_df[rel_col] == True).sum()) if rel_col in classified_df.columns else 0
+        rel_false = int((classified_df[rel_col] == False).sum()) if rel_col in classified_df.columns else 0
+        errors = int(classified_df[err_col].fillna("").astype(str).str.strip().ne("").sum()) if err_col in classified_df.columns else 0
+        avg_conf = float(pd.to_numeric(classified_df[conf_col], errors="coerce").mean()) if conf_col in classified_df.columns else float("nan")
+        model_id = classified_df[model_id_col].dropna().iloc[0] if model_id_col in classified_df.columns and not classified_df[model_id_col].dropna().empty else ""
+
+        rows.append(
+            {
+                "alias": alias,
+                "model_id": model_id,
+                "relevant_true": rel_true,
+                "relevant_false": rel_false,
+                "avg_confidence": round(avg_conf, 4) if pd.notna(avg_conf) else None,
+                "error_rows": errors,
+            }
+        )
+
+    display(pd.DataFrame(rows).sort_values("alias"))
+else:
+    display(pd.DataFrame({"note": ["No per-model output available."]}))
+```
+
+```{python}
+if not classified_df.empty:
+    vote_cols = [c for c in classified_df.columns if c.endswith("_relevant")]
+    vote_frame = classified_df[vote_cols].copy()
+    agreement_mask = vote_frame.nunique(axis=1, dropna=False).eq(1)
+    display(
+        pd.DataFrame(
+            [
+                {"metric": "rows", "value": len(vote_frame)},
+                {"metric": "full_model_agreement_rows", "value": int(agreement_mask.sum())},
+                {"metric": "full_model_agreement_pct", "value": round(float(agreement_mask.mean() * 100), 2)},
+            ]
+        )
+    )
+else:
+    display(pd.DataFrame({"note": ["No vote columns available."]}))
+```
+
+## 5) Pipeline Log Diagnostics
+
+```{python}
+log_re = re.compile(r"^(?P<ts>\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}),(?P<ms>\\d{3}) \\| (?P<level>[A-Z]+) \\| (?P<msg>.*)$")
+
+
+def parse_runs(log_path: Path):
+    if not log_path.exists():
+        return []
+    runs = []
+    cur = None
+    for raw in log_path.read_text(encoding="utf-8", errors="ignore").splitlines():
+        m = log_re.match(raw)
+        if not m:
+            continue
+        ts = datetime.strptime(m.group("ts"), "%Y-%m-%d %H:%M:%S")
+        msg = m.group("msg")
+        level = m.group("level")
+
+        if "Pipeline started" in msg:
+            cur = {"start": ts, "end": None, "warnings": 0, "classification_progress_events": 0, "cache_stats": ""}
+            continue
+        if cur is None:
+            continue
+
+        if level == "WARNING":
+            cur["warnings"] += 1
+        if "Classification progress:" in msg:
+            cur["classification_progress_events"] += 1
+        if "Classification cache stats:" in msg:
+            cur["cache_stats"] = msg
+        if "Pipeline completed successfully" in msg:
+            cur["end"] = ts
+            runs.append(cur)
+            cur = None
+    return runs
+
+
+runs = parse_runs(LOG_PATH)
+if runs:
+    last = runs[-1]
+    duration_s = (last["end"] - last["start"]).total_seconds() if last["end"] else None
+    pd.DataFrame(
+        [
+            {
+                "latest_run_start": last["start"].isoformat(sep=" "),
+                "latest_run_end": last["end"].isoformat(sep=" ") if last["end"] else "",
+                "duration_seconds": duration_s,
+                "warning_events": last["warnings"],
+                "classification_progress_events": last["classification_progress_events"],
+                "cache_stats": last["cache_stats"],
+            }
+        ]
+    )
+else:
+    pd.DataFrame({"note": ["No complete runs parsed from log."]})
+```
+
+## 6) Interpretation
+
+```{python}
+if not extracted_df.empty and not classified_df.empty:
+    uniq_titles = int(extracted_df["extracted_title"].nunique(dropna=False))
+    uniq_texts = int(extracted_df["extracted_text"].nunique(dropna=False))
+    interstitial_blocked_rows = int((extracted_df["extraction_method"] == "interstitial_blocked").sum())
+    final_counts = classified_df["final_label"].value_counts(dropna=False).to_dict()
+
+    print(f"- Extracted title cardinality: {uniq_titles}")
+    print(f"- Extracted text cardinality: {uniq_texts}")
+    print(f"- Interstitial-blocked rows: {interstitial_blocked_rows}")
+    print(f"- Final label distribution: {final_counts}")
+else:
+    print("- Could not compute interpretation due to missing extracted/classified outputs.")
+```
+
+## Reproducibility
+
+Run pipeline from repository root:
+
+```bash
+python src/classification/run_pipeline.py \
+  --input data/Zika_News_2015.csv \
+  --outdir data/processed \
+  --config src/classification/config.yaml
+```
+
+Render report:
+
+```bash
+quarto render src/classification/classification_report.qmd
+```

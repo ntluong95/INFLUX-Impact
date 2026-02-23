@@ -1,0 +1,50 @@
+# Environments
+.venv/
+venv/
+.env
+*.env
+.agents/
+.tools/
+.vscode/
+
+# R
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Jupyter / Positron
+.ipynb_checkpoints/
+*.ipynb
+.Rproj.user/
+
+# Data & outputs
+data/
+outputs/
+results/
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.rds
+*.arrow
+*.pkl
+*.joblib
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
