@@ -51,44 +51,15 @@ extraction:
 
 classification:
   enabled: true
-  cache_by_text_hash: true
   resume_if_exists: true
   checkpoint_every: 10
-  text_max_chars: 1500
-  min_text_chars_for_llm: 250
+  text_max_chars: 800
   per_article_parallel_models: 1
-  prefilter_keywords:
-    - microcef
-    - microceph
-    - gravidez
-    - gestant
-    - pregnan
-    - guillain
-    - econom
-    - turis
-    - travel
-    - advis
-    - emergenc
-    - decret
-    - policy
-    - politic
-    - hospital
-    - sus
-    - desigual
-    - inequal
-    - aborto
-    - escola
-    - educa
-    - medo
-    - panico
-    - pânico
-  prefilter_min_keyword_hits: 6
-  prefilter_default_label: not_relevant
-  prefilter_confidence: 0.95
+  inter_article_delay_seconds: 0.0
   deterministic_summary:
-    enabled: true
-    max_chars: 1000
-    max_sentences: 8
+    enabled: false
+    max_chars: 700
+    max_sentences: 6
     keywords:
       - zika
       - microcefalia
@@ -105,21 +76,20 @@ classification:
 
   openai:
     api_key_env: OPENAI_API_KEY
-    api_key_fallback: ollama
-    allow_missing_api_key_for_local: true
-    base_url: http://localhost:11434/v1
-    timeout_seconds: 20
+    base_url: "http://127.0.0.1:11434/v1"
+    timeout_seconds: 60
     max_retries: 1
     retry_backoff_seconds: 1.0
+    rate_limit_per_minute: 0
 
   generation:
     temperature: 0.0
-    max_tokens: 96
+    max_tokens: 32
 
   models:
-    - alias: mistral_openorca
-      model_id: mistral
-    - alias: zephyr_beta
-      model_id: zephyr
-    - alias: llama3_70b
+    - alias: mistral
+      model_id: mistral:latest
+    - alias: zephyr
+      model_id: zephyr:latest
+    - alias: llama70b
       model_id: llama3.1:8b

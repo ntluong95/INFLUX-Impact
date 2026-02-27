@@ -5,17 +5,21 @@ This folder contains a reproducible pipeline for Step 2:
 2. Canonicalize + deduplicate URLs and persist URL registry
 3. Fetch raw HTML with polite crawling and retries
 4. Extract article title/body text (BeautifulSoup baseline)
-5. Run 3-model ensemble relevance classification via OpenAI-compatible API (including local endpoints such as Ollama)
+5. Run pure 3-model ensemble relevance classification via OpenAI-compatible API
 
 ## Files
 - `run_pipeline.py`: single CLI entrypoint
+- `run_classification_only.py`: classification-only CLI using existing extracted data
 - `inspect_csv.py`: CSV inspection + schema inference
-- `deduplicate_urls.py`: canonicalization, de-dup, SQLite registry
-- `fetch_html.py`: HTML fetch + cache
-- `extract_text.py`: text extraction heuristics
+- `../cleaning/deduplicate_urls.py`: canonicalization, de-dup, SQLite registry
+- `../cleaning/fetch_html.py`: HTML fetch + cache
+- `../cleaning/extract_text.py`: text extraction heuristics
 - `llm_backends.py`: OpenAI-compatible chat wrapper
 - `classify_ensemble.py`: strict-JSON ensemble classifier
-- `utils.py`: shared utilities
+- `../utils/common.py`: shared filesystem, logging, hashing/text helpers
+- `../utils/schema.py`: RSS schema detection + robust CSV loading
+- `../utils/deduplication.py`: URL canonicalization + Google wrapper resolution
+- `../utils/llm_helpers.py`: JSON parsing/repair + extractive summary helpers
 - `config.yaml`: configuration template
 - `requirements.txt`: dependencies
 
@@ -27,33 +31,11 @@ This folder contains a reproducible pipeline for Step 2:
 pip install -r src/classification/requirements.txt
 ```
 
-3. Configure `.env` in repo root.
-
-For local Ollama usage (no API key required):
-
-```env
-# Optional override (already set in config.yaml by default):
-OPENAI_BASE_URL=http://localhost:11434/v1
-```
-
-For hosted OpenAI usage:
+3. Configure `.env` in repo root with API credentials:
 
 ```env
 OPENAI_API_KEY=your_api_key_here
 ```
-
-## Local 3-model setup (Ollama)
-Install and start Ollama, then pull the default local models used by `config.yaml`:
-
-```bash
-brew install ollama
-ollama serve
-ollama pull mistral
-ollama pull zephyr
-ollama pull llama3.1:8b
-```
-
-Note: on Apple silicon with 16GB RAM, `Meta-Llama-3-70B-Instruct` is not practical locally. The default config uses `llama3.1:8b` for the third ensemble slot.
 
 ## Run
 From repo root:
@@ -77,6 +59,44 @@ python src/classification/run_pipeline.py \
   --outdir data/processed \
   --config src/classification/config.yaml \
   --force
+```
+
+## Pure Ensemble Mode (No Heuristic Prefilter)
+- Every row with non-empty `extracted_title` and `extracted_text` is sent to all 3 configured models.
+- No keyword/stem gating is applied before LLM calls.
+- Rows with missing extracted content are marked `final_label=skipped` with explicit reason in per-model `*_error` fields.
+- Classification is scheduled model-first (all rows for model A, then model B, then model C) to reduce local model reload overhead.
+
+## Classification-Only Mode (No fetch/extract)
+Use existing extracted output and only run ensemble classification:
+
+```bash
+python src/classification/run_classification_only.py \
+  --input_extracted data/processed/articles_extracted.parquet \
+  --out data/processed/articles_classified.csv \
+  --config src/classification/config.yaml
+```
+
+Recompute all rows from scratch:
+
+```bash
+python src/classification/run_classification_only.py \
+  --input_extracted data/processed/articles_extracted.parquet \
+  --out data/processed/articles_classified.csv \
+  --config src/classification/config.yaml \
+  --force
+```
+
+### Local Ollama note (Apple silicon)
+If Ollama fails with Metal BF16/tensor kernel initialization errors, start server with:
+
+```bash
+GGML_METAL_BF16_DISABLE=1 \
+GGML_METAL_TENSOR_DISABLE=1 \
+OLLAMA_CONTEXT_LENGTH=1024 \
+OLLAMA_MAX_LOADED_MODELS=3 \
+OLLAMA_NUM_PARALLEL=1 \
+ollama serve
 ```
 
 ## Outputs
@@ -104,15 +124,14 @@ The rendered HTML will be written next to the source file:
 ```yaml
 classification:
   openai:
-    allow_missing_api_key_for_local: true
-    api_key_fallback: ollama
-    base_url: http://localhost:11434/v1
+    api_key_env: OPENAI_API_KEY
+    base_url: "http://127.0.0.1:11434/v1"  # local Ollama OpenAI-compatible endpoint
   models:
-    - alias: mistral_openorca
-      model_id: mistral
-    - alias: zephyr_beta
-      model_id: zephyr
-    - alias: llama3_70b
+    - alias: mistral
+      model_id: mistral:latest
+    - alias: zephyr
+      model_id: zephyr:latest
+    - alias: llama70b
       model_id: llama3.1:8b
 ```
 
@@ -120,4 +139,4 @@ If your local provider uses different IDs, change only `model_id` values in `con
 
 ## Restart behavior
 - Fetch step is restartable by cached HTML files in `data/raw_html` (skips unless `--force`).
-- Extraction/classification steps skip if final outputs already exist (unless `--force`).
+- Classification-only mode is restartable by `canonical_url` (skips already classified rows unless `--force`).

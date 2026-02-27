@@ -9,22 +9,13 @@ from typing import Any, Dict, Tuple
 import pandas as pd
 from bs4 import BeautifulSoup
 
-try:
-    from .utils import (
-        is_google_consent_interstitial,
-        normalize_whitespace,
-        save_dataframe_with_parquet_fallback,
-        sha256_text,
-        text_or_empty,
-    )
-except ImportError:  # pragma: no cover - script execution path
-    from utils import (
-        is_google_consent_interstitial,
-        normalize_whitespace,
-        save_dataframe_with_parquet_fallback,
-        sha256_text,
-        text_or_empty,
-    )
+from src.utils.common import (
+    normalize_whitespace,
+    save_dataframe_with_parquet_fallback,
+    sha256_text,
+    text_or_empty,
+)
+from src.utils.deduplication import is_google_consent_interstitial
 
 
 try:  # Optional fallback

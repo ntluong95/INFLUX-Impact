@@ -61,9 +61,17 @@ URL_REGISTRY_DB = ROOT / "data" / "url_registry.sqlite"
 LOG_PATH = LOGS / "classification_pipeline.log"
 
 import sys
-sys.path.insert(0, str(ROOT / "src" / "classification"))
-from utils import canonicalize_url, detect_schema, is_google_news_wrapper_url
+sys.path.insert(0, str(ROOT))
+from src.utils.deduplication import canonicalize_url, is_google_news_wrapper_url
+from src.utils.schema import detect_schema
 from IPython.display import display
+
+try:
+    from itables import show as itables_show
+    ITABLES_AVAILABLE = True
+except Exception:
+    itables_show = None
+    ITABLES_AVAILABLE = False
 
 
 input_df = pd.read_csv(INPUT_PATH, low_memory=False)
@@ -105,7 +113,7 @@ for label, path in [
 pd.DataFrame(rows)
 ```
 
-## 1) CSV Inspection
+## CSV Inspection
 
 ```{python}
 schema = detect_schema(input_df)
@@ -140,7 +148,7 @@ sample_cols = [c for c in [schema.get("url_col"), schema.get("title_col"), schem
 input_df[sample_cols].head(5) if sample_cols else pd.DataFrame({"note": ["No inferred columns."]})
 ```
 
-## 2) URL Resolution + De-duplication
+## URL Resolution + De-duplication
 
 ```{python}
 url_col = schema.get("url_col")
@@ -197,7 +205,7 @@ else:
     pd.DataFrame({"note": ["URL registry database not found."]})
 ```
 
-## 3) HTML Fetch + Text Extraction
+## HTML Fetch + Text Extraction
 
 ```{python}
 blocked_consent = int((fetch_df["fetch_status"] == "blocked_consent").sum()) if not fetch_df.empty else 0
@@ -239,13 +247,66 @@ else:
     pd.DataFrame({"note": ["No extraction sample available."]})
 ```
 
-## 4) Ensemble Classification Results
+## Ensemble Classification Results
+
+This run is configured in pure ensemble mode:
+- no heuristic keyword prefilter before model calls
+- every row with non-empty extracted title+text is sent to all 3 configured models
+- rows missing extracted content are marked as `skipped`
+
+```{python}
+cls_cfg = cfg.get("classification", {})
+pd.DataFrame(
+    [
+        {"setting": "models_configured", "value": len(cls_cfg.get("models", []))},
+        {"setting": "per_article_parallel_models", "value": cls_cfg.get("per_article_parallel_models")},
+        {"setting": "deterministic_summary_enabled", "value": cls_cfg.get("deterministic_summary", {}).get("enabled")},
+        {"setting": "generation_max_tokens", "value": cls_cfg.get("generation", {}).get("max_tokens")},
+        {"setting": "openai_base_url", "value": cls_cfg.get("openai", {}).get("base_url")},
+    ]
+)
+```
 
 ```{python}
 if not classified_df.empty:
     out = classified_df["final_label"].value_counts(dropna=False).rename_axis("final_label").reset_index(name="count")
     out["share_pct"] = (out["count"] / len(classified_df) * 100).round(2)
     display(out)
+else:
+    display(pd.DataFrame({"note": ["No classification output found."]}))
+```
+
+```{python}
+if not classified_df.empty:
+    model_aliases = sorted({c[: -len("_model_id")] for c in classified_df.columns if c.endswith("_model_id")})
+    table_cols = ["canonical_url", "extracted_title", "text_hash", "final_label", "final_confidence", "classified_at"]
+    for alias in model_aliases:
+        table_cols.extend(
+            [
+                f"{alias}_relevant",
+                f"{alias}_confidence",
+                f"{alias}_rationale",
+                f"{alias}_error",
+            ]
+        )
+    table_cols = [c for c in table_cols if c in classified_df.columns]
+    final_out_df = classified_df[table_cols].copy()
+
+    if ITABLES_AVAILABLE:
+        itables_show(
+            final_out_df,
+            maxBytes=0,
+            paging=True,
+            searching=True,
+            ordering=True,
+            pageLength=25,
+            scrollX=True,
+            scrollCollapse=True,
+            classes="display compact nowrap stripe hover",
+        )
+    else:
+        display(final_out_df.head(50))
+        print("Install 'itables' to enable full interactive DataTable output.")
 else:
     display(pd.DataFrame({"note": ["No classification output found."]}))
 ```
@@ -300,7 +361,34 @@ else:
     display(pd.DataFrame({"note": ["No vote columns available."]}))
 ```
 
-## 5) Pipeline Log Diagnostics
+```{python}
+if not classified_df.empty:
+    err_cols = [c for c in classified_df.columns if c.endswith("_error")]
+    if err_cols:
+        long = (
+            classified_df[err_cols]
+            .melt(var_name="model_error_col", value_name="error")
+            .assign(error=lambda d: d["error"].fillna("").astype(str).str.strip())
+        )
+        long = long[long["error"] != ""]
+        if not long.empty:
+            out = (
+                long.groupby("error", as_index=False)
+                .size()
+                .sort_values("size", ascending=False)
+                .head(15)
+                .rename(columns={"size": "count"})
+            )
+            display(out)
+        else:
+            display(pd.DataFrame({"note": ["No non-empty model error rows found."]}))
+    else:
+        display(pd.DataFrame({"note": ["No *_error columns found."]}))
+else:
+    display(pd.DataFrame({"note": ["No classification output found."]}))
+```
+
+## Pipeline Log Diagnostics
 
 ```{python}
 log_re = re.compile(r"^(?P<ts>\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}),(?P<ms>\\d{3}) \\| (?P<level>[A-Z]+) \\| (?P<msg>.*)$")
@@ -358,7 +446,7 @@ else:
     pd.DataFrame({"note": ["No complete runs parsed from log."]})
 ```
 
-## 6) Interpretation
+## Interpretation
 
 ```{python}
 if not extracted_df.empty and not classified_df.empty:
@@ -383,6 +471,15 @@ Run pipeline from repository root:
 python src/classification/run_pipeline.py \
   --input data/Zika_News_2015.csv \
   --outdir data/processed \
+  --config src/classification/config.yaml
+```
+
+Run classification-only mode (existing extracted dataset, no fetch/extract):
+
+```bash
+python src/classification/run_classification_only.py \
+  --input_extracted data/processed/articles_extracted.parquet \
+  --out data/processed/articles_classified.csv \
   --config src/classification/config.yaml
 ```
 

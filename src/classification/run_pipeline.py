@@ -5,28 +5,24 @@ from __future__ import annotations
 import argparse
 import os
 from pathlib import Path
+import sys
 from typing import Any, Dict
 
 import pandas as pd
 import yaml
 from dotenv import load_dotenv
 
-try:
-    from .classify_ensemble import classify_articles_ensemble
-    from .deduplicate_urls import deduplicate_feed_urls
-    from .extract_text import build_extracted_dataset, save_extracted_dataset
-    from .fetch_html import fetch_html_for_urls
-    from .inspect_csv import inspect_csv
-    from .llm_backends import OpenAIChatClient
-    from .utils import ensure_dir, setup_logger
-except ImportError:  # pragma: no cover - scrßipt execution path
-    from classify_ensemble import classify_articles_ensemble
-    from deduplicate_urls import deduplicate_feed_urls
-    from extract_text import build_extracted_dataset, save_extracted_dataset
-    from fetch_html import fetch_html_for_urls
-    from inspect_csv import inspect_csv
-    from llm_backends import OpenAIChatClient
-    from utils import ensure_dir, setup_logger
+ROOT_DIR = Path(__file__).resolve().parents[2]
+if str(ROOT_DIR) not in sys.path:
+    sys.path.insert(0, str(ROOT_DIR))
+
+from src.classification.classify_ensemble import classify_articles_ensemble
+from src.classification.inspect_csv import inspect_csv
+from src.classification.llm_backends import OpenAIChatClient
+from src.cleaning.deduplicate_urls import deduplicate_feed_urls
+from src.cleaning.extract_text import build_extracted_dataset, save_extracted_dataset
+from src.cleaning.fetch_html import fetch_html_for_urls
+from src.utils.common import ensure_dir, setup_logger
 
 
 def _load_config(config_path: Path) -> Dict[str, Any]:
@@ -199,17 +195,6 @@ def main() -> None:
             api_key_env = openai_cfg.get("api_key_env", "OPENAI_API_KEY")
             api_key = os.getenv(api_key_env, "")
             if not api_key:
-                allow_missing_for_local = bool(
-                    openai_cfg.get("allow_missing_api_key_for_local", False)
-                )
-                if allow_missing_for_local and base_url:
-                    api_key = str(openai_cfg.get("api_key_fallback", "ollama"))
-                    logger.info(
-                        "No %s found; using fallback API key for local endpoint at %s",
-                        api_key_env,
-                        base_url,
-                    )
-            if not api_key:
                 raise ValueError(
                     f"Missing {api_key_env}. Add it to .env (repo root) before classification."
                 )
@@ -222,6 +207,7 @@ def main() -> None:
                 retry_backoff_seconds=float(
                     openai_cfg.get("retry_backoff_seconds", 2.0)
                 ),
+                rate_limit_per_minute=float(openai_cfg.get("rate_limit_per_minute", 0.0)),
             )
 
             classify_articles_ensemble(

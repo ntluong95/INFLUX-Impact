@@ -5,28 +5,14 @@ from __future__ import annotations
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
+import time
 from typing import Any, Dict, List, Tuple
 
 import pandas as pd
 
-try:
-    from .llm_backends import OpenAIChatClient
-    from .utils import (
-        choose_extraction_input,
-        parse_model_json,
-        sanitize_alias,
-        sha256_text,
-        text_or_empty,
-    )
-except ImportError:  # pragma: no cover - script execution path
-    from llm_backends import OpenAIChatClient
-    from utils import (
-        choose_extraction_input,
-        parse_model_json,
-        sanitize_alias,
-        sha256_text,
-        text_or_empty,
-    )
+from src.classification.llm_backends import OpenAIChatClient
+from src.utils.common import sha256_text, text_or_empty
+from src.utils.llm_helpers import choose_extraction_input, parse_model_json, sanitize_alias
 
 
 SYSTEM_PROMPT = """You are a strict classification model for news analysis.
@@ -83,6 +69,63 @@ def _aggregate_ensemble(predictions: List[Dict[str, Any]]) -> Tuple[str, float]:
     return "not_relevant", avg_false
 
 
+def _to_bool_or_none(value: Any) -> bool | None:
+    if isinstance(value, bool):
+        return value
+    if value is None:
+        return None
+    text = str(value).strip().lower()
+    if text in {"true", "1", "yes"}:
+        return True
+    if text in {"false", "0", "no"}:
+        return False
+    return None
+
+
+def _invoke_single_model(
+    client: OpenAIChatClient,
+    model_id: str,
+    prompt: str,
+    gen_cfg: Dict[str, Any],
+) -> Tuple[Dict[str, Any] | None, str]:
+    try:
+        api_out = client.chat_completion(
+            model=model_id,
+            messages=[
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "user", "content": prompt},
+            ],
+            temperature=float(gen_cfg.get("temperature", 0.0)),
+            max_tokens=int(gen_cfg.get("max_tokens", 500)),
+            strict_json=True,
+        )
+        parsed = parse_model_json(api_out["text"])
+        return parsed, ""
+    except Exception as exc:  # pragma: no cover - external API behavior
+        return None, str(exc)
+
+
+def _is_complete_classification_row(row: Dict[str, Any], model_aliases: List[str]) -> bool:
+    final_label = text_or_empty(row.get("final_label"))
+    if not final_label:
+        return False
+    if final_label == "skipped":
+        return True
+
+    for alias in model_aliases:
+        rel_col = f"{alias}_relevant"
+        err_col = f"{alias}_error"
+        rel_val = _to_bool_or_none(row.get(rel_col))
+        err_val = text_or_empty(row.get(err_col))
+        if rel_val is None and not err_val:
+            return False
+    return True
+
+
+def _write_checkpoint(rows: List[Dict[str, Any]], output_path: Path) -> None:
+    pd.DataFrame(rows).to_csv(output_path, index=False)
+
+
 def _classify_one_article(
     row: pd.Series,
     client: OpenAIChatClient,
@@ -93,14 +136,15 @@ def _classify_one_article(
     text = text_or_empty(row.get("extracted_text"))
 
     canonical_url = text_or_empty(row.get("canonical_url"))
-    min_text = int(cls_cfg.get("min_text_chars_for_llm", 250))
+    clean_title = title.strip()
+    clean_text = text.strip()
 
-    text_hash = sha256_text(text) if text else ""
+    text_hash = sha256_text(clean_text) if clean_text else ""
     now_iso = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
 
     result: Dict[str, Any] = {
         "canonical_url": canonical_url,
-        "extracted_title": title,
+        "extracted_title": clean_title,
         "text_hash": text_hash,
         "final_label": "undetermined",
         "final_confidence": 0.0,
@@ -108,28 +152,13 @@ def _classify_one_article(
     }
 
     models = cls_cfg.get("models", [])
-
-    prefilter_keywords = [
-        str(k).strip().lower() for k in cls_cfg.get("prefilter_keywords", []) if str(k).strip()
-    ]
-    if prefilter_keywords:
-        haystack = f"{title}\n{text}".lower()
-        min_hits = max(1, int(cls_cfg.get("prefilter_min_keyword_hits", 1)))
-        keyword_hits = sum(1 for keyword in prefilter_keywords if keyword in haystack)
-        if keyword_hits < min_hits:
-            for model_cfg in models:
-                alias = sanitize_alias(model_cfg.get("alias", model_cfg.get("model_id", "model")))
-                result[f"{alias}_model_id"] = model_cfg.get("model_id", "")
-                result[f"{alias}_relevant"] = ""
-                result[f"{alias}_confidence"] = ""
-                result[f"{alias}_rationale"] = ""
-                result[f"{alias}_evidence_spans"] = ""
-                result[f"{alias}_error"] = f"skipped_keyword_prefilter_hits_{keyword_hits}"
-            result["final_label"] = str(cls_cfg.get("prefilter_default_label", "not_relevant"))
-            result["final_confidence"] = round(float(cls_cfg.get("prefilter_confidence", 0.95)), 4)
-            return result
-
-    if len(text) < min_text:
+    missing_reasons: List[str] = []
+    if not clean_title:
+        missing_reasons.append("missing_extracted_title")
+    if not clean_text:
+        missing_reasons.append("missing_extracted_text")
+    if missing_reasons:
+        reason = "skipped_" + "+".join(missing_reasons)
         for model_cfg in models:
             alias = sanitize_alias(model_cfg.get("alias", model_cfg.get("model_id", "model")))
             result[f"{alias}_model_id"] = model_cfg.get("model_id", "")
@@ -137,12 +166,14 @@ def _classify_one_article(
             result[f"{alias}_confidence"] = ""
             result[f"{alias}_rationale"] = ""
             result[f"{alias}_evidence_spans"] = ""
-            result[f"{alias}_error"] = "skipped_insufficient_text"
+            result[f"{alias}_error"] = reason
+        result["final_label"] = "skipped"
+        result["final_confidence"] = 0.0
         return result
 
     prep_title, prep_text = choose_extraction_input(
-        title=title,
-        text=text,
+        title=clean_title,
+        text=clean_text,
         max_chars=int(cls_cfg.get("text_max_chars", 12000)),
         summary_cfg=cls_cfg.get("deterministic_summary", {}),
     )
@@ -234,9 +265,17 @@ def classify_articles_ensemble(
     force: bool = False,
     logger=None,
 ) -> pd.DataFrame:
-    """Run 3-model ensemble classification and write CSV output."""
+    """Run 3-model ensemble classification and write CSV output.
+
+    Execution strategy is model-first (all rows for model A, then model B, ...),
+    which avoids heavy local model thrashing on constrained hardware.
+    """
     resume_if_exists = bool(cls_cfg.get("resume_if_exists", True))
     checkpoint_every = int(cls_cfg.get("checkpoint_every", 20))
+    inter_article_delay_seconds = float(cls_cfg.get("inter_article_delay_seconds", 0.0))
+    gen_cfg = cls_cfg.get("generation", {})
+    models = cls_cfg.get("models", [])
+    model_aliases = [sanitize_alias(m.get("alias", m.get("model_id", "model"))) for m in models]
 
     existing_rows: List[Dict[str, Any]] = []
     processed_urls = set()
@@ -250,56 +289,161 @@ def classify_articles_ensemble(
             return pd.read_csv(output_path, low_memory=False)
 
         existing_df = pd.read_csv(output_path, low_memory=False)
-        existing_rows = existing_df.to_dict(orient="records")
-        processed_urls = set(existing_df.get("canonical_url", pd.Series(dtype=str)).astype(str))
+        complete_rows: List[Dict[str, Any]] = []
+        partial_rows = 0
+        for rec in existing_df.to_dict(orient="records"):
+            if _is_complete_classification_row(rec, model_aliases=model_aliases):
+                complete_rows.append(rec)
+                processed_urls.add(text_or_empty(rec.get("canonical_url")))
+            else:
+                partial_rows += 1
+        existing_rows = complete_rows
         if logger is not None:
             logger.info(
-                "Resuming classification from existing output: %s rows already done",
+                "Resuming classification from existing output: complete_rows=%s partial_rows_recomputed=%s",
                 len(existing_rows),
+                partial_rows,
             )
 
-    cache_enabled = bool(cls_cfg.get("cache_by_text_hash", True))
-    cache: Dict[str, Dict[str, Any]] = {}
-    cache_hits = 0
-
     rows: List[Dict[str, Any]] = list(existing_rows)
-    completed = len(processed_urls)
-    total = len(extracted_df)
+    pending_items: List[Dict[str, Any]] = []
+    total_rows = len(extracted_df)
+    prepared_rows = len(existing_rows)
 
     for _, row in extracted_df.iterrows():
         canonical_url = text_or_empty(row.get("canonical_url"))
-        title = text_or_empty(row.get("extracted_title"))
-        text = text_or_empty(row.get("extracted_text"))
-        text_hash = sha256_text(text) if text else ""
-        cache_key = sha256_text(f"{title}\n{text}") if cache_enabled else ""
-
         if canonical_url in processed_urls:
             continue
 
-        if cache_enabled and cache_key in cache:
-            cached = dict(cache[cache_key])
-            cached["canonical_url"] = canonical_url
-            cached["extracted_title"] = title
-            cached["text_hash"] = text_hash
-            rows.append(cached)
-            cache_hits += 1
-        else:
-            classified = _classify_one_article(row, client=client, cls_cfg=cls_cfg, logger=logger)
-            rows.append(classified)
-            if cache_enabled:
-                cache[cache_key] = dict(classified)
+        title = text_or_empty(row.get("extracted_title")).strip()
+        text = text_or_empty(row.get("extracted_text")).strip()
+        text_hash = sha256_text(text) if text else ""
+        now_iso = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
 
-        completed += 1
-        if logger is not None and (completed % 20 == 0 or completed == total):
-            logger.info("Classification progress: %s/%s", completed, total)
+        result: Dict[str, Any] = {
+            "canonical_url": canonical_url,
+            "extracted_title": title,
+            "text_hash": text_hash,
+            "final_label": "undetermined",
+            "final_confidence": 0.0,
+            "classified_at": now_iso,
+        }
 
-        if checkpoint_every > 0 and completed % checkpoint_every == 0:
-            pd.DataFrame(rows).to_csv(output_path, index=False)
-            if logger is not None:
-                logger.info("Classification checkpoint written: %s", output_path)
+        for model_cfg in models:
+            alias = sanitize_alias(model_cfg.get("alias", model_cfg.get("model_id", "model")))
+            result[f"{alias}_model_id"] = model_cfg.get("model_id", "")
+            result[f"{alias}_relevant"] = ""
+            result[f"{alias}_confidence"] = ""
+            result[f"{alias}_rationale"] = ""
+            result[f"{alias}_evidence_spans"] = ""
+            result[f"{alias}_error"] = ""
+
+        missing_reasons: List[str] = []
+        if not title:
+            missing_reasons.append("missing_extracted_title")
+        if not text:
+            missing_reasons.append("missing_extracted_text")
+
+        if missing_reasons:
+            reason = "skipped_" + "+".join(missing_reasons)
+            for model_cfg in models:
+                alias = sanitize_alias(model_cfg.get("alias", model_cfg.get("model_id", "model")))
+                result[f"{alias}_error"] = reason
+            result["final_label"] = "skipped"
+            result["final_confidence"] = 0.0
+            rows.append(result)
+            prepared_rows += 1
+            continue
+
+        prep_title, prep_text = choose_extraction_input(
+            title=title,
+            text=text,
+            max_chars=int(cls_cfg.get("text_max_chars", 12000)),
+            summary_cfg=cls_cfg.get("deterministic_summary", {}),
+        )
+        prompt = _build_user_prompt(prep_title, prep_text)
+
+        rows.append(result)
+        pending_items.append(
+            {
+                "row_idx": len(rows) - 1,
+                "canonical_url": canonical_url,
+                "prompt": prompt,
+            }
+        )
+        prepared_rows += 1
+
+    if logger is not None:
+        logger.info(
+            "Prepared classification rows: total_input=%s pending_for_llm=%s precompleted=%s",
+            total_rows,
+            len(pending_items),
+            len(existing_rows),
+        )
+
+    for model_cfg in models:
+        alias = sanitize_alias(model_cfg.get("alias", model_cfg.get("model_id", "model")))
+        model_id = model_cfg.get("model_id", "")
+        model_done = 0
+
+        for item in pending_items:
+            target = rows[item["row_idx"]]
+            parsed, error = _invoke_single_model(
+                client=client,
+                model_id=model_id,
+                prompt=item["prompt"],
+                gen_cfg=gen_cfg,
+            )
+
+            if parsed is not None:
+                target[f"{alias}_relevant"] = parsed["relevant"]
+                target[f"{alias}_confidence"] = parsed["confidence"]
+                target[f"{alias}_rationale"] = parsed["rationale"]
+                target[f"{alias}_evidence_spans"] = " | ".join(parsed["evidence_spans"])
+                target[f"{alias}_error"] = ""
+            else:
+                target[f"{alias}_error"] = error
+                if logger is not None:
+                    logger.warning("Model call failed for %s on %s: %s", model_id, item["canonical_url"], error)
+
+            model_done += 1
+            if logger is not None and (model_done % 20 == 0 or model_done == len(pending_items)):
+                logger.info("Model progress [%s]: %s/%s", alias, model_done, len(pending_items))
+
+            if checkpoint_every > 0 and model_done % checkpoint_every == 0:
+                _write_checkpoint(rows, output_path)
+                if logger is not None:
+                    logger.info("Classification checkpoint written: %s", output_path)
+
+            if inter_article_delay_seconds > 0:
+                time.sleep(inter_article_delay_seconds)
+
+    for row in rows:
+        if text_or_empty(row.get("final_label")) == "skipped":
+            continue
+
+        preds: List[Dict[str, Any]] = []
+        for alias in model_aliases:
+            rel_val = _to_bool_or_none(row.get(f"{alias}_relevant"))
+            if rel_val is None:
+                continue
+            try:
+                conf_val = float(row.get(f"{alias}_confidence", 0.0))
+            except Exception:
+                conf_val = 0.0
+            preds.append(
+                {
+                    "relevant": rel_val,
+                    "confidence": max(0.0, min(1.0, conf_val)),
+                }
+            )
+
+        label, conf = _aggregate_ensemble(preds)
+        row["final_label"] = label
+        row["final_confidence"] = round(float(conf), 4)
 
     out_df = pd.DataFrame(rows)
     out_df.to_csv(output_path, index=False)
-    if logger is not None and cache_enabled:
-        logger.info("Classification cache stats: unique_inputs=%s cache_hits=%s", len(cache), cache_hits)
+    if logger is not None:
+        logger.info("Classification progress: %s/%s", len(rows), total_rows)
     return out_df

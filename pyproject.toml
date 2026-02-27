@@ -17,6 +17,7 @@ dependencies = [
   "ipykernel>=6.0.0",
   "nbformat>=5.10.0",
   "nbclient>=0.10.0",
+  "itables>=1.7.0",
 ]
 
 [tool.uv]
