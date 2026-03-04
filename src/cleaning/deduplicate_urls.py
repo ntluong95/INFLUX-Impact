@@ -11,10 +11,6 @@ from typing import Dict, Optional
 
 import pandas as pd
 
-ROOT_DIR = Path(__file__).resolve().parents[2]
-if str(ROOT_DIR) not in sys.path:
-    sys.path.insert(0, str(ROOT_DIR))
-
 from src.utils.common import (
     ensure_dir,
     text_or_empty,
@@ -27,12 +23,18 @@ from src.utils.deduplication import (
 )
 
 
+ROOT_DIR = Path(__file__).resolve().parents[2]
+if str(ROOT_DIR) not in sys.path:
+    sys.path.insert(0, str(ROOT_DIR))
+
+
 def init_registry(db_path: Path) -> None:
     """Create URL registry schema if missing."""
     ensure_dir(db_path.parent)
     with sqlite3.connect(db_path) as conn:
         conn.execute(
             """
+            --sql
             CREATE TABLE IF NOT EXISTS url_registry (
                 canonical_url TEXT PRIMARY KEY,
                 first_seen TEXT NOT NULL,
@@ -40,11 +42,14 @@ def init_registry(db_path: Path) -> None:
                 original_url TEXT,
                 source TEXT,
                 content_hash TEXT
-            )
+            );
             """
         )
         conn.execute(
-            "CREATE INDEX IF NOT EXISTS idx_url_registry_last_seen ON url_registry(last_seen)"
+            """
+            --sql
+            CREATE INDEX IF NOT EXISTS idx_url_registry_last_seen ON url_registry(last_seen);
+            """
         )
         conn.commit()
 
@@ -76,6 +81,7 @@ def _upsert_registry_rows(df: pd.DataFrame, db_path: Path, source: str = "rss") 
     with sqlite3.connect(db_path) as conn:
         conn.executemany(
             """
+            --sql
             INSERT INTO url_registry (
                 canonical_url, first_seen, last_seen, original_url, source, content_hash
             )
@@ -84,7 +90,7 @@ def _upsert_registry_rows(df: pd.DataFrame, db_path: Path, source: str = "rss") 
                 last_seen = excluded.last_seen,
                 source = excluded.source,
                 original_url = COALESCE(url_registry.original_url, excluded.original_url),
-                content_hash = COALESCE(excluded.content_hash, url_registry.content_hash)
+                content_hash = COALESCE(excluded.content_hash, url_registry.content_hash);
             """,
             rows,
         )

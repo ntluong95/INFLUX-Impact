@@ -12,10 +12,6 @@ import pandas as pd
 import yaml
 from dotenv import load_dotenv
 
-ROOT_DIR = Path(__file__).resolve().parents[2]
-if str(ROOT_DIR) not in sys.path:
-    sys.path.insert(0, str(ROOT_DIR))
-
 from src.classification.classify_ensemble import classify_articles_ensemble
 from src.classification.inspect_csv import inspect_csv
 from src.classification.llm_backends import OpenAIChatClient
@@ -23,6 +19,11 @@ from src.cleaning.deduplicate_urls import deduplicate_feed_urls
 from src.cleaning.extract_text import build_extracted_dataset, save_extracted_dataset
 from src.cleaning.fetch_html import fetch_html_for_urls
 from src.utils.common import ensure_dir, setup_logger
+
+
+ROOT_DIR = Path(__file__).resolve().parents[2]
+if str(ROOT_DIR) not in sys.path:
+    sys.path.insert(0, str(ROOT_DIR))
 
 
 def _load_config(config_path: Path) -> Dict[str, Any]:
@@ -48,6 +49,7 @@ def _load_extracted_if_exists(outdir: Path) -> pd.DataFrame | None:
 
 def main() -> None:
     parser = argparse.ArgumentParser(
+        # TODO: update
         description="Run Zika 2015 processing + classification pipeline."
     )
     parser.add_argument(
@@ -96,7 +98,7 @@ def main() -> None:
 
     load_dotenv()
 
-    # 1) Inspect CSV schema
+    # NOTE 1) Inspect CSV schema
     inspect_cfg = cfg.get("inspection", {})
     df, schema, _ = inspect_csv(
         input_path=input_path,
@@ -104,7 +106,7 @@ def main() -> None:
         logger=logger,
     )
 
-    # 2) Canonicalize + dedupe + registry
+    # NOTES 2) Canonicalize + dedupe + registry
     dedup_cfg = cfg.get("deduplication", {})
     unique_csv_path = outdir / "zika_2015_unique.csv"
     deduped_df = deduplicate_feed_urls(
@@ -120,11 +122,15 @@ def main() -> None:
         logger=logger,
     )
 
-    # 3) Fetch HTML (restartable by cached files)
+    # NOTES 3) Fetch HTML (restartable by cached files)
     fetch_cfg = cfg.get("fetch", {})
     fetch_results_path = outdir / "fetch_results.csv"
     previous_fetch_df = None
-    if fetch_results_path.exists() and not args.force and bool(fetch_cfg.get("reuse_previous_results", True)):
+    if (
+        fetch_results_path.exists()
+        and not args.force
+        and bool(fetch_cfg.get("reuse_previous_results", True))
+    ):
         try:
             previous_fetch_df = pd.read_csv(fetch_results_path, low_memory=False)
             logger.info(
@@ -132,7 +138,11 @@ def main() -> None:
                 len(previous_fetch_df),
             )
         except Exception as exc:
-            logger.warning("Could not load previous fetch results (%s): %s", fetch_results_path, exc)
+            logger.warning(
+                "Could not load previous fetch results (%s): %s",
+                fetch_results_path,
+                exc,
+            )
 
     fetch_df = fetch_html_for_urls(
         urls_df=deduped_df,
@@ -145,7 +155,7 @@ def main() -> None:
     fetch_df.to_csv(fetch_results_path, index=False)
     logger.info("Fetch results written: %s", fetch_results_path)
 
-    # 4) Extract text (skip if extracted output exists unless --force)
+    # NOTES 4) Extract text (skip if extracted output exists unless --force)
     extracted_df = None
     if args.force:
         logger.info("--force set: extraction will be recomputed")
@@ -207,7 +217,9 @@ def main() -> None:
                 retry_backoff_seconds=float(
                     openai_cfg.get("retry_backoff_seconds", 2.0)
                 ),
-                rate_limit_per_minute=float(openai_cfg.get("rate_limit_per_minute", 0.0)),
+                rate_limit_per_minute=float(
+                    openai_cfg.get("rate_limit_per_minute", 0.0)
+                ),
             )
 
             classify_articles_ensemble(

@@ -12,13 +12,13 @@ import pandas as pd
 import yaml
 from dotenv import load_dotenv
 
-ROOT_DIR = Path(__file__).resolve().parents[2]
-if str(ROOT_DIR) not in sys.path:
-    sys.path.insert(0, str(ROOT_DIR))
-
 from src.classification.classify_ensemble import classify_articles_ensemble
 from src.classification.llm_backends import OpenAIChatClient
 from src.utils.common import ensure_dir, setup_logger
+
+ROOT_DIR = Path(__file__).resolve().parents[2]
+if str(ROOT_DIR) not in sys.path:
+    sys.path.insert(0, str(ROOT_DIR))
 
 
 def _load_config(config_path: Path) -> Dict[str, Any]:
@@ -95,7 +95,10 @@ def main() -> None:
     for col in ["canonical_url", "extracted_title", "extracted_text"]:
         if col not in extracted_df.columns:
             extracted_df[col] = ""
-            logger.warning("Missing column '%s' in extracted dataset; filled with empty strings.", col)
+            logger.warning(
+                "Missing column '%s' in extracted dataset; filled with empty strings.",
+                col,
+            )
 
     cls_cfg = cfg.get("classification", {})
     if not bool(cls_cfg.get("enabled", True)):
@@ -107,7 +110,9 @@ def main() -> None:
     api_key_env = openai_cfg.get("api_key_env", "OPENAI_API_KEY")
     api_key = os.getenv(api_key_env, "")
     if not api_key:
-        raise ValueError(f"Missing {api_key_env}. Add it to .env before running classification-only mode.")
+        raise ValueError(
+            f"Missing {api_key_env}. Add it to .env before running classification-only mode."
+        )
 
     client = OpenAIChatClient(
         api_key=api_key,

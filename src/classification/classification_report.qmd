@@ -131,6 +131,7 @@ pd.DataFrame(
 ```
 
 ```{python}
+# | eval: false
 (
     input_df.isna()
     .mean()
@@ -144,6 +145,7 @@ pd.DataFrame(
 ```
 
 ```{python}
+#| eval: false
 sample_cols = [c for c in [schema.get("url_col"), schema.get("title_col"), schema.get("description_col"), schema.get("date_col")] if c]
 input_df[sample_cols].head(5) if sample_cols else pd.DataFrame({"note": ["No inferred columns."]})
 ```
@@ -194,7 +196,9 @@ pd.DataFrame(
 ```{python}
 if URL_REGISTRY_DB.exists():
     with sqlite3.connect(URL_REGISTRY_DB) as conn:
-        reg_rows = pd.read_sql_query("SELECT COUNT(*) AS n_rows FROM url_registry", conn)
+        reg_rows = pd.read_sql_query(
+            "SELECT COUNT(*) AS n_rows FROM url_registry", conn
+        )
         reg_sources = pd.read_sql_query(
             "SELECT COALESCE(source, 'NULL') AS source, COUNT(*) AS n_rows FROM url_registry GROUP BY source ORDER BY n_rows DESC",
             conn,

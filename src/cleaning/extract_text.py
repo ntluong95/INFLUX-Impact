@@ -81,12 +81,16 @@ def _remove_boilerplate(soup: BeautifulSoup) -> None:
 
 def _extract_title(soup: BeautifulSoup) -> str:
     meta_og = soup.find("meta", attrs={"property": "og:title"})
-    if meta_og and meta_og.get("content"):
-        return normalize_whitespace(meta_og.get("content"))
+    if meta_og:
+        og_content = meta_og.get("content")
+        if isinstance(og_content, str) and og_content:
+            return normalize_whitespace(og_content)
 
     meta_tw = soup.find("meta", attrs={"name": "twitter:title"})
-    if meta_tw and meta_tw.get("content"):
-        return normalize_whitespace(meta_tw.get("content"))
+    if meta_tw:
+        tw_content = meta_tw.get("content")
+        if isinstance(tw_content, str) and tw_content:
+            return normalize_whitespace(tw_content)
 
     if soup.title and soup.title.get_text():
         return normalize_whitespace(soup.title.get_text())
@@ -99,7 +103,9 @@ def _extract_title(soup: BeautifulSoup) -> str:
 
 
 def _node_text_features(node) -> Tuple[float, str]:
-    paragraphs = [normalize_whitespace(p.get_text(" ", strip=True)) for p in node.find_all("p")]
+    paragraphs = [
+        normalize_whitespace(p.get_text(" ", strip=True)) for p in node.find_all("p")
+    ]
     paragraphs = [p for p in paragraphs if len(p) >= 40]
 
     paragraph_text = "\n\n".join(paragraphs)
@@ -109,7 +115,8 @@ def _node_text_features(node) -> Tuple[float, str]:
     all_chars = len(all_text)
 
     link_chars = sum(
-        len(normalize_whitespace(a.get_text(" ", strip=True))) for a in node.find_all("a")
+        len(normalize_whitespace(a.get_text(" ", strip=True)))
+        for a in node.find_all("a")
     )
     link_ratio = link_chars / max(all_chars, 1)
 
@@ -146,7 +153,10 @@ def extract_with_bs4_density(html: str, min_chars: int = 250) -> Tuple[str, str,
             best_text = txt
 
     if not best_text:
-        paragraphs = [normalize_whitespace(p.get_text(" ", strip=True)) for p in soup.find_all("p")]
+        paragraphs = [
+            normalize_whitespace(p.get_text(" ", strip=True))
+            for p in soup.find_all("p")
+        ]
         paragraphs = [p for p in paragraphs if len(p) >= 30]
         best_text = "\n\n".join(paragraphs)
 
@@ -216,7 +226,9 @@ def build_extracted_dataset(
     logger=None,
 ) -> pd.DataFrame:
     """Create article extraction dataset from deduped URLs + fetch metadata."""
-    fetch_lookup = fetch_df.set_index("canonical_url", drop=False) if not fetch_df.empty else None
+    fetch_lookup = (
+        fetch_df.set_index("canonical_url", drop=False) if not fetch_df.empty else None
+    )
 
     rows = []
     for i, (_, row) in enumerate(unique_df.iterrows(), start=1):
@@ -270,7 +282,9 @@ def build_extracted_dataset(
     return pd.DataFrame(rows)
 
 
-def save_extracted_dataset(df: pd.DataFrame, outdir: Path, prefer_parquet: bool = True) -> Path:
+def save_extracted_dataset(
+    df: pd.DataFrame, outdir: Path, prefer_parquet: bool = True
+) -> Path:
     target_parquet = outdir / "articles_extracted.parquet"
     if prefer_parquet:
         return save_dataframe_with_parquet_fallback(df, target_parquet)
