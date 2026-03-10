@@ -28,6 +28,7 @@ from __future__ import annotations
 
 import re
 import sqlite3
+import json
 from datetime import datetime
 from pathlib import Path
 from urllib.parse import urlsplit
@@ -59,6 +60,7 @@ EXTRACT_PATH = PROC / "articles_extracted.parquet"
 CLASSIFIED_PATH = PROC / "articles_classified.csv"
 URL_REGISTRY_DB = ROOT / "data" / "url_registry.sqlite"
 LOG_PATH = LOGS / "classification_pipeline.log"
+METRICS_PATH = PROC / "classification_metrics.json"
 
 import sys
 sys.path.insert(0, str(ROOT))
@@ -79,6 +81,7 @@ unique_df = pd.read_csv(UNIQUE_PATH, low_memory=False) if UNIQUE_PATH.exists() e
 fetch_df = pd.read_csv(FETCH_PATH, low_memory=False) if FETCH_PATH.exists() else pd.DataFrame()
 extracted_df = pd.read_parquet(EXTRACT_PATH) if EXTRACT_PATH.exists() else pd.DataFrame()
 classified_df = pd.read_csv(CLASSIFIED_PATH, low_memory=False) if CLASSIFIED_PATH.exists() else pd.DataFrame()
+metrics_payload = json.loads(METRICS_PATH.read_text(encoding="utf-8")) if METRICS_PATH.exists() else {}
 
 with open(CFG_PATH, "r", encoding="utf-8") as f:
     cfg = yaml.safe_load(f) or {}
@@ -94,6 +97,7 @@ for label, path in [
     ("Fetch Results", FETCH_PATH),
     ("Extracted Articles", EXTRACT_PATH),
     ("Classified Articles", CLASSIFIED_PATH),
+    ("Classification Metrics JSON", METRICS_PATH),
     ("URL Registry (SQLite)", URL_REGISTRY_DB),
     ("Pipeline Log", LOG_PATH),
 ]:
@@ -263,12 +267,58 @@ cls_cfg = cfg.get("classification", {})
 pd.DataFrame(
     [
         {"setting": "models_configured", "value": len(cls_cfg.get("models", []))},
+        {"setting": "target_name", "value": cls_cfg.get("target_name")},
         {"setting": "per_article_parallel_models", "value": cls_cfg.get("per_article_parallel_models")},
         {"setting": "deterministic_summary_enabled", "value": cls_cfg.get("deterministic_summary", {}).get("enabled")},
         {"setting": "generation_max_tokens", "value": cls_cfg.get("generation", {}).get("max_tokens")},
         {"setting": "openai_base_url", "value": cls_cfg.get("openai", {}).get("base_url")},
     ]
 )
+```
+
+```{python}
+if metrics_payload:
+    agg = metrics_payload.get("aggregation", {})
+    weights = agg.get("weights", {})
+    display(
+        pd.DataFrame(
+            [
+                {"setting": "aggregation_source", "value": agg.get("source")},
+                {"setting": "threshold", "value": agg.get("threshold")},
+                {"setting": "min_agreement", "value": agg.get("min_agreement")},
+                {"setting": "require_min_agreement", "value": agg.get("require_min_agreement")},
+                {"setting": "confidence_semantics", "value": agg.get("confidence_semantics")},
+                {"setting": "weights", "value": json.dumps(weights, ensure_ascii=False)},
+            ]
+        )
+    )
+else:
+    display(pd.DataFrame({"note": ["No classification_metrics.json found."]}))
+```
+
+```{python}
+validation_payload = metrics_payload.get("validation", {}) if metrics_payload else {}
+selected_metrics = validation_payload.get("selected_metrics", {}) if validation_payload else {}
+metrics_row = selected_metrics.get("metrics") if isinstance(selected_metrics, dict) else None
+if validation_payload.get("labels_available") and metrics_row:
+    display(
+        pd.DataFrame(
+            [
+                {"metric": "matched_rows", "value": validation_payload.get("matched_rows")},
+                {"metric": "precision", "value": metrics_row.get("precision")},
+                {"metric": "recall", "value": metrics_row.get("recall")},
+                {"metric": "f1", "value": metrics_row.get("f1")},
+                {"metric": "balanced_accuracy", "value": metrics_row.get("balanced_accuracy")},
+                {"metric": "brier_score", "value": selected_metrics.get("brier_score")},
+                {"metric": "ece", "value": selected_metrics.get("ece")},
+                {"metric": "auprc", "value": selected_metrics.get("auprc")},
+                {"metric": "mean_pairwise_agreement", "value": selected_metrics.get("agreement", {}).get("mean_pairwise_agreement")},
+                {"metric": "disagreement_rate", "value": selected_metrics.get("agreement", {}).get("disagreement_rate")},
+            ]
+        )
+    )
+else:
+    display(pd.DataFrame({"note": ["Validation metrics unavailable (reference labels not configured or unmatched)."]}))
 ```
 
 ```{python}
@@ -282,20 +332,43 @@ else:
 
 ```{python}
 if not classified_df.empty:
-    model_aliases = sorted({c[: -len("_model_id")] for c in classified_df.columns if c.endswith("_model_id")})
-    table_cols = ["canonical_url", "extracted_title", "text_hash", "final_label", "final_confidence", "classified_at"]
+    model_aliases = sorted(
+        {
+            c[: -len("_model_id")]
+            for c in classified_df.columns
+            if c.endswith("_model_id")
+        }
+    )
+    table_cols = [
+        "canonical_url",
+        "extracted_title",
+        # "text_hash",
+        "final_label",
+        "final_confidence",
+        "final_relevance_probability",
+        "final_positive_agreement",
+        "final_supporting_models",
+        "final_evidence_spans",
+        # "classified_at",
+    ]
     for alias in model_aliases:
         table_cols.extend(
             [
                 f"{alias}_relevant",
                 f"{alias}_confidence",
+                f"{alias}_relevance_probability",
                 f"{alias}_rationale",
                 f"{alias}_error",
             ]
         )
     table_cols = [c for c in table_cols if c in classified_df.columns]
     final_out_df = classified_df[table_cols].copy()
-
+    # NOTES reorder columns "canonical_url" of the final_out_df to the end
+    if "canonical_url" in final_out_df.columns:
+        cols = [c for c in final_out_df.columns if c != "canonical_url"] + [
+            "canonical_url"
+        ]
+        final_out_df = final_out_df[cols]
     if ITABLES_AVAILABLE:
         itables_show(
             final_out_df,
@@ -322,6 +395,7 @@ if not classified_df.empty:
     for alias in model_aliases:
         rel_col = f"{alias}_relevant"
         conf_col = f"{alias}_confidence"
+        prob_col = f"{alias}_relevance_probability"
         err_col = f"{alias}_error"
         model_id_col = f"{alias}_model_id"
 
@@ -329,6 +403,7 @@ if not classified_df.empty:
         rel_false = int((classified_df[rel_col] == False).sum()) if rel_col in classified_df.columns else 0
         errors = int(classified_df[err_col].fillna("").astype(str).str.strip().ne("").sum()) if err_col in classified_df.columns else 0
         avg_conf = float(pd.to_numeric(classified_df[conf_col], errors="coerce").mean()) if conf_col in classified_df.columns else float("nan")
+        avg_prob = float(pd.to_numeric(classified_df[prob_col], errors="coerce").mean()) if prob_col in classified_df.columns else float("nan")
         model_id = classified_df[model_id_col].dropna().iloc[0] if model_id_col in classified_df.columns and not classified_df[model_id_col].dropna().empty else ""
 
         rows.append(
@@ -338,6 +413,7 @@ if not classified_df.empty:
                 "relevant_true": rel_true,
                 "relevant_false": rel_false,
                 "avg_confidence": round(avg_conf, 4) if pd.notna(avg_conf) else None,
+                "avg_relevance_probability": round(avg_prob, 4) if pd.notna(avg_prob) else None,
                 "error_rows": errors,
             }
         )
@@ -345,6 +421,23 @@ if not classified_df.empty:
     display(pd.DataFrame(rows).sort_values("alias"))
 else:
     display(pd.DataFrame({"note": ["No per-model output available."]}))
+```
+
+```{python}
+validation_payload = metrics_payload.get("validation", {}) if metrics_payload else {}
+per_model_validation = validation_payload.get("per_model", []) if validation_payload else []
+if per_model_validation:
+    display(pd.DataFrame(per_model_validation).sort_values("alias"))
+else:
+    display(pd.DataFrame({"note": ["No per-model validation metrics available."]}))
+```
+
+```{python}
+ensemble_gain = validation_payload.get("ensemble_gain", {}) if validation_payload else {}
+if ensemble_gain:
+    display(pd.DataFrame([ensemble_gain]))
+else:
+    display(pd.DataFrame({"note": ["No ensemble gain summary available."]}))
 ```
 
 ```{python}

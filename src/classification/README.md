@@ -5,7 +5,7 @@ This folder contains a reproducible pipeline for Step 2:
 2. Canonicalize + deduplicate URLs and persist URL registry
 3. Fetch raw HTML with polite crawling and retries
 4. Extract article title/body text (BeautifulSoup baseline)
-5. Run pure 3-model ensemble relevance classification via OpenAI-compatible API
+5. Run ensemble relevance classification via OpenAI-compatible API with weighted probability pooling and agreement gating
 
 ## Files
 - `run_pipeline.py`: single CLI entrypoint
@@ -66,6 +66,8 @@ python src/classification/run_pipeline.py \
 - No keyword/stem gating is applied before LLM calls.
 - Rows with missing extracted content are marked `final_label=skipped` with explicit reason in per-model `*_error` fields.
 - Classification is scheduled model-first (all rows for model A, then model B, then model C) to reduce local model reload overhead.
+- Final decisions are produced from weighted relevance probabilities with a configurable threshold and optional minimum agreement constraint.
+- The pipeline writes `data/processed/classification_metrics.json` with agreement, calibration, and optional validation metrics.
 
 ## Classification-Only Mode (No fetch/extract)
 Use existing extracted output and only run ensemble classification:
@@ -136,6 +138,20 @@ classification:
 ```
 
 If your local provider uses different IDs, change only `model_id` values in `config.yaml`. No code changes are required.
+
+## Validation Tuning
+If you have a labeled reference set, configure it under `classification.validation` in `config.yaml`:
+
+```yaml
+classification:
+  validation:
+    enabled: true
+    labels_path: data/reference/relevance_labels.csv
+    url_column: canonical_url
+    label_column: relevant
+```
+
+When enabled, the classifier will tune ensemble weights and decision thresholds against the labeled subset, then write the selected settings and metrics to `classification_metrics.json`.
 
 ## Restart behavior
 - Fetch step is restartable by cached HTML files in `data/raw_html` (skips unless `--force`).

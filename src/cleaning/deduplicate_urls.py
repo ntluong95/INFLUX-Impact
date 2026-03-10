@@ -289,7 +289,7 @@ def main() -> None:
         "--resolver-workers",
         type=int,
         default=6,
-        help="Thread workers for URL resolution",
+        help="Thread wor∏kers for URL resolution",
     )
     args = parser.parse_args()
 
