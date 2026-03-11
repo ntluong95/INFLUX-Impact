@@ -8,6 +8,7 @@ dependencies = [
   "pyyaml>=6.0",
   "python-dotenv>=1.0.0",
   "requests>=2.31.0",
+  "pygooglenews>=0.1.2",
   "beautifulsoup4>=4.12.0",
   "lxml>=5.0.0",
   "openai>=1.30.0",
@@ -18,6 +19,12 @@ dependencies = [
   "nbformat>=5.10.0",
   "nbclient>=0.10.0",
   "itables>=1.7.0",
+  "scikit-learn>=1.8.0",
+  "krippendorff>=0.8.2",
+  "sentence-transformers>=5.2.3",
+  "urllib3<2.2",
+  "charset-normalizer<4",
+  "chardet<6",
 ]
 
 [tool.uv]

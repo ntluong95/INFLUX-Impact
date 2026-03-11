@@ -28,11 +28,19 @@ get_script_path <- function() {
   if (length(file_arg) == 0) {
     stop("Unable to determine script path from commandArgs().")
   }
-  normalizePath(sub("^--file=", "", file_arg[[1]]), winslash = "/", mustWork = TRUE)
+  normalizePath(
+    sub("^--file=", "", file_arg[[1]]),
+    winslash = "/",
+    mustWork = TRUE
+  )
 }
 
 get_zika_root <- function() {
-  normalizePath(file.path(dirname(get_script_path()), ".."), winslash = "/", mustWork = TRUE)
+  normalizePath(
+    file.path(dirname(get_script_path()), ".."),
+    winslash = "/",
+    mustWork = TRUE
+  )
 }
 
 ensure_dir <- function(path) {
@@ -74,9 +82,18 @@ load_zika_config <- function(zika_root) {
 
   cfg <- yaml::read_yaml(file.path(zika_root, "config", "zika.yaml"))
 
-  cfg$rss$chunk_size_days <- as.integer(Sys.getenv("RSS_CHUNK_SIZE", unset = cfg$rss$chunk_size_days))
-  cfg$validation$sample_size <- as.integer(Sys.getenv("VALIDATION_SAMPLE_SIZE", unset = cfg$validation$sample_size))
-  cfg$fulltext$rate_limit_per_second <- as.numeric(Sys.getenv("FULLTEXT_RATE_LIMIT", unset = cfg$fulltext$rate_limit_per_second))
+  cfg$rss$chunk_size_days <- as.integer(Sys.getenv(
+    "RSS_CHUNK_SIZE",
+    unset = cfg$rss$chunk_size_days
+  ))
+  cfg$validation$sample_size <- as.integer(Sys.getenv(
+    "VALIDATION_SAMPLE_SIZE",
+    unset = cfg$validation$sample_size
+  ))
+  cfg$fulltext$rate_limit_per_second <- as.numeric(Sys.getenv(
+    "FULLTEXT_RATE_LIMIT",
+    unset = cfg$fulltext$rate_limit_per_second
+  ))
 
   timeout_override <- Sys.getenv("TIMEOUT_SECONDS", unset = "")
   if (nzchar(timeout_override)) {
@@ -87,10 +104,22 @@ load_zika_config <- function(zika_root) {
   }
 
   cfg$headline_filter$openai$api_key <- Sys.getenv("OPENAI_API_KEY", unset = "")
-  cfg$headline_filter$openai$model <- Sys.getenv("OPENAI_MODEL", unset = cfg$headline_filter$openai$model %||% "")
-  cfg$headline_filter$openai$base_url <- Sys.getenv("OPENAI_BASE_URL", unset = cfg$headline_filter$openai$base_url %||% "")
-  cfg$headline_filter$local$base_url <- Sys.getenv("LOCAL_LLM_BASE_URL", unset = cfg$headline_filter$local$base_url %||% "")
-  cfg$headline_filter$local$model <- Sys.getenv("LOCAL_LLM_MODEL", unset = cfg$headline_filter$local$model %||% "")
+  cfg$headline_filter$openai$model <- Sys.getenv(
+    "OPENAI_MODEL",
+    unset = cfg$headline_filter$openai$model %||% ""
+  )
+  cfg$headline_filter$openai$base_url <- Sys.getenv(
+    "OPENAI_BASE_URL",
+    unset = cfg$headline_filter$openai$base_url %||% ""
+  )
+  cfg$headline_filter$local$base_url <- Sys.getenv(
+    "LOCAL_LLM_BASE_URL",
+    unset = cfg$headline_filter$local$base_url %||% ""
+  )
+  cfg$headline_filter$local$model <- Sys.getenv(
+    "LOCAL_LLM_MODEL",
+    unset = cfg$headline_filter$local$model %||% ""
+  )
   cfg$runtime <- list(env_path = env_path, loaded_at = timestamp_utc())
   cfg
 }
@@ -102,7 +131,12 @@ make_logger <- function(log_path) {
   }
 
   write_line <- function(level, message) {
-    line <- sprintf("%s | %s | %s", format(Sys.time(), "%Y-%m-%d %H:%M:%S %z"), level, as.character(message))
+    line <- sprintf(
+      "%s | %s | %s",
+      format(Sys.time(), "%Y-%m-%d %H:%M:%S %z"),
+      level,
+      as.character(message)
+    )
     cat(line, "\n")
     cat(line, "\n", file = log_path, append = TRUE)
   }
@@ -119,7 +153,10 @@ timed_step <- function(logger, label, expr) {
   start_time <- Sys.time()
   logger$info(glue("{label} started"))
   result <- force(expr)
-  elapsed <- round(as.numeric(difftime(Sys.time(), start_time, units = "secs")), 2)
+  elapsed <- round(
+    as.numeric(difftime(Sys.time(), start_time, units = "secs")),
+    2
+  )
   logger$info(glue("{label} finished in {elapsed}s"))
   result
 }
@@ -140,7 +177,12 @@ build_date_windows <- function(start_date, end_date, chunk_size_days) {
     )
 }
 
-build_google_rss_url <- function(query_term, window_start, query_before_date, rss_cfg) {
+build_google_rss_url <- function(
+  query_term,
+  window_start,
+  query_before_date,
+  rss_cfg
+) {
   q_value <- glue(
     "{query_term} after:{window_start} before:{query_before_date}"
   )
@@ -158,13 +200,73 @@ build_google_rss_url <- function(query_term, window_start, query_before_date, rs
   )
 }
 
-fetch_text_with_retry <- function(url, timeout_seconds, user_agent, max_retries, retry_backoff_seconds) {
+truncate_for_log <- function(x, width = 200L) {
+  if (is.null(x) || length(x) == 0 || is.na(x) || !nzchar(x)) {
+    return("")
+  }
+  clipped <- substr(normalize_whitespace(x), 1, width)
+  if (nchar(x) > width) {
+    paste0(clipped, "...")
+  } else {
+    clipped
+  }
+}
+
+parse_retry_after_seconds <- function(x) {
+  if (is.null(x) || length(x) == 0 || is.na(x) || !nzchar(x)) {
+    return(NA_real_)
+  }
+
+  numeric_value <- suppressWarnings(as.numeric(x))
+  if (!is.na(numeric_value)) {
+    return(max(0, numeric_value))
+  }
+
+  parsed_time <- suppressWarnings(parse_date_time(
+    x,
+    orders = c("a, d b Y H:M:S z", "d b Y H:M:S z", "Y-m-d H:M:S z"),
+    tz = "UTC"
+  ))
+
+  if (is.na(parsed_time)) {
+    return(NA_real_)
+  }
+
+  max(
+    0,
+    as.numeric(difftime(
+      parsed_time,
+      with_tz(Sys.time(), "UTC"),
+      units = "secs"
+    ))
+  )
+}
+
+fetch_text_with_retry <- function(
+  url,
+  timeout_seconds,
+  user_agent,
+  max_retries,
+  retry_backoff_seconds,
+  accept_language = "en-US,en;q=0.9",
+  max_backoff_seconds = 90
+) {
   last_error <- NULL
+  last_status <- NA_integer_
+  last_text <- ""
+  last_retry_after <- NA_real_
+  was_throttled <- FALSE
+
   for (attempt in seq_len(max_retries)) {
     response <- tryCatch(
       {
         req <- request(url) |>
+          req_headers(
+            Accept = "application/rss+xml, application/xml;q=0.9, text/xml;q=0.8, */*;q=0.5",
+            `Accept-Language` = accept_language
+          ) |>
           req_user_agent(user_agent) |>
+          req_error(is_error = function(resp) FALSE) |>
           req_timeout(timeout_seconds)
         req_perform(req)
       },
@@ -172,16 +274,60 @@ fetch_text_with_retry <- function(url, timeout_seconds, user_agent, max_retries,
     )
 
     if (!inherits(response, "error")) {
-      return(list(ok = TRUE, text = resp_body_string(response), status = resp_status(response), error = NULL))
+      status <- resp_status(response)
+      text <- tryCatch(resp_body_string(response), error = function(e) "")
+      retry_after <- parse_retry_after_seconds(
+        tryCatch(resp_header(response, "retry-after"), error = function(e) NULL)
+      )
+
+      if (status >= 200 && status < 300) {
+        return(list(
+          ok = TRUE,
+          text = text,
+          status = status,
+          error = NULL,
+          throttled = FALSE,
+          retry_after_seconds = retry_after
+        ))
+      }
+
+      last_status <- status
+      last_text <- text
+      last_retry_after <- retry_after
+      was_throttled <- status %in% c(429L, 503L)
+      last_error <- glue("HTTP {status} {truncate_for_log(text)}")
+    } else {
+      last_error <- conditionMessage(response)
+      last_status <- NA_integer_
+      last_text <- ""
+      last_retry_after <- NA_real_
     }
 
-    last_error <- conditionMessage(response)
-    if (attempt < max_retries) {
-      Sys.sleep(retry_backoff_seconds * (2 ^ (attempt - 1)))
+    should_retry <- isTRUE(
+      is.na(last_status) ||
+        last_status %in% c(408L, 425L, 429L, 500L, 502L, 503L, 504L)
+    )
+
+    if (attempt < max_retries && should_retry) {
+      sleep_seconds <- if (!is.na(last_retry_after)) {
+        last_retry_after
+      } else {
+        retry_backoff_seconds * (2^(attempt - 1))
+      }
+      sleep_seconds <- min(max_backoff_seconds, sleep_seconds) +
+        stats::runif(1, min = 0, max = 1)
+      Sys.sleep(max(0, sleep_seconds))
     }
   }
 
-  list(ok = FALSE, text = "", status = NA_integer_, error = last_error %||% "Unknown request error")
+  list(
+    ok = FALSE,
+    text = last_text,
+    status = last_status,
+    error = last_error %||% "Unknown request error",
+    throttled = was_throttled,
+    retry_after_seconds = last_retry_after
+  )
 }
 
 parse_description_text <- function(description_html) {
@@ -204,7 +350,11 @@ parse_rss_datetime <- function(x) {
     orders = c("a, d b Y H:M:S z", "d b Y H:M:S z"),
     tz = "UTC"
   ))
-  ifelse(is.na(parsed), NA_character_, format(with_tz(parsed, "UTC"), "%Y-%m-%dT%H:%M:%SZ"))
+  ifelse(
+    is.na(parsed),
+    NA_character_,
+    format(with_tz(parsed, "UTC"), "%Y-%m-%dT%H:%M:%SZ")
+  )
 }
 
 empty_rss_tbl <- function() {
@@ -231,15 +381,23 @@ empty_rss_tbl <- function() {
   )
 }
 
-parse_rss_feed_file <- function(xml_path, window_row, query_term, language_label) {
-  doc <- tryCatch(xml2::read_xml(xml_path), error = function(e) NULL)
+parse_rss_feed_string <- function(
+  xml_string,
+  window_row,
+  query_term,
+  language_label
+) {
+  doc <- tryCatch(xml2::read_xml(xml_string), error = function(e) NULL)
   if (is.null(doc)) {
     return(empty_rss_tbl())
   }
 
   channel <- xml2::xml_find_first(doc, "//channel")
   feed_channel_title <- xml2::xml_text(xml2::xml_find_first(channel, "./title"))
-  feed_last_build_date <- xml2::xml_text(xml2::xml_find_first(channel, "./lastBuildDate"))
+  feed_last_build_date <- xml2::xml_text(xml2::xml_find_first(
+    channel,
+    "./lastBuildDate"
+  ))
   feed_language <- xml2::xml_text(xml2::xml_find_first(channel, "./language"))
   items <- xml2::xml_find_all(channel, "./item")
 
@@ -247,12 +405,15 @@ parse_rss_feed_file <- function(xml_path, window_row, query_term, language_label
     return(empty_rss_tbl())
   }
 
-  retrieved_at <- format(with_tz(file.info(xml_path)$mtime, "UTC"), "%Y-%m-%dT%H:%M:%SZ")
+  retrieved_at <- timestamp_utc()
 
   map_dfr(items, function(item) {
     rss_title <- xml2::xml_text(xml2::xml_find_first(item, "./title"))
     rss_pubdate <- xml2::xml_text(xml2::xml_find_first(item, "./pubDate"))
-    google_news_redirect_url <- xml2::xml_text(xml2::xml_find_first(item, "./link"))
+    google_news_redirect_url <- xml2::xml_text(xml2::xml_find_first(
+      item,
+      "./link"
+    ))
     guid <- xml2::xml_text(xml2::xml_find_first(item, "./guid"))
     description <- xml2::xml_text(xml2::xml_find_first(item, "./description"))
     source_node <- xml2::xml_find_first(item, "./source")
@@ -277,7 +438,7 @@ parse_rss_feed_file <- function(xml_path, window_row, query_term, language_label
       feed_channel_title = normalize_whitespace(feed_channel_title),
       feed_last_build_date = normalize_whitespace(feed_last_build_date),
       retrieved_at = retrieved_at,
-      raw_xml_path = normalizePath(xml_path, winslash = "/", mustWork = FALSE)
+      raw_xml_path = NA_character_
     )
   }) %>%
     mutate(
@@ -307,7 +468,13 @@ dedupe_rss_records <- function(df) {
     return(list(
       data = df,
       counts = tibble(
-        metric = c("input_rows", "duplicate_redirect_url", "duplicate_guid", "duplicate_title_pubdate", "kept_rows"),
+        metric = c(
+          "input_rows",
+          "duplicate_redirect_url",
+          "duplicate_guid",
+          "duplicate_title_pubdate",
+          "kept_rows"
+        ),
         value = c(0, 0, 0, 0, 0)
       )
     ))
@@ -319,28 +486,60 @@ dedupe_rss_records <- function(df) {
       dedupe_guid_key = na_if(guid, ""),
       dedupe_title_pubdate_key = if_else(
         !is.na(rss_pubdate_utc) & nzchar(rss_pubdate_utc),
-        paste(normalize_title_for_dedupe(rss_title), rss_pubdate_utc, sep = "||"),
+        paste(
+          normalize_title_for_dedupe(rss_title),
+          rss_pubdate_utc,
+          sep = "||"
+        ),
         NA_character_
       )
     ) %>%
-    arrange(date_window_start, date_window_end, retrieved_at, google_news_redirect_url, guid, rss_title)
+    arrange(
+      date_window_start,
+      date_window_end,
+      retrieved_at,
+      google_news_redirect_url,
+      guid,
+      rss_title
+    )
 
-  duplicate_redirect <- !is.na(prepared$dedupe_redirect_key) & duplicated(prepared$dedupe_redirect_key)
+  duplicate_redirect <- !is.na(prepared$dedupe_redirect_key) &
+    duplicated(prepared$dedupe_redirect_key)
   remaining_after_redirect <- prepared[!duplicate_redirect, , drop = FALSE]
-  duplicate_guid_remaining <- !is.na(remaining_after_redirect$dedupe_guid_key) & duplicated(remaining_after_redirect$dedupe_guid_key)
+  duplicate_guid_remaining <- !is.na(remaining_after_redirect$dedupe_guid_key) &
+    duplicated(remaining_after_redirect$dedupe_guid_key)
   duplicate_guid <- rep(FALSE, nrow(prepared))
   duplicate_guid[which(!duplicate_redirect)] <- duplicate_guid_remaining
 
-  remaining_after_guid <- prepared[!(duplicate_redirect | duplicate_guid), , drop = FALSE]
-  duplicate_title_pubdate_remaining <- !is.na(remaining_after_guid$dedupe_title_pubdate_key) & duplicated(remaining_after_guid$dedupe_title_pubdate_key)
+  remaining_after_guid <- prepared[
+    !(duplicate_redirect | duplicate_guid),
+    ,
+    drop = FALSE
+  ]
+  duplicate_title_pubdate_remaining <- !is.na(
+    remaining_after_guid$dedupe_title_pubdate_key
+  ) &
+    duplicated(remaining_after_guid$dedupe_title_pubdate_key)
   duplicate_title_pubdate <- rep(FALSE, nrow(prepared))
-  duplicate_title_pubdate[which(!(duplicate_redirect | duplicate_guid))] <- duplicate_title_pubdate_remaining
+  duplicate_title_pubdate[which(
+    !(duplicate_redirect | duplicate_guid)
+  )] <- duplicate_title_pubdate_remaining
 
-  kept <- prepared[!(duplicate_redirect | duplicate_guid | duplicate_title_pubdate), , drop = FALSE] %>%
+  kept <- prepared[
+    !(duplicate_redirect | duplicate_guid | duplicate_title_pubdate),
+    ,
+    drop = FALSE
+  ] %>%
     select(-starts_with("dedupe_"))
 
   counts <- tibble(
-    metric = c("input_rows", "duplicate_redirect_url", "duplicate_guid", "duplicate_title_pubdate", "kept_rows"),
+    metric = c(
+      "input_rows",
+      "duplicate_redirect_url",
+      "duplicate_guid",
+      "duplicate_title_pubdate",
+      "kept_rows"
+    ),
     value = c(
       nrow(prepared),
       sum(duplicate_redirect),
@@ -355,38 +554,76 @@ dedupe_rss_records <- function(df) {
 
 write_csv_and_parquet <- function(df, csv_path, parquet_path) {
   ensure_dir(dirname(csv_path))
-  readr::write_csv(df, csv_path, na = "")
+  ensure_dir(dirname(parquet_path))
+
+  csv_temp <- tempfile(
+    pattern = paste0(tools::file_path_sans_ext(basename(csv_path)), "_"),
+    tmpdir = dirname(csv_path),
+    fileext = ".tmp.csv"
+  )
+  parquet_temp <- tempfile(
+    pattern = paste0(tools::file_path_sans_ext(basename(parquet_path)), "_"),
+    tmpdir = dirname(parquet_path),
+    fileext = ".tmp.parquet"
+  )
+  on.exit(unlink(c(csv_temp, parquet_temp), force = TRUE), add = TRUE)
+
+  readr::write_csv(df, csv_temp, na = "")
 
   if (requireNamespace("arrow", quietly = TRUE)) {
-    arrow::write_parquet(df, parquet_path)
-    return(invisible(parquet_path))
+    arrow::write_parquet(df, parquet_temp)
+  } else {
+    script_path <- tempfile(fileext = ".py")
+    on.exit(unlink(script_path, force = TRUE), add = TRUE)
+    writeLines(
+      c(
+        "import sys",
+        "import pandas as pd",
+        "df = pd.read_csv(sys.argv[1])",
+        "df.to_parquet(sys.argv[2], index=False)"
+      ),
+      script_path
+    )
+    cmd <- paste(
+      "uv run python",
+      shQuote(script_path),
+      shQuote(csv_temp),
+      shQuote(parquet_temp)
+    )
+    result <- tryCatch(
+      system2(
+        "bash",
+        args = c("-lc", shQuote(cmd)),
+        stdout = TRUE,
+        stderr = TRUE
+      ),
+      warning = function(w) character(),
+      error = function(e) {
+        stop(glue("Failed to write parquet via uv: {conditionMessage(e)}"))
+      }
+    )
+
+    if (!file.exists(parquet_temp)) {
+      stop(glue(
+        "Parquet file was not created: {parquet_path}\n{paste(result, collapse = '\n')}"
+      ))
+    }
   }
 
-  script_path <- tempfile(fileext = ".py")
-  writeLines(
-    c(
-      "import sys",
-      "import pandas as pd",
-      "df = pd.read_csv(sys.argv[1])",
-      "df.to_parquet(sys.argv[2], index=False)"
-    ),
-    script_path
-  )
-  cmd <- paste(
-    "uv run python",
-    shQuote(script_path),
-    shQuote(csv_path),
-    shQuote(parquet_path)
-  )
-  result <- tryCatch(
-    system2("bash", args = c("-lc", shQuote(cmd)), stdout = TRUE, stderr = TRUE),
-    warning = function(w) character(),
-    error = function(e) stop(glue("Failed to write parquet via uv: {conditionMessage(e)}"))
-  )
-  unlink(script_path)
+  if (file.exists(csv_path)) {
+    unlink(csv_path)
+  }
+  if (file.exists(parquet_path)) {
+    unlink(parquet_path)
+  }
 
-  if (!file.exists(parquet_path)) {
-    stop(glue("Parquet file was not created: {parquet_path}\n{paste(result, collapse = '\n')}"))
+  csv_moved <- file.rename(csv_temp, csv_path)
+  parquet_moved <- file.rename(parquet_temp, parquet_path)
+
+  if (!isTRUE(csv_moved) || !isTRUE(parquet_moved)) {
+    stop(glue(
+      "Failed to move staged outputs into place for {csv_path} and {parquet_path}"
+    ))
   }
 
   invisible(parquet_path)
@@ -402,7 +639,10 @@ extract_json_object <- function(raw_text) {
     return(NULL)
   }
 
-  tryCatch(jsonlite::fromJSON(json_candidate, simplifyVector = TRUE), error = function(e) NULL)
+  tryCatch(
+    jsonlite::fromJSON(json_candidate, simplifyVector = TRUE),
+    error = function(e) NULL
+  )
 }
 
 parse_llm_label <- function(raw_text, confidence_default = 0.5) {
@@ -424,7 +664,9 @@ parse_llm_label <- function(raw_text, confidence_default = 0.5) {
     parse_error <- ""
   }
 
-  confidence <- suppressWarnings(as.numeric(parsed$confidence %||% confidence_default))
+  confidence <- suppressWarnings(as.numeric(
+    parsed$confidence %||% confidence_default
+  ))
   if (is.na(confidence)) {
     confidence <- as.numeric(confidence_default)
   }
@@ -442,7 +684,7 @@ parse_llm_label <- function(raw_text, confidence_default = 0.5) {
 
 build_headline_prompt <- function(title, source_hint, pubdate) {
   glue(
-"Classify this Google News headline for relevance to Zika.
+    "Classify this Google News headline for relevance to Zika.
 
 Return JSON only with keys:
 - label: relevant | irrelevant | unsure
@@ -476,7 +718,9 @@ openai_endpoint <- function(base_url, path) {
 call_openai_chat <- function(system_prompt, user_prompt, model_cfg) {
   api_key <- model_cfg$api_key %||% ""
   if (!nzchar(api_key)) {
-    stop("Missing OPENAI_API_KEY. Set it in zika/config/.env or the shell environment.")
+    stop(
+      "Missing OPENAI_API_KEY. Set it in zika/config/.env or the shell environment."
+    )
   }
 
   body <- list(
@@ -509,7 +753,9 @@ call_openai_chat <- function(system_prompt, user_prompt, model_cfg) {
 call_local_llm <- function(system_prompt, user_prompt, model_cfg) {
   base_url <- sub("/+$", "", model_cfg$base_url %||% "")
   if (!nzchar(base_url)) {
-    stop("Missing LOCAL_LLM_BASE_URL. Set it in zika/config/.env or the shell environment.")
+    stop(
+      "Missing LOCAL_LLM_BASE_URL. Set it in zika/config/.env or the shell environment."
+    )
   }
 
   provider <- tolower(model_cfg$provider %||% "ollama")
@@ -576,18 +822,42 @@ cosine_similarity <- function(a, b) {
   as.numeric(sum(a * b) / denom)
 }
 
-compute_rationale_similarity <- function(rationale_a, rationale_b, model_cfg, cache_env) {
+compute_rationale_similarity <- function(
+  rationale_a,
+  rationale_b,
+  model_cfg,
+  cache_env
+) {
   if (!nzchar(rationale_a) || !nzchar(rationale_b)) {
     return(list(score = NA_real_, method = "missing_rationale"))
   }
 
-  emb_a <- get_openai_embedding(rationale_a, model_cfg = model_cfg, cache_env = cache_env)
-  emb_b <- get_openai_embedding(rationale_b, model_cfg = model_cfg, cache_env = cache_env)
-  list(score = cosine_similarity(emb_a, emb_b), method = "openai_embedding_cosine")
+  emb_a <- get_openai_embedding(
+    rationale_a,
+    model_cfg = model_cfg,
+    cache_env = cache_env
+  )
+  emb_b <- get_openai_embedding(
+    rationale_b,
+    model_cfg = model_cfg,
+    cache_env = cache_env
+  )
+  list(
+    score = cosine_similarity(emb_a, emb_b),
+    method = "openai_embedding_cosine"
+  )
 }
 
-derive_ensemble_action <- function(openai_label, local_label, rationale_similarity, similarity_threshold) {
-  if (identical(openai_label, "irrelevant") && identical(local_label, "irrelevant")) {
+derive_ensemble_action <- function(
+  openai_label,
+  local_label,
+  rationale_similarity,
+  similarity_threshold
+) {
+  if (
+    identical(openai_label, "irrelevant") &&
+      identical(local_label, "irrelevant")
+  ) {
     return("drop")
   }
 
@@ -611,16 +881,27 @@ ensemble_label_from_action <- function(action) {
   )
 }
 
-deterministic_validation_sample <- function(scored_df, sample_size, seed = 42L) {
+deterministic_validation_sample <- function(
+  scored_df,
+  sample_size,
+  seed = 42L
+) {
   if (nrow(scored_df) == 0) {
     return(scored_df[0, , drop = FALSE])
   }
 
   candidate_df <- scored_df %>%
     mutate(
-      agreement_bucket = if_else(openai_label == local_label, "agree", "disagree"),
+      agreement_bucket = if_else(
+        openai_label == local_label,
+        "agree",
+        "disagree"
+      ),
       sample_stratum = paste(final_action, agreement_bucket, sep = "__"),
-      sample_order_key = map_chr(record_id, ~ digest(.x, algo = "xxhash64", serialize = FALSE))
+      sample_order_key = map_chr(
+        record_id,
+        ~ digest(.x, algo = "xxhash64", serialize = FALSE)
+      )
     )
 
   total_n <- nrow(candidate_df)
@@ -641,20 +922,28 @@ deterministic_validation_sample <- function(scored_df, sample_size, seed = 42L) 
   if (remaining > 0) {
     strata_counts <- strata_counts %>%
       arrange(desc(fractional), sample_stratum) %>%
-      mutate(target_n = target_n + if_else(row_number() <= remaining, 1L, 0L)) %>%
+      mutate(
+        target_n = target_n + if_else(row_number() <= remaining, 1L, 0L)
+      ) %>%
       arrange(sample_stratum)
   }
 
   set.seed(seed)
   candidate_with_targets <- candidate_df %>%
-    left_join(strata_counts %>% select(sample_stratum, target_n), by = "sample_stratum")
+    left_join(
+      strata_counts %>% select(sample_stratum, target_n),
+      by = "sample_stratum"
+    )
 
-  sampled <- purrr::map_dfr(split(candidate_with_targets, candidate_with_targets$sample_stratum), function(group_df) {
-    target_n <- unique(group_df$target_n)[1]
-    group_df %>%
-      arrange(sample_order_key) %>%
-      slice_head(n = target_n)
-  })
+  sampled <- purrr::map_dfr(
+    split(candidate_with_targets, candidate_with_targets$sample_stratum),
+    function(group_df) {
+      target_n <- unique(group_df$target_n)[1]
+      group_df %>%
+        arrange(sample_order_key) %>%
+        slice_head(n = target_n)
+    }
+  )
 
   sampled %>%
     select(-target_n) %>%
@@ -662,10 +951,19 @@ deterministic_validation_sample <- function(scored_df, sample_size, seed = 42L) 
 }
 
 metric_row <- function(group, metric, value, subgroup = "") {
-  tibble(metric_group = group, metric_name = metric, subgroup = subgroup, value = value)
+  tibble(
+    metric_group = group,
+    metric_name = metric,
+    subgroup = subgroup,
+    value = value
+  )
 }
 
-classification_metrics <- function(truth, pred, labels = c("relevant", "irrelevant", "unsure")) {
+classification_metrics <- function(
+  truth,
+  pred,
+  labels = c("relevant", "irrelevant", "unsure")
+) {
   truth <- as.character(truth)
   pred <- as.character(pred)
   valid <- truth %in% labels & pred %in% labels

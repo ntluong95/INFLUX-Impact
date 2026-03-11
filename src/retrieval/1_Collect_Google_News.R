@@ -10,8 +10,8 @@ keyword_base <- "https://news.google.com/rss/search?q=zika+after:"
 #TODO AVOID unnecessary duplications
 #NOTES  every duplicate URL appears exactly twice, and always in consecutive windows (gap = 1 day).
 # Define search date ranges
-start_dates <- seq(ymd("2015-01-01"), ymd("2015-12-30"), by = "days")
-end_dates <- seq(ymd("2015-01-02"), ymd("2015-12-31"), by = "days")
+start_dates <- seq(ymd("2010-01-01"), ymd("2025-12-30"), by = "days")
+end_dates <- seq(ymd("2010-01-02"), ymd("2025-12-31"), by = "days")
 
 # Initialize an empty list to store data frames
 results_list <- list()
@@ -92,7 +92,7 @@ if (length(results_list) > 0) {
   # ]
 
   # Write the combined data frame to a CSV file
-  write.csv(combined_df, "~/data/Zika_News_2015.csv", row.names = FALSE)
+  write.csv(combined_df, "~/data/Zika_News_2010_2025.csv", row.names = FALSE)
 } else {
   message("No data collected.")
 }

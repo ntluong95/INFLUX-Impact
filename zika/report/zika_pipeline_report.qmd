@@ -1,0 +1,429 @@
+---
+title: "Zika Pipeline Status Report"
+subtitle: "Stages 1-3 MVP diagnostics and current outputs"
+author: "INFLUX Impact"
+date: last-modified
+format:
+  html:
+    toc: true
+    number-sections: true
+    code-fold: show
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+## Scope
+
+This report summarizes the current state of the Zika news-mining MVP pipeline in `zika/`:
+
+1. Google News retrieval and cached manifest status
+2. Headline ensemble filtering diagnostics and validation assets
+3. Full-text retrieval status
+
+The report is designed to read generated artifacts directly from disk and surface incomplete or invalid states explicitly.
+
+::: {.callout-warning}
+Stage 2 outputs should only be treated as complete when both model outputs are present and both `openai_error` and `local_error` are empty.
+:::
+
+```{r}
+#| label: setup-r
+pacman::p_load(
+  rio, # File import
+  here, # File locator
+  arrow,
+  reticulate,
+  httr,
+  jsonlite,
+  stringr,
+  tidyverse # data management + ggplot2 graphics
+)
+
+use_virtualenv(here::here(".venv"))
+# arrow::install_pyarrow() # need to install pip
+Sys.setenv(RETICULATE_PYTHON = here::here(".venv"))
+
+repl_python()
+
+find_repo_root <- function(start = getwd()) {
+  current <- normalizePath(start, winslash = "/", mustWork = TRUE)
+  while (TRUE) {
+    if (
+      dir.exists(file.path(current, "zika")) ||
+        dir.exists(file.path(current, "src"))
+    ) {
+      return(current)
+    }
+    parent <- dirname(current)
+    if (identical(parent, current)) {
+      stop("Could not locate repository root.")
+    }
+    current <- parent
+  }
+}
+
+ROOT <- find_repo_root()
+ZIKA <- file.path(ROOT, "zika")
+
+safe_read_csv <- function(path) {
+  if (!file.exists(path)) {
+    return(tibble())
+  }
+  suppressMessages(readr::read_csv(path, show_col_types = FALSE))
+}
+
+artifact_info <- function(path_label, path) {
+  exists <- file.exists(path)
+  rel_path <- if (startsWith(path, paste0(ROOT, "/"))) {
+    substring(path, nchar(ROOT) + 2L)
+  } else {
+    path
+  }
+  tibble(
+    artifact = path_label,
+    path = rel_path,
+    exists = exists,
+    size_kb = if (exists) round(file.info(path)$size / 1024, 1) else NA_real_,
+    modified_at = if (exists) {
+      as.character(file.info(path)$mtime)
+    } else {
+      NA_character_
+    }
+  )
+}
+
+`%||%` <- function(x, y) {
+  if (is.null(x) || length(x) == 0) y else x
+}
+
+manifest_path <- file.path(ZIKA, "data", "raw", "rss", "zika_rss_manifest.csv")
+rss_path <- file.path(ZIKA, "data", "intermediate", "zika_rss_raw.csv")
+scored_path <- file.path(
+  ZIKA,
+  "data",
+  "intermediate",
+  "zika_headlines_scored.csv"
+)
+validation_path <- file.path(
+  ZIKA,
+  "data",
+  "validation",
+  "zika_headline_validation_sample.csv"
+)
+metrics_json_path <- file.path(
+  ZIKA,
+  "data",
+  "validation",
+  "zika_headline_metrics.json"
+)
+fulltext_path <- file.path(ZIKA, "data", "final", "zika_fulltext.csv")
+fulltext_failed_path <- file.path(
+  ZIKA,
+  "data",
+  "final",
+  "zika_fulltext_failed.csv"
+)
+
+manifest_df <- safe_read_csv(manifest_path)
+rss_df <- safe_read_csv(rss_path)
+scored_df <- safe_read_csv(scored_path)
+validation_df <- safe_read_csv(validation_path)
+fulltext_df <- safe_read_csv(fulltext_path)
+fulltext_failed_df <- safe_read_csv(fulltext_failed_path)
+metrics_payload <- if (file.exists(metrics_json_path)) {
+  jsonlite::fromJSON(metrics_json_path, simplifyVector = TRUE)
+} else {
+  list()
+}
+
+completed_score_mask <- function(df) {
+  if (!nrow(df)) {
+    return(logical())
+  }
+  openai_ok <- !is.na(df$openai_label) &
+    df$openai_label %in% c("relevant", "irrelevant", "unsure")
+  local_ok <- !is.na(df$local_label) &
+    df$local_label %in% c("relevant", "irrelevant", "unsure")
+  action_ok <- !is.na(df$final_action) &
+    df$final_action %in% c("keep", "drop", "review")
+  openai_err <- if ("openai_error" %in% names(df)) {
+    trimws(coalesce(df$openai_error, ""))
+  } else {
+    ""
+  }
+  local_err <- if ("local_error" %in% names(df)) {
+    trimws(coalesce(df$local_error, ""))
+  } else {
+    ""
+  }
+  openai_ok & local_ok & action_ok & openai_err == "" & local_err == ""
+}
+
+completed_scored_df <- if (nrow(scored_df)) {
+  scored_df[completed_score_mask(scored_df), , drop = FALSE]
+} else {
+  tibble()
+}
+```
+
+## Artifact Inventory
+
+```{r}
+bind_rows(
+  artifact_info("Stage 1 manifest", manifest_path),
+  artifact_info("Stage 1 normalized RSS", rss_path),
+  artifact_info("Stage 2 scored headlines", scored_path),
+  artifact_info("Stage 2 validation sample", validation_path),
+  artifact_info("Stage 2 metrics JSON", metrics_json_path),
+  artifact_info("Stage 3 full text", fulltext_path),
+  artifact_info("Stage 3 failed full text", fulltext_failed_path)
+)
+```
+
+## Stage 1 Retrieval
+
+```{r}
+if (nrow(manifest_df)) {
+  manifest_df %>%
+    mutate(status = coalesce(status, "missing")) %>%
+    count(status, sort = TRUE, name = "windows")
+} else {
+  tibble(note = "No manifest found.")
+}
+```
+
+```{r}
+if (nrow(manifest_df)) {
+  tibble(
+    metric = c(
+      "manifest_rows",
+      "successful_windows",
+      "empty_windows",
+      "throttled_windows",
+      "cached_windows"
+    ),
+    value = c(
+      nrow(manifest_df),
+      sum(manifest_df$status == "success", na.rm = TRUE),
+      sum(manifest_df$status == "empty", na.rm = TRUE),
+      sum(manifest_df$status == "throttled", na.rm = TRUE),
+      sum(
+        !is.na(manifest_df$cached_path) & trimws(manifest_df$cached_path) != "",
+        na.rm = TRUE
+      )
+    )
+  )
+} else {
+  tibble(note = "No manifest metrics available.")
+}
+```
+
+```{r}
+#| label: fig-stage1-status
+#| fig-cap: "Stage 1 manifest status by window."
+if (nrow(manifest_df)) {
+  manifest_df %>%
+    mutate(status = coalesce(status, "missing")) %>%
+    count(status, sort = TRUE, name = "windows") %>%
+    ggplot(aes(x = reorder(status, windows), y = windows, fill = status)) +
+    geom_col(show.legend = FALSE) +
+    coord_flip() +
+    labs(x = NULL, y = "Windows") +
+    theme_minimal(base_size = 12)
+}
+```
+
+```{r}
+if (nrow(rss_df)) {
+  tibble(
+    metric = c(
+      "normalized_rows",
+      "unique_redirect_urls",
+      "unique_guid",
+      "date_min",
+      "date_max"
+    ),
+    value = c(
+      nrow(rss_df),
+      dplyr::n_distinct(rss_df$google_news_redirect_url, na.rm = TRUE),
+      dplyr::n_distinct(rss_df$guid, na.rm = TRUE),
+      as.character(min(rss_df$date_window_start, na.rm = TRUE)),
+      as.character(max(rss_df$date_window_end, na.rm = TRUE))
+    )
+  )
+} else {
+  tibble(note = "No normalized RSS table found.")
+}
+```
+
+## Stage 2 Ensemble Filtering
+
+```{r}
+if (nrow(scored_df)) {
+  tibble(
+    metric = c(
+      "headline_rows",
+      "completed_rows",
+      "incomplete_rows",
+      "openai_error_rows",
+      "local_error_rows"
+    ),
+    value = c(
+      nrow(scored_df),
+      nrow(completed_scored_df),
+      nrow(scored_df) - nrow(completed_scored_df),
+      sum(trimws(coalesce(scored_df$openai_error, "")) != "", na.rm = TRUE),
+      sum(trimws(coalesce(scored_df$local_error, "")) != "", na.rm = TRUE)
+    )
+  )
+} else {
+  tibble(note = "No Stage 2 scored output found.")
+}
+```
+
+```{r}
+if (nrow(completed_scored_df)) {
+  completed_scored_df %>%
+    count(final_action, sort = TRUE, name = "rows")
+} else {
+  tibble(note = "No completed ensemble rows are currently available.")
+}
+```
+
+```{r}
+if (nrow(completed_scored_df)) {
+  bind_rows(
+    completed_scored_df %>%
+      count(model = "OpenAI", label = openai_label, name = "rows"),
+    completed_scored_df %>%
+      count(model = "Local", label = local_label, name = "rows")
+  )
+} else {
+  tibble(
+    note = "Model label distributions are unavailable until Stage 2 completes cleanly."
+  )
+}
+```
+
+```{python}
+from __future__ import annotations
+
+from pathlib import Path
+import pandas as pd
+
+
+def find_repo_root(start: Path) -> Path:
+    for path in [start, *start.parents]:
+        if (path / "zika").exists():
+            return path
+    raise RuntimeError("Could not locate repository root.")
+
+
+ROOT = find_repo_root(Path.cwd())
+scored_path = ROOT / "zika" / "data" / "intermediate" / "zika_headlines_scored.csv"
+
+if scored_path.exists():
+    scored = pd.read_csv(scored_path, dtype=str).fillna("")
+    error_frames = []
+    for field in ["openai_error", "local_error"]:
+        subset = scored.loc[scored[field].str.strip() != "", field].value_counts().head(10)
+        if not subset.empty:
+            error_frames.append(
+                pd.DataFrame(
+                    {
+                        "field": field,
+                        "error": subset.index,
+                        "count": subset.values,
+                    }
+                )
+            )
+
+    if error_frames:
+        pd.concat(error_frames, ignore_index=True)
+    else:
+        pd.DataFrame({"note": ["No provider errors recorded."]})
+else:
+    pd.DataFrame({"note": ["Scored CSV not found."]})
+```
+
+## Validation Assets
+
+```{r}
+if (nrow(validation_df)) {
+  tibble(
+    metric = c("validation_rows", "labeled_rows", "unlabeled_rows"),
+    value = c(
+      nrow(validation_df),
+      sum(
+        !is.na(validation_df$gold_label) &
+          trimws(validation_df$gold_label) != "",
+        na.rm = TRUE
+      ),
+      sum(
+        is.na(validation_df$gold_label) |
+          trimws(validation_df$gold_label) == "",
+        na.rm = TRUE
+      )
+    )
+  )
+} else {
+  tibble(note = "Validation sample is empty or absent.")
+}
+```
+
+```{r}
+if (length(metrics_payload)) {
+  tibble(
+    metric = c(
+      "completed_rows",
+      "incomplete_rows",
+      "local_error_rows",
+      "openai_error_rows"
+    ),
+    value = c(
+      metrics_payload$completed_rows %||% NA,
+      metrics_payload$incomplete_rows %||% NA,
+      metrics_payload$errors$local_error_rows %||% NA,
+      metrics_payload$errors$openai_error_rows %||% NA
+    )
+  )
+} else {
+  tibble(note = "Metrics JSON not found.")
+}
+```
+
+## Stage 3 Full Text
+
+```{r}
+if (nrow(fulltext_df) || nrow(fulltext_failed_df)) {
+  tibble(
+    metric = c("successful_fulltext_rows", "failed_fulltext_rows"),
+    value = c(nrow(fulltext_df), nrow(fulltext_failed_df))
+  )
+} else {
+  tibble(note = "No full-text outputs are present yet.")
+}
+```
+
+## Current Interpretation
+
+```{r}
+if (nrow(completed_scored_df) == 0 && nrow(scored_df) > 0) {
+  tibble(
+    finding = "Stage 2 is not currently complete.",
+    detail = "The scored CSV exists, but no rows satisfy the completed ensemble criteria. Provider errors must be resolved before using validation outputs."
+  )
+} else if (nrow(completed_scored_df) > 0) {
+  tibble(
+    finding = "Stage 2 has completed rows available.",
+    detail = "Validation and downstream full-text retrieval can proceed on retained URLs."
+  )
+} else {
+  tibble(
+    finding = "Pipeline artifacts are not yet available.",
+    detail = "Run the pipeline stages first."
+  )
+}
+```
