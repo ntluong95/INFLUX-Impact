@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import argparse
-import sys
 import warnings
 from pathlib import Path
 from typing import Any
@@ -12,11 +11,7 @@ import pandas as pd
 
 warnings.filterwarnings("ignore", message=".*doesn't match a supported version.*")
 
-CURRENT_DIR = Path(__file__).resolve().parent
-if str(CURRENT_DIR) not in sys.path:
-    sys.path.insert(0, str(CURRENT_DIR))
-
-from scrape_utils import (
+from zika.python.scrape_utils import (
     canonicalize_url,
     extract_full_text,
     extract_metadata,

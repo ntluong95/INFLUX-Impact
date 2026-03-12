@@ -20,7 +20,10 @@ ensure_dir(validation_dir)
 input_csv <- file.path(intermediate_dir, "zika_rss_raw.csv")
 output_csv <- file.path(intermediate_dir, "zika_headlines_scored.csv")
 output_parquet <- file.path(intermediate_dir, "zika_headlines_scored.parquet")
-validation_csv <- file.path(validation_dir, "zika_headline_validation_sample.csv")
+validation_csv <- file.path(
+  validation_dir,
+  "zika_headline_validation_sample.csv"
+)
 metrics_json <- file.path(validation_dir, "zika_headline_metrics.json")
 metrics_csv <- file.path(validation_dir, "zika_headline_metrics.csv")
 
@@ -54,34 +57,59 @@ if (file.exists(output_csv)) {
   extra_cols <- setdiff(names(existing), names(scored_base))
   if (length(extra_cols) > 0) {
     scored_base <- scored_base %>%
-      left_join(existing %>% select(record_id, all_of(extra_cols)), by = "record_id")
+      left_join(
+        existing %>% select(record_id, all_of(extra_cols)),
+        by = "record_id"
+      )
   } else {
     scored_base <- scored_base %>%
       select(names(scored_base)) %>%
-      left_join(existing %>% select(record_id, setdiff(names(existing), names(scored_base))), by = "record_id")
+      left_join(
+        existing %>%
+          select(record_id, setdiff(names(existing), names(scored_base))),
+        by = "record_id"
+      )
   }
 
-  overlap_cols <- intersect(setdiff(names(existing), names(readr::read_csv(input_csv, show_col_types = FALSE))), names(scored_base))
+  overlap_cols <- intersect(
+    setdiff(
+      names(existing),
+      names(readr::read_csv(input_csv, show_col_types = FALSE))
+    ),
+    names(scored_base)
+  )
   for (col_name in overlap_cols) {
-    scored_base[[col_name]] <- existing[[col_name]][match(scored_base$record_id, existing$record_id)]
+    scored_base[[col_name]] <- existing[[col_name]][match(
+      scored_base$record_id,
+      existing$record_id
+    )]
   }
 }
 
-incomplete_idx <- which(is.na(scored_base$final_action) | scored_base$final_action == "")
-logger$info(glue("Stage 2 starting with {nrow(scored_base)} headlines; {length(incomplete_idx)} rows need scoring"))
+incomplete_idx <- which(
+  is.na(scored_base$final_action) | scored_base$final_action == ""
+)
+logger$info(glue(
+  "Stage 2 starting with {nrow(scored_base)} headlines; {length(incomplete_idx)} rows need scoring"
+))
 
 if (
   length(incomplete_idx) > 0 &&
     !nzchar(cfg$headline_filter$openai$api_key %||% "")
 ) {
-  stop("Missing OPENAI_API_KEY. Stage 2 requires OpenAI + local LLM scoring for incomplete rows.")
+  stop(
+    "Missing OPENAI_API_KEY. Stage 2 requires OpenAI + local LLM scoring for incomplete rows."
+  )
 }
 
 if (
   length(incomplete_idx) > 0 &&
-    (!nzchar(cfg$headline_filter$local$base_url %||% "") || !nzchar(cfg$headline_filter$local$model %||% ""))
+    (!nzchar(cfg$headline_filter$local$base_url %||% "") ||
+      !nzchar(cfg$headline_filter$local$model %||% ""))
 ) {
-  stop("Missing LOCAL_LLM_BASE_URL or LOCAL_LLM_MODEL. Stage 2 requires a configured local LLM for incomplete rows.")
+  stop(
+    "Missing LOCAL_LLM_BASE_URL or LOCAL_LLM_MODEL. Stage 2 requires a configured local LLM for incomplete rows."
+  )
 }
 
 system_prompt <- paste(
@@ -104,22 +132,35 @@ score_single_row <- function(row) {
 
   openai_result <- tryCatch(
     call_openai_chat(system_prompt, prompt, cfg$headline_filter$openai),
-    error = function(e) list(raw_http = "", content = "", error = conditionMessage(e))
+    error = function(e) {
+      list(raw_http = "", content = "", error = conditionMessage(e))
+    }
   )
-  openai_parsed <- parse_llm_label(openai_result$content %||% "", cfg$headline_filter$confidence_default)
+  openai_parsed <- parse_llm_label(
+    openai_result$content %||% "",
+    cfg$headline_filter$confidence_default
+  )
   openai_error <- openai_result$error %||% openai_parsed$parse_error
 
   local_result <- tryCatch(
     call_local_llm(system_prompt, prompt, cfg$headline_filter$local),
-    error = function(e) list(raw_http = "", content = "", error = conditionMessage(e))
+    error = function(e) {
+      list(raw_http = "", content = "", error = conditionMessage(e))
+    }
   )
-  local_parsed <- parse_llm_label(local_result$content %||% "", cfg$headline_filter$confidence_default)
+  local_parsed <- parse_llm_label(
+    local_result$content %||% "",
+    cfg$headline_filter$confidence_default
+  )
   local_error <- local_result$error %||% local_parsed$parse_error
 
   rationale_similarity <- NA_real_
   rationale_similarity_method <- "not_applicable"
 
-  if (identical(openai_parsed$label, "relevant") && identical(local_parsed$label, "relevant")) {
+  if (
+    identical(openai_parsed$label, "relevant") &&
+      identical(local_parsed$label, "relevant")
+  ) {
     sim_result <- tryCatch(
       compute_rationale_similarity(
         rationale_a = openai_parsed$rationale,
@@ -127,7 +168,12 @@ score_single_row <- function(row) {
         model_cfg = cfg$headline_filter$openai,
         cache_env = embedding_cache
       ),
-      error = function(e) list(score = NA_real_, method = paste0("embedding_error:", conditionMessage(e)))
+      error = function(e) {
+        list(
+          score = NA_real_,
+          method = paste0("embedding_error:", conditionMessage(e))
+        )
+      }
     )
     rationale_similarity <- sim_result$score
     rationale_similarity_method <- sim_result$method
@@ -141,12 +187,16 @@ score_single_row <- function(row) {
   )
 
   list(
-    openai_raw_response = openai_result$raw_http %||% openai_result$content %||% "",
+    openai_raw_response = openai_result$raw_http %||%
+      openai_result$content %||%
+      "",
     openai_label = openai_parsed$label,
     openai_confidence = openai_parsed$confidence,
     openai_rationale = openai_parsed$rationale,
     openai_error = openai_error %||% "",
-    local_raw_response = local_result$raw_http %||% local_result$content %||% "",
+    local_raw_response = local_result$raw_http %||%
+      local_result$content %||%
+      "",
     local_label = local_parsed$label,
     local_confidence = local_parsed$confidence,
     local_rationale = local_parsed$rationale,
@@ -161,11 +211,16 @@ score_single_row <- function(row) {
 
 timed_step(logger, "Headline scoring", {
   if (length(incomplete_idx) == 0) {
-    logger$info("No incomplete rows detected; refreshing diagnostics and validation assets only.")
+    logger$info(
+      "No incomplete rows detected; refreshing diagnostics and validation assets only."
+    )
     invisible(NULL)
   }
 
-  checkpoint_every <- max(1L, as.integer(cfg$headline_filter$checkpoint_every %||% 10L))
+  checkpoint_every <- max(
+    1L,
+    as.integer(cfg$headline_filter$checkpoint_every %||% 10L)
+  )
 
   for (offset in seq_along(incomplete_idx)) {
     idx <- incomplete_idx[[offset]]
@@ -195,17 +250,57 @@ scored_df <- readr::read_csv(output_csv, show_col_types = FALSE)
 
 metrics_rows <- bind_rows(
   metric_row("counts", "total_rows", nrow(scored_df)),
-  metric_row("agreement", "raw_agreement_rate", mean(scored_df$openai_label == scored_df$local_label, na.rm = TRUE)),
-  metric_row("agreement", "disagreement_rate", mean(scored_df$openai_label != scored_df$local_label, na.rm = TRUE)),
-  metric_row("agreement", "share_any_unsure", mean(scored_df$openai_label == "unsure" | scored_df$local_label == "unsure", na.rm = TRUE))
+  metric_row(
+    "agreement",
+    "raw_agreement_rate",
+    mean(scored_df$openai_label == scored_df$local_label, na.rm = TRUE)
+  ),
+  metric_row(
+    "agreement",
+    "disagreement_rate",
+    mean(scored_df$openai_label != scored_df$local_label, na.rm = TRUE)
+  ),
+  metric_row(
+    "agreement",
+    "share_any_unsure",
+    mean(
+      scored_df$openai_label == "unsure" | scored_df$local_label == "unsure",
+      na.rm = TRUE
+    )
+  )
 ) %>%
   bind_rows(
-    scored_df %>% count(openai_label, name = "value") %>% transmute(metric_group = "openai_distribution", metric_name = "label_share", subgroup = openai_label, value = value / sum(value)),
-    scored_df %>% count(local_label, name = "value") %>% transmute(metric_group = "local_distribution", metric_name = "label_share", subgroup = local_label, value = value / sum(value)),
-    scored_df %>% count(final_action, name = "value") %>% transmute(metric_group = "ensemble_distribution", metric_name = "action_share", subgroup = final_action, value = value / sum(value))
+    scored_df %>%
+      count(openai_label, name = "value") %>%
+      transmute(
+        metric_group = "openai_distribution",
+        metric_name = "label_share",
+        subgroup = openai_label,
+        value = value / sum(value)
+      ),
+    scored_df %>%
+      count(local_label, name = "value") %>%
+      transmute(
+        metric_group = "local_distribution",
+        metric_name = "label_share",
+        subgroup = local_label,
+        value = value / sum(value)
+      ),
+    scored_df %>%
+      count(final_action, name = "value") %>%
+      transmute(
+        metric_group = "ensemble_distribution",
+        metric_name = "action_share",
+        subgroup = final_action,
+        value = value / sum(value)
+      )
   )
 
-existing_validation <- if (file.exists(validation_csv)) readr::read_csv(validation_csv, show_col_types = FALSE) else tibble(record_id = character())
+existing_validation <- if (file.exists(validation_csv)) {
+  readr::read_csv(validation_csv, show_col_types = FALSE)
+} else {
+  tibble(record_id = character())
+}
 
 for (column_name in c("gold_label", "review_notes", "validated_at")) {
   if (!column_name %in% names(existing_validation)) {
@@ -251,9 +346,18 @@ labeled_validation <- validation_sample %>%
   filter(gold_label %in% c("relevant", "irrelevant", "unsure"))
 
 if (nrow(labeled_validation) > 0) {
-  openai_eval <- classification_metrics(labeled_validation$gold_label, labeled_validation$openai_label)
-  local_eval <- classification_metrics(labeled_validation$gold_label, labeled_validation$local_label)
-  ensemble_eval <- classification_metrics(labeled_validation$gold_label, labeled_validation$ensemble_label)
+  openai_eval <- classification_metrics(
+    labeled_validation$gold_label,
+    labeled_validation$openai_label
+  )
+  local_eval <- classification_metrics(
+    labeled_validation$gold_label,
+    labeled_validation$local_label
+  )
+  ensemble_eval <- classification_metrics(
+    labeled_validation$gold_label,
+    labeled_validation$ensemble_label
+  )
 
   metrics_rows <- metrics_rows %>%
     bind_rows(
@@ -276,14 +380,29 @@ metrics_payload <- list(
   generated_at = timestamp_utc(),
   total_rows = nrow(scored_df),
   agreement = list(
-    raw_agreement_rate = mean(scored_df$openai_label == scored_df$local_label, na.rm = TRUE),
-    disagreement_rate = mean(scored_df$openai_label != scored_df$local_label, na.rm = TRUE),
-    share_any_unsure = mean(scored_df$openai_label == "unsure" | scored_df$local_label == "unsure", na.rm = TRUE)
+    raw_agreement_rate = mean(
+      scored_df$openai_label == scored_df$local_label,
+      na.rm = TRUE
+    ),
+    disagreement_rate = mean(
+      scored_df$openai_label != scored_df$local_label,
+      na.rm = TRUE
+    ),
+    share_any_unsure = mean(
+      scored_df$openai_label == "unsure" | scored_df$local_label == "unsure",
+      na.rm = TRUE
+    )
   ),
   distributions = list(
-    openai = scored_df %>% count(openai_label, name = "n") %>% arrange(openai_label),
-    local = scored_df %>% count(local_label, name = "n") %>% arrange(local_label),
-    ensemble_action = scored_df %>% count(final_action, name = "n") %>% arrange(final_action)
+    openai = scored_df %>%
+      count(openai_label, name = "n") %>%
+      arrange(openai_label),
+    local = scored_df %>%
+      count(local_label, name = "n") %>%
+      arrange(local_label),
+    ensemble_action = scored_df %>%
+      count(final_action, name = "n") %>%
+      arrange(final_action)
   ),
   validation = list(
     sample_path = validation_csv,
@@ -291,7 +410,15 @@ metrics_payload <- list(
   )
 )
 
-write(jsonlite::toJSON(metrics_payload, pretty = TRUE, auto_unbox = TRUE, null = "null"), metrics_json)
+write(
+  jsonlite::toJSON(
+    metrics_payload,
+    pretty = TRUE,
+    auto_unbox = TRUE,
+    null = "null"
+  ),
+  metrics_json
+)
 
 logger$info(glue("Scored output written to {output_csv} and {output_parquet}"))
 logger$info(glue("Validation sample written to {validation_csv}"))

@@ -62,6 +62,26 @@ def load_config(config_path: Path) -> dict[str, Any]:
         openai_cfg["model"] = model
     if base := (getenv_nonempty("OPENAI_BASE_URL") or env_file_values.get("OPENAI_BASE_URL", "")):
         openai_cfg["base_url"] = base
+    if batch_enabled := (
+        getenv_nonempty("OPENAI_BATCH_ENABLED")
+        or env_file_values.get("OPENAI_BATCH_ENABLED", "")
+    ):
+        openai_cfg["use_batch"] = batch_enabled.strip().lower() in {
+            "1",
+            "true",
+            "yes",
+            "on",
+        }
+    if batch_window := (
+        getenv_nonempty("OPENAI_BATCH_COMPLETION_WINDOW")
+        or env_file_values.get("OPENAI_BATCH_COMPLETION_WINDOW", "")
+    ):
+        openai_cfg["batch_completion_window"] = batch_window
+    if batch_poll_seconds := (
+        getenv_nonempty("OPENAI_BATCH_POLL_SECONDS")
+        or env_file_values.get("OPENAI_BATCH_POLL_SECONDS", "")
+    ):
+        openai_cfg["batch_poll_seconds"] = int(batch_poll_seconds)
 
     local_cfg = hf.setdefault("local", {})
     if provider := (
@@ -226,21 +246,11 @@ def ollama_available_models(base_url: str, timeout_seconds: int = 30) -> list[st
 
 
 def call_openai_chat(system: str, user: str, cfg: dict[str, Any]) -> tuple[str, str]:
-    api_key = cfg.get("api_key", "")
-    if not api_key:
-        raise ValueError("OPENAI_API_KEY is not set.")
-
-    base_url = normalized_base_url(cfg.get("base_url"), "https://api.openai.com/v1")
-    if not base_url.endswith("/v1"):
-        base_url += "/v1"
-
+    headers = openai_headers(cfg)
+    base_url = openai_api_base_url(cfg)
     url = f"{base_url}/chat/completions"
-    headers = {
-        "Authorization": f"Bearer {api_key}",
-        "Content-Type": "application/json",
-    }
     payload = {
-        "model": cfg.get("model", "gpt-4o-mini"),
+        "model": cfg.get("model", "gpt-5-nano"),
         "temperature": cfg.get("temperature", 0),
         "max_tokens": cfg.get("max_tokens", 120),
         "response_format": {"type": "json_object"},
@@ -258,6 +268,84 @@ def call_openai_chat(system: str, user: str, cfg: dict[str, Any]) -> tuple[str, 
     return resp.text, data["choices"][0]["message"].get("content", "")
 
 
+def openai_api_base_url(cfg: dict[str, Any]) -> str:
+    base_url = normalized_base_url(cfg.get("base_url"), "https://api.openai.com/v1")
+    if not base_url.endswith("/v1"):
+        base_url += "/v1"
+    return base_url
+
+
+def openai_headers(cfg: dict[str, Any]) -> dict[str, str]:
+    api_key = cfg.get("api_key", "")
+    if not api_key:
+        raise ValueError("OPENAI_API_KEY is not set.")
+    return {
+        "Authorization": f"Bearer {api_key}",
+        "Content-Type": "application/json",
+    }
+
+
+def upload_openai_batch_file(jsonl_path: Path, cfg: dict[str, Any]) -> dict[str, Any]:
+    url = f"{openai_api_base_url(cfg)}/files"
+    headers = {"Authorization": openai_headers(cfg)["Authorization"]}
+    with jsonl_path.open("rb") as handle:
+        resp = requests.post(
+            url,
+            headers=headers,
+            data={"purpose": "batch"},
+            files={"file": (jsonl_path.name, handle, "application/jsonl")},
+            timeout=cfg.get("timeout_seconds", 60),
+        )
+    resp.raise_for_status()
+    return resp.json()
+
+
+def create_openai_batch(
+    input_file_id: str,
+    cfg: dict[str, Any],
+    endpoint: str = "/v1/chat/completions",
+    metadata: dict[str, str] | None = None,
+) -> dict[str, Any]:
+    url = f"{openai_api_base_url(cfg)}/batches"
+    payload: dict[str, Any] = {
+        "input_file_id": input_file_id,
+        "endpoint": endpoint,
+        "completion_window": cfg.get("batch_completion_window", "24h"),
+    }
+    if metadata:
+        payload["metadata"] = metadata
+    resp = requests.post(
+        url,
+        headers=openai_headers(cfg),
+        json=payload,
+        timeout=cfg.get("timeout_seconds", 60),
+    )
+    resp.raise_for_status()
+    return resp.json()
+
+
+def retrieve_openai_batch(batch_id: str, cfg: dict[str, Any]) -> dict[str, Any]:
+    url = f"{openai_api_base_url(cfg)}/batches/{batch_id}"
+    resp = requests.get(
+        url,
+        headers=openai_headers(cfg),
+        timeout=cfg.get("timeout_seconds", 60),
+    )
+    resp.raise_for_status()
+    return resp.json()
+
+
+def download_openai_file_content(file_id: str, cfg: dict[str, Any]) -> str:
+    url = f"{openai_api_base_url(cfg)}/files/{file_id}/content"
+    resp = requests.get(
+        url,
+        headers=openai_headers(cfg),
+        timeout=cfg.get("timeout_seconds", 60),
+    )
+    resp.raise_for_status()
+    return resp.text
+
+
 def parse_openai_style_content(data: dict[str, Any]) -> str:
     choices = data.get("choices") or []
     if not choices:
@@ -271,7 +359,7 @@ def post_local_ollama_generate(
 ) -> tuple[str, str]:
     url = f"{base_url}/api/generate"
     payload = {
-        "model": cfg.get("model", "qwen2.5:14b"),
+        "model": cfg.get("model", "deepseek-r1:14b"),
         "system": system,
         "prompt": user,
         "stream": False,
@@ -292,7 +380,7 @@ def post_local_ollama_chat(
 ) -> tuple[str, str]:
     url = f"{base_url}/api/chat"
     payload = {
-        "model": cfg.get("model", "qwen2.5:14b"),
+        "model": cfg.get("model", "deepseek-r1:14b"),
         "messages": [
             {"role": "system", "content": system},
             {"role": "user", "content": user},
@@ -317,7 +405,7 @@ def post_local_openai_compatible(
     url = f"{base_url}/v1/chat/completions"
     headers = {"Content-Type": "application/json"}
     payload = {
-        "model": cfg.get("model", "qwen2.5:14b"),
+        "model": cfg.get("model", "deepseek-r1:14b"),
         "temperature": cfg.get("temperature", 0),
         "max_tokens": cfg.get("max_tokens", 120),
         "response_format": {"type": "json_object"},

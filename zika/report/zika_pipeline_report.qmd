@@ -328,7 +328,9 @@ if scored_path.exists():
     scored = pd.read_csv(scored_path, dtype=str).fillna("")
     error_frames = []
     for field in ["openai_error", "local_error"]:
-        subset = scored.loc[scored[field].str.strip() != "", field].value_counts().head(10)
+        subset = (
+            scored.loc[scored[field].str.strip() != "", field].value_counts().head(10)
+        )
         if not subset.empty:
             error_frames.append(
                 pd.DataFrame(

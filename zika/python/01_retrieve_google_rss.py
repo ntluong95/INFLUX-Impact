@@ -1,23 +1,15 @@
 from __future__ import annotations
 
 import argparse
-import sys
 import time
 import warnings
 from datetime import date, timedelta
 from pathlib import Path
-from typing import Any
+from typing import Any, cast
 import requests
 import pandas as pd
 
-warnings.filterwarnings("ignore", message=".*doesn't match a supported version.*")
-
-
-CURRENT_DIR = Path(__file__).resolve().parent
-if str(CURRENT_DIR) not in sys.path:
-    sys.path.insert(0, str(CURRENT_DIR))
-
-from rss_utils import (
+from zika.python.rss_utils import (
     InstrumentedGoogleNews,
     build_date_windows,
     build_proxy_settings,
@@ -39,6 +31,8 @@ from rss_utils import (
     write_manifest,
 )
 
+warnings.filterwarnings("ignore", message=".*doesn't match a supported version.*")
+
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
@@ -48,9 +42,17 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def update_manifest_row(manifest_df: pd.DataFrame, idx: int, **values: Any) -> None:
+def frame_value(df: pd.DataFrame, idx: Any, column: str) -> Any:
+    return cast(Any, df).loc[idx, column]
+
+
+def set_frame_value(df: pd.DataFrame, idx: Any, column: str, value: Any) -> None:
+    cast(Any, df).loc[idx, column] = value
+
+
+def update_manifest_row(manifest_df: pd.DataFrame, idx: Any, **values: Any) -> None:
     for key, value in values.items():
-        manifest_df.at[idx, key] = "" if value is None else str(value)
+        set_frame_value(manifest_df, idx, key, "" if value is None else str(value))
 
 
 def main() -> None:
@@ -155,21 +157,27 @@ def main() -> None:
             paused_for_throttle = True
             break
 
-        manifest_df.at[idx, "cached_path"] = cached_rel or cache_relative_path(
-            query=query,
-            window_start=window_start,
-            window_end=window_end,
-            cache_format=str(rss_cfg.get("cache_format", "json")),
+        set_frame_value(
+            manifest_df,
+            idx,
+            "cached_path",
+            cached_rel
+            or cache_relative_path(
+                query=query,
+                window_start=window_start,
+                window_end=window_end,
+                cache_format=str(rss_cfg.get("cache_format", "json")),
+            ),
         )
-        cached_path = zika_root / str(manifest_df.at[idx, "cached_path"])
+        cached_path = zika_root / str(frame_value(manifest_df, idx, "cached_path"))
 
         window_completed = False
-        last_error_summary = ""
-        last_http_status = ""
 
         for attempt_number in range(1, max_retries + 1):
             attempt_started_at = utc_now_iso()
-            attempts_total = int(str(manifest_df.at[idx, "attempts"] or "0")) + 1
+            attempts_total = (
+                int(str(frame_value(manifest_df, idx, "attempts") or "0")) + 1
+            )
             update_manifest_row(
                 manifest_df,
                 idx,
@@ -256,8 +264,6 @@ def main() -> None:
                 else:
                     error_summary = truncate_for_log(error_text)
 
-                last_error_summary = error_summary
-                last_http_status = http_status
                 retryable = should_retry(
                     http_status=int(http_status)
                     if str(http_status).isdigit()

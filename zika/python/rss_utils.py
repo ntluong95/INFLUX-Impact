@@ -7,14 +7,12 @@ import os
 import random
 import re
 import tempfile
-import time
 import warnings
 from datetime import date, datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
-from typing import Any
+from typing import Any, cast
 
-warnings.filterwarnings("ignore", message=".*doesn't match a supported version.*")
 
 import feedparser
 import pandas as pd
@@ -24,6 +22,7 @@ from bs4 import BeautifulSoup
 from dotenv import load_dotenv
 from pygooglenews import GoogleNews
 
+warnings.filterwarnings("ignore", message=".*doesn't match a supported version.*")
 
 REQUESTS_WARNING = getattr(requests.exceptions, "RequestsDependencyWarning", Warning)
 warnings.filterwarnings("ignore", category=REQUESTS_WARNING)
@@ -106,7 +105,9 @@ def stable_hash(value: str) -> str:
 
 def atomic_write_text(path: Path, text: str) -> None:
     ensure_dir(path.parent)
-    fd, temp_name = tempfile.mkstemp(prefix=f"{path.stem}_", suffix=".tmp", dir=path.parent)
+    fd, temp_name = tempfile.mkstemp(
+        prefix=f"{path.stem}_", suffix=".tmp", dir=path.parent
+    )
     try:
         with os.fdopen(fd, "w", encoding="utf-8") as handle:
             handle.write(text)
@@ -120,9 +121,13 @@ def write_json_atomic(payload: dict[str, Any], path: Path) -> None:
     atomic_write_text(path, json.dumps(payload, ensure_ascii=False, indent=2))
 
 
-def write_dataframe(df: pd.DataFrame, csv_path: Path, parquet_path: Path | None = None) -> None:
+def write_dataframe(
+    df: pd.DataFrame, csv_path: Path, parquet_path: Path | None = None
+) -> None:
     ensure_dir(csv_path.parent)
-    fd, csv_temp = tempfile.mkstemp(prefix=f"{csv_path.stem}_", suffix=".csv.tmp", dir=csv_path.parent)
+    fd, csv_temp = tempfile.mkstemp(
+        prefix=f"{csv_path.stem}_", suffix=".csv.tmp", dir=csv_path.parent
+    )
     os.close(fd)
     try:
         df.to_csv(csv_temp, index=False)
@@ -134,7 +139,9 @@ def write_dataframe(df: pd.DataFrame, csv_path: Path, parquet_path: Path | None 
     if parquet_path is not None:
         ensure_dir(parquet_path.parent)
         fd, parquet_temp = tempfile.mkstemp(
-            prefix=f"{parquet_path.stem}_", suffix=".parquet.tmp", dir=parquet_path.parent
+            prefix=f"{parquet_path.stem}_",
+            suffix=".parquet.tmp",
+            dir=parquet_path.parent,
         )
         os.close(fd)
         try:
@@ -185,18 +192,18 @@ def load_config(config_path: Path) -> dict[str, Any]:
     else:
         rss_cfg["chunk_size_days"] = int(rss_cfg.get("chunk_size_days", 1))
 
-    rss_cfg["proxy_backend"] = getenv_nonempty("GOOGLE_NEWS_PROXY_BACKEND") or rss_cfg.get(
-        "proxy_backend", "direct"
-    )
+    rss_cfg["proxy_backend"] = getenv_nonempty(
+        "GOOGLE_NEWS_PROXY_BACKEND"
+    ) or rss_cfg.get("proxy_backend", "direct")
     rss_cfg["http_proxy"] = getenv_nonempty("GOOGLE_NEWS_HTTP_PROXY") or rss_cfg.get(
         "http_proxy", ""
     )
     rss_cfg["https_proxy"] = getenv_nonempty("GOOGLE_NEWS_HTTPS_PROXY") or rss_cfg.get(
         "https_proxy", ""
     )
-    rss_cfg["scraping_bee_api_key"] = getenv_nonempty("SCRAPING_BEE_API_KEY") or rss_cfg.get(
-        "scraping_bee_api_key", ""
-    )
+    rss_cfg["scraping_bee_api_key"] = getenv_nonempty(
+        "SCRAPING_BEE_API_KEY"
+    ) or rss_cfg.get("scraping_bee_api_key", "")
 
     if timeout_env := getenv_nonempty("TIMEOUT_SECONDS"):
         rss_cfg["timeout_seconds"] = int(timeout_env)
@@ -214,7 +221,9 @@ def load_config(config_path: Path) -> dict[str, Any]:
     return cfg
 
 
-def build_date_windows(start_date: str, end_date: str, chunk_size_days: int) -> list[dict[str, str]]:
+def build_date_windows(
+    start_date: str, end_date: str, chunk_size_days: int
+) -> list[dict[str, str]]:
     start = date.fromisoformat(start_date)
     end = date.fromisoformat(end_date)
     size = max(1, int(chunk_size_days))
@@ -235,7 +244,9 @@ def build_date_windows(start_date: str, end_date: str, chunk_size_days: int) -> 
     return windows
 
 
-def cache_relative_path(query: str, window_start: str, window_end: str, cache_format: str = "json") -> str:
+def cache_relative_path(
+    query: str, window_start: str, window_end: str, cache_format: str = "json"
+) -> str:
     extension = cache_format.lower().strip(".") or "json"
     return f"data/raw/rss/{query}_{window_start}_{window_end}.{extension}"
 
@@ -318,17 +329,24 @@ def parse_rfc822_to_utc(value: str | None) -> str:
         return ""
     try:
         parsed = parsedate_to_datetime(value)
-    except (TypeError, ValueError, IndexError):
+    except TypeError, ValueError, IndexError:
         return ""
     if parsed.tzinfo is None:
         parsed = parsed.replace(tzinfo=timezone.utc)
-    return parsed.astimezone(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
+    return (
+        parsed.astimezone(timezone.utc)
+        .replace(microsecond=0)
+        .isoformat()
+        .replace("+00:00", "Z")
+    )
 
 
 def clean_html_text(html: str | None) -> str:
     if not html:
         return ""
-    return normalize_whitespace(BeautifulSoup(html, "html.parser").get_text(" ", strip=True))
+    return normalize_whitespace(
+        BeautifulSoup(html, "html.parser").get_text(" ", strip=True)
+    )
 
 
 def serialize_for_json(value: Any) -> Any:
@@ -385,7 +403,9 @@ def dedupe_rss_records(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
         kind="stable",
     ).reset_index(drop=True)
 
-    duplicate_redirect = work["dedupe_redirect_key"].notna() & work["dedupe_redirect_key"].duplicated()
+    duplicate_redirect = (
+        work["dedupe_redirect_key"].notna() & work["dedupe_redirect_key"].duplicated()
+    )
 
     remaining_after_redirect = work.loc[~duplicate_redirect].copy()
     duplicate_guid_remaining = (
@@ -413,7 +433,10 @@ def dedupe_rss_records(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
     counts = pd.DataFrame(
         [
             {"metric": "input_rows", "value": int(len(work))},
-            {"metric": "duplicate_redirect_url", "value": int(duplicate_redirect.sum())},
+            {
+                "metric": "duplicate_redirect_url",
+                "value": int(duplicate_redirect.sum()),
+            },
             {"metric": "duplicate_guid", "value": int(duplicate_guid.sum())},
             {"metric": "duplicate_title_pubdate", "value": int(duplicate_title.sum())},
             {"metric": "kept_rows", "value": int(len(kept))},
@@ -422,13 +445,17 @@ def dedupe_rss_records(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
     return kept, counts
 
 
-def is_completed_manifest_row(status: str, cached_path: Path, force_refresh: bool) -> bool:
+def is_completed_manifest_row(
+    status: str, cached_path: Path, force_refresh: bool
+) -> bool:
     if force_refresh:
         return False
     return status in {"success", "empty"} and cached_path.exists()
 
 
-def should_pause_until_next_attempt(status: str, next_eligible_attempt_at: str, now: datetime) -> bool:
+def should_pause_until_next_attempt(
+    status: str, next_eligible_attempt_at: str, now: datetime
+) -> bool:
     if status not in {"throttled", "failed"}:
         return False
     next_dt = parse_iso_datetime(next_eligible_attempt_at)
@@ -437,21 +464,29 @@ def should_pause_until_next_attempt(status: str, next_eligible_attempt_at: str, 
     return now < next_dt
 
 
-def compute_backoff_seconds(attempt_number: int, base_seconds: float, max_backoff_seconds: float) -> float:
+def compute_backoff_seconds(
+    attempt_number: int, base_seconds: float, max_backoff_seconds: float
+) -> float:
     raw = min(max_backoff_seconds, base_seconds * (2 ** max(0, attempt_number - 1)))
     return raw + random.uniform(0, 1)
 
 
-def detect_throttling(http_status: int | None, response_text: str | None, response_url: str | None) -> bool:
+def detect_throttling(
+    http_status: int | None, response_text: str | None, response_url: str | None
+) -> bool:
     if http_status in {429, 503}:
         return True
     haystack = " ".join(
-        part for part in [str(response_url or ""), str(response_text or "")[:4000]] if part
+        part
+        for part in [str(response_url or ""), str(response_text or "")[:4000]]
+        if part
     )
     return any(pattern.search(haystack) for pattern in THROTTLE_PATTERNS)
 
 
-def should_retry(http_status: int | None, throttled: bool, exc: Exception | None = None) -> bool:
+def should_retry(
+    http_status: int | None, throttled: bool, exc: Exception | None = None
+) -> bool:
     if throttled:
         return True
     if http_status in {408, 425, 429, 500, 502, 503, 504}:
@@ -466,7 +501,9 @@ def build_proxy_settings(rss_cfg: dict[str, Any]) -> dict[str, Any]:
     scraping_bee_api_key = str(rss_cfg.get("scraping_bee_api_key", "") or "").strip()
 
     if mode == "scraping_bee" and not scraping_bee_api_key:
-        raise ValueError("SCRAPING_BEE_API_KEY is required when rss.proxy_backend=scraping_bee")
+        raise ValueError(
+            "SCRAPING_BEE_API_KEY is required when rss.proxy_backend=scraping_bee"
+        )
 
     proxies: dict[str, str] | None = None
     if mode == "requests":
@@ -499,6 +536,18 @@ class InstrumentedGoogleNews(GoogleNews):
         self.session = session
         self.timeout_seconds = timeout_seconds
 
+    def _from_to_helper(self, value: str) -> str:
+        return cast(Any, self)._GoogleNews__from_to_helper(validate=value)
+
+    def _search_helper(self, query_text: str) -> str:
+        return cast(Any, self)._GoogleNews__search_helper(query_text)
+
+    def _ceid(self) -> str:
+        return cast(Any, self)._GoogleNews__ceid()
+
+    def _add_sub_articles(self, entries: Any) -> Any:
+        return cast(Any, self)._GoogleNews__add_sub_articles(entries)
+
     def build_search_url(
         self,
         query: str,
@@ -512,12 +561,12 @@ class InstrumentedGoogleNews(GoogleNews):
         if when:
             query_text += f" when:{when}"
         if from_ and not when:
-            query_text += f" after:{self._GoogleNews__from_to_helper(validate=from_)}"
+            query_text += f" after:{self._from_to_helper(from_)}"
         if to_ and not when:
-            query_text += f" before:{self._GoogleNews__from_to_helper(validate=to_)}"
+            query_text += f" before:{self._from_to_helper(to_)}"
         if helper:
-            query_text = self._GoogleNews__search_helper(query_text)
-        search_ceid = self._GoogleNews__ceid().replace("?", "&")
+            query_text = self._search_helper(query_text)
+        search_ceid = self._ceid().replace("?", "&")
         return f"{self.BASE_URL}/search?q={query_text}{search_ceid}"
 
     def _perform_request(
@@ -568,7 +617,7 @@ class InstrumentedGoogleNews(GoogleNews):
             raise RuntimeError("This feed is not available")
 
         parsed = feedparser.parse(response_text)
-        entries = self._GoogleNews__add_sub_articles(parsed.get("entries", []))
+        entries = self._add_sub_articles(parsed.get("entries", []))
 
         return {
             "feed_url": feed_url,
@@ -591,7 +640,9 @@ def parse_cached_payload(payload: dict[str, Any], cached_path: str) -> pd.DataFr
     window_end = str(payload.get("window_end", "") or "")
     retrieved_at = str(payload.get("retrieved_at", "") or "")
     language = normalize_whitespace(
-        str(feed.get("language") or payload.get("language") or payload.get("lang") or "")
+        str(
+            feed.get("language") or payload.get("language") or payload.get("lang") or ""
+        )
     )
     google_rss_url = str(payload.get("feed_url", "") or "")
     feed_channel_title = normalize_whitespace(str(feed.get("title", "") or ""))
