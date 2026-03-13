@@ -13,10 +13,10 @@ import requests
 
 CURRENT_DIR = Path(__file__).resolve().parent
 REPO_ROOT = CURRENT_DIR.parents[1]
-if str(CURRENT_DIR) not in sys.path:
-    sys.path.insert(0, str(CURRENT_DIR))
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
 
-from filter_utils import load_config, normalized_base_url
+from zika.python.filter_utils import load_config, normalized_base_url
 
 
 PATCH_REF = "14604"

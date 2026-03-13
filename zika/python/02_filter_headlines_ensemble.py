@@ -13,6 +13,11 @@ import pandas as pd
 from sklearn.metrics import cohen_kappa_score, confusion_matrix
 
 import krippendorff
+
+REPO_ROOT = Path(__file__).resolve().parents[2]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+
 from zika.python.filter_utils import (
     SbertScorer,
     build_prompt,

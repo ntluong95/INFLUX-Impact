@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import sys
 import time
 import warnings
 from datetime import date, timedelta
@@ -8,6 +9,10 @@ from pathlib import Path
 from typing import Any, cast
 import requests
 import pandas as pd
+
+REPO_ROOT = Path(__file__).resolve().parents[2]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
 
 from zika.python.rss_utils import (
     InstrumentedGoogleNews,

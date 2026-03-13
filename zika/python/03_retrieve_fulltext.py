@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import sys
 import warnings
 from pathlib import Path
 from typing import Any
@@ -10,6 +11,10 @@ import requests
 import pandas as pd
 
 warnings.filterwarnings("ignore", message=".*doesn't match a supported version.*")
+
+REPO_ROOT = Path(__file__).resolve().parents[2]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
 
 from zika.python.scrape_utils import (
     canonicalize_url,

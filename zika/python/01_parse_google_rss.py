@@ -7,11 +7,11 @@ from pathlib import Path
 
 import pandas as pd
 
-CURRENT_DIR = Path(__file__).resolve().parent
-if str(CURRENT_DIR) not in sys.path:
-    sys.path.insert(0, str(CURRENT_DIR))
+REPO_ROOT = Path(__file__).resolve().parents[2]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
 
-from rss_utils import (
+from zika.python.rss_utils import (
     RSS_OUTPUT_COLUMNS,
     dedupe_rss_records,
     load_config,
