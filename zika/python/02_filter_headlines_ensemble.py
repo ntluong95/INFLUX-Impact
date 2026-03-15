@@ -18,7 +18,7 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
-from zika.python.filter_utils import (
+from zika.python.filter_utils import (  # noqa: E402
     SbertScorer,
     build_prompt,
     call_local_chat,
@@ -120,11 +120,15 @@ def local_complete(row: pd.Series) -> bool:
 
 
 def rows_needing_openai(df: pd.DataFrame) -> list[int]:
-    return [idx for idx in df.index.tolist() if not openai_complete(row_as_series(df, idx))]
+    return [
+        idx for idx in df.index.tolist() if not openai_complete(row_as_series(df, idx))
+    ]
 
 
 def rows_needing_local(df: pd.DataFrame) -> list[int]:
-    return [idx for idx in df.index.tolist() if not local_complete(row_as_series(df, idx))]
+    return [
+        idx for idx in df.index.tolist() if not local_complete(row_as_series(df, idx))
+    ]
 
 
 def completed_score_mask(df: pd.DataFrame) -> pd.Series:
@@ -790,7 +794,7 @@ def main() -> None:
 
     log_path = zika_root / "logs" / "02_filter_headlines_ensemble.log"
     logger = setup_logger(log_path)
-    # TODO Change to work only of 2015 and 2020 data
+    # TODO Change to work only of 2018 to 2020 data
     input_csv = zika_root / "data" / "intermediate" / "zika_small_rss_raw.csv"
     output_csv = zika_root / "data" / "intermediate" / "zika_headlines_scored.csv"
     output_parquet = (
@@ -948,7 +952,7 @@ def main() -> None:
                     base_df,
                     idx,
                     "openai_error",
-                    f"parse_error:{o_parsed['parse_error']}"
+                    f"parse_error:{o_parsed['parse_error']}",
                 )
                 base_df, _ = sanitize_scored_frame(base_df)
                 checkpoint_and_stop(
@@ -1077,7 +1081,9 @@ def main() -> None:
         set_frame_value(base_df, idx, "local_confidence", l_parsed["confidence"])
         set_frame_value(base_df, idx, "local_rationale", l_parsed["rationale"])
         set_frame_value(base_df, idx, "local_error", "")
-        set_frame_value(base_df, idx, "processed_at", pd.Timestamp.now("UTC").isoformat())
+        set_frame_value(
+            base_df, idx, "processed_at", pd.Timestamp.now("UTC").isoformat()
+        )
 
         current_row = row_as_series(base_df, idx)
         action_preview = (
