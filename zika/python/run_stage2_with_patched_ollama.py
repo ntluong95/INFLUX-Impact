@@ -16,11 +16,13 @@ REPO_ROOT = CURRENT_DIR.parents[1]
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
-from zika.python.filter_utils import load_config, normalized_base_url
+from zika.python.filter_utils import load_config, normalized_base_url  # noqa: E402
 
 
 PATCH_REF = "14604"
-PATCH_URL = f"https://patch-diff.githubusercontent.com/raw/ollama/ollama/pull/{PATCH_REF}.patch"
+PATCH_URL = (
+    f"https://patch-diff.githubusercontent.com/raw/ollama/ollama/pull/{PATCH_REF}.patch"
+)
 PATCH_PORT = int(os.getenv("ZIKA_OLLAMA_PATCH_PORT", "11437"))
 CACHE_ROOT = Path.home() / ".cache" / "zika" / f"ollama-pr{PATCH_REF}"
 SRC_DIR = CACHE_ROOT / "src"
@@ -78,7 +80,14 @@ def ensure_patched_ollama(logger: logging.Logger) -> Path:
         shutil.rmtree(SRC_DIR)
 
     run_and_log(
-        ["git", "clone", "--depth", "1", "https://github.com/ollama/ollama.git", str(SRC_DIR)],
+        [
+            "git",
+            "clone",
+            "--depth",
+            "1",
+            "https://github.com/ollama/ollama.git",
+            str(SRC_DIR),
+        ],
         cwd=REPO_ROOT,
         log_path=BUILD_LOG,
     )
@@ -89,7 +98,9 @@ def ensure_patched_ollama(logger: logging.Logger) -> Path:
 
     run_and_log(["git", "apply", str(PATCH_FILE)], cwd=SRC_DIR, log_path=BUILD_LOG)
     run_and_log(["go", "clean", "-cache"], cwd=SRC_DIR, log_path=BUILD_LOG)
-    run_and_log(["go", "build", "-o", str(BIN_PATH), "."], cwd=SRC_DIR, log_path=BUILD_LOG)
+    run_and_log(
+        ["go", "build", "-o", str(BIN_PATH), "."], cwd=SRC_DIR, log_path=BUILD_LOG
+    )
     logger.info("Patched Ollama build completed")
     return BIN_PATH
 
@@ -148,7 +159,12 @@ def stop_process_group(proc: subprocess.Popen[bytes | str] | None) -> None:
 
 
 def run_stage2(env: dict[str, str]) -> int:
-    cmd = [sys.executable, str(STAGE2_SCRIPT), "--config", str(CONFIG_PATH.relative_to(REPO_ROOT))]
+    cmd = [
+        sys.executable,
+        str(STAGE2_SCRIPT),
+        "--config",
+        str(CONFIG_PATH.relative_to(REPO_ROOT)),
+    ]
     result = subprocess.run(cmd, cwd=str(REPO_ROOT), env=env, check=False)
     return result.returncode
 

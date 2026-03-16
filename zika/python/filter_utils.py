@@ -184,6 +184,16 @@ def normalized_base_url(value: str | None, default: str = "") -> str:
     return base_url.rstrip("/")
 
 
+def openai_max_tokens_param(model: str) -> str:
+    normalized = model.strip().lower()
+    return "max_completion_tokens" if normalized.startswith("gpt-5") else "max_tokens"
+
+
+def openai_supports_temperature(model: str) -> bool:
+    normalized = model.strip().lower()
+    return not normalized.startswith("gpt-5")
+
+
 def summarize_http_error(exc: requests.HTTPError, limit: int = 500) -> str:
     response = getattr(exc, "response", None)
     if response is None:
@@ -249,16 +259,18 @@ def call_openai_chat(system: str, user: str, cfg: dict[str, Any]) -> tuple[str, 
     headers = openai_headers(cfg)
     base_url = openai_api_base_url(cfg)
     url = f"{base_url}/chat/completions"
+    model = str(cfg.get("model", "gpt-5-nano"))
     payload = {
-        "model": cfg.get("model", "gpt-5-nano"),
-        "temperature": cfg.get("temperature", 0),
-        "max_tokens": cfg.get("max_tokens", 120),
+        "model": model,
         "response_format": {"type": "json_object"},
         "messages": [
             {"role": "system", "content": system},
             {"role": "user", "content": user},
         ],
     }
+    if openai_supports_temperature(model):
+        payload["temperature"] = cfg.get("temperature", 0)
+    payload[openai_max_tokens_param(model)] = cfg.get("max_tokens", 120)
 
     resp = requests.post(
         url, headers=headers, json=payload, timeout=cfg.get("timeout_seconds", 60)

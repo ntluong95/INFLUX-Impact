@@ -30,6 +30,8 @@ from zika.python.filter_utils import (  # noqa: E402
     deterministic_validation_sample,
     load_config,
     normalized_base_url,
+    openai_max_tokens_param,
+    openai_supports_temperature,
     ollama_available_models,
     parse_llm_label,
     parse_openai_style_content,
@@ -270,20 +272,23 @@ def build_openai_batch_request(
     user_prompt: str,
     openai_cfg: dict[str, Any],
 ) -> dict[str, Any]:
+    model = str(openai_cfg.get("model", "gpt-5-nano"))
+    body = {
+        "model": model,
+        "response_format": {"type": "json_object"},
+        "messages": [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt},
+        ],
+    }
+    if openai_supports_temperature(model):
+        body["temperature"] = openai_cfg.get("temperature", 0)
+    body[openai_max_tokens_param(model)] = openai_cfg.get("max_tokens", 120)
     return {
         "custom_id": f"record_id:{record_id}",
         "method": "POST",
         "url": "/v1/chat/completions",
-        "body": {
-            "model": openai_cfg.get("model", "gpt-5-nano"),
-            "temperature": openai_cfg.get("temperature", 0),
-            "max_tokens": openai_cfg.get("max_tokens", 120),
-            "response_format": {"type": "json_object"},
-            "messages": [
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": user_prompt},
-            ],
-        },
+        "body": body,
     }
 
 
