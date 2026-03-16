@@ -2415,6 +2415,7 @@ border: 0;
   <ul class="collapse">
   <li><a href="#why-some-full-text-retrievals-failed" id="toc-why-some-full-text-retrievals-failed" class="nav-link" data-scroll-target="#why-some-full-text-retrievals-failed">Why some full-text retrievals failed</a></li>
   </ul></li>
+  <li><a href="#step-4-bertopic-on-the-retrieved-full-text-subset" id="toc-step-4-bertopic-on-the-retrieved-full-text-subset" class="nav-link" data-scroll-target="#step-4-bertopic-on-the-retrieved-full-text-subset">Step 4 BERTopic on the retrieved full-text subset</a></li>
   </ul>
 </nav>
 </div>
@@ -2467,8 +2468,8 @@ border: 0;
 <div class="cell-output-display">
 <table class="caption-top table table-sm table-striped small">
 <colgroup>
-<col style="width: 28%">
-<col style="width: 63%">
+<col style="width: 34%">
+<col style="width: 58%">
 <col style="width: 7%">
 </colgroup>
 <thead>
@@ -2512,6 +2513,21 @@ border: 0;
 <tr class="odd">
 <td style="text-align: left;">Stage 3 failed full text</td>
 <td style="text-align: left;">zika/data/final/zika_fulltext_failed.csv</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Stage 4 BERTopic document topics</td>
+<td style="text-align: left;">zika/data/final/zika_bertopic_document_topics.csv</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Stage 4 BERTopic topic info</td>
+<td style="text-align: left;">zika/data/final/zika_bertopic_topic_info.csv</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Stage 4 BERTopic summary JSON</td>
+<td style="text-align: left;">zika/data/final/zika_bertopic_summary.json</td>
 <td style="text-align: left;">TRUE</td>
 </tr>
 </tbody>
@@ -3323,6 +3339,126 @@ Ensemble filtering results
 </ul>
 <p>The main interpretation is that Step 3 is constrained more by <strong>publisher access control and network variability</strong> than by the extraction code itself. In the current run, the single biggest source of failure is publisher blocking via HTTP 403, while the next tier of failures comes from pages that either timed out or yielded text that was too short to count as a usable article body.</p>
 </section>
+</section>
+<section id="step-4-bertopic-on-the-retrieved-full-text-subset" class="level2">
+<h2 class="anchored" data-anchor-id="step-4-bertopic-on-the-retrieved-full-text-subset">Step 4 BERTopic on the retrieved full-text subset</h2>
+<p>To explore whether the retained full-text corpus contains coherent thematic structure beyond the headline labels, I ran BERTopic over the successful Stage 3 full-text subset. The modeling input is intentionally slightly narrower than the raw <code>zika_fulltext.csv</code> table: the script keeps documents with non-empty text, enforces a minimum word-count threshold, applies a lightweight English-language filter, and truncates each document to a fixed word budget before embedding. This makes the run faster and more reproducible while preserving the dominant topical content of each article.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>BERTopic run summary for the current full-text subset.</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;">metric</th>
+<th style="text-align: left;">value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">documents_input</td>
+<td style="text-align: left;">496</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">documents_modeled</td>
+<td style="text-align: left;">488</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">documents_excluded</td>
+<td style="text-align: left;">8</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">unique_topics_excluding_outlier</td>
+<td style="text-align: left;">2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">outlier_documents</td>
+<td style="text-align: left;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">runtime_human</td>
+<td style="text-align: left;">9s</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>BERTopic topic summary. Topic <code>-1</code> would indicate outliers; none were produced in the current run.</caption>
+<colgroup>
+<col style="width: 4%">
+<col style="width: 7%">
+<col style="width: 14%">
+<col style="width: 73%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">topic_id</th>
+<th style="text-align: right;">document_count</th>
+<th style="text-align: left;">topic_name</th>
+<th style="text-align: left;">top_terms</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">470</td>
+<td style="text-align: left;">0_zika_virus_zikv_zika virus</td>
+<td style="text-align: left;">zika | virus | zikv | zika virus | infection | health | mosquito | infected | study | microcephaly</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: left;">1_zikv_infection_virus_semen</td>
+<td style="text-align: left;">zikv | infection | virus | semen | sexual | transmission | cells | zika | sexual transmission | male</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Document share by BERTopic topic in the modeled subset.</caption>
+<colgroup>
+<col style="width: 12%">
+<col style="width: 41%">
+<col style="width: 14%">
+<col style="width: 31%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">topic_id</th>
+<th style="text-align: left;">topic_name</th>
+<th style="text-align: right;">documents</th>
+<th style="text-align: left;">share_of_modeled_docs</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">0</td>
+<td style="text-align: left;">0_zika_virus_zikv_zika virus</td>
+<td style="text-align: right;">470</td>
+<td style="text-align: left;">96.3%</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">1</td>
+<td style="text-align: left;">1_zikv_infection_virus_semen</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: left;">3.7%</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>For the current run, BERTopic received <strong>496</strong> successful full-text rows and modeled <strong>488</strong> documents after filtering. The full run completed in <strong>9s</strong> and produced <strong>2</strong> non-outlier topics with <strong>0</strong> outlier documents.</p>
+<p>Substantively, the resulting topic structure is very coarse:</p>
+<ul>
+<li>one dominant topic contains <strong>470</strong> documents and is centered on general Zika-virus reporting, with terms such as <code>zika</code>, <code>virus</code>, <code>zikv</code>, <code>infection</code>, and <code>microcephaly</code></li>
+<li>a much smaller topic contains <strong>18</strong> documents and is concentrated on sexual transmission and male reproductive persistence, with terms such as <code>semen</code>, <code>sexual</code>, and <code>transmission</code></li>
+</ul>
+<p>This is a plausible result for the current corpus. The full-text subset is already highly filtered for Zika relevance, so the documents are topically homogeneous before topic modeling even begins. In other words, BERTopic is mostly telling us that the retained corpus is dominated by a broad <strong>general Zika / infection / congenital impact</strong> theme, with one smaller but distinct <strong>sexual transmission / reproductive persistence</strong> subtheme.</p>
 </section>
 
 </main>

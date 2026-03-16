@@ -128,6 +128,24 @@ fulltext_failed_path <- file.path(
   "final",
   "zika_fulltext_failed.csv"
 )
+bertopic_doc_path <- file.path(
+  ZIKA,
+  "data",
+  "final",
+  "zika_bertopic_document_topics.csv"
+)
+bertopic_topic_info_path <- file.path(
+  ZIKA,
+  "data",
+  "final",
+  "zika_bertopic_topic_info.csv"
+)
+bertopic_summary_json_path <- file.path(
+  ZIKA,
+  "data",
+  "final",
+  "zika_bertopic_summary.json"
+)
 
 manifest_df <- safe_read_csv(manifest_path)
 rss_df <- safe_read_csv(rss_path)
@@ -135,8 +153,15 @@ scored_df <- safe_read_csv(scored_path)
 validation_df <- safe_read_csv(validation_path)
 fulltext_df <- safe_read_csv(fulltext_path)
 fulltext_failed_df <- safe_read_csv(fulltext_failed_path)
+bertopic_doc_df <- safe_read_csv(bertopic_doc_path)
+bertopic_topic_info_df <- safe_read_csv(bertopic_topic_info_path)
 metrics_payload <- if (file.exists(metrics_json_path)) {
   jsonlite::fromJSON(metrics_json_path, simplifyVector = TRUE)
+} else {
+  list()
+}
+bertopic_summary_payload <- if (file.exists(bertopic_summary_json_path)) {
+  jsonlite::fromJSON(bertopic_summary_json_path, simplifyVector = TRUE)
 } else {
   list()
 }
@@ -181,7 +206,10 @@ bind_rows(
   artifact_info("Stage 2 validation sample", validation_path),
   artifact_info("Stage 2 metrics JSON", metrics_json_path),
   artifact_info("Stage 3 full text", fulltext_path),
-  artifact_info("Stage 3 failed full text", fulltext_failed_path)
+  artifact_info("Stage 3 failed full text", fulltext_failed_path),
+  artifact_info("Stage 4 BERTopic document topics", bertopic_doc_path),
+  artifact_info("Stage 4 BERTopic topic info", bertopic_topic_info_path),
+  artifact_info("Stage 4 BERTopic summary JSON", bertopic_summary_json_path)
 ) %>%
   select(artifact, path, exists) %>%
   kableExtra::kable()
@@ -1748,3 +1776,87 @@ For the current failed-output file:
 - **`r if (nrow(stage3_failure_df)) sum(stage3_failure_df$failure_group == "network_timeout", na.rm = TRUE) else NA`** rows failed because the destination site timed out before the page could be fetched, and **`r if (nrow(stage3_failure_df)) sum(stage3_failure_df$failure_group == "ssl_or_certificate_error", na.rm = TRUE) else NA`** row failed because of an SSL certificate verification problem.
 
 The main interpretation is that Step 3 is constrained more by **publisher access control and network variability** than by the extraction code itself. In the current run, the single biggest source of failure is publisher blocking via HTTP 403, while the next tier of failures comes from pages that either timed out or yielded text that was too short to count as a usable article body.
+
+## Step 4 BERTopic on the retrieved full-text subset
+
+To explore whether the retained full-text corpus contains coherent thematic structure beyond the headline labels, I ran BERTopic over the successful Stage 3 full-text subset. The modeling input is intentionally slightly narrower than the raw `zika_fulltext.csv` table: the script keeps documents with non-empty text, enforces a minimum word-count threshold, applies a lightweight English-language filter, and truncates each document to a fixed word budget before embedding. This makes the run faster and more reproducible while preserving the dominant topical content of each article.
+
+```{r}
+#| label: stage4-bertopic-overview
+if (length(bertopic_summary_payload)) {
+  tibble(
+    metric = c(
+      "documents_input",
+      "documents_modeled",
+      "documents_excluded",
+      "unique_topics_excluding_outlier",
+      "outlier_documents",
+      "runtime_human"
+    ),
+    value = c(
+      bertopic_summary_payload$documents_input %||% NA,
+      bertopic_summary_payload$documents_modeled %||% NA,
+      bertopic_summary_payload$documents_excluded %||% NA,
+      bertopic_summary_payload$unique_topics_excluding_outlier %||% NA,
+      bertopic_summary_payload$outlier_documents %||% NA,
+      bertopic_summary_payload$runtime_human %||% NA
+    )
+  ) %>%
+    kableExtra::kable(
+      caption = "BERTopic run summary for the current full-text subset."
+    )
+} else {
+  tibble(note = "BERTopic outputs are not present yet.") %>%
+    kableExtra::kable()
+}
+```
+
+```{r}
+#| label: stage4-bertopic-topic-table
+if (nrow(bertopic_topic_info_df)) {
+  bertopic_topic_info_df %>%
+    transmute(
+      topic_id = Topic,
+      document_count = Count,
+      topic_name = Name,
+      top_terms = Representation
+    ) %>%
+    arrange(topic_id) %>%
+    kableExtra::kable(
+      caption = "BERTopic topic summary. Topic `-1` would indicate outliers; none were produced in the current run."
+    )
+} else {
+  tibble(note = "No BERTopic topic table is available.") %>%
+    kableExtra::kable()
+}
+```
+
+```{r}
+#| label: stage4-bertopic-document-shares
+if (nrow(bertopic_doc_df)) {
+  bertopic_doc_df %>%
+    count(topic_id, topic_name, name = "documents") %>%
+    mutate(
+      share_of_modeled_docs = scales::percent(
+        documents / sum(documents),
+        accuracy = 0.1
+      )
+    ) %>%
+    arrange(desc(documents), topic_id) %>%
+    kableExtra::kable(
+      caption = "Document share by BERTopic topic in the modeled subset."
+    )
+} else {
+  tibble(note = "No BERTopic document-topic assignments are available.") %>%
+    kableExtra::kable()
+}
+```
+
+For the current run, BERTopic received **`r bertopic_summary_payload$documents_input %||% NA`** successful full-text rows and modeled **`r bertopic_summary_payload$documents_modeled %||% NA`** documents after filtering. The full run completed in **`r bertopic_summary_payload$runtime_human %||% NA`** and produced **`r bertopic_summary_payload$unique_topics_excluding_outlier %||% NA`** non-outlier topics with **`r bertopic_summary_payload$outlier_documents %||% NA`** outlier documents.
+
+Substantively, the resulting topic structure is very coarse:
+
+- one dominant topic contains **`r if (nrow(bertopic_topic_info_df)) bertopic_topic_info_df$Count[bertopic_topic_info_df$Topic == 0][[1]] else NA`** documents and is centered on general Zika-virus reporting, with terms such as `zika`, `virus`, `zikv`, `infection`, and `microcephaly`
+- a much smaller topic contains **`r if (nrow(bertopic_topic_info_df) && any(bertopic_topic_info_df$Topic == 1)) bertopic_topic_info_df$Count[bertopic_topic_info_df$Topic == 1][[1]] else NA`** documents and is concentrated on sexual transmission and male reproductive persistence, with terms such as `semen`, `sexual`, and `transmission`
+
+This is a plausible result for the current corpus. The full-text subset is already highly filtered for Zika relevance, so the documents are topically homogeneous before topic modeling even begins. In other words, BERTopic is mostly telling us that the retained corpus is dominated by a broad **general Zika / infection / congenital impact** theme, with one smaller but distinct **sexual transmission / reproductive persistence** subtheme.

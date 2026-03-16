@@ -17,7 +17,7 @@ export LOCAL_LLM_PROVIDER
 export LOCAL_LLM_BASE_URL
 export LOCAL_LLM_MODEL
 
-.PHONY: zika-rss zika-rss-fetch zika-rss-parse zika-filter zika-fulltext zika-report zika-all
+.PHONY: zika-rss zika-rss-fetch zika-rss-parse zika-filter zika-fulltext zika-bertopic zika-report zika-all
 
 zika-rss-fetch:
 	cd "$(REPO_ROOT)" && uv run python zika/python/01_retrieve_google_rss.py
@@ -33,7 +33,10 @@ zika-filter:
 zika-fulltext:
 	cd "$(REPO_ROOT)" && uv run python zika/python/03_retrieve_fulltext.py
 
+zika-bertopic:
+	cd "$(REPO_ROOT)" && uv run python zika/python/04_bertopic_fulltext.py
+
 zika-report:
 	cd "$(REPO_ROOT)" && sh -lc 'command -v quarto >/dev/null 2>&1 || { echo "Quarto CLI not found. Install Quarto to render zika/report/zika_pipeline_report.qmd."; exit 1; }; quarto render zika/report/zika_pipeline_report.qmd'
 
-zika-all: zika-rss zika-filter zika-fulltext
+zika-all: zika-rss zika-filter zika-fulltext zika-bertopic

@@ -1,10 +1,11 @@
 # Zika News-Mining MVP
 
-Reproducible MVP pipeline for the first three stages of the Zika news-mining protocol:
+Reproducible MVP pipeline for the first three stages of the Zika news-mining protocol, plus an initial BERTopic analysis over the retrieved full-text subset:
 
 1. Retrieve Google News RSS results for `zika` in English from `2010-01-01` to `2015-12-31`
 2. Classify headlines with an OpenAI + local LLM ensemble and prepare human validation assets
 3. Retrieve article full text for the URLs retained by the ensemble
+4. Run BERTopic over the successful full-text subset
 
 The pipeline is isolated under `zika/` and is designed to be restartable. Existing cached Stage 1 payloads, scored headline outputs, and full-text outputs are reused on rerun.
 
@@ -36,6 +37,7 @@ zika/
     02_filter_headlines_ensemble.py
     run_stage2_with_patched_ollama.py
     03_retrieve_fulltext.py
+    04_bertopic_fulltext.py
     filter_utils.py
     rss_utils.py
     scrape_utils.py
@@ -68,6 +70,7 @@ Python packages:
 - required at runtime for stage 1: `pandas`, `pyarrow`, `requests`, `python-dotenv`, `beautifulsoup4`, `pygooglenews`
 - required at runtime for stage 2: `pandas`, `pyarrow`, `requests`, `python-dotenv`, `sentence-transformers`, `scikit-learn`
 - required at runtime for stage 3: `pandas`, `pyarrow`, `requests`, `beautifulsoup4`, `lxml`, `readability-lxml`, `trafilatura`
+- required at runtime for BERTopic: `bertopic`, `umap-learn`, `hdbscan`, `sentence-transformers`, `scikit-learn`
 - optional fallback: `newspaper3k`
 - optional for Stage 2 advanced metrics: `krippendorff`
 
@@ -109,6 +112,7 @@ make -C zika zika-rss-parse
 make -C zika zika-rss
 make -C zika zika-filter
 make -C zika zika-fulltext
+make -C zika zika-bertopic
 make -C zika zika-report
 make -C zika zika-all
 ```
@@ -121,6 +125,7 @@ make zika-rss-parse
 make zika-rss
 make zika-filter
 make zika-fulltext
+make zika-bertopic
 make zika-report
 make zika-all
 ```
@@ -152,6 +157,14 @@ Stage 3:
 - `data/final/zika_fulltext_failed.csv`
 - `logs/03_retrieve_fulltext.log`
 
+BERTopic:
+
+- `data/final/zika_bertopic_document_topics.csv`
+- `data/final/zika_bertopic_document_topics.parquet`
+- `data/final/zika_bertopic_topic_info.csv`
+- `data/final/zika_bertopic_summary.json`
+- `logs/04_bertopic_fulltext.log`
+
 Stage 3 is resumable. Reruns skip valid cached successes and cached failures by `record_id`, and the log now reports `pending`, `cached success`, `cached failed`, `new_success`, and `new_failed` so a no-op rerun is distinguishable from a fresh fetch.
 
 Report:
@@ -181,3 +194,4 @@ The stage-2 script preserves existing human labels in the validation sample and 
 - Optional proxy support is available through `requests` proxies or ScrapingBee. The default path remains direct requests with conservative throttling.
 - Parquet writing in R falls back to the repository Python environment via `uv run python` when the R `arrow` package is not installed.
 - Rendering the report requires the Quarto CLI. On this machine, `quarto` is not currently installed, so the `.qmd` can be edited now and rendered later after installing Quarto.
+- The BERTopic step currently models the successful Stage 3 full-text subset, applies a lightweight English-language filter, and truncates each document to a configurable number of words before embedding for more stable runtime.
