@@ -2530,6 +2530,21 @@ border: 0;
 <td style="text-align: left;">zika/data/final/zika_bertopic_summary.json</td>
 <td style="text-align: left;">TRUE</td>
 </tr>
+<tr class="odd">
+<td style="text-align: left;">Stage 4 BERTopic comparison CSV</td>
+<td style="text-align: left;">zika/data/final/zika_bertopic_model_comparison.csv</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Stage 4 BERTopic comparison JSON</td>
+<td style="text-align: left;">zika/data/final/zika_bertopic_model_comparison.json</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Stage 4 BERTopic topic matches</td>
+<td style="text-align: left;">zika/data/final/zika_bertopic_topic_matches.csv</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -3342,7 +3357,13 @@ Ensemble filtering results
 </section>
 <section id="step-4-bertopic-on-the-retrieved-full-text-subset" class="level2">
 <h2 class="anchored" data-anchor-id="step-4-bertopic-on-the-retrieved-full-text-subset">Step 4 BERTopic on the retrieved full-text subset</h2>
-<p>To explore whether the retained full-text corpus contains coherent thematic structure beyond the headline labels, I ran BERTopic over the successful Stage 3 full-text subset. The modeling input is intentionally slightly narrower than the raw <code>zika_fulltext.csv</code> table: the script keeps documents with non-empty text, enforces a minimum word-count threshold, applies a lightweight English-language filter, and truncates each document to a fixed word budget before embedding. This makes the run faster and more reproducible while preserving the dominant topical content of each article.</p>
+<p>To explore whether the retained full-text corpus contains coherent thematic structure beyond the headline labels, I ran BERTopic over the successful Stage 3 full-text subset. The modeling input is intentionally slightly narrower than the raw <code>zika_fulltext.csv</code> table: the script keeps documents with non-empty text, enforces a minimum word-count threshold, applies a lightweight English-language filter, and truncates each document to a fixed word budget before embedding.</p>
+<p>The deeper BERTopic analysis now compares two sentence-embedding backends on exactly the same filtered corpus:</p>
+<ul>
+<li><code>all-MiniLM-L6-v2</code></li>
+<li><code>BAAI/bge-base-en-v1.5</code></li>
+</ul>
+<p>To make the comparison defensible, both BERTopic runs share the same vectorizer vocabulary, the same c-TF-IDF settings, and the same clustering hyperparameters. The generic <code>zika_bertopic_*</code> outputs correspond to the current <strong>primary</strong> embedding backend, which remains <code>all-MiniLM-L6-v2</code>.</p>
 <div class="cell">
 <div class="cell-output-display">
 <table class="caption-top table table-sm table-striped small">
@@ -3376,7 +3397,7 @@ Ensemble filtering results
 </tr>
 <tr class="even">
 <td style="text-align: left;">runtime_human</td>
-<td style="text-align: left;">9s</td>
+<td style="text-align: left;">6s</td>
 </tr>
 </tbody>
 </table>
@@ -3387,10 +3408,10 @@ Ensemble filtering results
 <table class="caption-top table table-sm table-striped small">
 <caption>BERTopic topic summary. Topic <code>-1</code> would indicate outliers; none were produced in the current run.</caption>
 <colgroup>
-<col style="width: 4%">
-<col style="width: 7%">
-<col style="width: 14%">
-<col style="width: 73%">
+<col style="width: 3%">
+<col style="width: 5%">
+<col style="width: 17%">
+<col style="width: 72%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -3404,14 +3425,14 @@ Ensemble filtering results
 <tr class="odd">
 <td style="text-align: right;">0</td>
 <td style="text-align: right;">470</td>
-<td style="text-align: left;">0_zika_virus_zikv_zika virus</td>
-<td style="text-align: left;">zika | virus | zikv | zika virus | infection | health | mosquito | infected | study | microcephaly</td>
+<td style="text-align: left;">0_zika virus_zika_virus zikv_zikv infection</td>
+<td style="text-align: left;">zika virus | zika | virus zikv | zikv infection | dengue | mosquito | virus infection | mosquitoes | vaccine | viral</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">1</td>
 <td style="text-align: right;">18</td>
-<td style="text-align: left;">1_zikv_infection_virus_semen</td>
-<td style="text-align: left;">zikv | infection | virus | semen | sexual | transmission | cells | zika | sexual transmission | male</td>
+<td style="text-align: left;">1_zika virus_zika_transmission zika_zika rna</td>
+<td style="text-align: left;">zika virus | zika | transmission zika | zika rna | zikv infection | virus zikv | infectious virus | zikv rna | zikv sexually | antiviral</td>
 </tr>
 </tbody>
 </table>
@@ -3422,10 +3443,10 @@ Ensemble filtering results
 <table class="caption-top table table-sm table-striped small">
 <caption>Document share by BERTopic topic in the modeled subset.</caption>
 <colgroup>
-<col style="width: 12%">
-<col style="width: 41%">
-<col style="width: 14%">
-<col style="width: 31%">
+<col style="width: 10%">
+<col style="width: 52%">
+<col style="width: 11%">
+<col style="width: 25%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -3438,13 +3459,13 @@ Ensemble filtering results
 <tbody>
 <tr class="odd">
 <td style="text-align: right;">0</td>
-<td style="text-align: left;">0_zika_virus_zikv_zika virus</td>
+<td style="text-align: left;">0_zika virus_zika_virus zikv_zikv infection</td>
 <td style="text-align: right;">470</td>
 <td style="text-align: left;">96.3%</td>
 </tr>
 <tr class="even">
 <td style="text-align: right;">1</td>
-<td style="text-align: left;">1_zikv_infection_virus_semen</td>
+<td style="text-align: left;">1_zika virus_zika_transmission zika_zika rna</td>
 <td style="text-align: right;">18</td>
 <td style="text-align: left;">3.7%</td>
 </tr>
@@ -3452,13 +3473,275 @@ Ensemble filtering results
 </table>
 </div>
 </div>
-<p>For the current run, BERTopic received <strong>496</strong> successful full-text rows and modeled <strong>488</strong> documents after filtering. The full run completed in <strong>9s</strong> and produced <strong>2</strong> non-outlier topics with <strong>0</strong> outlier documents.</p>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Per-model BERTopic comparison using the same filtered corpus and shared vectorizer vocabulary.</caption>
+<colgroup>
+<col style="width: 11%">
+<col style="width: 9%">
+<col style="width: 17%">
+<col style="width: 9%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 13%">
+<col style="width: 8%">
+<col style="width: 7%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">embedding_model</th>
+<th style="text-align: right;">documents_modeled</th>
+<th style="text-align: right;">unique_topics_excluding_outlier</th>
+<th style="text-align: right;">outlier_documents</th>
+<th style="text-align: right;">largest_topic_count</th>
+<th style="text-align: left;">largest_topic_share</th>
+<th style="text-align: right;">normalized_topic_entropy</th>
+<th style="text-align: right;">runtime_seconds</th>
+<th style="text-align: right;">runtime_human</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">BAAI/bge-base-en-v1.5</td>
+<td style="text-align: right;">488</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">111</td>
+<td style="text-align: right;">70</td>
+<td style="text-align: left;">18.6%</td>
+<td style="text-align: right;">0.943</td>
+<td style="text-align: right;">25.681</td>
+<td style="text-align: right;">26</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">all-MiniLM-L6-v2</td>
+<td style="text-align: right;">488</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">470</td>
+<td style="text-align: left;">96.3%</td>
+<td style="text-align: right;">0.228</td>
+<td style="text-align: right;">6.477</td>
+<td style="text-align: right;">6</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Pairwise agreement between embedding backends on document-level topic assignments.</caption>
+<colgroup>
+<col style="width: 8%">
+<col style="width: 11%">
+<col style="width: 8%">
+<col style="width: 10%">
+<col style="width: 11%">
+<col style="width: 14%">
+<col style="width: 16%">
+<col style="width: 17%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">model_left</th>
+<th style="text-align: left;">model_right</th>
+<th style="text-align: right;">paired_documents</th>
+<th style="text-align: right;">adjusted_rand_index</th>
+<th style="text-align: right;">normalized_mutual_info</th>
+<th style="text-align: right;">paired_non_outlier_documents</th>
+<th style="text-align: right;">adjusted_rand_index_non_outlier</th>
+<th style="text-align: right;">normalized_mutual_info_non_outlier</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">all-MiniLM-L6-v2</td>
+<td style="text-align: left;">BAAI/bge-base-en-v1.5</td>
+<td style="text-align: right;">488</td>
+<td style="text-align: right;">0.022207</td>
+<td style="text-align: right;">0.126041</td>
+<td style="text-align: right;">377</td>
+<td style="text-align: right;">0.029394</td>
+<td style="text-align: right;">0.15427</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<caption>Best cross-model topic matches using c-TF-IDF cosine similarity on the shared vocabulary.</caption>
+<colgroup>
+<col style="width: 9%">
+<col style="width: 9%">
+<col style="width: 6%">
+<col style="width: 7%">
+<col style="width: 21%">
+<col style="width: 6%">
+<col style="width: 7%">
+<col style="width: 20%">
+<col style="width: 10%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">source_model</th>
+<th style="text-align: left;">target_model</th>
+<th style="text-align: right;">source_topic_id</th>
+<th style="text-align: right;">source_topic_count</th>
+<th style="text-align: left;">source_topic_name</th>
+<th style="text-align: right;">target_topic_id</th>
+<th style="text-align: right;">target_topic_count</th>
+<th style="text-align: left;">target_topic_name</th>
+<th style="text-align: right;">ctfidf_cosine_similarity</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">BAAI/bge-base-en-v1.5</td>
+<td style="text-align: left;">all-MiniLM-L6-v2</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: left;">7_zika virus_zika_zika positive_outbreak reported</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: left;">1_zika virus_zika_transmission zika_zika rna</td>
+<td style="text-align: right;">0.979757</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">BAAI/bge-base-en-v1.5</td>
+<td style="text-align: left;">all-MiniLM-L6-v2</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">70</td>
+<td style="text-align: left;">0_zika virus_zika_al zika_zikv</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">470</td>
+<td style="text-align: left;">0_zika virus_zika_virus zikv_zikv infection</td>
+<td style="text-align: right;">0.813049</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">BAAI/bge-base-en-v1.5</td>
+<td style="text-align: left;">all-MiniLM-L6-v2</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">66</td>
+<td style="text-align: left;">1_zika virus_zika infection_zika_zika exposed</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">470</td>
+<td style="text-align: left;">0_zika virus_zika_virus zikv_zikv infection</td>
+<td style="text-align: right;">0.701799</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">BAAI/bge-base-en-v1.5</td>
+<td style="text-align: left;">all-MiniLM-L6-v2</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">52</td>
+<td style="text-align: left;">3_zika virus_zika_risk zika_zika free</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">470</td>
+<td style="text-align: left;">0_zika virus_zika_virus zikv_zikv infection</td>
+<td style="text-align: right;">0.678761</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">BAAI/bge-base-en-v1.5</td>
+<td style="text-align: left;">all-MiniLM-L6-v2</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: left;">6_zika virus_zika_transmission zika_zikv infection</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">470</td>
+<td style="text-align: left;">0_zika virus_zika_virus zikv_zikv infection</td>
+<td style="text-align: right;">0.659925</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">BAAI/bge-base-en-v1.5</td>
+<td style="text-align: left;">all-MiniLM-L6-v2</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">40</td>
+<td style="text-align: left;">5_zika virus_zika_virus zikv_zikv</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">470</td>
+<td style="text-align: left;">0_zika virus_zika_virus zikv_zikv infection</td>
+<td style="text-align: right;">0.655125</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">BAAI/bge-base-en-v1.5</td>
+<td style="text-align: left;">all-MiniLM-L6-v2</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">57</td>
+<td style="text-align: left;">2_zika virus_zika_zikv infection_virus zikv</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">470</td>
+<td style="text-align: left;">0_zika virus_zika_virus zikv_zikv infection</td>
+<td style="text-align: right;">0.651402</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">BAAI/bge-base-en-v1.5</td>
+<td style="text-align: left;">all-MiniLM-L6-v2</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">42</td>
+<td style="text-align: left;">4_zika virus_zika_congenital zika_zikv infection</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">470</td>
+<td style="text-align: left;">0_zika virus_zika_virus zikv_zikv infection</td>
+<td style="text-align: right;">0.577723</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">BAAI/bge-base-en-v1.5</td>
+<td style="text-align: left;">all-MiniLM-L6-v2</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: left;">8_zika virus_zika_dengue zika_zika dengue</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">470</td>
+<td style="text-align: left;">0_zika virus_zika_virus zikv_zikv infection</td>
+<td style="text-align: right;">0.441212</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">all-MiniLM-L6-v2</td>
+<td style="text-align: left;">BAAI/bge-base-en-v1.5</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">18</td>
+<td style="text-align: left;">1_zika virus_zika_transmission zika_zika rna</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">15</td>
+<td style="text-align: left;">7_zika virus_zika_zika positive_outbreak reported</td>
+<td style="text-align: right;">0.979757</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">all-MiniLM-L6-v2</td>
+<td style="text-align: left;">BAAI/bge-base-en-v1.5</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">470</td>
+<td style="text-align: left;">0_zika virus_zika_virus zikv_zikv infection</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">70</td>
+<td style="text-align: left;">0_zika virus_zika_al zika_zikv</td>
+<td style="text-align: right;">0.813049</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>For the current primary run, BERTopic received <strong>496</strong> successful full-text rows and modeled <strong>488</strong> documents after filtering. The primary model completed in <strong>6s</strong> and produced <strong>2</strong> non-outlier topics with <strong>0</strong> outlier documents.</p>
 <p>Substantively, the resulting topic structure is very coarse:</p>
 <ul>
 <li>one dominant topic contains <strong>470</strong> documents and is centered on general Zika-virus reporting, with terms such as <code>zika</code>, <code>virus</code>, <code>zikv</code>, <code>infection</code>, and <code>microcephaly</code></li>
 <li>a much smaller topic contains <strong>18</strong> documents and is concentrated on sexual transmission and male reproductive persistence, with terms such as <code>semen</code>, <code>sexual</code>, and <code>transmission</code></li>
 </ul>
-<p>This is a plausible result for the current corpus. The full-text subset is already highly filtered for Zika relevance, so the documents are topically homogeneous before topic modeling even begins. In other words, BERTopic is mostly telling us that the retained corpus is dominated by a broad <strong>general Zika / infection / congenital impact</strong> theme, with one smaller but distinct <strong>sexual transmission / reproductive persistence</strong> subtheme.</p>
+<p>The embedding comparison is informative because the two backends do <strong>not</strong> produce the same partition:</p>
+<ul>
+<li><code>all-MiniLM-L6-v2</code> collapses almost the entire corpus into one dominant topic, with <strong>96.3%</strong> of modeled documents in its largest cluster</li>
+<li><code>BAAI/bge-base-en-v1.5</code> produces <strong>9</strong> non-outlier topics, but also marks <strong>111</strong> documents as outliers</li>
+<li>document-level agreement between the two runs is low, with <strong>ARI = 0.022207</strong> and <strong>NMI = 0.126041</strong></li>
+</ul>
+<p>At the same time, the topic-match table shows that most BGE topics still map back to MiniLM’s dominant general-Zika topic with moderately high c-TF-IDF similarity. That means BGE is not discovering a completely different subject matter universe; rather, it is subdividing the broad Zika corpus into narrower slices such as outbreak/risk, congenital outcomes, vaccines, and sexual transmission.</p>
+<p>So the practical interpretation is:</p>
+<ul>
+<li>the <strong>coarse</strong> reading is robust across models: this is still a tightly focused Zika corpus</li>
+<li>the <strong>finer-grained</strong> structure is embedding-sensitive: BGE yields a more differentiated but also noisier topic solution than MiniLM</li>
+</ul>
+<p>For this reason, MiniLM is the better choice if the goal is a stable, high-level overview of the retained corpus, whereas BGE is more useful if we want exploratory subthemes and are willing to tolerate a larger outlier bucket and lower cross-model stability.</p>
 </section>
 
 </main>
