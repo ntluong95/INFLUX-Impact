@@ -158,6 +158,30 @@ bertopic_compare_json_path <- file.path(
   "final",
   "zika_bertopic_model_comparison.json"
 )
+bertopic_modular_csv_path <- file.path(
+  ZIKA,
+  "data",
+  "final",
+  "zika_bertopic_modular_analysis.csv"
+)
+bertopic_modular_json_path <- file.path(
+  ZIKA,
+  "data",
+  "final",
+  "zika_bertopic_modular_analysis.json"
+)
+bertopic_modular_topics_path <- file.path(
+  ZIKA,
+  "data",
+  "final",
+  "zika_bertopic_modular_topics.csv"
+)
+bertopic_stage_timing_path <- file.path(
+  ZIKA,
+  "data",
+  "final",
+  "zika_bertopic_stage_timings.csv"
+)
 bertopic_topic_match_path <- file.path(
   ZIKA,
   "data",
@@ -198,6 +222,9 @@ fulltext_failed_df <- safe_read_csv(fulltext_failed_path)
 bertopic_doc_df <- safe_read_csv(bertopic_doc_path)
 bertopic_topic_info_df <- safe_read_csv(bertopic_topic_info_path)
 bertopic_compare_df <- safe_read_csv(bertopic_compare_csv_path)
+bertopic_modular_df <- safe_read_csv(bertopic_modular_csv_path)
+bertopic_modular_topics_df <- safe_read_csv(bertopic_modular_topics_path)
+bertopic_stage_timing_df <- safe_read_csv(bertopic_stage_timing_path)
 bertopic_topic_match_df <- safe_read_csv(bertopic_topic_match_path)
 bertopic_minilm_doc_df <- safe_read_csv(bertopic_minilm_doc_path)
 bertopic_minilm_topic_info_df <- safe_read_csv(bertopic_minilm_topic_info_path)
@@ -215,6 +242,11 @@ bertopic_summary_payload <- if (file.exists(bertopic_summary_json_path)) {
 }
 bertopic_compare_payload <- if (file.exists(bertopic_compare_json_path)) {
   jsonlite::fromJSON(bertopic_compare_json_path, simplifyVector = TRUE)
+} else {
+  list()
+}
+bertopic_modular_payload <- if (file.exists(bertopic_modular_json_path)) {
+  jsonlite::fromJSON(bertopic_modular_json_path, simplifyVector = TRUE)
 } else {
   list()
 }
@@ -265,6 +297,10 @@ bind_rows(
   artifact_info("Stage 4 BERTopic summary JSON", bertopic_summary_json_path),
   artifact_info("Stage 4 BERTopic comparison CSV", bertopic_compare_csv_path),
   artifact_info("Stage 4 BERTopic comparison JSON", bertopic_compare_json_path),
+  artifact_info("Stage 4 BERTopic modular analysis CSV", bertopic_modular_csv_path),
+  artifact_info("Stage 4 BERTopic modular analysis JSON", bertopic_modular_json_path),
+  artifact_info("Stage 4 BERTopic modular topics CSV", bertopic_modular_topics_path),
+  artifact_info("Stage 4 BERTopic stage timings CSV", bertopic_stage_timing_path),
   artifact_info("Stage 4 BERTopic topic matches", bertopic_topic_match_path)
 ) %>%
   select(artifact, path, exists) %>%
@@ -1835,14 +1871,18 @@ The main interpretation is that Step 3 is constrained more by **publisher access
 
 ## Step 4 BERTopic on the retrieved full-text subset
 
-To explore whether the retained full-text corpus contains coherent thematic structure beyond the headline labels, I ran BERTopic over the successful Stage 3 full-text subset. The modeling input is intentionally slightly narrower than the raw `zika_fulltext.csv` table: the script keeps documents with non-empty text, enforces a minimum word-count threshold, applies a lightweight English-language filter, and truncates each document to a fixed word budget before embedding. 
+To explore whether the retained full-text corpus contains coherent thematic structure beyond the headline labels, I ran BERTopic over the successful Stage 3 full-text subset and then expanded the analysis to the full BERTopic modular pipeline. The modeling input is intentionally narrower than the raw `zika_fulltext.csv` table: the script keeps documents with non-empty text, enforces a minimum word-count threshold, applies a lightweight English-language filter, and truncates each document to a fixed word budget before embedding.
 
-The deeper BERTopic analysis now compares two sentence-embedding backends on exactly the same filtered corpus:
+Following BERTopic's modular design, the current report now treats the pipeline as six separate submodels:
 
-- `all-MiniLM-L6-v2`
-- `BAAI/bge-base-en-v1.5`
+1. embeddings
+2. dimensionality reduction
+3. clustering
+4. vectorization
+5. c-TF-IDF weighting
+6. representation modeling
 
-To make the comparison defensible, both BERTopic runs share the same vectorizer vocabulary, the same c-TF-IDF settings, and the same clustering hyperparameters. The generic `zika_bertopic_*` outputs correspond to the current **primary** embedding backend, which remains `all-MiniLM-L6-v2`.
+The generic `zika_bertopic_*` outputs correspond to the current **primary** embedding backend, which remains `all-MiniLM-L6-v2`. The richer modular outputs are stored separately in `zika_bertopic_modular_analysis.*`, `zika_bertopic_modular_topics.csv`, and `zika_bertopic_stage_timings.csv`.
 
 ```{r}
 #| label: stage4-bertopic-overview
@@ -1853,7 +1893,9 @@ if (length(bertopic_summary_payload)) {
       "documents_modeled",
       "documents_excluded",
       "unique_topics_excluding_outlier",
-      "outlier_documents",oing 
+      "outlier_documents",
+      "embedding_seconds",
+      "bertopic_fit_seconds",
       "runtime_human"
     ),
     value = c(
@@ -1862,16 +1904,69 @@ if (length(bertopic_summary_payload)) {
       bertopic_summary_payload$documents_excluded %||% NA,
       bertopic_summary_payload$unique_topics_excluding_outlier %||% NA,
       bertopic_summary_payload$outlier_documents %||% NA,
+      if (nrow(bertopic_compare_df)) {
+        round(
+          bertopic_compare_df$embedding_seconds[
+            bertopic_compare_df$embedding_model == "all-MiniLM-L6-v2"
+          ][[1]],
+          3
+        )
+      } else {
+        NA
+      },
+      if (nrow(bertopic_compare_df)) {
+        round(
+          bertopic_compare_df$analysis_seconds[
+            bertopic_compare_df$embedding_model == "all-MiniLM-L6-v2"
+          ][[1]],
+          3
+        )
+      } else {
+        NA
+      },
       bertopic_summary_payload$runtime_human %||% NA
     )
   ) %>%
     kableExtra::kable(
-      caption = "BERTopic run summary for the current full-text subset."
+      caption = "Primary BERTopic run summary for the current full-text subset."
     )
 } else {
   tibble(note = "BERTopic outputs are not present yet.") %>%
     kableExtra::kable()
 }
+```
+
+```{r}
+#| label: stage4-bertopic-component-specification
+tibble(
+  pipeline_step = c(
+    "1. Embeddings",
+    "2. Dimensionality reduction",
+    "3. Clustering",
+    "4. Vectorizer",
+    "5. c-TF-IDF",
+    "6. Representation model"
+  ),
+  baseline_choice = c(
+    "all-MiniLM-L6-v2 and BAAI/bge-base-en-v1.5",
+    "UMAP (n_neighbors = 15, n_components = 5, min_dist = 0, cosine metric)",
+    "HDBSCAN (min_cluster_size = 12, eom)",
+    "CountVectorizer with English stop words, min_df = 2, ngrams = 1:2",
+    "ClassTfidfTransformer(reduce_frequent_words = TRUE)",
+    "KeyBERTInspired"
+  ),
+  analysis_added_in_report = c(
+    "Compare MiniLM versus BGE on the same filtered corpus.",
+    "Compare UMAP against PCA while holding the primary embedding fixed.",
+    "Compare HDBSCAN against KMeans while reusing the same MiniLM embeddings.",
+    "Compare basic unigram versus tuned bigram CountVectorizer on fixed topic assignments.",
+    "Compare standard, reduce-frequent, and BM25-plus-reduce-frequent weighting.",
+    "Compare c-TF-IDF only, KeyBERTInspired, and MMR representations."
+  )
+) %>%
+  kableExtra::kable(
+    caption = "BERTopic submodels used in the current analysis and the explicit ablations added for this report."
+  )
 ```
 
 ```{r}
@@ -1881,6 +1976,91 @@ bertopic_pairwise_df <- if (
     length(bertopic_compare_payload$pairwise_metrics)
 ) {
   tibble::as_tibble(bertopic_compare_payload$pairwise_metrics)
+} else {
+  tibble()
+}
+
+bertopic_modular_display_df <- if (nrow(bertopic_modular_df)) {
+  bertopic_modular_df %>%
+    mutate(
+      analysis_group = factor(
+        analysis_group,
+        levels = c(
+          "dimensionality_reduction",
+          "clustering",
+          "vectorizer",
+          "ctfidf",
+          "representation"
+        )
+      ),
+      largest_topic_share_pct = 100 * largest_topic_share,
+      runtime_seconds = round(runtime_seconds, 3),
+      normalized_topic_entropy = round(normalized_topic_entropy, 3),
+      mean_topic_ctfidf_cosine = round(mean_topic_ctfidf_cosine, 3)
+    )
+} else {
+  tibble()
+}
+
+bertopic_runtime_plot_df <- bind_rows(
+  if (nrow(bertopic_compare_df)) {
+    bertopic_compare_df %>%
+      transmute(
+        analysis_group = "embedding_model",
+        analysis_variant = embedding_model,
+        metric = "Embedding time (s)",
+        value = embedding_seconds
+      )
+  },
+  if (nrow(bertopic_compare_df)) {
+    bertopic_compare_df %>%
+      transmute(
+        analysis_group = "embedding_model",
+        analysis_variant = embedding_model,
+        metric = "BERTopic fit time (s)",
+        value = analysis_seconds
+      )
+  },
+  if (nrow(bertopic_modular_display_df)) {
+    bertopic_modular_display_df %>%
+      transmute(
+        analysis_group = as.character(analysis_group),
+        analysis_variant,
+        metric = "Total runtime (s)",
+        value = runtime_seconds
+      )
+  }
+) %>%
+  mutate(
+    analysis_group = factor(
+      analysis_group,
+      levels = c(
+        "embedding_model",
+        "dimensionality_reduction",
+        "clustering",
+        "vectorizer",
+        "ctfidf",
+        "representation"
+      )
+    ),
+    analysis_variant = forcats::fct_inorder(analysis_variant)
+  )
+
+bertopic_runtime_table_df <- if (nrow(bertopic_stage_timing_df)) {
+  bertopic_stage_timing_df %>%
+    mutate(
+      analysis_group = factor(
+        analysis_group,
+        levels = c(
+          "dimensionality_reduction",
+          "clustering",
+          "vectorizer",
+          "ctfidf",
+          "representation"
+        )
+      )
+    ) %>%
+    arrange(analysis_group, analysis_variant, stage_name)
 } else {
   tibble()
 }
@@ -1924,7 +2104,8 @@ bertopic_compare_plot_df <- if (nrow(bertopic_compare_df)) {
       `Topics` = unique_topics_excluding_outlier,
       `Outliers` = outlier_documents,
       `Largest topic (%)` = 100 * largest_topic_share,
-      `Runtime (s)` = runtime_seconds,
+      `Embedding time (s)` = embedding_seconds,
+      `BERTopic fit (s)` = analysis_seconds,
       `Topic entropy` = normalized_topic_entropy
     ) %>%
     tidyr::pivot_longer(
@@ -1953,6 +2134,61 @@ bertopic_assignment_heatmap_df <- if (
     count(minilm_topic, bge_topic, name = "documents")
 } else {
   tibble()
+}
+```
+
+```{r}
+#| label: stage4-bertopic-runtime-table
+if (nrow(bertopic_runtime_table_df)) {
+  bertopic_runtime_table_df %>%
+    select(
+      analysis_group,
+      analysis_variant,
+      stage_name,
+      runtime_seconds,
+      runtime_human
+    ) %>%
+    kableExtra::kable(
+      caption = "Measured runtime by BERTopic analysis. Dimensionality-reduction and clustering baselines include the MiniLM embedding pass; later lexical ablations time only `update_topics()`."
+    )
+} else {
+  tibble(note = "No BERTopic stage timing table is available.") %>%
+    kableExtra::kable()
+}
+```
+
+```{r}
+#| label: stage4-bertopic-runtime-figure
+#| fig-cap: "Runtime required for each BERTopic analysis. Embedding comparisons are split into encoding and BERTopic fit time; later module ablations reuse cached MiniLM embeddings."
+#| fig-width: 10
+#| fig-height: 6
+if (nrow(bertopic_runtime_plot_df)) {
+  ggplot(
+    bertopic_runtime_plot_df,
+    aes(
+      x = analysis_variant,
+      y = value,
+      fill = metric
+    )
+  ) +
+    geom_col(width = 0.72) +
+    facet_wrap(~ analysis_group, scales = "free_x") +
+    scale_fill_manual(values = c(
+      "Embedding time (s)" = "#355070",
+      "BERTopic fit time (s)" = "#6d597a",
+      "Total runtime (s)" = "#b56576"
+    )) +
+    labs(
+      x = NULL,
+      y = "Seconds",
+      fill = NULL
+    ) +
+    theme_minimal(base_size = 11) +
+    theme(
+      legend.position = "bottom",
+      axis.text.x = element_text(angle = 25, hjust = 1),
+      strip.text = element_text(face = "bold")
+    )
 }
 ```
 
@@ -2073,7 +2309,7 @@ if (nrow(bertopic_topic_info_df)) {
     ) %>%
     arrange(topic_id) %>%
     kableExtra::kable(
-      caption = "BERTopic topic summary. Topic `-1` would indicate outliers; none were produced in the current run."
+      caption = "Primary BERTopic topic summary. Topic `-1` would indicate outliers; none were produced in the current MiniLM run."
     )
 } else {
   tibble(note = "No BERTopic topic table is available.") %>%
@@ -2111,14 +2347,41 @@ if (nrow(bertopic_compare_df)) {
         largest_topic_share,
         accuracy = 0.1
       ),
-      normalized_topic_entropy = round(normalized_topic_entropy, 3)
+      normalized_topic_entropy = round(normalized_topic_entropy, 3),
+      mean_topic_ctfidf_cosine = round(mean_topic_ctfidf_cosine, 3),
+      max_topic_ctfidf_cosine = round(max_topic_ctfidf_cosine, 3)
     ) %>%
     arrange(embedding_model) %>%
     kableExtra::kable(
-      caption = "Per-model BERTopic comparison using the same filtered corpus and shared vectorizer vocabulary."
+      caption = "Per-model BERTopic comparison using the same filtered corpus."
     )
 } else {
   tibble(note = "No BERTopic model-comparison table is available.") %>%
+    kableExtra::kable()
+}
+```
+
+```{r}
+#| label: stage4-bertopic-modular-summary
+if (nrow(bertopic_modular_display_df)) {
+  bertopic_modular_display_df %>%
+    transmute(
+      analysis_group,
+      analysis_variant,
+      runtime_seconds,
+      topics = unique_topics_excluding_outlier,
+      outliers = outlier_documents,
+      `largest topic (%)` = round(largest_topic_share_pct, 1),
+      `topic entropy` = normalized_topic_entropy,
+      `mean c-TF-IDF cosine` = mean_topic_ctfidf_cosine,
+      `unique representation terms` = unique_representation_terms
+    ) %>%
+    arrange(analysis_group, runtime_seconds) %>%
+    kableExtra::kable(
+      caption = "Summary of the modular BERTopic analyses on the primary MiniLM embedding run."
+    )
+} else {
+  tibble(note = "No BERTopic modular analysis summary is available.") %>%
     kableExtra::kable()
 }
 ```
@@ -2142,7 +2405,7 @@ if (nrow(bertopic_topic_match_df)) {
   bertopic_topic_match_df %>%
     arrange(source_model, desc(ctfidf_cosine_similarity), source_topic_id) %>%
     kableExtra::kable(
-      caption = "Best cross-model topic matches using c-TF-IDF cosine similarity on the shared vocabulary."
+      caption = "Best cross-model topic matches using post-hoc c-TF-IDF cosine similarity on the same topic pseudo-documents."
     )
 } else {
   tibble(note = "No BERTopic cross-model topic matches are available.") %>%
@@ -2150,24 +2413,31 @@ if (nrow(bertopic_topic_match_df)) {
 }
 ```
 
-For the current primary run, BERTopic received **`r bertopic_summary_payload$documents_input %||% NA`** successful full-text rows and modeled **`r bertopic_summary_payload$documents_modeled %||% NA`** documents after filtering. The primary model completed in **`r bertopic_summary_payload$runtime_human %||% NA`** and produced **`r bertopic_summary_payload$unique_topics_excluding_outlier %||% NA`** non-outlier topics with **`r bertopic_summary_payload$outlier_documents %||% NA`** outlier documents.
+For the current primary run, BERTopic received **`r bertopic_summary_payload$documents_input %||% NA`** successful full-text rows and modeled **`r bertopic_summary_payload$documents_modeled %||% NA`** documents after filtering. The primary MiniLM run took **`r bertopic_summary_payload$runtime_human %||% NA`** in total, which splits into about **`r if (nrow(bertopic_compare_df)) round(bertopic_compare_df$embedding_seconds[bertopic_compare_df$embedding_model == "all-MiniLM-L6-v2"][[1]], 1) else NA` seconds** for embedding generation and **`r if (nrow(bertopic_compare_df)) round(bertopic_compare_df$analysis_seconds[bertopic_compare_df$embedding_model == "all-MiniLM-L6-v2"][[1]], 1) else NA` seconds** for BERTopic fitting.
 
-Substantively, the resulting topic structure is very coarse:
+The first result is about the embedding layer itself:
 
-- one dominant topic contains **`r if (nrow(bertopic_topic_info_df)) bertopic_topic_info_df$Count[bertopic_topic_info_df$Topic == 0][[1]] else NA`** documents and is centered on general Zika-virus reporting, with terms such as `zika`, `virus`, `zikv`, `infection`, and `microcephaly`
-- a much smaller topic contains **`r if (nrow(bertopic_topic_info_df) && any(bertopic_topic_info_df$Topic == 1)) bertopic_topic_info_df$Count[bertopic_topic_info_df$Topic == 1][[1]] else NA`** documents and is concentrated on sexual transmission and male reproductive persistence, with terms such as `semen`, `sexual`, and `transmission`
+- `all-MiniLM-L6-v2` finished in **`r if (nrow(bertopic_compare_df)) round(bertopic_compare_df$runtime_seconds[bertopic_compare_df$embedding_model == "all-MiniLM-L6-v2"][[1]], 1) else NA` seconds** and collapsed the corpus into a very coarse 2-topic solution with no outliers.
+- `BAAI/bge-base-en-v1.5` required **`r if (nrow(bertopic_compare_df)) round(bertopic_compare_df$runtime_seconds[bertopic_compare_df$embedding_model == "BAAI/bge-base-en-v1.5"][[1]], 1) else NA` seconds**, produced 9 non-outlier topics, and pushed **`r if (nrow(bertopic_compare_df)) bertopic_compare_df$outlier_documents[bertopic_compare_df$embedding_model == "BAAI/bge-base-en-v1.5"][[1]] else NA`** documents into the outlier bucket.
+- Document-level agreement between the two embedding backends remains low, with **ARI = `r if (nrow(bertopic_pairwise_df)) bertopic_pairwise_df$adjusted_rand_index[[1]] else NA`** and **NMI = `r if (nrow(bertopic_pairwise_df)) bertopic_pairwise_df$normalized_mutual_info[[1]] else NA`**.
 
-The embedding comparison is informative because the two backends do **not** produce the same partition:
+The second result is the modular ablation on the primary MiniLM run:
 
-- `all-MiniLM-L6-v2` collapses almost the entire corpus into one dominant topic, with **`r if (nrow(bertopic_compare_df)) scales::percent(bertopic_compare_df$largest_topic_share[bertopic_compare_df$embedding_model == "all-MiniLM-L6-v2"][[1]], accuracy = 0.1) else NA`** of modeled documents in its largest cluster
-- `BAAI/bge-base-en-v1.5` produces **`r if (nrow(bertopic_compare_df)) bertopic_compare_df$unique_topics_excluding_outlier[bertopic_compare_df$embedding_model == "BAAI/bge-base-en-v1.5"][[1]] else NA`** non-outlier topics, but also marks **`r if (nrow(bertopic_compare_df)) bertopic_compare_df$outlier_documents[bertopic_compare_df$embedding_model == "BAAI/bge-base-en-v1.5"][[1]] else NA`** documents as outliers
-- document-level agreement between the two runs is low, with **ARI = `r if (nrow(bertopic_pairwise_df)) bertopic_pairwise_df$adjusted_rand_index[[1]] else NA`** and **NMI = `r if (nrow(bertopic_pairwise_df)) bertopic_pairwise_df$normalized_mutual_info[[1]] else NA`**
+- **Dimensionality reduction:** UMAP is slower than PCA here, but PCA causes **305 outliers** and a much flatter topic distribution. On this corpus, UMAP is the safer reducer even though it costs about **4 seconds** of BERTopic fit time once embeddings already exist.
+- **Clustering:** KMeans is fast and yields a more granular 6-topic partition with no outliers, whereas HDBSCAN yields the coarser 2-topic solution. So the clustering choice strongly affects whether the retained Zika corpus is described as a few broad themes or several smaller subthemes.
+- **Vectorizer:** changing from a tuned bigram vectorizer to a basic unigram vectorizer does not change document assignments, but it does change the lexical distinctiveness of the topic descriptors. In this corpus, the vectorizer mainly affects how the same clusters are *described* rather than how documents are grouped.
+- **c-TF-IDF:** the weighting scheme also leaves document assignments fixed, but it changes how sharply the MiniLM topics separate lexically. The standard c-TF-IDF setting produces lower inter-topic cosine than the `reduce_frequent_words` variants, which suggests slightly more differentiated topic-word profiles.
+- **Representation model:** c-TF-IDF-only, KeyBERTInspired, and MMR are all very cheap here, ranging from about **0.16 to 0.37 seconds**. These settings mostly change the surface labels and keyword sets rather than the topic allocation itself.
 
-At the same time, the topic-match table shows that most BGE topics still map back to MiniLM's dominant general-Zika topic with moderately high c-TF-IDF similarity. That means BGE is not discovering a completely different subject matter universe; rather, it is subdividing the broad Zika corpus into narrower slices such as outbreak/risk, congenital outcomes, vaccines, and sexual transmission.
+Substantively, the resulting primary MiniLM topic structure is still very coarse:
+
+- one dominant topic contains **`r if (nrow(bertopic_topic_info_df)) bertopic_topic_info_df$Count[bertopic_topic_info_df$Topic == 0][[1]] else NA`** documents and is centered on general Zika-virus reporting
+- a much smaller topic contains **`r if (nrow(bertopic_topic_info_df) && any(bertopic_topic_info_df$Topic == 1)) bertopic_topic_info_df$Count[bertopic_topic_info_df$Topic == 1][[1]] else NA`** documents and is concentrated on sexual transmission and male reproductive persistence
+
+The topic-match table helps reconcile the embedding comparison: most BGE topics still map back to MiniLM's dominant general-Zika topic with fairly high c-TF-IDF similarity. So BGE is not discovering a completely different subject-matter universe. It is mostly subdividing MiniLM's broad Zika cluster into narrower slices such as outbreak/risk, congenital outcomes, vaccines, and sexual transmission.
 
 So the practical interpretation is:
 
-- the **coarse** reading is robust across models: this is still a tightly focused Zika corpus
-- the **finer-grained** structure is embedding-sensitive: BGE yields a more differentiated but also noisier topic solution than MiniLM
-
-For this reason, MiniLM is the better choice if the goal is a stable, high-level overview of the retained corpus, whereas BGE is more useful if we want exploratory subthemes and are willing to tolerate a larger outlier bucket and lower cross-model stability.
+- if the goal is a stable, high-level summary of the corpus, the current MiniLM + UMAP + HDBSCAN pipeline is the better default
+- if the goal is exploratory subthemes, then either BGE or KMeans can provide a more granular partition, but the resulting structure is less stable and, in BGE's case, much more outlier-heavy
+- the vectorizer, c-TF-IDF, and representation layers matter mostly for **how the topics are described**, not for how documents are assigned, at least on this already narrow Zika corpus
