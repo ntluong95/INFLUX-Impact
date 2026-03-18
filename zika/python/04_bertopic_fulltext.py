@@ -140,6 +140,24 @@ def serialize_object_columns(df: pd.DataFrame) -> pd.DataFrame:
     return serialized
 
 
+def sanitize_for_json(value: Any) -> Any:
+    if isinstance(value, dict):
+        return {str(key): sanitize_for_json(item) for key, item in value.items()}
+    if isinstance(value, list):
+        return [sanitize_for_json(item) for item in value]
+    if isinstance(value, tuple):
+        return [sanitize_for_json(item) for item in value]
+    if isinstance(value, (np.floating, float)):
+        if math.isnan(float(value)) or math.isinf(float(value)):
+            return None
+        return float(value)
+    if isinstance(value, (np.integer, int)):
+        return int(value)
+    if isinstance(value, (np.bool_, bool)):
+        return bool(value)
+    return value
+
+
 def prepare_documents(df: pd.DataFrame, topic_cfg: dict[str, Any]) -> pd.DataFrame:
     allowed_prefixes = [
         str(prefix).strip().lower()
@@ -202,6 +220,16 @@ def topic_keywords_for(topic_model: BERTopic, topic_id: int) -> str:
         return "outlier"
     topic_terms = topic_model.get_topic(topic_id) or []
     return ", ".join(term for term, _score in topic_terms[:5])
+
+
+def short_topic_label(topic_model: BERTopic, topic_id: int, max_terms: int = 3) -> str:
+    if topic_id == -1:
+        return "Outlier"
+    topic_terms = topic_model.get_topic(topic_id) or []
+    terms = [term for term, _score in topic_terms[:max_terms]]
+    if not terms:
+        return f"T{topic_id}"
+    return f"T{topic_id}: " + " / ".join(terms)
 
 
 def topic_distribution_stats(topic_info_df: pd.DataFrame) -> dict[str, Any]:
@@ -419,6 +447,37 @@ def build_representation_model(
     raise ValueError(f"Unsupported representation variant: {variant}")
 
 
+def build_impact_vectorizer_model(impact_cfg: dict[str, Any]) -> CountVectorizer:
+    english_stopwords = list(CountVectorizer(stop_words="english").get_stop_words())
+    extra_stopwords = [
+        str(value).strip().lower()
+        for value in impact_cfg.get("stopwords", [])
+        if str(value).strip()
+    ]
+    return CountVectorizer(
+        stop_words=sorted(set(english_stopwords + extra_stopwords)),
+        min_df=max(1, int(impact_cfg.get("vectorizer_min_df", 3))),
+        ngram_range=(
+            int(impact_cfg.get("vectorizer_ngram_min", 1)),
+            int(impact_cfg.get("vectorizer_ngram_max", 3)),
+        ),
+    )
+
+
+def impact_seed_topics(impact_cfg: dict[str, Any]) -> list[list[str]]:
+    seed_topics = impact_cfg.get("seed_topics", [])
+    cleaned_topics: list[list[str]] = []
+    if not isinstance(seed_topics, list):
+        return cleaned_topics
+    for topic in seed_topics:
+        if not isinstance(topic, list):
+            continue
+        cleaned = [str(value).strip() for value in topic if str(value).strip()]
+        if cleaned:
+            cleaned_topics.append(cleaned)
+    return cleaned_topics
+
+
 def build_dimensionality_model(
     topic_cfg: dict[str, Any], *, variant: str, seed: int
 ) -> Any:
@@ -529,7 +588,18 @@ def encode_documents(
 ) -> tuple[SentenceTransformer, np.ndarray, float]:
     logger.info("Encoding %s documents with '%s'", len(documents), embedding_model_name)
     start_time = time.perf_counter()
-    embedding_model = SentenceTransformer(embedding_model_name)
+    try:
+        embedding_model = SentenceTransformer(embedding_model_name)
+    except Exception as exc:
+        logger.warning(
+            "Falling back to local cache for '%s' after model load error: %s",
+            embedding_model_name,
+            exc,
+        )
+        embedding_model = SentenceTransformer(
+            embedding_model_name,
+            local_files_only=True,
+        )
     embeddings = embedding_model.encode(
         documents,
         show_progress_bar=False,
@@ -542,6 +612,218 @@ def encode_documents(
         format_elapsed(runtime_seconds),
     )
     return embedding_model, embeddings, runtime_seconds
+
+
+def fit_impact_focus_run(
+    prepared_df: pd.DataFrame,
+    source_rows: int,
+    topic_cfg: dict[str, Any],
+    impact_cfg: dict[str, Any],
+    embedding_model_name: str,
+    embedding_backend: SentenceTransformer,
+    embeddings: np.ndarray,
+    *,
+    seed: int,
+    logger: logging.Logger,
+    embedding_seconds: float = 0.0,
+) -> tuple[dict[str, Any], pd.DataFrame]:
+    notes = (
+        "Impact-focused BERTopic with domain stopwords, seed topics, MiniLM "
+        "embeddings, KMeans clustering, BM25-style c-TF-IDF, and MMR representation."
+    )
+    topic_model = BERTopic(
+        embedding_model=embedding_backend,
+        umap_model=UMAP(
+            n_neighbors=int(impact_cfg.get("umap_neighbors", 8)),
+            n_components=int(impact_cfg.get("umap_components", 5)),
+            min_dist=0.0,
+            metric="cosine",
+            random_state=seed,
+        ),
+        hdbscan_model=KMeans(
+            n_clusters=int(impact_cfg.get("n_clusters", 8)),
+            random_state=seed,
+            n_init=10,
+        ),
+        vectorizer_model=build_impact_vectorizer_model(impact_cfg),
+        ctfidf_model=build_ctfidf_model(
+            str(impact_cfg.get("ctfidf_variant", "bm25_reduce_frequent"))
+        ),
+        representation_model=build_representation_model(
+            impact_cfg,
+            str(impact_cfg.get("representation_variant", "mmr_diverse")),
+        ),
+        seed_topic_list=impact_seed_topics(impact_cfg),
+        top_n_words=int(impact_cfg.get("top_n_words", topic_cfg.get("top_n_words", 10))),
+        verbose=True,
+    )
+
+    logger.info(
+        "BERTopic impact-focused analysis started for '%s'",
+        embedding_model_name,
+    )
+    fit_start = time.perf_counter()
+    topics, _probabilities = topic_model.fit_transform(
+        prepared_df["model_text"].tolist(),
+        embeddings=embeddings,
+    )
+    fit_seconds = time.perf_counter() - fit_start
+
+    component_settings = {
+        "dimensionality_reduction": "umap",
+        "clustering": f"kmeans_{int(impact_cfg.get('n_clusters', 8))}",
+        "vectorizer": "impact_stopword_vectorizer",
+        "ctfidf": str(impact_cfg.get("ctfidf_variant", "bm25_reduce_frequent")),
+        "representation": str(
+            impact_cfg.get("representation_variant", "mmr_diverse")
+        ),
+        "shared_vocabulary": False,
+        "document_assignments_fixed": False,
+        "seed_topic_count": len(impact_seed_topics(impact_cfg)),
+    }
+
+    topic_info_df = topic_model.get_topic_info()
+    projection_start = time.perf_counter()
+    projection_model = UMAP(
+        n_neighbors=int(impact_cfg.get("projection_neighbors", 10)),
+        n_components=2,
+        min_dist=float(impact_cfg.get("projection_min_dist", 0.05)),
+        metric="cosine",
+        random_state=seed,
+    )
+    projection = projection_model.fit_transform(embeddings)
+    projection_seconds = time.perf_counter() - projection_start
+
+    total_runtime_seconds = embedding_seconds + fit_seconds + projection_seconds
+    summary_payload = build_summary_payload(
+        prepared_df=prepared_df,
+        source_rows=source_rows,
+        topic_model=topic_model,
+        topic_info_df=topic_info_df,
+        topic_cfg=topic_cfg,
+        runtime_seconds=total_runtime_seconds,
+        embedding_model_name=embedding_model_name,
+        analysis_group="impact_focus",
+        analysis_variant="impact_guided",
+        component_settings=component_settings,
+        notes=notes,
+        stage_timings={
+            "embedding_encode": embedding_seconds,
+            "bertopic_fit_transform": fit_seconds,
+            "projection_umap_2d": projection_seconds,
+        },
+    )
+    document_topics_df = document_topics_frame(
+        prepared_df,
+        topic_model,
+        topics=[int(topic) for topic in topics],
+        embedding_model=embedding_model_name,
+        analysis_group="impact_focus",
+        analysis_variant="impact_guided",
+    )
+
+    projection_df = prepared_df[
+        ["record_id", "rss_title", "domain", "final_url", "word_count", "language"]
+    ].copy()
+    projection_df["embedding_model"] = embedding_model_name
+    projection_df["topic_id"] = [int(topic) for topic in topics]
+    projection_df["topic_label"] = [
+        short_topic_label(topic_model, int(topic))
+        for topic in projection_df["topic_id"].tolist()
+    ]
+    projection_df["topic_name"] = [
+        topic_info_df.loc[topic_info_df["Topic"] == int(topic), "Name"].iloc[0]
+        if any(topic_info_df["Topic"] == int(topic))
+        else ""
+        for topic in projection_df["topic_id"].tolist()
+    ]
+    projection_df["x"] = projection[:, 0]
+    projection_df["y"] = projection[:, 1]
+
+    logger.info(
+        "BERTopic impact-focused analysis complete: topics=%s runtime=%s",
+        summary_payload["unique_topics_excluding_outlier"],
+        summary_payload["runtime_human"],
+    )
+    return (
+        {
+            "embedding_model": embedding_model_name,
+            "analysis_group": "impact_focus",
+            "analysis_variant": "impact_guided",
+            "topic_model": topic_model,
+            "topics": [int(topic) for topic in topics],
+            "document_topics_df": document_topics_df,
+            "topic_info_df": topic_info_df,
+            "topic_info_out": serialize_object_columns(topic_info_df),
+            "summary_payload": summary_payload,
+            "summary_row": {
+                "analysis_group": "impact_focus",
+                "analysis_variant": "impact_guided",
+                "embedding_model": embedding_model_name,
+                "documents_input": summary_payload["documents_input"],
+                "documents_modeled": summary_payload["documents_modeled"],
+                "documents_excluded": summary_payload["documents_excluded"],
+                "unique_topics_excluding_outlier": summary_payload[
+                    "unique_topics_excluding_outlier"
+                ],
+                "outlier_documents": summary_payload["outlier_documents"],
+                "largest_topic_count": summary_payload["largest_topic_count"],
+                "largest_topic_share": summary_payload["largest_topic_share"],
+                "normalized_topic_entropy": summary_payload[
+                    "normalized_topic_entropy"
+                ],
+                "mean_topic_ctfidf_cosine": summary_payload[
+                    "mean_topic_ctfidf_cosine"
+                ],
+                "max_topic_ctfidf_cosine": summary_payload[
+                    "max_topic_ctfidf_cosine"
+                ],
+                "unique_representation_terms": summary_payload[
+                    "unique_representation_terms"
+                ],
+                "runtime_seconds": summary_payload["runtime_seconds"],
+                "runtime_human": summary_payload["runtime_human"],
+                "embedding_seconds": round(float(embedding_seconds), 3),
+                "analysis_seconds": round(float(fit_seconds), 3),
+                "projection_seconds": round(float(projection_seconds), 3),
+                "analysis_human": format_elapsed(fit_seconds),
+                **component_settings,
+            },
+            "stage_timing_rows": [
+                {
+                    "analysis_group": "impact_focus",
+                    "analysis_variant": "impact_guided",
+                    "embedding_model": embedding_model_name,
+                    "stage_name": "embedding_encode",
+                    "runtime_seconds": round(float(embedding_seconds), 3),
+                    "runtime_human": format_elapsed(embedding_seconds),
+                },
+                {
+                    "analysis_group": "impact_focus",
+                    "analysis_variant": "impact_guided",
+                    "embedding_model": embedding_model_name,
+                    "stage_name": "bertopic_fit_transform",
+                    "runtime_seconds": round(float(fit_seconds), 3),
+                    "runtime_human": format_elapsed(fit_seconds),
+                },
+                {
+                    "analysis_group": "impact_focus",
+                    "analysis_variant": "impact_guided",
+                    "embedding_model": embedding_model_name,
+                    "stage_name": "projection_umap_2d",
+                    "runtime_seconds": round(float(projection_seconds), 3),
+                    "runtime_human": format_elapsed(projection_seconds),
+                },
+            ],
+            "topic_rows_df": topic_rows_from_info(
+                topic_info_df,
+                analysis_group="impact_focus",
+                analysis_variant="impact_guided",
+                embedding_model=embedding_model_name,
+            ),
+        },
+        projection_df,
+    )
 
 
 def fit_full_model_run(
@@ -848,7 +1130,12 @@ def write_model_outputs(
     write_dataframe(model_run["document_topics_df"], doc_csv, doc_parquet)
     model_run["topic_info_out"].to_csv(topic_csv, index=False)
     summary_json.write_text(
-        json.dumps(model_run["summary_payload"], indent=2, ensure_ascii=False),
+        json.dumps(
+            sanitize_for_json(model_run["summary_payload"]),
+            indent=2,
+            ensure_ascii=False,
+            allow_nan=False,
+        ),
         encoding="utf-8",
     )
 
@@ -863,9 +1150,56 @@ def write_model_outputs(
             index=False,
         )
         (zika_root / "data" / "final" / "zika_bertopic_summary.json").write_text(
-            json.dumps(model_run["summary_payload"], indent=2, ensure_ascii=False),
+            json.dumps(
+                sanitize_for_json(model_run["summary_payload"]),
+                indent=2,
+                ensure_ascii=False,
+                allow_nan=False,
+            ),
             encoding="utf-8",
         )
+
+
+def write_impact_outputs(
+    zika_root: Path,
+    impact_run: dict[str, Any],
+    projection_df: pd.DataFrame,
+) -> None:
+    impact_doc_csv = (
+        zika_root / "data" / "final" / "zika_bertopic_impact_document_topics.csv"
+    )
+    impact_doc_parquet = (
+        zika_root / "data" / "final" / "zika_bertopic_impact_document_topics.parquet"
+    )
+    impact_topic_csv = (
+        zika_root / "data" / "final" / "zika_bertopic_impact_topic_info.csv"
+    )
+    impact_summary_json = (
+        zika_root / "data" / "final" / "zika_bertopic_impact_summary.json"
+    )
+    impact_projection_csv = (
+        zika_root / "data" / "final" / "zika_bertopic_impact_projection.csv"
+    )
+    impact_stage_timing_csv = (
+        zika_root / "data" / "final" / "zika_bertopic_impact_stage_timings.csv"
+    )
+
+    write_dataframe(impact_run["document_topics_df"], impact_doc_csv, impact_doc_parquet)
+    impact_run["topic_info_out"].to_csv(impact_topic_csv, index=False)
+    impact_summary_json.write_text(
+        json.dumps(
+            sanitize_for_json(impact_run["summary_payload"]),
+            indent=2,
+            ensure_ascii=False,
+            allow_nan=False,
+        ),
+        encoding="utf-8",
+    )
+    projection_df.to_csv(impact_projection_csv, index=False)
+    pd.DataFrame(impact_run["stage_timing_rows"]).to_csv(
+        impact_stage_timing_csv,
+        index=False,
+    )
 
 
 def build_topic_pseudo_documents(
@@ -1181,7 +1515,12 @@ def main() -> None:
     ensure_dir(comparison_csv.parent)
     comparison_df.to_csv(comparison_csv, index=False)
     comparison_json.write_text(
-        json.dumps(comparison_payload, indent=2, ensure_ascii=False),
+        json.dumps(
+            sanitize_for_json(comparison_payload),
+            indent=2,
+            ensure_ascii=False,
+            allow_nan=False,
+        ),
         encoding="utf-8",
     )
     topic_match_df.to_csv(topic_match_csv, index=False)
@@ -1192,6 +1531,47 @@ def main() -> None:
     primary_embedding_backend, primary_embeddings, _primary_embedding_seconds = embedding_cache[
         primary_embedding_model
     ]
+    impact_cfg = topic_cfg.get("impact_focus", {})
+    impact_run: dict[str, Any] | None = None
+    impact_projection_df = pd.DataFrame()
+    if bool(impact_cfg.get("enabled", False)):
+        impact_embedding_model = str(
+            impact_cfg.get("embedding_model", primary_embedding_model)
+        ).strip() or primary_embedding_model
+        if impact_embedding_model in embedding_cache:
+            impact_embedding_backend, impact_embeddings, impact_embedding_seconds = (
+                embedding_cache[impact_embedding_model]
+            )
+        else:
+            (
+                impact_embedding_backend,
+                impact_embeddings,
+                impact_embedding_seconds,
+            ) = encode_documents(
+                prepared_df["model_text"].tolist(),
+                impact_embedding_model,
+                logger,
+            )
+            embedding_cache[impact_embedding_model] = (
+                impact_embedding_backend,
+                impact_embeddings,
+                impact_embedding_seconds,
+            )
+
+        impact_run, impact_projection_df = fit_impact_focus_run(
+            prepared_df=prepared_df,
+            source_rows=len(source_df),
+            topic_cfg=topic_cfg,
+            impact_cfg=impact_cfg,
+            embedding_model_name=impact_embedding_model,
+            embedding_backend=impact_embedding_backend,
+            embeddings=impact_embeddings,
+            seed=seed,
+            logger=logger,
+            embedding_seconds=impact_embedding_seconds,
+        )
+        write_impact_outputs(zika_root, impact_run, impact_projection_df)
+
     baseline_topic_count = int(
         primary_run["summary_payload"]["unique_topics_excluding_outlier"]
     )
@@ -1391,7 +1771,12 @@ def main() -> None:
     )
     modular_summary_df.to_csv(modular_summary_csv, index=False)
     modular_summary_json_path.write_text(
-        json.dumps(modular_summary_json, indent=2, ensure_ascii=False),
+        json.dumps(
+            sanitize_for_json(modular_summary_json),
+            indent=2,
+            ensure_ascii=False,
+            allow_nan=False,
+        ),
         encoding="utf-8",
     )
     modular_topics_df.to_csv(modular_topics_csv, index=False)

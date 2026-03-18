@@ -163,6 +163,12 @@ BERTopic:
 - `data/final/zika_bertopic_document_topics.parquet`
 - `data/final/zika_bertopic_topic_info.csv`
 - `data/final/zika_bertopic_summary.json`
+- `data/final/zika_bertopic_impact_document_topics.csv`
+- `data/final/zika_bertopic_impact_document_topics.parquet`
+- `data/final/zika_bertopic_impact_topic_info.csv`
+- `data/final/zika_bertopic_impact_summary.json`
+- `data/final/zika_bertopic_impact_projection.csv`
+- `data/final/zika_bertopic_impact_stage_timings.csv`
 - `data/final/zika_bertopic_all_minilm_l6_v2_document_topics.csv`
 - `data/final/zika_bertopic_all_minilm_l6_v2_topic_info.csv`
 - `data/final/zika_bertopic_all_minilm_l6_v2_summary.json`
@@ -208,4 +214,5 @@ The stage-2 script preserves existing human labels in the validation sample and 
 - Parquet writing in R falls back to the repository Python environment via `uv run python` when the R `arrow` package is not installed.
 - Rendering the report requires the Quarto CLI. On this machine, `quarto` is not currently installed, so the `.qmd` can be edited now and rendered later after installing Quarto.
 - The BERTopic step currently models the successful Stage 3 full-text subset, applies a lightweight English-language filter, truncates each document to a configurable number of words before embedding, compares `all-MiniLM-L6-v2` against `BAAI/bge-base-en-v1.5`, and also runs explicit modular ablations for dimensionality reduction, clustering, vectorizer, c-TF-IDF, and representation choices on the primary MiniLM run.
+- In addition to the baseline BERTopic outputs, the pipeline now writes an impact-guided BERTopic run that removes generic Zika terms, seeds the model with impact-related concept bundles, uses KMeans for a finer partition, and exports a 2D projection for manual inspection.
 - Cross-model topic matching is now computed post hoc from topic pseudo-documents in a shared c-TF-IDF space rather than by forcing a fixed vocabulary inside BERTopic itself. This avoids numerical instability in sparse topic-document matrices while keeping the comparison interpretable.

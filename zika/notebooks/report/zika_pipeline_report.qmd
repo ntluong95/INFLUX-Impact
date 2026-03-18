@@ -74,6 +74,22 @@ safe_read_csv <- function(path) {
   suppressMessages(readr::read_csv(path, show_col_types = FALSE))
 }
 
+sanitize_json_text <- function(text) {
+  text %>%
+    str_replace_all("(?<![A-Za-z0-9_])NaN(?![A-Za-z0-9_])", "null") %>%
+    str_replace_all("(?<![A-Za-z0-9_])-Infinity(?![A-Za-z0-9_])", "null") %>%
+    str_replace_all("(?<![A-Za-z0-9_])Infinity(?![A-Za-z0-9_])", "null")
+}
+
+safe_read_json <- function(path) {
+  if (!file.exists(path)) {
+    return(list())
+  }
+  json_text <- readr::read_file(path) %>%
+    sanitize_json_text()
+  jsonlite::fromJSON(json_text, simplifyVector = TRUE)
+}
+
 artifact_info <- function(path_label, path) {
   exists <- file.exists(path)
   rel_path <- if (startsWith(path, paste0(ROOT, "/"))) {
@@ -212,6 +228,36 @@ bertopic_bge_topic_info_path <- file.path(
   "final",
   "zika_bertopic_baai_bge_base_en_v1_5_topic_info.csv"
 )
+bertopic_impact_doc_path <- file.path(
+  ZIKA,
+  "data",
+  "final",
+  "zika_bertopic_impact_document_topics.csv"
+)
+bertopic_impact_topic_info_path <- file.path(
+  ZIKA,
+  "data",
+  "final",
+  "zika_bertopic_impact_topic_info.csv"
+)
+bertopic_impact_summary_json_path <- file.path(
+  ZIKA,
+  "data",
+  "final",
+  "zika_bertopic_impact_summary.json"
+)
+bertopic_impact_projection_path <- file.path(
+  ZIKA,
+  "data",
+  "final",
+  "zika_bertopic_impact_projection.csv"
+)
+bertopic_impact_stage_timing_path <- file.path(
+  ZIKA,
+  "data",
+  "final",
+  "zika_bertopic_impact_stage_timings.csv"
+)
 
 manifest_df <- safe_read_csv(manifest_path)
 rss_df <- safe_read_csv(rss_path)
@@ -230,26 +276,21 @@ bertopic_minilm_doc_df <- safe_read_csv(bertopic_minilm_doc_path)
 bertopic_minilm_topic_info_df <- safe_read_csv(bertopic_minilm_topic_info_path)
 bertopic_bge_doc_df <- safe_read_csv(bertopic_bge_doc_path)
 bertopic_bge_topic_info_df <- safe_read_csv(bertopic_bge_topic_info_path)
+bertopic_impact_doc_df <- safe_read_csv(bertopic_impact_doc_path)
+bertopic_impact_topic_info_df <- safe_read_csv(bertopic_impact_topic_info_path)
+bertopic_impact_projection_df <- safe_read_csv(bertopic_impact_projection_path)
+bertopic_impact_stage_timing_df <- safe_read_csv(
+  bertopic_impact_stage_timing_path
+)
 metrics_payload <- if (file.exists(metrics_json_path)) {
-  jsonlite::fromJSON(metrics_json_path, simplifyVector = TRUE)
+  safe_read_json(metrics_json_path)
 } else {
   list()
 }
-bertopic_summary_payload <- if (file.exists(bertopic_summary_json_path)) {
-  jsonlite::fromJSON(bertopic_summary_json_path, simplifyVector = TRUE)
-} else {
-  list()
-}
-bertopic_compare_payload <- if (file.exists(bertopic_compare_json_path)) {
-  jsonlite::fromJSON(bertopic_compare_json_path, simplifyVector = TRUE)
-} else {
-  list()
-}
-bertopic_modular_payload <- if (file.exists(bertopic_modular_json_path)) {
-  jsonlite::fromJSON(bertopic_modular_json_path, simplifyVector = TRUE)
-} else {
-  list()
-}
+bertopic_summary_payload <- safe_read_json(bertopic_summary_json_path)
+bertopic_compare_payload <- safe_read_json(bertopic_compare_json_path)
+bertopic_modular_payload <- safe_read_json(bertopic_modular_json_path)
+bertopic_impact_payload <- safe_read_json(bertopic_impact_summary_json_path)
 
 completed_score_mask <- function(df) {
   if (!nrow(df)) {
@@ -295,12 +336,44 @@ bind_rows(
   artifact_info("Stage 4 BERTopic document topics", bertopic_doc_path),
   artifact_info("Stage 4 BERTopic topic info", bertopic_topic_info_path),
   artifact_info("Stage 4 BERTopic summary JSON", bertopic_summary_json_path),
+  artifact_info(
+    "Stage 4 BERTopic impact document topics",
+    bertopic_impact_doc_path
+  ),
+  artifact_info(
+    "Stage 4 BERTopic impact topic info",
+    bertopic_impact_topic_info_path
+  ),
+  artifact_info(
+    "Stage 4 BERTopic impact summary JSON",
+    bertopic_impact_summary_json_path
+  ),
+  artifact_info(
+    "Stage 4 BERTopic impact projection",
+    bertopic_impact_projection_path
+  ),
+  artifact_info(
+    "Stage 4 BERTopic impact stage timings",
+    bertopic_impact_stage_timing_path
+  ),
   artifact_info("Stage 4 BERTopic comparison CSV", bertopic_compare_csv_path),
   artifact_info("Stage 4 BERTopic comparison JSON", bertopic_compare_json_path),
-  artifact_info("Stage 4 BERTopic modular analysis CSV", bertopic_modular_csv_path),
-  artifact_info("Stage 4 BERTopic modular analysis JSON", bertopic_modular_json_path),
-  artifact_info("Stage 4 BERTopic modular topics CSV", bertopic_modular_topics_path),
-  artifact_info("Stage 4 BERTopic stage timings CSV", bertopic_stage_timing_path),
+  artifact_info(
+    "Stage 4 BERTopic modular analysis CSV",
+    bertopic_modular_csv_path
+  ),
+  artifact_info(
+    "Stage 4 BERTopic modular analysis JSON",
+    bertopic_modular_json_path
+  ),
+  artifact_info(
+    "Stage 4 BERTopic modular topics CSV",
+    bertopic_modular_topics_path
+  ),
+  artifact_info(
+    "Stage 4 BERTopic stage timings CSV",
+    bertopic_stage_timing_path
+  ),
   artifact_info("Stage 4 BERTopic topic matches", bertopic_topic_match_path)
 ) %>%
   select(artifact, path, exists) %>%
@@ -1871,7 +1944,9 @@ The main interpretation is that Step 3 is constrained more by **publisher access
 
 ## Step 4 BERTopic on the retrieved full-text subset
 
-To explore whether the retained full-text corpus contains coherent thematic structure beyond the headline labels, I ran BERTopic over the successful Stage 3 full-text subset and then expanded the analysis to the full BERTopic modular pipeline. The modeling input is intentionally narrower than the raw `zika_fulltext.csv` table: the script keeps documents with non-empty text, enforces a minimum word-count threshold, applies a lightweight English-language filter, and truncates each document to a fixed word budget before embedding.
+To explore whether the retained full-text corpus contains coherent thematic structure beyond the headline labels, I first ran a standard BERTopic pipeline over the successful Stage 3 subset and then added an **impact-guided** BERTopic refinement. The modeling input is intentionally narrower than the raw `zika_fulltext.csv` table: the script keeps documents with non-empty text, enforces a minimum word-count threshold, applies a lightweight English-language filter, and truncates each document to a fixed word budget before embedding.
+
+That refinement matters for interpretation. The fully unsupervised MiniLM baseline tended to collapse the retained corpus into very broad Zika-centered clusters, which is not especially useful when the research goal is to characterize **impact pathways**. The new impact-guided run therefore suppresses generic Zika vocabulary, seeds BERTopic with impact-oriented concept bundles, and uses a KMeans partition to force a more inspectable thematic split.
 
 Following BERTopic's modular design, the current report now treats the pipeline as six separate submodels:
 
@@ -1882,11 +1957,11 @@ Following BERTopic's modular design, the current report now treats the pipeline 
 5. c-TF-IDF weighting
 6. representation modeling
 
-The generic `zika_bertopic_*` outputs correspond to the current **primary** embedding backend, which remains `all-MiniLM-L6-v2`. The richer modular outputs are stored separately in `zika_bertopic_modular_analysis.*`, `zika_bertopic_modular_topics.csv`, and `zika_bertopic_stage_timings.csv`.
+The generic `zika_bertopic_*` outputs correspond to the current **baseline** embedding backend, which remains `all-MiniLM-L6-v2`. The richer modular outputs are stored separately in `zika_bertopic_modular_analysis.*`, `zika_bertopic_modular_topics.csv`, and `zika_bertopic_stage_timings.csv`. The new impact-guided outputs are written to `zika_bertopic_impact_*`.
 
 ```{r}
 #| label: stage4-bertopic-overview
-if (length(bertopic_summary_payload)) {
+if (length(bertopic_impact_payload)) {
   tibble(
     metric = c(
       "documents_input",
@@ -1896,42 +1971,26 @@ if (length(bertopic_summary_payload)) {
       "outlier_documents",
       "embedding_seconds",
       "bertopic_fit_seconds",
+      "projection_seconds",
       "runtime_human"
     ),
     value = c(
-      bertopic_summary_payload$documents_input %||% NA,
-      bertopic_summary_payload$documents_modeled %||% NA,
-      bertopic_summary_payload$documents_excluded %||% NA,
-      bertopic_summary_payload$unique_topics_excluding_outlier %||% NA,
-      bertopic_summary_payload$outlier_documents %||% NA,
-      if (nrow(bertopic_compare_df)) {
-        round(
-          bertopic_compare_df$embedding_seconds[
-            bertopic_compare_df$embedding_model == "all-MiniLM-L6-v2"
-          ][[1]],
-          3
-        )
-      } else {
-        NA
-      },
-      if (nrow(bertopic_compare_df)) {
-        round(
-          bertopic_compare_df$analysis_seconds[
-            bertopic_compare_df$embedding_model == "all-MiniLM-L6-v2"
-          ][[1]],
-          3
-        )
-      } else {
-        NA
-      },
-      bertopic_summary_payload$runtime_human %||% NA
+      bertopic_impact_payload$documents_input %||% NA,
+      bertopic_impact_payload$documents_modeled %||% NA,
+      bertopic_impact_payload$documents_excluded %||% NA,
+      bertopic_impact_payload$unique_topics_excluding_outlier %||% NA,
+      bertopic_impact_payload$outlier_documents %||% NA,
+      bertopic_impact_payload$stage_timings$embedding_encode %||% NA,
+      bertopic_impact_payload$stage_timings$bertopic_fit_transform %||% NA,
+      bertopic_impact_payload$stage_timings$projection_umap_2d %||% NA,
+      bertopic_impact_payload$runtime_human %||% NA
     )
   ) %>%
     kableExtra::kable(
-      caption = "Primary BERTopic run summary for the current full-text subset."
+      caption = "Impact-guided BERTopic run summary for the current full-text subset."
     )
 } else {
-  tibble(note = "BERTopic outputs are not present yet.") %>%
+  tibble(note = "Impact-guided BERTopic outputs are not present yet.") %>%
     kableExtra::kable()
 }
 ```
@@ -1967,6 +2026,166 @@ tibble(
   kableExtra::kable(
     caption = "BERTopic submodels used in the current analysis and the explicit ablations added for this report."
   )
+```
+
+```{r}
+#| label: stage4-impact-helpers
+impact_topic_label <- function(topic_name, representation) {
+  purrr::map2_chr(
+    topic_name,
+    representation,
+    function(topic_name_i, representation_i) {
+      text <- paste(topic_name_i %||% "", representation_i %||% "")
+      text <- tolower(text)
+
+      dplyr::case_when(
+        str_detect(text, "antiviral|antibod|vaccine|flavivirus|proteins") ~
+          "Vaccines and therapeutics",
+        str_detect(text, "microcephaly|birth defects|children|developmental") ~
+          "Congenital outcomes and child risk",
+        str_detect(text, "pregnancy|congenital|neural|stem cells|fetuses") ~
+          "Pregnancy and fetal neurodevelopment",
+        str_detect(
+          text,
+          "vector|climate change|aedes|mosquito species|albopictus"
+        ) ~
+          "Vector ecology and climate risk",
+        str_detect(text, "caribbean|travelers|cuba|islands|public health") ~
+          "Travel advisories and regional surveillance",
+        str_detect(text, "symptoms|testing|rash|pregnant women|rajasthan") ~
+          "Clinical symptoms and public guidance",
+        str_detect(text, "assay|pcr|diagnostic|samples|blood supply") ~
+          "Diagnostics and laboratory surveillance",
+        str_detect(
+          text,
+          "semen|reproductive|testis|sexually transmitted|intravaginal"
+        ) ~
+          "Sexual and reproductive transmission",
+        TRUE ~ str_replace_all(topic_name_i %||% "Unlabeled topic", "_", " ")
+      )
+    }
+  )
+}
+
+impact_topic_lookup_df <- if (nrow(bertopic_impact_topic_info_df)) {
+  bertopic_impact_topic_info_df %>%
+    filter(Topic != -1) %>%
+    transmute(
+      topic_id = as.integer(Topic),
+      document_count = as.integer(Count),
+      topic_name = as.character(Name),
+      top_terms = as.character(Representation),
+      impact_label = impact_topic_label(topic_name, top_terms)
+    ) %>%
+    arrange(desc(document_count), topic_id)
+} else {
+  tibble()
+}
+
+impact_scored_join_df <- if ("record_id" %in% names(scored_df)) {
+  scored_df %>%
+    select(any_of(c("record_id", "rss_pubdate")))
+} else {
+  tibble(record_id = character(), rss_pubdate = character())
+}
+
+impact_fulltext_join_df <- if ("record_id" %in% names(fulltext_df)) {
+  fulltext_df %>%
+    select(any_of(c("record_id", "published_at")))
+} else {
+  tibble(record_id = character(), published_at = character())
+}
+
+impact_doc_enriched_df <- if (nrow(bertopic_impact_doc_df)) {
+  bertopic_impact_doc_df %>%
+    left_join(
+      impact_topic_lookup_df,
+      by = c("topic_id", "topic_name")
+    ) %>%
+    left_join(impact_scored_join_df, by = "record_id") %>%
+    left_join(impact_fulltext_join_df, by = "record_id") %>%
+    mutate(
+      rss_pubdate_dt = suppressWarnings(
+        lubridate::parse_date_time(
+          rss_pubdate,
+          orders = c("a, d b Y H:M:S z", "ymd HMS", "ymd", "Ymd HMS", "Ymd")
+        )
+      ),
+      published_at_dt = suppressWarnings(
+        lubridate::parse_date_time(
+          published_at,
+          orders = c("ymd HMS", "ymd HM", "ymd", "Ymd HMS", "Ymd")
+        )
+      ),
+      event_date = coalesce(as.Date(published_at_dt), as.Date(rss_pubdate_dt)),
+      event_year = lubridate::year(event_date)
+    )
+} else {
+  tibble()
+}
+
+impact_projection_plot_df <- if (nrow(bertopic_impact_projection_df)) {
+  bertopic_impact_projection_df %>%
+    left_join(
+      impact_topic_lookup_df %>%
+        select(topic_id, topic_name, impact_label),
+      by = c("topic_id", "topic_name")
+    )
+} else {
+  tibble()
+}
+
+impact_topic_size_plot_df <- if (nrow(impact_topic_lookup_df)) {
+  impact_topic_lookup_df %>%
+    mutate(
+      share_of_modeled_docs = document_count / sum(document_count),
+      impact_label = forcats::fct_reorder(impact_label, document_count)
+    )
+} else {
+  tibble()
+}
+
+impact_topic_timeline_df <- if (nrow(impact_doc_enriched_df)) {
+  impact_doc_enriched_df %>%
+    filter(!is.na(event_year)) %>%
+    count(event_year, impact_label, name = "documents") %>%
+    group_by(event_year) %>%
+    mutate(share_within_year = documents / sum(documents)) %>%
+    ungroup()
+} else {
+  tibble()
+}
+
+impact_representative_docs_df <- if (nrow(impact_doc_enriched_df)) {
+  impact_doc_enriched_df %>%
+    arrange(impact_label, desc(model_word_count), rss_title) %>%
+    group_by(impact_label) %>%
+    slice_head(n = 3) %>%
+    ungroup() %>%
+    transmute(
+      impact_label,
+      year = event_year,
+      headline = rss_title,
+      domain,
+      words = model_word_count
+    )
+} else {
+  tibble()
+}
+
+impact_runtime_df <- if (nrow(bertopic_impact_stage_timing_df)) {
+  bertopic_impact_stage_timing_df %>%
+    mutate(
+      stage_name = recode(
+        stage_name,
+        embedding_encode = "Embedding",
+        bertopic_fit_transform = "BERTopic fit",
+        projection_umap_2d = "2D projection"
+      )
+    )
+} else {
+  tibble()
+}
 ```
 
 ```{r}
@@ -2128,12 +2347,168 @@ bertopic_assignment_heatmap_df <- if (
       by = "record_id"
     ) %>%
     mutate(
-      minilm_topic = if_else(minilm_topic == -1, "outlier", paste0("T", minilm_topic)),
+      minilm_topic = if_else(
+        minilm_topic == -1,
+        "outlier",
+        paste0("T", minilm_topic)
+      ),
       bge_topic = if_else(bge_topic == -1, "outlier", paste0("T", bge_topic))
     ) %>%
     count(minilm_topic, bge_topic, name = "documents")
 } else {
   tibble()
+}
+```
+
+### Impact-guided topic structure
+
+```{r}
+#| label: stage4-impact-topic-summary
+if (nrow(impact_topic_lookup_df)) {
+  impact_topic_lookup_df %>%
+    mutate(
+      `share of modeled docs` = scales::percent(
+        document_count / sum(document_count),
+        accuracy = 0.1
+      )
+    ) %>%
+    select(
+      topic_id,
+      impact_label,
+      document_count,
+      `share of modeled docs`,
+      top_terms
+    ) %>%
+    kableExtra::kable(
+      caption = "Impact-guided BERTopic topics after removing generic Zika vocabulary and seeding the model with impact-oriented concept bundles."
+    )
+} else {
+  tibble(note = "No impact-guided BERTopic topics are available.") %>%
+    kableExtra::kable()
+}
+```
+
+```{r}
+#| label: stage4-impact-runtime
+if (nrow(impact_runtime_df)) {
+  impact_runtime_df %>%
+    select(stage_name, runtime_seconds, runtime_human) %>%
+    kableExtra::kable(
+      caption = "Runtime required for the impact-guided BERTopic analysis."
+    )
+} else {
+  tibble(note = "No impact-guided runtime table is available.") %>%
+    kableExtra::kable()
+}
+```
+
+```{r}
+#| label: fig-stage4-impact-topic-size
+#| fig-cap: "Document counts by impact-guided BERTopic topic. This view is intended to show which impact pathways dominate the retained full-text corpus."
+#| fig-width: 9.5
+#| fig-height: 5.5
+if (nrow(impact_topic_size_plot_df)) {
+  ggplot(
+    impact_topic_size_plot_df,
+    aes(
+      x = impact_label,
+      y = document_count,
+      fill = share_of_modeled_docs
+    )
+  ) +
+    geom_col(width = 0.75) +
+    geom_text(
+      aes(label = document_count),
+      hjust = -0.15,
+      size = 3.1
+    ) +
+    coord_flip(clip = "off") +
+    scale_fill_gradient(
+      low = "#d9ed92",
+      high = "#1d3557",
+      labels = scales::percent_format(accuracy = 1)
+    ) +
+    expand_limits(y = max(impact_topic_size_plot_df$document_count) * 1.08) +
+    labs(
+      x = NULL,
+      y = "Documents",
+      fill = "Share of modeled docs"
+    ) +
+    theme_minimal(base_size = 11) +
+    theme(
+      legend.position = "bottom",
+      panel.grid.major.y = element_blank()
+    )
+}
+```
+
+```{r}
+#| label: fig-stage4-impact-projection
+#| fig-cap: "Two-dimensional UMAP projection of the impact-guided BERTopic assignments. Nearby points have similar embeddings; color indicates the impact theme assigned by BERTopic."
+#| fig-width: 9
+#| fig-height: 6
+if (nrow(impact_projection_plot_df)) {
+  ggplot(
+    impact_projection_plot_df,
+    aes(
+      x = x,
+      y = y,
+      color = impact_label
+    )
+  ) +
+    geom_point(alpha = 0.72, size = 1.8) +
+    labs(
+      x = "UMAP 1",
+      y = "UMAP 2",
+      color = NULL
+    ) +
+    theme_minimal(base_size = 11) +
+    theme(
+      legend.position = "bottom",
+      panel.grid = element_blank()
+    )
+}
+```
+
+```{r}
+#| label: fig-stage4-impact-timeline
+#| fig-cap: "Year-by-year topic mix in the impact-guided BERTopic run. Within each year, the stacked bars show the share of documents allocated to each impact theme."
+#| fig-width: 10
+#| fig-height: 5.5
+if (nrow(impact_topic_timeline_df)) {
+  ggplot(
+    impact_topic_timeline_df,
+    aes(
+      x = factor(event_year),
+      y = share_within_year,
+      fill = impact_label
+    )
+  ) +
+    geom_col(width = 0.8) +
+    scale_y_continuous(labels = scales::percent_format(accuracy = 1)) +
+    labs(
+      x = "Year",
+      y = "Share of modeled docs within year",
+      fill = NULL
+    ) +
+    theme_minimal(base_size = 11) +
+    theme(
+      legend.position = "bottom",
+      axis.text.x = element_text(angle = 35, hjust = 1)
+    )
+}
+```
+
+```{r}
+#| label: stage4-impact-representative-docs
+if (nrow(impact_representative_docs_df)) {
+  impact_representative_docs_df %>%
+    kableExtra::kable(
+      caption = "Representative headlines from the impact-guided BERTopic topics. Within each topic, examples are the longest modeled documents in the retained full-text subset."
+    )
+} else {
+  tibble(note = "No representative impact-topic headlines are available.") %>%
+    kableExtra::kable()
 }
 ```
 
@@ -2172,12 +2547,14 @@ if (nrow(bertopic_runtime_plot_df)) {
     )
   ) +
     geom_col(width = 0.72) +
-    facet_wrap(~ analysis_group, scales = "free_x") +
-    scale_fill_manual(values = c(
-      "Embedding time (s)" = "#355070",
-      "BERTopic fit time (s)" = "#6d597a",
-      "Total runtime (s)" = "#b56576"
-    )) +
+    facet_wrap(~analysis_group, scales = "free_x") +
+    scale_fill_manual(
+      values = c(
+        "Embedding time (s)" = "#355070",
+        "BERTopic fit time (s)" = "#6d597a",
+        "Total runtime (s)" = "#b56576"
+      )
+    ) +
     labs(
       x = NULL,
       y = "Seconds",
@@ -2213,7 +2590,7 @@ if (nrow(bertopic_topic_size_plot_df)) {
       size = 3
     ) +
     coord_flip(clip = "off") +
-    facet_wrap(~ embedding_model, scales = "free_y") +
+    facet_wrap(~embedding_model, scales = "free_y") +
     scale_fill_gradient(
       low = "#9ecae1",
       high = "#08519c",
@@ -2253,11 +2630,13 @@ if (nrow(bertopic_compare_plot_df)) {
       vjust = -0.3,
       size = 3
     ) +
-    facet_wrap(~ metric, scales = "free_y") +
-    scale_fill_manual(values = c(
-      "all-MiniLM-L6-v2" = "#264653",
-      "BAAI/bge-base-en-v1.5" = "#e76f51"
-    )) +
+    facet_wrap(~metric, scales = "free_y") +
+    scale_fill_manual(
+      values = c(
+        "all-MiniLM-L6-v2" = "#264653",
+        "BAAI/bge-base-en-v1.5" = "#e76f51"
+      )
+    ) +
     labs(x = NULL, y = NULL) +
     theme_minimal(base_size = 11) +
     theme(
@@ -2413,31 +2792,35 @@ if (nrow(bertopic_topic_match_df)) {
 }
 ```
 
-For the current primary run, BERTopic received **`r bertopic_summary_payload$documents_input %||% NA`** successful full-text rows and modeled **`r bertopic_summary_payload$documents_modeled %||% NA`** documents after filtering. The primary MiniLM run took **`r bertopic_summary_payload$runtime_human %||% NA`** in total, which splits into about **`r if (nrow(bertopic_compare_df)) round(bertopic_compare_df$embedding_seconds[bertopic_compare_df$embedding_model == "all-MiniLM-L6-v2"][[1]], 1) else NA` seconds** for embedding generation and **`r if (nrow(bertopic_compare_df)) round(bertopic_compare_df$analysis_seconds[bertopic_compare_df$embedding_model == "all-MiniLM-L6-v2"][[1]], 1) else NA` seconds** for BERTopic fitting.
+For the current **impact-guided** run, BERTopic received **`r bertopic_impact_payload$documents_input %||% NA`** successful full-text rows and modeled **`r bertopic_impact_payload$documents_modeled %||% NA`** documents after filtering. The full impact analysis took **`r bertopic_impact_payload$runtime_human %||% NA`**, which splits into about **`r round(bertopic_impact_payload$stage_timings$embedding_encode %||% NA, 1)` seconds** for embedding generation, **`r round(bertopic_impact_payload$stage_timings$bertopic_fit_transform %||% NA, 1)` seconds** for BERTopic fitting, and **`r round(bertopic_impact_payload$stage_timings$projection_umap_2d %||% NA, 1)` seconds** for the 2D inspection layout.
 
-The first result is about the embedding layer itself:
+Substantively, the impact-guided model is much closer to the research objective than the coarse unsupervised baseline. Instead of returning one dominant “general Zika” topic, it separates the retained corpus into interpretable impact pathways such as:
 
-- `all-MiniLM-L6-v2` finished in **`r if (nrow(bertopic_compare_df)) round(bertopic_compare_df$runtime_seconds[bertopic_compare_df$embedding_model == "all-MiniLM-L6-v2"][[1]], 1) else NA` seconds** and collapsed the corpus into a very coarse 2-topic solution with no outliers.
-- `BAAI/bge-base-en-v1.5` required **`r if (nrow(bertopic_compare_df)) round(bertopic_compare_df$runtime_seconds[bertopic_compare_df$embedding_model == "BAAI/bge-base-en-v1.5"][[1]], 1) else NA` seconds**, produced 9 non-outlier topics, and pushed **`r if (nrow(bertopic_compare_df)) bertopic_compare_df$outlier_documents[bertopic_compare_df$embedding_model == "BAAI/bge-base-en-v1.5"][[1]] else NA`** documents into the outlier bucket.
-- Document-level agreement between the two embedding backends remains low, with **ARI = `r if (nrow(bertopic_pairwise_df)) bertopic_pairwise_df$adjusted_rand_index[[1]] else NA`** and **NMI = `r if (nrow(bertopic_pairwise_df)) bertopic_pairwise_df$normalized_mutual_info[[1]] else NA`**.
+- congenital outcomes and child risk
+- pregnancy and fetal neurodevelopment
+- vector ecology and climate risk
+- diagnostics and laboratory surveillance
+- travel advisories and regional surveillance
+- sexual and reproductive transmission
+- vaccines and therapeutics
 
-The second result is the modular ablation on the primary MiniLM run:
+This shift comes from three deliberate modeling choices: removing generic Zika vocabulary from the vectorizer, seeding the model with impact-oriented concept bundles, and using KMeans to force a finer topic partition. On the current corpus, those choices produce **`r bertopic_impact_payload$unique_topics_excluding_outlier %||% NA`** non-outlier topics with **no outlier bucket**, and the largest topic accounts for only **`r scales::percent(bertopic_impact_payload$largest_topic_share %||% NA, accuracy = 0.1)`** of modeled documents. That is a much more useful structure for downstream impact screening than the earlier MiniLM baseline, where one topic dominated nearly the entire corpus.
 
-- **Dimensionality reduction:** UMAP is slower than PCA here, but PCA causes **305 outliers** and a much flatter topic distribution. On this corpus, UMAP is the safer reducer even though it costs about **4 seconds** of BERTopic fit time once embeddings already exist.
-- **Clustering:** KMeans is fast and yields a more granular 6-topic partition with no outliers, whereas HDBSCAN yields the coarser 2-topic solution. So the clustering choice strongly affects whether the retained Zika corpus is described as a few broad themes or several smaller subthemes.
-- **Vectorizer:** changing from a tuned bigram vectorizer to a basic unigram vectorizer does not change document assignments, but it does change the lexical distinctiveness of the topic descriptors. In this corpus, the vectorizer mainly affects how the same clusters are *described* rather than how documents are grouped.
-- **c-TF-IDF:** the weighting scheme also leaves document assignments fixed, but it changes how sharply the MiniLM topics separate lexically. The standard c-TF-IDF setting produces lower inter-topic cosine than the `reduce_frequent_words` variants, which suggests slightly more differentiated topic-word profiles.
-- **Representation model:** c-TF-IDF-only, KeyBERTInspired, and MMR are all very cheap here, ranging from about **0.16 to 0.37 seconds**. These settings mostly change the surface labels and keyword sets rather than the topic allocation itself.
+The visual diagnostics help show why the new result is easier to investigate:
 
-Substantively, the resulting primary MiniLM topic structure is still very coarse:
+- the topic-size chart shows that the retained full-text subset is no longer collapsing into one overwhelmingly generic theme
+- the 2D projection reveals distinct neighborhoods for reproductive transmission, diagnostics, travel/public-health alerts, and congenital outcomes
+- the yearly topic-mix figure makes it easier to see when certain impact pathways become more prevalent in the corpus
 
-- one dominant topic contains **`r if (nrow(bertopic_topic_info_df)) bertopic_topic_info_df$Count[bertopic_topic_info_df$Topic == 0][[1]] else NA`** documents and is centered on general Zika-virus reporting
-- a much smaller topic contains **`r if (nrow(bertopic_topic_info_df) && any(bertopic_topic_info_df$Topic == 1)) bertopic_topic_info_df$Count[bertopic_topic_info_df$Topic == 1][[1]] else NA`** documents and is concentrated on sexual transmission and male reproductive persistence
+The earlier embedding and modular comparisons are still useful methodologically. They explain why the pipeline was refined in this direction:
 
-The topic-match table helps reconcile the embedding comparison: most BGE topics still map back to MiniLM's dominant general-Zika topic with fairly high c-TF-IDF similarity. So BGE is not discovering a completely different subject-matter universe. It is mostly subdividing MiniLM's broad Zika cluster into narrower slices such as outbreak/risk, congenital outcomes, vaccines, and sexual transmission.
+- **Embedding comparison:** `all-MiniLM-L6-v2` remains faster and more stable than `BAAI/bge-base-en-v1.5`, while BGE produces a more fragmented solution with **`r if (nrow(bertopic_compare_df)) bertopic_compare_df$outlier_documents[bertopic_compare_df$embedding_model == "BAAI/bge-base-en-v1.5"][[1]] else NA`** outliers.
+- **Dimensionality reduction:** UMAP is slower than PCA, but PCA still produces many outliers and a flatter, less interpretable structure.
+- **Clustering:** KMeans is the key reason the impact-guided run becomes granular enough to be useful. In the modular comparison it produces a finer partition than HDBSCAN on the same MiniLM embeddings.
+- **Vectorizer, c-TF-IDF, and representation:** these layers mostly affect topic wording, but once generic Zika words are suppressed they help surface more specific impact terms such as `microcephaly`, `pregnancy`, `pcr`, `caribbean`, and `semen`.
 
 So the practical interpretation is:
 
-- if the goal is a stable, high-level summary of the corpus, the current MiniLM + UMAP + HDBSCAN pipeline is the better default
-- if the goal is exploratory subthemes, then either BGE or KMeans can provide a more granular partition, but the resulting structure is less stable and, in BGE's case, much more outlier-heavy
-- the vectorizer, c-TF-IDF, and representation layers matter mostly for **how the topics are described**, not for how documents are assigned, at least on this already narrow Zika corpus
+- the original unsupervised BERTopic baseline is still helpful as a methodological reference, but it is too generic for the impact-filtering objective
+- the new impact-guided BERTopic run is the more useful analytical output for this project because it organizes the retained Zika corpus into concrete impact pathways rather than repeating that the documents are about Zika
+- the inspection figures make it easier to decide which topics are worth keeping, merging, or refining further in later iterations
