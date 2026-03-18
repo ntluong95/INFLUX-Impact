@@ -4,14 +4,16 @@ from __future__ import annotations
 
 import argparse
 from pathlib import Path
+import sys
 from typing import Any, Dict, Optional, Tuple
 
 import pandas as pd
 
-try:
-    from .utils import detect_schema, safe_read_csv
-except ImportError:  # pragma: no cover - script execution path
-    from utils import detect_schema, safe_read_csv
+ROOT_DIR = Path(__file__).resolve().parents[2]
+if str(ROOT_DIR) not in sys.path:
+    sys.path.insert(0, str(ROOT_DIR))
+
+from src.utils.schema import detect_schema, safe_read_csv
 
 
 def _emit(message: str, logger=None) -> None:

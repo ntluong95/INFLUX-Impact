@@ -24,7 +24,7 @@ country_codes <- c(
   "VE","VN","VG","VI","WF","EH","YE","ZM","ZW"
 )
 
-base_url <- "https://news.google.com/rss/search?q=dengue+after:2000-01-01+before:2026-02-28"
+base_url <- "https://news.google.com/rss/search?q=dengue+after:2000-01-01+before:2025-03-22"
 urls <- paste0(
   base_url,
   "&hl=en&gl=",
@@ -65,4 +65,10 @@ combined_df <- combined_df %>% distinct(.data[[link_col]], .keep_all = TRUE)
 chr_cols <- names(combined_df)[vapply(combined_df, is.character, logical(1))]
 combined_df[chr_cols] <- lapply(combined_df[chr_cols], as.character)
 
-write_csv(combined_df, "~/data/Dengue_ISO_EN.csv")
+
+purrr::map_chr(combined_df, ~ class(.x)[1])
+combined_df_clean <- combined_df %>%
+  mutate(across(where(is.list), ~ map_chr(.x, ~ paste(.x, collapse = "; "))))
+
+# write_csv(combined_df, "~/data/Dengue_ISO_EN.csv")
+rio::export(combined_df_clean, here::here("data", "Dengue_ISO_EN.csv"))

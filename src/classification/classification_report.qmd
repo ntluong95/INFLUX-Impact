@@ -28,6 +28,7 @@ from __future__ import annotations
 
 import re
 import sqlite3
+import json
 from datetime import datetime
 from pathlib import Path
 from urllib.parse import urlsplit
@@ -59,11 +60,20 @@ EXTRACT_PATH = PROC / "articles_extracted.parquet"
 CLASSIFIED_PATH = PROC / "articles_classified.csv"
 URL_REGISTRY_DB = ROOT / "data" / "url_registry.sqlite"
 LOG_PATH = LOGS / "classification_pipeline.log"
+METRICS_PATH = PROC / "classification_metrics.json"
 
 import sys
-sys.path.insert(0, str(ROOT / "src" / "classification"))
-from utils import canonicalize_url, detect_schema, is_google_news_wrapper_url
+sys.path.insert(0, str(ROOT))
+from src.utils.deduplication import canonicalize_url, is_google_news_wrapper_url
+from src.utils.schema import detect_schema
 from IPython.display import display
+
+try:
+    from itables import show as itables_show
+    ITABLES_AVAILABLE = True
+except Exception:
+    itables_show = None
+    ITABLES_AVAILABLE = False
 
 
 input_df = pd.read_csv(INPUT_PATH, low_memory=False)
@@ -71,6 +81,7 @@ unique_df = pd.read_csv(UNIQUE_PATH, low_memory=False) if UNIQUE_PATH.exists() e
 fetch_df = pd.read_csv(FETCH_PATH, low_memory=False) if FETCH_PATH.exists() else pd.DataFrame()
 extracted_df = pd.read_parquet(EXTRACT_PATH) if EXTRACT_PATH.exists() else pd.DataFrame()
 classified_df = pd.read_csv(CLASSIFIED_PATH, low_memory=False) if CLASSIFIED_PATH.exists() else pd.DataFrame()
+metrics_payload = json.loads(METRICS_PATH.read_text(encoding="utf-8")) if METRICS_PATH.exists() else {}
 
 with open(CFG_PATH, "r", encoding="utf-8") as f:
     cfg = yaml.safe_load(f) or {}
@@ -86,6 +97,7 @@ for label, path in [
     ("Fetch Results", FETCH_PATH),
     ("Extracted Articles", EXTRACT_PATH),
     ("Classified Articles", CLASSIFIED_PATH),
+    ("Classification Metrics JSON", METRICS_PATH),
     ("URL Registry (SQLite)", URL_REGISTRY_DB),
     ("Pipeline Log", LOG_PATH),
 ]:
@@ -105,7 +117,7 @@ for label, path in [
 pd.DataFrame(rows)
 ```
 
-## 1) CSV Inspection
+## CSV Inspection
 
 ```{python}
 schema = detect_schema(input_df)
@@ -123,6 +135,7 @@ pd.DataFrame(
 ```
 
 ```{python}
+# | eval: false
 (
     input_df.isna()
     .mean()
@@ -136,11 +149,12 @@ pd.DataFrame(
 ```
 
 ```{python}
+#| eval: false
 sample_cols = [c for c in [schema.get("url_col"), schema.get("title_col"), schema.get("description_col"), schema.get("date_col")] if c]
 input_df[sample_cols].head(5) if sample_cols else pd.DataFrame({"note": ["No inferred columns."]})
 ```
 
-## 2) URL Resolution + De-duplication
+## URL Resolution + De-duplication
 
 ```{python}
 url_col = schema.get("url_col")
@@ -186,7 +200,9 @@ pd.DataFrame(
 ```{python}
 if URL_REGISTRY_DB.exists():
     with sqlite3.connect(URL_REGISTRY_DB) as conn:
-        reg_rows = pd.read_sql_query("SELECT COUNT(*) AS n_rows FROM url_registry", conn)
+        reg_rows = pd.read_sql_query(
+            "SELECT COUNT(*) AS n_rows FROM url_registry", conn
+        )
         reg_sources = pd.read_sql_query(
             "SELECT COALESCE(source, 'NULL') AS source, COUNT(*) AS n_rows FROM url_registry GROUP BY source ORDER BY n_rows DESC",
             conn,
@@ -197,7 +213,7 @@ else:
     pd.DataFrame({"note": ["URL registry database not found."]})
 ```
 
-## 3) HTML Fetch + Text Extraction
+## HTML Fetch + Text Extraction
 
 ```{python}
 blocked_consent = int((fetch_df["fetch_status"] == "blocked_consent").sum()) if not fetch_df.empty else 0
@@ -239,7 +255,71 @@ else:
     pd.DataFrame({"note": ["No extraction sample available."]})
 ```
 
-## 4) Ensemble Classification Results
+## Ensemble Classification Results
+
+This run is configured in pure ensemble mode:
+- no heuristic keyword prefilter before model calls
+- every row with non-empty extracted title+text is sent to all 3 configured models
+- rows missing extracted content are marked as `skipped`
+
+```{python}
+cls_cfg = cfg.get("classification", {})
+pd.DataFrame(
+    [
+        {"setting": "models_configured", "value": len(cls_cfg.get("models", []))},
+        {"setting": "target_name", "value": cls_cfg.get("target_name")},
+        {"setting": "per_article_parallel_models", "value": cls_cfg.get("per_article_parallel_models")},
+        {"setting": "deterministic_summary_enabled", "value": cls_cfg.get("deterministic_summary", {}).get("enabled")},
+        {"setting": "generation_max_tokens", "value": cls_cfg.get("generation", {}).get("max_tokens")},
+        {"setting": "openai_base_url", "value": cls_cfg.get("openai", {}).get("base_url")},
+    ]
+)
+```
+
+```{python}
+if metrics_payload:
+    agg = metrics_payload.get("aggregation", {})
+    weights = agg.get("weights", {})
+    display(
+        pd.DataFrame(
+            [
+                {"setting": "aggregation_source", "value": agg.get("source")},
+                {"setting": "threshold", "value": agg.get("threshold")},
+                {"setting": "min_agreement", "value": agg.get("min_agreement")},
+                {"setting": "require_min_agreement", "value": agg.get("require_min_agreement")},
+                {"setting": "confidence_semantics", "value": agg.get("confidence_semantics")},
+                {"setting": "weights", "value": json.dumps(weights, ensure_ascii=False)},
+            ]
+        )
+    )
+else:
+    display(pd.DataFrame({"note": ["No classification_metrics.json found."]}))
+```
+
+```{python}
+validation_payload = metrics_payload.get("validation", {}) if metrics_payload else {}
+selected_metrics = validation_payload.get("selected_metrics", {}) if validation_payload else {}
+metrics_row = selected_metrics.get("metrics") if isinstance(selected_metrics, dict) else None
+if validation_payload.get("labels_available") and metrics_row:
+    display(
+        pd.DataFrame(
+            [
+                {"metric": "matched_rows", "value": validation_payload.get("matched_rows")},
+                {"metric": "precision", "value": metrics_row.get("precision")},
+                {"metric": "recall", "value": metrics_row.get("recall")},
+                {"metric": "f1", "value": metrics_row.get("f1")},
+                {"metric": "balanced_accuracy", "value": metrics_row.get("balanced_accuracy")},
+                {"metric": "brier_score", "value": selected_metrics.get("brier_score")},
+                {"metric": "ece", "value": selected_metrics.get("ece")},
+                {"metric": "auprc", "value": selected_metrics.get("auprc")},
+                {"metric": "mean_pairwise_agreement", "value": selected_metrics.get("agreement", {}).get("mean_pairwise_agreement")},
+                {"metric": "disagreement_rate", "value": selected_metrics.get("agreement", {}).get("disagreement_rate")},
+            ]
+        )
+    )
+else:
+    display(pd.DataFrame({"note": ["Validation metrics unavailable (reference labels not configured or unmatched)."]}))
+```
 
 ```{python}
 if not classified_df.empty:
@@ -252,11 +332,70 @@ else:
 
 ```{python}
 if not classified_df.empty:
+    model_aliases = sorted(
+        {
+            c[: -len("_model_id")]
+            for c in classified_df.columns
+            if c.endswith("_model_id")
+        }
+    )
+    table_cols = [
+        "canonical_url",
+        "extracted_title",
+        # "text_hash",
+        "final_label",
+        "final_confidence",
+        "final_relevance_probability",
+        "final_positive_agreement",
+        "final_supporting_models",
+        "final_evidence_spans",
+        # "classified_at",
+    ]
+    for alias in model_aliases:
+        table_cols.extend(
+            [
+                f"{alias}_relevant",
+                f"{alias}_confidence",
+                f"{alias}_relevance_probability",
+                f"{alias}_rationale",
+                f"{alias}_error",
+            ]
+        )
+    table_cols = [c for c in table_cols if c in classified_df.columns]
+    final_out_df = classified_df[table_cols].copy()
+    # NOTES reorder columns "canonical_url" of the final_out_df to the end
+    if "canonical_url" in final_out_df.columns:
+        cols = [c for c in final_out_df.columns if c != "canonical_url"] + [
+            "canonical_url"
+        ]
+        final_out_df = final_out_df[cols]
+    if ITABLES_AVAILABLE:
+        itables_show(
+            final_out_df,
+            maxBytes=0,
+            paging=True,
+            searching=True,
+            ordering=True,
+            pageLength=25,
+            scrollX=True,
+            scrollCollapse=True,
+            classes="display compact nowrap stripe hover",
+        )
+    else:
+        display(final_out_df.head(50))
+        print("Install 'itables' to enable full interactive DataTable output.")
+else:
+    display(pd.DataFrame({"note": ["No classification output found."]}))
+```
+
+```{python}
+if not classified_df.empty:
     model_aliases = sorted({c[: -len("_model_id")] for c in classified_df.columns if c.endswith("_model_id")})
     rows = []
     for alias in model_aliases:
         rel_col = f"{alias}_relevant"
         conf_col = f"{alias}_confidence"
+        prob_col = f"{alias}_relevance_probability"
         err_col = f"{alias}_error"
         model_id_col = f"{alias}_model_id"
 
@@ -264,6 +403,7 @@ if not classified_df.empty:
         rel_false = int((classified_df[rel_col] == False).sum()) if rel_col in classified_df.columns else 0
         errors = int(classified_df[err_col].fillna("").astype(str).str.strip().ne("").sum()) if err_col in classified_df.columns else 0
         avg_conf = float(pd.to_numeric(classified_df[conf_col], errors="coerce").mean()) if conf_col in classified_df.columns else float("nan")
+        avg_prob = float(pd.to_numeric(classified_df[prob_col], errors="coerce").mean()) if prob_col in classified_df.columns else float("nan")
         model_id = classified_df[model_id_col].dropna().iloc[0] if model_id_col in classified_df.columns and not classified_df[model_id_col].dropna().empty else ""
 
         rows.append(
@@ -273,6 +413,7 @@ if not classified_df.empty:
                 "relevant_true": rel_true,
                 "relevant_false": rel_false,
                 "avg_confidence": round(avg_conf, 4) if pd.notna(avg_conf) else None,
+                "avg_relevance_probability": round(avg_prob, 4) if pd.notna(avg_prob) else None,
                 "error_rows": errors,
             }
         )
@@ -280,6 +421,23 @@ if not classified_df.empty:
     display(pd.DataFrame(rows).sort_values("alias"))
 else:
     display(pd.DataFrame({"note": ["No per-model output available."]}))
+```
+
+```{python}
+validation_payload = metrics_payload.get("validation", {}) if metrics_payload else {}
+per_model_validation = validation_payload.get("per_model", []) if validation_payload else []
+if per_model_validation:
+    display(pd.DataFrame(per_model_validation).sort_values("alias"))
+else:
+    display(pd.DataFrame({"note": ["No per-model validation metrics available."]}))
+```
+
+```{python}
+ensemble_gain = validation_payload.get("ensemble_gain", {}) if validation_payload else {}
+if ensemble_gain:
+    display(pd.DataFrame([ensemble_gain]))
+else:
+    display(pd.DataFrame({"note": ["No ensemble gain summary available."]}))
 ```
 
 ```{python}
@@ -300,7 +458,34 @@ else:
     display(pd.DataFrame({"note": ["No vote columns available."]}))
 ```
 
-## 5) Pipeline Log Diagnostics
+```{python}
+if not classified_df.empty:
+    err_cols = [c for c in classified_df.columns if c.endswith("_error")]
+    if err_cols:
+        long = (
+            classified_df[err_cols]
+            .melt(var_name="model_error_col", value_name="error")
+            .assign(error=lambda d: d["error"].fillna("").astype(str).str.strip())
+        )
+        long = long[long["error"] != ""]
+        if not long.empty:
+            out = (
+                long.groupby("error", as_index=False)
+                .size()
+                .sort_values("size", ascending=False)
+                .head(15)
+                .rename(columns={"size": "count"})
+            )
+            display(out)
+        else:
+            display(pd.DataFrame({"note": ["No non-empty model error rows found."]}))
+    else:
+        display(pd.DataFrame({"note": ["No *_error columns found."]}))
+else:
+    display(pd.DataFrame({"note": ["No classification output found."]}))
+```
+
+## Pipeline Log Diagnostics
 
 ```{python}
 log_re = re.compile(r"^(?P<ts>\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}),(?P<ms>\\d{3}) \\| (?P<level>[A-Z]+) \\| (?P<msg>.*)$")
@@ -358,7 +543,7 @@ else:
     pd.DataFrame({"note": ["No complete runs parsed from log."]})
 ```
 
-## 6) Interpretation
+## Interpretation
 
 ```{python}
 if not extracted_df.empty and not classified_df.empty:
@@ -383,6 +568,15 @@ Run pipeline from repository root:
 python src/classification/run_pipeline.py \
   --input data/Zika_News_2015.csv \
   --outdir data/processed \
+  --config src/classification/config.yaml
+```
+
+Run classification-only mode (existing extracted dataset, no fetch/extract):
+
+```bash
+python src/classification/run_classification_only.py \
+  --input_extracted data/processed/articles_extracted.parquet \
+  --out data/processed/articles_classified.csv \
   --config src/classification/config.yaml
 ```
 

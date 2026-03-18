@@ -6,28 +6,26 @@ import argparse
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import sqlite3
 from pathlib import Path
+import sys
 from typing import Dict, Optional
 
 import pandas as pd
 
-try:
-    from .utils import (
-        canonicalize_url,
-        decode_google_news_url,
-        ensure_dir,
-        is_google_news_wrapper_url,
-        text_or_empty,
-        utc_now_iso,
-    )
-except ImportError:  # pragma: no cover - script execution path
-    from utils import (
-        canonicalize_url,
-        decode_google_news_url,
-        ensure_dir,
-        is_google_news_wrapper_url,
-        text_or_empty,
-        utc_now_iso,
-    )
+from src.utils.common import (
+    ensure_dir,
+    text_or_empty,
+    utc_now_iso,
+)
+from src.utils.deduplication import (
+    canonicalize_url,
+    decode_google_news_url,
+    is_google_news_wrapper_url,
+)
+
+
+ROOT_DIR = Path(__file__).resolve().parents[2]
+if str(ROOT_DIR) not in sys.path:
+    sys.path.insert(0, str(ROOT_DIR))
 
 
 def init_registry(db_path: Path) -> None:
@@ -36,6 +34,7 @@ def init_registry(db_path: Path) -> None:
     with sqlite3.connect(db_path) as conn:
         conn.execute(
             """
+            --sql
             CREATE TABLE IF NOT EXISTS url_registry (
                 canonical_url TEXT PRIMARY KEY,
                 first_seen TEXT NOT NULL,
@@ -43,11 +42,14 @@ def init_registry(db_path: Path) -> None:
                 original_url TEXT,
                 source TEXT,
                 content_hash TEXT
-            )
+            );
             """
         )
         conn.execute(
-            "CREATE INDEX IF NOT EXISTS idx_url_registry_last_seen ON url_registry(last_seen)"
+            """
+            --sql
+            CREATE INDEX IF NOT EXISTS idx_url_registry_last_seen ON url_registry(last_seen);
+            """
         )
         conn.commit()
 
@@ -79,6 +81,7 @@ def _upsert_registry_rows(df: pd.DataFrame, db_path: Path, source: str = "rss") 
     with sqlite3.connect(db_path) as conn:
         conn.executemany(
             """
+            --sql
             INSERT INTO url_registry (
                 canonical_url, first_seen, last_seen, original_url, source, content_hash
             )
@@ -87,7 +90,7 @@ def _upsert_registry_rows(df: pd.DataFrame, db_path: Path, source: str = "rss") 
                 last_seen = excluded.last_seen,
                 source = excluded.source,
                 original_url = COALESCE(url_registry.original_url, excluded.original_url),
-                content_hash = COALESCE(excluded.content_hash, url_registry.content_hash)
+                content_hash = COALESCE(excluded.content_hash, url_registry.content_hash);
             """,
             rows,
         )
@@ -101,7 +104,9 @@ def _resolve_google_wrapper_urls(
     logger=None,
 ) -> tuple[Dict[str, str], Dict[str, str], Dict[str, str]]:
     """Resolve Google News wrapper URLs to publisher URLs for a unique URL set."""
-    unique_urls = [str(u).strip() for u in urls.dropna().astype(str).unique() if str(u).strip()]
+    unique_urls = [
+        str(u).strip() for u in urls.dropna().astype(str).unique() if str(u).strip()
+    ]
     if not unique_urls:
         return {}, {}, {}
 
@@ -125,7 +130,9 @@ def _resolve_google_wrapper_urls(
             method_map[url] = method
             error_map[url] = err
             if logger is not None and (idx % 100 == 0 or idx == len(unique_urls)):
-                logger.info("Google wrapper resolution progress: %s/%s", idx, len(unique_urls))
+                logger.info(
+                    "Google wrapper resolution progress: %s/%s", idx, len(unique_urls)
+                )
     else:
         with ThreadPoolExecutor(max_workers=max_workers) as executor:
             futures = {executor.submit(_resolve_one, url): url for url in unique_urls}
@@ -141,7 +148,11 @@ def _resolve_google_wrapper_urls(
                 error_map[source_url] = err
 
                 if logger is not None and (idx % 100 == 0 or idx == len(unique_urls)):
-                    logger.info("Google wrapper resolution progress: %s/%s", idx, len(unique_urls))
+                    logger.info(
+                        "Google wrapper resolution progress: %s/%s",
+                        idx,
+                        len(unique_urls),
+                    )
 
     return resolved_map, method_map, error_map
 
@@ -179,7 +190,9 @@ def deduplicate_feed_urls(
             logger=logger,
         )
         if resolved_map:
-            work["resolved_url"] = work["original_url"].map(lambda u: resolved_map.get(str(u), str(u)))
+            work["resolved_url"] = work["original_url"].map(
+                lambda u: resolved_map.get(str(u), str(u))
+            )
             work["url_resolution_method"] = work["original_url"].map(
                 lambda u: method_map.get(str(u), "not_resolved")
             )
@@ -195,13 +208,17 @@ def deduplicate_feed_urls(
     description_col = schema.get("description_col")
     date_col = schema.get("date_col")
 
-    work["rss_title"] = work[title_col].astype(str) if title_col and title_col in work.columns else ""
+    work["rss_title"] = (
+        work[title_col].astype(str) if title_col and title_col in work.columns else ""
+    )
     work["rss_description"] = (
         work[description_col].astype(str)
         if description_col and description_col in work.columns
         else ""
     )
-    work["pub_date"] = work[date_col].astype(str) if date_col and date_col in work.columns else ""
+    work["pub_date"] = (
+        work[date_col].astype(str) if date_col and date_col in work.columns else ""
+    )
 
     before = len(work)
     work = work[work["canonical_url"].notna() & (work["canonical_url"] != "")].copy()
@@ -219,7 +236,9 @@ def deduplicate_feed_urls(
     if logger is not None:
         wrapper_rows = int(work["original_url"].apply(is_google_news_wrapper_url).sum())
         resolved_rows = int(
-            work["url_resolution_method"].isin({"google_decode_offline", "google_decode_batchexecute"}).sum()
+            work["url_resolution_method"]
+            .isin({"google_decode_offline", "google_decode_batchexecute"})
+            .sum()
         )
         resolver_failures = int(
             work["url_resolution_method"].eq("google_decode_failed").sum()
@@ -241,7 +260,9 @@ def deduplicate_feed_urls(
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Deduplicate RSS URLs and update URL registry.")
+    parser = argparse.ArgumentParser(
+        description="Deduplicate RSS URLs and update URL registry."
+    )
     parser.add_argument("--input", required=True, help="Input CSV path")
     parser.add_argument("--output", required=True, help="Output deduped CSV path")
     parser.add_argument(
@@ -268,7 +289,7 @@ def main() -> None:
         "--resolver-workers",
         type=int,
         default=6,
-        help="Thread workers for URL resolution",
+        help="Thread wor∏kers for URL resolution",
     )
     args = parser.parse_args()
 

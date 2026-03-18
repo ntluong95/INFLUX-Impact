@@ -10,24 +10,8 @@ from typing import Any, Dict
 import pandas as pd
 import requests
 
-try:
-    from .utils import (
-        decode_google_news_url,
-        ensure_dir,
-        is_google_consent_interstitial,
-        sha256_text,
-        text_or_empty,
-        utc_now_iso,
-    )
-except ImportError:  # pragma: no cover - script execution path
-    from utils import (
-        decode_google_news_url,
-        ensure_dir,
-        is_google_consent_interstitial,
-        sha256_text,
-        text_or_empty,
-        utc_now_iso,
-    )
+from src.utils.common import ensure_dir, sha256_text, text_or_empty, utc_now_iso
+from src.utils.deduplication import decode_google_news_url, is_google_consent_interstitial
 
 
 def _fetch_with_retries(

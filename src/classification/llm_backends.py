@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import threading
 import time
 from typing import Any, Dict, List, Optional
 
@@ -20,6 +21,7 @@ class OpenAIChatClient:
         timeout_seconds: int = 60,
         max_retries: int = 3,
         retry_backoff_seconds: float = 2.0,
+        rate_limit_per_minute: float = 0.0,
     ) -> None:
         if not api_key:
             raise ValueError("Missing API key. Set OPENAI_API_KEY in .env.")
@@ -39,6 +41,20 @@ class OpenAIChatClient:
         self.max_retries = max_retries
         self.retry_backoff_seconds = retry_backoff_seconds
         self._use_requests_transport = bool(self.base_url)
+        self.rate_limit_per_minute = float(rate_limit_per_minute or 0.0)
+        self._min_interval_seconds = (60.0 / self.rate_limit_per_minute) if self.rate_limit_per_minute > 0 else 0.0
+        self._last_request_ts = 0.0
+        self._rate_lock = threading.Lock()
+
+    def _apply_rate_limit(self) -> None:
+        if self._min_interval_seconds <= 0:
+            return
+        with self._rate_lock:
+            now = time.monotonic()
+            wait_s = self._min_interval_seconds - (now - self._last_request_ts)
+            if wait_s > 0:
+                time.sleep(wait_s)
+            self._last_request_ts = time.monotonic()
 
     def _chat_completion_via_requests(
         self,
@@ -128,6 +144,7 @@ class OpenAIChatClient:
         last_err: Optional[Exception] = None
         for attempt in range(1, self.max_retries + 1):
             try:
+                self._apply_rate_limit()
                 if self._use_requests_transport:
                     return self._chat_completion_via_requests(
                         model=model,

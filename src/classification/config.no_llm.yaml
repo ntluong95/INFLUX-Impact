@@ -50,8 +50,46 @@ extraction:
   fallback_readability: true
 classification:
   enabled: true
+  metrics_output_path: data/processed/classification_metrics.json
+  target_name: Zika
+  target_aliases:
+  - Zika virus
   text_max_chars: 12000
   min_text_chars_for_llm: 1000000000
+  aggregation:
+    threshold: 0.75
+    min_agreement: 0.67
+    require_min_agreement: true
+    confidence_semantics: auto
+    weights:
+      mistral_openorca: 1.0
+      zephyr_beta: 1.0
+      llama3_70b: 1.0
+  validation:
+    enabled: false
+    labels_path: data/reference/relevance_labels.csv
+    url_column: canonical_url
+    label_column: relevant
+    recall_floor: 0.75
+    tune_weights: true
+    weight_grid_step: 0.25
+    threshold_grid:
+    - 0.65
+    - 0.7
+    - 0.75
+    - 0.8
+    - 0.85
+    min_agreement_grid:
+    - 0.34
+    - 0.67
+    - 1.0
+    ece_bins: 10
+  rationale_quality:
+    max_attempts: 1
+    min_words: 12
+    max_words: 24
+    require_template: true
+    require_evidence_for_relevant: true
   deterministic_summary:
     enabled: false
     max_chars: 6000

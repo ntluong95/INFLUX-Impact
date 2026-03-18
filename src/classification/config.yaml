@@ -51,44 +51,49 @@ extraction:
 
 classification:
   enabled: true
-  cache_by_text_hash: true
   resume_if_exists: true
   checkpoint_every: 10
-  text_max_chars: 1500
-  min_text_chars_for_llm: 250
+  metrics_output_path: data/processed/classification_metrics.json
+  target_name: Zika
+  target_aliases:
+    - Zika virus
+  text_max_chars: 900
   per_article_parallel_models: 1
-  prefilter_keywords:
-    - microcef
-    - microceph
-    - gravidez
-    - gestant
-    - pregnan
-    - guillain
-    - econom
-    - turis
-    - travel
-    - advis
-    - emergenc
-    - decret
-    - policy
-    - politic
-    - hospital
-    - sus
-    - desigual
-    - inequal
-    - aborto
-    - escola
-    - educa
-    - medo
-    - panico
-    - pânico
-  prefilter_min_keyword_hits: 6
-  prefilter_default_label: not_relevant
-  prefilter_confidence: 0.95
+  per_model_parallel_requests: 2
+  inter_article_delay_seconds: 0.0
+  rationale_quality:
+    max_attempts: 1
+    min_words: 12
+    max_words: 24
+    require_template: true
+    require_evidence_for_relevant: true
+
+  aggregation:
+    threshold: 0.75
+    min_agreement: 0.67
+    require_min_agreement: true
+    confidence_semantics: auto
+    weights:
+      qwen: 1.0
+      gemma: 1.0
+      llama: 1.0
+
+  validation:
+    enabled: false
+    labels_path: data/reference/relevance_labels.csv
+    url_column: canonical_url
+    label_column: relevant
+    recall_floor: 0.75
+    tune_weights: true
+    weight_grid_step: 0.25
+    threshold_grid: [0.65, 0.7, 0.75, 0.8, 0.85]
+    min_agreement_grid: [0.34, 0.67, 1.0]
+    ece_bins: 10
+
   deterministic_summary:
-    enabled: true
-    max_chars: 1000
-    max_sentences: 8
+    enabled: false
+    max_chars: 700
+    max_sentences: 6
     keywords:
       - zika
       - microcefalia
@@ -105,21 +110,20 @@ classification:
 
   openai:
     api_key_env: OPENAI_API_KEY
-    api_key_fallback: ollama
-    allow_missing_api_key_for_local: true
-    base_url: http://localhost:11434/v1
-    timeout_seconds: 20
+    base_url: "http://127.0.0.1:11434/v1"
+    timeout_seconds: 60
     max_retries: 1
     retry_backoff_seconds: 1.0
+    rate_limit_per_minute: 0
 
   generation:
     temperature: 0.0
     max_tokens: 96
 
   models:
-    - alias: mistral_openorca
-      model_id: mistral
-    - alias: zephyr_beta
-      model_id: zephyr
-    - alias: llama3_70b
+    - alias: qwen
+      model_id: qwen2.5:7b
+    - alias: gemma
+      model_id: gemma2:2b
+    - alias: llama
       model_id: llama3.1:8b
