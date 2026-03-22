@@ -799,7 +799,7 @@ def main() -> None:
 
     log_path = zika_root / "logs" / "02_filter_headlines_ensemble.log"
     logger = setup_logger(log_path)
-    # TODO Change to work only of 2018 to 2020 data
+    # NOTE: Change to work only of 2018 to 2020 data
     input_csv = zika_root / "data" / "intermediate" / "zika_small_rss_raw.csv"
     output_csv = zika_root / "data" / "intermediate" / "zika_headlines_scored.csv"
     output_parquet = (

@@ -7,7 +7,7 @@ pacman::p_load(tidyRSS, lubridate)
 # Define search term and base URL for the RSS feed
 keyword_base <- "https://news.google.com/rss/search?q=zika+after:"
 
-#TODO AVOID unnecessary duplications
+#NOTES AVOID unnecessary duplications
 #NOTES  every duplicate URL appears exactly twice, and always in consecutive windows (gap = 1 day).
 # Define search date ranges
 start_dates <- seq(ymd("2010-01-01"), ymd("2025-12-30"), by = "days")
@@ -18,7 +18,7 @@ results_list <- list()
 
 # before loop
 seen_links <- character(0)
-#TODO to be tested: in-loop dedupe against previously seen links, to avoid duplicates across windows (gap = 1 day)
+#NOTES to be tested: in-loop dedupe against previously seen links, to avoid duplicates across windows (gap = 1 day)
 # # inside loop, after successful tidyfeed
 # if (nrow(google_news) > 0) {
 #   df <- as.data.frame(lapply(google_news, as.character), stringsAsFactors = FALSE)
@@ -76,11 +76,11 @@ for (i in seq_along(start_dates)) {
     message(paste("No results for date range:", start_date, "to", end_date))
   }
 }
-#TODO No dedup step
+#NOTES No dedup step
 # Combine all data frames into one, if there are any results
 if (length(results_list) > 0) {
   combined_df <- do.call(rbind, results_list)
-  #TODO to be tested: post-loop dedupe by link column, to remove any duplicates across windows (gap = 1 day)
+  #NOTES to be tested: post-loop dedupe by link column, to remove any duplicates across windows (gap = 1 day)
   # link_col <- intersect(
   #   c("item_link", "link", "guid", "item_guid_id"),
   #   names(combined_df)

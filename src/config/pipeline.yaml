@@ -1,0 +1,141 @@
+paths:
+  data_root: "data"
+
+inputs:
+  query_files:
+    human: "data/inputs/human_diseases.csv"
+    animal: "data/inputs/animal_diseases.csv"
+    plant: "data/inputs/plant_diseases.csv"
+
+search:
+  start_date: "2005-01-01"
+  end_date: "2025-12-31"
+
+rss:
+  chunk_size_days: 1
+  cache_format: "json"
+  request_sleep_seconds: 1.5
+  timeout_seconds: 30
+  max_retries: 3
+  retry_backoff_seconds: 2.0
+  max_backoff_seconds: 90
+  force_refresh: false
+  proxy_backend: "direct"
+  http_proxy: ""
+  https_proxy: ""
+  scraping_bee_api_key: ""
+  user_agent: "Mozilla/5.0 (compatible; INFLUX-PathogenNews/1.0; +https://news.google.com/)"
+  language_specs:
+    en:
+      language_variants: ["en", "en-US", "en-GB", "en-CA", "en-AU", "en-NZ"]
+      locales:
+        - id: "en_us"
+          lang: "en"
+          country: "US"
+          accept_language: "en-US,en-GB,en-CA,en-AU,en-NZ,en;q=0.9"
+        - id: "en_gb"
+          lang: "en"
+          country: "GB"
+          accept_language: "en-GB,en-US,en-IE,en-CA,en-AU,en;q=0.9"
+        - id: "en_ca"
+          lang: "en"
+          country: "CA"
+          accept_language: "en-CA,en-US,en-GB,en;q=0.9"
+    fr:
+      language_variants: ["fr", "fr-FR", "fr-CA", "fr-BE", "fr-CH"]
+      locales:
+        - id: "fr_fr"
+          lang: "fr"
+          country: "FR"
+          accept_language: "fr-FR,fr-CA,fr-BE,fr-CH,fr;q=0.9,en;q=0.3"
+        - id: "fr_ca"
+          lang: "fr"
+          country: "CA"
+          accept_language: "fr-CA,fr-FR,fr-BE,fr-CH,fr;q=0.9,en;q=0.3"
+        - id: "fr_be"
+          lang: "fr"
+          country: "BE"
+          accept_language: "fr-BE,fr-FR,fr-CH,fr-CA,fr;q=0.9,en;q=0.3"
+    es:
+      language_variants: ["es", "es-ES", "es-MX", "es-AR", "es-CO", "es-CL", "es-PE", "es-419"]
+      locales:
+        - id: "es_es"
+          lang: "es"
+          country: "ES"
+          accept_language: "es-ES,es-419,es-MX,es-AR,es-CO,es-CL,es-PE,es;q=0.9,en;q=0.3"
+        - id: "es_mx"
+          lang: "es"
+          country: "MX"
+          accept_language: "es-MX,es-419,es-ES,es-AR,es-CO,es;q=0.9,en;q=0.3"
+        - id: "es_ar"
+          lang: "es"
+          country: "AR"
+          accept_language: "es-AR,es-419,es-ES,es-MX,es-CO,es;q=0.9,en;q=0.3"
+    pt:
+      language_variants: ["pt", "pt-BR", "pt-PT", "pt-AO", "pt-MZ"]
+      locales:
+        - id: "pt_br"
+          lang: "pt-BR"
+          country: "BR"
+          accept_language: "pt-BR,pt-PT,pt-AO,pt-MZ,pt;q=0.9,en;q=0.3"
+        - id: "pt_pt"
+          lang: "pt-PT"
+          country: "PT"
+          accept_language: "pt-PT,pt-BR,pt-AO,pt-MZ,pt;q=0.9,en;q=0.3"
+
+classification:
+  domains_removed_path: "data/domains_removed.csv"
+  openai:
+    api_key_env: "OPENAI_API_KEY"
+    base_url: ""
+    model: "gpt-5-nano"
+    max_tokens: 1000
+    timeout_seconds: 60
+    batch:
+      completion_window: "24h"
+      max_requests_per_batch: 50000
+      max_input_file_bytes: 190000000
+      max_estimated_prompt_tokens_per_batch: 1000000
+      max_estimated_enqueued_prompt_tokens: 2000000
+      max_pending_batches_per_dataset: 25
+
+fulltext:
+  input_action: "keep"
+  timeout_seconds: 30
+  max_retries: 3
+  retry_backoff_seconds: 1.5
+  rate_limit_per_second: 0.5
+  min_text_words: 120
+  checkpoint_every: 10
+  user_agent: "Mozilla/5.0 (compatible; INFLUX-PathogenNews-FullText/1.0)"
+
+bertopic:
+  min_word_count: 120
+  max_words_per_document: 900
+  min_documents: 20
+  min_topic_size: 12
+  n_clusters: 10
+  cluster_model: "kmeans"
+  embedding_models_by_domain:
+  #TODO: Consider using different models for each domain
+    human: "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+    animal: "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+    plant: "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+  top_n_words: 10
+  min_df: 3
+  ngram_min: 1
+  ngram_max: 2
+  bm25_weighting: true
+  reduce_frequent_words: true
+  representation_mmr_diversity: 0.5
+  umap_neighbors: 12
+  umap_components: 5
+  umap_min_dist: 0.05
+  projection_neighbors: 10
+  projection_min_dist: 0.05
+  seed: 42
+  language_stop_words:
+    en: "english"
+    fr: null
+    es: null
+    pt: null

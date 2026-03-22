@@ -1,7 +1,7 @@
 [project]
 name = "influx-impact-classification"
 version = "0.1.0"
-description = "Zika 2015 processing and ensemble classification pipeline"
+description = "Pathogen news processing and topic exploration pipeline"
 requires-python = ">=3.14,<3.15"
 dependencies = [
   "pandas>=2.0.0",
@@ -9,6 +9,7 @@ dependencies = [
   "python-dotenv>=1.0.0",
   "requests>=2.31.0",
   "pygooglenews>=0.1.2",
+  "feedparser>=6.0.11",
   "beautifulsoup4>=4.12.0",
   "lxml>=5.0.0",
   "openai>=1.30.0",
@@ -35,3 +36,6 @@ package = false
 
 [tool.pyrefly]
 search-path = ["."]
+
+[tool.ruff]
+ignore = ["E402"]

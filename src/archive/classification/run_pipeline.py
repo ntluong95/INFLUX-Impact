@@ -49,7 +49,6 @@ def _load_extracted_if_exists(outdir: Path) -> pd.DataFrame | None:
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        # TODO: update
         description="Run Zika 2015 processing + classification pipeline."
     )
     parser.add_argument(
