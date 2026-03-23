@@ -27,6 +27,8 @@ warnings.filterwarnings("ignore", message=".*doesn't match a supported version.*
 REQUESTS_WARNING = getattr(requests.exceptions, "RequestsDependencyWarning", Warning)
 warnings.filterwarnings("ignore", category=REQUESTS_WARNING)
 
+DEFAULT_WINDOW_HIERARCHY_DAYS = [30, 14, 7, 3, 1]
+
 THROTTLE_PATTERNS = [
     re.compile(pattern, flags=re.IGNORECASE)
     for pattern in [
@@ -44,6 +46,11 @@ MANIFEST_COLUMNS = [
     "window_start",
     "window_end",
     "query",
+    "window_days",
+    "window_role",
+    "parent_window_start",
+    "parent_window_end",
+    "split_trigger_entries",
     "status",
     "attempts",
     "http_status",
@@ -51,6 +58,12 @@ MANIFEST_COLUMNS = [
     "last_attempt_at",
     "next_eligible_attempt_at",
     "error_summary",
+]
+
+MANIFEST_KEY_COLUMNS = [
+    "window_start",
+    "window_end",
+    "query",
 ]
 
 RSS_OUTPUT_COLUMNS = [
@@ -184,6 +197,7 @@ def load_config(config_path: Path) -> dict[str, Any]:
     with config_path.open("r", encoding="utf-8") as handle:
         cfg = yaml.safe_load(handle) or {}
 
+    cfg.setdefault("paths", {})
     rss_cfg = cfg.setdefault("rss", {})
     query_cfg = cfg.setdefault("query", {})
 
@@ -244,15 +258,130 @@ def build_date_windows(
     return windows
 
 
+def compute_window_days(window_start: str, window_end: str) -> int:
+    start = date.fromisoformat(window_start)
+    end = date.fromisoformat(window_end)
+    return max(1, (end - start).days + 1)
+
+
+def normalize_window_hierarchy(raw_value: Any) -> list[int]:
+    if raw_value is None or raw_value == "":
+        values = list(DEFAULT_WINDOW_HIERARCHY_DAYS)
+    elif isinstance(raw_value, str):
+        values = [int(chunk.strip()) for chunk in raw_value.split(",") if chunk.strip()]
+    elif isinstance(raw_value, (list, tuple)):
+        values = [int(item) for item in raw_value]
+    else:
+        values = [int(raw_value)]
+
+    cleaned = sorted({max(1, int(value)) for value in values}, reverse=True)
+    if not cleaned:
+        raise ValueError("RSS window hierarchy must contain at least one positive integer.")
+    if cleaned[-1] != 1:
+        cleaned.append(1)
+    return cleaned
+
+
+def next_split_window_days(
+    current_window_days: int,
+    window_hierarchy_days: list[int],
+) -> int | None:
+    current = max(1, int(current_window_days))
+    hierarchy = normalize_window_hierarchy(window_hierarchy_days)
+    smaller_levels = [level for level in hierarchy if level < current]
+    if not smaller_levels:
+        return None
+    return max(smaller_levels)
+
+
+def data_root_relative(cfg: dict[str, Any]) -> str:
+    return str(cfg.get("paths", {}).get("data_root", "data"))
+
+
+def logs_root_relative(cfg: dict[str, Any]) -> str:
+    return str(cfg.get("paths", {}).get("logs_root", "logs"))
+
+
 def cache_relative_path(
-    query: str, window_start: str, window_end: str, cache_format: str = "json"
+    *,
+    data_root_relative_path: str,
+    query: str,
+    window_start: str,
+    window_end: str,
+    cache_format: str = "json",
 ) -> str:
     extension = cache_format.lower().strip(".") or "json"
-    return f"data/raw/rss/{query}_{window_start}_{window_end}.{extension}"
+    return (
+        f"{data_root_relative_path}/raw/rss/"
+        f"{query}_{window_start}_{window_end}.{extension}"
+    )
 
 
-def manifest_path(zika_root: Path, filename: str) -> Path:
-    return zika_root / "data" / "raw" / "rss" / filename
+def manifest_path(zika_root: Path, cfg: dict[str, Any], filename: str) -> Path:
+    return zika_root / data_root_relative(cfg) / "raw" / "rss" / filename
+
+
+def intermediate_output_paths(
+    zika_root: Path,
+    cfg: dict[str, Any],
+    query: str,
+) -> tuple[Path, Path]:
+    base = zika_root / data_root_relative(cfg) / "intermediate"
+    return (
+        base / f"{query}_rss_raw.csv",
+        base / f"{query}_rss_raw.parquet",
+    )
+
+
+def log_path(zika_root: Path, cfg: dict[str, Any], filename: str) -> Path:
+    return zika_root / logs_root_relative(cfg) / filename
+
+
+def manifest_row_key(row: dict[str, Any]) -> tuple[str, ...]:
+    return tuple(str(row.get(column, "") or "") for column in MANIFEST_KEY_COLUMNS)
+
+
+def build_manifest_row(
+    *,
+    query: str,
+    window_start: str,
+    window_end: str,
+    cache_format: str,
+    data_root_relative_path: str,
+    window_role: str = "base",
+    parent_window_start: str = "",
+    parent_window_end: str = "",
+    split_trigger_entries: str = "",
+    status: str = "pending",
+    attempts: str = "0",
+    http_status: str = "",
+    last_attempt_at: str = "",
+    next_eligible_attempt_at: str = "",
+    error_summary: str = "",
+) -> dict[str, str]:
+    return {
+        "window_start": window_start,
+        "window_end": window_end,
+        "query": query,
+        "window_days": str(compute_window_days(window_start, window_end)),
+        "window_role": window_role,
+        "parent_window_start": parent_window_start,
+        "parent_window_end": parent_window_end,
+        "split_trigger_entries": split_trigger_entries,
+        "status": status,
+        "attempts": attempts,
+        "http_status": http_status,
+        "cached_path": cache_relative_path(
+            data_root_relative_path=data_root_relative_path,
+            query=query,
+            window_start=window_start,
+            window_end=window_end,
+            cache_format=cache_format,
+        ),
+        "last_attempt_at": last_attempt_at,
+        "next_eligible_attempt_at": next_eligible_attempt_at,
+        "error_summary": error_summary,
+    }
 
 
 def load_or_initialize_manifest(
@@ -260,25 +389,16 @@ def load_or_initialize_manifest(
     windows: list[dict[str, str]],
     query: str,
     cache_format: str,
+    data_root_relative_path: str,
 ) -> pd.DataFrame:
     default_rows = [
-        {
-            "window_start": window["window_start"],
-            "window_end": window["window_end"],
-            "query": query,
-            "status": "pending",
-            "attempts": "0",
-            "http_status": "",
-            "cached_path": cache_relative_path(
-                query=query,
-                window_start=window["window_start"],
-                window_end=window["window_end"],
-                cache_format=cache_format,
-            ),
-            "last_attempt_at": "",
-            "next_eligible_attempt_at": "",
-            "error_summary": "",
-        }
+        build_manifest_row(
+            query=query,
+            window_start=window["window_start"],
+            window_end=window["window_end"],
+            cache_format=cache_format,
+            data_root_relative_path=data_root_relative_path,
+        )
         for window in windows
     ]
     manifest_df = pd.DataFrame(default_rows, columns=MANIFEST_COLUMNS)
@@ -291,21 +411,53 @@ def load_or_initialize_manifest(
         if column not in existing.columns:
             existing[column] = ""
     existing = existing[MANIFEST_COLUMNS]
-    merged = manifest_df.merge(
-        existing,
-        on=["window_start", "window_end", "query"],
-        how="left",
-        suffixes=("", "_existing"),
-    )
-    for column in MANIFEST_COLUMNS:
-        existing_column = f"{column}_existing"
-        if existing_column not in merged.columns:
-            continue
-        merged[column] = merged[existing_column].where(
-            merged[existing_column].astype(str).str.len() > 0, merged[column]
-        )
-        merged.drop(columns=[existing_column], inplace=True)
-    return merged[MANIFEST_COLUMNS].fillna("")
+    default_by_key = {manifest_row_key(row): row for row in default_rows}
+    normalized_existing: list[dict[str, str]] = []
+    existing_keys: set[tuple[str, ...]] = set()
+
+    for record in existing.to_dict(orient="records"):
+        key = manifest_row_key(record)
+        default_row = default_by_key.get(key, {})
+        normalized: dict[str, str] = {}
+        for column in MANIFEST_COLUMNS:
+            existing_value = str(record.get(column, "") or "")
+            default_value = str(default_row.get(column, "") or "")
+            normalized[column] = existing_value or default_value
+
+        if (
+            not normalized["cached_path"]
+            and normalized["window_start"]
+            and normalized["window_end"]
+        ):
+            normalized["cached_path"] = cache_relative_path(
+                data_root_relative_path=data_root_relative_path,
+                query=query,
+                window_start=normalized["window_start"],
+                window_end=normalized["window_end"],
+                cache_format=cache_format,
+            )
+        if (
+            not normalized["window_days"]
+            and normalized["window_start"]
+            and normalized["window_end"]
+        ):
+            normalized["window_days"] = str(
+                compute_window_days(
+                    normalized["window_start"],
+                    normalized["window_end"],
+                )
+            )
+        if not normalized["window_role"]:
+            normalized["window_role"] = "base" if default_row else "hierarchical_child"
+
+        normalized_existing.append(normalized)
+        existing_keys.add(manifest_row_key(normalized))
+
+    missing_default_rows = [
+        row for row in default_rows if manifest_row_key(row) not in existing_keys
+    ]
+    combined_rows = normalized_existing + missing_default_rows
+    return pd.DataFrame(combined_rows, columns=MANIFEST_COLUMNS).fillna("")
 
 
 def write_manifest(manifest_df: pd.DataFrame, manifest_csv: Path) -> None:
@@ -450,6 +602,8 @@ def is_completed_manifest_row(
 ) -> bool:
     if force_refresh:
         return False
+    if status == "split":
+        return True
     return status in {"success", "empty"} and cached_path.exists()
 
 

@@ -14,7 +14,9 @@ if str(REPO_ROOT) not in sys.path:
 from zika.python.rss_utils import (
     RSS_OUTPUT_COLUMNS,
     dedupe_rss_records,
+    intermediate_output_paths,
     load_config,
+    log_path as resolve_log_path,
     manifest_path,
     parse_cached_payload,
     setup_logger,
@@ -37,16 +39,16 @@ def main() -> None:
     zika_root = config_path.parent.parent
     cfg = load_config(config_path)
 
-    log_path = zika_root / "logs" / "01_parse_google_rss.log"
+    log_path = resolve_log_path(zika_root, cfg, "01_parse_google_rss.log")
     logger = setup_logger("zika_rss_parse", log_path)
 
     query = str(cfg.get("query", {}).get("term", "zika"))
     manifest_csv = manifest_path(
         zika_root,
+        cfg,
         str(cfg.get("rss", {}).get("manifest_filename", f"{query}_rss_manifest.csv")),
     )
-    output_csv = zika_root / "data" / "intermediate" / "zika_rss_raw.csv"
-    output_parquet = zika_root / "data" / "intermediate" / "zika_rss_raw.parquet"
+    output_csv, output_parquet = intermediate_output_paths(zika_root, cfg, query)
 
     if not manifest_csv.exists():
         raise FileNotFoundError(f"Missing manifest: {manifest_csv}")

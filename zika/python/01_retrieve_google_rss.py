@@ -16,16 +16,23 @@ if str(REPO_ROOT) not in sys.path:
 
 from zika.python.rss_utils import (  # noqa: E402
     InstrumentedGoogleNews,
+    build_manifest_row,
     build_date_windows,
     build_proxy_settings,
     cache_relative_path,
     compute_backoff_seconds,
+    compute_window_days,
+    data_root_relative,
     detect_throttling,
     ensure_dir,
     is_completed_manifest_row,
     load_config,
     load_or_initialize_manifest,
+    log_path as resolve_log_path,
+    manifest_row_key,
     manifest_path,
+    next_split_window_days,
+    normalize_window_hierarchy,
     setup_logger,
     should_pause_until_next_attempt,
     should_retry,
@@ -60,29 +67,101 @@ def update_manifest_row(manifest_df: pd.DataFrame, idx: Any, **values: Any) -> N
         set_frame_value(manifest_df, idx, key, "" if value is None else str(value))
 
 
+def insert_hierarchical_child_rows(
+    manifest_df: pd.DataFrame,
+    parent_idx: int,
+    query: str,
+    parent_row: pd.Series,
+    child_window_days: int,
+    cache_format: str,
+    data_root_relative_path: str,
+) -> tuple[pd.DataFrame, int]:
+    parent_start = str(parent_row["window_start"])
+    parent_end = str(parent_row["window_end"])
+    child_windows = build_date_windows(
+        start_date=parent_start,
+        end_date=parent_end,
+        chunk_size_days=child_window_days,
+    )
+    existing_keys = {
+        manifest_row_key(record)
+        for record in manifest_df.to_dict(orient="records")
+    }
+    child_rows: list[dict[str, str]] = []
+
+    for child_window in child_windows:
+        child_row = build_manifest_row(
+            query=query,
+            window_start=child_window["window_start"],
+            window_end=child_window["window_end"],
+            cache_format=cache_format,
+            data_root_relative_path=data_root_relative_path,
+            window_role="hierarchical_child",
+            parent_window_start=parent_start,
+            parent_window_end=parent_end,
+        )
+        child_key = manifest_row_key(child_row)
+        if child_key in existing_keys:
+            continue
+        existing_keys.add(child_key)
+        child_rows.append(child_row)
+
+    if not child_rows:
+        return manifest_df.reset_index(drop=True), 0
+
+    insertion_point = parent_idx + 1
+    before = manifest_df.iloc[:insertion_point].copy()
+    after = manifest_df.iloc[insertion_point:].copy()
+    inserted = pd.DataFrame(child_rows)
+    manifest_df = pd.concat([before, inserted, after], ignore_index=True)
+    return manifest_df.reset_index(drop=True), len(child_rows)
+
+
 def main() -> None:
     args = parse_args()
     repo_root = Path(__file__).resolve().parents[2]
     config_path = (repo_root / args.config).resolve()
     zika_root = config_path.parent.parent
     cfg = load_config(config_path)
+    data_root_relative_path = data_root_relative(cfg)
 
-    log_path = zika_root / "logs" / "01_retrieve_google_rss.log"
+    log_path = resolve_log_path(zika_root, cfg, "01_retrieve_google_rss.log")
     logger = setup_logger("zika_rss_fetch", log_path)
 
     query_cfg = cfg.get("query", {})
     rss_cfg = cfg.get("rss", {})
     query = str(query_cfg.get("term", "zika"))
+    raw_hierarchy = rss_cfg.get("split_hierarchy_days")
+    if raw_hierarchy in (None, ""):
+        adaptive_enabled = str(rss_cfg.get("adaptive_split_enabled", "false")).lower() == "true"
+        base_window_days = max(1, int(rss_cfg.get("chunk_size_days", 1)))
+        split_window_days = max(1, int(rss_cfg.get("adaptive_split_window_days", 1)))
+        if adaptive_enabled and split_window_days < base_window_days:
+            raw_hierarchy = [base_window_days, split_window_days, 1]
+        else:
+            raw_hierarchy = [base_window_days]
+    window_hierarchy_days = normalize_window_hierarchy(raw_hierarchy)
+    base_window_days = window_hierarchy_days[0]
+    split_threshold_entries = max(
+        1,
+        int(
+            rss_cfg.get(
+                "split_threshold_entries",
+                rss_cfg.get("adaptive_split_threshold_entries", 100),
+            )
+        ),
+    )
     windows = build_date_windows(
         start_date=str(query_cfg.get("start_date")),
         end_date=str(query_cfg.get("end_date")),
-        chunk_size_days=int(rss_cfg.get("chunk_size_days", 1)),
+        chunk_size_days=base_window_days,
     )
 
-    raw_dir = zika_root / "data" / "raw" / "rss"
+    raw_dir = zika_root / data_root_relative_path / "raw" / "rss"
     ensure_dir(raw_dir)
     manifest_csv = manifest_path(
         zika_root,
+        cfg,
         str(rss_cfg.get("manifest_filename", f"{query}_rss_manifest.csv")),
     )
     manifest_df = load_or_initialize_manifest(
@@ -90,15 +169,19 @@ def main() -> None:
         windows=windows,
         query=query,
         cache_format=str(rss_cfg.get("cache_format", "json")),
+        data_root_relative_path=data_root_relative_path,
     )
+    manifest_df = manifest_df.reset_index(drop=True)
     write_manifest(manifest_df, manifest_csv)
 
     logger.info(
-        "Stage 1 retrieval configured for %s windows from %s to %s using backend=%s",
+        "Stage 1 retrieval configured for %s base windows from %s to %s using backend=%s hierarchy=%s split_threshold_entries=%s",
         len(windows),
         query_cfg.get("start_date"),
         query_cfg.get("end_date"),
         rss_cfg.get("backend", "pygooglenews"),
+        window_hierarchy_days,
+        split_threshold_entries,
     )
 
     proxy_settings = build_proxy_settings(rss_cfg)
@@ -132,22 +215,30 @@ def main() -> None:
     skipped_completed = 0
     fetched_success = 0
     fetched_empty = 0
+    split_windows = 0
     failed_windows = 0
     paused_for_throttle = False
-
-    for idx, row in manifest_df.iterrows():
+    idx = 0
+    while idx < len(manifest_df):
+        row = manifest_df.iloc[idx]
         cached_rel = str(row["cached_path"] or "")
         cached_path = zika_root / cached_rel
         status = str(row["status"] or "pending")
         window_start = str(row["window_start"])
         window_end = str(row["window_end"])
+        current_window_days = int(
+            str(row.get("window_days") or "")
+            or compute_window_days(window_start, window_end)
+        )
+        window_role = str(row.get("window_role") or "base")
         query_to_exclusive = (
             date.fromisoformat(window_end) + timedelta(days=1)
         ).isoformat()
-        window_id = f"{window_start}_{window_end}"
+        window_id = f"{window_start}_{window_end}:{window_role}"
 
         if is_completed_manifest_row(status, cached_path, force_refresh):
             skipped_completed += 1
+            idx += 1
             continue
 
         now = utc_now()
@@ -168,6 +259,7 @@ def main() -> None:
             "cached_path",
             cached_rel
             or cache_relative_path(
+                data_root_relative_path=data_root_relative_path,
                 query=query,
                 window_start=window_start,
                 window_end=window_end,
@@ -217,6 +309,10 @@ def main() -> None:
                     "query": query,
                     "window_start": window_start,
                     "window_end": window_end,
+                    "window_days": current_window_days,
+                    "window_role": window_role,
+                    "parent_window_start": str(row.get("parent_window_start") or ""),
+                    "parent_window_end": str(row.get("parent_window_end") or ""),
                     "language": query_cfg.get("language", "en"),
                     "lang": rss_cfg.get("lang", "en"),
                     "country": rss_cfg.get("country", "US"),
@@ -229,31 +325,73 @@ def main() -> None:
                 }
                 write_json_atomic(payload, cached_path)
 
-                final_status = "empty" if not payload["entries"] else "success"
-                update_manifest_row(
-                    manifest_df,
-                    idx,
-                    status=final_status,
-                    http_status=http_status,
-                    last_attempt_at=attempt_started_at,
-                    next_eligible_attempt_at="",
-                    error_summary="",
+                entry_count = len(payload["entries"])
+                next_window_days = next_split_window_days(
+                    current_window_days=current_window_days,
+                    window_hierarchy_days=window_hierarchy_days,
                 )
-                write_manifest(manifest_df, manifest_csv)
+                should_split_window = (
+                    next_window_days is not None
+                    and entry_count >= split_threshold_entries
+                )
 
-                if final_status == "success":
-                    fetched_success += 1
+                if should_split_window:
+                    manifest_df, inserted_children = insert_hierarchical_child_rows(
+                        manifest_df=manifest_df,
+                        parent_idx=idx,
+                        query=query,
+                        parent_row=row,
+                        child_window_days=int(next_window_days),
+                        cache_format=str(rss_cfg.get("cache_format", "json")),
+                        data_root_relative_path=data_root_relative_path,
+                    )
+                    update_manifest_row(
+                        manifest_df,
+                        idx,
+                        status="split",
+                        http_status=http_status,
+                        last_attempt_at=attempt_started_at,
+                        next_eligible_attempt_at="",
+                        error_summary=(
+                            f"hierarchical_split:{entry_count} entries -> "
+                            f"{next_window_days}-day child windows"
+                        ),
+                        split_trigger_entries=entry_count,
+                    )
+                    write_manifest(manifest_df, manifest_csv)
+                    split_windows += 1
+                    logger.info(
+                        "Hierarchical split triggered for %s entries=%s next_window_days=%s child_windows_inserted=%s",
+                        window_id,
+                        entry_count,
+                        next_window_days,
+                        inserted_children,
+                    )
                 else:
-                    fetched_empty += 1
-                logger.info(
-                    "Window %s fetched status=%s entries=%s",
-                    window_id,
-                    final_status,
-                    len(payload["entries"]),
-                )
+                    final_status = "empty" if not payload["entries"] else "success"
+                    update_manifest_row(
+                        manifest_df,
+                        idx,
+                        status=final_status,
+                        http_status=http_status,
+                        last_attempt_at=attempt_started_at,
+                        next_eligible_attempt_at="",
+                        error_summary="",
+                        split_trigger_entries="",
+                    )
+                    write_manifest(manifest_df, manifest_csv)
+
+                    if final_status == "success":
+                        fetched_success += 1
+                    else:
+                        fetched_empty += 1
+                    logger.info(
+                        "Window %s fetched status=%s entries=%s",
+                        window_id,
+                        final_status,
+                        entry_count,
+                    )
                 window_completed = True
-                if request_sleep_seconds > 0:
-                    time.sleep(request_sleep_seconds)
                 break
 
             except Exception as exc:
@@ -354,14 +492,19 @@ def main() -> None:
         if paused_for_throttle:
             break
         if not window_completed and not paused_for_throttle:
+            idx += 1
             continue
+        if request_sleep_seconds > 0:
+            time.sleep(request_sleep_seconds)
+        idx += 1
 
     write_manifest(manifest_df, manifest_csv)
     logger.info(
-        "Retrieval summary completed=%s success=%s empty=%s failed=%s manifest=%s",
-        skipped_completed + fetched_success + fetched_empty,
+        "Retrieval summary completed=%s success=%s empty=%s split=%s failed=%s manifest=%s",
+        skipped_completed + fetched_success + fetched_empty + split_windows,
         fetched_success,
         fetched_empty,
+        split_windows,
         failed_windows,
         manifest_csv,
     )

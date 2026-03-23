@@ -98,6 +98,12 @@ Local LLM runtime:
 
 Settings live in `zika/config/zika.yaml`. Environment variables in `.env` override the matching runtime settings. Conservative Stage 1 defaults use direct requests with daily windows and backoff. Proxy rotation is optional infrastructure, not the default path.
 
+A separate hierarchical Stage 1 config is available at `zika/config/zika_hierarchical.yaml`. It writes to `zika/data_hierarchical/` and `zika/logs_hierarchical/`, uses the window hierarchy `30 -> 14 -> 7 -> 3 -> 1`, and keeps those artifacts isolated from the original daily-window run.
+
+A lower-threshold hierarchical variant is also available at `zika/config/zika_hierarchical_60.yaml`. It writes to `zika/data_hierarchical_60/` and `zika/logs_hierarchical_60/`, uses the same `30 -> 14 -> 7 -> 3 -> 1` hierarchy, but splits windows earlier at `60` items instead of `100`.
+
+A shallower hierarchical variant is also available at `zika/config/zika_hierarchical_14.yaml`. It writes to `zika/data_hierarchical_14/` and `zika/logs_hierarchical_14/`, starts from `14`-day windows, and then drills down through `14 -> 7 -> 3 -> 1` with the default split threshold of `100`.
+
 For the local model, `LOCAL_LLM_PROVIDER=ollama` uses Ollama endpoints and `LOCAL_LLM_PROVIDER=openai_compatible` uses `/v1/chat/completions` on the configured `LOCAL_LLM_BASE_URL`. That gives you a supported escape hatch if Ollama is unstable on the current machine.
 
 Stage 2 defaults to `gpt-5-nano` via the OpenAI Batch API. OpenAI batch submission/hydration and local DeepSeek scoring now run independently: one run can submit or poll the batch while also continuing local scoring, and later reruns will join the two result streams into the final ensemble as soon as both sides are available for a row.

@@ -119,6 +119,45 @@ artifact_info <- function(path_label, path) {
 #| label: load-artifacts
 manifest_path <- file.path(ZIKA, "data", "raw", "rss", "zika_rss_manifest.csv")
 rss_path <- file.path(ZIKA, "data", "intermediate", "zika_rss_raw.csv")
+hier_manifest_path <- file.path(
+  ZIKA,
+  "data_hierarchical",
+  "raw",
+  "rss",
+  "zika_rss_manifest.csv"
+)
+hier_rss_path <- file.path(
+  ZIKA,
+  "data_hierarchical",
+  "intermediate",
+  "zika_rss_raw.csv"
+)
+hier60_manifest_path <- file.path(
+  ZIKA,
+  "data_hierarchical_60",
+  "raw",
+  "rss",
+  "zika_rss_manifest.csv"
+)
+hier60_rss_path <- file.path(
+  ZIKA,
+  "data_hierarchical_60",
+  "intermediate",
+  "zika_rss_raw.csv"
+)
+hier14_manifest_path <- file.path(
+  ZIKA,
+  "data_hierarchical_14",
+  "raw",
+  "rss",
+  "zika_rss_manifest.csv"
+)
+hier14_rss_path <- file.path(
+  ZIKA,
+  "data_hierarchical_14",
+  "intermediate",
+  "zika_rss_raw.csv"
+)
 scored_path <- file.path(
   ZIKA,
   "data",
@@ -272,9 +311,73 @@ rss_window_summary_path <- file.path(
   "rss_window_analysis",
   "candidate_window_summary.csv"
 )
+hier_retrieval_log_path <- file.path(
+  ZIKA,
+  "logs_hierarchical",
+  "01_retrieve_google_rss.log"
+)
+hier_parse_log_path <- file.path(
+  ZIKA,
+  "logs_hierarchical",
+  "01_parse_google_rss.log"
+)
+hier60_retrieval_log_path <- file.path(
+  ZIKA,
+  "logs_hierarchical_60",
+  "01_retrieve_google_rss.log"
+)
+hier60_parse_log_path <- file.path(
+  ZIKA,
+  "logs_hierarchical_60",
+  "01_parse_google_rss.log"
+)
+hier14_retrieval_log_path <- file.path(
+  ZIKA,
+  "logs_hierarchical_14",
+  "01_retrieve_google_rss.log"
+)
+hier14_parse_log_path <- file.path(
+  ZIKA,
+  "logs_hierarchical_14",
+  "01_parse_google_rss.log"
+)
+hier60_compare_summary_path <- file.path(
+  ZIKA,
+  "data_hierarchical_60",
+  "intermediate",
+  "comparison",
+  "run_summary.csv"
+)
+hier60_compare_yearly_path <- file.path(
+  ZIKA,
+  "data_hierarchical_60",
+  "intermediate",
+  "comparison",
+  "yearly_counts.csv"
+)
+hier14_compare_summary_path <- file.path(
+  ZIKA,
+  "data_hierarchical_14",
+  "intermediate",
+  "comparison",
+  "run_summary.csv"
+)
+hier14_compare_yearly_path <- file.path(
+  ZIKA,
+  "data_hierarchical_14",
+  "intermediate",
+  "comparison",
+  "yearly_counts.csv"
+)
 
 manifest_df <- safe_read_csv(manifest_path)
 rss_df <- safe_read_csv(rss_path)
+hier_manifest_df <- safe_read_csv(hier_manifest_path)
+hier_rss_df <- safe_read_csv(hier_rss_path)
+hier60_manifest_df <- safe_read_csv(hier60_manifest_path)
+hier60_rss_df <- safe_read_csv(hier60_rss_path)
+hier14_manifest_df <- safe_read_csv(hier14_manifest_path)
+hier14_rss_df <- safe_read_csv(hier14_rss_path)
 scored_df <- safe_read_csv(scored_path)
 validation_df <- safe_read_csv(validation_path)
 fulltext_df <- safe_read_csv(fulltext_path)
@@ -298,6 +401,10 @@ bertopic_impact_stage_timing_df <- safe_read_csv(
 )
 rss_window_daily_df <- safe_read_csv(rss_window_daily_path)
 rss_window_summary_df <- safe_read_csv(rss_window_summary_path)
+hier60_compare_summary_df <- safe_read_csv(hier60_compare_summary_path)
+hier60_compare_yearly_df <- safe_read_csv(hier60_compare_yearly_path)
+hier14_compare_summary_df <- safe_read_csv(hier14_compare_summary_path)
+hier14_compare_yearly_df <- safe_read_csv(hier14_compare_yearly_path)
 metrics_payload <- if (file.exists(metrics_json_path)) {
   safe_read_json(metrics_json_path)
 } else {
@@ -344,8 +451,42 @@ completed_scored_df <- if (nrow(scored_df)) {
 bind_rows(
   artifact_info("Stage 1 manifest", manifest_path),
   artifact_info("Stage 1 normalized RSS", rss_path),
+  artifact_info("Stage 1 hierarchical manifest", hier_manifest_path),
+  artifact_info("Stage 1 hierarchical normalized RSS", hier_rss_path),
+  artifact_info("Stage 1 hierarchical-60 manifest", hier60_manifest_path),
+  artifact_info("Stage 1 hierarchical-60 normalized RSS", hier60_rss_path),
+  artifact_info("Stage 1 hierarchical-14 manifest", hier14_manifest_path),
+  artifact_info("Stage 1 hierarchical-14 normalized RSS", hier14_rss_path),
   artifact_info("Stage 1 daily window analysis", rss_window_daily_path),
   artifact_info("Stage 1 candidate window summary", rss_window_summary_path),
+  artifact_info("Stage 1 hierarchical retrieval log", hier_retrieval_log_path),
+  artifact_info("Stage 1 hierarchical parse log", hier_parse_log_path),
+  artifact_info(
+    "Stage 1 hierarchical-60 retrieval log",
+    hier60_retrieval_log_path
+  ),
+  artifact_info("Stage 1 hierarchical-60 parse log", hier60_parse_log_path),
+  artifact_info(
+    "Stage 1 hierarchical-60 comparison summary",
+    hier60_compare_summary_path
+  ),
+  artifact_info(
+    "Stage 1 hierarchical-60 yearly comparison",
+    hier60_compare_yearly_path
+  ),
+  artifact_info(
+    "Stage 1 hierarchical-14 retrieval log",
+    hier14_retrieval_log_path
+  ),
+  artifact_info("Stage 1 hierarchical-14 parse log", hier14_parse_log_path),
+  artifact_info(
+    "Stage 1 hierarchical-14 comparison summary",
+    hier14_compare_summary_path
+  ),
+  artifact_info(
+    "Stage 1 hierarchical-14 yearly comparison",
+    hier14_compare_yearly_path
+  ),
   artifact_info("Stage 2 scored headlines", scored_path),
   artifact_info("Stage 2 validation sample", validation_path),
   artifact_info("Stage 2 metrics JSON", metrics_json_path),
@@ -678,6 +819,7 @@ pair_stage1_sessions <- function(
         },
         success_fetches = if (nrow(hit)) hit$success_fetches[1] else NA_real_,
         empty_fetches = if (nrow(hit)) hit$empty_fetches[1] else NA_real_,
+        split_fetches = if (nrow(hit)) hit$split_fetches[1] else NA_real_,
         failed_fetches = if (nrow(hit)) hit$failed_fetches[1] else NA_real_
       )
     } else {
@@ -752,6 +894,7 @@ retrieval_summaries <- retrieval_log_df %>%
     completed_windows = as.integer(str_match(message, "completed=(\\d+)")[, 2]),
     success_fetches = as.integer(str_match(message, "success=(\\d+)")[, 2]),
     empty_fetches = as.integer(str_match(message, "empty=(\\d+)")[, 2]),
+    split_fetches = as.integer(str_match(message, "split=(\\d+)")[, 2]),
     failed_fetches = as.integer(str_match(message, "failed=(\\d+)")[, 2])
   )
 
@@ -783,9 +926,10 @@ retrieval_sessions <- pair_stage1_sessions(
   type = "retrieval"
 ) %>%
   mutate(
+    split_fetches = coalesce(split_fetches, 0L),
     cached_reused = if_else(
       !is.na(completed_windows),
-      completed_windows - success_fetches - empty_fetches,
+      completed_windows - success_fetches - empty_fetches - split_fetches,
       NA_real_
     ),
     elapsed = vapply(duration_seconds, format_elapsed, character(1))
@@ -967,6 +1111,638 @@ if (nrow(parse_sessions)) {
     arrange(desc(run_started))
 } else {
   tibble(note = "No parse run history parsed from log.")
+}
+```
+
+### Separate hierarchical retrieval trial
+
+A separate Stage 1 rerun was executed into `zika/data_hierarchical/` using the adaptive hierarchy `30-day -> 14-day -> 7-day -> 3-day -> 1-day`.
+
+```{r}
+#| label: stage1-hierarchical-comparison
+extract_retrieval_sessions <- function(path) {
+  log_df <- parse_stage1_log(path)
+
+  starts <- log_df %>%
+    filter(str_detect(message, "^Stage 1 retrieval configured")) %>%
+    transmute(
+      line_id,
+      run_started = timestamp,
+      configured_windows = as.integer(str_match(
+        message,
+        "configured for (\\d+) windows"
+      )[, 2]),
+      configured_start = str_match(
+        message,
+        "windows from (\\d{4}-\\d{2}-\\d{2}) to"
+      )[, 2],
+      configured_end = str_match(message, "to (\\d{4}-\\d{2}-\\d{2}) using")[,
+        2
+      ],
+      backend = str_match(message, "backend=([A-Za-z0-9_:-]+)$")[, 2]
+    )
+
+  summaries <- log_df %>%
+    filter(str_detect(message, "^Retrieval summary")) %>%
+    transmute(
+      line_id,
+      run_finished = timestamp,
+      completed_windows = as.integer(str_match(message, "completed=(\\d+)")[,
+        2
+      ]),
+      success_fetches = as.integer(str_match(message, "success=(\\d+)")[, 2]),
+      empty_fetches = as.integer(str_match(message, "empty=(\\d+)")[, 2]),
+      split_fetches = as.integer(str_match(message, "split=(\\d+)")[, 2]),
+      failed_fetches = as.integer(str_match(message, "failed=(\\d+)")[, 2])
+    )
+
+  pair_stage1_sessions(starts, summaries, type = "retrieval") %>%
+    mutate(
+      split_fetches = coalesce(split_fetches, 0L),
+      cached_reused = if_else(
+        !is.na(completed_windows),
+        completed_windows - success_fetches - empty_fetches - split_fetches,
+        NA_real_
+      ),
+      elapsed = vapply(duration_seconds, format_elapsed, character(1))
+    )
+}
+
+extract_parse_sessions <- function(path) {
+  log_df <- parse_stage1_log(path)
+
+  starts <- log_df %>%
+    filter(str_detect(message, "^Parsing \\d+ cached windows")) %>%
+    transmute(
+      line_id,
+      run_started = timestamp,
+      cached_windows = as.integer(str_match(
+        message,
+        "^Parsing (\\d+) cached windows"
+      )[, 2]),
+      manifest_path = str_match(message, "manifest (.+)$")[, 2]
+    )
+
+  summaries <- log_df %>%
+    filter(str_detect(message, "^Parsing summary")) %>%
+    transmute(
+      line_id,
+      run_finished = timestamp,
+      parsed_rows = as.integer(str_match(message, "parsed_rows=(\\d+)")[, 2]),
+      deduped_rows = as.integer(str_match(message, "deduped_rows=(\\d+)")[, 2]),
+      missing_cache = as.integer(str_match(message, "missing_cache=(\\d+)")[,
+        2
+      ])
+    )
+
+  pair_stage1_sessions(starts, summaries, type = "parse") %>%
+    mutate(elapsed = vapply(duration_seconds, format_elapsed, character(1)))
+}
+
+extract_article_ids <- function(df) {
+  key_candidates <- intersect(c("google_news_redirect_url", "guid"), names(df))
+
+  if (!length(key_candidates) || !nrow(df)) {
+    return(character())
+  }
+
+  key_col <- key_candidates[[1]]
+  ids <- trimws(as.character(df[[key_col]]))
+  ids[!is.na(ids) & ids != ""]
+}
+
+extract_article_years <- function(df) {
+  date_candidates <- intersect(
+    c("published_at", "published", "pubDate"),
+    names(df)
+  )
+
+  if (!length(date_candidates) || !nrow(df)) {
+    return(integer())
+  }
+
+  date_col <- date_candidates[[1]]
+  as.integer(format(as.POSIXct(df[[date_col]], tz = "UTC"), "%Y"))
+}
+
+hier_retrieval_sessions <- extract_retrieval_sessions(hier_retrieval_log_path)
+hier_parse_sessions <- extract_parse_sessions(hier_parse_log_path)
+
+latest_hier_retrieval <- hier_retrieval_sessions %>%
+  filter(status == "completed") %>%
+  arrange(desc(run_started)) %>%
+  slice_head(n = 1)
+
+latest_hier_parse <- hier_parse_sessions %>%
+  filter(status == "completed") %>%
+  arrange(desc(run_started)) %>%
+  slice_head(n = 1)
+
+daily_ids <- extract_article_ids(rss_df)
+hier_ids <- extract_article_ids(hier_rss_df)
+shared_ids <- intersect(daily_ids, hier_ids)
+daily_only_ids <- setdiff(daily_ids, hier_ids)
+hier_only_ids <- setdiff(hier_ids, daily_ids)
+
+stage1_hier_runtime_reduction <- if (
+  nrow(latest_retrieval) &&
+    nrow(latest_hier_retrieval) &&
+    !is.na(latest_retrieval$duration_seconds[[1]]) &&
+    latest_retrieval$duration_seconds[[1]] > 0
+) {
+  1 -
+    latest_hier_retrieval$duration_seconds[[1]] /
+      latest_retrieval$duration_seconds[[1]]
+} else {
+  NA_real_
+}
+
+stage1_hier_window_reduction <- if (
+  nrow(manifest_df) && nrow(hier_manifest_df)
+) {
+  1 - nrow(hier_manifest_df) / nrow(manifest_df)
+} else {
+  NA_real_
+}
+
+stage1_hier_row_change <- if (nrow(rss_df) && nrow(hier_rss_df)) {
+  (nrow(hier_rss_df) - nrow(rss_df)) / nrow(rss_df)
+} else {
+  NA_real_
+}
+
+stage1_hier_run_compare <- tibble(
+  run = c("Daily baseline", "Hierarchical trial"),
+  retrieval_runtime = c(
+    latest_retrieval$elapsed[[1]] %||% NA_character_,
+    latest_hier_retrieval$elapsed[[1]] %||% NA_character_
+  ),
+  parse_runtime = c(
+    latest_parse$elapsed[[1]] %||% NA_character_,
+    latest_hier_parse$elapsed[[1]] %||% NA_character_
+  ),
+  completed_windows = c(
+    latest_retrieval$completed_windows[[1]] %||% NA_real_,
+    latest_hier_retrieval$completed_windows[[1]] %||% NA_real_
+  ),
+  success_windows = c(
+    sum(manifest_df$status == "success", na.rm = TRUE),
+    sum(hier_manifest_df$status == "success", na.rm = TRUE)
+  ),
+  empty_windows = c(
+    sum(manifest_df$status == "empty", na.rm = TRUE),
+    sum(hier_manifest_df$status == "empty", na.rm = TRUE)
+  ),
+  split_windows = c(
+    0L,
+    sum(hier_manifest_df$status == "split", na.rm = TRUE)
+  ),
+  deduped_rows = c(nrow(rss_df), nrow(hier_rss_df))
+) %>%
+  mutate(
+    completed_windows = scales::comma(completed_windows),
+    success_windows = scales::comma(success_windows),
+    empty_windows = scales::comma(empty_windows),
+    split_windows = scales::comma(split_windows),
+    deduped_rows = scales::comma(deduped_rows)
+  )
+
+stage1_hier_overlap <- tibble(
+  metric = c("shared_urls", "daily_only_urls", "hierarchical_only_urls"),
+  value = c(length(shared_ids), length(daily_only_ids), length(hier_only_ids))
+) %>%
+  mutate(value = scales::comma(value))
+
+stage1_hier_year_compare <- full_join(
+  tibble(year = extract_article_years(rss_df)) %>%
+    filter(!is.na(year)) %>%
+    count(year, name = "daily_rows"),
+  tibble(year = extract_article_years(hier_rss_df)) %>%
+    filter(!is.na(year)) %>%
+    count(year, name = "hierarchical_rows"),
+  by = "year"
+) %>%
+  mutate(
+    daily_rows = coalesce(daily_rows, 0L),
+    hierarchical_rows = coalesce(hierarchical_rows, 0L),
+    delta_rows = hierarchical_rows - daily_rows
+  ) %>%
+  arrange(year)
+
+stage1_hier_better_years <- stage1_hier_year_compare %>%
+  filter(delta_rows > 0) %>%
+  pull(year)
+
+stage1_hier_weaker_years <- stage1_hier_year_compare %>%
+  filter(delta_rows < 0) %>%
+  pull(year)
+```
+
+::: {.callout-important}
+The separate hierarchical crawl finished in **`r if (nrow(latest_hier_retrieval)) latest_hier_retrieval$elapsed[[1]] else "NA"`** for **`r if (nrow(latest_hier_retrieval)) scales::comma(latest_hier_retrieval$completed_windows[[1]]) else "NA"`** completed windows, versus **`r if (nrow(latest_retrieval)) latest_retrieval$elapsed[[1]] else "NA"`** and **`r if (nrow(latest_retrieval)) scales::comma(latest_retrieval$completed_windows[[1]]) else "NA"`** for the daily baseline. That is a runtime reduction of about **`r if (!is.na(stage1_hier_runtime_reduction)) scales::percent(stage1_hier_runtime_reduction, accuracy = 0.1) else "NA"`** and a window-count reduction of about **`r if (!is.na(stage1_hier_window_reduction)) scales::percent(stage1_hier_window_reduction, accuracy = 0.1) else "NA"`**.
+
+The tradeoff is recall. The hierarchical run produced **`r scales::comma(nrow(hier_rss_df))`** final deduplicated rows, compared with **`r scales::comma(nrow(rss_df))`** from the daily baseline, or **`r if (!is.na(stage1_hier_row_change)) scales::percent(abs(stage1_hier_row_change), accuracy = 0.1) else "NA"`** fewer articles overall. The overlap still includes **`r scales::comma(length(shared_ids))`** shared URLs, but **`r scales::comma(length(daily_only_ids))`** URLs appear only in the daily baseline while **`r scales::comma(length(hier_only_ids))`** appear only in the hierarchical run.
+:::
+
+```{r}
+#| label: stage1-hierarchical-run-table
+stage1_hier_run_compare %>%
+  kableExtra::kable()
+```
+
+```{r}
+#| label: stage1-hierarchical-overlap-table
+stage1_hier_overlap %>%
+  kableExtra::kable()
+```
+
+URL overlap:
+
+- Shared URLs: 6,369
+- 1day strategy-only URLs: 5,825
+- Hierarchical strategy-only URLs: 2,410
+
+::: {.callout-note}
+Google News RSS query is not the union of 1-day queries. It is a ranked subset for that whole period. So `articles compete against each other` inside the broader window, and many lower-ranked items never appear `even when the response is below 100`.
+:::
+
+```{r}
+#| label: stage1-hierarchical-year-table
+#| eval: false
+stage1_hier_year_compare %>%
+  mutate(
+    daily_rows = scales::comma(daily_rows),
+    hierarchical_rows = scales::comma(hierarchical_rows),
+    delta_rows = scales::comma(delta_rows)
+  ) %>%
+  kableExtra::kable()
+```
+
+### Lower split threshold trial
+
+A third separate Stage 1 rerun was executed into `zika/data_hierarchical_60/` with the same hierarchy `30-day -> 14-day -> 7-day -> 3-day -> 1-day`, but with the split threshold lowered from `100` to `60`.
+
+```{r}
+#| label: stage1-hierarchical-60-comparison
+hier60_retrieval_sessions <- extract_retrieval_sessions(
+  hier60_retrieval_log_path
+)
+hier60_parse_sessions <- extract_parse_sessions(hier60_parse_log_path)
+
+latest_hier60_retrieval <- hier60_retrieval_sessions %>%
+  filter(status == "completed") %>%
+  arrange(desc(run_started)) %>%
+  slice_head(n = 1)
+
+latest_hier60_parse <- hier60_parse_sessions %>%
+  filter(status == "completed") %>%
+  arrange(desc(run_started)) %>%
+  slice_head(n = 1)
+
+hier60_ids <- extract_article_ids(hier60_rss_df)
+
+stage1_hier60_runtime_reduction_vs_daily <- if (
+  nrow(latest_retrieval) &&
+    nrow(latest_hier60_retrieval) &&
+    !is.na(latest_retrieval$duration_seconds[[1]]) &&
+    latest_retrieval$duration_seconds[[1]] > 0
+) {
+  1 -
+    latest_hier60_retrieval$duration_seconds[[1]] /
+      latest_retrieval$duration_seconds[[1]]
+} else {
+  NA_real_
+}
+
+stage1_hier60_runtime_change_vs_hier100 <- if (
+  nrow(latest_hier_retrieval) &&
+    nrow(latest_hier60_retrieval) &&
+    !is.na(latest_hier_retrieval$duration_seconds[[1]]) &&
+    latest_hier_retrieval$duration_seconds[[1]] > 0
+) {
+  latest_hier60_retrieval$duration_seconds[[1]] /
+    latest_hier_retrieval$duration_seconds[[1]] -
+    1
+} else {
+  NA_real_
+}
+
+stage1_hier60_run_compare <- tibble(
+  run = c("Daily baseline", "Hierarchical 100", "Hierarchical 60"),
+  retrieval_runtime = c(
+    latest_retrieval$elapsed[[1]] %||% NA_character_,
+    latest_hier_retrieval$elapsed[[1]] %||% NA_character_,
+    latest_hier60_retrieval$elapsed[[1]] %||% NA_character_
+  ),
+  parse_runtime = c(
+    latest_parse$elapsed[[1]] %||% NA_character_,
+    latest_hier_parse$elapsed[[1]] %||% NA_character_,
+    latest_hier60_parse$elapsed[[1]] %||% NA_character_
+  ),
+  manifest_rows = c(
+    nrow(manifest_df),
+    nrow(hier_manifest_df),
+    nrow(hier60_manifest_df)
+  ),
+  success_windows = c(
+    sum(manifest_df$status == "success", na.rm = TRUE),
+    sum(hier_manifest_df$status == "success", na.rm = TRUE),
+    sum(hier60_manifest_df$status == "success", na.rm = TRUE)
+  ),
+  split_windows = c(
+    0L,
+    sum(hier_manifest_df$status == "split", na.rm = TRUE),
+    sum(hier60_manifest_df$status == "split", na.rm = TRUE)
+  ),
+  deduped_rows = c(nrow(rss_df), nrow(hier_rss_df), nrow(hier60_rss_df))
+) %>%
+  mutate(
+    manifest_rows = scales::comma(manifest_rows),
+    success_windows = scales::comma(success_windows),
+    split_windows = scales::comma(split_windows),
+    deduped_rows = scales::comma(deduped_rows)
+  )
+
+stage1_hier60_overlap <- tibble(
+  comparison = c(
+    "daily vs hierarchical 100",
+    "daily vs hierarchical 60",
+    "hierarchical 100 vs hierarchical 60"
+  ),
+  shared_urls = c(
+    length(intersect(daily_ids, hier_ids)),
+    length(intersect(daily_ids, hier60_ids)),
+    length(intersect(hier_ids, hier60_ids))
+  ),
+  left_only_urls = c(
+    length(setdiff(daily_ids, hier_ids)),
+    length(setdiff(daily_ids, hier60_ids)),
+    length(setdiff(hier_ids, hier60_ids))
+  ),
+  right_only_urls = c(
+    length(setdiff(hier_ids, daily_ids)),
+    length(setdiff(hier60_ids, daily_ids)),
+    length(setdiff(hier60_ids, hier_ids))
+  )
+) %>%
+  mutate(
+    shared_urls = scales::comma(shared_urls),
+    left_only_urls = scales::comma(left_only_urls),
+    right_only_urls = scales::comma(right_only_urls)
+  )
+
+stage1_hier60_row_change_vs_hier100 <- if (nrow(hier_rss_df)) {
+  (nrow(hier60_rss_df) - nrow(hier_rss_df)) / nrow(hier_rss_df)
+} else {
+  NA_real_
+}
+
+stage1_hier60_row_change_vs_daily <- if (nrow(rss_df)) {
+  (nrow(hier60_rss_df) - nrow(rss_df)) / nrow(rss_df)
+} else {
+  NA_real_
+}
+```
+
+::: {.callout-important}
+Lowering the split threshold from `100` to `60` made the retrieval **deeper but not materially larger** in its final deduplicated article set.
+
+The `60`-threshold trial took **`r if (nrow(latest_hier60_retrieval)) latest_hier60_retrieval$elapsed[[1]] else "NA"`** and expanded to **`r scales::comma(nrow(hier60_manifest_df))`** manifest rows with **`r scales::comma(sum(hier60_manifest_df$status == "split", na.rm = TRUE))`** split parents. That is about **`r if (!is.na(stage1_hier60_runtime_change_vs_hier100)) scales::percent(stage1_hier60_runtime_change_vs_hier100, accuracy = 0.1) else "NA"`** slower than the `100`-threshold run, while still about **`r if (!is.na(stage1_hier60_runtime_reduction_vs_daily)) scales::percent(stage1_hier60_runtime_reduction_vs_daily, accuracy = 0.1) else "NA"`** faster than the daily baseline.
+
+However, the final output remained **`r scales::comma(nrow(hier60_rss_df))`** deduplicated rows, compared with **`r scales::comma(nrow(hier_rss_df))`** for the `100`-threshold run and **`r scales::comma(nrow(rss_df))`** for the daily baseline. The URL overlap with the daily baseline improved slightly (`6,390` shared vs `6,369`), but not enough to materially close the recall gap.
+:::
+
+
+```{r}
+#| label: stage1-hierarchical-60-run-table
+stage1_hier60_run_compare %>%
+  kableExtra::kable()
+```
+
+```{r}
+#| label: stage1-hierarchical-60-overlap-table
+stage1_hier60_overlap %>%
+  kableExtra::kable()
+```
+
+```{r}
+#| label: stage1-hierarchical-60-year-table
+if (nrow(hier60_compare_yearly_df)) {
+  hier60_compare_yearly_df %>%
+    mutate(
+      daily_rows = scales::comma(daily_rows),
+      hier100_rows = scales::comma(hier100_rows),
+      hier60_rows = scales::comma(hier60_rows),
+      hier100_minus_daily = scales::comma(hier100_minus_daily),
+      hier60_minus_daily = scales::comma(hier60_minus_daily),
+      hier60_minus_hier100 = scales::comma(hier60_minus_hier100)
+    ) %>%
+    kableExtra::kable()
+} else {
+  tibble(note = "No hierarchical-60 yearly comparison found.") %>%
+    kableExtra::kable()
+}
+```
+
+### Shallower start-window trial
+
+A fourth separate Stage 1 rerun was executed into `zika/data_hierarchical_14/`, starting from `14-day` windows and then drilling down through `14-day -> 7-day -> 3-day -> 1-day` with the default split threshold of `100`.
+
+```{r}
+#| label: stage1-hierarchical-14-comparison
+hier14_retrieval_sessions <- extract_retrieval_sessions(
+  hier14_retrieval_log_path
+)
+hier14_parse_sessions <- extract_parse_sessions(hier14_parse_log_path)
+
+latest_hier14_retrieval <- hier14_retrieval_sessions %>%
+  filter(status == "completed") %>%
+  arrange(desc(run_started)) %>%
+  slice_head(n = 1)
+
+latest_hier14_parse <- hier14_parse_sessions %>%
+  filter(status == "completed") %>%
+  arrange(desc(run_started)) %>%
+  slice_head(n = 1)
+
+hier14_ids <- extract_article_ids(hier14_rss_df)
+
+stage1_hier14_runtime_reduction_vs_daily <- if (
+  nrow(latest_retrieval) &&
+    nrow(latest_hier14_retrieval) &&
+    !is.na(latest_retrieval$duration_seconds[[1]]) &&
+    latest_retrieval$duration_seconds[[1]] > 0
+) {
+  1 -
+    latest_hier14_retrieval$duration_seconds[[1]] /
+      latest_retrieval$duration_seconds[[1]]
+} else {
+  NA_real_
+}
+
+stage1_hier14_runtime_change_vs_hier100 <- if (
+  nrow(latest_hier_retrieval) &&
+    nrow(latest_hier14_retrieval) &&
+    !is.na(latest_hier_retrieval$duration_seconds[[1]]) &&
+    latest_hier_retrieval$duration_seconds[[1]] > 0
+) {
+  latest_hier14_retrieval$duration_seconds[[1]] /
+    latest_hier_retrieval$duration_seconds[[1]] -
+    1
+} else {
+  NA_real_
+}
+
+stage1_hier14_runtime_change_vs_hier60 <- if (
+  nrow(latest_hier60_retrieval) &&
+    nrow(latest_hier14_retrieval) &&
+    !is.na(latest_hier60_retrieval$duration_seconds[[1]]) &&
+    latest_hier60_retrieval$duration_seconds[[1]] > 0
+) {
+  latest_hier14_retrieval$duration_seconds[[1]] /
+    latest_hier60_retrieval$duration_seconds[[1]] -
+    1
+} else {
+  NA_real_
+}
+
+stage1_hier14_row_change_vs_daily <- if (nrow(rss_df)) {
+  (nrow(hier14_rss_df) - nrow(rss_df)) / nrow(rss_df)
+} else {
+  NA_real_
+}
+
+stage1_hier14_row_change_vs_hier100 <- if (nrow(hier_rss_df)) {
+  (nrow(hier14_rss_df) - nrow(hier_rss_df)) / nrow(hier_rss_df)
+} else {
+  NA_real_
+}
+
+stage1_hier14_row_change_vs_hier60 <- if (nrow(hier60_rss_df)) {
+  (nrow(hier14_rss_df) - nrow(hier60_rss_df)) / nrow(hier60_rss_df)
+} else {
+  NA_real_
+}
+
+stage1_hier14_run_compare <- tibble(
+  run = c(
+    "Daily baseline",
+    "Hierarchical 100",
+    "Hierarchical 60",
+    "Hierarchical 14-start"
+  ),
+  retrieval_runtime = c(
+    latest_retrieval$elapsed[[1]] %||% NA_character_,
+    latest_hier_retrieval$elapsed[[1]] %||% NA_character_,
+    latest_hier60_retrieval$elapsed[[1]] %||% NA_character_,
+    latest_hier14_retrieval$elapsed[[1]] %||% NA_character_
+  ),
+  parse_runtime = c(
+    latest_parse$elapsed[[1]] %||% NA_character_,
+    latest_hier_parse$elapsed[[1]] %||% NA_character_,
+    latest_hier60_parse$elapsed[[1]] %||% NA_character_,
+    latest_hier14_parse$elapsed[[1]] %||% NA_character_
+  ),
+  manifest_rows = c(
+    nrow(manifest_df),
+    nrow(hier_manifest_df),
+    nrow(hier60_manifest_df),
+    nrow(hier14_manifest_df)
+  ),
+  success_windows = c(
+    sum(manifest_df$status == "success", na.rm = TRUE),
+    sum(hier_manifest_df$status == "success", na.rm = TRUE),
+    sum(hier60_manifest_df$status == "success", na.rm = TRUE),
+    sum(hier14_manifest_df$status == "success", na.rm = TRUE)
+  ),
+  split_windows = c(
+    0L,
+    sum(hier_manifest_df$status == "split", na.rm = TRUE),
+    sum(hier60_manifest_df$status == "split", na.rm = TRUE),
+    sum(hier14_manifest_df$status == "split", na.rm = TRUE)
+  ),
+  deduped_rows = c(
+    nrow(rss_df),
+    nrow(hier_rss_df),
+    nrow(hier60_rss_df),
+    nrow(hier14_rss_df)
+  )
+) %>%
+  mutate(
+    manifest_rows = scales::comma(manifest_rows),
+    success_windows = scales::comma(success_windows),
+    split_windows = scales::comma(split_windows),
+    deduped_rows = scales::comma(deduped_rows)
+  )
+
+stage1_hier14_overlap <- tibble(
+  comparison = c(
+    "daily vs hierarchical 14-start",
+    "hierarchical 100 vs hierarchical 14-start",
+    "hierarchical 60 vs hierarchical 14-start"
+  ),
+  shared_urls = c(
+    length(intersect(daily_ids, hier14_ids)),
+    length(intersect(hier_ids, hier14_ids)),
+    length(intersect(hier60_ids, hier14_ids))
+  ),
+  left_only_urls = c(
+    length(setdiff(daily_ids, hier14_ids)),
+    length(setdiff(hier_ids, hier14_ids)),
+    length(setdiff(hier60_ids, hier14_ids))
+  ),
+  right_only_urls = c(
+    length(setdiff(hier14_ids, daily_ids)),
+    length(setdiff(hier14_ids, hier_ids)),
+    length(setdiff(hier14_ids, hier60_ids))
+  )
+) %>%
+  mutate(
+    shared_urls = scales::comma(shared_urls),
+    left_only_urls = scales::comma(left_only_urls),
+    right_only_urls = scales::comma(right_only_urls)
+  )
+```
+
+::: {.callout-important}
+Starting from `14-day` windows recovered a noticeably larger article set than either of the broader-start hierarchical variants while remaining much faster than the daily baseline.
+
+The `14-start` trial took **`r if (nrow(latest_hier14_retrieval)) latest_hier14_retrieval$elapsed[[1]] else "NA"`** and expanded to **`r scales::comma(nrow(hier14_manifest_df))`** manifest rows with **`r scales::comma(sum(hier14_manifest_df$status == "split", na.rm = TRUE))`** split parents. That is about **`r if (!is.na(stage1_hier14_runtime_change_vs_hier100)) scales::percent(stage1_hier14_runtime_change_vs_hier100, accuracy = 0.1) else "NA"`** slower than the original hierarchical-100 run, about **`r if (!is.na(stage1_hier14_runtime_change_vs_hier60)) scales::percent(stage1_hier14_runtime_change_vs_hier60, accuracy = 0.1) else "NA"`** slower than the lower-threshold hierarchical-60 run, and still about **`r if (!is.na(stage1_hier14_runtime_reduction_vs_daily)) scales::percent(stage1_hier14_runtime_reduction_vs_daily, accuracy = 0.1) else "NA"`** faster than the daily baseline.
+
+The payoff is recall. The `14-start` run produced **`r scales::comma(nrow(hier14_rss_df))`** deduplicated rows, which is **`r if (!is.na(stage1_hier14_row_change_vs_hier100)) scales::percent(stage1_hier14_row_change_vs_hier100, accuracy = 0.1) else "NA"`** more than the hierarchical-100 run and **`r if (!is.na(stage1_hier14_row_change_vs_hier60)) scales::percent(stage1_hier14_row_change_vs_hier60, accuracy = 0.1) else "NA"`** more than the hierarchical-60 run. It still trails the daily baseline by about **`r if (!is.na(stage1_hier14_row_change_vs_daily)) scales::percent(abs(stage1_hier14_row_change_vs_daily), accuracy = 0.1) else "NA"`**.
+:::
+
+```{r}
+#| label: stage1-hierarchical-14-run-table
+stage1_hier14_run_compare %>%
+  kableExtra::kable()
+```
+
+```{r}
+#| label: stage1-hierarchical-14-overlap-table
+stage1_hier14_overlap %>%
+  kableExtra::kable()
+```
+
+```{r}
+#| label: stage1-hierarchical-14-year-table
+if (nrow(hier14_compare_yearly_df)) {
+  hier14_compare_yearly_df %>%
+    mutate(
+      daily_rows = scales::comma(daily_rows),
+      hier100_rows = scales::comma(hier100_rows),
+      hier60_rows = scales::comma(hier60_rows),
+      hier14_rows = scales::comma(hier14_rows),
+      hier100_minus_daily = scales::comma(hier100_minus_daily),
+      hier60_minus_daily = scales::comma(hier60_minus_daily),
+      hier14_minus_daily = scales::comma(hier14_minus_daily),
+      hier14_minus_hier100 = scales::comma(hier14_minus_hier100),
+      hier14_minus_hier60 = scales::comma(hier14_minus_hier60)
+    ) %>%
+    kableExtra::kable()
+} else {
+  tibble(note = "No hierarchical-14 yearly comparison found.") %>%
+    kableExtra::kable()
 }
 ```
 

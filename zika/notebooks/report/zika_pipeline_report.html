@@ -2405,6 +2405,9 @@ border: 0;
   <li><a href="#how-the-retrieval-step-works" id="toc-how-the-retrieval-step-works" class="nav-link" data-scroll-target="#how-the-retrieval-step-works">How the retrieval step works</a></li>
   <li><a href="#should-daily-windows-stay-daily" id="toc-should-daily-windows-stay-daily" class="nav-link" data-scroll-target="#should-daily-windows-stay-daily">Should daily windows stay daily?</a></li>
   <li><a href="#detailed-metrics-and-logs" id="toc-detailed-metrics-and-logs" class="nav-link" data-scroll-target="#detailed-metrics-and-logs">Detailed metrics and logs</a></li>
+  <li><a href="#separate-hierarchical-retrieval-trial" id="toc-separate-hierarchical-retrieval-trial" class="nav-link" data-scroll-target="#separate-hierarchical-retrieval-trial">Separate hierarchical retrieval trial</a></li>
+  <li><a href="#lower-split-threshold-trial" id="toc-lower-split-threshold-trial" class="nav-link" data-scroll-target="#lower-split-threshold-trial">Lower split threshold trial</a></li>
+  <li><a href="#shallower-start-window-trial" id="toc-shallower-start-window-trial" class="nav-link" data-scroll-target="#shallower-start-window-trial">Shallower start-window trial</a></li>
   </ul></li>
   <li><a href="#step-2-ensemble-filtering" id="toc-step-2-ensemble-filtering" class="nav-link" data-scroll-target="#step-2-ensemble-filtering">Step 2 Ensemble Filtering</a>
   <ul class="collapse">
@@ -2472,8 +2475,8 @@ border: 0;
 <div class="cell-output-display">
 <table class="caption-top table table-sm table-striped small">
 <colgroup>
-<col style="width: 33%">
-<col style="width: 60%">
+<col style="width: 35%">
+<col style="width: 59%">
 <col style="width: 5%">
 </colgroup>
 <thead>
@@ -2495,6 +2498,36 @@ border: 0;
 <td style="text-align: left;">TRUE</td>
 </tr>
 <tr class="odd">
+<td style="text-align: left;">Stage 1 hierarchical manifest</td>
+<td style="text-align: left;">zika/data_hierarchical/raw/rss/zika_rss_manifest.csv</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Stage 1 hierarchical normalized RSS</td>
+<td style="text-align: left;">zika/data_hierarchical/intermediate/zika_rss_raw.csv</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Stage 1 hierarchical-60 manifest</td>
+<td style="text-align: left;">zika/data_hierarchical_60/raw/rss/zika_rss_manifest.csv</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Stage 1 hierarchical-60 normalized RSS</td>
+<td style="text-align: left;">zika/data_hierarchical_60/intermediate/zika_rss_raw.csv</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Stage 1 hierarchical-14 manifest</td>
+<td style="text-align: left;">zika/data_hierarchical_14/raw/rss/zika_rss_manifest.csv</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Stage 1 hierarchical-14 normalized RSS</td>
+<td style="text-align: left;">zika/data_hierarchical_14/intermediate/zika_rss_raw.csv</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="odd">
 <td style="text-align: left;">Stage 1 daily window analysis</td>
 <td style="text-align: left;">zika/data/intermediate/rss_window_analysis/daily_window_counts.csv</td>
 <td style="text-align: left;">TRUE</td>
@@ -2502,6 +2535,56 @@ border: 0;
 <tr class="even">
 <td style="text-align: left;">Stage 1 candidate window summary</td>
 <td style="text-align: left;">zika/data/intermediate/rss_window_analysis/candidate_window_summary.csv</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Stage 1 hierarchical retrieval log</td>
+<td style="text-align: left;">zika/logs_hierarchical/01_retrieve_google_rss.log</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Stage 1 hierarchical parse log</td>
+<td style="text-align: left;">zika/logs_hierarchical/01_parse_google_rss.log</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Stage 1 hierarchical-60 retrieval log</td>
+<td style="text-align: left;">zika/logs_hierarchical_60/01_retrieve_google_rss.log</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Stage 1 hierarchical-60 parse log</td>
+<td style="text-align: left;">zika/logs_hierarchical_60/01_parse_google_rss.log</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Stage 1 hierarchical-60 comparison summary</td>
+<td style="text-align: left;">zika/data_hierarchical_60/intermediate/comparison/run_summary.csv</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Stage 1 hierarchical-60 yearly comparison</td>
+<td style="text-align: left;">zika/data_hierarchical_60/intermediate/comparison/yearly_counts.csv</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Stage 1 hierarchical-14 retrieval log</td>
+<td style="text-align: left;">zika/logs_hierarchical_14/01_retrieve_google_rss.log</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Stage 1 hierarchical-14 parse log</td>
+<td style="text-align: left;">zika/logs_hierarchical_14/01_parse_google_rss.log</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Stage 1 hierarchical-14 comparison summary</td>
+<td style="text-align: left;">zika/data_hierarchical_14/intermediate/comparison/run_summary.csv</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Stage 1 hierarchical-14 yearly comparison</td>
+<td style="text-align: left;">zika/data_hierarchical_14/intermediate/comparison/yearly_counts.csv</td>
 <td style="text-align: left;">TRUE</td>
 </tr>
 <tr class="odd">
@@ -3034,6 +3117,775 @@ The latest completed <strong>parse + deduplication</strong> pass took <strong>5s
 <!-- ### Manifest status in the current artifact -->
 <!-- ### Retrieval runtime by logged run -->
 <!-- ### Parse runtime by logged run -->
+</section>
+<section id="separate-hierarchical-retrieval-trial" class="level3">
+<h3 class="anchored" data-anchor-id="separate-hierarchical-retrieval-trial">Separate hierarchical retrieval trial</h3>
+<p>A separate Stage 1 rerun was executed into <code>zika/data_hierarchical/</code> using the adaptive hierarchy <code>30-day -&gt; 14-day -&gt; 7-day -&gt; 3-day -&gt; 1-day</code>.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The separate hierarchical crawl finished in <strong>10m 50s</strong> for <strong>335</strong> completed windows, versus <strong>2h 03m 18s</strong> and <strong>5,844</strong> for the daily baseline. That is a runtime reduction of about <strong>91.2%</strong> and a window-count reduction of about <strong>94.3%</strong>.</p>
+<p>The tradeoff is recall. The hierarchical run produced <strong>8,779</strong> final deduplicated rows, compared with <strong>12,194</strong> from the daily baseline, or <strong>28.0%</strong> fewer articles overall. The overlap still includes <strong>6,369</strong> shared URLs, but <strong>5,825</strong> URLs appear only in the daily baseline while <strong>2,410</strong> appear only in the hierarchical run.</p>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 14%">
+<col style="width: 11%">
+<col style="width: 14%">
+<col style="width: 12%">
+<col style="width: 11%">
+<col style="width: 11%">
+<col style="width: 10%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">run</th>
+<th style="text-align: left;">retrieval_runtime</th>
+<th style="text-align: left;">parse_runtime</th>
+<th style="text-align: left;">completed_windows</th>
+<th style="text-align: left;">success_windows</th>
+<th style="text-align: left;">empty_windows</th>
+<th style="text-align: left;">split_windows</th>
+<th style="text-align: left;">deduped_rows</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Daily baseline</td>
+<td style="text-align: left;">2h 03m 18s</td>
+<td style="text-align: left;">5s</td>
+<td style="text-align: left;">5,844</td>
+<td style="text-align: left;">3,720</td>
+<td style="text-align: left;">2,124</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">12,194</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Hierarchical trial</td>
+<td style="text-align: left;">10m 50s</td>
+<td style="text-align: left;">1s</td>
+<td style="text-align: left;">335</td>
+<td style="text-align: left;">277</td>
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">53</td>
+<td style="text-align: left;">8,779</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: left;">metric</th>
+<th style="text-align: left;">value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">shared_urls</td>
+<td style="text-align: left;">6,369</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">daily_only_urls</td>
+<td style="text-align: left;">5,825</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">hierarchical_only_urls</td>
+<td style="text-align: left;">2,410</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>URL overlap:</p>
+<ul>
+<li>Shared URLs: 6,369</li>
+<li>1day strategy-only URLs: 5,825</li>
+<li>Hierarchical strategy-only URLs: 2,410</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Google News RSS query is not the union of 1-day queries. It is a ranked subset for that whole period. So <code>articles compete against each other</code> inside the broader window, and many lower-ranked items never appear <code>even when the response is below 100</code>.</p>
+</div>
+</div>
+</section>
+<section id="lower-split-threshold-trial" class="level3">
+<h3 class="anchored" data-anchor-id="lower-split-threshold-trial">Lower split threshold trial</h3>
+<p>A third separate Stage 1 rerun was executed into <code>zika/data_hierarchical_60/</code> with the same hierarchy <code>30-day -&gt; 14-day -&gt; 7-day -&gt; 3-day -&gt; 1-day</code>, but with the split threshold lowered from <code>100</code> to <code>60</code>.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Lowering the split threshold from <code>100</code> to <code>60</code> made the retrieval <strong>deeper but not materially larger</strong> in its final deduplicated article set.</p>
+<p>The <code>60</code>-threshold trial took <strong>14m 01s</strong> and expanded to <strong>438</strong> manifest rows with <strong>88</strong> split parents. That is about <strong>29.4%</strong> slower than the <code>100</code>-threshold run, while still about <strong>88.6%</strong> faster than the daily baseline.</p>
+<p>However, the final output remained <strong>8,767</strong> deduplicated rows, compared with <strong>8,779</strong> for the <code>100</code>-threshold run and <strong>12,194</strong> for the daily baseline. The URL overlap with the daily baseline improved slightly (<code>6,390</code> shared vs <code>6,369</code>), but not enough to materially close the recall gap.</p>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 13%">
+<col style="width: 13%">
+<col style="width: 15%">
+<col style="width: 13%">
+<col style="width: 12%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">run</th>
+<th style="text-align: left;">retrieval_runtime</th>
+<th style="text-align: left;">parse_runtime</th>
+<th style="text-align: left;">manifest_rows</th>
+<th style="text-align: left;">success_windows</th>
+<th style="text-align: left;">split_windows</th>
+<th style="text-align: left;">deduped_rows</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Daily baseline</td>
+<td style="text-align: left;">2h 03m 18s</td>
+<td style="text-align: left;">5s</td>
+<td style="text-align: left;">5,844</td>
+<td style="text-align: left;">3,720</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">12,194</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Hierarchical 100</td>
+<td style="text-align: left;">10m 50s</td>
+<td style="text-align: left;">1s</td>
+<td style="text-align: left;">335</td>
+<td style="text-align: left;">277</td>
+<td style="text-align: left;">53</td>
+<td style="text-align: left;">8,779</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Hierarchical 60</td>
+<td style="text-align: left;">14m 01s</td>
+<td style="text-align: left;">3s</td>
+<td style="text-align: left;">438</td>
+<td style="text-align: left;">345</td>
+<td style="text-align: left;">88</td>
+<td style="text-align: left;">8,767</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 45%">
+<col style="width: 15%">
+<col style="width: 18%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">comparison</th>
+<th style="text-align: left;">shared_urls</th>
+<th style="text-align: left;">left_only_urls</th>
+<th style="text-align: left;">right_only_urls</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">daily vs hierarchical 100</td>
+<td style="text-align: left;">6,369</td>
+<td style="text-align: left;">5,825</td>
+<td style="text-align: left;">2,410</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">daily vs hierarchical 60</td>
+<td style="text-align: left;">6,390</td>
+<td style="text-align: left;">5,804</td>
+<td style="text-align: left;">2,377</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">hierarchical 100 vs hierarchical 60</td>
+<td style="text-align: left;">8,630</td>
+<td style="text-align: left;">149</td>
+<td style="text-align: left;">137</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 4%">
+<col style="width: 10%">
+<col style="width: 12%">
+<col style="width: 11%">
+<col style="width: 19%">
+<col style="width: 18%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">year</th>
+<th style="text-align: left;">daily_rows</th>
+<th style="text-align: left;">hier100_rows</th>
+<th style="text-align: left;">hier60_rows</th>
+<th style="text-align: left;">hier100_minus_daily</th>
+<th style="text-align: left;">hier60_minus_daily</th>
+<th style="text-align: left;">hier60_minus_hier100</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">2010</td>
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">49</td>
+<td style="text-align: left;">50</td>
+<td style="text-align: left;">39</td>
+<td style="text-align: left;">40</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2011</td>
+<td style="text-align: left;">17</td>
+<td style="text-align: left;">109</td>
+<td style="text-align: left;">109</td>
+<td style="text-align: left;">92</td>
+<td style="text-align: left;">92</td>
+<td style="text-align: left;">0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2012</td>
+<td style="text-align: left;">15</td>
+<td style="text-align: left;">106</td>
+<td style="text-align: left;">106</td>
+<td style="text-align: left;">91</td>
+<td style="text-align: left;">91</td>
+<td style="text-align: left;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2013</td>
+<td style="text-align: left;">14</td>
+<td style="text-align: left;">103</td>
+<td style="text-align: left;">104</td>
+<td style="text-align: left;">89</td>
+<td style="text-align: left;">90</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2014</td>
+<td style="text-align: left;">33</td>
+<td style="text-align: left;">106</td>
+<td style="text-align: left;">105</td>
+<td style="text-align: left;">73</td>
+<td style="text-align: left;">72</td>
+<td style="text-align: left;">-1</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2015</td>
+<td style="text-align: left;">103</td>
+<td style="text-align: left;">119</td>
+<td style="text-align: left;">121</td>
+<td style="text-align: left;">16</td>
+<td style="text-align: left;">18</td>
+<td style="text-align: left;">2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2016</td>
+<td style="text-align: left;">4,380</td>
+<td style="text-align: left;">4,112</td>
+<td style="text-align: left;">4,096</td>
+<td style="text-align: left;">-268</td>
+<td style="text-align: left;">-284</td>
+<td style="text-align: left;">-16</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2017</td>
+<td style="text-align: left;">1,264</td>
+<td style="text-align: left;">661</td>
+<td style="text-align: left;">670</td>
+<td style="text-align: left;">-603</td>
+<td style="text-align: left;">-594</td>
+<td style="text-align: left;">9</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2018</td>
+<td style="text-align: left;">940</td>
+<td style="text-align: left;">478</td>
+<td style="text-align: left;">473</td>
+<td style="text-align: left;">-462</td>
+<td style="text-align: left;">-467</td>
+<td style="text-align: left;">-5</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2019</td>
+<td style="text-align: left;">734</td>
+<td style="text-align: left;">401</td>
+<td style="text-align: left;">399</td>
+<td style="text-align: left;">-333</td>
+<td style="text-align: left;">-335</td>
+<td style="text-align: left;">-2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2020</td>
+<td style="text-align: left;">730</td>
+<td style="text-align: left;">430</td>
+<td style="text-align: left;">430</td>
+<td style="text-align: left;">-300</td>
+<td style="text-align: left;">-300</td>
+<td style="text-align: left;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2021</td>
+<td style="text-align: left;">566</td>
+<td style="text-align: left;">425</td>
+<td style="text-align: left;">429</td>
+<td style="text-align: left;">-141</td>
+<td style="text-align: left;">-137</td>
+<td style="text-align: left;">4</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2022</td>
+<td style="text-align: left;">588</td>
+<td style="text-align: left;">395</td>
+<td style="text-align: left;">395</td>
+<td style="text-align: left;">-193</td>
+<td style="text-align: left;">-193</td>
+<td style="text-align: left;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2023</td>
+<td style="text-align: left;">631</td>
+<td style="text-align: left;">386</td>
+<td style="text-align: left;">388</td>
+<td style="text-align: left;">-245</td>
+<td style="text-align: left;">-243</td>
+<td style="text-align: left;">2</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2024</td>
+<td style="text-align: left;">1,008</td>
+<td style="text-align: left;">450</td>
+<td style="text-align: left;">433</td>
+<td style="text-align: left;">-558</td>
+<td style="text-align: left;">-575</td>
+<td style="text-align: left;">-17</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2025</td>
+<td style="text-align: left;">1,159</td>
+<td style="text-align: left;">448</td>
+<td style="text-align: left;">458</td>
+<td style="text-align: left;">-711</td>
+<td style="text-align: left;">-701</td>
+<td style="text-align: left;">10</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2026</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">-1</td>
+<td style="text-align: left;">-1</td>
+<td style="text-align: left;">0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section id="shallower-start-window-trial" class="level3">
+<h3 class="anchored" data-anchor-id="shallower-start-window-trial">Shallower start-window trial</h3>
+<p>A fourth separate Stage 1 rerun was executed into <code>zika/data_hierarchical_14/</code>, starting from <code>14-day</code> windows and then drilling down through <code>14-day -&gt; 7-day -&gt; 3-day -&gt; 1-day</code> with the default split threshold of <code>100</code>.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Starting from <code>14-day</code> windows recovered a noticeably larger article set than either of the broader-start hierarchical variants while remaining much faster than the daily baseline.</p>
+<p>The <code>14-start</code> trial took <strong>16m 37s</strong> and expanded to <strong>531</strong> manifest rows with <strong>44</strong> split parents. That is about <strong>53.4%</strong> slower than the original hierarchical-100 run, about <strong>18.5%</strong> slower than the lower-threshold hierarchical-60 run, and still about <strong>86.5%</strong> faster than the daily baseline.</p>
+<p>The payoff is recall. The <code>14-start</code> run produced <strong>9,555</strong> deduplicated rows, which is <strong>8.8%</strong> more than the hierarchical-100 run and <strong>9.0%</strong> more than the hierarchical-60 run. It still trails the daily baseline by about <strong>21.6%</strong>.</p>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 19%">
+<col style="width: 16%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 14%">
+<col style="width: 12%">
+<col style="width: 11%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">run</th>
+<th style="text-align: left;">retrieval_runtime</th>
+<th style="text-align: left;">parse_runtime</th>
+<th style="text-align: left;">manifest_rows</th>
+<th style="text-align: left;">success_windows</th>
+<th style="text-align: left;">split_windows</th>
+<th style="text-align: left;">deduped_rows</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Daily baseline</td>
+<td style="text-align: left;">2h 03m 18s</td>
+<td style="text-align: left;">5s</td>
+<td style="text-align: left;">5,844</td>
+<td style="text-align: left;">3,720</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">12,194</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Hierarchical 100</td>
+<td style="text-align: left;">10m 50s</td>
+<td style="text-align: left;">1s</td>
+<td style="text-align: left;">335</td>
+<td style="text-align: left;">277</td>
+<td style="text-align: left;">53</td>
+<td style="text-align: left;">8,779</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Hierarchical 60</td>
+<td style="text-align: left;">14m 01s</td>
+<td style="text-align: left;">3s</td>
+<td style="text-align: left;">438</td>
+<td style="text-align: left;">345</td>
+<td style="text-align: left;">88</td>
+<td style="text-align: left;">8,767</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Hierarchical 14-start</td>
+<td style="text-align: left;">16m 37s</td>
+<td style="text-align: left;">2s</td>
+<td style="text-align: left;">531</td>
+<td style="text-align: left;">474</td>
+<td style="text-align: left;">44</td>
+<td style="text-align: left;">9,555</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 49%">
+<col style="width: 14%">
+<col style="width: 17%">
+<col style="width: 18%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">comparison</th>
+<th style="text-align: left;">shared_urls</th>
+<th style="text-align: left;">left_only_urls</th>
+<th style="text-align: left;">right_only_urls</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">daily vs hierarchical 14-start</td>
+<td style="text-align: left;">6,939</td>
+<td style="text-align: left;">5,255</td>
+<td style="text-align: left;">2,616</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">hierarchical 100 vs hierarchical 14-start</td>
+<td style="text-align: left;">8,460</td>
+<td style="text-align: left;">319</td>
+<td style="text-align: left;">1,095</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">hierarchical 60 vs hierarchical 14-start</td>
+<td style="text-align: left;">8,446</td>
+<td style="text-align: left;">321</td>
+<td style="text-align: left;">1,109</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 3%">
+<col style="width: 7%">
+<col style="width: 8%">
+<col style="width: 7%">
+<col style="width: 7%">
+<col style="width: 13%">
+<col style="width: 12%">
+<col style="width: 12%">
+<col style="width: 13%">
+<col style="width: 13%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">year</th>
+<th style="text-align: left;">daily_rows</th>
+<th style="text-align: left;">hier100_rows</th>
+<th style="text-align: left;">hier60_rows</th>
+<th style="text-align: left;">hier14_rows</th>
+<th style="text-align: left;">hier100_minus_daily</th>
+<th style="text-align: left;">hier60_minus_daily</th>
+<th style="text-align: left;">hier14_minus_daily</th>
+<th style="text-align: left;">hier14_minus_hier100</th>
+<th style="text-align: left;">hier14_minus_hier60</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">2010</td>
+<td style="text-align: left;">10</td>
+<td style="text-align: left;">49</td>
+<td style="text-align: left;">50</td>
+<td style="text-align: left;">54</td>
+<td style="text-align: left;">39</td>
+<td style="text-align: left;">40</td>
+<td style="text-align: left;">44</td>
+<td style="text-align: left;">5</td>
+<td style="text-align: left;">4</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2011</td>
+<td style="text-align: left;">17</td>
+<td style="text-align: left;">109</td>
+<td style="text-align: left;">109</td>
+<td style="text-align: left;">143</td>
+<td style="text-align: left;">92</td>
+<td style="text-align: left;">92</td>
+<td style="text-align: left;">126</td>
+<td style="text-align: left;">34</td>
+<td style="text-align: left;">34</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2012</td>
+<td style="text-align: left;">15</td>
+<td style="text-align: left;">106</td>
+<td style="text-align: left;">106</td>
+<td style="text-align: left;">129</td>
+<td style="text-align: left;">91</td>
+<td style="text-align: left;">91</td>
+<td style="text-align: left;">114</td>
+<td style="text-align: left;">23</td>
+<td style="text-align: left;">23</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2013</td>
+<td style="text-align: left;">14</td>
+<td style="text-align: left;">103</td>
+<td style="text-align: left;">104</td>
+<td style="text-align: left;">101</td>
+<td style="text-align: left;">89</td>
+<td style="text-align: left;">90</td>
+<td style="text-align: left;">87</td>
+<td style="text-align: left;">-2</td>
+<td style="text-align: left;">-3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2014</td>
+<td style="text-align: left;">33</td>
+<td style="text-align: left;">106</td>
+<td style="text-align: left;">105</td>
+<td style="text-align: left;">129</td>
+<td style="text-align: left;">73</td>
+<td style="text-align: left;">72</td>
+<td style="text-align: left;">96</td>
+<td style="text-align: left;">23</td>
+<td style="text-align: left;">24</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2015</td>
+<td style="text-align: left;">103</td>
+<td style="text-align: left;">119</td>
+<td style="text-align: left;">121</td>
+<td style="text-align: left;">122</td>
+<td style="text-align: left;">16</td>
+<td style="text-align: left;">18</td>
+<td style="text-align: left;">19</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2016</td>
+<td style="text-align: left;">4,380</td>
+<td style="text-align: left;">4,112</td>
+<td style="text-align: left;">4,096</td>
+<td style="text-align: left;">4,115</td>
+<td style="text-align: left;">-268</td>
+<td style="text-align: left;">-284</td>
+<td style="text-align: left;">-265</td>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;">19</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2017</td>
+<td style="text-align: left;">1,264</td>
+<td style="text-align: left;">661</td>
+<td style="text-align: left;">670</td>
+<td style="text-align: left;">682</td>
+<td style="text-align: left;">-603</td>
+<td style="text-align: left;">-594</td>
+<td style="text-align: left;">-582</td>
+<td style="text-align: left;">21</td>
+<td style="text-align: left;">12</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2018</td>
+<td style="text-align: left;">940</td>
+<td style="text-align: left;">478</td>
+<td style="text-align: left;">473</td>
+<td style="text-align: left;">501</td>
+<td style="text-align: left;">-462</td>
+<td style="text-align: left;">-467</td>
+<td style="text-align: left;">-439</td>
+<td style="text-align: left;">23</td>
+<td style="text-align: left;">28</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2019</td>
+<td style="text-align: left;">734</td>
+<td style="text-align: left;">401</td>
+<td style="text-align: left;">399</td>
+<td style="text-align: left;">405</td>
+<td style="text-align: left;">-333</td>
+<td style="text-align: left;">-335</td>
+<td style="text-align: left;">-329</td>
+<td style="text-align: left;">4</td>
+<td style="text-align: left;">6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2020</td>
+<td style="text-align: left;">730</td>
+<td style="text-align: left;">430</td>
+<td style="text-align: left;">430</td>
+<td style="text-align: left;">506</td>
+<td style="text-align: left;">-300</td>
+<td style="text-align: left;">-300</td>
+<td style="text-align: left;">-224</td>
+<td style="text-align: left;">76</td>
+<td style="text-align: left;">76</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2021</td>
+<td style="text-align: left;">566</td>
+<td style="text-align: left;">425</td>
+<td style="text-align: left;">429</td>
+<td style="text-align: left;">448</td>
+<td style="text-align: left;">-141</td>
+<td style="text-align: left;">-137</td>
+<td style="text-align: left;">-118</td>
+<td style="text-align: left;">23</td>
+<td style="text-align: left;">19</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2022</td>
+<td style="text-align: left;">588</td>
+<td style="text-align: left;">395</td>
+<td style="text-align: left;">395</td>
+<td style="text-align: left;">423</td>
+<td style="text-align: left;">-193</td>
+<td style="text-align: left;">-193</td>
+<td style="text-align: left;">-165</td>
+<td style="text-align: left;">28</td>
+<td style="text-align: left;">28</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2023</td>
+<td style="text-align: left;">631</td>
+<td style="text-align: left;">386</td>
+<td style="text-align: left;">388</td>
+<td style="text-align: left;">487</td>
+<td style="text-align: left;">-245</td>
+<td style="text-align: left;">-243</td>
+<td style="text-align: left;">-144</td>
+<td style="text-align: left;">101</td>
+<td style="text-align: left;">99</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2024</td>
+<td style="text-align: left;">1,008</td>
+<td style="text-align: left;">450</td>
+<td style="text-align: left;">433</td>
+<td style="text-align: left;">619</td>
+<td style="text-align: left;">-558</td>
+<td style="text-align: left;">-575</td>
+<td style="text-align: left;">-389</td>
+<td style="text-align: left;">169</td>
+<td style="text-align: left;">186</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2025</td>
+<td style="text-align: left;">1,159</td>
+<td style="text-align: left;">448</td>
+<td style="text-align: left;">458</td>
+<td style="text-align: left;">689</td>
+<td style="text-align: left;">-711</td>
+<td style="text-align: left;">-701</td>
+<td style="text-align: left;">-470</td>
+<td style="text-align: left;">241</td>
+<td style="text-align: left;">231</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">2026</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;">-1</td>
+<td style="text-align: left;">-1</td>
+<td style="text-align: left;">0</td>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;">1</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 </section>
 </section>
 <section id="step-2-ensemble-filtering" class="level2">
