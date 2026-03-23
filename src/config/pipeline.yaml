@@ -23,6 +23,7 @@ rss:
   proxy_backend: "direct"
   http_proxy: ""
   https_proxy: ""
+  #TODO Add a proxy backend that uses ScrapingBee and set the API key here
   scraping_bee_api_key: ""
   user_agent: "Mozilla/5.0 (compatible; INFLUX-PathogenNews/1.0; +https://news.google.com/)"
   language_specs:
