@@ -14,7 +14,7 @@ The pipeline keeps outputs separated by dataset key, where each dataset key is o
 
 Within each language family bucket, RSS retrieval now runs multiple Google News locale variants and merges them back into the same output. For example, `pt` includes both `pt-BR` and `pt-PT` retrieval passes, while `en`, `fr`, and `es` also include multiple regional editions.
 
-RSS retrieval now uses adaptive windowing by default: it starts with `3-day` windows, and if a window returns at least `100` RSS items it marks that parent window as split, inserts `1-day` child windows for just that period, and then continues with `3-day` windows afterward. Split parent payloads are kept on disk for auditability, but only `success` and `empty` windows are aggregated into the normalized RSS CSV/Parquet outputs.
+RSS retrieval now uses hierarchical adaptive windowing by default: it starts with `30-day` windows, and if a window returns at least `100` RSS items it recursively drills down to `14-day`, then `7-day`, then `3-day`, then `1-day` child windows only for that hot period. Split parent payloads are kept on disk for auditability, but only `success` and `empty` windows are aggregated into the normalized RSS CSV/Parquet outputs.
 
 ## Expected inputs
 
@@ -89,7 +89,7 @@ python3 src/run_pipeline.py --stage bertopic
 ## Resume behavior
 
 - RSS retrieval keeps a per-dataset manifest under `data/raw/rss/<dataset_key>/`.
-- RSS retrieval manifests can contain both base `3-day` windows and adaptive `1-day` child windows. Parent rows marked `split` are treated as complete for resume purposes and are excluded from the aggregated RSS output.
+- RSS retrieval manifests can contain base `30-day` windows plus hierarchical child windows at `14-day`, `7-day`, `3-day`, and `1-day`. Parent rows marked `split` are treated as complete for resume purposes and are excluded from the aggregated RSS output.
 - If you already created a manifest with an older fixed-window strategy and want a clean adaptive run, remove that dataset's RSS manifest before rerunning retrieval.
 - Domain filtering reuses its existing output unless `--force` is set.
 - Headline filtering reuses the saved classification state and batch registry.

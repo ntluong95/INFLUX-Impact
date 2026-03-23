@@ -2671,6 +2671,7 @@ Note
 <div class="callout-body-container callout-body">
 <p>For the <code>3-day</code> candidate, the archive contains <strong>58</strong> rolling windows where the summed daily counts exceed <code>100</code>. These windows are then grouped into <strong>12</strong> broader covered spans when they overlap in calendar time.</p>
 <p>The <strong>balance strategy</strong> would be <code>3-day -&gt; 1-day -&gt; back to 3-day</code> retrieval logic, where the pipeline defaults to 3-day windows but falls back to daily windows if a 3-day window contains more than 100 items in the archive. This would allow for more efficient retrieval during quieter periods while still respecting the observed limits on busier days.</p>
+<p>A hierarchical windows of <code>30-day -&gt; 14-day-&gt; 7-day -&gt; 3-day -&gt; 1-day</code> can even be used!!!</p>
 </div>
 </div>
 <div class="cell">

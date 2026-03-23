@@ -36,6 +36,8 @@ warnings.filterwarnings("ignore", message=".*doesn't match a supported version.*
 REQUESTS_WARNING = getattr(requests.exceptions, "RequestsDependencyWarning", Warning)
 warnings.filterwarnings("ignore", category=REQUESTS_WARNING)
 
+DEFAULT_WINDOW_HIERARCHY_DAYS = [30, 14, 7, 3, 1]
+
 THROTTLE_PATTERNS = [
     re.compile(pattern, flags=re.IGNORECASE)
     for pattern in [
@@ -146,6 +148,36 @@ def compute_window_days(window_start: str, window_end: str) -> int:
     start = date.fromisoformat(window_start)
     end = date.fromisoformat(window_end)
     return max(1, (end - start).days + 1)
+
+
+def normalize_window_hierarchy(raw_value: Any) -> list[int]:
+    if raw_value is None or raw_value == "":
+        values = list(DEFAULT_WINDOW_HIERARCHY_DAYS)
+    elif isinstance(raw_value, str):
+        values = [int(chunk.strip()) for chunk in raw_value.split(",") if chunk.strip()]
+    elif isinstance(raw_value, (list, tuple)):
+        values = [int(item) for item in raw_value]
+    else:
+        values = [int(raw_value)]
+
+    cleaned = sorted({max(1, int(value)) for value in values}, reverse=True)
+    if not cleaned:
+        raise ValueError("RSS window hierarchy must contain at least one positive integer.")
+    if cleaned[-1] != 1:
+        cleaned.append(1)
+    return cleaned
+
+
+def next_split_window_days(
+    current_window_days: int,
+    window_hierarchy_days: list[int],
+) -> int | None:
+    current = max(1, int(current_window_days))
+    hierarchy = normalize_window_hierarchy(window_hierarchy_days)
+    smaller_levels = [level for level in hierarchy if level < current]
+    if not smaller_levels:
+        return None
+    return max(smaller_levels)
 
 
 def cache_relative_path(

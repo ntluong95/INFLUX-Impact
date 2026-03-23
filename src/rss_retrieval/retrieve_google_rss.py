@@ -37,6 +37,8 @@ from src.utils.rss import (
     is_completed_manifest_row,
     load_or_initialize_manifest,
     manifest_row_key,
+    next_split_window_days,
+    normalize_window_hierarchy,
     parse_cached_payload,
     should_pause_until_next_attempt,
     should_retry,
@@ -87,7 +89,7 @@ def insert_adaptive_child_rows(
     parent_idx: int,
     dataset: DatasetKey,
     parent_row: pd.Series,
-    split_window_days: int,
+    child_window_days: int,
     cache_format: str,
 ) -> tuple[pd.DataFrame, int]:
     parent_start = text_or_empty(parent_row["window_start"])
@@ -95,7 +97,7 @@ def insert_adaptive_child_rows(
     child_windows = build_date_windows(
         start_date=parent_start,
         end_date=parent_end,
-        chunk_size_days=split_window_days,
+        chunk_size_days=child_window_days,
     )
     existing_keys = {
         manifest_row_key(record)
@@ -114,7 +116,7 @@ def insert_adaptive_child_rows(
             window_start=child_window["window_start"],
             window_end=child_window["window_end"],
             cache_format=cache_format,
-            window_role="adaptive_child",
+            window_role="hierarchical_child",
             parent_window_start=parent_start,
             parent_window_end=parent_end,
         )
@@ -212,18 +214,27 @@ def retrieve_dataset(
     search_strings = load_search_strings(input_csv)
     search_cfg = config["search"]
     rss_cfg = config["rss"]
-    base_window_days = max(1, int(rss_cfg.get("chunk_size_days", 1)))
-    adaptive_split_enabled = bool(rss_cfg.get("adaptive_split_enabled", False))
-    adaptive_split_window_days = max(
+    raw_hierarchy = rss_cfg.get("split_hierarchy_days")
+    if raw_hierarchy in (None, ""):
+        # Backward-compatible fallback for older configs before hierarchical splitting.
+        adaptive_enabled = bool(rss_cfg.get("adaptive_split_enabled", False))
+        base_window_days = max(1, int(rss_cfg.get("chunk_size_days", 1)))
+        split_window_days = max(1, int(rss_cfg.get("adaptive_split_window_days", 1)))
+        if adaptive_enabled and split_window_days < base_window_days:
+            raw_hierarchy = [base_window_days, split_window_days, 1]
+        else:
+            raw_hierarchy = [base_window_days]
+    window_hierarchy_days = normalize_window_hierarchy(raw_hierarchy)
+    base_window_days = window_hierarchy_days[0]
+    split_threshold_entries = max(
         1,
-        int(rss_cfg.get("adaptive_split_window_days", 1)),
+        int(
+            rss_cfg.get(
+                "split_threshold_entries",
+                rss_cfg.get("adaptive_split_threshold_entries", 100),
+            )
+        ),
     )
-    adaptive_split_threshold_entries = max(
-        1,
-        int(rss_cfg.get("adaptive_split_threshold_entries", 100)),
-    )
-    if adaptive_split_window_days >= base_window_days:
-        adaptive_split_enabled = False
 
     windows = build_date_windows(
         start_date=str(search_cfg.get("start_date", "2005-01-01")),
@@ -243,14 +254,12 @@ def retrieve_dataset(
     manifest_df = manifest_df.reset_index(drop=True)
     write_manifest(manifest_df, manifest_csv)
     logger.info(
-        "RSS retrieval configured for %s with %s search strings and %s base windows (base_window_days=%s adaptive_split=%s split_window_days=%s split_threshold_entries=%s)",
+        "RSS retrieval configured for %s with %s search strings and %s base windows (window_hierarchy_days=%s split_threshold_entries=%s)",
         dataset.stem,
         len(search_strings),
         len(windows),
-        base_window_days,
-        adaptive_split_enabled,
-        adaptive_split_window_days,
-        adaptive_split_threshold_entries,
+        window_hierarchy_days,
+        split_threshold_entries,
     )
 
     if parse_only:
@@ -404,12 +413,15 @@ def retrieve_dataset(
                 write_json_atomic(payload, cached_path)
 
                 entry_count = len(payload["entries"])
+                next_window_days = next_split_window_days(
+                    current_window_days=current_window_days,
+                    window_hierarchy_days=window_hierarchy_days,
+                )
                 should_split_window = (
-                    adaptive_split_enabled
-                    and current_window_days > adaptive_split_window_days
+                    next_window_days is not None
                     # Treat hitting the threshold as suspicious, because feeds often
                     # saturate at round limits such as exactly 100 returned items.
-                    and entry_count >= adaptive_split_threshold_entries
+                    and entry_count >= split_threshold_entries
                 )
                 if should_split_window:
                     manifest_df, inserted_children = insert_adaptive_child_rows(
@@ -417,7 +429,7 @@ def retrieve_dataset(
                         parent_idx=idx,
                         dataset=dataset,
                         parent_row=row,
-                        split_window_days=adaptive_split_window_days,
+                        child_window_days=int(next_window_days),
                         cache_format=str(rss_cfg.get("cache_format", "json")),
                     )
                     update_manifest_row(
@@ -427,17 +439,18 @@ def retrieve_dataset(
                         http_status=http_status,
                         next_eligible_attempt_at="",
                         error_summary=(
-                            f"adaptive_split:{entry_count} entries -> "
-                            f"{adaptive_split_window_days}-day child windows"
+                            f"hierarchical_split:{entry_count} entries -> "
+                            f"{next_window_days}-day child windows"
                         ),
                         split_trigger_entries=entry_count,
                     )
                     write_manifest(manifest_df, manifest_csv)
                     split_windows += 1
                     logger.info(
-                        "Adaptive split triggered for %s entries=%s child_windows_inserted=%s",
+                        "Hierarchical split triggered for %s entries=%s next_window_days=%s child_windows_inserted=%s",
                         window_id,
                         entry_count,
+                        next_window_days,
                         inserted_children,
                     )
                 else:

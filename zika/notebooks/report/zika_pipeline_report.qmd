@@ -565,6 +565,8 @@ The best compromise from the retrospective simulation is **`r if (nrow(stage1_wi
 For the `3-day` candidate, the archive contains **`r if (nrow(stage1_window_3day_hits)) scales::comma(nrow(stage1_window_3day_hits)) else "NA"`** rolling windows where the summed daily counts exceed `100`. These windows are then grouped into **`r if (nrow(stage1_window_3day_periods)) nrow(stage1_window_3day_periods) else "NA"`** broader covered spans when they overlap in calendar time.
 
 The **balance strategy** would be `3-day -> 1-day -> back to 3-day` retrieval logic, where the pipeline defaults to 3-day windows but falls back to daily windows if a 3-day window contains more than 100 items in the archive. This would allow for more efficient retrieval during quieter periods while still respecting the observed limits on busier days.
+
+A hierarchical windows of `30-day -> 14-day-> 7-day -> 3-day -> 1-day` can even be used!!!
 :::
 
 ```{r}
