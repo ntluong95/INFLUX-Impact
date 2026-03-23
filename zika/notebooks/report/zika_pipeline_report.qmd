@@ -258,6 +258,20 @@ bertopic_impact_stage_timing_path <- file.path(
   "final",
   "zika_bertopic_impact_stage_timings.csv"
 )
+rss_window_daily_path <- file.path(
+  ZIKA,
+  "data",
+  "intermediate",
+  "rss_window_analysis",
+  "daily_window_counts.csv"
+)
+rss_window_summary_path <- file.path(
+  ZIKA,
+  "data",
+  "intermediate",
+  "rss_window_analysis",
+  "candidate_window_summary.csv"
+)
 
 manifest_df <- safe_read_csv(manifest_path)
 rss_df <- safe_read_csv(rss_path)
@@ -282,6 +296,8 @@ bertopic_impact_projection_df <- safe_read_csv(bertopic_impact_projection_path)
 bertopic_impact_stage_timing_df <- safe_read_csv(
   bertopic_impact_stage_timing_path
 )
+rss_window_daily_df <- safe_read_csv(rss_window_daily_path)
+rss_window_summary_df <- safe_read_csv(rss_window_summary_path)
 metrics_payload <- if (file.exists(metrics_json_path)) {
   safe_read_json(metrics_json_path)
 } else {
@@ -328,6 +344,8 @@ completed_scored_df <- if (nrow(scored_df)) {
 bind_rows(
   artifact_info("Stage 1 manifest", manifest_path),
   artifact_info("Stage 1 normalized RSS", rss_path),
+  artifact_info("Stage 1 daily window analysis", rss_window_daily_path),
+  artifact_info("Stage 1 candidate window summary", rss_window_summary_path),
   artifact_info("Stage 2 scored headlines", scored_path),
   artifact_info("Stage 2 validation sample", validation_path),
   artifact_info("Stage 2 metrics JSON", metrics_json_path),
@@ -402,6 +420,179 @@ The retrieval script is therefore optimized for interruption and restart, while 
 5. Update the manifest after each attempt with timestamps, attempt counts, HTTP status, cache path, and error summary.
 6. Parse only cached `success` and `empty` windows into a flat table.
 7. Apply deterministic deduplication before writing the final Stage 1 CSV and Parquet outputs.
+
+### Should daily windows stay daily?
+
+```{r}
+#| label: stage1-window-analysis
+stage1_window_daily_overview <- if (nrow(rss_window_daily_df)) {
+  tibble(
+    metric = c(
+      "observed_daily_windows",
+      "mean_items_per_day",
+      "median_items_per_day",
+      "p90_items_per_day",
+      "p99_items_per_day",
+      "max_items_per_day",
+      "days_ge_20_items",
+      "days_ge_50_items",
+      "days_ge_80_items",
+      "days_ge_100_items"
+    ),
+    value = c(
+      nrow(rss_window_daily_df),
+      round(mean(rss_window_daily_df$retrieved_items, na.rm = TRUE), 2),
+      round(median(rss_window_daily_df$retrieved_items, na.rm = TRUE), 2),
+      round(quantile(rss_window_daily_df$retrieved_items, probs = 0.90), 2),
+      round(quantile(rss_window_daily_df$retrieved_items, probs = 0.99), 2),
+      max(rss_window_daily_df$retrieved_items, na.rm = TRUE),
+      sum(rss_window_daily_df$retrieved_items >= 20, na.rm = TRUE),
+      sum(rss_window_daily_df$retrieved_items >= 50, na.rm = TRUE),
+      sum(rss_window_daily_df$retrieved_items >= 80, na.rm = TRUE),
+      sum(rss_window_daily_df$retrieved_items >= 100, na.rm = TRUE)
+    )
+  )
+} else {
+  tibble(note = "No daily window analysis found.")
+}
+
+stage1_window_candidates <- if (nrow(rss_window_summary_df)) {
+  rss_window_summary_df %>%
+    mutate(
+      request_reduction = scales::percent(
+        request_reduction_pct / 100,
+        accuracy = 0.1
+      ),
+      near_cap_share = scales::percent(avg_share_ge_warn, accuracy = 0.1),
+      cap_share = scales::percent(avg_share_ge_cap, accuracy = 0.1)
+    ) %>%
+    select(
+      window_days,
+      requests_if_used,
+      request_reduction,
+      average_total,
+      p90_total,
+      max_total,
+      near_cap_share,
+      cap_share,
+      recommendation
+    ) %>%
+    arrange(window_days)
+} else {
+  tibble(note = "No candidate window summary found.")
+}
+
+stage1_window_best_broader <- if (nrow(rss_window_summary_df)) {
+  rss_window_summary_df %>%
+    mutate(
+      recommendation_rank = case_when(
+        recommendation == "recommended" ~ 1L,
+        recommendation == "use_with_caution" ~ 2L,
+        recommendation == "not_recommended" ~ 3L,
+        TRUE ~ 4L
+      )
+    ) %>%
+    filter(window_days > 1) %>%
+    arrange(recommendation_rank, desc(window_days)) %>%
+    slice_head(n = 1)
+} else {
+  tibble()
+}
+
+stage1_window_3day_hits <- if (nrow(rss_window_daily_df) >= 3) {
+  rss_window_daily_df %>%
+    transmute(
+      day = as.Date(day),
+      retrieved_items = as.numeric(retrieved_items)
+    ) %>%
+    arrange(day) %>%
+    mutate(
+      day_2_items = lead(retrieved_items, 1),
+      day_3_items = lead(retrieved_items, 2),
+      window_end = lead(day, 2),
+      total_items = retrieved_items + day_2_items + day_3_items
+    ) %>%
+    filter(!is.na(window_end), total_items > 100) %>%
+    transmute(
+      window_start = day,
+      window_end,
+      total_items,
+      daily_profile = sprintf(
+        "%s + %s + %s",
+        retrieved_items,
+        day_2_items,
+        day_3_items
+      )
+    )
+} else {
+  tibble()
+}
+
+stage1_window_3day_periods <- if (nrow(stage1_window_3day_hits)) {
+  hit_starts <- stage1_window_3day_hits$window_start
+  hit_ends <- stage1_window_3day_hits$window_end
+  period_breaks <- c(
+    TRUE,
+    hit_starts[-1] > (head(hit_ends, -1) + 1)
+  )
+
+  stage1_window_3day_hits %>%
+    mutate(period_id = cumsum(period_breaks)) %>%
+    group_by(period_id) %>%
+    summarise(
+      period_start = min(window_start),
+      period_end = max(window_end),
+      days_covered = as.integer(period_end - period_start) + 1L,
+      windows_gt_100 = n(),
+      peak_total_items = max(total_items),
+      .groups = "drop"
+    ) %>%
+    arrange(period_start)
+} else {
+  tibble()
+}
+```
+
+::: {.callout-important}
+The archived Zika RSS cache suggests that **daily windows are safer than necessary for most days, but broader windows should still be kept modest**.
+
+Across **`r if (nrow(rss_window_daily_df)) scales::comma(nrow(rss_window_daily_df)) else "NA"`** observed `1-day` windows, the archive averaged **`r if (nrow(rss_window_daily_df)) round(mean(rss_window_daily_df$retrieved_items, na.rm = TRUE), 2) else "NA"`** items per day with a median of **`r if (nrow(rss_window_daily_df)) round(median(rss_window_daily_df$retrieved_items, na.rm = TRUE), 2) else "NA"`**. However, **`r if (nrow(rss_window_daily_df)) sum(rss_window_daily_df$retrieved_items >= 100, na.rm = TRUE) else "NA"`** days already reached `100` items, which likely reflects the practical Google News RSS ceiling on high-volume dates.
+
+The best compromise from the retrospective simulation is **`r if (nrow(stage1_window_best_broader)) stage1_window_best_broader$window_days[[1]] else "NA"`-day windows**. That setting would reduce requests by about **`r if (nrow(stage1_window_best_broader)) scales::percent(stage1_window_best_broader$request_reduction_pct[[1]] / 100, accuracy = 0.1) else "NA"`** while keeping estimated cap-risk at **`r if (nrow(stage1_window_best_broader)) scales::percent(stage1_window_best_broader$avg_share_ge_cap[[1]], accuracy = 0.1) else "NA"`**. In contrast, `7-day` windows push cap-risk high enough to warrant caution, and `14-day+` windows look too aggressive for reliable historical retrieval.
+:::
+
+::: {.callout-note}
+For the `3-day` candidate, the archive contains **`r if (nrow(stage1_window_3day_hits)) scales::comma(nrow(stage1_window_3day_hits)) else "NA"`** rolling windows where the summed daily counts exceed `100`. These windows are then grouped into **`r if (nrow(stage1_window_3day_periods)) nrow(stage1_window_3day_periods) else "NA"`** broader covered spans when they overlap in calendar time.
+
+That means a span such as **`r if (nrow(stage1_window_3day_periods)) format(stage1_window_3day_periods$period_start[[1]], "%Y-%m-%d") else "NA"`** to **`r if (nrow(stage1_window_3day_periods)) format(stage1_window_3day_periods$period_end[[1]], "%Y-%m-%d") else "NA"`** does **not** imply that every possible `3-day` start date inside the span exceeded `100`. It means the overlapping hit windows collectively covered **`r if (nrow(stage1_window_3day_periods)) stage1_window_3day_periods$days_covered[[1]] else "NA"`** calendar days. The strongest `3-day` windows still reach **`r if (nrow(stage1_window_3day_hits)) max(stage1_window_3day_hits$total_items, na.rm = TRUE) else "NA"`** summed daily items, which explains why `3-day` windows remain a compromise rather than a risk-free replacement for `1-day` queries.for
+:::
+
+```{r}
+#| label: stage1-window-daily-table
+stage1_window_daily_overview %>%
+  kableExtra::kable()
+```
+
+```{r}
+#| label: stage1-window-candidate-table
+stage1_window_candidates %>%
+  kableExtra::kable()
+```
+
+```{r}
+#| label: stage1-window-3day-periods
+if (nrow(stage1_window_3day_periods)) {
+  stage1_window_3day_periods %>%
+    mutate(
+      period_start = format(period_start, "%Y-%m-%d"),
+      period_end = format(period_end, "%Y-%m-%d")
+    ) %>%
+    kableExtra::kable()
+} else {
+  tibble(note = "No 3-day periods above 100 summed daily items found.") %>%
+    kableExtra::kable()
+}
+```
 
 ```{r}
 #| label: stage1-helpers

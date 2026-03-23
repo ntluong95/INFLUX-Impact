@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="INFLUX Impact">
-<meta name="dcterms.date" content="2026-03-18">
+<meta name="dcterms.date" content="2026-03-23">
 
 <title>Zika Pipeline Status Report</title>
 <style>
@@ -2403,6 +2403,7 @@ border: 0;
   <li><a href="#step-1-retrieval" id="toc-step-1-retrieval" class="nav-link" data-scroll-target="#step-1-retrieval">Step 1 Retrieval</a>
   <ul class="collapse">
   <li><a href="#how-the-retrieval-step-works" id="toc-how-the-retrieval-step-works" class="nav-link" data-scroll-target="#how-the-retrieval-step-works">How the retrieval step works</a></li>
+  <li><a href="#should-daily-windows-stay-daily" id="toc-should-daily-windows-stay-daily" class="nav-link" data-scroll-target="#should-daily-windows-stay-daily">Should daily windows stay daily?</a></li>
   <li><a href="#detailed-metrics-and-logs" id="toc-detailed-metrics-and-logs" class="nav-link" data-scroll-target="#detailed-metrics-and-logs">Detailed metrics and logs</a></li>
   </ul></li>
   <li><a href="#step-2-ensemble-filtering" id="toc-step-2-ensemble-filtering" class="nav-link" data-scroll-target="#step-2-ensemble-filtering">Step 2 Ensemble Filtering</a>
@@ -2444,7 +2445,7 @@ border: 0;
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">March 18, 2026</p>
+      <p class="date">March 23, 2026</p>
     </div>
   </div>
   
@@ -2471,9 +2472,9 @@ border: 0;
 <div class="cell-output-display">
 <table class="caption-top table table-sm table-striped small">
 <colgroup>
-<col style="width: 38%">
-<col style="width: 54%">
-<col style="width: 6%">
+<col style="width: 33%">
+<col style="width: 60%">
+<col style="width: 5%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -2491,6 +2492,16 @@ border: 0;
 <tr class="even">
 <td style="text-align: left;">Stage 1 normalized RSS</td>
 <td style="text-align: left;">zika/data/intermediate/zika_rss_raw.csv</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Stage 1 daily window analysis</td>
+<td style="text-align: left;">zika/data/intermediate/rss_window_analysis/daily_window_counts.csv</td>
+<td style="text-align: left;">TRUE</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Stage 1 candidate window summary</td>
+<td style="text-align: left;">zika/data/intermediate/rss_window_analysis/candidate_window_summary.csv</td>
 <td style="text-align: left;">TRUE</td>
 </tr>
 <tr class="odd">
@@ -2630,6 +2641,301 @@ Note
 <li>Parse only cached <code>success</code> and <code>empty</code> windows into a flat table.</li>
 <li>Apply deterministic deduplication before writing the final Stage 1 CSV and Parquet outputs.</li>
 </ol>
+</section>
+<section id="should-daily-windows-stay-daily" class="level3">
+<h3 class="anchored" data-anchor-id="should-daily-windows-stay-daily">Should daily windows stay daily?</h3>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The archived Zika RSS cache suggests that <strong>daily windows are safer than necessary for most days, but broader windows should still be kept modest</strong>.</p>
+<p>Across <strong>5,844</strong> observed <code>1-day</code> windows, the archive averaged <strong>3.95</strong> items per day with a median of <strong>2</strong>. However, <strong>7</strong> days already reached <code>100</code> items, which likely reflects the practical Google News RSS ceiling on high-volume dates.</p>
+<p>The best compromise from the retrospective simulation is <strong>3-day windows</strong>. That setting would reduce requests by about <strong>66.7%</strong> while keeping estimated cap-risk at <strong>1.0%</strong>. In contrast, <code>7-day</code> windows push cap-risk high enough to warrant caution, and <code>14-day+</code> windows look too aggressive for reliable historical retrieval.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>For the <code>3-day</code> candidate, the archive contains <strong>58</strong> rolling windows where the summed daily counts exceed <code>100</code>. These windows are then grouped into <strong>12</strong> broader covered spans when they overlap in calendar time.</p>
+<p>That means a span such as <strong>2016-01-20</strong> to <strong>2016-02-20</strong> does <strong>not</strong> imply that every possible <code>3-day</code> start date inside the span exceeded <code>100</code>. It means the overlapping hit windows collectively covered <strong>32</strong> calendar days. The strongest <code>3-day</code> windows still reach <strong>300</strong> summed daily items, which explains why <code>3-day</code> windows remain a compromise rather than a risk-free replacement for <code>1-day</code> queries.</p>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: left;">metric</th>
+<th style="text-align: right;">value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">observed_daily_windows</td>
+<td style="text-align: right;">5844.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">mean_items_per_day</td>
+<td style="text-align: right;">3.95</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">median_items_per_day</td>
+<td style="text-align: right;">2.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">p90_items_per_day</td>
+<td style="text-align: right;">9.00</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">p99_items_per_day</td>
+<td style="text-align: right;">35.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">max_items_per_day</td>
+<td style="text-align: right;">100.00</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">days_ge_20_items</td>
+<td style="text-align: right;">156.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">days_ge_50_items</td>
+<td style="text-align: right;">31.00</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">days_ge_80_items</td>
+<td style="text-align: right;">14.00</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">days_ge_100_items</td>
+<td style="text-align: right;">7.00</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 9%">
+<col style="width: 13%">
+<col style="width: 14%">
+<col style="width: 11%">
+<col style="width: 8%">
+<col style="width: 8%">
+<col style="width: 12%">
+<col style="width: 8%">
+<col style="width: 13%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">window_days</th>
+<th style="text-align: right;">requests_if_used</th>
+<th style="text-align: left;">request_reduction</th>
+<th style="text-align: right;">average_total</th>
+<th style="text-align: right;">p90_total</th>
+<th style="text-align: right;">max_total</th>
+<th style="text-align: left;">near_cap_share</th>
+<th style="text-align: left;">cap_share</th>
+<th style="text-align: left;">recommendation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">5844</td>
+<td style="text-align: left;">0.0%</td>
+<td style="text-align: right;">3.95</td>
+<td style="text-align: right;">9</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: left;">0.2%</td>
+<td style="text-align: left;">0.1%</td>
+<td style="text-align: left;">recommended</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">1948</td>
+<td style="text-align: left;">66.7%</td>
+<td style="text-align: right;">11.85</td>
+<td style="text-align: right;">25</td>
+<td style="text-align: right;">300</td>
+<td style="text-align: left;">1.7%</td>
+<td style="text-align: left;">1.0%</td>
+<td style="text-align: left;">recommended</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">835</td>
+<td style="text-align: left;">85.7%</td>
+<td style="text-align: right;">27.66</td>
+<td style="text-align: right;">51</td>
+<td style="text-align: right;">636</td>
+<td style="text-align: left;">4.7%</td>
+<td style="text-align: left;">4.3%</td>
+<td style="text-align: left;">use_with_caution</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">14</td>
+<td style="text-align: right;">418</td>
+<td style="text-align: left;">92.8%</td>
+<td style="text-align: right;">55.32</td>
+<td style="text-align: right;">100</td>
+<td style="text-align: right;">1224</td>
+<td style="text-align: left;">19.0%</td>
+<td style="text-align: left;">10.2%</td>
+<td style="text-align: left;">not_recommended</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">30</td>
+<td style="text-align: right;">195</td>
+<td style="text-align: left;">96.7%</td>
+<td style="text-align: right;">118.54</td>
+<td style="text-align: right;">211</td>
+<td style="text-align: right;">1989</td>
+<td style="text-align: left;">55.4%</td>
+<td style="text-align: left;">46.7%</td>
+<td style="text-align: left;">not_recommended</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 12%">
+<col style="width: 16%">
+<col style="width: 13%">
+<col style="width: 16%">
+<col style="width: 18%">
+<col style="width: 21%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;">period_id</th>
+<th style="text-align: left;">period_start</th>
+<th style="text-align: left;">period_end</th>
+<th style="text-align: right;">days_covered</th>
+<th style="text-align: right;">windows_gt_100</th>
+<th style="text-align: right;">peak_total_items</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">1</td>
+<td style="text-align: left;">2016-01-20</td>
+<td style="text-align: left;">2016-02-20</td>
+<td style="text-align: right;">32</td>
+<td style="text-align: right;">26</td>
+<td style="text-align: right;">300</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2</td>
+<td style="text-align: left;">2016-02-22</td>
+<td style="text-align: left;">2016-02-26</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">144</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3</td>
+<td style="text-align: left;">2016-02-29</td>
+<td style="text-align: left;">2016-03-05</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">130</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">2016-03-29</td>
+<td style="text-align: left;">2016-03-31</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">106</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">2016-04-10</td>
+<td style="text-align: left;">2016-04-15</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">201</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">6</td>
+<td style="text-align: left;">2016-05-09</td>
+<td style="text-align: left;">2016-05-12</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">105</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">7</td>
+<td style="text-align: left;">2016-06-06</td>
+<td style="text-align: left;">2016-06-09</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">107</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">8</td>
+<td style="text-align: left;">2016-06-27</td>
+<td style="text-align: left;">2016-06-30</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">122</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">9</td>
+<td style="text-align: left;">2016-07-31</td>
+<td style="text-align: left;">2016-08-05</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">172</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">10</td>
+<td style="text-align: left;">2016-08-07</td>
+<td style="text-align: left;">2016-08-11</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">120</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">11</td>
+<td style="text-align: left;">2016-08-22</td>
+<td style="text-align: left;">2016-08-26</td>
+<td style="text-align: right;">5</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">143</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">12</td>
+<td style="text-align: left;">2016-08-28</td>
+<td style="text-align: left;">2016-09-02</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">141</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
