@@ -564,7 +564,7 @@ The best compromise from the retrospective simulation is **`r if (nrow(stage1_wi
 ::: {.callout-note}
 For the `3-day` candidate, the archive contains **`r if (nrow(stage1_window_3day_hits)) scales::comma(nrow(stage1_window_3day_hits)) else "NA"`** rolling windows where the summed daily counts exceed `100`. These windows are then grouped into **`r if (nrow(stage1_window_3day_periods)) nrow(stage1_window_3day_periods) else "NA"`** broader covered spans when they overlap in calendar time.
 
-That means a span such as **`r if (nrow(stage1_window_3day_periods)) format(stage1_window_3day_periods$period_start[[1]], "%Y-%m-%d") else "NA"`** to **`r if (nrow(stage1_window_3day_periods)) format(stage1_window_3day_periods$period_end[[1]], "%Y-%m-%d") else "NA"`** does **not** imply that every possible `3-day` start date inside the span exceeded `100`. It means the overlapping hit windows collectively covered **`r if (nrow(stage1_window_3day_periods)) stage1_window_3day_periods$days_covered[[1]] else "NA"`** calendar days. The strongest `3-day` windows still reach **`r if (nrow(stage1_window_3day_hits)) max(stage1_window_3day_hits$total_items, na.rm = TRUE) else "NA"`** summed daily items, which explains why `3-day` windows remain a compromise rather than a risk-free replacement for `1-day` queries.for
+The **balance strategy** would be `3-day -> 1-day -> back to 3-day` retrieval logic, where the pipeline defaults to 3-day windows but falls back to daily windows if a 3-day window contains more than 100 items in the archive. This would allow for more efficient retrieval during quieter periods while still respecting the observed limits on busier days.
 :::
 
 ```{r}

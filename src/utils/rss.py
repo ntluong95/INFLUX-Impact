@@ -60,6 +60,11 @@ RSS_MANIFEST_COLUMNS = [
     "query_slug",
     "window_start",
     "window_end",
+    "window_days",
+    "window_role",
+    "parent_window_start",
+    "parent_window_end",
+    "split_trigger_entries",
     "status",
     "attempts",
     "http_status",
@@ -67,6 +72,19 @@ RSS_MANIFEST_COLUMNS = [
     "last_attempt_at",
     "next_eligible_attempt_at",
     "error_summary",
+]
+
+RSS_MANIFEST_KEY_COLUMNS = [
+    "pathogen_domain",
+    "language_code",
+    "locale_id",
+    "request_lang",
+    "request_country",
+    "request_accept_language",
+    "search_string",
+    "query_slug",
+    "window_start",
+    "window_end",
 ]
 
 RSS_OUTPUT_COLUMNS = [
@@ -124,6 +142,12 @@ def build_date_windows(
     return windows
 
 
+def compute_window_days(window_start: str, window_end: str) -> int:
+    start = date.fromisoformat(window_start)
+    end = date.fromisoformat(window_end)
+    return max(1, (end - start).days + 1)
+
+
 def cache_relative_path(
     dataset: DatasetKey,
     locale_id: str,
@@ -140,6 +164,66 @@ def cache_relative_path(
     )
 
 
+def manifest_row_key(row: dict[str, Any]) -> tuple[str, ...]:
+    return tuple(str(row.get(column, "") or "") for column in RSS_MANIFEST_KEY_COLUMNS)
+
+
+def build_manifest_row(
+    dataset: DatasetKey,
+    locale_id: str,
+    request_lang: str,
+    request_country: str,
+    request_accept_language: str,
+    search_string: str,
+    window_start: str,
+    window_end: str,
+    cache_format: str,
+    *,
+    window_role: str = "base",
+    parent_window_start: str = "",
+    parent_window_end: str = "",
+    split_trigger_entries: str = "",
+    status: str = "pending",
+    attempts: str = "0",
+    http_status: str = "",
+    last_attempt_at: str = "",
+    next_eligible_attempt_at: str = "",
+    error_summary: str = "",
+) -> dict[str, str]:
+    query_slug = slugify_text(search_string)
+    return {
+        "pathogen_domain": dataset.pathogen_domain,
+        "language_code": dataset.language_code,
+        "locale_id": locale_id,
+        "request_lang": request_lang,
+        "request_country": request_country,
+        "request_accept_language": request_accept_language,
+        "search_string": search_string,
+        "query_slug": query_slug,
+        "window_start": window_start,
+        "window_end": window_end,
+        "window_days": str(compute_window_days(window_start, window_end)),
+        "window_role": window_role,
+        "parent_window_start": parent_window_start,
+        "parent_window_end": parent_window_end,
+        "split_trigger_entries": split_trigger_entries,
+        "status": status,
+        "attempts": attempts,
+        "http_status": http_status,
+        "cached_path": cache_relative_path(
+            dataset=dataset,
+            locale_id=locale_id,
+            search_string=search_string,
+            window_start=window_start,
+            window_end=window_end,
+            cache_format=cache_format,
+        ),
+        "last_attempt_at": last_attempt_at,
+        "next_eligible_attempt_at": next_eligible_attempt_at,
+        "error_summary": error_summary,
+    }
+
+
 def load_or_initialize_manifest(
     manifest_csv: Path,
     dataset: DatasetKey,
@@ -152,35 +236,19 @@ def load_or_initialize_manifest(
     for locale in locale_specs:
         locale_id = str(locale["id"])
         for search_string in search_strings:
-            query_slug = slugify_text(search_string)
             for window in windows:
                 default_rows.append(
-                    {
-                        "pathogen_domain": dataset.pathogen_domain,
-                        "language_code": dataset.language_code,
-                        "locale_id": locale_id,
-                        "request_lang": str(locale["lang"]),
-                        "request_country": str(locale["country"]),
-                        "request_accept_language": str(locale["accept_language"]),
-                        "search_string": search_string,
-                        "query_slug": query_slug,
-                        "window_start": window["window_start"],
-                        "window_end": window["window_end"],
-                        "status": "pending",
-                        "attempts": "0",
-                        "http_status": "",
-                        "cached_path": cache_relative_path(
-                            dataset=dataset,
-                            locale_id=locale_id,
-                            search_string=search_string,
-                            window_start=window["window_start"],
-                            window_end=window["window_end"],
-                            cache_format=cache_format,
-                        ),
-                        "last_attempt_at": "",
-                        "next_eligible_attempt_at": "",
-                        "error_summary": "",
-                    }
+                    build_manifest_row(
+                        dataset=dataset,
+                        locale_id=locale_id,
+                        request_lang=str(locale["lang"]),
+                        request_country=str(locale["country"]),
+                        request_accept_language=str(locale["accept_language"]),
+                        search_string=search_string,
+                        window_start=window["window_start"],
+                        window_end=window["window_end"],
+                        cache_format=cache_format,
+                    )
                 )
 
     manifest_df = pd.DataFrame(default_rows, columns=RSS_MANIFEST_COLUMNS)
@@ -192,33 +260,59 @@ def load_or_initialize_manifest(
         if column not in existing.columns:
             existing[column] = ""
     existing = existing[RSS_MANIFEST_COLUMNS]
-    merged = manifest_df.merge(
-        existing,
-        on=[
-            "pathogen_domain",
-            "language_code",
-            "locale_id",
-            "request_lang",
-            "request_country",
-            "request_accept_language",
-            "search_string",
-            "query_slug",
-            "window_start",
-            "window_end",
-        ],
-        how="left",
-        suffixes=("", "_existing"),
-    )
-    for column in RSS_MANIFEST_COLUMNS:
-        existing_column = f"{column}_existing"
-        if existing_column not in merged.columns:
-            continue
-        merged[column] = merged[existing_column].where(
-            merged[existing_column].astype(str).str.len() > 0,
-            merged[column],
-        )
-        merged.drop(columns=[existing_column], inplace=True)
-    return merged[RSS_MANIFEST_COLUMNS].fillna("")
+
+    default_by_key = {manifest_row_key(row): row for row in default_rows}
+    normalized_existing: list[dict[str, str]] = []
+    existing_keys: set[tuple[str, ...]] = set()
+
+    for record in existing.to_dict(orient="records"):
+        key = manifest_row_key(record)
+        default_row = default_by_key.get(key, {})
+        normalized: dict[str, str] = {}
+        for column in RSS_MANIFEST_COLUMNS:
+            existing_value = str(record.get(column, "") or "")
+            default_value = str(default_row.get(column, "") or "")
+            normalized[column] = existing_value or default_value
+
+        if not normalized["query_slug"]:
+            normalized["query_slug"] = slugify_text(normalized["search_string"])
+        if (
+            not normalized["cached_path"]
+            and normalized["locale_id"]
+            and normalized["search_string"]
+            and normalized["window_start"]
+            and normalized["window_end"]
+        ):
+            normalized["cached_path"] = cache_relative_path(
+                dataset=dataset,
+                locale_id=normalized["locale_id"],
+                search_string=normalized["search_string"],
+                window_start=normalized["window_start"],
+                window_end=normalized["window_end"],
+                cache_format=cache_format,
+            )
+        if (
+            not normalized["window_days"]
+            and normalized["window_start"]
+            and normalized["window_end"]
+        ):
+            normalized["window_days"] = str(
+                compute_window_days(
+                    normalized["window_start"],
+                    normalized["window_end"],
+                )
+            )
+        if not normalized["window_role"]:
+            normalized["window_role"] = "base" if default_row else "adaptive_child"
+
+        normalized_existing.append(normalized)
+        existing_keys.add(manifest_row_key(normalized))
+
+    missing_default_rows = [
+        row for row in default_rows if manifest_row_key(row) not in existing_keys
+    ]
+    combined_rows = normalized_existing + missing_default_rows
+    return pd.DataFrame(combined_rows, columns=RSS_MANIFEST_COLUMNS).fillna("")
 
 
 def write_manifest(manifest_df: pd.DataFrame, manifest_csv: Path) -> None:
@@ -361,6 +455,8 @@ def dedupe_rss_records(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
 def is_completed_manifest_row(status: str, cached_path: Path, force_refresh: bool) -> bool:
     if force_refresh:
         return False
+    if status == "split":
+        return True
     return status in {"success", "empty"} and cached_path.exists()
 
 

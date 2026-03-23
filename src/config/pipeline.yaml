@@ -12,7 +12,10 @@ search:
   end_date: "2025-12-31"
 
 rss:
-  chunk_size_days: 1
+  chunk_size_days: 3
+  adaptive_split_enabled: true
+  adaptive_split_window_days: 1
+  adaptive_split_threshold_entries: 100
   cache_format: "json"
   request_sleep_seconds: 1.5
   timeout_seconds: 30

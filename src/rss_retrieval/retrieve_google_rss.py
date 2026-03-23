@@ -27,13 +27,16 @@ from src.utils.project import (
 )
 from src.utils.rss import (
     RSS_OUTPUT_COLUMNS,
+    build_manifest_row,
     build_date_windows,
     build_proxy_settings,
     compute_backoff_seconds,
+    compute_window_days,
     dedupe_rss_records,
     detect_throttling,
     is_completed_manifest_row,
     load_or_initialize_manifest,
+    manifest_row_key,
     parse_cached_payload,
     should_pause_until_next_attempt,
     should_retry,
@@ -77,6 +80,59 @@ def set_frame_value(df: pd.DataFrame, idx: Any, column: str, value: Any) -> None
 def update_manifest_row(manifest_df: pd.DataFrame, idx: Any, **values: Any) -> None:
     for key, value in values.items():
         set_frame_value(manifest_df, idx, key, "" if value is None else str(value))
+
+
+def insert_adaptive_child_rows(
+    manifest_df: pd.DataFrame,
+    parent_idx: int,
+    dataset: DatasetKey,
+    parent_row: pd.Series,
+    split_window_days: int,
+    cache_format: str,
+) -> tuple[pd.DataFrame, int]:
+    parent_start = text_or_empty(parent_row["window_start"])
+    parent_end = text_or_empty(parent_row["window_end"])
+    child_windows = build_date_windows(
+        start_date=parent_start,
+        end_date=parent_end,
+        chunk_size_days=split_window_days,
+    )
+    existing_keys = {
+        manifest_row_key(record)
+        for record in manifest_df.to_dict(orient="records")
+    }
+    child_rows: list[dict[str, str]] = []
+
+    for child_window in child_windows:
+        child_row = build_manifest_row(
+            dataset=dataset,
+            locale_id=text_or_empty(parent_row["locale_id"]),
+            request_lang=text_or_empty(parent_row["request_lang"]),
+            request_country=text_or_empty(parent_row["request_country"]),
+            request_accept_language=text_or_empty(parent_row["request_accept_language"]),
+            search_string=text_or_empty(parent_row["search_string"]),
+            window_start=child_window["window_start"],
+            window_end=child_window["window_end"],
+            cache_format=cache_format,
+            window_role="adaptive_child",
+            parent_window_start=parent_start,
+            parent_window_end=parent_end,
+        )
+        child_key = manifest_row_key(child_row)
+        if child_key in existing_keys:
+            continue
+        existing_keys.add(child_key)
+        child_rows.append(child_row)
+
+    if not child_rows:
+        return manifest_df.reset_index(drop=True), 0
+
+    insertion_point = parent_idx + 1
+    before = manifest_df.iloc[:insertion_point].copy()
+    after = manifest_df.iloc[insertion_point:].copy()
+    inserted = pd.DataFrame(child_rows)
+    manifest_df = pd.concat([before, inserted, after], ignore_index=True)
+    return manifest_df.reset_index(drop=True), len(child_rows)
 
 
 def parse_manifest_outputs(
@@ -156,10 +212,23 @@ def retrieve_dataset(
     search_strings = load_search_strings(input_csv)
     search_cfg = config["search"]
     rss_cfg = config["rss"]
+    base_window_days = max(1, int(rss_cfg.get("chunk_size_days", 1)))
+    adaptive_split_enabled = bool(rss_cfg.get("adaptive_split_enabled", False))
+    adaptive_split_window_days = max(
+        1,
+        int(rss_cfg.get("adaptive_split_window_days", 1)),
+    )
+    adaptive_split_threshold_entries = max(
+        1,
+        int(rss_cfg.get("adaptive_split_threshold_entries", 100)),
+    )
+    if adaptive_split_window_days >= base_window_days:
+        adaptive_split_enabled = False
+
     windows = build_date_windows(
         start_date=str(search_cfg.get("start_date", "2005-01-01")),
         end_date=str(search_cfg.get("end_date", "2025-12-31")),
-        chunk_size_days=int(rss_cfg.get("chunk_size_days", 1)),
+        chunk_size_days=base_window_days,
     )
 
     manifest_csv = paths.rss_manifest_path(dataset)
@@ -171,12 +240,17 @@ def retrieve_dataset(
         windows=windows,
         cache_format=str(rss_cfg.get("cache_format", "json")),
     )
+    manifest_df = manifest_df.reset_index(drop=True)
     write_manifest(manifest_df, manifest_csv)
     logger.info(
-        "RSS retrieval configured for %s with %s search strings and %s windows",
+        "RSS retrieval configured for %s with %s search strings and %s base windows (base_window_days=%s adaptive_split=%s split_window_days=%s split_threshold_entries=%s)",
         dataset.stem,
         len(search_strings),
         len(windows),
+        base_window_days,
+        adaptive_split_enabled,
+        adaptive_split_window_days,
+        adaptive_split_threshold_entries,
     )
 
     if parse_only:
@@ -218,11 +292,14 @@ def retrieve_dataset(
     skipped_completed = 0
     fetched_success = 0
     fetched_empty = 0
+    split_windows = 0
     failed_windows = 0
     paused_for_throttle = False
     force_refresh = bool(force or rss_cfg.get("force_refresh", False))
 
-    for idx, row in manifest_df.iterrows():
+    idx = 0
+    while idx < len(manifest_df):
+        row = manifest_df.iloc[idx]
         cached_rel = text_or_empty(row["cached_path"])
         cached_path = REPO_ROOT / cached_rel
         status = text_or_empty(row["status"] or "pending")
@@ -232,12 +309,21 @@ def retrieve_dataset(
         request_accept_language = text_or_empty(row["request_accept_language"])
         window_start = text_or_empty(row["window_start"])
         window_end = text_or_empty(row["window_end"])
+        current_window_days = int(
+            text_or_empty(row.get("window_days"))
+            or compute_window_days(window_start, window_end)
+        )
+        window_role = text_or_empty(row.get("window_role") or "base")
         search_string = text_or_empty(row["search_string"])
         query_to_exclusive = (pd.Timestamp(window_end) + timedelta(days=1)).date().isoformat()
-        window_id = f"{dataset.stem}:{locale_id}:{search_string}:{window_start}_{window_end}"
+        window_id = (
+            f"{dataset.stem}:{locale_id}:{search_string}:"
+            f"{window_start}_{window_end}:{window_role}"
+        )
 
         if is_completed_manifest_row(status, cached_path, force_refresh):
             skipped_completed += 1
+            idx += 1
             continue
 
         now = utc_now()
@@ -301,6 +387,10 @@ def retrieve_dataset(
                     "search_string": search_string,
                     "window_start": window_start,
                     "window_end": window_end,
+                    "window_days": current_window_days,
+                    "window_role": window_role,
+                    "parent_window_start": text_or_empty(row.get("parent_window_start")),
+                    "parent_window_end": text_or_empty(row.get("parent_window_end")),
                     "rss_language": request_lang,
                     "lang": request_lang,
                     "country": request_country,
@@ -313,26 +403,65 @@ def retrieve_dataset(
                 }
                 write_json_atomic(payload, cached_path)
 
-                final_status = "empty" if not payload["entries"] else "success"
-                update_manifest_row(
-                    manifest_df,
-                    idx,
-                    status=final_status,
-                    http_status=http_status,
-                    next_eligible_attempt_at="",
-                    error_summary="",
+                entry_count = len(payload["entries"])
+                should_split_window = (
+                    adaptive_split_enabled
+                    and current_window_days > adaptive_split_window_days
+                    # Treat hitting the threshold as suspicious, because feeds often
+                    # saturate at round limits such as exactly 100 returned items.
+                    and entry_count >= adaptive_split_threshold_entries
                 )
-                write_manifest(manifest_df, manifest_csv)
-                if final_status == "success":
-                    fetched_success += 1
+                if should_split_window:
+                    manifest_df, inserted_children = insert_adaptive_child_rows(
+                        manifest_df=manifest_df,
+                        parent_idx=idx,
+                        dataset=dataset,
+                        parent_row=row,
+                        split_window_days=adaptive_split_window_days,
+                        cache_format=str(rss_cfg.get("cache_format", "json")),
+                    )
+                    update_manifest_row(
+                        manifest_df,
+                        idx,
+                        status="split",
+                        http_status=http_status,
+                        next_eligible_attempt_at="",
+                        error_summary=(
+                            f"adaptive_split:{entry_count} entries -> "
+                            f"{adaptive_split_window_days}-day child windows"
+                        ),
+                        split_trigger_entries=entry_count,
+                    )
+                    write_manifest(manifest_df, manifest_csv)
+                    split_windows += 1
+                    logger.info(
+                        "Adaptive split triggered for %s entries=%s child_windows_inserted=%s",
+                        window_id,
+                        entry_count,
+                        inserted_children,
+                    )
                 else:
-                    fetched_empty += 1
-                logger.info(
-                    "Retrieved %s status=%s entries=%s",
-                    window_id,
-                    final_status,
-                    len(payload["entries"]),
-                )
+                    final_status = "empty" if entry_count == 0 else "success"
+                    update_manifest_row(
+                        manifest_df,
+                        idx,
+                        status=final_status,
+                        http_status=http_status,
+                        next_eligible_attempt_at="",
+                        error_summary="",
+                        split_trigger_entries="",
+                    )
+                    write_manifest(manifest_df, manifest_csv)
+                    if final_status == "success":
+                        fetched_success += 1
+                    else:
+                        fetched_empty += 1
+                    logger.info(
+                        "Retrieved %s status=%s entries=%s",
+                        window_id,
+                        final_status,
+                        entry_count,
+                    )
                 window_completed = True
                 break
             except Exception as exc:
@@ -391,17 +520,20 @@ def retrieve_dataset(
         if paused_for_throttle:
             break
         if not window_completed:
+            idx += 1
             continue
 
         time.sleep(request_sleep_seconds)
+        idx += 1
 
     write_manifest(manifest_df, manifest_csv)
     logger.info(
-        "RSS retrieval summary for %s: skipped_completed=%s success=%s empty=%s failed=%s paused_for_throttle=%s",
+        "RSS retrieval summary for %s: skipped_completed=%s success=%s empty=%s split=%s failed=%s paused_for_throttle=%s",
         dataset.stem,
         skipped_completed,
         fetched_success,
         fetched_empty,
+        split_windows,
         failed_windows,
         paused_for_throttle,
     )
