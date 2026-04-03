@@ -12,18 +12,16 @@ REPO_ROOT = Path(__file__).resolve().parents[2]
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
-from src.utils.common import setup_logger, text_or_empty
+from src.utils.common import read_csv_if_exists, setup_logger, text_or_empty, write_dataframe_atomic
 from src.utils.config import load_project_config, project_paths
 from src.utils.project import DatasetKey, resolve_datasets, resolve_languages, resolve_pathogen_domains
 from src.utils.scrape import (
     canonicalize_url,
     extract_full_text,
     extract_metadata,
-    load_existing_table,
     polite_fetch,
     resolve_google_news_url,
     sha256_text,
-    write_dataframe,
 )
 
 
@@ -198,8 +196,8 @@ def retrieve_dataset(
         existing_success = pd.DataFrame()
         existing_failed = pd.DataFrame()
     else:
-        existing_success = load_existing_table(output_csv)
-        existing_failed = load_existing_table(failed_csv)
+        existing_success = read_csv_if_exists(output_csv)
+        existing_failed = read_csv_if_exists(failed_csv)
 
     min_text_words = int(fulltext_cfg.get("min_text_words", 120))
     valid_success_rows: list[dict[str, Any]] = []
@@ -249,8 +247,8 @@ def retrieve_dataset(
             seen_content_hashes.add(str(record["content_hash"]))
 
     if keep_df.empty:
-        write_dataframe(pd.DataFrame(success_rows, columns=SUCCESS_COLUMNS), output_csv, output_parquet)
-        write_dataframe(pd.DataFrame(failed_rows, columns=FAILED_COLUMNS), failed_csv)
+        write_dataframe_atomic(pd.DataFrame(success_rows, columns=SUCCESS_COLUMNS), output_csv, output_parquet)
+        write_dataframe_atomic(pd.DataFrame(failed_rows, columns=FAILED_COLUMNS), failed_csv)
         logger.info("No kept URLs found for %s. Wrote empty outputs.", dataset.stem)
         return
 
@@ -410,12 +408,12 @@ def retrieve_dataset(
         new_successes += 1
 
         if processed % checkpoint_every == 0:
-            write_dataframe(pd.DataFrame(success_rows, columns=SUCCESS_COLUMNS), output_csv, output_parquet)
-            write_dataframe(pd.DataFrame(failed_rows, columns=FAILED_COLUMNS), failed_csv)
+            write_dataframe_atomic(pd.DataFrame(success_rows, columns=SUCCESS_COLUMNS), output_csv, output_parquet)
+            write_dataframe_atomic(pd.DataFrame(failed_rows, columns=FAILED_COLUMNS), failed_csv)
             logger.info("Full-text checkpoint written for %s after %s processed rows", dataset.stem, processed)
 
-    write_dataframe(pd.DataFrame(success_rows, columns=SUCCESS_COLUMNS), output_csv, output_parquet)
-    write_dataframe(pd.DataFrame(failed_rows, columns=FAILED_COLUMNS), failed_csv)
+    write_dataframe_atomic(pd.DataFrame(success_rows, columns=SUCCESS_COLUMNS), output_csv, output_parquet)
+    write_dataframe_atomic(pd.DataFrame(failed_rows, columns=FAILED_COLUMNS), failed_csv)
     logger.info(
         "Full-text retrieval complete for %s: new_success=%s new_failed=%s total_success=%s total_failed=%s",
         dataset.stem,

@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import base64
-import csv
 import json
 import random
 import re
@@ -16,7 +15,7 @@ import requests
 from bs4 import BeautifulSoup
 from readability import Document
 
-from src.utils.common import ensure_dir, normalize_whitespace, sha256_text
+from src.utils.common import normalize_whitespace, sha256_text
 
 
 warnings.filterwarnings("ignore", category=requests.exceptions.RequestsDependencyWarning)
@@ -485,18 +484,3 @@ def extract_full_text(html: str, final_url: str) -> tuple[str, str]:
     return "", ""
 
 
-def write_dataframe(
-    df: pd.DataFrame,
-    csv_path: Path,
-    parquet_path: Path | None = None,
-) -> None:
-    ensure_dir(csv_path.parent)
-    df.to_csv(csv_path, index=False, quoting=csv.QUOTE_MINIMAL)
-    if parquet_path is not None:
-        df.to_parquet(parquet_path, index=False)
-
-
-def load_existing_table(path: Path) -> pd.DataFrame:
-    if not path.exists():
-        return pd.DataFrame()
-    return pd.read_csv(path)

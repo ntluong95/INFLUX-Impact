@@ -12,9 +12,8 @@ from src.utils.common import ensure_dir, normalize_whitespace
 SUPPORTED_PATHOGEN_DOMAINS = ("human", "animal", "plant")
 SUPPORTED_LANGUAGES = ("en", "fr", "es", "pt")
 
-DEFAULT_LANGUAGE_SPECS: dict[str, dict[str, str]] = {
+DEFAULT_LANGUAGE_SPECS: dict[str, dict[str, Any]] = {
     "en": {
-        "language_variants": ["en", "en-US", "en-GB", "en-CA", "en-AU", "en-NZ"],
         "locales": [
             {
                 "id": "en_us",
@@ -37,7 +36,6 @@ DEFAULT_LANGUAGE_SPECS: dict[str, dict[str, str]] = {
         ],
     },
     "fr": {
-        "language_variants": ["fr", "fr-FR", "fr-CA", "fr-BE", "fr-CH"],
         "locales": [
             {
                 "id": "fr_fr",
@@ -60,16 +58,6 @@ DEFAULT_LANGUAGE_SPECS: dict[str, dict[str, str]] = {
         ],
     },
     "es": {
-        "language_variants": [
-            "es",
-            "es-ES",
-            "es-MX",
-            "es-AR",
-            "es-CO",
-            "es-CL",
-            "es-PE",
-            "es-419",
-        ],
         "locales": [
             {
                 "id": "es_es",
@@ -92,7 +80,6 @@ DEFAULT_LANGUAGE_SPECS: dict[str, dict[str, str]] = {
         ],
     },
     "pt": {
-        "language_variants": ["pt", "pt-BR", "pt-PT", "pt-AO", "pt-MZ"],
         "locales": [
             {
                 "id": "pt_br",
@@ -150,6 +137,9 @@ class ProjectPaths:
     def rss_metrics_csv(self, dataset: DatasetKey) -> Path:
         return self.data_root / "intermediate" / "rss" / f"{dataset.stem}_metrics.csv"
 
+    def rss_scan_summary_csv(self, dataset: DatasetKey) -> Path:
+        return self.data_root / "intermediate" / "rss" / f"{dataset.stem}_scan_summary.csv"
+
     def prefiltered_headlines_csv(self, dataset: DatasetKey) -> Path:
         return (
             self.data_root
@@ -175,7 +165,7 @@ class ProjectPaths:
         )
 
     def batch_dir(self, dataset: DatasetKey) -> Path:
-        return self.data_root / "intermediate" / "openai_batches" / dataset.stem
+        return self.data_root / "intermediate" / "batches" / dataset.stem
 
     def batch_registry_csv(self, dataset: DatasetKey) -> Path:
         return self.batch_dir(dataset) / f"{dataset.stem}_batches.csv"
@@ -243,19 +233,31 @@ def resolve_datasets(pathogen_domains: list[str], languages: list[str]) -> list[
     ]
 
 
-def load_search_strings(csv_path: Path) -> list[str]:
+def load_search_strings(csv_path: Path, language_code: str | None = None) -> list[str]:
     if not csv_path.exists():
         raise FileNotFoundError(
-            f"Missing search input CSV: {csv_path}. Expected a 'search_string' column."
+            f"Missing search input CSV: {csv_path}. Expected a search string column."
         )
 
-    df = pd.read_csv(csv_path, low_memory=False)
-    if "search_string" not in df.columns:
-        raise ValueError(f"{csv_path} must contain a 'search_string' column.")
+    suffix = csv_path.suffix.lower()
+    if suffix in {".xlsx", ".xls"}:
+        df = pd.read_excel(csv_path)
+    else:
+        df = pd.read_csv(csv_path, low_memory=False)
+    preferred_columns: list[str] = []
+    if language_code:
+        preferred_columns.append(f"search_string_{normalize_whitespace(language_code).lower()}")
+    preferred_columns.extend(["search_string", "search_string_en"])
+
+    search_column = next((column for column in preferred_columns if column in df.columns), None)
+    if search_column is None:
+        raise ValueError(
+            f"{csv_path} must contain one of these columns: {', '.join(preferred_columns)}."
+        )
 
     values = [
         normalize_whitespace(value)
-        for value in df["search_string"].fillna("").astype(str).tolist()
+        for value in df[search_column].fillna("").astype(str).tolist()
     ]
     deduped: list[str] = []
     seen = set()
@@ -271,12 +273,16 @@ def load_search_strings(csv_path: Path) -> list[str]:
 
 
 def language_spec_for(config: dict[str, Any], language_code: str) -> dict[str, Any]:
+    """Return the locale specifications for a language code.
+
+    Locales define the Google News country editions to query. Each locale
+    specifies the lang, country, and Accept-Language header used for RSS
+    retrieval. Multiple locales per language ensure geographic coverage
+    (e.g. en_us, en_gb, en_ca for English).
+    """
     override_map = config.get("rss", {}).get("language_specs", {})
     default_spec = DEFAULT_LANGUAGE_SPECS[language_code]
     override_spec = override_map.get(language_code, {})
     return {
-        "language_variants": list(
-            override_spec.get("language_variants", default_spec["language_variants"])
-        ),
         "locales": list(override_spec.get("locales", default_spec["locales"])),
     }

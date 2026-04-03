@@ -12,34 +12,58 @@ The pipeline keeps outputs separated by dataset key, where each dataset key is o
 - `animal_en`, `animal_fr`, `animal_es`, `animal_pt`
 - `plant_en`, `plant_fr`, `plant_es`, `plant_pt`
 
-Within each language family bucket, RSS retrieval now runs multiple Google News locale variants and merges them back into the same output. For example, `pt` includes both `pt-BR` and `pt-PT` retrieval passes, while `en`, `fr`, and `es` also include multiple regional editions.
+Within each language family bucket, RSS retrieval runs multiple Google News locale variants and merges them back into the same output. For example, `pt` includes both `pt-BR` and `pt-PT` retrieval passes, while `en`, `fr`, and `es` also include multiple regional editions. Locale configuration is under `rss.language_specs` in `pipeline.yaml`.
 
-RSS retrieval now uses hierarchical adaptive windowing by default: it starts with `30-day` windows, and if a window returns at least `100` RSS items it recursively drills down to `14-day`, then `7-day`, then `3-day`, then `1-day` child windows only for that hot period. Split parent payloads are kept on disk for auditability, but only `success` and `empty` windows are aggregated into the normalized RSS CSV/Parquet outputs.
+RSS retrieval uses a hierarchical adaptive scan by default: it starts with one `whole-period` scan per search string across `2005-01-01` to `2025-12-31`. Searches with fewer than `100` RSS items are scraped immediately. Searches with at least `100` RSS items first split into `5-year` periods, and only hot `5-year` periods continue down the `30-day`, `14-day`, `7-day`, `3-day`, and `1-day` hierarchy. Processing is breadth-first by stage, so the pipeline finishes the whole-period scan across the dataset before moving on to `5-year`, then finishes `5-year` before moving on to finer windows. Split parent payloads are kept on disk for auditability, but only `success` and `empty` windows are aggregated into the normalized RSS CSV/Parquet outputs.
 
 ## Expected inputs
 
-Create one CSV per pathogen domain with a `search_string` column:
+Create one search workbook per pathogen domain:
 
-- `data/inputs/human_diseases.csv`
-- `data/inputs/animal_diseases.csv`
-- `data/inputs/plant_diseases.csv`
+- `data/inputs/human_diseases.xlsx`
+- `data/inputs/animal_diseases.xlsx`
+- `data/inputs/plant_diseases.xlsx`
+
+The pipeline prefers `search_string_<language>` columns such as:
+
+- `search_string_en`
+- `search_string_fr`
+- `search_string_es`
+- `search_string_pt`
+
+If a language-specific column is missing, it falls back to `search_string`.
 
 The pipeline also expects `data/domains_removed.csv` with columns:
 
 - `domain`
 - `is_news_outlet`
 
-Rows where `is_news_outlet == "No"` are treated as a blocklist before OpenAI headline filtering.
+Rows where `is_news_outlet == "No"` are treated as a blocklist before headline filtering.
 
-## OpenAI setup
+## Headline classification setup
 
-Add your API key to the local `.env` file at repo root:
+Headline classification uses a **batch API** — either OpenAI or Anthropic, configured by `classification.provider` in `pipeline.yaml`. Only one provider is used per run.
+
+Add the appropriate API key to the local `.env` file at repo root:
 
 ```dotenv
+# For OpenAI (default):
 OPENAI_API_KEY=...
+
+# For Anthropic:
+ANTHROPIC_API_KEY=...
 ```
 
-Headline filtering uses OpenAI Batch with `gpt-5-nano` by default. The batch request metadata and saved JSONL filenames include the dataset key so you can quickly see which species-language combination each batch belongs to. Because the Batch API is asynchronous, the pipeline is intentionally resumable:
+To switch providers, set `classification.provider` in `src/config/pipeline.yaml`:
+
+```yaml
+classification:
+  provider: "openai"    # or "anthropic"
+```
+
+Provider-specific settings (model, max_tokens, batch caps) are under `classification.openai` and `classification.anthropic` respectively. The rest of the pipeline is provider-agnostic — outputs are normalized into a consistent internal schema regardless of which provider runs the classification.
+
+Because the Batch API is asynchronous, the pipeline is intentionally resumable:
 
 1. First run prepares and submits pending batches.
 2. Re-run later to hydrate completed batch outputs.
@@ -56,7 +80,7 @@ python3 src/run_pipeline.py --stage all
 Run only RSS retrieval:
 
 ```bash
-python3 src/run_pipeline.py --stage rss --pathogen-domains human,animal --languages en,fr
+python3 src/run_pipeline.py --stage rss --pathogen-domains human,animal --languages en,fr,es,pt
 ```
 
 Run only domain filtering + headline batch handling:
@@ -80,18 +104,20 @@ python3 src/run_pipeline.py --stage bertopic
 ## Output layout
 
 - RSS retrieval: `data/intermediate/rss/<dataset_key>.csv`
+- RSS stepwise scan summary: `data/intermediate/rss/<dataset_key>_scan_summary.csv`
 - Domain-filtered headlines: `data/intermediate/classification/<dataset_key>_headlines_prefiltered.csv`
 - Headline classification state: `data/intermediate/classification/<dataset_key>_headlines_classified.csv`
-- Batch registry: `data/intermediate/openai_batches/<dataset_key>/`
+- Batch registry: `data/intermediate/batches/<dataset_key>/`
 - Full text: `data/final/fulltext/<dataset_key>.csv`
 - BERTopic outputs: `data/final/bertopic/<dataset_key>/`
 
 ## Resume behavior
 
 - RSS retrieval keeps a per-dataset manifest under `data/raw/rss/<dataset_key>/`.
-- RSS retrieval manifests can contain base `30-day` windows plus hierarchical child windows at `14-day`, `7-day`, `3-day`, and `1-day`. Parent rows marked `split` are treated as complete for resume purposes and are excluded from the aggregated RSS output.
+- RSS retrieval manifests begin with one whole-period row per search string and locale. These can expand into `5-year` rows and then into hierarchical child windows at `30-day`, `14-day`, `7-day`, `3-day`, and `1-day`.
+- Parent rows marked `split` are treated as complete for resume purposes and are excluded from the aggregated RSS output.
 - If you already created a manifest with an older fixed-window strategy and want a clean adaptive run, remove that dataset's RSS manifest before rerunning retrieval.
 - Domain filtering reuses its existing output unless `--force` is set.
-- Headline filtering reuses the saved classification state and batch registry.
+- Headline filtering reuses the saved classification state and batch registry. Legacy `openai_*` columns in existing state files are auto-migrated to generic `batch_*` columns on load.
 - Full-text retrieval reuses successful and failed records and checkpoints every few rows.
 - BERTopic skips completed outputs unless `--force` is set.

@@ -52,3 +52,12 @@ results/
 # OS
 .DS_Store
 Thumbs.db
+
+.positai/
+.cache/
+.archive/
+
+# Claude Code local-only overrides
+CLAUDE.md
+.claude/settings.local.json
+.claude/

@@ -3,15 +3,16 @@ paths:
 
 inputs:
   query_files:
-    human: "data/inputs/human_diseases.csv"
-    animal: "data/inputs/animal_diseases.csv"
-    plant: "data/inputs/plant_diseases.csv"
+    human: "data/inputs/human_diseases.xlsx"
+    animal: "data/inputs/animal_diseases.xlsx"
+    plant: "data/inputs/plant_diseases.xlsx"
 
 search:
   start_date: "2005-01-01"
   end_date: "2025-12-31"
 
 rss:
+  coarse_scan_years: 5
   split_hierarchy_days: [30, 14, 7, 3, 1]
   split_threshold_entries: 100
   cache_format: "json"
@@ -24,12 +25,11 @@ rss:
   proxy_backend: "direct"
   http_proxy: ""
   https_proxy: ""
-  #TODO Add a proxy backend that uses ScrapingBee and set the API key here
+  #NOTE Add a proxy backend that uses ScrapingBee and set the API key here
   scraping_bee_api_key: ""
   user_agent: "Mozilla/5.0 (compatible; INFLUX-PathogenNews/1.0; +https://news.google.com/)"
   language_specs:
     en:
-      language_variants: ["en", "en-US", "en-GB", "en-CA", "en-AU", "en-NZ"]
       locales:
         - id: "en_us"
           lang: "en"
@@ -44,7 +44,6 @@ rss:
           country: "CA"
           accept_language: "en-CA,en-US,en-GB,en;q=0.9"
     fr:
-      language_variants: ["fr", "fr-FR", "fr-CA", "fr-BE", "fr-CH"]
       locales:
         - id: "fr_fr"
           lang: "fr"
@@ -59,7 +58,6 @@ rss:
           country: "BE"
           accept_language: "fr-BE,fr-FR,fr-CH,fr-CA,fr;q=0.9,en;q=0.3"
     es:
-      language_variants: ["es", "es-ES", "es-MX", "es-AR", "es-CO", "es-CL", "es-PE", "es-419"]
       locales:
         - id: "es_es"
           lang: "es"
@@ -74,7 +72,6 @@ rss:
           country: "AR"
           accept_language: "es-AR,es-419,es-ES,es-MX,es-CO,es;q=0.9,en;q=0.3"
     pt:
-      language_variants: ["pt", "pt-BR", "pt-PT", "pt-AO", "pt-MZ"]
       locales:
         - id: "pt_br"
           lang: "pt-BR"
@@ -86,6 +83,8 @@ rss:
           accept_language: "pt-PT,pt-BR,pt-AO,pt-MZ,pt;q=0.9,en;q=0.3"
 
 classification:
+  # Select batch provider: "openai" or "anthropic". Only one is used per run.
+  provider: "openai"
   domains_removed_path: "data/domains_removed.csv"
   openai:
     api_key_env: "OPENAI_API_KEY"
@@ -99,6 +98,18 @@ classification:
       max_input_file_bytes: 190000000
       max_estimated_prompt_tokens_per_batch: 1000000
       max_estimated_enqueued_prompt_tokens: 2000000
+      max_pending_batches_per_dataset: 25
+  anthropic:
+    api_key_env: "ANTHROPIC_API_KEY"
+    base_url: ""
+    model: "claude-haiku-4-5"
+    max_tokens: 1000
+    timeout_seconds: 60
+    batch:
+      max_requests_per_batch: 100000
+      max_input_file_bytes: 256000000
+      max_estimated_prompt_tokens_per_batch: 0
+      max_estimated_enqueued_prompt_tokens: 0
       max_pending_batches_per_dataset: 25
 
 fulltext:

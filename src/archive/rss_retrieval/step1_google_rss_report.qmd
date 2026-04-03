@@ -1,0 +1,416 @@
+---
+title: "Step 1 Google RSS Retrieval Report"
+subtitle: "Whole-period scan and hierarchical split progression"
+author: "INFLUX Impact"
+date: last-modified
+format:
+  html:
+    toc: true
+    number-sections: true
+    code-fold: true
+execute:
+  echo: false
+  warning: false
+  message: false
+jupyter: python3
+---
+
+## Scope
+
+This report summarizes Step 1 Google RSS retrieval outputs across pathogen
+domain-language datasets. It is designed for the hierarchical scan strategy:
+
+- `whole_period`
+- `5_year`
+- `30_day (monthly)`
+- `14_day`
+- `7_day`
+- `3_day`
+- `1_day`
+
+The report reads the manifest-derived scan summaries written by
+`src/rss_retrieval/retrieve_google_rss.py`.
+
+```{python}
+from __future__ import annotations
+
+from datetime import datetime
+from pathlib import Path
+
+import pandas as pd
+import yaml
+from IPython.display import HTML, Markdown, display
+
+pd.set_option("display.max_columns", 200)
+pd.set_option("display.max_colwidth", 200)
+
+
+def find_repo_root(start: Path) -> Path:
+    for path in [start, *start.parents]:
+        if (path / "src").exists() and (path / "data").exists():
+            return path
+    raise RuntimeError("Could not locate repository root from the working directory.")
+
+
+def note_df(message: str) -> pd.DataFrame:
+    return pd.DataFrame({"note": [message]})
+
+
+def html_table(df: pd.DataFrame) -> HTML:
+    if df.empty:
+        return HTML("<p><em>No rows available.</em></p>")
+    shown = df.copy()
+    for column in shown.columns:
+        if pd.api.types.is_float_dtype(shown[column]):
+            shown[column] = shown[column].round(2)
+    return HTML(shown.to_html(index=False, escape=False, border=0))
+
+
+ROOT = find_repo_root(Path.cwd())
+CONFIG_PATH = ROOT / "src" / "config" / "pipeline.yaml"
+CONFIG = yaml.safe_load(CONFIG_PATH.read_text(encoding="utf-8")) or {}
+
+DATA_ROOT = ROOT / str(CONFIG.get("paths", {}).get("data_root", "data"))
+RSS_RAW_ROOT = DATA_ROOT / "raw" / "rss"
+RSS_INTERMEDIATE_ROOT = DATA_ROOT / "intermediate" / "rss"
+
+RSS_CFG = CONFIG.get("rss", {})
+COARSE_SCAN_YEARS = int(RSS_CFG.get("coarse_scan_years", 5))
+WINDOW_HIERARCHY = sorted(
+    {int(value) for value in RSS_CFG.get("split_hierarchy_days", [30, 14, 7, 3, 1])},
+    reverse=True,
+)
+if 1 not in WINDOW_HIERARCHY:
+    WINDOW_HIERARCHY.append(1)
+
+EXPECTED_STAGE_LABELS = [
+    "whole_period",
+    f"{COARSE_SCAN_YEARS}_year",
+    *[f"{days}_day" for days in WINDOW_HIERARCHY],
+]
+EXPECTED_STAGE_DISPLAY = {
+    "whole_period": "Whole period",
+    f"{COARSE_SCAN_YEARS}_year": f"{COARSE_SCAN_YEARS}-year",
+    **{
+        f"{days}_day": ("30-day (monthly)" if days == 30 else f"{days}-day")
+        for days in WINDOW_HIERARCHY
+    },
+}
+EXPECTED_STAGE_RANK = {
+    stage_label: rank for rank, stage_label in enumerate(EXPECTED_STAGE_LABELS)
+}
+
+summary_paths = sorted(RSS_INTERMEDIATE_ROOT.glob("*_scan_summary.csv"))
+manifest_paths = sorted(RSS_RAW_ROOT.glob("*/*_manifest.csv"))
+rss_output_paths = sorted(
+    path
+    for path in RSS_INTERMEDIATE_ROOT.glob("*.csv")
+    if not path.name.endswith("_scan_summary.csv") and not path.name.endswith("_metrics.csv")
+)
+
+summary_frames = []
+for path in summary_paths:
+    frame = pd.read_csv(path)
+    frame["summary_path"] = str(path.relative_to(ROOT))
+    summary_frames.append(frame)
+
+scan_df = pd.concat(summary_frames, ignore_index=True) if summary_frames else pd.DataFrame()
+
+if not scan_df.empty:
+    for column in [
+        "stage_rank",
+        "window_days",
+        "entry_count",
+        "split_trigger_entries",
+        "elapsed_request_seconds",
+    ]:
+        scan_df[column] = pd.to_numeric(scan_df[column], errors="coerce")
+    if "stage_label" not in scan_df.columns:
+        scan_df["stage_label"] = ""
+    if "stage_display" not in scan_df.columns:
+        scan_df["stage_display"] = scan_df["stage_label"].map(EXPECTED_STAGE_DISPLAY).fillna(scan_df["stage_label"])
+    scan_df["stage_rank"] = scan_df["stage_label"].map(EXPECTED_STAGE_RANK).fillna(scan_df["stage_rank"])
+    scan_df["stage_rank"] = pd.to_numeric(scan_df["stage_rank"], errors="coerce").fillna(999).astype(int)
+    scan_df["entry_count"] = pd.to_numeric(scan_df["entry_count"], errors="coerce")
+    scan_df["window_days"] = pd.to_numeric(scan_df["window_days"], errors="coerce")
+else:
+    scan_df = pd.DataFrame(
+        columns=[
+            "dataset_key",
+            "pathogen_domain",
+            "language_code",
+            "locale_id",
+            "search_string",
+            "stage_label",
+            "stage_display",
+            "stage_rank",
+            "window_role",
+            "window_start",
+            "window_end",
+            "window_days",
+            "status",
+            "elapsed_request_seconds",
+            "entry_count",
+            "threshold_bucket",
+            "next_action",
+            "error_summary",
+            "summary_path",
+        ]
+    )
+
+manifest_rows = []
+for path in manifest_paths:
+    dataset_key = path.stem.removesuffix("_manifest")
+    exists = path.exists()
+    row_count = pd.read_csv(path, dtype=str).shape[0] if exists else 0
+    manifest_rows.append(
+        {
+            "dataset_key": dataset_key,
+            "manifest_path": str(path.relative_to(ROOT)),
+            "manifest_rows": row_count,
+            "manifest_modified": datetime.fromtimestamp(path.stat().st_mtime).isoformat(timespec="seconds") if exists else None,
+        }
+    )
+manifest_df = pd.DataFrame(manifest_rows)
+
+summary_artifacts = []
+for path in summary_paths:
+    dataset_key = path.stem.removesuffix("_scan_summary")
+    frame = pd.read_csv(path)
+    summary_artifacts.append(
+        {
+            "dataset_key": dataset_key,
+            "scan_summary_path": str(path.relative_to(ROOT)),
+            "scan_rows": len(frame),
+            "scan_modified": datetime.fromtimestamp(path.stat().st_mtime).isoformat(timespec="seconds"),
+        }
+    )
+summary_artifacts_df = pd.DataFrame(summary_artifacts)
+
+output_rows = []
+for path in rss_output_paths:
+    dataset_key = path.stem
+    row_count = pd.read_csv(path, low_memory=False).shape[0]
+    output_rows.append(
+        {
+            "dataset_key": dataset_key,
+            "rss_output_path": str(path.relative_to(ROOT)),
+            "rss_output_rows": row_count,
+            "rss_output_modified": datetime.fromtimestamp(path.stat().st_mtime).isoformat(timespec="seconds"),
+        }
+    )
+output_df = pd.DataFrame(output_rows)
+
+artifacts_df = (
+    manifest_df.merge(summary_artifacts_df, on="dataset_key", how="outer")
+    .merge(output_df, on="dataset_key", how="outer")
+    .sort_values("dataset_key", kind="stable")
+    .reset_index(drop=True)
+)
+```
+
+## Retrieval Ladder
+
+```{python}
+ladder = [
+    "flowchart LR",
+    '  A["Whole period"] --> B["5-year periods"]',
+]
+
+previous = "B"
+for days in WINDOW_HIERARCHY:
+    node_name = f"D{days}"
+    label = "30-day (monthly)" if days == 30 else f"{days}-day"
+    ladder.append(f'  {previous} --> {node_name}["{label}"]')
+    previous = node_name
+
+display(Markdown("```mermaid\n" + "\n".join(ladder) + "\n```"))
+```
+
+## Artifacts
+
+```{python}
+if artifacts_df.empty:
+    note_df("No Step 1 artifacts found yet. Start RSS retrieval before rendering this report.")
+else:
+    html_table(artifacts_df.fillna(""))
+```
+
+## Overall Progress
+
+```{python}
+if scan_df.empty:
+    note_df("No scan summaries are available yet.")
+else:
+    total_unique_queries = (
+        scan_df[["dataset_key", "search_string"]]
+        .drop_duplicates()
+        .shape[0]
+    )
+    summary_metrics = pd.DataFrame(
+        [
+            {"metric": "datasets_with_scan_summary", "value": int(scan_df["dataset_key"].nunique())},
+            {"metric": "locale_variants_observed", "value": int(scan_df["locale_id"].nunique())},
+            {"metric": "unique_search_strings", "value": int(total_unique_queries)},
+            {"metric": "window_rows", "value": int(len(scan_df))},
+            {"metric": "success_rows", "value": int((scan_df["status"] == "success").sum())},
+            {"metric": "empty_rows", "value": int((scan_df["status"] == "empty").sum())},
+            {"metric": "split_rows", "value": int((scan_df["status"] == "split").sum())},
+            {"metric": "retry_needed_rows", "value": int(scan_df["next_action"].eq("retry_needed").sum())},
+            {"metric": "pending_rows", "value": int(scan_df["next_action"].eq("pending").sum())},
+            {"metric": "tracked_request_seconds", "value": float(scan_df["elapsed_request_seconds"].fillna(0).sum())},
+        ]
+    )
+    html_table(summary_metrics)
+```
+
+## Stage-by-Dataset Summary
+
+```{python}
+if scan_df.empty:
+    note_df("No stage-level scan rows found.")
+else:
+    stage_dataset_summary = (
+        scan_df.groupby(["dataset_key", "stage_rank", "stage_display"], dropna=False)
+        .agg(
+            window_rows=("search_string", "size"),
+            unique_search_strings=("search_string", "nunique"),
+            split_rows=("status", lambda values: int((values == "split").sum())),
+            success_rows=("status", lambda values: int((values == "success").sum())),
+            empty_rows=("status", lambda values: int((values == "empty").sum())),
+            retry_needed_rows=("next_action", lambda values: int((values == "retry_needed").sum())),
+            tracked_request_seconds=("elapsed_request_seconds", "sum"),
+            median_entry_count=("entry_count", "median"),
+            max_entry_count=("entry_count", "max"),
+        )
+        .reset_index()
+        .sort_values(["dataset_key", "stage_rank"], kind="stable")
+    )
+    html_table(stage_dataset_summary.fillna(""))
+```
+
+## Unique Search Strings by Deepest Stage Reached
+
+```{python}
+if scan_df.empty:
+    note_df("No deepest-stage summary available yet.")
+else:
+    deepest_stage = (
+        scan_df.sort_values(["dataset_key", "search_string", "stage_rank"], kind="stable")
+        .groupby(["dataset_key", "search_string"], as_index=False)
+        .tail(1)
+    )
+    deepest_summary = (
+        deepest_stage.groupby(["dataset_key", "stage_rank", "stage_display"], dropna=False)
+        .size()
+        .reset_index(name="unique_search_strings")
+        .sort_values(["dataset_key", "stage_rank"], kind="stable")
+    )
+    html_table(deepest_summary)
+```
+
+## Stage Details
+
+```{python}
+if scan_df.empty:
+    display(note_df("No scan-summary rows are available, so stage details are not yet populated."))
+else:
+    stage_labels_in_data = (
+        scan_df[["stage_label", "stage_display", "stage_rank"]]
+        .drop_duplicates()
+        .sort_values(["stage_rank", "stage_display"], kind="stable")
+    )
+
+    for stage in stage_labels_in_data.to_dict(orient="records"):
+        stage_label = stage["stage_label"]
+        stage_display = stage["stage_display"]
+        stage_slice = scan_df.loc[scan_df["stage_label"] == stage_label].copy()
+
+        display(Markdown(f"### {stage_display}"))
+
+        stage_metrics = pd.DataFrame(
+            [
+                {"metric": "window_rows", "value": int(len(stage_slice))},
+                {"metric": "datasets", "value": int(stage_slice["dataset_key"].nunique())},
+                {"metric": "unique_search_strings", "value": int(stage_slice["search_string"].nunique())},
+                {"metric": "split_rows", "value": int((stage_slice["status"] == "split").sum())},
+                {"metric": "success_rows", "value": int((stage_slice["status"] == "success").sum())},
+                {"metric": "empty_rows", "value": int((stage_slice["status"] == "empty").sum())},
+                {"metric": "retry_needed_rows", "value": int(stage_slice["next_action"].eq("retry_needed").sum())},
+                {"metric": "pending_rows", "value": int(stage_slice["next_action"].eq("pending").sum())},
+                {"metric": "at_or_above_threshold_rows", "value": int(stage_slice["threshold_bucket"].eq("at_or_above_threshold").sum())},
+                {"metric": "tracked_request_seconds", "value": float(stage_slice["elapsed_request_seconds"].fillna(0).sum())},
+            ]
+        )
+        display(html_table(stage_metrics))
+
+        dataset_breakdown = (
+            stage_slice.groupby(["dataset_key", "status", "next_action"], dropna=False)
+            .agg(
+                window_rows=("search_string", "size"),
+                unique_search_strings=("search_string", "nunique"),
+                tracked_request_seconds=("elapsed_request_seconds", "sum"),
+                median_entry_count=("entry_count", "median"),
+                max_entry_count=("entry_count", "max"),
+            )
+            .reset_index()
+            .sort_values(["dataset_key", "status", "next_action"], kind="stable")
+        )
+        display(Markdown("#### Dataset status breakdown"))
+        display(html_table(dataset_breakdown.fillna("")))
+
+        threshold_breakdown = (
+            stage_slice.groupby(["dataset_key", "threshold_bucket"], dropna=False)
+            .agg(
+                window_rows=("search_string", "size"),
+                unique_search_strings=("search_string", "nunique"),
+            )
+            .reset_index()
+            .sort_values(["dataset_key", "threshold_bucket"], kind="stable")
+        )
+        display(Markdown("#### Threshold breakdown"))
+        display(html_table(threshold_breakdown))
+
+        hotspots = (
+            stage_slice.loc[stage_slice["status"] == "split", [
+                "dataset_key",
+                "locale_id",
+                "search_string",
+                "window_start",
+                "window_end",
+                "entry_count",
+                "error_summary",
+            ]]
+            .sort_values(["entry_count", "dataset_key", "search_string"], ascending=[False, True, True], kind="stable")
+            .head(20)
+        )
+        display(Markdown("#### Largest split-triggering windows"))
+        display(html_table(hotspots.fillna("")))
+```
+
+## Outstanding Retry or Pending Work
+
+```{python}
+if scan_df.empty:
+    note_df("No pending or retry rows available.")
+else:
+    retry_or_pending = (
+        scan_df.loc[scan_df["next_action"].isin(["retry_needed", "pending"]), [
+            "dataset_key",
+            "stage_display",
+            "locale_id",
+            "search_string",
+            "window_start",
+            "window_end",
+            "status",
+            "next_action",
+            "error_summary",
+        ]]
+        .sort_values(
+            ["dataset_key", "stage_rank", "locale_id", "search_string", "window_start"],
+            kind="stable",
+        )
+        .head(200)
+    )
+    html_table(retry_or_pending.fillna(""))
+```

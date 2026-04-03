@@ -67,8 +67,10 @@ RSS_MANIFEST_COLUMNS = [
     "parent_window_start",
     "parent_window_end",
     "split_trigger_entries",
+    "entry_count",
     "status",
     "attempts",
+    "elapsed_request_seconds",
     "http_status",
     "cached_path",
     "last_attempt_at",
@@ -144,6 +146,43 @@ def build_date_windows(
     return windows
 
 
+def build_coarse_period_windows(
+    start_date: str,
+    end_date: str,
+    chunk_size_years: int,
+) -> list[dict[str, str]]:
+    start = date.fromisoformat(start_date)
+    end = date.fromisoformat(end_date)
+    size_years = max(1, int(chunk_size_years))
+    windows: list[dict[str, str]] = []
+
+    current = start
+    while True:
+        next_boundary = (pd.Timestamp(current) + pd.DateOffset(years=size_years)).date()
+        if next_boundary.year >= end.year or next_boundary > end:
+            break
+        window_end = next_boundary - timedelta(days=1)
+        if window_end < current:
+            break
+        windows.append(
+            {
+                "window_start": current.isoformat(),
+                "window_end": window_end.isoformat(),
+                "window_id": f"{current.isoformat()}_{window_end.isoformat()}",
+            }
+        )
+        current = next_boundary
+
+    windows.append(
+        {
+            "window_start": current.isoformat(),
+            "window_end": end.isoformat(),
+            "window_id": f"{current.isoformat()}_{end.isoformat()}",
+        }
+    )
+    return windows
+
+
 def compute_window_days(window_start: str, window_end: str) -> int:
     start = date.fromisoformat(window_start)
     end = date.fromisoformat(window_end)
@@ -215,8 +254,10 @@ def build_manifest_row(
     parent_window_start: str = "",
     parent_window_end: str = "",
     split_trigger_entries: str = "",
+    entry_count: str = "",
     status: str = "pending",
     attempts: str = "0",
+    elapsed_request_seconds: str = "0",
     http_status: str = "",
     last_attempt_at: str = "",
     next_eligible_attempt_at: str = "",
@@ -239,8 +280,10 @@ def build_manifest_row(
         "parent_window_start": parent_window_start,
         "parent_window_end": parent_window_end,
         "split_trigger_entries": split_trigger_entries,
+        "entry_count": entry_count,
         "status": status,
         "attempts": attempts,
+        "elapsed_request_seconds": elapsed_request_seconds,
         "http_status": http_status,
         "cached_path": cache_relative_path(
             dataset=dataset,
@@ -263,6 +306,7 @@ def load_or_initialize_manifest(
     locale_specs: list[dict[str, str]],
     windows: list[dict[str, str]],
     cache_format: str,
+    default_window_role: str = "base",
 ) -> pd.DataFrame:
     default_rows = []
     for locale in locale_specs:
@@ -280,6 +324,7 @@ def load_or_initialize_manifest(
                         window_start=window["window_start"],
                         window_end=window["window_end"],
                         cache_format=cache_format,
+                        window_role=default_window_role,
                     )
                 )
 
@@ -294,6 +339,17 @@ def load_or_initialize_manifest(
     existing = existing[RSS_MANIFEST_COLUMNS]
 
     default_by_key = {manifest_row_key(row): row for row in default_rows}
+    if not existing.empty:
+        matching_default_keys = {
+            manifest_row_key(record)
+            for record in existing.to_dict(orient="records")
+            if manifest_row_key(record) in default_by_key
+        }
+        # Reset manifests that were created under an incompatible retrieval strategy,
+        # such as the previous pre-expanded 30-day base windows.
+        if default_by_key and not matching_default_keys:
+            return manifest_df
+
     normalized_existing: list[dict[str, str]] = []
     existing_keys: set[tuple[str, ...]] = set()
 
@@ -335,7 +391,9 @@ def load_or_initialize_manifest(
                 )
             )
         if not normalized["window_role"]:
-            normalized["window_role"] = "base" if default_row else "adaptive_child"
+            normalized["window_role"] = (
+                default_window_role if default_row else "hierarchical_child"
+            )
 
         normalized_existing.append(normalized)
         existing_keys.add(manifest_row_key(normalized))

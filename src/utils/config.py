@@ -45,15 +45,68 @@ def project_paths(config: dict[str, Any]) -> ProjectPaths:
     return ProjectPaths(repo_root=REPO_ROOT, data_root=data_root)
 
 
+# ---------------------------------------------------------------------------
+# API key resolution
+# ---------------------------------------------------------------------------
+
+def _resolve_api_key(cfg_section: dict[str, Any], default_env: str) -> str:
+    """Resolve API key from env var (preferred) or inline config."""
+    env_name = str(cfg_section.get("api_key_env", default_env))
+    key = os.getenv(env_name, "").strip()
+    if key:
+        return key
+    key = str(cfg_section.get("api_key", "")).strip()
+    if key:
+        return key
+    raise ValueError(
+        f"Missing {env_name}. Add it to the local .env file before using batch classification."
+    )
+
+
 def require_openai_api_key(config: dict[str, Any]) -> str:
     openai_cfg = config.get("classification", {}).get("openai", {})
-    api_key_env = str(openai_cfg.get("api_key_env", "OPENAI_API_KEY"))
-    api_key = os.getenv(api_key_env, "").strip()
-    if api_key:
-        return api_key
-    api_key = str(openai_cfg.get("api_key", "")).strip()
-    if api_key:
-        return api_key
-    raise ValueError(
-        f"Missing {api_key_env}. Add it to the local .env file before using OpenAI batch classification."
+    return _resolve_api_key(openai_cfg, "OPENAI_API_KEY")
+
+
+def require_anthropic_api_key(config: dict[str, Any]) -> str:
+    anthropic_cfg = config.get("classification", {}).get("anthropic", {})
+    return _resolve_api_key(anthropic_cfg, "ANTHROPIC_API_KEY")
+
+
+# ---------------------------------------------------------------------------
+# Batch provider factory
+# ---------------------------------------------------------------------------
+
+def create_batch_provider(
+    config: dict[str, Any],
+    provider_override: str | None = None,
+) -> Any:
+    """Create the appropriate BatchProvider based on config or override.
+
+    The provider is selected by `classification.provider` in the YAML config,
+    defaulting to 'openai'. An explicit override (used when hydrating batches
+    that were submitted by a different provider) takes precedence.
+    """
+    from src.utils.anthropic_batch import AnthropicBatchProvider
+    from src.utils.openai_batch import OpenAIBatchProvider
+
+    cls_cfg = config.get("classification", {})
+    provider_name = (provider_override or str(cls_cfg.get("provider", "openai"))).strip().lower()
+
+    if provider_name == "anthropic":
+        anthropic_cfg = cls_cfg.get("anthropic", {})
+        return AnthropicBatchProvider(
+            api_key=require_anthropic_api_key(config),
+            base_url=str(anthropic_cfg.get("base_url", "") or ""),
+            timeout_seconds=int(anthropic_cfg.get("timeout_seconds", 60)),
+        )
+
+    # Default to OpenAI
+    openai_cfg = cls_cfg.get("openai", {})
+    batch_cfg = openai_cfg.get("batch", {})
+    return OpenAIBatchProvider(
+        api_key=require_openai_api_key(config),
+        base_url=str(openai_cfg.get("base_url", "") or ""),
+        timeout_seconds=int(openai_cfg.get("timeout_seconds", 60)),
+        completion_window=str(batch_cfg.get("completion_window", "24h")),
     )

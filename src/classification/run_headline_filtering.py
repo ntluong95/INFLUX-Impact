@@ -17,7 +17,7 @@ from src.utils.project import resolve_datasets, resolve_languages, resolve_patho
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Run domain filtering plus OpenAI Batch headline relevance filtering."
+        description="Run domain filtering plus batch headline relevance filtering (OpenAI or Anthropic)."
     )
     parser.add_argument("--config", default="src/config/pipeline.yaml")
     parser.add_argument("--pathogen-domains", default="all")

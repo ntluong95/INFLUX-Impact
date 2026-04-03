@@ -1,3 +1,9 @@
+"""Headline relevance batch classification.
+
+Supports both OpenAI and Anthropic batch APIs through a provider-agnostic
+interface. The provider is selected by the `classification.provider` config
+field ('openai' or 'anthropic'). Only one provider is used per run.
+"""
 from __future__ import annotations
 
 import json
@@ -6,6 +12,13 @@ from typing import Any
 
 import pandas as pd
 
+from src.utils.batch_provider import (
+    ACTIVE_STATUSES,
+    TERMINAL_STATUSES,
+    BatchProvider,
+    BatchResult,
+    write_request_jsonl,
+)
 from src.utils.common import (
     estimate_prompt_tokens,
     normalize_whitespace,
@@ -14,17 +27,7 @@ from src.utils.common import (
     utc_now_iso,
     write_dataframe_atomic,
 )
-from src.utils.config import project_paths, require_openai_api_key
-from src.utils.openai_batch import (
-    create_batch,
-    download_file_content,
-    extract_message_content,
-    openai_max_tokens_param,
-    openai_supports_temperature,
-    parse_json_object,
-    retrieve_batch,
-    upload_batch_file,
-)
+from src.utils.config import create_batch_provider, project_paths
 from src.utils.project import DatasetKey
 
 
@@ -41,9 +44,10 @@ STATE_COLUMNS = [
     "source_url",
     "source_domain",
     "google_news_redirect_url",
-    "openai_custom_id",
-    "openai_batch_name",
-    "openai_batch_id",
+    "batch_custom_id",
+    "batch_name",
+    "batch_id",
+    "batch_provider",
     "batch_state",
     "batch_submitted_at",
     "headline_label",
@@ -58,6 +62,7 @@ STATE_COLUMNS = [
 BATCH_REGISTRY_COLUMNS = [
     "dataset_key",
     "batch_name",
+    "batch_provider",
     "request_jsonl_path",
     "request_count",
     "estimated_prompt_tokens",
@@ -70,9 +75,6 @@ BATCH_REGISTRY_COLUMNS = [
     "output_file_id",
     "error_file_id",
 ]
-
-TERMINAL_BATCH_STATUSES = {"completed", "failed", "expired", "cancelled"}
-ACTIVE_BATCH_STATUSES = {"validating", "in_progress", "finalizing", "submitted"}
 
 
 def build_system_prompt(dataset: DatasetKey) -> str:
@@ -111,21 +113,27 @@ Published: {row.get("rss_pubdate", "[missing]")}
 
 
 def parse_headline_label(raw_text: str) -> dict[str, Any]:
-    parsed = parse_json_object(raw_text)
-    if not parsed:
-        return {
-            "label": "unsure",
-            "confidence": 0.0,
-            "rationale": "",
-            "parse_error": "invalid_json",
-        }
+    """Parse JSON classification from the model's text response."""
+    cleaned = raw_text.strip()
+    if not cleaned:
+        return {"label": "unsure", "confidence": 0.0, "rationale": "", "parse_error": "empty_response"}
+
+    # Try to extract JSON object from text
+    start = cleaned.find("{")
+    end = cleaned.rfind("}")
+    if start >= 0 and end > start:
+        cleaned = cleaned[start : end + 1]
+    try:
+        parsed = json.loads(cleaned)
+    except Exception:
+        return {"label": "unsure", "confidence": 0.0, "rationale": "", "parse_error": "invalid_json"}
 
     label = str(parsed.get("label", "unsure")).strip().lower()
+    parse_error = ""
     if label not in {"relevant", "irrelevant", "unsure"}:
         label = "unsure"
         parse_error = "invalid_label"
-    else:
-        parse_error = ""
+
     try:
         confidence = float(parsed.get("confidence", 0.0))
     except Exception:
@@ -134,12 +142,7 @@ def parse_headline_label(raw_text: str) -> dict[str, Any]:
 
     confidence = max(0.0, min(1.0, confidence))
     rationale = normalize_whitespace(str(parsed.get("rationale", "")))[:280]
-    return {
-        "label": label,
-        "confidence": confidence,
-        "rationale": rationale,
-        "parse_error": parse_error,
-    }
+    return {"label": label, "confidence": confidence, "rationale": rationale, "parse_error": parse_error}
 
 
 def label_to_action(label: str) -> str:
@@ -160,20 +163,34 @@ def load_registry(registry_csv: Path) -> pd.DataFrame:
     return df[BATCH_REGISTRY_COLUMNS].fillna("")
 
 
+def _migrate_legacy_columns(df: pd.DataFrame) -> pd.DataFrame:
+    """Rename legacy openai_* columns to generic batch_* columns."""
+    renames = {
+        "openai_custom_id": "batch_custom_id",
+        "openai_batch_name": "batch_name",
+        "openai_batch_id": "batch_id",
+    }
+    for old, new in renames.items():
+        if old in df.columns and new not in df.columns:
+            df = df.rename(columns={old: new})
+        elif old in df.columns:
+            df.drop(columns=[old], inplace=True, errors="ignore")
+    if "batch_provider" not in df.columns:
+        df["batch_provider"] = ""
+    return df
+
+
 def load_or_initialize_state(input_csv: Path, state_csv: Path, dataset: DatasetKey) -> pd.DataFrame:
     input_df = pd.read_csv(input_csv, low_memory=False)
     work = input_df.copy()
     work["dataset_key"] = dataset.stem
     work["pathogen_domain"] = dataset.pathogen_domain
     work["language_code"] = dataset.language_code
+
     if state_csv.exists():
         existing = pd.read_csv(state_csv, low_memory=False)
-        merged = work.merge(
-            existing,
-            on="record_id",
-            how="left",
-            suffixes=("", "_existing"),
-        )
+        existing = _migrate_legacy_columns(existing)
+        merged = work.merge(existing, on="record_id", how="left", suffixes=("", "_existing"))
         for column in STATE_COLUMNS:
             existing_column = f"{column}_existing"
             if column in work.columns and column != "record_id":
@@ -200,7 +217,7 @@ def rows_needing_submission(state_df: pd.DataFrame) -> list[int]:
         if text_or_empty(row.get("headline_label")):
             continue
         batch_state = text_or_empty(row.get("batch_state")).strip().lower()
-        if batch_state in {"submitted", "validating", "in_progress", "finalizing"}:
+        if batch_state in ACTIVE_STATUSES:
             continue
         pending_rows.append(idx)
     return pending_rows
@@ -222,16 +239,10 @@ def split_request_chunks(
         line = json.dumps(row["request"], ensure_ascii=False)
         line_bytes = len(line.encode("utf-8")) + 1
         line_tokens = int(row["estimated_prompt_tokens"])
-        would_overflow = (
-            current
-            and (
-                len(current) >= max_requests
-                or current_bytes + line_bytes > max_bytes
-                or (
-                    max_prompt_tokens > 0
-                    and current_prompt_tokens + line_tokens > max_prompt_tokens
-                )
-            )
+        would_overflow = current and (
+            len(current) >= max_requests
+            or current_bytes + line_bytes > max_bytes
+            or (max_prompt_tokens > 0 and current_prompt_tokens + line_tokens > max_prompt_tokens)
         )
         if would_overflow:
             chunks.append(current)
@@ -252,61 +263,45 @@ def build_request_rows(
     state_df: pd.DataFrame,
     row_indexes: list[int],
     dataset: DatasetKey,
-    openai_cfg: dict[str, Any],
+    provider: BatchProvider,
+    provider_cfg: dict[str, Any],
 ) -> list[dict[str, Any]]:
-    model = str(openai_cfg.get("model", "gpt-5-nano"))
+    model = str(provider_cfg.get("model", ""))
+    max_tokens = int(provider_cfg.get("max_tokens", 160))
+    extra = {"temperature": float(provider_cfg.get("temperature", 0.0))}
     request_rows: list[dict[str, Any]] = []
+
     for idx in row_indexes:
         row = state_df.loc[idx]
         system_prompt = build_system_prompt(dataset)
         user_prompt = build_user_prompt(row)
-        request_body: dict[str, Any] = {
-            "model": model,
-            "response_format": {"type": "json_object"},
-            "messages": [
-                {"role": "system", "content": system_prompt},
-                {"role": "user", "content": user_prompt},
-            ],
-            openai_max_tokens_param(model): int(openai_cfg.get("max_tokens", 160)),
-        }
-        if openai_supports_temperature(model):
-            request_body["temperature"] = float(openai_cfg.get("temperature", 0.0))
         custom_id = f"{dataset.stem}:{row['record_id']}"
-        request_rows.append(
-            {
-                "idx": idx,
-                "custom_id": custom_id,
-                "estimated_prompt_tokens": estimate_prompt_tokens(
-                    f"{system_prompt}\n{user_prompt}"
-                ),
-                "request": {
-                    "custom_id": custom_id,
-                    "method": "POST",
-                    "url": "/v1/chat/completions",
-                    "body": request_body,
-                },
-            }
+        request = provider.build_batch_request(
+            custom_id=custom_id,
+            system_prompt=system_prompt,
+            user_prompt=user_prompt,
+            model=model,
+            max_tokens=max_tokens,
+            extra=extra,
         )
+        request_rows.append({
+            "idx": idx,
+            "custom_id": custom_id,
+            "estimated_prompt_tokens": estimate_prompt_tokens(f"{system_prompt}\n{user_prompt}"),
+            "request": request,
+        })
     return request_rows
-
-
-def write_request_jsonl(request_chunk: list[dict[str, Any]], jsonl_path: Path) -> None:
-    lines = [json.dumps(item["request"], ensure_ascii=False) for item in request_chunk]
-    jsonl_path.parent.mkdir(parents=True, exist_ok=True)
-    jsonl_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
 def active_enqueued_prompt_tokens(registry_df: pd.DataFrame) -> int:
     if registry_df.empty:
         return 0
     active = registry_df.loc[
-        ~registry_df["status"].fillna("").astype(str).str.lower().isin(TERMINAL_BATCH_STATUSES)
+        ~registry_df["status"].fillna("").astype(str).str.lower().isin(TERMINAL_STATUSES)
     ].copy()
     if active.empty:
         return 0
-    return int(
-        pd.to_numeric(active["estimated_prompt_tokens"], errors="coerce").fillna(0).sum()
-    )
+    return int(pd.to_numeric(active["estimated_prompt_tokens"], errors="coerce").fillna(0).sum())
 
 
 def hydrate_batches(
@@ -316,10 +311,6 @@ def hydrate_batches(
     registry_df: pd.DataFrame,
     logger: Any,
 ) -> tuple[pd.DataFrame, pd.DataFrame]:
-    openai_cfg = config["classification"]["openai"]
-    api_key = require_openai_api_key(config)
-    base_url = str(openai_cfg.get("base_url", "") or "")
-    timeout_seconds = int(openai_cfg.get("timeout_seconds", 60))
     paths = project_paths(config)
 
     for registry_idx, registry_row in registry_df.iterrows():
@@ -327,104 +318,58 @@ def hydrate_batches(
         if not batch_id:
             continue
 
-        batch = retrieve_batch(
-            batch_id=batch_id,
-            api_key=api_key,
-            base_url=base_url,
-            timeout_seconds=timeout_seconds,
-        )
-        status = text_or_empty(batch.get("status"))
+        # Create provider matching the one that submitted this batch
+        row_provider_name = text_or_empty(registry_row.get("batch_provider")) or "openai"
+        provider = create_batch_provider(config, provider_override=row_provider_name)
+        batch_status = provider.poll_batch(batch_id)
+        status = batch_status.status
+
         registry_df.loc[registry_idx, "status"] = status
-        registry_df.loc[registry_idx, "output_file_id"] = text_or_empty(batch.get("output_file_id"))
-        registry_df.loc[registry_idx, "error_file_id"] = text_or_empty(batch.get("error_file_id"))
+        registry_df.loc[registry_idx, "output_file_id"] = batch_status.output_file_id
+        registry_df.loc[registry_idx, "error_file_id"] = batch_status.error_file_id
         if status == "completed" and not text_or_empty(registry_df.loc[registry_idx, "completed_at"]):
             registry_df.loc[registry_idx, "completed_at"] = utc_now_iso()
 
-        state_mask = state_df["openai_batch_id"].fillna("").astype(str) == batch_id
+        state_mask = state_df["batch_id"].fillna("").astype(str) == batch_id
         if not state_mask.any():
             continue
 
-        if status in {"submitted", "validating", "in_progress", "finalizing"}:
+        if status in ACTIVE_STATUSES:
             state_df.loc[state_mask, "batch_state"] = status
             continue
 
         if status != "completed":
             state_df.loc[state_mask, "batch_state"] = status or "unknown"
             state_df.loc[state_mask, "classification_error"] = (
-                state_df.loc[state_mask, "classification_error"]
-                .replace("", f"batch_{status or 'unknown'}")
+                state_df.loc[state_mask, "classification_error"].replace("", f"batch_{status or 'unknown'}")
             )
             continue
 
-        output_file_id = text_or_empty(batch.get("output_file_id"))
-        error_file_id = text_or_empty(batch.get("error_file_id"))
-        result_map: dict[str, dict[str, Any]] = {}
+        # Retrieve and apply results
+        results = provider.retrieve_results(batch_id, batch_status)
 
-        if output_file_id:
-            output_text = download_file_content(
-                file_id=output_file_id,
-                api_key=api_key,
-                base_url=base_url,
-                timeout_seconds=timeout_seconds,
-            )
-            result_path = paths.batch_results_dir(dataset) / f"{registry_row['batch_name']}_output.jsonl"
-            result_path.write_text(output_text, encoding="utf-8")
-            for raw_line in output_text.splitlines():
-                line = raw_line.strip()
-                if not line:
-                    continue
-                try:
-                    result = json.loads(line)
-                except Exception:
-                    continue
-                custom_id = text_or_empty(result.get("custom_id"))
-                if custom_id:
-                    result_map[custom_id] = result
+        # Save raw results for audit
+        result_path = paths.batch_results_dir(dataset) / f"{registry_row['batch_name']}_output.jsonl"
+        result_path.parent.mkdir(parents=True, exist_ok=True)
+        with result_path.open("w", encoding="utf-8") as f:
+            for r in results:
+                json.dump({"custom_id": r.custom_id, "success": r.success, "raw_text": r.raw_text, "error": r.error}, f, ensure_ascii=False)
+                f.write("\n")
 
-        if error_file_id:
-            error_text = download_file_content(
-                file_id=error_file_id,
-                api_key=api_key,
-                base_url=base_url,
-                timeout_seconds=timeout_seconds,
-            )
-            error_path = paths.batch_results_dir(dataset) / f"{registry_row['batch_name']}_error.jsonl"
-            error_path.write_text(error_text, encoding="utf-8")
-            for raw_line in error_text.splitlines():
-                line = raw_line.strip()
-                if not line:
-                    continue
-                try:
-                    result = json.loads(line)
-                except Exception:
-                    continue
-                custom_id = text_or_empty(result.get("custom_id"))
-                if custom_id and custom_id not in result_map:
-                    result_map[custom_id] = result
+        result_map: dict[str, BatchResult] = {r.custom_id: r for r in results}
 
         for state_idx in state_df.index[state_mask].tolist():
-            custom_id = text_or_empty(state_df.loc[state_idx, "openai_custom_id"])
+            custom_id = text_or_empty(state_df.loc[state_idx, "batch_custom_id"])
             result = result_map.get(custom_id)
             if not result:
                 continue
-            response = result.get("response") or {}
-            error = result.get("error")
-            if error:
-                state_df.loc[state_idx, "classification_error"] = normalize_whitespace(str(error))
+
+            if not result.success:
+                state_df.loc[state_idx, "classification_error"] = normalize_whitespace(result.error)[:500]
                 state_df.loc[state_idx, "batch_state"] = "error"
                 continue
 
-            status_code = int(response.get("status_code", 0) or 0)
-            body = response.get("body") or {}
-            if status_code >= 400:
-                state_df.loc[state_idx, "classification_error"] = normalize_whitespace(
-                    json.dumps(body, ensure_ascii=False)
-                )[:500]
-                state_df.loc[state_idx, "batch_state"] = "error"
-                continue
-
-            raw_text = extract_message_content(body)
-            parsed = parse_headline_label(raw_text)
+            parsed = parse_headline_label(result.raw_text)
             state_df.loc[state_idx, "headline_label"] = parsed["label"]
             state_df.loc[state_idx, "headline_confidence"] = parsed["confidence"]
             state_df.loc[state_idx, "headline_rationale"] = parsed["rationale"]
@@ -436,7 +381,8 @@ def hydrate_batches(
 
         registry_df.loc[registry_idx, "hydrated_at"] = utc_now_iso()
         logger.info(
-            "Hydrated OpenAI batch %s for %s status=%s",
+            "Hydrated %s batch %s for %s status=%s",
+            row_provider_name,
             registry_row["batch_name"],
             dataset.stem,
             status,
@@ -452,13 +398,16 @@ def submit_batches(
     registry_df: pd.DataFrame,
     logger: Any,
 ) -> tuple[pd.DataFrame, pd.DataFrame]:
-    openai_cfg = config["classification"]["openai"]
-    batch_cfg = openai_cfg["batch"]
+    provider = create_batch_provider(config)
+    provider_name = provider.provider_name
+    provider_cfg = config["classification"].get(provider_name, {})
+    batch_cfg = provider_cfg.get("batch", {})
+
     pending_indexes = rows_needing_submission(state_df)
     if not pending_indexes:
         return state_df, registry_df
 
-    request_rows = build_request_rows(state_df, pending_indexes, dataset, openai_cfg)
+    request_rows = build_request_rows(state_df, pending_indexes, dataset, provider, provider_cfg)
     request_chunks = split_request_chunks(
         request_rows,
         max_requests=int(batch_cfg.get("max_requests_per_batch", 50000)),
@@ -468,17 +417,16 @@ def submit_batches(
     if not request_chunks:
         return state_df, registry_df
 
-    api_key = require_openai_api_key(config)
-    base_url = str(openai_cfg.get("base_url", "") or "")
-    timeout_seconds = int(openai_cfg.get("timeout_seconds", 60))
     paths = project_paths(config)
     paths.ensure_parent_dirs(dataset)
 
     max_pending_prompt_tokens = int(batch_cfg.get("max_estimated_enqueued_prompt_tokens", 0))
     max_pending_batches = int(batch_cfg.get("max_pending_batches_per_dataset", 0))
-    pending_batch_count = int(
-        (~registry_df["status"].fillna("").astype(str).str.lower().isin(TERMINAL_BATCH_STATUSES)).sum()
-    ) if not registry_df.empty else 0
+    pending_batch_count = (
+        int((~registry_df["status"].fillna("").astype(str).str.lower().isin(TERMINAL_STATUSES)).sum())
+        if not registry_df.empty
+        else 0
+    )
 
     next_batch_number = len(registry_df) + 1
     for offset, request_chunk in enumerate(request_chunks):
@@ -487,55 +435,45 @@ def submit_batches(
             existing_tokens = active_enqueued_prompt_tokens(registry_df)
             if existing_tokens + estimated_chunk_tokens > max_pending_prompt_tokens:
                 logger.info(
-                    "Stopped submitting new batches for %s because estimated enqueued prompt tokens would exceed the configured cap (%s).",
-                    dataset.stem,
-                    max_pending_prompt_tokens,
+                    "Stopped submitting new batches for %s: enqueued prompt tokens would exceed cap (%s).",
+                    dataset.stem, max_pending_prompt_tokens,
                 )
                 break
         if max_pending_batches > 0 and pending_batch_count >= max_pending_batches:
             logger.info(
-                "Stopped submitting new batches for %s because pending batch count reached the configured cap (%s).",
-                dataset.stem,
-                max_pending_batches,
+                "Stopped submitting new batches for %s: pending batch count reached cap (%s).",
+                dataset.stem, max_pending_batches,
             )
             break
 
         batch_name = f"{dataset.stem}_headline_batch_{next_batch_number + offset:04d}"
         jsonl_path = paths.batch_requests_dir(dataset) / f"{batch_name}.jsonl"
-        write_request_jsonl(request_chunk, jsonl_path)
-        upload = upload_batch_file(
-            jsonl_path,
-            api_key=api_key,
-            base_url=base_url,
-            timeout_seconds=timeout_seconds,
-        )
-        batch = create_batch(
-            input_file_id=str(upload["id"]),
-            api_key=api_key,
-            base_url=base_url,
-            endpoint="/v1/chat/completions",
-            completion_window=str(batch_cfg.get("completion_window", "24h")),
-            metadata={
-                # The Batch API has metadata rather than a dedicated name field, so we make the
-                # dataset and stage explicit here and in the saved JSONL filename.
-                "batch_name": batch_name,
-                "dataset_key": dataset.stem,
-                "pathogen_domain": dataset.pathogen_domain,
-                "language_code": dataset.language_code,
-                "stage": "headline_filter",
-            },
-            timeout_seconds=timeout_seconds,
+        native_requests = [item["request"] for item in request_chunk]
+
+        metadata = {
+            "batch_name": batch_name,
+            "dataset_key": dataset.stem,
+            "pathogen_domain": dataset.pathogen_domain,
+            "language_code": dataset.language_code,
+            "stage": "headline_filter",
+            "provider": provider_name,
+        }
+
+        batch_id, initial_status = provider.submit_batch(
+            native_requests, metadata, jsonl_path=jsonl_path,
         )
         pending_batch_count += 1
+
         registry_row = {
             "dataset_key": dataset.stem,
             "batch_name": batch_name,
+            "batch_provider": provider_name,
             "request_jsonl_path": str(jsonl_path.relative_to(paths.repo_root)),
             "request_count": len(request_chunk),
             "estimated_prompt_tokens": estimated_chunk_tokens,
-            "input_file_id": str(upload["id"]),
-            "batch_id": str(batch["id"]),
-            "status": str(batch.get("status", "submitted")),
+            "input_file_id": "",
+            "batch_id": batch_id,
+            "status": initial_status,
             "created_at": utc_now_iso(),
             "completed_at": "",
             "hydrated_at": "",
@@ -543,18 +481,18 @@ def submit_batches(
             "error_file_id": "",
         }
         registry_df = pd.concat([registry_df, pd.DataFrame([registry_row])], ignore_index=True)
+
         for item in request_chunk:
-            state_df.loc[item["idx"], "openai_custom_id"] = item["custom_id"]
-            state_df.loc[item["idx"], "openai_batch_name"] = batch_name
-            state_df.loc[item["idx"], "openai_batch_id"] = str(batch["id"])
-            state_df.loc[item["idx"], "batch_state"] = str(batch.get("status", "submitted"))
+            state_df.loc[item["idx"], "batch_custom_id"] = item["custom_id"]
+            state_df.loc[item["idx"], "batch_name"] = batch_name
+            state_df.loc[item["idx"], "batch_id"] = batch_id
+            state_df.loc[item["idx"], "batch_provider"] = provider_name
+            state_df.loc[item["idx"], "batch_state"] = initial_status
             state_df.loc[item["idx"], "batch_submitted_at"] = utc_now_iso()
+
         logger.info(
-            "Submitted OpenAI batch %s for %s request_count=%s batch_id=%s",
-            batch_name,
-            dataset.stem,
-            len(request_chunk),
-            batch["id"],
+            "Submitted %s batch %s for %s request_count=%s batch_id=%s",
+            provider_name, batch_name, dataset.stem, len(request_chunk), batch_id,
         )
 
     return state_df, registry_df
@@ -593,9 +531,7 @@ def run_headline_batch_filtering(
     ready = pending == 0 and not state_df.empty
     logger.info(
         "Headline filtering state for %s: ready=%s pending_rows=%s",
-        dataset.stem,
-        ready,
-        pending,
+        dataset.stem, ready, pending,
     )
     return {
         "dataset_key": dataset.stem,
