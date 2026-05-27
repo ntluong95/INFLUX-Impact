@@ -1,0 +1,6 @@
+{
+  "method_content": "Step 4 operates only on the relevant set R. Draw B bootstrap samples S_b of size n=1000 with replacement. Within each batch, run K independent Propose passes that each generate at most 25 Unique Impact Groups (UIGs) plus article assignments and evidence. Harmonize the run-level UIGs with semantic embedding clustering into canonical UIG clusters. Adjudicate with Support_bu = #runs_containing_u / K and Coverage_bu = #articles_assigned_to_u / n; retain UIGs with Support_bu >= tau_u and, if needed, keep the top 25 by Score_bu = alpha * Support_bu + (1 - alpha) * Coverage_bu. Run a constrained judge pass for final batch labels, then align batch UIGs across bootstrap samples into a global taxonomy and retain robust global UIGs with selection probability pi_g = #{b : g in U_b} / B >= pi*.",
+  "figure_caption": "Impact extraction via Propose-Harmonize-Adjudicate within bootstrap batches and cross-batch UIG synthesis",
+  "figure_type": "bootstrap taxonomy discovery workflow",
+  "style_notes": "Use a three-level vertical composition: bootstrap sampling at the top, within-batch Propose/Harmonize/Adjudicate and judge pass in the middle, and cross-batch global taxonomy synthesis at the bottom."
+}

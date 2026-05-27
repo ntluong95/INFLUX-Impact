@@ -1,1 +1,1 @@
-"""Shared utility modules for ingestion, cleaning, and classification."""
+"""Shared utilities for the pathogen news pipeline."""

@@ -1,1 +1,1 @@
-"""Classification stage modules."""
+"""Headline filtering stage."""

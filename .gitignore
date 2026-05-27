@@ -32,6 +32,9 @@ build/
 
 # Data & outputs
 data/
+data_hierarchical/
+data_hierarchical_14/
+data_hierarchical_60/
 outputs/
 results/
 *.csv
@@ -49,3 +52,12 @@ results/
 # OS
 .DS_Store
 Thumbs.db
+
+.positai/
+.cache/
+.archive/
+
+# Claude Code local-only overrides
+CLAUDE.md
+.claude/settings.local.json
+.claude/

@@ -1,1 +1,1 @@
-"""INFLUX source package."""
+"""INFLUX pathogen news pipeline."""
