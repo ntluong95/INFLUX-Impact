@@ -1,0 +1,865 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2023-08-11",
+  "window_end": "2023-08-24",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2023-08-11+before%3A2023-08-25&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2023-08-11+before:2023-08-25&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:30:18Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2023-08-11 before:2023-08-25\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2023-08-11 before:2023-08-25\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2023-08-11+before:2023-08-25&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2023-08-11+before:2023-08-25&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:30:18 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      30,
+      18,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Zika, dengue transmission expected to rise with climate change - Gavi, the Vaccine Alliance",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika, dengue transmission expected to rise with climate change - Gavi, the Vaccine Alliance"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNOXVELWE1cU9qa1NxeWRULXNWejVjSFprZWhuel9DbnI2YV9IUmFyQ3JYbk5HX3lNb0JDUkpJYXcxeTgyZ0ZwaXpELVV4LV9mZ3lmTjc2OHdnR0lKSmZSVU1rUVVMaDZUc1Z2YlF3VUwwdFdkMmFxT1FPSmZVdFA5a0FWX215MzJyQ3VIODBlU1g?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNOXVELWE1cU9qa1NxeWRULXNWejVjSFprZWhuel9DbnI2YV9IUmFyQ3JYbk5HX3lNb0JDUkpJYXcxeTgyZ0ZwaXpELVV4LV9mZ3lmTjc2OHdnR0lKSmZSVU1rUVVMaDZUc1Z2YlF3VUwwdFdkMmFxT1FPSmZVdFA5a0FWX215MzJyQ3VIODBlU1g?oc=5",
+      "id": "CBMikAFBVV95cUxNOXVELWE1cU9qa1NxeWRULXNWejVjSFprZWhuel9DbnI2YV9IUmFyQ3JYbk5HX3lNb0JDUkpJYXcxeTgyZ0ZwaXpELVV4LV9mZ3lmTjc2OHdnR0lKSmZSVU1rUVVMaDZUc1Z2YlF3VUwwdFdkMmFxT1FPSmZVdFA5a0FWX215MzJyQ3VIODBlU1g",
+      "guidislink": false,
+      "published": "Fri, 18 Aug 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        8,
+        18,
+        7,
+        0,
+        0,
+        4,
+        230,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxNOXVELWE1cU9qa1NxeWRULXNWejVjSFprZWhuel9DbnI2YV9IUmFyQ3JYbk5HX3lNb0JDUkpJYXcxeTgyZ0ZwaXpELVV4LV9mZ3lmTjc2OHdnR0lKSmZSVU1rUVVMaDZUc1Z2YlF3VUwwdFdkMmFxT1FPSmZVdFA5a0FWX215MzJyQ3VIODBlU1g?oc=5\" target=\"_blank\">Zika, dengue transmission expected to rise with climate change</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Gavi, the Vaccine Alliance</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxNOXVELWE1cU9qa1NxeWRULXNWejVjSFprZWhuel9DbnI2YV9IUmFyQ3JYbk5HX3lNb0JDUkpJYXcxeTgyZ0ZwaXpELVV4LV9mZ3lmTjc2OHdnR0lKSmZSVU1rUVVMaDZUc1Z2YlF3VUwwdFdkMmFxT1FPSmZVdFA5a0FWX215MzJyQ3VIODBlU1g?oc=5\" target=\"_blank\">Zika, dengue transmission expected to rise with climate change</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Gavi, the Vaccine Alliance</font>"
+      },
+      "source": {
+        "href": "https://www.gavi.org",
+        "title": "Gavi, the Vaccine Alliance"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika Virus: Causes, Symptoms, and Treatment - Patient.info",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika Virus: Causes, Symptoms, and Treatment - Patient.info"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1BbXhkR2lsdWRpTGJFckJEb2hqclJKNzJKQXM1eU1qOG5qamlvb1AzRjNyZWl6TUY4VzU2UFdmVHFkU3pQcUI1ZmFFZFE5TDExLWdBaDBOQy1kUmNac19sczN3MmtBMUx3ZzM4bTViSmk?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1BbXhkR2lsdWRpTGJFckJEb2hqclJKNzJKQXM1eU1qOG5qamlvb1AzRjNyZWl6TUY4VzU2UFdmVHFkU3pQcUI1ZmFFZFE5TDExLWdBaDBOQy1kUmNac19sczN3MmtBMUx3ZzM4bTViSmk?oc=5",
+      "id": "CBMicEFVX3lxTE1BbXhkR2lsdWRpTGJFckJEb2hqclJKNzJKQXM1eU1qOG5qamlvb1AzRjNyZWl6TUY4VzU2UFdmVHFkU3pQcUI1ZmFFZFE5TDExLWdBaDBOQy1kUmNac19sczN3MmtBMUx3ZzM4bTViSmk",
+      "guidislink": false,
+      "published": "Sun, 20 Aug 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        8,
+        20,
+        7,
+        0,
+        0,
+        6,
+        232,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE1BbXhkR2lsdWRpTGJFckJEb2hqclJKNzJKQXM1eU1qOG5qamlvb1AzRjNyZWl6TUY4VzU2UFdmVHFkU3pQcUI1ZmFFZFE5TDExLWdBaDBOQy1kUmNac19sczN3MmtBMUx3ZzM4bTViSmk?oc=5\" target=\"_blank\">Zika Virus: Causes, Symptoms, and Treatment</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Patient.info</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE1BbXhkR2lsdWRpTGJFckJEb2hqclJKNzJKQXM1eU1qOG5qamlvb1AzRjNyZWl6TUY4VzU2UFdmVHFkU3pQcUI1ZmFFZFE5TDExLWdBaDBOQy1kUmNac19sczN3MmtBMUx3ZzM4bTViSmk?oc=5\" target=\"_blank\">Zika Virus: Causes, Symptoms, and Treatment</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Patient.info</font>"
+      },
+      "source": {
+        "href": "https://patient.info",
+        "title": "Patient.info"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "The burden of global outbreaks: Photos of the daily lives of children with congenital Zika syndrome during the COVID-19 pandemic - Wiley Online Library",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "The burden of global outbreaks: Photos of the daily lives of children with congenital Zika syndrome during the COVID-19 pandemic - Wiley Online Library"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0tM1d2VkhPYzhjM1paRVFJYVpvanhrTE5oZXMxdmxEXzhyUkEtWUJSWjhFbVZjVncxZUFZVlBtT1JMd29rOTNQQVlpTWdSSjI5MG0xRlJ4cFV0SmlYbGdnWUp5eW1ONk4xemc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0tM1d2VkhPYzhjM1paRVFJYVpvanhrTE5oZXMxdmxEXzhyUkEtWUJSWjhFbVZjVncxZUFZVlBtT1JMd29rOTNQQVlpTWdSSjI5MG0xRlJ4cFV0SmlYbGdnWUp5eW1ONk4xemc?oc=5",
+      "id": "CBMiakFVX3lxTE0tM1d2VkhPYzhjM1paRVFJYVpvanhrTE5oZXMxdmxEXzhyUkEtWUJSWjhFbVZjVncxZUFZVlBtT1JMd29rOTNQQVlpTWdSSjI5MG0xRlJ4cFV0SmlYbGdnWUp5eW1ONk4xemc",
+      "guidislink": false,
+      "published": "Fri, 18 Aug 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        8,
+        18,
+        7,
+        0,
+        0,
+        4,
+        230,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE0tM1d2VkhPYzhjM1paRVFJYVpvanhrTE5oZXMxdmxEXzhyUkEtWUJSWjhFbVZjVncxZUFZVlBtT1JMd29rOTNQQVlpTWdSSjI5MG0xRlJ4cFV0SmlYbGdnWUp5eW1ONk4xemc?oc=5\" target=\"_blank\">The burden of global outbreaks: Photos of the daily lives of children with congenital Zika syndrome during the COVID-19 pandemic</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Wiley Online Library</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE0tM1d2VkhPYzhjM1paRVFJYVpvanhrTE5oZXMxdmxEXzhyUkEtWUJSWjhFbVZjVncxZUFZVlBtT1JMd29rOTNQQVlpTWdSSjI5MG0xRlJ4cFV0SmlYbGdnWUp5eW1ONk4xemc?oc=5\" target=\"_blank\">The burden of global outbreaks: Photos of the daily lives of children with congenital Zika syndrome during the COVID-19 pandemic</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Wiley Online Library</font>"
+      },
+      "source": {
+        "href": "https://onlinelibrary.wiley.com",
+        "title": "Wiley Online Library"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "27,000 Zika Cases Confirmed Across the Americas in 2023 - Vax-Before-Travel",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "27,000 Zika Cases Confirmed Across the Americas in 2023 - Vax-Before-Travel"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYWVFQ2pObXN3Z1ROSWE1N3NHRFNSaE01OUNxRnNuYU1QdnMzb1UxT3Z2ZGZEM3pRdU1LSFo4N0hKd05ENGpDZlJtWUl6M1h4dFZHME11amVmMEpua0RnUXFyTGdKQUNDQkQtcTd3YTRHZl83aElFay0yTGdrX0VWQjNGZ24zcTNiZ2ttdjhxcnlsVWJ2RWdB?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYWVFQ2pObXN3Z1ROSWE1N3NHRFNSaE01OUNxRnNuYU1QdnMzb1UxT3Z2ZGZEM3pRdU1LSFo4N0hKd05ENGpDZlJtWUl6M1h4dFZHME11amVmMEpua0RnUXFyTGdKQUNDQkQtcTd3YTRHZl83aElFay0yTGdrX0VWQjNGZ24zcTNiZ2ttdjhxcnlsVWJ2RWdB?oc=5",
+      "id": "CBMilwFBVV95cUxNYWVFQ2pObXN3Z1ROSWE1N3NHRFNSaE01OUNxRnNuYU1QdnMzb1UxT3Z2ZGZEM3pRdU1LSFo4N0hKd05ENGpDZlJtWUl6M1h4dFZHME11amVmMEpua0RnUXFyTGdKQUNDQkQtcTd3YTRHZl83aElFay0yTGdrX0VWQjNGZ24zcTNiZ2ttdjhxcnlsVWJ2RWdB",
+      "guidislink": false,
+      "published": "Thu, 17 Aug 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        8,
+        17,
+        7,
+        0,
+        0,
+        3,
+        229,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxNYWVFQ2pObXN3Z1ROSWE1N3NHRFNSaE01OUNxRnNuYU1QdnMzb1UxT3Z2ZGZEM3pRdU1LSFo4N0hKd05ENGpDZlJtWUl6M1h4dFZHME11amVmMEpua0RnUXFyTGdKQUNDQkQtcTd3YTRHZl83aElFay0yTGdrX0VWQjNGZ24zcTNiZ2ttdjhxcnlsVWJ2RWdB?oc=5\" target=\"_blank\">27,000 Zika Cases Confirmed Across the Americas in 2023</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vax-Before-Travel</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxNYWVFQ2pObXN3Z1ROSWE1N3NHRFNSaE01OUNxRnNuYU1QdnMzb1UxT3Z2ZGZEM3pRdU1LSFo4N0hKd05ENGpDZlJtWUl6M1h4dFZHME11amVmMEpua0RnUXFyTGdKQUNDQkQtcTd3YTRHZl83aElFay0yTGdrX0VWQjNGZ24zcTNiZ2ttdjhxcnlsVWJ2RWdB?oc=5\" target=\"_blank\">27,000 Zika Cases Confirmed Across the Americas in 2023</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vax-Before-Travel</font>"
+      },
+      "source": {
+        "href": "https://www.vax-before-travel.com",
+        "title": "Vax-Before-Travel"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Cleveland Clinic Researchers Identify Novel Host-based Target against Multiple Mosquito-transmitted Viruses - Cleveland Clinic Newsroom",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Cleveland Clinic Researchers Identify Novel Host-based Target against Multiple Mosquito-transmitted Viruses - Cleveland Clinic Newsroom"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPWGE5VzZIOXRyc0ppb2VyRERyU19CS09WWFp0T1FHNHVucDBiVTltdWwxejNjTDlPTHpGdFVKUG9NNWFXV2ctaVNnX1NKMGpoc1VjYkUwMVB3UzVYMVE3NEZQbW1kY2RBdXFqMkhfcGNtR3lIcVhZQXctMkhRaUpRMHJzX3NtSmE3Ql9HX0xGaDNaWXVrd0F4VXJSZ3lvQ1JoSnhESGg3RGg2SHNvYlNDRjBjbjZjNGtpRmgtRUtVSkd4ZjA0Rm1rNENEeWlPbDBfajRja0VNUXhudzAzZnZzV01QMGFJM2dyRDk0?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPWGE5VzZIOXRyc0ppb2VyRERyU19CS09WWFp0T1FHNHVucDBiVTltdWwxejNjTDlPTHpGdFVKUG9NNWFXV2ctaVNnX1NKMGpoc1VjYkUwMVB3UzVYMVE3NEZQbW1kY2RBdXFqMkhfcGNtR3lIcVhZQXctMkhRaUpRMHJzX3NtSmE3Ql9HX0xGaDNaWXVrd0F4VXJSZ3lvQ1JoSnhESGg3RGg2SHNvYlNDRjBjbjZjNGtpRmgtRUtVSkd4ZjA0Rm1rNENEeWlPbDBfajRja0VNUXhudzAzZnZzV01QMGFJM2dyRDk0?oc=5",
+      "id": "CBMi6wFBVV95cUxPWGE5VzZIOXRyc0ppb2VyRERyU19CS09WWFp0T1FHNHVucDBiVTltdWwxejNjTDlPTHpGdFVKUG9NNWFXV2ctaVNnX1NKMGpoc1VjYkUwMVB3UzVYMVE3NEZQbW1kY2RBdXFqMkhfcGNtR3lIcVhZQXctMkhRaUpRMHJzX3NtSmE3Ql9HX0xGaDNaWXVrd0F4VXJSZ3lvQ1JoSnhESGg3RGg2SHNvYlNDRjBjbjZjNGtpRmgtRUtVSkd4ZjA0Rm1rNENEeWlPbDBfajRja0VNUXhudzAzZnZzV01QMGFJM2dyRDk0",
+      "guidislink": false,
+      "published": "Tue, 15 Aug 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        8,
+        15,
+        7,
+        0,
+        0,
+        1,
+        227,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi6wFBVV95cUxPWGE5VzZIOXRyc0ppb2VyRERyU19CS09WWFp0T1FHNHVucDBiVTltdWwxejNjTDlPTHpGdFVKUG9NNWFXV2ctaVNnX1NKMGpoc1VjYkUwMVB3UzVYMVE3NEZQbW1kY2RBdXFqMkhfcGNtR3lIcVhZQXctMkhRaUpRMHJzX3NtSmE3Ql9HX0xGaDNaWXVrd0F4VXJSZ3lvQ1JoSnhESGg3RGg2SHNvYlNDRjBjbjZjNGtpRmgtRUtVSkd4ZjA0Rm1rNENEeWlPbDBfajRja0VNUXhudzAzZnZzV01QMGFJM2dyRDk0?oc=5\" target=\"_blank\">Cleveland Clinic Researchers Identify Novel Host-based Target against Multiple Mosquito-transmitted Viruses</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cleveland Clinic Newsroom</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi6wFBVV95cUxPWGE5VzZIOXRyc0ppb2VyRERyU19CS09WWFp0T1FHNHVucDBiVTltdWwxejNjTDlPTHpGdFVKUG9NNWFXV2ctaVNnX1NKMGpoc1VjYkUwMVB3UzVYMVE3NEZQbW1kY2RBdXFqMkhfcGNtR3lIcVhZQXctMkhRaUpRMHJzX3NtSmE3Ql9HX0xGaDNaWXVrd0F4VXJSZ3lvQ1JoSnhESGg3RGg2SHNvYlNDRjBjbjZjNGtpRmgtRUtVSkd4ZjA0Rm1rNENEeWlPbDBfajRja0VNUXhudzAzZnZzV01QMGFJM2dyRDk0?oc=5\" target=\"_blank\">Cleveland Clinic Researchers Identify Novel Host-based Target against Multiple Mosquito-transmitted Viruses</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cleveland Clinic Newsroom</font>"
+      },
+      "source": {
+        "href": "https://newsroom.clevelandclinic.org",
+        "title": "Cleveland Clinic Newsroom"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika virus in Mumbai: Warning symptoms and prevention tips by experts | Health - Hindustan Times",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika virus in Mumbai: Warning symptoms and prevention tips by experts | Health - Hindustan Times"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQ2pod0ZWbDVWeGs4a3ZvdDdObWdoZEV5dDR3YWlsRzhyMFdVNURFam5GM1JNUW5XWmJiZzdrX0VEQVpZVktTVFp5eUMyS09pWFlCc3RCQS1fWHlEOVBrMng2ZHJmcGpvZkFJUXJuTW9XLTVoVkhzbWVid1RNNGlkVGp5MUFGOWxRU0c0QlphTHBPQ2FsVDB5VXZ0MXgxWnNreDA1NTNKUDFwcGY2TTdGNmxic0o1OEhzUlJpSjh1Q0pVanBLdVJSMnFkZ0o3eHoyUUpr0gHYAUFVX3lxTE1SSjhXWVpHdEZVY2x2ZzdveURCMTVvWTI1d2JrME1RTDlRZ0tPVXpSV0JHSUF1c1hBa3o0N3JjRGFJUnZNUUtpb3BWMERPem1hOURXWC1CN1BIV0dXNzFxNHVIZnNGbkhnQ0FRTkFSbXQxVFNQLU9RZkFFZERib3hrM0lhU2owb0lCajdyVGpCc0JWN09DaFFBTHBDTzJfdGlBVmdsVGxaVXhKNzlmV0FfYmdHSEROLXBfbmd3YW50Uy1WWFlPSXdJOFlUdTl4QWhVaWhXd1VKeQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQ2pod0ZWbDVWeGs4a3ZvdDdObWdoZEV5dDR3YWlsRzhyMFdVNURFam5GM1JNUW5XWmJiZzdrX0VEQVpZVktTVFp5eUMyS09pWFlCc3RCQS1fWHlEOVBrMng2ZHJmcGpvZkFJUXJuTW9XLTVoVkhzbWVid1RNNGlkVGp5MUFGOWxRU0c0QlphTHBPQ2FsVDB5VXZ0MXgxWnNreDA1NTNKUDFwcGY2TTdGNmxic0o1OEhzUlJpSjh1Q0pVanBLdVJSMnFkZ0o3eHoyUUpr0gHYAUFVX3lxTE1SSjhXWVpHdEZVY2x2ZzdveURCMTVvWTI1d2JrME1RTDlRZ0tPVXpSV0JHSUF1c1hBa3o0N3JjRGFJUnZNUUtpb3BWMERPem1hOURXWC1CN1BIV0dXNzFxNHVIZnNGbkhnQ0FRTkFSbXQxVFNQLU9RZkFFZERib3hrM0lhU2owb0lCajdyVGpCc0JWN09DaFFBTHBDTzJfdGlBVmdsVGxaVXhKNzlmV0FfYmdHSEROLXBfbmd3YW50Uy1WWFlPSXdJOFlUdTl4QWhVaWhXd1VKeQ?oc=5",
+      "id": "CBMi0wFBVV95cUxNQ2pod0ZWbDVWeGs4a3ZvdDdObWdoZEV5dDR3YWlsRzhyMFdVNURFam5GM1JNUW5XWmJiZzdrX0VEQVpZVktTVFp5eUMyS09pWFlCc3RCQS1fWHlEOVBrMng2ZHJmcGpvZkFJUXJuTW9XLTVoVkhzbWVid1RNNGlkVGp5MUFGOWxRU0c0QlphTHBPQ2FsVDB5VXZ0MXgxWnNreDA1NTNKUDFwcGY2TTdGNmxic0o1OEhzUlJpSjh1Q0pVanBLdVJSMnFkZ0o3eHoyUUpr0gHYAUFVX3lxTE1SSjhXWVpHdEZVY2x2ZzdveURCMTVvWTI1d2JrME1RTDlRZ0tPVXpSV0JHSUF1c1hBa3o0N3JjRGFJUnZNUUtpb3BWMERPem1hOURXWC1CN1BIV0dXNzFxNHVIZnNGbkhnQ0FRTkFSbXQxVFNQLU9RZkFFZERib3hrM0lhU2owb0lCajdyVGpCc0JWN09DaFFBTHBDTzJfdGlBVmdsVGxaVXhKNzlmV0FfYmdHSEROLXBfbmd3YW50Uy1WWFlPSXdJOFlUdTl4QWhVaWhXd1VKeQ",
+      "guidislink": false,
+      "published": "Fri, 25 Aug 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        8,
+        25,
+        7,
+        0,
+        0,
+        4,
+        237,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQ2pod0ZWbDVWeGs4a3ZvdDdObWdoZEV5dDR3YWlsRzhyMFdVNURFam5GM1JNUW5XWmJiZzdrX0VEQVpZVktTVFp5eUMyS09pWFlCc3RCQS1fWHlEOVBrMng2ZHJmcGpvZkFJUXJuTW9XLTVoVkhzbWVid1RNNGlkVGp5MUFGOWxRU0c0QlphTHBPQ2FsVDB5VXZ0MXgxWnNreDA1NTNKUDFwcGY2TTdGNmxic0o1OEhzUlJpSjh1Q0pVanBLdVJSMnFkZ0o3eHoyUUpr0gHYAUFVX3lxTE1SSjhXWVpHdEZVY2x2ZzdveURCMTVvWTI1d2JrME1RTDlRZ0tPVXpSV0JHSUF1c1hBa3o0N3JjRGFJUnZNUUtpb3BWMERPem1hOURXWC1CN1BIV0dXNzFxNHVIZnNGbkhnQ0FRTkFSbXQxVFNQLU9RZkFFZERib3hrM0lhU2owb0lCajdyVGpCc0JWN09DaFFBTHBDTzJfdGlBVmdsVGxaVXhKNzlmV0FfYmdHSEROLXBfbmd3YW50Uy1WWFlPSXdJOFlUdTl4QWhVaWhXd1VKeQ?oc=5\" target=\"_blank\">Zika virus in Mumbai: Warning symptoms and prevention tips by experts | Health</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Hindustan Times</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQ2pod0ZWbDVWeGs4a3ZvdDdObWdoZEV5dDR3YWlsRzhyMFdVNURFam5GM1JNUW5XWmJiZzdrX0VEQVpZVktTVFp5eUMyS09pWFlCc3RCQS1fWHlEOVBrMng2ZHJmcGpvZkFJUXJuTW9XLTVoVkhzbWVid1RNNGlkVGp5MUFGOWxRU0c0QlphTHBPQ2FsVDB5VXZ0MXgxWnNreDA1NTNKUDFwcGY2TTdGNmxic0o1OEhzUlJpSjh1Q0pVanBLdVJSMnFkZ0o3eHoyUUpr0gHYAUFVX3lxTE1SSjhXWVpHdEZVY2x2ZzdveURCMTVvWTI1d2JrME1RTDlRZ0tPVXpSV0JHSUF1c1hBa3o0N3JjRGFJUnZNUUtpb3BWMERPem1hOURXWC1CN1BIV0dXNzFxNHVIZnNGbkhnQ0FRTkFSbXQxVFNQLU9RZkFFZERib3hrM0lhU2owb0lCajdyVGpCc0JWN09DaFFBTHBDTzJfdGlBVmdsVGxaVXhKNzlmV0FfYmdHSEROLXBfbmd3YW50Uy1WWFlPSXdJOFlUdTl4QWhVaWhXd1VKeQ?oc=5\" target=\"_blank\">Zika virus in Mumbai: Warning symptoms and prevention tips by experts | Health</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Hindustan Times</font>"
+      },
+      "source": {
+        "href": "https://www.hindustantimes.com",
+        "title": "Hindustan Times"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "This Wheat Ridge author set off on a medical mystery after her daughter was born underweight. The answer was a common virus - Colorado Public Radio",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "This Wheat Ridge author set off on a medical mystery after her daughter was born underweight. The answer was a common virus - Colorado Public Radio"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQd25jcEFkUi00dENDbUFuck1ZNGtIVlZYbkNzXzZXX01UckpITWtNeU83YjJjR0RCZ2FhbXcwRjJHbUZ2Tmo1am8wX0laR3dvVnJiMzVBLVBlVHNOYkhmZXBDSjBlQ0RHVG8tM1c1WVJOeWpuc181ajUwSWdfcTVnLVln?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQd25jcEFkUi00dENDbUFuck1ZNGtIVlZYbkNzXzZXX01UckpITWtNeU83YjJjR0RCZ2FhbXcwRjJHbUZ2Tmo1am8wX0laR3dvVnJiMzVBLVBlVHNOYkhmZXBDSjBlQ0RHVG8tM1c1WVJOeWpuc181ajUwSWdfcTVnLVln?oc=5",
+      "id": "CBMiggFBVV95cUxQd25jcEFkUi00dENDbUFuck1ZNGtIVlZYbkNzXzZXX01UckpITWtNeU83YjJjR0RCZ2FhbXcwRjJHbUZ2Tmo1am8wX0laR3dvVnJiMzVBLVBlVHNOYkhmZXBDSjBlQ0RHVG8tM1c1WVJOeWpuc181ajUwSWdfcTVnLVln",
+      "guidislink": false,
+      "published": "Mon, 14 Aug 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        8,
+        14,
+        7,
+        0,
+        0,
+        0,
+        226,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxQd25jcEFkUi00dENDbUFuck1ZNGtIVlZYbkNzXzZXX01UckpITWtNeU83YjJjR0RCZ2FhbXcwRjJHbUZ2Tmo1am8wX0laR3dvVnJiMzVBLVBlVHNOYkhmZXBDSjBlQ0RHVG8tM1c1WVJOeWpuc181ajUwSWdfcTVnLVln?oc=5\" target=\"_blank\">This Wheat Ridge author set off on a medical mystery after her daughter was born underweight. The answer was a common virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Colorado Public Radio</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxQd25jcEFkUi00dENDbUFuck1ZNGtIVlZYbkNzXzZXX01UckpITWtNeU83YjJjR0RCZ2FhbXcwRjJHbUZ2Tmo1am8wX0laR3dvVnJiMzVBLVBlVHNOYkhmZXBDSjBlQ0RHVG8tM1c1WVJOeWpuc181ajUwSWdfcTVnLVln?oc=5\" target=\"_blank\">This Wheat Ridge author set off on a medical mystery after her daughter was born underweight. The answer was a common virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Colorado Public Radio</font>"
+      },
+      "source": {
+        "href": "https://www.cpr.org",
+        "title": "Colorado Public Radio"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Mumbai reports first case of Zika virus - Down To Earth",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Mumbai reports first case of Zika virus - Down To Earth"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNamN3bGpiQWJhZ3lYZFZRYXEzUlBBREc0QUEweFFGTy1yNHFyVHB0ZWVjbl9GYXdURjVjSUQ3YldXampaZFpJeE4wbGJ1X1BfU28wdVhGZzdUNUYyVU4zdENhVjdCcF96cmhUODJlUVU3RnVQaWgyeXRVSkxDd2pEb0RJVnNPUGhrUjc40gGYAUFVX3lxTE9oZ3dnaVB3Z2toRWYzMklsSDFNVGlEVFpOdENfMU5zTTNtQnpucU5iOVQ2emc5dl9PVlRob0RLT1BXMnFGUGZtbGhIVTlvZFlNTmg4MG9xSEdvNV8zdUNGSS10SzFlTjBrR0tsZXFYeGZBT0huT2s4U1J3ekUtdEoyNEFBVFFvelpjUkJaVjA0aXVkVFZRMGhS?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNamN3bGpiQWJhZ3lYZFZRYXEzUlBBREc0QUEweFFGTy1yNHFyVHB0ZWVjbl9GYXdURjVjSUQ3YldXampaZFpJeE4wbGJ1X1BfU28wdVhGZzdUNUYyVU4zdENhVjdCcF96cmhUODJlUVU3RnVQaWgyeXRVSkxDd2pEb0RJVnNPUGhrUjc40gGYAUFVX3lxTE9oZ3dnaVB3Z2toRWYzMklsSDFNVGlEVFpOdENfMU5zTTNtQnpucU5iOVQ2emc5dl9PVlRob0RLT1BXMnFGUGZtbGhIVTlvZFlNTmg4MG9xSEdvNV8zdUNGSS10SzFlTjBrR0tsZXFYeGZBT0huT2s4U1J3ekUtdEoyNEFBVFFvelpjUkJaVjA0aXVkVFZRMGhS?oc=5",
+      "id": "CBMiiwFBVV95cUxNamN3bGpiQWJhZ3lYZFZRYXEzUlBBREc0QUEweFFGTy1yNHFyVHB0ZWVjbl9GYXdURjVjSUQ3YldXampaZFpJeE4wbGJ1X1BfU28wdVhGZzdUNUYyVU4zdENhVjdCcF96cmhUODJlUVU3RnVQaWgyeXRVSkxDd2pEb0RJVnNPUGhrUjc40gGYAUFVX3lxTE9oZ3dnaVB3Z2toRWYzMklsSDFNVGlEVFpOdENfMU5zTTNtQnpucU5iOVQ2emc5dl9PVlRob0RLT1BXMnFGUGZtbGhIVTlvZFlNTmg4MG9xSEdvNV8zdUNGSS10SzFlTjBrR0tsZXFYeGZBT0huT2s4U1J3ekUtdEoyNEFBVFFvelpjUkJaVjA0aXVkVFZRMGhS",
+      "guidislink": false,
+      "published": "Thu, 24 Aug 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        8,
+        24,
+        7,
+        0,
+        0,
+        3,
+        236,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxNamN3bGpiQWJhZ3lYZFZRYXEzUlBBREc0QUEweFFGTy1yNHFyVHB0ZWVjbl9GYXdURjVjSUQ3YldXampaZFpJeE4wbGJ1X1BfU28wdVhGZzdUNUYyVU4zdENhVjdCcF96cmhUODJlUVU3RnVQaWgyeXRVSkxDd2pEb0RJVnNPUGhrUjc40gGYAUFVX3lxTE9oZ3dnaVB3Z2toRWYzMklsSDFNVGlEVFpOdENfMU5zTTNtQnpucU5iOVQ2emc5dl9PVlRob0RLT1BXMnFGUGZtbGhIVTlvZFlNTmg4MG9xSEdvNV8zdUNGSS10SzFlTjBrR0tsZXFYeGZBT0huT2s4U1J3ekUtdEoyNEFBVFFvelpjUkJaVjA0aXVkVFZRMGhS?oc=5\" target=\"_blank\">Mumbai reports first case of Zika virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Down To Earth</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxNamN3bGpiQWJhZ3lYZFZRYXEzUlBBREc0QUEweFFGTy1yNHFyVHB0ZWVjbl9GYXdURjVjSUQ3YldXampaZFpJeE4wbGJ1X1BfU28wdVhGZzdUNUYyVU4zdENhVjdCcF96cmhUODJlUVU3RnVQaWgyeXRVSkxDd2pEb0RJVnNPUGhrUjc40gGYAUFVX3lxTE9oZ3dnaVB3Z2toRWYzMklsSDFNVGlEVFpOdENfMU5zTTNtQnpucU5iOVQ2emc5dl9PVlRob0RLT1BXMnFGUGZtbGhIVTlvZFlNTmg4MG9xSEdvNV8zdUNGSS10SzFlTjBrR0tsZXFYeGZBT0huT2s4U1J3ekUtdEoyNEFBVFFvelpjUkJaVjA0aXVkVFZRMGhS?oc=5\" target=\"_blank\">Mumbai reports first case of Zika virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Down To Earth</font>"
+      },
+      "source": {
+        "href": "https://www.downtoearth.org.in",
+        "title": "Down To Earth"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika virus detected in Mumbai; know about the disease and its symptoms - The Times of India",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika virus detected in Mumbai; know about the disease and its symptoms - The Times of India"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPSk42UTRQeThvWGh2ZERDdFlZci13bkJqRjlEZHo3cGxhN3A4MUFScjJPcVJRaUQwb0JnbjJGMkZHVGg2eWl6dktpLVpqaUZFTThLaVI1T2FldDRCOURJVXRfSEw3WFFRYzdaQ09lZksxZHJqUVlTQmhNN2NJNDZXNTFiVm5kU3lyZjhLNEoyUS16QW9GcS0ycnVYMjdnZGVhaENWSlBBNkl0LVRvcnBSVEhRQlkySlBERWVfbkowT2F4Ri1acHZzQjR1dVlkSmJuNDlNcUpvS0xNUXN1LUNhUFBaM1lIcUx6MEV2bTVKY19Lc01HS0V3Y1Z6Q03SAYQCQVVfeXFMTUZVem9BVkZiTFVISEd6MWpucko1WGNCOFc2NGc3ZFo1QXM1S1RIVzVoc3JFXzFpdTFUQmNnQVVSOUxpSjJfcVp1aXBDNENVemkxeE9xNm92cE9uRkd4MXp6eVcwRkFXSVJOeFI3Um9mMlJ6WXhaRk5RZUIyWUhUZUdqOUY4VmJiZDNzWXh5akxjSTJxVVF2WFh5MVhoeHIzQzBHWXpSdTBwOU5MdWNjZm9qWkN5S256X2c5UXRIWWJOQjZVSXkwVld4Yi1YcUR4T0tGSENwWDFjU180NldkWXN4ZjA2T3p6dzJjNDZJeGRDZzl1dG5NZlNMZzVFVloxWWFpSU8?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPSk42UTRQeThvWGh2ZERDdFlZci13bkJqRjlEZHo3cGxhN3A4MUFScjJPcVJRaUQwb0JnbjJGMkZHVGg2eWl6dktpLVpqaUZFTThLaVI1T2FldDRCOURJVXRfSEw3WFFRYzdaQ09lZksxZHJqUVlTQmhNN2NJNDZXNTFiVm5kU3lyZjhLNEoyUS16QW9GcS0ycnVYMjdnZGVhaENWSlBBNkl0LVRvcnBSVEhRQlkySlBERWVfbkowT2F4Ri1acHZzQjR1dVlkSmJuNDlNcUpvS0xNUXN1LUNhUFBaM1lIcUx6MEV2bTVKY19Lc01HS0V3Y1Z6Q03SAYQCQVVfeXFMTUZVem9BVkZiTFVISEd6MWpucko1WGNCOFc2NGc3ZFo1QXM1S1RIVzVoc3JFXzFpdTFUQmNnQVVSOUxpSjJfcVp1aXBDNENVemkxeE9xNm92cE9uRkd4MXp6eVcwRkFXSVJOeFI3Um9mMlJ6WXhaRk5RZUIyWUhUZUdqOUY4VmJiZDNzWXh5akxjSTJxVVF2WFh5MVhoeHIzQzBHWXpSdTBwOU5MdWNjZm9qWkN5S256X2c5UXRIWWJOQjZVSXkwVld4Yi1YcUR4T0tGSENwWDFjU180NldkWXN4ZjA2T3p6dzJjNDZJeGRDZzl1dG5NZlNMZzVFVloxWWFpSU8?oc=5",
+      "id": "CBMi_AFBVV95cUxPSk42UTRQeThvWGh2ZERDdFlZci13bkJqRjlEZHo3cGxhN3A4MUFScjJPcVJRaUQwb0JnbjJGMkZHVGg2eWl6dktpLVpqaUZFTThLaVI1T2FldDRCOURJVXRfSEw3WFFRYzdaQ09lZksxZHJqUVlTQmhNN2NJNDZXNTFiVm5kU3lyZjhLNEoyUS16QW9GcS0ycnVYMjdnZGVhaENWSlBBNkl0LVRvcnBSVEhRQlkySlBERWVfbkowT2F4Ri1acHZzQjR1dVlkSmJuNDlNcUpvS0xNUXN1LUNhUFBaM1lIcUx6MEV2bTVKY19Lc01HS0V3Y1Z6Q03SAYQCQVVfeXFMTUZVem9BVkZiTFVISEd6MWpucko1WGNCOFc2NGc3ZFo1QXM1S1RIVzVoc3JFXzFpdTFUQmNnQVVSOUxpSjJfcVp1aXBDNENVemkxeE9xNm92cE9uRkd4MXp6eVcwRkFXSVJOeFI3Um9mMlJ6WXhaRk5RZUIyWUhUZUdqOUY4VmJiZDNzWXh5akxjSTJxVVF2WFh5MVhoeHIzQzBHWXpSdTBwOU5MdWNjZm9qWkN5S256X2c5UXRIWWJOQjZVSXkwVld4Yi1YcUR4T0tGSENwWDFjU180NldkWXN4ZjA2T3p6dzJjNDZJeGRDZzl1dG5NZlNMZzVFVloxWWFpSU8",
+      "guidislink": false,
+      "published": "Thu, 24 Aug 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        8,
+        24,
+        7,
+        0,
+        0,
+        3,
+        236,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi_AFBVV95cUxPSk42UTRQeThvWGh2ZERDdFlZci13bkJqRjlEZHo3cGxhN3A4MUFScjJPcVJRaUQwb0JnbjJGMkZHVGg2eWl6dktpLVpqaUZFTThLaVI1T2FldDRCOURJVXRfSEw3WFFRYzdaQ09lZksxZHJqUVlTQmhNN2NJNDZXNTFiVm5kU3lyZjhLNEoyUS16QW9GcS0ycnVYMjdnZGVhaENWSlBBNkl0LVRvcnBSVEhRQlkySlBERWVfbkowT2F4Ri1acHZzQjR1dVlkSmJuNDlNcUpvS0xNUXN1LUNhUFBaM1lIcUx6MEV2bTVKY19Lc01HS0V3Y1Z6Q03SAYQCQVVfeXFMTUZVem9BVkZiTFVISEd6MWpucko1WGNCOFc2NGc3ZFo1QXM1S1RIVzVoc3JFXzFpdTFUQmNnQVVSOUxpSjJfcVp1aXBDNENVemkxeE9xNm92cE9uRkd4MXp6eVcwRkFXSVJOeFI3Um9mMlJ6WXhaRk5RZUIyWUhUZUdqOUY4VmJiZDNzWXh5akxjSTJxVVF2WFh5MVhoeHIzQzBHWXpSdTBwOU5MdWNjZm9qWkN5S256X2c5UXRIWWJOQjZVSXkwVld4Yi1YcUR4T0tGSENwWDFjU180NldkWXN4ZjA2T3p6dzJjNDZJeGRDZzl1dG5NZlNMZzVFVloxWWFpSU8?oc=5\" target=\"_blank\">Zika virus detected in Mumbai; know about the disease and its symptoms</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Times of India</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi_AFBVV95cUxPSk42UTRQeThvWGh2ZERDdFlZci13bkJqRjlEZHo3cGxhN3A4MUFScjJPcVJRaUQwb0JnbjJGMkZHVGg2eWl6dktpLVpqaUZFTThLaVI1T2FldDRCOURJVXRfSEw3WFFRYzdaQ09lZksxZHJqUVlTQmhNN2NJNDZXNTFiVm5kU3lyZjhLNEoyUS16QW9GcS0ycnVYMjdnZGVhaENWSlBBNkl0LVRvcnBSVEhRQlkySlBERWVfbkowT2F4Ri1acHZzQjR1dVlkSmJuNDlNcUpvS0xNUXN1LUNhUFBaM1lIcUx6MEV2bTVKY19Lc01HS0V3Y1Z6Q03SAYQCQVVfeXFMTUZVem9BVkZiTFVISEd6MWpucko1WGNCOFc2NGc3ZFo1QXM1S1RIVzVoc3JFXzFpdTFUQmNnQVVSOUxpSjJfcVp1aXBDNENVemkxeE9xNm92cE9uRkd4MXp6eVcwRkFXSVJOeFI3Um9mMlJ6WXhaRk5RZUIyWUhUZUdqOUY4VmJiZDNzWXh5akxjSTJxVVF2WFh5MVhoeHIzQzBHWXpSdTBwOU5MdWNjZm9qWkN5S256X2c5UXRIWWJOQjZVSXkwVld4Yi1YcUR4T0tGSENwWDFjU180NldkWXN4ZjA2T3p6dzJjNDZJeGRDZzl1dG5NZlNMZzVFVloxWWFpSU8?oc=5\" target=\"_blank\">Zika virus detected in Mumbai; know about the disease and its symptoms</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Times of India</font>"
+      },
+      "source": {
+        "href": "https://timesofindia.indiatimes.com",
+        "title": "The Times of India"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Contaminated cough syrup found in Iraq - BBC",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Contaminated cough syrup found in Iraq - BBC"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBPTThPU3daelhuUXVSVWpkUW5YSVAxT3Y2dHotV25fT0xLdlphYkNCWUJpdlI4VlNBbWE3WW9sWVhlaktrUGVQMzJSZjl0RG5X?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBPTThPU3daelhuUXVSVWpkUW5YSVAxT3Y2dHotV25fT0xLdlphYkNCWUJpdlI4VlNBbWE3WW9sWVhlaktrUGVQMzJSZjl0RG5X?oc=5",
+      "id": "CBMiUEFVX3lxTFBPTThPU3daelhuUXVSVWpkUW5YSVAxT3Y2dHotV25fT0xLdlphYkNCWUJpdlI4VlNBbWE3WW9sWVhlaktrUGVQMzJSZjl0RG5X",
+      "guidislink": false,
+      "published": "Wed, 16 Aug 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        8,
+        16,
+        7,
+        0,
+        0,
+        2,
+        228,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTFBPTThPU3daelhuUXVSVWpkUW5YSVAxT3Y2dHotV25fT0xLdlphYkNCWUJpdlI4VlNBbWE3WW9sWVhlaktrUGVQMzJSZjl0RG5X?oc=5\" target=\"_blank\">Contaminated cough syrup found in Iraq</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTFBPTThPU3daelhuUXVSVWpkUW5YSVAxT3Y2dHotV25fT0xLdlphYkNCWUJpdlI4VlNBbWE3WW9sWVhlaktrUGVQMzJSZjl0RG5X?oc=5\" target=\"_blank\">Contaminated cough syrup found in Iraq</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>"
+      },
+      "source": {
+        "href": "https://www.bbc.com",
+        "title": "BBC"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Dr. Stephen Thomas on leadership: ‘It’s helping people discover their courage’ to do great things - Syracuse.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Dr. Stephen Thomas on leadership: ‘It’s helping people discover their courage’ to do great things - Syracuse.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOVjl6NGxab09sUWhYVVNYbEUxUXpQVVFLT0hfQVlucU5NSXMxS0E1bkN3YnRDNEFrNG5sQmlMbFFUUTBIUURrck1RNWpLeVN6UGlXeTRnZmRqM29JTHZycGNZajNwVFpwZ1dJYmlNb2RxVThPdWNxbGUzMWgycTFoeVhSc2syMTdUVnluTE5aSUxsc0NxUksyaHQ1Wm1zVjBuREg4dFR2cW1wX0h5cWpzemR3VDY0clIxU3Ezbjd0YVBrbXo0OXpEM3hfT0pTRE5MdEQ1dGpn0gHqAUFVX3lxTE5IMXBNUi1GR01PMmM2cGk1TFJTRGRQMk5TcmZWaEF1aS1DZ1NYN0JFLXF1WkQ3anc1eGs2OVpCNHc3eWZtVkhfS01kSjNLYTJZY3VTN0NiNE1FczhUNnFpclVjTjVaODZKQzZlQlp2VnNaTFV3a2t1V0JGa0ZMdy1nVVZVeDNLSURMQ1FoRzZsbnFpaXJUdURsOE1xX2d4b2RHN1hzWktiZEs2U1d3cGpSQTdqeVZEb0UzNkhfYklSRnRxVnJYcXRpZkIwOVFSbEVJT0hnYW1ZdXFTMzc4bHQwQnZuT3B0NklMdw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOVjl6NGxab09sUWhYVVNYbEUxUXpQVVFLT0hfQVlucU5NSXMxS0E1bkN3YnRDNEFrNG5sQmlMbFFUUTBIUURrck1RNWpLeVN6UGlXeTRnZmRqM29JTHZycGNZajNwVFpwZ1dJYmlNb2RxVThPdWNxbGUzMWgycTFoeVhSc2syMTdUVnluTE5aSUxsc0NxUksyaHQ1Wm1zVjBuREg4dFR2cW1wX0h5cWpzemR3VDY0clIxU3Ezbjd0YVBrbXo0OXpEM3hfT0pTRE5MdEQ1dGpn0gHqAUFVX3lxTE5IMXBNUi1GR01PMmM2cGk1TFJTRGRQMk5TcmZWaEF1aS1DZ1NYN0JFLXF1WkQ3anc1eGs2OVpCNHc3eWZtVkhfS01kSjNLYTJZY3VTN0NiNE1FczhUNnFpclVjTjVaODZKQzZlQlp2VnNaTFV3a2t1V0JGa0ZMdy1nVVZVeDNLSURMQ1FoRzZsbnFpaXJUdURsOE1xX2d4b2RHN1hzWktiZEs2U1d3cGpSQTdqeVZEb0UzNkhfYklSRnRxVnJYcXRpZkIwOVFSbEVJT0hnYW1ZdXFTMzc4bHQwQnZuT3B0NklMdw?oc=5",
+      "id": "CBMi1gFBVV95cUxOVjl6NGxab09sUWhYVVNYbEUxUXpQVVFLT0hfQVlucU5NSXMxS0E1bkN3YnRDNEFrNG5sQmlMbFFUUTBIUURrck1RNWpLeVN6UGlXeTRnZmRqM29JTHZycGNZajNwVFpwZ1dJYmlNb2RxVThPdWNxbGUzMWgycTFoeVhSc2syMTdUVnluTE5aSUxsc0NxUksyaHQ1Wm1zVjBuREg4dFR2cW1wX0h5cWpzemR3VDY0clIxU3Ezbjd0YVBrbXo0OXpEM3hfT0pTRE5MdEQ1dGpn0gHqAUFVX3lxTE5IMXBNUi1GR01PMmM2cGk1TFJTRGRQMk5TcmZWaEF1aS1DZ1NYN0JFLXF1WkQ3anc1eGs2OVpCNHc3eWZtVkhfS01kSjNLYTJZY3VTN0NiNE1FczhUNnFpclVjTjVaODZKQzZlQlp2VnNaTFV3a2t1V0JGa0ZMdy1nVVZVeDNLSURMQ1FoRzZsbnFpaXJUdURsOE1xX2d4b2RHN1hzWktiZEs2U1d3cGpSQTdqeVZEb0UzNkhfYklSRnRxVnJYcXRpZkIwOVFSbEVJT0hnYW1ZdXFTMzc4bHQwQnZuT3B0NklMdw",
+      "guidislink": false,
+      "published": "Tue, 15 Aug 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        8,
+        15,
+        7,
+        0,
+        0,
+        1,
+        227,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1gFBVV95cUxOVjl6NGxab09sUWhYVVNYbEUxUXpQVVFLT0hfQVlucU5NSXMxS0E1bkN3YnRDNEFrNG5sQmlMbFFUUTBIUURrck1RNWpLeVN6UGlXeTRnZmRqM29JTHZycGNZajNwVFpwZ1dJYmlNb2RxVThPdWNxbGUzMWgycTFoeVhSc2syMTdUVnluTE5aSUxsc0NxUksyaHQ1Wm1zVjBuREg4dFR2cW1wX0h5cWpzemR3VDY0clIxU3Ezbjd0YVBrbXo0OXpEM3hfT0pTRE5MdEQ1dGpn0gHqAUFVX3lxTE5IMXBNUi1GR01PMmM2cGk1TFJTRGRQMk5TcmZWaEF1aS1DZ1NYN0JFLXF1WkQ3anc1eGs2OVpCNHc3eWZtVkhfS01kSjNLYTJZY3VTN0NiNE1FczhUNnFpclVjTjVaODZKQzZlQlp2VnNaTFV3a2t1V0JGa0ZMdy1nVVZVeDNLSURMQ1FoRzZsbnFpaXJUdURsOE1xX2d4b2RHN1hzWktiZEs2U1d3cGpSQTdqeVZEb0UzNkhfYklSRnRxVnJYcXRpZkIwOVFSbEVJT0hnYW1ZdXFTMzc4bHQwQnZuT3B0NklMdw?oc=5\" target=\"_blank\">Dr. Stephen Thomas on leadership: ‘It’s helping people discover their courage’ to do great things</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Syracuse.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi1gFBVV95cUxOVjl6NGxab09sUWhYVVNYbEUxUXpQVVFLT0hfQVlucU5NSXMxS0E1bkN3YnRDNEFrNG5sQmlMbFFUUTBIUURrck1RNWpLeVN6UGlXeTRnZmRqM29JTHZycGNZajNwVFpwZ1dJYmlNb2RxVThPdWNxbGUzMWgycTFoeVhSc2syMTdUVnluTE5aSUxsc0NxUksyaHQ1Wm1zVjBuREg4dFR2cW1wX0h5cWpzemR3VDY0clIxU3Ezbjd0YVBrbXo0OXpEM3hfT0pTRE5MdEQ1dGpn0gHqAUFVX3lxTE5IMXBNUi1GR01PMmM2cGk1TFJTRGRQMk5TcmZWaEF1aS1DZ1NYN0JFLXF1WkQ3anc1eGs2OVpCNHc3eWZtVkhfS01kSjNLYTJZY3VTN0NiNE1FczhUNnFpclVjTjVaODZKQzZlQlp2VnNaTFV3a2t1V0JGa0ZMdy1nVVZVeDNLSURMQ1FoRzZsbnFpaXJUdURsOE1xX2d4b2RHN1hzWktiZEs2U1d3cGpSQTdqeVZEb0UzNkhfYklSRnRxVnJYcXRpZkIwOVFSbEVJT0hnYW1ZdXFTMzc4bHQwQnZuT3B0NklMdw?oc=5\" target=\"_blank\">Dr. Stephen Thomas on leadership: ‘It’s helping people discover their courage’ to do great things</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Syracuse.com</font>"
+      },
+      "source": {
+        "href": "https://www.syracuse.com",
+        "title": "Syracuse.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika Virus - Vajiram & Ravi",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika Virus - Vajiram & Ravi"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE14b0xZWFNocTFXNklOVWlSWWF2RXJLVE52cnhkZmxPUFRDVVRlWEtHV1lYeVd5ZUJrZkpGSVJvVHFKampnTVlzLXg2UllVdVl2NlIxT0RYd3NQLXhWT0RkRmZXaXM?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE14b0xZWFNocTFXNklOVWlSWWF2RXJLVE52cnhkZmxPUFRDVVRlWEtHV1lYeVd5ZUJrZkpGSVJvVHFKampnTVlzLXg2UllVdVl2NlIxT0RYd3NQLXhWT0RkRmZXaXM?oc=5",
+      "id": "CBMiZEFVX3lxTE14b0xZWFNocTFXNklOVWlSWWF2RXJLVE52cnhkZmxPUFRDVVRlWEtHV1lYeVd5ZUJrZkpGSVJvVHFKampnTVlzLXg2UllVdVl2NlIxT0RYd3NQLXhWT0RkRmZXaXM",
+      "guidislink": false,
+      "published": "Thu, 24 Aug 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        8,
+        24,
+        7,
+        0,
+        0,
+        3,
+        236,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZEFVX3lxTE14b0xZWFNocTFXNklOVWlSWWF2RXJLVE52cnhkZmxPUFRDVVRlWEtHV1lYeVd5ZUJrZkpGSVJvVHFKampnTVlzLXg2UllVdVl2NlIxT0RYd3NQLXhWT0RkRmZXaXM?oc=5\" target=\"_blank\">Zika Virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vajiram & Ravi</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiZEFVX3lxTE14b0xZWFNocTFXNklOVWlSWWF2RXJLVE52cnhkZmxPUFRDVVRlWEtHV1lYeVd5ZUJrZkpGSVJvVHFKampnTVlzLXg2UllVdVl2NlIxT0RYd3NQLXhWT0RkRmZXaXM?oc=5\" target=\"_blank\">Zika Virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vajiram & Ravi</font>"
+      },
+      "source": {
+        "href": "https://vajiramandravi.com",
+        "title": "Vajiram & Ravi"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Brazil's Dengue Outbreak May Continue for Years - Vax-Before-Travel",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Brazil's Dengue Outbreak May Continue for Years - Vax-Before-Travel"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbzNRZ0lZM3A3QmtWS19HYmpIREhCZnFSdlBoX3JGZi1fNFNuWE15cmRON3VrT2hTektaMGpJVFV3M1VaTnN0X3U5SEZPQ05EUTBKdzRlZjEtM1pKRDY5aHA4T20zcXBwSXc4dHJJcndOSHVmc0U2VExITWpKQXo0MHVvOWhiaENoMWN4anR1dUE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbzNRZ0lZM3A3QmtWS19HYmpIREhCZnFSdlBoX3JGZi1fNFNuWE15cmRON3VrT2hTektaMGpJVFV3M1VaTnN0X3U5SEZPQ05EUTBKdzRlZjEtM1pKRDY5aHA4T20zcXBwSXc4dHJJcndOSHVmc0U2VExITWpKQXo0MHVvOWhiaENoMWN4anR1dUE?oc=5",
+      "id": "CBMikAFBVV95cUxPbzNRZ0lZM3A3QmtWS19HYmpIREhCZnFSdlBoX3JGZi1fNFNuWE15cmRON3VrT2hTektaMGpJVFV3M1VaTnN0X3U5SEZPQ05EUTBKdzRlZjEtM1pKRDY5aHA4T20zcXBwSXc4dHJJcndOSHVmc0U2VExITWpKQXo0MHVvOWhiaENoMWN4anR1dUE",
+      "guidislink": false,
+      "published": "Thu, 24 Aug 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        8,
+        24,
+        7,
+        0,
+        0,
+        3,
+        236,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxPbzNRZ0lZM3A3QmtWS19HYmpIREhCZnFSdlBoX3JGZi1fNFNuWE15cmRON3VrT2hTektaMGpJVFV3M1VaTnN0X3U5SEZPQ05EUTBKdzRlZjEtM1pKRDY5aHA4T20zcXBwSXc4dHJJcndOSHVmc0U2VExITWpKQXo0MHVvOWhiaENoMWN4anR1dUE?oc=5\" target=\"_blank\">Brazil's Dengue Outbreak May Continue for Years</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vax-Before-Travel</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxPbzNRZ0lZM3A3QmtWS19HYmpIREhCZnFSdlBoX3JGZi1fNFNuWE15cmRON3VrT2hTektaMGpJVFV3M1VaTnN0X3U5SEZPQ05EUTBKdzRlZjEtM1pKRDY5aHA4T20zcXBwSXc4dHJJcndOSHVmc0U2VExITWpKQXo0MHVvOWhiaENoMWN4anR1dUE?oc=5\" target=\"_blank\">Brazil's Dengue Outbreak May Continue for Years</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vax-Before-Travel</font>"
+      },
+      "source": {
+        "href": "https://www.vax-before-travel.com",
+        "title": "Vax-Before-Travel"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Larry W. Grant Obituary (2023) - Des Moines, IA - Sunset Memorial Chapel - Des Moines - Legacy obituary",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Larry W. Grant Obituary (2023) - Des Moines, IA - Sunset Memorial Chapel - Des Moines - Legacy obituary"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8xenluUHZZWENLVFoxMl9xeHRrTFYtcWU4N2xZdVV6eTRpMjdtSUY3Q2pibkVTZHh0RHF1Tk4yRlkySFBWYXV4VjNid0dvWk5maVZNa0ZzNXdsREEtQ0ZSSFJwcFVYM0Z6dkxaVW8wdXF3RWo0MkxxT0FKeEZmVms?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8xenluUHZZWENLVFoxMl9xeHRrTFYtcWU4N2xZdVV6eTRpMjdtSUY3Q2pibkVTZHh0RHF1Tk4yRlkySFBWYXV4VjNid0dvWk5maVZNa0ZzNXdsREEtQ0ZSSFJwcFVYM0Z6dkxaVW8wdXF3RWo0MkxxT0FKeEZmVms?oc=5",
+      "id": "CBMif0FVX3lxTE8xenluUHZZWENLVFoxMl9xeHRrTFYtcWU4N2xZdVV6eTRpMjdtSUY3Q2pibkVTZHh0RHF1Tk4yRlkySFBWYXV4VjNid0dvWk5maVZNa0ZzNXdsREEtQ0ZSSFJwcFVYM0Z6dkxaVW8wdXF3RWo0MkxxT0FKeEZmVms",
+      "guidislink": false,
+      "published": "Wed, 16 Aug 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        8,
+        16,
+        7,
+        0,
+        0,
+        2,
+        228,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE8xenluUHZZWENLVFoxMl9xeHRrTFYtcWU4N2xZdVV6eTRpMjdtSUY3Q2pibkVTZHh0RHF1Tk4yRlkySFBWYXV4VjNid0dvWk5maVZNa0ZzNXdsREEtQ0ZSSFJwcFVYM0Z6dkxaVW8wdXF3RWo0MkxxT0FKeEZmVms?oc=5\" target=\"_blank\">Larry W. Grant Obituary (2023) - Des Moines, IA - Sunset Memorial Chapel - Des Moines</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Legacy obituary</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE8xenluUHZZWENLVFoxMl9xeHRrTFYtcWU4N2xZdVV6eTRpMjdtSUY3Q2pibkVTZHh0RHF1Tk4yRlkySFBWYXV4VjNid0dvWk5maVZNa0ZzNXdsREEtQ0ZSSFJwcFVYM0Z6dkxaVW8wdXF3RWo0MkxxT0FKeEZmVms?oc=5\" target=\"_blank\">Larry W. Grant Obituary (2023) - Des Moines, IA - Sunset Memorial Chapel - Des Moines</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Legacy obituary</font>"
+      },
+      "source": {
+        "href": "https://www.legacy.com",
+        "title": "Legacy obituary"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Experts warn of 'unleashed' spread of tiger mosquitoes in Spain and offer advice on what you can do to stop them - Sur in English",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Experts warn of 'unleashed' spread of tiger mosquitoes in Spain and offer advice on what you can do to stop them - Sur in English"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdFpwQTdsMUd6Smc0N0VPXzBvbTVVNjFyQ09tOU81TEtydVhlUkFvOEowN1RNU0NBaTVjdV9sbFloa29FR3RyVEV1cEZWbV8xcnlnOWN4SHlYY3hZU1hCRXd5OUg2Rzk5by0wM1ktYVoxZUNhdTAtWHBJVEFlTk51VGdpS3RLa0pUTkJoM01Pc1V0SnhCWFhQMVVNM1FWczIyMzIxTkdUY2JNYjRpVzhn?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdFpwQTdsMUd6Smc0N0VPXzBvbTVVNjFyQ09tOU81TEtydVhlUkFvOEowN1RNU0NBaTVjdV9sbFloa29FR3RyVEV1cEZWbV8xcnlnOWN4SHlYY3hZU1hCRXd5OUg2Rzk5by0wM1ktYVoxZUNhdTAtWHBJVEFlTk51VGdpS3RLa0pUTkJoM01Pc1V0SnhCWFhQMVVNM1FWczIyMzIxTkdUY2JNYjRpVzhn?oc=5",
+      "id": "CBMirwFBVV95cUxQdFpwQTdsMUd6Smc0N0VPXzBvbTVVNjFyQ09tOU81TEtydVhlUkFvOEowN1RNU0NBaTVjdV9sbFloa29FR3RyVEV1cEZWbV8xcnlnOWN4SHlYY3hZU1hCRXd5OUg2Rzk5by0wM1ktYVoxZUNhdTAtWHBJVEFlTk51VGdpS3RLa0pUTkJoM01Pc1V0SnhCWFhQMVVNM1FWczIyMzIxTkdUY2JNYjRpVzhn",
+      "guidislink": false,
+      "published": "Sat, 19 Aug 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        8,
+        19,
+        7,
+        0,
+        0,
+        5,
+        231,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxQdFpwQTdsMUd6Smc0N0VPXzBvbTVVNjFyQ09tOU81TEtydVhlUkFvOEowN1RNU0NBaTVjdV9sbFloa29FR3RyVEV1cEZWbV8xcnlnOWN4SHlYY3hZU1hCRXd5OUg2Rzk5by0wM1ktYVoxZUNhdTAtWHBJVEFlTk51VGdpS3RLa0pUTkJoM01Pc1V0SnhCWFhQMVVNM1FWczIyMzIxTkdUY2JNYjRpVzhn?oc=5\" target=\"_blank\">Experts warn of 'unleashed' spread of tiger mosquitoes in Spain and offer advice on what you can do to stop them</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sur in English</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxQdFpwQTdsMUd6Smc0N0VPXzBvbTVVNjFyQ09tOU81TEtydVhlUkFvOEowN1RNU0NBaTVjdV9sbFloa29FR3RyVEV1cEZWbV8xcnlnOWN4SHlYY3hZU1hCRXd5OUg2Rzk5by0wM1ktYVoxZUNhdTAtWHBJVEFlTk51VGdpS3RLa0pUTkJoM01Pc1V0SnhCWFhQMVVNM1FWczIyMzIxTkdUY2JNYjRpVzhn?oc=5\" target=\"_blank\">Experts warn of 'unleashed' spread of tiger mosquitoes in Spain and offer advice on what you can do to stop them</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sur in English</font>"
+      },
+      "source": {
+        "href": "https://www.surinenglish.com",
+        "title": "Sur in English"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Dengue Fever In Los Cabos – Everything Travelers Need To Know - Cabo Sun",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Dengue Fever In Los Cabos – Everything Travelers Need To Know - Cabo Sun"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTjhnWDRKeGpUa19PVkdPWTlJTWN6SV91SllnYjNtRmt5ZnBoazdVTnRUSkQwd2phbFVQZ0RlOXJrNWFVZk1UUENMSm0zc0FiZTVNckZuWW42QXVGMFozcWx0eGhBTkU0QTJFTTJHNzBqZUN2VkE1SVJTRXNST0RkYm5GT0V2Q0pFYWtN?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTjhnWDRKeGpUa19PVkdPWTlJTWN6SV91SllnYjNtRmt5ZnBoazdVTnRUSkQwd2phbFVQZ0RlOXJrNWFVZk1UUENMSm0zc0FiZTVNckZuWW42QXVGMFozcWx0eGhBTkU0QTJFTTJHNzBqZUN2VkE1SVJTRXNST0RkYm5GT0V2Q0pFYWtN?oc=5",
+      "id": "CBMiiwFBVV95cUxPTjhnWDRKeGpUa19PVkdPWTlJTWN6SV91SllnYjNtRmt5ZnBoazdVTnRUSkQwd2phbFVQZ0RlOXJrNWFVZk1UUENMSm0zc0FiZTVNckZuWW42QXVGMFozcWx0eGhBTkU0QTJFTTJHNzBqZUN2VkE1SVJTRXNST0RkYm5GT0V2Q0pFYWtN",
+      "guidislink": false,
+      "published": "Mon, 21 Aug 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        8,
+        21,
+        7,
+        0,
+        0,
+        0,
+        233,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTjhnWDRKeGpUa19PVkdPWTlJTWN6SV91SllnYjNtRmt5ZnBoazdVTnRUSkQwd2phbFVQZ0RlOXJrNWFVZk1UUENMSm0zc0FiZTVNckZuWW42QXVGMFozcWx0eGhBTkU0QTJFTTJHNzBqZUN2VkE1SVJTRXNST0RkYm5GT0V2Q0pFYWtN?oc=5\" target=\"_blank\">Dengue Fever In Los Cabos – Everything Travelers Need To Know</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cabo Sun</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTjhnWDRKeGpUa19PVkdPWTlJTWN6SV91SllnYjNtRmt5ZnBoazdVTnRUSkQwd2phbFVQZ0RlOXJrNWFVZk1UUENMSm0zc0FiZTVNckZuWW42QXVGMFozcWx0eGhBTkU0QTJFTTJHNzBqZUN2VkE1SVJTRXNST0RkYm5GT0V2Q0pFYWtN?oc=5\" target=\"_blank\">Dengue Fever In Los Cabos – Everything Travelers Need To Know</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cabo Sun</font>"
+      },
+      "source": {
+        "href": "https://thecabosun.com",
+        "title": "Cabo Sun"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "The Americas Seek To Expand Genomic Surveillance For Mosquito-Borne Viruses - St. Lucia Times",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "The Americas Seek To Expand Genomic Surveillance For Mosquito-Borne Viruses - St. Lucia Times"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORkhPd2paWDFibWZmZGRVVXBIX0lrcTFTcG1LMVlYTk1ZaGtTcFJBNk92SjhEeDlFRGJsUURLYjR5VmlvczJkVk1rVksyb3B2RlhfazJQSW1RanBuYlJ0SThoY2V3OWoyNVRyWEM3azZRN3JIbkpsN0FyUUd3VTB3UmtpYzZ3VFFDTkRKM202WFBnM2JTSUU3eGNqZ0RBVGkwODJkbGNiZ2F1Z2dNSmRBSmt6RXZUMVU?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORkhPd2paWDFibWZmZGRVVXBIX0lrcTFTcG1LMVlYTk1ZaGtTcFJBNk92SjhEeDlFRGJsUURLYjR5VmlvczJkVk1rVksyb3B2RlhfazJQSW1RanBuYlJ0SThoY2V3OWoyNVRyWEM3azZRN3JIbkpsN0FyUUd3VTB3UmtpYzZ3VFFDTkRKM202WFBnM2JTSUU3eGNqZ0RBVGkwODJkbGNiZ2F1Z2dNSmRBSmt6RXZUMVU?oc=5",
+      "id": "CBMitwFBVV95cUxORkhPd2paWDFibWZmZGRVVXBIX0lrcTFTcG1LMVlYTk1ZaGtTcFJBNk92SjhEeDlFRGJsUURLYjR5VmlvczJkVk1rVksyb3B2RlhfazJQSW1RanBuYlJ0SThoY2V3OWoyNVRyWEM3azZRN3JIbkpsN0FyUUd3VTB3UmtpYzZ3VFFDTkRKM202WFBnM2JTSUU3eGNqZ0RBVGkwODJkbGNiZ2F1Z2dNSmRBSmt6RXZUMVU",
+      "guidislink": false,
+      "published": "Thu, 17 Aug 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        8,
+        17,
+        7,
+        0,
+        0,
+        3,
+        229,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxORkhPd2paWDFibWZmZGRVVXBIX0lrcTFTcG1LMVlYTk1ZaGtTcFJBNk92SjhEeDlFRGJsUURLYjR5VmlvczJkVk1rVksyb3B2RlhfazJQSW1RanBuYlJ0SThoY2V3OWoyNVRyWEM3azZRN3JIbkpsN0FyUUd3VTB3UmtpYzZ3VFFDTkRKM202WFBnM2JTSUU3eGNqZ0RBVGkwODJkbGNiZ2F1Z2dNSmRBSmt6RXZUMVU?oc=5\" target=\"_blank\">The Americas Seek To Expand Genomic Surveillance For Mosquito-Borne Viruses</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">St. Lucia Times</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxORkhPd2paWDFibWZmZGRVVXBIX0lrcTFTcG1LMVlYTk1ZaGtTcFJBNk92SjhEeDlFRGJsUURLYjR5VmlvczJkVk1rVksyb3B2RlhfazJQSW1RanBuYlJ0SThoY2V3OWoyNVRyWEM3azZRN3JIbkpsN0FyUUd3VTB3UmtpYzZ3VFFDTkRKM202WFBnM2JTSUU3eGNqZ0RBVGkwODJkbGNiZ2F1Z2dNSmRBSmt6RXZUMVU?oc=5\" target=\"_blank\">The Americas Seek To Expand Genomic Surveillance For Mosquito-Borne Viruses</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">St. Lucia Times</font>"
+      },
+      "source": {
+        "href": "https://stluciatimes.com",
+        "title": "St. Lucia Times"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika Virus in Mumbai: 79-Year-Old Man Becomes First Confirmed Patient; ‘No Need to Panic’, Says BMC - LatestLY",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika Virus in Mumbai: 79-Year-Old Man Becomes First Confirmed Patient; ‘No Need to Panic’, Says BMC - LatestLY"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPWGZJOTE4OXlRclQzNkdkNjdqWXQ0Vm9wQmRSMld0WTBfUGc1MjJlaklENC1OSGZqYXZzX0EzaFhvUGh2R3JmVktJRG1GM3NZekJBSHUyUTdER1NOaHFBXzM2cnRpeGNWTVlxX2FXeU5HbEMyTE9DcnM2djlTU2p5RVdOcHNBdWZEVGpMMzZIdUd0TG9RUFRQZmVRUnF4UVJROWhCeDF1VUNtak11UjdFOWZQUUdTLUtPOUFqM3AzbDB0bVNPRHZOS2NMZXhiTnRzNnlnLVUwdHZzRnJwOEVKR2JlV1hyRm_SAewBQVVfeXFMTkJ6SHZTSFNsRlJzZ1ZpNnZtc0hnZHNGRDNKc3oxSDBPdWJENEJnUFpnUUhTSjBGbFlQQ2VmWGhuZ3pYMXZWWjhHQUtKZmVoSlZsQ3NfSGNuQUJ6T09IZzlTMV9wbkFTMnc3cWxTeUVIWWFYaVFEaW4ydlJuSTlHMFBvQjZ6a2JDcURaMGpGVm45emJNOWVsRkNuWndBLXZjbkpXVU5USGZEMm1jZml4QVFqM25ERUZOZmpJUDFLVlhyZE1iTy1WZEFMQVJ3bFhSSE5ZdHBVX19iN3l1Qmt0UWhRX0piakpOZnNOQ08?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPWGZJOTE4OXlRclQzNkdkNjdqWXQ0Vm9wQmRSMld0WTBfUGc1MjJlaklENC1OSGZqYXZzX0EzaFhvUGh2R3JmVktJRG1GM3NZekJBSHUyUTdER1NOaHFBXzM2cnRpeGNWTVlxX2FXeU5HbEMyTE9DcnM2djlTU2p5RVdOcHNBdWZEVGpMMzZIdUd0TG9RUFRQZmVRUnF4UVJROWhCeDF1VUNtak11UjdFOWZQUUdTLUtPOUFqM3AzbDB0bVNPRHZOS2NMZXhiTnRzNnlnLVUwdHZzRnJwOEVKR2JlV1hyRm_SAewBQVVfeXFMTkJ6SHZTSFNsRlJzZ1ZpNnZtc0hnZHNGRDNKc3oxSDBPdWJENEJnUFpnUUhTSjBGbFlQQ2VmWGhuZ3pYMXZWWjhHQUtKZmVoSlZsQ3NfSGNuQUJ6T09IZzlTMV9wbkFTMnc3cWxTeUVIWWFYaVFEaW4ydlJuSTlHMFBvQjZ6a2JDcURaMGpGVm45emJNOWVsRkNuWndBLXZjbkpXVU5USGZEMm1jZml4QVFqM25ERUZOZmpJUDFLVlhyZE1iTy1WZEFMQVJ3bFhSSE5ZdHBVX19iN3l1Qmt0UWhRX0piakpOZnNOQ08?oc=5",
+      "id": "CBMi5wFBVV95cUxPWGZJOTE4OXlRclQzNkdkNjdqWXQ0Vm9wQmRSMld0WTBfUGc1MjJlaklENC1OSGZqYXZzX0EzaFhvUGh2R3JmVktJRG1GM3NZekJBSHUyUTdER1NOaHFBXzM2cnRpeGNWTVlxX2FXeU5HbEMyTE9DcnM2djlTU2p5RVdOcHNBdWZEVGpMMzZIdUd0TG9RUFRQZmVRUnF4UVJROWhCeDF1VUNtak11UjdFOWZQUUdTLUtPOUFqM3AzbDB0bVNPRHZOS2NMZXhiTnRzNnlnLVUwdHZzRnJwOEVKR2JlV1hyRm_SAewBQVVfeXFMTkJ6SHZTSFNsRlJzZ1ZpNnZtc0hnZHNGRDNKc3oxSDBPdWJENEJnUFpnUUhTSjBGbFlQQ2VmWGhuZ3pYMXZWWjhHQUtKZmVoSlZsQ3NfSGNuQUJ6T09IZzlTMV9wbkFTMnc3cWxTeUVIWWFYaVFEaW4ydlJuSTlHMFBvQjZ6a2JDcURaMGpGVm45emJNOWVsRkNuWndBLXZjbkpXVU5USGZEMm1jZml4QVFqM25ERUZOZmpJUDFLVlhyZE1iTy1WZEFMQVJ3bFhSSE5ZdHBVX19iN3l1Qmt0UWhRX0piakpOZnNOQ08",
+      "guidislink": false,
+      "published": "Thu, 24 Aug 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        8,
+        24,
+        7,
+        0,
+        0,
+        3,
+        236,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi5wFBVV95cUxPWGZJOTE4OXlRclQzNkdkNjdqWXQ0Vm9wQmRSMld0WTBfUGc1MjJlaklENC1OSGZqYXZzX0EzaFhvUGh2R3JmVktJRG1GM3NZekJBSHUyUTdER1NOaHFBXzM2cnRpeGNWTVlxX2FXeU5HbEMyTE9DcnM2djlTU2p5RVdOcHNBdWZEVGpMMzZIdUd0TG9RUFRQZmVRUnF4UVJROWhCeDF1VUNtak11UjdFOWZQUUdTLUtPOUFqM3AzbDB0bVNPRHZOS2NMZXhiTnRzNnlnLVUwdHZzRnJwOEVKR2JlV1hyRm_SAewBQVVfeXFMTkJ6SHZTSFNsRlJzZ1ZpNnZtc0hnZHNGRDNKc3oxSDBPdWJENEJnUFpnUUhTSjBGbFlQQ2VmWGhuZ3pYMXZWWjhHQUtKZmVoSlZsQ3NfSGNuQUJ6T09IZzlTMV9wbkFTMnc3cWxTeUVIWWFYaVFEaW4ydlJuSTlHMFBvQjZ6a2JDcURaMGpGVm45emJNOWVsRkNuWndBLXZjbkpXVU5USGZEMm1jZml4QVFqM25ERUZOZmpJUDFLVlhyZE1iTy1WZEFMQVJ3bFhSSE5ZdHBVX19iN3l1Qmt0UWhRX0piakpOZnNOQ08?oc=5\" target=\"_blank\">Zika Virus in Mumbai: 79-Year-Old Man Becomes First Confirmed Patient; ‘No Need to Panic’, Says BMC</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">LatestLY</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi5wFBVV95cUxPWGZJOTE4OXlRclQzNkdkNjdqWXQ0Vm9wQmRSMld0WTBfUGc1MjJlaklENC1OSGZqYXZzX0EzaFhvUGh2R3JmVktJRG1GM3NZekJBSHUyUTdER1NOaHFBXzM2cnRpeGNWTVlxX2FXeU5HbEMyTE9DcnM2djlTU2p5RVdOcHNBdWZEVGpMMzZIdUd0TG9RUFRQZmVRUnF4UVJROWhCeDF1VUNtak11UjdFOWZQUUdTLUtPOUFqM3AzbDB0bVNPRHZOS2NMZXhiTnRzNnlnLVUwdHZzRnJwOEVKR2JlV1hyRm_SAewBQVVfeXFMTkJ6SHZTSFNsRlJzZ1ZpNnZtc0hnZHNGRDNKc3oxSDBPdWJENEJnUFpnUUhTSjBGbFlQQ2VmWGhuZ3pYMXZWWjhHQUtKZmVoSlZsQ3NfSGNuQUJ6T09IZzlTMV9wbkFTMnc3cWxTeUVIWWFYaVFEaW4ydlJuSTlHMFBvQjZ6a2JDcURaMGpGVm45emJNOWVsRkNuWndBLXZjbkpXVU5USGZEMm1jZml4QVFqM25ERUZOZmpJUDFLVlhyZE1iTy1WZEFMQVJ3bFhSSE5ZdHBVX19iN3l1Qmt0UWhRX0piakpOZnNOQ08?oc=5\" target=\"_blank\">Zika Virus in Mumbai: 79-Year-Old Man Becomes First Confirmed Patient; ‘No Need to Panic’, Says BMC</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">LatestLY</font>"
+      },
+      "source": {
+        "href": "https://www.latestly.com",
+        "title": "LatestLY"
+      },
+      "sub_articles": []
+    }
+  ]
+}

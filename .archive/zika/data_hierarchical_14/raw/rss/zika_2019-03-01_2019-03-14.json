@@ -1,0 +1,822 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2019-03-01",
+  "window_end": "2019-03-14",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2019-03-01+before%3A2019-03-15&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2019-03-01+before:2019-03-15&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:26:42Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2019-03-01 before:2019-03-15\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2019-03-01 before:2019-03-15\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2019-03-01+before:2019-03-15&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2019-03-01+before:2019-03-15&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:26:42 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      26,
+      42,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Aedes aegypti AgBR1 antibodies modulate early Zika virus infection of mice - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Aedes aegypti AgBR1 antibodies modulate early Zika virus infection of mice - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE80b2V0NE5GOVJiUTFFOUV3QUJ3YklCN2dYVHBxdTRNU2hvdUI4SnA1bXVKOHhmb3pMQnRnSmZJZzR5Tmk0WUZCOHNVdE1LWUVyQ1c3bEZwbWFCZXhJanc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE80b2V0NE5GOVJiUTFFOUV3QUJ3YklCN2dYVHBxdTRNU2hvdUI4SnA1bXVKOHhmb3pMQnRnSmZJZzR5Tmk0WUZCOHNVdE1LWUVyQ1c3bEZwbWFCZXhJanc?oc=5",
+      "id": "CBMiXkFVX3lxTE80b2V0NE5GOVJiUTFFOUV3QUJ3YklCN2dYVHBxdTRNU2hvdUI4SnA1bXVKOHhmb3pMQnRnSmZJZzR5Tmk0WUZCOHNVdE1LWUVyQ1c3bEZwbWFCZXhJanc",
+      "guidislink": false,
+      "published": "Mon, 11 Mar 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        3,
+        11,
+        7,
+        0,
+        0,
+        0,
+        70,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE80b2V0NE5GOVJiUTFFOUV3QUJ3YklCN2dYVHBxdTRNU2hvdUI4SnA1bXVKOHhmb3pMQnRnSmZJZzR5Tmk0WUZCOHNVdE1LWUVyQ1c3bEZwbWFCZXhJanc?oc=5\" target=\"_blank\">Aedes aegypti AgBR1 antibodies modulate early Zika virus infection of mice</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE80b2V0NE5GOVJiUTFFOUV3QUJ3YklCN2dYVHBxdTRNU2hvdUI4SnA1bXVKOHhmb3pMQnRnSmZJZzR5Tmk0WUZCOHNVdE1LWUVyQ1c3bEZwbWFCZXhJanc?oc=5\" target=\"_blank\">Aedes aegypti AgBR1 antibodies modulate early Zika virus infection of mice</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Protection from Zika virus may lie in a protein derived from mosquitoes - YaleNews",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Protection from Zika virus may lie in a protein derived from mosquitoes - YaleNews"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdERZME5WNnFaUnlwLTVJT0RJNTNzZ0VraFptMndTTmNRNlFtV29uOWUyU1ZtWEJyWWJNci1mNWR3NFhvUUo1Ri1GZUFCUlBtQ1Y4eUw0X3lLX1MxV3d3c1BJVUcydE93em4yQUc2OWhiS09ObTJUT3hYQnNGSUpVT1ZQM2dfWnJrVnpDc1J1cmRfbm8?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdERZME5WNnFaUnlwLTVJT0RJNTNzZ0VraFptMndTTmNRNlFtV29uOWUyU1ZtWEJyWWJNci1mNWR3NFhvUUo1Ri1GZUFCUlBtQ1Y4eUw0X3lLX1MxV3d3c1BJVUcydE93em4yQUc2OWhiS09ObTJUT3hYQnNGSUpVT1ZQM2dfWnJrVnpDc1J1cmRfbm8?oc=5",
+      "id": "CBMikwFBVV95cUxPdERZME5WNnFaUnlwLTVJT0RJNTNzZ0VraFptMndTTmNRNlFtV29uOWUyU1ZtWEJyWWJNci1mNWR3NFhvUUo1Ri1GZUFCUlBtQ1Y4eUw0X3lLX1MxV3d3c1BJVUcydE93em4yQUc2OWhiS09ObTJUT3hYQnNGSUpVT1ZQM2dfWnJrVnpDc1J1cmRfbm8",
+      "guidislink": false,
+      "published": "Mon, 11 Mar 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        3,
+        11,
+        7,
+        0,
+        0,
+        0,
+        70,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxPdERZME5WNnFaUnlwLTVJT0RJNTNzZ0VraFptMndTTmNRNlFtV29uOWUyU1ZtWEJyWWJNci1mNWR3NFhvUUo1Ri1GZUFCUlBtQ1Y4eUw0X3lLX1MxV3d3c1BJVUcydE93em4yQUc2OWhiS09ObTJUT3hYQnNGSUpVT1ZQM2dfWnJrVnpDc1J1cmRfbm8?oc=5\" target=\"_blank\">Protection from Zika virus may lie in a protein derived from mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">YaleNews</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxPdERZME5WNnFaUnlwLTVJT0RJNTNzZ0VraFptMndTTmNRNlFtV29uOWUyU1ZtWEJyWWJNci1mNWR3NFhvUUo1Ri1GZUFCUlBtQ1Y4eUw0X3lLX1MxV3d3c1BJVUcydE93em4yQUc2OWhiS09ObTJUT3hYQnNGSUpVT1ZQM2dfWnJrVnpDc1J1cmRfbm8?oc=5\" target=\"_blank\">Protection from Zika virus may lie in a protein derived from mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">YaleNews</font>"
+      },
+      "source": {
+        "href": "https://news.yale.edu",
+        "title": "YaleNews"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika virus: 3 years after outbreak, \"our children are forgotten\" - CBSN Originals - CBS News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika virus: 3 years after outbreak, \"our children are forgotten\" - CBSN Originals - CBS News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTzZ6VnE3RkFKY1NJaTJPdHR5UUszZ0k4Y0ctUkJBZ3VUUmd2ZkJuTkdFeFMzSUk0SkttTkhMbllsY2s2OUttbnMxQ25VQWJwUFRidDNFQ3gzZ19MQXZsSFpST21pSnhqbnZxZ2ZDTXdYUXlLX2VnS1Zwd0d5eVZqYXpjWUkxZUXSAYwBQVVfeXFMTUM4UTByYlY3TmdtU1NpT2VqaDJ3NmRUMFlMQmU0RDBfem8zRkQzaU9uRHhJb2l4OGRHZzdZSkFaRnJqYWQwczhwM0RZMlhkdS1yYmM1bm5PTHVkOUZPajhiamx6MFBjQ2c1MmM1djVEMmhoUmRGazM0M3FqdDZ3RkFOaW9jZ1BESzRzT0I?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTzZ6VnE3RkFKY1NJaTJPdHR5UUszZ0k4Y0ctUkJBZ3VUUmd2ZkJuTkdFeFMzSUk0SkttTkhMbllsY2s2OUttbnMxQ25VQWJwUFRidDNFQ3gzZ19MQXZsSFpST21pSnhqbnZxZ2ZDTXdYUXlLX2VnS1Zwd0d5eVZqYXpjWUkxZUXSAYwBQVVfeXFMTUM4UTByYlY3TmdtU1NpT2VqaDJ3NmRUMFlMQmU0RDBfem8zRkQzaU9uRHhJb2l4OGRHZzdZSkFaRnJqYWQwczhwM0RZMlhkdS1yYmM1bm5PTHVkOUZPajhiamx6MFBjQ2c1MmM1djVEMmhoUmRGazM0M3FqdDZ3RkFOaW9jZ1BESzRzT0I?oc=5",
+      "id": "CBMihwFBVV95cUxOTzZ6VnE3RkFKY1NJaTJPdHR5UUszZ0k4Y0ctUkJBZ3VUUmd2ZkJuTkdFeFMzSUk0SkttTkhMbllsY2s2OUttbnMxQ25VQWJwUFRidDNFQ3gzZ19MQXZsSFpST21pSnhqbnZxZ2ZDTXdYUXlLX2VnS1Zwd0d5eVZqYXpjWUkxZUXSAYwBQVVfeXFMTUM4UTByYlY3TmdtU1NpT2VqaDJ3NmRUMFlMQmU0RDBfem8zRkQzaU9uRHhJb2l4OGRHZzdZSkFaRnJqYWQwczhwM0RZMlhkdS1yYmM1bm5PTHVkOUZPajhiamx6MFBjQ2c1MmM1djVEMmhoUmRGazM0M3FqdDZ3RkFOaW9jZ1BESzRzT0I",
+      "guidislink": false,
+      "published": "Fri, 08 Mar 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        3,
+        8,
+        8,
+        0,
+        0,
+        4,
+        67,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxOTzZ6VnE3RkFKY1NJaTJPdHR5UUszZ0k4Y0ctUkJBZ3VUUmd2ZkJuTkdFeFMzSUk0SkttTkhMbllsY2s2OUttbnMxQ25VQWJwUFRidDNFQ3gzZ19MQXZsSFpST21pSnhqbnZxZ2ZDTXdYUXlLX2VnS1Zwd0d5eVZqYXpjWUkxZUXSAYwBQVVfeXFMTUM4UTByYlY3TmdtU1NpT2VqaDJ3NmRUMFlMQmU0RDBfem8zRkQzaU9uRHhJb2l4OGRHZzdZSkFaRnJqYWQwczhwM0RZMlhkdS1yYmM1bm5PTHVkOUZPajhiamx6MFBjQ2c1MmM1djVEMmhoUmRGazM0M3FqdDZ3RkFOaW9jZ1BESzRzT0I?oc=5\" target=\"_blank\">Zika virus: 3 years after outbreak, \"our children are forgotten\" - CBSN Originals</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CBS News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxOTzZ6VnE3RkFKY1NJaTJPdHR5UUszZ0k4Y0ctUkJBZ3VUUmd2ZkJuTkdFeFMzSUk0SkttTkhMbllsY2s2OUttbnMxQ25VQWJwUFRidDNFQ3gzZ19MQXZsSFpST21pSnhqbnZxZ2ZDTXdYUXlLX2VnS1Zwd0d5eVZqYXpjWUkxZUXSAYwBQVVfeXFMTUM4UTByYlY3TmdtU1NpT2VqaDJ3NmRUMFlMQmU0RDBfem8zRkQzaU9uRHhJb2l4OGRHZzdZSkFaRnJqYWQwczhwM0RZMlhkdS1yYmM1bm5PTHVkOUZPajhiamx6MFBjQ2c1MmM1djVEMmhoUmRGazM0M3FqdDZ3RkFOaW9jZ1BESzRzT0I?oc=5\" target=\"_blank\">Zika virus: 3 years after outbreak, \"our children are forgotten\" - CBSN Originals</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CBS News</font>"
+      },
+      "source": {
+        "href": "https://www.cbsnews.com",
+        "title": "CBS News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Study highlights early pregnancy Zika microcephaly risk - CIDRAP",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Study highlights early pregnancy Zika microcephaly risk - CIDRAP"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUFNNMzZJQk5TemlDWDBGSnhobzRabVplMmlWdUc3UDMtRXpxX09pSVd2RmVSOGc0RmRIWWtMWHh6bDRpcmVKbU40OEdhSVQ3aHI0cGRRWVB4X1NNd2I2TEt2YTNKcHhpZFY0VUw1ZmNIRFZoeDBoMkVHcy16OVRWUzBwMGNnQlR3MDVyM3MwRXM?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUFNNMzZJQk5TemlDWDBGSnhobzRabVplMmlWdUc3UDMtRXpxX09pSVd2RmVSOGc0RmRIWWtMWHh6bDRpcmVKbU40OEdhSVQ3aHI0cGRRWVB4X1NNd2I2TEt2YTNKcHhpZFY0VUw1ZmNIRFZoeDBoMkVHcy16OVRWUzBwMGNnQlR3MDVyM3MwRXM?oc=5",
+      "id": "CBMikAFBVV95cUxOUFNNMzZJQk5TemlDWDBGSnhobzRabVplMmlWdUc3UDMtRXpxX09pSVd2RmVSOGc0RmRIWWtMWHh6bDRpcmVKbU40OEdhSVQ3aHI0cGRRWVB4X1NNd2I2TEt2YTNKcHhpZFY0VUw1ZmNIRFZoeDBoMkVHcy16OVRWUzBwMGNnQlR3MDVyM3MwRXM",
+      "guidislink": false,
+      "published": "Tue, 05 Mar 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        3,
+        5,
+        8,
+        0,
+        0,
+        1,
+        64,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxOUFNNMzZJQk5TemlDWDBGSnhobzRabVplMmlWdUc3UDMtRXpxX09pSVd2RmVSOGc0RmRIWWtMWHh6bDRpcmVKbU40OEdhSVQ3aHI0cGRRWVB4X1NNd2I2TEt2YTNKcHhpZFY0VUw1ZmNIRFZoeDBoMkVHcy16OVRWUzBwMGNnQlR3MDVyM3MwRXM?oc=5\" target=\"_blank\">Study highlights early pregnancy Zika microcephaly risk</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CIDRAP</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxOUFNNMzZJQk5TemlDWDBGSnhobzRabVplMmlWdUc3UDMtRXpxX09pSVd2RmVSOGc0RmRIWWtMWHh6bDRpcmVKbU40OEdhSVQ3aHI0cGRRWVB4X1NNd2I2TEt2YTNKcHhpZFY0VUw1ZmNIRFZoeDBoMkVHcy16OVRWUzBwMGNnQlR3MDVyM3MwRXM?oc=5\" target=\"_blank\">Study highlights early pregnancy Zika microcephaly risk</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CIDRAP</font>"
+      },
+      "source": {
+        "href": "https://www.cidrap.umn.edu",
+        "title": "CIDRAP"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Severity of Zika outbreak explains microcephaly rate in northeast Brazil - Healio",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Severity of Zika outbreak explains microcephaly rate in northeast Brazil - Healio"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZXZVQXdoUEhmOGRFT0o4eEtuc2ZKUlU5TXpwUUlRcGJlbFlwZXVvdzNwdFlPa3JVVTVQTm9rWDItZHBPWllQa0NTbGxnTkdHeTZrZTJwblZCSDZlQ2RPVjNJcnNnbWV6UEtHU0lpWF9kd3BTQjJYXzYzWjExTm4wWDRwc3oxd0V0bnlHaXA4R01KamNXTUpuSDduMjdSUW5XcjItNlJ0Z2F5UXFQbHgweEVZeEkyRUgwb05wNg?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZXZVQXdoUEhmOGRFT0o4eEtuc2ZKUlU5TXpwUUlRcGJlbFlwZXVvdzNwdFlPa3JVVTVQTm9rWDItZHBPWllQa0NTbGxnTkdHeTZrZTJwblZCSDZlQ2RPVjNJcnNnbWV6UEtHU0lpWF9kd3BTQjJYXzYzWjExTm4wWDRwc3oxd0V0bnlHaXA4R01KamNXTUpuSDduMjdSUW5XcjItNlJ0Z2F5UXFQbHgweEVZeEkyRUgwb05wNg?oc=5",
+      "id": "CBMivAFBVV95cUxQZXZVQXdoUEhmOGRFT0o4eEtuc2ZKUlU5TXpwUUlRcGJlbFlwZXVvdzNwdFlPa3JVVTVQTm9rWDItZHBPWllQa0NTbGxnTkdHeTZrZTJwblZCSDZlQ2RPVjNJcnNnbWV6UEtHU0lpWF9kd3BTQjJYXzYzWjExTm4wWDRwc3oxd0V0bnlHaXA4R01KamNXTUpuSDduMjdSUW5XcjItNlJ0Z2F5UXFQbHgweEVZeEkyRUgwb05wNg",
+      "guidislink": false,
+      "published": "Thu, 14 Mar 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        3,
+        14,
+        7,
+        0,
+        0,
+        3,
+        73,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxQZXZVQXdoUEhmOGRFT0o4eEtuc2ZKUlU5TXpwUUlRcGJlbFlwZXVvdzNwdFlPa3JVVTVQTm9rWDItZHBPWllQa0NTbGxnTkdHeTZrZTJwblZCSDZlQ2RPVjNJcnNnbWV6UEtHU0lpWF9kd3BTQjJYXzYzWjExTm4wWDRwc3oxd0V0bnlHaXA4R01KamNXTUpuSDduMjdSUW5XcjItNlJ0Z2F5UXFQbHgweEVZeEkyRUgwb05wNg?oc=5\" target=\"_blank\">Severity of Zika outbreak explains microcephaly rate in northeast Brazil</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Healio</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxQZXZVQXdoUEhmOGRFT0o4eEtuc2ZKUlU5TXpwUUlRcGJlbFlwZXVvdzNwdFlPa3JVVTVQTm9rWDItZHBPWllQa0NTbGxnTkdHeTZrZTJwblZCSDZlQ2RPVjNJcnNnbWV6UEtHU0lpWF9kd3BTQjJYXzYzWjExTm4wWDRwc3oxd0V0bnlHaXA4R01KamNXTUpuSDduMjdSUW5XcjItNlJ0Z2F5UXFQbHgweEVZeEkyRUgwb05wNg?oc=5\" target=\"_blank\">Severity of Zika outbreak explains microcephaly rate in northeast Brazil</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Healio</font>"
+      },
+      "source": {
+        "href": "https://www.healio.com",
+        "title": "Healio"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika, dengue, and yellow fever are about to get much worse - Vox",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika, dengue, and yellow fever are about to get much worse - Vox"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSk12MHpzMmhSX1VFcGJ6NXZqRmozc2FSN3hpdWNvNnVBUzduVmYtODFjNDBRODhfYnlBNlhESDBUcjBQbWxsZk1vSFZKV1dDZzFLc1J3U1RwZ2xDRm44dnhUelFxTWZSaGVoUXpnb3lwU2xDZW56UnZmWm9LTC1YUm5vSGRJRGxLbXdnTVZDMkF5UzkxZXU0dFZjaFNTUEtjTUJPYQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSk12MHpzMmhSX1VFcGJ6NXZqRmozc2FSN3hpdWNvNnVBUzduVmYtODFjNDBRODhfYnlBNlhESDBUcjBQbWxsZk1vSFZKV1dDZzFLc1J3U1RwZ2xDRm44dnhUelFxTWZSaGVoUXpnb3lwU2xDZW56UnZmWm9LTC1YUm5vSGRJRGxLbXdnTVZDMkF5UzkxZXU0dFZjaFNTUEtjTUJPYQ?oc=5",
+      "id": "CBMipAFBVV95cUxOSk12MHpzMmhSX1VFcGJ6NXZqRmozc2FSN3hpdWNvNnVBUzduVmYtODFjNDBRODhfYnlBNlhESDBUcjBQbWxsZk1vSFZKV1dDZzFLc1J3U1RwZ2xDRm44dnhUelFxTWZSaGVoUXpnb3lwU2xDZW56UnZmWm9LTC1YUm5vSGRJRGxLbXdnTVZDMkF5UzkxZXU0dFZjaFNTUEtjTUJPYQ",
+      "guidislink": false,
+      "published": "Thu, 07 Mar 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        3,
+        7,
+        8,
+        0,
+        0,
+        3,
+        66,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxOSk12MHpzMmhSX1VFcGJ6NXZqRmozc2FSN3hpdWNvNnVBUzduVmYtODFjNDBRODhfYnlBNlhESDBUcjBQbWxsZk1vSFZKV1dDZzFLc1J3U1RwZ2xDRm44dnhUelFxTWZSaGVoUXpnb3lwU2xDZW56UnZmWm9LTC1YUm5vSGRJRGxLbXdnTVZDMkF5UzkxZXU0dFZjaFNTUEtjTUJPYQ?oc=5\" target=\"_blank\">Zika, dengue, and yellow fever are about to get much worse</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vox</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxOSk12MHpzMmhSX1VFcGJ6NXZqRmozc2FSN3hpdWNvNnVBUzduVmYtODFjNDBRODhfYnlBNlhESDBUcjBQbWxsZk1vSFZKV1dDZzFLc1J3U1RwZ2xDRm44dnhUelFxTWZSaGVoUXpnb3lwU2xDZW56UnZmWm9LTC1YUm5vSGRJRGxLbXdnTVZDMkF5UzkxZXU0dFZjaFNTUEtjTUJPYQ?oc=5\" target=\"_blank\">Zika, dengue, and yellow fever are about to get much worse</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vox</font>"
+      },
+      "source": {
+        "href": "https://www.vox.com",
+        "title": "Vox"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Diagnosing Zika virus infection against a background of other flaviviruses: Studies in high resolution serological analysis - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Diagnosing Zika virus infection against a background of other flaviviruses: Studies in high resolution serological analysis - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBnR1VNX2lKRXVvWTNqMU82NGJlaV9RQW5PVkFBNU1fMmxVZ1VLLW5WT3ZDUTNra195eXA4VmtlU0pNb2FEU2dWU2ZKUU1rUGpoRC1EN1B3WUtNRXl6YUFv?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBnR1VNX2lKRXVvWTNqMU82NGJlaV9RQW5PVkFBNU1fMmxVZ1VLLW5WT3ZDUTNra195eXA4VmtlU0pNb2FEU2dWU2ZKUU1rUGpoRC1EN1B3WUtNRXl6YUFv?oc=5",
+      "id": "CBMiX0FVX3lxTFBnR1VNX2lKRXVvWTNqMU82NGJlaV9RQW5PVkFBNU1fMmxVZ1VLLW5WT3ZDUTNra195eXA4VmtlU0pNb2FEU2dWU2ZKUU1rUGpoRC1EN1B3WUtNRXl6YUFv",
+      "guidislink": false,
+      "published": "Wed, 06 Mar 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        3,
+        6,
+        8,
+        0,
+        0,
+        2,
+        65,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFBnR1VNX2lKRXVvWTNqMU82NGJlaV9RQW5PVkFBNU1fMmxVZ1VLLW5WT3ZDUTNra195eXA4VmtlU0pNb2FEU2dWU2ZKUU1rUGpoRC1EN1B3WUtNRXl6YUFv?oc=5\" target=\"_blank\">Diagnosing Zika virus infection against a background of other flaviviruses: Studies in high resolution serological analysis</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFBnR1VNX2lKRXVvWTNqMU82NGJlaV9RQW5PVkFBNU1fMmxVZ1VLLW5WT3ZDUTNra195eXA4VmtlU0pNb2FEU2dWU2ZKUU1rUGpoRC1EN1B3WUtNRXl6YUFv?oc=5\" target=\"_blank\">Diagnosing Zika virus infection against a background of other flaviviruses: Studies in high resolution serological analysis</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika Virus Endemic In Thailand, Study Shows - Asian Scientist Magazine",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika Virus Endemic In Thailand, Study Shows - Asian Scientist Magazine"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMmhpM05XaFV5X2Fma2NSU1daX0pIUTg2VWZtQ3JHVFJOM1otNlBJNEZJMkczVF9QOGJIUm45bDRJR210Qks0NXQzZjdNNmFlNm9hOUxIYzlHYk8wRVhwR0ZKWGNjNE1nVVo1bXRWcFI4Q09USXFNRmtlM1o1ZXo3VXQ5U2gybXBsRVFRZ1ZwT1Y3SXItdDY1cGVJM0tHbjlO?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMmhpM05XaFV5X2Fma2NSU1daX0pIUTg2VWZtQ3JHVFJOM1otNlBJNEZJMkczVF9QOGJIUm45bDRJR210Qks0NXQzZjdNNmFlNm9hOUxIYzlHYk8wRVhwR0ZKWGNjNE1nVVo1bXRWcFI4Q09USXFNRmtlM1o1ZXo3VXQ5U2gybXBsRVFRZ1ZwT1Y3SXItdDY1cGVJM0tHbjlO?oc=5",
+      "id": "CBMioAFBVV95cUxPMmhpM05XaFV5X2Fma2NSU1daX0pIUTg2VWZtQ3JHVFJOM1otNlBJNEZJMkczVF9QOGJIUm45bDRJR210Qks0NXQzZjdNNmFlNm9hOUxIYzlHYk8wRVhwR0ZKWGNjNE1nVVo1bXRWcFI4Q09USXFNRmtlM1o1ZXo3VXQ5U2gybXBsRVFRZ1ZwT1Y3SXItdDY1cGVJM0tHbjlO",
+      "guidislink": false,
+      "published": "Thu, 14 Mar 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        3,
+        14,
+        7,
+        0,
+        0,
+        3,
+        73,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPMmhpM05XaFV5X2Fma2NSU1daX0pIUTg2VWZtQ3JHVFJOM1otNlBJNEZJMkczVF9QOGJIUm45bDRJR210Qks0NXQzZjdNNmFlNm9hOUxIYzlHYk8wRVhwR0ZKWGNjNE1nVVo1bXRWcFI4Q09USXFNRmtlM1o1ZXo3VXQ5U2gybXBsRVFRZ1ZwT1Y3SXItdDY1cGVJM0tHbjlO?oc=5\" target=\"_blank\">Zika Virus Endemic In Thailand, Study Shows</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Asian Scientist Magazine</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPMmhpM05XaFV5X2Fma2NSU1daX0pIUTg2VWZtQ3JHVFJOM1otNlBJNEZJMkczVF9QOGJIUm45bDRJR210Qks0NXQzZjdNNmFlNm9hOUxIYzlHYk8wRVhwR0ZKWGNjNE1nVVo1bXRWcFI4Q09USXFNRmtlM1o1ZXo3VXQ5U2gybXBsRVFRZ1ZwT1Y3SXItdDY1cGVJM0tHbjlO?oc=5\" target=\"_blank\">Zika Virus Endemic In Thailand, Study Shows</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Asian Scientist Magazine</font>"
+      },
+      "source": {
+        "href": "https://www.asianscientist.com",
+        "title": "Asian Scientist Magazine"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika virus symptoms, treatment, travel risks, birth defects: What pregnant women and others need to know about this frightening disease - CBS News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika virus symptoms, treatment, travel risks, birth defects: What pregnant women and others need to know about this frightening disease - CBS News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRXpOel9USnNNbF96NTFMX0lsaGZYSkhETHM0VXllTHo1SnNOTHgzRjRsSUtXd0tKdS03Um52dmRKZ0J0ZmxuTmVrVC1XRC1wUlFSaUtfLVpoNkRxMGJUclhkTllWenZWWlhjaWx4NlBXbENyeENILThJRHdXdXZEaHA5NTBoNHRxS1lrR1Jnc2RNUdIBlwFBVV95cUxQU3ZueGg1LWxOVFZqSzVZb0ZQMk5saXZKdkJEYTdvV2pyRHNuSHQtWW5lOS00UDR2cVhRZ1doZFU0SDNxNWVNVmhEUkVVZzcwdlZ2QzFlNlJIRFZUM05UVW0zdzNHblNWekN5MEh5MDZnd3lJOGxsWGZaWHh6YzY5djNXUWlqdDFlWUpMSkIwc2RLcXZzZmVB?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRXpOel9USnNNbF96NTFMX0lsaGZYSkhETHM0VXllTHo1SnNOTHgzRjRsSUtXd0tKdS03Um52dmRKZ0J0ZmxuTmVrVC1XRC1wUlFSaUtfLVpoNkRxMGJUclhkTllWenZWWlhjaWx4NlBXbENyeENILThJRHdXdXZEaHA5NTBoNHRxS1lrR1Jnc2RNUdIBlwFBVV95cUxQU3ZueGg1LWxOVFZqSzVZb0ZQMk5saXZKdkJEYTdvV2pyRHNuSHQtWW5lOS00UDR2cVhRZ1doZFU0SDNxNWVNVmhEUkVVZzcwdlZ2QzFlNlJIRFZUM05UVW0zdzNHblNWekN5MEh5MDZnd3lJOGxsWGZaWHh6YzY5djNXUWlqdDFlWUpMSkIwc2RLcXZzZmVB?oc=5",
+      "id": "CBMikgFBVV95cUxQRXpOel9USnNNbF96NTFMX0lsaGZYSkhETHM0VXllTHo1SnNOTHgzRjRsSUtXd0tKdS03Um52dmRKZ0J0ZmxuTmVrVC1XRC1wUlFSaUtfLVpoNkRxMGJUclhkTllWenZWWlhjaWx4NlBXbENyeENILThJRHdXdXZEaHA5NTBoNHRxS1lrR1Jnc2RNUdIBlwFBVV95cUxQU3ZueGg1LWxOVFZqSzVZb0ZQMk5saXZKdkJEYTdvV2pyRHNuSHQtWW5lOS00UDR2cVhRZ1doZFU0SDNxNWVNVmhEUkVVZzcwdlZ2QzFlNlJIRFZUM05UVW0zdzNHblNWekN5MEh5MDZnd3lJOGxsWGZaWHh6YzY5djNXUWlqdDFlWUpMSkIwc2RLcXZzZmVB",
+      "guidislink": false,
+      "published": "Sun, 10 Mar 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        3,
+        10,
+        8,
+        0,
+        0,
+        6,
+        69,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxQRXpOel9USnNNbF96NTFMX0lsaGZYSkhETHM0VXllTHo1SnNOTHgzRjRsSUtXd0tKdS03Um52dmRKZ0J0ZmxuTmVrVC1XRC1wUlFSaUtfLVpoNkRxMGJUclhkTllWenZWWlhjaWx4NlBXbENyeENILThJRHdXdXZEaHA5NTBoNHRxS1lrR1Jnc2RNUdIBlwFBVV95cUxQU3ZueGg1LWxOVFZqSzVZb0ZQMk5saXZKdkJEYTdvV2pyRHNuSHQtWW5lOS00UDR2cVhRZ1doZFU0SDNxNWVNVmhEUkVVZzcwdlZ2QzFlNlJIRFZUM05UVW0zdzNHblNWekN5MEh5MDZnd3lJOGxsWGZaWHh6YzY5djNXUWlqdDFlWUpMSkIwc2RLcXZzZmVB?oc=5\" target=\"_blank\">Zika virus symptoms, treatment, travel risks, birth defects: What pregnant women and others need to know about this frightening disease</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CBS News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxQRXpOel9USnNNbF96NTFMX0lsaGZYSkhETHM0VXllTHo1SnNOTHgzRjRsSUtXd0tKdS03Um52dmRKZ0J0ZmxuTmVrVC1XRC1wUlFSaUtfLVpoNkRxMGJUclhkTllWenZWWlhjaWx4NlBXbENyeENILThJRHdXdXZEaHA5NTBoNHRxS1lrR1Jnc2RNUdIBlwFBVV95cUxQU3ZueGg1LWxOVFZqSzVZb0ZQMk5saXZKdkJEYTdvV2pyRHNuSHQtWW5lOS00UDR2cVhRZ1doZFU0SDNxNWVNVmhEUkVVZzcwdlZ2QzFlNlJIRFZUM05UVW0zdzNHblNWekN5MEh5MDZnd3lJOGxsWGZaWHh6YzY5djNXUWlqdDFlWUpMSkIwc2RLcXZzZmVB?oc=5\" target=\"_blank\">Zika virus symptoms, treatment, travel risks, birth defects: What pregnant women and others need to know about this frightening disease</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CBS News</font>"
+      },
+      "source": {
+        "href": "https://www.cbsnews.com",
+        "title": "CBS News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "From HIV to Zika – building on lessons learnt to be fully prepared for what might be next - Devpolicy Blog from the Development Policy Centre",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "From HIV to Zika – building on lessons learnt to be fully prepared for what might be next - Devpolicy Blog from the Development Policy Centre"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOOUdTQmxzZEs0YTNBcklBQTh4V3JEYnR0LVlWWGdWUUxaNjAwbkcwdlEzelQ0QzBaWnJzYkk3Q2FSWGF1RnNfbnl4VGwycjFTcE94YVYxa0tXMWRBejdWTWJCX3ZUOGRlMEZMcFFfbmpRbmc5Y3Y0ejUxU1VBWjhEQ0lXaWpJYVUtbkZleXVKUVQ5WTZTanJCM09CWF9UZWlrX2piQnp2cU8wRjZIbFFxbnotSkpJaHlqZjdYeWdEbGw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOOUdTQmxzZEs0YTNBcklBQTh4V3JEYnR0LVlWWGdWUUxaNjAwbkcwdlEzelQ0QzBaWnJzYkk3Q2FSWGF1RnNfbnl4VGwycjFTcE94YVYxa0tXMWRBejdWTWJCX3ZUOGRlMEZMcFFfbmpRbmc5Y3Y0ejUxU1VBWjhEQ0lXaWpJYVUtbkZleXVKUVQ5WTZTanJCM09CWF9UZWlrX2piQnp2cU8wRjZIbFFxbnotSkpJaHlqZjdYeWdEbGw?oc=5",
+      "id": "CBMiwAFBVV95cUxOOUdTQmxzZEs0YTNBcklBQTh4V3JEYnR0LVlWWGdWUUxaNjAwbkcwdlEzelQ0QzBaWnJzYkk3Q2FSWGF1RnNfbnl4VGwycjFTcE94YVYxa0tXMWRBejdWTWJCX3ZUOGRlMEZMcFFfbmpRbmc5Y3Y0ejUxU1VBWjhEQ0lXaWpJYVUtbkZleXVKUVQ5WTZTanJCM09CWF9UZWlrX2piQnp2cU8wRjZIbFFxbnotSkpJaHlqZjdYeWdEbGw",
+      "guidislink": false,
+      "published": "Thu, 14 Mar 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        3,
+        14,
+        7,
+        0,
+        0,
+        3,
+        73,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxOOUdTQmxzZEs0YTNBcklBQTh4V3JEYnR0LVlWWGdWUUxaNjAwbkcwdlEzelQ0QzBaWnJzYkk3Q2FSWGF1RnNfbnl4VGwycjFTcE94YVYxa0tXMWRBejdWTWJCX3ZUOGRlMEZMcFFfbmpRbmc5Y3Y0ejUxU1VBWjhEQ0lXaWpJYVUtbkZleXVKUVQ5WTZTanJCM09CWF9UZWlrX2piQnp2cU8wRjZIbFFxbnotSkpJaHlqZjdYeWdEbGw?oc=5\" target=\"_blank\">From HIV to Zika – building on lessons learnt to be fully prepared for what might be next</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Devpolicy Blog from the Development Policy Centre</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxOOUdTQmxzZEs0YTNBcklBQTh4V3JEYnR0LVlWWGdWUUxaNjAwbkcwdlEzelQ0QzBaWnJzYkk3Q2FSWGF1RnNfbnl4VGwycjFTcE94YVYxa0tXMWRBejdWTWJCX3ZUOGRlMEZMcFFfbmpRbmc5Y3Y0ejUxU1VBWjhEQ0lXaWpJYVUtbkZleXVKUVQ5WTZTanJCM09CWF9UZWlrX2piQnp2cU8wRjZIbFFxbnotSkpJaHlqZjdYeWdEbGw?oc=5\" target=\"_blank\">From HIV to Zika – building on lessons learnt to be fully prepared for what might be next</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Devpolicy Blog from the Development Policy Centre</font>"
+      },
+      "source": {
+        "href": "https://devpolicy.org",
+        "title": "Devpolicy Blog from the Development Policy Centre"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Climate change to expose half of world’s population to disease-spreading mosquitoes by 2050 - The Independent",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Climate change to expose half of world’s population to disease-spreading mosquitoes by 2050 - The Independent"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNX1pjc19ldUdzTkhXX3FyVkJUOWQyQzkwUVN2b2lEZGdVNVNTdGphNWFaSmFia3luV05nbWRPSk5Oa0F1V0NzTnlNdDY5R0dZcVFRT1dKcjBFYXhVNWFHVkVzazc0RU55MVIyOGVxRXhjcjVUcS1oUm50d3lnZjlIdUJua3B0Tzk2cm5GeUZRQlRuM1JNQXpPMVBTa2M2UXk3Y2QxaVh3TXhEdExPeHRKUmFDREdsX3JHczZmbWRjbzdmX2x4YkxvejFjcDB1SVMy?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNX1pjc19ldUdzTkhXX3FyVkJUOWQyQzkwUVN2b2lEZGdVNVNTdGphNWFaSmFia3luV05nbWRPSk5Oa0F1V0NzTnlNdDY5R0dZcVFRT1dKcjBFYXhVNWFHVkVzazc0RU55MVIyOGVxRXhjcjVUcS1oUm50d3lnZjlIdUJua3B0Tzk2cm5GeUZRQlRuM1JNQXpPMVBTa2M2UXk3Y2QxaVh3TXhEdExPeHRKUmFDREdsX3JHczZmbWRjbzdmX2x4YkxvejFjcDB1SVMy?oc=5",
+      "id": "CBMi0AFBVV95cUxNX1pjc19ldUdzTkhXX3FyVkJUOWQyQzkwUVN2b2lEZGdVNVNTdGphNWFaSmFia3luV05nbWRPSk5Oa0F1V0NzTnlNdDY5R0dZcVFRT1dKcjBFYXhVNWFHVkVzazc0RU55MVIyOGVxRXhjcjVUcS1oUm50d3lnZjlIdUJua3B0Tzk2cm5GeUZRQlRuM1JNQXpPMVBTa2M2UXk3Y2QxaVh3TXhEdExPeHRKUmFDREdsX3JHczZmbWRjbzdmX2x4YkxvejFjcDB1SVMy",
+      "guidislink": false,
+      "published": "Wed, 06 Mar 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        3,
+        6,
+        8,
+        0,
+        0,
+        2,
+        65,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxNX1pjc19ldUdzTkhXX3FyVkJUOWQyQzkwUVN2b2lEZGdVNVNTdGphNWFaSmFia3luV05nbWRPSk5Oa0F1V0NzTnlNdDY5R0dZcVFRT1dKcjBFYXhVNWFHVkVzazc0RU55MVIyOGVxRXhjcjVUcS1oUm50d3lnZjlIdUJua3B0Tzk2cm5GeUZRQlRuM1JNQXpPMVBTa2M2UXk3Y2QxaVh3TXhEdExPeHRKUmFDREdsX3JHczZmbWRjbzdmX2x4YkxvejFjcDB1SVMy?oc=5\" target=\"_blank\">Climate change to expose half of world’s population to disease-spreading mosquitoes by 2050</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Independent</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxNX1pjc19ldUdzTkhXX3FyVkJUOWQyQzkwUVN2b2lEZGdVNVNTdGphNWFaSmFia3luV05nbWRPSk5Oa0F1V0NzTnlNdDY5R0dZcVFRT1dKcjBFYXhVNWFHVkVzazc0RU55MVIyOGVxRXhjcjVUcS1oUm50d3lnZjlIdUJua3B0Tzk2cm5GeUZRQlRuM1JNQXpPMVBTa2M2UXk3Y2QxaVh3TXhEdExPeHRKUmFDREdsX3JHczZmbWRjbzdmX2x4YkxvejFjcDB1SVMy?oc=5\" target=\"_blank\">Climate change to expose half of world’s population to disease-spreading mosquitoes by 2050</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Independent</font>"
+      },
+      "source": {
+        "href": "https://www.independent.co.uk",
+        "title": "The Independent"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Anti-Zika virus RNAi in neural progenitor cells - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Anti-Zika virus RNAi in neural progenitor cells - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBHVjZWTXlicko0TXduS20zV1g3c3N6eUhIOWI1SDFWV0w0TTY0b2RpY3dKZFl3bTJidl9ZcXpfMXl6RG9fcnpzRC1DZVNDWmUxbE9GUjR6Vm9ObEc3ZXc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBHVjZWTXlicko0TXduS20zV1g3c3N6eUhIOWI1SDFWV0w0TTY0b2RpY3dKZFl3bTJidl9ZcXpfMXl6RG9fcnpzRC1DZVNDWmUxbE9GUjR6Vm9ObEc3ZXc?oc=5",
+      "id": "CBMiXkFVX3lxTFBHVjZWTXlicko0TXduS20zV1g3c3N6eUhIOWI1SDFWV0w0TTY0b2RpY3dKZFl3bTJidl9ZcXpfMXl6RG9fcnpzRC1DZVNDWmUxbE9GUjR6Vm9ObEc3ZXc",
+      "guidislink": false,
+      "published": "Fri, 15 Mar 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        3,
+        15,
+        7,
+        0,
+        0,
+        4,
+        74,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTFBHVjZWTXlicko0TXduS20zV1g3c3N6eUhIOWI1SDFWV0w0TTY0b2RpY3dKZFl3bTJidl9ZcXpfMXl6RG9fcnpzRC1DZVNDWmUxbE9GUjR6Vm9ObEc3ZXc?oc=5\" target=\"_blank\">Anti-Zika virus RNAi in neural progenitor cells</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTFBHVjZWTXlicko0TXduS20zV1g3c3N6eUhIOWI1SDFWV0w0TTY0b2RpY3dKZFl3bTJidl9ZcXpfMXl6RG9fcnpzRC1DZVNDWmUxbE9GUjR6Vm9ObEc3ZXc?oc=5\" target=\"_blank\">Anti-Zika virus RNAi in neural progenitor cells</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Suspected cases of Zika, Monkeypox reported in Lahore hospital - Dawn",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Suspected cases of Zika, Monkeypox reported in Lahore hospital - Dawn"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPT0lLU2p5bUhhZGZaM0VXQnhNSTR0NEdWWUhsUzF0VFFNWjJaSHVlQ3JjNkltcHhPM21GRVphTk44VTg2cDVyUndwbngzTnJxOHctSThDczRlTlNfT2tOVGUwQnIzbm9NYVRGelJNQ09GdjZybWdQS2hlclcwNGwzMHlDRlNzOWduWHl2b20xWGtLSENSRmxVWERTONIBTkFVX3lxTE9oRUg4amZtNXBMdDhkZHZSY3BSYnhCUEV3bEJOV0dYUnR5M2hHZ1BjNHFNXzg3RUh4STQzMVZfY3dmT0h0WTZJZFRiSktEUQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPT0lLU2p5bUhhZGZaM0VXQnhNSTR0NEdWWUhsUzF0VFFNWjJaSHVlQ3JjNkltcHhPM21GRVphTk44VTg2cDVyUndwbngzTnJxOHctSThDczRlTlNfT2tOVGUwQnIzbm9NYVRGelJNQ09GdjZybWdQS2hlclcwNGwzMHlDRlNzOWduWHl2b20xWGtLSENSRmxVWERTONIBTkFVX3lxTE9oRUg4amZtNXBMdDhkZHZSY3BSYnhCUEV3bEJOV0dYUnR5M2hHZ1BjNHFNXzg3RUh4STQzMVZfY3dmT0h0WTZJZFRiSktEUQ?oc=5",
+      "id": "CBMimwFBVV95cUxPT0lLU2p5bUhhZGZaM0VXQnhNSTR0NEdWWUhsUzF0VFFNWjJaSHVlQ3JjNkltcHhPM21GRVphTk44VTg2cDVyUndwbngzTnJxOHctSThDczRlTlNfT2tOVGUwQnIzbm9NYVRGelJNQ09GdjZybWdQS2hlclcwNGwzMHlDRlNzOWduWHl2b20xWGtLSENSRmxVWERTONIBTkFVX3lxTE9oRUg4amZtNXBMdDhkZHZSY3BSYnhCUEV3bEJOV0dYUnR5M2hHZ1BjNHFNXzg3RUh4STQzMVZfY3dmT0h0WTZJZFRiSktEUQ",
+      "guidislink": false,
+      "published": "Tue, 12 Mar 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        3,
+        12,
+        7,
+        0,
+        0,
+        1,
+        71,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxPT0lLU2p5bUhhZGZaM0VXQnhNSTR0NEdWWUhsUzF0VFFNWjJaSHVlQ3JjNkltcHhPM21GRVphTk44VTg2cDVyUndwbngzTnJxOHctSThDczRlTlNfT2tOVGUwQnIzbm9NYVRGelJNQ09GdjZybWdQS2hlclcwNGwzMHlDRlNzOWduWHl2b20xWGtLSENSRmxVWERTONIBTkFVX3lxTE9oRUg4amZtNXBMdDhkZHZSY3BSYnhCUEV3bEJOV0dYUnR5M2hHZ1BjNHFNXzg3RUh4STQzMVZfY3dmT0h0WTZJZFRiSktEUQ?oc=5\" target=\"_blank\">Suspected cases of Zika, Monkeypox reported in Lahore hospital</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Dawn</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxPT0lLU2p5bUhhZGZaM0VXQnhNSTR0NEdWWUhsUzF0VFFNWjJaSHVlQ3JjNkltcHhPM21GRVphTk44VTg2cDVyUndwbngzTnJxOHctSThDczRlTlNfT2tOVGUwQnIzbm9NYVRGelJNQ09GdjZybWdQS2hlclcwNGwzMHlDRlNzOWduWHl2b20xWGtLSENSRmxVWERTONIBTkFVX3lxTE9oRUg4amZtNXBMdDhkZHZSY3BSYnhCUEV3bEJOV0dYUnR5M2hHZ1BjNHFNXzg3RUh4STQzMVZfY3dmT0h0WTZJZFRiSktEUQ?oc=5\" target=\"_blank\">Suspected cases of Zika, Monkeypox reported in Lahore hospital</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Dawn</font>"
+      },
+      "source": {
+        "href": "https://www.dawn.com",
+        "title": "Dawn"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Mom of son affected by Zika virus gets go-ahead to sue state - Trinidad Guardian",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Mom of son affected by Zika virus gets go-ahead to sue state - Trinidad Guardian"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZHZZWlA4T2l2czJKdnIxcmpjLTVreXdSSkNhbjl3X0k5Wm9HM0lPVjlQc1dSTXhoQzc1S2xtRWhwdEY0R0ZJdDBaQl9vT3lfUjJEQ3FnNEhJYVB1TWkzb1VVN250NGJnb3ctUU5aN0FZelZ1Yzh1RnZCQ2RGa0ZjTWdDeVpUdVRIVkdaLVhyWHZUZGtUcmVrVVRFcmIyVC1pWE43a2NKZ05tS0tpczk3Nmt3?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZHZZWlA4T2l2czJKdnIxcmpjLTVreXdSSkNhbjl3X0k5Wm9HM0lPVjlQc1dSTXhoQzc1S2xtRWhwdEY0R0ZJdDBaQl9vT3lfUjJEQ3FnNEhJYVB1TWkzb1VVN250NGJnb3ctUU5aN0FZelZ1Yzh1RnZCQ2RGa0ZjTWdDeVpUdVRIVkdaLVhyWHZUZGtUcmVrVVRFcmIyVC1pWE43a2NKZ05tS0tpczk3Nmt3?oc=5",
+      "id": "CBMisgFBVV95cUxPZHZZWlA4T2l2czJKdnIxcmpjLTVreXdSSkNhbjl3X0k5Wm9HM0lPVjlQc1dSTXhoQzc1S2xtRWhwdEY0R0ZJdDBaQl9vT3lfUjJEQ3FnNEhJYVB1TWkzb1VVN250NGJnb3ctUU5aN0FZelZ1Yzh1RnZCQ2RGa0ZjTWdDeVpUdVRIVkdaLVhyWHZUZGtUcmVrVVRFcmIyVC1pWE43a2NKZ05tS0tpczk3Nmt3",
+      "guidislink": false,
+      "published": "Tue, 12 Mar 2019 23:05:41 GMT",
+      "published_parsed": [
+        2019,
+        3,
+        12,
+        23,
+        5,
+        41,
+        1,
+        71,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPZHZZWlA4T2l2czJKdnIxcmpjLTVreXdSSkNhbjl3X0k5Wm9HM0lPVjlQc1dSTXhoQzc1S2xtRWhwdEY0R0ZJdDBaQl9vT3lfUjJEQ3FnNEhJYVB1TWkzb1VVN250NGJnb3ctUU5aN0FZelZ1Yzh1RnZCQ2RGa0ZjTWdDeVpUdVRIVkdaLVhyWHZUZGtUcmVrVVRFcmIyVC1pWE43a2NKZ05tS0tpczk3Nmt3?oc=5\" target=\"_blank\">Mom of son affected by Zika virus gets go-ahead to sue state</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Trinidad Guardian</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPZHZZWlA4T2l2czJKdnIxcmpjLTVreXdSSkNhbjl3X0k5Wm9HM0lPVjlQc1dSTXhoQzc1S2xtRWhwdEY0R0ZJdDBaQl9vT3lfUjJEQ3FnNEhJYVB1TWkzb1VVN250NGJnb3ctUU5aN0FZelZ1Yzh1RnZCQ2RGa0ZjTWdDeVpUdVRIVkdaLVhyWHZUZGtUcmVrVVRFcmIyVC1pWE43a2NKZ05tS0tpczk3Nmt3?oc=5\" target=\"_blank\">Mom of son affected by Zika virus gets go-ahead to sue state</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Trinidad Guardian</font>"
+      },
+      "source": {
+        "href": "http://www.guardian.co.tt",
+        "title": "Trinidad Guardian"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Mother sues ministry for failing to care for Zika baby - Trinidad and Tobago Newsday",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Mother sues ministry for failing to care for Zika baby - Trinidad and Tobago Newsday"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUUhZdFd0ODI5d0tSRkctVkVuS3NVT3NrOWJrY21LVFZOVXdRX2lRdEF3d0QwUkJidVJjR3Q4VFlRZURNX0QzbU5rU2t0c3hlcGo0TVlWQmdpR3RELTNLVkYxVnBxTFdFeXpNTVgzV3J5WDl4LWZHWjBSRG1KWnNRMkZ2WlRaTE03XzlJY2NxY0VVUQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUUhZdFd0ODI5d0tSRkctVkVuS3NVT3NrOWJrY21LVFZOVXdRX2lRdEF3d0QwUkJidVJjR3Q4VFlRZURNX0QzbU5rU2t0c3hlcGo0TVlWQmdpR3RELTNLVkYxVnBxTFdFeXpNTVgzV3J5WDl4LWZHWjBSRG1KWnNRMkZ2WlRaTE03XzlJY2NxY0VVUQ?oc=5",
+      "id": "CBMikgFBVV95cUxOUUhZdFd0ODI5d0tSRkctVkVuS3NVT3NrOWJrY21LVFZOVXdRX2lRdEF3d0QwUkJidVJjR3Q4VFlRZURNX0QzbU5rU2t0c3hlcGo0TVlWQmdpR3RELTNLVkYxVnBxTFdFeXpNTVgzV3J5WDl4LWZHWjBSRG1KWnNRMkZ2WlRaTE03XzlJY2NxY0VVUQ",
+      "guidislink": false,
+      "published": "Fri, 08 Mar 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        3,
+        8,
+        8,
+        0,
+        0,
+        4,
+        67,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxOUUhZdFd0ODI5d0tSRkctVkVuS3NVT3NrOWJrY21LVFZOVXdRX2lRdEF3d0QwUkJidVJjR3Q4VFlRZURNX0QzbU5rU2t0c3hlcGo0TVlWQmdpR3RELTNLVkYxVnBxTFdFeXpNTVgzV3J5WDl4LWZHWjBSRG1KWnNRMkZ2WlRaTE03XzlJY2NxY0VVUQ?oc=5\" target=\"_blank\">Mother sues ministry for failing to care for Zika baby</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Trinidad and Tobago Newsday</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxOUUhZdFd0ODI5d0tSRkctVkVuS3NVT3NrOWJrY21LVFZOVXdRX2lRdEF3d0QwUkJidVJjR3Q4VFlRZURNX0QzbU5rU2t0c3hlcGo0TVlWQmdpR3RELTNLVkYxVnBxTFdFeXpNTVgzV3J5WDl4LWZHWjBSRG1KWnNRMkZ2WlRaTE03XzlJY2NxY0VVUQ?oc=5\" target=\"_blank\">Mother sues ministry for failing to care for Zika baby</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Trinidad and Tobago Newsday</font>"
+      },
+      "source": {
+        "href": "https://newsday.co.tt",
+        "title": "Trinidad and Tobago Newsday"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika virus and GMO mosquitoes: Could genetic engineering protect us from the deadliest animal on the planet? - CBS News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika virus and GMO mosquitoes: Could genetic engineering protect us from the deadliest animal on the planet? - CBS News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5YenpUQnUzS3QwUUNJeFNsXy1jU3JsSVlkbHlGN0RiZ0ZXdVJna0tEdjdXZGZocERVN3AwTGJKT0NsYkZkaF9kVXlPX3RqNkpZckRtT2hCcFJqbVd5WWVlMlNVRlZNekZmZnYxVWlJR00tOHM3V0c1elVB0gF_QVVfeXFMTlVXQnFISDNlcThuUklaZWUtTndjVkxxS0xfZ2g1dXVGZU91djNUMTFNU0tIOWtnSkdBY1VrQlRlcmo1WW9TcVlCZDAtMURqa3RYOFdkNUp0eWlCS2syZUt5eGVRUi10SnlqcVZQbHNqRE9CVnlKbG9rWWRoQ3JfSQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5YenpUQnUzS3QwUUNJeFNsXy1jU3JsSVlkbHlGN0RiZ0ZXdVJna0tEdjdXZGZocERVN3AwTGJKT0NsYkZkaF9kVXlPX3RqNkpZckRtT2hCcFJqbVd5WWVlMlNVRlZNekZmZnYxVWlJR00tOHM3V0c1elVB0gF_QVVfeXFMTlVXQnFISDNlcThuUklaZWUtTndjVkxxS0xfZ2g1dXVGZU91djNUMTFNU0tIOWtnSkdBY1VrQlRlcmo1WW9TcVlCZDAtMURqa3RYOFdkNUp0eWlCS2syZUt5eGVRUi10SnlqcVZQbHNqRE9CVnlKbG9rWWRoQ3JfSQ?oc=5",
+      "id": "CBMiekFVX3lxTE5YenpUQnUzS3QwUUNJeFNsXy1jU3JsSVlkbHlGN0RiZ0ZXdVJna0tEdjdXZGZocERVN3AwTGJKT0NsYkZkaF9kVXlPX3RqNkpZckRtT2hCcFJqbVd5WWVlMlNVRlZNekZmZnYxVWlJR00tOHM3V0c1elVB0gF_QVVfeXFMTlVXQnFISDNlcThuUklaZWUtTndjVkxxS0xfZ2g1dXVGZU91djNUMTFNU0tIOWtnSkdBY1VrQlRlcmo1WW9TcVlCZDAtMURqa3RYOFdkNUp0eWlCS2syZUt5eGVRUi10SnlqcVZQbHNqRE9CVnlKbG9rWWRoQ3JfSQ",
+      "guidislink": false,
+      "published": "Mon, 11 Mar 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        3,
+        11,
+        7,
+        0,
+        0,
+        0,
+        70,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE5YenpUQnUzS3QwUUNJeFNsXy1jU3JsSVlkbHlGN0RiZ0ZXdVJna0tEdjdXZGZocERVN3AwTGJKT0NsYkZkaF9kVXlPX3RqNkpZckRtT2hCcFJqbVd5WWVlMlNVRlZNekZmZnYxVWlJR00tOHM3V0c1elVB0gF_QVVfeXFMTlVXQnFISDNlcThuUklaZWUtTndjVkxxS0xfZ2g1dXVGZU91djNUMTFNU0tIOWtnSkdBY1VrQlRlcmo1WW9TcVlCZDAtMURqa3RYOFdkNUp0eWlCS2syZUt5eGVRUi10SnlqcVZQbHNqRE9CVnlKbG9rWWRoQ3JfSQ?oc=5\" target=\"_blank\">Zika virus and GMO mosquitoes: Could genetic engineering protect us from the deadliest animal on the planet?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CBS News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE5YenpUQnUzS3QwUUNJeFNsXy1jU3JsSVlkbHlGN0RiZ0ZXdVJna0tEdjdXZGZocERVN3AwTGJKT0NsYkZkaF9kVXlPX3RqNkpZckRtT2hCcFJqbVd5WWVlMlNVRlZNekZmZnYxVWlJR00tOHM3V0c1elVB0gF_QVVfeXFMTlVXQnFISDNlcThuUklaZWUtTndjVkxxS0xfZ2g1dXVGZU91djNUMTFNU0tIOWtnSkdBY1VrQlRlcmo1WW9TcVlCZDAtMURqa3RYOFdkNUp0eWlCS2syZUt5eGVRUi10SnlqcVZQbHNqRE9CVnlKbG9rWWRoQ3JfSQ?oc=5\" target=\"_blank\">Zika virus and GMO mosquitoes: Could genetic engineering protect us from the deadliest animal on the planet?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CBS News</font>"
+      },
+      "source": {
+        "href": "https://www.cbsnews.com",
+        "title": "CBS News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Development and Validation of Reverse Transcription Loop-Mediated Isothermal Amplification (RT-LAMP) for Rapid Detection of ZIKV in Mosquito Samples from Brazil - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Development and Validation of Reverse Transcription Loop-Mediated Isothermal Amplification (RT-LAMP) for Rapid Detection of ZIKV in Mosquito Samples from Brazil - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1obm9uNUN4ZHBScUUyeTRwazVhTkhsSGRpcm1HUlZCUmNjcjJ0TmEtTW5BbTlxOUh2VVFWSnYtXzViWG5zT3dqb3JXdTNQeEpwblNWYm4zbVdzU29JQmJJ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1obm9uNUN4ZHBScUUyeTRwazVhTkhsSGRpcm1HUlZCUmNjcjJ0TmEtTW5BbTlxOUh2VVFWSnYtXzViWG5zT3dqb3JXdTNQeEpwblNWYm4zbVdzU29JQmJJ?oc=5",
+      "id": "CBMiX0FVX3lxTE1obm9uNUN4ZHBScUUyeTRwazVhTkhsSGRpcm1HUlZCUmNjcjJ0TmEtTW5BbTlxOUh2VVFWSnYtXzViWG5zT3dqb3JXdTNQeEpwblNWYm4zbVdzU29JQmJJ",
+      "guidislink": false,
+      "published": "Thu, 14 Mar 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        3,
+        14,
+        7,
+        0,
+        0,
+        3,
+        73,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1obm9uNUN4ZHBScUUyeTRwazVhTkhsSGRpcm1HUlZCUmNjcjJ0TmEtTW5BbTlxOUh2VVFWSnYtXzViWG5zT3dqb3JXdTNQeEpwblNWYm4zbVdzU29JQmJJ?oc=5\" target=\"_blank\">Development and Validation of Reverse Transcription Loop-Mediated Isothermal Amplification (RT-LAMP) for Rapid Detection of ZIKV in Mosquito Samples from Brazil</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1obm9uNUN4ZHBScUUyeTRwazVhTkhsSGRpcm1HUlZCUmNjcjJ0TmEtTW5BbTlxOUh2VVFWSnYtXzViWG5zT3dqb3JXdTNQeEpwblNWYm4zbVdzU29JQmJJ?oc=5\" target=\"_blank\">Development and Validation of Reverse Transcription Loop-Mediated Isothermal Amplification (RT-LAMP) for Rapid Detection of ZIKV in Mosquito Samples from Brazil</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    }
+  ]
+}

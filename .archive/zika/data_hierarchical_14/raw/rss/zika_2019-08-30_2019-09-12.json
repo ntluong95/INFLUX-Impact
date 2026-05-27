@@ -1,0 +1,822 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2019-08-30",
+  "window_end": "2019-09-12",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2019-08-30+before%3A2019-09-13&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2019-08-30+before:2019-09-13&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:27:06Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2019-08-30 before:2019-09-13\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2019-08-30 before:2019-09-13\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2019-08-30+before:2019-09-13&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2019-08-30+before:2019-09-13&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:27:07 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      27,
+      7,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Zika virus replicates in adult human brain tissue and impairs synapses and memory in mice - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika virus replicates in adult human brain tissue and impairs synapses and memory in mice - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBRcVptZXBybzVxUWJnNl9qd0E5V25ZZGN4V3k5SktKUE9RZlhwY2tXZFVMMFhITEdJcFprUXViZGpkVmhHQ2p0QWJxNm1kNnpEQ1oxckdYa1k0V2pHM0Jz?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBRcVptZXBybzVxUWJnNl9qd0E5V25ZZGN4V3k5SktKUE9RZlhwY2tXZFVMMFhITEdJcFprUXViZGpkVmhHQ2p0QWJxNm1kNnpEQ1oxckdYa1k0V2pHM0Jz?oc=5",
+      "id": "CBMiX0FVX3lxTFBRcVptZXBybzVxUWJnNl9qd0E5V25ZZGN4V3k5SktKUE9RZlhwY2tXZFVMMFhITEdJcFprUXViZGpkVmhHQ2p0QWJxNm1kNnpEQ1oxckdYa1k0V2pHM0Jz",
+      "guidislink": false,
+      "published": "Thu, 05 Sep 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        9,
+        5,
+        7,
+        0,
+        0,
+        3,
+        248,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFBRcVptZXBybzVxUWJnNl9qd0E5V25ZZGN4V3k5SktKUE9RZlhwY2tXZFVMMFhITEdJcFprUXViZGpkVmhHQ2p0QWJxNm1kNnpEQ1oxckdYa1k0V2pHM0Jz?oc=5\" target=\"_blank\">Zika virus replicates in adult human brain tissue and impairs synapses and memory in mice</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFBRcVptZXBybzVxUWJnNl9qd0E5V25ZZGN4V3k5SktKUE9RZlhwY2tXZFVMMFhITEdJcFprUXViZGpkVmhHQ2p0QWJxNm1kNnpEQ1oxckdYa1k0V2pHM0Jz?oc=5\" target=\"_blank\">Zika virus replicates in adult human brain tissue and impairs synapses and memory in mice</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Sewage, Zika virus – and the team in Brazil mapping disease hotspots | Dom Phillips - The Guardian",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Sewage, Zika virus – and the team in Brazil mapping disease hotspots | Dom Phillips - The Guardian"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZjRPcmNxSzRmV1JQWk5SMVRLQzVvT1p3NTd6bVZsN1VPSzE5a3VVaXRicTBZWDZjeHQ0elk2SVlHZDhQbFRmQlZqc19Ka3QyTlNJM1ZKczBSM2ZQZW5VbFZZVTlqLTBHSUhWdVpSbUxoeDEwOW4yTlRoN0I2bXhIMXBFeTFFdlU2TXlpRGlpS3RWVzJQa0VsYWY3a2ZxUV93ODhCOWgtQ1VqQQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZjRPcmNxSzRmV1JQWk5SMVRLQzVvT1p3NTd6bVZsN1VPSzE5a3VVaXRicTBZWDZjeHQ0elk2SVlHZDhQbFRmQlZqc19Ka3QyTlNJM1ZKczBSM2ZQZW5VbFZZVTlqLTBHSUhWdVpSbUxoeDEwOW4yTlRoN0I2bXhIMXBFeTFFdlU2TXlpRGlpS3RWVzJQa0VsYWY3a2ZxUV93ODhCOWgtQ1VqQQ?oc=5",
+      "id": "CBMiqgFBVV95cUxNZjRPcmNxSzRmV1JQWk5SMVRLQzVvT1p3NTd6bVZsN1VPSzE5a3VVaXRicTBZWDZjeHQ0elk2SVlHZDhQbFRmQlZqc19Ka3QyTlNJM1ZKczBSM2ZQZW5VbFZZVTlqLTBHSUhWdVpSbUxoeDEwOW4yTlRoN0I2bXhIMXBFeTFFdlU2TXlpRGlpS3RWVzJQa0VsYWY3a2ZxUV93ODhCOWgtQ1VqQQ",
+      "guidislink": false,
+      "published": "Mon, 02 Sep 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        9,
+        2,
+        7,
+        0,
+        0,
+        0,
+        245,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZjRPcmNxSzRmV1JQWk5SMVRLQzVvT1p3NTd6bVZsN1VPSzE5a3VVaXRicTBZWDZjeHQ0elk2SVlHZDhQbFRmQlZqc19Ka3QyTlNJM1ZKczBSM2ZQZW5VbFZZVTlqLTBHSUhWdVpSbUxoeDEwOW4yTlRoN0I2bXhIMXBFeTFFdlU2TXlpRGlpS3RWVzJQa0VsYWY3a2ZxUV93ODhCOWgtQ1VqQQ?oc=5\" target=\"_blank\">Sewage, Zika virus – and the team in Brazil mapping disease hotspots | Dom Phillips</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZjRPcmNxSzRmV1JQWk5SMVRLQzVvT1p3NTd6bVZsN1VPSzE5a3VVaXRicTBZWDZjeHQ0elk2SVlHZDhQbFRmQlZqc19Ka3QyTlNJM1ZKczBSM2ZQZW5VbFZZVTlqLTBHSUhWdVpSbUxoeDEwOW4yTlRoN0I2bXhIMXBFeTFFdlU2TXlpRGlpS3RWVzJQa0VsYWY3a2ZxUV93ODhCOWgtQ1VqQQ?oc=5\" target=\"_blank\">Sewage, Zika virus – and the team in Brazil mapping disease hotspots | Dom Phillips</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>"
+      },
+      "source": {
+        "href": "https://www.theguardian.com",
+        "title": "The Guardian"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Subgenomic flavivirus RNA binds the mosquito DEAD/H-box helicase ME31B and determines Zika virus transmission by Aedes aegypti - PNAS",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Subgenomic flavivirus RNA binds the mosquito DEAD/H-box helicase ME31B and determines Zika virus transmission by Aedes aegypti - PNAS"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9nN0VCZXVoNWFTcUQwbUtLd2VnMV9oMkhZcW1ucHhTYzlKa2RqWUJLOGdPMHRGUHhJMUlkbDlPSkFjZGZWckY5Mk11czdHYlVDRXZhemNpVno0bUhm?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9nN0VCZXVoNWFTcUQwbUtLd2VnMV9oMkhZcW1ucHhTYzlKa2RqWUJLOGdPMHRGUHhJMUlkbDlPSkFjZGZWckY5Mk11czdHYlVDRXZhemNpVno0bUhm?oc=5",
+      "id": "CBMiXEFVX3lxTE9nN0VCZXVoNWFTcUQwbUtLd2VnMV9oMkhZcW1ucHhTYzlKa2RqWUJLOGdPMHRGUHhJMUlkbDlPSkFjZGZWckY5Mk11czdHYlVDRXZhemNpVno0bUhm",
+      "guidislink": false,
+      "published": "Thu, 05 Sep 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        9,
+        5,
+        7,
+        0,
+        0,
+        3,
+        248,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE9nN0VCZXVoNWFTcUQwbUtLd2VnMV9oMkhZcW1ucHhTYzlKa2RqWUJLOGdPMHRGUHhJMUlkbDlPSkFjZGZWckY5Mk11czdHYlVDRXZhemNpVno0bUhm?oc=5\" target=\"_blank\">Subgenomic flavivirus RNA binds the mosquito DEAD/H-box helicase ME31B and determines Zika virus transmission by Aedes aegypti</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PNAS</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE9nN0VCZXVoNWFTcUQwbUtLd2VnMV9oMkhZcW1ucHhTYzlKa2RqWUJLOGdPMHRGUHhJMUlkbDlPSkFjZGZWckY5Mk11czdHYlVDRXZhemNpVno0bUhm?oc=5\" target=\"_blank\">Subgenomic flavivirus RNA binds the mosquito DEAD/H-box helicase ME31B and determines Zika virus transmission by Aedes aegypti</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PNAS</font>"
+      },
+      "source": {
+        "href": "https://www.pnas.org",
+        "title": "PNAS"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Cluster containment strategy: addressing Zika virus outbreak in Rajasthan, India - BMJ Global Health",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Cluster containment strategy: addressing Zika virus outbreak in Rajasthan, India - BMJ Global Health"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8tYnJSTGhjNzdTMktUUloyeW44LUN6MXVqQTc1aWd5TFVfVWVOMG5nWDVtQUNrN0tCYlNoRGctQTNfalg5Xy15SEx0NS01Wm8?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8tYnJSTGhjNzdTMktUUloyeW44LUN6MXVqQTc1aWd5TFVfVWVOMG5nWDVtQUNrN0tCYlNoRGctQTNfalg5Xy15SEx0NS01Wm8?oc=5",
+      "id": "CBMiT0FVX3lxTE8tYnJSTGhjNzdTMktUUloyeW44LUN6MXVqQTc1aWd5TFVfVWVOMG5nWDVtQUNrN0tCYlNoRGctQTNfalg5Xy15SEx0NS01Wm8",
+      "guidislink": false,
+      "published": "Thu, 05 Sep 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        9,
+        5,
+        7,
+        0,
+        0,
+        3,
+        248,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiT0FVX3lxTE8tYnJSTGhjNzdTMktUUloyeW44LUN6MXVqQTc1aWd5TFVfVWVOMG5nWDVtQUNrN0tCYlNoRGctQTNfalg5Xy15SEx0NS01Wm8?oc=5\" target=\"_blank\">Cluster containment strategy: addressing Zika virus outbreak in Rajasthan, India</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BMJ Global Health</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiT0FVX3lxTE8tYnJSTGhjNzdTMktUUloyeW44LUN6MXVqQTc1aWd5TFVfVWVOMG5nWDVtQUNrN0tCYlNoRGctQTNfalg5Xy15SEx0NS01Wm8?oc=5\" target=\"_blank\">Cluster containment strategy: addressing Zika virus outbreak in Rajasthan, India</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BMJ Global Health</font>"
+      },
+      "source": {
+        "href": "https://gh.bmj.com",
+        "title": "BMJ Global Health"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Pre- and peri-implantation Zika virus infection impairs fetal development by targeting trophectoderm cells - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Pre- and peri-implantation Zika virus infection impairs fetal development by targeting trophectoderm cells - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5MWDlRbjFRdXZQanM4NWhzMmZUNm52UUd6ZlRVX2lPNU91SFRkM1E4b3FXSy1zRkJadXY4dFNFcHUwOHRRenBDOHRPeWhoaVJ3b0NlREtVSThDaU12Yl9n?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5MWDlRbjFRdXZQanM4NWhzMmZUNm52UUd6ZlRVX2lPNU91SFRkM1E4b3FXSy1zRkJadXY4dFNFcHUwOHRRenBDOHRPeWhoaVJ3b0NlREtVSThDaU12Yl9n?oc=5",
+      "id": "CBMiX0FVX3lxTE5MWDlRbjFRdXZQanM4NWhzMmZUNm52UUd6ZlRVX2lPNU91SFRkM1E4b3FXSy1zRkJadXY4dFNFcHUwOHRRenBDOHRPeWhoaVJ3b0NlREtVSThDaU12Yl9n",
+      "guidislink": false,
+      "published": "Fri, 13 Sep 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        9,
+        13,
+        7,
+        0,
+        0,
+        4,
+        256,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5MWDlRbjFRdXZQanM4NWhzMmZUNm52UUd6ZlRVX2lPNU91SFRkM1E4b3FXSy1zRkJadXY4dFNFcHUwOHRRenBDOHRPeWhoaVJ3b0NlREtVSThDaU12Yl9n?oc=5\" target=\"_blank\">Pre- and peri-implantation Zika virus infection impairs fetal development by targeting trophectoderm cells</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5MWDlRbjFRdXZQanM4NWhzMmZUNm52UUd6ZlRVX2lPNU91SFRkM1E4b3FXSy1zRkJadXY4dFNFcHUwOHRRenBDOHRPeWhoaVJ3b0NlREtVSThDaU12Yl9n?oc=5\" target=\"_blank\">Pre- and peri-implantation Zika virus infection impairs fetal development by targeting trophectoderm cells</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika virus infects the adult human brain and causes memory deficits in animal models - EurekAlert!",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika virus infects the adult human brain and causes memory deficits in animal models - EurekAlert!"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0yZGJPN0ZXSnhoQXItejZBeXlNek9Za1BZaW9mTlJvMkxpV3NfUUJnTzN3VmpmdmNheTFfVGo5VjRBTFZvOFJBX2Y0ZlhEc0o5bk1xVzN2bVFmSGM?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0yZGJPN0ZXSnhoQXItejZBeXlNek9Za1BZaW9mTlJvMkxpV3NfUUJnTzN3VmpmdmNheTFfVGo5VjRBTFZvOFJBX2Y0ZlhEc0o5bk1xVzN2bVFmSGM?oc=5",
+      "id": "CBMiW0FVX3lxTE0yZGJPN0ZXSnhoQXItejZBeXlNek9Za1BZaW9mTlJvMkxpV3NfUUJnTzN3VmpmdmNheTFfVGo5VjRBTFZvOFJBX2Y0ZlhEc0o5bk1xVzN2bVFmSGM",
+      "guidislink": false,
+      "published": "Thu, 05 Sep 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        9,
+        5,
+        7,
+        0,
+        0,
+        3,
+        248,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE0yZGJPN0ZXSnhoQXItejZBeXlNek9Za1BZaW9mTlJvMkxpV3NfUUJnTzN3VmpmdmNheTFfVGo5VjRBTFZvOFJBX2Y0ZlhEc0o5bk1xVzN2bVFmSGM?oc=5\" target=\"_blank\">Zika virus infects the adult human brain and causes memory deficits in animal models</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">EurekAlert!</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE0yZGJPN0ZXSnhoQXItejZBeXlNek9Za1BZaW9mTlJvMkxpV3NfUUJnTzN3VmpmdmNheTFfVGo5VjRBTFZvOFJBX2Y0ZlhEc0o5bk1xVzN2bVFmSGM?oc=5\" target=\"_blank\">Zika virus infects the adult human brain and causes memory deficits in animal models</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">EurekAlert!</font>"
+      },
+      "source": {
+        "href": "https://www.eurekalert.org",
+        "title": "EurekAlert!"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika Virus: Here's How You Can Prevent Foetal Damage; Know The Causes And Tips For Prevention - NDTV",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika Virus: Here's How You Can Prevent Foetal Damage; Know The Causes And Tips For Prevention - NDTV"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOOGRSdkNoaGtiZDlEYkdQM2RRVXAwaGNUSHRXUTVuOEVCcUptX0tTQ1FiYjlENXEySFQtUkwxdlNabHZiajBHLUtPV2IyNlkxNW9udkVKZlRPZFB3X01TYWxRNHJUVnpUNzhkWkdyUVFHZ3hfaG0yd2dqb1hxN2JqZ01YbDlCY2JoMFVGTnRGM2Q0dlYzTHgtM3J3R1JTQVFyUkdqWVJ5NGc5U0NObjdlUURERzEzdUtSMW9IZVNvenl1Nnpq?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOOGRSdkNoaGtiZDlEYkdQM2RRVXAwaGNUSHRXUTVuOEVCcUptX0tTQ1FiYjlENXEySFQtUkwxdlNabHZiajBHLUtPV2IyNlkxNW9udkVKZlRPZFB3X01TYWxRNHJUVnpUNzhkWkdyUVFHZ3hfaG0yd2dqb1hxN2JqZ01YbDlCY2JoMFVGTnRGM2Q0dlYzTHgtM3J3R1JTQVFyUkdqWVJ5NGc5U0NObjdlUURERzEzdUtSMW9IZVNvenl1Nnpq?oc=5",
+      "id": "CBMixAFBVV95cUxOOGRSdkNoaGtiZDlEYkdQM2RRVXAwaGNUSHRXUTVuOEVCcUptX0tTQ1FiYjlENXEySFQtUkwxdlNabHZiajBHLUtPV2IyNlkxNW9udkVKZlRPZFB3X01TYWxRNHJUVnpUNzhkWkdyUVFHZ3hfaG0yd2dqb1hxN2JqZ01YbDlCY2JoMFVGTnRGM2Q0dlYzTHgtM3J3R1JTQVFyUkdqWVJ5NGc5U0NObjdlUURERzEzdUtSMW9IZVNvenl1Nnpq",
+      "guidislink": false,
+      "published": "Thu, 05 Sep 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        9,
+        5,
+        7,
+        0,
+        0,
+        3,
+        248,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxOOGRSdkNoaGtiZDlEYkdQM2RRVXAwaGNUSHRXUTVuOEVCcUptX0tTQ1FiYjlENXEySFQtUkwxdlNabHZiajBHLUtPV2IyNlkxNW9udkVKZlRPZFB3X01TYWxRNHJUVnpUNzhkWkdyUVFHZ3hfaG0yd2dqb1hxN2JqZ01YbDlCY2JoMFVGTnRGM2Q0dlYzTHgtM3J3R1JTQVFyUkdqWVJ5NGc5U0NObjdlUURERzEzdUtSMW9IZVNvenl1Nnpq?oc=5\" target=\"_blank\">Zika Virus: Here's How You Can Prevent Foetal Damage; Know The Causes And Tips For Prevention</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NDTV</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxOOGRSdkNoaGtiZDlEYkdQM2RRVXAwaGNUSHRXUTVuOEVCcUptX0tTQ1FiYjlENXEySFQtUkwxdlNabHZiajBHLUtPV2IyNlkxNW9udkVKZlRPZFB3X01TYWxRNHJUVnpUNzhkWkdyUVFHZ3hfaG0yd2dqb1hxN2JqZ01YbDlCY2JoMFVGTnRGM2Q0dlYzTHgtM3J3R1JTQVFyUkdqWVJ5NGc5U0NObjdlUURERzEzdUtSMW9IZVNvenl1Nnpq?oc=5\" target=\"_blank\">Zika Virus: Here's How You Can Prevent Foetal Damage; Know The Causes And Tips For Prevention</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NDTV</font>"
+      },
+      "source": {
+        "href": "https://www.ndtv.com",
+        "title": "NDTV"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Children’s National/NIH team competes in #IDbugbowl - Children's National Hospital",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Children’s National/NIH team competes in #IDbugbowl - Children's National Hospital"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcXRkYVM4bXRMWXlSVDhqaXRFUDgxbDRjNnV4a3FkWUFKelpiZ1dQYXh4aXRTUk9oY3VzaGJqTlk3RnRDallzNGFIbERCUUw2a3R2Y1plb09SV3B1bU04MWEtT3pEc2xiRTdKd0l6LVhueWdFeFItWEpEQ2J6SjhoZG5lREt2bWViR2FUSkZ5OHFSci1hTGc4ZlFwb3BrOHo0?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcXRkYVM4bXRMWXlSVDhqaXRFUDgxbDRjNnV4a3FkWUFKelpiZ1dQYXh4aXRTUk9oY3VzaGJqTlk3RnRDallzNGFIbERCUUw2a3R2Y1plb09SV3B1bU04MWEtT3pEc2xiRTdKd0l6LVhueWdFeFItWEpEQ2J6SjhoZG5lREt2bWViR2FUSkZ5OHFSci1hTGc4ZlFwb3BrOHo0?oc=5",
+      "id": "CBMioAFBVV95cUxOcXRkYVM4bXRMWXlSVDhqaXRFUDgxbDRjNnV4a3FkWUFKelpiZ1dQYXh4aXRTUk9oY3VzaGJqTlk3RnRDallzNGFIbERCUUw2a3R2Y1plb09SV3B1bU04MWEtT3pEc2xiRTdKd0l6LVhueWdFeFItWEpEQ2J6SjhoZG5lREt2bWViR2FUSkZ5OHFSci1hTGc4ZlFwb3BrOHo0",
+      "guidislink": false,
+      "published": "Tue, 10 Sep 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        9,
+        10,
+        7,
+        0,
+        0,
+        1,
+        253,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxOcXRkYVM4bXRMWXlSVDhqaXRFUDgxbDRjNnV4a3FkWUFKelpiZ1dQYXh4aXRTUk9oY3VzaGJqTlk3RnRDallzNGFIbERCUUw2a3R2Y1plb09SV3B1bU04MWEtT3pEc2xiRTdKd0l6LVhueWdFeFItWEpEQ2J6SjhoZG5lREt2bWViR2FUSkZ5OHFSci1hTGc4ZlFwb3BrOHo0?oc=5\" target=\"_blank\">Children’s National/NIH team competes in #IDbugbowl</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Children's National Hospital</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxOcXRkYVM4bXRMWXlSVDhqaXRFUDgxbDRjNnV4a3FkWUFKelpiZ1dQYXh4aXRTUk9oY3VzaGJqTlk3RnRDallzNGFIbERCUUw2a3R2Y1plb09SV3B1bU04MWEtT3pEc2xiRTdKd0l6LVhueWdFeFItWEpEQ2J6SjhoZG5lREt2bWViR2FUSkZ5OHFSci1hTGc4ZlFwb3BrOHo0?oc=5\" target=\"_blank\">Children’s National/NIH team competes in #IDbugbowl</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Children's National Hospital</font>"
+      },
+      "source": {
+        "href": "https://innovationdistrict.childrensnational.org",
+        "title": "Children's National Hospital"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "UK health officials launch new infectious disease strategy - CIDRAP",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "UK health officials launch new infectious disease strategy - CIDRAP"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbmp2NjdsMXAxNnZvLTVLWFRTemZra244ZW4yUEtJVy1ldDhzNEh3WTU5bk9BTk9naG5Ub25EUWhGZVZBQTZ4VmF6cEVxNWRVZFVBaTdicGhhZEFHNGZTeTJRMWlJcHU4WDJ0akF1bzNkenBYX3lfU1BDWjZkSjZPQl9VNmRxOUw4LUNfSXVwZ1FKSVVHcjBTUzBCNXpKZVdwa0cyWjhJYkVJaHQ4bGZ4eA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbmp2NjdsMXAxNnZvLTVLWFRTemZra244ZW4yUEtJVy1ldDhzNEh3WTU5bk9BTk9naG5Ub25EUWhGZVZBQTZ4VmF6cEVxNWRVZFVBaTdicGhhZEFHNGZTeTJRMWlJcHU4WDJ0akF1bzNkenBYX3lfU1BDWjZkSjZPQl9VNmRxOUw4LUNfSXVwZ1FKSVVHcjBTUzBCNXpKZVdwa0cyWjhJYkVJaHQ4bGZ4eA?oc=5",
+      "id": "CBMisAFBVV95cUxQbmp2NjdsMXAxNnZvLTVLWFRTemZra244ZW4yUEtJVy1ldDhzNEh3WTU5bk9BTk9naG5Ub25EUWhGZVZBQTZ4VmF6cEVxNWRVZFVBaTdicGhhZEFHNGZTeTJRMWlJcHU4WDJ0akF1bzNkenBYX3lfU1BDWjZkSjZPQl9VNmRxOUw4LUNfSXVwZ1FKSVVHcjBTUzBCNXpKZVdwa0cyWjhJYkVJaHQ4bGZ4eA",
+      "guidislink": false,
+      "published": "Thu, 12 Sep 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        9,
+        12,
+        7,
+        0,
+        0,
+        3,
+        255,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQbmp2NjdsMXAxNnZvLTVLWFRTemZra244ZW4yUEtJVy1ldDhzNEh3WTU5bk9BTk9naG5Ub25EUWhGZVZBQTZ4VmF6cEVxNWRVZFVBaTdicGhhZEFHNGZTeTJRMWlJcHU4WDJ0akF1bzNkenBYX3lfU1BDWjZkSjZPQl9VNmRxOUw4LUNfSXVwZ1FKSVVHcjBTUzBCNXpKZVdwa0cyWjhJYkVJaHQ4bGZ4eA?oc=5\" target=\"_blank\">UK health officials launch new infectious disease strategy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CIDRAP</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQbmp2NjdsMXAxNnZvLTVLWFRTemZra244ZW4yUEtJVy1ldDhzNEh3WTU5bk9BTk9naG5Ub25EUWhGZVZBQTZ4VmF6cEVxNWRVZFVBaTdicGhhZEFHNGZTeTJRMWlJcHU4WDJ0akF1bzNkenBYX3lfU1BDWjZkSjZPQl9VNmRxOUw4LUNfSXVwZ1FKSVVHcjBTUzBCNXpKZVdwa0cyWjhJYkVJaHQ4bGZ4eA?oc=5\" target=\"_blank\">UK health officials launch new infectious disease strategy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CIDRAP</font>"
+      },
+      "source": {
+        "href": "https://www.cidrap.umn.edu",
+        "title": "CIDRAP"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "A protective Zika virus E-dimer-based subunit vaccine engineered to abrogate antibody-dependent enhancement of dengue infection - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "A protective Zika virus E-dimer-based subunit vaccine engineered to abrogate antibody-dependent enhancement of dengue infection - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE54NVhEcjFXeUdDUmZWV1gxOURVcFZ4RnpUV3hqRDlVTHpBVDR0c3F6bVJMVlVDajlsMmIyQ3FPS2U0c1hfNC1MVk5LOWM0MlBGZ3FHd1gxNUJJYmFmZ0E?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE54NVhEcjFXeUdDUmZWV1gxOURVcFZ4RnpUV3hqRDlVTHpBVDR0c3F6bVJMVlVDajlsMmIyQ3FPS2U0c1hfNC1MVk5LOWM0MlBGZ3FHd1gxNUJJYmFmZ0E?oc=5",
+      "id": "CBMiXkFVX3lxTE54NVhEcjFXeUdDUmZWV1gxOURVcFZ4RnpUV3hqRDlVTHpBVDR0c3F6bVJMVlVDajlsMmIyQ3FPS2U0c1hfNC1MVk5LOWM0MlBGZ3FHd1gxNUJJYmFmZ0E",
+      "guidislink": false,
+      "published": "Mon, 02 Sep 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        9,
+        2,
+        7,
+        0,
+        0,
+        0,
+        245,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE54NVhEcjFXeUdDUmZWV1gxOURVcFZ4RnpUV3hqRDlVTHpBVDR0c3F6bVJMVlVDajlsMmIyQ3FPS2U0c1hfNC1MVk5LOWM0MlBGZ3FHd1gxNUJJYmFmZ0E?oc=5\" target=\"_blank\">A protective Zika virus E-dimer-based subunit vaccine engineered to abrogate antibody-dependent enhancement of dengue infection</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE54NVhEcjFXeUdDUmZWV1gxOURVcFZ4RnpUV3hqRDlVTHpBVDR0c3F6bVJMVlVDajlsMmIyQ3FPS2U0c1hfNC1MVk5LOWM0MlBGZ3FHd1gxNUJJYmFmZ0E?oc=5\" target=\"_blank\">A protective Zika virus E-dimer-based subunit vaccine engineered to abrogate antibody-dependent enhancement of dengue infection</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Collier Mosquito Control District vigilantly testing for Dengue virus - WINK News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Collier Mosquito Control District vigilantly testing for Dengue virus - WINK News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOdHlWaGN3QVlKWHVqZGhKXzVqUXhUclVCdUZpOVdEWlg1a2pDVEV2VHBtMEFrTklDZnBTSl9oVVViekhrVVlOS291UVAtSkdSWGUwbEhIYkhtZkYzSXBCWUJZUW9iaVVxWDZGa1h6ejJfblFiX0lQSnhneVhCbGdneFV6MTJxQVNIaTdUWEw0bG5FLUp3ekpxdXEyZEJuT1hGYklqelExU1ZuOExvUEV1dnA1TFg5SVNGWE14WDhkSTBuNlFyMnBob2hLLU0wbEF3Z2doaEhDOE9RWmFTX25HYUdrZWhaOUIxNVRVWFNB?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOdHlWaGN3QVlKWHVqZGhKXzVqUXhUclVCdUZpOVdEWlg1a2pDVEV2VHBtMEFrTklDZnBTSl9oVVViekhrVVlOS291UVAtSkdSWGUwbEhIYkhtZkYzSXBCWUJZUW9iaVVxWDZGa1h6ejJfblFiX0lQSnhneVhCbGdneFV6MTJxQVNIaTdUWEw0bG5FLUp3ekpxdXEyZEJuT1hGYklqelExU1ZuOExvUEV1dnA1TFg5SVNGWE14WDhkSTBuNlFyMnBob2hLLU0wbEF3Z2doaEhDOE9RWmFTX25HYUdrZWhaOUIxNVRVWFNB?oc=5",
+      "id": "CBMi7gFBVV95cUxOdHlWaGN3QVlKWHVqZGhKXzVqUXhUclVCdUZpOVdEWlg1a2pDVEV2VHBtMEFrTklDZnBTSl9oVVViekhrVVlOS291UVAtSkdSWGUwbEhIYkhtZkYzSXBCWUJZUW9iaVVxWDZGa1h6ejJfblFiX0lQSnhneVhCbGdneFV6MTJxQVNIaTdUWEw0bG5FLUp3ekpxdXEyZEJuT1hGYklqelExU1ZuOExvUEV1dnA1TFg5SVNGWE14WDhkSTBuNlFyMnBob2hLLU0wbEF3Z2doaEhDOE9RWmFTX25HYUdrZWhaOUIxNVRVWFNB",
+      "guidislink": false,
+      "published": "Thu, 12 Sep 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        9,
+        12,
+        7,
+        0,
+        0,
+        3,
+        255,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi7gFBVV95cUxOdHlWaGN3QVlKWHVqZGhKXzVqUXhUclVCdUZpOVdEWlg1a2pDVEV2VHBtMEFrTklDZnBTSl9oVVViekhrVVlOS291UVAtSkdSWGUwbEhIYkhtZkYzSXBCWUJZUW9iaVVxWDZGa1h6ejJfblFiX0lQSnhneVhCbGdneFV6MTJxQVNIaTdUWEw0bG5FLUp3ekpxdXEyZEJuT1hGYklqelExU1ZuOExvUEV1dnA1TFg5SVNGWE14WDhkSTBuNlFyMnBob2hLLU0wbEF3Z2doaEhDOE9RWmFTX25HYUdrZWhaOUIxNVRVWFNB?oc=5\" target=\"_blank\">Collier Mosquito Control District vigilantly testing for Dengue virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WINK News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi7gFBVV95cUxOdHlWaGN3QVlKWHVqZGhKXzVqUXhUclVCdUZpOVdEWlg1a2pDVEV2VHBtMEFrTklDZnBTSl9oVVViekhrVVlOS291UVAtSkdSWGUwbEhIYkhtZkYzSXBCWUJZUW9iaVVxWDZGa1h6ejJfblFiX0lQSnhneVhCbGdneFV6MTJxQVNIaTdUWEw0bG5FLUp3ekpxdXEyZEJuT1hGYklqelExU1ZuOExvUEV1dnA1TFg5SVNGWE14WDhkSTBuNlFyMnBob2hLLU0wbEF3Z2doaEhDOE9RWmFTX25HYUdrZWhaOUIxNVRVWFNB?oc=5\" target=\"_blank\">Collier Mosquito Control District vigilantly testing for Dengue virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WINK News</font>"
+      },
+      "source": {
+        "href": "https://www.winknews.com",
+        "title": "WINK News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Mosquito prevention: How to keep mosquitoes away after a flood - ABC13 Houston",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Mosquito prevention: How to keep mosquitoes away after a flood - ABC13 Houston"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5uVE9xY1UtMk9TQkhNR1lnemItNzkzMVAwLWlfUmh4RTVuWU1EVU05SEYxSXYwV2hvWVZHcU1xNU4zQmlqQ3c1WVA0SEstVUtfZzZ2VEUzRVg1ZUd4LTZhRWlZaDAzQk04ZENDTWVHalUwLWJwT2tJZmV1OUtvQdIBgwFBVV95cUxNZ0M2LVZucHd4aHB0cHhDOFItdG9OVFJwV1hpU2pyWHZRS1ZFSHB1TFVGdi15Qm1IR2tPY3FuYkt4UVZSaGN5MEg3MjhBZ3R4QUJidU1zZ1k2RmNQN2RWeFV5ZWxpX2thbjBkVWlPN3dWX3JPX2l6cnNwUjlJNHJpQlpITQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5uVE9xY1UtMk9TQkhNR1lnemItNzkzMVAwLWlfUmh4RTVuWU1EVU05SEYxSXYwV2hvWVZHcU1xNU4zQmlqQ3c1WVA0SEstVUtfZzZ2VEUzRVg1ZUd4LTZhRWlZaDAzQk04ZENDTWVHalUwLWJwT2tJZmV1OUtvQdIBgwFBVV95cUxNZ0M2LVZucHd4aHB0cHhDOFItdG9OVFJwV1hpU2pyWHZRS1ZFSHB1TFVGdi15Qm1IR2tPY3FuYkt4UVZSaGN5MEg3MjhBZ3R4QUJidU1zZ1k2RmNQN2RWeFV5ZWxpX2thbjBkVWlPN3dWX3JPX2l6cnNwUjlJNHJpQlpITQ?oc=5",
+      "id": "CBMifkFVX3lxTE5uVE9xY1UtMk9TQkhNR1lnemItNzkzMVAwLWlfUmh4RTVuWU1EVU05SEYxSXYwV2hvWVZHcU1xNU4zQmlqQ3c1WVA0SEstVUtfZzZ2VEUzRVg1ZUd4LTZhRWlZaDAzQk04ZENDTWVHalUwLWJwT2tJZmV1OUtvQdIBgwFBVV95cUxNZ0M2LVZucHd4aHB0cHhDOFItdG9OVFJwV1hpU2pyWHZRS1ZFSHB1TFVGdi15Qm1IR2tPY3FuYkt4UVZSaGN5MEg3MjhBZ3R4QUJidU1zZ1k2RmNQN2RWeFV5ZWxpX2thbjBkVWlPN3dWX3JPX2l6cnNwUjlJNHJpQlpITQ",
+      "guidislink": false,
+      "published": "Sat, 31 Aug 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        8,
+        31,
+        7,
+        0,
+        0,
+        5,
+        243,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE5uVE9xY1UtMk9TQkhNR1lnemItNzkzMVAwLWlfUmh4RTVuWU1EVU05SEYxSXYwV2hvWVZHcU1xNU4zQmlqQ3c1WVA0SEstVUtfZzZ2VEUzRVg1ZUd4LTZhRWlZaDAzQk04ZENDTWVHalUwLWJwT2tJZmV1OUtvQdIBgwFBVV95cUxNZ0M2LVZucHd4aHB0cHhDOFItdG9OVFJwV1hpU2pyWHZRS1ZFSHB1TFVGdi15Qm1IR2tPY3FuYkt4UVZSaGN5MEg3MjhBZ3R4QUJidU1zZ1k2RmNQN2RWeFV5ZWxpX2thbjBkVWlPN3dWX3JPX2l6cnNwUjlJNHJpQlpITQ?oc=5\" target=\"_blank\">Mosquito prevention: How to keep mosquitoes away after a flood</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ABC13 Houston</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE5uVE9xY1UtMk9TQkhNR1lnemItNzkzMVAwLWlfUmh4RTVuWU1EVU05SEYxSXYwV2hvWVZHcU1xNU4zQmlqQ3c1WVA0SEstVUtfZzZ2VEUzRVg1ZUd4LTZhRWlZaDAzQk04ZENDTWVHalUwLWJwT2tJZmV1OUtvQdIBgwFBVV95cUxNZ0M2LVZucHd4aHB0cHhDOFItdG9OVFJwV1hpU2pyWHZRS1ZFSHB1TFVGdi15Qm1IR2tPY3FuYkt4UVZSaGN5MEg3MjhBZ3R4QUJidU1zZ1k2RmNQN2RWeFV5ZWxpX2thbjBkVWlPN3dWX3JPX2l6cnNwUjlJNHJpQlpITQ?oc=5\" target=\"_blank\">Mosquito prevention: How to keep mosquitoes away after a flood</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ABC13 Houston</font>"
+      },
+      "source": {
+        "href": "https://abc13.com",
+        "title": "ABC13 Houston"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Sustained Low-Level Transmission of Zika and Chikungunya Viruses after Emergence in the Fiji Islands (August 2019) - ReliefWeb",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Sustained Low-Level Transmission of Zika and Chikungunya Viruses after Emergence in the Fiji Islands (August 2019) - ReliefWeb"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWWNfemJ2NEV3VFBRUWxMOUFHV3VjZWMyODlMbkswV1A3R3RrcFpJQkdTR3FtcEtlU01feGhHdGNRbzlwbjB3U2VGVEhCZUVQbktGUUN5NnhTVTlhM0dlMlVlNDh0blp1aGFZTXE2SVNteURVck1ua1JKNzFJeEkyVVhJMmFLOTZZM0lrS2toaDFuQnpqYTJncExpSG1pZjQtMDZtWlBHRXRiMFJpbDlHbEVxeU9oRjZRVFBidkQ1RFRfeDRrNDctQVItOTY5SzROUXc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWWNfemJ2NEV3VFBRUWxMOUFHV3VjZWMyODlMbkswV1A3R3RrcFpJQkdTR3FtcEtlU01feGhHdGNRbzlwbjB3U2VGVEhCZUVQbktGUUN5NnhTVTlhM0dlMlVlNDh0blp1aGFZTXE2SVNteURVck1ua1JKNzFJeEkyVVhJMmFLOTZZM0lrS2toaDFuQnpqYTJncExpSG1pZjQtMDZtWlBHRXRiMFJpbDlHbEVxeU9oRjZRVFBidkQ1RFRfeDRrNDctQVItOTY5SzROUXc?oc=5",
+      "id": "CBMi0gFBVV95cUxNWWNfemJ2NEV3VFBRUWxMOUFHV3VjZWMyODlMbkswV1A3R3RrcFpJQkdTR3FtcEtlU01feGhHdGNRbzlwbjB3U2VGVEhCZUVQbktGUUN5NnhTVTlhM0dlMlVlNDh0blp1aGFZTXE2SVNteURVck1ua1JKNzFJeEkyVVhJMmFLOTZZM0lrS2toaDFuQnpqYTJncExpSG1pZjQtMDZtWlBHRXRiMFJpbDlHbEVxeU9oRjZRVFBidkQ1RFRfeDRrNDctQVItOTY5SzROUXc",
+      "guidislink": false,
+      "published": "Sat, 31 Aug 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        8,
+        31,
+        7,
+        0,
+        0,
+        5,
+        243,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWWNfemJ2NEV3VFBRUWxMOUFHV3VjZWMyODlMbkswV1A3R3RrcFpJQkdTR3FtcEtlU01feGhHdGNRbzlwbjB3U2VGVEhCZUVQbktGUUN5NnhTVTlhM0dlMlVlNDh0blp1aGFZTXE2SVNteURVck1ua1JKNzFJeEkyVVhJMmFLOTZZM0lrS2toaDFuQnpqYTJncExpSG1pZjQtMDZtWlBHRXRiMFJpbDlHbEVxeU9oRjZRVFBidkQ1RFRfeDRrNDctQVItOTY5SzROUXc?oc=5\" target=\"_blank\">Sustained Low-Level Transmission of Zika and Chikungunya Viruses after Emergence in the Fiji Islands (August 2019)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ReliefWeb</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWWNfemJ2NEV3VFBRUWxMOUFHV3VjZWMyODlMbkswV1A3R3RrcFpJQkdTR3FtcEtlU01feGhHdGNRbzlwbjB3U2VGVEhCZUVQbktGUUN5NnhTVTlhM0dlMlVlNDh0blp1aGFZTXE2SVNteURVck1ua1JKNzFJeEkyVVhJMmFLOTZZM0lrS2toaDFuQnpqYTJncExpSG1pZjQtMDZtWlBHRXRiMFJpbDlHbEVxeU9oRjZRVFBidkQ1RFRfeDRrNDctQVItOTY5SzROUXc?oc=5\" target=\"_blank\">Sustained Low-Level Transmission of Zika and Chikungunya Viruses after Emergence in the Fiji Islands (August 2019)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ReliefWeb</font>"
+      },
+      "source": {
+        "href": "https://reliefweb.int",
+        "title": "ReliefWeb"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Researchers: Websites infected iPhones with spyware - KCRA",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Researchers: Websites infected iPhones with spyware - KCRA"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZFNKVVp0NXloQVd6M3RjRDNDaXl2WXU3WEZkQi1qLTV6ZjlnYnZudUwxOTFJdWZqaVZfTUliUG5LZ1NzMk0yM1dab004dUlEd2JndV8yWTNyTTZCSnpzRlNmV1ZJbU9KV0djSWoyWWxzVk5aNE5pUkx0SnZBSFctNjRndw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZFNKVVp0NXloQVd6M3RjRDNDaXl2WXU3WEZkQi1qLTV6ZjlnYnZudUwxOTFJdWZqaVZfTUliUG5LZ1NzMk0yM1dab004dUlEd2JndV8yWTNyTTZCSnpzRlNmV1ZJbU9KV0djSWoyWWxzVk5aNE5pUkx0SnZBSFctNjRndw?oc=5",
+      "id": "CBMigwFBVV95cUxPZFNKVVp0NXloQVd6M3RjRDNDaXl2WXU3WEZkQi1qLTV6ZjlnYnZudUwxOTFJdWZqaVZfTUliUG5LZ1NzMk0yM1dab004dUlEd2JndV8yWTNyTTZCSnpzRlNmV1ZJbU9KV0djSWoyWWxzVk5aNE5pUkx0SnZBSFctNjRndw",
+      "guidislink": false,
+      "published": "Fri, 30 Aug 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        8,
+        30,
+        7,
+        0,
+        0,
+        4,
+        242,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxPZFNKVVp0NXloQVd6M3RjRDNDaXl2WXU3WEZkQi1qLTV6ZjlnYnZudUwxOTFJdWZqaVZfTUliUG5LZ1NzMk0yM1dab004dUlEd2JndV8yWTNyTTZCSnpzRlNmV1ZJbU9KV0djSWoyWWxzVk5aNE5pUkx0SnZBSFctNjRndw?oc=5\" target=\"_blank\">Researchers: Websites infected iPhones with spyware</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KCRA</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxPZFNKVVp0NXloQVd6M3RjRDNDaXl2WXU3WEZkQi1qLTV6ZjlnYnZudUwxOTFJdWZqaVZfTUliUG5LZ1NzMk0yM1dab004dUlEd2JndV8yWTNyTTZCSnpzRlNmV1ZJbU9KV0djSWoyWWxzVk5aNE5pUkx0SnZBSFctNjRndw?oc=5\" target=\"_blank\">Researchers: Websites infected iPhones with spyware</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KCRA</font>"
+      },
+      "source": {
+        "href": "https://www.kcra.com",
+        "title": "KCRA"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Opinion: I spent a week at ZAP Endurance in Blowing Rock, and here’s my take - Charlotte Observer",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Opinion: I spent a week at ZAP Endurance in Blowing Rock, and here’s my take - Charlotte Observer"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVXRPWFZ6MzgzcTJ3NWx0ZVhKN3diUFY1ZlVWMjhQOHBRUjJwa3JrdDlHaDZSTk4tUHFOaGZab2wwRkw5SlRjSFNxQnQweGRHcDRGN1c4cF93RkZ1TmtrdHB3U01jUTZpcU5MUVUtV0Z6V2c3eGdlV203ZUpZTnZ3YTV3ZjZ2SmRHdWV5NzJR0gGOAUFVX3lxTE1vTmd0ak9FUnBrMERmMjEzUWI5azRmUVplajVrVlRfSTA1WFlia3cxNDRCdGlSSERHRnR5ZXdMT29QeXJHVWxDaUxjdjZpVGRUSDd5UzR0ZEhxaGRRS2ZRM25wX2I2ZWJVcFUxVzhWd2pDN3ljT19zWUZVbGRLQmJqTG01eXVyamdIdjQxWnc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVXRPWFZ6MzgzcTJ3NWx0ZVhKN3diUFY1ZlVWMjhQOHBRUjJwa3JrdDlHaDZSTk4tUHFOaGZab2wwRkw5SlRjSFNxQnQweGRHcDRGN1c4cF93RkZ1TmtrdHB3U01jUTZpcU5MUVUtV0Z6V2c3eGdlV203ZUpZTnZ3YTV3ZjZ2SmRHdWV5NzJR0gGOAUFVX3lxTE1vTmd0ak9FUnBrMERmMjEzUWI5azRmUVplajVrVlRfSTA1WFlia3cxNDRCdGlSSERHRnR5ZXdMT29QeXJHVWxDaUxjdjZpVGRUSDd5UzR0ZEhxaGRRS2ZRM25wX2I2ZWJVcFUxVzhWd2pDN3ljT19zWUZVbGRLQmJqTG01eXVyamdIdjQxWnc?oc=5",
+      "id": "CBMijgFBVV95cUxNVXRPWFZ6MzgzcTJ3NWx0ZVhKN3diUFY1ZlVWMjhQOHBRUjJwa3JrdDlHaDZSTk4tUHFOaGZab2wwRkw5SlRjSFNxQnQweGRHcDRGN1c4cF93RkZ1TmtrdHB3U01jUTZpcU5MUVUtV0Z6V2c3eGdlV203ZUpZTnZ3YTV3ZjZ2SmRHdWV5NzJR0gGOAUFVX3lxTE1vTmd0ak9FUnBrMERmMjEzUWI5azRmUVplajVrVlRfSTA1WFlia3cxNDRCdGlSSERHRnR5ZXdMT29QeXJHVWxDaUxjdjZpVGRUSDd5UzR0ZEhxaGRRS2ZRM25wX2I2ZWJVcFUxVzhWd2pDN3ljT19zWUZVbGRLQmJqTG01eXVyamdIdjQxWnc",
+      "guidislink": false,
+      "published": "Sun, 08 Sep 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        9,
+        8,
+        7,
+        0,
+        0,
+        6,
+        251,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxNVXRPWFZ6MzgzcTJ3NWx0ZVhKN3diUFY1ZlVWMjhQOHBRUjJwa3JrdDlHaDZSTk4tUHFOaGZab2wwRkw5SlRjSFNxQnQweGRHcDRGN1c4cF93RkZ1TmtrdHB3U01jUTZpcU5MUVUtV0Z6V2c3eGdlV203ZUpZTnZ3YTV3ZjZ2SmRHdWV5NzJR0gGOAUFVX3lxTE1vTmd0ak9FUnBrMERmMjEzUWI5azRmUVplajVrVlRfSTA1WFlia3cxNDRCdGlSSERHRnR5ZXdMT29QeXJHVWxDaUxjdjZpVGRUSDd5UzR0ZEhxaGRRS2ZRM25wX2I2ZWJVcFUxVzhWd2pDN3ljT19zWUZVbGRLQmJqTG01eXVyamdIdjQxWnc?oc=5\" target=\"_blank\">Opinion: I spent a week at ZAP Endurance in Blowing Rock, and here’s my take</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Charlotte Observer</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxNVXRPWFZ6MzgzcTJ3NWx0ZVhKN3diUFY1ZlVWMjhQOHBRUjJwa3JrdDlHaDZSTk4tUHFOaGZab2wwRkw5SlRjSFNxQnQweGRHcDRGN1c4cF93RkZ1TmtrdHB3U01jUTZpcU5MUVUtV0Z6V2c3eGdlV203ZUpZTnZ3YTV3ZjZ2SmRHdWV5NzJR0gGOAUFVX3lxTE1vTmd0ak9FUnBrMERmMjEzUWI5azRmUVplajVrVlRfSTA1WFlia3cxNDRCdGlSSERHRnR5ZXdMT29QeXJHVWxDaUxjdjZpVGRUSDd5UzR0ZEhxaGRRS2ZRM25wX2I2ZWJVcFUxVzhWd2pDN3ljT19zWUZVbGRLQmJqTG01eXVyamdIdjQxWnc?oc=5\" target=\"_blank\">Opinion: I spent a week at ZAP Endurance in Blowing Rock, and here’s my take</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Charlotte Observer</font>"
+      },
+      "source": {
+        "href": "https://www.charlotteobserver.com",
+        "title": "Charlotte Observer"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Small bite, big threat: Simple ways to protect yourself from mosquitoes - The Indian Express",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Small bite, big threat: Simple ways to protect yourself from mosquitoes - The Indian Express"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdEJ2SnpIV0l5YmRXYUhIR251akh6WXphaGVsZTdoR0FyZmhQN3VubVJqVW1HeGdNX05XcjlwZVU1Q2c5aGM1X3l6OEp3T1BRMDFSN3k4RklUZEFtVzRaWFFkeGdzbUZVNjQ4bGgyN1BieGxKcG1DLUhQdEc1bEl0TF9rejlvWnBNV1Z5WkZLZEZtcTEyR056MmU5NEbSAaMBQVVfeXFMT1VxNkJKSHUzQXVPZU9RX2IxbGlpdWdnWmRoOE1idVlDVGpNTXRMV2dxQ29MNFJjbEp2YXEzTHZ6NFhRcWoyNS0xMlNiODhMTmlBUDFIVWJNTnlpWHNrV2xZVVJmWFJreFlUbGw1VWpxUVRWZUhTZlBqNTB2MFNMSmFWN0RYalNyQkNpUWZMVjd5bEl4LXF6SEdYSmtvMFRabzdmcw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdEJ2SnpIV0l5YmRXYUhIR251akh6WXphaGVsZTdoR0FyZmhQN3VubVJqVW1HeGdNX05XcjlwZVU1Q2c5aGM1X3l6OEp3T1BRMDFSN3k4RklUZEFtVzRaWFFkeGdzbUZVNjQ4bGgyN1BieGxKcG1DLUhQdEc1bEl0TF9rejlvWnBNV1Z5WkZLZEZtcTEyR056MmU5NEbSAaMBQVVfeXFMT1VxNkJKSHUzQXVPZU9RX2IxbGlpdWdnWmRoOE1idVlDVGpNTXRMV2dxQ29MNFJjbEp2YXEzTHZ6NFhRcWoyNS0xMlNiODhMTmlBUDFIVWJNTnlpWHNrV2xZVVJmWFJreFlUbGw1VWpxUVRWZUhTZlBqNTB2MFNMSmFWN0RYalNyQkNpUWZMVjd5bEl4LXF6SEdYSmtvMFRabzdmcw?oc=5",
+      "id": "CBMinAFBVV95cUxPdEJ2SnpIV0l5YmRXYUhIR251akh6WXphaGVsZTdoR0FyZmhQN3VubVJqVW1HeGdNX05XcjlwZVU1Q2c5aGM1X3l6OEp3T1BRMDFSN3k4RklUZEFtVzRaWFFkeGdzbUZVNjQ4bGgyN1BieGxKcG1DLUhQdEc1bEl0TF9rejlvWnBNV1Z5WkZLZEZtcTEyR056MmU5NEbSAaMBQVVfeXFMT1VxNkJKSHUzQXVPZU9RX2IxbGlpdWdnWmRoOE1idVlDVGpNTXRMV2dxQ29MNFJjbEp2YXEzTHZ6NFhRcWoyNS0xMlNiODhMTmlBUDFIVWJNTnlpWHNrV2xZVVJmWFJreFlUbGw1VWpxUVRWZUhTZlBqNTB2MFNMSmFWN0RYalNyQkNpUWZMVjd5bEl4LXF6SEdYSmtvMFRabzdmcw",
+      "guidislink": false,
+      "published": "Mon, 02 Sep 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        9,
+        2,
+        7,
+        0,
+        0,
+        0,
+        245,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxPdEJ2SnpIV0l5YmRXYUhIR251akh6WXphaGVsZTdoR0FyZmhQN3VubVJqVW1HeGdNX05XcjlwZVU1Q2c5aGM1X3l6OEp3T1BRMDFSN3k4RklUZEFtVzRaWFFkeGdzbUZVNjQ4bGgyN1BieGxKcG1DLUhQdEc1bEl0TF9rejlvWnBNV1Z5WkZLZEZtcTEyR056MmU5NEbSAaMBQVVfeXFMT1VxNkJKSHUzQXVPZU9RX2IxbGlpdWdnWmRoOE1idVlDVGpNTXRMV2dxQ29MNFJjbEp2YXEzTHZ6NFhRcWoyNS0xMlNiODhMTmlBUDFIVWJNTnlpWHNrV2xZVVJmWFJreFlUbGw1VWpxUVRWZUhTZlBqNTB2MFNMSmFWN0RYalNyQkNpUWZMVjd5bEl4LXF6SEdYSmtvMFRabzdmcw?oc=5\" target=\"_blank\">Small bite, big threat: Simple ways to protect yourself from mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Indian Express</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxPdEJ2SnpIV0l5YmRXYUhIR251akh6WXphaGVsZTdoR0FyZmhQN3VubVJqVW1HeGdNX05XcjlwZVU1Q2c5aGM1X3l6OEp3T1BRMDFSN3k4RklUZEFtVzRaWFFkeGdzbUZVNjQ4bGgyN1BieGxKcG1DLUhQdEc1bEl0TF9rejlvWnBNV1Z5WkZLZEZtcTEyR056MmU5NEbSAaMBQVVfeXFMT1VxNkJKSHUzQXVPZU9RX2IxbGlpdWdnWmRoOE1idVlDVGpNTXRMV2dxQ29MNFJjbEp2YXEzTHZ6NFhRcWoyNS0xMlNiODhMTmlBUDFIVWJNTnlpWHNrV2xZVVJmWFJreFlUbGw1VWpxUVRWZUhTZlBqNTB2MFNMSmFWN0RYalNyQkNpUWZMVjd5bEl4LXF6SEdYSmtvMFRabzdmcw?oc=5\" target=\"_blank\">Small bite, big threat: Simple ways to protect yourself from mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Indian Express</font>"
+      },
+      "source": {
+        "href": "https://indianexpress.com",
+        "title": "The Indian Express"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Pre-existing yellow fever immunity impairs and modulates the antibody response to tick-borne encephalitis vaccination - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Pre-existing yellow fever immunity impairs and modulates the antibody response to tick-borne encephalitis vaccination - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9Ra0RRVUlZN2FDbmhaSWN3ckE4cFV6ZDkzSHByWEI2T3pkRWJDaXk5a0txUHNadVprLTFNM1IzX0VfckkzcXVYalA5akpOLVA2emhIeWlVa2NITC1KNWc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9Ra0RRVUlZN2FDbmhaSWN3ckE4cFV6ZDkzSHByWEI2T3pkRWJDaXk5a0txUHNadVprLTFNM1IzX0VfckkzcXVYalA5akpOLVA2emhIeWlVa2NITC1KNWc?oc=5",
+      "id": "CBMiXkFVX3lxTE9Ra0RRVUlZN2FDbmhaSWN3ckE4cFV6ZDkzSHByWEI2T3pkRWJDaXk5a0txUHNadVprLTFNM1IzX0VfckkzcXVYalA5akpOLVA2emhIeWlVa2NITC1KNWc",
+      "guidislink": false,
+      "published": "Fri, 06 Sep 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        9,
+        6,
+        7,
+        0,
+        0,
+        4,
+        249,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE9Ra0RRVUlZN2FDbmhaSWN3ckE4cFV6ZDkzSHByWEI2T3pkRWJDaXk5a0txUHNadVprLTFNM1IzX0VfckkzcXVYalA5akpOLVA2emhIeWlVa2NITC1KNWc?oc=5\" target=\"_blank\">Pre-existing yellow fever immunity impairs and modulates the antibody response to tick-borne encephalitis vaccination</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE9Ra0RRVUlZN2FDbmhaSWN3ckE4cFV6ZDkzSHByWEI2T3pkRWJDaXk5a0txUHNadVprLTFNM1IzX0VfckkzcXVYalA5akpOLVA2emhIeWlVa2NITC1KNWc?oc=5\" target=\"_blank\">Pre-existing yellow fever immunity impairs and modulates the antibody response to tick-borne encephalitis vaccination</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    }
+  ]
+}

@@ -1,0 +1,779 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2019-04-26",
+  "window_end": "2019-05-09",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2019-04-26+before%3A2019-05-10&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2019-04-26+before:2019-05-10&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:26:50Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2019-04-26 before:2019-05-10\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2019-04-26 before:2019-05-10\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2019-04-26+before:2019-05-10&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2019-04-26+before:2019-05-10&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:26:50 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      26,
+      50,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Companion Studies to Define the Distribution and Duration of Zika Virus in Non-Human Primates - fda.gov",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Companion Studies to Define the Distribution and Duration of Zika Virus in Non-Human Primates - fda.gov"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPNF9TeGFQNGhZRFlfWE1hTWpORUExdThGSEgwY0hXQzhfSzhIQUE2TGVZVUlYUTN1QlhOc1hHdDFqa3RrMzdHYTFYT0pNb1l1VXpSYl9QNDZBVFJLaHR3clZNajBVR1cyVlo0TkJFQm1aQ0NnbUJLcm1USU1fZ2szd2hQekYxakRHM0l3NXlYdENJejd2dGVFX0M0aHJxbURkYmtCQ2I2ZHA3b2o3WVNZUktNOFpva0xRMFFpLTB1d0VTR25LUGVzZ1N1QzF0YWtiR1JGaEFQLXUxQkY5bVBEbE1HeW5jQVcyT29hQkdhYw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPNF9TeGFQNGhZRFlfWE1hTWpORUExdThGSEgwY0hXQzhfSzhIQUE2TGVZVUlYUTN1QlhOc1hHdDFqa3RrMzdHYTFYT0pNb1l1VXpSYl9QNDZBVFJLaHR3clZNajBVR1cyVlo0TkJFQm1aQ0NnbUJLcm1USU1fZ2szd2hQekYxakRHM0l3NXlYdENJejd2dGVFX0M0aHJxbURkYmtCQ2I2ZHA3b2o3WVNZUktNOFpva0xRMFFpLTB1d0VTR25LUGVzZ1N1QzF0YWtiR1JGaEFQLXUxQkY5bVBEbE1HeW5jQVcyT29hQkdhYw?oc=5",
+      "id": "CBMi7wFBVV95cUxPNF9TeGFQNGhZRFlfWE1hTWpORUExdThGSEgwY0hXQzhfSzhIQUE2TGVZVUlYUTN1QlhOc1hHdDFqa3RrMzdHYTFYT0pNb1l1VXpSYl9QNDZBVFJLaHR3clZNajBVR1cyVlo0TkJFQm1aQ0NnbUJLcm1USU1fZ2szd2hQekYxakRHM0l3NXlYdENJejd2dGVFX0M0aHJxbURkYmtCQ2I2ZHA3b2o3WVNZUktNOFpva0xRMFFpLTB1d0VTR25LUGVzZ1N1QzF0YWtiR1JGaEFQLXUxQkY5bVBEbE1HeW5jQVcyT29hQkdhYw",
+      "guidislink": false,
+      "published": "Thu, 02 May 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        5,
+        2,
+        7,
+        0,
+        0,
+        3,
+        122,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi7wFBVV95cUxPNF9TeGFQNGhZRFlfWE1hTWpORUExdThGSEgwY0hXQzhfSzhIQUE2TGVZVUlYUTN1QlhOc1hHdDFqa3RrMzdHYTFYT0pNb1l1VXpSYl9QNDZBVFJLaHR3clZNajBVR1cyVlo0TkJFQm1aQ0NnbUJLcm1USU1fZ2szd2hQekYxakRHM0l3NXlYdENJejd2dGVFX0M0aHJxbURkYmtCQ2I2ZHA3b2o3WVNZUktNOFpva0xRMFFpLTB1d0VTR25LUGVzZ1N1QzF0YWtiR1JGaEFQLXUxQkY5bVBEbE1HeW5jQVcyT29hQkdhYw?oc=5\" target=\"_blank\">Companion Studies to Define the Distribution and Duration of Zika Virus in Non-Human Primates</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">fda.gov</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi7wFBVV95cUxPNF9TeGFQNGhZRFlfWE1hTWpORUExdThGSEgwY0hXQzhfSzhIQUE2TGVZVUlYUTN1QlhOc1hHdDFqa3RrMzdHYTFYT0pNb1l1VXpSYl9QNDZBVFJLaHR3clZNajBVR1cyVlo0TkJFQm1aQ0NnbUJLcm1USU1fZ2szd2hQekYxakRHM0l3NXlYdENJejd2dGVFX0M0aHJxbURkYmtCQ2I2ZHA3b2o3WVNZUktNOFpva0xRMFFpLTB1d0VTR25LUGVzZ1N1QzF0YWtiR1JGaEFQLXUxQkY5bVBEbE1HeW5jQVcyT29hQkdhYw?oc=5\" target=\"_blank\">Companion Studies to Define the Distribution and Duration of Zika Virus in Non-Human Primates</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">fda.gov</font>"
+      },
+      "source": {
+        "href": "https://www.fda.gov",
+        "title": "fda.gov"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Differential human antibody repertoires following Zika infection and the implications for serodiagnostics and disease outcome - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Differential human antibody repertoires following Zika infection and the implications for serodiagnostics and disease outcome - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5BVkdla3JKcWkzZkh2cWdqYWdxUXVrekJacWktY3NUU1J3cU9aSGhrbHQyMEpoaXN2U1JCY01ub3lDVTNXZVlRTzFrQkZwMms4SUdUeWZDM2FnYzRpckZZ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5BVkdla3JKcWkzZkh2cWdqYWdxUXVrekJacWktY3NUU1J3cU9aSGhrbHQyMEpoaXN2U1JCY01ub3lDVTNXZVlRTzFrQkZwMms4SUdUeWZDM2FnYzRpckZZ?oc=5",
+      "id": "CBMiX0FVX3lxTE5BVkdla3JKcWkzZkh2cWdqYWdxUXVrekJacWktY3NUU1J3cU9aSGhrbHQyMEpoaXN2U1JCY01ub3lDVTNXZVlRTzFrQkZwMms4SUdUeWZDM2FnYzRpckZZ",
+      "guidislink": false,
+      "published": "Fri, 26 Apr 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        4,
+        26,
+        7,
+        0,
+        0,
+        4,
+        116,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5BVkdla3JKcWkzZkh2cWdqYWdxUXVrekJacWktY3NUU1J3cU9aSGhrbHQyMEpoaXN2U1JCY01ub3lDVTNXZVlRTzFrQkZwMms4SUdUeWZDM2FnYzRpckZZ?oc=5\" target=\"_blank\">Differential human antibody repertoires following Zika infection and the implications for serodiagnostics and disease outcome</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5BVkdla3JKcWkzZkh2cWdqYWdxUXVrekJacWktY3NUU1J3cU9aSGhrbHQyMEpoaXN2U1JCY01ub3lDVTNXZVlRTzFrQkZwMms4SUdUeWZDM2FnYzRpckZZ?oc=5\" target=\"_blank\">Differential human antibody repertoires following Zika infection and the implications for serodiagnostics and disease outcome</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Brazil's Zika Babies Are Growing Up - Human Rights Watch",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Brazil's Zika Babies Are Growing Up - Human Rights Watch"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1PdlQ4aVNiWExvaTJnVGFBNzZ1ZlF1cFBmcWFaQ0w0ZnItaU5wUGhKQVpSY2NoYnBjUHVvZ2IzQmNrWlRfaXVoeHpTX05GU3NDRnZud3hnWlFLQURQdDNUTVBMYUVnbXN2VjhxODRLWnU3S0hRYmc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1PdlQ4aVNiWExvaTJnVGFBNzZ1ZlF1cFBmcWFaQ0w0ZnItaU5wUGhKQVpSY2NoYnBjUHVvZ2IzQmNrWlRfaXVoeHpTX05GU3NDRnZud3hnWlFLQURQdDNUTVBMYUVnbXN2VjhxODRLWnU3S0hRYmc?oc=5",
+      "id": "CBMidkFVX3lxTE1PdlQ4aVNiWExvaTJnVGFBNzZ1ZlF1cFBmcWFaQ0w0ZnItaU5wUGhKQVpSY2NoYnBjUHVvZ2IzQmNrWlRfaXVoeHpTX05GU3NDRnZud3hnWlFLQURQdDNUTVBMYUVnbXN2VjhxODRLWnU3S0hRYmc",
+      "guidislink": false,
+      "published": "Wed, 08 May 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        5,
+        8,
+        7,
+        0,
+        0,
+        2,
+        128,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE1PdlQ4aVNiWExvaTJnVGFBNzZ1ZlF1cFBmcWFaQ0w0ZnItaU5wUGhKQVpSY2NoYnBjUHVvZ2IzQmNrWlRfaXVoeHpTX05GU3NDRnZud3hnWlFLQURQdDNUTVBMYUVnbXN2VjhxODRLWnU3S0hRYmc?oc=5\" target=\"_blank\">Brazil's Zika Babies Are Growing Up</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Human Rights Watch</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE1PdlQ4aVNiWExvaTJnVGFBNzZ1ZlF1cFBmcWFaQ0w0ZnItaU5wUGhKQVpSY2NoYnBjUHVvZ2IzQmNrWlRfaXVoeHpTX05GU3NDRnZud3hnWlFLQURQdDNUTVBMYUVnbXN2VjhxODRLWnU3S0hRYmc?oc=5\" target=\"_blank\">Brazil's Zika Babies Are Growing Up</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Human Rights Watch</font>"
+      },
+      "source": {
+        "href": "https://www.hrw.org",
+        "title": "Human Rights Watch"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Musashi binding elements in Zika and related Flavivirus 3′UTRs: A comparative study in silico - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Musashi binding elements in Zika and related Flavivirus 3′UTRs: A comparative study in silico - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9sZUIxRllVTGF4a0c4c0FLRHhLWW94S2l5MU8wSzZ3RUtyUEFWZ09UNWVyYVk2Tm5nSm9TYWpEOUlBalItWXU1VUlodzN1NDVPUUFhZmVXS1JlRHh6R0k4?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9sZUIxRllVTGF4a0c4c0FLRHhLWW94S2l5MU8wSzZ3RUtyUEFWZ09UNWVyYVk2Tm5nSm9TYWpEOUlBalItWXU1VUlodzN1NDVPUUFhZmVXS1JlRHh6R0k4?oc=5",
+      "id": "CBMiX0FVX3lxTE9sZUIxRllVTGF4a0c4c0FLRHhLWW94S2l5MU8wSzZ3RUtyUEFWZ09UNWVyYVk2Tm5nSm9TYWpEOUlBalItWXU1VUlodzN1NDVPUUFhZmVXS1JlRHh6R0k4",
+      "guidislink": false,
+      "published": "Mon, 06 May 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        5,
+        6,
+        7,
+        0,
+        0,
+        0,
+        126,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9sZUIxRllVTGF4a0c4c0FLRHhLWW94S2l5MU8wSzZ3RUtyUEFWZ09UNWVyYVk2Tm5nSm9TYWpEOUlBalItWXU1VUlodzN1NDVPUUFhZmVXS1JlRHh6R0k4?oc=5\" target=\"_blank\">Musashi binding elements in Zika and related Flavivirus 3′UTRs: A comparative study in silico</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9sZUIxRllVTGF4a0c4c0FLRHhLWW94S2l5MU8wSzZ3RUtyUEFWZ09UNWVyYVk2Tm5nSm9TYWpEOUlBalItWXU1VUlodzN1NDVPUUFhZmVXS1JlRHh6R0k4?oc=5\" target=\"_blank\">Musashi binding elements in Zika and related Flavivirus 3′UTRs: A comparative study in silico</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Microbiologist named Penn Presidential Professor - Penn Today",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Microbiologist named Penn Presidential Professor - Penn Today"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPV1hKS2RRVVdXdnVGSWVsM0RlTUtJOGhsdzN3RnNnMjdhNG5sZHM0a280a3dwaW1BZ1ZJd0lacU8tcXdpYVdleFVUX3JaenhxbUJvWlVKbGVtcE4zSUY1ai1sbUptOUlNWVhMdkJheDhkZ0RBVEtPcXVaZmFWbHFhZWFWU0hMOU9O?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPV1hKS2RRVVdXdnVGSWVsM0RlTUtJOGhsdzN3RnNnMjdhNG5sZHM0a280a3dwaW1BZ1ZJd0lacU8tcXdpYVdleFVUX3JaenhxbUJvWlVKbGVtcE4zSUY1ai1sbUptOUlNWVhMdkJheDhkZ0RBVEtPcXVaZmFWbHFhZWFWU0hMOU9O?oc=5",
+      "id": "CBMiiAFBVV95cUxPV1hKS2RRVVdXdnVGSWVsM0RlTUtJOGhsdzN3RnNnMjdhNG5sZHM0a280a3dwaW1BZ1ZJd0lacU8tcXdpYVdleFVUX3JaenhxbUJvWlVKbGVtcE4zSUY1ai1sbUptOUlNWVhMdkJheDhkZ0RBVEtPcXVaZmFWbHFhZWFWU0hMOU9O",
+      "guidislink": false,
+      "published": "Fri, 26 Apr 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        4,
+        26,
+        7,
+        0,
+        0,
+        4,
+        116,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPV1hKS2RRVVdXdnVGSWVsM0RlTUtJOGhsdzN3RnNnMjdhNG5sZHM0a280a3dwaW1BZ1ZJd0lacU8tcXdpYVdleFVUX3JaenhxbUJvWlVKbGVtcE4zSUY1ai1sbUptOUlNWVhMdkJheDhkZ0RBVEtPcXVaZmFWbHFhZWFWU0hMOU9O?oc=5\" target=\"_blank\">Microbiologist named Penn Presidential Professor</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Penn Today</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPV1hKS2RRVVdXdnVGSWVsM0RlTUtJOGhsdzN3RnNnMjdhNG5sZHM0a280a3dwaW1BZ1ZJd0lacU8tcXdpYVdleFVUX3JaenhxbUJvWlVKbGVtcE4zSUY1ai1sbUptOUlNWVhMdkJheDhkZ0RBVEtPcXVaZmFWbHFhZWFWU0hMOU9O?oc=5\" target=\"_blank\">Microbiologist named Penn Presidential Professor</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Penn Today</font>"
+      },
+      "source": {
+        "href": "https://penntoday.upenn.edu",
+        "title": "Penn Today"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "How Scientists Use Climate Models to Predict Mosquito-Borne Disease Outbreaks - Smithsonian Magazine",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "How Scientists Use Climate Models to Predict Mosquito-Borne Disease Outbreaks - Smithsonian Magazine"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVUt6NDNLbVpka21aQUFsZE5nT3cyazRUNzdrSlVLZTdYX0szNmg4YVpFWERMdGM2amxQeW4wbEhBTVJWRVBTa3Nldk44UGk5X1Q5Zm9ySXFkeHRqLTFuQnFHUGx1eUs5cmVEbWRjRlJCYkg2YXpzSDdnVjQ5czR5dXMwOEEzVENwSU5FVUZtcHJ5eVNmd2VWQ3pxU0pMSG5Yb056OE1WS2lZODBIYTVXYVZ4c1NlQTJTM1JiTDZLc3BoRjhDNGVYWVVoaw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVUt6NDNLbVpka21aQUFsZE5nT3cyazRUNzdrSlVLZTdYX0szNmg4YVpFWERMdGM2amxQeW4wbEhBTVJWRVBTa3Nldk44UGk5X1Q5Zm9ySXFkeHRqLTFuQnFHUGx1eUs5cmVEbWRjRlJCYkg2YXpzSDdnVjQ5czR5dXMwOEEzVENwSU5FVUZtcHJ5eVNmd2VWQ3pxU0pMSG5Yb056OE1WS2lZODBIYTVXYVZ4c1NlQTJTM1JiTDZLc3BoRjhDNGVYWVVoaw?oc=5",
+      "id": "CBMiywFBVV95cUxOVUt6NDNLbVpka21aQUFsZE5nT3cyazRUNzdrSlVLZTdYX0szNmg4YVpFWERMdGM2amxQeW4wbEhBTVJWRVBTa3Nldk44UGk5X1Q5Zm9ySXFkeHRqLTFuQnFHUGx1eUs5cmVEbWRjRlJCYkg2YXpzSDdnVjQ5czR5dXMwOEEzVENwSU5FVUZtcHJ5eVNmd2VWQ3pxU0pMSG5Yb056OE1WS2lZODBIYTVXYVZ4c1NlQTJTM1JiTDZLc3BoRjhDNGVYWVVoaw",
+      "guidislink": false,
+      "published": "Fri, 10 May 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        5,
+        10,
+        7,
+        0,
+        0,
+        4,
+        130,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxOVUt6NDNLbVpka21aQUFsZE5nT3cyazRUNzdrSlVLZTdYX0szNmg4YVpFWERMdGM2amxQeW4wbEhBTVJWRVBTa3Nldk44UGk5X1Q5Zm9ySXFkeHRqLTFuQnFHUGx1eUs5cmVEbWRjRlJCYkg2YXpzSDdnVjQ5czR5dXMwOEEzVENwSU5FVUZtcHJ5eVNmd2VWQ3pxU0pMSG5Yb056OE1WS2lZODBIYTVXYVZ4c1NlQTJTM1JiTDZLc3BoRjhDNGVYWVVoaw?oc=5\" target=\"_blank\">How Scientists Use Climate Models to Predict Mosquito-Borne Disease Outbreaks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Smithsonian Magazine</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxOVUt6NDNLbVpka21aQUFsZE5nT3cyazRUNzdrSlVLZTdYX0szNmg4YVpFWERMdGM2amxQeW4wbEhBTVJWRVBTa3Nldk44UGk5X1Q5Zm9ySXFkeHRqLTFuQnFHUGx1eUs5cmVEbWRjRlJCYkg2YXpzSDdnVjQ5czR5dXMwOEEzVENwSU5FVUZtcHJ5eVNmd2VWQ3pxU0pMSG5Yb056OE1WS2lZODBIYTVXYVZ4c1NlQTJTM1JiTDZLc3BoRjhDNGVYWVVoaw?oc=5\" target=\"_blank\">How Scientists Use Climate Models to Predict Mosquito-Borne Disease Outbreaks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Smithsonian Magazine</font>"
+      },
+      "source": {
+        "href": "https://www.smithsonianmag.com",
+        "title": "Smithsonian Magazine"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Wolbachia-Infected Mosquito Release Shows Encouraging Results - Entomology Today",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Wolbachia-Infected Mosquito Release Shows Encouraging Results - Entomology Today"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOT19icURDem9IdEZWZXBYdXUxdkFxSUNuUzBXdTBYU3JZQ0p4RmlISU5jRkZrSVBfOGxBT2pmVW52TVRUcmxITlphXzZxa3VjZm1TM2xucDFjbFZxRG9taE84dHYybU85OWZNYlRXMGtzeWFNM2JTWWdqZWZqa1dvTkJmMUEzSDJuZVd6V2FuaXpNYjB2SXh4SE9XZE9GOEQ0Qnc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOT19icURDem9IdEZWZXBYdXUxdkFxSUNuUzBXdTBYU3JZQ0p4RmlISU5jRkZrSVBfOGxBT2pmVW52TVRUcmxITlphXzZxa3VjZm1TM2xucDFjbFZxRG9taE84dHYybU85OWZNYlRXMGtzeWFNM2JTWWdqZWZqa1dvTkJmMUEzSDJuZVd6V2FuaXpNYjB2SXh4SE9XZE9GOEQ0Qnc?oc=5",
+      "id": "CBMiogFBVV95cUxOT19icURDem9IdEZWZXBYdXUxdkFxSUNuUzBXdTBYU3JZQ0p4RmlISU5jRkZrSVBfOGxBT2pmVW52TVRUcmxITlphXzZxa3VjZm1TM2xucDFjbFZxRG9taE84dHYybU85OWZNYlRXMGtzeWFNM2JTWWdqZWZqa1dvTkJmMUEzSDJuZVd6V2FuaXpNYjB2SXh4SE9XZE9GOEQ0Qnc",
+      "guidislink": false,
+      "published": "Fri, 03 May 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        5,
+        3,
+        7,
+        0,
+        0,
+        4,
+        123,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxOT19icURDem9IdEZWZXBYdXUxdkFxSUNuUzBXdTBYU3JZQ0p4RmlISU5jRkZrSVBfOGxBT2pmVW52TVRUcmxITlphXzZxa3VjZm1TM2xucDFjbFZxRG9taE84dHYybU85OWZNYlRXMGtzeWFNM2JTWWdqZWZqa1dvTkJmMUEzSDJuZVd6V2FuaXpNYjB2SXh4SE9XZE9GOEQ0Qnc?oc=5\" target=\"_blank\">Wolbachia-Infected Mosquito Release Shows Encouraging Results</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Entomology Today</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxOT19icURDem9IdEZWZXBYdXUxdkFxSUNuUzBXdTBYU3JZQ0p4RmlISU5jRkZrSVBfOGxBT2pmVW52TVRUcmxITlphXzZxa3VjZm1TM2xucDFjbFZxRG9taE84dHYybU85OWZNYlRXMGtzeWFNM2JTWWdqZWZqa1dvTkJmMUEzSDJuZVd6V2FuaXpNYjB2SXh4SE9XZE9GOEQ0Qnc?oc=5\" target=\"_blank\">Wolbachia-Infected Mosquito Release Shows Encouraging Results</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Entomology Today</font>"
+      },
+      "source": {
+        "href": "http://entomologytoday.org",
+        "title": "Entomology Today"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Understanding the survival of Zika virus in a vector interconnected sexual contact network - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Understanding the survival of Zika virus in a vector interconnected sexual contact network - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9zWF9TenR6ekp4VThYZXpYTXNIV2JOVEpDWnI4TXR4eElRM191X3JVM1ZpZGduSV9HbDdlMmVHRXhJZG9hQzlSSTFPQmQxeExtakJ1VmRDa1doZ29XN2VB?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9zWF9TenR6ekp4VThYZXpYTXNIV2JOVEpDWnI4TXR4eElRM191X3JVM1ZpZGduSV9HbDdlMmVHRXhJZG9hQzlSSTFPQmQxeExtakJ1VmRDa1doZ29XN2VB?oc=5",
+      "id": "CBMiX0FVX3lxTE9zWF9TenR6ekp4VThYZXpYTXNIV2JOVEpDWnI4TXR4eElRM191X3JVM1ZpZGduSV9HbDdlMmVHRXhJZG9hQzlSSTFPQmQxeExtakJ1VmRDa1doZ29XN2VB",
+      "guidislink": false,
+      "published": "Fri, 10 May 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        5,
+        10,
+        7,
+        0,
+        0,
+        4,
+        130,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9zWF9TenR6ekp4VThYZXpYTXNIV2JOVEpDWnI4TXR4eElRM191X3JVM1ZpZGduSV9HbDdlMmVHRXhJZG9hQzlSSTFPQmQxeExtakJ1VmRDa1doZ29XN2VB?oc=5\" target=\"_blank\">Understanding the survival of Zika virus in a vector interconnected sexual contact network</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9zWF9TenR6ekp4VThYZXpYTXNIV2JOVEpDWnI4TXR4eElRM191X3JVM1ZpZGduSV9HbDdlMmVHRXhJZG9hQzlSSTFPQmQxeExtakJ1VmRDa1doZ29XN2VB?oc=5\" target=\"_blank\">Understanding the survival of Zika virus in a vector interconnected sexual contact network</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "UK Design Alum 'Goes to Bat' for His Idea on ABC's 'Shark Tank' - UKNow",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "UK Design Alum 'Goes to Bat' for His Idea on ABC's 'Shark Tank' - UKNow"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSGZtQUxIR2E2bXFyNWZybGpvWTduMUh2RTJleURtWW13MXR1LXZCZHp6MERlYTQwdjNaQzhmZEhsX2ZwUHlIRjlWMWhiUXlaWm9yaXdOcTVOaGpyLUxPcVJFOW1QNEJodFU0aXllbUFZcXd5SVdoSWJxSExFWExSb2FWTld3MEd0Snc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSGZtQUxIR2E2bXFyNWZybGpvWTduMUh2RTJleURtWW13MXR1LXZCZHp6MERlYTQwdjNaQzhmZEhsX2ZwUHlIRjlWMWhiUXlaWm9yaXdOcTVOaGpyLUxPcVJFOW1QNEJodFU0aXllbUFZcXd5SVdoSWJxSExFWExSb2FWTld3MEd0Snc?oc=5",
+      "id": "CBMiigFBVV95cUxNSGZtQUxIR2E2bXFyNWZybGpvWTduMUh2RTJleURtWW13MXR1LXZCZHp6MERlYTQwdjNaQzhmZEhsX2ZwUHlIRjlWMWhiUXlaWm9yaXdOcTVOaGpyLUxPcVJFOW1QNEJodFU0aXllbUFZcXd5SVdoSWJxSExFWExSb2FWTld3MEd0Snc",
+      "guidislink": false,
+      "published": "Fri, 10 May 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        5,
+        10,
+        7,
+        0,
+        0,
+        4,
+        130,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxNSGZtQUxIR2E2bXFyNWZybGpvWTduMUh2RTJleURtWW13MXR1LXZCZHp6MERlYTQwdjNaQzhmZEhsX2ZwUHlIRjlWMWhiUXlaWm9yaXdOcTVOaGpyLUxPcVJFOW1QNEJodFU0aXllbUFZcXd5SVdoSWJxSExFWExSb2FWTld3MEd0Snc?oc=5\" target=\"_blank\">UK Design Alum 'Goes to Bat' for His Idea on ABC's 'Shark Tank'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">UKNow</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxNSGZtQUxIR2E2bXFyNWZybGpvWTduMUh2RTJleURtWW13MXR1LXZCZHp6MERlYTQwdjNaQzhmZEhsX2ZwUHlIRjlWMWhiUXlaWm9yaXdOcTVOaGpyLUxPcVJFOW1QNEJodFU0aXllbUFZcXd5SVdoSWJxSExFWExSb2FWTld3MEd0Snc?oc=5\" target=\"_blank\">UK Design Alum 'Goes to Bat' for His Idea on ABC's 'Shark Tank'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">UKNow</font>"
+      },
+      "source": {
+        "href": "https://uknow.uky.edu",
+        "title": "UKNow"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "It's May and it's still snowing in Michigan's Upper Peninsula - Detroit Free Press",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "It's May and it's still snowing in Michigan's Upper Peninsula - Detroit Free Press"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPb1hJYm50YkRkcTJ4TFVfRGp4X3c0aWx3ZlFsZTlEYlp4SG9ieXZJTjNYSDhib2xfVjVUaDkzQ1FWNTJXSFBSYWw0ZWxTLUwyelZCTVhmWGVXOFdhX1pUN2Utc2h4OFgtV2c2OENGdE9TRkFKWmZTcnE4MVVOSThLS0paVVY2TUpRM0k5Y0xLbTM2Y2xIclg1LV85b2VXWFRYd0FzSTI1ZnE2TlZsNXhOMg?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPb1hJYm50YkRkcTJ4TFVfRGp4X3c0aWx3ZlFsZTlEYlp4SG9ieXZJTjNYSDhib2xfVjVUaDkzQ1FWNTJXSFBSYWw0ZWxTLUwyelZCTVhmWGVXOFdhX1pUN2Utc2h4OFgtV2c2OENGdE9TRkFKWmZTcnE4MVVOSThLS0paVVY2TUpRM0k5Y0xLbTM2Y2xIclg1LV85b2VXWFRYd0FzSTI1ZnE2TlZsNXhOMg?oc=5",
+      "id": "CBMisAFBVV95cUxPb1hJYm50YkRkcTJ4TFVfRGp4X3c0aWx3ZlFsZTlEYlp4SG9ieXZJTjNYSDhib2xfVjVUaDkzQ1FWNTJXSFBSYWw0ZWxTLUwyelZCTVhmWGVXOFdhX1pUN2Utc2h4OFgtV2c2OENGdE9TRkFKWmZTcnE4MVVOSThLS0paVVY2TUpRM0k5Y0xLbTM2Y2xIclg1LV85b2VXWFRYd0FzSTI1ZnE2TlZsNXhOMg",
+      "guidislink": false,
+      "published": "Wed, 01 May 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        5,
+        1,
+        7,
+        0,
+        0,
+        2,
+        121,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPb1hJYm50YkRkcTJ4TFVfRGp4X3c0aWx3ZlFsZTlEYlp4SG9ieXZJTjNYSDhib2xfVjVUaDkzQ1FWNTJXSFBSYWw0ZWxTLUwyelZCTVhmWGVXOFdhX1pUN2Utc2h4OFgtV2c2OENGdE9TRkFKWmZTcnE4MVVOSThLS0paVVY2TUpRM0k5Y0xLbTM2Y2xIclg1LV85b2VXWFRYd0FzSTI1ZnE2TlZsNXhOMg?oc=5\" target=\"_blank\">It's May and it's still snowing in Michigan's Upper Peninsula</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Detroit Free Press</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPb1hJYm50YkRkcTJ4TFVfRGp4X3c0aWx3ZlFsZTlEYlp4SG9ieXZJTjNYSDhib2xfVjVUaDkzQ1FWNTJXSFBSYWw0ZWxTLUwyelZCTVhmWGVXOFdhX1pUN2Utc2h4OFgtV2c2OENGdE9TRkFKWmZTcnE4MVVOSThLS0paVVY2TUpRM0k5Y0xLbTM2Y2xIclg1LV85b2VXWFRYd0FzSTI1ZnE2TlZsNXhOMg?oc=5\" target=\"_blank\">It's May and it's still snowing in Michigan's Upper Peninsula</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Detroit Free Press</font>"
+      },
+      "source": {
+        "href": "https://www.freep.com",
+        "title": "Detroit Free Press"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Peoria Notre Dame High School Top of the Class - Peoria Journal Star",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Peoria Notre Dame High School Top of the Class - Peoria Journal Star"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRklGZnplS3RqenVYdnR5MDFVQ3I4QXBGSGl4LW1Ka3h4NUpLZFNaMWs3Z050SDM1NGhhNVVPY0lHTHVxR3ZkeE5yQ3gyYVdkY1hCNmdBOXRuUjlTTXIxZ29Oc0RiUFRMVTF2Zk8tQmc2eVJRWGFhMnNtRThxaXJWSDRzMllXeGRfanhwUkE2dHV1dHQzTjlsWFVMVW1UZHhSVFE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRklGZnplS3RqenVYdnR5MDFVQ3I4QXBGSGl4LW1Ka3h4NUpLZFNaMWs3Z050SDM1NGhhNVVPY0lHTHVxR3ZkeE5yQ3gyYVdkY1hCNmdBOXRuUjlTTXIxZ29Oc0RiUFRMVTF2Zk8tQmc2eVJRWGFhMnNtRThxaXJWSDRzMllXeGRfanhwUkE2dHV1dHQzTjlsWFVMVW1UZHhSVFE?oc=5",
+      "id": "CBMiogFBVV95cUxPRklGZnplS3RqenVYdnR5MDFVQ3I4QXBGSGl4LW1Ka3h4NUpLZFNaMWs3Z050SDM1NGhhNVVPY0lHTHVxR3ZkeE5yQ3gyYVdkY1hCNmdBOXRuUjlTTXIxZ29Oc0RiUFRMVTF2Zk8tQmc2eVJRWGFhMnNtRThxaXJWSDRzMllXeGRfanhwUkE2dHV1dHQzTjlsWFVMVW1UZHhSVFE",
+      "guidislink": false,
+      "published": "Tue, 07 May 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        5,
+        7,
+        7,
+        0,
+        0,
+        1,
+        127,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxPRklGZnplS3RqenVYdnR5MDFVQ3I4QXBGSGl4LW1Ka3h4NUpLZFNaMWs3Z050SDM1NGhhNVVPY0lHTHVxR3ZkeE5yQ3gyYVdkY1hCNmdBOXRuUjlTTXIxZ29Oc0RiUFRMVTF2Zk8tQmc2eVJRWGFhMnNtRThxaXJWSDRzMllXeGRfanhwUkE2dHV1dHQzTjlsWFVMVW1UZHhSVFE?oc=5\" target=\"_blank\">Peoria Notre Dame High School Top of the Class</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Peoria Journal Star</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxPRklGZnplS3RqenVYdnR5MDFVQ3I4QXBGSGl4LW1Ka3h4NUpLZFNaMWs3Z050SDM1NGhhNVVPY0lHTHVxR3ZkeE5yQ3gyYVdkY1hCNmdBOXRuUjlTTXIxZ29Oc0RiUFRMVTF2Zk8tQmc2eVJRWGFhMnNtRThxaXJWSDRzMllXeGRfanhwUkE2dHV1dHQzTjlsWFVMVW1UZHhSVFE?oc=5\" target=\"_blank\">Peoria Notre Dame High School Top of the Class</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Peoria Journal Star</font>"
+      },
+      "source": {
+        "href": "https://www.pjstar.com",
+        "title": "Peoria Journal Star"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Crawl: Killer gators attack in first trailer for Sam Raimi-produced horror flick - SYFY",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Crawl: Killer gators attack in first trailer for Sam Raimi-produced horror flick - SYFY"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5RU1RrSm9SMGVTLTlhVXoyMEN3WGEtTmxpbWZyc2pFRTc0bXB1amlaUkJ1RVIzTEkzc0wxQ0p6bDdfSUFxWEg1Wno4NXVDSW5wN1h0c29kQ20xbEF6b3pKNVBPVDUwUzE0NVRlNDJsWElVTVh1TXc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5RU1RrSm9SMGVTLTlhVXoyMEN3WGEtTmxpbWZyc2pFRTc0bXB1amlaUkJ1RVIzTEkzc0wxQ0p6bDdfSUFxWEg1Wno4NXVDSW5wN1h0c29kQ20xbEF6b3pKNVBPVDUwUzE0NVRlNDJsWElVTVh1TXc?oc=5",
+      "id": "CBMidkFVX3lxTE5RU1RrSm9SMGVTLTlhVXoyMEN3WGEtTmxpbWZyc2pFRTc0bXB1amlaUkJ1RVIzTEkzc0wxQ0p6bDdfSUFxWEg1Wno4NXVDSW5wN1h0c29kQ20xbEF6b3pKNVBPVDUwUzE0NVRlNDJsWElVTVh1TXc",
+      "guidislink": false,
+      "published": "Thu, 02 May 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        5,
+        2,
+        7,
+        0,
+        0,
+        3,
+        122,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE5RU1RrSm9SMGVTLTlhVXoyMEN3WGEtTmxpbWZyc2pFRTc0bXB1amlaUkJ1RVIzTEkzc0wxQ0p6bDdfSUFxWEg1Wno4NXVDSW5wN1h0c29kQ20xbEF6b3pKNVBPVDUwUzE0NVRlNDJsWElVTVh1TXc?oc=5\" target=\"_blank\">Crawl: Killer gators attack in first trailer for Sam Raimi-produced horror flick</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SYFY</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE5RU1RrSm9SMGVTLTlhVXoyMEN3WGEtTmxpbWZyc2pFRTc0bXB1amlaUkJ1RVIzTEkzc0wxQ0p6bDdfSUFxWEg1Wno4NXVDSW5wN1h0c29kQ20xbEF6b3pKNVBPVDUwUzE0NVRlNDJsWElVTVh1TXc?oc=5\" target=\"_blank\">Crawl: Killer gators attack in first trailer for Sam Raimi-produced horror flick</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SYFY</font>"
+      },
+      "source": {
+        "href": "https://www.syfy.com",
+        "title": "SYFY"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Unsealed rainwater tanks could cause Dengue outbreaks - CSIRO",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Unsealed rainwater tanks could cause Dengue outbreaks - CSIRO"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYmU5dE03ZUpMbG1oODRvcGVsSjZKQjY0Rk8yNll6NEtwbm1NOU9BaFJ6d1Y0WElPdGc2UnF5azRsbldRN29jdktUWUNkYWk2eU1OeDVqT2FrRW9POHlyUVFsYzNDS1lUYlVoSXZZbkI4WENHYm5PVGl2UHQySmdjVEhndzVnU1RlZjdFZGMyeDlUZlluekJKZl8zWEp4S2lGS3c?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYmU5dE03ZUpMbG1oODRvcGVsSjZKQjY0Rk8yNll6NEtwbm1NOU9BaFJ6d1Y0WElPdGc2UnF5azRsbldRN29jdktUWUNkYWk2eU1OeDVqT2FrRW9POHlyUVFsYzNDS1lUYlVoSXZZbkI4WENHYm5PVGl2UHQySmdjVEhndzVnU1RlZjdFZGMyeDlUZlluekJKZl8zWEp4S2lGS3c?oc=5",
+      "id": "CBMiogFBVV95cUxOYmU5dE03ZUpMbG1oODRvcGVsSjZKQjY0Rk8yNll6NEtwbm1NOU9BaFJ6d1Y0WElPdGc2UnF5azRsbldRN29jdktUWUNkYWk2eU1OeDVqT2FrRW9POHlyUVFsYzNDS1lUYlVoSXZZbkI4WENHYm5PVGl2UHQySmdjVEhndzVnU1RlZjdFZGMyeDlUZlluekJKZl8zWEp4S2lGS3c",
+      "guidislink": false,
+      "published": "Fri, 03 May 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        5,
+        3,
+        7,
+        0,
+        0,
+        4,
+        123,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxOYmU5dE03ZUpMbG1oODRvcGVsSjZKQjY0Rk8yNll6NEtwbm1NOU9BaFJ6d1Y0WElPdGc2UnF5azRsbldRN29jdktUWUNkYWk2eU1OeDVqT2FrRW9POHlyUVFsYzNDS1lUYlVoSXZZbkI4WENHYm5PVGl2UHQySmdjVEhndzVnU1RlZjdFZGMyeDlUZlluekJKZl8zWEp4S2lGS3c?oc=5\" target=\"_blank\">Unsealed rainwater tanks could cause Dengue outbreaks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CSIRO</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxOYmU5dE03ZUpMbG1oODRvcGVsSjZKQjY0Rk8yNll6NEtwbm1NOU9BaFJ6d1Y0WElPdGc2UnF5azRsbldRN29jdktUWUNkYWk2eU1OeDVqT2FrRW9POHlyUVFsYzNDS1lUYlVoSXZZbkI4WENHYm5PVGl2UHQySmdjVEhndzVnU1RlZjdFZGMyeDlUZlluekJKZl8zWEp4S2lGS3c?oc=5\" target=\"_blank\">Unsealed rainwater tanks could cause Dengue outbreaks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CSIRO</font>"
+      },
+      "source": {
+        "href": "https://www.csiro.au",
+        "title": "CSIRO"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Emerging and re-emerging viruses - University of Nottingham",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Emerging and re-emerging viruses - University of Nottingham"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNVGUwUVBfR3dvNXV0aVlsYUxjMWRYVTdzdVVLUW1MeldXd2M0OFdNS3V1aWF4NXRMZmd1dmdnZm02N01uODMza3g1dE5sZnRQVXBzRnl2TzdSd25nTXdoZ000MWNwdHdYZ1Z6OXN6dHBXaHMxR0w2VlV5cTV1MDRTS2ZuNE52bVZybjU5eGdSbHBXVm1vRW9hX0tleHVvVGN3T2NBWjlvVXhGdy1qdkhUTElraUt2SnI4RWhPcHVhaTZCeHBUbFA0Z0YyM1BYaWR4aGZWVWl4U3ZqQQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNVGUwUVBfR3dvNXV0aVlsYUxjMWRYVTdzdVVLUW1MeldXd2M0OFdNS3V1aWF4NXRMZmd1dmdnZm02N01uODMza3g1dE5sZnRQVXBzRnl2TzdSd25nTXdoZ000MWNwdHdYZ1Z6OXN6dHBXaHMxR0w2VlV5cTV1MDRTS2ZuNE52bVZybjU5eGdSbHBXVm1vRW9hX0tleHVvVGN3T2NBWjlvVXhGdy1qdkhUTElraUt2SnI4RWhPcHVhaTZCeHBUbFA0Z0YyM1BYaWR4aGZWVWl4U3ZqQQ?oc=5",
+      "id": "CBMi2gFBVV95cUxNVGUwUVBfR3dvNXV0aVlsYUxjMWRYVTdzdVVLUW1MeldXd2M0OFdNS3V1aWF4NXRMZmd1dmdnZm02N01uODMza3g1dE5sZnRQVXBzRnl2TzdSd25nTXdoZ000MWNwdHdYZ1Z6OXN6dHBXaHMxR0w2VlV5cTV1MDRTS2ZuNE52bVZybjU5eGdSbHBXVm1vRW9hX0tleHVvVGN3T2NBWjlvVXhGdy1qdkhUTElraUt2SnI4RWhPcHVhaTZCeHBUbFA0Z0YyM1BYaWR4aGZWVWl4U3ZqQQ",
+      "guidislink": false,
+      "published": "Wed, 08 May 2019 04:03:35 GMT",
+      "published_parsed": [
+        2019,
+        5,
+        8,
+        4,
+        3,
+        35,
+        2,
+        128,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxNVGUwUVBfR3dvNXV0aVlsYUxjMWRYVTdzdVVLUW1MeldXd2M0OFdNS3V1aWF4NXRMZmd1dmdnZm02N01uODMza3g1dE5sZnRQVXBzRnl2TzdSd25nTXdoZ000MWNwdHdYZ1Z6OXN6dHBXaHMxR0w2VlV5cTV1MDRTS2ZuNE52bVZybjU5eGdSbHBXVm1vRW9hX0tleHVvVGN3T2NBWjlvVXhGdy1qdkhUTElraUt2SnI4RWhPcHVhaTZCeHBUbFA0Z0YyM1BYaWR4aGZWVWl4U3ZqQQ?oc=5\" target=\"_blank\">Emerging and re-emerging viruses</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of Nottingham</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxNVGUwUVBfR3dvNXV0aVlsYUxjMWRYVTdzdVVLUW1MeldXd2M0OFdNS3V1aWF4NXRMZmd1dmdnZm02N01uODMza3g1dE5sZnRQVXBzRnl2TzdSd25nTXdoZ000MWNwdHdYZ1Z6OXN6dHBXaHMxR0w2VlV5cTV1MDRTS2ZuNE52bVZybjU5eGdSbHBXVm1vRW9hX0tleHVvVGN3T2NBWjlvVXhGdy1qdkhUTElraUt2SnI4RWhPcHVhaTZCeHBUbFA0Z0YyM1BYaWR4aGZWVWl4U3ZqQQ?oc=5\" target=\"_blank\">Emerging and re-emerging viruses</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of Nottingham</font>"
+      },
+      "source": {
+        "href": "https://www.nottingham.ac.uk",
+        "title": "University of Nottingham"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "National Mosquito Control Programme Further Strengthened - Jamaica Information Service",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "National Mosquito Control Programme Further Strengthened - Jamaica Information Service"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbVU0WnRmX0dZeVpkVU16blB6VDVGSWxzV09DZWFRYWdoN3pwbkludzRyVkl0VVVKcXlZUWNVNjZwQXZfczAwQjhlbE5Db1ZwUVZ4T3YxcGtwT1Z6VFlocldTWW8tNlpoMU92TDRwQ3Z4LXBtSWR4Mmc3TW5qbk5KQ2tOX18?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbVU0WnRmX0dZeVpkVU16blB6VDVGSWxzV09DZWFRYWdoN3pwbkludzRyVkl0VVVKcXlZUWNVNjZwQXZfczAwQjhlbE5Db1ZwUVZ4T3YxcGtwT1Z6VFlocldTWW8tNlpoMU92TDRwQ3Z4LXBtSWR4Mmc3TW5qbk5KQ2tOX18?oc=5",
+      "id": "CBMihAFBVV95cUxQbVU0WnRmX0dZeVpkVU16blB6VDVGSWxzV09DZWFRYWdoN3pwbkludzRyVkl0VVVKcXlZUWNVNjZwQXZfczAwQjhlbE5Db1ZwUVZ4T3YxcGtwT1Z6VFlocldTWW8tNlpoMU92TDRwQ3Z4LXBtSWR4Mmc3TW5qbk5KQ2tOX18",
+      "guidislink": false,
+      "published": "Mon, 06 May 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        5,
+        6,
+        7,
+        0,
+        0,
+        0,
+        126,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQbVU0WnRmX0dZeVpkVU16blB6VDVGSWxzV09DZWFRYWdoN3pwbkludzRyVkl0VVVKcXlZUWNVNjZwQXZfczAwQjhlbE5Db1ZwUVZ4T3YxcGtwT1Z6VFlocldTWW8tNlpoMU92TDRwQ3Z4LXBtSWR4Mmc3TW5qbk5KQ2tOX18?oc=5\" target=\"_blank\">National Mosquito Control Programme Further Strengthened</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Jamaica Information Service</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQbVU0WnRmX0dZeVpkVU16blB6VDVGSWxzV09DZWFRYWdoN3pwbkludzRyVkl0VVVKcXlZUWNVNjZwQXZfczAwQjhlbE5Db1ZwUVZ4T3YxcGtwT1Z6VFlocldTWW8tNlpoMU92TDRwQ3Z4LXBtSWR4Mmc3TW5qbk5KQ2tOX18?oc=5\" target=\"_blank\">National Mosquito Control Programme Further Strengthened</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Jamaica Information Service</font>"
+      },
+      "source": {
+        "href": "https://jis.gov.jm",
+        "title": "Jamaica Information Service"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Wolbachia Mosquitoes Released In The West - Fiji Sun",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Wolbachia Mosquitoes Released In The West - Fiji Sun"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPaHBrZWRaYm1WeUZnZkhtOFdFcGZ6R1cyOFJsZWRIejhyTTEycFNQdjFwRWZUYnMyenBxR1p4OFpac0pKRHFNYjNaUTFLdk9iZGczUjI1aFJ5cmlWenpzbVVrOGZEajJZOXhVSktVa251TjJzT1EtODJVbFhWRFQxTlNB?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPaHBrZWRaYm1WeUZnZkhtOFdFcGZ6R1cyOFJsZWRIejhyTTEycFNQdjFwRWZUYnMyenBxR1p4OFpac0pKRHFNYjNaUTFLdk9iZGczUjI1aFJ5cmlWenpzbVVrOGZEajJZOXhVSktVa251TjJzT1EtODJVbFhWRFQxTlNB?oc=5",
+      "id": "CBMiggFBVV95cUxPaHBrZWRaYm1WeUZnZkhtOFdFcGZ6R1cyOFJsZWRIejhyTTEycFNQdjFwRWZUYnMyenBxR1p4OFpac0pKRHFNYjNaUTFLdk9iZGczUjI1aFJ5cmlWenpzbVVrOGZEajJZOXhVSktVa251TjJzT1EtODJVbFhWRFQxTlNB",
+      "guidislink": false,
+      "published": "Sun, 28 Apr 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        4,
+        28,
+        7,
+        0,
+        0,
+        6,
+        118,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxPaHBrZWRaYm1WeUZnZkhtOFdFcGZ6R1cyOFJsZWRIejhyTTEycFNQdjFwRWZUYnMyenBxR1p4OFpac0pKRHFNYjNaUTFLdk9iZGczUjI1aFJ5cmlWenpzbVVrOGZEajJZOXhVSktVa251TjJzT1EtODJVbFhWRFQxTlNB?oc=5\" target=\"_blank\">Wolbachia Mosquitoes Released In The West</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fiji Sun</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxPaHBrZWRaYm1WeUZnZkhtOFdFcGZ6R1cyOFJsZWRIejhyTTEycFNQdjFwRWZUYnMyenBxR1p4OFpac0pKRHFNYjNaUTFLdk9iZGczUjI1aFJ5cmlWenpzbVVrOGZEajJZOXhVSktVa251TjJzT1EtODJVbFhWRFQxTlNB?oc=5\" target=\"_blank\">Wolbachia Mosquitoes Released In The West</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fiji Sun</font>"
+      },
+      "source": {
+        "href": "https://fijisun.com.fj",
+        "title": "Fiji Sun"
+      },
+      "sub_articles": []
+    }
+  ]
+}

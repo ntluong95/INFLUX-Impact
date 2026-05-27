@@ -1,0 +1,865 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2019-05-10",
+  "window_end": "2019-05-23",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2019-05-10+before%3A2019-05-24&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2019-05-10+before:2019-05-24&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:26:51Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2019-05-10 before:2019-05-24\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2019-05-10 before:2019-05-24\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2019-05-10+before:2019-05-24&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2019-05-10+before:2019-05-24&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:26:52 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      26,
+      52,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "In utero infection of Zika virus leads to abnormal central nervous system development in mice - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "In utero infection of Zika virus leads to abnormal central nervous system development in mice - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1fbkxWTUxZQWdlVlctNTJ4SEYwMDlrdjNUMkFKTm5LR0pwSEN0RTZqOHBhWUU0NzByZG03Z1FwcU9BanZHZkdWQndsalFkbEY2RDVwX0h1YWMxSlpZLWI4?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1fbkxWTUxZQWdlVlctNTJ4SEYwMDlrdjNUMkFKTm5LR0pwSEN0RTZqOHBhWUU0NzByZG03Z1FwcU9BanZHZkdWQndsalFkbEY2RDVwX0h1YWMxSlpZLWI4?oc=5",
+      "id": "CBMiX0FVX3lxTE1fbkxWTUxZQWdlVlctNTJ4SEYwMDlrdjNUMkFKTm5LR0pwSEN0RTZqOHBhWUU0NzByZG03Z1FwcU9BanZHZkdWQndsalFkbEY2RDVwX0h1YWMxSlpZLWI4",
+      "guidislink": false,
+      "published": "Mon, 13 May 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        5,
+        13,
+        7,
+        0,
+        0,
+        0,
+        133,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1fbkxWTUxZQWdlVlctNTJ4SEYwMDlrdjNUMkFKTm5LR0pwSEN0RTZqOHBhWUU0NzByZG03Z1FwcU9BanZHZkdWQndsalFkbEY2RDVwX0h1YWMxSlpZLWI4?oc=5\" target=\"_blank\">In utero infection of Zika virus leads to abnormal central nervous system development in mice</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1fbkxWTUxZQWdlVlctNTJ4SEYwMDlrdjNUMkFKTm5LR0pwSEN0RTZqOHBhWUU0NzByZG03Z1FwcU9BanZHZkdWQndsalFkbEY2RDVwX0h1YWMxSlpZLWI4?oc=5\" target=\"_blank\">In utero infection of Zika virus leads to abnormal central nervous system development in mice</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika: Brazil's Forgotten Families - Human Rights Watch",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika: Brazil's Forgotten Families - Human Rights Watch"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBOdGZNbHJSOF9SR1BPSE51OE1TRXNOcmc3bWFfcFJucEhwZFUyVzdGcFl6V2l3WWY3bG55Zklkc0JCc0RQeFp3RUpBSDZFYVU4WWRMdVJDNHhiY2tya3hvXy1NWi1ZNnJ2MXgxMGlR?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBOdGZNbHJSOF9SR1BPSE51OE1TRXNOcmc3bWFfcFJucEhwZFUyVzdGcFl6V2l3WWY3bG55Zklkc0JCc0RQeFp3RUpBSDZFYVU4WWRMdVJDNHhiY2tya3hvXy1NWi1ZNnJ2MXgxMGlR?oc=5",
+      "id": "CBMibkFVX3lxTFBOdGZNbHJSOF9SR1BPSE51OE1TRXNOcmc3bWFfcFJucEhwZFUyVzdGcFl6V2l3WWY3bG55Zklkc0JCc0RQeFp3RUpBSDZFYVU4WWRMdVJDNHhiY2tya3hvXy1NWi1ZNnJ2MXgxMGlR",
+      "guidislink": false,
+      "published": "Tue, 21 May 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        5,
+        21,
+        7,
+        0,
+        0,
+        1,
+        141,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTFBOdGZNbHJSOF9SR1BPSE51OE1TRXNOcmc3bWFfcFJucEhwZFUyVzdGcFl6V2l3WWY3bG55Zklkc0JCc0RQeFp3RUpBSDZFYVU4WWRMdVJDNHhiY2tya3hvXy1NWi1ZNnJ2MXgxMGlR?oc=5\" target=\"_blank\">Zika: Brazil's Forgotten Families</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Human Rights Watch</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTFBOdGZNbHJSOF9SR1BPSE51OE1TRXNOcmc3bWFfcFJucEhwZFUyVzdGcFl6V2l3WWY3bG55Zklkc0JCc0RQeFp3RUpBSDZFYVU4WWRMdVJDNHhiY2tya3hvXy1NWi1ZNnJ2MXgxMGlR?oc=5\" target=\"_blank\">Zika: Brazil's Forgotten Families</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Human Rights Watch</font>"
+      },
+      "source": {
+        "href": "https://www.hrw.org",
+        "title": "Human Rights Watch"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Understanding the survival of Zika virus in a vector interconnected sexual contact network - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Understanding the survival of Zika virus in a vector interconnected sexual contact network - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9zWF9TenR6ekp4VThYZXpYTXNIV2JOVEpDWnI4TXR4eElRM191X3JVM1ZpZGduSV9HbDdlMmVHRXhJZG9hQzlSSTFPQmQxeExtakJ1VmRDa1doZ29XN2VB?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9zWF9TenR6ekp4VThYZXpYTXNIV2JOVEpDWnI4TXR4eElRM191X3JVM1ZpZGduSV9HbDdlMmVHRXhJZG9hQzlSSTFPQmQxeExtakJ1VmRDa1doZ29XN2VB?oc=5",
+      "id": "CBMiX0FVX3lxTE9zWF9TenR6ekp4VThYZXpYTXNIV2JOVEpDWnI4TXR4eElRM191X3JVM1ZpZGduSV9HbDdlMmVHRXhJZG9hQzlSSTFPQmQxeExtakJ1VmRDa1doZ29XN2VB",
+      "guidislink": false,
+      "published": "Fri, 10 May 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        5,
+        10,
+        7,
+        0,
+        0,
+        4,
+        130,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9zWF9TenR6ekp4VThYZXpYTXNIV2JOVEpDWnI4TXR4eElRM191X3JVM1ZpZGduSV9HbDdlMmVHRXhJZG9hQzlSSTFPQmQxeExtakJ1VmRDa1doZ29XN2VB?oc=5\" target=\"_blank\">Understanding the survival of Zika virus in a vector interconnected sexual contact network</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9zWF9TenR6ekp4VThYZXpYTXNIV2JOVEpDWnI4TXR4eElRM191X3JVM1ZpZGduSV9HbDdlMmVHRXhJZG9hQzlSSTFPQmQxeExtakJ1VmRDa1doZ29XN2VB?oc=5\" target=\"_blank\">Understanding the survival of Zika virus in a vector interconnected sexual contact network</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Trump Org. Blames Zika, Gun Violence for “Severely Underperforming” Hotels - Vanity Fair",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Trump Org. Blames Zika, Gun Violence for “Severely Underperforming” Hotels - Vanity Fair"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1VTHRQdWo1aVBRb2llMVJhbWJIeUljbjFMelFQOWN6NmdkQ0l0ekZWdjJqY3I1VkV1UE4tS3NlaTJVQm0ya1Z2eVBRWEVnaFUyTlZTb19XZEZ2WVV0T2t2UlpnOEJBV2NHN0JpNUZMZTR4OGVXRkVwUUhrMmw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1VTHRQdWo1aVBRb2llMVJhbWJIeUljbjFMelFQOWN6NmdkQ0l0ekZWdjJqY3I1VkV1UE4tS3NlaTJVQm0ya1Z2eVBRWEVnaFUyTlZTb19XZEZ2WVV0T2t2UlpnOEJBV2NHN0JpNUZMZTR4OGVXRkVwUUhrMmw?oc=5",
+      "id": "CBMifEFVX3lxTE1VTHRQdWo1aVBRb2llMVJhbWJIeUljbjFMelFQOWN6NmdkQ0l0ekZWdjJqY3I1VkV1UE4tS3NlaTJVQm0ya1Z2eVBRWEVnaFUyTlZTb19XZEZ2WVV0T2t2UlpnOEJBV2NHN0JpNUZMZTR4OGVXRkVwUUhrMmw",
+      "guidislink": false,
+      "published": "Wed, 15 May 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        5,
+        15,
+        7,
+        0,
+        0,
+        2,
+        135,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE1VTHRQdWo1aVBRb2llMVJhbWJIeUljbjFMelFQOWN6NmdkQ0l0ekZWdjJqY3I1VkV1UE4tS3NlaTJVQm0ya1Z2eVBRWEVnaFUyTlZTb19XZEZ2WVV0T2t2UlpnOEJBV2NHN0JpNUZMZTR4OGVXRkVwUUhrMmw?oc=5\" target=\"_blank\">Trump Org. Blames Zika, Gun Violence for “Severely Underperforming” Hotels</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vanity Fair</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE1VTHRQdWo1aVBRb2llMVJhbWJIeUljbjFMelFQOWN6NmdkQ0l0ekZWdjJqY3I1VkV1UE4tS3NlaTJVQm0ya1Z2eVBRWEVnaFUyTlZTb19XZEZ2WVV0T2t2UlpnOEJBV2NHN0JpNUZMZTR4OGVXRkVwUUhrMmw?oc=5\" target=\"_blank\">Trump Org. Blames Zika, Gun Violence for “Severely Underperforming” Hotels</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vanity Fair</font>"
+      },
+      "source": {
+        "href": "https://www.vanityfair.com",
+        "title": "Vanity Fair"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Renowned Purdue University scientist Michael Rossmann dies - Purdue University",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Renowned Purdue University scientist Michael Rossmann dies - Purdue University"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcnFXYXdSUkkzSEw2VjhZT19DNmlpWGd2QlpzeGh4cjlhLVl4OHlPMmhsX0tfTEtHTkVDSEtDLTBRTWhCRnJIUG5yQzZiMEQ1U2J5LW1OR3diRVZreHhGMy1KT2puODF5bERxRVpZMmpPLThteXo2MDROaVRRTHg1NzdTdzF0MHYzYjdneVhmakFIRXpBaDdGNWI5S0QyV210S3p3aUlHaXFLQVdyY25WLUp5N3RGV2xqZHlTNQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcnFXYXdSUkkzSEw2VjhZT19DNmlpWGd2QlpzeGh4cjlhLVl4OHlPMmhsX0tfTEtHTkVDSEtDLTBRTWhCRnJIUG5yQzZiMEQ1U2J5LW1OR3diRVZreHhGMy1KT2puODF5bERxRVpZMmpPLThteXo2MDROaVRRTHg1NzdTdzF0MHYzYjdneVhmakFIRXpBaDdGNWI5S0QyV210S3p3aUlHaXFLQVdyY25WLUp5N3RGV2xqZHlTNQ?oc=5",
+      "id": "CBMivAFBVV95cUxNcnFXYXdSUkkzSEw2VjhZT19DNmlpWGd2QlpzeGh4cjlhLVl4OHlPMmhsX0tfTEtHTkVDSEtDLTBRTWhCRnJIUG5yQzZiMEQ1U2J5LW1OR3diRVZreHhGMy1KT2puODF5bERxRVpZMmpPLThteXo2MDROaVRRTHg1NzdTdzF0MHYzYjdneVhmakFIRXpBaDdGNWI5S0QyV210S3p3aUlHaXFLQVdyY25WLUp5N3RGV2xqZHlTNQ",
+      "guidislink": false,
+      "published": "Tue, 14 May 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        5,
+        14,
+        7,
+        0,
+        0,
+        1,
+        134,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxNcnFXYXdSUkkzSEw2VjhZT19DNmlpWGd2QlpzeGh4cjlhLVl4OHlPMmhsX0tfTEtHTkVDSEtDLTBRTWhCRnJIUG5yQzZiMEQ1U2J5LW1OR3diRVZreHhGMy1KT2puODF5bERxRVpZMmpPLThteXo2MDROaVRRTHg1NzdTdzF0MHYzYjdneVhmakFIRXpBaDdGNWI5S0QyV210S3p3aUlHaXFLQVdyY25WLUp5N3RGV2xqZHlTNQ?oc=5\" target=\"_blank\">Renowned Purdue University scientist Michael Rossmann dies</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Purdue University</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxNcnFXYXdSUkkzSEw2VjhZT19DNmlpWGd2QlpzeGh4cjlhLVl4OHlPMmhsX0tfTEtHTkVDSEtDLTBRTWhCRnJIUG5yQzZiMEQ1U2J5LW1OR3diRVZreHhGMy1KT2puODF5bERxRVpZMmpPLThteXo2MDROaVRRTHg1NzdTdzF0MHYzYjdneVhmakFIRXpBaDdGNWI5S0QyV210S3p3aUlHaXFLQVdyY25WLUp5N3RGV2xqZHlTNQ?oc=5\" target=\"_blank\">Renowned Purdue University scientist Michael Rossmann dies</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Purdue University</font>"
+      },
+      "source": {
+        "href": "https://www.purdue.edu",
+        "title": "Purdue University"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "How Scientists Use Climate Models to Predict Mosquito-Borne Disease Outbreaks - Smithsonian Magazine",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "How Scientists Use Climate Models to Predict Mosquito-Borne Disease Outbreaks - Smithsonian Magazine"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVUt6NDNLbVpka21aQUFsZE5nT3cyazRUNzdrSlVLZTdYX0szNmg4YVpFWERMdGM2amxQeW4wbEhBTVJWRVBTa3Nldk44UGk5X1Q5Zm9ySXFkeHRqLTFuQnFHUGx1eUs5cmVEbWRjRlJCYkg2YXpzSDdnVjQ5czR5dXMwOEEzVENwSU5FVUZtcHJ5eVNmd2VWQ3pxU0pMSG5Yb056OE1WS2lZODBIYTVXYVZ4c1NlQTJTM1JiTDZLc3BoRjhDNGVYWVVoaw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVUt6NDNLbVpka21aQUFsZE5nT3cyazRUNzdrSlVLZTdYX0szNmg4YVpFWERMdGM2amxQeW4wbEhBTVJWRVBTa3Nldk44UGk5X1Q5Zm9ySXFkeHRqLTFuQnFHUGx1eUs5cmVEbWRjRlJCYkg2YXpzSDdnVjQ5czR5dXMwOEEzVENwSU5FVUZtcHJ5eVNmd2VWQ3pxU0pMSG5Yb056OE1WS2lZODBIYTVXYVZ4c1NlQTJTM1JiTDZLc3BoRjhDNGVYWVVoaw?oc=5",
+      "id": "CBMiywFBVV95cUxOVUt6NDNLbVpka21aQUFsZE5nT3cyazRUNzdrSlVLZTdYX0szNmg4YVpFWERMdGM2amxQeW4wbEhBTVJWRVBTa3Nldk44UGk5X1Q5Zm9ySXFkeHRqLTFuQnFHUGx1eUs5cmVEbWRjRlJCYkg2YXpzSDdnVjQ5czR5dXMwOEEzVENwSU5FVUZtcHJ5eVNmd2VWQ3pxU0pMSG5Yb056OE1WS2lZODBIYTVXYVZ4c1NlQTJTM1JiTDZLc3BoRjhDNGVYWVVoaw",
+      "guidislink": false,
+      "published": "Fri, 10 May 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        5,
+        10,
+        7,
+        0,
+        0,
+        4,
+        130,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxOVUt6NDNLbVpka21aQUFsZE5nT3cyazRUNzdrSlVLZTdYX0szNmg4YVpFWERMdGM2amxQeW4wbEhBTVJWRVBTa3Nldk44UGk5X1Q5Zm9ySXFkeHRqLTFuQnFHUGx1eUs5cmVEbWRjRlJCYkg2YXpzSDdnVjQ5czR5dXMwOEEzVENwSU5FVUZtcHJ5eVNmd2VWQ3pxU0pMSG5Yb056OE1WS2lZODBIYTVXYVZ4c1NlQTJTM1JiTDZLc3BoRjhDNGVYWVVoaw?oc=5\" target=\"_blank\">How Scientists Use Climate Models to Predict Mosquito-Borne Disease Outbreaks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Smithsonian Magazine</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxOVUt6NDNLbVpka21aQUFsZE5nT3cyazRUNzdrSlVLZTdYX0szNmg4YVpFWERMdGM2amxQeW4wbEhBTVJWRVBTa3Nldk44UGk5X1Q5Zm9ySXFkeHRqLTFuQnFHUGx1eUs5cmVEbWRjRlJCYkg2YXpzSDdnVjQ5czR5dXMwOEEzVENwSU5FVUZtcHJ5eVNmd2VWQ3pxU0pMSG5Yb056OE1WS2lZODBIYTVXYVZ4c1NlQTJTM1JiTDZLc3BoRjhDNGVYWVVoaw?oc=5\" target=\"_blank\">How Scientists Use Climate Models to Predict Mosquito-Borne Disease Outbreaks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Smithsonian Magazine</font>"
+      },
+      "source": {
+        "href": "https://www.smithsonianmag.com",
+        "title": "Smithsonian Magazine"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Generation of Zika, Microcephaly - Anadolu Ajansı",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Generation of Zika, Microcephaly - Anadolu Ajansı"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBNcVdMQlhiN2VKU19XR0VpNXJPSXdHa3BwSEM3S2hia0o3b0Q4SE9aeVBGZTRIaDRPbkVnN3BXaUFORlZrZ0tKZ09yekpiRTh0cmU1VVN0QmxQWlNrUWtlSThRYmw5S3hOSVQ4cEVaMmNzS1F4Umh3bkk1bw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBNcVdMQlhiN2VKU19XR0VpNXJPSXdHa3BwSEM3S2hia0o3b0Q4SE9aeVBGZTRIaDRPbkVnN3BXaUFORlZrZ0tKZ09yekpiRTh0cmU1VVN0QmxQWlNrUWtlSThRYmw5S3hOSVQ4cEVaMmNzS1F4Umh3bkk1bw?oc=5",
+      "id": "CBMie0FVX3lxTFBNcVdMQlhiN2VKU19XR0VpNXJPSXdHa3BwSEM3S2hia0o3b0Q4SE9aeVBGZTRIaDRPbkVnN3BXaUFORlZrZ0tKZ09yekpiRTh0cmU1VVN0QmxQWlNrUWtlSThRYmw5S3hOSVQ4cEVaMmNzS1F4Umh3bkk1bw",
+      "guidislink": false,
+      "published": "Sat, 18 May 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        5,
+        18,
+        7,
+        0,
+        0,
+        5,
+        138,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTFBNcVdMQlhiN2VKU19XR0VpNXJPSXdHa3BwSEM3S2hia0o3b0Q4SE9aeVBGZTRIaDRPbkVnN3BXaUFORlZrZ0tKZ09yekpiRTh0cmU1VVN0QmxQWlNrUWtlSThRYmw5S3hOSVQ4cEVaMmNzS1F4Umh3bkk1bw?oc=5\" target=\"_blank\">Generation of Zika, Microcephaly</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Anadolu Ajansı</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTFBNcVdMQlhiN2VKU19XR0VpNXJPSXdHa3BwSEM3S2hia0o3b0Q4SE9aeVBGZTRIaDRPbkVnN3BXaUFORlZrZ0tKZ09yekpiRTh0cmU1VVN0QmxQWlNrUWtlSThRYmw5S3hOSVQ4cEVaMmNzS1F4Umh3bkk1bw?oc=5\" target=\"_blank\">Generation of Zika, Microcephaly</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Anadolu Ajansı</font>"
+      },
+      "source": {
+        "href": "https://www.aa.com.tr",
+        "title": "Anadolu Ajansı"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "UK Design Alum 'Goes to Bat' for His Idea on ABC's 'Shark Tank' - UKNow",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "UK Design Alum 'Goes to Bat' for His Idea on ABC's 'Shark Tank' - UKNow"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSGZtQUxIR2E2bXFyNWZybGpvWTduMUh2RTJleURtWW13MXR1LXZCZHp6MERlYTQwdjNaQzhmZEhsX2ZwUHlIRjlWMWhiUXlaWm9yaXdOcTVOaGpyLUxPcVJFOW1QNEJodFU0aXllbUFZcXd5SVdoSWJxSExFWExSb2FWTld3MEd0Snc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSGZtQUxIR2E2bXFyNWZybGpvWTduMUh2RTJleURtWW13MXR1LXZCZHp6MERlYTQwdjNaQzhmZEhsX2ZwUHlIRjlWMWhiUXlaWm9yaXdOcTVOaGpyLUxPcVJFOW1QNEJodFU0aXllbUFZcXd5SVdoSWJxSExFWExSb2FWTld3MEd0Snc?oc=5",
+      "id": "CBMiigFBVV95cUxNSGZtQUxIR2E2bXFyNWZybGpvWTduMUh2RTJleURtWW13MXR1LXZCZHp6MERlYTQwdjNaQzhmZEhsX2ZwUHlIRjlWMWhiUXlaWm9yaXdOcTVOaGpyLUxPcVJFOW1QNEJodFU0aXllbUFZcXd5SVdoSWJxSExFWExSb2FWTld3MEd0Snc",
+      "guidislink": false,
+      "published": "Fri, 10 May 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        5,
+        10,
+        7,
+        0,
+        0,
+        4,
+        130,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxNSGZtQUxIR2E2bXFyNWZybGpvWTduMUh2RTJleURtWW13MXR1LXZCZHp6MERlYTQwdjNaQzhmZEhsX2ZwUHlIRjlWMWhiUXlaWm9yaXdOcTVOaGpyLUxPcVJFOW1QNEJodFU0aXllbUFZcXd5SVdoSWJxSExFWExSb2FWTld3MEd0Snc?oc=5\" target=\"_blank\">UK Design Alum 'Goes to Bat' for His Idea on ABC's 'Shark Tank'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">UKNow</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxNSGZtQUxIR2E2bXFyNWZybGpvWTduMUh2RTJleURtWW13MXR1LXZCZHp6MERlYTQwdjNaQzhmZEhsX2ZwUHlIRjlWMWhiUXlaWm9yaXdOcTVOaGpyLUxPcVJFOW1QNEJodFU0aXllbUFZcXd5SVdoSWJxSExFWExSb2FWTld3MEd0Snc?oc=5\" target=\"_blank\">UK Design Alum 'Goes to Bat' for His Idea on ABC's 'Shark Tank'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">UKNow</font>"
+      },
+      "source": {
+        "href": "https://uknow.uky.edu",
+        "title": "UKNow"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Brazil’s Forgotten Families Deserve More - Human Rights Watch",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Brazil’s Forgotten Families Deserve More - Human Rights Watch"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVkR2SUR0MU1IQXVrOGQzWnJ2YnJuM3J5cXdZcU11RGNObC1jZ29lZzNhUFMtbzhiNzBPVjNhbW5TUmJTRFo2elRqWXA5UmlrREVsN2RoaWJScWZTTnVzS2IyMUNjOTJ3SGVwZnNsM2c2WFNlZzlpT3otR2VNb0VNbg?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVkR2SUR0MU1IQXVrOGQzWnJ2YnJuM3J5cXdZcU11RGNObC1jZ29lZzNhUFMtbzhiNzBPVjNhbW5TUmJTRFo2elRqWXA5UmlrREVsN2RoaWJScWZTTnVzS2IyMUNjOTJ3SGVwZnNsM2c2WFNlZzlpT3otR2VNb0VNbg?oc=5",
+      "id": "CBMigAFBVV95cUxQVkR2SUR0MU1IQXVrOGQzWnJ2YnJuM3J5cXdZcU11RGNObC1jZ29lZzNhUFMtbzhiNzBPVjNhbW5TUmJTRFo2elRqWXA5UmlrREVsN2RoaWJScWZTTnVzS2IyMUNjOTJ3SGVwZnNsM2c2WFNlZzlpT3otR2VNb0VNbg",
+      "guidislink": false,
+      "published": "Tue, 21 May 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        5,
+        21,
+        7,
+        0,
+        0,
+        1,
+        141,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxQVkR2SUR0MU1IQXVrOGQzWnJ2YnJuM3J5cXdZcU11RGNObC1jZ29lZzNhUFMtbzhiNzBPVjNhbW5TUmJTRFo2elRqWXA5UmlrREVsN2RoaWJScWZTTnVzS2IyMUNjOTJ3SGVwZnNsM2c2WFNlZzlpT3otR2VNb0VNbg?oc=5\" target=\"_blank\">Brazil’s Forgotten Families Deserve More</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Human Rights Watch</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxQVkR2SUR0MU1IQXVrOGQzWnJ2YnJuM3J5cXdZcU11RGNObC1jZ29lZzNhUFMtbzhiNzBPVjNhbW5TUmJTRFo2elRqWXA5UmlrREVsN2RoaWJScWZTTnVzS2IyMUNjOTJ3SGVwZnNsM2c2WFNlZzlpT3otR2VNb0VNbg?oc=5\" target=\"_blank\">Brazil’s Forgotten Families Deserve More</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Human Rights Watch</font>"
+      },
+      "source": {
+        "href": "https://www.hrw.org",
+        "title": "Human Rights Watch"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "MIT professor is accused of claiming others’ scientific discoveries as his own - statnews.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "MIT professor is accused of claiming others’ scientific discoveries as his own - statnews.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSkFqZ2Y3V2lfd1VYRl9SODE5SzVRLXRVNkstV1IzakNoTlE2eWJqbjhBYXYtVl9pR3JOZEJOcHl1eGZTYXUyNHV0WWJIUDBVM2RaUFVEZ3FYQng4YWMtd0xLaUU0a29GZE8wNXNKeE9uSE5tN0RMVjhTSVpLUkxabElMVS0tdVpINjZLNXFlNHQzT082OHJrZi1YU3pSWjYxSHpxY0hYeFJEYVR3Sklic2xkX1E?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSkFqZ2Y3V2lfd1VYRl9SODE5SzVRLXRVNkstV1IzakNoTlE2eWJqbjhBYXYtVl9pR3JOZEJOcHl1eGZTYXUyNHV0WWJIUDBVM2RaUFVEZ3FYQng4YWMtd0xLaUU0a29GZE8wNXNKeE9uSE5tN0RMVjhTSVpLUkxabElMVS0tdVpINjZLNXFlNHQzT082OHJrZi1YU3pSWjYxSHpxY0hYeFJEYVR3Sklic2xkX1E?oc=5",
+      "id": "CBMitAFBVV95cUxQSkFqZ2Y3V2lfd1VYRl9SODE5SzVRLXRVNkstV1IzakNoTlE2eWJqbjhBYXYtVl9pR3JOZEJOcHl1eGZTYXUyNHV0WWJIUDBVM2RaUFVEZ3FYQng4YWMtd0xLaUU0a29GZE8wNXNKeE9uSE5tN0RMVjhTSVpLUkxabElMVS0tdVpINjZLNXFlNHQzT082OHJrZi1YU3pSWjYxSHpxY0hYeFJEYVR3Sklic2xkX1E",
+      "guidislink": false,
+      "published": "Tue, 21 May 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        5,
+        21,
+        7,
+        0,
+        0,
+        1,
+        141,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQSkFqZ2Y3V2lfd1VYRl9SODE5SzVRLXRVNkstV1IzakNoTlE2eWJqbjhBYXYtVl9pR3JOZEJOcHl1eGZTYXUyNHV0WWJIUDBVM2RaUFVEZ3FYQng4YWMtd0xLaUU0a29GZE8wNXNKeE9uSE5tN0RMVjhTSVpLUkxabElMVS0tdVpINjZLNXFlNHQzT082OHJrZi1YU3pSWjYxSHpxY0hYeFJEYVR3Sklic2xkX1E?oc=5\" target=\"_blank\">MIT professor is accused of claiming others’ scientific discoveries as his own</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">statnews.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQSkFqZ2Y3V2lfd1VYRl9SODE5SzVRLXRVNkstV1IzakNoTlE2eWJqbjhBYXYtVl9pR3JOZEJOcHl1eGZTYXUyNHV0WWJIUDBVM2RaUFVEZ3FYQng4YWMtd0xLaUU0a29GZE8wNXNKeE9uSE5tN0RMVjhTSVpLUkxabElMVS0tdVpINjZLNXFlNHQzT082OHJrZi1YU3pSWjYxSHpxY0hYeFJEYVR3Sklic2xkX1E?oc=5\" target=\"_blank\">MIT professor is accused of claiming others’ scientific discoveries as his own</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">statnews.com</font>"
+      },
+      "source": {
+        "href": "https://www.statnews.com",
+        "title": "statnews.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "The Author of World War Z Is Worried About Germ Warfare - Slate",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "The Author of World War Z Is Worried About Germ Warfare - Slate"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdkQ0S1pNN0hnUEdkaWNFd0xzQmJMbUY2ZFhCZkl4ZVFleUcyZktkOFFMVm1FOWNqc2N1ci01ejdHUm9rVWlGV1dDcjliTHVBMkFDSDR1S0xyRlB5ZkVaQ2tTUGJmenN5Z2ttekF4d2VlU0R3NDdqbjdkR3R6NG1LbzdHZHk0WFRndThqWWEwZkhMYXBkMm00?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdkQ0S1pNN0hnUEdkaWNFd0xzQmJMbUY2ZFhCZkl4ZVFleUcyZktkOFFMVm1FOWNqc2N1ci01ejdHUm9rVWlGV1dDcjliTHVBMkFDSDR1S0xyRlB5ZkVaQ2tTUGJmenN5Z2ttekF4d2VlU0R3NDdqbjdkR3R6NG1LbzdHZHk0WFRndThqWWEwZkhMYXBkMm00?oc=5",
+      "id": "CBMilwFBVV95cUxOdkQ0S1pNN0hnUEdkaWNFd0xzQmJMbUY2ZFhCZkl4ZVFleUcyZktkOFFMVm1FOWNqc2N1ci01ejdHUm9rVWlGV1dDcjliTHVBMkFDSDR1S0xyRlB5ZkVaQ2tTUGJmenN5Z2ttekF4d2VlU0R3NDdqbjdkR3R6NG1LbzdHZHk0WFRndThqWWEwZkhMYXBkMm00",
+      "guidislink": false,
+      "published": "Tue, 14 May 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        5,
+        14,
+        7,
+        0,
+        0,
+        1,
+        134,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxOdkQ0S1pNN0hnUEdkaWNFd0xzQmJMbUY2ZFhCZkl4ZVFleUcyZktkOFFMVm1FOWNqc2N1ci01ejdHUm9rVWlGV1dDcjliTHVBMkFDSDR1S0xyRlB5ZkVaQ2tTUGJmenN5Z2ttekF4d2VlU0R3NDdqbjdkR3R6NG1LbzdHZHk0WFRndThqWWEwZkhMYXBkMm00?oc=5\" target=\"_blank\">The Author of World War Z Is Worried About Germ Warfare</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Slate</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxOdkQ0S1pNN0hnUEdkaWNFd0xzQmJMbUY2ZFhCZkl4ZVFleUcyZktkOFFMVm1FOWNqc2N1ci01ejdHUm9rVWlGV1dDcjliTHVBMkFDSDR1S0xyRlB5ZkVaQ2tTUGJmenN5Z2ttekF4d2VlU0R3NDdqbjdkR3R6NG1LbzdHZHk0WFRndThqWWEwZkhMYXBkMm00?oc=5\" target=\"_blank\">The Author of World War Z Is Worried About Germ Warfare</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Slate</font>"
+      },
+      "source": {
+        "href": "https://slate.com",
+        "title": "Slate"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Purdue Prof. Michael Rossmann, known for discovery of common cold virus structure, dies - Journal & Courier",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Purdue Prof. Michael Rossmann, known for discovery of common cold virus structure, dies - Journal & Courier"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOV2FaRjZfZHNXWGMteWx5YU4xSDFXWFo4MGY0ZkpFTUhDSjdZQk5qb2lSS3FIX3VabDZuVEdZczV1Ti1BYmhJTE94bWhzU0FDclNfTGd5RWhPWnFjcUY5QTZ5TnE5UXJqLWhySXVBcUkxMU5RSncwNnZRbkJnb1pyYnVyNkg2NG9NV0dfNmZhWHVzSUtBYXlfVFdrc216S1FxTl9wLVFBMHREd2hKVjV1QjA3alJ6bWVxRWpTNUc4QQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOV2FaRjZfZHNXWGMteWx5YU4xSDFXWFo4MGY0ZkpFTUhDSjdZQk5qb2lSS3FIX3VabDZuVEdZczV1Ti1BYmhJTE94bWhzU0FDclNfTGd5RWhPWnFjcUY5QTZ5TnE5UXJqLWhySXVBcUkxMU5RSncwNnZRbkJnb1pyYnVyNkg2NG9NV0dfNmZhWHVzSUtBYXlfVFdrc216S1FxTl9wLVFBMHREd2hKVjV1QjA3alJ6bWVxRWpTNUc4QQ?oc=5",
+      "id": "CBMivwFBVV95cUxOV2FaRjZfZHNXWGMteWx5YU4xSDFXWFo4MGY0ZkpFTUhDSjdZQk5qb2lSS3FIX3VabDZuVEdZczV1Ti1BYmhJTE94bWhzU0FDclNfTGd5RWhPWnFjcUY5QTZ5TnE5UXJqLWhySXVBcUkxMU5RSncwNnZRbkJnb1pyYnVyNkg2NG9NV0dfNmZhWHVzSUtBYXlfVFdrc216S1FxTl9wLVFBMHREd2hKVjV1QjA3alJ6bWVxRWpTNUc4QQ",
+      "guidislink": false,
+      "published": "Tue, 14 May 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        5,
+        14,
+        7,
+        0,
+        0,
+        1,
+        134,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxOV2FaRjZfZHNXWGMteWx5YU4xSDFXWFo4MGY0ZkpFTUhDSjdZQk5qb2lSS3FIX3VabDZuVEdZczV1Ti1BYmhJTE94bWhzU0FDclNfTGd5RWhPWnFjcUY5QTZ5TnE5UXJqLWhySXVBcUkxMU5RSncwNnZRbkJnb1pyYnVyNkg2NG9NV0dfNmZhWHVzSUtBYXlfVFdrc216S1FxTl9wLVFBMHREd2hKVjV1QjA3alJ6bWVxRWpTNUc4QQ?oc=5\" target=\"_blank\">Purdue Prof. Michael Rossmann, known for discovery of common cold virus structure, dies</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Journal & Courier</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxOV2FaRjZfZHNXWGMteWx5YU4xSDFXWFo4MGY0ZkpFTUhDSjdZQk5qb2lSS3FIX3VabDZuVEdZczV1Ti1BYmhJTE94bWhzU0FDclNfTGd5RWhPWnFjcUY5QTZ5TnE5UXJqLWhySXVBcUkxMU5RSncwNnZRbkJnb1pyYnVyNkg2NG9NV0dfNmZhWHVzSUtBYXlfVFdrc216S1FxTl9wLVFBMHREd2hKVjV1QjA3alJ6bWVxRWpTNUc4QQ?oc=5\" target=\"_blank\">Purdue Prof. Michael Rossmann, known for discovery of common cold virus structure, dies</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Journal & Courier</font>"
+      },
+      "source": {
+        "href": "https://www.jconline.com",
+        "title": "Journal & Courier"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "MIT Professor Cleared of Misconduct After Years of Scrutiny - BioSpace",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "MIT Professor Cleared of Misconduct After Years of Scrutiny - BioSpace"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOb1cyLWlZZkRob3lvSEdYYm9pQVJEejZOT2hDZkNnVTBsVW5MZjlSYWtJN1JUTzlKMFBkMmJNZ2xENHFidmJOVU1TRDRqaHJiTXU2Q2hUQWlsRU5mRWJLQ0wwa21fYmdSZTN0M2xtd2xXcDlnczJ6YXBhVTRRSlZHczhOMHF1UmMyWGI0U0hQNC1lbW1NNnB3?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOb1cyLWlZZkRob3lvSEdYYm9pQVJEejZOT2hDZkNnVTBsVW5MZjlSYWtJN1JUTzlKMFBkMmJNZ2xENHFidmJOVU1TRDRqaHJiTXU2Q2hUQWlsRU5mRWJLQ0wwa21fYmdSZTN0M2xtd2xXcDlnczJ6YXBhVTRRSlZHczhOMHF1UmMyWGI0U0hQNC1lbW1NNnB3?oc=5",
+      "id": "CBMilwFBVV95cUxOb1cyLWlZZkRob3lvSEdYYm9pQVJEejZOT2hDZkNnVTBsVW5MZjlSYWtJN1JUTzlKMFBkMmJNZ2xENHFidmJOVU1TRDRqaHJiTXU2Q2hUQWlsRU5mRWJLQ0wwa21fYmdSZTN0M2xtd2xXcDlnczJ6YXBhVTRRSlZHczhOMHF1UmMyWGI0U0hQNC1lbW1NNnB3",
+      "guidislink": false,
+      "published": "Thu, 23 May 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        5,
+        23,
+        7,
+        0,
+        0,
+        3,
+        143,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxOb1cyLWlZZkRob3lvSEdYYm9pQVJEejZOT2hDZkNnVTBsVW5MZjlSYWtJN1JUTzlKMFBkMmJNZ2xENHFidmJOVU1TRDRqaHJiTXU2Q2hUQWlsRU5mRWJLQ0wwa21fYmdSZTN0M2xtd2xXcDlnczJ6YXBhVTRRSlZHczhOMHF1UmMyWGI0U0hQNC1lbW1NNnB3?oc=5\" target=\"_blank\">MIT Professor Cleared of Misconduct After Years of Scrutiny</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BioSpace</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxOb1cyLWlZZkRob3lvSEdYYm9pQVJEejZOT2hDZkNnVTBsVW5MZjlSYWtJN1JUTzlKMFBkMmJNZ2xENHFidmJOVU1TRDRqaHJiTXU2Q2hUQWlsRU5mRWJLQ0wwa21fYmdSZTN0M2xtd2xXcDlnczJ6YXBhVTRRSlZHczhOMHF1UmMyWGI0U0hQNC1lbW1NNnB3?oc=5\" target=\"_blank\">MIT Professor Cleared of Misconduct After Years of Scrutiny</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BioSpace</font>"
+      },
+      "source": {
+        "href": "https://www.biospace.com",
+        "title": "BioSpace"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "'Shark Tank' finale: Mr. Wonderful goes batty for a living mosquito-control device - The Herald-Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "'Shark Tank' finale: Mr. Wonderful goes batty for a living mosquito-control device - The Herald-Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNktnUGRlb2JvdFlEelZtbFhfYlhtTkRlT01KZ2Y1d2RuVGZRbWpXOTJNUUNaT3RuWk9NN1J4UDN4cDhON3MtcHloWmZkZHZBMXVwcDBnNHpweFFuZFppZGo0SUYxcDRGVzBKRmY4X2pQQm05Mk1BUnUyN2k5MHZvZnpkWTVrR2JSb0ZENGlYQXhjVEtCOVhEcG5MTWlickY5VnBtVTAzN1hpWllPTk5tWGVSa05aQ1NDNkNRU2gyQ3puOW1wQ19DQkVZU3I5eEtxcElPcnJpaXJSUQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNktnUGRlb2JvdFlEelZtbFhfYlhtTkRlT01KZ2Y1d2RuVGZRbWpXOTJNUUNaT3RuWk9NN1J4UDN4cDhON3MtcHloWmZkZHZBMXVwcDBnNHpweFFuZFppZGo0SUYxcDRGVzBKRmY4X2pQQm05Mk1BUnUyN2k5MHZvZnpkWTVrR2JSb0ZENGlYQXhjVEtCOVhEcG5MTWlickY5VnBtVTAzN1hpWllPTk5tWGVSa05aQ1NDNkNRU2gyQ3puOW1wQ19DQkVZU3I5eEtxcElPcnJpaXJSUQ?oc=5",
+      "id": "CBMi2gFBVV95cUxPNktnUGRlb2JvdFlEelZtbFhfYlhtTkRlT01KZ2Y1d2RuVGZRbWpXOTJNUUNaT3RuWk9NN1J4UDN4cDhON3MtcHloWmZkZHZBMXVwcDBnNHpweFFuZFppZGo0SUYxcDRGVzBKRmY4X2pQQm05Mk1BUnUyN2k5MHZvZnpkWTVrR2JSb0ZENGlYQXhjVEtCOVhEcG5MTWlickY5VnBtVTAzN1hpWllPTk5tWGVSa05aQ1NDNkNRU2gyQ3puOW1wQ19DQkVZU3I5eEtxcElPcnJpaXJSUQ",
+      "guidislink": false,
+      "published": "Sun, 12 May 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        5,
+        12,
+        7,
+        0,
+        0,
+        6,
+        132,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNktnUGRlb2JvdFlEelZtbFhfYlhtTkRlT01KZ2Y1d2RuVGZRbWpXOTJNUUNaT3RuWk9NN1J4UDN4cDhON3MtcHloWmZkZHZBMXVwcDBnNHpweFFuZFppZGo0SUYxcDRGVzBKRmY4X2pQQm05Mk1BUnUyN2k5MHZvZnpkWTVrR2JSb0ZENGlYQXhjVEtCOVhEcG5MTWlickY5VnBtVTAzN1hpWllPTk5tWGVSa05aQ1NDNkNRU2gyQ3puOW1wQ19DQkVZU3I5eEtxcElPcnJpaXJSUQ?oc=5\" target=\"_blank\">'Shark Tank' finale: Mr. Wonderful goes batty for a living mosquito-control device</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Herald-Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNktnUGRlb2JvdFlEelZtbFhfYlhtTkRlT01KZ2Y1d2RuVGZRbWpXOTJNUUNaT3RuWk9NN1J4UDN4cDhON3MtcHloWmZkZHZBMXVwcDBnNHpweFFuZFppZGo0SUYxcDRGVzBKRmY4X2pQQm05Mk1BUnUyN2k5MHZvZnpkWTVrR2JSb0ZENGlYQXhjVEtCOVhEcG5MTWlickY5VnBtVTAzN1hpWllPTk5tWGVSa05aQ1NDNkNRU2gyQ3puOW1wQ19DQkVZU3I5eEtxcElPcnJpaXJSUQ?oc=5\" target=\"_blank\">'Shark Tank' finale: Mr. Wonderful goes batty for a living mosquito-control device</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Herald-Mail</font>"
+      },
+      "source": {
+        "href": "https://www.heraldmailmedia.com",
+        "title": "The Herald-Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Photos from Island Coast High School graduation - The News-Press",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Photos from Island Coast High School graduation - The News-Press"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZUxfeVdJbXRkR2FrR3EwVFNRYlJwSnZtUEZ6c3RqTTMza3FwazBVd1JDYU1QbmlmOGwyUGl6Q3BJWUNGVklTWngwS1JDVVFvaGdHdGktc3N2dTcwTDJiaGMtZnJxTm9mXzdzMTdsTVlwLVBZRmEwMXlmTENpYk8tM0FLRXhiQzVJTjJFYm1zb2x0SzZvUGx1ZGxWbXpHb0U2UzUtWHJ5SmZtWE5iaWRfVUVhNDFQaDVKdFlYTm1sMjlhbV9kVHVxc2ZnUzNpZEU?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZUxfeVdJbXRkR2FrR3EwVFNRYlJwSnZtUEZ6c3RqTTMza3FwazBVd1JDYU1QbmlmOGwyUGl6Q3BJWUNGVklTWngwS1JDVVFvaGdHdGktc3N2dTcwTDJiaGMtZnJxTm9mXzdzMTdsTVlwLVBZRmEwMXlmTENpYk8tM0FLRXhiQzVJTjJFYm1zb2x0SzZvUGx1ZGxWbXpHb0U2UzUtWHJ5SmZtWE5iaWRfVUVhNDFQaDVKdFlYTm1sMjlhbV9kVHVxc2ZnUzNpZEU?oc=5",
+      "id": "CBMizwFBVV95cUxNZUxfeVdJbXRkR2FrR3EwVFNRYlJwSnZtUEZ6c3RqTTMza3FwazBVd1JDYU1QbmlmOGwyUGl6Q3BJWUNGVklTWngwS1JDVVFvaGdHdGktc3N2dTcwTDJiaGMtZnJxTm9mXzdzMTdsTVlwLVBZRmEwMXlmTENpYk8tM0FLRXhiQzVJTjJFYm1zb2x0SzZvUGx1ZGxWbXpHb0U2UzUtWHJ5SmZtWE5iaWRfVUVhNDFQaDVKdFlYTm1sMjlhbV9kVHVxc2ZnUzNpZEU",
+      "guidislink": false,
+      "published": "Mon, 20 May 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        5,
+        20,
+        7,
+        0,
+        0,
+        0,
+        140,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxNZUxfeVdJbXRkR2FrR3EwVFNRYlJwSnZtUEZ6c3RqTTMza3FwazBVd1JDYU1QbmlmOGwyUGl6Q3BJWUNGVklTWngwS1JDVVFvaGdHdGktc3N2dTcwTDJiaGMtZnJxTm9mXzdzMTdsTVlwLVBZRmEwMXlmTENpYk8tM0FLRXhiQzVJTjJFYm1zb2x0SzZvUGx1ZGxWbXpHb0U2UzUtWHJ5SmZtWE5iaWRfVUVhNDFQaDVKdFlYTm1sMjlhbV9kVHVxc2ZnUzNpZEU?oc=5\" target=\"_blank\">Photos from Island Coast High School graduation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The News-Press</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxNZUxfeVdJbXRkR2FrR3EwVFNRYlJwSnZtUEZ6c3RqTTMza3FwazBVd1JDYU1QbmlmOGwyUGl6Q3BJWUNGVklTWngwS1JDVVFvaGdHdGktc3N2dTcwTDJiaGMtZnJxTm9mXzdzMTdsTVlwLVBZRmEwMXlmTENpYk8tM0FLRXhiQzVJTjJFYm1zb2x0SzZvUGx1ZGxWbXpHb0U2UzUtWHJ5SmZtWE5iaWRfVUVhNDFQaDVKdFlYTm1sMjlhbV9kVHVxc2ZnUzNpZEU?oc=5\" target=\"_blank\">Photos from Island Coast High School graduation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The News-Press</font>"
+      },
+      "source": {
+        "href": "https://www.news-press.com",
+        "title": "The News-Press"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Patrik Hrosovsky’s West Ham hopes appear over, reportedly moving for just £4.4m - hitc.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Patrik Hrosovsky’s West Ham hopes appear over, reportedly moving for just £4.4m - hitc.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTWJBR3lYZTBZamFQVHRQNmt5cWxaOEppblNYNjJqczJ4bEdnRWkyenlBTDNpeWN1SlUzUktCa184elY5YUxOT2g5aUR2V0tfUmtfT1FyeFpzTldTZTZXdktVOEdlUFdPWDgxRS1peVlNaXpBOWkybnA3THB0X0lXN1VsZHRLN2NSNFM2ejk1cw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTWJBR3lYZTBZamFQVHRQNmt5cWxaOEppblNYNjJqczJ4bEdnRWkyenlBTDNpeWN1SlUzUktCa184elY5YUxOT2g5aUR2V0tfUmtfT1FyeFpzTldTZTZXdktVOEdlUFdPWDgxRS1peVlNaXpBOWkybnA3THB0X0lXN1VsZHRLN2NSNFM2ejk1cw?oc=5",
+      "id": "CBMijwFBVV95cUxQTWJBR3lYZTBZamFQVHRQNmt5cWxaOEppblNYNjJqczJ4bEdnRWkyenlBTDNpeWN1SlUzUktCa184elY5YUxOT2g5aUR2V0tfUmtfT1FyeFpzTldTZTZXdktVOEdlUFdPWDgxRS1peVlNaXpBOWkybnA3THB0X0lXN1VsZHRLN2NSNFM2ejk1cw",
+      "guidislink": false,
+      "published": "Wed, 22 May 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        5,
+        22,
+        7,
+        0,
+        0,
+        2,
+        142,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxQTWJBR3lYZTBZamFQVHRQNmt5cWxaOEppblNYNjJqczJ4bEdnRWkyenlBTDNpeWN1SlUzUktCa184elY5YUxOT2g5aUR2V0tfUmtfT1FyeFpzTldTZTZXdktVOEdlUFdPWDgxRS1peVlNaXpBOWkybnA3THB0X0lXN1VsZHRLN2NSNFM2ejk1cw?oc=5\" target=\"_blank\">Patrik Hrosovsky’s West Ham hopes appear over, reportedly moving for just £4.4m</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">hitc.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxQTWJBR3lYZTBZamFQVHRQNmt5cWxaOEppblNYNjJqczJ4bEdnRWkyenlBTDNpeWN1SlUzUktCa184elY5YUxOT2g5aUR2V0tfUmtfT1FyeFpzTldTZTZXdktVOEdlUFdPWDgxRS1peVlNaXpBOWkybnA3THB0X0lXN1VsZHRLN2NSNFM2ejk1cw?oc=5\" target=\"_blank\">Patrik Hrosovsky’s West Ham hopes appear over, reportedly moving for just £4.4m</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">hitc.com</font>"
+      },
+      "source": {
+        "href": "https://www.hitc.com",
+        "title": "hitc.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "HDFC ERGO launches cover for vector borne diseases - expresshealthcare.in",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "HDFC ERGO launches cover for vector borne diseases - expresshealthcare.in"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNckNZQllrS2VaYm9ySHZMRGFkSXFsSW42RGhxaXNwRWw5V19hcm5ISElMSjJ1SmFKRk82bDRpRDB5WU1Tdi1IbWU1ZlZ1aVhFOFY1SUtoOTJuSmFoYXMydFg2SkVWQnNCMkZVX2RfTUhUMUhoWmJ4MzBEZ0c0R2NDUDBUaWVrNktQUFVKcUY2RmxwQ1NHMW5LNXdfaUrSAaIBQVVfeXFMUGRZczVCUkNpbjJfSlJra2NoLXFCTU55T0JhTFA5UzBxaVRKUVExQ2p4T09SSm9hU3owS0Z4Sm1SbV90bGxpdnhuWlRXVHowRWhkRUNibGNVaG9GWHdaVVlycm1uZDAySlhfa2VrV1Q1anZOOHVNbC0xWElPV003QnpTNC1leW5GbTJMc1BIbW9ka0JqSXByQWhUNXBMb2RiOGV3?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNckNZQllrS2VaYm9ySHZMRGFkSXFsSW42RGhxaXNwRWw5V19hcm5ISElMSjJ1SmFKRk82bDRpRDB5WU1Tdi1IbWU1ZlZ1aVhFOFY1SUtoOTJuSmFoYXMydFg2SkVWQnNCMkZVX2RfTUhUMUhoWmJ4MzBEZ0c0R2NDUDBUaWVrNktQUFVKcUY2RmxwQ1NHMW5LNXdfaUrSAaIBQVVfeXFMUGRZczVCUkNpbjJfSlJra2NoLXFCTU55T0JhTFA5UzBxaVRKUVExQ2p4T09SSm9hU3owS0Z4Sm1SbV90bGxpdnhuWlRXVHowRWhkRUNibGNVaG9GWHdaVVlycm1uZDAySlhfa2VrV1Q1anZOOHVNbC0xWElPV003QnpTNC1leW5GbTJMc1BIbW9ka0JqSXByQWhUNXBMb2RiOGV3?oc=5",
+      "id": "CBMinAFBVV95cUxNckNZQllrS2VaYm9ySHZMRGFkSXFsSW42RGhxaXNwRWw5V19hcm5ISElMSjJ1SmFKRk82bDRpRDB5WU1Tdi1IbWU1ZlZ1aVhFOFY1SUtoOTJuSmFoYXMydFg2SkVWQnNCMkZVX2RfTUhUMUhoWmJ4MzBEZ0c0R2NDUDBUaWVrNktQUFVKcUY2RmxwQ1NHMW5LNXdfaUrSAaIBQVVfeXFMUGRZczVCUkNpbjJfSlJra2NoLXFCTU55T0JhTFA5UzBxaVRKUVExQ2p4T09SSm9hU3owS0Z4Sm1SbV90bGxpdnhuWlRXVHowRWhkRUNibGNVaG9GWHdaVVlycm1uZDAySlhfa2VrV1Q1anZOOHVNbC0xWElPV003QnpTNC1leW5GbTJMc1BIbW9ka0JqSXByQWhUNXBMb2RiOGV3",
+      "guidislink": false,
+      "published": "Tue, 14 May 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        5,
+        14,
+        7,
+        0,
+        0,
+        1,
+        134,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxNckNZQllrS2VaYm9ySHZMRGFkSXFsSW42RGhxaXNwRWw5V19hcm5ISElMSjJ1SmFKRk82bDRpRDB5WU1Tdi1IbWU1ZlZ1aVhFOFY1SUtoOTJuSmFoYXMydFg2SkVWQnNCMkZVX2RfTUhUMUhoWmJ4MzBEZ0c0R2NDUDBUaWVrNktQUFVKcUY2RmxwQ1NHMW5LNXdfaUrSAaIBQVVfeXFMUGRZczVCUkNpbjJfSlJra2NoLXFCTU55T0JhTFA5UzBxaVRKUVExQ2p4T09SSm9hU3owS0Z4Sm1SbV90bGxpdnhuWlRXVHowRWhkRUNibGNVaG9GWHdaVVlycm1uZDAySlhfa2VrV1Q1anZOOHVNbC0xWElPV003QnpTNC1leW5GbTJMc1BIbW9ka0JqSXByQWhUNXBMb2RiOGV3?oc=5\" target=\"_blank\">HDFC ERGO launches cover for vector borne diseases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">expresshealthcare.in</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxNckNZQllrS2VaYm9ySHZMRGFkSXFsSW42RGhxaXNwRWw5V19hcm5ISElMSjJ1SmFKRk82bDRpRDB5WU1Tdi1IbWU1ZlZ1aVhFOFY1SUtoOTJuSmFoYXMydFg2SkVWQnNCMkZVX2RfTUhUMUhoWmJ4MzBEZ0c0R2NDUDBUaWVrNktQUFVKcUY2RmxwQ1NHMW5LNXdfaUrSAaIBQVVfeXFMUGRZczVCUkNpbjJfSlJra2NoLXFCTU55T0JhTFA5UzBxaVRKUVExQ2p4T09SSm9hU3owS0Z4Sm1SbV90bGxpdnhuWlRXVHowRWhkRUNibGNVaG9GWHdaVVlycm1uZDAySlhfa2VrV1Q1anZOOHVNbC0xWElPV003QnpTNC1leW5GbTJMc1BIbW9ka0JqSXByQWhUNXBMb2RiOGV3?oc=5\" target=\"_blank\">HDFC ERGO launches cover for vector borne diseases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">expresshealthcare.in</font>"
+      },
+      "source": {
+        "href": "https://www.expresshealthcare.in",
+        "title": "expresshealthcare.in"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Risk of monkeypox spreading in S'pore is low, say experts - The Straits Times",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Risk of monkeypox spreading in S'pore is low, say experts - The Straits Times"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTmxnNWtZZGhUWmNaZkN6SnZRYlo2VU9KUk8zRHJ5bFlNbVRJVmZHbXdvSFpTYXM5Q3NxM3dxT29xdk9TUV9hRVAzbFk4ZWZjSV9GQ1IwdGpBSjZlMlhISXFnaE95Q0pXT0dmYnQ4NEk4c2VZY1lvME9hUnVYckpLUUU1SVR2X2haWnVLeWN0S1p5aE5WSnhFTW5rZzRZRjZFNDZJ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTmxnNWtZZGhUWmNaZkN6SnZRYlo2VU9KUk8zRHJ5bFlNbVRJVmZHbXdvSFpTYXM5Q3NxM3dxT29xdk9TUV9hRVAzbFk4ZWZjSV9GQ1IwdGpBSjZlMlhISXFnaE95Q0pXT0dmYnQ4NEk4c2VZY1lvME9hUnVYckpLUUU1SVR2X2haWnVLeWN0S1p5aE5WSnhFTW5rZzRZRjZFNDZJ?oc=5",
+      "id": "CBMiowFBVV95cUxPTmxnNWtZZGhUWmNaZkN6SnZRYlo2VU9KUk8zRHJ5bFlNbVRJVmZHbXdvSFpTYXM5Q3NxM3dxT29xdk9TUV9hRVAzbFk4ZWZjSV9GQ1IwdGpBSjZlMlhISXFnaE95Q0pXT0dmYnQ4NEk4c2VZY1lvME9hUnVYckpLUUU1SVR2X2haWnVLeWN0S1p5aE5WSnhFTW5rZzRZRjZFNDZJ",
+      "guidislink": false,
+      "published": "Sat, 11 May 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        5,
+        11,
+        7,
+        0,
+        0,
+        5,
+        131,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxPTmxnNWtZZGhUWmNaZkN6SnZRYlo2VU9KUk8zRHJ5bFlNbVRJVmZHbXdvSFpTYXM5Q3NxM3dxT29xdk9TUV9hRVAzbFk4ZWZjSV9GQ1IwdGpBSjZlMlhISXFnaE95Q0pXT0dmYnQ4NEk4c2VZY1lvME9hUnVYckpLUUU1SVR2X2haWnVLeWN0S1p5aE5WSnhFTW5rZzRZRjZFNDZJ?oc=5\" target=\"_blank\">Risk of monkeypox spreading in S'pore is low, say experts</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Straits Times</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxPTmxnNWtZZGhUWmNaZkN6SnZRYlo2VU9KUk8zRHJ5bFlNbVRJVmZHbXdvSFpTYXM5Q3NxM3dxT29xdk9TUV9hRVAzbFk4ZWZjSV9GQ1IwdGpBSjZlMlhISXFnaE95Q0pXT0dmYnQ4NEk4c2VZY1lvME9hUnVYckpLUUU1SVR2X2haWnVLeWN0S1p5aE5WSnhFTW5rZzRZRjZFNDZJ?oc=5\" target=\"_blank\">Risk of monkeypox spreading in S'pore is low, say experts</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Straits Times</font>"
+      },
+      "source": {
+        "href": "https://www.straitstimes.com",
+        "title": "The Straits Times"
+      },
+      "sub_articles": []
+    }
+  ]
+}

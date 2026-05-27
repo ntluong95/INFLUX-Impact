@@ -1,0 +1,134 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2012-06-29",
+  "window_end": "2012-07-12",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2012-06-29+before%3A2012-07-13&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2012-06-29+before:2012-07-13&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:17:38Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2012-06-29 before:2012-07-13\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2012-06-29 before:2012-07-13\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2012-06-29+before:2012-07-13&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2012-06-29+before:2012-07-13&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:17:38 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      17,
+      38,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Now we're told key to happiness is... learning, according to a predictable government survey - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Now we're told key to happiness is... learning, according to a predictable government survey - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUFJFZEtFaXM0SVpKWnNwcEJxLUFyQlE5elBOQW1uVmFsY0FGZ192eVRpWFd6eERWNEtOYmdZTWg4dEtuTUllSVp3ZmJQOWlHM0tSNnVLRWswZ18xZVpoM1c1d2h0czVMT2pHdnNZTjhWbVlfQkZHdXFlU0hFaHVpWDNsUWFCX0psZkpkelJpZEFQbEtDWTRYWnpRcU96alBqM09iNmJScUFXRktYVDdMM0pIYnR1ZHRsQmhaTFlVb3VUUDNFU3hXSzhR0gHKAUFVX3lxTE9QUkVkS0VpczRJWkpac3BwQnEtQXJCUTl6UE5BbW5WYWxjQUZnX3Z5VGlYV3p4RFY0S05iZ1lNaDh0S25NSWVJWndmYlA5aUczS1I2dUtFazBnXzFlWmgzVzV3aHRzNUxPakd2c1lOOFZtWV9CRkd1cWVTSEVodWlYM2xRYUJfSmxmSmR6UmlkQVBsS0NZNFhaelFxT3pqUGozT2I2YlJxQVdGS1hUN0wzSkhidHVkdGxCaFpMWVVvdVRQM0VTeFdLOFE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUFJFZEtFaXM0SVpKWnNwcEJxLUFyQlE5elBOQW1uVmFsY0FGZ192eVRpWFd6eERWNEtOYmdZTWg4dEtuTUllSVp3ZmJQOWlHM0tSNnVLRWswZ18xZVpoM1c1d2h0czVMT2pHdnNZTjhWbVlfQkZHdXFlU0hFaHVpWDNsUWFCX0psZkpkelJpZEFQbEtDWTRYWnpRcU96alBqM09iNmJScUFXRktYVDdMM0pIYnR1ZHRsQmhaTFlVb3VUUDNFU3hXSzhR0gHKAUFVX3lxTE9QUkVkS0VpczRJWkpac3BwQnEtQXJCUTl6UE5BbW5WYWxjQUZnX3Z5VGlYV3p4RFY0S05iZ1lNaDh0S25NSWVJWndmYlA5aUczS1I2dUtFazBnXzFlWmgzVzV3aHRzNUxPakd2c1lOOFZtWV9CRkd1cWVTSEVodWlYM2xRYUJfSmxmSmR6UmlkQVBsS0NZNFhaelFxT3pqUGozT2I2YlJxQVdGS1hUN0wzSkhidHVkdGxCaFpMWVVvdVRQM0VTeFdLOFE?oc=5",
+      "id": "CBMiygFBVV95cUxPUFJFZEtFaXM0SVpKWnNwcEJxLUFyQlE5elBOQW1uVmFsY0FGZ192eVRpWFd6eERWNEtOYmdZTWg4dEtuTUllSVp3ZmJQOWlHM0tSNnVLRWswZ18xZVpoM1c1d2h0czVMT2pHdnNZTjhWbVlfQkZHdXFlU0hFaHVpWDNsUWFCX0psZkpkelJpZEFQbEtDWTRYWnpRcU96alBqM09iNmJScUFXRktYVDdMM0pIYnR1ZHRsQmhaTFlVb3VUUDNFU3hXSzhR0gHKAUFVX3lxTE9QUkVkS0VpczRJWkpac3BwQnEtQXJCUTl6UE5BbW5WYWxjQUZnX3Z5VGlYV3p4RFY0S05iZ1lNaDh0S25NSWVJWndmYlA5aUczS1I2dUtFazBnXzFlWmgzVzV3aHRzNUxPakd2c1lOOFZtWV9CRkd1cWVTSEVodWlYM2xRYUJfSmxmSmR6UmlkQVBsS0NZNFhaelFxT3pqUGozT2I2YlJxQVdGS1hUN0wzSkhidHVkdGxCaFpMWVVvdVRQM0VTeFdLOFE",
+      "guidislink": false,
+      "published": "Fri, 06 Jul 2012 07:00:00 GMT",
+      "published_parsed": [
+        2012,
+        7,
+        6,
+        7,
+        0,
+        0,
+        4,
+        188,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxPUFJFZEtFaXM0SVpKWnNwcEJxLUFyQlE5elBOQW1uVmFsY0FGZ192eVRpWFd6eERWNEtOYmdZTWg4dEtuTUllSVp3ZmJQOWlHM0tSNnVLRWswZ18xZVpoM1c1d2h0czVMT2pHdnNZTjhWbVlfQkZHdXFlU0hFaHVpWDNsUWFCX0psZkpkelJpZEFQbEtDWTRYWnpRcU96alBqM09iNmJScUFXRktYVDdMM0pIYnR1ZHRsQmhaTFlVb3VUUDNFU3hXSzhR0gHKAUFVX3lxTE9QUkVkS0VpczRJWkpac3BwQnEtQXJCUTl6UE5BbW5WYWxjQUZnX3Z5VGlYV3p4RFY0S05iZ1lNaDh0S25NSWVJWndmYlA5aUczS1I2dUtFazBnXzFlWmgzVzV3aHRzNUxPakd2c1lOOFZtWV9CRkd1cWVTSEVodWlYM2xRYUJfSmxmSmR6UmlkQVBsS0NZNFhaelFxT3pqUGozT2I2YlJxQVdGS1hUN0wzSkhidHVkdGxCaFpMWVVvdVRQM0VTeFdLOFE?oc=5\" target=\"_blank\">Now we're told key to happiness is... learning, according to a predictable government survey</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxPUFJFZEtFaXM0SVpKWnNwcEJxLUFyQlE5elBOQW1uVmFsY0FGZ192eVRpWFd6eERWNEtOYmdZTWg4dEtuTUllSVp3ZmJQOWlHM0tSNnVLRWswZ18xZVpoM1c1d2h0czVMT2pHdnNZTjhWbVlfQkZHdXFlU0hFaHVpWDNsUWFCX0psZkpkelJpZEFQbEtDWTRYWnpRcU96alBqM09iNmJScUFXRktYVDdMM0pIYnR1ZHRsQmhaTFlVb3VUUDNFU3hXSzhR0gHKAUFVX3lxTE9QUkVkS0VpczRJWkpac3BwQnEtQXJCUTl6UE5BbW5WYWxjQUZnX3Z5VGlYV3p4RFY0S05iZ1lNaDh0S25NSWVJWndmYlA5aUczS1I2dUtFazBnXzFlWmgzVzV3aHRzNUxPakd2c1lOOFZtWV9CRkd1cWVTSEVodWlYM2xRYUJfSmxmSmR6UmlkQVBsS0NZNFhaelFxT3pqUGozT2I2YlJxQVdGS1hUN0wzSkhidHVkdGxCaFpMWVVvdVRQM0VTeFdLOFE?oc=5\" target=\"_blank\">Now we're told key to happiness is... learning, according to a predictable government survey</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    }
+  ]
+}

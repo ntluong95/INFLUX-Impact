@@ -1,0 +1,779 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2020-10-23",
+  "window_end": "2020-11-05",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2020-10-23+before%3A2020-11-06&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2020-10-23+before:2020-11-06&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:28:02Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2020-10-23 before:2020-11-06\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2020-10-23 before:2020-11-06\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2020-10-23+before:2020-11-06&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2020-10-23+before:2020-11-06&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:28:02 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      28,
+      2,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "CD8+ T cells mediate protection against Zika virus induced by an NS3-based vaccine - Science | AAAS",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "CD8+ T cells mediate protection against Zika virus induced by an NS3-based vaccine - Science | AAAS"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5uWV90Sk14SzNTQkI3a2JUSWVKekhtYm85VEdZdktTcHE0cUNrY21ydXg3LW11a09GSWtKQ3pxT0o3Q0ZEOFpuMTNlUEswc0JnQWxpVEV3ZTc4d2piRF9j?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5uWV90Sk14SzNTQkI3a2JUSWVKekhtYm85VEdZdktTcHE0cUNrY21ydXg3LW11a09GSWtKQ3pxT0o3Q0ZEOFpuMTNlUEswc0JnQWxpVEV3ZTc4d2piRF9j?oc=5",
+      "id": "CBMiX0FVX3lxTE5uWV90Sk14SzNTQkI3a2JUSWVKekhtYm85VEdZdktTcHE0cUNrY21ydXg3LW11a09GSWtKQ3pxT0o3Q0ZEOFpuMTNlUEswc0JnQWxpVEV3ZTc4d2piRF9j",
+      "guidislink": false,
+      "published": "Wed, 04 Nov 2020 08:00:00 GMT",
+      "published_parsed": [
+        2020,
+        11,
+        4,
+        8,
+        0,
+        0,
+        2,
+        309,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5uWV90Sk14SzNTQkI3a2JUSWVKekhtYm85VEdZdktTcHE0cUNrY21ydXg3LW11a09GSWtKQ3pxT0o3Q0ZEOFpuMTNlUEswc0JnQWxpVEV3ZTc4d2piRF9j?oc=5\" target=\"_blank\">CD8+ T cells mediate protection against Zika virus induced by an NS3-based vaccine</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Science | AAAS</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5uWV90Sk14SzNTQkI3a2JUSWVKekhtYm85VEdZdktTcHE0cUNrY21ydXg3LW11a09GSWtKQ3pxT0o3Q0ZEOFpuMTNlUEswc0JnQWxpVEV3ZTc4d2piRF9j?oc=5\" target=\"_blank\">CD8+ T cells mediate protection against Zika virus induced by an NS3-based vaccine</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Science | AAAS</font>"
+      },
+      "source": {
+        "href": "https://www.science.org",
+        "title": "Science | AAAS"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Interference of the Zika Virus E-Protein With the Membrane Attack Complex of the Complement System - Frontiers",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Interference of the Zika Virus E-Protein With the Membrane Attack Complex of the Complement System - Frontiers"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOFNUTmpyNzJMMTNYUm9TTjhnOUtYb1BucjBjTEtGZS1XY1BsYkRhTzlsdi01cERmbG9hS3A5Q0tTc3FETlpsenVod1p6XzAyLVV4UEtUQzl6ei1JM2wwVjdLcTdBZC1DaEFzLXhTNWxKX3ZRUnN3M01OMDdVUHQ5dG0zQTZtSXd5VGtyYWY5emI?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOFNUTmpyNzJMMTNYUm9TTjhnOUtYb1BucjBjTEtGZS1XY1BsYkRhTzlsdi01cERmbG9hS3A5Q0tTc3FETlpsenVod1p6XzAyLVV4UEtUQzl6ei1JM2wwVjdLcTdBZC1DaEFzLXhTNWxKX3ZRUnN3M01OMDdVUHQ5dG0zQTZtSXd5VGtyYWY5emI?oc=5",
+      "id": "CBMikAFBVV95cUxOOFNUTmpyNzJMMTNYUm9TTjhnOUtYb1BucjBjTEtGZS1XY1BsYkRhTzlsdi01cERmbG9hS3A5Q0tTc3FETlpsenVod1p6XzAyLVV4UEtUQzl6ei1JM2wwVjdLcTdBZC1DaEFzLXhTNWxKX3ZRUnN3M01OMDdVUHQ5dG0zQTZtSXd5VGtyYWY5emI",
+      "guidislink": false,
+      "published": "Tue, 27 Oct 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        10,
+        27,
+        7,
+        0,
+        0,
+        1,
+        301,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxOOFNUTmpyNzJMMTNYUm9TTjhnOUtYb1BucjBjTEtGZS1XY1BsYkRhTzlsdi01cERmbG9hS3A5Q0tTc3FETlpsenVod1p6XzAyLVV4UEtUQzl6ei1JM2wwVjdLcTdBZC1DaEFzLXhTNWxKX3ZRUnN3M01OMDdVUHQ5dG0zQTZtSXd5VGtyYWY5emI?oc=5\" target=\"_blank\">Interference of the Zika Virus E-Protein With the Membrane Attack Complex of the Complement System</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Frontiers</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxOOFNUTmpyNzJMMTNYUm9TTjhnOUtYb1BucjBjTEtGZS1XY1BsYkRhTzlsdi01cERmbG9hS3A5Q0tTc3FETlpsenVod1p6XzAyLVV4UEtUQzl6ei1JM2wwVjdLcTdBZC1DaEFzLXhTNWxKX3ZRUnN3M01OMDdVUHQ5dG0zQTZtSXd5VGtyYWY5emI?oc=5\" target=\"_blank\">Interference of the Zika Virus E-Protein With the Membrane Attack Complex of the Complement System</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Frontiers</font>"
+      },
+      "source": {
+        "href": "https://www.frontiersin.org",
+        "title": "Frontiers"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Fact check: List of US patents is not evidence that viruses are manmade - Reuters",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Fact check: List of US patents is not evidence that viruses are manmade - Reuters"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRG5NOEFqanBLTnh2YW54bDFNUHlWUnJzSU9YZVVZUHVZRUVwQmFqNEtSV1VsdXA3aHhJUk1HVkZRajlyUFdBbUEzYjhzR2p3ZFFONnZlU29IZm4yYnhHdng2bzlmaXhIZTg3a2dfTEpodTBGU212ZkxnRi1KVzR1bDY4OWpQSml1ZmtscXRDWXEzdDJvWEVsYThsc0tlMzdYek9jVzhKZXUzeElNeXM1WjVsSkQ0UlFDQmc2Zm1WZmc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRG5NOEFqanBLTnh2YW54bDFNUHlWUnJzSU9YZVVZUHVZRUVwQmFqNEtSV1VsdXA3aHhJUk1HVkZRajlyUFdBbUEzYjhzR2p3ZFFONnZlU29IZm4yYnhHdng2bzlmaXhIZTg3a2dfTEpodTBGU212ZkxnRi1KVzR1bDY4OWpQSml1ZmtscXRDWXEzdDJvWEVsYThsc0tlMzdYek9jVzhKZXUzeElNeXM1WjVsSkQ0UlFDQmc2Zm1WZmc?oc=5",
+      "id": "CBMiwAFBVV95cUxNRG5NOEFqanBLTnh2YW54bDFNUHlWUnJzSU9YZVVZUHVZRUVwQmFqNEtSV1VsdXA3aHhJUk1HVkZRajlyUFdBbUEzYjhzR2p3ZFFONnZlU29IZm4yYnhHdng2bzlmaXhIZTg3a2dfTEpodTBGU212ZkxnRi1KVzR1bDY4OWpQSml1ZmtscXRDWXEzdDJvWEVsYThsc0tlMzdYek9jVzhKZXUzeElNeXM1WjVsSkQ0UlFDQmc2Zm1WZmc",
+      "guidislink": false,
+      "published": "Tue, 27 Oct 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        10,
+        27,
+        7,
+        0,
+        0,
+        1,
+        301,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRG5NOEFqanBLTnh2YW54bDFNUHlWUnJzSU9YZVVZUHVZRUVwQmFqNEtSV1VsdXA3aHhJUk1HVkZRajlyUFdBbUEzYjhzR2p3ZFFONnZlU29IZm4yYnhHdng2bzlmaXhIZTg3a2dfTEpodTBGU212ZkxnRi1KVzR1bDY4OWpQSml1ZmtscXRDWXEzdDJvWEVsYThsc0tlMzdYek9jVzhKZXUzeElNeXM1WjVsSkQ0UlFDQmc2Zm1WZmc?oc=5\" target=\"_blank\">Fact check: List of US patents is not evidence that viruses are manmade</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRG5NOEFqanBLTnh2YW54bDFNUHlWUnJzSU9YZVVZUHVZRUVwQmFqNEtSV1VsdXA3aHhJUk1HVkZRajlyUFdBbUEzYjhzR2p3ZFFONnZlU29IZm4yYnhHdng2bzlmaXhIZTg3a2dfTEpodTBGU212ZkxnRi1KVzR1bDY4OWpQSml1ZmtscXRDWXEzdDJvWEVsYThsc0tlMzdYek9jVzhKZXUzeElNeXM1WjVsSkQ0UlFDQmc2Zm1WZmc?oc=5\" target=\"_blank\">Fact check: List of US patents is not evidence that viruses are manmade</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>"
+      },
+      "source": {
+        "href": "https://www.reuters.com",
+        "title": "Reuters"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Spatial repellents significantly reduce infections of mosquito-borne viruses, study finds - Notre Dame News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Spatial repellents significantly reduce infections of mosquito-borne viruses, study finds - Notre Dame News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNekdsaTlWR1VlUEp3Vm5aNGwtd0V4TjM4WGQ1d1l6dUhvXy1ka2V4VTg0TmQxdWgtcWtWWHBpdWVYXzkzeWc5Z19ueDZUWUliTVo3MHBjQk50bUxGQll3QUNzaXlWUVlFajJCR3ZpUEtjRW04QkFOUnBldW4ta2RnQzNYVGlCeHZHWHU1Qm80dURWUFVNUHVXNF9FOWhNZTVTSGRpdXA0RmdHSmgtSS1iQUt3ZjQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNekdsaTlWR1VlUEp3Vm5aNGwtd0V4TjM4WGQ1d1l6dUhvXy1ka2V4VTg0TmQxdWgtcWtWWHBpdWVYXzkzeWc5Z19ueDZUWUliTVo3MHBjQk50bUxGQll3QUNzaXlWUVlFajJCR3ZpUEtjRW04QkFOUnBldW4ta2RnQzNYVGlCeHZHWHU1Qm80dURWUFVNUHVXNF9FOWhNZTVTSGRpdXA0RmdHSmgtSS1iQUt3ZjQ?oc=5",
+      "id": "CBMitAFBVV95cUxNekdsaTlWR1VlUEp3Vm5aNGwtd0V4TjM4WGQ1d1l6dUhvXy1ka2V4VTg0TmQxdWgtcWtWWHBpdWVYXzkzeWc5Z19ueDZUWUliTVo3MHBjQk50bUxGQll3QUNzaXlWUVlFajJCR3ZpUEtjRW04QkFOUnBldW4ta2RnQzNYVGlCeHZHWHU1Qm80dURWUFVNUHVXNF9FOWhNZTVTSGRpdXA0RmdHSmgtSS1iQUt3ZjQ",
+      "guidislink": false,
+      "published": "Tue, 27 Oct 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        10,
+        27,
+        7,
+        0,
+        0,
+        1,
+        301,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxNekdsaTlWR1VlUEp3Vm5aNGwtd0V4TjM4WGQ1d1l6dUhvXy1ka2V4VTg0TmQxdWgtcWtWWHBpdWVYXzkzeWc5Z19ueDZUWUliTVo3MHBjQk50bUxGQll3QUNzaXlWUVlFajJCR3ZpUEtjRW04QkFOUnBldW4ta2RnQzNYVGlCeHZHWHU1Qm80dURWUFVNUHVXNF9FOWhNZTVTSGRpdXA0RmdHSmgtSS1iQUt3ZjQ?oc=5\" target=\"_blank\">Spatial repellents significantly reduce infections of mosquito-borne viruses, study finds</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Notre Dame News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxNekdsaTlWR1VlUEp3Vm5aNGwtd0V4TjM4WGQ1d1l6dUhvXy1ka2V4VTg0TmQxdWgtcWtWWHBpdWVYXzkzeWc5Z19ueDZUWUliTVo3MHBjQk50bUxGQll3QUNzaXlWUVlFajJCR3ZpUEtjRW04QkFOUnBldW4ta2RnQzNYVGlCeHZHWHU1Qm80dURWUFVNUHVXNF9FOWhNZTVTSGRpdXA0RmdHSmgtSS1iQUt3ZjQ?oc=5\" target=\"_blank\">Spatial repellents significantly reduce infections of mosquito-borne viruses, study finds</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Notre Dame News</font>"
+      },
+      "source": {
+        "href": "https://news.nd.edu",
+        "title": "Notre Dame News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Coronavirus may be no match for the cornea - futurity.org",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Coronavirus may be no match for the cornea - futurity.org"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5ZRVU2cXFyaDZCTVJjdmJJbFV6bkN5UXdkZjFyRDhNUjF1SDRxX0N6S3ZOWnR4V1h6ZGNHNXlQNzUtbnM3TmFZWGVuV2M2NmxEU3NWaEt6ay13Rk8wRENVMnJ3SGhCZmNWTklodHV6MHJsRWo2YzZOag?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5ZRVU2cXFyaDZCTVJjdmJJbFV6bkN5UXdkZjFyRDhNUjF1SDRxX0N6S3ZOWnR4V1h6ZGNHNXlQNzUtbnM3TmFZWGVuV2M2NmxEU3NWaEt6ay13Rk8wRENVMnJ3SGhCZmNWTklodHV6MHJsRWo2YzZOag?oc=5",
+      "id": "CBMieEFVX3lxTE5ZRVU2cXFyaDZCTVJjdmJJbFV6bkN5UXdkZjFyRDhNUjF1SDRxX0N6S3ZOWnR4V1h6ZGNHNXlQNzUtbnM3TmFZWGVuV2M2NmxEU3NWaEt6ay13Rk8wRENVMnJ3SGhCZmNWTklodHV6MHJsRWo2YzZOag",
+      "guidislink": false,
+      "published": "Fri, 06 Nov 2020 08:00:00 GMT",
+      "published_parsed": [
+        2020,
+        11,
+        6,
+        8,
+        0,
+        0,
+        4,
+        311,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE5ZRVU2cXFyaDZCTVJjdmJJbFV6bkN5UXdkZjFyRDhNUjF1SDRxX0N6S3ZOWnR4V1h6ZGNHNXlQNzUtbnM3TmFZWGVuV2M2NmxEU3NWaEt6ay13Rk8wRENVMnJ3SGhCZmNWTklodHV6MHJsRWo2YzZOag?oc=5\" target=\"_blank\">Coronavirus may be no match for the cornea</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">futurity.org</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE5ZRVU2cXFyaDZCTVJjdmJJbFV6bkN5UXdkZjFyRDhNUjF1SDRxX0N6S3ZOWnR4V1h6ZGNHNXlQNzUtbnM3TmFZWGVuV2M2NmxEU3NWaEt6ay13Rk8wRENVMnJ3SGhCZmNWTklodHV6MHJsRWo2YzZOag?oc=5\" target=\"_blank\">Coronavirus may be no match for the cornea</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">futurity.org</font>"
+      },
+      "source": {
+        "href": "https://www.futurity.org",
+        "title": "futurity.org"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Molecular mechanisms underlying the extreme mechanical anisotropy of the flaviviral exoribonuclease-resistant RNAs (xrRNAs) - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Molecular mechanisms underlying the extreme mechanical anisotropy of the flaviviral exoribonuclease-resistant RNAs (xrRNAs) - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBIUDhrbURoSGNra0xfbF9FY2RFNDFkMmVmWUp1MHpzMEZEcXlNbnBWN0ozR1RkODZlQXRRclZCaUNPTnBkY3JaTWo3SER2Snpxa0p5NnJhYU1GU0h6ekRZ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBIUDhrbURoSGNra0xfbF9FY2RFNDFkMmVmWUp1MHpzMEZEcXlNbnBWN0ozR1RkODZlQXRRclZCaUNPTnBkY3JaTWo3SER2Snpxa0p5NnJhYU1GU0h6ekRZ?oc=5",
+      "id": "CBMiX0FVX3lxTFBIUDhrbURoSGNra0xfbF9FY2RFNDFkMmVmWUp1MHpzMEZEcXlNbnBWN0ozR1RkODZlQXRRclZCaUNPTnBkY3JaTWo3SER2Snpxa0p5NnJhYU1GU0h6ekRZ",
+      "guidislink": false,
+      "published": "Fri, 30 Oct 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        10,
+        30,
+        7,
+        0,
+        0,
+        4,
+        304,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFBIUDhrbURoSGNra0xfbF9FY2RFNDFkMmVmWUp1MHpzMEZEcXlNbnBWN0ozR1RkODZlQXRRclZCaUNPTnBkY3JaTWo3SER2Snpxa0p5NnJhYU1GU0h6ekRZ?oc=5\" target=\"_blank\">Molecular mechanisms underlying the extreme mechanical anisotropy of the flaviviral exoribonuclease-resistant RNAs (xrRNAs)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFBIUDhrbURoSGNra0xfbF9FY2RFNDFkMmVmWUp1MHpzMEZEcXlNbnBWN0ozR1RkODZlQXRRclZCaUNPTnBkY3JaTWo3SER2Snpxa0p5NnJhYU1GU0h6ekRZ?oc=5\" target=\"_blank\">Molecular mechanisms underlying the extreme mechanical anisotropy of the flaviviral exoribonuclease-resistant RNAs (xrRNAs)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Rubella Vaccine Inventor Dr. Stanley Plotkin Delivers the Sixth Annual Drukier Lecture and Children's Health Prize Winners Speak at Combined Drukier Institute Event - WCM Newsroom",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Rubella Vaccine Inventor Dr. Stanley Plotkin Delivers the Sixth Annual Drukier Lecture and Children's Health Prize Winners Speak at Combined Drukier Institute Event - WCM Newsroom"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSTltRXZDNmRWRjJ0ekgwWmhlaUlPdnJXMm1BM2ljbTZxMWhiMXVHUThKSHdpLTB6VUJBaDhxdE5CQmFqOHVwWkNiQlFhN0V1VGNEbTdEaWJpTjZiRmNVT0ZYNFRYbUVWQTRjZHhVMzVBRzBqNThtZVdTdFhqRjZPTDIyNkpqMzQ1RTVDRTFLNTJjdlBJQUtPUHp4eUVEM19zcDN0cFFKckYzVGthNkxuMHVNOTA0YzFZaEpPeE9lc3ROS05TRnJ6VA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSTltRXZDNmRWRjJ0ekgwWmhlaUlPdnJXMm1BM2ljbTZxMWhiMXVHUThKSHdpLTB6VUJBaDhxdE5CQmFqOHVwWkNiQlFhN0V1VGNEbTdEaWJpTjZiRmNVT0ZYNFRYbUVWQTRjZHhVMzVBRzBqNThtZVdTdFhqRjZPTDIyNkpqMzQ1RTVDRTFLNTJjdlBJQUtPUHp4eUVEM19zcDN0cFFKckYzVGthNkxuMHVNOTA0YzFZaEpPeE9lc3ROS05TRnJ6VA?oc=5",
+      "id": "CBMiyAFBVV95cUxQSTltRXZDNmRWRjJ0ekgwWmhlaUlPdnJXMm1BM2ljbTZxMWhiMXVHUThKSHdpLTB6VUJBaDhxdE5CQmFqOHVwWkNiQlFhN0V1VGNEbTdEaWJpTjZiRmNVT0ZYNFRYbUVWQTRjZHhVMzVBRzBqNThtZVdTdFhqRjZPTDIyNkpqMzQ1RTVDRTFLNTJjdlBJQUtPUHp4eUVEM19zcDN0cFFKckYzVGthNkxuMHVNOTA0YzFZaEpPeE9lc3ROS05TRnJ6VA",
+      "guidislink": false,
+      "published": "Tue, 27 Oct 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        10,
+        27,
+        7,
+        0,
+        0,
+        1,
+        301,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSTltRXZDNmRWRjJ0ekgwWmhlaUlPdnJXMm1BM2ljbTZxMWhiMXVHUThKSHdpLTB6VUJBaDhxdE5CQmFqOHVwWkNiQlFhN0V1VGNEbTdEaWJpTjZiRmNVT0ZYNFRYbUVWQTRjZHhVMzVBRzBqNThtZVdTdFhqRjZPTDIyNkpqMzQ1RTVDRTFLNTJjdlBJQUtPUHp4eUVEM19zcDN0cFFKckYzVGthNkxuMHVNOTA0YzFZaEpPeE9lc3ROS05TRnJ6VA?oc=5\" target=\"_blank\">Rubella Vaccine Inventor Dr. Stanley Plotkin Delivers the Sixth Annual Drukier Lecture and Children's Health Prize Winners Speak at Combined Drukier Institute Event</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WCM Newsroom</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSTltRXZDNmRWRjJ0ekgwWmhlaUlPdnJXMm1BM2ljbTZxMWhiMXVHUThKSHdpLTB6VUJBaDhxdE5CQmFqOHVwWkNiQlFhN0V1VGNEbTdEaWJpTjZiRmNVT0ZYNFRYbUVWQTRjZHhVMzVBRzBqNThtZVdTdFhqRjZPTDIyNkpqMzQ1RTVDRTFLNTJjdlBJQUtPUHp4eUVEM19zcDN0cFFKckYzVGthNkxuMHVNOTA0YzFZaEpPeE9lc3ROS05TRnJ6VA?oc=5\" target=\"_blank\">Rubella Vaccine Inventor Dr. Stanley Plotkin Delivers the Sixth Annual Drukier Lecture and Children's Health Prize Winners Speak at Combined Drukier Institute Event</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WCM Newsroom</font>"
+      },
+      "source": {
+        "href": "https://news.weill.cornell.edu",
+        "title": "WCM Newsroom"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "DARPA Selects Teams to Modify Skin Microbiome for Disease Prevention - darpa.mil",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "DARPA Selects Teams to Modify Skin Microbiome for Disease Prevention - darpa.mil"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMidEFVX3lxTE14VHVOOF9LMWh2bXdmMGVzak9UQ0FXNXQ4dFVLSC0yWXNQSm9XMWFzNlBYVTY0ZFRsdWFJOXlWTFFIVF8yYnZGYTRSYnFibG8yS0x1LTJLSjRzUHRGdXhtRmtwck50SEhKelVGZ0JsdmQyalFk?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE14VHVOOF9LMWh2bXdmMGVzak9UQ0FXNXQ4dFVLSC0yWXNQSm9XMWFzNlBYVTY0ZFRsdWFJOXlWTFFIVF8yYnZGYTRSYnFibG8yS0x1LTJLSjRzUHRGdXhtRmtwck50SEhKelVGZ0JsdmQyalFk?oc=5",
+      "id": "CBMidEFVX3lxTE14VHVOOF9LMWh2bXdmMGVzak9UQ0FXNXQ4dFVLSC0yWXNQSm9XMWFzNlBYVTY0ZFRsdWFJOXlWTFFIVF8yYnZGYTRSYnFibG8yS0x1LTJLSjRzUHRGdXhtRmtwck50SEhKelVGZ0JsdmQyalFk",
+      "guidislink": false,
+      "published": "Fri, 06 Nov 2020 08:00:00 GMT",
+      "published_parsed": [
+        2020,
+        11,
+        6,
+        8,
+        0,
+        0,
+        4,
+        311,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE14VHVOOF9LMWh2bXdmMGVzak9UQ0FXNXQ4dFVLSC0yWXNQSm9XMWFzNlBYVTY0ZFRsdWFJOXlWTFFIVF8yYnZGYTRSYnFibG8yS0x1LTJLSjRzUHRGdXhtRmtwck50SEhKelVGZ0JsdmQyalFk?oc=5\" target=\"_blank\">DARPA Selects Teams to Modify Skin Microbiome for Disease Prevention</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">darpa.mil</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE14VHVOOF9LMWh2bXdmMGVzak9UQ0FXNXQ4dFVLSC0yWXNQSm9XMWFzNlBYVTY0ZFRsdWFJOXlWTFFIVF8yYnZGYTRSYnFibG8yS0x1LTJLSjRzUHRGdXhtRmtwck50SEhKelVGZ0JsdmQyalFk?oc=5\" target=\"_blank\">DARPA Selects Teams to Modify Skin Microbiome for Disease Prevention</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">darpa.mil</font>"
+      },
+      "source": {
+        "href": "https://www.darpa.mil",
+        "title": "darpa.mil"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "The Red Colored Grey Truck (2004) - IMDb",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "The Red Colored Grey Truck (2004) - IMDb"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1IcmdJbVpZSjBMMFhJYl93WDMxNnJHb3JKdnduZVM0Z0F4eXpIMWR6cXN6SUNFOFdXLUxUT21vRGNfbG9VaVFnSGN4cUZUVHNFSmF0b25OZWlYOXdVanItOEpELUNxRnhyQW9yWE8wRQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1IcmdJbVpZSjBMMFhJYl93WDMxNnJHb3JKdnduZVM0Z0F4eXpIMWR6cXN6SUNFOFdXLUxUT21vRGNfbG9VaVFnSGN4cUZUVHNFSmF0b25OZWlYOXdVanItOEpELUNxRnhyQW9yWE8wRQ?oc=5",
+      "id": "CBMib0FVX3lxTE1IcmdJbVpZSjBMMFhJYl93WDMxNnJHb3JKdnduZVM0Z0F4eXpIMWR6cXN6SUNFOFdXLUxUT21vRGNfbG9VaVFnSGN4cUZUVHNFSmF0b25OZWlYOXdVanItOEpELUNxRnhyQW9yWE8wRQ",
+      "guidislink": false,
+      "published": "Fri, 30 Oct 2020 13:48:25 GMT",
+      "published_parsed": [
+        2020,
+        10,
+        30,
+        13,
+        48,
+        25,
+        4,
+        304,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE1IcmdJbVpZSjBMMFhJYl93WDMxNnJHb3JKdnduZVM0Z0F4eXpIMWR6cXN6SUNFOFdXLUxUT21vRGNfbG9VaVFnSGN4cUZUVHNFSmF0b25OZWlYOXdVanItOEpELUNxRnhyQW9yWE8wRQ?oc=5\" target=\"_blank\">The Red Colored Grey Truck (2004)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IMDb</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE1IcmdJbVpZSjBMMFhJYl93WDMxNnJHb3JKdnduZVM0Z0F4eXpIMWR6cXN6SUNFOFdXLUxUT21vRGNfbG9VaVFnSGN4cUZUVHNFSmF0b25OZWlYOXdVanItOEpELUNxRnhyQW9yWE8wRQ?oc=5\" target=\"_blank\">The Red Colored Grey Truck (2004)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IMDb</font>"
+      },
+      "source": {
+        "href": "https://www.imdb.com",
+        "title": "IMDb"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "'Power' Recap: It’s Done - essence.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "'Power' Recap: It’s Done - essence.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9IdWRpS3N2SmltYk4xYVl2TFc3QXA2WlhSTFd6bHM2dWQ1NFkwUUZNZUhlOXhQT002R0tvNkRtdFA0Qkh4TXZqVElhRDkxcVpXM0FfYUV5SEt3TDF6NUxRR1o1ZWpHN200LWZn?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9IdWRpS3N2SmltYk4xYVl2TFc3QXA2WlhSTFd6bHM2dWQ1NFkwUUZNZUhlOXhQT002R0tvNkRtdFA0Qkh4TXZqVElhRDkxcVpXM0FfYUV5SEt3TDF6NUxRR1o1ZWpHN200LWZn?oc=5",
+      "id": "CBMia0FVX3lxTE9IdWRpS3N2SmltYk4xYVl2TFc3QXA2WlhSTFd6bHM2dWQ1NFkwUUZNZUhlOXhQT002R0tvNkRtdFA0Qkh4TXZqVElhRDkxcVpXM0FfYUV5SEt3TDF6NUxRR1o1ZWpHN200LWZn",
+      "guidislink": false,
+      "published": "Mon, 26 Oct 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        10,
+        26,
+        7,
+        0,
+        0,
+        0,
+        300,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE9IdWRpS3N2SmltYk4xYVl2TFc3QXA2WlhSTFd6bHM2dWQ1NFkwUUZNZUhlOXhQT002R0tvNkRtdFA0Qkh4TXZqVElhRDkxcVpXM0FfYUV5SEt3TDF6NUxRR1o1ZWpHN200LWZn?oc=5\" target=\"_blank\">'Power' Recap: It’s Done</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">essence.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE9IdWRpS3N2SmltYk4xYVl2TFc3QXA2WlhSTFd6bHM2dWQ1NFkwUUZNZUhlOXhQT002R0tvNkRtdFA0Qkh4TXZqVElhRDkxcVpXM0FfYUV5SEt3TDF6NUxRR1o1ZWpHN200LWZn?oc=5\" target=\"_blank\">'Power' Recap: It’s Done</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">essence.com</font>"
+      },
+      "source": {
+        "href": "https://www.essence.com",
+        "title": "essence.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "World No. 2 Simona Halep says she has coronavirus; isolating at home with 'mild symptoms' - USA Today",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "World No. 2 Simona Halep says she has coronavirus; isolating at home with 'mild symptoms' - USA Today"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQaHNPd0VGQmtJRTlOUnRNaEEtaE1VV214RXBRdzNHRTh1YWN1bWYyX09LX1NkM0ZObUZ5ZHMtZ1E1VGdGdm43RHV3U1lWSTVtNkhyNVdiZFo0SGdaaGYwekJSdHlXUHRwNWw4WndkZ2I2ZkhwVjJ3dUdMS3FpMzJUdmZpaGlqMTdNeVk5VjlXWGZQd2lDLW1vYUNHT1R0al9JTHl5V0JRYUM3d1MtMmkzZ2lIeDlNVzdGR2c?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQaHNPd0VGQmtJRTlOUnRNaEEtaE1VV214RXBRdzNHRTh1YWN1bWYyX09LX1NkM0ZObUZ5ZHMtZ1E1VGdGdm43RHV3U1lWSTVtNkhyNVdiZFo0SGdaaGYwekJSdHlXUHRwNWw4WndkZ2I2ZkhwVjJ3dUdMS3FpMzJUdmZpaGlqMTdNeVk5VjlXWGZQd2lDLW1vYUNHT1R0al9JTHl5V0JRYUM3d1MtMmkzZ2lIeDlNVzdGR2c?oc=5",
+      "id": "CBMiugFBVV95cUxQaHNPd0VGQmtJRTlOUnRNaEEtaE1VV214RXBRdzNHRTh1YWN1bWYyX09LX1NkM0ZObUZ5ZHMtZ1E1VGdGdm43RHV3U1lWSTVtNkhyNVdiZFo0SGdaaGYwekJSdHlXUHRwNWw4WndkZ2I2ZkhwVjJ3dUdMS3FpMzJUdmZpaGlqMTdNeVk5VjlXWGZQd2lDLW1vYUNHT1R0al9JTHl5V0JRYUM3d1MtMmkzZ2lIeDlNVzdGR2c",
+      "guidislink": false,
+      "published": "Sat, 31 Oct 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        10,
+        31,
+        7,
+        0,
+        0,
+        5,
+        305,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxQaHNPd0VGQmtJRTlOUnRNaEEtaE1VV214RXBRdzNHRTh1YWN1bWYyX09LX1NkM0ZObUZ5ZHMtZ1E1VGdGdm43RHV3U1lWSTVtNkhyNVdiZFo0SGdaaGYwekJSdHlXUHRwNWw4WndkZ2I2ZkhwVjJ3dUdMS3FpMzJUdmZpaGlqMTdNeVk5VjlXWGZQd2lDLW1vYUNHT1R0al9JTHl5V0JRYUM3d1MtMmkzZ2lIeDlNVzdGR2c?oc=5\" target=\"_blank\">World No. 2 Simona Halep says she has coronavirus; isolating at home with 'mild symptoms'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">USA Today</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxQaHNPd0VGQmtJRTlOUnRNaEEtaE1VV214RXBRdzNHRTh1YWN1bWYyX09LX1NkM0ZObUZ5ZHMtZ1E1VGdGdm43RHV3U1lWSTVtNkhyNVdiZFo0SGdaaGYwekJSdHlXUHRwNWw4WndkZ2I2ZkhwVjJ3dUdMS3FpMzJUdmZpaGlqMTdNeVk5VjlXWGZQd2lDLW1vYUNHT1R0al9JTHl5V0JRYUM3d1MtMmkzZ2lIeDlNVzdGR2c?oc=5\" target=\"_blank\">World No. 2 Simona Halep says she has coronavirus; isolating at home with 'mild symptoms'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">USA Today</font>"
+      },
+      "source": {
+        "href": "https://www.usatoday.com",
+        "title": "USA Today"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Health alert issued over floodwaters and rainy season - newssourcegy.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Health alert issued over floodwaters and rainy season - newssourcegy.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdWh0YjVTeUJCQmdxeVFMenpRSXVaa3F5SnZ4V1JWUmhsRk93Q3VzNXVwck9PbHpiUEFvWGxTUEtDSjJVYUo3SWQtbHJ5WkpEUlVoNnVReXFEb0pQMUhjNHRGV1FkRXExODh4R3UyMVNwOElwWGxPT3ZwRVNtdk1vejVINi1JZGpOamdFOQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdWh0YjVTeUJCQmdxeVFMenpRSXVaa3F5SnZ4V1JWUmhsRk93Q3VzNXVwck9PbHpiUEFvWGxTUEtDSjJVYUo3SWQtbHJ5WkpEUlVoNnVReXFEb0pQMUhjNHRGV1FkRXExODh4R3UyMVNwOElwWGxPT3ZwRVNtdk1vejVINi1JZGpOamdFOQ?oc=5",
+      "id": "CBMijAFBVV95cUxQdWh0YjVTeUJCQmdxeVFMenpRSXVaa3F5SnZ4V1JWUmhsRk93Q3VzNXVwck9PbHpiUEFvWGxTUEtDSjJVYUo3SWQtbHJ5WkpEUlVoNnVReXFEb0pQMUhjNHRGV1FkRXExODh4R3UyMVNwOElwWGxPT3ZwRVNtdk1vejVINi1JZGpOamdFOQ",
+      "guidislink": false,
+      "published": "Thu, 05 Nov 2020 08:00:00 GMT",
+      "published_parsed": [
+        2020,
+        11,
+        5,
+        8,
+        0,
+        0,
+        3,
+        310,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQdWh0YjVTeUJCQmdxeVFMenpRSXVaa3F5SnZ4V1JWUmhsRk93Q3VzNXVwck9PbHpiUEFvWGxTUEtDSjJVYUo3SWQtbHJ5WkpEUlVoNnVReXFEb0pQMUhjNHRGV1FkRXExODh4R3UyMVNwOElwWGxPT3ZwRVNtdk1vejVINi1JZGpOamdFOQ?oc=5\" target=\"_blank\">Health alert issued over floodwaters and rainy season</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">newssourcegy.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQdWh0YjVTeUJCQmdxeVFMenpRSXVaa3F5SnZ4V1JWUmhsRk93Q3VzNXVwck9PbHpiUEFvWGxTUEtDSjJVYUo3SWQtbHJ5WkpEUlVoNnVReXFEb0pQMUhjNHRGV1FkRXExODh4R3UyMVNwOElwWGxPT3ZwRVNtdk1vejVINi1JZGpOamdFOQ?oc=5\" target=\"_blank\">Health alert issued over floodwaters and rainy season</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">newssourcegy.com</font>"
+      },
+      "source": {
+        "href": "https://newssourcegy.com",
+        "title": "newssourcegy.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "The Red Colored Grey Truck (2004) - IMDb",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "The Red Colored Grey Truck (2004) - IMDb"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMib0FVX3lxTE03M2ctVTQ5RExWRVFocm5XTWQ3RlJkMWtiQkFheDlUbWdOX3JXMG9tM19HSTEtSl82WEduZEEzbXdMcHk5VF82VG9QV3cxbnBVVHAxNnBuS3l3VFBYdFBEdWtHLVhBZ05NNTFGcWFCNA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE03M2ctVTQ5RExWRVFocm5XTWQ3RlJkMWtiQkFheDlUbWdOX3JXMG9tM19HSTEtSl82WEduZEEzbXdMcHk5VF82VG9QV3cxbnBVVHAxNnBuS3l3VFBYdFBEdWtHLVhBZ05NNTFGcWFCNA?oc=5",
+      "id": "CBMib0FVX3lxTE03M2ctVTQ5RExWRVFocm5XTWQ3RlJkMWtiQkFheDlUbWdOX3JXMG9tM19HSTEtSl82WEduZEEzbXdMcHk5VF82VG9QV3cxbnBVVHAxNnBuS3l3VFBYdFBEdWtHLVhBZ05NNTFGcWFCNA",
+      "guidislink": false,
+      "published": "Sat, 31 Oct 2020 07:52:36 GMT",
+      "published_parsed": [
+        2020,
+        10,
+        31,
+        7,
+        52,
+        36,
+        5,
+        305,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE03M2ctVTQ5RExWRVFocm5XTWQ3RlJkMWtiQkFheDlUbWdOX3JXMG9tM19HSTEtSl82WEduZEEzbXdMcHk5VF82VG9QV3cxbnBVVHAxNnBuS3l3VFBYdFBEdWtHLVhBZ05NNTFGcWFCNA?oc=5\" target=\"_blank\">The Red Colored Grey Truck (2004)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IMDb</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE03M2ctVTQ5RExWRVFocm5XTWQ3RlJkMWtiQkFheDlUbWdOX3JXMG9tM19HSTEtSl82WEduZEEzbXdMcHk5VF82VG9QV3cxbnBVVHAxNnBuS3l3VFBYdFBEdWtHLVhBZ05NNTFGcWFCNA?oc=5\" target=\"_blank\">The Red Colored Grey Truck (2004)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IMDb</font>"
+      },
+      "source": {
+        "href": "https://www.imdb.com",
+        "title": "IMDb"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "St. Lucia Gives Update On Dengue Fever: Northern Part Of Island Worst Hit. - The St Kitts Nevis Observer",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "St. Lucia Gives Update On Dengue Fever: Northern Part Of Island Worst Hit. - The St Kitts Nevis Observer"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeTRmVnM1RlBiUS15emhvYkwtekk4MGZ0ZVlmZkVYRnk1YVYzRk9RSW5JdFhXbWdmcGVieC1wektFVXA5SW1JYng4akR1N3FqVkRUQkNjdjBOSmVSVkdVckRTenV3RVpocFkxNzVESUR6MXB5ckhUVlJvbG8wZHNoaUhEc1p3V3Z5R2pYOENiTG91X1BaSlN3cXZ6Vy1qNDZOZkNJbkdxQzJGZlp0bm9CX0JR?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeTRmVnM1RlBiUS15emhvYkwtekk4MGZ0ZVlmZkVYRnk1YVYzRk9RSW5JdFhXbWdmcGVieC1wektFVXA5SW1JYng4akR1N3FqVkRUQkNjdjBOSmVSVkdVckRTenV3RVpocFkxNzVESUR6MXB5ckhUVlJvbG8wZHNoaUhEc1p3V3Z5R2pYOENiTG91X1BaSlN3cXZ6Vy1qNDZOZkNJbkdxQzJGZlp0bm9CX0JR?oc=5",
+      "id": "CBMisgFBVV95cUxPeTRmVnM1RlBiUS15emhvYkwtekk4MGZ0ZVlmZkVYRnk1YVYzRk9RSW5JdFhXbWdmcGVieC1wektFVXA5SW1JYng4akR1N3FqVkRUQkNjdjBOSmVSVkdVckRTenV3RVpocFkxNzVESUR6MXB5ckhUVlJvbG8wZHNoaUhEc1p3V3Z5R2pYOENiTG91X1BaSlN3cXZ6Vy1qNDZOZkNJbkdxQzJGZlp0bm9CX0JR",
+      "guidislink": false,
+      "published": "Fri, 06 Nov 2020 08:00:00 GMT",
+      "published_parsed": [
+        2020,
+        11,
+        6,
+        8,
+        0,
+        0,
+        4,
+        311,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPeTRmVnM1RlBiUS15emhvYkwtekk4MGZ0ZVlmZkVYRnk1YVYzRk9RSW5JdFhXbWdmcGVieC1wektFVXA5SW1JYng4akR1N3FqVkRUQkNjdjBOSmVSVkdVckRTenV3RVpocFkxNzVESUR6MXB5ckhUVlJvbG8wZHNoaUhEc1p3V3Z5R2pYOENiTG91X1BaSlN3cXZ6Vy1qNDZOZkNJbkdxQzJGZlp0bm9CX0JR?oc=5\" target=\"_blank\">St. Lucia Gives Update On Dengue Fever: Northern Part Of Island Worst Hit.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The St Kitts Nevis Observer</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPeTRmVnM1RlBiUS15emhvYkwtekk4MGZ0ZVlmZkVYRnk1YVYzRk9RSW5JdFhXbWdmcGVieC1wektFVXA5SW1JYng4akR1N3FqVkRUQkNjdjBOSmVSVkdVckRTenV3RVpocFkxNzVESUR6MXB5ckhUVlJvbG8wZHNoaUhEc1p3V3Z5R2pYOENiTG91X1BaSlN3cXZ6Vy1qNDZOZkNJbkdxQzJGZlp0bm9CX0JR?oc=5\" target=\"_blank\">St. Lucia Gives Update On Dengue Fever: Northern Part Of Island Worst Hit.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The St Kitts Nevis Observer</font>"
+      },
+      "source": {
+        "href": "https://www.thestkittsnevisobserver.com",
+        "title": "The St Kitts Nevis Observer"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Taiwan's CDC illustrates Covid-19 and other diseases as gorgeous anime characters - mothership.sg",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Taiwan's CDC illustrates Covid-19 and other diseases as gorgeous anime characters - mothership.sg"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBKOWE2M3JlZGU5a1FGRUxfZjdmSXNscWtsQnRPbXBfaUpPQ1BoZGJyX19mVG9uaW1ZdnA5RHdwRHJNSldzRFEzSlZsVXNlQ3JrSHY4R0lGb2dMQW8yQ3lzYnJ6WkNvcnhoVXdZb2dQM2o?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBKOWE2M3JlZGU5a1FGRUxfZjdmSXNscWtsQnRPbXBfaUpPQ1BoZGJyX19mVG9uaW1ZdnA5RHdwRHJNSldzRFEzSlZsVXNlQ3JrSHY4R0lGb2dMQW8yQ3lzYnJ6WkNvcnhoVXdZb2dQM2o?oc=5",
+      "id": "CBMicEFVX3lxTFBKOWE2M3JlZGU5a1FGRUxfZjdmSXNscWtsQnRPbXBfaUpPQ1BoZGJyX19mVG9uaW1ZdnA5RHdwRHJNSldzRFEzSlZsVXNlQ3JrSHY4R0lGb2dMQW8yQ3lzYnJ6WkNvcnhoVXdZb2dQM2o",
+      "guidislink": false,
+      "published": "Fri, 30 Oct 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        10,
+        30,
+        7,
+        0,
+        0,
+        4,
+        304,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTFBKOWE2M3JlZGU5a1FGRUxfZjdmSXNscWtsQnRPbXBfaUpPQ1BoZGJyX19mVG9uaW1ZdnA5RHdwRHJNSldzRFEzSlZsVXNlQ3JrSHY4R0lGb2dMQW8yQ3lzYnJ6WkNvcnhoVXdZb2dQM2o?oc=5\" target=\"_blank\">Taiwan's CDC illustrates Covid-19 and other diseases as gorgeous anime characters</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">mothership.sg</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTFBKOWE2M3JlZGU5a1FGRUxfZjdmSXNscWtsQnRPbXBfaUpPQ1BoZGJyX19mVG9uaW1ZdnA5RHdwRHJNSldzRFEzSlZsVXNlQ3JrSHY4R0lGb2dMQW8yQ3lzYnJ6WkNvcnhoVXdZb2dQM2o?oc=5\" target=\"_blank\">Taiwan's CDC illustrates Covid-19 and other diseases as gorgeous anime characters</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">mothership.sg</font>"
+      },
+      "source": {
+        "href": "https://mothership.sg",
+        "title": "mothership.sg"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Poland tightens abortion laws: Protestors and riot police clash - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Poland tightens abortion laws: Protestors and riot police clash - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOFFtelpLMFRWdTB1S0dKSHBPaWhfT1Z6SHJaTGlHMlFYc2k1OUhCZm9nMUhxcGVSX2VTMjllTEF4bVZ6Sm5zdGVqdW1fQnBuaDdHc0dTUzd3cGx5YXV2elFGcFBUdGZOb2VWaDEyXzNQNXhXdFpxcTVSbXpQRUF4TVhHNDF5cFNCX0ZUdFNDLXhkM0hTdm5vNWpYYkpXTi1DSlZ4UUlZaFV2ZmxYRzF2TjJMY2JyYTRPV1lJc3M2ZjBXeUXSAcMBQVVfeXFMUDhRbXpaSzBUVnUwdUtHSkhwT2loX09WekhyWkxpRzJRWHNpNTlIQmZvZzFIcXBlUl9lUzI5ZUxBeG1Wekpuc3RlanVtX0Jwbmg3R3NHU1M3d3BseWF1dnpRRnBQVHRmTm9lVmgxMl8zUDV4V3RacXE1Um16UEVBeE1YRzQxeXBTQl9GVHRTQy14ZDNIU3ZubzVqWGJKV04tQ0pWeFFJWWhVdmZsWEcxdk4yTGNicmE0T1dZSXNzNmYwV3lF?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOFFtelpLMFRWdTB1S0dKSHBPaWhfT1Z6SHJaTGlHMlFYc2k1OUhCZm9nMUhxcGVSX2VTMjllTEF4bVZ6Sm5zdGVqdW1fQnBuaDdHc0dTUzd3cGx5YXV2elFGcFBUdGZOb2VWaDEyXzNQNXhXdFpxcTVSbXpQRUF4TVhHNDF5cFNCX0ZUdFNDLXhkM0hTdm5vNWpYYkpXTi1DSlZ4UUlZaFV2ZmxYRzF2TjJMY2JyYTRPV1lJc3M2ZjBXeUXSAcMBQVVfeXFMUDhRbXpaSzBUVnUwdUtHSkhwT2loX09WekhyWkxpRzJRWHNpNTlIQmZvZzFIcXBlUl9lUzI5ZUxBeG1Wekpuc3RlanVtX0Jwbmg3R3NHU1M3d3BseWF1dnpRRnBQVHRmTm9lVmgxMl8zUDV4V3RacXE1Um16UEVBeE1YRzQxeXBTQl9GVHRTQy14ZDNIU3ZubzVqWGJKV04tQ0pWeFFJWWhVdmZsWEcxdk4yTGNicmE0T1dZSXNzNmYwV3lF?oc=5",
+      "id": "CBMiwwFBVV95cUxQOFFtelpLMFRWdTB1S0dKSHBPaWhfT1Z6SHJaTGlHMlFYc2k1OUhCZm9nMUhxcGVSX2VTMjllTEF4bVZ6Sm5zdGVqdW1fQnBuaDdHc0dTUzd3cGx5YXV2elFGcFBUdGZOb2VWaDEyXzNQNXhXdFpxcTVSbXpQRUF4TVhHNDF5cFNCX0ZUdFNDLXhkM0hTdm5vNWpYYkpXTi1DSlZ4UUlZaFV2ZmxYRzF2TjJMY2JyYTRPV1lJc3M2ZjBXeUXSAcMBQVVfeXFMUDhRbXpaSzBUVnUwdUtHSkhwT2loX09WekhyWkxpRzJRWHNpNTlIQmZvZzFIcXBlUl9lUzI5ZUxBeG1Wekpuc3RlanVtX0Jwbmg3R3NHU1M3d3BseWF1dnpRRnBQVHRmTm9lVmgxMl8zUDV4V3RacXE1Um16UEVBeE1YRzQxeXBTQl9GVHRTQy14ZDNIU3ZubzVqWGJKV04tQ0pWeFFJWWhVdmZsWEcxdk4yTGNicmE0T1dZSXNzNmYwV3lF",
+      "guidislink": false,
+      "published": "Fri, 23 Oct 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        10,
+        23,
+        7,
+        0,
+        0,
+        4,
+        297,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOFFtelpLMFRWdTB1S0dKSHBPaWhfT1Z6SHJaTGlHMlFYc2k1OUhCZm9nMUhxcGVSX2VTMjllTEF4bVZ6Sm5zdGVqdW1fQnBuaDdHc0dTUzd3cGx5YXV2elFGcFBUdGZOb2VWaDEyXzNQNXhXdFpxcTVSbXpQRUF4TVhHNDF5cFNCX0ZUdFNDLXhkM0hTdm5vNWpYYkpXTi1DSlZ4UUlZaFV2ZmxYRzF2TjJMY2JyYTRPV1lJc3M2ZjBXeUXSAcMBQVVfeXFMUDhRbXpaSzBUVnUwdUtHSkhwT2loX09WekhyWkxpRzJRWHNpNTlIQmZvZzFIcXBlUl9lUzI5ZUxBeG1Wekpuc3RlanVtX0Jwbmg3R3NHU1M3d3BseWF1dnpRRnBQVHRmTm9lVmgxMl8zUDV4V3RacXE1Um16UEVBeE1YRzQxeXBTQl9GVHRTQy14ZDNIU3ZubzVqWGJKV04tQ0pWeFFJWWhVdmZsWEcxdk4yTGNicmE0T1dZSXNzNmYwV3lF?oc=5\" target=\"_blank\">Poland tightens abortion laws: Protestors and riot police clash</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOFFtelpLMFRWdTB1S0dKSHBPaWhfT1Z6SHJaTGlHMlFYc2k1OUhCZm9nMUhxcGVSX2VTMjllTEF4bVZ6Sm5zdGVqdW1fQnBuaDdHc0dTUzd3cGx5YXV2elFGcFBUdGZOb2VWaDEyXzNQNXhXdFpxcTVSbXpQRUF4TVhHNDF5cFNCX0ZUdFNDLXhkM0hTdm5vNWpYYkpXTi1DSlZ4UUlZaFV2ZmxYRzF2TjJMY2JyYTRPV1lJc3M2ZjBXeUXSAcMBQVVfeXFMUDhRbXpaSzBUVnUwdUtHSkhwT2loX09WekhyWkxpRzJRWHNpNTlIQmZvZzFIcXBlUl9lUzI5ZUxBeG1Wekpuc3RlanVtX0Jwbmg3R3NHU1M3d3BseWF1dnpRRnBQVHRmTm9lVmgxMl8zUDV4V3RacXE1Um16UEVBeE1YRzQxeXBTQl9GVHRTQy14ZDNIU3ZubzVqWGJKV04tQ0pWeFFJWWhVdmZsWEcxdk4yTGNicmE0T1dZSXNzNmYwV3lF?oc=5\" target=\"_blank\">Poland tightens abortion laws: Protestors and riot police clash</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    }
+  ]
+}

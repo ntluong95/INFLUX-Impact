@@ -1,0 +1,220 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2013-10-04",
+  "window_end": "2013-10-17",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2013-10-04+before%3A2013-10-18&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2013-10-04+before:2013-10-18&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:18:37Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2013-10-04 before:2013-10-18\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2013-10-04 before:2013-10-18\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2013-10-04+before:2013-10-18&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2013-10-04+before:2013-10-18&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:18:38 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      18,
+      38,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "FULHAM v STOKE: Latest team news and stats - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "FULHAM v STOKE: Latest team news and stats - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcFp2cnhRdjJBWEFCR05xdC1GQVltR3psMXlLR1RSQlM3blZPTmxTcUI5dWlXOEpUMXdad3Vvd3NQdDRLdml4V0hpNjg4aUZPdFpTa0xJWTZxcUt2Q1hrd2pMcjF3T0c5QmVheUx2a3NkMUczVWZMZTJ2ZUtEOUwtMWZpcnh2OVNmV0dfTlJkY3NRUXBGVU1VV1ZscmE2eTNydWxJOHRqMl_SAagBQVVfeXFMTnBadnJ4UXYyQVhBQkdOcXQtRkFZbUd6bDF5S0dUUkJTN25WT05sU3FCOXVpVzhKVDF3Wnd1b3dzUHQ0S3ZpeFdIaTY4OGlGT3RaU2tMSVk2cXFLdkNYa3dqTHIxd09HOUJlYXlMdmtzZDFHM1VmTGUydmVLRDlMLTFmaXJ4djlTZldHX05SZGNzUVFwRlVNVVdWbHJhNnkzcnVsSTh0ajJf?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcFp2cnhRdjJBWEFCR05xdC1GQVltR3psMXlLR1RSQlM3blZPTmxTcUI5dWlXOEpUMXdad3Vvd3NQdDRLdml4V0hpNjg4aUZPdFpTa0xJWTZxcUt2Q1hrd2pMcjF3T0c5QmVheUx2a3NkMUczVWZMZTJ2ZUtEOUwtMWZpcnh2OVNmV0dfTlJkY3NRUXBGVU1VV1ZscmE2eTNydWxJOHRqMl_SAagBQVVfeXFMTnBadnJ4UXYyQVhBQkdOcXQtRkFZbUd6bDF5S0dUUkJTN25WT05sU3FCOXVpVzhKVDF3Wnd1b3dzUHQ0S3ZpeFdIaTY4OGlGT3RaU2tMSVk2cXFLdkNYa3dqTHIxd09HOUJlYXlMdmtzZDFHM1VmTGUydmVLRDlMLTFmaXJ4djlTZldHX05SZGNzUVFwRlVNVVdWbHJhNnkzcnVsSTh0ajJf?oc=5",
+      "id": "CBMiqAFBVV95cUxOcFp2cnhRdjJBWEFCR05xdC1GQVltR3psMXlLR1RSQlM3blZPTmxTcUI5dWlXOEpUMXdad3Vvd3NQdDRLdml4V0hpNjg4aUZPdFpTa0xJWTZxcUt2Q1hrd2pMcjF3T0c5QmVheUx2a3NkMUczVWZMZTJ2ZUtEOUwtMWZpcnh2OVNmV0dfTlJkY3NRUXBGVU1VV1ZscmE2eTNydWxJOHRqMl_SAagBQVVfeXFMTnBadnJ4UXYyQVhBQkdOcXQtRkFZbUd6bDF5S0dUUkJTN25WT05sU3FCOXVpVzhKVDF3Wnd1b3dzUHQ0S3ZpeFdIaTY4OGlGT3RaU2tMSVk2cXFLdkNYa3dqTHIxd09HOUJlYXlMdmtzZDFHM1VmTGUydmVLRDlMLTFmaXJ4djlTZldHX05SZGNzUVFwRlVNVVdWbHJhNnkzcnVsSTh0ajJf",
+      "guidislink": false,
+      "published": "Fri, 04 Oct 2013 07:00:00 GMT",
+      "published_parsed": [
+        2013,
+        10,
+        4,
+        7,
+        0,
+        0,
+        4,
+        277,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcFp2cnhRdjJBWEFCR05xdC1GQVltR3psMXlLR1RSQlM3blZPTmxTcUI5dWlXOEpUMXdad3Vvd3NQdDRLdml4V0hpNjg4aUZPdFpTa0xJWTZxcUt2Q1hrd2pMcjF3T0c5QmVheUx2a3NkMUczVWZMZTJ2ZUtEOUwtMWZpcnh2OVNmV0dfTlJkY3NRUXBGVU1VV1ZscmE2eTNydWxJOHRqMl_SAagBQVVfeXFMTnBadnJ4UXYyQVhBQkdOcXQtRkFZbUd6bDF5S0dUUkJTN25WT05sU3FCOXVpVzhKVDF3Wnd1b3dzUHQ0S3ZpeFdIaTY4OGlGT3RaU2tMSVk2cXFLdkNYa3dqTHIxd09HOUJlYXlMdmtzZDFHM1VmTGUydmVLRDlMLTFmaXJ4djlTZldHX05SZGNzUVFwRlVNVVdWbHJhNnkzcnVsSTh0ajJf?oc=5\" target=\"_blank\">FULHAM v STOKE: Latest team news and stats</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcFp2cnhRdjJBWEFCR05xdC1GQVltR3psMXlLR1RSQlM3blZPTmxTcUI5dWlXOEpUMXdad3Vvd3NQdDRLdml4V0hpNjg4aUZPdFpTa0xJWTZxcUt2Q1hrd2pMcjF3T0c5QmVheUx2a3NkMUczVWZMZTJ2ZUtEOUwtMWZpcnh2OVNmV0dfTlJkY3NRUXBGVU1VV1ZscmE2eTNydWxJOHRqMl_SAagBQVVfeXFMTnBadnJ4UXYyQVhBQkdOcXQtRkFZbUd6bDF5S0dUUkJTN25WT05sU3FCOXVpVzhKVDF3Wnd1b3dzUHQ0S3ZpeFdIaTY4OGlGT3RaU2tMSVk2cXFLdkNYa3dqTHIxd09HOUJlYXlMdmtzZDFHM1VmTGUydmVLRDlMLTFmaXJ4djlTZldHX05SZGNzUVFwRlVNVVdWbHJhNnkzcnVsSTh0ajJf?oc=5\" target=\"_blank\">FULHAM v STOKE: Latest team news and stats</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Mary-Kate and Ashley Olsen 'wore adult Chanel and Marc Jacobs cut to fit' on Full House - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Mary-Kate and Ashley Olsen 'wore adult Chanel and Marc Jacobs cut to fit' on Full House - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPZ2NOZGpPSDNfR3JsemFLNXlTdGdnSkdCVkVYTHg3UDJ6ZEw1Sjc1U1lqMTV5eTdDekhlVEp6eVJnczliZnZ4VE1yMjNiTzBNMnYwTFZEcXROd3EzNDRyYXhHM1VieWc5MGx3QWRfOFhQN0VHREMydGV0ZWYzZWk2MTN6cmFLUTRXRmRUdGdLVUhfXy1LY0Q0MXFsUDEzS05oT1ZEUWxoRXNMcFhjUlgtY05NQXJlS0w2V2NacjVmZFdMcUJXdDI4TjFFM0ljaXJXeVI5UFFlYW5JWmtFNS02MjhTUTRJaGRXZ2fSAeoBQVVfeXFMT2djTmRqT0gzX0dybHphSzV5U3RnZ0pHQlZFWEx4N1AyemRMNUo3NVNZajE1eXk3Q3pIZVRKenlSZ3M5YmZ2eFRNcjIzYk8wTTJ2MExWRHF0TndxMzQ0cmF4RzNVYnlnOTBsd0FkXzhYUDdFR0RDMnRldGVmM2VpNjEzenJhS1E0V0ZkVHRnS1VIX18tS2NENDFxbFAxM0tOaE9WRFFsaEVzTHBYY1JYLWNOTUFyZUtMNldjWnI1ZmRXTHFCV3QyOE4xRTNJY2lyV3lSOVBRZWFuSVprRTUtNjI4U1E0SWhkV2dn?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPZ2NOZGpPSDNfR3JsemFLNXlTdGdnSkdCVkVYTHg3UDJ6ZEw1Sjc1U1lqMTV5eTdDekhlVEp6eVJnczliZnZ4VE1yMjNiTzBNMnYwTFZEcXROd3EzNDRyYXhHM1VieWc5MGx3QWRfOFhQN0VHREMydGV0ZWYzZWk2MTN6cmFLUTRXRmRUdGdLVUhfXy1LY0Q0MXFsUDEzS05oT1ZEUWxoRXNMcFhjUlgtY05NQXJlS0w2V2NacjVmZFdMcUJXdDI4TjFFM0ljaXJXeVI5UFFlYW5JWmtFNS02MjhTUTRJaGRXZ2fSAeoBQVVfeXFMT2djTmRqT0gzX0dybHphSzV5U3RnZ0pHQlZFWEx4N1AyemRMNUo3NVNZajE1eXk3Q3pIZVRKenlSZ3M5YmZ2eFRNcjIzYk8wTTJ2MExWRHF0TndxMzQ0cmF4RzNVYnlnOTBsd0FkXzhYUDdFR0RDMnRldGVmM2VpNjEzenJhS1E0V0ZkVHRnS1VIX18tS2NENDFxbFAxM0tOaE9WRFFsaEVzTHBYY1JYLWNOTUFyZUtMNldjWnI1ZmRXTHFCV3QyOE4xRTNJY2lyV3lSOVBRZWFuSVprRTUtNjI4U1E0SWhkV2dn?oc=5",
+      "id": "CBMi6gFBVV95cUxPZ2NOZGpPSDNfR3JsemFLNXlTdGdnSkdCVkVYTHg3UDJ6ZEw1Sjc1U1lqMTV5eTdDekhlVEp6eVJnczliZnZ4VE1yMjNiTzBNMnYwTFZEcXROd3EzNDRyYXhHM1VieWc5MGx3QWRfOFhQN0VHREMydGV0ZWYzZWk2MTN6cmFLUTRXRmRUdGdLVUhfXy1LY0Q0MXFsUDEzS05oT1ZEUWxoRXNMcFhjUlgtY05NQXJlS0w2V2NacjVmZFdMcUJXdDI4TjFFM0ljaXJXeVI5UFFlYW5JWmtFNS02MjhTUTRJaGRXZ2fSAeoBQVVfeXFMT2djTmRqT0gzX0dybHphSzV5U3RnZ0pHQlZFWEx4N1AyemRMNUo3NVNZajE1eXk3Q3pIZVRKenlSZ3M5YmZ2eFRNcjIzYk8wTTJ2MExWRHF0TndxMzQ0cmF4RzNVYnlnOTBsd0FkXzhYUDdFR0RDMnRldGVmM2VpNjEzenJhS1E0V0ZkVHRnS1VIX18tS2NENDFxbFAxM0tOaE9WRFFsaEVzTHBYY1JYLWNOTUFyZUtMNldjWnI1ZmRXTHFCV3QyOE4xRTNJY2lyV3lSOVBRZWFuSVprRTUtNjI4U1E0SWhkV2dn",
+      "guidislink": false,
+      "published": "Fri, 18 Oct 2013 07:00:00 GMT",
+      "published_parsed": [
+        2013,
+        10,
+        18,
+        7,
+        0,
+        0,
+        4,
+        291,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi6gFBVV95cUxPZ2NOZGpPSDNfR3JsemFLNXlTdGdnSkdCVkVYTHg3UDJ6ZEw1Sjc1U1lqMTV5eTdDekhlVEp6eVJnczliZnZ4VE1yMjNiTzBNMnYwTFZEcXROd3EzNDRyYXhHM1VieWc5MGx3QWRfOFhQN0VHREMydGV0ZWYzZWk2MTN6cmFLUTRXRmRUdGdLVUhfXy1LY0Q0MXFsUDEzS05oT1ZEUWxoRXNMcFhjUlgtY05NQXJlS0w2V2NacjVmZFdMcUJXdDI4TjFFM0ljaXJXeVI5UFFlYW5JWmtFNS02MjhTUTRJaGRXZ2fSAeoBQVVfeXFMT2djTmRqT0gzX0dybHphSzV5U3RnZ0pHQlZFWEx4N1AyemRMNUo3NVNZajE1eXk3Q3pIZVRKenlSZ3M5YmZ2eFRNcjIzYk8wTTJ2MExWRHF0TndxMzQ0cmF4RzNVYnlnOTBsd0FkXzhYUDdFR0RDMnRldGVmM2VpNjEzenJhS1E0V0ZkVHRnS1VIX18tS2NENDFxbFAxM0tOaE9WRFFsaEVzTHBYY1JYLWNOTUFyZUtMNldjWnI1ZmRXTHFCV3QyOE4xRTNJY2lyV3lSOVBRZWFuSVprRTUtNjI4U1E0SWhkV2dn?oc=5\" target=\"_blank\">Mary-Kate and Ashley Olsen 'wore adult Chanel and Marc Jacobs cut to fit' on Full House</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi6gFBVV95cUxPZ2NOZGpPSDNfR3JsemFLNXlTdGdnSkdCVkVYTHg3UDJ6ZEw1Sjc1U1lqMTV5eTdDekhlVEp6eVJnczliZnZ4VE1yMjNiTzBNMnYwTFZEcXROd3EzNDRyYXhHM1VieWc5MGx3QWRfOFhQN0VHREMydGV0ZWYzZWk2MTN6cmFLUTRXRmRUdGdLVUhfXy1LY0Q0MXFsUDEzS05oT1ZEUWxoRXNMcFhjUlgtY05NQXJlS0w2V2NacjVmZFdMcUJXdDI4TjFFM0ljaXJXeVI5UFFlYW5JWmtFNS02MjhTUTRJaGRXZ2fSAeoBQVVfeXFMT2djTmRqT0gzX0dybHphSzV5U3RnZ0pHQlZFWEx4N1AyemRMNUo3NVNZajE1eXk3Q3pIZVRKenlSZ3M5YmZ2eFRNcjIzYk8wTTJ2MExWRHF0TndxMzQ0cmF4RzNVYnlnOTBsd0FkXzhYUDdFR0RDMnRldGVmM2VpNjEzenJhS1E0V0ZkVHRnS1VIX18tS2NENDFxbFAxM0tOaE9WRFFsaEVzTHBYY1JYLWNOTUFyZUtMNldjWnI1ZmRXTHFCV3QyOE4xRTNJY2lyV3lSOVBRZWFuSVprRTUtNjI4U1E0SWhkV2dn?oc=5\" target=\"_blank\">Mary-Kate and Ashley Olsen 'wore adult Chanel and Marc Jacobs cut to fit' on Full House</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Rita Ora stands out in a red tartan suit at Rimmel's anniversary celebration... days after she borrows the same trousers from Cara Delevingne at Paris Fashion Week - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Rita Ora stands out in a red tartan suit at Rimmel's anniversary celebration... days after she borrows the same trousers from Cara Delevingne at Paris Fashion Week - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNeV9UeWxRWFVYN2pKcFRKazctM2pFS1RTZDNNS3hYbEFsMTAwQmo5WUhMalEzXy1xeU41cGJEODROUG01X2tHUm9MZmltQWtmbzJEWFFfYzhwZmNzQ3k5MjNWV2JlaUhneHZlMjN0SDd6cWp6OVB2TnF1b2QxazZoRDNrdm9SMTZwSEctbTJ4M05zeGZvcnduSENPNjZhMktUdjBvaHZudGtoRzJ4bGFCVDJGV29ZcnRUWUY0VzYxTFlYYjMxcEt3eHFWZmRlUWpCN0FZM2dQNmR2VmhrMHowRUlTZEJJTDlJcDFZWTNUbm4xMEVYQUlhbzNYUHdqY0N4QTMxdnVmRHQyQ0pJaFJzR2RR0gGSAkFVX3lxTE15X1R5bFFYVVg3akpwVEprNy0zakVLVFNkM01LeFhsQWwxMDBCajlZSExqUTNfLXF5TjVwYkQ4NE5QbTVfa0dSb0xmaW1Ba2ZvMkRYUV9jOHBmY3NDeTkyM1ZXYmVpSGd4dmUyM3RIN3pxano5UHZOcXVvZDFrNmhEM2t2b1IxNnBIRy1tMngzTnN4Zm9yd25IQ082NmEyS1R2MG9odm50a2hHMnhsYUJUMkZXb1lydFRZRjRXNjFMWVhiMzFwS3d4cVZmZGVRakI3QVkzZ1A2ZHZWaGswejBFSVNkQklMOUlwMVlZM1RubjEwRVhBSWFvM1hQd2pjQ3hBMzF2dWZEdDJDSkloUnNHZFE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNeV9UeWxRWFVYN2pKcFRKazctM2pFS1RTZDNNS3hYbEFsMTAwQmo5WUhMalEzXy1xeU41cGJEODROUG01X2tHUm9MZmltQWtmbzJEWFFfYzhwZmNzQ3k5MjNWV2JlaUhneHZlMjN0SDd6cWp6OVB2TnF1b2QxazZoRDNrdm9SMTZwSEctbTJ4M05zeGZvcnduSENPNjZhMktUdjBvaHZudGtoRzJ4bGFCVDJGV29ZcnRUWUY0VzYxTFlYYjMxcEt3eHFWZmRlUWpCN0FZM2dQNmR2VmhrMHowRUlTZEJJTDlJcDFZWTNUbm4xMEVYQUlhbzNYUHdqY0N4QTMxdnVmRHQyQ0pJaFJzR2RR0gGSAkFVX3lxTE15X1R5bFFYVVg3akpwVEprNy0zakVLVFNkM01LeFhsQWwxMDBCajlZSExqUTNfLXF5TjVwYkQ4NE5QbTVfa0dSb0xmaW1Ba2ZvMkRYUV9jOHBmY3NDeTkyM1ZXYmVpSGd4dmUyM3RIN3pxano5UHZOcXVvZDFrNmhEM2t2b1IxNnBIRy1tMngzTnN4Zm9yd25IQ082NmEyS1R2MG9odm50a2hHMnhsYUJUMkZXb1lydFRZRjRXNjFMWVhiMzFwS3d4cVZmZGVRakI3QVkzZ1A2ZHZWaGswejBFSVNkQklMOUlwMVlZM1RubjEwRVhBSWFvM1hQd2pjQ3hBMzF2dWZEdDJDSkloUnNHZFE?oc=5",
+      "id": "CBMikgJBVV95cUxNeV9UeWxRWFVYN2pKcFRKazctM2pFS1RTZDNNS3hYbEFsMTAwQmo5WUhMalEzXy1xeU41cGJEODROUG01X2tHUm9MZmltQWtmbzJEWFFfYzhwZmNzQ3k5MjNWV2JlaUhneHZlMjN0SDd6cWp6OVB2TnF1b2QxazZoRDNrdm9SMTZwSEctbTJ4M05zeGZvcnduSENPNjZhMktUdjBvaHZudGtoRzJ4bGFCVDJGV29ZcnRUWUY0VzYxTFlYYjMxcEt3eHFWZmRlUWpCN0FZM2dQNmR2VmhrMHowRUlTZEJJTDlJcDFZWTNUbm4xMEVYQUlhbzNYUHdqY0N4QTMxdnVmRHQyQ0pJaFJzR2RR0gGSAkFVX3lxTE15X1R5bFFYVVg3akpwVEprNy0zakVLVFNkM01LeFhsQWwxMDBCajlZSExqUTNfLXF5TjVwYkQ4NE5QbTVfa0dSb0xmaW1Ba2ZvMkRYUV9jOHBmY3NDeTkyM1ZXYmVpSGd4dmUyM3RIN3pxano5UHZOcXVvZDFrNmhEM2t2b1IxNnBIRy1tMngzTnN4Zm9yd25IQ082NmEyS1R2MG9odm50a2hHMnhsYUJUMkZXb1lydFRZRjRXNjFMWVhiMzFwS3d4cVZmZGVRakI3QVkzZ1A2ZHZWaGswejBFSVNkQklMOUlwMVlZM1RubjEwRVhBSWFvM1hQd2pjQ3hBMzF2dWZEdDJDSkloUnNHZFE",
+      "guidislink": false,
+      "published": "Fri, 11 Oct 2013 07:00:00 GMT",
+      "published_parsed": [
+        2013,
+        10,
+        11,
+        7,
+        0,
+        0,
+        4,
+        284,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgJBVV95cUxNeV9UeWxRWFVYN2pKcFRKazctM2pFS1RTZDNNS3hYbEFsMTAwQmo5WUhMalEzXy1xeU41cGJEODROUG01X2tHUm9MZmltQWtmbzJEWFFfYzhwZmNzQ3k5MjNWV2JlaUhneHZlMjN0SDd6cWp6OVB2TnF1b2QxazZoRDNrdm9SMTZwSEctbTJ4M05zeGZvcnduSENPNjZhMktUdjBvaHZudGtoRzJ4bGFCVDJGV29ZcnRUWUY0VzYxTFlYYjMxcEt3eHFWZmRlUWpCN0FZM2dQNmR2VmhrMHowRUlTZEJJTDlJcDFZWTNUbm4xMEVYQUlhbzNYUHdqY0N4QTMxdnVmRHQyQ0pJaFJzR2RR0gGSAkFVX3lxTE15X1R5bFFYVVg3akpwVEprNy0zakVLVFNkM01LeFhsQWwxMDBCajlZSExqUTNfLXF5TjVwYkQ4NE5QbTVfa0dSb0xmaW1Ba2ZvMkRYUV9jOHBmY3NDeTkyM1ZXYmVpSGd4dmUyM3RIN3pxano5UHZOcXVvZDFrNmhEM2t2b1IxNnBIRy1tMngzTnN4Zm9yd25IQ082NmEyS1R2MG9odm50a2hHMnhsYUJUMkZXb1lydFRZRjRXNjFMWVhiMzFwS3d4cVZmZGVRakI3QVkzZ1A2ZHZWaGswejBFSVNkQklMOUlwMVlZM1RubjEwRVhBSWFvM1hQd2pjQ3hBMzF2dWZEdDJDSkloUnNHZFE?oc=5\" target=\"_blank\">Rita Ora stands out in a red tartan suit at Rimmel's anniversary celebration... days after she borrows the same trousers from Cara Delevingne at Paris Fashion Week</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikgJBVV95cUxNeV9UeWxRWFVYN2pKcFRKazctM2pFS1RTZDNNS3hYbEFsMTAwQmo5WUhMalEzXy1xeU41cGJEODROUG01X2tHUm9MZmltQWtmbzJEWFFfYzhwZmNzQ3k5MjNWV2JlaUhneHZlMjN0SDd6cWp6OVB2TnF1b2QxazZoRDNrdm9SMTZwSEctbTJ4M05zeGZvcnduSENPNjZhMktUdjBvaHZudGtoRzJ4bGFCVDJGV29ZcnRUWUY0VzYxTFlYYjMxcEt3eHFWZmRlUWpCN0FZM2dQNmR2VmhrMHowRUlTZEJJTDlJcDFZWTNUbm4xMEVYQUlhbzNYUHdqY0N4QTMxdnVmRHQyQ0pJaFJzR2RR0gGSAkFVX3lxTE15X1R5bFFYVVg3akpwVEprNy0zakVLVFNkM01LeFhsQWwxMDBCajlZSExqUTNfLXF5TjVwYkQ4NE5QbTVfa0dSb0xmaW1Ba2ZvMkRYUV9jOHBmY3NDeTkyM1ZXYmVpSGd4dmUyM3RIN3pxano5UHZOcXVvZDFrNmhEM2t2b1IxNnBIRy1tMngzTnN4Zm9yd25IQ082NmEyS1R2MG9odm50a2hHMnhsYUJUMkZXb1lydFRZRjRXNjFMWVhiMzFwS3d4cVZmZGVRakI3QVkzZ1A2ZHZWaGswejBFSVNkQklMOUlwMVlZM1RubjEwRVhBSWFvM1hQd2pjQ3hBMzF2dWZEdDJDSkloUnNHZFE?oc=5\" target=\"_blank\">Rita Ora stands out in a red tartan suit at Rimmel's anniversary celebration... days after she borrows the same trousers from Cara Delevingne at Paris Fashion Week</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    }
+  ]
+}

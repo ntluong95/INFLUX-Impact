@@ -1,0 +1,435 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2013-02-14",
+  "window_end": "2013-03-15",
+  "window_days": 30,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2013-02-14+before%3A2013-03-16&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2013-02-14+before:2013-03-16&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T06:51:44Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2013-02-14 before:2013-03-16\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2013-02-14 before:2013-03-16\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2013-02-14+before:2013-03-16&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2013-02-14+before:2013-03-16&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 06:51:45 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      6,
+      51,
+      45,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Screening of the movie \"Jan Saudek: Trapped by His Passions, No Hope for Rescue\" - Ministerstvo zahraničních věcí",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Screening of the movie \"Jan Saudek: Trapped by His Passions, No Hope for Rescue\" - Ministerstvo zahraničních věcí"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUmZ0VDBidEVLUUw2NjFFRWllMWhwS2RIR04zelpIT05VclUzQWZOZ3YzVGVSRTJNVzJTTGI0NGMtbHZ1NE5vSkpvTnc4b3VvTUZVb0FMZlhOTVptdWs3Rjk2Y1NyYjFlcjlJTjhGVXVOeWU3UTRaMVl2YW9NN21DVGhUbHBmVFBBZkI4bDdFeDlmS1Vfdk1BZ0FRU2VXb0ZHc21lNzNlWTRpQXQ3bU56NFRhbjhYTms?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUmZ0VDBidEVLUUw2NjFFRWllMWhwS2RIR04zelpIT05VclUzQWZOZ3YzVGVSRTJNVzJTTGI0NGMtbHZ1NE5vSkpvTnc4b3VvTUZVb0FMZlhOTVptdWs3Rjk2Y1NyYjFlcjlJTjhGVXVOeWU3UTRaMVl2YW9NN21DVGhUbHBmVFBBZkI4bDdFeDlmS1Vfdk1BZ0FRU2VXb0ZHc21lNzNlWTRpQXQ3bU56NFRhbjhYTms?oc=5",
+      "id": "CBMitwFBVV95cUxQUmZ0VDBidEVLUUw2NjFFRWllMWhwS2RIR04zelpIT05VclUzQWZOZ3YzVGVSRTJNVzJTTGI0NGMtbHZ1NE5vSkpvTnc4b3VvTUZVb0FMZlhOTVptdWs3Rjk2Y1NyYjFlcjlJTjhGVXVOeWU3UTRaMVl2YW9NN21DVGhUbHBmVFBBZkI4bDdFeDlmS1Vfdk1BZ0FRU2VXb0ZHc21lNzNlWTRpQXQ3bU56NFRhbjhYTms",
+      "guidislink": false,
+      "published": "Wed, 27 Feb 2013 08:00:00 GMT",
+      "published_parsed": [
+        2013,
+        2,
+        27,
+        8,
+        0,
+        0,
+        2,
+        58,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxQUmZ0VDBidEVLUUw2NjFFRWllMWhwS2RIR04zelpIT05VclUzQWZOZ3YzVGVSRTJNVzJTTGI0NGMtbHZ1NE5vSkpvTnc4b3VvTUZVb0FMZlhOTVptdWs3Rjk2Y1NyYjFlcjlJTjhGVXVOeWU3UTRaMVl2YW9NN21DVGhUbHBmVFBBZkI4bDdFeDlmS1Vfdk1BZ0FRU2VXb0ZHc21lNzNlWTRpQXQ3bU56NFRhbjhYTms?oc=5\" target=\"_blank\">Screening of the movie \"Jan Saudek: Trapped by His Passions, No Hope for Rescue\"</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Ministerstvo zahraničních věcí</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxQUmZ0VDBidEVLUUw2NjFFRWllMWhwS2RIR04zelpIT05VclUzQWZOZ3YzVGVSRTJNVzJTTGI0NGMtbHZ1NE5vSkpvTnc4b3VvTUZVb0FMZlhOTVptdWs3Rjk2Y1NyYjFlcjlJTjhGVXVOeWU3UTRaMVl2YW9NN21DVGhUbHBmVFBBZkI4bDdFeDlmS1Vfdk1BZ0FRU2VXb0ZHc21lNzNlWTRpQXQ3bU56NFRhbjhYTms?oc=5\" target=\"_blank\">Screening of the movie \"Jan Saudek: Trapped by His Passions, No Hope for Rescue\"</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Ministerstvo zahraničních věcí</font>"
+      },
+      "source": {
+        "href": "https://mzv.gov.cz",
+        "title": "Ministerstvo zahraničních věcí"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "How publishers and Waterstone's hatched a cunning plot to lure book buyers from Amazon - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "How publishers and Waterstone's hatched a cunning plot to lure book buyers from Amazon - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPa3RCNFRzU0xfUkZMMkFqOGRCMU5JanhXNTY3bERxUUtEQUMtRVZCWWU3UXNZa3pKN1pVa3htT0FSMUN2M3NRMkRFS1F1bVFhMm1PcWVxbWI3ZGJfUjFWN1d3THBXM3V1VG5tSUVJa0dhU1B2dFZKTlpVbmF6TEhFeFRKdWgzWEYwbURWM1pZVVp5aEZsT1VNdmN6U2lQYXBVOTVIZ09JemppVFJtcW5VYl80eE1IalNvUE01VHVTaEVuRUN5bEZWcNIByAFBVV95cUxPa3RCNFRzU0xfUkZMMkFqOGRCMU5JanhXNTY3bERxUUtEQUMtRVZCWWU3UXNZa3pKN1pVa3htT0FSMUN2M3NRMkRFS1F1bVFhMm1PcWVxbWI3ZGJfUjFWN1d3THBXM3V1VG5tSUVJa0dhU1B2dFZKTlpVbmF6TEhFeFRKdWgzWEYwbURWM1pZVVp5aEZsT1VNdmN6U2lQYXBVOTVIZ09JemppVFJtcW5VYl80eE1IalNvUE01VHVTaEVuRUN5bEZWcA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPa3RCNFRzU0xfUkZMMkFqOGRCMU5JanhXNTY3bERxUUtEQUMtRVZCWWU3UXNZa3pKN1pVa3htT0FSMUN2M3NRMkRFS1F1bVFhMm1PcWVxbWI3ZGJfUjFWN1d3THBXM3V1VG5tSUVJa0dhU1B2dFZKTlpVbmF6TEhFeFRKdWgzWEYwbURWM1pZVVp5aEZsT1VNdmN6U2lQYXBVOTVIZ09JemppVFJtcW5VYl80eE1IalNvUE01VHVTaEVuRUN5bEZWcNIByAFBVV95cUxPa3RCNFRzU0xfUkZMMkFqOGRCMU5JanhXNTY3bERxUUtEQUMtRVZCWWU3UXNZa3pKN1pVa3htT0FSMUN2M3NRMkRFS1F1bVFhMm1PcWVxbWI3ZGJfUjFWN1d3THBXM3V1VG5tSUVJa0dhU1B2dFZKTlpVbmF6TEhFeFRKdWgzWEYwbURWM1pZVVp5aEZsT1VNdmN6U2lQYXBVOTVIZ09JemppVFJtcW5VYl80eE1IalNvUE01VHVTaEVuRUN5bEZWcA?oc=5",
+      "id": "CBMiyAFBVV95cUxPa3RCNFRzU0xfUkZMMkFqOGRCMU5JanhXNTY3bERxUUtEQUMtRVZCWWU3UXNZa3pKN1pVa3htT0FSMUN2M3NRMkRFS1F1bVFhMm1PcWVxbWI3ZGJfUjFWN1d3THBXM3V1VG5tSUVJa0dhU1B2dFZKTlpVbmF6TEhFeFRKdWgzWEYwbURWM1pZVVp5aEZsT1VNdmN6U2lQYXBVOTVIZ09JemppVFJtcW5VYl80eE1IalNvUE01VHVTaEVuRUN5bEZWcNIByAFBVV95cUxPa3RCNFRzU0xfUkZMMkFqOGRCMU5JanhXNTY3bERxUUtEQUMtRVZCWWU3UXNZa3pKN1pVa3htT0FSMUN2M3NRMkRFS1F1bVFhMm1PcWVxbWI3ZGJfUjFWN1d3THBXM3V1VG5tSUVJa0dhU1B2dFZKTlpVbmF6TEhFeFRKdWgzWEYwbURWM1pZVVp5aEZsT1VNdmN6U2lQYXBVOTVIZ09JemppVFJtcW5VYl80eE1IalNvUE01VHVTaEVuRUN5bEZWcA",
+      "guidislink": false,
+      "published": "Tue, 12 Mar 2013 07:00:00 GMT",
+      "published_parsed": [
+        2013,
+        3,
+        12,
+        7,
+        0,
+        0,
+        1,
+        71,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxPa3RCNFRzU0xfUkZMMkFqOGRCMU5JanhXNTY3bERxUUtEQUMtRVZCWWU3UXNZa3pKN1pVa3htT0FSMUN2M3NRMkRFS1F1bVFhMm1PcWVxbWI3ZGJfUjFWN1d3THBXM3V1VG5tSUVJa0dhU1B2dFZKTlpVbmF6TEhFeFRKdWgzWEYwbURWM1pZVVp5aEZsT1VNdmN6U2lQYXBVOTVIZ09JemppVFJtcW5VYl80eE1IalNvUE01VHVTaEVuRUN5bEZWcNIByAFBVV95cUxPa3RCNFRzU0xfUkZMMkFqOGRCMU5JanhXNTY3bERxUUtEQUMtRVZCWWU3UXNZa3pKN1pVa3htT0FSMUN2M3NRMkRFS1F1bVFhMm1PcWVxbWI3ZGJfUjFWN1d3THBXM3V1VG5tSUVJa0dhU1B2dFZKTlpVbmF6TEhFeFRKdWgzWEYwbURWM1pZVVp5aEZsT1VNdmN6U2lQYXBVOTVIZ09JemppVFJtcW5VYl80eE1IalNvUE01VHVTaEVuRUN5bEZWcA?oc=5\" target=\"_blank\">How publishers and Waterstone's hatched a cunning plot to lure book buyers from Amazon</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxPa3RCNFRzU0xfUkZMMkFqOGRCMU5JanhXNTY3bERxUUtEQUMtRVZCWWU3UXNZa3pKN1pVa3htT0FSMUN2M3NRMkRFS1F1bVFhMm1PcWVxbWI3ZGJfUjFWN1d3THBXM3V1VG5tSUVJa0dhU1B2dFZKTlpVbmF6TEhFeFRKdWgzWEYwbURWM1pZVVp5aEZsT1VNdmN6U2lQYXBVOTVIZ09JemppVFJtcW5VYl80eE1IalNvUE01VHVTaEVuRUN5bEZWcNIByAFBVV95cUxPa3RCNFRzU0xfUkZMMkFqOGRCMU5JanhXNTY3bERxUUtEQUMtRVZCWWU3UXNZa3pKN1pVa3htT0FSMUN2M3NRMkRFS1F1bVFhMm1PcWVxbWI3ZGJfUjFWN1d3THBXM3V1VG5tSUVJa0dhU1B2dFZKTlpVbmF6TEhFeFRKdWgzWEYwbURWM1pZVVp5aEZsT1VNdmN6U2lQYXBVOTVIZ09JemppVFJtcW5VYl80eE1IalNvUE01VHVTaEVuRUN5bEZWcA?oc=5\" target=\"_blank\">How publishers and Waterstone's hatched a cunning plot to lure book buyers from Amazon</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "101 best restaurants in America: From a $270 9-course tasting menu to a Shake Shack burger - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "101 best restaurants in America: From a $270 9-course tasting menu to a Shake Shack burger - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWHEwYkxPaTI1U0t5aWNQa01aV3NFUkJyanlFb0tjcHV3THdHalpmX3RrcVJYUXR3cl9lQ3RIeE5TeGN6bjBEZTQweDF4Z1NEMjBJbFJ5THo2d29lVzhTZnBEZnQtMklrVE1UUHlra254SkQzazYtLXQ3Yi1sNHpyUmlTRmZJcS1BdXZvQ2pGdklfM1I5eEVUczFrMzVtZmtfWTZGVEluWmtJUVdmSVJlWlQweVVSODlwdFpVRk5xZGNJaFZuM1NINkRncVNLcERNUVBFLdIB1AFBVV95cUxOWHEwYkxPaTI1U0t5aWNQa01aV3NFUkJyanlFb0tjcHV3THdHalpmX3RrcVJYUXR3cl9lQ3RIeE5TeGN6bjBEZTQweDF4Z1NEMjBJbFJ5THo2d29lVzhTZnBEZnQtMklrVE1UUHlra254SkQzazYtLXQ3Yi1sNHpyUmlTRmZJcS1BdXZvQ2pGdklfM1I5eEVUczFrMzVtZmtfWTZGVEluWmtJUVdmSVJlWlQweVVSODlwdFpVRk5xZGNJaFZuM1NINkRncVNLcERNUVBFLQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWHEwYkxPaTI1U0t5aWNQa01aV3NFUkJyanlFb0tjcHV3THdHalpmX3RrcVJYUXR3cl9lQ3RIeE5TeGN6bjBEZTQweDF4Z1NEMjBJbFJ5THo2d29lVzhTZnBEZnQtMklrVE1UUHlra254SkQzazYtLXQ3Yi1sNHpyUmlTRmZJcS1BdXZvQ2pGdklfM1I5eEVUczFrMzVtZmtfWTZGVEluWmtJUVdmSVJlWlQweVVSODlwdFpVRk5xZGNJaFZuM1NINkRncVNLcERNUVBFLdIB1AFBVV95cUxOWHEwYkxPaTI1U0t5aWNQa01aV3NFUkJyanlFb0tjcHV3THdHalpmX3RrcVJYUXR3cl9lQ3RIeE5TeGN6bjBEZTQweDF4Z1NEMjBJbFJ5THo2d29lVzhTZnBEZnQtMklrVE1UUHlra254SkQzazYtLXQ3Yi1sNHpyUmlTRmZJcS1BdXZvQ2pGdklfM1I5eEVUczFrMzVtZmtfWTZGVEluWmtJUVdmSVJlWlQweVVSODlwdFpVRk5xZGNJaFZuM1NINkRncVNLcERNUVBFLQ?oc=5",
+      "id": "CBMi1AFBVV95cUxOWHEwYkxPaTI1U0t5aWNQa01aV3NFUkJyanlFb0tjcHV3THdHalpmX3RrcVJYUXR3cl9lQ3RIeE5TeGN6bjBEZTQweDF4Z1NEMjBJbFJ5THo2d29lVzhTZnBEZnQtMklrVE1UUHlra254SkQzazYtLXQ3Yi1sNHpyUmlTRmZJcS1BdXZvQ2pGdklfM1I5eEVUczFrMzVtZmtfWTZGVEluWmtJUVdmSVJlWlQweVVSODlwdFpVRk5xZGNJaFZuM1NINkRncVNLcERNUVBFLdIB1AFBVV95cUxOWHEwYkxPaTI1U0t5aWNQa01aV3NFUkJyanlFb0tjcHV3THdHalpmX3RrcVJYUXR3cl9lQ3RIeE5TeGN6bjBEZTQweDF4Z1NEMjBJbFJ5THo2d29lVzhTZnBEZnQtMklrVE1UUHlra254SkQzazYtLXQ3Yi1sNHpyUmlTRmZJcS1BdXZvQ2pGdklfM1I5eEVUczFrMzVtZmtfWTZGVEluWmtJUVdmSVJlWlQweVVSODlwdFpVRk5xZGNJaFZuM1NINkRncVNLcERNUVBFLQ",
+      "guidislink": false,
+      "published": "Fri, 22 Feb 2013 08:00:00 GMT",
+      "published_parsed": [
+        2013,
+        2,
+        22,
+        8,
+        0,
+        0,
+        4,
+        53,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWHEwYkxPaTI1U0t5aWNQa01aV3NFUkJyanlFb0tjcHV3THdHalpmX3RrcVJYUXR3cl9lQ3RIeE5TeGN6bjBEZTQweDF4Z1NEMjBJbFJ5THo2d29lVzhTZnBEZnQtMklrVE1UUHlra254SkQzazYtLXQ3Yi1sNHpyUmlTRmZJcS1BdXZvQ2pGdklfM1I5eEVUczFrMzVtZmtfWTZGVEluWmtJUVdmSVJlWlQweVVSODlwdFpVRk5xZGNJaFZuM1NINkRncVNLcERNUVBFLdIB1AFBVV95cUxOWHEwYkxPaTI1U0t5aWNQa01aV3NFUkJyanlFb0tjcHV3THdHalpmX3RrcVJYUXR3cl9lQ3RIeE5TeGN6bjBEZTQweDF4Z1NEMjBJbFJ5THo2d29lVzhTZnBEZnQtMklrVE1UUHlra254SkQzazYtLXQ3Yi1sNHpyUmlTRmZJcS1BdXZvQ2pGdklfM1I5eEVUczFrMzVtZmtfWTZGVEluWmtJUVdmSVJlWlQweVVSODlwdFpVRk5xZGNJaFZuM1NINkRncVNLcERNUVBFLQ?oc=5\" target=\"_blank\">101 best restaurants in America: From a $270 9-course tasting menu to a Shake Shack burger</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWHEwYkxPaTI1U0t5aWNQa01aV3NFUkJyanlFb0tjcHV3THdHalpmX3RrcVJYUXR3cl9lQ3RIeE5TeGN6bjBEZTQweDF4Z1NEMjBJbFJ5THo2d29lVzhTZnBEZnQtMklrVE1UUHlra254SkQzazYtLXQ3Yi1sNHpyUmlTRmZJcS1BdXZvQ2pGdklfM1I5eEVUczFrMzVtZmtfWTZGVEluWmtJUVdmSVJlWlQweVVSODlwdFpVRk5xZGNJaFZuM1NINkRncVNLcERNUVBFLdIB1AFBVV95cUxOWHEwYkxPaTI1U0t5aWNQa01aV3NFUkJyanlFb0tjcHV3THdHalpmX3RrcVJYUXR3cl9lQ3RIeE5TeGN6bjBEZTQweDF4Z1NEMjBJbFJ5THo2d29lVzhTZnBEZnQtMklrVE1UUHlra254SkQzazYtLXQ3Yi1sNHpyUmlTRmZJcS1BdXZvQ2pGdklfM1I5eEVUczFrMzVtZmtfWTZGVEluWmtJUVdmSVJlWlQweVVSODlwdFpVRk5xZGNJaFZuM1NINkRncVNLcERNUVBFLQ?oc=5\" target=\"_blank\">101 best restaurants in America: From a $270 9-course tasting menu to a Shake Shack burger</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Rachel Zoe 'furious' that her 'backstabbing' former assistant's reality show will be aired directly after her own - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Rachel Zoe 'furious' that her 'backstabbing' former assistant's reality show will be aired directly after her own - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZHF5Tnk4UUwzRWc3Ull2ZzVFTHNBUk41ZW5rczNUc1JrVWtKeWliNDRNQU1OY1hNa0ZzNEpCRUdSdEQ1Y1VEREJtNHlfczRobnZzeno5bmM4YmlFcHAycVBUX2U3dy03NUpTZDFudG9iM1RBZHliQ0VXZkY3RzV1X3gta3V4bEJYc1huYmhmMjVTbzhleHN5SWk3ZWtYdHFEdlM5d0J4ZThIZGxKdnRDbVNMMUpiR0pfU2hfci1tVmIxVVI1RGZ0d9IByAFBVV95cUxPZHF5Tnk4UUwzRWc3Ull2ZzVFTHNBUk41ZW5rczNUc1JrVWtKeWliNDRNQU1OY1hNa0ZzNEpCRUdSdEQ1Y1VEREJtNHlfczRobnZzeno5bmM4YmlFcHAycVBUX2U3dy03NUpTZDFudG9iM1RBZHliQ0VXZkY3RzV1X3gta3V4bEJYc1huYmhmMjVTbzhleHN5SWk3ZWtYdHFEdlM5d0J4ZThIZGxKdnRDbVNMMUpiR0pfU2hfci1tVmIxVVI1RGZ0dw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZHF5Tnk4UUwzRWc3Ull2ZzVFTHNBUk41ZW5rczNUc1JrVWtKeWliNDRNQU1OY1hNa0ZzNEpCRUdSdEQ1Y1VEREJtNHlfczRobnZzeno5bmM4YmlFcHAycVBUX2U3dy03NUpTZDFudG9iM1RBZHliQ0VXZkY3RzV1X3gta3V4bEJYc1huYmhmMjVTbzhleHN5SWk3ZWtYdHFEdlM5d0J4ZThIZGxKdnRDbVNMMUpiR0pfU2hfci1tVmIxVVI1RGZ0d9IByAFBVV95cUxPZHF5Tnk4UUwzRWc3Ull2ZzVFTHNBUk41ZW5rczNUc1JrVWtKeWliNDRNQU1OY1hNa0ZzNEpCRUdSdEQ1Y1VEREJtNHlfczRobnZzeno5bmM4YmlFcHAycVBUX2U3dy03NUpTZDFudG9iM1RBZHliQ0VXZkY3RzV1X3gta3V4bEJYc1huYmhmMjVTbzhleHN5SWk3ZWtYdHFEdlM5d0J4ZThIZGxKdnRDbVNMMUpiR0pfU2hfci1tVmIxVVI1RGZ0dw?oc=5",
+      "id": "CBMiyAFBVV95cUxPZHF5Tnk4UUwzRWc3Ull2ZzVFTHNBUk41ZW5rczNUc1JrVWtKeWliNDRNQU1OY1hNa0ZzNEpCRUdSdEQ1Y1VEREJtNHlfczRobnZzeno5bmM4YmlFcHAycVBUX2U3dy03NUpTZDFudG9iM1RBZHliQ0VXZkY3RzV1X3gta3V4bEJYc1huYmhmMjVTbzhleHN5SWk3ZWtYdHFEdlM5d0J4ZThIZGxKdnRDbVNMMUpiR0pfU2hfci1tVmIxVVI1RGZ0d9IByAFBVV95cUxPZHF5Tnk4UUwzRWc3Ull2ZzVFTHNBUk41ZW5rczNUc1JrVWtKeWliNDRNQU1OY1hNa0ZzNEpCRUdSdEQ1Y1VEREJtNHlfczRobnZzeno5bmM4YmlFcHAycVBUX2U3dy03NUpTZDFudG9iM1RBZHliQ0VXZkY3RzV1X3gta3V4bEJYc1huYmhmMjVTbzhleHN5SWk3ZWtYdHFEdlM5d0J4ZThIZGxKdnRDbVNMMUpiR0pfU2hfci1tVmIxVVI1RGZ0dw",
+      "guidislink": false,
+      "published": "Fri, 01 Mar 2013 08:00:00 GMT",
+      "published_parsed": [
+        2013,
+        3,
+        1,
+        8,
+        0,
+        0,
+        4,
+        60,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZHF5Tnk4UUwzRWc3Ull2ZzVFTHNBUk41ZW5rczNUc1JrVWtKeWliNDRNQU1OY1hNa0ZzNEpCRUdSdEQ1Y1VEREJtNHlfczRobnZzeno5bmM4YmlFcHAycVBUX2U3dy03NUpTZDFudG9iM1RBZHliQ0VXZkY3RzV1X3gta3V4bEJYc1huYmhmMjVTbzhleHN5SWk3ZWtYdHFEdlM5d0J4ZThIZGxKdnRDbVNMMUpiR0pfU2hfci1tVmIxVVI1RGZ0d9IByAFBVV95cUxPZHF5Tnk4UUwzRWc3Ull2ZzVFTHNBUk41ZW5rczNUc1JrVWtKeWliNDRNQU1OY1hNa0ZzNEpCRUdSdEQ1Y1VEREJtNHlfczRobnZzeno5bmM4YmlFcHAycVBUX2U3dy03NUpTZDFudG9iM1RBZHliQ0VXZkY3RzV1X3gta3V4bEJYc1huYmhmMjVTbzhleHN5SWk3ZWtYdHFEdlM5d0J4ZThIZGxKdnRDbVNMMUpiR0pfU2hfci1tVmIxVVI1RGZ0dw?oc=5\" target=\"_blank\">Rachel Zoe 'furious' that her 'backstabbing' former assistant's reality show will be aired directly after her own</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZHF5Tnk4UUwzRWc3Ull2ZzVFTHNBUk41ZW5rczNUc1JrVWtKeWliNDRNQU1OY1hNa0ZzNEpCRUdSdEQ1Y1VEREJtNHlfczRobnZzeno5bmM4YmlFcHAycVBUX2U3dy03NUpTZDFudG9iM1RBZHliQ0VXZkY3RzV1X3gta3V4bEJYc1huYmhmMjVTbzhleHN5SWk3ZWtYdHFEdlM5d0J4ZThIZGxKdnRDbVNMMUpiR0pfU2hfci1tVmIxVVI1RGZ0d9IByAFBVV95cUxPZHF5Tnk4UUwzRWc3Ull2ZzVFTHNBUk41ZW5rczNUc1JrVWtKeWliNDRNQU1OY1hNa0ZzNEpCRUdSdEQ1Y1VEREJtNHlfczRobnZzeno5bmM4YmlFcHAycVBUX2U3dy03NUpTZDFudG9iM1RBZHliQ0VXZkY3RzV1X3gta3V4bEJYc1huYmhmMjVTbzhleHN5SWk3ZWtYdHFEdlM5d0J4ZThIZGxKdnRDbVNMMUpiR0pfU2hfci1tVmIxVVI1RGZ0dw?oc=5\" target=\"_blank\">Rachel Zoe 'furious' that her 'backstabbing' former assistant's reality show will be aired directly after her own</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Is Tory Burch single again? Fashion designer and music mogul Lyor Cohen 'are taking a break from their relationship' - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Is Tory Burch single again? Fashion designer and music mogul Lyor Cohen 'are taking a break from their relationship' - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPNEwyaDh6SlprVl9EUHgtX0U2VWRReERmT1pZM2FUbUZWWXJXdE1pWktKQ1d1X0dJRTI4MThFM0wxRTJkOEl6dXVGWmltejJFNW9PRng1eUJZMHhmVWQwMjFoRE5OT0J0Q2xqcEJSNjdKMkwteEkxbTBnR291NmJaYnJWdDFEdjBzUXJ4NVN3Q2pqaklncDE3X2JydzhyeDRjQUNNWG9UeWxwalRaN3dqbzVZQzFFWXZJT3hndEFyZFh2ajJMWjZqYzdpZGQyNGhaYU9xNjZ2VlctSk5jbE4w0gHfAUFVX3lxTE80TDJoOHpKWmtWX0RQeC1fRTZVZFF4RGZPWlkzYVRtRlZZcld0TWlaS0pDV3VfR0lFMjgxOEUzTDFFMmQ4SXp1dUZaaW16MkU1b09GeDV5QlkweGZVZDAyMWhETk5PQnRDbGpwQlI2N0oyTC14STFtMGdHb3U2YlpiclZ0MUR2MHNRcng1U3dDampqSWdwMTdfYnJ3OHJ4NGNBQ01Yb1R5bHBqVFo3d2pvNVlDMUVZdklPeGd0QXJkWHZqMkxaNmpjN2lkZDI0aFphT3E2NnZWVy1KTmNsTjA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPNEwyaDh6SlprVl9EUHgtX0U2VWRReERmT1pZM2FUbUZWWXJXdE1pWktKQ1d1X0dJRTI4MThFM0wxRTJkOEl6dXVGWmltejJFNW9PRng1eUJZMHhmVWQwMjFoRE5OT0J0Q2xqcEJSNjdKMkwteEkxbTBnR291NmJaYnJWdDFEdjBzUXJ4NVN3Q2pqaklncDE3X2JydzhyeDRjQUNNWG9UeWxwalRaN3dqbzVZQzFFWXZJT3hndEFyZFh2ajJMWjZqYzdpZGQyNGhaYU9xNjZ2VlctSk5jbE4w0gHfAUFVX3lxTE80TDJoOHpKWmtWX0RQeC1fRTZVZFF4RGZPWlkzYVRtRlZZcld0TWlaS0pDV3VfR0lFMjgxOEUzTDFFMmQ4SXp1dUZaaW16MkU1b09GeDV5QlkweGZVZDAyMWhETk5PQnRDbGpwQlI2N0oyTC14STFtMGdHb3U2YlpiclZ0MUR2MHNRcng1U3dDampqSWdwMTdfYnJ3OHJ4NGNBQ01Yb1R5bHBqVFo3d2pvNVlDMUVZdklPeGd0QXJkWHZqMkxaNmpjN2lkZDI0aFphT3E2NnZWVy1KTmNsTjA?oc=5",
+      "id": "CBMi3wFBVV95cUxPNEwyaDh6SlprVl9EUHgtX0U2VWRReERmT1pZM2FUbUZWWXJXdE1pWktKQ1d1X0dJRTI4MThFM0wxRTJkOEl6dXVGWmltejJFNW9PRng1eUJZMHhmVWQwMjFoRE5OT0J0Q2xqcEJSNjdKMkwteEkxbTBnR291NmJaYnJWdDFEdjBzUXJ4NVN3Q2pqaklncDE3X2JydzhyeDRjQUNNWG9UeWxwalRaN3dqbzVZQzFFWXZJT3hndEFyZFh2ajJMWjZqYzdpZGQyNGhaYU9xNjZ2VlctSk5jbE4w0gHfAUFVX3lxTE80TDJoOHpKWmtWX0RQeC1fRTZVZFF4RGZPWlkzYVRtRlZZcld0TWlaS0pDV3VfR0lFMjgxOEUzTDFFMmQ4SXp1dUZaaW16MkU1b09GeDV5QlkweGZVZDAyMWhETk5PQnRDbGpwQlI2N0oyTC14STFtMGdHb3U2YlpiclZ0MUR2MHNRcng1U3dDampqSWdwMTdfYnJ3OHJ4NGNBQ01Yb1R5bHBqVFo3d2pvNVlDMUVZdklPeGd0QXJkWHZqMkxaNmpjN2lkZDI0aFphT3E2NnZWVy1KTmNsTjA",
+      "guidislink": false,
+      "published": "Fri, 15 Feb 2013 08:00:00 GMT",
+      "published_parsed": [
+        2013,
+        2,
+        15,
+        8,
+        0,
+        0,
+        4,
+        46,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi3wFBVV95cUxPNEwyaDh6SlprVl9EUHgtX0U2VWRReERmT1pZM2FUbUZWWXJXdE1pWktKQ1d1X0dJRTI4MThFM0wxRTJkOEl6dXVGWmltejJFNW9PRng1eUJZMHhmVWQwMjFoRE5OT0J0Q2xqcEJSNjdKMkwteEkxbTBnR291NmJaYnJWdDFEdjBzUXJ4NVN3Q2pqaklncDE3X2JydzhyeDRjQUNNWG9UeWxwalRaN3dqbzVZQzFFWXZJT3hndEFyZFh2ajJMWjZqYzdpZGQyNGhaYU9xNjZ2VlctSk5jbE4w0gHfAUFVX3lxTE80TDJoOHpKWmtWX0RQeC1fRTZVZFF4RGZPWlkzYVRtRlZZcld0TWlaS0pDV3VfR0lFMjgxOEUzTDFFMmQ4SXp1dUZaaW16MkU1b09GeDV5QlkweGZVZDAyMWhETk5PQnRDbGpwQlI2N0oyTC14STFtMGdHb3U2YlpiclZ0MUR2MHNRcng1U3dDampqSWdwMTdfYnJ3OHJ4NGNBQ01Yb1R5bHBqVFo3d2pvNVlDMUVZdklPeGd0QXJkWHZqMkxaNmpjN2lkZDI0aFphT3E2NnZWVy1KTmNsTjA?oc=5\" target=\"_blank\">Is Tory Burch single again? Fashion designer and music mogul Lyor Cohen 'are taking a break from their relationship'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi3wFBVV95cUxPNEwyaDh6SlprVl9EUHgtX0U2VWRReERmT1pZM2FUbUZWWXJXdE1pWktKQ1d1X0dJRTI4MThFM0wxRTJkOEl6dXVGWmltejJFNW9PRng1eUJZMHhmVWQwMjFoRE5OT0J0Q2xqcEJSNjdKMkwteEkxbTBnR291NmJaYnJWdDFEdjBzUXJ4NVN3Q2pqaklncDE3X2JydzhyeDRjQUNNWG9UeWxwalRaN3dqbzVZQzFFWXZJT3hndEFyZFh2ajJMWjZqYzdpZGQyNGhaYU9xNjZ2VlctSk5jbE4w0gHfAUFVX3lxTE80TDJoOHpKWmtWX0RQeC1fRTZVZFF4RGZPWlkzYVRtRlZZcld0TWlaS0pDV3VfR0lFMjgxOEUzTDFFMmQ4SXp1dUZaaW16MkU1b09GeDV5QlkweGZVZDAyMWhETk5PQnRDbGpwQlI2N0oyTC14STFtMGdHb3U2YlpiclZ0MUR2MHNRcng1U3dDampqSWdwMTdfYnJ3OHJ4NGNBQ01Yb1R5bHBqVFo3d2pvNVlDMUVZdklPeGd0QXJkWHZqMkxaNmpjN2lkZDI0aFphT3E2NnZWVy1KTmNsTjA?oc=5\" target=\"_blank\">Is Tory Burch single again? Fashion designer and music mogul Lyor Cohen 'are taking a break from their relationship'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "The only fashion show with hopscotch on the catwalk (but who's cuter, the kids or Bullseye the Target dog?) - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "The only fashion show with hopscotch on the catwalk (but who's cuter, the kids or Bullseye the Target dog?) - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZzVvcHlTQ1kyS2EyM3VKaE9vWnNKUkV1MUs3RmozcnZ2T1F6Y3Z5Z1FSUGZwLVV4VFA4STZubTZVQWhIZlloZlZfTHg1V0ZLN3dPX1hUcVVZZF9kV3FJMUl6ZW56bGtRT0JmSUdPbVNrTW4ydVRsdkR2MkstMW41Tm1WM1VsU2VERFFUV0N2TnVzemhtbXRuSm9LV1AzLUM5YjcxY2gzVHVaUTY4SHp1a21UZEFxWnE3a0VXN2phX2REY2fSAcMBQVVfeXFMTmc1b3B5U0NZMkthMjN1SmhPb1pzSlJFdTFLN0ZqM3J2dk9RemN2eWdRUlBmcC1VeFRQOEk2bm02VUFoSGZZaGZWX0x4NVdGSzd3T19YVHFVWWRfZFdxSTFJemVuemxrUU9CZklHT21Ta01uMnVUbHZEdjJLLTFuNU5tVjNVbFNlRERRVFdDdk51c3pobW10bkpvS1dQMy1DOWI3MWNoM1R1WlE2OEh6dWttVGRBcVpxN2tFVzdqYV9kRGNn?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZzVvcHlTQ1kyS2EyM3VKaE9vWnNKUkV1MUs3RmozcnZ2T1F6Y3Z5Z1FSUGZwLVV4VFA4STZubTZVQWhIZlloZlZfTHg1V0ZLN3dPX1hUcVVZZF9kV3FJMUl6ZW56bGtRT0JmSUdPbVNrTW4ydVRsdkR2MkstMW41Tm1WM1VsU2VERFFUV0N2TnVzemhtbXRuSm9LV1AzLUM5YjcxY2gzVHVaUTY4SHp1a21UZEFxWnE3a0VXN2phX2REY2fSAcMBQVVfeXFMTmc1b3B5U0NZMkthMjN1SmhPb1pzSlJFdTFLN0ZqM3J2dk9RemN2eWdRUlBmcC1VeFRQOEk2bm02VUFoSGZZaGZWX0x4NVdGSzd3T19YVHFVWWRfZFdxSTFJemVuemxrUU9CZklHT21Ta01uMnVUbHZEdjJLLTFuNU5tVjNVbFNlRERRVFdDdk51c3pobW10bkpvS1dQMy1DOWI3MWNoM1R1WlE2OEh6dWttVGRBcVpxN2tFVzdqYV9kRGNn?oc=5",
+      "id": "CBMiwwFBVV95cUxOZzVvcHlTQ1kyS2EyM3VKaE9vWnNKUkV1MUs3RmozcnZ2T1F6Y3Z5Z1FSUGZwLVV4VFA4STZubTZVQWhIZlloZlZfTHg1V0ZLN3dPX1hUcVVZZF9kV3FJMUl6ZW56bGtRT0JmSUdPbVNrTW4ydVRsdkR2MkstMW41Tm1WM1VsU2VERFFUV0N2TnVzemhtbXRuSm9LV1AzLUM5YjcxY2gzVHVaUTY4SHp1a21UZEFxWnE3a0VXN2phX2REY2fSAcMBQVVfeXFMTmc1b3B5U0NZMkthMjN1SmhPb1pzSlJFdTFLN0ZqM3J2dk9RemN2eWdRUlBmcC1VeFRQOEk2bm02VUFoSGZZaGZWX0x4NVdGSzd3T19YVHFVWWRfZFdxSTFJemVuemxrUU9CZklHT21Ta01uMnVUbHZEdjJLLTFuNU5tVjNVbFNlRERRVFdDdk51c3pobW10bkpvS1dQMy1DOWI3MWNoM1R1WlE2OEh6dWttVGRBcVpxN2tFVzdqYV9kRGNn",
+      "guidislink": false,
+      "published": "Fri, 15 Mar 2013 07:00:00 GMT",
+      "published_parsed": [
+        2013,
+        3,
+        15,
+        7,
+        0,
+        0,
+        4,
+        74,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZzVvcHlTQ1kyS2EyM3VKaE9vWnNKUkV1MUs3RmozcnZ2T1F6Y3Z5Z1FSUGZwLVV4VFA4STZubTZVQWhIZlloZlZfTHg1V0ZLN3dPX1hUcVVZZF9kV3FJMUl6ZW56bGtRT0JmSUdPbVNrTW4ydVRsdkR2MkstMW41Tm1WM1VsU2VERFFUV0N2TnVzemhtbXRuSm9LV1AzLUM5YjcxY2gzVHVaUTY4SHp1a21UZEFxWnE3a0VXN2phX2REY2fSAcMBQVVfeXFMTmc1b3B5U0NZMkthMjN1SmhPb1pzSlJFdTFLN0ZqM3J2dk9RemN2eWdRUlBmcC1VeFRQOEk2bm02VUFoSGZZaGZWX0x4NVdGSzd3T19YVHFVWWRfZFdxSTFJemVuemxrUU9CZklHT21Ta01uMnVUbHZEdjJLLTFuNU5tVjNVbFNlRERRVFdDdk51c3pobW10bkpvS1dQMy1DOWI3MWNoM1R1WlE2OEh6dWttVGRBcVpxN2tFVzdqYV9kRGNn?oc=5\" target=\"_blank\">The only fashion show with hopscotch on the catwalk (but who's cuter, the kids or Bullseye the Target dog?)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZzVvcHlTQ1kyS2EyM3VKaE9vWnNKUkV1MUs3RmozcnZ2T1F6Y3Z5Z1FSUGZwLVV4VFA4STZubTZVQWhIZlloZlZfTHg1V0ZLN3dPX1hUcVVZZF9kV3FJMUl6ZW56bGtRT0JmSUdPbVNrTW4ydVRsdkR2MkstMW41Tm1WM1VsU2VERFFUV0N2TnVzemhtbXRuSm9LV1AzLUM5YjcxY2gzVHVaUTY4SHp1a21UZEFxWnE3a0VXN2phX2REY2fSAcMBQVVfeXFMTmc1b3B5U0NZMkthMjN1SmhPb1pzSlJFdTFLN0ZqM3J2dk9RemN2eWdRUlBmcC1VeFRQOEk2bm02VUFoSGZZaGZWX0x4NVdGSzd3T19YVHFVWWRfZFdxSTFJemVuemxrUU9CZklHT21Ta01uMnVUbHZEdjJLLTFuNU5tVjNVbFNlRERRVFdDdk51c3pobW10bkpvS1dQMy1DOWI3MWNoM1R1WlE2OEh6dWttVGRBcVpxN2tFVzdqYV9kRGNn?oc=5\" target=\"_blank\">The only fashion show with hopscotch on the catwalk (but who's cuter, the kids or Bullseye the Target dog?)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Roadkill couture: Designer creates grisly bridal wear using seagull wings, cat fur and even HUMAN BONES - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Roadkill couture: Designer creates grisly bridal wear using seagull wings, cat fur and even HUMAN BONES - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNTmNPeTBGVXY2U2dDOWlQcTBNaHUyMlpBNlA2UElnaE5vWTNzYUhNMndHTnF1OHVSTjJOOFBNUjR5bjlyQnQ0Z2wxS21BUWd3RndsSUg4VkxvdjBieE9OTkVGQmZyb0lMUUhnaF9Td0hBUDBGU1BIVjdvWjFEeG5hMFpqQzFzak9SSVF5SW5fa0dzNHdYbkxMVnVTeE1Uekw4OE5GcGZwak1WekFKdmhmcVRWOF9hbGRuX2NxOGlqVXN1NVlSS2tFYXd0RkFWOU9uNldIZExHcUl4UzA4cGlnaUo5RzE2NWvSAecBQVVfeXFMTU5jT3kwRlV2NlNnQzlpUHEwTWh1MjJaQTZQNlBJZ2hOb1kzc2FITTJ3R05xdTh1Uk4yTjhQTVI0eW45ckJ0NGdsMUttQVFnd0Z3bElIOFZMb3YwYnhPTk5FRkJmcm9JTFFIZ2hfU3dIQVAwRlNQSFY3b1oxRHhuYTBaakMxc2pPUklReUluX2tHczR3WG5MTFZ1U3hNVHpMODhORnBmcGpNVnpBSnZoZnFUVjhfYWxkbl9jcThpalVzdTVZUktrRWF3dEZBVjlPbjZXSGRMR3FJeFMwOHBpZ2lKOUcxNjVr?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNTmNPeTBGVXY2U2dDOWlQcTBNaHUyMlpBNlA2UElnaE5vWTNzYUhNMndHTnF1OHVSTjJOOFBNUjR5bjlyQnQ0Z2wxS21BUWd3RndsSUg4VkxvdjBieE9OTkVGQmZyb0lMUUhnaF9Td0hBUDBGU1BIVjdvWjFEeG5hMFpqQzFzak9SSVF5SW5fa0dzNHdYbkxMVnVTeE1Uekw4OE5GcGZwak1WekFKdmhmcVRWOF9hbGRuX2NxOGlqVXN1NVlSS2tFYXd0RkFWOU9uNldIZExHcUl4UzA4cGlnaUo5RzE2NWvSAecBQVVfeXFMTU5jT3kwRlV2NlNnQzlpUHEwTWh1MjJaQTZQNlBJZ2hOb1kzc2FITTJ3R05xdTh1Uk4yTjhQTVI0eW45ckJ0NGdsMUttQVFnd0Z3bElIOFZMb3YwYnhPTk5FRkJmcm9JTFFIZ2hfU3dIQVAwRlNQSFY3b1oxRHhuYTBaakMxc2pPUklReUluX2tHczR3WG5MTFZ1U3hNVHpMODhORnBmcGpNVnpBSnZoZnFUVjhfYWxkbl9jcThpalVzdTVZUktrRWF3dEZBVjlPbjZXSGRMR3FJeFMwOHBpZ2lKOUcxNjVr?oc=5",
+      "id": "CBMi5wFBVV95cUxNTmNPeTBGVXY2U2dDOWlQcTBNaHUyMlpBNlA2UElnaE5vWTNzYUhNMndHTnF1OHVSTjJOOFBNUjR5bjlyQnQ0Z2wxS21BUWd3RndsSUg4VkxvdjBieE9OTkVGQmZyb0lMUUhnaF9Td0hBUDBGU1BIVjdvWjFEeG5hMFpqQzFzak9SSVF5SW5fa0dzNHdYbkxMVnVTeE1Uekw4OE5GcGZwak1WekFKdmhmcVRWOF9hbGRuX2NxOGlqVXN1NVlSS2tFYXd0RkFWOU9uNldIZExHcUl4UzA4cGlnaUo5RzE2NWvSAecBQVVfeXFMTU5jT3kwRlV2NlNnQzlpUHEwTWh1MjJaQTZQNlBJZ2hOb1kzc2FITTJ3R05xdTh1Uk4yTjhQTVI0eW45ckJ0NGdsMUttQVFnd0Z3bElIOFZMb3YwYnhPTk5FRkJmcm9JTFFIZ2hfU3dIQVAwRlNQSFY3b1oxRHhuYTBaakMxc2pPUklReUluX2tHczR3WG5MTFZ1U3hNVHpMODhORnBmcGpNVnpBSnZoZnFUVjhfYWxkbl9jcThpalVzdTVZUktrRWF3dEZBVjlPbjZXSGRMR3FJeFMwOHBpZ2lKOUcxNjVr",
+      "guidislink": false,
+      "published": "Fri, 08 Mar 2013 08:00:00 GMT",
+      "published_parsed": [
+        2013,
+        3,
+        8,
+        8,
+        0,
+        0,
+        4,
+        67,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi5wFBVV95cUxNTmNPeTBGVXY2U2dDOWlQcTBNaHUyMlpBNlA2UElnaE5vWTNzYUhNMndHTnF1OHVSTjJOOFBNUjR5bjlyQnQ0Z2wxS21BUWd3RndsSUg4VkxvdjBieE9OTkVGQmZyb0lMUUhnaF9Td0hBUDBGU1BIVjdvWjFEeG5hMFpqQzFzak9SSVF5SW5fa0dzNHdYbkxMVnVTeE1Uekw4OE5GcGZwak1WekFKdmhmcVRWOF9hbGRuX2NxOGlqVXN1NVlSS2tFYXd0RkFWOU9uNldIZExHcUl4UzA4cGlnaUo5RzE2NWvSAecBQVVfeXFMTU5jT3kwRlV2NlNnQzlpUHEwTWh1MjJaQTZQNlBJZ2hOb1kzc2FITTJ3R05xdTh1Uk4yTjhQTVI0eW45ckJ0NGdsMUttQVFnd0Z3bElIOFZMb3YwYnhPTk5FRkJmcm9JTFFIZ2hfU3dIQVAwRlNQSFY3b1oxRHhuYTBaakMxc2pPUklReUluX2tHczR3WG5MTFZ1U3hNVHpMODhORnBmcGpNVnpBSnZoZnFUVjhfYWxkbl9jcThpalVzdTVZUktrRWF3dEZBVjlPbjZXSGRMR3FJeFMwOHBpZ2lKOUcxNjVr?oc=5\" target=\"_blank\">Roadkill couture: Designer creates grisly bridal wear using seagull wings, cat fur and even HUMAN BONES</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi5wFBVV95cUxNTmNPeTBGVXY2U2dDOWlQcTBNaHUyMlpBNlA2UElnaE5vWTNzYUhNMndHTnF1OHVSTjJOOFBNUjR5bjlyQnQ0Z2wxS21BUWd3RndsSUg4VkxvdjBieE9OTkVGQmZyb0lMUUhnaF9Td0hBUDBGU1BIVjdvWjFEeG5hMFpqQzFzak9SSVF5SW5fa0dzNHdYbkxMVnVTeE1Uekw4OE5GcGZwak1WekFKdmhmcVRWOF9hbGRuX2NxOGlqVXN1NVlSS2tFYXd0RkFWOU9uNldIZExHcUl4UzA4cGlnaUo5RzE2NWvSAecBQVVfeXFMTU5jT3kwRlV2NlNnQzlpUHEwTWh1MjJaQTZQNlBJZ2hOb1kzc2FITTJ3R05xdTh1Uk4yTjhQTVI0eW45ckJ0NGdsMUttQVFnd0Z3bElIOFZMb3YwYnhPTk5FRkJmcm9JTFFIZ2hfU3dIQVAwRlNQSFY3b1oxRHhuYTBaakMxc2pPUklReUluX2tHczR3WG5MTFZ1U3hNVHpMODhORnBmcGpNVnpBSnZoZnFUVjhfYWxkbl9jcThpalVzdTVZUktrRWF3dEZBVjlPbjZXSGRMR3FJeFMwOHBpZ2lKOUcxNjVr?oc=5\" target=\"_blank\">Roadkill couture: Designer creates grisly bridal wear using seagull wings, cat fur and even HUMAN BONES</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Mitt Romney will give his first political since his failed campaign... at the same conference where the delegates pushed him to run for President last year - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Mitt Romney will give his first political since his failed campaign... at the same conference where the delegates pushed him to run for President last year - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNbzZWOTNZeVI3cTc5YVVrU1ZXTUZQeHo0dXRSWU5idnVrYjFHYjBhclhJcTcwcVMwT3QwUjYtZUVFM0puTGtVU1M0dVExZXpJcEtrZ2VRUk1FNVVaY3hDMVlzd2dnOXpHaFV2aE84bExndlhoQktBRWdUa25DQS0tMi1XVkxvUUVkcHdBUkl2dk9PZDhwc2tScUJ1alpvc0dQckJEeFJvQldST1B2WjZpQjY1QWRKd1oyLXJlVm5walhlek10bkRvczlJYzBlZmZTbDJOSjh4dFRCNC1ER3Yxd1RuVDlOQTJZRGZ4bjN5dk9GY0hPVnRaUlR6VFhmY2VUUE9ic3VEbkRDd9IBigJBVV95cUxNbzZWOTNZeVI3cTc5YVVrU1ZXTUZQeHo0dXRSWU5idnVrYjFHYjBhclhJcTcwcVMwT3QwUjYtZUVFM0puTGtVU1M0dVExZXpJcEtrZ2VRUk1FNVVaY3hDMVlzd2dnOXpHaFV2aE84bExndlhoQktBRWdUa25DQS0tMi1XVkxvUUVkcHdBUkl2dk9PZDhwc2tScUJ1alpvc0dQckJEeFJvQldST1B2WjZpQjY1QWRKd1oyLXJlVm5walhlek10bkRvczlJYzBlZmZTbDJOSjh4dFRCNC1ER3Yxd1RuVDlOQTJZRGZ4bjN5dk9GY0hPVnRaUlR6VFhmY2VUUE9ic3VEbkRDdw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNbzZWOTNZeVI3cTc5YVVrU1ZXTUZQeHo0dXRSWU5idnVrYjFHYjBhclhJcTcwcVMwT3QwUjYtZUVFM0puTGtVU1M0dVExZXpJcEtrZ2VRUk1FNVVaY3hDMVlzd2dnOXpHaFV2aE84bExndlhoQktBRWdUa25DQS0tMi1XVkxvUUVkcHdBUkl2dk9PZDhwc2tScUJ1alpvc0dQckJEeFJvQldST1B2WjZpQjY1QWRKd1oyLXJlVm5walhlek10bkRvczlJYzBlZmZTbDJOSjh4dFRCNC1ER3Yxd1RuVDlOQTJZRGZ4bjN5dk9GY0hPVnRaUlR6VFhmY2VUUE9ic3VEbkRDd9IBigJBVV95cUxNbzZWOTNZeVI3cTc5YVVrU1ZXTUZQeHo0dXRSWU5idnVrYjFHYjBhclhJcTcwcVMwT3QwUjYtZUVFM0puTGtVU1M0dVExZXpJcEtrZ2VRUk1FNVVaY3hDMVlzd2dnOXpHaFV2aE84bExndlhoQktBRWdUa25DQS0tMi1XVkxvUUVkcHdBUkl2dk9PZDhwc2tScUJ1alpvc0dQckJEeFJvQldST1B2WjZpQjY1QWRKd1oyLXJlVm5walhlek10bkRvczlJYzBlZmZTbDJOSjh4dFRCNC1ER3Yxd1RuVDlOQTJZRGZ4bjN5dk9GY0hPVnRaUlR6VFhmY2VUUE9ic3VEbkRDdw?oc=5",
+      "id": "CBMiigJBVV95cUxNbzZWOTNZeVI3cTc5YVVrU1ZXTUZQeHo0dXRSWU5idnVrYjFHYjBhclhJcTcwcVMwT3QwUjYtZUVFM0puTGtVU1M0dVExZXpJcEtrZ2VRUk1FNVVaY3hDMVlzd2dnOXpHaFV2aE84bExndlhoQktBRWdUa25DQS0tMi1XVkxvUUVkcHdBUkl2dk9PZDhwc2tScUJ1alpvc0dQckJEeFJvQldST1B2WjZpQjY1QWRKd1oyLXJlVm5walhlek10bkRvczlJYzBlZmZTbDJOSjh4dFRCNC1ER3Yxd1RuVDlOQTJZRGZ4bjN5dk9GY0hPVnRaUlR6VFhmY2VUUE9ic3VEbkRDd9IBigJBVV95cUxNbzZWOTNZeVI3cTc5YVVrU1ZXTUZQeHo0dXRSWU5idnVrYjFHYjBhclhJcTcwcVMwT3QwUjYtZUVFM0puTGtVU1M0dVExZXpJcEtrZ2VRUk1FNVVaY3hDMVlzd2dnOXpHaFV2aE84bExndlhoQktBRWdUa25DQS0tMi1XVkxvUUVkcHdBUkl2dk9PZDhwc2tScUJ1alpvc0dQckJEeFJvQldST1B2WjZpQjY1QWRKd1oyLXJlVm5walhlek10bkRvczlJYzBlZmZTbDJOSjh4dFRCNC1ER3Yxd1RuVDlOQTJZRGZ4bjN5dk9GY0hPVnRaUlR6VFhmY2VUUE9ic3VEbkRDdw",
+      "guidislink": false,
+      "published": "Thu, 21 Feb 2013 08:00:00 GMT",
+      "published_parsed": [
+        2013,
+        2,
+        21,
+        8,
+        0,
+        0,
+        3,
+        52,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigJBVV95cUxNbzZWOTNZeVI3cTc5YVVrU1ZXTUZQeHo0dXRSWU5idnVrYjFHYjBhclhJcTcwcVMwT3QwUjYtZUVFM0puTGtVU1M0dVExZXpJcEtrZ2VRUk1FNVVaY3hDMVlzd2dnOXpHaFV2aE84bExndlhoQktBRWdUa25DQS0tMi1XVkxvUUVkcHdBUkl2dk9PZDhwc2tScUJ1alpvc0dQckJEeFJvQldST1B2WjZpQjY1QWRKd1oyLXJlVm5walhlek10bkRvczlJYzBlZmZTbDJOSjh4dFRCNC1ER3Yxd1RuVDlOQTJZRGZ4bjN5dk9GY0hPVnRaUlR6VFhmY2VUUE9ic3VEbkRDd9IBigJBVV95cUxNbzZWOTNZeVI3cTc5YVVrU1ZXTUZQeHo0dXRSWU5idnVrYjFHYjBhclhJcTcwcVMwT3QwUjYtZUVFM0puTGtVU1M0dVExZXpJcEtrZ2VRUk1FNVVaY3hDMVlzd2dnOXpHaFV2aE84bExndlhoQktBRWdUa25DQS0tMi1XVkxvUUVkcHdBUkl2dk9PZDhwc2tScUJ1alpvc0dQckJEeFJvQldST1B2WjZpQjY1QWRKd1oyLXJlVm5walhlek10bkRvczlJYzBlZmZTbDJOSjh4dFRCNC1ER3Yxd1RuVDlOQTJZRGZ4bjN5dk9GY0hPVnRaUlR6VFhmY2VUUE9ic3VEbkRDdw?oc=5\" target=\"_blank\">Mitt Romney will give his first political since his failed campaign... at the same conference where the delegates pushed him to run for President last year</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiigJBVV95cUxNbzZWOTNZeVI3cTc5YVVrU1ZXTUZQeHo0dXRSWU5idnVrYjFHYjBhclhJcTcwcVMwT3QwUjYtZUVFM0puTGtVU1M0dVExZXpJcEtrZ2VRUk1FNVVaY3hDMVlzd2dnOXpHaFV2aE84bExndlhoQktBRWdUa25DQS0tMi1XVkxvUUVkcHdBUkl2dk9PZDhwc2tScUJ1alpvc0dQckJEeFJvQldST1B2WjZpQjY1QWRKd1oyLXJlVm5walhlek10bkRvczlJYzBlZmZTbDJOSjh4dFRCNC1ER3Yxd1RuVDlOQTJZRGZ4bjN5dk9GY0hPVnRaUlR6VFhmY2VUUE9ic3VEbkRDd9IBigJBVV95cUxNbzZWOTNZeVI3cTc5YVVrU1ZXTUZQeHo0dXRSWU5idnVrYjFHYjBhclhJcTcwcVMwT3QwUjYtZUVFM0puTGtVU1M0dVExZXpJcEtrZ2VRUk1FNVVaY3hDMVlzd2dnOXpHaFV2aE84bExndlhoQktBRWdUa25DQS0tMi1XVkxvUUVkcHdBUkl2dk9PZDhwc2tScUJ1alpvc0dQckJEeFJvQldST1B2WjZpQjY1QWRKd1oyLXJlVm5walhlek10bkRvczlJYzBlZmZTbDJOSjh4dFRCNC1ER3Yxd1RuVDlOQTJZRGZ4bjN5dk9GY0hPVnRaUlR6VFhmY2VUUE9ic3VEbkRDdw?oc=5\" target=\"_blank\">Mitt Romney will give his first political since his failed campaign... at the same conference where the delegates pushed him to run for President last year</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    }
+  ]
+}

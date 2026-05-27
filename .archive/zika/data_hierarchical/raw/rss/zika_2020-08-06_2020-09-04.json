@@ -1,0 +1,1639 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2020-08-06",
+  "window_end": "2020-09-04",
+  "window_days": 30,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2020-08-06+before%3A2020-09-05&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2020-08-06+before:2020-09-05&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T06:08:48Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2020-08-06 before:2020-09-05\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2020-08-06 before:2020-09-05\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2020-08-06+before:2020-09-05&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2020-08-06+before:2020-09-05&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 06:08:49 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      6,
+      8,
+      49,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Unravelling mother to baby transmission of Zika virus - Frontiers",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Unravelling mother to baby transmission of Zika virus - Frontiers"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQU5MN2hqZUpmOHVjR285Vl9rVEZEcmZ1NXRObVJOREJOMV9DRHdwRXdfV2w4bTdGNEJ1VTJ6TzFTb1I3M3R6UDVtdnVCRVFoTUwtYV90OF9MbTR6c0VKYVdqZ0NXS3BuQWY4WDcxOGlGWndjSTVJckJXYzZOUGtPRjdHeTZhaWx4OGhqTHNaMnI0eXpWTkFIWFdUekpBdw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQU5MN2hqZUpmOHVjR285Vl9rVEZEcmZ1NXRObVJOREJOMV9DRHdwRXdfV2w4bTdGNEJ1VTJ6TzFTb1I3M3R6UDVtdnVCRVFoTUwtYV90OF9MbTR6c0VKYVdqZ0NXS3BuQWY4WDcxOGlGWndjSTVJckJXYzZOUGtPRjdHeTZhaWx4OGhqTHNaMnI0eXpWTkFIWFdUekpBdw?oc=5",
+      "id": "CBMingFBVV95cUxOQU5MN2hqZUpmOHVjR285Vl9rVEZEcmZ1NXRObVJOREJOMV9DRHdwRXdfV2w4bTdGNEJ1VTJ6TzFTb1I3M3R6UDVtdnVCRVFoTUwtYV90OF9MbTR6c0VKYVdqZ0NXS3BuQWY4WDcxOGlGWndjSTVJckJXYzZOUGtPRjdHeTZhaWx4OGhqTHNaMnI0eXpWTkFIWFdUekpBdw",
+      "guidislink": false,
+      "published": "Tue, 01 Sep 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        9,
+        1,
+        7,
+        0,
+        0,
+        1,
+        245,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxOQU5MN2hqZUpmOHVjR285Vl9rVEZEcmZ1NXRObVJOREJOMV9DRHdwRXdfV2w4bTdGNEJ1VTJ6TzFTb1I3M3R6UDVtdnVCRVFoTUwtYV90OF9MbTR6c0VKYVdqZ0NXS3BuQWY4WDcxOGlGWndjSTVJckJXYzZOUGtPRjdHeTZhaWx4OGhqTHNaMnI0eXpWTkFIWFdUekpBdw?oc=5\" target=\"_blank\">Unravelling mother to baby transmission of Zika virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Frontiers</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxOQU5MN2hqZUpmOHVjR285Vl9rVEZEcmZ1NXRObVJOREJOMV9DRHdwRXdfV2w4bTdGNEJ1VTJ6TzFTb1I3M3R6UDVtdnVCRVFoTUwtYV90OF9MbTR6c0VKYVdqZ0NXS3BuQWY4WDcxOGlGWndjSTVJckJXYzZOUGtPRjdHeTZhaWx4OGhqTHNaMnI0eXpWTkFIWFdUekpBdw?oc=5\" target=\"_blank\">Unravelling mother to baby transmission of Zika virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Frontiers</font>"
+      },
+      "source": {
+        "href": "https://www.frontiersin.org",
+        "title": "Frontiers"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Unlike Zika, Chikungunya virus interferes in the viability of Aedes aegypti eggs, regardless of females’ age - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Unlike Zika, Chikungunya virus interferes in the viability of Aedes aegypti eggs, regardless of females’ age - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5qVU9wTVFQX2x3eGd6RnVnVEVMTlo3NXFUWkpSelpSekFFX3Y4TkUyT0FsVVNPRF9RVG1jQUJ2S2RQTE9BaWI4QjN3b1RPc3dNNFB2M2NoNTVzREx3TENF?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5qVU9wTVFQX2x3eGd6RnVnVEVMTlo3NXFUWkpSelpSekFFX3Y4TkUyT0FsVVNPRF9RVG1jQUJ2S2RQTE9BaWI4QjN3b1RPc3dNNFB2M2NoNTVzREx3TENF?oc=5",
+      "id": "CBMiX0FVX3lxTE5qVU9wTVFQX2x3eGd6RnVnVEVMTlo3NXFUWkpSelpSekFFX3Y4TkUyT0FsVVNPRF9RVG1jQUJ2S2RQTE9BaWI4QjN3b1RPc3dNNFB2M2NoNTVzREx3TENF",
+      "guidislink": false,
+      "published": "Wed, 12 Aug 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        8,
+        12,
+        7,
+        0,
+        0,
+        2,
+        225,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5qVU9wTVFQX2x3eGd6RnVnVEVMTlo3NXFUWkpSelpSekFFX3Y4TkUyT0FsVVNPRF9RVG1jQUJ2S2RQTE9BaWI4QjN3b1RPc3dNNFB2M2NoNTVzREx3TENF?oc=5\" target=\"_blank\">Unlike Zika, Chikungunya virus interferes in the viability of Aedes aegypti eggs, regardless of females’ age</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5qVU9wTVFQX2x3eGd6RnVnVEVMTlo3NXFUWkpSelpSekFFX3Y4TkUyT0FsVVNPRF9RVG1jQUJ2S2RQTE9BaWI4QjN3b1RPc3dNNFB2M2NoNTVzREx3TENF?oc=5\" target=\"_blank\">Unlike Zika, Chikungunya virus interferes in the viability of Aedes aegypti eggs, regardless of females’ age</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Prior Zika virus infection increases risk of severe dengue disease - University of California, Berkeley",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Prior Zika virus infection increases risk of severe dengue disease - University of California, Berkeley"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZ0dNR05sUU9vVGRyam40Mk9wSkN5djBjQ1pkd0ZnSWFhdWRLaFVORnZKWE1GZExuMlE5SWdqaWxVb0RQckEzR2lnb2VrRVk2UVBXVEcxVUxUUkVldGxiZEgzV2ZHOEVXOVp4ZmJiSmhJTm5RaVFiNGZVelFHV0VGMnQxNG9UZUxqY3diNUtIVkRpX0kwOXg2dUt6THlaWTY4U29JV2lVWQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZ0dNR05sUU9vVGRyam40Mk9wSkN5djBjQ1pkd0ZnSWFhdWRLaFVORnZKWE1GZExuMlE5SWdqaWxVb0RQckEzR2lnb2VrRVk2UVBXVEcxVUxUUkVldGxiZEgzV2ZHOEVXOVp4ZmJiSmhJTm5RaVFiNGZVelFHV0VGMnQxNG9UZUxqY3diNUtIVkRpX0kwOXg2dUt6THlaWTY4U29JV2lVWQ?oc=5",
+      "id": "CBMipwFBVV95cUxNZ0dNR05sUU9vVGRyam40Mk9wSkN5djBjQ1pkd0ZnSWFhdWRLaFVORnZKWE1GZExuMlE5SWdqaWxVb0RQckEzR2lnb2VrRVk2UVBXVEcxVUxUUkVldGxiZEgzV2ZHOEVXOVp4ZmJiSmhJTm5RaVFiNGZVelFHV0VGMnQxNG9UZUxqY3diNUtIVkRpX0kwOXg2dUt6THlaWTY4U29JV2lVWQ",
+      "guidislink": false,
+      "published": "Thu, 27 Aug 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        8,
+        27,
+        7,
+        0,
+        0,
+        3,
+        240,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxNZ0dNR05sUU9vVGRyam40Mk9wSkN5djBjQ1pkd0ZnSWFhdWRLaFVORnZKWE1GZExuMlE5SWdqaWxVb0RQckEzR2lnb2VrRVk2UVBXVEcxVUxUUkVldGxiZEgzV2ZHOEVXOVp4ZmJiSmhJTm5RaVFiNGZVelFHV0VGMnQxNG9UZUxqY3diNUtIVkRpX0kwOXg2dUt6THlaWTY4U29JV2lVWQ?oc=5\" target=\"_blank\">Prior Zika virus infection increases risk of severe dengue disease</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of California, Berkeley</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxNZ0dNR05sUU9vVGRyam40Mk9wSkN5djBjQ1pkd0ZnSWFhdWRLaFVORnZKWE1GZExuMlE5SWdqaWxVb0RQckEzR2lnb2VrRVk2UVBXVEcxVUxUUkVldGxiZEgzV2ZHOEVXOVp4ZmJiSmhJTm5RaVFiNGZVelFHV0VGMnQxNG9UZUxqY3diNUtIVkRpX0kwOXg2dUt6THlaWTY4U29JV2lVWQ?oc=5\" target=\"_blank\">Prior Zika virus infection increases risk of severe dengue disease</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of California, Berkeley</font>"
+      },
+      "source": {
+        "href": "https://news.berkeley.edu",
+        "title": "University of California, Berkeley"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Dr. Youssef Kousa awarded Pediatric Epilepsy Research Grant - Children's National Hospital",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Dr. Youssef Kousa awarded Pediatric Epilepsy Research Grant - Children's National Hospital"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSER0LTRtenp0OElKRkZRSTE0aEFrTWtxMEdUYjBmQmpmckY5T1JSODlTRXhLUzRaQ3o5UHJJNlk3eW9DbnJPX2ZWd2dQWnpZRVgzMFEzSG9YeUxrMFY3SzgtS1ltOXJJV05WeGwtSFMxZUQyUDNVN0ZKTTZEcHQwRUlTYmRvZ1cxZkpPc2dxZ1JBd21pMGUwMGZxRFRsUUh6WERKNk1ndWRCYzd1?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSER0LTRtenp0OElKRkZRSTE0aEFrTWtxMEdUYjBmQmpmckY5T1JSODlTRXhLUzRaQ3o5UHJJNlk3eW9DbnJPX2ZWd2dQWnpZRVgzMFEzSG9YeUxrMFY3SzgtS1ltOXJJV05WeGwtSFMxZUQyUDNVN0ZKTTZEcHQwRUlTYmRvZ1cxZkpPc2dxZ1JBd21pMGUwMGZxRFRsUUh6WERKNk1ndWRCYzd1?oc=5",
+      "id": "CBMirAFBVV95cUxNSER0LTRtenp0OElKRkZRSTE0aEFrTWtxMEdUYjBmQmpmckY5T1JSODlTRXhLUzRaQ3o5UHJJNlk3eW9DbnJPX2ZWd2dQWnpZRVgzMFEzSG9YeUxrMFY3SzgtS1ltOXJJV05WeGwtSFMxZUQyUDNVN0ZKTTZEcHQwRUlTYmRvZ1cxZkpPc2dxZ1JBd21pMGUwMGZxRFRsUUh6WERKNk1ndWRCYzd1",
+      "guidislink": false,
+      "published": "Mon, 31 Aug 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        8,
+        31,
+        7,
+        0,
+        0,
+        0,
+        244,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxNSER0LTRtenp0OElKRkZRSTE0aEFrTWtxMEdUYjBmQmpmckY5T1JSODlTRXhLUzRaQ3o5UHJJNlk3eW9DbnJPX2ZWd2dQWnpZRVgzMFEzSG9YeUxrMFY3SzgtS1ltOXJJV05WeGwtSFMxZUQyUDNVN0ZKTTZEcHQwRUlTYmRvZ1cxZkpPc2dxZ1JBd21pMGUwMGZxRFRsUUh6WERKNk1ndWRCYzd1?oc=5\" target=\"_blank\">Dr. Youssef Kousa awarded Pediatric Epilepsy Research Grant</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Children's National Hospital</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxNSER0LTRtenp0OElKRkZRSTE0aEFrTWtxMEdUYjBmQmpmckY5T1JSODlTRXhLUzRaQ3o5UHJJNlk3eW9DbnJPX2ZWd2dQWnpZRVgzMFEzSG9YeUxrMFY3SzgtS1ltOXJJV05WeGwtSFMxZUQyUDNVN0ZKTTZEcHQwRUlTYmRvZ1cxZkpPc2dxZ1JBd21pMGUwMGZxRFRsUUh6WERKNk1ndWRCYzd1?oc=5\" target=\"_blank\">Dr. Youssef Kousa awarded Pediatric Epilepsy Research Grant</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Children's National Hospital</font>"
+      },
+      "source": {
+        "href": "https://innovationdistrict.childrensnational.org",
+        "title": "Children's National Hospital"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Re-assessment reveals 23 cases of Zika in Ind. - WRTV",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Re-assessment reveals 23 cases of Zika in Ind. - WRTV"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTm5KRmZzRnZ2WDZWOVkwOVFOeTNUTnQwZV82a2cwOHlaX29yR25VRmpyemNXZ3FjWUxxMmZhSTZUV2lkR2E0VWYtbWNyMVc4eE8tRGhoU09hSm1hWnVFdmJvTHBmamhOTHhzX08tQUU1R3ViN1FrdUFXamFyWmNrRnNvNHB0YlJtREZ3b2tlUlEwWWVxRG9YVlE4Zjg1WmUyWEJBWkQ5M0pnTFI3?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTm5KRmZzRnZ2WDZWOVkwOVFOeTNUTnQwZV82a2cwOHlaX29yR25VRmpyemNXZ3FjWUxxMmZhSTZUV2lkR2E0VWYtbWNyMVc4eE8tRGhoU09hSm1hWnVFdmJvTHBmamhOTHhzX08tQUU1R3ViN1FrdUFXamFyWmNrRnNvNHB0YlJtREZ3b2tlUlEwWWVxRG9YVlE4Zjg1WmUyWEJBWkQ5M0pnTFI3?oc=5",
+      "id": "CBMirAFBVV95cUxOTm5KRmZzRnZ2WDZWOVkwOVFOeTNUTnQwZV82a2cwOHlaX29yR25VRmpyemNXZ3FjWUxxMmZhSTZUV2lkR2E0VWYtbWNyMVc4eE8tRGhoU09hSm1hWnVFdmJvTHBmamhOTHhzX08tQUU1R3ViN1FrdUFXamFyWmNrRnNvNHB0YlJtREZ3b2tlUlEwWWVxRG9YVlE4Zjg1WmUyWEJBWkQ5M0pnTFI3",
+      "guidislink": false,
+      "published": "Sun, 23 Aug 2020 19:57:13 GMT",
+      "published_parsed": [
+        2020,
+        8,
+        23,
+        19,
+        57,
+        13,
+        6,
+        236,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxOTm5KRmZzRnZ2WDZWOVkwOVFOeTNUTnQwZV82a2cwOHlaX29yR25VRmpyemNXZ3FjWUxxMmZhSTZUV2lkR2E0VWYtbWNyMVc4eE8tRGhoU09hSm1hWnVFdmJvTHBmamhOTHhzX08tQUU1R3ViN1FrdUFXamFyWmNrRnNvNHB0YlJtREZ3b2tlUlEwWWVxRG9YVlE4Zjg1WmUyWEJBWkQ5M0pnTFI3?oc=5\" target=\"_blank\">Re-assessment reveals 23 cases of Zika in Ind.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WRTV</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxOTm5KRmZzRnZ2WDZWOVkwOVFOeTNUTnQwZV82a2cwOHlaX29yR25VRmpyemNXZ3FjWUxxMmZhSTZUV2lkR2E0VWYtbWNyMVc4eE8tRGhoU09hSm1hWnVFdmJvTHBmamhOTHhzX08tQUU1R3ViN1FrdUFXamFyWmNrRnNvNHB0YlJtREZ3b2tlUlEwWWVxRG9YVlE4Zjg1WmUyWEJBWkQ5M0pnTFI3?oc=5\" target=\"_blank\">Re-assessment reveals 23 cases of Zika in Ind.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WRTV</font>"
+      },
+      "source": {
+        "href": "https://www.wrtv.com",
+        "title": "WRTV"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Study shows what happens in the fetal brain affected by congenital Zika syndrome - News-Medical",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Study shows what happens in the fetal brain affected by congenital Zika syndrome - News-Medical"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbUd3RGllNElIbURxWG1fMUE0d2tLd0ljcDJmRjVlSW0zZVNORWVPNUgyS19LcHhicjk0N1ZwTFNOOExwelVPdF9XWl9NZERrVGYyRGpVT0lKb0llQ1RwbW5QZWt0U1RWbzJpX0RjUVpVSmNpd2g0VmNBOU1xNmp5RzhPMEJ4dUlRODlmQUdNeGFRaGU5M1lQRGUzUy1QNk9hOXlNSDl1bDYycGhubW5Nbzd5dHc2NFZlb2R5dWU3WG5PQTVybW1B?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbUd3RGllNElIbURxWG1fMUE0d2tLd0ljcDJmRjVlSW0zZVNORWVPNUgyS19LcHhicjk0N1ZwTFNOOExwelVPdF9XWl9NZERrVGYyRGpVT0lKb0llQ1RwbW5QZWt0U1RWbzJpX0RjUVpVSmNpd2g0VmNBOU1xNmp5RzhPMEJ4dUlRODlmQUdNeGFRaGU5M1lQRGUzUy1QNk9hOXlNSDl1bDYycGhubW5Nbzd5dHc2NFZlb2R5dWU3WG5PQTVybW1B?oc=5",
+      "id": "CBMixwFBVV95cUxNbUd3RGllNElIbURxWG1fMUE0d2tLd0ljcDJmRjVlSW0zZVNORWVPNUgyS19LcHhicjk0N1ZwTFNOOExwelVPdF9XWl9NZERrVGYyRGpVT0lKb0llQ1RwbW5QZWt0U1RWbzJpX0RjUVpVSmNpd2g0VmNBOU1xNmp5RzhPMEJ4dUlRODlmQUdNeGFRaGU5M1lQRGUzUy1QNk9hOXlNSDl1bDYycGhubW5Nbzd5dHc2NFZlb2R5dWU3WG5PQTVybW1B",
+      "guidislink": false,
+      "published": "Thu, 03 Sep 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        9,
+        3,
+        7,
+        0,
+        0,
+        3,
+        247,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxNbUd3RGllNElIbURxWG1fMUE0d2tLd0ljcDJmRjVlSW0zZVNORWVPNUgyS19LcHhicjk0N1ZwTFNOOExwelVPdF9XWl9NZERrVGYyRGpVT0lKb0llQ1RwbW5QZWt0U1RWbzJpX0RjUVpVSmNpd2g0VmNBOU1xNmp5RzhPMEJ4dUlRODlmQUdNeGFRaGU5M1lQRGUzUy1QNk9hOXlNSDl1bDYycGhubW5Nbzd5dHc2NFZlb2R5dWU3WG5PQTVybW1B?oc=5\" target=\"_blank\">Study shows what happens in the fetal brain affected by congenital Zika syndrome</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">News-Medical</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxNbUd3RGllNElIbURxWG1fMUE0d2tLd0ljcDJmRjVlSW0zZVNORWVPNUgyS19LcHhicjk0N1ZwTFNOOExwelVPdF9XWl9NZERrVGYyRGpVT0lKb0llQ1RwbW5QZWt0U1RWbzJpX0RjUVpVSmNpd2g0VmNBOU1xNmp5RzhPMEJ4dUlRODlmQUdNeGFRaGU5M1lQRGUzUy1QNk9hOXlNSDl1bDYycGhubW5Nbzd5dHc2NFZlb2R5dWU3WG5PQTVybW1B?oc=5\" target=\"_blank\">Study shows what happens in the fetal brain affected by congenital Zika syndrome</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">News-Medical</font>"
+      },
+      "source": {
+        "href": "https://www.news-medical.net",
+        "title": "News-Medical"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Florida mosquitoes: 750 million genetically modified insects to be released - BBC",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Florida mosquitoes: 750 million genetically modified insects to be released - BBC"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1iT2pUU0xZQ1ZFcEljenl4ZUlBVlpRRHhveGtubHU0ajZ5clhWY1hCZldnNjIycl9peE1CS3BET1RmR0RTc2NlX01NM2xXT0pOTDhXeWxvdDJ4UDNHeVE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1iT2pUU0xZQ1ZFcEljenl4ZUlBVlpRRHhveGtubHU0ajZ5clhWY1hCZldnNjIycl9peE1CS3BET1RmR0RTc2NlX01NM2xXT0pOTDhXeWxvdDJ4UDNHeVE?oc=5",
+      "id": "CBMiXkFVX3lxTE1iT2pUU0xZQ1ZFcEljenl4ZUlBVlpRRHhveGtubHU0ajZ5clhWY1hCZldnNjIycl9peE1CS3BET1RmR0RTc2NlX01NM2xXT0pOTDhXeWxvdDJ4UDNHeVE",
+      "guidislink": false,
+      "published": "Thu, 20 Aug 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        8,
+        20,
+        7,
+        0,
+        0,
+        3,
+        233,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE1iT2pUU0xZQ1ZFcEljenl4ZUlBVlpRRHhveGtubHU0ajZ5clhWY1hCZldnNjIycl9peE1CS3BET1RmR0RTc2NlX01NM2xXT0pOTDhXeWxvdDJ4UDNHeVE?oc=5\" target=\"_blank\">Florida mosquitoes: 750 million genetically modified insects to be released</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE1iT2pUU0xZQ1ZFcEljenl4ZUlBVlpRRHhveGtubHU0ajZ5clhWY1hCZldnNjIycl9peE1CS3BET1RmR0RTc2NlX01NM2xXT0pOTDhXeWxvdDJ4UDNHeVE?oc=5\" target=\"_blank\">Florida mosquitoes: 750 million genetically modified insects to be released</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>"
+      },
+      "source": {
+        "href": "https://www.bbc.com",
+        "title": "BBC"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Florida Keys to release modified mosquitoes to fight illness - PBS",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Florida Keys to release modified mosquitoes to fight illness - PBS"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWnQ5Y0RwdUdJZG5JWDYxTkkzV2NjblhxNTQwalpNZmh0bHAtTzFBTFhQelBHZ05Hd2JZa09hNEhfbTNzZm44WEJTR1pBamdVRTdaQWtyQ01UUW5yQXhwSlNPZVd5Tk85czFZRTZncFBFeGZ4LWlDQmlDTkx1ZVk4SzVWQmYzWTBJU2V4T1ZNaEVkMl92cTFXUVZSM3jSAaIBQVVfeXFMUEJwN0NDRFc0UUFiZm53SmxuZ0laUW54ZkZNTm1SWkItT3U1Ql9qbVJWNEpCU0l0WVZ1MUFmajBUTHZFY3lUNGlmLS1EcWcwa29aREZQcl9qbGpHTVZ4cGFyWVMxSEN4Wmp2X1dMY3Bsbk9kNi1pbXRaT041bHoyRVg0Z0V1YlBDS1lTZ3hDaEtNdmlzc0hPNjh2VzNjckJwSFFn?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWnQ5Y0RwdUdJZG5JWDYxTkkzV2NjblhxNTQwalpNZmh0bHAtTzFBTFhQelBHZ05Hd2JZa09hNEhfbTNzZm44WEJTR1pBamdVRTdaQWtyQ01UUW5yQXhwSlNPZVd5Tk85czFZRTZncFBFeGZ4LWlDQmlDTkx1ZVk4SzVWQmYzWTBJU2V4T1ZNaEVkMl92cTFXUVZSM3jSAaIBQVVfeXFMUEJwN0NDRFc0UUFiZm53SmxuZ0laUW54ZkZNTm1SWkItT3U1Ql9qbVJWNEpCU0l0WVZ1MUFmajBUTHZFY3lUNGlmLS1EcWcwa29aREZQcl9qbGpHTVZ4cGFyWVMxSEN4Wmp2X1dMY3Bsbk9kNi1pbXRaT041bHoyRVg0Z0V1YlBDS1lTZ3hDaEtNdmlzc0hPNjh2VzNjckJwSFFn?oc=5",
+      "id": "CBMinAFBVV95cUxQWnQ5Y0RwdUdJZG5JWDYxTkkzV2NjblhxNTQwalpNZmh0bHAtTzFBTFhQelBHZ05Hd2JZa09hNEhfbTNzZm44WEJTR1pBamdVRTdaQWtyQ01UUW5yQXhwSlNPZVd5Tk85czFZRTZncFBFeGZ4LWlDQmlDTkx1ZVk4SzVWQmYzWTBJU2V4T1ZNaEVkMl92cTFXUVZSM3jSAaIBQVVfeXFMUEJwN0NDRFc0UUFiZm53SmxuZ0laUW54ZkZNTm1SWkItT3U1Ql9qbVJWNEpCU0l0WVZ1MUFmajBUTHZFY3lUNGlmLS1EcWcwa29aREZQcl9qbGpHTVZ4cGFyWVMxSEN4Wmp2X1dMY3Bsbk9kNi1pbXRaT041bHoyRVg0Z0V1YlBDS1lTZ3hDaEtNdmlzc0hPNjh2VzNjckJwSFFn",
+      "guidislink": false,
+      "published": "Thu, 20 Aug 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        8,
+        20,
+        7,
+        0,
+        0,
+        3,
+        233,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxQWnQ5Y0RwdUdJZG5JWDYxTkkzV2NjblhxNTQwalpNZmh0bHAtTzFBTFhQelBHZ05Hd2JZa09hNEhfbTNzZm44WEJTR1pBamdVRTdaQWtyQ01UUW5yQXhwSlNPZVd5Tk85czFZRTZncFBFeGZ4LWlDQmlDTkx1ZVk4SzVWQmYzWTBJU2V4T1ZNaEVkMl92cTFXUVZSM3jSAaIBQVVfeXFMUEJwN0NDRFc0UUFiZm53SmxuZ0laUW54ZkZNTm1SWkItT3U1Ql9qbVJWNEpCU0l0WVZ1MUFmajBUTHZFY3lUNGlmLS1EcWcwa29aREZQcl9qbGpHTVZ4cGFyWVMxSEN4Wmp2X1dMY3Bsbk9kNi1pbXRaT041bHoyRVg0Z0V1YlBDS1lTZ3hDaEtNdmlzc0hPNjh2VzNjckJwSFFn?oc=5\" target=\"_blank\">Florida Keys to release modified mosquitoes to fight illness</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PBS</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxQWnQ5Y0RwdUdJZG5JWDYxTkkzV2NjblhxNTQwalpNZmh0bHAtTzFBTFhQelBHZ05Hd2JZa09hNEhfbTNzZm44WEJTR1pBamdVRTdaQWtyQ01UUW5yQXhwSlNPZVd5Tk85czFZRTZncFBFeGZ4LWlDQmlDTkx1ZVk4SzVWQmYzWTBJU2V4T1ZNaEVkMl92cTFXUVZSM3jSAaIBQVVfeXFMUEJwN0NDRFc0UUFiZm53SmxuZ0laUW54ZkZNTm1SWkItT3U1Ql9qbVJWNEpCU0l0WVZ1MUFmajBUTHZFY3lUNGlmLS1EcWcwa29aREZQcl9qbGpHTVZ4cGFyWVMxSEN4Wmp2X1dMY3Bsbk9kNi1pbXRaT041bHoyRVg0Z0V1YlBDS1lTZ3hDaEtNdmlzc0hPNjh2VzNjckJwSFFn?oc=5\" target=\"_blank\">Florida Keys to release modified mosquitoes to fight illness</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PBS</font>"
+      },
+      "source": {
+        "href": "https://www.pbs.org",
+        "title": "PBS"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Florida green lights release of malaria- and Zika-fighting GMO mosquitoes - Genetic Literacy Project",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Florida green lights release of malaria- and Zika-fighting GMO mosquitoes - Genetic Literacy Project"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONEJ4a3g3aDRncXI1WVlESlNEYzdDLUx5ME9LcWNENXlvSGRYRGF4ZFBjcDBZWUV2QlgyMEYyTkdoOVRZOXpCbThOWkx0OWFVMEtTV2tBUFNEdlF0djE3SjJfaW9SdU13bHBHRVNiS1V5QjFNMWJnNkZDeVc3eDI4VkM1Y2tiWTBMNDNnTlVURFkzN2RhcmpRM1Q3WFQ1Tmx2N0xGcVZlR2IwRkQ2VEJaWWxvcUNzZHU3cEZ1Q3Ixdkl5VXhsVk53RG9R?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxONEJ4a3g3aDRncXI1WVlESlNEYzdDLUx5ME9LcWNENXlvSGRYRGF4ZFBjcDBZWUV2QlgyMEYyTkdoOVRZOXpCbThOWkx0OWFVMEtTV2tBUFNEdlF0djE3SjJfaW9SdU13bHBHRVNiS1V5QjFNMWJnNkZDeVc3eDI4VkM1Y2tiWTBMNDNnTlVURFkzN2RhcmpRM1Q3WFQ1Tmx2N0xGcVZlR2IwRkQ2VEJaWWxvcUNzZHU3cEZ1Q3Ixdkl5VXhsVk53RG9R?oc=5",
+      "id": "CBMiygFBVV95cUxONEJ4a3g3aDRncXI1WVlESlNEYzdDLUx5ME9LcWNENXlvSGRYRGF4ZFBjcDBZWUV2QlgyMEYyTkdoOVRZOXpCbThOWkx0OWFVMEtTV2tBUFNEdlF0djE3SjJfaW9SdU13bHBHRVNiS1V5QjFNMWJnNkZDeVc3eDI4VkM1Y2tiWTBMNDNnTlVURFkzN2RhcmpRM1Q3WFQ1Tmx2N0xGcVZlR2IwRkQ2VEJaWWxvcUNzZHU3cEZ1Q3Ixdkl5VXhsVk53RG9R",
+      "guidislink": false,
+      "published": "Thu, 20 Aug 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        8,
+        20,
+        7,
+        0,
+        0,
+        3,
+        233,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxONEJ4a3g3aDRncXI1WVlESlNEYzdDLUx5ME9LcWNENXlvSGRYRGF4ZFBjcDBZWUV2QlgyMEYyTkdoOVRZOXpCbThOWkx0OWFVMEtTV2tBUFNEdlF0djE3SjJfaW9SdU13bHBHRVNiS1V5QjFNMWJnNkZDeVc3eDI4VkM1Y2tiWTBMNDNnTlVURFkzN2RhcmpRM1Q3WFQ1Tmx2N0xGcVZlR2IwRkQ2VEJaWWxvcUNzZHU3cEZ1Q3Ixdkl5VXhsVk53RG9R?oc=5\" target=\"_blank\">Florida green lights release of malaria- and Zika-fighting GMO mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Genetic Literacy Project</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxONEJ4a3g3aDRncXI1WVlESlNEYzdDLUx5ME9LcWNENXlvSGRYRGF4ZFBjcDBZWUV2QlgyMEYyTkdoOVRZOXpCbThOWkx0OWFVMEtTV2tBUFNEdlF0djE3SjJfaW9SdU13bHBHRVNiS1V5QjFNMWJnNkZDeVc3eDI4VkM1Y2tiWTBMNDNnTlVURFkzN2RhcmpRM1Q3WFQ1Tmx2N0xGcVZlR2IwRkQ2VEJaWWxvcUNzZHU3cEZ1Q3Ixdkl5VXhsVk53RG9R?oc=5\" target=\"_blank\">Florida green lights release of malaria- and Zika-fighting GMO mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Genetic Literacy Project</font>"
+      },
+      "source": {
+        "href": "https://geneticliteracyproject.org",
+        "title": "Genetic Literacy Project"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Florida releasing genetically modified mosquitoes to prevent diseases like Zika - Live Science",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Florida releasing genetically modified mosquitoes to prevent diseases like Zika - Live Science"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5SUzh5RlNYUTBydmZYY1VUbEpNRzdLQXB0UDdBN3M0RmVaSVJhTFcycFhiWFozanA2c3NVOWRJekgxT05wS3FsNVBqbmk2WW5XaExWUWNxVTNQRnhLOHp4SVp5UndHTTM5VUtyd3Mwa1hpdVlBRk11QVVB?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5SUzh5RlNYUTBydmZYY1VUbEpNRzdLQXB0UDdBN3M0RmVaSVJhTFcycFhiWFozanA2c3NVOWRJekgxT05wS3FsNVBqbmk2WW5XaExWUWNxVTNQRnhLOHp4SVp5UndHTTM5VUtyd3Mwa1hpdVlBRk11QVVB?oc=5",
+      "id": "CBMiekFVX3lxTE5SUzh5RlNYUTBydmZYY1VUbEpNRzdLQXB0UDdBN3M0RmVaSVJhTFcycFhiWFozanA2c3NVOWRJekgxT05wS3FsNVBqbmk2WW5XaExWUWNxVTNQRnhLOHp4SVp5UndHTTM5VUtyd3Mwa1hpdVlBRk11QVVB",
+      "guidislink": false,
+      "published": "Fri, 21 Aug 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        8,
+        21,
+        7,
+        0,
+        0,
+        4,
+        234,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE5SUzh5RlNYUTBydmZYY1VUbEpNRzdLQXB0UDdBN3M0RmVaSVJhTFcycFhiWFozanA2c3NVOWRJekgxT05wS3FsNVBqbmk2WW5XaExWUWNxVTNQRnhLOHp4SVp5UndHTTM5VUtyd3Mwa1hpdVlBRk11QVVB?oc=5\" target=\"_blank\">Florida releasing genetically modified mosquitoes to prevent diseases like Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Live Science</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE5SUzh5RlNYUTBydmZYY1VUbEpNRzdLQXB0UDdBN3M0RmVaSVJhTFcycFhiWFozanA2c3NVOWRJekgxT05wS3FsNVBqbmk2WW5XaExWUWNxVTNQRnhLOHp4SVp5UndHTTM5VUtyd3Mwa1hpdVlBRk11QVVB?oc=5\" target=\"_blank\">Florida releasing genetically modified mosquitoes to prevent diseases like Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Live Science</font>"
+      },
+      "source": {
+        "href": "https://www.livescience.com",
+        "title": "Live Science"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Enesi Pharma Partners with The University of Adelaide - Contract Pharma",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Enesi Pharma Partners with The University of Adelaide - Contract Pharma"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeUprRjVyZTBSUEtudnhMLVowVTgySGc0Y0VVVGJ4UGluc2pmY3o1SHdNWkJ0Nklid3VUTlRndnRsMnhQcTl0YmwxTExNbmdtUjJ3NlNKaUtHYXZ5MkhRTERmSlNoRVBsejllT2p2UTJsYm5rVjZxRWJCLVJZQkFKREs2T203c0lnS2Z3amJwLUd6dEdsTktMWlZyZWJsamlN?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeUprRjVyZTBSUEtudnhMLVowVTgySGc0Y0VVVGJ4UGluc2pmY3o1SHdNWkJ0Nklid3VUTlRndnRsMnhQcTl0YmwxTExNbmdtUjJ3NlNKaUtHYXZ5MkhRTERmSlNoRVBsejllT2p2UTJsYm5rVjZxRWJCLVJZQkFKREs2T203c0lnS2Z3amJwLUd6dEdsTktMWlZyZWJsamlN?oc=5",
+      "id": "CBMioAFBVV95cUxPeUprRjVyZTBSUEtudnhMLVowVTgySGc0Y0VVVGJ4UGluc2pmY3o1SHdNWkJ0Nklid3VUTlRndnRsMnhQcTl0YmwxTExNbmdtUjJ3NlNKaUtHYXZ5MkhRTERmSlNoRVBsejllT2p2UTJsYm5rVjZxRWJCLVJZQkFKREs2T203c0lnS2Z3amJwLUd6dEdsTktMWlZyZWJsamlN",
+      "guidislink": false,
+      "published": "Fri, 04 Sep 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        9,
+        4,
+        7,
+        0,
+        0,
+        4,
+        248,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPeUprRjVyZTBSUEtudnhMLVowVTgySGc0Y0VVVGJ4UGluc2pmY3o1SHdNWkJ0Nklid3VUTlRndnRsMnhQcTl0YmwxTExNbmdtUjJ3NlNKaUtHYXZ5MkhRTERmSlNoRVBsejllT2p2UTJsYm5rVjZxRWJCLVJZQkFKREs2T203c0lnS2Z3amJwLUd6dEdsTktMWlZyZWJsamlN?oc=5\" target=\"_blank\">Enesi Pharma Partners with The University of Adelaide</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Contract Pharma</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPeUprRjVyZTBSUEtudnhMLVowVTgySGc0Y0VVVGJ4UGluc2pmY3o1SHdNWkJ0Nklid3VUTlRndnRsMnhQcTl0YmwxTExNbmdtUjJ3NlNKaUtHYXZ5MkhRTERmSlNoRVBsejllT2p2UTJsYm5rVjZxRWJCLVJZQkFKREs2T203c0lnS2Z3amJwLUd6dEdsTktMWlZyZWJsamlN?oc=5\" target=\"_blank\">Enesi Pharma Partners with The University of Adelaide</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Contract Pharma</font>"
+      },
+      "source": {
+        "href": "https://www.contractpharma.com",
+        "title": "Contract Pharma"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "One size does not fit all: different vector-borne diseases impacted differently by climate change - BMC blog network",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "One size does not fit all: different vector-borne diseases impacted differently by climate change - BMC blog network"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNcWR3c1k5X19JOUhlUmdEUk1ucEdaN1BKZVVQdHEzN1ltQ01vTFdPQ2gybERadWF3Q1RPOE5vTmt5alVpRnI5MkhKVHg1SjZOcm1iY3BfX3RLUmlXMUVRUkVZSUhNWHBWNXRqUVZ2N29jdU44b1lQNFNMQlRudnJzNng3OXBMNkJoNGM1N1VSMjZ6bEVYVkdSaWhuWTJiTENxZ015NDNlenFPb3lDWHcxMFZkMThqTlBDV1pvMzNjaFZBaS1aY2UzanJkcEloS1VSWm9XS3ZlaTlrNkF6ejB3YXlHR2g?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNcWR3c1k5X19JOUhlUmdEUk1ucEdaN1BKZVVQdHEzN1ltQ01vTFdPQ2gybERadWF3Q1RPOE5vTmt5alVpRnI5MkhKVHg1SjZOcm1iY3BfX3RLUmlXMUVRUkVZSUhNWHBWNXRqUVZ2N29jdU44b1lQNFNMQlRudnJzNng3OXBMNkJoNGM1N1VSMjZ6bEVYVkdSaWhuWTJiTENxZ015NDNlenFPb3lDWHcxMFZkMThqTlBDV1pvMzNjaFZBaS1aY2UzanJkcEloS1VSWm9XS3ZlaTlrNkF6ejB3YXlHR2g?oc=5",
+      "id": "CBMi5AFBVV95cUxNcWR3c1k5X19JOUhlUmdEUk1ucEdaN1BKZVVQdHEzN1ltQ01vTFdPQ2gybERadWF3Q1RPOE5vTmt5alVpRnI5MkhKVHg1SjZOcm1iY3BfX3RLUmlXMUVRUkVZSUhNWHBWNXRqUVZ2N29jdU44b1lQNFNMQlRudnJzNng3OXBMNkJoNGM1N1VSMjZ6bEVYVkdSaWhuWTJiTENxZ015NDNlenFPb3lDWHcxMFZkMThqTlBDV1pvMzNjaFZBaS1aY2UzanJkcEloS1VSWm9XS3ZlaTlrNkF6ejB3YXlHR2g",
+      "guidislink": false,
+      "published": "Fri, 07 Aug 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        8,
+        7,
+        7,
+        0,
+        0,
+        4,
+        220,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi5AFBVV95cUxNcWR3c1k5X19JOUhlUmdEUk1ucEdaN1BKZVVQdHEzN1ltQ01vTFdPQ2gybERadWF3Q1RPOE5vTmt5alVpRnI5MkhKVHg1SjZOcm1iY3BfX3RLUmlXMUVRUkVZSUhNWHBWNXRqUVZ2N29jdU44b1lQNFNMQlRudnJzNng3OXBMNkJoNGM1N1VSMjZ6bEVYVkdSaWhuWTJiTENxZ015NDNlenFPb3lDWHcxMFZkMThqTlBDV1pvMzNjaFZBaS1aY2UzanJkcEloS1VSWm9XS3ZlaTlrNkF6ejB3YXlHR2g?oc=5\" target=\"_blank\">One size does not fit all: different vector-borne diseases impacted differently by climate change</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BMC blog network</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi5AFBVV95cUxNcWR3c1k5X19JOUhlUmdEUk1ucEdaN1BKZVVQdHEzN1ltQ01vTFdPQ2gybERadWF3Q1RPOE5vTmt5alVpRnI5MkhKVHg1SjZOcm1iY3BfX3RLUmlXMUVRUkVZSUhNWHBWNXRqUVZ2N29jdU44b1lQNFNMQlRudnJzNng3OXBMNkJoNGM1N1VSMjZ6bEVYVkdSaWhuWTJiTENxZ015NDNlenFPb3lDWHcxMFZkMThqTlBDV1pvMzNjaFZBaS1aY2UzanJkcEloS1VSWm9XS3ZlaTlrNkF6ejB3YXlHR2g?oc=5\" target=\"_blank\">One size does not fit all: different vector-borne diseases impacted differently by climate change</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BMC blog network</font>"
+      },
+      "source": {
+        "href": "https://blogs.biomedcentral.com",
+        "title": "BMC blog network"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "How to protect yourself from Asian tiger and bush mosquitoes - dw.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "How to protect yourself from Asian tiger and bush mosquitoes - dw.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRS1TVFRldS00M1FPSVExVHBFX2p5OHpKWGlPRFktZ1Z2YkxaTEZXT01nS3hPV0V5MEc2WFJ2UjJ1NVNmVW5hMzRRQ1h2MHM5UFNzZERacFpZeDZKTlR1VU9OemhFOURsRWlvODBuelcwQlNXX3FQRmhxY0ZNdl9SdnJwQ0NUMG8wbmtWX3BvOTE2YzFoUXpTRtIBmAFBVV95cUxPdFlic1pSdkZLYWdvT292Qm52WWVHRUNEQWc3NjN3RThqYzJ0Nm1MczBNWWtUNjY5dHZDcUlBNDVwQThjNkhNZGVvcS04TXp6R2dxcU1Bd1htR2N4U1hTRVNVXzdKSjZGY1lfOFJQUWdGQnpLb1F3YkkyNGpjalRsUy1xeUJ2clVMdkRGVUU1X1locHBwWG1FaQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRS1TVFRldS00M1FPSVExVHBFX2p5OHpKWGlPRFktZ1Z2YkxaTEZXT01nS3hPV0V5MEc2WFJ2UjJ1NVNmVW5hMzRRQ1h2MHM5UFNzZERacFpZeDZKTlR1VU9OemhFOURsRWlvODBuelcwQlNXX3FQRmhxY0ZNdl9SdnJwQ0NUMG8wbmtWX3BvOTE2YzFoUXpTRtIBmAFBVV95cUxPdFlic1pSdkZLYWdvT292Qm52WWVHRUNEQWc3NjN3RThqYzJ0Nm1MczBNWWtUNjY5dHZDcUlBNDVwQThjNkhNZGVvcS04TXp6R2dxcU1Bd1htR2N4U1hTRVNVXzdKSjZGY1lfOFJQUWdGQnpLb1F3YkkyNGpjalRsUy1xeUJ2clVMdkRGVUU1X1locHBwWG1FaQ?oc=5",
+      "id": "CBMimAFBVV95cUxQRS1TVFRldS00M1FPSVExVHBFX2p5OHpKWGlPRFktZ1Z2YkxaTEZXT01nS3hPV0V5MEc2WFJ2UjJ1NVNmVW5hMzRRQ1h2MHM5UFNzZERacFpZeDZKTlR1VU9OemhFOURsRWlvODBuelcwQlNXX3FQRmhxY0ZNdl9SdnJwQ0NUMG8wbmtWX3BvOTE2YzFoUXpTRtIBmAFBVV95cUxPdFlic1pSdkZLYWdvT292Qm52WWVHRUNEQWc3NjN3RThqYzJ0Nm1MczBNWWtUNjY5dHZDcUlBNDVwQThjNkhNZGVvcS04TXp6R2dxcU1Bd1htR2N4U1hTRVNVXzdKSjZGY1lfOFJQUWdGQnpLb1F3YkkyNGpjalRsUy1xeUJ2clVMdkRGVUU1X1locHBwWG1FaQ",
+      "guidislink": false,
+      "published": "Wed, 19 Aug 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        8,
+        19,
+        7,
+        0,
+        0,
+        2,
+        232,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxQRS1TVFRldS00M1FPSVExVHBFX2p5OHpKWGlPRFktZ1Z2YkxaTEZXT01nS3hPV0V5MEc2WFJ2UjJ1NVNmVW5hMzRRQ1h2MHM5UFNzZERacFpZeDZKTlR1VU9OemhFOURsRWlvODBuelcwQlNXX3FQRmhxY0ZNdl9SdnJwQ0NUMG8wbmtWX3BvOTE2YzFoUXpTRtIBmAFBVV95cUxPdFlic1pSdkZLYWdvT292Qm52WWVHRUNEQWc3NjN3RThqYzJ0Nm1MczBNWWtUNjY5dHZDcUlBNDVwQThjNkhNZGVvcS04TXp6R2dxcU1Bd1htR2N4U1hTRVNVXzdKSjZGY1lfOFJQUWdGQnpLb1F3YkkyNGpjalRsUy1xeUJ2clVMdkRGVUU1X1locHBwWG1FaQ?oc=5\" target=\"_blank\">How to protect yourself from Asian tiger and bush mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">dw.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxQRS1TVFRldS00M1FPSVExVHBFX2p5OHpKWGlPRFktZ1Z2YkxaTEZXT01nS3hPV0V5MEc2WFJ2UjJ1NVNmVW5hMzRRQ1h2MHM5UFNzZERacFpZeDZKTlR1VU9OemhFOURsRWlvODBuelcwQlNXX3FQRmhxY0ZNdl9SdnJwQ0NUMG8wbmtWX3BvOTE2YzFoUXpTRtIBmAFBVV95cUxPdFlic1pSdkZLYWdvT292Qm52WWVHRUNEQWc3NjN3RThqYzJ0Nm1MczBNWWtUNjY5dHZDcUlBNDVwQThjNkhNZGVvcS04TXp6R2dxcU1Bd1htR2N4U1hTRVNVXzdKSjZGY1lfOFJQUWdGQnpLb1F3YkkyNGpjalRsUy1xeUJ2clVMdkRGVUU1X1locHBwWG1FaQ?oc=5\" target=\"_blank\">How to protect yourself from Asian tiger and bush mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">dw.com</font>"
+      },
+      "source": {
+        "href": "https://www.dw.com",
+        "title": "dw.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "COVID-19 and pregnancy: what we know about what happens to your immune system - The Conversation",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "COVID-19 and pregnancy: what we know about what happens to your immune system - The Conversation"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQXzlKWW9mckd0elhHWTlXaFlCV1hxRjNYOGxvTjFHUmNrekd3dndjUktPaW1Da1hPMTlRc3F0dFhJR1pQeFd5aUZKdGhNMUYtVHl6bU5SRzgxQzdyZ3lBRU5sUFR1aU1fUGZiZWJUdnRDRnFHb2ppX19pVXFWVWF0VVhxRXFXd0F4cndNS3d4LU1jUkl3akhmV29XakNjQzlKaEVMSW12azhHWkoyNzFfcw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQXzlKWW9mckd0elhHWTlXaFlCV1hxRjNYOGxvTjFHUmNrekd3dndjUktPaW1Da1hPMTlRc3F0dFhJR1pQeFd5aUZKdGhNMUYtVHl6bU5SRzgxQzdyZ3lBRU5sUFR1aU1fUGZiZWJUdnRDRnFHb2ppX19pVXFWVWF0VVhxRXFXd0F4cndNS3d4LU1jUkl3akhmV29XakNjQzlKaEVMSW12azhHWkoyNzFfcw?oc=5",
+      "id": "CBMisAFBVV95cUxQXzlKWW9mckd0elhHWTlXaFlCV1hxRjNYOGxvTjFHUmNrekd3dndjUktPaW1Da1hPMTlRc3F0dFhJR1pQeFd5aUZKdGhNMUYtVHl6bU5SRzgxQzdyZ3lBRU5sUFR1aU1fUGZiZWJUdnRDRnFHb2ppX19pVXFWVWF0VVhxRXFXd0F4cndNS3d4LU1jUkl3akhmV29XakNjQzlKaEVMSW12azhHWkoyNzFfcw",
+      "guidislink": false,
+      "published": "Fri, 14 Aug 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        8,
+        14,
+        7,
+        0,
+        0,
+        4,
+        227,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQXzlKWW9mckd0elhHWTlXaFlCV1hxRjNYOGxvTjFHUmNrekd3dndjUktPaW1Da1hPMTlRc3F0dFhJR1pQeFd5aUZKdGhNMUYtVHl6bU5SRzgxQzdyZ3lBRU5sUFR1aU1fUGZiZWJUdnRDRnFHb2ppX19pVXFWVWF0VVhxRXFXd0F4cndNS3d4LU1jUkl3akhmV29XakNjQzlKaEVMSW12azhHWkoyNzFfcw?oc=5\" target=\"_blank\">COVID-19 and pregnancy: what we know about what happens to your immune system</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Conversation</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQXzlKWW9mckd0elhHWTlXaFlCV1hxRjNYOGxvTjFHUmNrekd3dndjUktPaW1Da1hPMTlRc3F0dFhJR1pQeFd5aUZKdGhNMUYtVHl6bU5SRzgxQzdyZ3lBRU5sUFR1aU1fUGZiZWJUdnRDRnFHb2ppX19pVXFWVWF0VVhxRXFXd0F4cndNS3d4LU1jUkl3akhmV29XakNjQzlKaEVMSW12azhHWkoyNzFfcw?oc=5\" target=\"_blank\">COVID-19 and pregnancy: what we know about what happens to your immune system</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Conversation</font>"
+      },
+      "source": {
+        "href": "https://theconversation.com",
+        "title": "The Conversation"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Colombia Fights Mosquito Breeding Sites With App - BORGEN Magazine",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Colombia Fights Mosquito Breeding Sites With App - BORGEN Magazine"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9PQkd4cXh0blRfUUhuTkxaVENMQm5wY1hoUDhPeWdWUXdZZmc2ZFZDcW5zY3psZUh6YjJXYlRkMjNfdHZrUjEwX2JTX1hRSXZidmpqT1JrOVhEXzVHOHIyZzlRUTRsbGpfN2NN?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9PQkd4cXh0blRfUUhuTkxaVENMQm5wY1hoUDhPeWdWUXdZZmc2ZFZDcW5zY3psZUh6YjJXYlRkMjNfdHZrUjEwX2JTX1hRSXZidmpqT1JrOVhEXzVHOHIyZzlRUTRsbGpfN2NN?oc=5",
+      "id": "CBMia0FVX3lxTE9PQkd4cXh0blRfUUhuTkxaVENMQm5wY1hoUDhPeWdWUXdZZmc2ZFZDcW5zY3psZUh6YjJXYlRkMjNfdHZrUjEwX2JTX1hRSXZidmpqT1JrOVhEXzVHOHIyZzlRUTRsbGpfN2NN",
+      "guidislink": false,
+      "published": "Fri, 21 Aug 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        8,
+        21,
+        7,
+        0,
+        0,
+        4,
+        234,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE9PQkd4cXh0blRfUUhuTkxaVENMQm5wY1hoUDhPeWdWUXdZZmc2ZFZDcW5zY3psZUh6YjJXYlRkMjNfdHZrUjEwX2JTX1hRSXZidmpqT1JrOVhEXzVHOHIyZzlRUTRsbGpfN2NN?oc=5\" target=\"_blank\">Colombia Fights Mosquito Breeding Sites With App</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BORGEN Magazine</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE9PQkd4cXh0blRfUUhuTkxaVENMQm5wY1hoUDhPeWdWUXdZZmc2ZFZDcW5zY3psZUh6YjJXYlRkMjNfdHZrUjEwX2JTX1hRSXZidmpqT1JrOVhEXzVHOHIyZzlRUTRsbGpfN2NN?oc=5\" target=\"_blank\">Colombia Fights Mosquito Breeding Sites With App</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BORGEN Magazine</font>"
+      },
+      "source": {
+        "href": "https://www.borgenmagazine.com",
+        "title": "BORGEN Magazine"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Asian tiger mosquito, another new species that can carry Zika virus, yellow fever, discovered in Redding - Record Searchlight",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Asian tiger mosquito, another new species that can carry Zika virus, yellow fever, discovered in Redding - Record Searchlight"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUkZqQVJJWWxXbnBuM0k3UzJ2dlZ0T0hyb0xReV9pVGREYXNWN1l5MUxXMjRpSFQ2RXV0UnM5UkxvV1h4MVFxZm1EQnN3Y3plaGVKTXhEclFaZ1ljUnowQWNfNklyUTE0WW54WnBwWnJXUmRQZHhkZEpRd2dCNy1jWXRVbHpINlBWZmh4V08xMWtjenBVZnVJ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUkZqQVJJWWxXbnBuM0k3UzJ2dlZ0T0hyb0xReV9pVGREYXNWN1l5MUxXMjRpSFQ2RXV0UnM5UkxvV1h4MVFxZm1EQnN3Y3plaGVKTXhEclFaZ1ljUnowQWNfNklyUTE0WW54WnBwWnJXUmRQZHhkZEpRd2dCNy1jWXRVbHpINlBWZmh4V08xMWtjenBVZnVJ?oc=5",
+      "id": "CBMilwFBVV95cUxQUkZqQVJJWWxXbnBuM0k3UzJ2dlZ0T0hyb0xReV9pVGREYXNWN1l5MUxXMjRpSFQ2RXV0UnM5UkxvV1h4MVFxZm1EQnN3Y3plaGVKTXhEclFaZ1ljUnowQWNfNklyUTE0WW54WnBwWnJXUmRQZHhkZEpRd2dCNy1jWXRVbHpINlBWZmh4V08xMWtjenBVZnVJ",
+      "guidislink": false,
+      "published": "Wed, 26 Aug 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        8,
+        26,
+        7,
+        0,
+        0,
+        2,
+        239,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxQUkZqQVJJWWxXbnBuM0k3UzJ2dlZ0T0hyb0xReV9pVGREYXNWN1l5MUxXMjRpSFQ2RXV0UnM5UkxvV1h4MVFxZm1EQnN3Y3plaGVKTXhEclFaZ1ljUnowQWNfNklyUTE0WW54WnBwWnJXUmRQZHhkZEpRd2dCNy1jWXRVbHpINlBWZmh4V08xMWtjenBVZnVJ?oc=5\" target=\"_blank\">Asian tiger mosquito, another new species that can carry Zika virus, yellow fever, discovered in Redding</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Record Searchlight</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxQUkZqQVJJWWxXbnBuM0k3UzJ2dlZ0T0hyb0xReV9pVGREYXNWN1l5MUxXMjRpSFQ2RXV0UnM5UkxvV1h4MVFxZm1EQnN3Y3plaGVKTXhEclFaZ1ljUnowQWNfNklyUTE0WW54WnBwWnJXUmRQZHhkZEpRd2dCNy1jWXRVbHpINlBWZmh4V08xMWtjenBVZnVJ?oc=5\" target=\"_blank\">Asian tiger mosquito, another new species that can carry Zika virus, yellow fever, discovered in Redding</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Record Searchlight</font>"
+      },
+      "source": {
+        "href": "https://www.redding.com",
+        "title": "Record Searchlight"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "US Biomedical Advanced Research & Development Agency Reviews Moderna's US Patents For Alleged Failure To Disclose Federal Funding - Health Policy Watch",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "US Biomedical Advanced Research & Development Agency Reviews Moderna's US Patents For Alleged Failure To Disclose Federal Funding - Health Policy Watch"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRzJ2Zkt1SnZLMG4tOVd6SW1ReGhvdnRNMi0wOTZFMmc2aWt5ZlFqdDFZdVVVV1RJWEU5MEtFVUVkcWRYZEZnS1h6RHVBejR3a29OOXpaVDJXUm1JdTN6cGNvOXZnRU04Vmx3UndHN2dFV2x2TTkxbU51RTVJNVlpaDBwRVNUSUFkV2p2N0c3eGp3RDJkSDY2S3Y1dG1PbnBTR2c?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRzJ2Zkt1SnZLMG4tOVd6SW1ReGhvdnRNMi0wOTZFMmc2aWt5ZlFqdDFZdVVVV1RJWEU5MEtFVUVkcWRYZEZnS1h6RHVBejR3a29OOXpaVDJXUm1JdTN6cGNvOXZnRU04Vmx3UndHN2dFV2x2TTkxbU51RTVJNVlpaDBwRVNUSUFkV2p2N0c3eGp3RDJkSDY2S3Y1dG1PbnBTR2c?oc=5",
+      "id": "CBMiogFBVV95cUxPRzJ2Zkt1SnZLMG4tOVd6SW1ReGhvdnRNMi0wOTZFMmc2aWt5ZlFqdDFZdVVVV1RJWEU5MEtFVUVkcWRYZEZnS1h6RHVBejR3a29OOXpaVDJXUm1JdTN6cGNvOXZnRU04Vmx3UndHN2dFV2x2TTkxbU51RTVJNVlpaDBwRVNUSUFkV2p2N0c3eGp3RDJkSDY2S3Y1dG1PbnBTR2c",
+      "guidislink": false,
+      "published": "Fri, 04 Sep 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        9,
+        4,
+        7,
+        0,
+        0,
+        4,
+        248,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxPRzJ2Zkt1SnZLMG4tOVd6SW1ReGhvdnRNMi0wOTZFMmc2aWt5ZlFqdDFZdVVVV1RJWEU5MEtFVUVkcWRYZEZnS1h6RHVBejR3a29OOXpaVDJXUm1JdTN6cGNvOXZnRU04Vmx3UndHN2dFV2x2TTkxbU51RTVJNVlpaDBwRVNUSUFkV2p2N0c3eGp3RDJkSDY2S3Y1dG1PbnBTR2c?oc=5\" target=\"_blank\">US Biomedical Advanced Research & Development Agency Reviews Moderna's US Patents For Alleged Failure To Disclose Federal Funding</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Health Policy Watch</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxPRzJ2Zkt1SnZLMG4tOVd6SW1ReGhvdnRNMi0wOTZFMmc2aWt5ZlFqdDFZdVVVV1RJWEU5MEtFVUVkcWRYZEZnS1h6RHVBejR3a29OOXpaVDJXUm1JdTN6cGNvOXZnRU04Vmx3UndHN2dFV2x2TTkxbU51RTVJNVlpaDBwRVNUSUFkV2p2N0c3eGp3RDJkSDY2S3Y1dG1PbnBTR2c?oc=5\" target=\"_blank\">US Biomedical Advanced Research & Development Agency Reviews Moderna's US Patents For Alleged Failure To Disclose Federal Funding</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Health Policy Watch</font>"
+      },
+      "source": {
+        "href": "https://healthpolicy-watch.news",
+        "title": "Health Policy Watch"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "The Worst Animal in the World - The Atlantic",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "The Worst Animal in the World - The Atlantic"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRk1tT3JnX2h1YWhUcDFmdXFKdmNLR1dNMlBCZXNHRW5taUZTTGZaNzl0MHNTRzg1WXE2ZU5rNHdvS3V6OWRsanYtb2dyVUtaNUdOMElDOThFSElvWVMteUM2RWFWMm83dzZsbE5uQ1Q5R010SnpwZlNqSVZxQjlZV2hyUzVjMTJKM0ZoeVBsMFMwR2RXWFZMOFpiRjJxR3JpckJV?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRk1tT3JnX2h1YWhUcDFmdXFKdmNLR1dNMlBCZXNHRW5taUZTTGZaNzl0MHNTRzg1WXE2ZU5rNHdvS3V6OWRsanYtb2dyVUtaNUdOMElDOThFSElvWVMteUM2RWFWMm83dzZsbE5uQ1Q5R010SnpwZlNqSVZxQjlZV2hyUzVjMTJKM0ZoeVBsMFMwR2RXWFZMOFpiRjJxR3JpckJV?oc=5",
+      "id": "CBMiowFBVV95cUxPRk1tT3JnX2h1YWhUcDFmdXFKdmNLR1dNMlBCZXNHRW5taUZTTGZaNzl0MHNTRzg1WXE2ZU5rNHdvS3V6OWRsanYtb2dyVUtaNUdOMElDOThFSElvWVMteUM2RWFWMm83dzZsbE5uQ1Q5R010SnpwZlNqSVZxQjlZV2hyUzVjMTJKM0ZoeVBsMFMwR2RXWFZMOFpiRjJxR3JpckJV",
+      "guidislink": false,
+      "published": "Thu, 20 Aug 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        8,
+        20,
+        7,
+        0,
+        0,
+        3,
+        233,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxPRk1tT3JnX2h1YWhUcDFmdXFKdmNLR1dNMlBCZXNHRW5taUZTTGZaNzl0MHNTRzg1WXE2ZU5rNHdvS3V6OWRsanYtb2dyVUtaNUdOMElDOThFSElvWVMteUM2RWFWMm83dzZsbE5uQ1Q5R010SnpwZlNqSVZxQjlZV2hyUzVjMTJKM0ZoeVBsMFMwR2RXWFZMOFpiRjJxR3JpckJV?oc=5\" target=\"_blank\">The Worst Animal in the World</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Atlantic</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxPRk1tT3JnX2h1YWhUcDFmdXFKdmNLR1dNMlBCZXNHRW5taUZTTGZaNzl0MHNTRzg1WXE2ZU5rNHdvS3V6OWRsanYtb2dyVUtaNUdOMElDOThFSElvWVMteUM2RWFWMm83dzZsbE5uQ1Q5R010SnpwZlNqSVZxQjlZV2hyUzVjMTJKM0ZoeVBsMFMwR2RXWFZMOFpiRjJxR3JpckJV?oc=5\" target=\"_blank\">The Worst Animal in the World</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Atlantic</font>"
+      },
+      "source": {
+        "href": "https://www.theatlantic.com",
+        "title": "The Atlantic"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Florida Approves Mosquito Release to Curb Spread of Viruses - Genetic Engineering and Biotechnology News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Florida Approves Mosquito Release to Curb Spread of Viruses - Genetic Engineering and Biotechnology News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMWc4Wmd1QWxVVEh3a1daQ2otV3lCSVNJMkRkTTIxMGlqVm5ueWk0UWRUMzNFZFp4RFV1V0stMjJnR1JYbFlmMHNrODV2ZERFdlF0X1MxRzFzeTFEUmdDOXg3Vng0WlFvQXV4a3ZaekhOdXQ3Tlozbkl5TkhmRjNmQm1VU2xGLU1RYzZYcHFtMkRHeGZXYkUw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMWc4Wmd1QWxVVEh3a1daQ2otV3lCSVNJMkRkTTIxMGlqVm5ueWk0UWRUMzNFZFp4RFV1V0stMjJnR1JYbFlmMHNrODV2ZERFdlF0X1MxRzFzeTFEUmdDOXg3Vng0WlFvQXV4a3ZaekhOdXQ3Tlozbkl5TkhmRjNmQm1VU2xGLU1RYzZYcHFtMkRHeGZXYkUw?oc=5",
+      "id": "CBMilwFBVV95cUxNMWc4Wmd1QWxVVEh3a1daQ2otV3lCSVNJMkRkTTIxMGlqVm5ueWk0UWRUMzNFZFp4RFV1V0stMjJnR1JYbFlmMHNrODV2ZERFdlF0X1MxRzFzeTFEUmdDOXg3Vng0WlFvQXV4a3ZaekhOdXQ3Tlozbkl5TkhmRjNmQm1VU2xGLU1RYzZYcHFtMkRHeGZXYkUw",
+      "guidislink": false,
+      "published": "Fri, 21 Aug 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        8,
+        21,
+        7,
+        0,
+        0,
+        4,
+        234,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxNMWc4Wmd1QWxVVEh3a1daQ2otV3lCSVNJMkRkTTIxMGlqVm5ueWk0UWRUMzNFZFp4RFV1V0stMjJnR1JYbFlmMHNrODV2ZERFdlF0X1MxRzFzeTFEUmdDOXg3Vng0WlFvQXV4a3ZaekhOdXQ3Tlozbkl5TkhmRjNmQm1VU2xGLU1RYzZYcHFtMkRHeGZXYkUw?oc=5\" target=\"_blank\">Florida Approves Mosquito Release to Curb Spread of Viruses</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Genetic Engineering and Biotechnology News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxNMWc4Wmd1QWxVVEh3a1daQ2otV3lCSVNJMkRkTTIxMGlqVm5ueWk0UWRUMzNFZFp4RFV1V0stMjJnR1JYbFlmMHNrODV2ZERFdlF0X1MxRzFzeTFEUmdDOXg3Vng0WlFvQXV4a3ZaekhOdXQ3Tlozbkl5TkhmRjNmQm1VU2xGLU1RYzZYcHFtMkRHeGZXYkUw?oc=5\" target=\"_blank\">Florida Approves Mosquito Release to Curb Spread of Viruses</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Genetic Engineering and Biotechnology News</font>"
+      },
+      "source": {
+        "href": "https://www.genengnews.com",
+        "title": "Genetic Engineering and Biotechnology News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Breakthrough in eliminating dengue, other mosquito-borne diseases - University of California, Berkeley",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Breakthrough in eliminating dengue, other mosquito-borne diseases - University of California, Berkeley"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZXBYZHpxZnBPcmM4XzYyWmN1NWxrZVFjYktzNm5idDI4NF84R0c5aFB2RXljbGppMDhyQlVLVzIwZHJHVE0wUUptbnN4Y2pvVm9EQWp4d0c3emVxTTZCTWRzRVQxbU9EdzZfclpBUFJkREV1RUtmcXJsd1hsdFUtRWpMVWh0dXduOTlUb1o5MzgwdjB0dGtLck15aHVYdE8xckVScg?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZXBYZHpxZnBPcmM4XzYyWmN1NWxrZVFjYktzNm5idDI4NF84R0c5aFB2RXljbGppMDhyQlVLVzIwZHJHVE0wUUptbnN4Y2pvVm9EQWp4d0c3emVxTTZCTWRzRVQxbU9EdzZfclpBUFJkREV1RUtmcXJsd1hsdFUtRWpMVWh0dXduOTlUb1o5MzgwdjB0dGtLck15aHVYdE8xckVScg?oc=5",
+      "id": "CBMipAFBVV95cUxOZXBYZHpxZnBPcmM4XzYyWmN1NWxrZVFjYktzNm5idDI4NF84R0c5aFB2RXljbGppMDhyQlVLVzIwZHJHVE0wUUptbnN4Y2pvVm9EQWp4d0c3emVxTTZCTWRzRVQxbU9EdzZfclpBUFJkREV1RUtmcXJsd1hsdFUtRWpMVWh0dXduOTlUb1o5MzgwdjB0dGtLck15aHVYdE8xckVScg",
+      "guidislink": false,
+      "published": "Wed, 26 Aug 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        8,
+        26,
+        7,
+        0,
+        0,
+        2,
+        239,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxOZXBYZHpxZnBPcmM4XzYyWmN1NWxrZVFjYktzNm5idDI4NF84R0c5aFB2RXljbGppMDhyQlVLVzIwZHJHVE0wUUptbnN4Y2pvVm9EQWp4d0c3emVxTTZCTWRzRVQxbU9EdzZfclpBUFJkREV1RUtmcXJsd1hsdFUtRWpMVWh0dXduOTlUb1o5MzgwdjB0dGtLck15aHVYdE8xckVScg?oc=5\" target=\"_blank\">Breakthrough in eliminating dengue, other mosquito-borne diseases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of California, Berkeley</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxOZXBYZHpxZnBPcmM4XzYyWmN1NWxrZVFjYktzNm5idDI4NF84R0c5aFB2RXljbGppMDhyQlVLVzIwZHJHVE0wUUptbnN4Y2pvVm9EQWp4d0c3emVxTTZCTWRzRVQxbU9EdzZfclpBUFJkREV1RUtmcXJsd1hsdFUtRWpMVWh0dXduOTlUb1o5MzgwdjB0dGtLck15aHVYdE8xckVScg?oc=5\" target=\"_blank\">Breakthrough in eliminating dengue, other mosquito-borne diseases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of California, Berkeley</font>"
+      },
+      "source": {
+        "href": "https://news.berkeley.edu",
+        "title": "University of California, Berkeley"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "ZAP Endurance to sell Blowing Rock facility and grounds - Watauga Democrat",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "ZAP Endurance to sell Blowing Rock facility and grounds - Watauga Democrat"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOd2thTTZqb25qQUlSU2VHMjRGQ2tHZGF3Q28zV05XOXFGb01rdDFua19tX3I4SjlvSXpvVDBUSW5acjhvVkh0ZnVscmhUcFVYVFd5VjROb3FFUUhxeDVXTlhCMWNab3lwbFEyM19iVnpuWk5XRlNVWkFMYVpTY0tCX1hONG5QemFJVDlYUUZ6VzdJc2lZRTlZaEk0VDVjbzJyaGZtSEFTSzkybENUeTd3VjlYSV9BeHlFajlhel9mM21Rc09HcG9iV2VFczZULW05Wi1aZ2NrV3lnbms0?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOd2thTTZqb25qQUlSU2VHMjRGQ2tHZGF3Q28zV05XOXFGb01rdDFua19tX3I4SjlvSXpvVDBUSW5acjhvVkh0ZnVscmhUcFVYVFd5VjROb3FFUUhxeDVXTlhCMWNab3lwbFEyM19iVnpuWk5XRlNVWkFMYVpTY0tCX1hONG5QemFJVDlYUUZ6VzdJc2lZRTlZaEk0VDVjbzJyaGZtSEFTSzkybENUeTd3VjlYSV9BeHlFajlhel9mM21Rc09HcG9iV2VFczZULW05Wi1aZ2NrV3lnbms0?oc=5",
+      "id": "CBMi3AFBVV95cUxOd2thTTZqb25qQUlSU2VHMjRGQ2tHZGF3Q28zV05XOXFGb01rdDFua19tX3I4SjlvSXpvVDBUSW5acjhvVkh0ZnVscmhUcFVYVFd5VjROb3FFUUhxeDVXTlhCMWNab3lwbFEyM19iVnpuWk5XRlNVWkFMYVpTY0tCX1hONG5QemFJVDlYUUZ6VzdJc2lZRTlZaEk0VDVjbzJyaGZtSEFTSzkybENUeTd3VjlYSV9BeHlFajlhel9mM21Rc09HcG9iV2VFczZULW05Wi1aZ2NrV3lnbms0",
+      "guidislink": false,
+      "published": "Wed, 02 Sep 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        9,
+        2,
+        7,
+        0,
+        0,
+        2,
+        246,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxOd2thTTZqb25qQUlSU2VHMjRGQ2tHZGF3Q28zV05XOXFGb01rdDFua19tX3I4SjlvSXpvVDBUSW5acjhvVkh0ZnVscmhUcFVYVFd5VjROb3FFUUhxeDVXTlhCMWNab3lwbFEyM19iVnpuWk5XRlNVWkFMYVpTY0tCX1hONG5QemFJVDlYUUZ6VzdJc2lZRTlZaEk0VDVjbzJyaGZtSEFTSzkybENUeTd3VjlYSV9BeHlFajlhel9mM21Rc09HcG9iV2VFczZULW05Wi1aZ2NrV3lnbms0?oc=5\" target=\"_blank\">ZAP Endurance to sell Blowing Rock facility and grounds</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Watauga Democrat</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxOd2thTTZqb25qQUlSU2VHMjRGQ2tHZGF3Q28zV05XOXFGb01rdDFua19tX3I4SjlvSXpvVDBUSW5acjhvVkh0ZnVscmhUcFVYVFd5VjROb3FFUUhxeDVXTlhCMWNab3lwbFEyM19iVnpuWk5XRlNVWkFMYVpTY0tCX1hONG5QemFJVDlYUUZ6VzdJc2lZRTlZaEk0VDVjbzJyaGZtSEFTSzkybENUeTd3VjlYSV9BeHlFajlhel9mM21Rc09HcG9iV2VFczZULW05Wi1aZ2NrV3lnbms0?oc=5\" target=\"_blank\">ZAP Endurance to sell Blowing Rock facility and grounds</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Watauga Democrat</font>"
+      },
+      "source": {
+        "href": "https://www.wataugademocrat.com",
+        "title": "Watauga Democrat"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "750 million genetically engineered mosquitoes approved for release in Florida Keys - CNN",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "750 million genetically engineered mosquitoes approved for release in Florida Keys - CNN"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPbHJ3Qk5rX3VNdXJBc1kxcEVTR0RGSm82SGpsb1hVajlzY1ZhVjhiZFNoMEdoWG42djhDcHVPTEhNTHFfRnNGU21qRFNBUjZYa3hDWDhRNGtSRm5vY0NDaFAwQ2gyMlA3bFFHR0F4U1JPNlVESExPYk9FQjBaQlZOWlE4TFNLUjRZY3c?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPbHJ3Qk5rX3VNdXJBc1kxcEVTR0RGSm82SGpsb1hVajlzY1ZhVjhiZFNoMEdoWG42djhDcHVPTEhNTHFfRnNGU21qRFNBUjZYa3hDWDhRNGtSRm5vY0NDaFAwQ2gyMlA3bFFHR0F4U1JPNlVESExPYk9FQjBaQlZOWlE4TFNLUjRZY3c?oc=5",
+      "id": "CBMiigFBVV95cUxPbHJ3Qk5rX3VNdXJBc1kxcEVTR0RGSm82SGpsb1hVajlzY1ZhVjhiZFNoMEdoWG42djhDcHVPTEhNTHFfRnNGU21qRFNBUjZYa3hDWDhRNGtSRm5vY0NDaFAwQ2gyMlA3bFFHR0F4U1JPNlVESExPYk9FQjBaQlZOWlE4TFNLUjRZY3c",
+      "guidislink": false,
+      "published": "Thu, 20 Aug 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        8,
+        20,
+        7,
+        0,
+        0,
+        3,
+        233,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxPbHJ3Qk5rX3VNdXJBc1kxcEVTR0RGSm82SGpsb1hVajlzY1ZhVjhiZFNoMEdoWG42djhDcHVPTEhNTHFfRnNGU21qRFNBUjZYa3hDWDhRNGtSRm5vY0NDaFAwQ2gyMlA3bFFHR0F4U1JPNlVESExPYk9FQjBaQlZOWlE4TFNLUjRZY3c?oc=5\" target=\"_blank\">750 million genetically engineered mosquitoes approved for release in Florida Keys</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNN</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxPbHJ3Qk5rX3VNdXJBc1kxcEVTR0RGSm82SGpsb1hVajlzY1ZhVjhiZFNoMEdoWG42djhDcHVPTEhNTHFfRnNGU21qRFNBUjZYa3hDWDhRNGtSRm5vY0NDaFAwQ2gyMlA3bFFHR0F4U1JPNlVESExPYk9FQjBaQlZOWlE4TFNLUjRZY3c?oc=5\" target=\"_blank\">750 million genetically engineered mosquitoes approved for release in Florida Keys</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNN</font>"
+      },
+      "source": {
+        "href": "https://www.cnn.com",
+        "title": "CNN"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Mosquitoes able to spread yellow fever, other diseases found in Turlock, Ceres - Turlock Journal",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Mosquitoes able to spread yellow fever, other diseases found in Turlock, Ceres - Turlock Journal"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORmlwRnJ4N182NjhCaFF0N0lMRlRoS3V6NnJuVDNlb3B1ZnFKSUJwTWFSTk9XNnhISi1UVFBzakZSQ21oeDZ0WGxGdVVRaU5YVk04WFlXeUYtZlAtbGp6MHc1dEc1Q3VmZjFnMUJMM3dUTTZhMUs3cVhkbjBsSl9CY3RYZC1Wbk02NWIyVmdqT0ZoR2VEMGJHeW5tQUpDSTRTVVhhNWtkQ0xYUlFucXlvdnpmOA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORmlwRnJ4N182NjhCaFF0N0lMRlRoS3V6NnJuVDNlb3B1ZnFKSUJwTWFSTk9XNnhISi1UVFBzakZSQ21oeDZ0WGxGdVVRaU5YVk04WFlXeUYtZlAtbGp6MHc1dEc1Q3VmZjFnMUJMM3dUTTZhMUs3cVhkbjBsSl9CY3RYZC1Wbk02NWIyVmdqT0ZoR2VEMGJHeW5tQUpDSTRTVVhhNWtkQ0xYUlFucXlvdnpmOA?oc=5",
+      "id": "CBMiswFBVV95cUxORmlwRnJ4N182NjhCaFF0N0lMRlRoS3V6NnJuVDNlb3B1ZnFKSUJwTWFSTk9XNnhISi1UVFBzakZSQ21oeDZ0WGxGdVVRaU5YVk04WFlXeUYtZlAtbGp6MHc1dEc1Q3VmZjFnMUJMM3dUTTZhMUs3cVhkbjBsSl9CY3RYZC1Wbk02NWIyVmdqT0ZoR2VEMGJHeW5tQUpDSTRTVVhhNWtkQ0xYUlFucXlvdnpmOA",
+      "guidislink": false,
+      "published": "Tue, 18 Aug 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        8,
+        18,
+        7,
+        0,
+        0,
+        1,
+        231,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxORmlwRnJ4N182NjhCaFF0N0lMRlRoS3V6NnJuVDNlb3B1ZnFKSUJwTWFSTk9XNnhISi1UVFBzakZSQ21oeDZ0WGxGdVVRaU5YVk04WFlXeUYtZlAtbGp6MHc1dEc1Q3VmZjFnMUJMM3dUTTZhMUs3cVhkbjBsSl9CY3RYZC1Wbk02NWIyVmdqT0ZoR2VEMGJHeW5tQUpDSTRTVVhhNWtkQ0xYUlFucXlvdnpmOA?oc=5\" target=\"_blank\">Mosquitoes able to spread yellow fever, other diseases found in Turlock, Ceres</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Turlock Journal</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxORmlwRnJ4N182NjhCaFF0N0lMRlRoS3V6NnJuVDNlb3B1ZnFKSUJwTWFSTk9XNnhISi1UVFBzakZSQ21oeDZ0WGxGdVVRaU5YVk04WFlXeUYtZlAtbGp6MHc1dEc1Q3VmZjFnMUJMM3dUTTZhMUs3cVhkbjBsSl9CY3RYZC1Wbk02NWIyVmdqT0ZoR2VEMGJHeW5tQUpDSTRTVVhhNWtkQ0xYUlFucXlvdnpmOA?oc=5\" target=\"_blank\">Mosquitoes able to spread yellow fever, other diseases found in Turlock, Ceres</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Turlock Journal</font>"
+      },
+      "source": {
+        "href": "https://www.turlockjournal.com",
+        "title": "Turlock Journal"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Obituary: Mary Lou (Salisbury) Thompson - WTAP",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Obituary: Mary Lou (Salisbury) Thompson - WTAP"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5EQVpMUlBFZ280enc1QmVFaVBIMnFmQVRfdUJ1aDBFTlEzak9GMUljbXZmR0pLZ3FWRXB6Z1lXelNuVEg0QUR2cG5YM3BJc2RCU3RROGphUEdtM01tWmZrN2VEYjdzWDI2czRGT0RRQUVmVW9JN2FNR9IBjAFBVV95cUxOZWx3cDEtWFZPQUFMeUtPSkw2ejFncTY4TmFTeFRLNF9JM1c3RDk0UlE5RWRGcWJiUnhJWF9VRWtkRjlWTDJ3RndsUWNQd0VwdTIxRHV1SmFGeTJkQjVZMElhVV9ycXAyczlGRjMxUkh1WTBGRTNHZVFKVmtmV0czTjgtT01MR1pnNFNqSw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5EQVpMUlBFZ280enc1QmVFaVBIMnFmQVRfdUJ1aDBFTlEzak9GMUljbXZmR0pLZ3FWRXB6Z1lXelNuVEg0QUR2cG5YM3BJc2RCU3RROGphUEdtM01tWmZrN2VEYjdzWDI2czRGT0RRQUVmVW9JN2FNR9IBjAFBVV95cUxOZWx3cDEtWFZPQUFMeUtPSkw2ejFncTY4TmFTeFRLNF9JM1c3RDk0UlE5RWRGcWJiUnhJWF9VRWtkRjlWTDJ3RndsUWNQd0VwdTIxRHV1SmFGeTJkQjVZMElhVV9ycXAyczlGRjMxUkh1WTBGRTNHZVFKVmtmV0czTjgtT01MR1pnNFNqSw?oc=5",
+      "id": "CBMieEFVX3lxTE5EQVpMUlBFZ280enc1QmVFaVBIMnFmQVRfdUJ1aDBFTlEzak9GMUljbXZmR0pLZ3FWRXB6Z1lXelNuVEg0QUR2cG5YM3BJc2RCU3RROGphUEdtM01tWmZrN2VEYjdzWDI2czRGT0RRQUVmVW9JN2FNR9IBjAFBVV95cUxOZWx3cDEtWFZPQUFMeUtPSkw2ejFncTY4TmFTeFRLNF9JM1c3RDk0UlE5RWRGcWJiUnhJWF9VRWtkRjlWTDJ3RndsUWNQd0VwdTIxRHV1SmFGeTJkQjVZMElhVV9ycXAyczlGRjMxUkh1WTBGRTNHZVFKVmtmV0czTjgtT01MR1pnNFNqSw",
+      "guidislink": false,
+      "published": "Wed, 12 Aug 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        8,
+        12,
+        7,
+        0,
+        0,
+        2,
+        225,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE5EQVpMUlBFZ280enc1QmVFaVBIMnFmQVRfdUJ1aDBFTlEzak9GMUljbXZmR0pLZ3FWRXB6Z1lXelNuVEg0QUR2cG5YM3BJc2RCU3RROGphUEdtM01tWmZrN2VEYjdzWDI2czRGT0RRQUVmVW9JN2FNR9IBjAFBVV95cUxOZWx3cDEtWFZPQUFMeUtPSkw2ejFncTY4TmFTeFRLNF9JM1c3RDk0UlE5RWRGcWJiUnhJWF9VRWtkRjlWTDJ3RndsUWNQd0VwdTIxRHV1SmFGeTJkQjVZMElhVV9ycXAyczlGRjMxUkh1WTBGRTNHZVFKVmtmV0czTjgtT01MR1pnNFNqSw?oc=5\" target=\"_blank\">Obituary: Mary Lou (Salisbury) Thompson</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WTAP</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE5EQVpMUlBFZ280enc1QmVFaVBIMnFmQVRfdUJ1aDBFTlEzak9GMUljbXZmR0pLZ3FWRXB6Z1lXelNuVEg0QUR2cG5YM3BJc2RCU3RROGphUEdtM01tWmZrN2VEYjdzWDI2czRGT0RRQUVmVW9JN2FNR9IBjAFBVV95cUxOZWx3cDEtWFZPQUFMeUtPSkw2ejFncTY4TmFTeFRLNF9JM1c3RDk0UlE5RWRGcWJiUnhJWF9VRWtkRjlWTDJ3RndsUWNQd0VwdTIxRHV1SmFGeTJkQjVZMElhVV9ycXAyczlGRjMxUkh1WTBGRTNHZVFKVmtmV0czTjgtT01MR1pnNFNqSw?oc=5\" target=\"_blank\">Obituary: Mary Lou (Salisbury) Thompson</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WTAP</font>"
+      },
+      "source": {
+        "href": "https://www.wtap.com",
+        "title": "WTAP"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "750 Million Genetically Modified Mosquitoes Will Be Unleashed In Florida - bgr.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "750 Million Genetically Modified Mosquitoes Will Be Unleashed In Florida - bgr.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8tSzhqbDlPSVFUSmRiNHNiZHVzdmhHSGpqRHp6d1pUZk81THlhY1RWR0s3Y01laTJndFR4TDU0TV9OT2R4S2hiOUFjeFNubko4c2xnUlpaMGVaWlR5UEdCb1E2aF9zQlVQWVdIYndCaDhCdGJBdTAw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8tSzhqbDlPSVFUSmRiNHNiZHVzdmhHSGpqRHp6d1pUZk81THlhY1RWR0s3Y01laTJndFR4TDU0TV9OT2R4S2hiOUFjeFNubko4c2xnUlpaMGVaWlR5UEdCb1E2aF9zQlVQWVdIYndCaDhCdGJBdTAw?oc=5",
+      "id": "CBMid0FVX3lxTE8tSzhqbDlPSVFUSmRiNHNiZHVzdmhHSGpqRHp6d1pUZk81THlhY1RWR0s3Y01laTJndFR4TDU0TV9OT2R4S2hiOUFjeFNubko4c2xnUlpaMGVaWlR5UEdCb1E2aF9zQlVQWVdIYndCaDhCdGJBdTAw",
+      "guidislink": false,
+      "published": "Fri, 21 Aug 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        8,
+        21,
+        7,
+        0,
+        0,
+        4,
+        234,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE8tSzhqbDlPSVFUSmRiNHNiZHVzdmhHSGpqRHp6d1pUZk81THlhY1RWR0s3Y01laTJndFR4TDU0TV9OT2R4S2hiOUFjeFNubko4c2xnUlpaMGVaWlR5UEdCb1E2aF9zQlVQWVdIYndCaDhCdGJBdTAw?oc=5\" target=\"_blank\">750 Million Genetically Modified Mosquitoes Will Be Unleashed In Florida</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bgr.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE8tSzhqbDlPSVFUSmRiNHNiZHVzdmhHSGpqRHp6d1pUZk81THlhY1RWR0s3Y01laTJndFR4TDU0TV9OT2R4S2hiOUFjeFNubko4c2xnUlpaMGVaWlR5UEdCb1E2aF9zQlVQWVdIYndCaDhCdGJBdTAw?oc=5\" target=\"_blank\">750 Million Genetically Modified Mosquitoes Will Be Unleashed In Florida</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bgr.com</font>"
+      },
+      "source": {
+        "href": "https://www.bgr.com",
+        "title": "bgr.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Florida to release 750m genetically modified mosquitoes - Diario AS",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Florida to release 750m genetically modified mosquitoes - Diario AS"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5hWThwZWljQ0k4c29xVllmazJtazVsUTdMVHg2bGxaRmYwSkV5NXJIcDRUX1dZZ1BxZ3ZkbHJHanZ4ODlMRUxocnE4NmxOQTJsb2NRYXdfc1B0cEhCcjNEMWljVXlGY014RXlHUlJJbjh1dHM50gGIAUFVX3lxTE9PRldqNy1MSVIwZWoyX2tGNjdIcUxSejhjdWtoUTJJRDZCVkxFT1l0SkdkN0FibEhaRlZIV3kyWFlockNlbzg3NXdsQlNMVGZjdjFQczV0VzNZNHF6Z09zSmNDdUJjZ1EyeVh5TkJfYmJyU29Ub0RkRUtZMXRDMFM2NUZwczJaWlQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5hWThwZWljQ0k4c29xVllmazJtazVsUTdMVHg2bGxaRmYwSkV5NXJIcDRUX1dZZ1BxZ3ZkbHJHanZ4ODlMRUxocnE4NmxOQTJsb2NRYXdfc1B0cEhCcjNEMWljVXlGY014RXlHUlJJbjh1dHM50gGIAUFVX3lxTE9PRldqNy1MSVIwZWoyX2tGNjdIcUxSejhjdWtoUTJJRDZCVkxFT1l0SkdkN0FibEhaRlZIV3kyWFlockNlbzg3NXdsQlNMVGZjdjFQczV0VzNZNHF6Z09zSmNDdUJjZ1EyeVh5TkJfYmJyU29Ub0RkRUtZMXRDMFM2NUZwczJaWlQ?oc=5",
+      "id": "CBMidEFVX3lxTE5hWThwZWljQ0k4c29xVllmazJtazVsUTdMVHg2bGxaRmYwSkV5NXJIcDRUX1dZZ1BxZ3ZkbHJHanZ4ODlMRUxocnE4NmxOQTJsb2NRYXdfc1B0cEhCcjNEMWljVXlGY014RXlHUlJJbjh1dHM50gGIAUFVX3lxTE9PRldqNy1MSVIwZWoyX2tGNjdIcUxSejhjdWtoUTJJRDZCVkxFT1l0SkdkN0FibEhaRlZIV3kyWFlockNlbzg3NXdsQlNMVGZjdjFQczV0VzNZNHF6Z09zSmNDdUJjZ1EyeVh5TkJfYmJyU29Ub0RkRUtZMXRDMFM2NUZwczJaWlQ",
+      "guidislink": false,
+      "published": "Fri, 21 Aug 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        8,
+        21,
+        7,
+        0,
+        0,
+        4,
+        234,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE5hWThwZWljQ0k4c29xVllmazJtazVsUTdMVHg2bGxaRmYwSkV5NXJIcDRUX1dZZ1BxZ3ZkbHJHanZ4ODlMRUxocnE4NmxOQTJsb2NRYXdfc1B0cEhCcjNEMWljVXlGY014RXlHUlJJbjh1dHM50gGIAUFVX3lxTE9PRldqNy1MSVIwZWoyX2tGNjdIcUxSejhjdWtoUTJJRDZCVkxFT1l0SkdkN0FibEhaRlZIV3kyWFlockNlbzg3NXdsQlNMVGZjdjFQczV0VzNZNHF6Z09zSmNDdUJjZ1EyeVh5TkJfYmJyU29Ub0RkRUtZMXRDMFM2NUZwczJaWlQ?oc=5\" target=\"_blank\">Florida to release 750m genetically modified mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Diario AS</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE5hWThwZWljQ0k4c29xVllmazJtazVsUTdMVHg2bGxaRmYwSkV5NXJIcDRUX1dZZ1BxZ3ZkbHJHanZ4ODlMRUxocnE4NmxOQTJsb2NRYXdfc1B0cEhCcjNEMWljVXlGY014RXlHUlJJbjh1dHM50gGIAUFVX3lxTE9PRldqNy1MSVIwZWoyX2tGNjdIcUxSejhjdWtoUTJJRDZCVkxFT1l0SkdkN0FibEhaRlZIV3kyWFlockNlbzg3NXdsQlNMVGZjdjFQczV0VzNZNHF6Z09zSmNDdUJjZ1EyeVh5TkJfYmJyU29Ub0RkRUtZMXRDMFM2NUZwczJaWlQ?oc=5\" target=\"_blank\">Florida to release 750m genetically modified mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Diario AS</font>"
+      },
+      "source": {
+        "href": "https://en.as.com",
+        "title": "Diario AS"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "‘Jurassic Park experiment’: 750 million genetically engineered mosquitoes to be released in Florida - The Independent",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "‘Jurassic Park experiment’: 750 million genetically engineered mosquitoes to be released in Florida - The Independent"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVGhsUmFsaVBsR0lLSWNQZmU1YURuRGhxRmMzQUVZQnR5OHBUUWlTVDI0aEd3bHpzWWxJcDVnN3NtYklaWmJaZ0QweXh2VWFnck1ZOXhjZV9lNW9rME1USEVocXNzdUkwc0RHUHUyUVVOWkZNcnpoTzFESlVlc1paUzV0bFJSQ1VTODE3aUFTX1hJX0VocUJ5Z0JfMjRUczJ0NURVaUU0QjZ0cmVWWlFqR0Y2SUliOFktdERzWnFpYlNWWnR3S1NGS21WeVNsQ0ND?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVGhsUmFsaVBsR0lLSWNQZmU1YURuRGhxRmMzQUVZQnR5OHBUUWlTVDI0aEd3bHpzWWxJcDVnN3NtYklaWmJaZ0QweXh2VWFnck1ZOXhjZV9lNW9rME1USEVocXNzdUkwc0RHUHUyUVVOWkZNcnpoTzFESlVlc1paUzV0bFJSQ1VTODE3aUFTX1hJX0VocUJ5Z0JfMjRUczJ0NURVaUU0QjZ0cmVWWlFqR0Y2SUliOFktdERzWnFpYlNWWnR3S1NGS21WeVNsQ0ND?oc=5",
+      "id": "CBMi0AFBVV95cUxPVGhsUmFsaVBsR0lLSWNQZmU1YURuRGhxRmMzQUVZQnR5OHBUUWlTVDI0aEd3bHpzWWxJcDVnN3NtYklaWmJaZ0QweXh2VWFnck1ZOXhjZV9lNW9rME1USEVocXNzdUkwc0RHUHUyUVVOWkZNcnpoTzFESlVlc1paUzV0bFJSQ1VTODE3aUFTX1hJX0VocUJ5Z0JfMjRUczJ0NURVaUU0QjZ0cmVWWlFqR0Y2SUliOFktdERzWnFpYlNWWnR3S1NGS21WeVNsQ0ND",
+      "guidislink": false,
+      "published": "Thu, 20 Aug 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        8,
+        20,
+        7,
+        0,
+        0,
+        3,
+        233,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVGhsUmFsaVBsR0lLSWNQZmU1YURuRGhxRmMzQUVZQnR5OHBUUWlTVDI0aEd3bHpzWWxJcDVnN3NtYklaWmJaZ0QweXh2VWFnck1ZOXhjZV9lNW9rME1USEVocXNzdUkwc0RHUHUyUVVOWkZNcnpoTzFESlVlc1paUzV0bFJSQ1VTODE3aUFTX1hJX0VocUJ5Z0JfMjRUczJ0NURVaUU0QjZ0cmVWWlFqR0Y2SUliOFktdERzWnFpYlNWWnR3S1NGS21WeVNsQ0ND?oc=5\" target=\"_blank\">‘Jurassic Park experiment’: 750 million genetically engineered mosquitoes to be released in Florida</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Independent</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVGhsUmFsaVBsR0lLSWNQZmU1YURuRGhxRmMzQUVZQnR5OHBUUWlTVDI0aEd3bHpzWWxJcDVnN3NtYklaWmJaZ0QweXh2VWFnck1ZOXhjZV9lNW9rME1USEVocXNzdUkwc0RHUHUyUVVOWkZNcnpoTzFESlVlc1paUzV0bFJSQ1VTODE3aUFTX1hJX0VocUJ5Z0JfMjRUczJ0NURVaUU0QjZ0cmVWWlFqR0Y2SUliOFktdERzWnFpYlNWWnR3S1NGS21WeVNsQ0ND?oc=5\" target=\"_blank\">‘Jurassic Park experiment’: 750 million genetically engineered mosquitoes to be released in Florida</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Independent</font>"
+      },
+      "source": {
+        "href": "https://www.independent.co.uk",
+        "title": "The Independent"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "750 milyan oo Kaneeco oo lagu sii deynayo Florida - BBC",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "750 milyan oo Kaneeco oo lagu sii deynayo Florida - BBC"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE84YTdtZG04bU5DZVU4cEZxcjR6UkZHa21xSG9oYzUwSWhUS2tpTWxpd25xTDZibHNtLU1YZm5NQk9uT1Q3WGp6dmMzZHpmV2130gFWQVVfeXFMUDdqaDU3dXpqSmJiVjVSV0VXVzE0Z1A4bW9KX2lkLXlMMTR1bzRBNGdtNzB5VnlMbGs1NXBxZzkwQUlFdHA5cW4zX2pjWjFFUmFUMzQ1QWc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE84YTdtZG04bU5DZVU4cEZxcjR6UkZHa21xSG9oYzUwSWhUS2tpTWxpd25xTDZibHNtLU1YZm5NQk9uT1Q3WGp6dmMzZHpmV2130gFWQVVfeXFMUDdqaDU3dXpqSmJiVjVSV0VXVzE0Z1A4bW9KX2lkLXlMMTR1bzRBNGdtNzB5VnlMbGs1NXBxZzkwQUlFdHA5cW4zX2pjWjFFUmFUMzQ1QWc?oc=5",
+      "id": "CBMiUEFVX3lxTE84YTdtZG04bU5DZVU4cEZxcjR6UkZHa21xSG9oYzUwSWhUS2tpTWxpd25xTDZibHNtLU1YZm5NQk9uT1Q3WGp6dmMzZHpmV2130gFWQVVfeXFMUDdqaDU3dXpqSmJiVjVSV0VXVzE0Z1A4bW9KX2lkLXlMMTR1bzRBNGdtNzB5VnlMbGs1NXBxZzkwQUlFdHA5cW4zX2pjWjFFUmFUMzQ1QWc",
+      "guidislink": false,
+      "published": "Fri, 28 Aug 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        8,
+        28,
+        7,
+        0,
+        0,
+        4,
+        241,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTE84YTdtZG04bU5DZVU4cEZxcjR6UkZHa21xSG9oYzUwSWhUS2tpTWxpd25xTDZibHNtLU1YZm5NQk9uT1Q3WGp6dmMzZHpmV2130gFWQVVfeXFMUDdqaDU3dXpqSmJiVjVSV0VXVzE0Z1A4bW9KX2lkLXlMMTR1bzRBNGdtNzB5VnlMbGs1NXBxZzkwQUlFdHA5cW4zX2pjWjFFUmFUMzQ1QWc?oc=5\" target=\"_blank\">750 milyan oo Kaneeco oo lagu sii deynayo Florida</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTE84YTdtZG04bU5DZVU4cEZxcjR6UkZHa21xSG9oYzUwSWhUS2tpTWxpd25xTDZibHNtLU1YZm5NQk9uT1Q3WGp6dmMzZHpmV2130gFWQVVfeXFMUDdqaDU3dXpqSmJiVjVSV0VXVzE0Z1A4bW9KX2lkLXlMMTR1bzRBNGdtNzB5VnlMbGs1NXBxZzkwQUlFdHA5cW4zX2pjWjFFUmFUMzQ1QWc?oc=5\" target=\"_blank\">750 milyan oo Kaneeco oo lagu sii deynayo Florida</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>"
+      },
+      "source": {
+        "href": "https://www.bbc.com",
+        "title": "BBC"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "What Are the Risks of Sunscreen and Bug Repellent Together? - The People's Pharmacy",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "What Are the Risks of Sunscreen and Bug Repellent Together? - The People's Pharmacy"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcGxDMWtKdksySkY1S1g3QlI4YW90cC0xT3V3ZG1DMThCX1A2dm5tYTRsbUw4RVRueHFITXg3dDE3cWdibXdyMHA1aHlkQ1psLUpqd0QtNEo3QjQ4YWdPSWx1UmIwOGFWbHQ3ckxzU21pSTlYY25fSWlpb2lpV20wUmk0X1lqcExLZVNRUHhaeS13a3pPTHhBOEFvWVBpS3J3?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcGxDMWtKdksySkY1S1g3QlI4YW90cC0xT3V3ZG1DMThCX1A2dm5tYTRsbUw4RVRueHFITXg3dDE3cWdibXdyMHA1aHlkQ1psLUpqd0QtNEo3QjQ4YWdPSWx1UmIwOGFWbHQ3ckxzU21pSTlYY25fSWlpb2lpV20wUmk0X1lqcExLZVNRUHhaeS13a3pPTHhBOEFvWVBpS3J3?oc=5",
+      "id": "CBMioAFBVV95cUxOcGxDMWtKdksySkY1S1g3QlI4YW90cC0xT3V3ZG1DMThCX1A2dm5tYTRsbUw4RVRueHFITXg3dDE3cWdibXdyMHA1aHlkQ1psLUpqd0QtNEo3QjQ4YWdPSWx1UmIwOGFWbHQ3ckxzU21pSTlYY25fSWlpb2lpV20wUmk0X1lqcExLZVNRUHhaeS13a3pPTHhBOEFvWVBpS3J3",
+      "guidislink": false,
+      "published": "Tue, 01 Sep 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        9,
+        1,
+        7,
+        0,
+        0,
+        1,
+        245,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxOcGxDMWtKdksySkY1S1g3QlI4YW90cC0xT3V3ZG1DMThCX1A2dm5tYTRsbUw4RVRueHFITXg3dDE3cWdibXdyMHA1aHlkQ1psLUpqd0QtNEo3QjQ4YWdPSWx1UmIwOGFWbHQ3ckxzU21pSTlYY25fSWlpb2lpV20wUmk0X1lqcExLZVNRUHhaeS13a3pPTHhBOEFvWVBpS3J3?oc=5\" target=\"_blank\">What Are the Risks of Sunscreen and Bug Repellent Together?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The People's Pharmacy</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxOcGxDMWtKdksySkY1S1g3QlI4YW90cC0xT3V3ZG1DMThCX1A2dm5tYTRsbUw4RVRueHFITXg3dDE3cWdibXdyMHA1aHlkQ1psLUpqd0QtNEo3QjQ4YWdPSWx1UmIwOGFWbHQ3ckxzU21pSTlYY25fSWlpb2lpV20wUmk0X1lqcExLZVNRUHhaeS13a3pPTHhBOEFvWVBpS3J3?oc=5\" target=\"_blank\">What Are the Risks of Sunscreen and Bug Repellent Together?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The People's Pharmacy</font>"
+      },
+      "source": {
+        "href": "https://www.peoplespharmacy.com",
+        "title": "The People's Pharmacy"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "750 million genetically altered 'kill the females' mosquitoes approved in U.S. - The Weather Network",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "750 million genetically altered 'kill the females' mosquitoes approved in U.S. - The Weather Network"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQenRBd1lURmgxUmQ1emxwT3piM3RpVVZpLWJWQjFMSzhUTWdZUU1xNG1yNjQzLWpFTzA3bjFsNFptQUlGLV9UcG1CWTN3YXQ3TkIzQS0zcE5hdWl4dEpOSGpvaWYyVWREWmwwM21FNUV6dXJoQjdhZ25Sd2c2aFRTUkxyX0dSM2E2U180WGhnNkx4UUdlN2p2VWluakNJVEF5UWt0RFNYRFZBWTBtVEZ2VjQyOG00WElmUFpBX1doMC03VG9wc3l3?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQenRBd1lURmgxUmQ1emxwT3piM3RpVVZpLWJWQjFMSzhUTWdZUU1xNG1yNjQzLWpFTzA3bjFsNFptQUlGLV9UcG1CWTN3YXQ3TkIzQS0zcE5hdWl4dEpOSGpvaWYyVWREWmwwM21FNUV6dXJoQjdhZ25Sd2c2aFRTUkxyX0dSM2E2U180WGhnNkx4UUdlN2p2VWluakNJVEF5UWt0RFNYRFZBWTBtVEZ2VjQyOG00WElmUFpBX1doMC03VG9wc3l3?oc=5",
+      "id": "CBMixwFBVV95cUxQenRBd1lURmgxUmQ1emxwT3piM3RpVVZpLWJWQjFMSzhUTWdZUU1xNG1yNjQzLWpFTzA3bjFsNFptQUlGLV9UcG1CWTN3YXQ3TkIzQS0zcE5hdWl4dEpOSGpvaWYyVWREWmwwM21FNUV6dXJoQjdhZ25Sd2c2aFRTUkxyX0dSM2E2U180WGhnNkx4UUdlN2p2VWluakNJVEF5UWt0RFNYRFZBWTBtVEZ2VjQyOG00WElmUFpBX1doMC03VG9wc3l3",
+      "guidislink": false,
+      "published": "Tue, 25 Aug 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        8,
+        25,
+        7,
+        0,
+        0,
+        1,
+        238,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxQenRBd1lURmgxUmQ1emxwT3piM3RpVVZpLWJWQjFMSzhUTWdZUU1xNG1yNjQzLWpFTzA3bjFsNFptQUlGLV9UcG1CWTN3YXQ3TkIzQS0zcE5hdWl4dEpOSGpvaWYyVWREWmwwM21FNUV6dXJoQjdhZ25Sd2c2aFRTUkxyX0dSM2E2U180WGhnNkx4UUdlN2p2VWluakNJVEF5UWt0RFNYRFZBWTBtVEZ2VjQyOG00WElmUFpBX1doMC03VG9wc3l3?oc=5\" target=\"_blank\">750 million genetically altered 'kill the females' mosquitoes approved in U.S.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Weather Network</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxQenRBd1lURmgxUmQ1emxwT3piM3RpVVZpLWJWQjFMSzhUTWdZUU1xNG1yNjQzLWpFTzA3bjFsNFptQUlGLV9UcG1CWTN3YXQ3TkIzQS0zcE5hdWl4dEpOSGpvaWYyVWREWmwwM21FNUV6dXJoQjdhZ25Sd2c2aFRTUkxyX0dSM2E2U180WGhnNkx4UUdlN2p2VWluakNJVEF5UWt0RFNYRFZBWTBtVEZ2VjQyOG00WElmUFpBX1doMC03VG9wc3l3?oc=5\" target=\"_blank\">750 million genetically altered 'kill the females' mosquitoes approved in U.S.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Weather Network</font>"
+      },
+      "source": {
+        "href": "https://www.theweathernetwork.com",
+        "title": "The Weather Network"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Amurka: Za a saki cincirindon sauro miliyan 750 da aka jirkita halittarsu a jihar Florida - BBC",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Amurka: Za a saki cincirindon sauro miliyan 750 da aka jirkita halittarsu a jihar Florida - BBC"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5tekZhcWh5VkNLc0lqeXMyRjZPWWYyUDJyQ3NhV3lqN3Rxd0E2bVZlMk1oaVAtN3E5aVdUcVhvWGZYczU3OHc1RGlUaWJDaVBPYUpabNIBWkFVX3lxTFAtUWxDa24tazd4bmFaQlpaTzdPYzdGeXhEbHIxOFNDeEdNc0twMXF4SS0wT2xmeTY0TEVZdF9wZ2JOV0pEQnlrRDdDYXdCd0tDN3l3MGlpcHdQZw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5tekZhcWh5VkNLc0lqeXMyRjZPWWYyUDJyQ3NhV3lqN3Rxd0E2bVZlMk1oaVAtN3E5aVdUcVhvWGZYczU3OHc1RGlUaWJDaVBPYUpabNIBWkFVX3lxTFAtUWxDa24tazd4bmFaQlpaTzdPYzdGeXhEbHIxOFNDeEdNc0twMXF4SS0wT2xmeTY0TEVZdF9wZ2JOV0pEQnlrRDdDYXdCd0tDN3l3MGlpcHdQZw?oc=5",
+      "id": "CBMiVEFVX3lxTE5tekZhcWh5VkNLc0lqeXMyRjZPWWYyUDJyQ3NhV3lqN3Rxd0E2bVZlMk1oaVAtN3E5aVdUcVhvWGZYczU3OHc1RGlUaWJDaVBPYUpabNIBWkFVX3lxTFAtUWxDa24tazd4bmFaQlpaTzdPYzdGeXhEbHIxOFNDeEdNc0twMXF4SS0wT2xmeTY0TEVZdF9wZ2JOV0pEQnlrRDdDYXdCd0tDN3l3MGlpcHdQZw",
+      "guidislink": false,
+      "published": "Fri, 21 Aug 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        8,
+        21,
+        7,
+        0,
+        0,
+        4,
+        234,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE5tekZhcWh5VkNLc0lqeXMyRjZPWWYyUDJyQ3NhV3lqN3Rxd0E2bVZlMk1oaVAtN3E5aVdUcVhvWGZYczU3OHc1RGlUaWJDaVBPYUpabNIBWkFVX3lxTFAtUWxDa24tazd4bmFaQlpaTzdPYzdGeXhEbHIxOFNDeEdNc0twMXF4SS0wT2xmeTY0TEVZdF9wZ2JOV0pEQnlrRDdDYXdCd0tDN3l3MGlpcHdQZw?oc=5\" target=\"_blank\">Amurka: Za a saki cincirindon sauro miliyan 750 da aka jirkita halittarsu a jihar Florida</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE5tekZhcWh5VkNLc0lqeXMyRjZPWWYyUDJyQ3NhV3lqN3Rxd0E2bVZlMk1oaVAtN3E5aVdUcVhvWGZYczU3OHc1RGlUaWJDaVBPYUpabNIBWkFVX3lxTFAtUWxDa24tazd4bmFaQlpaTzdPYzdGeXhEbHIxOFNDeEdNc0twMXF4SS0wT2xmeTY0TEVZdF9wZ2JOV0pEQnlrRDdDYXdCd0tDN3l3MGlpcHdQZw?oc=5\" target=\"_blank\">Amurka: Za a saki cincirindon sauro miliyan 750 da aka jirkita halittarsu a jihar Florida</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>"
+      },
+      "source": {
+        "href": "https://www.bbc.com",
+        "title": "BBC"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Fighting mosquito-borne diseases... with mosquitoes - Seychelles News Agency",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Fighting mosquito-borne diseases... with mosquitoes - Seychelles News Agency"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ySWxPRm5HT013cVFlWFI3eml6Ny05LUcyTnl2clZtUUJlVTkxYkpZZ0VMbHZGbERndWlRWlZjY2paSFVESExlQ2ViMGl1d2ZTOWlzMVpyQ3VNSnVvV2gzdUlneVMxbWNrc1cwZ09n?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ySWxPRm5HT013cVFlWFI3eml6Ny05LUcyTnl2clZtUUJlVTkxYkpZZ0VMbHZGbERndWlRWlZjY2paSFVESExlQ2ViMGl1d2ZTOWlzMVpyQ3VNSnVvV2gzdUlneVMxbWNrc1cwZ09n?oc=5",
+      "id": "CBMibkFVX3lxTE5ySWxPRm5HT013cVFlWFI3eml6Ny05LUcyTnl2clZtUUJlVTkxYkpZZ0VMbHZGbERndWlRWlZjY2paSFVESExlQ2ViMGl1d2ZTOWlzMVpyQ3VNSnVvV2gzdUlneVMxbWNrc1cwZ09n",
+      "guidislink": false,
+      "published": "Thu, 27 Aug 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        8,
+        27,
+        7,
+        0,
+        0,
+        3,
+        240,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTE5ySWxPRm5HT013cVFlWFI3eml6Ny05LUcyTnl2clZtUUJlVTkxYkpZZ0VMbHZGbERndWlRWlZjY2paSFVESExlQ2ViMGl1d2ZTOWlzMVpyQ3VNSnVvV2gzdUlneVMxbWNrc1cwZ09n?oc=5\" target=\"_blank\">Fighting mosquito-borne diseases... with mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Seychelles News Agency</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTE5ySWxPRm5HT013cVFlWFI3eml6Ny05LUcyTnl2clZtUUJlVTkxYkpZZ0VMbHZGbERndWlRWlZjY2paSFVESExlQ2ViMGl1d2ZTOWlzMVpyQ3VNSnVvV2gzdUlneVMxbWNrc1cwZ09n?oc=5\" target=\"_blank\">Fighting mosquito-borne diseases... with mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Seychelles News Agency</font>"
+      },
+      "source": {
+        "href": "https://www.seychellesnewsagency.com",
+        "title": "Seychelles News Agency"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Swarms of mosquitoes to plague south as hot weather continues - The Argus",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Swarms of mosquitoes to plague south as hot weather continues - The Argus"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbTlxVzRmQ1FwR3FRanZqcGsxaHhIY192eWNGcXJCTm1DVnhLWFhpSHByY1RsYlFNZ1UwYmpMTmRJMGlEOHoxUnFQNVlzQXZ5M08yN2tRNm9saWhlWEhpdjBaRjZNMUhWZksyZ2xKLTR4SU5VcElZb1JnUDhaLXpaNWVqSW12UnVGa3VQb0xVNjBrVTlaaEE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbTlxVzRmQ1FwR3FRanZqcGsxaHhIY192eWNGcXJCTm1DVnhLWFhpSHByY1RsYlFNZ1UwYmpMTmRJMGlEOHoxUnFQNVlzQXZ5M08yN2tRNm9saWhlWEhpdjBaRjZNMUhWZksyZ2xKLTR4SU5VcElZb1JnUDhaLXpaNWVqSW12UnVGa3VQb0xVNjBrVTlaaEE?oc=5",
+      "id": "CBMilgFBVV95cUxNbTlxVzRmQ1FwR3FRanZqcGsxaHhIY192eWNGcXJCTm1DVnhLWFhpSHByY1RsYlFNZ1UwYmpMTmRJMGlEOHoxUnFQNVlzQXZ5M08yN2tRNm9saWhlWEhpdjBaRjZNMUhWZksyZ2xKLTR4SU5VcElZb1JnUDhaLXpaNWVqSW12UnVGa3VQb0xVNjBrVTlaaEE",
+      "guidislink": false,
+      "published": "Mon, 17 Aug 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        8,
+        17,
+        7,
+        0,
+        0,
+        0,
+        230,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxNbTlxVzRmQ1FwR3FRanZqcGsxaHhIY192eWNGcXJCTm1DVnhLWFhpSHByY1RsYlFNZ1UwYmpMTmRJMGlEOHoxUnFQNVlzQXZ5M08yN2tRNm9saWhlWEhpdjBaRjZNMUhWZksyZ2xKLTR4SU5VcElZb1JnUDhaLXpaNWVqSW12UnVGa3VQb0xVNjBrVTlaaEE?oc=5\" target=\"_blank\">Swarms of mosquitoes to plague south as hot weather continues</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Argus</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxNbTlxVzRmQ1FwR3FRanZqcGsxaHhIY192eWNGcXJCTm1DVnhLWFhpSHByY1RsYlFNZ1UwYmpMTmRJMGlEOHoxUnFQNVlzQXZ5M08yN2tRNm9saWhlWEhpdjBaRjZNMUhWZksyZ2xKLTR4SU5VcElZb1JnUDhaLXpaNWVqSW12UnVGa3VQb0xVNjBrVTlaaEE?oc=5\" target=\"_blank\">Swarms of mosquitoes to plague south as hot weather continues</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Argus</font>"
+      },
+      "source": {
+        "href": "https://www.theargus.co.uk",
+        "title": "The Argus"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Rwanda plans yellow fever, Zika vaccination - The EastAfrican",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Rwanda plans yellow fever, Zika vaccination - The EastAfrican"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSEhCbGgwVHBISmtKelJCZVdpVTduaDR6dW1MMGlpTjdkYWN3dEtSVHFjTHgtUEQxemU2SnFLODhidGVRSHRPbzdPek5LSWIzaEk4VGR6aE1Ea0JOUUxfUUh4T3JlRERsSzBJek9DN2FXQU9KRDU0Nl81eUNYeEtVQnFXX2M2SHd3bENfSVlTWldkMjAyNGdXbWVhTG5uZ0JIREY3a2lsWFNRUQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSEhCbGgwVHBISmtKelJCZVdpVTduaDR6dW1MMGlpTjdkYWN3dEtSVHFjTHgtUEQxemU2SnFLODhidGVRSHRPbzdPek5LSWIzaEk4VGR6aE1Ea0JOUUxfUUh4T3JlRERsSzBJek9DN2FXQU9KRDU0Nl81eUNYeEtVQnFXX2M2SHd3bENfSVlTWldkMjAyNGdXbWVhTG5uZ0JIREY3a2lsWFNRUQ?oc=5",
+      "id": "CBMiqgFBVV95cUxQSEhCbGgwVHBISmtKelJCZVdpVTduaDR6dW1MMGlpTjdkYWN3dEtSVHFjTHgtUEQxemU2SnFLODhidGVRSHRPbzdPek5LSWIzaEk4VGR6aE1Ea0JOUUxfUUh4T3JlRERsSzBJek9DN2FXQU9KRDU0Nl81eUNYeEtVQnFXX2M2SHd3bENfSVlTWldkMjAyNGdXbWVhTG5uZ0JIREY3a2lsWFNRUQ",
+      "guidislink": false,
+      "published": "Mon, 31 Aug 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        8,
+        31,
+        7,
+        0,
+        0,
+        0,
+        244,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSEhCbGgwVHBISmtKelJCZVdpVTduaDR6dW1MMGlpTjdkYWN3dEtSVHFjTHgtUEQxemU2SnFLODhidGVRSHRPbzdPek5LSWIzaEk4VGR6aE1Ea0JOUUxfUUh4T3JlRERsSzBJek9DN2FXQU9KRDU0Nl81eUNYeEtVQnFXX2M2SHd3bENfSVlTWldkMjAyNGdXbWVhTG5uZ0JIREY3a2lsWFNRUQ?oc=5\" target=\"_blank\">Rwanda plans yellow fever, Zika vaccination</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The EastAfrican</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSEhCbGgwVHBISmtKelJCZVdpVTduaDR6dW1MMGlpTjdkYWN3dEtSVHFjTHgtUEQxemU2SnFLODhidGVRSHRPbzdPek5LSWIzaEk4VGR6aE1Ea0JOUUxfUUh4T3JlRERsSzBJek9DN2FXQU9KRDU0Nl81eUNYeEtVQnFXX2M2SHd3bENfSVlTWldkMjAyNGdXbWVhTG5uZ0JIREY3a2lsWFNRUQ?oc=5\" target=\"_blank\">Rwanda plans yellow fever, Zika vaccination</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The EastAfrican</font>"
+      },
+      "source": {
+        "href": "https://www.theeastafrican.co.ke",
+        "title": "The EastAfrican"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Children Hospital No.1 saves serious dengue patients - SGGP English Edition",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Children Hospital No.1 saves serious dengue patients - SGGP English Edition"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdHdrWVJKZHg0U3RpV2VtY1ZUbjZTb3ROXzV5MUVXTmRZWEl5b0dhTkFQWFY5UXIwZ1ZlcndTM0ZITWpUV2R5VVFMZHdDbFpaMGtiSDc4VlR3Ti1SMnVvalY5UEQzUHROR2laV1lRZGh3VWtJTWhGNnl0eTROcThfdDR4d3ljbWxRajN3elVsNFdsdXM?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdHdrWVJKZHg0U3RpV2VtY1ZUbjZTb3ROXzV5MUVXTmRZWEl5b0dhTkFQWFY5UXIwZ1ZlcndTM0ZITWpUV2R5VVFMZHdDbFpaMGtiSDc4VlR3Ti1SMnVvalY5UEQzUHROR2laV1lRZGh3VWtJTWhGNnl0eTROcThfdDR4d3ljbWxRajN3elVsNFdsdXM?oc=5",
+      "id": "CBMikwFBVV95cUxPdHdrWVJKZHg0U3RpV2VtY1ZUbjZTb3ROXzV5MUVXTmRZWEl5b0dhTkFQWFY5UXIwZ1ZlcndTM0ZITWpUV2R5VVFMZHdDbFpaMGtiSDc4VlR3Ti1SMnVvalY5UEQzUHROR2laV1lRZGh3VWtJTWhGNnl0eTROcThfdDR4d3ljbWxRajN3elVsNFdsdXM",
+      "guidislink": false,
+      "published": "Tue, 25 Aug 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        8,
+        25,
+        7,
+        0,
+        0,
+        1,
+        238,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxPdHdrWVJKZHg0U3RpV2VtY1ZUbjZTb3ROXzV5MUVXTmRZWEl5b0dhTkFQWFY5UXIwZ1ZlcndTM0ZITWpUV2R5VVFMZHdDbFpaMGtiSDc4VlR3Ti1SMnVvalY5UEQzUHROR2laV1lRZGh3VWtJTWhGNnl0eTROcThfdDR4d3ljbWxRajN3elVsNFdsdXM?oc=5\" target=\"_blank\">Children Hospital No.1 saves serious dengue patients</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SGGP English Edition</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxPdHdrWVJKZHg0U3RpV2VtY1ZUbjZTb3ROXzV5MUVXTmRZWEl5b0dhTkFQWFY5UXIwZ1ZlcndTM0ZITWpUV2R5VVFMZHdDbFpaMGtiSDc4VlR3Ti1SMnVvalY5UEQzUHROR2laV1lRZGh3VWtJTWhGNnl0eTROcThfdDR4d3ljbWxRajN3elVsNFdsdXM?oc=5\" target=\"_blank\">Children Hospital No.1 saves serious dengue patients</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SGGP English Edition</font>"
+      },
+      "source": {
+        "href": "https://en.sggp.org.vn",
+        "title": "SGGP English Edition"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "New assistant comptroller general appointed for customs - The Sun Nigeria",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "New assistant comptroller general appointed for customs - The Sun Nigeria"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9tbktYSXpWZmdtYi02V0dCRnZzUnVJRkFKc1RtZ2I5bVVBeHRId2hXWVlyRVEwNlRiTnk3Q1Mxd3R4Q0drRTcyNk5MSHE1UDFIOUpUT3Azb0JueHVtb3V6aGhmM3oySy1zOGtkc2FlT29ub1d0ejJsWWNDRW1ZSDTSAYQBQVVfeXFMUGtnQUx6RTRfbHJLUUlqdlE5TEgxU3hHRVUxenBXb3U1bFBaMkVPbDc5aUhzT3BIWUZxU0lxZzNHTHBhN1FrakVOX0tCVElOX1NtSzVMTEl3Q3RNbTFzS25GaExjR25tOTVyd3lqYVhscW11OHFVcTVRdFpqdmxpMldEYkZt?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9tbktYSXpWZmdtYi02V0dCRnZzUnVJRkFKc1RtZ2I5bVVBeHRId2hXWVlyRVEwNlRiTnk3Q1Mxd3R4Q0drRTcyNk5MSHE1UDFIOUpUT3Azb0JueHVtb3V6aGhmM3oySy1zOGtkc2FlT29ub1d0ejJsWWNDRW1ZSDTSAYQBQVVfeXFMUGtnQUx6RTRfbHJLUUlqdlE5TEgxU3hHRVUxenBXb3U1bFBaMkVPbDc5aUhzT3BIWUZxU0lxZzNHTHBhN1FrakVOX0tCVElOX1NtSzVMTEl3Q3RNbTFzS25GaExjR25tOTVyd3lqYVhscW11OHFVcTVRdFpqdmxpMldEYkZt?oc=5",
+      "id": "CBMif0FVX3lxTE9tbktYSXpWZmdtYi02V0dCRnZzUnVJRkFKc1RtZ2I5bVVBeHRId2hXWVlyRVEwNlRiTnk3Q1Mxd3R4Q0drRTcyNk5MSHE1UDFIOUpUT3Azb0JueHVtb3V6aGhmM3oySy1zOGtkc2FlT29ub1d0ejJsWWNDRW1ZSDTSAYQBQVVfeXFMUGtnQUx6RTRfbHJLUUlqdlE5TEgxU3hHRVUxenBXb3U1bFBaMkVPbDc5aUhzT3BIWUZxU0lxZzNHTHBhN1FrakVOX0tCVElOX1NtSzVMTEl3Q3RNbTFzS25GaExjR25tOTVyd3lqYVhscW11OHFVcTVRdFpqdmxpMldEYkZt",
+      "guidislink": false,
+      "published": "Mon, 31 Aug 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        8,
+        31,
+        7,
+        0,
+        0,
+        0,
+        244,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE9tbktYSXpWZmdtYi02V0dCRnZzUnVJRkFKc1RtZ2I5bVVBeHRId2hXWVlyRVEwNlRiTnk3Q1Mxd3R4Q0drRTcyNk5MSHE1UDFIOUpUT3Azb0JueHVtb3V6aGhmM3oySy1zOGtkc2FlT29ub1d0ejJsWWNDRW1ZSDTSAYQBQVVfeXFMUGtnQUx6RTRfbHJLUUlqdlE5TEgxU3hHRVUxenBXb3U1bFBaMkVPbDc5aUhzT3BIWUZxU0lxZzNHTHBhN1FrakVOX0tCVElOX1NtSzVMTEl3Q3RNbTFzS25GaExjR25tOTVyd3lqYVhscW11OHFVcTVRdFpqdmxpMldEYkZt?oc=5\" target=\"_blank\">New assistant comptroller general appointed for customs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Sun Nigeria</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE9tbktYSXpWZmdtYi02V0dCRnZzUnVJRkFKc1RtZ2I5bVVBeHRId2hXWVlyRVEwNlRiTnk3Q1Mxd3R4Q0drRTcyNk5MSHE1UDFIOUpUT3Azb0JueHVtb3V6aGhmM3oySy1zOGtkc2FlT29ub1d0ejJsWWNDRW1ZSDTSAYQBQVVfeXFMUGtnQUx6RTRfbHJLUUlqdlE5TEgxU3hHRVUxenBXb3U1bFBaMkVPbDc5aUhzT3BIWUZxU0lxZzNHTHBhN1FrakVOX0tCVElOX1NtSzVMTEl3Q3RNbTFzS25GaExjR25tOTVyd3lqYVhscW11OHFVcTVRdFpqdmxpMldEYkZt?oc=5\" target=\"_blank\">New assistant comptroller general appointed for customs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Sun Nigeria</font>"
+      },
+      "source": {
+        "href": "https://thesun.ng",
+        "title": "The Sun Nigeria"
+      },
+      "sub_articles": []
+    }
+  ]
+}

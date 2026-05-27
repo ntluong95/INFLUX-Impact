@@ -1,0 +1,779 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2022-09-09",
+  "window_end": "2022-09-22",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2022-09-09+before%3A2022-09-23&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2022-09-09+before:2022-09-23&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:29:33Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2022-09-09 before:2022-09-23\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2022-09-09 before:2022-09-23\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2022-09-09+before:2022-09-23&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2022-09-09+before:2022-09-23&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:29:33 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      29,
+      33,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "How human cells become Zika virus factories - La Jolla Institute",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "How human cells become Zika virus factories - La Jolla Institute"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPWjJ0VnByb2pUZUtnbEJKUmtPcU9YZ29xMmNMc0lZTWVQQnhFQm1DUVBPNmRaeTBKSWtUcjV4alJNSFQya3M0QzJURlNmbWowalljZjBRd0Nkc2Rzc3djN1BlWWNnSW9lcUE3WEcyQ3RGTFk0QlNIaTdtb0RuYjF0RTFnR2RZdEg4V3ZhdXNBaw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPWjJ0VnByb2pUZUtnbEJKUmtPcU9YZ29xMmNMc0lZTWVQQnhFQm1DUVBPNmRaeTBKSWtUcjV4alJNSFQya3M0QzJURlNmbWowalljZjBRd0Nkc2Rzc3djN1BlWWNnSW9lcUE3WEcyQ3RGTFk0QlNIaTdtb0RuYjF0RTFnR2RZdEg4V3ZhdXNBaw?oc=5",
+      "id": "CBMijwFBVV95cUxPWjJ0VnByb2pUZUtnbEJKUmtPcU9YZ29xMmNMc0lZTWVQQnhFQm1DUVBPNmRaeTBKSWtUcjV4alJNSFQya3M0QzJURlNmbWowalljZjBRd0Nkc2Rzc3djN1BlWWNnSW9lcUE3WEcyQ3RGTFk0QlNIaTdtb0RuYjF0RTFnR2RZdEg4V3ZhdXNBaw",
+      "guidislink": false,
+      "published": "Mon, 12 Sep 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        9,
+        12,
+        7,
+        0,
+        0,
+        0,
+        255,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxPWjJ0VnByb2pUZUtnbEJKUmtPcU9YZ29xMmNMc0lZTWVQQnhFQm1DUVBPNmRaeTBKSWtUcjV4alJNSFQya3M0QzJURlNmbWowalljZjBRd0Nkc2Rzc3djN1BlWWNnSW9lcUE3WEcyQ3RGTFk0QlNIaTdtb0RuYjF0RTFnR2RZdEg4V3ZhdXNBaw?oc=5\" target=\"_blank\">How human cells become Zika virus factories</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">La Jolla Institute</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxPWjJ0VnByb2pUZUtnbEJKUmtPcU9YZ29xMmNMc0lZTWVQQnhFQm1DUVBPNmRaeTBKSWtUcjV4alJNSFQya3M0QzJURlNmbWowalljZjBRd0Nkc2Rzc3djN1BlWWNnSW9lcUE3WEcyQ3RGTFk0QlNIaTdtb0RuYjF0RTFnR2RZdEg4V3ZhdXNBaw?oc=5\" target=\"_blank\">How human cells become Zika virus factories</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">La Jolla Institute</font>"
+      },
+      "source": {
+        "href": "https://www.lji.org",
+        "title": "La Jolla Institute"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "SREBP2-dependent lipid gene transcription enhances the infection of human dendritic cells by Zika virus - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "SREBP2-dependent lipid gene transcription enhances the infection of human dendritic cells by Zika virus - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB0SHQzQ3ZNaV84REZjSjV5TU1mOHZYWl9sbGFOc2Q1OGlvYnVucllIWFBubzUtV0p0WFRwQllPbWRmQm1OdUxQamI3YUJVbElwZ0EwUFhHWXJCY1d5a2FR?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB0SHQzQ3ZNaV84REZjSjV5TU1mOHZYWl9sbGFOc2Q1OGlvYnVucllIWFBubzUtV0p0WFRwQllPbWRmQm1OdUxQamI3YUJVbElwZ0EwUFhHWXJCY1d5a2FR?oc=5",
+      "id": "CBMiX0FVX3lxTFB0SHQzQ3ZNaV84REZjSjV5TU1mOHZYWl9sbGFOc2Q1OGlvYnVucllIWFBubzUtV0p0WFRwQllPbWRmQm1OdUxQamI3YUJVbElwZ0EwUFhHWXJCY1d5a2FR",
+      "guidislink": false,
+      "published": "Mon, 12 Sep 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        9,
+        12,
+        7,
+        0,
+        0,
+        0,
+        255,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFB0SHQzQ3ZNaV84REZjSjV5TU1mOHZYWl9sbGFOc2Q1OGlvYnVucllIWFBubzUtV0p0WFRwQllPbWRmQm1OdUxQamI3YUJVbElwZ0EwUFhHWXJCY1d5a2FR?oc=5\" target=\"_blank\">SREBP2-dependent lipid gene transcription enhances the infection of human dendritic cells by Zika virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFB0SHQzQ3ZNaV84REZjSjV5TU1mOHZYWl9sbGFOc2Q1OGlvYnVucllIWFBubzUtV0p0WFRwQllPbWRmQm1OdUxQamI3YUJVbElwZ0EwUFhHWXJCY1d5a2FR?oc=5\" target=\"_blank\">SREBP2-dependent lipid gene transcription enhances the infection of human dendritic cells by Zika virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Comprehensive clinical study confirms the molecular link between microcephaly caused by Zika and ANKLE2 variants - Baylor College of Medicine Blog Network -",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Comprehensive clinical study confirms the molecular link between microcephaly caused by Zika and ANKLE2 variants - Baylor College of Medicine Blog Network -"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPZ3pQQjNYN1dJVlY0Rk42bFBDdzVsNVBxQi1oOTFpX2hGWkJVbm1Mbm5MX0RCTFFhZjFMdGhQdm03VTlNbHhOTkNtWm1LWUdrME9aSHVjTzA5eU5xbC1Zc3o4dkdwajdnUUU3Sk5qWTRHZFVuQVdvczJrdkFfLXFNeVBKV29wT3ZnWEtmQjJDSFp1R0M5bFdqUkt0SlZXRFJYaU5iZmNrV3M5X25rNEM1Uk1IcHBtbnJDMHN0T0VTLWs0dHUtSnlpdW90eG9lX1dncmNKN1RudkxOSkdyTmVEYk5TcWgtWGJaYko3T1RIWF80QQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPZ3pQQjNYN1dJVlY0Rk42bFBDdzVsNVBxQi1oOTFpX2hGWkJVbm1Mbm5MX0RCTFFhZjFMdGhQdm03VTlNbHhOTkNtWm1LWUdrME9aSHVjTzA5eU5xbC1Zc3o4dkdwajdnUUU3Sk5qWTRHZFVuQVdvczJrdkFfLXFNeVBKV29wT3ZnWEtmQjJDSFp1R0M5bFdqUkt0SlZXRFJYaU5iZmNrV3M5X25rNEM1Uk1IcHBtbnJDMHN0T0VTLWs0dHUtSnlpdW90eG9lX1dncmNKN1RudkxOSkdyTmVEYk5TcWgtWGJaYko3T1RIWF80QQ?oc=5",
+      "id": "CBMi8gFBVV95cUxPZ3pQQjNYN1dJVlY0Rk42bFBDdzVsNVBxQi1oOTFpX2hGWkJVbm1Mbm5MX0RCTFFhZjFMdGhQdm03VTlNbHhOTkNtWm1LWUdrME9aSHVjTzA5eU5xbC1Zc3o4dkdwajdnUUU3Sk5qWTRHZFVuQVdvczJrdkFfLXFNeVBKV29wT3ZnWEtmQjJDSFp1R0M5bFdqUkt0SlZXRFJYaU5iZmNrV3M5X25rNEM1Uk1IcHBtbnJDMHN0T0VTLWs0dHUtSnlpdW90eG9lX1dncmNKN1RudkxOSkdyTmVEYk5TcWgtWGJaYko3T1RIWF80QQ",
+      "guidislink": false,
+      "published": "Thu, 15 Sep 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        9,
+        15,
+        7,
+        0,
+        0,
+        3,
+        258,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi8gFBVV95cUxPZ3pQQjNYN1dJVlY0Rk42bFBDdzVsNVBxQi1oOTFpX2hGWkJVbm1Mbm5MX0RCTFFhZjFMdGhQdm03VTlNbHhOTkNtWm1LWUdrME9aSHVjTzA5eU5xbC1Zc3o4dkdwajdnUUU3Sk5qWTRHZFVuQVdvczJrdkFfLXFNeVBKV29wT3ZnWEtmQjJDSFp1R0M5bFdqUkt0SlZXRFJYaU5iZmNrV3M5X25rNEM1Uk1IcHBtbnJDMHN0T0VTLWs0dHUtSnlpdW90eG9lX1dncmNKN1RudkxOSkdyTmVEYk5TcWgtWGJaYko3T1RIWF80QQ?oc=5\" target=\"_blank\">Comprehensive clinical study confirms the molecular link between microcephaly caused by Zika and ANKLE2 variants</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Baylor College of Medicine Blog Network -</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi8gFBVV95cUxPZ3pQQjNYN1dJVlY0Rk42bFBDdzVsNVBxQi1oOTFpX2hGWkJVbm1Mbm5MX0RCTFFhZjFMdGhQdm03VTlNbHhOTkNtWm1LWUdrME9aSHVjTzA5eU5xbC1Zc3o4dkdwajdnUUU3Sk5qWTRHZFVuQVdvczJrdkFfLXFNeVBKV29wT3ZnWEtmQjJDSFp1R0M5bFdqUkt0SlZXRFJYaU5iZmNrV3M5X25rNEM1Uk1IcHBtbnJDMHN0T0VTLWs0dHUtSnlpdW90eG9lX1dncmNKN1RudkxOSkdyTmVEYk5TcWgtWGJaYko3T1RIWF80QQ?oc=5\" target=\"_blank\">Comprehensive clinical study confirms the molecular link between microcephaly caused by Zika and ANKLE2 variants</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Baylor College of Medicine Blog Network -</font>"
+      },
+      "source": {
+        "href": "https://blogs.bcm.edu",
+        "title": "Baylor College of Medicine Blog Network -"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "UCF Researchers Prove that COVID Disinfectant Works in Latest Research Paper - University of Central Florida",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "UCF Researchers Prove that COVID Disinfectant Works in Latest Research Paper - University of Central Florida"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRDdQMUU3cFl2T1RPLW9RWlE1VF9FWFk0b2N0Z2FNMnNDdFg2ZXBfeXRsNWxDTHRyYlZES2tLWkNLeHZsWkhEVTNYNnpzVHNHcnhUQzdjdHVUcXN2TVRfaVNGU281RFZsZWxVdTQ3TFBUZVotUEE3dkRwS2taSnBZZkxOQmdCY0hESmpRZUNVQ2REM3c4Mm1EV3Y4azlaWnNpUEdfWQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRDdQMUU3cFl2T1RPLW9RWlE1VF9FWFk0b2N0Z2FNMnNDdFg2ZXBfeXRsNWxDTHRyYlZES2tLWkNLeHZsWkhEVTNYNnpzVHNHcnhUQzdjdHVUcXN2TVRfaVNGU281RFZsZWxVdTQ3TFBUZVotUEE3dkRwS2taSnBZZkxOQmdCY0hESmpRZUNVQ2REM3c4Mm1EV3Y4azlaWnNpUEdfWQ?oc=5",
+      "id": "CBMipAFBVV95cUxPRDdQMUU3cFl2T1RPLW9RWlE1VF9FWFk0b2N0Z2FNMnNDdFg2ZXBfeXRsNWxDTHRyYlZES2tLWkNLeHZsWkhEVTNYNnpzVHNHcnhUQzdjdHVUcXN2TVRfaVNGU281RFZsZWxVdTQ3TFBUZVotUEE3dkRwS2taSnBZZkxOQmdCY0hESmpRZUNVQ2REM3c4Mm1EV3Y4azlaWnNpUEdfWQ",
+      "guidislink": false,
+      "published": "Wed, 21 Sep 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        9,
+        21,
+        7,
+        0,
+        0,
+        2,
+        264,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxPRDdQMUU3cFl2T1RPLW9RWlE1VF9FWFk0b2N0Z2FNMnNDdFg2ZXBfeXRsNWxDTHRyYlZES2tLWkNLeHZsWkhEVTNYNnpzVHNHcnhUQzdjdHVUcXN2TVRfaVNGU281RFZsZWxVdTQ3TFBUZVotUEE3dkRwS2taSnBZZkxOQmdCY0hESmpRZUNVQ2REM3c4Mm1EV3Y4azlaWnNpUEdfWQ?oc=5\" target=\"_blank\">UCF Researchers Prove that COVID Disinfectant Works in Latest Research Paper</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of Central Florida</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxPRDdQMUU3cFl2T1RPLW9RWlE1VF9FWFk0b2N0Z2FNMnNDdFg2ZXBfeXRsNWxDTHRyYlZES2tLWkNLeHZsWkhEVTNYNnpzVHNHcnhUQzdjdHVUcXN2TVRfaVNGU281RFZsZWxVdTQ3TFBUZVotUEE3dkRwS2taSnBZZkxOQmdCY0hESmpRZUNVQ2REM3c4Mm1EV3Y4azlaWnNpUEdfWQ?oc=5\" target=\"_blank\">UCF Researchers Prove that COVID Disinfectant Works in Latest Research Paper</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of Central Florida</font>"
+      },
+      "source": {
+        "href": "https://www.ucf.edu",
+        "title": "University of Central Florida"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Chemical cocktail in skin summons disease-spreading mosquitoes - University of California, Riverside",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Chemical cocktail in skin summons disease-spreading mosquitoes - University of California, Riverside"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOejgxdkxvVXVYVHpsUEtNUVZRU2RtY0tIQndJU2ZRSVh2RDBRY0JIdVdDbk51aE9ieFk2SmVKYWh6Vm5OUmpRcDN0bUJNSkx2ZXNEN1ZmZlJzbDFIR1lxWFB2NHJMV3lUa2trRkJxRWU1eFd1eC1jTjluRFdNalg5MUhXZWxpYV96U1hQZzR0R1RhUkU0VXhsbTVxMC1PVjFmU1E?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOejgxdkxvVXVYVHpsUEtNUVZRU2RtY0tIQndJU2ZRSVh2RDBRY0JIdVdDbk51aE9ieFk2SmVKYWh6Vm5OUmpRcDN0bUJNSkx2ZXNEN1ZmZlJzbDFIR1lxWFB2NHJMV3lUa2trRkJxRWU1eFd1eC1jTjluRFdNalg5MUhXZWxpYV96U1hQZzR0R1RhUkU0VXhsbTVxMC1PVjFmU1E?oc=5",
+      "id": "CBMiogFBVV95cUxOejgxdkxvVXVYVHpsUEtNUVZRU2RtY0tIQndJU2ZRSVh2RDBRY0JIdVdDbk51aE9ieFk2SmVKYWh6Vm5OUmpRcDN0bUJNSkx2ZXNEN1ZmZlJzbDFIR1lxWFB2NHJMV3lUa2trRkJxRWU1eFd1eC1jTjluRFdNalg5MUhXZWxpYV96U1hQZzR0R1RhUkU0VXhsbTVxMC1PVjFmU1E",
+      "guidislink": false,
+      "published": "Wed, 21 Sep 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        9,
+        21,
+        7,
+        0,
+        0,
+        2,
+        264,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxOejgxdkxvVXVYVHpsUEtNUVZRU2RtY0tIQndJU2ZRSVh2RDBRY0JIdVdDbk51aE9ieFk2SmVKYWh6Vm5OUmpRcDN0bUJNSkx2ZXNEN1ZmZlJzbDFIR1lxWFB2NHJMV3lUa2trRkJxRWU1eFd1eC1jTjluRFdNalg5MUhXZWxpYV96U1hQZzR0R1RhUkU0VXhsbTVxMC1PVjFmU1E?oc=5\" target=\"_blank\">Chemical cocktail in skin summons disease-spreading mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of California, Riverside</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxOejgxdkxvVXVYVHpsUEtNUVZRU2RtY0tIQndJU2ZRSVh2RDBRY0JIdVdDbk51aE9ieFk2SmVKYWh6Vm5OUmpRcDN0bUJNSkx2ZXNEN1ZmZlJzbDFIR1lxWFB2NHJMV3lUa2trRkJxRWU1eFd1eC1jTjluRFdNalg5MUhXZWxpYV96U1hQZzR0R1RhUkU0VXhsbTVxMC1PVjFmU1E?oc=5\" target=\"_blank\">Chemical cocktail in skin summons disease-spreading mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of California, Riverside</font>"
+      },
+      "source": {
+        "href": "https://news.ucr.edu",
+        "title": "University of California, Riverside"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "National Weather Service, UP Travel give fall color outlook - Upper Michigan's Source",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "National Weather Service, UP Travel give fall color outlook - Upper Michigan's Source"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONFUweGJOSTRpcUxSSmxfUklkU1A1Z1FLUmRYQ2hHNkdsQUk5MGMyaXlveEgzX1RDYm1JRW5UUGhUQWNSVV9aZmxiUUVIOG5Hck9zTmktbzJrVF9NN0F3TWlTNVh2VFF3djdvSVlpNS1QLUdfWEltZW5vQklITXZtLWh0eTJGai1oajF3X3VDWjlKemNOR1QzZU12Q1BJTDh4RkNNblc5UEtpNzTSAb8BQVVfeXFMT0xGNkc4dFhuNkJGTHNrWTBKejVZZnFycnNBY1J2ZlZ0MUY0eGJqQzZadWN2Qi1nQjVNSmw5elhVcGdBUk4tSzlST1dXWmh0endia1JOSjRYX2Y2TVFvS2xvWFZfcEpFOVhsTmVRb0tXd09xQWU2UkdvdE5ES2Rta0toZG9VS0N1M08ta2NTbkRuNmd5RzVqaGpkdlFhakYwUWN4cU8wZVp5Z2lfX3ZEV3ZZN0pHRHFEU1ZBWkFDb2c?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONFUweGJOSTRpcUxSSmxfUklkU1A1Z1FLUmRYQ2hHNkdsQUk5MGMyaXlveEgzX1RDYm1JRW5UUGhUQWNSVV9aZmxiUUVIOG5Hck9zTmktbzJrVF9NN0F3TWlTNVh2VFF3djdvSVlpNS1QLUdfWEltZW5vQklITXZtLWh0eTJGai1oajF3X3VDWjlKemNOR1QzZU12Q1BJTDh4RkNNblc5UEtpNzTSAb8BQVVfeXFMT0xGNkc4dFhuNkJGTHNrWTBKejVZZnFycnNBY1J2ZlZ0MUY0eGJqQzZadWN2Qi1nQjVNSmw5elhVcGdBUk4tSzlST1dXWmh0endia1JOSjRYX2Y2TVFvS2xvWFZfcEpFOVhsTmVRb0tXd09xQWU2UkdvdE5ES2Rta0toZG9VS0N1M08ta2NTbkRuNmd5RzVqaGpkdlFhakYwUWN4cU8wZVp5Z2lfX3ZEV3ZZN0pHRHFEU1ZBWkFDb2c?oc=5",
+      "id": "CBMiqwFBVV95cUxONFUweGJOSTRpcUxSSmxfUklkU1A1Z1FLUmRYQ2hHNkdsQUk5MGMyaXlveEgzX1RDYm1JRW5UUGhUQWNSVV9aZmxiUUVIOG5Hck9zTmktbzJrVF9NN0F3TWlTNVh2VFF3djdvSVlpNS1QLUdfWEltZW5vQklITXZtLWh0eTJGai1oajF3X3VDWjlKemNOR1QzZU12Q1BJTDh4RkNNblc5UEtpNzTSAb8BQVVfeXFMT0xGNkc4dFhuNkJGTHNrWTBKejVZZnFycnNBY1J2ZlZ0MUY0eGJqQzZadWN2Qi1nQjVNSmw5elhVcGdBUk4tSzlST1dXWmh0endia1JOSjRYX2Y2TVFvS2xvWFZfcEpFOVhsTmVRb0tXd09xQWU2UkdvdE5ES2Rta0toZG9VS0N1M08ta2NTbkRuNmd5RzVqaGpkdlFhakYwUWN4cU8wZVp5Z2lfX3ZEV3ZZN0pHRHFEU1ZBWkFDb2c",
+      "guidislink": false,
+      "published": "Mon, 19 Sep 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        9,
+        19,
+        7,
+        0,
+        0,
+        0,
+        262,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxONFUweGJOSTRpcUxSSmxfUklkU1A1Z1FLUmRYQ2hHNkdsQUk5MGMyaXlveEgzX1RDYm1JRW5UUGhUQWNSVV9aZmxiUUVIOG5Hck9zTmktbzJrVF9NN0F3TWlTNVh2VFF3djdvSVlpNS1QLUdfWEltZW5vQklITXZtLWh0eTJGai1oajF3X3VDWjlKemNOR1QzZU12Q1BJTDh4RkNNblc5UEtpNzTSAb8BQVVfeXFMT0xGNkc4dFhuNkJGTHNrWTBKejVZZnFycnNBY1J2ZlZ0MUY0eGJqQzZadWN2Qi1nQjVNSmw5elhVcGdBUk4tSzlST1dXWmh0endia1JOSjRYX2Y2TVFvS2xvWFZfcEpFOVhsTmVRb0tXd09xQWU2UkdvdE5ES2Rta0toZG9VS0N1M08ta2NTbkRuNmd5RzVqaGpkdlFhakYwUWN4cU8wZVp5Z2lfX3ZEV3ZZN0pHRHFEU1ZBWkFDb2c?oc=5\" target=\"_blank\">National Weather Service, UP Travel give fall color outlook</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Upper Michigan's Source</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxONFUweGJOSTRpcUxSSmxfUklkU1A1Z1FLUmRYQ2hHNkdsQUk5MGMyaXlveEgzX1RDYm1JRW5UUGhUQWNSVV9aZmxiUUVIOG5Hck9zTmktbzJrVF9NN0F3TWlTNVh2VFF3djdvSVlpNS1QLUdfWEltZW5vQklITXZtLWh0eTJGai1oajF3X3VDWjlKemNOR1QzZU12Q1BJTDh4RkNNblc5UEtpNzTSAb8BQVVfeXFMT0xGNkc4dFhuNkJGTHNrWTBKejVZZnFycnNBY1J2ZlZ0MUY0eGJqQzZadWN2Qi1nQjVNSmw5elhVcGdBUk4tSzlST1dXWmh0endia1JOSjRYX2Y2TVFvS2xvWFZfcEpFOVhsTmVRb0tXd09xQWU2UkdvdE5ES2Rta0toZG9VS0N1M08ta2NTbkRuNmd5RzVqaGpkdlFhakYwUWN4cU8wZVp5Z2lfX3ZEV3ZZN0pHRHFEU1ZBWkFDb2c?oc=5\" target=\"_blank\">National Weather Service, UP Travel give fall color outlook</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Upper Michigan's Source</font>"
+      },
+      "source": {
+        "href": "https://www.uppermichiganssource.com",
+        "title": "Upper Michigan's Source"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "A new mosquito is stalking New Mexico. Is the state ready? - Source New Mexico",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "A new mosquito is stalking New Mexico. Is the state ready? - Source New Mexico"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOeDdpUEJhR3gtY19OOWRWMjdKRi1MaEpZOUZyWjFrUVRFLTVqaWRhY0RLMUNESVFUbVNhUmFZaDZERThYZExid3hHazJFMXNFWnQ5VEE3cHJxeUdNM3JZNm45SndPMm1HSkoybVFNdnl3SGdCZFhnQUJOYUZid0poQ3BLdkxPM0RrU3VCZXpqUE02SDQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOeDdpUEJhR3gtY19OOWRWMjdKRi1MaEpZOUZyWjFrUVRFLTVqaWRhY0RLMUNESVFUbVNhUmFZaDZERThYZExid3hHazJFMXNFWnQ5VEE3cHJxeUdNM3JZNm45SndPMm1HSkoybVFNdnl3SGdCZFhnQUJOYUZid0poQ3BLdkxPM0RrU3VCZXpqUE02SDQ?oc=5",
+      "id": "CBMikwFBVV95cUxOeDdpUEJhR3gtY19OOWRWMjdKRi1MaEpZOUZyWjFrUVRFLTVqaWRhY0RLMUNESVFUbVNhUmFZaDZERThYZExid3hHazJFMXNFWnQ5VEE3cHJxeUdNM3JZNm45SndPMm1HSkoybVFNdnl3SGdCZFhnQUJOYUZid0poQ3BLdkxPM0RrU3VCZXpqUE02SDQ",
+      "guidislink": false,
+      "published": "Mon, 12 Sep 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        9,
+        12,
+        7,
+        0,
+        0,
+        0,
+        255,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxOeDdpUEJhR3gtY19OOWRWMjdKRi1MaEpZOUZyWjFrUVRFLTVqaWRhY0RLMUNESVFUbVNhUmFZaDZERThYZExid3hHazJFMXNFWnQ5VEE3cHJxeUdNM3JZNm45SndPMm1HSkoybVFNdnl3SGdCZFhnQUJOYUZid0poQ3BLdkxPM0RrU3VCZXpqUE02SDQ?oc=5\" target=\"_blank\">A new mosquito is stalking New Mexico. Is the state ready?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Source New Mexico</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxOeDdpUEJhR3gtY19OOWRWMjdKRi1MaEpZOUZyWjFrUVRFLTVqaWRhY0RLMUNESVFUbVNhUmFZaDZERThYZExid3hHazJFMXNFWnQ5VEE3cHJxeUdNM3JZNm45SndPMm1HSkoybVFNdnl3SGdCZFhnQUJOYUZid0poQ3BLdkxPM0RrU3VCZXpqUE02SDQ?oc=5\" target=\"_blank\">A new mosquito is stalking New Mexico. Is the state ready?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Source New Mexico</font>"
+      },
+      "source": {
+        "href": "https://sourcenm.com",
+        "title": "Source New Mexico"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "ZIKV-envelope proteins induce specific humoral and cellular immunity in distinct mice strains - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "ZIKV-envelope proteins induce specific humoral and cellular immunity in distinct mice strains - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5wY2EweU5fWGotaWZhVk96OUoteXljT2JXLXNsV0Y1WGg3QWpxWFVCekxwVFIyLS10dFdjdmxTOS1hU29tMml0eWMtU2c0bEpYQkVMTTVlMDk3UDZwNjdV?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5wY2EweU5fWGotaWZhVk96OUoteXljT2JXLXNsV0Y1WGg3QWpxWFVCekxwVFIyLS10dFdjdmxTOS1hU29tMml0eWMtU2c0bEpYQkVMTTVlMDk3UDZwNjdV?oc=5",
+      "id": "CBMiX0FVX3lxTE5wY2EweU5fWGotaWZhVk96OUoteXljT2JXLXNsV0Y1WGg3QWpxWFVCekxwVFIyLS10dFdjdmxTOS1hU29tMml0eWMtU2c0bEpYQkVMTTVlMDk3UDZwNjdV",
+      "guidislink": false,
+      "published": "Wed, 21 Sep 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        9,
+        21,
+        7,
+        0,
+        0,
+        2,
+        264,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5wY2EweU5fWGotaWZhVk96OUoteXljT2JXLXNsV0Y1WGg3QWpxWFVCekxwVFIyLS10dFdjdmxTOS1hU29tMml0eWMtU2c0bEpYQkVMTTVlMDk3UDZwNjdV?oc=5\" target=\"_blank\">ZIKV-envelope proteins induce specific humoral and cellular immunity in distinct mice strains</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5wY2EweU5fWGotaWZhVk96OUoteXljT2JXLXNsV0Y1WGg3QWpxWFVCekxwVFIyLS10dFdjdmxTOS1hU29tMml0eWMtU2c0bEpYQkVMTTVlMDk3UDZwNjdV?oc=5\" target=\"_blank\">ZIKV-envelope proteins induce specific humoral and cellular immunity in distinct mice strains</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "What Can Proteomics Teach Us About Infectious Disease - Technology Networks",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "What Can Proteomics Teach Us About Infectious Disease - Technology Networks"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYi1OM0xpVUtha1NtLVA4eUlMeU1zQldkZnQ0QWxnRDhoSVdzZm9LN19td2JILXJ6U2U2X1ZmTXNhZG8tZkZmdFRZLXFLSEdSLUtvZUVoU2RPRjFjQ0twQ3puR1F1cFZqbXVIWkFYWGQ5dktSNThBc2pwclVpU0pjY0xkemVvYlduZnNQZXMza0xzNmVJQ2VuN0dFNTZ3NFFxQklQVjZWRVZwMTk0OHI2U2hQTTVlQQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYi1OM0xpVUtha1NtLVA4eUlMeU1zQldkZnQ0QWxnRDhoSVdzZm9LN19td2JILXJ6U2U2X1ZmTXNhZG8tZkZmdFRZLXFLSEdSLUtvZUVoU2RPRjFjQ0twQ3puR1F1cFZqbXVIWkFYWGQ5dktSNThBc2pwclVpU0pjY0xkemVvYlduZnNQZXMza0xzNmVJQ2VuN0dFNTZ3NFFxQklQVjZWRVZwMTk0OHI2U2hQTTVlQQ?oc=5",
+      "id": "CBMitgFBVV95cUxOYi1OM0xpVUtha1NtLVA4eUlMeU1zQldkZnQ0QWxnRDhoSVdzZm9LN19td2JILXJ6U2U2X1ZmTXNhZG8tZkZmdFRZLXFLSEdSLUtvZUVoU2RPRjFjQ0twQ3puR1F1cFZqbXVIWkFYWGQ5dktSNThBc2pwclVpU0pjY0xkemVvYlduZnNQZXMza0xzNmVJQ2VuN0dFNTZ3NFFxQklQVjZWRVZwMTk0OHI2U2hQTTVlQQ",
+      "guidislink": false,
+      "published": "Mon, 12 Sep 2022 15:19:38 GMT",
+      "published_parsed": [
+        2022,
+        9,
+        12,
+        15,
+        19,
+        38,
+        0,
+        255,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxOYi1OM0xpVUtha1NtLVA4eUlMeU1zQldkZnQ0QWxnRDhoSVdzZm9LN19td2JILXJ6U2U2X1ZmTXNhZG8tZkZmdFRZLXFLSEdSLUtvZUVoU2RPRjFjQ0twQ3puR1F1cFZqbXVIWkFYWGQ5dktSNThBc2pwclVpU0pjY0xkemVvYlduZnNQZXMza0xzNmVJQ2VuN0dFNTZ3NFFxQklQVjZWRVZwMTk0OHI2U2hQTTVlQQ?oc=5\" target=\"_blank\">What Can Proteomics Teach Us About Infectious Disease</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Technology Networks</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxOYi1OM0xpVUtha1NtLVA4eUlMeU1zQldkZnQ0QWxnRDhoSVdzZm9LN19td2JILXJ6U2U2X1ZmTXNhZG8tZkZmdFRZLXFLSEdSLUtvZUVoU2RPRjFjQ0twQ3puR1F1cFZqbXVIWkFYWGQ5dktSNThBc2pwclVpU0pjY0xkemVvYlduZnNQZXMza0xzNmVJQ2VuN0dFNTZ3NFFxQklQVjZWRVZwMTk0OHI2U2hQTTVlQQ?oc=5\" target=\"_blank\">What Can Proteomics Teach Us About Infectious Disease</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Technology Networks</font>"
+      },
+      "source": {
+        "href": "https://www.technologynetworks.com",
+        "title": "Technology Networks"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Understanding Mosquito Behaviour - Oxford Sparks",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Understanding Mosquito Behaviour - Oxford Sparks"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1FT2VPa3BITjlPVlkteWZLYzlFcHdzczFuNGo4SkVUU3NMSnl2eUljd1BXTHpfUDgyNWRXWXY2S3hIdml2aDdtZTRHcWtsTXZnMlRVVHVfcG1xajZZUkJDWldjOUo1ODRjTW1sc2dxdUw3SE1lbzA5VmV2MUhDVmM?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1FT2VPa3BITjlPVlkteWZLYzlFcHdzczFuNGo4SkVUU3NMSnl2eUljd1BXTHpfUDgyNWRXWXY2S3hIdml2aDdtZTRHcWtsTXZnMlRVVHVfcG1xajZZUkJDWldjOUo1ODRjTW1sc2dxdUw3SE1lbzA5VmV2MUhDVmM?oc=5",
+      "id": "CBMif0FVX3lxTE1FT2VPa3BITjlPVlkteWZLYzlFcHdzczFuNGo4SkVUU3NMSnl2eUljd1BXTHpfUDgyNWRXWXY2S3hIdml2aDdtZTRHcWtsTXZnMlRVVHVfcG1xajZZUkJDWldjOUo1ODRjTW1sc2dxdUw3SE1lbzA5VmV2MUhDVmM",
+      "guidislink": false,
+      "published": "Wed, 21 Sep 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        9,
+        21,
+        7,
+        0,
+        0,
+        2,
+        264,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE1FT2VPa3BITjlPVlkteWZLYzlFcHdzczFuNGo4SkVUU3NMSnl2eUljd1BXTHpfUDgyNWRXWXY2S3hIdml2aDdtZTRHcWtsTXZnMlRVVHVfcG1xajZZUkJDWldjOUo1ODRjTW1sc2dxdUw3SE1lbzA5VmV2MUhDVmM?oc=5\" target=\"_blank\">Understanding Mosquito Behaviour</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Oxford Sparks</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE1FT2VPa3BITjlPVlkteWZLYzlFcHdzczFuNGo4SkVUU3NMSnl2eUljd1BXTHpfUDgyNWRXWXY2S3hIdml2aDdtZTRHcWtsTXZnMlRVVHVfcG1xajZZUkJDWldjOUo1ODRjTW1sc2dxdUw3SE1lbzA5VmV2MUhDVmM?oc=5\" target=\"_blank\">Understanding Mosquito Behaviour</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Oxford Sparks</font>"
+      },
+      "source": {
+        "href": "https://www.oxfordsparks.ox.ac.uk",
+        "title": "Oxford Sparks"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Why Is Delhi So Full of Mosquitoes? - The Wire Science",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Why Is Delhi So Full of Mosquitoes? - The Wire Science"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9UM3B5SWQwUWUwNDZHaEFJOXQxLVpDT0JzazR0X21zNF9aZ1R1R244RHBWckd0bEpFMEV2M3paNGtDZF9pNFRWN1FKV0MzMHpabGltUXo0LUlTTC11M2N2WTA4QTZ4NXRocXFkSWNTVXd0bnhhMlBEQWJvczQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9UM3B5SWQwUWUwNDZHaEFJOXQxLVpDT0JzazR0X21zNF9aZ1R1R244RHBWckd0bEpFMEV2M3paNGtDZF9pNFRWN1FKV0MzMHpabGltUXo0LUlTTC11M2N2WTA4QTZ4NXRocXFkSWNTVXd0bnhhMlBEQWJvczQ?oc=5",
+      "id": "CBMifEFVX3lxTE9UM3B5SWQwUWUwNDZHaEFJOXQxLVpDT0JzazR0X21zNF9aZ1R1R244RHBWckd0bEpFMEV2M3paNGtDZF9pNFRWN1FKV0MzMHpabGltUXo0LUlTTC11M2N2WTA4QTZ4NXRocXFkSWNTVXd0bnhhMlBEQWJvczQ",
+      "guidislink": false,
+      "published": "Thu, 22 Sep 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        9,
+        22,
+        7,
+        0,
+        0,
+        3,
+        265,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE9UM3B5SWQwUWUwNDZHaEFJOXQxLVpDT0JzazR0X21zNF9aZ1R1R244RHBWckd0bEpFMEV2M3paNGtDZF9pNFRWN1FKV0MzMHpabGltUXo0LUlTTC11M2N2WTA4QTZ4NXRocXFkSWNTVXd0bnhhMlBEQWJvczQ?oc=5\" target=\"_blank\">Why Is Delhi So Full of Mosquitoes?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Wire Science</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE9UM3B5SWQwUWUwNDZHaEFJOXQxLVpDT0JzazR0X21zNF9aZ1R1R244RHBWckd0bEpFMEV2M3paNGtDZF9pNFRWN1FKV0MzMHpabGltUXo0LUlTTC11M2N2WTA4QTZ4NXRocXFkSWNTVXd0bnhhMlBEQWJvczQ?oc=5\" target=\"_blank\">Why Is Delhi So Full of Mosquitoes?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Wire Science</font>"
+      },
+      "source": {
+        "href": "https://science.thewire.in",
+        "title": "The Wire Science"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Dengue fever, Malaria na ọrịa ndị anwụnta na-ebute nakwa etu ị ga-esi gbochie ọtịta ya - BBC",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Dengue fever, Malaria na ọrịa ndị anwụnta na-ebute nakwa etu ị ga-esi gbochie ọtịta ya - BBC"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB6SGc0bFotM0FSVDR0NHFJU0FOM0tGLXBXZDVmSGxwTTNwaHhIWEoyUC1EUXVCVkhoNU91SU16Zl9YcTBNck9zLWh5ZmJlNE1tcGZN0gFYQVVfeXFMTTlWODRWaDU5am1XNXBUckFOZVVWMmJ6MllCeGdwUW1IMDA0Sy02eVV3Qi1NWDdJUDgtY1E4S0E3TzB3dV9KYjd4RlhSdkRPQ0NCWFkzUlV6ag?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB6SGc0bFotM0FSVDR0NHFJU0FOM0tGLXBXZDVmSGxwTTNwaHhIWEoyUC1EUXVCVkhoNU91SU16Zl9YcTBNck9zLWh5ZmJlNE1tcGZN0gFYQVVfeXFMTTlWODRWaDU5am1XNXBUckFOZVVWMmJ6MllCeGdwUW1IMDA0Sy02eVV3Qi1NWDdJUDgtY1E4S0E3TzB3dV9KYjd4RlhSdkRPQ0NCWFkzUlV6ag?oc=5",
+      "id": "CBMiU0FVX3lxTFB6SGc0bFotM0FSVDR0NHFJU0FOM0tGLXBXZDVmSGxwTTNwaHhIWEoyUC1EUXVCVkhoNU91SU16Zl9YcTBNck9zLWh5ZmJlNE1tcGZN0gFYQVVfeXFMTTlWODRWaDU5am1XNXBUckFOZVVWMmJ6MllCeGdwUW1IMDA0Sy02eVV3Qi1NWDdJUDgtY1E4S0E3TzB3dV9KYjd4RlhSdkRPQ0NCWFkzUlV6ag",
+      "guidislink": false,
+      "published": "Thu, 15 Sep 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        9,
+        15,
+        7,
+        0,
+        0,
+        3,
+        258,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTFB6SGc0bFotM0FSVDR0NHFJU0FOM0tGLXBXZDVmSGxwTTNwaHhIWEoyUC1EUXVCVkhoNU91SU16Zl9YcTBNck9zLWh5ZmJlNE1tcGZN0gFYQVVfeXFMTTlWODRWaDU5am1XNXBUckFOZVVWMmJ6MllCeGdwUW1IMDA0Sy02eVV3Qi1NWDdJUDgtY1E4S0E3TzB3dV9KYjd4RlhSdkRPQ0NCWFkzUlV6ag?oc=5\" target=\"_blank\">Dengue fever, Malaria na ọrịa ndị anwụnta na-ebute nakwa etu ị ga-esi gbochie ọtịta ya</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTFB6SGc0bFotM0FSVDR0NHFJU0FOM0tGLXBXZDVmSGxwTTNwaHhIWEoyUC1EUXVCVkhoNU91SU16Zl9YcTBNck9zLWh5ZmJlNE1tcGZN0gFYQVVfeXFMTTlWODRWaDU5am1XNXBUckFOZVVWMmJ6MllCeGdwUW1IMDA0Sy02eVV3Qi1NWDdJUDgtY1E4S0E3TzB3dV9KYjd4RlhSdkRPQ0NCWFkzUlV6ag?oc=5\" target=\"_blank\">Dengue fever, Malaria na ọrịa ndị anwụnta na-ebute nakwa etu ị ga-esi gbochie ọtịta ya</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>"
+      },
+      "source": {
+        "href": "https://www.bbc.com",
+        "title": "BBC"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "France warns of increased risk of dengue fever from tiger mosquitoes - The Connexion",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "France warns of increased risk of dengue fever from tiger mosquitoes - The Connexion"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZ0U2bEFhSHY1dXo1MDJmZE8td1pzQTJPRExiM2p4QllXcUlCQVU3SXVWSkp0TG55aGdoSzVPYkNWUEpxeFlGWUNCSE9OaDZEVzMyYzQyY2pnWHJCa0N0eXFYYVMzT25tVkI0UmFza3RrVzkwYi04QnlfQk5BT0hEYlh3ODBXa1JfNFNGMlhUUGRsUnB5ZXJKWTlaTGVOVlBkMXJySzFVb1F2cjlaMmdSTjhR?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZ0U2bEFhSHY1dXo1MDJmZE8td1pzQTJPRExiM2p4QllXcUlCQVU3SXVWSkp0TG55aGdoSzVPYkNWUEpxeFlGWUNCSE9OaDZEVzMyYzQyY2pnWHJCa0N0eXFYYVMzT25tVkI0UmFza3RrVzkwYi04QnlfQk5BT0hEYlh3ODBXa1JfNFNGMlhUUGRsUnB5ZXJKWTlaTGVOVlBkMXJySzFVb1F2cjlaMmdSTjhR?oc=5",
+      "id": "CBMisgFBVV95cUxPZ0U2bEFhSHY1dXo1MDJmZE8td1pzQTJPRExiM2p4QllXcUlCQVU3SXVWSkp0TG55aGdoSzVPYkNWUEpxeFlGWUNCSE9OaDZEVzMyYzQyY2pnWHJCa0N0eXFYYVMzT25tVkI0UmFza3RrVzkwYi04QnlfQk5BT0hEYlh3ODBXa1JfNFNGMlhUUGRsUnB5ZXJKWTlaTGVOVlBkMXJySzFVb1F2cjlaMmdSTjhR",
+      "guidislink": false,
+      "published": "Thu, 15 Sep 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        9,
+        15,
+        7,
+        0,
+        0,
+        3,
+        258,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPZ0U2bEFhSHY1dXo1MDJmZE8td1pzQTJPRExiM2p4QllXcUlCQVU3SXVWSkp0TG55aGdoSzVPYkNWUEpxeFlGWUNCSE9OaDZEVzMyYzQyY2pnWHJCa0N0eXFYYVMzT25tVkI0UmFza3RrVzkwYi04QnlfQk5BT0hEYlh3ODBXa1JfNFNGMlhUUGRsUnB5ZXJKWTlaTGVOVlBkMXJySzFVb1F2cjlaMmdSTjhR?oc=5\" target=\"_blank\">France warns of increased risk of dengue fever from tiger mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Connexion</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPZ0U2bEFhSHY1dXo1MDJmZE8td1pzQTJPRExiM2p4QllXcUlCQVU3SXVWSkp0TG55aGdoSzVPYkNWUEpxeFlGWUNCSE9OaDZEVzMyYzQyY2pnWHJCa0N0eXFYYVMzT25tVkI0UmFza3RrVzkwYi04QnlfQk5BT0hEYlh3ODBXa1JfNFNGMlhUUGRsUnB5ZXJKWTlaTGVOVlBkMXJySzFVb1F2cjlaMmdSTjhR?oc=5\" target=\"_blank\">France warns of increased risk of dengue fever from tiger mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Connexion</font>"
+      },
+      "source": {
+        "href": "https://www.connexionfrance.com",
+        "title": "The Connexion"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "For Africans, the British empire was neither benign nor good - The Mail & Guardian",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "For Africans, the British empire was neither benign nor good - The Mail & Guardian"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPT2hSZzQ3RUkxb3had1kxQnJTOENuQk0yaEVEYjhQVnZ6QmROdm1WRnMyY3NVVGpVTmJGM0UycWNGZ1lfT21NVm94S2N1MEJCU2NESWxHSXhUMmRYeUROajFKOWlVVDUta3NLclR4bjBqajNaR3dfak9NWnVyRkt1RnBEZE1JSTdzQmVWcWQ1TjBqWlMtcklUNFoxMEcycllKa1JhWnY4akdtaXNQcHpESg?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPT2hSZzQ3RUkxb3had1kxQnJTOENuQk0yaEVEYjhQVnZ6QmROdm1WRnMyY3NVVGpVTmJGM0UycWNGZ1lfT21NVm94S2N1MEJCU2NESWxHSXhUMmRYeUROajFKOWlVVDUta3NLclR4bjBqajNaR3dfak9NWnVyRkt1RnBEZE1JSTdzQmVWcWQ1TjBqWlMtcklUNFoxMEcycllKa1JhWnY4akdtaXNQcHpESg?oc=5",
+      "id": "CBMisAFBVV95cUxPT2hSZzQ3RUkxb3had1kxQnJTOENuQk0yaEVEYjhQVnZ6QmROdm1WRnMyY3NVVGpVTmJGM0UycWNGZ1lfT21NVm94S2N1MEJCU2NESWxHSXhUMmRYeUROajFKOWlVVDUta3NLclR4bjBqajNaR3dfak9NWnVyRkt1RnBEZE1JSTdzQmVWcWQ1TjBqWlMtcklUNFoxMEcycllKa1JhWnY4akdtaXNQcHpESg",
+      "guidislink": false,
+      "published": "Mon, 12 Sep 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        9,
+        12,
+        7,
+        0,
+        0,
+        0,
+        255,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPT2hSZzQ3RUkxb3had1kxQnJTOENuQk0yaEVEYjhQVnZ6QmROdm1WRnMyY3NVVGpVTmJGM0UycWNGZ1lfT21NVm94S2N1MEJCU2NESWxHSXhUMmRYeUROajFKOWlVVDUta3NLclR4bjBqajNaR3dfak9NWnVyRkt1RnBEZE1JSTdzQmVWcWQ1TjBqWlMtcklUNFoxMEcycllKa1JhWnY4akdtaXNQcHpESg?oc=5\" target=\"_blank\">For Africans, the British empire was neither benign nor good</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Mail & Guardian</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPT2hSZzQ3RUkxb3had1kxQnJTOENuQk0yaEVEYjhQVnZ6QmROdm1WRnMyY3NVVGpVTmJGM0UycWNGZ1lfT21NVm94S2N1MEJCU2NESWxHSXhUMmRYeUROajFKOWlVVDUta3NLclR4bjBqajNaR3dfak9NWnVyRkt1RnBEZE1JSTdzQmVWcWQ1TjBqWlMtcklUNFoxMEcycllKa1JhWnY4akdtaXNQcHpESg?oc=5\" target=\"_blank\">For Africans, the British empire was neither benign nor good</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Mail & Guardian</font>"
+      },
+      "source": {
+        "href": "https://mg.co.za",
+        "title": "The Mail & Guardian"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Characteristics of children of the Microcephaly Epidemic Research Group Pediatric Cohort who developed postnatal microcephaly - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Characteristics of children of the Microcephaly Epidemic Research Group Pediatric Cohort who developed postnatal microcephaly - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5FTWF1LWhLcnd0c185Z3BybXVZZHhDbHZSYW5sM3JBOGZKaEFyVG5TRzJZemJQc3VBcEF4ZnBaTlAzQ2dEZVFLMENGd3NweGNlVnBDUm05UGRHclFwenBn?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5FTWF1LWhLcnd0c185Z3BybXVZZHhDbHZSYW5sM3JBOGZKaEFyVG5TRzJZemJQc3VBcEF4ZnBaTlAzQ2dEZVFLMENGd3NweGNlVnBDUm05UGRHclFwenBn?oc=5",
+      "id": "CBMiX0FVX3lxTE5FTWF1LWhLcnd0c185Z3BybXVZZHhDbHZSYW5sM3JBOGZKaEFyVG5TRzJZemJQc3VBcEF4ZnBaTlAzQ2dEZVFLMENGd3NweGNlVnBDUm05UGRHclFwenBn",
+      "guidislink": false,
+      "published": "Thu, 22 Sep 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        9,
+        22,
+        7,
+        0,
+        0,
+        3,
+        265,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5FTWF1LWhLcnd0c185Z3BybXVZZHhDbHZSYW5sM3JBOGZKaEFyVG5TRzJZemJQc3VBcEF4ZnBaTlAzQ2dEZVFLMENGd3NweGNlVnBDUm05UGRHclFwenBn?oc=5\" target=\"_blank\">Characteristics of children of the Microcephaly Epidemic Research Group Pediatric Cohort who developed postnatal microcephaly</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5FTWF1LWhLcnd0c185Z3BybXVZZHhDbHZSYW5sM3JBOGZKaEFyVG5TRzJZemJQc3VBcEF4ZnBaTlAzQ2dEZVFLMENGd3NweGNlVnBDUm05UGRHclFwenBn?oc=5\" target=\"_blank\">Characteristics of children of the Microcephaly Epidemic Research Group Pediatric Cohort who developed postnatal microcephaly</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Can mosquitoes spread SARS-CoV-2? Experts weigh in - Pakistan Observer",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Can mosquitoes spread SARS-CoV-2? Experts weigh in - Pakistan Observer"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMif0FVX3lxTE45Qm5sbFVtZ3VsVkxCMHVzbTFFQno3ZnJTa1E3bzNFeVRYZEFwNXlHVUdLSEF2dDh0UnBtWk84T2ZhS3l6WFI3SWt6S3J1dlp2QjRINEtwNUlhOVpSR2pOaXRVUmoxY19LeVZtY1c5ZWR0VEtqc1pOLW9NVEZZa3c?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE45Qm5sbFVtZ3VsVkxCMHVzbTFFQno3ZnJTa1E3bzNFeVRYZEFwNXlHVUdLSEF2dDh0UnBtWk84T2ZhS3l6WFI3SWt6S3J1dlp2QjRINEtwNUlhOVpSR2pOaXRVUmoxY19LeVZtY1c5ZWR0VEtqc1pOLW9NVEZZa3c?oc=5",
+      "id": "CBMif0FVX3lxTE45Qm5sbFVtZ3VsVkxCMHVzbTFFQno3ZnJTa1E3bzNFeVRYZEFwNXlHVUdLSEF2dDh0UnBtWk84T2ZhS3l6WFI3SWt6S3J1dlp2QjRINEtwNUlhOVpSR2pOaXRVUmoxY19LeVZtY1c5ZWR0VEtqc1pOLW9NVEZZa3c",
+      "guidislink": false,
+      "published": "Tue, 13 Sep 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        9,
+        13,
+        7,
+        0,
+        0,
+        1,
+        256,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE45Qm5sbFVtZ3VsVkxCMHVzbTFFQno3ZnJTa1E3bzNFeVRYZEFwNXlHVUdLSEF2dDh0UnBtWk84T2ZhS3l6WFI3SWt6S3J1dlp2QjRINEtwNUlhOVpSR2pOaXRVUmoxY19LeVZtY1c5ZWR0VEtqc1pOLW9NVEZZa3c?oc=5\" target=\"_blank\">Can mosquitoes spread SARS-CoV-2? Experts weigh in</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Pakistan Observer</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE45Qm5sbFVtZ3VsVkxCMHVzbTFFQno3ZnJTa1E3bzNFeVRYZEFwNXlHVUdLSEF2dDh0UnBtWk84T2ZhS3l6WFI3SWt6S3J1dlp2QjRINEtwNUlhOVpSR2pOaXRVUmoxY19LeVZtY1c5ZWR0VEtqc1pOLW9NVEZZa3c?oc=5\" target=\"_blank\">Can mosquitoes spread SARS-CoV-2? Experts weigh in</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Pakistan Observer</font>"
+      },
+      "source": {
+        "href": "https://pakobserver.net",
+        "title": "Pakistan Observer"
+      },
+      "sub_articles": []
+    }
+  ]
+}

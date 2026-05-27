@@ -1,0 +1,822 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2022-11-18",
+  "window_end": "2022-12-01",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2022-11-18+before%3A2022-12-02&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2022-11-18+before:2022-12-02&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:29:42Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2022-11-18 before:2022-12-02\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2022-11-18 before:2022-12-02\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2022-11-18+before:2022-12-02&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2022-11-18+before:2022-12-02&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:29:43 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      29,
+      43,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "A third of babies born to Zika-infected mothers developed abnormalities - Gavi, the Vaccine Alliance",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "A third of babies born to Zika-infected mothers developed abnormalities - Gavi, the Vaccine Alliance"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVnVuTV9FTE54TlV5YlhUQmgwalRZVmtHZHhBSlQ2cGt6TTJndHF4dGloQWxOSVpiZ2VYaFJPV1VMcjVtU3FhMFlYejRFUzFaR2VSRHpsVWlmb3ZEVkhSTU1UQlc0S0xRdGtzM1RrYUhvREdXVkVLRjN1Zmd3WFJzOTZ1dU1KX2dNRjlaMEpmVmdTNjZ2MlNFZHNfTnEyQQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVnVuTV9FTE54TlV5YlhUQmgwalRZVmtHZHhBSlQ2cGt6TTJndHF4dGloQWxOSVpiZ2VYaFJPV1VMcjVtU3FhMFlYejRFUzFaR2VSRHpsVWlmb3ZEVkhSTU1UQlc0S0xRdGtzM1RrYUhvREdXVkVLRjN1Zmd3WFJzOTZ1dU1KX2dNRjlaMEpmVmdTNjZ2MlNFZHNfTnEyQQ?oc=5",
+      "id": "CBMingFBVV95cUxNVnVuTV9FTE54TlV5YlhUQmgwalRZVmtHZHhBSlQ2cGt6TTJndHF4dGloQWxOSVpiZ2VYaFJPV1VMcjVtU3FhMFlYejRFUzFaR2VSRHpsVWlmb3ZEVkhSTU1UQlc0S0xRdGtzM1RrYUhvREdXVkVLRjN1Zmd3WFJzOTZ1dU1KX2dNRjlaMEpmVmdTNjZ2MlNFZHNfTnEyQQ",
+      "guidislink": false,
+      "published": "Fri, 02 Dec 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        12,
+        2,
+        8,
+        0,
+        0,
+        4,
+        336,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNVnVuTV9FTE54TlV5YlhUQmgwalRZVmtHZHhBSlQ2cGt6TTJndHF4dGloQWxOSVpiZ2VYaFJPV1VMcjVtU3FhMFlYejRFUzFaR2VSRHpsVWlmb3ZEVkhSTU1UQlc0S0xRdGtzM1RrYUhvREdXVkVLRjN1Zmd3WFJzOTZ1dU1KX2dNRjlaMEpmVmdTNjZ2MlNFZHNfTnEyQQ?oc=5\" target=\"_blank\">A third of babies born to Zika-infected mothers developed abnormalities</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Gavi, the Vaccine Alliance</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNVnVuTV9FTE54TlV5YlhUQmgwalRZVmtHZHhBSlQ2cGt6TTJndHF4dGloQWxOSVpiZ2VYaFJPV1VMcjVtU3FhMFlYejRFUzFaR2VSRHpsVWlmb3ZEVkhSTU1UQlc0S0xRdGtzM1RrYUhvREdXVkVLRjN1Zmd3WFJzOTZ1dU1KX2dNRjlaMEpmVmdTNjZ2MlNFZHNfTnEyQQ?oc=5\" target=\"_blank\">A third of babies born to Zika-infected mothers developed abnormalities</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Gavi, the Vaccine Alliance</font>"
+      },
+      "source": {
+        "href": "https://www.gavi.org",
+        "title": "Gavi, the Vaccine Alliance"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Preschool neurodevelopment in Zika virus-exposed children without congenital Zika syndrome | Pediatric Research - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Preschool neurodevelopment in Zika virus-exposed children without congenital Zika syndrome | Pediatric Research - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA3VUdKTGFDLTZFaXRwdlgtTGtUX1QzWGdBRUZKQjk0UURnN05kYUZDNHRtRHdhZ2labUhzd0pfMW5TNjlTSXRkdkFjbm9TZnFscGw5RHc3TjRvZDRxWjVr?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA3VUdKTGFDLTZFaXRwdlgtTGtUX1QzWGdBRUZKQjk0UURnN05kYUZDNHRtRHdhZ2labUhzd0pfMW5TNjlTSXRkdkFjbm9TZnFscGw5RHc3TjRvZDRxWjVr?oc=5",
+      "id": "CBMiX0FVX3lxTFA3VUdKTGFDLTZFaXRwdlgtTGtUX1QzWGdBRUZKQjk0UURnN05kYUZDNHRtRHdhZ2labUhzd0pfMW5TNjlTSXRkdkFjbm9TZnFscGw5RHc3TjRvZDRxWjVr",
+      "guidislink": false,
+      "published": "Wed, 30 Nov 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        11,
+        30,
+        8,
+        0,
+        0,
+        2,
+        334,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFA3VUdKTGFDLTZFaXRwdlgtTGtUX1QzWGdBRUZKQjk0UURnN05kYUZDNHRtRHdhZ2labUhzd0pfMW5TNjlTSXRkdkFjbm9TZnFscGw5RHc3TjRvZDRxWjVr?oc=5\" target=\"_blank\">Preschool neurodevelopment in Zika virus-exposed children without congenital Zika syndrome | Pediatric Research</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFA3VUdKTGFDLTZFaXRwdlgtTGtUX1QzWGdBRUZKQjk0UURnN05kYUZDNHRtRHdhZ2labUhzd0pfMW5TNjlTSXRkdkFjbm9TZnFscGw5RHc3TjRvZDRxWjVr?oc=5\" target=\"_blank\">Preschool neurodevelopment in Zika virus-exposed children without congenital Zika syndrome | Pediatric Research</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Unusual Type of Antibody Shows Ultrapotent Activity Against Zika - WCM Newsroom",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Unusual Type of Antibody Shows Ultrapotent Activity Against Zika - WCM Newsroom"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdjMyUEVVcTdLTTdBeHlXVXR3am1URTBMUVBSQkJVcUJrd3VNbWg5WkdfS3hQc2ZnMnk2WEVITXJpVGNiZGJBYm1DM3pLM25JU0hDQkZJWDM4T24xc2hnRXdQLXdYOXJ2WHdlR3czRDNfZmVCd1ZYNXlEVUR1dDdPckRleXBfZy1kM3ZWQnZScmVkWlY3QXc1NUtXdHpDNDRXb2RvQm05SDFYREVW?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdjMyUEVVcTdLTTdBeHlXVXR3am1URTBMUVBSQkJVcUJrd3VNbWg5WkdfS3hQc2ZnMnk2WEVITXJpVGNiZGJBYm1DM3pLM25JU0hDQkZJWDM4T24xc2hnRXdQLXdYOXJ2WHdlR3czRDNfZmVCd1ZYNXlEVUR1dDdPckRleXBfZy1kM3ZWQnZScmVkWlY3QXc1NUtXdHpDNDRXb2RvQm05SDFYREVW?oc=5",
+      "id": "CBMirAFBVV95cUxNdjMyUEVVcTdLTTdBeHlXVXR3am1URTBMUVBSQkJVcUJrd3VNbWg5WkdfS3hQc2ZnMnk2WEVITXJpVGNiZGJBYm1DM3pLM25JU0hDQkZJWDM4T24xc2hnRXdQLXdYOXJ2WHdlR3czRDNfZmVCd1ZYNXlEVUR1dDdPckRleXBfZy1kM3ZWQnZScmVkWlY3QXc1NUtXdHpDNDRXb2RvQm05SDFYREVW",
+      "guidislink": false,
+      "published": "Fri, 18 Nov 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        11,
+        18,
+        8,
+        0,
+        0,
+        4,
+        322,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxNdjMyUEVVcTdLTTdBeHlXVXR3am1URTBMUVBSQkJVcUJrd3VNbWg5WkdfS3hQc2ZnMnk2WEVITXJpVGNiZGJBYm1DM3pLM25JU0hDQkZJWDM4T24xc2hnRXdQLXdYOXJ2WHdlR3czRDNfZmVCd1ZYNXlEVUR1dDdPckRleXBfZy1kM3ZWQnZScmVkWlY3QXc1NUtXdHpDNDRXb2RvQm05SDFYREVW?oc=5\" target=\"_blank\">Unusual Type of Antibody Shows Ultrapotent Activity Against Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WCM Newsroom</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxNdjMyUEVVcTdLTTdBeHlXVXR3am1URTBMUVBSQkJVcUJrd3VNbWg5WkdfS3hQc2ZnMnk2WEVITXJpVGNiZGJBYm1DM3pLM25JU0hDQkZJWDM4T24xc2hnRXdQLXdYOXJ2WHdlR3czRDNfZmVCd1ZYNXlEVUR1dDdPckRleXBfZy1kM3ZWQnZScmVkWlY3QXc1NUtXdHpDNDRXb2RvQm05SDFYREVW?oc=5\" target=\"_blank\">Unusual Type of Antibody Shows Ultrapotent Activity Against Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WCM Newsroom</font>"
+      },
+      "source": {
+        "href": "https://news.weill.cornell.edu",
+        "title": "WCM Newsroom"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Mystery of the Cape Verde Zika outbreak solved | - Institut Pasteur",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Mystery of the Cape Verde Zika outbreak solved | - Institut Pasteur"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikAFBVV95cUxON3hWQTBESUpBWlJrX1JHNDBfS3pBQVRyeU15RkVjN2FXR3h1cWo1bWhFa3RYdUpyS1NzcXJZMVBGVDEyOURCOFBub0JrdjlhZXVjU0I3cnplbWR4dHpnUjJjcXBFTU0wZGpscEJFMUpXWnNuNFQ2R0JNMHV4dzQxbTVoWFlIaTNJWGprNURNTy0?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxON3hWQTBESUpBWlJrX1JHNDBfS3pBQVRyeU15RkVjN2FXR3h1cWo1bWhFa3RYdUpyS1NzcXJZMVBGVDEyOURCOFBub0JrdjlhZXVjU0I3cnplbWR4dHpnUjJjcXBFTU0wZGpscEJFMUpXWnNuNFQ2R0JNMHV4dzQxbTVoWFlIaTNJWGprNURNTy0?oc=5",
+      "id": "CBMikAFBVV95cUxON3hWQTBESUpBWlJrX1JHNDBfS3pBQVRyeU15RkVjN2FXR3h1cWo1bWhFa3RYdUpyS1NzcXJZMVBGVDEyOURCOFBub0JrdjlhZXVjU0I3cnplbWR4dHpnUjJjcXBFTU0wZGpscEJFMUpXWnNuNFQ2R0JNMHV4dzQxbTVoWFlIaTNJWGprNURNTy0",
+      "guidislink": false,
+      "published": "Tue, 22 Nov 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        11,
+        22,
+        8,
+        0,
+        0,
+        1,
+        326,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxON3hWQTBESUpBWlJrX1JHNDBfS3pBQVRyeU15RkVjN2FXR3h1cWo1bWhFa3RYdUpyS1NzcXJZMVBGVDEyOURCOFBub0JrdjlhZXVjU0I3cnplbWR4dHpnUjJjcXBFTU0wZGpscEJFMUpXWnNuNFQ2R0JNMHV4dzQxbTVoWFlIaTNJWGprNURNTy0?oc=5\" target=\"_blank\">Mystery of the Cape Verde Zika outbreak solved |</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Institut Pasteur</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxON3hWQTBESUpBWlJrX1JHNDBfS3pBQVRyeU15RkVjN2FXR3h1cWo1bWhFa3RYdUpyS1NzcXJZMVBGVDEyOURCOFBub0JrdjlhZXVjU0I3cnplbWR4dHpnUjJjcXBFTU0wZGpscEJFMUpXWnNuNFQ2R0JNMHV4dzQxbTVoWFlIaTNJWGprNURNTy0?oc=5\" target=\"_blank\">Mystery of the Cape Verde Zika outbreak solved |</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Institut Pasteur</font>"
+      },
+      "source": {
+        "href": "https://www.pasteur.fr",
+        "title": "Institut Pasteur"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Exposure to Zika in utero may produce neurodevelopmental differences - Children's National Hospital",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Exposure to Zika in utero may produce neurodevelopmental differences - Children's National Hospital"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYXEtYmJmcVpFbHhpU2NSNU5PdzZZYXJrb2ZhUG9iUlUyQk5jM2hFZ1NMbVpKNS1kTDFkcGhwd0FSZnNwTGNDTVRtZjhySlIwUW5YcVpMUnhYLW51SkhaeXpSQVNOWW9iVzNEeFdHOFVabkJCbVQ1aGNENldtYXdkUXBRem9yMmlnQnJBMlhfa0h2cmNXM0pOSnBLZ2VTSUxHN1lUQkhpWVVfMndRak5rbUlaQXQ0YmREbFE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYXEtYmJmcVpFbHhpU2NSNU5PdzZZYXJrb2ZhUG9iUlUyQk5jM2hFZ1NMbVpKNS1kTDFkcGhwd0FSZnNwTGNDTVRtZjhySlIwUW5YcVpMUnhYLW51SkhaeXpSQVNOWW9iVzNEeFdHOFVabkJCbVQ1aGNENldtYXdkUXBRem9yMmlnQnJBMlhfa0h2cmNXM0pOSnBLZ2VTSUxHN1lUQkhpWVVfMndRak5rbUlaQXQ0YmREbFE?oc=5",
+      "id": "CBMiugFBVV95cUxNYXEtYmJmcVpFbHhpU2NSNU5PdzZZYXJrb2ZhUG9iUlUyQk5jM2hFZ1NMbVpKNS1kTDFkcGhwd0FSZnNwTGNDTVRtZjhySlIwUW5YcVpMUnhYLW51SkhaeXpSQVNOWW9iVzNEeFdHOFVabkJCbVQ1aGNENldtYXdkUXBRem9yMmlnQnJBMlhfa0h2cmNXM0pOSnBLZ2VTSUxHN1lUQkhpWVVfMndRak5rbUlaQXQ0YmREbFE",
+      "guidislink": false,
+      "published": "Wed, 30 Nov 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        11,
+        30,
+        8,
+        0,
+        0,
+        2,
+        334,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxNYXEtYmJmcVpFbHhpU2NSNU5PdzZZYXJrb2ZhUG9iUlUyQk5jM2hFZ1NMbVpKNS1kTDFkcGhwd0FSZnNwTGNDTVRtZjhySlIwUW5YcVpMUnhYLW51SkhaeXpSQVNOWW9iVzNEeFdHOFVabkJCbVQ1aGNENldtYXdkUXBRem9yMmlnQnJBMlhfa0h2cmNXM0pOSnBLZ2VTSUxHN1lUQkhpWVVfMndRak5rbUlaQXQ0YmREbFE?oc=5\" target=\"_blank\">Exposure to Zika in utero may produce neurodevelopmental differences</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Children's National Hospital</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxNYXEtYmJmcVpFbHhpU2NSNU5PdzZZYXJrb2ZhUG9iUlUyQk5jM2hFZ1NMbVpKNS1kTDFkcGhwd0FSZnNwTGNDTVRtZjhySlIwUW5YcVpMUnhYLW51SkhaeXpSQVNOWW9iVzNEeFdHOFVabkJCbVQ1aGNENldtYXdkUXBRem9yMmlnQnJBMlhfa0h2cmNXM0pOSnBLZ2VTSUxHN1lUQkhpWVVfMndRak5rbUlaQXQ0YmREbFE?oc=5\" target=\"_blank\">Exposure to Zika in utero may produce neurodevelopmental differences</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Children's National Hospital</font>"
+      },
+      "source": {
+        "href": "https://innovationdistrict.childrensnational.org",
+        "title": "Children's National Hospital"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Scale of impact of maternal Zika virus infection on offspring in early life - The London School of Hygiene & Tropical Medicine",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Scale of impact of maternal Zika virus infection on offspring in early life - The London School of Hygiene & Tropical Medicine"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORm45RkZwRkJfRjNmVmpvLS1UalMzdVVrQUZCWV83aUd1Rkl6bFRaZFF1d3FBdVJZMTV5WWNlY012RFcxZmJ6cFFyWHVTX2tXRlV3TzFleXBOSUZwTkJKZ2RlNnkyZlhJTVJrcWZzdFpYSHlMTHRmUG9QMGI3ODhwRnVDdnRTVjUzeHFfN2VkZHRyVGRab0k2ckplQjhoNHJiZHgtSV9BeVh6NXNZ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORm45RkZwRkJfRjNmVmpvLS1UalMzdVVrQUZCWV83aUd1Rkl6bFRaZFF1d3FBdVJZMTV5WWNlY012RFcxZmJ6cFFyWHVTX2tXRlV3TzFleXBOSUZwTkJKZ2RlNnkyZlhJTVJrcWZzdFpYSHlMTHRmUG9QMGI3ODhwRnVDdnRTVjUzeHFfN2VkZHRyVGRab0k2ckplQjhoNHJiZHgtSV9BeVh6NXNZ?oc=5",
+      "id": "CBMirAFBVV95cUxORm45RkZwRkJfRjNmVmpvLS1UalMzdVVrQUZCWV83aUd1Rkl6bFRaZFF1d3FBdVJZMTV5WWNlY012RFcxZmJ6cFFyWHVTX2tXRlV3TzFleXBOSUZwTkJKZ2RlNnkyZlhJTVJrcWZzdFpYSHlMTHRmUG9QMGI3ODhwRnVDdnRTVjUzeHFfN2VkZHRyVGRab0k2ckplQjhoNHJiZHgtSV9BeVh6NXNZ",
+      "guidislink": false,
+      "published": "Mon, 28 Nov 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        11,
+        28,
+        8,
+        0,
+        0,
+        0,
+        332,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxORm45RkZwRkJfRjNmVmpvLS1UalMzdVVrQUZCWV83aUd1Rkl6bFRaZFF1d3FBdVJZMTV5WWNlY012RFcxZmJ6cFFyWHVTX2tXRlV3TzFleXBOSUZwTkJKZ2RlNnkyZlhJTVJrcWZzdFpYSHlMTHRmUG9QMGI3ODhwRnVDdnRTVjUzeHFfN2VkZHRyVGRab0k2ckplQjhoNHJiZHgtSV9BeVh6NXNZ?oc=5\" target=\"_blank\">Scale of impact of maternal Zika virus infection on offspring in early life</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The London School of Hygiene & Tropical Medicine</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxORm45RkZwRkJfRjNmVmpvLS1UalMzdVVrQUZCWV83aUd1Rkl6bFRaZFF1d3FBdVJZMTV5WWNlY012RFcxZmJ6cFFyWHVTX2tXRlV3TzFleXBOSUZwTkJKZ2RlNnkyZlhJTVJrcWZzdFpYSHlMTHRmUG9QMGI3ODhwRnVDdnRTVjUzeHFfN2VkZHRyVGRab0k2ckplQjhoNHJiZHgtSV9BeVh6NXNZ?oc=5\" target=\"_blank\">Scale of impact of maternal Zika virus infection on offspring in early life</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The London School of Hygiene & Tropical Medicine</font>"
+      },
+      "source": {
+        "href": "https://www.lshtm.ac.uk",
+        "title": "The London School of Hygiene & Tropical Medicine"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Exploring neurodevelopment among Zika virus-exposed children without Zika syndrome - News-Medical",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Exploring neurodevelopment among Zika virus-exposed children without Zika syndrome - News-Medical"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUFJrWU5YeUFKcXlrd2lsQ1pZQ1JPd3hnM2JSNEJpQUxfdGNwd05ndFFpN25rajEzNWZaRUZSV25ydEZoall5UERNeThnT1VGbFAwZU5VRmdVQ24xazNId0E0b19mMGpBMTQ0QkJla0VYQ3A3OVgzWFl5dDBaWU9rZEVYV3plbVZ3ZzNXejdtTGhlcndIX2R5YzRoallUdnc2QVhteURtNVkyWHlxY2tYM3lNNVJZNHlCYXlENFhVdkZDNWc3MmRESnJ3?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUFJrWU5YeUFKcXlrd2lsQ1pZQ1JPd3hnM2JSNEJpQUxfdGNwd05ndFFpN25rajEzNWZaRUZSV25ydEZoall5UERNeThnT1VGbFAwZU5VRmdVQ24xazNId0E0b19mMGpBMTQ0QkJla0VYQ3A3OVgzWFl5dDBaWU9rZEVYV3plbVZ3ZzNXejdtTGhlcndIX2R5YzRoallUdnc2QVhteURtNVkyWHlxY2tYM3lNNVJZNHlCYXlENFhVdkZDNWc3MmRESnJ3?oc=5",
+      "id": "CBMiygFBVV95cUxQUFJrWU5YeUFKcXlrd2lsQ1pZQ1JPd3hnM2JSNEJpQUxfdGNwd05ndFFpN25rajEzNWZaRUZSV25ydEZoall5UERNeThnT1VGbFAwZU5VRmdVQ24xazNId0E0b19mMGpBMTQ0QkJla0VYQ3A3OVgzWFl5dDBaWU9rZEVYV3plbVZ3ZzNXejdtTGhlcndIX2R5YzRoallUdnc2QVhteURtNVkyWHlxY2tYM3lNNVJZNHlCYXlENFhVdkZDNWc3MmRESnJ3",
+      "guidislink": false,
+      "published": "Fri, 02 Dec 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        12,
+        2,
+        8,
+        0,
+        0,
+        4,
+        336,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxQUFJrWU5YeUFKcXlrd2lsQ1pZQ1JPd3hnM2JSNEJpQUxfdGNwd05ndFFpN25rajEzNWZaRUZSV25ydEZoall5UERNeThnT1VGbFAwZU5VRmdVQ24xazNId0E0b19mMGpBMTQ0QkJla0VYQ3A3OVgzWFl5dDBaWU9rZEVYV3plbVZ3ZzNXejdtTGhlcndIX2R5YzRoallUdnc2QVhteURtNVkyWHlxY2tYM3lNNVJZNHlCYXlENFhVdkZDNWc3MmRESnJ3?oc=5\" target=\"_blank\">Exploring neurodevelopment among Zika virus-exposed children without Zika syndrome</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">News-Medical</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxQUFJrWU5YeUFKcXlrd2lsQ1pZQ1JPd3hnM2JSNEJpQUxfdGNwd05ndFFpN25rajEzNWZaRUZSV25ydEZoall5UERNeThnT1VGbFAwZU5VRmdVQ24xazNId0E0b19mMGpBMTQ0QkJla0VYQ3A3OVgzWFl5dDBaWU9rZEVYV3plbVZ3ZzNXejdtTGhlcndIX2R5YzRoallUdnc2QVhteURtNVkyWHlxY2tYM3lNNVJZNHlCYXlENFhVdkZDNWc3MmRESnJ3?oc=5\" target=\"_blank\">Exploring neurodevelopment among Zika virus-exposed children without Zika syndrome</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">News-Medical</font>"
+      },
+      "source": {
+        "href": "https://www.news-medical.net",
+        "title": "News-Medical"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Dr. Fauci reflects on the perpetual challenge of infectious diseases - National Institutes of Health (.gov)",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Dr. Fauci reflects on the perpetual challenge of infectious diseases - National Institutes of Health (.gov)"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbUZ3WFhZaG5EUWw1VThwTXZaZVZnT3BjTU1kbUFmNVc3ZVNkZXpDcEREa1hrSFZpbFNFSzdtV1BaejdvaGhXSzhxWThpV3F0QmJ1UmlWSFR4UVA2QVBTWF82dmNsSHVBV3MzTDYyMEdWYV9yTlRGWVdVQkRmV1dfaFVYbHU2VTR3LXRTUzJXTW9ISnZNVjREUWNYYjlpelVHZGxQSjRn?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbUZ3WFhZaG5EUWw1VThwTXZaZVZnT3BjTU1kbUFmNVc3ZVNkZXpDcEREa1hrSFZpbFNFSzdtV1BaejdvaGhXSzhxWThpV3F0QmJ1UmlWSFR4UVA2QVBTWF82dmNsSHVBV3MzTDYyMEdWYV9yTlRGWVdVQkRmV1dfaFVYbHU2VTR3LXRTUzJXTW9ISnZNVjREUWNYYjlpelVHZGxQSjRn?oc=5",
+      "id": "CBMipgFBVV95cUxNbUZ3WFhZaG5EUWw1VThwTXZaZVZnT3BjTU1kbUFmNVc3ZVNkZXpDcEREa1hrSFZpbFNFSzdtV1BaejdvaGhXSzhxWThpV3F0QmJ1UmlWSFR4UVA2QVBTWF82dmNsSHVBV3MzTDYyMEdWYV9yTlRGWVdVQkRmV1dfaFVYbHU2VTR3LXRTUzJXTW9ISnZNVjREUWNYYjlpelVHZGxQSjRn",
+      "guidislink": false,
+      "published": "Mon, 28 Nov 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        11,
+        28,
+        8,
+        0,
+        0,
+        0,
+        332,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxNbUZ3WFhZaG5EUWw1VThwTXZaZVZnT3BjTU1kbUFmNVc3ZVNkZXpDcEREa1hrSFZpbFNFSzdtV1BaejdvaGhXSzhxWThpV3F0QmJ1UmlWSFR4UVA2QVBTWF82dmNsSHVBV3MzTDYyMEdWYV9yTlRGWVdVQkRmV1dfaFVYbHU2VTR3LXRTUzJXTW9ISnZNVjREUWNYYjlpelVHZGxQSjRn?oc=5\" target=\"_blank\">Dr. Fauci reflects on the perpetual challenge of infectious diseases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">National Institutes of Health (.gov)</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxNbUZ3WFhZaG5EUWw1VThwTXZaZVZnT3BjTU1kbUFmNVc3ZVNkZXpDcEREa1hrSFZpbFNFSzdtV1BaejdvaGhXSzhxWThpV3F0QmJ1UmlWSFR4UVA2QVBTWF82dmNsSHVBV3MzTDYyMEdWYV9yTlRGWVdVQkRmV1dfaFVYbHU2VTR3LXRTUzJXTW9ISnZNVjREUWNYYjlpelVHZGxQSjRn?oc=5\" target=\"_blank\">Dr. Fauci reflects on the perpetual challenge of infectious diseases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">National Institutes of Health (.gov)</font>"
+      },
+      "source": {
+        "href": "https://www.nih.gov",
+        "title": "National Institutes of Health (.gov)"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Jan Zika's research on ocean warming features in Newsroom - UNSW Sydney",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Jan Zika's research on ocean warming features in Newsroom - UNSW Sydney"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBMc2lNT0FWYnh2V3RoeE1KakRkc2tVdHRIUE5mN3RxemJLTEhMV01KdFV1RFk4ZUhucFYzaU9pR1c3NTliN2dVSjlDUVYxYXJ5TEgzSWNjWkFZYW1YeVFSZVhaMy1CZFBaaDlJ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBMc2lNT0FWYnh2V3RoeE1KakRkc2tVdHRIUE5mN3RxemJLTEhMV01KdFV1RFk4ZUhucFYzaU9pR1c3NTliN2dVSjlDUVYxYXJ5TEgzSWNjWkFZYW1YeVFSZVhaMy1CZFBaaDlJ?oc=5",
+      "id": "CBMia0FVX3lxTFBMc2lNT0FWYnh2V3RoeE1KakRkc2tVdHRIUE5mN3RxemJLTEhMV01KdFV1RFk4ZUhucFYzaU9pR1c3NTliN2dVSjlDUVYxYXJ5TEgzSWNjWkFZYW1YeVFSZVhaMy1CZFBaaDlJ",
+      "guidislink": false,
+      "published": "Fri, 18 Nov 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        11,
+        18,
+        8,
+        0,
+        0,
+        4,
+        322,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTFBMc2lNT0FWYnh2V3RoeE1KakRkc2tVdHRIUE5mN3RxemJLTEhMV01KdFV1RFk4ZUhucFYzaU9pR1c3NTliN2dVSjlDUVYxYXJ5TEgzSWNjWkFZYW1YeVFSZVhaMy1CZFBaaDlJ?oc=5\" target=\"_blank\">Jan Zika's research on ocean warming features in Newsroom</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">UNSW Sydney</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTFBMc2lNT0FWYnh2V3RoeE1KakRkc2tVdHRIUE5mN3RxemJLTEhMV01KdFV1RFk4ZUhucFYzaU9pR1c3NTliN2dVSjlDUVYxYXJ5TEgzSWNjWkFZYW1YeVFSZVhaMy1CZFBaaDlJ?oc=5\" target=\"_blank\">Jan Zika's research on ocean warming features in Newsroom</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">UNSW Sydney</font>"
+      },
+      "source": {
+        "href": "https://www.unsw.edu.au",
+        "title": "UNSW Sydney"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "BugBitten Vector control – is it all in the attitude? - BMC blog network",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "BugBitten Vector control – is it all in the attitude? - BMC blog network"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZk1PdkJFVWY3Q25kaWNnLUlsc1hyVVBEbzAtY2VCZjQtb2IwSXRYTU1FeFhCMWprTVNpeWhtYWhhNUEtMFc1c3ZqdDVDLWFkYUdCQ18tOTRhNWl3TjFxT0dTal9Tc3kydUg2YWRYa2MtWmQ1WUJHeVdTaGJ5SVltVnZ6QUJkdUdVT3pTclp6UmNEcHFMZWFuWS1n?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZk1PdkJFVWY3Q25kaWNnLUlsc1hyVVBEbzAtY2VCZjQtb2IwSXRYTU1FeFhCMWprTVNpeWhtYWhhNUEtMFc1c3ZqdDVDLWFkYUdCQ18tOTRhNWl3TjFxT0dTal9Tc3kydUg2YWRYa2MtWmQ1WUJHeVdTaGJ5SVltVnZ6QUJkdUdVT3pTclp6UmNEcHFMZWFuWS1n?oc=5",
+      "id": "CBMimgFBVV95cUxPZk1PdkJFVWY3Q25kaWNnLUlsc1hyVVBEbzAtY2VCZjQtb2IwSXRYTU1FeFhCMWprTVNpeWhtYWhhNUEtMFc1c3ZqdDVDLWFkYUdCQ18tOTRhNWl3TjFxT0dTal9Tc3kydUg2YWRYa2MtWmQ1WUJHeVdTaGJ5SVltVnZ6QUJkdUdVT3pTclp6UmNEcHFMZWFuWS1n",
+      "guidislink": false,
+      "published": "Fri, 02 Dec 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        12,
+        2,
+        8,
+        0,
+        0,
+        4,
+        336,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxPZk1PdkJFVWY3Q25kaWNnLUlsc1hyVVBEbzAtY2VCZjQtb2IwSXRYTU1FeFhCMWprTVNpeWhtYWhhNUEtMFc1c3ZqdDVDLWFkYUdCQ18tOTRhNWl3TjFxT0dTal9Tc3kydUg2YWRYa2MtWmQ1WUJHeVdTaGJ5SVltVnZ6QUJkdUdVT3pTclp6UmNEcHFMZWFuWS1n?oc=5\" target=\"_blank\">BugBitten Vector control – is it all in the attitude?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BMC blog network</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxPZk1PdkJFVWY3Q25kaWNnLUlsc1hyVVBEbzAtY2VCZjQtb2IwSXRYTU1FeFhCMWprTVNpeWhtYWhhNUEtMFc1c3ZqdDVDLWFkYUdCQ18tOTRhNWl3TjFxT0dTal9Tc3kydUg2YWRYa2MtWmQ1WUJHeVdTaGJ5SVltVnZ6QUJkdUdVT3pTclp6UmNEcHFMZWFuWS1n?oc=5\" target=\"_blank\">BugBitten Vector control – is it all in the attitude?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BMC blog network</font>"
+      },
+      "source": {
+        "href": "https://blogs.biomedcentral.com",
+        "title": "BMC blog network"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Infection With Tropical Viruses Can Make You Smell Tastier to Mosquitoes - Technology Networks",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Infection With Tropical Viruses Can Make You Smell Tastier to Mosquitoes - Technology Networks"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQVVBOb2VkbksyTnNXTy1leWZoM3RsYjVYTl80T3NNbFBqSzRXN0xvdzZkVm5PekY0OUMta1R5RTAyQ252bHUtUTY0Q1JxVksxb0pSUkEtTnAtSVlMX3VHOGd5anlDYnRYYmE0dE1WZWRRWDlFQUMyOTh6YXdEY2paaHpHZ3BZT1p2eEFIa0FzcWJlWExQNjdmeWRERUpubklVMFJfU1pnalNPSzdKbWpsREdlQkRnSUxoMEFnZHBzWmZKVGV3UFpJV3RR?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQVVBOb2VkbksyTnNXTy1leWZoM3RsYjVYTl80T3NNbFBqSzRXN0xvdzZkVm5PekY0OUMta1R5RTAyQ252bHUtUTY0Q1JxVksxb0pSUkEtTnAtSVlMX3VHOGd5anlDYnRYYmE0dE1WZWRRWDlFQUMyOTh6YXdEY2paaHpHZ3BZT1p2eEFIa0FzcWJlWExQNjdmeWRERUpubklVMFJfU1pnalNPSzdKbWpsREdlQkRnSUxoMEFnZHBzWmZKVGV3UFpJV3RR?oc=5",
+      "id": "CBMiygFBVV95cUxQVVBOb2VkbksyTnNXTy1leWZoM3RsYjVYTl80T3NNbFBqSzRXN0xvdzZkVm5PekY0OUMta1R5RTAyQ252bHUtUTY0Q1JxVksxb0pSUkEtTnAtSVlMX3VHOGd5anlDYnRYYmE0dE1WZWRRWDlFQUMyOTh6YXdEY2paaHpHZ3BZT1p2eEFIa0FzcWJlWExQNjdmeWRERUpubklVMFJfU1pnalNPSzdKbWpsREdlQkRnSUxoMEFnZHBzWmZKVGV3UFpJV3RR",
+      "guidislink": false,
+      "published": "Thu, 01 Dec 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        12,
+        1,
+        8,
+        0,
+        0,
+        3,
+        335,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxQVVBOb2VkbksyTnNXTy1leWZoM3RsYjVYTl80T3NNbFBqSzRXN0xvdzZkVm5PekY0OUMta1R5RTAyQ252bHUtUTY0Q1JxVksxb0pSUkEtTnAtSVlMX3VHOGd5anlDYnRYYmE0dE1WZWRRWDlFQUMyOTh6YXdEY2paaHpHZ3BZT1p2eEFIa0FzcWJlWExQNjdmeWRERUpubklVMFJfU1pnalNPSzdKbWpsREdlQkRnSUxoMEFnZHBzWmZKVGV3UFpJV3RR?oc=5\" target=\"_blank\">Infection With Tropical Viruses Can Make You Smell Tastier to Mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Technology Networks</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxQVVBOb2VkbksyTnNXTy1leWZoM3RsYjVYTl80T3NNbFBqSzRXN0xvdzZkVm5PekY0OUMta1R5RTAyQ252bHUtUTY0Q1JxVksxb0pSUkEtTnAtSVlMX3VHOGd5anlDYnRYYmE0dE1WZWRRWDlFQUMyOTh6YXdEY2paaHpHZ3BZT1p2eEFIa0FzcWJlWExQNjdmeWRERUpubklVMFJfU1pnalNPSzdKbWpsREdlQkRnSUxoMEFnZHBzWmZKVGV3UFpJV3RR?oc=5\" target=\"_blank\">Infection With Tropical Viruses Can Make You Smell Tastier to Mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Technology Networks</font>"
+      },
+      "source": {
+        "href": "https://www.technologynetworks.com",
+        "title": "Technology Networks"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "WHO to identify pathogens that could cause future outbreaks and pandemics - World Health Organization (WHO)",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "WHO to identify pathogens that could cause future outbreaks and pandemics - World Health Organization (WHO)"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOc3FBZlhTODd4b2tEUzBnTFpiSVk1dnBVQkN4eDBQWlc1MDJTcjJZZjUybXJiTUVVOUd3Q0xxamh5UHpwejdaMGNrME5wbk9MVHJnN0JRdEtQSFNKZHJzNFZKdE01U2ZteENNSmtvZzBZbzkxVmNsNTA5Z0s3ZDlXTE1HU2RPNWxHUUJCMjVqdlBmZF95aWV0aTR4VVFtTFJCazlKdmNHY1FvM19vamdpQWRROHA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOc3FBZlhTODd4b2tEUzBnTFpiSVk1dnBVQkN4eDBQWlc1MDJTcjJZZjUybXJiTUVVOUd3Q0xxamh5UHpwejdaMGNrME5wbk9MVHJnN0JRdEtQSFNKZHJzNFZKdE01U2ZteENNSmtvZzBZbzkxVmNsNTA5Z0s3ZDlXTE1HU2RPNWxHUUJCMjVqdlBmZF95aWV0aTR4VVFtTFJCazlKdmNHY1FvM19vamdpQWRROHA?oc=5",
+      "id": "CBMitAFBVV95cUxOc3FBZlhTODd4b2tEUzBnTFpiSVk1dnBVQkN4eDBQWlc1MDJTcjJZZjUybXJiTUVVOUd3Q0xxamh5UHpwejdaMGNrME5wbk9MVHJnN0JRdEtQSFNKZHJzNFZKdE01U2ZteENNSmtvZzBZbzkxVmNsNTA5Z0s3ZDlXTE1HU2RPNWxHUUJCMjVqdlBmZF95aWV0aTR4VVFtTFJCazlKdmNHY1FvM19vamdpQWRROHA",
+      "guidislink": false,
+      "published": "Mon, 21 Nov 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        11,
+        21,
+        8,
+        0,
+        0,
+        0,
+        325,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxOc3FBZlhTODd4b2tEUzBnTFpiSVk1dnBVQkN4eDBQWlc1MDJTcjJZZjUybXJiTUVVOUd3Q0xxamh5UHpwejdaMGNrME5wbk9MVHJnN0JRdEtQSFNKZHJzNFZKdE01U2ZteENNSmtvZzBZbzkxVmNsNTA5Z0s3ZDlXTE1HU2RPNWxHUUJCMjVqdlBmZF95aWV0aTR4VVFtTFJCazlKdmNHY1FvM19vamdpQWRROHA?oc=5\" target=\"_blank\">WHO to identify pathogens that could cause future outbreaks and pandemics</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">World Health Organization (WHO)</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxOc3FBZlhTODd4b2tEUzBnTFpiSVk1dnBVQkN4eDBQWlc1MDJTcjJZZjUybXJiTUVVOUd3Q0xxamh5UHpwejdaMGNrME5wbk9MVHJnN0JRdEtQSFNKZHJzNFZKdE01U2ZteENNSmtvZzBZbzkxVmNsNTA5Z0s3ZDlXTE1HU2RPNWxHUUJCMjVqdlBmZF95aWV0aTR4VVFtTFJCazlKdmNHY1FvM19vamdpQWRROHA?oc=5\" target=\"_blank\">WHO to identify pathogens that could cause future outbreaks and pandemics</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">World Health Organization (WHO)</font>"
+      },
+      "source": {
+        "href": "https://www.who.int",
+        "title": "World Health Organization (WHO)"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Coronavirus (COVID-19) - Verywell Health",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Coronavirus (COVID-19) - Verywell Health"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9tMDc3NHZRSVVwbGVvUVRycnd0VFUzNXFiQVdVUG1hbXdnYXVHblVFRFJXU1dDcDh5SzZJZ0s1aDRVbDlmLURZcUVmZWV5YUprMzBXb0t6TEl2YXd4bFU3bHkxX2JTNkdWMnRZ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9tMDc3NHZRSVVwbGVvUVRycnd0VFUzNXFiQVdVUG1hbXdnYXVHblVFRFJXU1dDcDh5SzZJZ0s1aDRVbDlmLURZcUVmZWV5YUprMzBXb0t6TEl2YXd4bFU3bHkxX2JTNkdWMnRZ?oc=5",
+      "id": "CBMia0FVX3lxTE9tMDc3NHZRSVVwbGVvUVRycnd0VFUzNXFiQVdVUG1hbXdnYXVHblVFRFJXU1dDcDh5SzZJZ0s1aDRVbDlmLURZcUVmZWV5YUprMzBXb0t6TEl2YXd4bFU3bHkxX2JTNkdWMnRZ",
+      "guidislink": false,
+      "published": "Tue, 29 Nov 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        11,
+        29,
+        8,
+        0,
+        0,
+        1,
+        333,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE9tMDc3NHZRSVVwbGVvUVRycnd0VFUzNXFiQVdVUG1hbXdnYXVHblVFRFJXU1dDcDh5SzZJZ0s1aDRVbDlmLURZcUVmZWV5YUprMzBXb0t6TEl2YXd4bFU3bHkxX2JTNkdWMnRZ?oc=5\" target=\"_blank\">Coronavirus (COVID-19)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Verywell Health</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE9tMDc3NHZRSVVwbGVvUVRycnd0VFUzNXFiQVdVUG1hbXdnYXVHblVFRFJXU1dDcDh5SzZJZ0s1aDRVbDlmLURZcUVmZWV5YUprMzBXb0t6TEl2YXd4bFU3bHkxX2JTNkdWMnRZ?oc=5\" target=\"_blank\">Coronavirus (COVID-19)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Verywell Health</font>"
+      },
+      "source": {
+        "href": "https://www.verywellhealth.com",
+        "title": "Verywell Health"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Nepal’s dengue outbreak exposes climate risk - Nepali Times",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Nepal’s dengue outbreak exposes climate risk - Nepali Times"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMifkFVX3lxTE45eTZCTU5ocDBUMXI5SmpMSjh3azhmSXVuQ3hpN3Z3V2Q0NV9MQVNtemlaV3Z0SFNwdjVWOWw3eW9jbHptQ1pDbm1rRmgxYXJLOUFsLUd1eF91c3RZMmZiRkxMeU1LOEtJc05aSVl4M3ZwUTdXbzJRc3NoZEp2UQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE45eTZCTU5ocDBUMXI5SmpMSjh3azhmSXVuQ3hpN3Z3V2Q0NV9MQVNtemlaV3Z0SFNwdjVWOWw3eW9jbHptQ1pDbm1rRmgxYXJLOUFsLUd1eF91c3RZMmZiRkxMeU1LOEtJc05aSVl4M3ZwUTdXbzJRc3NoZEp2UQ?oc=5",
+      "id": "CBMifkFVX3lxTE45eTZCTU5ocDBUMXI5SmpMSjh3azhmSXVuQ3hpN3Z3V2Q0NV9MQVNtemlaV3Z0SFNwdjVWOWw3eW9jbHptQ1pDbm1rRmgxYXJLOUFsLUd1eF91c3RZMmZiRkxMeU1LOEtJc05aSVl4M3ZwUTdXbzJRc3NoZEp2UQ",
+      "guidislink": false,
+      "published": "Tue, 29 Nov 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        11,
+        29,
+        8,
+        0,
+        0,
+        1,
+        333,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE45eTZCTU5ocDBUMXI5SmpMSjh3azhmSXVuQ3hpN3Z3V2Q0NV9MQVNtemlaV3Z0SFNwdjVWOWw3eW9jbHptQ1pDbm1rRmgxYXJLOUFsLUd1eF91c3RZMmZiRkxMeU1LOEtJc05aSVl4M3ZwUTdXbzJRc3NoZEp2UQ?oc=5\" target=\"_blank\">Nepal’s dengue outbreak exposes climate risk</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nepali Times</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE45eTZCTU5ocDBUMXI5SmpMSjh3azhmSXVuQ3hpN3Z3V2Q0NV9MQVNtemlaV3Z0SFNwdjVWOWw3eW9jbHptQ1pDbm1rRmgxYXJLOUFsLUd1eF91c3RZMmZiRkxMeU1LOEtJc05aSVl4M3ZwUTdXbzJRc3NoZEp2UQ?oc=5\" target=\"_blank\">Nepal’s dengue outbreak exposes climate risk</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nepali Times</font>"
+      },
+      "source": {
+        "href": "https://nepalitimes.com",
+        "title": "Nepali Times"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Are hippos dangerous? What to know about the danger they pose. - USA Today",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Are hippos dangerous? What to know about the danger they pose. - USA Today"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSm1tbDJIWGFxSjVnUWpZaGZTOGltM0tLMmhOXzNrQnF4TU1Xd0djRnJCRkdRMEJzVk52a25IN0tCSHg1Vm5rT0pfenJialNicXYzdG02M1lXekhobmljbzlhcHV5UGVEZ2xjLUNnYW9ucWVfWlBYcjZPekN4RlQ0Q1JkQmNzby1YOTRJZjg1RTg2X3ZJ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSm1tbDJIWGFxSjVnUWpZaGZTOGltM0tLMmhOXzNrQnF4TU1Xd0djRnJCRkdRMEJzVk52a25IN0tCSHg1Vm5rT0pfenJialNicXYzdG02M1lXekhobmljbzlhcHV5UGVEZ2xjLUNnYW9ucWVfWlBYcjZPekN4RlQ0Q1JkQmNzby1YOTRJZjg1RTg2X3ZJ?oc=5",
+      "id": "CBMilAFBVV95cUxOSm1tbDJIWGFxSjVnUWpZaGZTOGltM0tLMmhOXzNrQnF4TU1Xd0djRnJCRkdRMEJzVk52a25IN0tCSHg1Vm5rT0pfenJialNicXYzdG02M1lXekhobmljbzlhcHV5UGVEZ2xjLUNnYW9ucWVfWlBYcjZPekN4RlQ0Q1JkQmNzby1YOTRJZjg1RTg2X3ZJ",
+      "guidislink": false,
+      "published": "Mon, 21 Nov 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        11,
+        21,
+        8,
+        0,
+        0,
+        0,
+        325,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxOSm1tbDJIWGFxSjVnUWpZaGZTOGltM0tLMmhOXzNrQnF4TU1Xd0djRnJCRkdRMEJzVk52a25IN0tCSHg1Vm5rT0pfenJialNicXYzdG02M1lXekhobmljbzlhcHV5UGVEZ2xjLUNnYW9ucWVfWlBYcjZPekN4RlQ0Q1JkQmNzby1YOTRJZjg1RTg2X3ZJ?oc=5\" target=\"_blank\">Are hippos dangerous? What to know about the danger they pose.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">USA Today</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxOSm1tbDJIWGFxSjVnUWpZaGZTOGltM0tLMmhOXzNrQnF4TU1Xd0djRnJCRkdRMEJzVk52a25IN0tCSHg1Vm5rT0pfenJialNicXYzdG02M1lXekhobmljbzlhcHV5UGVEZ2xjLUNnYW9ucWVfWlBYcjZPekN4RlQ0Q1JkQmNzby1YOTRJZjg1RTg2X3ZJ?oc=5\" target=\"_blank\">Are hippos dangerous? What to know about the danger they pose.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">USA Today</font>"
+      },
+      "source": {
+        "href": "https://www.usatoday.com",
+        "title": "USA Today"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Tiger mosquitoes and what makes them so deadly - CNBC TV18",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Tiger mosquitoes and what makes them so deadly - CNBC TV18"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOUg0TGdXVzhJVjhNb2VPNHM0dkU3Z1NrRlJ1VFowTmw1ZTYxSGRRbW9oMEdxX2stT1B6dWdldXNmR1dKZVVKNDRaNWlkNXE4cFp6LXRleExkd2s5cllaRHE1SE1xQkVlcEtsUm5RNXJldDZZLWxNVWxPckZWOHRBRU9ZN2hMVGdhRXlMZTNETUhfVTliWkJlTWlFdFBNSmFBWUViUXBiZ9IBrAFBVV95cUxOaDdCTURNRS1LalNDTDQwNFVBSlZtSHhmZVpWVURTUUxRcmlMRGh2dEFpaGxGaXpoSi1GQ0JHSU5kTWVhUWhhZV9TdDRTYTc3UGJyMGhBRkU2LXUyeHdPRmlrelJDNkdjMFdXNi02dC1ISlBfX0JVUnliTnRfc1Z2dU1jZGo3M3RHX0VBZ2RndlZfYWFNUFE0cllCaF9TdE9RMHl3QzBEcjhVcUVU?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOUg0TGdXVzhJVjhNb2VPNHM0dkU3Z1NrRlJ1VFowTmw1ZTYxSGRRbW9oMEdxX2stT1B6dWdldXNmR1dKZVVKNDRaNWlkNXE4cFp6LXRleExkd2s5cllaRHE1SE1xQkVlcEtsUm5RNXJldDZZLWxNVWxPckZWOHRBRU9ZN2hMVGdhRXlMZTNETUhfVTliWkJlTWlFdFBNSmFBWUViUXBiZ9IBrAFBVV95cUxOaDdCTURNRS1LalNDTDQwNFVBSlZtSHhmZVpWVURTUUxRcmlMRGh2dEFpaGxGaXpoSi1GQ0JHSU5kTWVhUWhhZV9TdDRTYTc3UGJyMGhBRkU2LXUyeHdPRmlrelJDNkdjMFdXNi02dC1ISlBfX0JVUnliTnRfc1Z2dU1jZGo3M3RHX0VBZ2RndlZfYWFNUFE0cllCaF9TdE9RMHl3QzBEcjhVcUVU?oc=5",
+      "id": "CBMipwFBVV95cUxPOUg0TGdXVzhJVjhNb2VPNHM0dkU3Z1NrRlJ1VFowTmw1ZTYxSGRRbW9oMEdxX2stT1B6dWdldXNmR1dKZVVKNDRaNWlkNXE4cFp6LXRleExkd2s5cllaRHE1SE1xQkVlcEtsUm5RNXJldDZZLWxNVWxPckZWOHRBRU9ZN2hMVGdhRXlMZTNETUhfVTliWkJlTWlFdFBNSmFBWUViUXBiZ9IBrAFBVV95cUxOaDdCTURNRS1LalNDTDQwNFVBSlZtSHhmZVpWVURTUUxRcmlMRGh2dEFpaGxGaXpoSi1GQ0JHSU5kTWVhUWhhZV9TdDRTYTc3UGJyMGhBRkU2LXUyeHdPRmlrelJDNkdjMFdXNi02dC1ISlBfX0JVUnliTnRfc1Z2dU1jZGo3M3RHX0VBZ2RndlZfYWFNUFE0cllCaF9TdE9RMHl3QzBEcjhVcUVU",
+      "guidislink": false,
+      "published": "Tue, 29 Nov 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        11,
+        29,
+        8,
+        0,
+        0,
+        1,
+        333,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxPOUg0TGdXVzhJVjhNb2VPNHM0dkU3Z1NrRlJ1VFowTmw1ZTYxSGRRbW9oMEdxX2stT1B6dWdldXNmR1dKZVVKNDRaNWlkNXE4cFp6LXRleExkd2s5cllaRHE1SE1xQkVlcEtsUm5RNXJldDZZLWxNVWxPckZWOHRBRU9ZN2hMVGdhRXlMZTNETUhfVTliWkJlTWlFdFBNSmFBWUViUXBiZ9IBrAFBVV95cUxOaDdCTURNRS1LalNDTDQwNFVBSlZtSHhmZVpWVURTUUxRcmlMRGh2dEFpaGxGaXpoSi1GQ0JHSU5kTWVhUWhhZV9TdDRTYTc3UGJyMGhBRkU2LXUyeHdPRmlrelJDNkdjMFdXNi02dC1ISlBfX0JVUnliTnRfc1Z2dU1jZGo3M3RHX0VBZ2RndlZfYWFNUFE0cllCaF9TdE9RMHl3QzBEcjhVcUVU?oc=5\" target=\"_blank\">Tiger mosquitoes and what makes them so deadly</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC TV18</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxPOUg0TGdXVzhJVjhNb2VPNHM0dkU3Z1NrRlJ1VFowTmw1ZTYxSGRRbW9oMEdxX2stT1B6dWdldXNmR1dKZVVKNDRaNWlkNXE4cFp6LXRleExkd2s5cllaRHE1SE1xQkVlcEtsUm5RNXJldDZZLWxNVWxPckZWOHRBRU9ZN2hMVGdhRXlMZTNETUhfVTliWkJlTWlFdFBNSmFBWUViUXBiZ9IBrAFBVV95cUxOaDdCTURNRS1LalNDTDQwNFVBSlZtSHhmZVpWVURTUUxRcmlMRGh2dEFpaGxGaXpoSi1GQ0JHSU5kTWVhUWhhZV9TdDRTYTc3UGJyMGhBRkU2LXUyeHdPRmlrelJDNkdjMFdXNi02dC1ISlBfX0JVUnliTnRfc1Z2dU1jZGo3M3RHX0VBZ2RndlZfYWFNUFE0cllCaF9TdE9RMHl3QzBEcjhVcUVU?oc=5\" target=\"_blank\">Tiger mosquitoes and what makes them so deadly</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC TV18</font>"
+      },
+      "source": {
+        "href": "https://www.cnbctv18.com",
+        "title": "CNBC TV18"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Locals storm illegal loggers’ camp in Zoka, recover timber - Daily Monitor",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Locals storm illegal loggers’ camp in Zoka, recover timber - Daily Monitor"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMENyUFN2TC1VMzc4enJhQzBMMGE1V3hZNHRkdFJrSVU3VlFnNndkSlNHM3djTjNmT3FDMXZBaHNWY01KMkRKUzhWU3NEaXZUOC1ER01GRDFSMzJmMElsTnBncnE0TkRvRUFzLVA4R3c0dU80c2lySTkzOEFCSWVtTEpObFljNHhKVm9TSTE1ZHR6Y2ZpMHBDRWJ4aG5hRXg3TThXcHlWeUZVektncTRVQQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMENyUFN2TC1VMzc4enJhQzBMMGE1V3hZNHRkdFJrSVU3VlFnNndkSlNHM3djTjNmT3FDMXZBaHNWY01KMkRKUzhWU3NEaXZUOC1ER01GRDFSMzJmMElsTnBncnE0TkRvRUFzLVA4R3c0dU80c2lySTkzOEFCSWVtTEpObFljNHhKVm9TSTE1ZHR6Y2ZpMHBDRWJ4aG5hRXg3TThXcHlWeUZVektncTRVQQ?oc=5",
+      "id": "CBMisAFBVV95cUxOMENyUFN2TC1VMzc4enJhQzBMMGE1V3hZNHRkdFJrSVU3VlFnNndkSlNHM3djTjNmT3FDMXZBaHNWY01KMkRKUzhWU3NEaXZUOC1ER01GRDFSMzJmMElsTnBncnE0TkRvRUFzLVA4R3c0dU80c2lySTkzOEFCSWVtTEpObFljNHhKVm9TSTE1ZHR6Y2ZpMHBDRWJ4aG5hRXg3TThXcHlWeUZVektncTRVQQ",
+      "guidislink": false,
+      "published": "Wed, 30 Nov 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        11,
+        30,
+        8,
+        0,
+        0,
+        2,
+        334,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxOMENyUFN2TC1VMzc4enJhQzBMMGE1V3hZNHRkdFJrSVU3VlFnNndkSlNHM3djTjNmT3FDMXZBaHNWY01KMkRKUzhWU3NEaXZUOC1ER01GRDFSMzJmMElsTnBncnE0TkRvRUFzLVA4R3c0dU80c2lySTkzOEFCSWVtTEpObFljNHhKVm9TSTE1ZHR6Y2ZpMHBDRWJ4aG5hRXg3TThXcHlWeUZVektncTRVQQ?oc=5\" target=\"_blank\">Locals storm illegal loggers’ camp in Zoka, recover timber</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Monitor</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxOMENyUFN2TC1VMzc4enJhQzBMMGE1V3hZNHRkdFJrSVU3VlFnNndkSlNHM3djTjNmT3FDMXZBaHNWY01KMkRKUzhWU3NEaXZUOC1ER01GRDFSMzJmMElsTnBncnE0TkRvRUFzLVA4R3c0dU80c2lySTkzOEFCSWVtTEpObFljNHhKVm9TSTE1ZHR6Y2ZpMHBDRWJ4aG5hRXg3TThXcHlWeUZVektncTRVQQ?oc=5\" target=\"_blank\">Locals storm illegal loggers’ camp in Zoka, recover timber</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Monitor</font>"
+      },
+      "source": {
+        "href": "https://www.monitor.co.ug",
+        "title": "Daily Monitor"
+      },
+      "sub_articles": []
+    }
+  ]
+}

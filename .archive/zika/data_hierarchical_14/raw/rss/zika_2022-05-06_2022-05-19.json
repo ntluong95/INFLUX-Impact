@@ -1,0 +1,693 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2022-05-06",
+  "window_end": "2022-05-19",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2022-05-06+before%3A2022-05-20&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2022-05-06+before:2022-05-20&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:29:16Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2022-05-06 before:2022-05-20\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2022-05-06 before:2022-05-20\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2022-05-06+before:2022-05-20&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2022-05-06+before:2022-05-20&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:29:16 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      29,
+      16,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Decision tree based ensemble machine learning model for the prediction of Zika virus T-cell epitopes as potential vaccine candidates - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Decision tree based ensemble machine learning model for the prediction of Zika virus T-cell epitopes as potential vaccine candidates - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE55ckxITU9VSVZVUERoWXhER1JCcnBPUURya0d2SFlSbTZaVEV1TmlqeU5JUnpCWXlqQks3Z1Z6UTl1QzkyYUo0blllV2VHRnp6YlQ0UW5USHJlWXNXYkM0?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE55ckxITU9VSVZVUERoWXhER1JCcnBPUURya0d2SFlSbTZaVEV1TmlqeU5JUnpCWXlqQks3Z1Z6UTl1QzkyYUo0blllV2VHRnp6YlQ0UW5USHJlWXNXYkM0?oc=5",
+      "id": "CBMiX0FVX3lxTE55ckxITU9VSVZVUERoWXhER1JCcnBPUURya0d2SFlSbTZaVEV1TmlqeU5JUnpCWXlqQks3Z1Z6UTl1QzkyYUo0blllV2VHRnp6YlQ0UW5USHJlWXNXYkM0",
+      "guidislink": false,
+      "published": "Thu, 12 May 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        5,
+        12,
+        7,
+        0,
+        0,
+        3,
+        132,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE55ckxITU9VSVZVUERoWXhER1JCcnBPUURya0d2SFlSbTZaVEV1TmlqeU5JUnpCWXlqQks3Z1Z6UTl1QzkyYUo0blllV2VHRnp6YlQ0UW5USHJlWXNXYkM0?oc=5\" target=\"_blank\">Decision tree based ensemble machine learning model for the prediction of Zika virus T-cell epitopes as potential vaccine candidates</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE55ckxITU9VSVZVUERoWXhER1JCcnBPUURya0d2SFlSbTZaVEV1TmlqeU5JUnpCWXlqQks3Z1Z6UTl1QzkyYUo0blllV2VHRnp6YlQ0UW5USHJlWXNXYkM0?oc=5\" target=\"_blank\">Decision tree based ensemble machine learning model for the prediction of Zika virus T-cell epitopes as potential vaccine candidates</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Advanced Cardiac Treatment Leaves a Teacher With a Grateful Heart |Newark, NJ - rwjbh.org",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Advanced Cardiac Treatment Leaves a Teacher With a Grateful Heart |Newark, NJ - rwjbh.org"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOeFMzZGkxT21DZE5Bc3dDM0xOLW5yNHNWbGZMcmNybnJkVHRuYjR4UE52c1lwNWJMNHhpZ0JDR0s1aHNtYndybEJvbklkWVd2ZjFWMmc0MEhvcXM0bGdiMVBaakJOdE9WTUdkVWo5VkRreElETmJlZC1DbkhxMXVvYW5HTWpuekhZZzcyU1dPb2Y?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOeFMzZGkxT21DZE5Bc3dDM0xOLW5yNHNWbGZMcmNybnJkVHRuYjR4UE52c1lwNWJMNHhpZ0JDR0s1aHNtYndybEJvbklkWVd2ZjFWMmc0MEhvcXM0bGdiMVBaakJOdE9WTUdkVWo5VkRreElETmJlZC1DbkhxMXVvYW5HTWpuekhZZzcyU1dPb2Y?oc=5",
+      "id": "CBMikAFBVV95cUxOeFMzZGkxT21DZE5Bc3dDM0xOLW5yNHNWbGZMcmNybnJkVHRuYjR4UE52c1lwNWJMNHhpZ0JDR0s1aHNtYndybEJvbklkWVd2ZjFWMmc0MEhvcXM0bGdiMVBaakJOdE9WTUdkVWo5VkRreElETmJlZC1DbkhxMXVvYW5HTWpuekhZZzcyU1dPb2Y",
+      "guidislink": false,
+      "published": "Tue, 10 May 2022 17:02:23 GMT",
+      "published_parsed": [
+        2022,
+        5,
+        10,
+        17,
+        2,
+        23,
+        1,
+        130,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxOeFMzZGkxT21DZE5Bc3dDM0xOLW5yNHNWbGZMcmNybnJkVHRuYjR4UE52c1lwNWJMNHhpZ0JDR0s1aHNtYndybEJvbklkWVd2ZjFWMmc0MEhvcXM0bGdiMVBaakJOdE9WTUdkVWo5VkRreElETmJlZC1DbkhxMXVvYW5HTWpuekhZZzcyU1dPb2Y?oc=5\" target=\"_blank\">Advanced Cardiac Treatment Leaves a Teacher With a Grateful Heart |Newark, NJ</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">rwjbh.org</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxOeFMzZGkxT21DZE5Bc3dDM0xOLW5yNHNWbGZMcmNybnJkVHRuYjR4UE52c1lwNWJMNHhpZ0JDR0s1aHNtYndybEJvbklkWVd2ZjFWMmc0MEhvcXM0bGdiMVBaakJOdE9WTUdkVWo5VkRreElETmJlZC1DbkhxMXVvYW5HTWpuekhZZzcyU1dPb2Y?oc=5\" target=\"_blank\">Advanced Cardiac Treatment Leaves a Teacher With a Grateful Heart |Newark, NJ</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">rwjbh.org</font>"
+      },
+      "source": {
+        "href": "https://www.rwjbh.org",
+        "title": "rwjbh.org"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Characterization of m6A modifications in the contemporary Zika virus genome and host cellular transcripts - Wiley Online Library",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Characterization of m6A modifications in the contemporary Zika virus genome and host cellular transcripts - Wiley Online Library"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiakFVX3lxTE45TEdOUm5kOE5oTlI0OE8xZWxFM3NtNGcyWXVpRmxnWG5vVkNqX28yd2E5VWEyVWFLQk14eGI1QWdxcUotbnI3MjJmTEVxbnpDUHl6NnZVcW9LRE0wS2tpLVJKQ0RDSmtSOFE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE45TEdOUm5kOE5oTlI0OE8xZWxFM3NtNGcyWXVpRmxnWG5vVkNqX28yd2E5VWEyVWFLQk14eGI1QWdxcUotbnI3MjJmTEVxbnpDUHl6NnZVcW9LRE0wS2tpLVJKQ0RDSmtSOFE?oc=5",
+      "id": "CBMiakFVX3lxTE45TEdOUm5kOE5oTlI0OE8xZWxFM3NtNGcyWXVpRmxnWG5vVkNqX28yd2E5VWEyVWFLQk14eGI1QWdxcUotbnI3MjJmTEVxbnpDUHl6NnZVcW9LRE0wS2tpLVJKQ0RDSmtSOFE",
+      "guidislink": false,
+      "published": "Thu, 19 May 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        5,
+        19,
+        7,
+        0,
+        0,
+        3,
+        139,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE45TEdOUm5kOE5oTlI0OE8xZWxFM3NtNGcyWXVpRmxnWG5vVkNqX28yd2E5VWEyVWFLQk14eGI1QWdxcUotbnI3MjJmTEVxbnpDUHl6NnZVcW9LRE0wS2tpLVJKQ0RDSmtSOFE?oc=5\" target=\"_blank\">Characterization of m6A modifications in the contemporary Zika virus genome and host cellular transcripts</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Wiley Online Library</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE45TEdOUm5kOE5oTlI0OE8xZWxFM3NtNGcyWXVpRmxnWG5vVkNqX28yd2E5VWEyVWFLQk14eGI1QWdxcUotbnI3MjJmTEVxbnpDUHl6NnZVcW9LRE0wS2tpLVJKQ0RDSmtSOFE?oc=5\" target=\"_blank\">Characterization of m6A modifications in the contemporary Zika virus genome and host cellular transcripts</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Wiley Online Library</font>"
+      },
+      "source": {
+        "href": "https://onlinelibrary.wiley.com",
+        "title": "Wiley Online Library"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Self-Assembling Nanovaccine Confers Complete Protection Against Zika Virus Without Causing Antibody-Dependent Enhancement - Frontiers",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Self-Assembling Nanovaccine Confers Complete Protection Against Zika Virus Without Causing Antibody-Dependent Enhancement - Frontiers"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQUlyYlBKbHFSay1HVEtoOHdiZUdQRmhNN1BqdG80b2Mtc2Z2S1pNVmd5XzdhLVdXb0xwVGk5cGgtejJ4WVdmdHh1aHB5WjN0eXlXYW4yTXlRTHFiU0wwckxnVmpNNmJ2RzJLVTc2U1hFZ1JweXhNZlZmQURQNTZKYVAwSkhXcFpuNGFESHFZUmY?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQUlyYlBKbHFSay1HVEtoOHdiZUdQRmhNN1BqdG80b2Mtc2Z2S1pNVmd5XzdhLVdXb0xwVGk5cGgtejJ4WVdmdHh1aHB5WjN0eXlXYW4yTXlRTHFiU0wwckxnVmpNNmJ2RzJLVTc2U1hFZ1JweXhNZlZmQURQNTZKYVAwSkhXcFpuNGFESHFZUmY?oc=5",
+      "id": "CBMikAFBVV95cUxPQUlyYlBKbHFSay1HVEtoOHdiZUdQRmhNN1BqdG80b2Mtc2Z2S1pNVmd5XzdhLVdXb0xwVGk5cGgtejJ4WVdmdHh1aHB5WjN0eXlXYW4yTXlRTHFiU0wwckxnVmpNNmJ2RzJLVTc2U1hFZ1JweXhNZlZmQURQNTZKYVAwSkhXcFpuNGFESHFZUmY",
+      "guidislink": false,
+      "published": "Sun, 08 May 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        5,
+        8,
+        7,
+        0,
+        0,
+        6,
+        128,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxPQUlyYlBKbHFSay1HVEtoOHdiZUdQRmhNN1BqdG80b2Mtc2Z2S1pNVmd5XzdhLVdXb0xwVGk5cGgtejJ4WVdmdHh1aHB5WjN0eXlXYW4yTXlRTHFiU0wwckxnVmpNNmJ2RzJLVTc2U1hFZ1JweXhNZlZmQURQNTZKYVAwSkhXcFpuNGFESHFZUmY?oc=5\" target=\"_blank\">Self-Assembling Nanovaccine Confers Complete Protection Against Zika Virus Without Causing Antibody-Dependent Enhancement</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Frontiers</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxPQUlyYlBKbHFSay1HVEtoOHdiZUdQRmhNN1BqdG80b2Mtc2Z2S1pNVmd5XzdhLVdXb0xwVGk5cGgtejJ4WVdmdHh1aHB5WjN0eXlXYW4yTXlRTHFiU0wwckxnVmpNNmJ2RzJLVTc2U1hFZ1JweXhNZlZmQURQNTZKYVAwSkhXcFpuNGFESHFZUmY?oc=5\" target=\"_blank\">Self-Assembling Nanovaccine Confers Complete Protection Against Zika Virus Without Causing Antibody-Dependent Enhancement</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Frontiers</font>"
+      },
+      "source": {
+        "href": "https://www.frontiersin.org",
+        "title": "Frontiers"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "The Zika virus emergency: informing the international response | LSHTM - The London School of Hygiene & Tropical Medicine",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "The Zika virus emergency: informing the international response | LSHTM - The London School of Hygiene & Tropical Medicine"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeHBMcGc1YURROUx2Nk1aMmNIaUZTYmkzRTZibjFUY19JSWFMVXJ1UHpkMDNOVEQyX0E4OHJVdm1KZGJzMGtoakNZVXdOSzhQaHg2emZSSlRvc1lnT1lza3V4MXE3QmVxMy1OZXM1X0pldmk4cHdDOGRWMkZ0bFBPZDBraUx1Tm53bHhnTVExdzFNcjA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeHBMcGc1YURROUx2Nk1aMmNIaUZTYmkzRTZibjFUY19JSWFMVXJ1UHpkMDNOVEQyX0E4OHJVdm1KZGJzMGtoakNZVXdOSzhQaHg2emZSSlRvc1lnT1lza3V4MXE3QmVxMy1OZXM1X0pldmk4cHdDOGRWMkZ0bFBPZDBraUx1Tm53bHhnTVExdzFNcjA?oc=5",
+      "id": "CBMikwFBVV95cUxQeHBMcGc1YURROUx2Nk1aMmNIaUZTYmkzRTZibjFUY19JSWFMVXJ1UHpkMDNOVEQyX0E4OHJVdm1KZGJzMGtoakNZVXdOSzhQaHg2emZSSlRvc1lnT1lza3V4MXE3QmVxMy1OZXM1X0pldmk4cHdDOGRWMkZ0bFBPZDBraUx1Tm53bHhnTVExdzFNcjA",
+      "guidislink": false,
+      "published": "Thu, 12 May 2022 16:58:11 GMT",
+      "published_parsed": [
+        2022,
+        5,
+        12,
+        16,
+        58,
+        11,
+        3,
+        132,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxQeHBMcGc1YURROUx2Nk1aMmNIaUZTYmkzRTZibjFUY19JSWFMVXJ1UHpkMDNOVEQyX0E4OHJVdm1KZGJzMGtoakNZVXdOSzhQaHg2emZSSlRvc1lnT1lza3V4MXE3QmVxMy1OZXM1X0pldmk4cHdDOGRWMkZ0bFBPZDBraUx1Tm53bHhnTVExdzFNcjA?oc=5\" target=\"_blank\">The Zika virus emergency: informing the international response | LSHTM</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The London School of Hygiene & Tropical Medicine</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxQeHBMcGc1YURROUx2Nk1aMmNIaUZTYmkzRTZibjFUY19JSWFMVXJ1UHpkMDNOVEQyX0E4OHJVdm1KZGJzMGtoakNZVXdOSzhQaHg2emZSSlRvc1lnT1lza3V4MXE3QmVxMy1OZXM1X0pldmk4cHdDOGRWMkZ0bFBPZDBraUx1Tm53bHhnTVExdzFNcjA?oc=5\" target=\"_blank\">The Zika virus emergency: informing the international response | LSHTM</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The London School of Hygiene & Tropical Medicine</font>"
+      },
+      "source": {
+        "href": "https://www.lshtm.ac.uk",
+        "title": "The London School of Hygiene & Tropical Medicine"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Monkeypox: Time to worry or one to ignore? - BBC",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Monkeypox: Time to worry or one to ignore? - BBC"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA2TEc3cnlTWWNsM0ZYUy0yOXRrc0tfcDN4Q1lWWmI3RXRLMEhBZ19jVE5NUFo4c0VZa21SdU9neFZGaFlzazZpMUVIZmp2dS0tUFE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA2TEc3cnlTWWNsM0ZYUy0yOXRrc0tfcDN4Q1lWWmI3RXRLMEhBZ19jVE5NUFo4c0VZa21SdU9neFZGaFlzazZpMUVIZmp2dS0tUFE?oc=5",
+      "id": "CBMiUkFVX3lxTFA2TEc3cnlTWWNsM0ZYUy0yOXRrc0tfcDN4Q1lWWmI3RXRLMEhBZ19jVE5NUFo4c0VZa21SdU9neFZGaFlzazZpMUVIZmp2dS0tUFE",
+      "guidislink": false,
+      "published": "Fri, 20 May 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        5,
+        20,
+        7,
+        0,
+        0,
+        4,
+        140,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTFA2TEc3cnlTWWNsM0ZYUy0yOXRrc0tfcDN4Q1lWWmI3RXRLMEhBZ19jVE5NUFo4c0VZa21SdU9neFZGaFlzazZpMUVIZmp2dS0tUFE?oc=5\" target=\"_blank\">Monkeypox: Time to worry or one to ignore?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTFA2TEc3cnlTWWNsM0ZYUy0yOXRrc0tfcDN4Q1lWWmI3RXRLMEhBZ19jVE5NUFo4c0VZa21SdU9neFZGaFlzazZpMUVIZmp2dS0tUFE?oc=5\" target=\"_blank\">Monkeypox: Time to worry or one to ignore?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>"
+      },
+      "source": {
+        "href": "https://www.bbc.com",
+        "title": "BBC"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Mosquito Season Is Back in NoVA. Here’s Why It’s So Bad–and How to Beat It - Northern Virginia Magazine",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Mosquito Season Is Back in NoVA. Here’s Why It’s So Bad–and How to Beat It - Northern Virginia Magazine"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMickFVX3lxTFBfMHlYcWkzRGlaTWREYmtZeC1rcWt0RG5QR0c5dThKb0drU2Z1VzNDbFJTdHg3YzRwY25maWxzYjNINkVkcE81RTBhR3JPY3d0LVR6RkZqbjlVRGx6NTFzTUhtWFBEX0p5MUZsR0s2Y3UwZw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBfMHlYcWkzRGlaTWREYmtZeC1rcWt0RG5QR0c5dThKb0drU2Z1VzNDbFJTdHg3YzRwY25maWxzYjNINkVkcE81RTBhR3JPY3d0LVR6RkZqbjlVRGx6NTFzTUhtWFBEX0p5MUZsR0s2Y3UwZw?oc=5",
+      "id": "CBMickFVX3lxTFBfMHlYcWkzRGlaTWREYmtZeC1rcWt0RG5QR0c5dThKb0drU2Z1VzNDbFJTdHg3YzRwY25maWxzYjNINkVkcE81RTBhR3JPY3d0LVR6RkZqbjlVRGx6NTFzTUhtWFBEX0p5MUZsR0s2Y3UwZw",
+      "guidislink": false,
+      "published": "Fri, 06 May 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        5,
+        6,
+        7,
+        0,
+        0,
+        4,
+        126,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTFBfMHlYcWkzRGlaTWREYmtZeC1rcWt0RG5QR0c5dThKb0drU2Z1VzNDbFJTdHg3YzRwY25maWxzYjNINkVkcE81RTBhR3JPY3d0LVR6RkZqbjlVRGx6NTFzTUhtWFBEX0p5MUZsR0s2Y3UwZw?oc=5\" target=\"_blank\">Mosquito Season Is Back in NoVA. Here’s Why It’s So Bad–and How to Beat It</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Northern Virginia Magazine</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTFBfMHlYcWkzRGlaTWREYmtZeC1rcWt0RG5QR0c5dThKb0drU2Z1VzNDbFJTdHg3YzRwY25maWxzYjNINkVkcE81RTBhR3JPY3d0LVR6RkZqbjlVRGx6NTFzTUhtWFBEX0p5MUZsR0s2Y3UwZw?oc=5\" target=\"_blank\">Mosquito Season Is Back in NoVA. Here’s Why It’s So Bad–and How to Beat It</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Northern Virginia Magazine</font>"
+      },
+      "source": {
+        "href": "https://northernvirginiamag.com",
+        "title": "Northern Virginia Magazine"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Mosquitoes prefer biting humans wearing red, orange or black clothes - fox5sandiego.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Mosquitoes prefer biting humans wearing red, orange or black clothes - fox5sandiego.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdVVTbEs4SEJMb0lJT2FQVXg5R1dJaEZwM2tPTjFrRVJFSWpDSVNpQ1RCS25PYi1xYVl3WURFTndQY1d0VUlLYVdvMU5sSkp3UTd1aFoxVGlEc0lhbHhveTVubnFyNXZHN2dMV3hSS2tORUN4UzVrOGg3dXk2elFwdlo0SVV3Z2dkNXBTLVdxamNmWEtiR0kyOFN3VzN5SmdLME81YmJVUEc0TzTSAbABQVVfeXFMUGZMRnM4SWFVeFhHTzZwQzRtbHBleDF6Y1V0YTMzYjY4QnJSRDlsZUhkWHFXTlBqUnE3bzV5UTUzMW9sNi1DbUlZMnhWWm9rOEpWakJvYTZSQTBvVVFTTDJtSjFiQVJZMjRRX3I3WmlTUUh3SC1kWmRSZldJV1U4TEFjR2tXSGp5UTNsd3ZYZTVyZ2Q0amlUbkFnMmF3OXdVUDdkdW5FTW1CN3drZ0JHano?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdVVTbEs4SEJMb0lJT2FQVXg5R1dJaEZwM2tPTjFrRVJFSWpDSVNpQ1RCS25PYi1xYVl3WURFTndQY1d0VUlLYVdvMU5sSkp3UTd1aFoxVGlEc0lhbHhveTVubnFyNXZHN2dMV3hSS2tORUN4UzVrOGg3dXk2elFwdlo0SVV3Z2dkNXBTLVdxamNmWEtiR0kyOFN3VzN5SmdLME81YmJVUEc0TzTSAbABQVVfeXFMUGZMRnM4SWFVeFhHTzZwQzRtbHBleDF6Y1V0YTMzYjY4QnJSRDlsZUhkWHFXTlBqUnE3bzV5UTUzMW9sNi1DbUlZMnhWWm9rOEpWakJvYTZSQTBvVVFTTDJtSjFiQVJZMjRRX3I3WmlTUUh3SC1kWmRSZldJV1U4TEFjR2tXSGp5UTNsd3ZYZTVyZ2Q0amlUbkFnMmF3OXdVUDdkdW5FTW1CN3drZ0JHano?oc=5",
+      "id": "CBMiqwFBVV95cUxOdVVTbEs4SEJMb0lJT2FQVXg5R1dJaEZwM2tPTjFrRVJFSWpDSVNpQ1RCS25PYi1xYVl3WURFTndQY1d0VUlLYVdvMU5sSkp3UTd1aFoxVGlEc0lhbHhveTVubnFyNXZHN2dMV3hSS2tORUN4UzVrOGg3dXk2elFwdlo0SVV3Z2dkNXBTLVdxamNmWEtiR0kyOFN3VzN5SmdLME81YmJVUEc0TzTSAbABQVVfeXFMUGZMRnM4SWFVeFhHTzZwQzRtbHBleDF6Y1V0YTMzYjY4QnJSRDlsZUhkWHFXTlBqUnE3bzV5UTUzMW9sNi1DbUlZMnhWWm9rOEpWakJvYTZSQTBvVVFTTDJtSjFiQVJZMjRRX3I3WmlTUUh3SC1kWmRSZldJV1U4TEFjR2tXSGp5UTNsd3ZYZTVyZ2Q0amlUbkFnMmF3OXdVUDdkdW5FTW1CN3drZ0JHano",
+      "guidislink": false,
+      "published": "Wed, 11 May 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        5,
+        11,
+        7,
+        0,
+        0,
+        2,
+        131,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdVVTbEs4SEJMb0lJT2FQVXg5R1dJaEZwM2tPTjFrRVJFSWpDSVNpQ1RCS25PYi1xYVl3WURFTndQY1d0VUlLYVdvMU5sSkp3UTd1aFoxVGlEc0lhbHhveTVubnFyNXZHN2dMV3hSS2tORUN4UzVrOGg3dXk2elFwdlo0SVV3Z2dkNXBTLVdxamNmWEtiR0kyOFN3VzN5SmdLME81YmJVUEc0TzTSAbABQVVfeXFMUGZMRnM4SWFVeFhHTzZwQzRtbHBleDF6Y1V0YTMzYjY4QnJSRDlsZUhkWHFXTlBqUnE3bzV5UTUzMW9sNi1DbUlZMnhWWm9rOEpWakJvYTZSQTBvVVFTTDJtSjFiQVJZMjRRX3I3WmlTUUh3SC1kWmRSZldJV1U4TEFjR2tXSGp5UTNsd3ZYZTVyZ2Q0amlUbkFnMmF3OXdVUDdkdW5FTW1CN3drZ0JHano?oc=5\" target=\"_blank\">Mosquitoes prefer biting humans wearing red, orange or black clothes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">fox5sandiego.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdVVTbEs4SEJMb0lJT2FQVXg5R1dJaEZwM2tPTjFrRVJFSWpDSVNpQ1RCS25PYi1xYVl3WURFTndQY1d0VUlLYVdvMU5sSkp3UTd1aFoxVGlEc0lhbHhveTVubnFyNXZHN2dMV3hSS2tORUN4UzVrOGg3dXk2elFwdlo0SVV3Z2dkNXBTLVdxamNmWEtiR0kyOFN3VzN5SmdLME81YmJVUEc0TzTSAbABQVVfeXFMUGZMRnM4SWFVeFhHTzZwQzRtbHBleDF6Y1V0YTMzYjY4QnJSRDlsZUhkWHFXTlBqUnE3bzV5UTUzMW9sNi1DbUlZMnhWWm9rOEpWakJvYTZSQTBvVVFTTDJtSjFiQVJZMjRRX3I3WmlTUUh3SC1kWmRSZldJV1U4TEFjR2tXSGp5UTNsd3ZYZTVyZ2Q0amlUbkFnMmF3OXdVUDdkdW5FTW1CN3drZ0JHano?oc=5\" target=\"_blank\">Mosquitoes prefer biting humans wearing red, orange or black clothes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">fox5sandiego.com</font>"
+      },
+      "source": {
+        "href": "https://fox5sandiego.com",
+        "title": "fox5sandiego.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Kevin Steele adds Mike Fasano’s endorsement to HD 55 support - Florida Politics",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Kevin Steele adds Mike Fasano’s endorsement to HD 55 support - Florida Politics"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQXd1RTdIODFRTGJfM1lYeENIazdFUGZja0tOUDN3cTFFenpacnF6Z1BleUlsazdvQ1FaLThidDMzWG1Ic0F0dmVvSnFDa0pNUVRVeVdZZVNnR3hZSEZaUk01WmJyM1JjNTVLUmFNLXhqdWxSNTlJSjdma0J2b09nS3d4Uk9KYWNpV2wxRmdjUFFnamJnMDJMcmdQMDZodERJZVBpX3htcw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQXd1RTdIODFRTGJfM1lYeENIazdFUGZja0tOUDN3cTFFenpacnF6Z1BleUlsazdvQ1FaLThidDMzWG1Ic0F0dmVvSnFDa0pNUVRVeVdZZVNnR3hZSEZaUk01WmJyM1JjNTVLUmFNLXhqdWxSNTlJSjdma0J2b09nS3d4Uk9KYWNpV2wxRmdjUFFnamJnMDJMcmdQMDZodERJZVBpX3htcw?oc=5",
+      "id": "CBMipwFBVV95cUxOQXd1RTdIODFRTGJfM1lYeENIazdFUGZja0tOUDN3cTFFenpacnF6Z1BleUlsazdvQ1FaLThidDMzWG1Ic0F0dmVvSnFDa0pNUVRVeVdZZVNnR3hZSEZaUk01WmJyM1JjNTVLUmFNLXhqdWxSNTlJSjdma0J2b09nS3d4Uk9KYWNpV2wxRmdjUFFnamJnMDJMcmdQMDZodERJZVBpX3htcw",
+      "guidislink": false,
+      "published": "Mon, 09 May 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        5,
+        9,
+        7,
+        0,
+        0,
+        0,
+        129,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxOQXd1RTdIODFRTGJfM1lYeENIazdFUGZja0tOUDN3cTFFenpacnF6Z1BleUlsazdvQ1FaLThidDMzWG1Ic0F0dmVvSnFDa0pNUVRVeVdZZVNnR3hZSEZaUk01WmJyM1JjNTVLUmFNLXhqdWxSNTlJSjdma0J2b09nS3d4Uk9KYWNpV2wxRmdjUFFnamJnMDJMcmdQMDZodERJZVBpX3htcw?oc=5\" target=\"_blank\">Kevin Steele adds Mike Fasano’s endorsement to HD 55 support</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Florida Politics</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxOQXd1RTdIODFRTGJfM1lYeENIazdFUGZja0tOUDN3cTFFenpacnF6Z1BleUlsazdvQ1FaLThidDMzWG1Ic0F0dmVvSnFDa0pNUVRVeVdZZVNnR3hZSEZaUk01WmJyM1JjNTVLUmFNLXhqdWxSNTlJSjdma0J2b09nS3d4Uk9KYWNpV2wxRmdjUFFnamJnMDJMcmdQMDZodERJZVBpX3htcw?oc=5\" target=\"_blank\">Kevin Steele adds Mike Fasano’s endorsement to HD 55 support</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Florida Politics</font>"
+      },
+      "source": {
+        "href": "https://floridapolitics.com",
+        "title": "Florida Politics"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Scientists reveal why mosquitoes prefer human blood over other animals - World News - WION",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Scientists reveal why mosquitoes prefer human blood over other animals - World News - WION"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVWVKRW4wNzdjTkYydVR1SVEzQzdEMzFWSDJzcEMxai02RUxOUVQyeW04UmhkSUVNdkIzRDdHaEk2a0ZhTmhnSkxjejZTRXhXSTVncHJYcHMtXzM3LVVMM1JJdG9DanBacWxwYjBwV3IwNTZraDdHRWdIVzI1SjBVeTFzUlM0azByR1RFS2UzWDh1cUNtQzcwbkhFYjZTdHp2M0NUS1VaV1pZdU3SAbABQVVfeXFMUHNmS3ViazhZU192QUlzTC1aUzZGQTdabWJxM3g3a1NFZElEOG1KMGRGbnVNZnkxSUhfNHpZY09BUjZqOWFYbThfSHFqVXBNNzBQbFRpUnhIWk9JVU9mSHhvVUl3eWFIOFptSDQ0c0xpN2VLbUJKYXpnZFl3c2FTYjFndS01Mk1pRkNsbGh4dHJFbmhBZktqeWhOYVRKVlZ0LXRFUmtvSnNVc1VxYTJrb1Q?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVWVKRW4wNzdjTkYydVR1SVEzQzdEMzFWSDJzcEMxai02RUxOUVQyeW04UmhkSUVNdkIzRDdHaEk2a0ZhTmhnSkxjejZTRXhXSTVncHJYcHMtXzM3LVVMM1JJdG9DanBacWxwYjBwV3IwNTZraDdHRWdIVzI1SjBVeTFzUlM0azByR1RFS2UzWDh1cUNtQzcwbkhFYjZTdHp2M0NUS1VaV1pZdU3SAbABQVVfeXFMUHNmS3ViazhZU192QUlzTC1aUzZGQTdabWJxM3g3a1NFZElEOG1KMGRGbnVNZnkxSUhfNHpZY09BUjZqOWFYbThfSHFqVXBNNzBQbFRpUnhIWk9JVU9mSHhvVUl3eWFIOFptSDQ0c0xpN2VLbUJKYXpnZFl3c2FTYjFndS01Mk1pRkNsbGh4dHJFbmhBZktqeWhOYVRKVlZ0LXRFUmtvSnNVc1VxYTJrb1Q?oc=5",
+      "id": "CBMiqwFBVV95cUxNVWVKRW4wNzdjTkYydVR1SVEzQzdEMzFWSDJzcEMxai02RUxOUVQyeW04UmhkSUVNdkIzRDdHaEk2a0ZhTmhnSkxjejZTRXhXSTVncHJYcHMtXzM3LVVMM1JJdG9DanBacWxwYjBwV3IwNTZraDdHRWdIVzI1SjBVeTFzUlM0azByR1RFS2UzWDh1cUNtQzcwbkhFYjZTdHp2M0NUS1VaV1pZdU3SAbABQVVfeXFMUHNmS3ViazhZU192QUlzTC1aUzZGQTdabWJxM3g3a1NFZElEOG1KMGRGbnVNZnkxSUhfNHpZY09BUjZqOWFYbThfSHFqVXBNNzBQbFRpUnhIWk9JVU9mSHhvVUl3eWFIOFptSDQ0c0xpN2VLbUJKYXpnZFl3c2FTYjFndS01Mk1pRkNsbGh4dHJFbmhBZktqeWhOYVRKVlZ0LXRFUmtvSnNVc1VxYTJrb1Q",
+      "guidislink": false,
+      "published": "Sun, 08 May 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        5,
+        8,
+        7,
+        0,
+        0,
+        6,
+        128,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVWVKRW4wNzdjTkYydVR1SVEzQzdEMzFWSDJzcEMxai02RUxOUVQyeW04UmhkSUVNdkIzRDdHaEk2a0ZhTmhnSkxjejZTRXhXSTVncHJYcHMtXzM3LVVMM1JJdG9DanBacWxwYjBwV3IwNTZraDdHRWdIVzI1SjBVeTFzUlM0azByR1RFS2UzWDh1cUNtQzcwbkhFYjZTdHp2M0NUS1VaV1pZdU3SAbABQVVfeXFMUHNmS3ViazhZU192QUlzTC1aUzZGQTdabWJxM3g3a1NFZElEOG1KMGRGbnVNZnkxSUhfNHpZY09BUjZqOWFYbThfSHFqVXBNNzBQbFRpUnhIWk9JVU9mSHhvVUl3eWFIOFptSDQ0c0xpN2VLbUJKYXpnZFl3c2FTYjFndS01Mk1pRkNsbGh4dHJFbmhBZktqeWhOYVRKVlZ0LXRFUmtvSnNVc1VxYTJrb1Q?oc=5\" target=\"_blank\">Scientists reveal why mosquitoes prefer human blood over other animals - World News</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WION</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVWVKRW4wNzdjTkYydVR1SVEzQzdEMzFWSDJzcEMxai02RUxOUVQyeW04UmhkSUVNdkIzRDdHaEk2a0ZhTmhnSkxjejZTRXhXSTVncHJYcHMtXzM3LVVMM1JJdG9DanBacWxwYjBwV3IwNTZraDdHRWdIVzI1SjBVeTFzUlM0azByR1RFS2UzWDh1cUNtQzcwbkhFYjZTdHp2M0NUS1VaV1pZdU3SAbABQVVfeXFMUHNmS3ViazhZU192QUlzTC1aUzZGQTdabWJxM3g3a1NFZElEOG1KMGRGbnVNZnkxSUhfNHpZY09BUjZqOWFYbThfSHFqVXBNNzBQbFRpUnhIWk9JVU9mSHhvVUl3eWFIOFptSDQ0c0xpN2VLbUJKYXpnZFl3c2FTYjFndS01Mk1pRkNsbGh4dHJFbmhBZktqeWhOYVRKVlZ0LXRFUmtvSnNVc1VxYTJrb1Q?oc=5\" target=\"_blank\">Scientists reveal why mosquitoes prefer human blood over other animals - World News</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WION</font>"
+      },
+      "source": {
+        "href": "https://www.wionews.com",
+        "title": "WION"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Arboviral disease record data - Dengue and Chikungunya, Brazil, 2013–2020 | Scientific Data - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Arboviral disease record data - Dengue and Chikungunya, Brazil, 2013–2020 | Scientific Data - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA3elJCalJyMTNzUlZkbFdKNXZheTRwa2VVeUhmR0pCd3Nac0RMXzJBc0lJRmhDaGdvZkx1VTFoSDE4alRNMXMtX2YtMHNteUVwRlItTktXU3JQTTZVRUpZ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA3elJCalJyMTNzUlZkbFdKNXZheTRwa2VVeUhmR0pCd3Nac0RMXzJBc0lJRmhDaGdvZkx1VTFoSDE4alRNMXMtX2YtMHNteUVwRlItTktXU3JQTTZVRUpZ?oc=5",
+      "id": "CBMiX0FVX3lxTFA3elJCalJyMTNzUlZkbFdKNXZheTRwa2VVeUhmR0pCd3Nac0RMXzJBc0lJRmhDaGdvZkx1VTFoSDE4alRNMXMtX2YtMHNteUVwRlItTktXU3JQTTZVRUpZ",
+      "guidislink": false,
+      "published": "Tue, 10 May 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        5,
+        10,
+        7,
+        0,
+        0,
+        1,
+        130,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFA3elJCalJyMTNzUlZkbFdKNXZheTRwa2VVeUhmR0pCd3Nac0RMXzJBc0lJRmhDaGdvZkx1VTFoSDE4alRNMXMtX2YtMHNteUVwRlItTktXU3JQTTZVRUpZ?oc=5\" target=\"_blank\">Arboviral disease record data - Dengue and Chikungunya, Brazil, 2013–2020 | Scientific Data</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFA3elJCalJyMTNzUlZkbFdKNXZheTRwa2VVeUhmR0pCd3Nac0RMXzJBc0lJRmhDaGdvZkx1VTFoSDE4alRNMXMtX2YtMHNteUVwRlItTktXU3JQTTZVRUpZ?oc=5\" target=\"_blank\">Arboviral disease record data - Dengue and Chikungunya, Brazil, 2013–2020 | Scientific Data</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Sri Lanka Latest Breaking News and Headlines - Print Edition Zika virus: Will it be Sri Lanka’s next ghastly epidemic? - Daily Mirror - Sri Lanka",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Sri Lanka Latest Breaking News and Headlines - Print Edition Zika virus: Will it be Sri Lanka’s next ghastly epidemic? - Daily Mirror - Sri Lanka"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMWRLbzZhT19hbUpJQ2FFWHhENWlmcmVJSDd2Rzl6Q1FLaTBCQW9yR0Zfcmp3SzFmM1pZUnBZVlQweW94VExqNUE1dGswSjJBYjByYVlJTTYtcjJSZE5wdEVWdHhDcDcyTDFPVFl2R0dkSTJFc3VaUDNnX05xVnlhYWFyem5OSzhNd2hiMVlCOUlMbHJNaGVzWUsxYjE3dXVmZEtSYmMxRXBBYkE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMWRLbzZhT19hbUpJQ2FFWHhENWlmcmVJSDd2Rzl6Q1FLaTBCQW9yR0Zfcmp3SzFmM1pZUnBZVlQweW94VExqNUE1dGswSjJBYjByYVlJTTYtcjJSZE5wdEVWdHhDcDcyTDFPVFl2R0dkSTJFc3VaUDNnX05xVnlhYWFyem5OSzhNd2hiMVlCOUlMbHJNaGVzWUsxYjE3dXVmZEtSYmMxRXBBYkE?oc=5",
+      "id": "CBMiqwFBVV95cUxPMWRLbzZhT19hbUpJQ2FFWHhENWlmcmVJSDd2Rzl6Q1FLaTBCQW9yR0Zfcmp3SzFmM1pZUnBZVlQweW94VExqNUE1dGswSjJBYjByYVlJTTYtcjJSZE5wdEVWdHhDcDcyTDFPVFl2R0dkSTJFc3VaUDNnX05xVnlhYWFyem5OSzhNd2hiMVlCOUlMbHJNaGVzWUsxYjE3dXVmZEtSYmMxRXBBYkE",
+      "guidislink": false,
+      "published": "Fri, 06 May 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        5,
+        6,
+        7,
+        0,
+        0,
+        4,
+        126,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMWRLbzZhT19hbUpJQ2FFWHhENWlmcmVJSDd2Rzl6Q1FLaTBCQW9yR0Zfcmp3SzFmM1pZUnBZVlQweW94VExqNUE1dGswSjJBYjByYVlJTTYtcjJSZE5wdEVWdHhDcDcyTDFPVFl2R0dkSTJFc3VaUDNnX05xVnlhYWFyem5OSzhNd2hiMVlCOUlMbHJNaGVzWUsxYjE3dXVmZEtSYmMxRXBBYkE?oc=5\" target=\"_blank\">Sri Lanka Latest Breaking News and Headlines - Print Edition Zika virus: Will it be Sri Lanka’s next ghastly epidemic?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mirror - Sri Lanka</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMWRLbzZhT19hbUpJQ2FFWHhENWlmcmVJSDd2Rzl6Q1FLaTBCQW9yR0Zfcmp3SzFmM1pZUnBZVlQweW94VExqNUE1dGswSjJBYjByYVlJTTYtcjJSZE5wdEVWdHhDcDcyTDFPVFl2R0dkSTJFc3VaUDNnX05xVnlhYWFyem5OSzhNd2hiMVlCOUlMbHJNaGVzWUsxYjE3dXVmZEtSYmMxRXBBYkE?oc=5\" target=\"_blank\">Sri Lanka Latest Breaking News and Headlines - Print Edition Zika virus: Will it be Sri Lanka’s next ghastly epidemic?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mirror - Sri Lanka</font>"
+      },
+      "source": {
+        "href": "https://www.dailymirror.lk",
+        "title": "Daily Mirror - Sri Lanka"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "UAE residents asked to take preventive measures against spread of mosquitoes - Gulf News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "UAE residents asked to take preventive measures against spread of mosquitoes - Gulf News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMi1EMHE4LVAyaFVYQWUyaFJlN0lxNEp4M25vcURkYkZUWWRRbXJ6ZGQwVExOYlhrZjB6VDNabmpoVS1rbGstakN4aGswbWwtUmFBc21QRE90Y3VhQmNyeFNzb0RDbkVvcUtLRXpLWWw5dG1MRVVaUHFySi1rYmw4Z2NyMkxQVHlGM29xSXJybkpPeHVCSUctZzlfS05LaG9NMTh1aTgxWUd1YnFIRS1HZ3BB0gHCAUFVX3lxTE03YzB5SUNpZExtNjRNYVIwSDg2Y2I1ZURONXVSblN4OEpGSlB1YUkwQ3BJYTNkeTd5R0Q3alRNZUJDT0NkNUduZnFQY1YwcmFsbW1mQlU2VU1GOFdGUnlWNjJGeGhCVlU5WjFpV2dkS2lra0RtQkpEM3daT0lHZzJCRk9zTGJjdG4yMjF0cWk2OW5WdFVCdS02ZDBvMkxSTUFaWktnb1ZYbWp6X3Z3anJsY291Qno3S2NIRWV6N1FsVXd3?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMi1EMHE4LVAyaFVYQWUyaFJlN0lxNEp4M25vcURkYkZUWWRRbXJ6ZGQwVExOYlhrZjB6VDNabmpoVS1rbGstakN4aGswbWwtUmFBc21QRE90Y3VhQmNyeFNzb0RDbkVvcUtLRXpLWWw5dG1MRVVaUHFySi1rYmw4Z2NyMkxQVHlGM29xSXJybkpPeHVCSUctZzlfS05LaG9NMTh1aTgxWUd1YnFIRS1HZ3BB0gHCAUFVX3lxTE03YzB5SUNpZExtNjRNYVIwSDg2Y2I1ZURONXVSblN4OEpGSlB1YUkwQ3BJYTNkeTd5R0Q3alRNZUJDT0NkNUduZnFQY1YwcmFsbW1mQlU2VU1GOFdGUnlWNjJGeGhCVlU5WjFpV2dkS2lra0RtQkpEM3daT0lHZzJCRk9zTGJjdG4yMjF0cWk2OW5WdFVCdS02ZDBvMkxSTUFaWktnb1ZYbWp6X3Z3anJsY291Qno3S2NIRWV6N1FsVXd3?oc=5",
+      "id": "CBMisgFBVV95cUxPMi1EMHE4LVAyaFVYQWUyaFJlN0lxNEp4M25vcURkYkZUWWRRbXJ6ZGQwVExOYlhrZjB6VDNabmpoVS1rbGstakN4aGswbWwtUmFBc21QRE90Y3VhQmNyeFNzb0RDbkVvcUtLRXpLWWw5dG1MRVVaUHFySi1rYmw4Z2NyMkxQVHlGM29xSXJybkpPeHVCSUctZzlfS05LaG9NMTh1aTgxWUd1YnFIRS1HZ3BB0gHCAUFVX3lxTE03YzB5SUNpZExtNjRNYVIwSDg2Y2I1ZURONXVSblN4OEpGSlB1YUkwQ3BJYTNkeTd5R0Q3alRNZUJDT0NkNUduZnFQY1YwcmFsbW1mQlU2VU1GOFdGUnlWNjJGeGhCVlU5WjFpV2dkS2lra0RtQkpEM3daT0lHZzJCRk9zTGJjdG4yMjF0cWk2OW5WdFVCdS02ZDBvMkxSTUFaWktnb1ZYbWp6X3Z3anJsY291Qno3S2NIRWV6N1FsVXd3",
+      "guidislink": false,
+      "published": "Wed, 18 May 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        5,
+        18,
+        7,
+        0,
+        0,
+        2,
+        138,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPMi1EMHE4LVAyaFVYQWUyaFJlN0lxNEp4M25vcURkYkZUWWRRbXJ6ZGQwVExOYlhrZjB6VDNabmpoVS1rbGstakN4aGswbWwtUmFBc21QRE90Y3VhQmNyeFNzb0RDbkVvcUtLRXpLWWw5dG1MRVVaUHFySi1rYmw4Z2NyMkxQVHlGM29xSXJybkpPeHVCSUctZzlfS05LaG9NMTh1aTgxWUd1YnFIRS1HZ3BB0gHCAUFVX3lxTE03YzB5SUNpZExtNjRNYVIwSDg2Y2I1ZURONXVSblN4OEpGSlB1YUkwQ3BJYTNkeTd5R0Q3alRNZUJDT0NkNUduZnFQY1YwcmFsbW1mQlU2VU1GOFdGUnlWNjJGeGhCVlU5WjFpV2dkS2lra0RtQkpEM3daT0lHZzJCRk9zTGJjdG4yMjF0cWk2OW5WdFVCdS02ZDBvMkxSTUFaWktnb1ZYbWp6X3Z3anJsY291Qno3S2NIRWV6N1FsVXd3?oc=5\" target=\"_blank\">UAE residents asked to take preventive measures against spread of mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Gulf News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPMi1EMHE4LVAyaFVYQWUyaFJlN0lxNEp4M25vcURkYkZUWWRRbXJ6ZGQwVExOYlhrZjB6VDNabmpoVS1rbGstakN4aGswbWwtUmFBc21QRE90Y3VhQmNyeFNzb0RDbkVvcUtLRXpLWWw5dG1MRVVaUHFySi1rYmw4Z2NyMkxQVHlGM29xSXJybkpPeHVCSUctZzlfS05LaG9NMTh1aTgxWUd1YnFIRS1HZ3BB0gHCAUFVX3lxTE03YzB5SUNpZExtNjRNYVIwSDg2Y2I1ZURONXVSblN4OEpGSlB1YUkwQ3BJYTNkeTd5R0Q3alRNZUJDT0NkNUduZnFQY1YwcmFsbW1mQlU2VU1GOFdGUnlWNjJGeGhCVlU5WjFpV2dkS2lra0RtQkpEM3daT0lHZzJCRk9zTGJjdG4yMjF0cWk2OW5WdFVCdS02ZDBvMkxSTUFaWktnb1ZYbWp6X3Z3anJsY291Qno3S2NIRWV6N1FsVXd3?oc=5\" target=\"_blank\">UAE residents asked to take preventive measures against spread of mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Gulf News</font>"
+      },
+      "source": {
+        "href": "https://gulfnews.com",
+        "title": "Gulf News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "National Dengue Day 2022 – May 16 - AffairsCloud.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "National Dengue Day 2022 – May 16 - AffairsCloud.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE55bnRiRTFkcjU5V05CdDVXd0ZnY2ctTXQ0ZVR0ci1heXJKZWRCU3VzNUN6TFFHTVVfZWJ3eGJlZHZTd1NuZnRTQko0ajlQV09yNXhWZmhKY2I3WnVxOXVWTzlOMF8ydWJi?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE55bnRiRTFkcjU5V05CdDVXd0ZnY2ctTXQ0ZVR0ci1heXJKZWRCU3VzNUN6TFFHTVVfZWJ3eGJlZHZTd1NuZnRTQko0ajlQV09yNXhWZmhKY2I3WnVxOXVWTzlOMF8ydWJi?oc=5",
+      "id": "CBMiaEFVX3lxTE55bnRiRTFkcjU5V05CdDVXd0ZnY2ctTXQ0ZVR0ci1heXJKZWRCU3VzNUN6TFFHTVVfZWJ3eGJlZHZTd1NuZnRTQko0ajlQV09yNXhWZmhKY2I3WnVxOXVWTzlOMF8ydWJi",
+      "guidislink": false,
+      "published": "Mon, 16 May 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        5,
+        16,
+        7,
+        0,
+        0,
+        0,
+        136,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE55bnRiRTFkcjU5V05CdDVXd0ZnY2ctTXQ0ZVR0ci1heXJKZWRCU3VzNUN6TFFHTVVfZWJ3eGJlZHZTd1NuZnRTQko0ajlQV09yNXhWZmhKY2I3WnVxOXVWTzlOMF8ydWJi?oc=5\" target=\"_blank\">National Dengue Day 2022 – May 16</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AffairsCloud.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE55bnRiRTFkcjU5V05CdDVXd0ZnY2ctTXQ0ZVR0ci1heXJKZWRCU3VzNUN6TFFHTVVfZWJ3eGJlZHZTd1NuZnRTQko0ajlQV09yNXhWZmhKY2I3WnVxOXVWTzlOMF8ydWJi?oc=5\" target=\"_blank\">National Dengue Day 2022 – May 16</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AffairsCloud.com</font>"
+      },
+      "source": {
+        "href": "https://affairscloud.com",
+        "title": "AffairsCloud.com"
+      },
+      "sub_articles": []
+    }
+  ]
+}

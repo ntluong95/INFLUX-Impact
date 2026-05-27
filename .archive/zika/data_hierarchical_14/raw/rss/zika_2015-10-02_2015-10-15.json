@@ -1,0 +1,349 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2015-10-02",
+  "window_end": "2015-10-15",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2015-10-02+before%3A2015-10-16&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2015-10-02+before:2015-10-16&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:20:12Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2015-10-02 before:2015-10-16\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2015-10-02 before:2015-10-16\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2015-10-02+before:2015-10-16&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2015-10-02+before:2015-10-16&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:20:12 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      20,
+      12,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Zika Disease: Another Reason to Hate Mosquitoes - Scientific American",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika Disease: Another Reason to Hate Mosquitoes - Scientific American"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORktiTlFuTUJ5UTBfZnJHZzdMV2c3NjZob0RPV2NoeXR5bDNScEhlQ1NNNEg1WVpHRWp1bzA2bjJMMEs2S09ZOUM3b1JEWkNRZUFuWnktcWFxVl9SNno2TlFGRUxLX290Vng3d2l1MlhqRlVVMC1oZERIZS1yWG1IMnhYSy1GZVRNc0FCelo1bENJbVhm?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORktiTlFuTUJ5UTBfZnJHZzdMV2c3NjZob0RPV2NoeXR5bDNScEhlQ1NNNEg1WVpHRWp1bzA2bjJMMEs2S09ZOUM3b1JEWkNRZUFuWnktcWFxVl9SNno2TlFGRUxLX290Vng3d2l1MlhqRlVVMC1oZERIZS1yWG1IMnhYSy1GZVRNc0FCelo1bENJbVhm?oc=5",
+      "id": "CBMilAFBVV95cUxORktiTlFuTUJ5UTBfZnJHZzdMV2c3NjZob0RPV2NoeXR5bDNScEhlQ1NNNEg1WVpHRWp1bzA2bjJMMEs2S09ZOUM3b1JEWkNRZUFuWnktcWFxVl9SNno2TlFGRUxLX290Vng3d2l1MlhqRlVVMC1oZERIZS1yWG1IMnhYSy1GZVRNc0FCelo1bENJbVhm",
+      "guidislink": false,
+      "published": "Thu, 08 Oct 2015 07:00:00 GMT",
+      "published_parsed": [
+        2015,
+        10,
+        8,
+        7,
+        0,
+        0,
+        3,
+        281,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxORktiTlFuTUJ5UTBfZnJHZzdMV2c3NjZob0RPV2NoeXR5bDNScEhlQ1NNNEg1WVpHRWp1bzA2bjJMMEs2S09ZOUM3b1JEWkNRZUFuWnktcWFxVl9SNno2TlFGRUxLX290Vng3d2l1MlhqRlVVMC1oZERIZS1yWG1IMnhYSy1GZVRNc0FCelo1bENJbVhm?oc=5\" target=\"_blank\">Zika Disease: Another Reason to Hate Mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Scientific American</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxORktiTlFuTUJ5UTBfZnJHZzdMV2c3NjZob0RPV2NoeXR5bDNScEhlQ1NNNEg1WVpHRWp1bzA2bjJMMEs2S09ZOUM3b1JEWkNRZUFuWnktcWFxVl9SNno2TlFGRUxLX290Vng3d2l1MlhqRlVVMC1oZERIZS1yWG1IMnhYSy1GZVRNc0FCelo1bENJbVhm?oc=5\" target=\"_blank\">Zika Disease: Another Reason to Hate Mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Scientific American</font>"
+      },
+      "source": {
+        "href": "https://www.scientificamerican.com",
+        "title": "Scientific American"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Nigeria’s Bet on Beating Drug-Resistant Malaria - PBS",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Nigeria’s Bet on Beating Drug-Resistant Malaria - PBS"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1vVmVGWmdyS19pTW90YnlPN0RzRVlMS05PVVktOU82VEZfa09fak1FUHlHRV9WYWdsYU5pM0dZTGhpamZtSk1VUHF6TURJRXprVHZYZzRJR2twMnU5SGlMazVhMXV1NmNYV1RSZnNZSjVFVDQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1vVmVGWmdyS19pTW90YnlPN0RzRVlMS05PVVktOU82VEZfa09fak1FUHlHRV9WYWdsYU5pM0dZTGhpamZtSk1VUHF6TURJRXprVHZYZzRJR2twMnU5SGlMazVhMXV1NmNYV1RSZnNZSjVFVDQ?oc=5",
+      "id": "CBMic0FVX3lxTE1vVmVGWmdyS19pTW90YnlPN0RzRVlMS05PVVktOU82VEZfa09fak1FUHlHRV9WYWdsYU5pM0dZTGhpamZtSk1VUHF6TURJRXprVHZYZzRJR2twMnU5SGlMazVhMXV1NmNYV1RSZnNZSjVFVDQ",
+      "guidislink": false,
+      "published": "Wed, 07 Oct 2015 07:00:00 GMT",
+      "published_parsed": [
+        2015,
+        10,
+        7,
+        7,
+        0,
+        0,
+        2,
+        280,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE1vVmVGWmdyS19pTW90YnlPN0RzRVlMS05PVVktOU82VEZfa09fak1FUHlHRV9WYWdsYU5pM0dZTGhpamZtSk1VUHF6TURJRXprVHZYZzRJR2twMnU5SGlMazVhMXV1NmNYV1RSZnNZSjVFVDQ?oc=5\" target=\"_blank\">Nigeria’s Bet on Beating Drug-Resistant Malaria</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PBS</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE1vVmVGWmdyS19pTW90YnlPN0RzRVlMS05PVVktOU82VEZfa09fak1FUHlHRV9WYWdsYU5pM0dZTGhpamZtSk1VUHF6TURJRXprVHZYZzRJR2twMnU5SGlMazVhMXV1NmNYV1RSZnNZSjVFVDQ?oc=5\" target=\"_blank\">Nigeria’s Bet on Beating Drug-Resistant Malaria</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PBS</font>"
+      },
+      "source": {
+        "href": "https://www.pbs.org",
+        "title": "PBS"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Sample Tests Negative for Mosquito-borne Viral Illnesses - Jamaica Information Service",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Sample Tests Negative for Mosquito-borne Viral Illnesses - Jamaica Information Service"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPX1VaMU5DWWJHWnU0MGpaTVk1ZU4zV0hwNkRxakw2SEZVRVUyY3QwX29JM09VUW1qeUwxYXVCSmgzdUdwYm90WGdkRWRzVFIxTG41REJaVUxpbGJBYnllSzlMd2VlaGNLMWxaOGdmMFdTd19ja0ZJMVE0YW9pbGQyZEl3?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPX1VaMU5DWWJHWnU0MGpaTVk1ZU4zV0hwNkRxakw2SEZVRVUyY3QwX29JM09VUW1qeUwxYXVCSmgzdUdwYm90WGdkRWRzVFIxTG41REJaVUxpbGJBYnllSzlMd2VlaGNLMWxaOGdmMFdTd19ja0ZJMVE0YW9pbGQyZEl3?oc=5",
+      "id": "CBMiggFBVV95cUxPX1VaMU5DWWJHWnU0MGpaTVk1ZU4zV0hwNkRxakw2SEZVRVUyY3QwX29JM09VUW1qeUwxYXVCSmgzdUdwYm90WGdkRWRzVFIxTG41REJaVUxpbGJBYnllSzlMd2VlaGNLMWxaOGdmMFdTd19ja0ZJMVE0YW9pbGQyZEl3",
+      "guidislink": false,
+      "published": "Fri, 02 Oct 2015 07:00:00 GMT",
+      "published_parsed": [
+        2015,
+        10,
+        2,
+        7,
+        0,
+        0,
+        4,
+        275,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxPX1VaMU5DWWJHWnU0MGpaTVk1ZU4zV0hwNkRxakw2SEZVRVUyY3QwX29JM09VUW1qeUwxYXVCSmgzdUdwYm90WGdkRWRzVFIxTG41REJaVUxpbGJBYnllSzlMd2VlaGNLMWxaOGdmMFdTd19ja0ZJMVE0YW9pbGQyZEl3?oc=5\" target=\"_blank\">Sample Tests Negative for Mosquito-borne Viral Illnesses</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Jamaica Information Service</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxPX1VaMU5DWWJHWnU0MGpaTVk1ZU4zV0hwNkRxakw2SEZVRVUyY3QwX29JM09VUW1qeUwxYXVCSmgzdUdwYm90WGdkRWRzVFIxTG41REJaVUxpbGJBYnllSzlMd2VlaGNLMWxaOGdmMFdTd19ja0ZJMVE0YW9pbGQyZEl3?oc=5\" target=\"_blank\">Sample Tests Negative for Mosquito-borne Viral Illnesses</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Jamaica Information Service</font>"
+      },
+      "source": {
+        "href": "https://jis.gov.jm",
+        "title": "Jamaica Information Service"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Ex-Momofuku chef Ben Greeno talks his favourites - delicious.com.au",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Ex-Momofuku chef Ben Greeno talks his favourites - delicious.com.au"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPWlpRYVFXRFF6VVJyRzVyMkVzZ0QyeXI2REg4TVZwMXFzbTJnd01RR09XbXBCTTg4Q2Z3VDBJcDRvMFZVTlMyei1kaWt6S2RUaEJ0bDJISld2eTJwMUFOWXNtdTNIYjV4NjF1d2lKRF9LU3pqWXYyQlJRNEVzYmEzOXVQNElVUVllb0VqTThOVjBkTGI1S0RXazl0SDRzNFF1cmxTZ2Z2WHNkNXRyT2FtWGo1VjBnRTdlT3pMU09hbGJoZmlVcXFHRkMyUTg0RmhMZ0M1ZkYwNE1taU1IMzB4ckJOWWt5RVNqbXJqZC12SQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPWlpRYVFXRFF6VVJyRzVyMkVzZ0QyeXI2REg4TVZwMXFzbTJnd01RR09XbXBCTTg4Q2Z3VDBJcDRvMFZVTlMyei1kaWt6S2RUaEJ0bDJISld2eTJwMUFOWXNtdTNIYjV4NjF1d2lKRF9LU3pqWXYyQlJRNEVzYmEzOXVQNElVUVllb0VqTThOVjBkTGI1S0RXazl0SDRzNFF1cmxTZ2Z2WHNkNXRyT2FtWGo1VjBnRTdlT3pMU09hbGJoZmlVcXFHRkMyUTg0RmhMZ0M1ZkYwNE1taU1IMzB4ckJOWWt5RVNqbXJqZC12SQ?oc=5",
+      "id": "CBMi7wFBVV95cUxPWlpRYVFXRFF6VVJyRzVyMkVzZ0QyeXI2REg4TVZwMXFzbTJnd01RR09XbXBCTTg4Q2Z3VDBJcDRvMFZVTlMyei1kaWt6S2RUaEJ0bDJISld2eTJwMUFOWXNtdTNIYjV4NjF1d2lKRF9LU3pqWXYyQlJRNEVzYmEzOXVQNElVUVllb0VqTThOVjBkTGI1S0RXazl0SDRzNFF1cmxTZ2Z2WHNkNXRyT2FtWGo1VjBnRTdlT3pMU09hbGJoZmlVcXFHRkMyUTg0RmhMZ0M1ZkYwNE1taU1IMzB4ckJOWWt5RVNqbXJqZC12SQ",
+      "guidislink": false,
+      "published": "Sat, 03 Oct 2015 07:00:00 GMT",
+      "published_parsed": [
+        2015,
+        10,
+        3,
+        7,
+        0,
+        0,
+        5,
+        276,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi7wFBVV95cUxPWlpRYVFXRFF6VVJyRzVyMkVzZ0QyeXI2REg4TVZwMXFzbTJnd01RR09XbXBCTTg4Q2Z3VDBJcDRvMFZVTlMyei1kaWt6S2RUaEJ0bDJISld2eTJwMUFOWXNtdTNIYjV4NjF1d2lKRF9LU3pqWXYyQlJRNEVzYmEzOXVQNElVUVllb0VqTThOVjBkTGI1S0RXazl0SDRzNFF1cmxTZ2Z2WHNkNXRyT2FtWGo1VjBnRTdlT3pMU09hbGJoZmlVcXFHRkMyUTg0RmhMZ0M1ZkYwNE1taU1IMzB4ckJOWWt5RVNqbXJqZC12SQ?oc=5\" target=\"_blank\">Ex-Momofuku chef Ben Greeno talks his favourites</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">delicious.com.au</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi7wFBVV95cUxPWlpRYVFXRFF6VVJyRzVyMkVzZ0QyeXI2REg4TVZwMXFzbTJnd01RR09XbXBCTTg4Q2Z3VDBJcDRvMFZVTlMyei1kaWt6S2RUaEJ0bDJISld2eTJwMUFOWXNtdTNIYjV4NjF1d2lKRF9LU3pqWXYyQlJRNEVzYmEzOXVQNElVUVllb0VqTThOVjBkTGI1S0RXazl0SDRzNFF1cmxTZ2Z2WHNkNXRyT2FtWGo1VjBnRTdlT3pMU09hbGJoZmlVcXFHRkMyUTg0RmhMZ0M1ZkYwNE1taU1IMzB4ckJOWWt5RVNqbXJqZC12SQ?oc=5\" target=\"_blank\">Ex-Momofuku chef Ben Greeno talks his favourites</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">delicious.com.au</font>"
+      },
+      "source": {
+        "href": "https://www.delicious.com.au",
+        "title": "delicious.com.au"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Sam Allardyce has moved up in the world... from a Portakabin office at West Ham to Sunderland's state-of-the-art training centre - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Sam Allardyce has moved up in the world... from a Portakabin office at West Ham to Sunderland's state-of-the-art training centre - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNTlZkR3FjMFFCNnI1Z1RuNUQxSkUxeV9NZTdxMGgzMVdlWkdyd3BMNTR4TmY2WGxETE9BNXlsdkZna3NrdXFlaHRMLVJrYU9jSEJWTGxRNk50eWJMN2FRUFFuM2Vub0tIdThLNWdZZGRpYURYZ2tab2RVY09wdjVJYjdxR3lhWGZHMVJLc3prajNSVDFDSFZma2Nrazl4WjhZT0ZHanBBQmhQeWdLM2N2V0xQTmhHSEF6UHl1V0Z2YlZsdXhSUXJ2d3BaVnJuaE9NRlRweTdxelNFazNKcl9zVHNpREJOZ1hDQjVQRjJ3d3HSAfABQVVfeXFMTU5WZEdxYzBRQjZyNWdUbjVEMUpFMXlfTWU3cTBoMzFXZVpHcndwTDU0eE5mNlhsRExPQTV5bHZGZ2tza3VxZWh0TC1Sa2FPY0hCVkxsUTZOdHliTDdhUVBRbjNlbm9LSHU4SzVnWWRkaWFEWGdrWm9kVWNPcHY1SWI3cUd5YVhmRzFSS3N6a2ozUlQxQ0hWZmtja2s5eFo4WU9GR2pwQUJoUHlnSzNjdldMUE5oR0hBelB5dVdGdmJWbHV4UlFydndwWlZybmhPTUZUcHk3cXpTRWszSnJfc1RzaURCTmdYQ0I1UEYyd3dx?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNTlZkR3FjMFFCNnI1Z1RuNUQxSkUxeV9NZTdxMGgzMVdlWkdyd3BMNTR4TmY2WGxETE9BNXlsdkZna3NrdXFlaHRMLVJrYU9jSEJWTGxRNk50eWJMN2FRUFFuM2Vub0tIdThLNWdZZGRpYURYZ2tab2RVY09wdjVJYjdxR3lhWGZHMVJLc3prajNSVDFDSFZma2Nrazl4WjhZT0ZHanBBQmhQeWdLM2N2V0xQTmhHSEF6UHl1V0Z2YlZsdXhSUXJ2d3BaVnJuaE9NRlRweTdxelNFazNKcl9zVHNpREJOZ1hDQjVQRjJ3d3HSAfABQVVfeXFMTU5WZEdxYzBRQjZyNWdUbjVEMUpFMXlfTWU3cTBoMzFXZVpHcndwTDU0eE5mNlhsRExPQTV5bHZGZ2tza3VxZWh0TC1Sa2FPY0hCVkxsUTZOdHliTDdhUVBRbjNlbm9LSHU4SzVnWWRkaWFEWGdrWm9kVWNPcHY1SWI3cUd5YVhmRzFSS3N6a2ozUlQxQ0hWZmtja2s5eFo4WU9GR2pwQUJoUHlnSzNjdldMUE5oR0hBelB5dVdGdmJWbHV4UlFydndwWlZybmhPTUZUcHk3cXpTRWszSnJfc1RzaURCTmdYQ0I1UEYyd3dx?oc=5",
+      "id": "CBMi8AFBVV95cUxNTlZkR3FjMFFCNnI1Z1RuNUQxSkUxeV9NZTdxMGgzMVdlWkdyd3BMNTR4TmY2WGxETE9BNXlsdkZna3NrdXFlaHRMLVJrYU9jSEJWTGxRNk50eWJMN2FRUFFuM2Vub0tIdThLNWdZZGRpYURYZ2tab2RVY09wdjVJYjdxR3lhWGZHMVJLc3prajNSVDFDSFZma2Nrazl4WjhZT0ZHanBBQmhQeWdLM2N2V0xQTmhHSEF6UHl1V0Z2YlZsdXhSUXJ2d3BaVnJuaE9NRlRweTdxelNFazNKcl9zVHNpREJOZ1hDQjVQRjJ3d3HSAfABQVVfeXFMTU5WZEdxYzBRQjZyNWdUbjVEMUpFMXlfTWU3cTBoMzFXZVpHcndwTDU0eE5mNlhsRExPQTV5bHZGZ2tza3VxZWh0TC1Sa2FPY0hCVkxsUTZOdHliTDdhUVBRbjNlbm9LSHU4SzVnWWRkaWFEWGdrWm9kVWNPcHY1SWI3cUd5YVhmRzFSS3N6a2ozUlQxQ0hWZmtja2s5eFo4WU9GR2pwQUJoUHlnSzNjdldMUE5oR0hBelB5dVdGdmJWbHV4UlFydndwWlZybmhPTUZUcHk3cXpTRWszSnJfc1RzaURCTmdYQ0I1UEYyd3dx",
+      "guidislink": false,
+      "published": "Tue, 13 Oct 2015 07:00:00 GMT",
+      "published_parsed": [
+        2015,
+        10,
+        13,
+        7,
+        0,
+        0,
+        1,
+        286,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi8AFBVV95cUxNTlZkR3FjMFFCNnI1Z1RuNUQxSkUxeV9NZTdxMGgzMVdlWkdyd3BMNTR4TmY2WGxETE9BNXlsdkZna3NrdXFlaHRMLVJrYU9jSEJWTGxRNk50eWJMN2FRUFFuM2Vub0tIdThLNWdZZGRpYURYZ2tab2RVY09wdjVJYjdxR3lhWGZHMVJLc3prajNSVDFDSFZma2Nrazl4WjhZT0ZHanBBQmhQeWdLM2N2V0xQTmhHSEF6UHl1V0Z2YlZsdXhSUXJ2d3BaVnJuaE9NRlRweTdxelNFazNKcl9zVHNpREJOZ1hDQjVQRjJ3d3HSAfABQVVfeXFMTU5WZEdxYzBRQjZyNWdUbjVEMUpFMXlfTWU3cTBoMzFXZVpHcndwTDU0eE5mNlhsRExPQTV5bHZGZ2tza3VxZWh0TC1Sa2FPY0hCVkxsUTZOdHliTDdhUVBRbjNlbm9LSHU4SzVnWWRkaWFEWGdrWm9kVWNPcHY1SWI3cUd5YVhmRzFSS3N6a2ozUlQxQ0hWZmtja2s5eFo4WU9GR2pwQUJoUHlnSzNjdldMUE5oR0hBelB5dVdGdmJWbHV4UlFydndwWlZybmhPTUZUcHk3cXpTRWszSnJfc1RzaURCTmdYQ0I1UEYyd3dx?oc=5\" target=\"_blank\">Sam Allardyce has moved up in the world... from a Portakabin office at West Ham to Sunderland's state-of-the-art training centre</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi8AFBVV95cUxNTlZkR3FjMFFCNnI1Z1RuNUQxSkUxeV9NZTdxMGgzMVdlWkdyd3BMNTR4TmY2WGxETE9BNXlsdkZna3NrdXFlaHRMLVJrYU9jSEJWTGxRNk50eWJMN2FRUFFuM2Vub0tIdThLNWdZZGRpYURYZ2tab2RVY09wdjVJYjdxR3lhWGZHMVJLc3prajNSVDFDSFZma2Nrazl4WjhZT0ZHanBBQmhQeWdLM2N2V0xQTmhHSEF6UHl1V0Z2YlZsdXhSUXJ2d3BaVnJuaE9NRlRweTdxelNFazNKcl9zVHNpREJOZ1hDQjVQRjJ3d3HSAfABQVVfeXFMTU5WZEdxYzBRQjZyNWdUbjVEMUpFMXlfTWU3cTBoMzFXZVpHcndwTDU0eE5mNlhsRExPQTV5bHZGZ2tza3VxZWh0TC1Sa2FPY0hCVkxsUTZOdHliTDdhUVBRbjNlbm9LSHU4SzVnWWRkaWFEWGdrWm9kVWNPcHY1SWI3cUd5YVhmRzFSS3N6a2ozUlQxQ0hWZmtja2s5eFo4WU9GR2pwQUJoUHlnSzNjdldMUE5oR0hBelB5dVdGdmJWbHV4UlFydndwWlZybmhPTUZUcHk3cXpTRWszSnJfc1RzaURCTmdYQ0I1UEYyd3dx?oc=5\" target=\"_blank\">Sam Allardyce has moved up in the world... from a Portakabin office at West Ham to Sunderland's state-of-the-art training centre</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Ana Teresa Fernández plans to render US-Mexico border fence 'invisible' - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Ana Teresa Fernández plans to render US-Mexico border fence 'invisible' - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPLVNNbU5BQlcxb25wQ1FRUnQ1WWtKejhGWGo3UVZ6TkJ5Q0xlREhTeG5FT293YVNUMGhlMXQ5STd0LXBSWHhLcVRsMHp0dm81VUR5U3ZZMk5tZ3NDV2w4UkpTM0hubDVJWFE5Vi1kc0lIYnVqQ1dVQ1Fvb1llSmpXbWR2RXJ0WDA4WXNrYmNwSi1RekZZWHZLbzl0UUtaRWphaVHSAaIBQVVfeXFMTy1TTW1OQUJXMW9ucENRUVJ0NVlrSno4RlhqN1FWek5CeUNMZURIU3huRU9vd2FTVDBoZTF0OUk3dC1wUlh4S3FUbDB6dHZvNVVEeVN2WTJObWdzQ1dsOFJKUzNIbmw1SVhROVYtZHNJSGJ1akNXVUNRb29ZZUpqV21kdkVydFgwOFlza2JjcEotUXpGWVh2S285dFFLWkVqYWlR?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPLVNNbU5BQlcxb25wQ1FRUnQ1WWtKejhGWGo3UVZ6TkJ5Q0xlREhTeG5FT293YVNUMGhlMXQ5STd0LXBSWHhLcVRsMHp0dm81VUR5U3ZZMk5tZ3NDV2w4UkpTM0hubDVJWFE5Vi1kc0lIYnVqQ1dVQ1Fvb1llSmpXbWR2RXJ0WDA4WXNrYmNwSi1RekZZWHZLbzl0UUtaRWphaVHSAaIBQVVfeXFMTy1TTW1OQUJXMW9ucENRUVJ0NVlrSno4RlhqN1FWek5CeUNMZURIU3huRU9vd2FTVDBoZTF0OUk3dC1wUlh4S3FUbDB6dHZvNVVEeVN2WTJObWdzQ1dsOFJKUzNIbmw1SVhROVYtZHNJSGJ1akNXVUNRb29ZZUpqV21kdkVydFgwOFlza2JjcEotUXpGWVh2S285dFFLWkVqYWlR?oc=5",
+      "id": "CBMiogFBVV95cUxPLVNNbU5BQlcxb25wQ1FRUnQ1WWtKejhGWGo3UVZ6TkJ5Q0xlREhTeG5FT293YVNUMGhlMXQ5STd0LXBSWHhLcVRsMHp0dm81VUR5U3ZZMk5tZ3NDV2w4UkpTM0hubDVJWFE5Vi1kc0lIYnVqQ1dVQ1Fvb1llSmpXbWR2RXJ0WDA4WXNrYmNwSi1RekZZWHZLbzl0UUtaRWphaVHSAaIBQVVfeXFMTy1TTW1OQUJXMW9ucENRUVJ0NVlrSno4RlhqN1FWek5CeUNMZURIU3huRU9vd2FTVDBoZTF0OUk3dC1wUlh4S3FUbDB6dHZvNVVEeVN2WTJObWdzQ1dsOFJKUzNIbmw1SVhROVYtZHNJSGJ1akNXVUNRb29ZZUpqV21kdkVydFgwOFlza2JjcEotUXpGWVh2S285dFFLWkVqYWlR",
+      "guidislink": false,
+      "published": "Wed, 14 Oct 2015 07:00:00 GMT",
+      "published_parsed": [
+        2015,
+        10,
+        14,
+        7,
+        0,
+        0,
+        2,
+        287,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxPLVNNbU5BQlcxb25wQ1FRUnQ1WWtKejhGWGo3UVZ6TkJ5Q0xlREhTeG5FT293YVNUMGhlMXQ5STd0LXBSWHhLcVRsMHp0dm81VUR5U3ZZMk5tZ3NDV2w4UkpTM0hubDVJWFE5Vi1kc0lIYnVqQ1dVQ1Fvb1llSmpXbWR2RXJ0WDA4WXNrYmNwSi1RekZZWHZLbzl0UUtaRWphaVHSAaIBQVVfeXFMTy1TTW1OQUJXMW9ucENRUVJ0NVlrSno4RlhqN1FWek5CeUNMZURIU3huRU9vd2FTVDBoZTF0OUk3dC1wUlh4S3FUbDB6dHZvNVVEeVN2WTJObWdzQ1dsOFJKUzNIbmw1SVhROVYtZHNJSGJ1akNXVUNRb29ZZUpqV21kdkVydFgwOFlza2JjcEotUXpGWVh2S285dFFLWkVqYWlR?oc=5\" target=\"_blank\">Ana Teresa Fernández plans to render US-Mexico border fence 'invisible'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxPLVNNbU5BQlcxb25wQ1FRUnQ1WWtKejhGWGo3UVZ6TkJ5Q0xlREhTeG5FT293YVNUMGhlMXQ5STd0LXBSWHhLcVRsMHp0dm81VUR5U3ZZMk5tZ3NDV2w4UkpTM0hubDVJWFE5Vi1kc0lIYnVqQ1dVQ1Fvb1llSmpXbWR2RXJ0WDA4WXNrYmNwSi1RekZZWHZLbzl0UUtaRWphaVHSAaIBQVVfeXFMTy1TTW1OQUJXMW9ucENRUVJ0NVlrSno4RlhqN1FWek5CeUNMZURIU3huRU9vd2FTVDBoZTF0OUk3dC1wUlh4S3FUbDB6dHZvNVVEeVN2WTJObWdzQ1dsOFJKUzNIbmw1SVhROVYtZHNJSGJ1akNXVUNRb29ZZUpqV21kdkVydFgwOFlza2JjcEotUXpGWVh2S285dFFLWkVqYWlR?oc=5\" target=\"_blank\">Ana Teresa Fernández plans to render US-Mexico border fence 'invisible'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    }
+  ]
+}

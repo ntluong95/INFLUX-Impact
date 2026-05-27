@@ -1,0 +1,263 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2015-03-20",
+  "window_end": "2015-04-02",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2015-03-20+before%3A2015-04-03&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2015-03-20+before:2015-04-03&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:19:46Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2015-03-20 before:2015-04-03\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2015-03-20 before:2015-04-03\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2015-03-20+before:2015-04-03&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2015-03-20+before:2015-04-03&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:19:47 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      19,
+      47,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Editorial cartoons: Federal budget - Statesman Journal",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Editorial cartoons: Federal budget - Statesman Journal"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQThJeWttc2VSNnFRaV92S05EeXdDQWg2dnhnMkZZNVhhcVJBZV9MMUFrTllLOHVkMngxV0JZY3dCX3l0WW11RWlkWnRCLXlfcFNfak1VS18wTnRRUFpZczNTcExsU0V6U1lhLVhtVjFwdzdZd2pVcUJ0Rl9EOUhqU2lhYWVtNUh4Z2xXUkJBcDBJYmxHN0pIbVZoc19pRmFrcUtkRXRSN2M5bFFrOHRhcQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQThJeWttc2VSNnFRaV92S05EeXdDQWg2dnhnMkZZNVhhcVJBZV9MMUFrTllLOHVkMngxV0JZY3dCX3l0WW11RWlkWnRCLXlfcFNfak1VS18wTnRRUFpZczNTcExsU0V6U1lhLVhtVjFwdzdZd2pVcUJ0Rl9EOUhqU2lhYWVtNUh4Z2xXUkJBcDBJYmxHN0pIbVZoc19pRmFrcUtkRXRSN2M5bFFrOHRhcQ?oc=5",
+      "id": "CBMisAFBVV95cUxPQThJeWttc2VSNnFRaV92S05EeXdDQWg2dnhnMkZZNVhhcVJBZV9MMUFrTllLOHVkMngxV0JZY3dCX3l0WW11RWlkWnRCLXlfcFNfak1VS18wTnRRUFpZczNTcExsU0V6U1lhLVhtVjFwdzdZd2pVcUJ0Rl9EOUhqU2lhYWVtNUh4Z2xXUkJBcDBJYmxHN0pIbVZoc19pRmFrcUtkRXRSN2M5bFFrOHRhcQ",
+      "guidislink": false,
+      "published": "Mon, 30 Mar 2015 07:00:00 GMT",
+      "published_parsed": [
+        2015,
+        3,
+        30,
+        7,
+        0,
+        0,
+        0,
+        89,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPQThJeWttc2VSNnFRaV92S05EeXdDQWg2dnhnMkZZNVhhcVJBZV9MMUFrTllLOHVkMngxV0JZY3dCX3l0WW11RWlkWnRCLXlfcFNfak1VS18wTnRRUFpZczNTcExsU0V6U1lhLVhtVjFwdzdZd2pVcUJ0Rl9EOUhqU2lhYWVtNUh4Z2xXUkJBcDBJYmxHN0pIbVZoc19pRmFrcUtkRXRSN2M5bFFrOHRhcQ?oc=5\" target=\"_blank\">Editorial cartoons: Federal budget</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Statesman Journal</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPQThJeWttc2VSNnFRaV92S05EeXdDQWg2dnhnMkZZNVhhcVJBZV9MMUFrTllLOHVkMngxV0JZY3dCX3l0WW11RWlkWnRCLXlfcFNfak1VS18wTnRRUFpZczNTcExsU0V6U1lhLVhtVjFwdzdZd2pVcUJ0Rl9EOUhqU2lhYWVtNUh4Z2xXUkJBcDBJYmxHN0pIbVZoc19pRmFrcUtkRXRSN2M5bFFrOHRhcQ?oc=5\" target=\"_blank\">Editorial cartoons: Federal budget</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Statesman Journal</font>"
+      },
+      "source": {
+        "href": "https://www.statesmanjournal.com",
+        "title": "Statesman Journal"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "2014 Ebola Outbreak Deadliest in History - NBC News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "2014 Ebola Outbreak Deadliest in History - NBC News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTUo0ZGlyTnhJcVQ4dWt2cWIzekZRZGZJZ3pFU3M3elFPMXZPcTRBQXM5Q2Juenljd01YYUlGcEsyc2ZFSEVsWHhwZmEtdXlpRGhKVXdjMm56RlYwSkp2YVlCc1JiSkx5YXNkS0kyNU4xYnQzV05nTm9rQmVNdDlHdmE3WFVIWVZHR3hv?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTUo0ZGlyTnhJcVQ4dWt2cWIzekZRZGZJZ3pFU3M3elFPMXZPcTRBQXM5Q2Juenljd01YYUlGcEsyc2ZFSEVsWHhwZmEtdXlpRGhKVXdjMm56RlYwSkp2YVlCc1JiSkx5YXNkS0kyNU4xYnQzV05nTm9rQmVNdDlHdmE3WFVIWVZHR3hv?oc=5",
+      "id": "CBMiiwFBVV95cUxOTUo0ZGlyTnhJcVQ4dWt2cWIzekZRZGZJZ3pFU3M3elFPMXZPcTRBQXM5Q2Juenljd01YYUlGcEsyc2ZFSEVsWHhwZmEtdXlpRGhKVXdjMm56RlYwSkp2YVlCc1JiSkx5YXNkS0kyNU4xYnQzV05nTm9rQmVNdDlHdmE3WFVIWVZHR3hv",
+      "guidislink": false,
+      "published": "Mon, 23 Mar 2015 07:00:00 GMT",
+      "published_parsed": [
+        2015,
+        3,
+        23,
+        7,
+        0,
+        0,
+        0,
+        82,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTUo0ZGlyTnhJcVQ4dWt2cWIzekZRZGZJZ3pFU3M3elFPMXZPcTRBQXM5Q2Juenljd01YYUlGcEsyc2ZFSEVsWHhwZmEtdXlpRGhKVXdjMm56RlYwSkp2YVlCc1JiSkx5YXNkS0kyNU4xYnQzV05nTm9rQmVNdDlHdmE3WFVIWVZHR3hv?oc=5\" target=\"_blank\">2014 Ebola Outbreak Deadliest in History</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NBC News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTUo0ZGlyTnhJcVQ4dWt2cWIzekZRZGZJZ3pFU3M3elFPMXZPcTRBQXM5Q2Juenljd01YYUlGcEsyc2ZFSEVsWHhwZmEtdXlpRGhKVXdjMm56RlYwSkp2YVlCc1JiSkx5YXNkS0kyNU4xYnQzV05nTm9rQmVNdDlHdmE3WFVIWVZHR3hv?oc=5\" target=\"_blank\">2014 Ebola Outbreak Deadliest in History</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NBC News</font>"
+      },
+      "source": {
+        "href": "https://www.nbcnews.com",
+        "title": "NBC News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Impaled by pole, Cedar Rapids woman finds her way home - The Des Moines Register",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Impaled by pole, Cedar Rapids woman finds her way home - The Des Moines Register"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNkVsdGlldVBjdUpVNGtHSXl5M3YxVjlzdW1TMEpUNzlvQXY2eXljWHdXM01GWlllUV9BeElQdXBpeE5RNk40QVlVelJfUE41dlZ2REg0Vk1VZXhvcmRyeGJHV0k2NDFGYkJEdkp3azhvbEx2VU16RkZwVnNoUnJ2aUhueXo0N25hU0tJNlhfN2pzMlRIMG83RTV4VS0?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNkVsdGlldVBjdUpVNGtHSXl5M3YxVjlzdW1TMEpUNzlvQXY2eXljWHdXM01GWlllUV9BeElQdXBpeE5RNk40QVlVelJfUE41dlZ2REg0Vk1VZXhvcmRyeGJHV0k2NDFGYkJEdkp3azhvbEx2VU16RkZwVnNoUnJ2aUhueXo0N25hU0tJNlhfN2pzMlRIMG83RTV4VS0?oc=5",
+      "id": "CBMinAFBVV95cUxNNkVsdGlldVBjdUpVNGtHSXl5M3YxVjlzdW1TMEpUNzlvQXY2eXljWHdXM01GWlllUV9BeElQdXBpeE5RNk40QVlVelJfUE41dlZ2REg0Vk1VZXhvcmRyeGJHV0k2NDFGYkJEdkp3azhvbEx2VU16RkZwVnNoUnJ2aUhueXo0N25hU0tJNlhfN2pzMlRIMG83RTV4VS0",
+      "guidislink": false,
+      "published": "Fri, 03 Apr 2015 07:00:00 GMT",
+      "published_parsed": [
+        2015,
+        4,
+        3,
+        7,
+        0,
+        0,
+        4,
+        93,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxNNkVsdGlldVBjdUpVNGtHSXl5M3YxVjlzdW1TMEpUNzlvQXY2eXljWHdXM01GWlllUV9BeElQdXBpeE5RNk40QVlVelJfUE41dlZ2REg0Vk1VZXhvcmRyeGJHV0k2NDFGYkJEdkp3azhvbEx2VU16RkZwVnNoUnJ2aUhueXo0N25hU0tJNlhfN2pzMlRIMG83RTV4VS0?oc=5\" target=\"_blank\">Impaled by pole, Cedar Rapids woman finds her way home</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Des Moines Register</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxNNkVsdGlldVBjdUpVNGtHSXl5M3YxVjlzdW1TMEpUNzlvQXY2eXljWHdXM01GWlllUV9BeElQdXBpeE5RNk40QVlVelJfUE41dlZ2REg0Vk1VZXhvcmRyeGJHV0k2NDFGYkJEdkp3azhvbEx2VU16RkZwVnNoUnJ2aUhueXo0N25hU0tJNlhfN2pzMlRIMG83RTV4VS0?oc=5\" target=\"_blank\">Impaled by pole, Cedar Rapids woman finds her way home</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Des Moines Register</font>"
+      },
+      "source": {
+        "href": "https://www.desmoinesregister.com",
+        "title": "The Des Moines Register"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Manchester United planning £100m spending spree as Louis van Gaal targets Mats Hummels, Paul Pogba and Dani Alves - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Manchester United planning £100m spending spree as Louis van Gaal targets Mats Hummels, Paul Pogba and Dani Alves - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNdVVKM05tTFpZeFN2dENtTFhaN3pVdWx5SGVlRnBEVVdYSmJvcEIzQk1uSFJKaWNLSnNjSkExNmJOUFZDNEZmLURiQms2YlBaWU92WURJWVZHYWl5VDRrQk1rdlJYak94YXN0cjRqc0pkeERkUS1UcmlHS3hzeWpyZHkzZTBGclpnbW1ILTNLOXBrZUtTaGxvMDhkOFZiOHpzcC1QU3hlSS1ETmpWTFJFYno2aXZSRGhMbG8zYUhqUTBGOV9ES0lxWUt3cjlXRzlDZVJvRzZTUGFSNFhadHFBMC0yd1Nnal85TnJkcmh6YkJpSnNiaEd2Y2x2cUloTjU1RlHSAYICQVVfeXFMTXVVSjNObUxaWXhTdnRDbUxYWjd6VXVseUhlZUZwRFVXWEpib3BCM0JNbkhSSmljS0pzY0pBMTZiTlBWQzRGZi1EYkJrNmJQWllPdllESVlWR2FpeVQ0a0JNa3ZSWGpPeGFzdHI0anNKZHhEZFEtVHJpR0t4c3lqcmR5M2UwRnJaZ21tSC0zSzlwa2VLU2hsbzA4ZDhWYjh6c3AtUFN4ZUktRE5qVkxSRWJ6Nml2UkRoTGxvM2FIalEwRjlfREtJcVlLd3I5V0c5Q2VSb0c2U1BhUjRYWnRxQTAtMndTZ2pfOU5yZHJoemJCaUpzYmhHdmNsdnFJaE41NUZR?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNdVVKM05tTFpZeFN2dENtTFhaN3pVdWx5SGVlRnBEVVdYSmJvcEIzQk1uSFJKaWNLSnNjSkExNmJOUFZDNEZmLURiQms2YlBaWU92WURJWVZHYWl5VDRrQk1rdlJYak94YXN0cjRqc0pkeERkUS1UcmlHS3hzeWpyZHkzZTBGclpnbW1ILTNLOXBrZUtTaGxvMDhkOFZiOHpzcC1QU3hlSS1ETmpWTFJFYno2aXZSRGhMbG8zYUhqUTBGOV9ES0lxWUt3cjlXRzlDZVJvRzZTUGFSNFhadHFBMC0yd1Nnal85TnJkcmh6YkJpSnNiaEd2Y2x2cUloTjU1RlHSAYICQVVfeXFMTXVVSjNObUxaWXhTdnRDbUxYWjd6VXVseUhlZUZwRFVXWEpib3BCM0JNbkhSSmljS0pzY0pBMTZiTlBWQzRGZi1EYkJrNmJQWllPdllESVlWR2FpeVQ0a0JNa3ZSWGpPeGFzdHI0anNKZHhEZFEtVHJpR0t4c3lqcmR5M2UwRnJaZ21tSC0zSzlwa2VLU2hsbzA4ZDhWYjh6c3AtUFN4ZUktRE5qVkxSRWJ6Nml2UkRoTGxvM2FIalEwRjlfREtJcVlLd3I5V0c5Q2VSb0c2U1BhUjRYWnRxQTAtMndTZ2pfOU5yZHJoemJCaUpzYmhHdmNsdnFJaE41NUZR?oc=5",
+      "id": "CBMiggJBVV95cUxNdVVKM05tTFpZeFN2dENtTFhaN3pVdWx5SGVlRnBEVVdYSmJvcEIzQk1uSFJKaWNLSnNjSkExNmJOUFZDNEZmLURiQms2YlBaWU92WURJWVZHYWl5VDRrQk1rdlJYak94YXN0cjRqc0pkeERkUS1UcmlHS3hzeWpyZHkzZTBGclpnbW1ILTNLOXBrZUtTaGxvMDhkOFZiOHpzcC1QU3hlSS1ETmpWTFJFYno2aXZSRGhMbG8zYUhqUTBGOV9ES0lxWUt3cjlXRzlDZVJvRzZTUGFSNFhadHFBMC0yd1Nnal85TnJkcmh6YkJpSnNiaEd2Y2x2cUloTjU1RlHSAYICQVVfeXFMTXVVSjNObUxaWXhTdnRDbUxYWjd6VXVseUhlZUZwRFVXWEpib3BCM0JNbkhSSmljS0pzY0pBMTZiTlBWQzRGZi1EYkJrNmJQWllPdllESVlWR2FpeVQ0a0JNa3ZSWGpPeGFzdHI0anNKZHhEZFEtVHJpR0t4c3lqcmR5M2UwRnJaZ21tSC0zSzlwa2VLU2hsbzA4ZDhWYjh6c3AtUFN4ZUktRE5qVkxSRWJ6Nml2UkRoTGxvM2FIalEwRjlfREtJcVlLd3I5V0c5Q2VSb0c2U1BhUjRYWnRxQTAtMndTZ2pfOU5yZHJoemJCaUpzYmhHdmNsdnFJaE41NUZR",
+      "guidislink": false,
+      "published": "Thu, 26 Mar 2015 07:00:00 GMT",
+      "published_parsed": [
+        2015,
+        3,
+        26,
+        7,
+        0,
+        0,
+        3,
+        85,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggJBVV95cUxNdVVKM05tTFpZeFN2dENtTFhaN3pVdWx5SGVlRnBEVVdYSmJvcEIzQk1uSFJKaWNLSnNjSkExNmJOUFZDNEZmLURiQms2YlBaWU92WURJWVZHYWl5VDRrQk1rdlJYak94YXN0cjRqc0pkeERkUS1UcmlHS3hzeWpyZHkzZTBGclpnbW1ILTNLOXBrZUtTaGxvMDhkOFZiOHpzcC1QU3hlSS1ETmpWTFJFYno2aXZSRGhMbG8zYUhqUTBGOV9ES0lxWUt3cjlXRzlDZVJvRzZTUGFSNFhadHFBMC0yd1Nnal85TnJkcmh6YkJpSnNiaEd2Y2x2cUloTjU1RlHSAYICQVVfeXFMTXVVSjNObUxaWXhTdnRDbUxYWjd6VXVseUhlZUZwRFVXWEpib3BCM0JNbkhSSmljS0pzY0pBMTZiTlBWQzRGZi1EYkJrNmJQWllPdllESVlWR2FpeVQ0a0JNa3ZSWGpPeGFzdHI0anNKZHhEZFEtVHJpR0t4c3lqcmR5M2UwRnJaZ21tSC0zSzlwa2VLU2hsbzA4ZDhWYjh6c3AtUFN4ZUktRE5qVkxSRWJ6Nml2UkRoTGxvM2FIalEwRjlfREtJcVlLd3I5V0c5Q2VSb0c2U1BhUjRYWnRxQTAtMndTZ2pfOU5yZHJoemJCaUpzYmhHdmNsdnFJaE41NUZR?oc=5\" target=\"_blank\">Manchester United planning £100m spending spree as Louis van Gaal targets Mats Hummels, Paul Pogba and Dani Alves</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiggJBVV95cUxNdVVKM05tTFpZeFN2dENtTFhaN3pVdWx5SGVlRnBEVVdYSmJvcEIzQk1uSFJKaWNLSnNjSkExNmJOUFZDNEZmLURiQms2YlBaWU92WURJWVZHYWl5VDRrQk1rdlJYak94YXN0cjRqc0pkeERkUS1UcmlHS3hzeWpyZHkzZTBGclpnbW1ILTNLOXBrZUtTaGxvMDhkOFZiOHpzcC1QU3hlSS1ETmpWTFJFYno2aXZSRGhMbG8zYUhqUTBGOV9ES0lxWUt3cjlXRzlDZVJvRzZTUGFSNFhadHFBMC0yd1Nnal85TnJkcmh6YkJpSnNiaEd2Y2x2cUloTjU1RlHSAYICQVVfeXFMTXVVSjNObUxaWXhTdnRDbUxYWjd6VXVseUhlZUZwRFVXWEpib3BCM0JNbkhSSmljS0pzY0pBMTZiTlBWQzRGZi1EYkJrNmJQWllPdllESVlWR2FpeVQ0a0JNa3ZSWGpPeGFzdHI0anNKZHhEZFEtVHJpR0t4c3lqcmR5M2UwRnJaZ21tSC0zSzlwa2VLU2hsbzA4ZDhWYjh6c3AtUFN4ZUktRE5qVkxSRWJ6Nml2UkRoTGxvM2FIalEwRjlfREtJcVlLd3I5V0c5Q2VSb0c2U1BhUjRYWnRxQTAtMndTZ2pfOU5yZHJoemJCaUpzYmhHdmNsdnFJaE41NUZR?oc=5\" target=\"_blank\">Manchester United planning £100m spending spree as Louis van Gaal targets Mats Hummels, Paul Pogba and Dani Alves</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    }
+  ]
+}

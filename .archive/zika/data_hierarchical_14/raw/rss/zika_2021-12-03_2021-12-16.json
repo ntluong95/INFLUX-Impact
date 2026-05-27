@@ -1,0 +1,779 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2021-12-03",
+  "window_end": "2021-12-16",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2021-12-03+before%3A2021-12-17&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2021-12-03+before:2021-12-17&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:28:56Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2021-12-03 before:2021-12-17\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2021-12-03 before:2021-12-17\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2021-12-03+before:2021-12-17&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2021-12-03+before:2021-12-17&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:28:56 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      28,
+      56,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Single dose of chimeric dengue-2/Zika vaccine candidate protects mice and non-human primates against Zika virus - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Single dose of chimeric dengue-2/Zika vaccine candidate protects mice and non-human primates against Zika virus - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE55Z3FSNk1vNVNncFpTN2FqZllIblVHRnlDOGs4NVNFXzZFQkVLRmtZVTl6eTRzWUgzZVdQQWJLT1pYcElpZEF6eFlTSnZkVmNxNzNPai1MdEZQMGJmZ2hB?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE55Z3FSNk1vNVNncFpTN2FqZllIblVHRnlDOGs4NVNFXzZFQkVLRmtZVTl6eTRzWUgzZVdQQWJLT1pYcElpZEF6eFlTSnZkVmNxNzNPai1MdEZQMGJmZ2hB?oc=5",
+      "id": "CBMiX0FVX3lxTE55Z3FSNk1vNVNncFpTN2FqZllIblVHRnlDOGs4NVNFXzZFQkVLRmtZVTl6eTRzWUgzZVdQQWJLT1pYcElpZEF6eFlTSnZkVmNxNzNPai1MdEZQMGJmZ2hB",
+      "guidislink": false,
+      "published": "Thu, 16 Dec 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        12,
+        16,
+        8,
+        0,
+        0,
+        3,
+        350,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE55Z3FSNk1vNVNncFpTN2FqZllIblVHRnlDOGs4NVNFXzZFQkVLRmtZVTl6eTRzWUgzZVdQQWJLT1pYcElpZEF6eFlTSnZkVmNxNzNPai1MdEZQMGJmZ2hB?oc=5\" target=\"_blank\">Single dose of chimeric dengue-2/Zika vaccine candidate protects mice and non-human primates against Zika virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE55Z3FSNk1vNVNncFpTN2FqZllIblVHRnlDOGs4NVNFXzZFQkVLRmtZVTl6eTRzWUgzZVdQQWJLT1pYcElpZEF6eFlTSnZkVmNxNzNPai1MdEZQMGJmZ2hB?oc=5\" target=\"_blank\">Single dose of chimeric dengue-2/Zika vaccine candidate protects mice and non-human primates against Zika virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Q&A: Ken Zika discusses ‘angel’ investing, touts solar development firm for nonprofits - WCBU Peoria",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Q&A: Ken Zika discusses ‘angel’ investing, touts solar development firm for nonprofits - WCBU Peoria"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOYWl0bGZfV1BBX3RsWDYzb1RZMmxTQzlGaHhXcUJEVVEtRmkxZlZ4bGR4NThyUjA0cFJ3YndULUlObGE1NnZJei16MDZZcnVoVENyN3pReWpYTTgwc2VhRUlKcElIckVfWGZ5Wk9MVUQ4MG1ULVp6SnVhQzFBWVhzYktHckU5dE41QTRDbjlFek1Sa1BPeFg5dDFaOUtveE5WSVI5MFN1SzQtMkRzLTdkX2xtNDNqclNOMFZtMEVaWXI1eEk?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOYWl0bGZfV1BBX3RsWDYzb1RZMmxTQzlGaHhXcUJEVVEtRmkxZlZ4bGR4NThyUjA0cFJ3YndULUlObGE1NnZJei16MDZZcnVoVENyN3pReWpYTTgwc2VhRUlKcElIckVfWGZ5Wk9MVUQ4MG1ULVp6SnVhQzFBWVhzYktHckU5dE41QTRDbjlFek1Sa1BPeFg5dDFaOUtveE5WSVI5MFN1SzQtMkRzLTdkX2xtNDNqclNOMFZtMEVaWXI1eEk?oc=5",
+      "id": "CBMiwwFBVV95cUxOYWl0bGZfV1BBX3RsWDYzb1RZMmxTQzlGaHhXcUJEVVEtRmkxZlZ4bGR4NThyUjA0cFJ3YndULUlObGE1NnZJei16MDZZcnVoVENyN3pReWpYTTgwc2VhRUlKcElIckVfWGZ5Wk9MVUQ4MG1ULVp6SnVhQzFBWVhzYktHckU5dE41QTRDbjlFek1Sa1BPeFg5dDFaOUtveE5WSVI5MFN1SzQtMkRzLTdkX2xtNDNqclNOMFZtMEVaWXI1eEk",
+      "guidislink": false,
+      "published": "Mon, 06 Dec 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        12,
+        6,
+        8,
+        0,
+        0,
+        0,
+        340,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxOYWl0bGZfV1BBX3RsWDYzb1RZMmxTQzlGaHhXcUJEVVEtRmkxZlZ4bGR4NThyUjA0cFJ3YndULUlObGE1NnZJei16MDZZcnVoVENyN3pReWpYTTgwc2VhRUlKcElIckVfWGZ5Wk9MVUQ4MG1ULVp6SnVhQzFBWVhzYktHckU5dE41QTRDbjlFek1Sa1BPeFg5dDFaOUtveE5WSVI5MFN1SzQtMkRzLTdkX2xtNDNqclNOMFZtMEVaWXI1eEk?oc=5\" target=\"_blank\">Q&amp;A: Ken Zika discusses ‘angel’ investing, touts solar development firm for nonprofits</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WCBU Peoria</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxOYWl0bGZfV1BBX3RsWDYzb1RZMmxTQzlGaHhXcUJEVVEtRmkxZlZ4bGR4NThyUjA0cFJ3YndULUlObGE1NnZJei16MDZZcnVoVENyN3pReWpYTTgwc2VhRUlKcElIckVfWGZ5Wk9MVUQ4MG1ULVp6SnVhQzFBWVhzYktHckU5dE41QTRDbjlFek1Sa1BPeFg5dDFaOUtveE5WSVI5MFN1SzQtMkRzLTdkX2xtNDNqclNOMFZtMEVaWXI1eEk?oc=5\" target=\"_blank\">Q&amp;A: Ken Zika discusses ‘angel’ investing, touts solar development firm for nonprofits</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WCBU Peoria</font>"
+      },
+      "source": {
+        "href": "https://www.wcbu.org",
+        "title": "WCBU Peoria"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "High resolution proteomics of Aedes aegypti salivary glands infected with either dengue, Zika or chikungunya viruses identify new virus specific and broad antiviral factors - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "High resolution proteomics of Aedes aegypti salivary glands infected with either dengue, Zika or chikungunya viruses identify new virus specific and broad antiviral factors - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB4X2ZHRldnQl8xcDB0aUFVaHJ4TWRjTF8xaWlFYW5rWElhM0NQR3RWN3RmQ0xxUDEyd2tKdVJBQ0VydmlQMzVZODNMV09JTmhrc0IwMl9LUm5OZUR0SGc4?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB4X2ZHRldnQl8xcDB0aUFVaHJ4TWRjTF8xaWlFYW5rWElhM0NQR3RWN3RmQ0xxUDEyd2tKdVJBQ0VydmlQMzVZODNMV09JTmhrc0IwMl9LUm5OZUR0SGc4?oc=5",
+      "id": "CBMiX0FVX3lxTFB4X2ZHRldnQl8xcDB0aUFVaHJ4TWRjTF8xaWlFYW5rWElhM0NQR3RWN3RmQ0xxUDEyd2tKdVJBQ0VydmlQMzVZODNMV09JTmhrc0IwMl9LUm5OZUR0SGc4",
+      "guidislink": false,
+      "published": "Wed, 08 Dec 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        12,
+        8,
+        8,
+        0,
+        0,
+        2,
+        342,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFB4X2ZHRldnQl8xcDB0aUFVaHJ4TWRjTF8xaWlFYW5rWElhM0NQR3RWN3RmQ0xxUDEyd2tKdVJBQ0VydmlQMzVZODNMV09JTmhrc0IwMl9LUm5OZUR0SGc4?oc=5\" target=\"_blank\">High resolution proteomics of Aedes aegypti salivary glands infected with either dengue, Zika or chikungunya viruses identify new virus specific and broad antiviral factors</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFB4X2ZHRldnQl8xcDB0aUFVaHJ4TWRjTF8xaWlFYW5rWElhM0NQR3RWN3RmQ0xxUDEyd2tKdVJBQ0VydmlQMzVZODNMV09JTmhrc0IwMl9LUm5OZUR0SGc4?oc=5\" target=\"_blank\">High resolution proteomics of Aedes aegypti salivary glands infected with either dengue, Zika or chikungunya viruses identify new virus specific and broad antiviral factors</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Carolyn Coyne, PhD: Exploring How Viruses Evade the Placental Barrier - Duke School of Medicine",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Carolyn Coyne, PhD: Exploring How Viruses Evade the Placental Barrier - Duke School of Medicine"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQTRhVzgwcG1yRzFZWnBCTVdUVzhPd2JPOUI3Z0IwaTEzRGN0c3M1emVmOXc4Z25jNzg2bGsyd1RheTNfSWxZRTA3eWFzZldFMXVpZ3M1eG5hQnFBNmc0d3FYWVhvSEFGWHF5RFM4dkpGdk41N2wxUkN5YXBpendiblhPT01KcjY2LWJhbzVwU1drcHF5aXFXdTVXVQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQTRhVzgwcG1yRzFZWnBCTVdUVzhPd2JPOUI3Z0IwaTEzRGN0c3M1emVmOXc4Z25jNzg2bGsyd1RheTNfSWxZRTA3eWFzZldFMXVpZ3M1eG5hQnFBNmc0d3FYWVhvSEFGWHF5RFM4dkpGdk41N2wxUkN5YXBpendiblhPT01KcjY2LWJhbzVwU1drcHF5aXFXdTVXVQ?oc=5",
+      "id": "CBMimwFBVV95cUxQQTRhVzgwcG1yRzFZWnBCTVdUVzhPd2JPOUI3Z0IwaTEzRGN0c3M1emVmOXc4Z25jNzg2bGsyd1RheTNfSWxZRTA3eWFzZldFMXVpZ3M1eG5hQnFBNmc0d3FYWVhvSEFGWHF5RFM4dkpGdk41N2wxUkN5YXBpendiblhPT01KcjY2LWJhbzVwU1drcHF5aXFXdTVXVQ",
+      "guidislink": false,
+      "published": "Wed, 08 Dec 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        12,
+        8,
+        8,
+        0,
+        0,
+        2,
+        342,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxQQTRhVzgwcG1yRzFZWnBCTVdUVzhPd2JPOUI3Z0IwaTEzRGN0c3M1emVmOXc4Z25jNzg2bGsyd1RheTNfSWxZRTA3eWFzZldFMXVpZ3M1eG5hQnFBNmc0d3FYWVhvSEFGWHF5RFM4dkpGdk41N2wxUkN5YXBpendiblhPT01KcjY2LWJhbzVwU1drcHF5aXFXdTVXVQ?oc=5\" target=\"_blank\">Carolyn Coyne, PhD: Exploring How Viruses Evade the Placental Barrier</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Duke School of Medicine</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxQQTRhVzgwcG1yRzFZWnBCTVdUVzhPd2JPOUI3Z0IwaTEzRGN0c3M1emVmOXc4Z25jNzg2bGsyd1RheTNfSWxZRTA3eWFzZldFMXVpZ3M1eG5hQnFBNmc0d3FYWVhvSEFGWHF5RFM4dkpGdk41N2wxUkN5YXBpendiblhPT01KcjY2LWJhbzVwU1drcHF5aXFXdTVXVQ?oc=5\" target=\"_blank\">Carolyn Coyne, PhD: Exploring How Viruses Evade the Placental Barrier</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Duke School of Medicine</font>"
+      },
+      "source": {
+        "href": "https://medschool.duke.edu",
+        "title": "Duke School of Medicine"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Singapore explores link between Zika virus infection and birth defects - BioSpectrum Asia",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Singapore explores link between Zika virus infection and birth defects - BioSpectrum Asia"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOV3RhT2oydTVjZVcyWHY2SzA5S2xRNW9EaFB5bzRoYVU4NC02T2pxRHR0NVpORG9xLVhtbFRXcVFybUR3MGR5OWJNaWNIeG1lMW5XcU94OENIeDdwWUo4NUIxTWlxQ0ZIZ2YxWFFzRFB2dTdIR1c0N3FHNjFZUjZZaWVFeWJISGN6TDFfZDZPWjRoNDR3UHlnQ1BzX1VrYmwwc3J5dHRFNkNYbGJzT21QWmxTRHFhY1U5WWhZZ1Rn?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOV3RhT2oydTVjZVcyWHY2SzA5S2xRNW9EaFB5bzRoYVU4NC02T2pxRHR0NVpORG9xLVhtbFRXcVFybUR3MGR5OWJNaWNIeG1lMW5XcU94OENIeDdwWUo4NUIxTWlxQ0ZIZ2YxWFFzRFB2dTdIR1c0N3FHNjFZUjZZaWVFeWJISGN6TDFfZDZPWjRoNDR3UHlnQ1BzX1VrYmwwc3J5dHRFNkNYbGJzT21QWmxTRHFhY1U5WWhZZ1Rn?oc=5",
+      "id": "CBMivgFBVV95cUxOV3RhT2oydTVjZVcyWHY2SzA5S2xRNW9EaFB5bzRoYVU4NC02T2pxRHR0NVpORG9xLVhtbFRXcVFybUR3MGR5OWJNaWNIeG1lMW5XcU94OENIeDdwWUo4NUIxTWlxQ0ZIZ2YxWFFzRFB2dTdIR1c0N3FHNjFZUjZZaWVFeWJISGN6TDFfZDZPWjRoNDR3UHlnQ1BzX1VrYmwwc3J5dHRFNkNYbGJzT21QWmxTRHFhY1U5WWhZZ1Rn",
+      "guidislink": false,
+      "published": "Wed, 15 Dec 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        12,
+        15,
+        8,
+        0,
+        0,
+        2,
+        349,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxOV3RhT2oydTVjZVcyWHY2SzA5S2xRNW9EaFB5bzRoYVU4NC02T2pxRHR0NVpORG9xLVhtbFRXcVFybUR3MGR5OWJNaWNIeG1lMW5XcU94OENIeDdwWUo4NUIxTWlxQ0ZIZ2YxWFFzRFB2dTdIR1c0N3FHNjFZUjZZaWVFeWJISGN6TDFfZDZPWjRoNDR3UHlnQ1BzX1VrYmwwc3J5dHRFNkNYbGJzT21QWmxTRHFhY1U5WWhZZ1Rn?oc=5\" target=\"_blank\">Singapore explores link between Zika virus infection and birth defects</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BioSpectrum Asia</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxOV3RhT2oydTVjZVcyWHY2SzA5S2xRNW9EaFB5bzRoYVU4NC02T2pxRHR0NVpORG9xLVhtbFRXcVFybUR3MGR5OWJNaWNIeG1lMW5XcU94OENIeDdwWUo4NUIxTWlxQ0ZIZ2YxWFFzRFB2dTdIR1c0N3FHNjFZUjZZaWVFeWJISGN6TDFfZDZPWjRoNDR3UHlnQ1BzX1VrYmwwc3J5dHRFNkNYbGJzT21QWmxTRHFhY1U5WWhZZ1Rn?oc=5\" target=\"_blank\">Singapore explores link between Zika virus infection and birth defects</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BioSpectrum Asia</font>"
+      },
+      "source": {
+        "href": "https://www.biospectrumasia.com",
+        "title": "BioSpectrum Asia"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Dr. Sherif R. Zaki, Acclaimed Disease Detective, Dies at 65 (Published 2021) - The New York Times",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Dr. Sherif R. Zaki, Acclaimed Disease Detective, Dies at 65 (Published 2021) - The New York Times"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB2bEUtcFZlZC1fSkprd0xERzRlRm1CNGhfOHhRQjRoX3pMZk9uNFByUnl1YnNpWHpia2N3Z2lJX3QtT0VWQzhOSllvSFg3OXN4WWFrZlFqa2RFaWlsblFFdVE1YU12bTFkeE5ERWpGMThab18w?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB2bEUtcFZlZC1fSkprd0xERzRlRm1CNGhfOHhRQjRoX3pMZk9uNFByUnl1YnNpWHpia2N3Z2lJX3QtT0VWQzhOSllvSFg3OXN4WWFrZlFqa2RFaWlsblFFdVE1YU12bTFkeE5ERWpGMThab18w?oc=5",
+      "id": "CBMidEFVX3lxTFB2bEUtcFZlZC1fSkprd0xERzRlRm1CNGhfOHhRQjRoX3pMZk9uNFByUnl1YnNpWHpia2N3Z2lJX3QtT0VWQzhOSllvSFg3OXN4WWFrZlFqa2RFaWlsblFFdVE1YU12bTFkeE5ERWpGMThab18w",
+      "guidislink": false,
+      "published": "Sat, 04 Dec 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        12,
+        4,
+        8,
+        0,
+        0,
+        5,
+        338,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTFB2bEUtcFZlZC1fSkprd0xERzRlRm1CNGhfOHhRQjRoX3pMZk9uNFByUnl1YnNpWHpia2N3Z2lJX3QtT0VWQzhOSllvSFg3OXN4WWFrZlFqa2RFaWlsblFFdVE1YU12bTFkeE5ERWpGMThab18w?oc=5\" target=\"_blank\">Dr. Sherif R. Zaki, Acclaimed Disease Detective, Dies at 65 (Published 2021)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New York Times</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTFB2bEUtcFZlZC1fSkprd0xERzRlRm1CNGhfOHhRQjRoX3pMZk9uNFByUnl1YnNpWHpia2N3Z2lJX3QtT0VWQzhOSllvSFg3OXN4WWFrZlFqa2RFaWlsblFFdVE1YU12bTFkeE5ERWpGMThab18w?oc=5\" target=\"_blank\">Dr. Sherif R. Zaki, Acclaimed Disease Detective, Dies at 65 (Published 2021)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New York Times</font>"
+      },
+      "source": {
+        "href": "https://www.nytimes.com",
+        "title": "The New York Times"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Health director at Temple reflects on navigating COVID-19 - The Temple News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Health director at Temple reflects on navigating COVID-19 - The Temple News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbHBDWDVIUnhZamdFMkRKQ3FPVFp6cno4X0ItbWNLRzgycGppTU1vNXo3d2w1R0lseEtkTXRTckRrNkp2ZUJrcWdodnpWQ3U3OGx2RTNWLTJ3MFU1QTQwOTBWNUZCNU1HTWMzZDFlcmlzZ196YzZQMUlsWHBGc3ZiUDlTSDhkZXJIa2c?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbHBDWDVIUnhZamdFMkRKQ3FPVFp6cno4X0ItbWNLRzgycGppTU1vNXo3d2w1R0lseEtkTXRTckRrNkp2ZUJrcWdodnpWQ3U3OGx2RTNWLTJ3MFU1QTQwOTBWNUZCNU1HTWMzZDFlcmlzZ196YzZQMUlsWHBGc3ZiUDlTSDhkZXJIa2c?oc=5",
+      "id": "CBMiigFBVV95cUxNbHBDWDVIUnhZamdFMkRKQ3FPVFp6cno4X0ItbWNLRzgycGppTU1vNXo3d2w1R0lseEtkTXRTckRrNkp2ZUJrcWdodnpWQ3U3OGx2RTNWLTJ3MFU1QTQwOTBWNUZCNU1HTWMzZDFlcmlzZ196YzZQMUlsWHBGc3ZiUDlTSDhkZXJIa2c",
+      "guidislink": false,
+      "published": "Tue, 07 Dec 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        12,
+        7,
+        8,
+        0,
+        0,
+        1,
+        341,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxNbHBDWDVIUnhZamdFMkRKQ3FPVFp6cno4X0ItbWNLRzgycGppTU1vNXo3d2w1R0lseEtkTXRTckRrNkp2ZUJrcWdodnpWQ3U3OGx2RTNWLTJ3MFU1QTQwOTBWNUZCNU1HTWMzZDFlcmlzZ196YzZQMUlsWHBGc3ZiUDlTSDhkZXJIa2c?oc=5\" target=\"_blank\">Health director at Temple reflects on navigating COVID-19</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Temple News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxNbHBDWDVIUnhZamdFMkRKQ3FPVFp6cno4X0ItbWNLRzgycGppTU1vNXo3d2w1R0lseEtkTXRTckRrNkp2ZUJrcWdodnpWQ3U3OGx2RTNWLTJ3MFU1QTQwOTBWNUZCNU1HTWMzZDFlcmlzZ196YzZQMUlsWHBGc3ZiUDlTSDhkZXJIa2c?oc=5\" target=\"_blank\">Health director at Temple reflects on navigating COVID-19</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Temple News</font>"
+      },
+      "source": {
+        "href": "https://temple-news.com",
+        "title": "The Temple News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Mosquitoes in a warming world: The full cover story - Down To Earth",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Mosquitoes in a warming world: The full cover story - Down To Earth"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNU1pOZjZFY1ZFNXAzbkZ3NnNlcGE3eTNzY3cwSmtqUGlXVFZtSnNfdzU1N3MzRkNkSU5CS0JRN1E2Mm5aZ2RSb1NRZE1xVDZXSmhFV3d1SW5nY1BPZllsck5fajg1U2o3cGwzaGpNNVl1RlNrRTZZcWhJdnkyUDlUVDJHMEtuQVZ6bnc1SmMwbTd1QXJxX2FkcUlR0gGnAUFVX3lxTE5yV3d2a3Nmai1nZGpRbEhqa0dEQjhVQ0Ixek1JQUczN3FHd3VSRDlwSGZzT0hyM0FkeGlBdVAyZlUxNHhXY1dVTnZWeVU2cjRhUmFTcVJfc3lBRWlCZXExVXR6d2cxellael9sTWRUc2xlYjFYZkExMFJNbXF1dkJqeGpfYkZVcXBlQ1UtSHNyWllCM3FEYWNwU1lLRGtfaG94SGZDM1ZJ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNU1pOZjZFY1ZFNXAzbkZ3NnNlcGE3eTNzY3cwSmtqUGlXVFZtSnNfdzU1N3MzRkNkSU5CS0JRN1E2Mm5aZ2RSb1NRZE1xVDZXSmhFV3d1SW5nY1BPZllsck5fajg1U2o3cGwzaGpNNVl1RlNrRTZZcWhJdnkyUDlUVDJHMEtuQVZ6bnc1SmMwbTd1QXJxX2FkcUlR0gGnAUFVX3lxTE5yV3d2a3Nmai1nZGpRbEhqa0dEQjhVQ0Ixek1JQUczN3FHd3VSRDlwSGZzT0hyM0FkeGlBdVAyZlUxNHhXY1dVTnZWeVU2cjRhUmFTcVJfc3lBRWlCZXExVXR6d2cxellael9sTWRUc2xlYjFYZkExMFJNbXF1dkJqeGpfYkZVcXBlQ1UtSHNyWllCM3FEYWNwU1lLRGtfaG94SGZDM1ZJ?oc=5",
+      "id": "CBMimgFBVV95cUxNU1pOZjZFY1ZFNXAzbkZ3NnNlcGE3eTNzY3cwSmtqUGlXVFZtSnNfdzU1N3MzRkNkSU5CS0JRN1E2Mm5aZ2RSb1NRZE1xVDZXSmhFV3d1SW5nY1BPZllsck5fajg1U2o3cGwzaGpNNVl1RlNrRTZZcWhJdnkyUDlUVDJHMEtuQVZ6bnc1SmMwbTd1QXJxX2FkcUlR0gGnAUFVX3lxTE5yV3d2a3Nmai1nZGpRbEhqa0dEQjhVQ0Ixek1JQUczN3FHd3VSRDlwSGZzT0hyM0FkeGlBdVAyZlUxNHhXY1dVTnZWeVU2cjRhUmFTcVJfc3lBRWlCZXExVXR6d2cxellael9sTWRUc2xlYjFYZkExMFJNbXF1dkJqeGpfYkZVcXBlQ1UtSHNyWllCM3FEYWNwU1lLRGtfaG94SGZDM1ZJ",
+      "guidislink": false,
+      "published": "Fri, 17 Dec 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        12,
+        17,
+        8,
+        0,
+        0,
+        4,
+        351,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxNU1pOZjZFY1ZFNXAzbkZ3NnNlcGE3eTNzY3cwSmtqUGlXVFZtSnNfdzU1N3MzRkNkSU5CS0JRN1E2Mm5aZ2RSb1NRZE1xVDZXSmhFV3d1SW5nY1BPZllsck5fajg1U2o3cGwzaGpNNVl1RlNrRTZZcWhJdnkyUDlUVDJHMEtuQVZ6bnc1SmMwbTd1QXJxX2FkcUlR0gGnAUFVX3lxTE5yV3d2a3Nmai1nZGpRbEhqa0dEQjhVQ0Ixek1JQUczN3FHd3VSRDlwSGZzT0hyM0FkeGlBdVAyZlUxNHhXY1dVTnZWeVU2cjRhUmFTcVJfc3lBRWlCZXExVXR6d2cxellael9sTWRUc2xlYjFYZkExMFJNbXF1dkJqeGpfYkZVcXBlQ1UtSHNyWllCM3FEYWNwU1lLRGtfaG94SGZDM1ZJ?oc=5\" target=\"_blank\">Mosquitoes in a warming world: The full cover story</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Down To Earth</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxNU1pOZjZFY1ZFNXAzbkZ3NnNlcGE3eTNzY3cwSmtqUGlXVFZtSnNfdzU1N3MzRkNkSU5CS0JRN1E2Mm5aZ2RSb1NRZE1xVDZXSmhFV3d1SW5nY1BPZllsck5fajg1U2o3cGwzaGpNNVl1RlNrRTZZcWhJdnkyUDlUVDJHMEtuQVZ6bnc1SmMwbTd1QXJxX2FkcUlR0gGnAUFVX3lxTE5yV3d2a3Nmai1nZGpRbEhqa0dEQjhVQ0Ixek1JQUczN3FHd3VSRDlwSGZzT0hyM0FkeGlBdVAyZlUxNHhXY1dVTnZWeVU2cjRhUmFTcVJfc3lBRWlCZXExVXR6d2cxellael9sTWRUc2xlYjFYZkExMFJNbXF1dkJqeGpfYkZVcXBlQ1UtSHNyWllCM3FEYWNwU1lLRGtfaG94SGZDM1ZJ?oc=5\" target=\"_blank\">Mosquitoes in a warming world: The full cover story</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Down To Earth</font>"
+      },
+      "source": {
+        "href": "https://www.downtoearth.org.in",
+        "title": "Down To Earth"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "mRNA vaccine technology – a promising platform for novel vaccine development - Drug Target Review",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "mRNA vaccine technology – a promising platform for novel vaccine development - Drug Target Review"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdUo4NVI3UWstMFNmYThOUE81ek9FSnNfMWcxemltVXB5X0s0UTJEUW9QSFBIOW9UV0dCZDdsZ1EwR2JSaTRTdVhQSXZCaDlQR201cmJNdTAtclNQazB0cmFOT2pfT1NQS0VYbm5wUG4tSV9hNU8zaTZPdmozWWRNc3ZpNU84czM4U1J3em1DN2JqRWNOak1KbVBERVBiMVZKOU1tSDBzckIxZUVYdzVmSmhkQUtXZ3lSS2VZVlpYSzQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdUo4NVI3UWstMFNmYThOUE81ek9FSnNfMWcxemltVXB5X0s0UTJEUW9QSFBIOW9UV0dCZDdsZ1EwR2JSaTRTdVhQSXZCaDlQR201cmJNdTAtclNQazB0cmFOT2pfT1NQS0VYbm5wUG4tSV9hNU8zaTZPdmozWWRNc3ZpNU84czM4U1J3em1DN2JqRWNOak1KbVBERVBiMVZKOU1tSDBzckIxZUVYdzVmSmhkQUtXZ3lSS2VZVlpYSzQ?oc=5",
+      "id": "CBMiwAFBVV95cUxNdUo4NVI3UWstMFNmYThOUE81ek9FSnNfMWcxemltVXB5X0s0UTJEUW9QSFBIOW9UV0dCZDdsZ1EwR2JSaTRTdVhQSXZCaDlQR201cmJNdTAtclNQazB0cmFOT2pfT1NQS0VYbm5wUG4tSV9hNU8zaTZPdmozWWRNc3ZpNU84czM4U1J3em1DN2JqRWNOak1KbVBERVBiMVZKOU1tSDBzckIxZUVYdzVmSmhkQUtXZ3lSS2VZVlpYSzQ",
+      "guidislink": false,
+      "published": "Mon, 13 Dec 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        12,
+        13,
+        8,
+        0,
+        0,
+        0,
+        347,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdUo4NVI3UWstMFNmYThOUE81ek9FSnNfMWcxemltVXB5X0s0UTJEUW9QSFBIOW9UV0dCZDdsZ1EwR2JSaTRTdVhQSXZCaDlQR201cmJNdTAtclNQazB0cmFOT2pfT1NQS0VYbm5wUG4tSV9hNU8zaTZPdmozWWRNc3ZpNU84czM4U1J3em1DN2JqRWNOak1KbVBERVBiMVZKOU1tSDBzckIxZUVYdzVmSmhkQUtXZ3lSS2VZVlpYSzQ?oc=5\" target=\"_blank\">mRNA vaccine technology – a promising platform for novel vaccine development</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Drug Target Review</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdUo4NVI3UWstMFNmYThOUE81ek9FSnNfMWcxemltVXB5X0s0UTJEUW9QSFBIOW9UV0dCZDdsZ1EwR2JSaTRTdVhQSXZCaDlQR201cmJNdTAtclNQazB0cmFOT2pfT1NQS0VYbm5wUG4tSV9hNU8zaTZPdmozWWRNc3ZpNU84czM4U1J3em1DN2JqRWNOak1KbVBERVBiMVZKOU1tSDBzckIxZUVYdzVmSmhkQUtXZ3lSS2VZVlpYSzQ?oc=5\" target=\"_blank\">mRNA vaccine technology – a promising platform for novel vaccine development</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Drug Target Review</font>"
+      },
+      "source": {
+        "href": "https://www.drugtargetreview.com",
+        "title": "Drug Target Review"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "If mosquitoes were eradicated, what would be the consequences? - New Scientist",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "If mosquitoes were eradicated, what would be the consequences? - New Scientist"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcDZ2QWRPU2N5ekF2MnpoNGVYbERNUzRLbWljMXVTeUk5TWRkUEVhZDVrbnM4a3RMTVBGeTZIMjByMzd5TWs3QVhpdmhJMkpsTm05Y19SWm9Pcm1TN1AwQnlpejViMlhZeV9NVURmX1VybnlHSDNwUEZaSHhhMEVmM2gydldRamxGZElKMUdCQjNRX3J3NVpHVjVGM2ZycWNNeUV4eDZsdUtsZFcxZnZJMFQxdHM?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcDZ2QWRPU2N5ekF2MnpoNGVYbERNUzRLbWljMXVTeUk5TWRkUEVhZDVrbnM4a3RMTVBGeTZIMjByMzd5TWs3QVhpdmhJMkpsTm05Y19SWm9Pcm1TN1AwQnlpejViMlhZeV9NVURmX1VybnlHSDNwUEZaSHhhMEVmM2gydldRamxGZElKMUdCQjNRX3J3NVpHVjVGM2ZycWNNeUV4eDZsdUtsZFcxZnZJMFQxdHM?oc=5",
+      "id": "CBMitAFBVV95cUxQcDZ2QWRPU2N5ekF2MnpoNGVYbERNUzRLbWljMXVTeUk5TWRkUEVhZDVrbnM4a3RMTVBGeTZIMjByMzd5TWs3QVhpdmhJMkpsTm05Y19SWm9Pcm1TN1AwQnlpejViMlhZeV9NVURmX1VybnlHSDNwUEZaSHhhMEVmM2gydldRamxGZElKMUdCQjNRX3J3NVpHVjVGM2ZycWNNeUV4eDZsdUtsZFcxZnZJMFQxdHM",
+      "guidislink": false,
+      "published": "Wed, 08 Dec 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        12,
+        8,
+        8,
+        0,
+        0,
+        2,
+        342,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQcDZ2QWRPU2N5ekF2MnpoNGVYbERNUzRLbWljMXVTeUk5TWRkUEVhZDVrbnM4a3RMTVBGeTZIMjByMzd5TWs3QVhpdmhJMkpsTm05Y19SWm9Pcm1TN1AwQnlpejViMlhZeV9NVURmX1VybnlHSDNwUEZaSHhhMEVmM2gydldRamxGZElKMUdCQjNRX3J3NVpHVjVGM2ZycWNNeUV4eDZsdUtsZFcxZnZJMFQxdHM?oc=5\" target=\"_blank\">If mosquitoes were eradicated, what would be the consequences?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">New Scientist</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQcDZ2QWRPU2N5ekF2MnpoNGVYbERNUzRLbWljMXVTeUk5TWRkUEVhZDVrbnM4a3RMTVBGeTZIMjByMzd5TWs3QVhpdmhJMkpsTm05Y19SWm9Pcm1TN1AwQnlpejViMlhZeV9NVURmX1VybnlHSDNwUEZaSHhhMEVmM2gydldRamxGZElKMUdCQjNRX3J3NVpHVjVGM2ZycWNNeUV4eDZsdUtsZFcxZnZJMFQxdHM?oc=5\" target=\"_blank\">If mosquitoes were eradicated, what would be the consequences?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">New Scientist</font>"
+      },
+      "source": {
+        "href": "https://www.newscientist.com",
+        "title": "New Scientist"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Bismuth binds peptides to make bioactive bicycles - Chemical & Engineering News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Bismuth binds peptides to make bioactive bicycles - Chemical & Engineering News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOV0lVX0FwSEJUaEFUZzRWSC1lcU1pZ1RHZ1I4QmhMejhjdFFwYTBKNkpGekJlMlRzT3Rla1NwU19hbmtacVl1NkZMYTlFbDNlU1cwajhvV0ZJOGVmTU5HSVo5VFkxR0dWWXNaaFltekhvWlY1LVNmbTlpVDdhQlNpZmRTWGhNS29YSHdKVjQzOVIzT1dzMFBrU0RGN0NRYkxzTjE3Tw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOV0lVX0FwSEJUaEFUZzRWSC1lcU1pZ1RHZ1I4QmhMejhjdFFwYTBKNkpGekJlMlRzT3Rla1NwU19hbmtacVl1NkZMYTlFbDNlU1cwajhvV0ZJOGVmTU5HSVo5VFkxR0dWWXNaaFltekhvWlY1LVNmbTlpVDdhQlNpZmRTWGhNS29YSHdKVjQzOVIzT1dzMFBrU0RGN0NRYkxzTjE3Tw?oc=5",
+      "id": "CBMipAFBVV95cUxOV0lVX0FwSEJUaEFUZzRWSC1lcU1pZ1RHZ1I4QmhMejhjdFFwYTBKNkpGekJlMlRzT3Rla1NwU19hbmtacVl1NkZMYTlFbDNlU1cwajhvV0ZJOGVmTU5HSVo5VFkxR0dWWXNaaFltekhvWlY1LVNmbTlpVDdhQlNpZmRTWGhNS29YSHdKVjQzOVIzT1dzMFBrU0RGN0NRYkxzTjE3Tw",
+      "guidislink": false,
+      "published": "Tue, 07 Dec 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        12,
+        7,
+        8,
+        0,
+        0,
+        1,
+        341,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxOV0lVX0FwSEJUaEFUZzRWSC1lcU1pZ1RHZ1I4QmhMejhjdFFwYTBKNkpGekJlMlRzT3Rla1NwU19hbmtacVl1NkZMYTlFbDNlU1cwajhvV0ZJOGVmTU5HSVo5VFkxR0dWWXNaaFltekhvWlY1LVNmbTlpVDdhQlNpZmRTWGhNS29YSHdKVjQzOVIzT1dzMFBrU0RGN0NRYkxzTjE3Tw?oc=5\" target=\"_blank\">Bismuth binds peptides to make bioactive bicycles</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chemical & Engineering News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxOV0lVX0FwSEJUaEFUZzRWSC1lcU1pZ1RHZ1I4QmhMejhjdFFwYTBKNkpGekJlMlRzT3Rla1NwU19hbmtacVl1NkZMYTlFbDNlU1cwajhvV0ZJOGVmTU5HSVo5VFkxR0dWWXNaaFltekhvWlY1LVNmbTlpVDdhQlNpZmRTWGhNS29YSHdKVjQzOVIzT1dzMFBrU0RGN0NRYkxzTjE3Tw?oc=5\" target=\"_blank\">Bismuth binds peptides to make bioactive bicycles</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chemical & Engineering News</font>"
+      },
+      "source": {
+        "href": "https://cen.acs.org",
+        "title": "Chemical & Engineering News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Mosquitoes in a warming world: A losing battle? - Down To Earth",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Mosquitoes in a warming world: A losing battle? - Down To Earth"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMnRQZ2dLYVBwXzM1TVQyQmttN0dwa1VWcl9mV1kwNTBGdl9XOVpJaHQ4dG15SWF6RWozSXl5Y0Z5Z1gzMDNhZDA3a2RPbURhWlR2ekVuSjJCWncxQXlGRFZUbU9DM2t6b0hYaDN5a1dUZG1xZTlDRl9fWmk3UG11T0dvcndLaF9PRjhQcTAwOVFvVVZW0gGiAUFVX3lxTE5iRGIyVGo1TERPYkpwaWtjY09QdkE1aDFyYmJtajFpbWxLblVsMEZaZklfZHpmZXFnT1BFVjNTOEJFNHBlcmpGR0lwT3lqaVlJaklVa05rZ2VTYkJLTXFMOWtoS2tLZ0pZTUpERDM0ZVc3WkU2cV9xdG93MWdhU3NiQ3RxNllPb2tibzB1MWtzNThkWkt0R3VOeDU2VDhNV2pfQQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMnRQZ2dLYVBwXzM1TVQyQmttN0dwa1VWcl9mV1kwNTBGdl9XOVpJaHQ4dG15SWF6RWozSXl5Y0Z5Z1gzMDNhZDA3a2RPbURhWlR2ekVuSjJCWncxQXlGRFZUbU9DM2t6b0hYaDN5a1dUZG1xZTlDRl9fWmk3UG11T0dvcndLaF9PRjhQcTAwOVFvVVZW0gGiAUFVX3lxTE5iRGIyVGo1TERPYkpwaWtjY09QdkE1aDFyYmJtajFpbWxLblVsMEZaZklfZHpmZXFnT1BFVjNTOEJFNHBlcmpGR0lwT3lqaVlJaklVa05rZ2VTYkJLTXFMOWtoS2tLZ0pZTUpERDM0ZVc3WkU2cV9xdG93MWdhU3NiQ3RxNllPb2tibzB1MWtzNThkWkt0R3VOeDU2VDhNV2pfQQ?oc=5",
+      "id": "CBMilAFBVV95cUxPMnRQZ2dLYVBwXzM1TVQyQmttN0dwa1VWcl9mV1kwNTBGdl9XOVpJaHQ4dG15SWF6RWozSXl5Y0Z5Z1gzMDNhZDA3a2RPbURhWlR2ekVuSjJCWncxQXlGRFZUbU9DM2t6b0hYaDN5a1dUZG1xZTlDRl9fWmk3UG11T0dvcndLaF9PRjhQcTAwOVFvVVZW0gGiAUFVX3lxTE5iRGIyVGo1TERPYkpwaWtjY09QdkE1aDFyYmJtajFpbWxLblVsMEZaZklfZHpmZXFnT1BFVjNTOEJFNHBlcmpGR0lwT3lqaVlJaklVa05rZ2VTYkJLTXFMOWtoS2tLZ0pZTUpERDM0ZVc3WkU2cV9xdG93MWdhU3NiQ3RxNllPb2tibzB1MWtzNThkWkt0R3VOeDU2VDhNV2pfQQ",
+      "guidislink": false,
+      "published": "Tue, 07 Dec 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        12,
+        7,
+        8,
+        0,
+        0,
+        1,
+        341,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxPMnRQZ2dLYVBwXzM1TVQyQmttN0dwa1VWcl9mV1kwNTBGdl9XOVpJaHQ4dG15SWF6RWozSXl5Y0Z5Z1gzMDNhZDA3a2RPbURhWlR2ekVuSjJCWncxQXlGRFZUbU9DM2t6b0hYaDN5a1dUZG1xZTlDRl9fWmk3UG11T0dvcndLaF9PRjhQcTAwOVFvVVZW0gGiAUFVX3lxTE5iRGIyVGo1TERPYkpwaWtjY09QdkE1aDFyYmJtajFpbWxLblVsMEZaZklfZHpmZXFnT1BFVjNTOEJFNHBlcmpGR0lwT3lqaVlJaklVa05rZ2VTYkJLTXFMOWtoS2tLZ0pZTUpERDM0ZVc3WkU2cV9xdG93MWdhU3NiQ3RxNllPb2tibzB1MWtzNThkWkt0R3VOeDU2VDhNV2pfQQ?oc=5\" target=\"_blank\">Mosquitoes in a warming world: A losing battle?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Down To Earth</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxPMnRQZ2dLYVBwXzM1TVQyQmttN0dwa1VWcl9mV1kwNTBGdl9XOVpJaHQ4dG15SWF6RWozSXl5Y0Z5Z1gzMDNhZDA3a2RPbURhWlR2ekVuSjJCWncxQXlGRFZUbU9DM2t6b0hYaDN5a1dUZG1xZTlDRl9fWmk3UG11T0dvcndLaF9PRjhQcTAwOVFvVVZW0gGiAUFVX3lxTE5iRGIyVGo1TERPYkpwaWtjY09QdkE1aDFyYmJtajFpbWxLblVsMEZaZklfZHpmZXFnT1BFVjNTOEJFNHBlcmpGR0lwT3lqaVlJaklVa05rZ2VTYkJLTXFMOWtoS2tLZ0pZTUpERDM0ZVc3WkU2cV9xdG93MWdhU3NiQ3RxNllPb2tibzB1MWtzNThkWkt0R3VOeDU2VDhNV2pfQQ?oc=5\" target=\"_blank\">Mosquitoes in a warming world: A losing battle?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Down To Earth</font>"
+      },
+      "source": {
+        "href": "https://www.downtoearth.org.in",
+        "title": "Down To Earth"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Flavivirus infections induce a Golgi stress response in vertebrate and mosquito cells - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Flavivirus infections induce a Golgi stress response in vertebrate and mosquito cells - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBzeXdVZ3JOYnpJU3FtbUZJYnVfdm5OeXFraTVmSzBHaHJfOVJnQU15QW9vNl9qRm8zUTY1UTVrcE8waHRCZm1VX3RmdlNENndjVWE0Z2N5MmNaODJsbFNV?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBzeXdVZ3JOYnpJU3FtbUZJYnVfdm5OeXFraTVmSzBHaHJfOVJnQU15QW9vNl9qRm8zUTY1UTVrcE8waHRCZm1VX3RmdlNENndjVWE0Z2N5MmNaODJsbFNV?oc=5",
+      "id": "CBMiX0FVX3lxTFBzeXdVZ3JOYnpJU3FtbUZJYnVfdm5OeXFraTVmSzBHaHJfOVJnQU15QW9vNl9qRm8zUTY1UTVrcE8waHRCZm1VX3RmdlNENndjVWE0Z2N5MmNaODJsbFNV",
+      "guidislink": false,
+      "published": "Mon, 06 Dec 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        12,
+        6,
+        8,
+        0,
+        0,
+        0,
+        340,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFBzeXdVZ3JOYnpJU3FtbUZJYnVfdm5OeXFraTVmSzBHaHJfOVJnQU15QW9vNl9qRm8zUTY1UTVrcE8waHRCZm1VX3RmdlNENndjVWE0Z2N5MmNaODJsbFNV?oc=5\" target=\"_blank\">Flavivirus infections induce a Golgi stress response in vertebrate and mosquito cells</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFBzeXdVZ3JOYnpJU3FtbUZJYnVfdm5OeXFraTVmSzBHaHJfOVJnQU15QW9vNl9qRm8zUTY1UTVrcE8waHRCZm1VX3RmdlNENndjVWE0Z2N5MmNaODJsbFNV?oc=5\" target=\"_blank\">Flavivirus infections induce a Golgi stress response in vertebrate and mosquito cells</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Mangalore Today - PulauJudi",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Mangalore Today - PulauJudi"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQa2toSXM0bTRYc1RCSUtNc3R1LUh0bHV3ZWFEaDYyRjdKZHByWG8xbXBOSDhOR2N6MDZpLUpBN19PQ2tHVUZtVm5ORjZfcjJhUGhRaEZOSkFfQmdIUnE0U3MzWndaQ1VoRXdXbUZfTUx1TnpzLTc0SnVRX1o1eG02LTdJQ043M2w3QkJXTFRpS0E1bkdWeHlhT21feFVraHJMeC1qUU81cXdLdlE1alFZRDhPSXNfaU9lWDBR?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQa2toSXM0bTRYc1RCSUtNc3R1LUh0bHV3ZWFEaDYyRjdKZHByWG8xbXBOSDhOR2N6MDZpLUpBN19PQ2tHVUZtVm5ORjZfcjJhUGhRaEZOSkFfQmdIUnE0U3MzWndaQ1VoRXdXbUZfTUx1TnpzLTc0SnVRX1o1eG02LTdJQ043M2w3QkJXTFRpS0E1bkdWeHlhT21feFVraHJMeC1qUU81cXdLdlE1alFZRDhPSXNfaU9lWDBR?oc=5",
+      "id": "CBMiuwFBVV95cUxQa2toSXM0bTRYc1RCSUtNc3R1LUh0bHV3ZWFEaDYyRjdKZHByWG8xbXBOSDhOR2N6MDZpLUpBN19PQ2tHVUZtVm5ORjZfcjJhUGhRaEZOSkFfQmdIUnE0U3MzWndaQ1VoRXdXbUZfTUx1TnpzLTc0SnVRX1o1eG02LTdJQ043M2w3QkJXTFRpS0E1bkdWeHlhT21feFVraHJMeC1qUU81cXdLdlE1alFZRDhPSXNfaU9lWDBR",
+      "guidislink": false,
+      "published": "Tue, 07 Dec 2021 22:15:43 GMT",
+      "published_parsed": [
+        2021,
+        12,
+        7,
+        22,
+        15,
+        43,
+        1,
+        341,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxQa2toSXM0bTRYc1RCSUtNc3R1LUh0bHV3ZWFEaDYyRjdKZHByWG8xbXBOSDhOR2N6MDZpLUpBN19PQ2tHVUZtVm5ORjZfcjJhUGhRaEZOSkFfQmdIUnE0U3MzWndaQ1VoRXdXbUZfTUx1TnpzLTc0SnVRX1o1eG02LTdJQ043M2w3QkJXTFRpS0E1bkdWeHlhT21feFVraHJMeC1qUU81cXdLdlE1alFZRDhPSXNfaU9lWDBR?oc=5\" target=\"_blank\">Mangalore Today</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PulauJudi</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxQa2toSXM0bTRYc1RCSUtNc3R1LUh0bHV3ZWFEaDYyRjdKZHByWG8xbXBOSDhOR2N6MDZpLUpBN19PQ2tHVUZtVm5ORjZfcjJhUGhRaEZOSkFfQmdIUnE0U3MzWndaQ1VoRXdXbUZfTUx1TnpzLTc0SnVRX1o1eG02LTdJQ043M2w3QkJXTFRpS0E1bkdWeHlhT21feFVraHJMeC1qUU81cXdLdlE1alFZRDhPSXNfaU9lWDBR?oc=5\" target=\"_blank\">Mangalore Today</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PulauJudi</font>"
+      },
+      "source": {
+        "href": "https://www.mangaloretoday.com",
+        "title": "PulauJudi"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Central Pattaya sprayed against disease-carrying mosquitos - Pattaya Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Central Pattaya sprayed against disease-carrying mosquitos - Pattaya Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWm5uQTE4SURvT0hkLWRldi1iOWZLRm1relZFTmtPdlM3UDd3R0pYMVhVb0J6TG85cFJqdXlKZWNmNDdZb1IxRWlNRVZaTnkxUkhnSnBnX0JCVERVcUt1ZjBCc3dLcDBPSHdwNDdRRXRqZnNKMWVRQmZRWG5QZ3R3R2VqbVVTSE9lb01YeV9HYUt2M2Y4Z1VlVmRLOC1QRzQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWm5uQTE4SURvT0hkLWRldi1iOWZLRm1relZFTmtPdlM3UDd3R0pYMVhVb0J6TG85cFJqdXlKZWNmNDdZb1IxRWlNRVZaTnkxUkhnSnBnX0JCVERVcUt1ZjBCc3dLcDBPSHdwNDdRRXRqZnNKMWVRQmZRWG5QZ3R3R2VqbVVTSE9lb01YeV9HYUt2M2Y4Z1VlVmRLOC1QRzQ?oc=5",
+      "id": "CBMinwFBVV95cUxNWm5uQTE4SURvT0hkLWRldi1iOWZLRm1relZFTmtPdlM3UDd3R0pYMVhVb0J6TG85cFJqdXlKZWNmNDdZb1IxRWlNRVZaTnkxUkhnSnBnX0JCVERVcUt1ZjBCc3dLcDBPSHdwNDdRRXRqZnNKMWVRQmZRWG5QZ3R3R2VqbVVTSE9lb01YeV9HYUt2M2Y4Z1VlVmRLOC1QRzQ",
+      "guidislink": false,
+      "published": "Fri, 10 Dec 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        12,
+        10,
+        8,
+        0,
+        0,
+        4,
+        344,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNWm5uQTE4SURvT0hkLWRldi1iOWZLRm1relZFTmtPdlM3UDd3R0pYMVhVb0J6TG85cFJqdXlKZWNmNDdZb1IxRWlNRVZaTnkxUkhnSnBnX0JCVERVcUt1ZjBCc3dLcDBPSHdwNDdRRXRqZnNKMWVRQmZRWG5QZ3R3R2VqbVVTSE9lb01YeV9HYUt2M2Y4Z1VlVmRLOC1QRzQ?oc=5\" target=\"_blank\">Central Pattaya sprayed against disease-carrying mosquitos</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Pattaya Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNWm5uQTE4SURvT0hkLWRldi1iOWZLRm1relZFTmtPdlM3UDd3R0pYMVhVb0J6TG85cFJqdXlKZWNmNDdZb1IxRWlNRVZaTnkxUkhnSnBnX0JCVERVcUt1ZjBCc3dLcDBPSHdwNDdRRXRqZnNKMWVRQmZRWG5QZ3R3R2VqbVVTSE9lb01YeV9HYUt2M2Y4Z1VlVmRLOC1QRzQ?oc=5\" target=\"_blank\">Central Pattaya sprayed against disease-carrying mosquitos</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Pattaya Mail</font>"
+      },
+      "source": {
+        "href": "https://www.pattayamail.com",
+        "title": "Pattaya Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Independent Spirit Awards 2022 film nominations: Zola, The Novice top list - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Independent Spirit Awards 2022 film nominations: Zola, The Novice top list - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQckVVcE45M2p5S3dhNjZjR2VxLWpKeGtmSUZHekNaZ0x2eTQ2MkVGdUpDX1VIeTZWYUZkMFR3WHF5QmFkcmJKcEpDSXZUNGdDNUZEVUVLYTN0SjV2QVFnQ0hwcmxaV0ZGQ0ZSbHg0YmNtdEhvdzJzYjU2Vm5pakRNWXEycE1SRF9HT0RsYlhGVm13QTg3cGpDY1l1MnZHWDhSVnppRzZUSkNWcUt4Y3Q5dVQwSGlOdV9fRG5qVjFXbmNzNFdKNWtLcm1VajBhZXV4UUstMjJKUFVlcGJQYnJNRFI1c3BoUXVBRlFUWFVobFJnVGJZZmfSAfYBQVVfeXFMUHJFVXBOOTNqeUt3YTY2Y0dlcS1qSnhrZklGR3pDWmdMdnk0NjJFRnVKQ19VSHk2VmFGZDBUd1hxeUJhZHJiSnBKQ0l2VDRnQzVGRFVFS2EzdEo1dkFRZ0NIcHJsWldGRkNGUmx4NGJjbXRIb3cyc2I1NlZuaWpETVlxMnBNUkRfR09EbGJYRlZtd0E4N3BqQ2NZdTJ2R1g4UlZ6aUc2VEpDVnFLeGN0OXVUMEhpTnVfX0RualYxV25jczRXSjVrS3JtVWowYWV1eFFLLTIySlBVZXBiUGJyTURSNXNwaFF1QUZRVFhVaGxSZ1RiWWZn?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQckVVcE45M2p5S3dhNjZjR2VxLWpKeGtmSUZHekNaZ0x2eTQ2MkVGdUpDX1VIeTZWYUZkMFR3WHF5QmFkcmJKcEpDSXZUNGdDNUZEVUVLYTN0SjV2QVFnQ0hwcmxaV0ZGQ0ZSbHg0YmNtdEhvdzJzYjU2Vm5pakRNWXEycE1SRF9HT0RsYlhGVm13QTg3cGpDY1l1MnZHWDhSVnppRzZUSkNWcUt4Y3Q5dVQwSGlOdV9fRG5qVjFXbmNzNFdKNWtLcm1VajBhZXV4UUstMjJKUFVlcGJQYnJNRFI1c3BoUXVBRlFUWFVobFJnVGJZZmfSAfYBQVVfeXFMUHJFVXBOOTNqeUt3YTY2Y0dlcS1qSnhrZklGR3pDWmdMdnk0NjJFRnVKQ19VSHk2VmFGZDBUd1hxeUJhZHJiSnBKQ0l2VDRnQzVGRFVFS2EzdEo1dkFRZ0NIcHJsWldGRkNGUmx4NGJjbXRIb3cyc2I1NlZuaWpETVlxMnBNUkRfR09EbGJYRlZtd0E4N3BqQ2NZdTJ2R1g4UlZ6aUc2VEpDVnFLeGN0OXVUMEhpTnVfX0RualYxV25jczRXSjVrS3JtVWowYWV1eFFLLTIySlBVZXBiUGJyTURSNXNwaFF1QUZRVFhVaGxSZ1RiWWZn?oc=5",
+      "id": "CBMi9gFBVV95cUxQckVVcE45M2p5S3dhNjZjR2VxLWpKeGtmSUZHekNaZ0x2eTQ2MkVGdUpDX1VIeTZWYUZkMFR3WHF5QmFkcmJKcEpDSXZUNGdDNUZEVUVLYTN0SjV2QVFnQ0hwcmxaV0ZGQ0ZSbHg0YmNtdEhvdzJzYjU2Vm5pakRNWXEycE1SRF9HT0RsYlhGVm13QTg3cGpDY1l1MnZHWDhSVnppRzZUSkNWcUt4Y3Q5dVQwSGlOdV9fRG5qVjFXbmNzNFdKNWtLcm1VajBhZXV4UUstMjJKUFVlcGJQYnJNRFI1c3BoUXVBRlFUWFVobFJnVGJZZmfSAfYBQVVfeXFMUHJFVXBOOTNqeUt3YTY2Y0dlcS1qSnhrZklGR3pDWmdMdnk0NjJFRnVKQ19VSHk2VmFGZDBUd1hxeUJhZHJiSnBKQ0l2VDRnQzVGRFVFS2EzdEo1dkFRZ0NIcHJsWldGRkNGUmx4NGJjbXRIb3cyc2I1NlZuaWpETVlxMnBNUkRfR09EbGJYRlZtd0E4N3BqQ2NZdTJ2R1g4UlZ6aUc2VEpDVnFLeGN0OXVUMEhpTnVfX0RualYxV25jczRXSjVrS3JtVWowYWV1eFFLLTIySlBVZXBiUGJyTURSNXNwaFF1QUZRVFhVaGxSZ1RiWWZn",
+      "guidislink": false,
+      "published": "Tue, 14 Dec 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        12,
+        14,
+        8,
+        0,
+        0,
+        1,
+        348,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi9gFBVV95cUxQckVVcE45M2p5S3dhNjZjR2VxLWpKeGtmSUZHekNaZ0x2eTQ2MkVGdUpDX1VIeTZWYUZkMFR3WHF5QmFkcmJKcEpDSXZUNGdDNUZEVUVLYTN0SjV2QVFnQ0hwcmxaV0ZGQ0ZSbHg0YmNtdEhvdzJzYjU2Vm5pakRNWXEycE1SRF9HT0RsYlhGVm13QTg3cGpDY1l1MnZHWDhSVnppRzZUSkNWcUt4Y3Q5dVQwSGlOdV9fRG5qVjFXbmNzNFdKNWtLcm1VajBhZXV4UUstMjJKUFVlcGJQYnJNRFI1c3BoUXVBRlFUWFVobFJnVGJZZmfSAfYBQVVfeXFMUHJFVXBOOTNqeUt3YTY2Y0dlcS1qSnhrZklGR3pDWmdMdnk0NjJFRnVKQ19VSHk2VmFGZDBUd1hxeUJhZHJiSnBKQ0l2VDRnQzVGRFVFS2EzdEo1dkFRZ0NIcHJsWldGRkNGUmx4NGJjbXRIb3cyc2I1NlZuaWpETVlxMnBNUkRfR09EbGJYRlZtd0E4N3BqQ2NZdTJ2R1g4UlZ6aUc2VEpDVnFLeGN0OXVUMEhpTnVfX0RualYxV25jczRXSjVrS3JtVWowYWV1eFFLLTIySlBVZXBiUGJyTURSNXNwaFF1QUZRVFhVaGxSZ1RiWWZn?oc=5\" target=\"_blank\">Independent Spirit Awards 2022 film nominations: Zola, The Novice top list</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi9gFBVV95cUxQckVVcE45M2p5S3dhNjZjR2VxLWpKeGtmSUZHekNaZ0x2eTQ2MkVGdUpDX1VIeTZWYUZkMFR3WHF5QmFkcmJKcEpDSXZUNGdDNUZEVUVLYTN0SjV2QVFnQ0hwcmxaV0ZGQ0ZSbHg0YmNtdEhvdzJzYjU2Vm5pakRNWXEycE1SRF9HT0RsYlhGVm13QTg3cGpDY1l1MnZHWDhSVnppRzZUSkNWcUt4Y3Q5dVQwSGlOdV9fRG5qVjFXbmNzNFdKNWtLcm1VajBhZXV4UUstMjJKUFVlcGJQYnJNRFI1c3BoUXVBRlFUWFVobFJnVGJZZmfSAfYBQVVfeXFMUHJFVXBOOTNqeUt3YTY2Y0dlcS1qSnhrZklGR3pDWmdMdnk0NjJFRnVKQ19VSHk2VmFGZDBUd1hxeUJhZHJiSnBKQ0l2VDRnQzVGRFVFS2EzdEo1dkFRZ0NIcHJsWldGRkNGUmx4NGJjbXRIb3cyc2I1NlZuaWpETVlxMnBNUkRfR09EbGJYRlZtd0E4N3BqQ2NZdTJ2R1g4UlZ6aUc2VEpDVnFLeGN0OXVUMEhpTnVfX0RualYxV25jczRXSjVrS3JtVWowYWV1eFFLLTIySlBVZXBiUGJyTURSNXNwaFF1QUZRVFhVaGxSZ1RiWWZn?oc=5\" target=\"_blank\">Independent Spirit Awards 2022 film nominations: Zola, The Novice top list</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    }
+  ]
+}

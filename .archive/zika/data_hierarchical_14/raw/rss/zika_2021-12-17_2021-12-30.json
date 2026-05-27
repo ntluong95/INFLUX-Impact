@@ -1,0 +1,564 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2021-12-17",
+  "window_end": "2021-12-30",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2021-12-17+before%3A2021-12-31&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2021-12-17+before:2021-12-31&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:28:58Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2021-12-17 before:2021-12-31\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2021-12-17 before:2021-12-31\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2021-12-17+before:2021-12-31&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2021-12-17+before:2021-12-31&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:28:58 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      28,
+      58,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "5 years later, researchers assess how children exposed to Zika are developing - NPR",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "5 years later, researchers assess how children exposed to Zika are developing - NPR"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPcEtxbDd4UEJ3aXc3RWhFQ0xhR0lUY2ZPWUFza2tEc2JtWVJHMFp6aDIyZXpqcmI2MjJBWUc5V21BOERSRFNtT2Z5UTdZMFVtQ0FiTG9UN1h3c0VLb0I4by10R2t4TW1zYmJ4Q1A4cFRWSHN6Qzh0eTlzSXJRWGdvWTlXNnVGRndzY2VvTHRENmZJTDhPWE5YZGozcHZ2bE9fZEZJd2VGNHp3UkVaeHlBUm5fUFZ4dE8wRkdlcTcyUEZaQ3VIU2x5amNIUGk5d3FrM2RldWVtTQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPcEtxbDd4UEJ3aXc3RWhFQ0xhR0lUY2ZPWUFza2tEc2JtWVJHMFp6aDIyZXpqcmI2MjJBWUc5V21BOERSRFNtT2Z5UTdZMFVtQ0FiTG9UN1h3c0VLb0I4by10R2t4TW1zYmJ4Q1A4cFRWSHN6Qzh0eTlzSXJRWGdvWTlXNnVGRndzY2VvTHRENmZJTDhPWE5YZGozcHZ2bE9fZEZJd2VGNHp3UkVaeHlBUm5fUFZ4dE8wRkdlcTcyUEZaQ3VIU2x5amNIUGk5d3FrM2RldWVtTQ?oc=5",
+      "id": "CBMi1wFBVV95cUxPcEtxbDd4UEJ3aXc3RWhFQ0xhR0lUY2ZPWUFza2tEc2JtWVJHMFp6aDIyZXpqcmI2MjJBWUc5V21BOERSRFNtT2Z5UTdZMFVtQ0FiTG9UN1h3c0VLb0I4by10R2t4TW1zYmJ4Q1A4cFRWSHN6Qzh0eTlzSXJRWGdvWTlXNnVGRndzY2VvTHRENmZJTDhPWE5YZGozcHZ2bE9fZEZJd2VGNHp3UkVaeHlBUm5fUFZ4dE8wRkdlcTcyUEZaQ3VIU2x5amNIUGk5d3FrM2RldWVtTQ",
+      "guidislink": false,
+      "published": "Mon, 27 Dec 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        12,
+        27,
+        8,
+        0,
+        0,
+        0,
+        361,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxPcEtxbDd4UEJ3aXc3RWhFQ0xhR0lUY2ZPWUFza2tEc2JtWVJHMFp6aDIyZXpqcmI2MjJBWUc5V21BOERSRFNtT2Z5UTdZMFVtQ0FiTG9UN1h3c0VLb0I4by10R2t4TW1zYmJ4Q1A4cFRWSHN6Qzh0eTlzSXJRWGdvWTlXNnVGRndzY2VvTHRENmZJTDhPWE5YZGozcHZ2bE9fZEZJd2VGNHp3UkVaeHlBUm5fUFZ4dE8wRkdlcTcyUEZaQ3VIU2x5amNIUGk5d3FrM2RldWVtTQ?oc=5\" target=\"_blank\">5 years later, researchers assess how children exposed to Zika are developing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NPR</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxPcEtxbDd4UEJ3aXc3RWhFQ0xhR0lUY2ZPWUFza2tEc2JtWVJHMFp6aDIyZXpqcmI2MjJBWUc5V21BOERSRFNtT2Z5UTdZMFVtQ0FiTG9UN1h3c0VLb0I4by10R2t4TW1zYmJ4Q1A4cFRWSHN6Qzh0eTlzSXJRWGdvWTlXNnVGRndzY2VvTHRENmZJTDhPWE5YZGozcHZ2bE9fZEZJd2VGNHp3UkVaeHlBUm5fUFZ4dE8wRkdlcTcyUEZaQ3VIU2x5amNIUGk5d3FrM2RldWVtTQ?oc=5\" target=\"_blank\">5 years later, researchers assess how children exposed to Zika are developing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NPR</font>"
+      },
+      "source": {
+        "href": "https://www.npr.org",
+        "title": "NPR"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "5 years later, researchers assess how children exposed to Zika are developing - WITF",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "5 years later, researchers assess how children exposed to Zika are developing - WITF"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOUJLeHNRMnE1dE4yOWxmUUNqUmhFNzdOMGs2Zy1DMjhxUU9mbURGaUhSSU1xb0lxRUNONWJtUU42Z3pteFlpekRUMTNxR1pHWDFDVHN6aEZpQlNFcmVEWUwtcGxvaEpUNWRtQlFWSzFQRXVsOGFSckNLMHh3Uno0Y2M5d0Z1dmFWdF9jTE5WcGt2RlprQUwwTUN4d0dIRENoOWt3T2dZazREb3p5SGc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOUJLeHNRMnE1dE4yOWxmUUNqUmhFNzdOMGs2Zy1DMjhxUU9mbURGaUhSSU1xb0lxRUNONWJtUU42Z3pteFlpekRUMTNxR1pHWDFDVHN6aEZpQlNFcmVEWUwtcGxvaEpUNWRtQlFWSzFQRXVsOGFSckNLMHh3Uno0Y2M5d0Z1dmFWdF9jTE5WcGt2RlprQUwwTUN4d0dIRENoOWt3T2dZazREb3p5SGc?oc=5",
+      "id": "CBMirgFBVV95cUxQOUJLeHNRMnE1dE4yOWxmUUNqUmhFNzdOMGs2Zy1DMjhxUU9mbURGaUhSSU1xb0lxRUNONWJtUU42Z3pteFlpekRUMTNxR1pHWDFDVHN6aEZpQlNFcmVEWUwtcGxvaEpUNWRtQlFWSzFQRXVsOGFSckNLMHh3Uno0Y2M5d0Z1dmFWdF9jTE5WcGt2RlprQUwwTUN4d0dIRENoOWt3T2dZazREb3p5SGc",
+      "guidislink": false,
+      "published": "Mon, 27 Dec 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        12,
+        27,
+        8,
+        0,
+        0,
+        0,
+        361,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxQOUJLeHNRMnE1dE4yOWxmUUNqUmhFNzdOMGs2Zy1DMjhxUU9mbURGaUhSSU1xb0lxRUNONWJtUU42Z3pteFlpekRUMTNxR1pHWDFDVHN6aEZpQlNFcmVEWUwtcGxvaEpUNWRtQlFWSzFQRXVsOGFSckNLMHh3Uno0Y2M5d0Z1dmFWdF9jTE5WcGt2RlprQUwwTUN4d0dIRENoOWt3T2dZazREb3p5SGc?oc=5\" target=\"_blank\">5 years later, researchers assess how children exposed to Zika are developing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WITF</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxQOUJLeHNRMnE1dE4yOWxmUUNqUmhFNzdOMGs2Zy1DMjhxUU9mbURGaUhSSU1xb0lxRUNONWJtUU42Z3pteFlpekRUMTNxR1pHWDFDVHN6aEZpQlNFcmVEWUwtcGxvaEpUNWRtQlFWSzFQRXVsOGFSckNLMHh3Uno0Y2M5d0Z1dmFWdF9jTE5WcGt2RlprQUwwTUN4d0dIRENoOWt3T2dZazREb3p5SGc?oc=5\" target=\"_blank\">5 years later, researchers assess how children exposed to Zika are developing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WITF</font>"
+      },
+      "source": {
+        "href": "https://www.witf.org",
+        "title": "WITF"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Cordelia L. \"Corky\" Frey - View Obituary & Service Information - spengel-boulanger.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Cordelia L. \"Corky\" Frey - View Obituary & Service Information - spengel-boulanger.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA5M3ZoWmhJZEo5Tmt0bE9yamg2U01zeHh5NC11TVNxY2pWM2YtdnlNRDhwSkttQUgtaWJleVNQRzVRTFltbHVnTm5wc1VXY19vRUkyMFVSaU42TmI5dkxBRm1sM1VNakZCcG1NTnJn?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA5M3ZoWmhJZEo5Tmt0bE9yamg2U01zeHh5NC11TVNxY2pWM2YtdnlNRDhwSkttQUgtaWJleVNQRzVRTFltbHVnTm5wc1VXY19vRUkyMFVSaU42TmI5dkxBRm1sM1VNakZCcG1NTnJn?oc=5",
+      "id": "CBMibkFVX3lxTFA5M3ZoWmhJZEo5Tmt0bE9yamg2U01zeHh5NC11TVNxY2pWM2YtdnlNRDhwSkttQUgtaWJleVNQRzVRTFltbHVnTm5wc1VXY19vRUkyMFVSaU42TmI5dkxBRm1sM1VNakZCcG1NTnJn",
+      "guidislink": false,
+      "published": "Wed, 29 Dec 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        12,
+        29,
+        8,
+        0,
+        0,
+        2,
+        363,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTFA5M3ZoWmhJZEo5Tmt0bE9yamg2U01zeHh5NC11TVNxY2pWM2YtdnlNRDhwSkttQUgtaWJleVNQRzVRTFltbHVnTm5wc1VXY19vRUkyMFVSaU42TmI5dkxBRm1sM1VNakZCcG1NTnJn?oc=5\" target=\"_blank\">Cordelia L. \"Corky\" Frey - View Obituary & Service Information</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">spengel-boulanger.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTFA5M3ZoWmhJZEo5Tmt0bE9yamg2U01zeHh5NC11TVNxY2pWM2YtdnlNRDhwSkttQUgtaWJleVNQRzVRTFltbHVnTm5wc1VXY19vRUkyMFVSaU42TmI5dkxBRm1sM1VNakZCcG1NTnJn?oc=5\" target=\"_blank\">Cordelia L. \"Corky\" Frey - View Obituary & Service Information</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">spengel-boulanger.com</font>"
+      },
+      "source": {
+        "href": "https://www.spengel-boulanger.com",
+        "title": "spengel-boulanger.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Actualización Epidemiológica Dengue, Chikungunya y Zika en el contexto del COVID-19: 23 diciembre 2021 - Pan American Health Organization (PAHO)",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Actualización Epidemiológica Dengue, Chikungunya y Zika en el contexto del COVID-19: 23 diciembre 2021 - Pan American Health Organization (PAHO)"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPR0hISWJLOUJrcVVIcFRMMFJqS3dpU2xpNzd3cFpXcVZ4b0MtOG1uZ1dKaUFuWm9EeVBNMmx5N0xfOGxXWk5jUnBRdkJxZHQ5UWhfZmUwUTd5aDhKbURuM3hNbmFnaWZiV1YwQkcxWlIyYTMzeUtJZURFeXp0UTE1dkUzYlJQa001aEszZjYtMS1pblZYRVVmQWtXVEFxRWJLY0k2UjV5N0gyb1Q3Mi1peDZjNGdxeGIzLTBfVGcxaVY?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPR0hISWJLOUJrcVVIcFRMMFJqS3dpU2xpNzd3cFpXcVZ4b0MtOG1uZ1dKaUFuWm9EeVBNMmx5N0xfOGxXWk5jUnBRdkJxZHQ5UWhfZmUwUTd5aDhKbURuM3hNbmFnaWZiV1YwQkcxWlIyYTMzeUtJZURFeXp0UTE1dkUzYlJQa001aEszZjYtMS1pblZYRVVmQWtXVEFxRWJLY0k2UjV5N0gyb1Q3Mi1peDZjNGdxeGIzLTBfVGcxaVY?oc=5",
+      "id": "CBMiwAFBVV95cUxPR0hISWJLOUJrcVVIcFRMMFJqS3dpU2xpNzd3cFpXcVZ4b0MtOG1uZ1dKaUFuWm9EeVBNMmx5N0xfOGxXWk5jUnBRdkJxZHQ5UWhfZmUwUTd5aDhKbURuM3hNbmFnaWZiV1YwQkcxWlIyYTMzeUtJZURFeXp0UTE1dkUzYlJQa001aEszZjYtMS1pblZYRVVmQWtXVEFxRWJLY0k2UjV5N0gyb1Q3Mi1peDZjNGdxeGIzLTBfVGcxaVY",
+      "guidislink": false,
+      "published": "Thu, 23 Dec 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        12,
+        23,
+        8,
+        0,
+        0,
+        3,
+        357,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxPR0hISWJLOUJrcVVIcFRMMFJqS3dpU2xpNzd3cFpXcVZ4b0MtOG1uZ1dKaUFuWm9EeVBNMmx5N0xfOGxXWk5jUnBRdkJxZHQ5UWhfZmUwUTd5aDhKbURuM3hNbmFnaWZiV1YwQkcxWlIyYTMzeUtJZURFeXp0UTE1dkUzYlJQa001aEszZjYtMS1pblZYRVVmQWtXVEFxRWJLY0k2UjV5N0gyb1Q3Mi1peDZjNGdxeGIzLTBfVGcxaVY?oc=5\" target=\"_blank\">Actualización Epidemiológica Dengue, Chikungunya y Zika en el contexto del COVID-19: 23 diciembre 2021</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Pan American Health Organization (PAHO)</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxPR0hISWJLOUJrcVVIcFRMMFJqS3dpU2xpNzd3cFpXcVZ4b0MtOG1uZ1dKaUFuWm9EeVBNMmx5N0xfOGxXWk5jUnBRdkJxZHQ5UWhfZmUwUTd5aDhKbURuM3hNbmFnaWZiV1YwQkcxWlIyYTMzeUtJZURFeXp0UTE1dkUzYlJQa001aEszZjYtMS1pblZYRVVmQWtXVEFxRWJLY0k2UjV5N0gyb1Q3Mi1peDZjNGdxeGIzLTBfVGcxaVY?oc=5\" target=\"_blank\">Actualización Epidemiológica Dengue, Chikungunya y Zika en el contexto del COVID-19: 23 diciembre 2021</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Pan American Health Organization (PAHO)</font>"
+      },
+      "source": {
+        "href": "https://www.paho.org",
+        "title": "Pan American Health Organization (PAHO)"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Mosquitoes in a warming world: The full cover story - Down To Earth",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Mosquitoes in a warming world: The full cover story - Down To Earth"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNU1pOZjZFY1ZFNXAzbkZ3NnNlcGE3eTNzY3cwSmtqUGlXVFZtSnNfdzU1N3MzRkNkSU5CS0JRN1E2Mm5aZ2RSb1NRZE1xVDZXSmhFV3d1SW5nY1BPZllsck5fajg1U2o3cGwzaGpNNVl1RlNrRTZZcWhJdnkyUDlUVDJHMEtuQVZ6bnc1SmMwbTd1QXJxX2FkcUlR0gGnAUFVX3lxTE5yV3d2a3Nmai1nZGpRbEhqa0dEQjhVQ0Ixek1JQUczN3FHd3VSRDlwSGZzT0hyM0FkeGlBdVAyZlUxNHhXY1dVTnZWeVU2cjRhUmFTcVJfc3lBRWlCZXExVXR6d2cxellael9sTWRUc2xlYjFYZkExMFJNbXF1dkJqeGpfYkZVcXBlQ1UtSHNyWllCM3FEYWNwU1lLRGtfaG94SGZDM1ZJ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNU1pOZjZFY1ZFNXAzbkZ3NnNlcGE3eTNzY3cwSmtqUGlXVFZtSnNfdzU1N3MzRkNkSU5CS0JRN1E2Mm5aZ2RSb1NRZE1xVDZXSmhFV3d1SW5nY1BPZllsck5fajg1U2o3cGwzaGpNNVl1RlNrRTZZcWhJdnkyUDlUVDJHMEtuQVZ6bnc1SmMwbTd1QXJxX2FkcUlR0gGnAUFVX3lxTE5yV3d2a3Nmai1nZGpRbEhqa0dEQjhVQ0Ixek1JQUczN3FHd3VSRDlwSGZzT0hyM0FkeGlBdVAyZlUxNHhXY1dVTnZWeVU2cjRhUmFTcVJfc3lBRWlCZXExVXR6d2cxellael9sTWRUc2xlYjFYZkExMFJNbXF1dkJqeGpfYkZVcXBlQ1UtSHNyWllCM3FEYWNwU1lLRGtfaG94SGZDM1ZJ?oc=5",
+      "id": "CBMimgFBVV95cUxNU1pOZjZFY1ZFNXAzbkZ3NnNlcGE3eTNzY3cwSmtqUGlXVFZtSnNfdzU1N3MzRkNkSU5CS0JRN1E2Mm5aZ2RSb1NRZE1xVDZXSmhFV3d1SW5nY1BPZllsck5fajg1U2o3cGwzaGpNNVl1RlNrRTZZcWhJdnkyUDlUVDJHMEtuQVZ6bnc1SmMwbTd1QXJxX2FkcUlR0gGnAUFVX3lxTE5yV3d2a3Nmai1nZGpRbEhqa0dEQjhVQ0Ixek1JQUczN3FHd3VSRDlwSGZzT0hyM0FkeGlBdVAyZlUxNHhXY1dVTnZWeVU2cjRhUmFTcVJfc3lBRWlCZXExVXR6d2cxellael9sTWRUc2xlYjFYZkExMFJNbXF1dkJqeGpfYkZVcXBlQ1UtSHNyWllCM3FEYWNwU1lLRGtfaG94SGZDM1ZJ",
+      "guidislink": false,
+      "published": "Fri, 17 Dec 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        12,
+        17,
+        8,
+        0,
+        0,
+        4,
+        351,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxNU1pOZjZFY1ZFNXAzbkZ3NnNlcGE3eTNzY3cwSmtqUGlXVFZtSnNfdzU1N3MzRkNkSU5CS0JRN1E2Mm5aZ2RSb1NRZE1xVDZXSmhFV3d1SW5nY1BPZllsck5fajg1U2o3cGwzaGpNNVl1RlNrRTZZcWhJdnkyUDlUVDJHMEtuQVZ6bnc1SmMwbTd1QXJxX2FkcUlR0gGnAUFVX3lxTE5yV3d2a3Nmai1nZGpRbEhqa0dEQjhVQ0Ixek1JQUczN3FHd3VSRDlwSGZzT0hyM0FkeGlBdVAyZlUxNHhXY1dVTnZWeVU2cjRhUmFTcVJfc3lBRWlCZXExVXR6d2cxellael9sTWRUc2xlYjFYZkExMFJNbXF1dkJqeGpfYkZVcXBlQ1UtSHNyWllCM3FEYWNwU1lLRGtfaG94SGZDM1ZJ?oc=5\" target=\"_blank\">Mosquitoes in a warming world: The full cover story</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Down To Earth</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxNU1pOZjZFY1ZFNXAzbkZ3NnNlcGE3eTNzY3cwSmtqUGlXVFZtSnNfdzU1N3MzRkNkSU5CS0JRN1E2Mm5aZ2RSb1NRZE1xVDZXSmhFV3d1SW5nY1BPZllsck5fajg1U2o3cGwzaGpNNVl1RlNrRTZZcWhJdnkyUDlUVDJHMEtuQVZ6bnc1SmMwbTd1QXJxX2FkcUlR0gGnAUFVX3lxTE5yV3d2a3Nmai1nZGpRbEhqa0dEQjhVQ0Ixek1JQUczN3FHd3VSRDlwSGZzT0hyM0FkeGlBdVAyZlUxNHhXY1dVTnZWeVU2cjRhUmFTcVJfc3lBRWlCZXExVXR6d2cxellael9sTWRUc2xlYjFYZkExMFJNbXF1dkJqeGpfYkZVcXBlQ1UtSHNyWllCM3FEYWNwU1lLRGtfaG94SGZDM1ZJ?oc=5\" target=\"_blank\">Mosquitoes in a warming world: The full cover story</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Down To Earth</font>"
+      },
+      "source": {
+        "href": "https://www.downtoearth.org.in",
+        "title": "Down To Earth"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "RIP: Deon Unthank, Founder and CEO of AbsolutelyGospel.com - Journal of Gospel Music",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "RIP: Deon Unthank, Founder and CEO of AbsolutelyGospel.com - Journal of Gospel Music"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPS1B5eDRQT2REQ0FtREZ0NzVZd2wxSERISWZSMlhGbGZNUVloUXF6TkZsTFFua2l5aFI0OWhtRzF3VXNfOFI1STZha1pNdXBsN20yN2VNSzR6ZU51dUhHSTBrQWlYWHpCUTRCb3JvTjBsMFJoVVZick0yMXdmZUtTdVdpeUhqUUZ1Xzd5U0M0TTJSSXJZWktQYnhyX1lvTTAwcktR?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPS1B5eDRQT2REQ0FtREZ0NzVZd2wxSERISWZSMlhGbGZNUVloUXF6TkZsTFFua2l5aFI0OWhtRzF3VXNfOFI1STZha1pNdXBsN20yN2VNSzR6ZU51dUhHSTBrQWlYWHpCUTRCb3JvTjBsMFJoVVZick0yMXdmZUtTdVdpeUhqUUZ1Xzd5U0M0TTJSSXJZWktQYnhyX1lvTTAwcktR?oc=5",
+      "id": "CBMiowFBVV95cUxPS1B5eDRQT2REQ0FtREZ0NzVZd2wxSERISWZSMlhGbGZNUVloUXF6TkZsTFFua2l5aFI0OWhtRzF3VXNfOFI1STZha1pNdXBsN20yN2VNSzR6ZU51dUhHSTBrQWlYWHpCUTRCb3JvTjBsMFJoVVZick0yMXdmZUtTdVdpeUhqUUZ1Xzd5U0M0TTJSSXJZWktQYnhyX1lvTTAwcktR",
+      "guidislink": false,
+      "published": "Tue, 21 Dec 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        12,
+        21,
+        8,
+        0,
+        0,
+        1,
+        355,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxPS1B5eDRQT2REQ0FtREZ0NzVZd2wxSERISWZSMlhGbGZNUVloUXF6TkZsTFFua2l5aFI0OWhtRzF3VXNfOFI1STZha1pNdXBsN20yN2VNSzR6ZU51dUhHSTBrQWlYWHpCUTRCb3JvTjBsMFJoVVZick0yMXdmZUtTdVdpeUhqUUZ1Xzd5U0M0TTJSSXJZWktQYnhyX1lvTTAwcktR?oc=5\" target=\"_blank\">RIP: Deon Unthank, Founder and CEO of AbsolutelyGospel.com</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Journal of Gospel Music</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxPS1B5eDRQT2REQ0FtREZ0NzVZd2wxSERISWZSMlhGbGZNUVloUXF6TkZsTFFua2l5aFI0OWhtRzF3VXNfOFI1STZha1pNdXBsN20yN2VNSzR6ZU51dUhHSTBrQWlYWHpCUTRCb3JvTjBsMFJoVVZick0yMXdmZUtTdVdpeUhqUUZ1Xzd5U0M0TTJSSXJZWktQYnhyX1lvTTAwcktR?oc=5\" target=\"_blank\">RIP: Deon Unthank, Founder and CEO of AbsolutelyGospel.com</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Journal of Gospel Music</font>"
+      },
+      "source": {
+        "href": "https://journalofgospelmusic.com",
+        "title": "Journal of Gospel Music"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "The story of MRNA COVID-19 Vaccines - Unicef",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "The story of MRNA COVID-19 Vaccines - Unicef"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9PQV9MX0QzQ0RiR3JZV1R1LTJmNXIyYTE3UUxaZjExM0JhZDJ0bkItZjdJLVdOQkQyUHlnZy0xQzBuNExhczIxVzVJTmxvY25vYzM1d05DOHY5aUVMNHE5LXZQZjQ2ZmR6Zkh0emp4SVIxRE54S2c?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9PQV9MX0QzQ0RiR3JZV1R1LTJmNXIyYTE3UUxaZjExM0JhZDJ0bkItZjdJLVdOQkQyUHlnZy0xQzBuNExhczIxVzVJTmxvY25vYzM1d05DOHY5aUVMNHE5LXZQZjQ2ZmR6Zkh0emp4SVIxRE54S2c?oc=5",
+      "id": "CBMidkFVX3lxTE9PQV9MX0QzQ0RiR3JZV1R1LTJmNXIyYTE3UUxaZjExM0JhZDJ0bkItZjdJLVdOQkQyUHlnZy0xQzBuNExhczIxVzVJTmxvY25vYzM1d05DOHY5aUVMNHE5LXZQZjQ2ZmR6Zkh0emp4SVIxRE54S2c",
+      "guidislink": false,
+      "published": "Wed, 29 Dec 2021 08:54:10 GMT",
+      "published_parsed": [
+        2021,
+        12,
+        29,
+        8,
+        54,
+        10,
+        2,
+        363,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE9PQV9MX0QzQ0RiR3JZV1R1LTJmNXIyYTE3UUxaZjExM0JhZDJ0bkItZjdJLVdOQkQyUHlnZy0xQzBuNExhczIxVzVJTmxvY25vYzM1d05DOHY5aUVMNHE5LXZQZjQ2ZmR6Zkh0emp4SVIxRE54S2c?oc=5\" target=\"_blank\">The story of MRNA COVID-19 Vaccines</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Unicef</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE9PQV9MX0QzQ0RiR3JZV1R1LTJmNXIyYTE3UUxaZjExM0JhZDJ0bkItZjdJLVdOQkQyUHlnZy0xQzBuNExhczIxVzVJTmxvY25vYzM1d05DOHY5aUVMNHE5LXZQZjQ2ZmR6Zkh0emp4SVIxRE54S2c?oc=5\" target=\"_blank\">The story of MRNA COVID-19 Vaccines</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Unicef</font>"
+      },
+      "source": {
+        "href": "https://www.unicef.org",
+        "title": "Unicef"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "APMIS | Medical Research Journal - Wiley Online Library",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "APMIS | Medical Research Journal - Wiley Online Library"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0wcFBuMFRfekoxQ1BlaUhZbGlVYTRYeWVHMzJwOEpvS09mclg4LVNhX3hBaEs4Q1VRM0t5SUhCcllUaG90cWhwR2VxeENVajRnWHo4bFVSUUw3UWZzMDBGcDA3cw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0wcFBuMFRfekoxQ1BlaUhZbGlVYTRYeWVHMzJwOEpvS09mclg4LVNhX3hBaEs4Q1VRM0t5SUhCcllUaG90cWhwR2VxeENVajRnWHo4bFVSUUw3UWZzMDBGcDA3cw?oc=5",
+      "id": "CBMiY0FVX3lxTE0wcFBuMFRfekoxQ1BlaUhZbGlVYTRYeWVHMzJwOEpvS09mclg4LVNhX3hBaEs4Q1VRM0t5SUhCcllUaG90cWhwR2VxeENVajRnWHo4bFVSUUw3UWZzMDBGcDA3cw",
+      "guidislink": false,
+      "published": "Wed, 22 Dec 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        12,
+        22,
+        8,
+        0,
+        0,
+        2,
+        356,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiY0FVX3lxTE0wcFBuMFRfekoxQ1BlaUhZbGlVYTRYeWVHMzJwOEpvS09mclg4LVNhX3hBaEs4Q1VRM0t5SUhCcllUaG90cWhwR2VxeENVajRnWHo4bFVSUUw3UWZzMDBGcDA3cw?oc=5\" target=\"_blank\">APMIS | Medical Research Journal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Wiley Online Library</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiY0FVX3lxTE0wcFBuMFRfekoxQ1BlaUhZbGlVYTRYeWVHMzJwOEpvS09mclg4LVNhX3hBaEs4Q1VRM0t5SUhCcllUaG90cWhwR2VxeENVajRnWHo4bFVSUUw3UWZzMDBGcDA3cw?oc=5\" target=\"_blank\">APMIS | Medical Research Journal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Wiley Online Library</font>"
+      },
+      "source": {
+        "href": "https://onlinelibrary.wiley.com",
+        "title": "Wiley Online Library"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Oxitec: Lord of the Mosquitoes - Key West The Newspaper",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Oxitec: Lord of the Mosquitoes - Key West The Newspaper"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA4cHlnOFJyZmRmV3psNTZmbGtYQWFlNU85cGxta2NCWThYMENQbFU1UXNQakliUm1zYl9ydU5RWkpjY3h0eGVwa2s3N0dicXdlVGJKTkx5OFYxUENi?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA4cHlnOFJyZmRmV3psNTZmbGtYQWFlNU85cGxta2NCWThYMENQbFU1UXNQakliUm1zYl9ydU5RWkpjY3h0eGVwa2s3N0dicXdlVGJKTkx5OFYxUENi?oc=5",
+      "id": "CBMiXEFVX3lxTFA4cHlnOFJyZmRmV3psNTZmbGtYQWFlNU85cGxta2NCWThYMENQbFU1UXNQakliUm1zYl9ydU5RWkpjY3h0eGVwa2s3N0dicXdlVGJKTkx5OFYxUENi",
+      "guidislink": false,
+      "published": "Sun, 19 Dec 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        12,
+        19,
+        8,
+        0,
+        0,
+        6,
+        353,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTFA4cHlnOFJyZmRmV3psNTZmbGtYQWFlNU85cGxta2NCWThYMENQbFU1UXNQakliUm1zYl9ydU5RWkpjY3h0eGVwa2s3N0dicXdlVGJKTkx5OFYxUENi?oc=5\" target=\"_blank\">Oxitec: Lord of the Mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Key West The Newspaper</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTFA4cHlnOFJyZmRmV3psNTZmbGtYQWFlNU85cGxta2NCWThYMENQbFU1UXNQakliUm1zYl9ydU5RWkpjY3h0eGVwa2s3N0dicXdlVGJKTkx5OFYxUENi?oc=5\" target=\"_blank\">Oxitec: Lord of the Mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Key West The Newspaper</font>"
+      },
+      "source": {
+        "href": "https://thebluepaper.com",
+        "title": "Key West The Newspaper"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Another New Hampshire Fugitive Is Captured In The Sunshine State - Patch",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Another New Hampshire Fugitive Is Captured In The Sunshine State - Patch"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMingFBVV95cUxNc2d5OWhQejVnZ3o2d1lhUFdZR2c2Z0hpWDFkWWtnNGFZdEhFcFFHOHBVcFZwYUxVb3lzekpoMVpZaGs2Y0c1RHhBVVdFY3p2NnVHUzVNZGF3SVNmanRQS3h4ZU1RNlBTRFRZa1NPNUhrSXFwY1lpbmNSR3ExY09CczFyZFNDRFhUdWlnR2c3bXpkNTRfbVBkMS1ZN3k3dw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNc2d5OWhQejVnZ3o2d1lhUFdZR2c2Z0hpWDFkWWtnNGFZdEhFcFFHOHBVcFZwYUxVb3lzekpoMVpZaGs2Y0c1RHhBVVdFY3p2NnVHUzVNZGF3SVNmanRQS3h4ZU1RNlBTRFRZa1NPNUhrSXFwY1lpbmNSR3ExY09CczFyZFNDRFhUdWlnR2c3bXpkNTRfbVBkMS1ZN3k3dw?oc=5",
+      "id": "CBMingFBVV95cUxNc2d5OWhQejVnZ3o2d1lhUFdZR2c2Z0hpWDFkWWtnNGFZdEhFcFFHOHBVcFZwYUxVb3lzekpoMVpZaGs2Y0c1RHhBVVdFY3p2NnVHUzVNZGF3SVNmanRQS3h4ZU1RNlBTRFRZa1NPNUhrSXFwY1lpbmNSR3ExY09CczFyZFNDRFhUdWlnR2c3bXpkNTRfbVBkMS1ZN3k3dw",
+      "guidislink": false,
+      "published": "Mon, 27 Dec 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        12,
+        27,
+        8,
+        0,
+        0,
+        0,
+        361,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNc2d5OWhQejVnZ3o2d1lhUFdZR2c2Z0hpWDFkWWtnNGFZdEhFcFFHOHBVcFZwYUxVb3lzekpoMVpZaGs2Y0c1RHhBVVdFY3p2NnVHUzVNZGF3SVNmanRQS3h4ZU1RNlBTRFRZa1NPNUhrSXFwY1lpbmNSR3ExY09CczFyZFNDRFhUdWlnR2c3bXpkNTRfbVBkMS1ZN3k3dw?oc=5\" target=\"_blank\">Another New Hampshire Fugitive Is Captured In The Sunshine State</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Patch</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNc2d5OWhQejVnZ3o2d1lhUFdZR2c2Z0hpWDFkWWtnNGFZdEhFcFFHOHBVcFZwYUxVb3lzekpoMVpZaGs2Y0c1RHhBVVdFY3p2NnVHUzVNZGF3SVNmanRQS3h4ZU1RNlBTRFRZa1NPNUhrSXFwY1lpbmNSR3ExY09CczFyZFNDRFhUdWlnR2c3bXpkNTRfbVBkMS1ZN3k3dw?oc=5\" target=\"_blank\">Another New Hampshire Fugitive Is Captured In The Sunshine State</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Patch</font>"
+      },
+      "source": {
+        "href": "https://patch.com",
+        "title": "Patch"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Bauer and Mitrović, genre classics - vreme.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Bauer and Mitrović, genre classics - vreme.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9nYVFvQTRrVnZFYnNBTWVzU2FYYWJIZ1VQcGFlcXcyVi1YVGdJSkZVWHRSVXhVczBFYnhwRzNuZGhYazhiSEpSejY3ZmMxaTdVR3lIMjFidkgxdzBncWliQ0lVcUdqcjRNclRMOUtHWjQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9nYVFvQTRrVnZFYnNBTWVzU2FYYWJIZ1VQcGFlcXcyVi1YVGdJSkZVWHRSVXhVczBFYnhwRzNuZGhYazhiSEpSejY3ZmMxaTdVR3lIMjFidkgxdzBncWliQ0lVcUdqcjRNclRMOUtHWjQ?oc=5",
+      "id": "CBMicEFVX3lxTE9nYVFvQTRrVnZFYnNBTWVzU2FYYWJIZ1VQcGFlcXcyVi1YVGdJSkZVWHRSVXhVczBFYnhwRzNuZGhYazhiSEpSejY3ZmMxaTdVR3lIMjFidkgxdzBncWliQ0lVcUdqcjRNclRMOUtHWjQ",
+      "guidislink": false,
+      "published": "Wed, 22 Dec 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        12,
+        22,
+        8,
+        0,
+        0,
+        2,
+        356,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE9nYVFvQTRrVnZFYnNBTWVzU2FYYWJIZ1VQcGFlcXcyVi1YVGdJSkZVWHRSVXhVczBFYnhwRzNuZGhYazhiSEpSejY3ZmMxaTdVR3lIMjFidkgxdzBncWliQ0lVcUdqcjRNclRMOUtHWjQ?oc=5\" target=\"_blank\">Bauer and Mitrović, genre classics</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">vreme.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE9nYVFvQTRrVnZFYnNBTWVzU2FYYWJIZ1VQcGFlcXcyVi1YVGdJSkZVWHRSVXhVczBFYnhwRzNuZGhYazhiSEpSejY3ZmMxaTdVR3lIMjFidkgxdzBncWliQ0lVcUdqcjRNclRMOUtHWjQ?oc=5\" target=\"_blank\">Bauer and Mitrović, genre classics</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">vreme.com</font>"
+      },
+      "source": {
+        "href": "https://vreme.com",
+        "title": "vreme.com"
+      },
+      "sub_articles": []
+    }
+  ]
+}

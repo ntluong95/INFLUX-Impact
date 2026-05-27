@@ -1,0 +1,994 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2021-09-10",
+  "window_end": "2021-09-23",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2021-09-10+before%3A2021-09-24&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2021-09-10+before:2021-09-24&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:28:45Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2021-09-10 before:2021-09-24\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2021-09-10 before:2021-09-24\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2021-09-10+before:2021-09-24&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2021-09-10+before:2021-09-24&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:28:45 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      28,
+      45,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Singh Receives Nearly $2 Million to Investigate Link Between Zika Virus and Congenital Glaucoma - University of Missouri School of Medicine",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Singh Receives Nearly $2 Million to Investigate Link Between Zika Virus and Congenital Glaucoma - University of Missouri School of Medicine"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUE15V2JLbHZhSkxESzhmLVFQN1NyUEluWjVZVy00UXJzWWgzVmo4ZzVhQ055amdodm5sTkhYUDZaQWt3TXBHUWwtMkRrWmRHSU9RRnJSZXJkV2NBUU1MQ1Jfc2JDUFg4MXhmaWxWbmYxY2JpN0NwU1JoWkZzNV80UGZpaWc3bFJtWk5lTXZ0LVU2M3hzeU4ySmFhV0lVWVBFQXp0UndlOEZOS2RJUFZzNmNycnMxOVFSckRsYVdkQi1jdzZZ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUE15V2JLbHZhSkxESzhmLVFQN1NyUEluWjVZVy00UXJzWWgzVmo4ZzVhQ055amdodm5sTkhYUDZaQWt3TXBHUWwtMkRrWmRHSU9RRnJSZXJkV2NBUU1MQ1Jfc2JDUFg4MXhmaWxWbmYxY2JpN0NwU1JoWkZzNV80UGZpaWc3bFJtWk5lTXZ0LVU2M3hzeU4ySmFhV0lVWVBFQXp0UndlOEZOS2RJUFZzNmNycnMxOVFSckRsYVdkQi1jdzZZ?oc=5",
+      "id": "CBMixAFBVV95cUxPUE15V2JLbHZhSkxESzhmLVFQN1NyUEluWjVZVy00UXJzWWgzVmo4ZzVhQ055amdodm5sTkhYUDZaQWt3TXBHUWwtMkRrWmRHSU9RRnJSZXJkV2NBUU1MQ1Jfc2JDUFg4MXhmaWxWbmYxY2JpN0NwU1JoWkZzNV80UGZpaWc3bFJtWk5lTXZ0LVU2M3hzeU4ySmFhV0lVWVBFQXp0UndlOEZOS2RJUFZzNmNycnMxOVFSckRsYVdkQi1jdzZZ",
+      "guidislink": false,
+      "published": "Tue, 21 Sep 2021 07:00:00 GMT",
+      "published_parsed": [
+        2021,
+        9,
+        21,
+        7,
+        0,
+        0,
+        1,
+        264,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxPUE15V2JLbHZhSkxESzhmLVFQN1NyUEluWjVZVy00UXJzWWgzVmo4ZzVhQ055amdodm5sTkhYUDZaQWt3TXBHUWwtMkRrWmRHSU9RRnJSZXJkV2NBUU1MQ1Jfc2JDUFg4MXhmaWxWbmYxY2JpN0NwU1JoWkZzNV80UGZpaWc3bFJtWk5lTXZ0LVU2M3hzeU4ySmFhV0lVWVBFQXp0UndlOEZOS2RJUFZzNmNycnMxOVFSckRsYVdkQi1jdzZZ?oc=5\" target=\"_blank\">Singh Receives Nearly $2 Million to Investigate Link Between Zika Virus and Congenital Glaucoma</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of Missouri School of Medicine</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxPUE15V2JLbHZhSkxESzhmLVFQN1NyUEluWjVZVy00UXJzWWgzVmo4ZzVhQ055amdodm5sTkhYUDZaQWt3TXBHUWwtMkRrWmRHSU9RRnJSZXJkV2NBUU1MQ1Jfc2JDUFg4MXhmaWxWbmYxY2JpN0NwU1JoWkZzNV80UGZpaWc3bFJtWk5lTXZ0LVU2M3hzeU4ySmFhV0lVWVBFQXp0UndlOEZOS2RJUFZzNmNycnMxOVFSckRsYVdkQi1jdzZZ?oc=5\" target=\"_blank\">Singh Receives Nearly $2 Million to Investigate Link Between Zika Virus and Congenital Glaucoma</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of Missouri School of Medicine</font>"
+      },
+      "source": {
+        "href": "https://medicine.missouri.edu",
+        "title": "University of Missouri School of Medicine"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Common pesticide may have made the Zika epidemic worse – new research - The Conversation",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Common pesticide may have made the Zika epidemic worse – new research - The Conversation"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNT3k2aUQ5aWtRcDdWZ0VScURRZmxDT0lwdUhHTDc0MWxwbW5sdko3dmt5MFFPR2prRFF1WWtFa3dMTk82MDZ3T3VhaWZSdWZycTdFMXhkcEp2NWRHS2pxWnc3T3pQWmpEM1V3Nk9ST1JmQm5rWFhnYXo1QThtdUczb2k3ZHppZ1RsMFBBQUpLSk9GYzA2VHByc1RCZHZpRXZhTlZXVA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNT3k2aUQ5aWtRcDdWZ0VScURRZmxDT0lwdUhHTDc0MWxwbW5sdko3dmt5MFFPR2prRFF1WWtFa3dMTk82MDZ3T3VhaWZSdWZycTdFMXhkcEp2NWRHS2pxWnc3T3pQWmpEM1V3Nk9ST1JmQm5rWFhnYXo1QThtdUczb2k3ZHppZ1RsMFBBQUpLSk9GYzA2VHByc1RCZHZpRXZhTlZXVA?oc=5",
+      "id": "CBMipAFBVV95cUxNT3k2aUQ5aWtRcDdWZ0VScURRZmxDT0lwdUhHTDc0MWxwbW5sdko3dmt5MFFPR2prRFF1WWtFa3dMTk82MDZ3T3VhaWZSdWZycTdFMXhkcEp2NWRHS2pxWnc3T3pQWmpEM1V3Nk9ST1JmQm5rWFhnYXo1QThtdUczb2k3ZHppZ1RsMFBBQUpLSk9GYzA2VHByc1RCZHZpRXZhTlZXVA",
+      "guidislink": false,
+      "published": "Tue, 21 Sep 2021 07:00:00 GMT",
+      "published_parsed": [
+        2021,
+        9,
+        21,
+        7,
+        0,
+        0,
+        1,
+        264,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxNT3k2aUQ5aWtRcDdWZ0VScURRZmxDT0lwdUhHTDc0MWxwbW5sdko3dmt5MFFPR2prRFF1WWtFa3dMTk82MDZ3T3VhaWZSdWZycTdFMXhkcEp2NWRHS2pxWnc3T3pQWmpEM1V3Nk9ST1JmQm5rWFhnYXo1QThtdUczb2k3ZHppZ1RsMFBBQUpLSk9GYzA2VHByc1RCZHZpRXZhTlZXVA?oc=5\" target=\"_blank\">Common pesticide may have made the Zika epidemic worse – new research</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Conversation</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxNT3k2aUQ5aWtRcDdWZ0VScURRZmxDT0lwdUhHTDc0MWxwbW5sdko3dmt5MFFPR2prRFF1WWtFa3dMTk82MDZ3T3VhaWZSdWZycTdFMXhkcEp2NWRHS2pxWnc3T3pQWmpEM1V3Nk9ST1JmQm5rWFhnYXo1QThtdUczb2k3ZHppZ1RsMFBBQUpLSk9GYzA2VHByc1RCZHZpRXZhTlZXVA?oc=5\" target=\"_blank\">Common pesticide may have made the Zika epidemic worse – new research</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Conversation</font>"
+      },
+      "source": {
+        "href": "https://theconversation.com",
+        "title": "The Conversation"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Bisbenzylisoquinoline Alkaloids of Cissampelos Sympodialis With in Vitro Antiviral Activity Against Zika Virus - Frontiers",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Bisbenzylisoquinoline Alkaloids of Cissampelos Sympodialis With in Vitro Antiviral Activity Against Zika Virus - Frontiers"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQNFFlV1d0S2htcXd3YUd5RncwV2ZTMnIySUxoVFpYX244ZDhqSlUtRnc4VXFHLVdoY1M2SmlISDhMQUMxR2Nkd1NIOGdFTXNaTVR2M1NNSUxVTmR6Mmt0Wk5WRTBnQnRDdUhZOG5Fam9CRkpodGZWMzdqZ2t6NWg3SjljbzVNMkM2VFU2RE9vM01Ka3M?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQNFFlV1d0S2htcXd3YUd5RncwV2ZTMnIySUxoVFpYX244ZDhqSlUtRnc4VXFHLVdoY1M2SmlISDhMQUMxR2Nkd1NIOGdFTXNaTVR2M1NNSUxVTmR6Mmt0Wk5WRTBnQnRDdUhZOG5Fam9CRkpodGZWMzdqZ2t6NWg3SjljbzVNMkM2VFU2RE9vM01Ka3M?oc=5",
+      "id": "CBMikwFBVV95cUxQNFFlV1d0S2htcXd3YUd5RncwV2ZTMnIySUxoVFpYX244ZDhqSlUtRnc4VXFHLVdoY1M2SmlISDhMQUMxR2Nkd1NIOGdFTXNaTVR2M1NNSUxVTmR6Mmt0Wk5WRTBnQnRDdUhZOG5Fam9CRkpodGZWMzdqZ2t6NWg3SjljbzVNMkM2VFU2RE9vM01Ka3M",
+      "guidislink": false,
+      "published": "Tue, 14 Sep 2021 07:00:00 GMT",
+      "published_parsed": [
+        2021,
+        9,
+        14,
+        7,
+        0,
+        0,
+        1,
+        257,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxQNFFlV1d0S2htcXd3YUd5RncwV2ZTMnIySUxoVFpYX244ZDhqSlUtRnc4VXFHLVdoY1M2SmlISDhMQUMxR2Nkd1NIOGdFTXNaTVR2M1NNSUxVTmR6Mmt0Wk5WRTBnQnRDdUhZOG5Fam9CRkpodGZWMzdqZ2t6NWg3SjljbzVNMkM2VFU2RE9vM01Ka3M?oc=5\" target=\"_blank\">Bisbenzylisoquinoline Alkaloids of Cissampelos Sympodialis With in Vitro Antiviral Activity Against Zika Virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Frontiers</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxQNFFlV1d0S2htcXd3YUd5RncwV2ZTMnIySUxoVFpYX244ZDhqSlUtRnc4VXFHLVdoY1M2SmlISDhMQUMxR2Nkd1NIOGdFTXNaTVR2M1NNSUxVTmR6Mmt0Wk5WRTBnQnRDdUhZOG5Fam9CRkpodGZWMzdqZ2t6NWg3SjljbzVNMkM2VFU2RE9vM01Ka3M?oc=5\" target=\"_blank\">Bisbenzylisoquinoline Alkaloids of Cissampelos Sympodialis With in Vitro Antiviral Activity Against Zika Virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Frontiers</font>"
+      },
+      "source": {
+        "href": "https://www.frontiersin.org",
+        "title": "Frontiers"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Proteins that outwit emerging and re-emerging viruses - Ohio State News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Proteins that outwit emerging and re-emerging viruses - Ohio State News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQOTR4T3A3TzZSUTNoVUc2NmdCZ1B3VERHQUVZd0RYc0pyUFFVUk8yR1NaMWFlSlJ1bHpXb19yTUdxTzFjT0oxbE81MG4wUGFZNWdoWlVxeEE5eWxWNDBkcEl0NGV0dDFNQTdyMXdXaGJlTHBfaG0yWnhWbE1CNDZGTQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQOTR4T3A3TzZSUTNoVUc2NmdCZ1B3VERHQUVZd0RYc0pyUFFVUk8yR1NaMWFlSlJ1bHpXb19yTUdxTzFjT0oxbE81MG4wUGFZNWdoWlVxeEE5eWxWNDBkcEl0NGV0dDFNQTdyMXdXaGJlTHBfaG0yWnhWbE1CNDZGTQ?oc=5",
+      "id": "CBMigAFBVV95cUxQOTR4T3A3TzZSUTNoVUc2NmdCZ1B3VERHQUVZd0RYc0pyUFFVUk8yR1NaMWFlSlJ1bHpXb19yTUdxTzFjT0oxbE81MG4wUGFZNWdoWlVxeEE5eWxWNDBkcEl0NGV0dDFNQTdyMXdXaGJlTHBfaG0yWnhWbE1CNDZGTQ",
+      "guidislink": false,
+      "published": "Tue, 14 Sep 2021 07:00:00 GMT",
+      "published_parsed": [
+        2021,
+        9,
+        14,
+        7,
+        0,
+        0,
+        1,
+        257,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxQOTR4T3A3TzZSUTNoVUc2NmdCZ1B3VERHQUVZd0RYc0pyUFFVUk8yR1NaMWFlSlJ1bHpXb19yTUdxTzFjT0oxbE81MG4wUGFZNWdoWlVxeEE5eWxWNDBkcEl0NGV0dDFNQTdyMXdXaGJlTHBfaG0yWnhWbE1CNDZGTQ?oc=5\" target=\"_blank\">Proteins that outwit emerging and re-emerging viruses</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Ohio State News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxQOTR4T3A3TzZSUTNoVUc2NmdCZ1B3VERHQUVZd0RYc0pyUFFVUk8yR1NaMWFlSlJ1bHpXb19yTUdxTzFjT0oxbE81MG4wUGFZNWdoWlVxeEE5eWxWNDBkcEl0NGV0dDFNQTdyMXdXaGJlTHBfaG0yWnhWbE1CNDZGTQ?oc=5\" target=\"_blank\">Proteins that outwit emerging and re-emerging viruses</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Ohio State News</font>"
+      },
+      "source": {
+        "href": "https://news.osu.edu",
+        "title": "Ohio State News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "A targeted approach with nanopore sequencing for the universal detection and identification of flaviviruses - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "A targeted approach with nanopore sequencing for the universal detection and identification of flaviviruses - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5GMVd5czJwRzlINDAzS1oteDZKNHhGS19PSGpoYk83a1BEU2lWeTZEcjdJekVmbThNdzlwcTNOOExFSUdQQ05teDRKdEpCdUN5MnhFUXV3UnQxTDBGajhn?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5GMVd5czJwRzlINDAzS1oteDZKNHhGS19PSGpoYk83a1BEU2lWeTZEcjdJekVmbThNdzlwcTNOOExFSUdQQ05teDRKdEpCdUN5MnhFUXV3UnQxTDBGajhn?oc=5",
+      "id": "CBMiX0FVX3lxTE5GMVd5czJwRzlINDAzS1oteDZKNHhGS19PSGpoYk83a1BEU2lWeTZEcjdJekVmbThNdzlwcTNOOExFSUdQQ05teDRKdEpCdUN5MnhFUXV3UnQxTDBGajhn",
+      "guidislink": false,
+      "published": "Fri, 24 Sep 2021 07:00:00 GMT",
+      "published_parsed": [
+        2021,
+        9,
+        24,
+        7,
+        0,
+        0,
+        4,
+        267,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5GMVd5czJwRzlINDAzS1oteDZKNHhGS19PSGpoYk83a1BEU2lWeTZEcjdJekVmbThNdzlwcTNOOExFSUdQQ05teDRKdEpCdUN5MnhFUXV3UnQxTDBGajhn?oc=5\" target=\"_blank\">A targeted approach with nanopore sequencing for the universal detection and identification of flaviviruses</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5GMVd5czJwRzlINDAzS1oteDZKNHhGS19PSGpoYk83a1BEU2lWeTZEcjdJekVmbThNdzlwcTNOOExFSUdQQ05teDRKdEpCdUN5MnhFUXV3UnQxTDBGajhn?oc=5\" target=\"_blank\">A targeted approach with nanopore sequencing for the universal detection and identification of flaviviruses</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Mosquitoes Sterilized by CRISPR Powered Precision System - Genetic Engineering and Biotechnology News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Mosquitoes Sterilized by CRISPR Powered Precision System - Genetic Engineering and Biotechnology News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQkh3NThaaVNWUXdZMEhQNnBDZjNCdGVFRDhfeUNXX2NwMEVGVGw3OERoUXM3U293V0tVTmFkd1gwS1UyNlJhWFhyVUowZGFVWW9DZHEyU2NraHVTcHZtZmFsbE5XVnc0eFJaSU1yMVZlMlI4Vm9BOTYzeEI4WGdpeWZISDlqWVVyTDdSdGkzNGQwdVNvX0lDVQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQkh3NThaaVNWUXdZMEhQNnBDZjNCdGVFRDhfeUNXX2NwMEVGVGw3OERoUXM3U293V0tVTmFkd1gwS1UyNlJhWFhyVUowZGFVWW9DZHEyU2NraHVTcHZtZmFsbE5XVnc0eFJaSU1yMVZlMlI4Vm9BOTYzeEI4WGdpeWZISDlqWVVyTDdSdGkzNGQwdVNvX0lDVQ?oc=5",
+      "id": "CBMimAFBVV95cUxOQkh3NThaaVNWUXdZMEhQNnBDZjNCdGVFRDhfeUNXX2NwMEVGVGw3OERoUXM3U293V0tVTmFkd1gwS1UyNlJhWFhyVUowZGFVWW9DZHEyU2NraHVTcHZtZmFsbE5XVnc0eFJaSU1yMVZlMlI4Vm9BOTYzeEI4WGdpeWZISDlqWVVyTDdSdGkzNGQwdVNvX0lDVQ",
+      "guidislink": false,
+      "published": "Mon, 13 Sep 2021 07:00:00 GMT",
+      "published_parsed": [
+        2021,
+        9,
+        13,
+        7,
+        0,
+        0,
+        0,
+        256,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxOQkh3NThaaVNWUXdZMEhQNnBDZjNCdGVFRDhfeUNXX2NwMEVGVGw3OERoUXM3U293V0tVTmFkd1gwS1UyNlJhWFhyVUowZGFVWW9DZHEyU2NraHVTcHZtZmFsbE5XVnc0eFJaSU1yMVZlMlI4Vm9BOTYzeEI4WGdpeWZISDlqWVVyTDdSdGkzNGQwdVNvX0lDVQ?oc=5\" target=\"_blank\">Mosquitoes Sterilized by CRISPR Powered Precision System</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Genetic Engineering and Biotechnology News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxOQkh3NThaaVNWUXdZMEhQNnBDZjNCdGVFRDhfeUNXX2NwMEVGVGw3OERoUXM3U293V0tVTmFkd1gwS1UyNlJhWFhyVUowZGFVWW9DZHEyU2NraHVTcHZtZmFsbE5XVnc0eFJaSU1yMVZlMlI4Vm9BOTYzeEI4WGdpeWZISDlqWVVyTDdSdGkzNGQwdVNvX0lDVQ?oc=5\" target=\"_blank\">Mosquitoes Sterilized by CRISPR Powered Precision System</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Genetic Engineering and Biotechnology News</font>"
+      },
+      "source": {
+        "href": "https://www.genengnews.com",
+        "title": "Genetic Engineering and Biotechnology News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Payne Branch Park Open and Flourishing Thanks to Middle Fork Greenway Task Force - High Country Press",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Payne Branch Park Open and Flourishing Thanks to Middle Fork Greenway Task Force - High Country Press"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPaWR1WGJMRHlDMEctdDZDWFFTR21KUElPZE4zTHZLZ1lFMWhaZFltQTI4dlpENHU1Y09nZFdlTUxnd0JYN1F6SkVfVUdWMDlVVk5zcHdkTEk4ZWpDNVlvNWNMTnZ1aGZPOUpyZVVyUlNRTDhUWmlCdVFSVVNJSlJQbkI5dE9yWGx6MS14eDE0cjl2Z3cweWIzdDE1UkZrcTVfUkNudk4zWkhVdnNfTFRzdXlQUlnSAboBQVVfeXFMT2lYaXJSMVE4X1Rnc3EyOHNLWkRDeXI2UTJ6LVRfZzZwSHRSX1lWZG1HSEtVNWJLcTd2Mm1NaEpySUU5ZmdUci1QNk9DSk44TmRYZlJ6a1ZDWWY5MzdtOXJ1MzJ5azdOSldDVEx6ZWpYUUZETG1mYm5rRnpEUndGSjlnSXZDVXg2eUN6Zk1rT0M3SmlHcEt4LXREbzlVRHh4VkVaQkp5aEp5NUMwancyN3VFSjBSdE1COC1B?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPaWR1WGJMRHlDMEctdDZDWFFTR21KUElPZE4zTHZLZ1lFMWhaZFltQTI4dlpENHU1Y09nZFdlTUxnd0JYN1F6SkVfVUdWMDlVVk5zcHdkTEk4ZWpDNVlvNWNMTnZ1aGZPOUpyZVVyUlNRTDhUWmlCdVFSVVNJSlJQbkI5dE9yWGx6MS14eDE0cjl2Z3cweWIzdDE1UkZrcTVfUkNudk4zWkhVdnNfTFRzdXlQUlnSAboBQVVfeXFMT2lYaXJSMVE4X1Rnc3EyOHNLWkRDeXI2UTJ6LVRfZzZwSHRSX1lWZG1HSEtVNWJLcTd2Mm1NaEpySUU5ZmdUci1QNk9DSk44TmRYZlJ6a1ZDWWY5MzdtOXJ1MzJ5azdOSldDVEx6ZWpYUUZETG1mYm5rRnpEUndGSjlnSXZDVXg2eUN6Zk1rT0M3SmlHcEt4LXREbzlVRHh4VkVaQkp5aEp5NUMwancyN3VFSjBSdE1COC1B?oc=5",
+      "id": "CBMitAFBVV95cUxPaWR1WGJMRHlDMEctdDZDWFFTR21KUElPZE4zTHZLZ1lFMWhaZFltQTI4dlpENHU1Y09nZFdlTUxnd0JYN1F6SkVfVUdWMDlVVk5zcHdkTEk4ZWpDNVlvNWNMTnZ1aGZPOUpyZVVyUlNRTDhUWmlCdVFSVVNJSlJQbkI5dE9yWGx6MS14eDE0cjl2Z3cweWIzdDE1UkZrcTVfUkNudk4zWkhVdnNfTFRzdXlQUlnSAboBQVVfeXFMT2lYaXJSMVE4X1Rnc3EyOHNLWkRDeXI2UTJ6LVRfZzZwSHRSX1lWZG1HSEtVNWJLcTd2Mm1NaEpySUU5ZmdUci1QNk9DSk44TmRYZlJ6a1ZDWWY5MzdtOXJ1MzJ5azdOSldDVEx6ZWpYUUZETG1mYm5rRnpEUndGSjlnSXZDVXg2eUN6Zk1rT0M3SmlHcEt4LXREbzlVRHh4VkVaQkp5aEp5NUMwancyN3VFSjBSdE1COC1B",
+      "guidislink": false,
+      "published": "Thu, 16 Sep 2021 07:00:00 GMT",
+      "published_parsed": [
+        2021,
+        9,
+        16,
+        7,
+        0,
+        0,
+        3,
+        259,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPaWR1WGJMRHlDMEctdDZDWFFTR21KUElPZE4zTHZLZ1lFMWhaZFltQTI4dlpENHU1Y09nZFdlTUxnd0JYN1F6SkVfVUdWMDlVVk5zcHdkTEk4ZWpDNVlvNWNMTnZ1aGZPOUpyZVVyUlNRTDhUWmlCdVFSVVNJSlJQbkI5dE9yWGx6MS14eDE0cjl2Z3cweWIzdDE1UkZrcTVfUkNudk4zWkhVdnNfTFRzdXlQUlnSAboBQVVfeXFMT2lYaXJSMVE4X1Rnc3EyOHNLWkRDeXI2UTJ6LVRfZzZwSHRSX1lWZG1HSEtVNWJLcTd2Mm1NaEpySUU5ZmdUci1QNk9DSk44TmRYZlJ6a1ZDWWY5MzdtOXJ1MzJ5azdOSldDVEx6ZWpYUUZETG1mYm5rRnpEUndGSjlnSXZDVXg2eUN6Zk1rT0M3SmlHcEt4LXREbzlVRHh4VkVaQkp5aEp5NUMwancyN3VFSjBSdE1COC1B?oc=5\" target=\"_blank\">Payne Branch Park Open and Flourishing Thanks to Middle Fork Greenway Task Force</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">High Country Press</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPaWR1WGJMRHlDMEctdDZDWFFTR21KUElPZE4zTHZLZ1lFMWhaZFltQTI4dlpENHU1Y09nZFdlTUxnd0JYN1F6SkVfVUdWMDlVVk5zcHdkTEk4ZWpDNVlvNWNMTnZ1aGZPOUpyZVVyUlNRTDhUWmlCdVFSVVNJSlJQbkI5dE9yWGx6MS14eDE0cjl2Z3cweWIzdDE1UkZrcTVfUkNudk4zWkhVdnNfTFRzdXlQUlnSAboBQVVfeXFMT2lYaXJSMVE4X1Rnc3EyOHNLWkRDeXI2UTJ6LVRfZzZwSHRSX1lWZG1HSEtVNWJLcTd2Mm1NaEpySUU5ZmdUci1QNk9DSk44TmRYZlJ6a1ZDWWY5MzdtOXJ1MzJ5azdOSldDVEx6ZWpYUUZETG1mYm5rRnpEUndGSjlnSXZDVXg2eUN6Zk1rT0M3SmlHcEt4LXREbzlVRHh4VkVaQkp5aEp5NUMwancyN3VFSjBSdE1COC1B?oc=5\" target=\"_blank\">Payne Branch Park Open and Flourishing Thanks to Middle Fork Greenway Task Force</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">High Country Press</font>"
+      },
+      "source": {
+        "href": "https://www.hcpress.com",
+        "title": "High Country Press"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "New Technology Designed to Genetically Control Disease-spreading Mosquitoes - UC San Diego Today",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "New Technology Designed to Genetically Control Disease-spreading Mosquitoes - UC San Diego Today"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORlc5RGZQeWlHSTl3SDhLZXhKZk1aa0NJWkN4QTlLM1pfZHluUWM1UHlUTC11dHlOSmZmRUNnSGI4OUdjbjRDNElqZ2hOTXFjMENJT1FfOW40MHNINThHdXdsWXpPNFllbmNXY0JGLXhsVlpiOWg1ZmNJbVJ2OUJBWkh5YUtNZTE4elJ4N29udTdNVXk1TkV0MG5zSHpxeXdZOHNhd3gtdw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORlc5RGZQeWlHSTl3SDhLZXhKZk1aa0NJWkN4QTlLM1pfZHluUWM1UHlUTC11dHlOSmZmRUNnSGI4OUdjbjRDNElqZ2hOTXFjMENJT1FfOW40MHNINThHdXdsWXpPNFllbmNXY0JGLXhsVlpiOWg1ZmNJbVJ2OUJBWkh5YUtNZTE4elJ4N29udTdNVXk1TkV0MG5zSHpxeXdZOHNhd3gtdw?oc=5",
+      "id": "CBMipwFBVV95cUxORlc5RGZQeWlHSTl3SDhLZXhKZk1aa0NJWkN4QTlLM1pfZHluUWM1UHlUTC11dHlOSmZmRUNnSGI4OUdjbjRDNElqZ2hOTXFjMENJT1FfOW40MHNINThHdXdsWXpPNFllbmNXY0JGLXhsVlpiOWg1ZmNJbVJ2OUJBWkh5YUtNZTE4elJ4N29udTdNVXk1TkV0MG5zSHpxeXdZOHNhd3gtdw",
+      "guidislink": false,
+      "published": "Fri, 10 Sep 2021 07:00:00 GMT",
+      "published_parsed": [
+        2021,
+        9,
+        10,
+        7,
+        0,
+        0,
+        4,
+        253,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxORlc5RGZQeWlHSTl3SDhLZXhKZk1aa0NJWkN4QTlLM1pfZHluUWM1UHlUTC11dHlOSmZmRUNnSGI4OUdjbjRDNElqZ2hOTXFjMENJT1FfOW40MHNINThHdXdsWXpPNFllbmNXY0JGLXhsVlpiOWg1ZmNJbVJ2OUJBWkh5YUtNZTE4elJ4N29udTdNVXk1TkV0MG5zSHpxeXdZOHNhd3gtdw?oc=5\" target=\"_blank\">New Technology Designed to Genetically Control Disease-spreading Mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">UC San Diego Today</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxORlc5RGZQeWlHSTl3SDhLZXhKZk1aa0NJWkN4QTlLM1pfZHluUWM1UHlUTC11dHlOSmZmRUNnSGI4OUdjbjRDNElqZ2hOTXFjMENJT1FfOW40MHNINThHdXdsWXpPNFllbmNXY0JGLXhsVlpiOWg1ZmNJbVJ2OUJBWkh5YUtNZTE4elJ4N29udTdNVXk1TkV0MG5zSHpxeXdZOHNhd3gtdw?oc=5\" target=\"_blank\">New Technology Designed to Genetically Control Disease-spreading Mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">UC San Diego Today</font>"
+      },
+      "source": {
+        "href": "https://today.ucsd.edu",
+        "title": "UC San Diego Today"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "The 5 Best Ways to Prevent Mosquito Bites (Published 2020) - The New York Times",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "The 5 Best Ways to Prevent Mosquito Bites (Published 2020) - The New York Times"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0zdzEwMEcwR2lBdUk4MWhoMEtWRzNFaGctTEtDb0RMdlVOeUdHNGdpaWNrb0ZRbTJZc2pwNUI2c0ZCNks1SGZXUW9sYlQ4R29DZUsxOWxFamhCMDhBZVVseXhseEdJWEhjYm1LQ1l6eW9JQUVmYlVyVWVhSENhQQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0zdzEwMEcwR2lBdUk4MWhoMEtWRzNFaGctTEtDb0RMdlVOeUdHNGdpaWNrb0ZRbTJZc2pwNUI2c0ZCNks1SGZXUW9sYlQ4R29DZUsxOWxFamhCMDhBZVVseXhseEdJWEhjYm1LQ1l6eW9JQUVmYlVyVWVhSENhQQ?oc=5",
+      "id": "CBMifkFVX3lxTE0zdzEwMEcwR2lBdUk4MWhoMEtWRzNFaGctTEtDb0RMdlVOeUdHNGdpaWNrb0ZRbTJZc2pwNUI2c0ZCNks1SGZXUW9sYlQ4R29DZUsxOWxFamhCMDhBZVVseXhseEdJWEhjYm1LQ1l6eW9JQUVmYlVyVWVhSENhQQ",
+      "guidislink": false,
+      "published": "Wed, 22 Sep 2021 07:00:00 GMT",
+      "published_parsed": [
+        2021,
+        9,
+        22,
+        7,
+        0,
+        0,
+        2,
+        265,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE0zdzEwMEcwR2lBdUk4MWhoMEtWRzNFaGctTEtDb0RMdlVOeUdHNGdpaWNrb0ZRbTJZc2pwNUI2c0ZCNks1SGZXUW9sYlQ4R29DZUsxOWxFamhCMDhBZVVseXhseEdJWEhjYm1LQ1l6eW9JQUVmYlVyVWVhSENhQQ?oc=5\" target=\"_blank\">The 5 Best Ways to Prevent Mosquito Bites (Published 2020)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New York Times</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE0zdzEwMEcwR2lBdUk4MWhoMEtWRzNFaGctTEtDb0RMdlVOeUdHNGdpaWNrb0ZRbTJZc2pwNUI2c0ZCNks1SGZXUW9sYlQ4R29DZUsxOWxFamhCMDhBZVVseXhseEdJWEhjYm1LQ1l6eW9JQUVmYlVyVWVhSENhQQ?oc=5\" target=\"_blank\">The 5 Best Ways to Prevent Mosquito Bites (Published 2020)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New York Times</font>"
+      },
+      "source": {
+        "href": "https://www.nytimes.com",
+        "title": "The New York Times"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "How will a changing climate affect the future of vector borne diseases? - PreventionWeb.net",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "How will a changing climate affect the future of vector borne diseases? - PreventionWeb.net"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUTF4TXdvN3NsSFVzRDhFMWNtYUcwVFVOZDBmSk1QczZuTEZVN1JMM0VZM0dBVjZYU1l1NEkyZVRDNDFhVHdxOWJnUUxOS2piRHdxWU1aUGh6eUJBSi1KcHlRRnJ5ZmdKVzZ3QmRPYzhlREZqUHNDNjN1V1FmUW5MdzZIS2pwd21lekxmWEctWEZKSFQyREhXRnQ1aVo?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUTF4TXdvN3NsSFVzRDhFMWNtYUcwVFVOZDBmSk1QczZuTEZVN1JMM0VZM0dBVjZYU1l1NEkyZVRDNDFhVHdxOWJnUUxOS2piRHdxWU1aUGh6eUJBSi1KcHlRRnJ5ZmdKVzZ3QmRPYzhlREZqUHNDNjN1V1FmUW5MdzZIS2pwd21lekxmWEctWEZKSFQyREhXRnQ1aVo?oc=5",
+      "id": "CBMinAFBVV95cUxQUTF4TXdvN3NsSFVzRDhFMWNtYUcwVFVOZDBmSk1QczZuTEZVN1JMM0VZM0dBVjZYU1l1NEkyZVRDNDFhVHdxOWJnUUxOS2piRHdxWU1aUGh6eUJBSi1KcHlRRnJ5ZmdKVzZ3QmRPYzhlREZqUHNDNjN1V1FmUW5MdzZIS2pwd21lekxmWEctWEZKSFQyREhXRnQ1aVo",
+      "guidislink": false,
+      "published": "Fri, 17 Sep 2021 07:00:00 GMT",
+      "published_parsed": [
+        2021,
+        9,
+        17,
+        7,
+        0,
+        0,
+        4,
+        260,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxQUTF4TXdvN3NsSFVzRDhFMWNtYUcwVFVOZDBmSk1QczZuTEZVN1JMM0VZM0dBVjZYU1l1NEkyZVRDNDFhVHdxOWJnUUxOS2piRHdxWU1aUGh6eUJBSi1KcHlRRnJ5ZmdKVzZ3QmRPYzhlREZqUHNDNjN1V1FmUW5MdzZIS2pwd21lekxmWEctWEZKSFQyREhXRnQ1aVo?oc=5\" target=\"_blank\">How will a changing climate affect the future of vector borne diseases?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PreventionWeb.net</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxQUTF4TXdvN3NsSFVzRDhFMWNtYUcwVFVOZDBmSk1QczZuTEZVN1JMM0VZM0dBVjZYU1l1NEkyZVRDNDFhVHdxOWJnUUxOS2piRHdxWU1aUGh6eUJBSi1KcHlRRnJ5ZmdKVzZ3QmRPYzhlREZqUHNDNjN1V1FmUW5MdzZIS2pwd21lekxmWEctWEZKSFQyREhXRnQ1aVo?oc=5\" target=\"_blank\">How will a changing climate affect the future of vector borne diseases?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PreventionWeb.net</font>"
+      },
+      "source": {
+        "href": "https://www.preventionweb.net",
+        "title": "PreventionWeb.net"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "UC Santa Barbara Recognizes Carolina Arias for Transformative COVID-19 Work - The Santa Barbara Independent",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "UC Santa Barbara Recognizes Carolina Arias for Transformative COVID-19 Work - The Santa Barbara Independent"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSVpDQ0M2MXNabHhrQ05zcVVYOTllV2tZNmZ1bVo4OENtZVZtUlVYX25wSk9oczJPb0dvVzBjME5VZUVvS0FjMTB0aTNvTmNSMUowN2JDRXdDWGN3ZldlZXRtTjg2czZVYUR1UkVKc1pPRWJURUZ6TFZEYjVZNDdEaEFIVUJHR0t1Q3JKbnpfdV9Wd2M1RFBvVTVBWVhWbnN4NkNsazFFSGtOcXJoOTI0YThoU1hTdw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSVpDQ0M2MXNabHhrQ05zcVVYOTllV2tZNmZ1bVo4OENtZVZtUlVYX25wSk9oczJPb0dvVzBjME5VZUVvS0FjMTB0aTNvTmNSMUowN2JDRXdDWGN3ZldlZXRtTjg2czZVYUR1UkVKc1pPRWJURUZ6TFZEYjVZNDdEaEFIVUJHR0t1Q3JKbnpfdV9Wd2M1RFBvVTVBWVhWbnN4NkNsazFFSGtOcXJoOTI0YThoU1hTdw?oc=5",
+      "id": "CBMitgFBVV95cUxPSVpDQ0M2MXNabHhrQ05zcVVYOTllV2tZNmZ1bVo4OENtZVZtUlVYX25wSk9oczJPb0dvVzBjME5VZUVvS0FjMTB0aTNvTmNSMUowN2JDRXdDWGN3ZldlZXRtTjg2czZVYUR1UkVKc1pPRWJURUZ6TFZEYjVZNDdEaEFIVUJHR0t1Q3JKbnpfdV9Wd2M1RFBvVTVBWVhWbnN4NkNsazFFSGtOcXJoOTI0YThoU1hTdw",
+      "guidislink": false,
+      "published": "Thu, 16 Sep 2021 07:00:00 GMT",
+      "published_parsed": [
+        2021,
+        9,
+        16,
+        7,
+        0,
+        0,
+        3,
+        259,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPSVpDQ0M2MXNabHhrQ05zcVVYOTllV2tZNmZ1bVo4OENtZVZtUlVYX25wSk9oczJPb0dvVzBjME5VZUVvS0FjMTB0aTNvTmNSMUowN2JDRXdDWGN3ZldlZXRtTjg2czZVYUR1UkVKc1pPRWJURUZ6TFZEYjVZNDdEaEFIVUJHR0t1Q3JKbnpfdV9Wd2M1RFBvVTVBWVhWbnN4NkNsazFFSGtOcXJoOTI0YThoU1hTdw?oc=5\" target=\"_blank\">UC Santa Barbara Recognizes Carolina Arias for Transformative COVID-19 Work</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Santa Barbara Independent</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPSVpDQ0M2MXNabHhrQ05zcVVYOTllV2tZNmZ1bVo4OENtZVZtUlVYX25wSk9oczJPb0dvVzBjME5VZUVvS0FjMTB0aTNvTmNSMUowN2JDRXdDWGN3ZldlZXRtTjg2czZVYUR1UkVKc1pPRWJURUZ6TFZEYjVZNDdEaEFIVUJHR0t1Q3JKbnpfdV9Wd2M1RFBvVTVBWVhWbnN4NkNsazFFSGtOcXJoOTI0YThoU1hTdw?oc=5\" target=\"_blank\">UC Santa Barbara Recognizes Carolina Arias for Transformative COVID-19 Work</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Santa Barbara Independent</font>"
+      },
+      "source": {
+        "href": "https://www.independent.com",
+        "title": "The Santa Barbara Independent"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Leslie Vosshall Named Vice President and Chief Scientific Officer at HHMI - HHMI",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Leslie Vosshall Named Vice President and Chief Scientific Officer at HHMI - HHMI"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOa1hfTE83S3R3YkFpTlVxUTJoNXZzZzVlcEs1X1E2TWk3UDU3czF1dWtEaUdnM3BaTDRxOU5YTHJleGRycHo4XzdVcnRlb0tUVEp0U0MzdXBkLTRfTzJvdTFHdzlJUDdlb0lndXNYZUtfNDRWZm9seERVZGNQOC1oM3hRRmxXQzl1Vzc3TjVSbHNPOWkzX3dsbEVtdVU?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOa1hfTE83S3R3YkFpTlVxUTJoNXZzZzVlcEs1X1E2TWk3UDU3czF1dWtEaUdnM3BaTDRxOU5YTHJleGRycHo4XzdVcnRlb0tUVEp0U0MzdXBkLTRfTzJvdTFHdzlJUDdlb0lndXNYZUtfNDRWZm9seERVZGNQOC1oM3hRRmxXQzl1Vzc3TjVSbHNPOWkzX3dsbEVtdVU?oc=5",
+      "id": "CBMinAFBVV95cUxOa1hfTE83S3R3YkFpTlVxUTJoNXZzZzVlcEs1X1E2TWk3UDU3czF1dWtEaUdnM3BaTDRxOU5YTHJleGRycHo4XzdVcnRlb0tUVEp0U0MzdXBkLTRfTzJvdTFHdzlJUDdlb0lndXNYZUtfNDRWZm9seERVZGNQOC1oM3hRRmxXQzl1Vzc3TjVSbHNPOWkzX3dsbEVtdVU",
+      "guidislink": false,
+      "published": "Fri, 17 Sep 2021 07:00:00 GMT",
+      "published_parsed": [
+        2021,
+        9,
+        17,
+        7,
+        0,
+        0,
+        4,
+        260,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxOa1hfTE83S3R3YkFpTlVxUTJoNXZzZzVlcEs1X1E2TWk3UDU3czF1dWtEaUdnM3BaTDRxOU5YTHJleGRycHo4XzdVcnRlb0tUVEp0U0MzdXBkLTRfTzJvdTFHdzlJUDdlb0lndXNYZUtfNDRWZm9seERVZGNQOC1oM3hRRmxXQzl1Vzc3TjVSbHNPOWkzX3dsbEVtdVU?oc=5\" target=\"_blank\">Leslie Vosshall Named Vice President and Chief Scientific Officer at HHMI</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">HHMI</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxOa1hfTE83S3R3YkFpTlVxUTJoNXZzZzVlcEs1X1E2TWk3UDU3czF1dWtEaUdnM3BaTDRxOU5YTHJleGRycHo4XzdVcnRlb0tUVEp0U0MzdXBkLTRfTzJvdTFHdzlJUDdlb0lndXNYZUtfNDRWZm9seERVZGNQOC1oM3hRRmxXQzl1Vzc3TjVSbHNPOWkzX3dsbEVtdVU?oc=5\" target=\"_blank\">Leslie Vosshall Named Vice President and Chief Scientific Officer at HHMI</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">HHMI</font>"
+      },
+      "source": {
+        "href": "https://www.hhmi.org",
+        "title": "HHMI"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "A natural mosquito repellent’s most active form found - Chemical & Engineering News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "A natural mosquito repellent’s most active form found - Chemical & Engineering News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWWZYalpnaTAyYUljM0xkd2loVU4waVhkUW1BUDhRc2FucS1Ia0gzTUgyaWRYblpnMjIyazF2aFVJZVh1VEJXb1NBMHBMX3pSeW1vT3lNU3JpaWZBZmVWdHJ4V2l3M3loSjY3OUFhY2lSc1pFWXY1NlVGd2I5YThsVk5ndXZrYlVjQ19KazlhSnJ4Qnloam5MdzBSNy1OMkEycW1EZGFuVXZ2bVNCX0RyTXFR?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWWZYalpnaTAyYUljM0xkd2loVU4waVhkUW1BUDhRc2FucS1Ia0gzTUgyaWRYblpnMjIyazF2aFVJZVh1VEJXb1NBMHBMX3pSeW1vT3lNU3JpaWZBZmVWdHJ4V2l3M3loSjY3OUFhY2lSc1pFWXY1NlVGd2I5YThsVk5ndXZrYlVjQ19KazlhSnJ4Qnloam5MdzBSNy1OMkEycW1EZGFuVXZ2bVNCX0RyTXFR?oc=5",
+      "id": "CBMisgFBVV95cUxNWWZYalpnaTAyYUljM0xkd2loVU4waVhkUW1BUDhRc2FucS1Ia0gzTUgyaWRYblpnMjIyazF2aFVJZVh1VEJXb1NBMHBMX3pSeW1vT3lNU3JpaWZBZmVWdHJ4V2l3M3loSjY3OUFhY2lSc1pFWXY1NlVGd2I5YThsVk5ndXZrYlVjQ19KazlhSnJ4Qnloam5MdzBSNy1OMkEycW1EZGFuVXZ2bVNCX0RyTXFR",
+      "guidislink": false,
+      "published": "Thu, 23 Sep 2021 07:00:00 GMT",
+      "published_parsed": [
+        2021,
+        9,
+        23,
+        7,
+        0,
+        0,
+        3,
+        266,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxNWWZYalpnaTAyYUljM0xkd2loVU4waVhkUW1BUDhRc2FucS1Ia0gzTUgyaWRYblpnMjIyazF2aFVJZVh1VEJXb1NBMHBMX3pSeW1vT3lNU3JpaWZBZmVWdHJ4V2l3M3loSjY3OUFhY2lSc1pFWXY1NlVGd2I5YThsVk5ndXZrYlVjQ19KazlhSnJ4Qnloam5MdzBSNy1OMkEycW1EZGFuVXZ2bVNCX0RyTXFR?oc=5\" target=\"_blank\">A natural mosquito repellent’s most active form found</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chemical & Engineering News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxNWWZYalpnaTAyYUljM0xkd2loVU4waVhkUW1BUDhRc2FucS1Ia0gzTUgyaWRYblpnMjIyazF2aFVJZVh1VEJXb1NBMHBMX3pSeW1vT3lNU3JpaWZBZmVWdHJ4V2l3M3loSjY3OUFhY2lSc1pFWXY1NlVGd2I5YThsVk5ndXZrYlVjQ19KazlhSnJ4Qnloam5MdzBSNy1OMkEycW1EZGFuVXZ2bVNCX0RyTXFR?oc=5\" target=\"_blank\">A natural mosquito repellent’s most active form found</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chemical & Engineering News</font>"
+      },
+      "source": {
+        "href": "https://cen.acs.org",
+        "title": "Chemical & Engineering News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "'Fauci' documentary showcases the controversial doctor's wins and shortcomings - San Francisco Chronicle",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "'Fauci' documentary showcases the controversial doctor's wins and shortcomings - San Francisco Chronicle"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaXRJM3hGeGZENUJiZmNHSk1ZX3gxS2o5eFBQdHN4MGdONHBrQjFlaU9mb21RY2VCLTZmT2JlSF92QzVJemltRDdGSDRZVHhLSlNDUGJxQ3B0WW9LVmVod3hLeEhHNFJhalFBaTBGZHBja1ViOEJ1S0JxZFNZMERoa3hZSWgtRlQ2OURvazU1RU5qdVdUa0E1UXRCUlU0S2FvSDBCd3BIbHNHSDF0Ti1ZLVUzU3lla3Vab1E?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaXRJM3hGeGZENUJiZmNHSk1ZX3gxS2o5eFBQdHN4MGdONHBrQjFlaU9mb21RY2VCLTZmT2JlSF92QzVJemltRDdGSDRZVHhLSlNDUGJxQ3B0WW9LVmVod3hLeEhHNFJhalFBaTBGZHBja1ViOEJ1S0JxZFNZMERoa3hZSWgtRlQ2OURvazU1RU5qdVdUa0E1UXRCUlU0S2FvSDBCd3BIbHNHSDF0Ti1ZLVUzU3lla3Vab1E?oc=5",
+      "id": "CBMiugFBVV95cUxNaXRJM3hGeGZENUJiZmNHSk1ZX3gxS2o5eFBQdHN4MGdONHBrQjFlaU9mb21RY2VCLTZmT2JlSF92QzVJemltRDdGSDRZVHhLSlNDUGJxQ3B0WW9LVmVod3hLeEhHNFJhalFBaTBGZHBja1ViOEJ1S0JxZFNZMERoa3hZSWgtRlQ2OURvazU1RU5qdVdUa0E1UXRCUlU0S2FvSDBCd3BIbHNHSDF0Ti1ZLVUzU3lla3Vab1E",
+      "guidislink": false,
+      "published": "Fri, 24 Sep 2021 07:00:00 GMT",
+      "published_parsed": [
+        2021,
+        9,
+        24,
+        7,
+        0,
+        0,
+        4,
+        267,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxNaXRJM3hGeGZENUJiZmNHSk1ZX3gxS2o5eFBQdHN4MGdONHBrQjFlaU9mb21RY2VCLTZmT2JlSF92QzVJemltRDdGSDRZVHhLSlNDUGJxQ3B0WW9LVmVod3hLeEhHNFJhalFBaTBGZHBja1ViOEJ1S0JxZFNZMERoa3hZSWgtRlQ2OURvazU1RU5qdVdUa0E1UXRCUlU0S2FvSDBCd3BIbHNHSDF0Ti1ZLVUzU3lla3Vab1E?oc=5\" target=\"_blank\">'Fauci' documentary showcases the controversial doctor's wins and shortcomings</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">San Francisco Chronicle</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxNaXRJM3hGeGZENUJiZmNHSk1ZX3gxS2o5eFBQdHN4MGdONHBrQjFlaU9mb21RY2VCLTZmT2JlSF92QzVJemltRDdGSDRZVHhLSlNDUGJxQ3B0WW9LVmVod3hLeEhHNFJhalFBaTBGZHBja1ViOEJ1S0JxZFNZMERoa3hZSWgtRlQ2OURvazU1RU5qdVdUa0E1UXRCUlU0S2FvSDBCd3BIbHNHSDF0Ti1ZLVUzU3lla3Vab1E?oc=5\" target=\"_blank\">'Fauci' documentary showcases the controversial doctor's wins and shortcomings</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">San Francisco Chronicle</font>"
+      },
+      "source": {
+        "href": "https://www.sfchronicle.com",
+        "title": "San Francisco Chronicle"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Savvy Seniors: Ruth Marie Jackson ready to celebrate 100 - Times Reporter",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Savvy Seniors: Ruth Marie Jackson ready to celebrate 100 - Times Reporter"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORVlJc2czMmtaU3FOek03ZmpZVm5lN0twRHByM3ViYzczR3hkbjRsQnhCOUtzcXo2RFlYcXlyTzVGa2pJczJJUHZETVlWTEhMMjRLNDVmUUhXb0JlazNkVlFPOTlvT3ZHWFhoU0dVV0RxRVFkUmp2QURMYzE4S0VRZmhBRzZqVG9idjA3YmJOZ25FV2xlbmx4d08zLUJGSFA1aVBnZUtNNUFBdUx2TE1jRXpQQVd6aFU?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORVlJc2czMmtaU3FOek03ZmpZVm5lN0twRHByM3ViYzczR3hkbjRsQnhCOUtzcXo2RFlYcXlyTzVGa2pJczJJUHZETVlWTEhMMjRLNDVmUUhXb0JlazNkVlFPOTlvT3ZHWFhoU0dVV0RxRVFkUmp2QURMYzE4S0VRZmhBRzZqVG9idjA3YmJOZ25FV2xlbmx4d08zLUJGSFA1aVBnZUtNNUFBdUx2TE1jRXpQQVd6aFU?oc=5",
+      "id": "CBMitwFBVV95cUxORVlJc2czMmtaU3FOek03ZmpZVm5lN0twRHByM3ViYzczR3hkbjRsQnhCOUtzcXo2RFlYcXlyTzVGa2pJczJJUHZETVlWTEhMMjRLNDVmUUhXb0JlazNkVlFPOTlvT3ZHWFhoU0dVV0RxRVFkUmp2QURMYzE4S0VRZmhBRzZqVG9idjA3YmJOZ25FV2xlbmx4d08zLUJGSFA1aVBnZUtNNUFBdUx2TE1jRXpQQVd6aFU",
+      "guidislink": false,
+      "published": "Wed, 22 Sep 2021 07:00:00 GMT",
+      "published_parsed": [
+        2021,
+        9,
+        22,
+        7,
+        0,
+        0,
+        2,
+        265,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxORVlJc2czMmtaU3FOek03ZmpZVm5lN0twRHByM3ViYzczR3hkbjRsQnhCOUtzcXo2RFlYcXlyTzVGa2pJczJJUHZETVlWTEhMMjRLNDVmUUhXb0JlazNkVlFPOTlvT3ZHWFhoU0dVV0RxRVFkUmp2QURMYzE4S0VRZmhBRzZqVG9idjA3YmJOZ25FV2xlbmx4d08zLUJGSFA1aVBnZUtNNUFBdUx2TE1jRXpQQVd6aFU?oc=5\" target=\"_blank\">Savvy Seniors: Ruth Marie Jackson ready to celebrate 100</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Times Reporter</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxORVlJc2czMmtaU3FOek03ZmpZVm5lN0twRHByM3ViYzczR3hkbjRsQnhCOUtzcXo2RFlYcXlyTzVGa2pJczJJUHZETVlWTEhMMjRLNDVmUUhXb0JlazNkVlFPOTlvT3ZHWFhoU0dVV0RxRVFkUmp2QURMYzE4S0VRZmhBRzZqVG9idjA3YmJOZ25FV2xlbmx4d08zLUJGSFA1aVBnZUtNNUFBdUx2TE1jRXpQQVd6aFU?oc=5\" target=\"_blank\">Savvy Seniors: Ruth Marie Jackson ready to celebrate 100</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Times Reporter</font>"
+      },
+      "source": {
+        "href": "https://www.timesreporter.com",
+        "title": "Times Reporter"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "COVID concerns halt therapy for children born with challenges from Zika virus - Trinidad Guardian",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "COVID concerns halt therapy for children born with challenges from Zika virus - Trinidad Guardian"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOX29wTERsUjhIMXB3cm1zQ2tlX0xFQmZxSzJtTzI4VUdVQTlsYXVzOHI1Wm56cnEyY2w4LTQ1Mkp2bW5QbkdTaXhBcUMzV2pkV05TVnNza2pNemhjTDBtcEE1OXVPVnNVa2Q3a2ZjdXpWZV9zZm5WTG5uSmRfcXF1YV9YaXlUWjdvYWdqSDBUX3o2dUlVUHc1dTFnUzJuYVlvQ0lDNFNfOWRtSUZ4WVNucGtFc0hxdkphUFlKSVdoOHhuekFScnliX185bw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOX29wTERsUjhIMXB3cm1zQ2tlX0xFQmZxSzJtTzI4VUdVQTlsYXVzOHI1Wm56cnEyY2w4LTQ1Mkp2bW5QbkdTaXhBcUMzV2pkV05TVnNza2pNemhjTDBtcEE1OXVPVnNVa2Q3a2ZjdXpWZV9zZm5WTG5uSmRfcXF1YV9YaXlUWjdvYWdqSDBUX3o2dUlVUHc1dTFnUzJuYVlvQ0lDNFNfOWRtSUZ4WVNucGtFc0hxdkphUFlKSVdoOHhuekFScnliX185bw?oc=5",
+      "id": "CBMiywFBVV95cUxOX29wTERsUjhIMXB3cm1zQ2tlX0xFQmZxSzJtTzI4VUdVQTlsYXVzOHI1Wm56cnEyY2w4LTQ1Mkp2bW5QbkdTaXhBcUMzV2pkV05TVnNza2pNemhjTDBtcEE1OXVPVnNVa2Q3a2ZjdXpWZV9zZm5WTG5uSmRfcXF1YV9YaXlUWjdvYWdqSDBUX3o2dUlVUHc1dTFnUzJuYVlvQ0lDNFNfOWRtSUZ4WVNucGtFc0hxdkphUFlKSVdoOHhuekFScnliX185bw",
+      "guidislink": false,
+      "published": "Wed, 15 Sep 2021 00:34:34 GMT",
+      "published_parsed": [
+        2021,
+        9,
+        15,
+        0,
+        34,
+        34,
+        2,
+        258,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxOX29wTERsUjhIMXB3cm1zQ2tlX0xFQmZxSzJtTzI4VUdVQTlsYXVzOHI1Wm56cnEyY2w4LTQ1Mkp2bW5QbkdTaXhBcUMzV2pkV05TVnNza2pNemhjTDBtcEE1OXVPVnNVa2Q3a2ZjdXpWZV9zZm5WTG5uSmRfcXF1YV9YaXlUWjdvYWdqSDBUX3o2dUlVUHc1dTFnUzJuYVlvQ0lDNFNfOWRtSUZ4WVNucGtFc0hxdkphUFlKSVdoOHhuekFScnliX185bw?oc=5\" target=\"_blank\">COVID concerns halt therapy for children born with challenges from Zika virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Trinidad Guardian</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxOX29wTERsUjhIMXB3cm1zQ2tlX0xFQmZxSzJtTzI4VUdVQTlsYXVzOHI1Wm56cnEyY2w4LTQ1Mkp2bW5QbkdTaXhBcUMzV2pkV05TVnNza2pNemhjTDBtcEE1OXVPVnNVa2Q3a2ZjdXpWZV9zZm5WTG5uSmRfcXF1YV9YaXlUWjdvYWdqSDBUX3o2dUlVUHc1dTFnUzJuYVlvQ0lDNFNfOWRtSUZ4WVNucGtFc0hxdkphUFlKSVdoOHhuekFScnliX185bw?oc=5\" target=\"_blank\">COVID concerns halt therapy for children born with challenges from Zika virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Trinidad Guardian</font>"
+      },
+      "source": {
+        "href": "http://www.guardian.co.tt",
+        "title": "Trinidad Guardian"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "A Verywell Report: Vaccinated People Hold on to Hope of Boosters - Verywell Health",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "A Verywell Report: Vaccinated People Hold on to Hope of Boosters - Verywell Health"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTTVPVFRZWE5xZDMyZTU0V21XS243TTVrQ2p2aF9ldmx6alp0dUUyanhFd2hSaG50aloyaHYyb1p5cHlmbDktX0cwNmdvdUZVSWdBX1FoVFJBQTdMMFNvVzUxTmhKMWJraUMxSzkyZEVtYWg4UGxuSlZRbWlkWV9tR3luTTVoSDdzUXdn?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTTVPVFRZWE5xZDMyZTU0V21XS243TTVrQ2p2aF9ldmx6alp0dUUyanhFd2hSaG50aloyaHYyb1p5cHlmbDktX0cwNmdvdUZVSWdBX1FoVFJBQTdMMFNvVzUxTmhKMWJraUMxSzkyZEVtYWg4UGxuSlZRbWlkWV9tR3luTTVoSDdzUXdn?oc=5",
+      "id": "CBMiiwFBVV95cUxPTTVPVFRZWE5xZDMyZTU0V21XS243TTVrQ2p2aF9ldmx6alp0dUUyanhFd2hSaG50aloyaHYyb1p5cHlmbDktX0cwNmdvdUZVSWdBX1FoVFJBQTdMMFNvVzUxTmhKMWJraUMxSzkyZEVtYWg4UGxuSlZRbWlkWV9tR3luTTVoSDdzUXdn",
+      "guidislink": false,
+      "published": "Fri, 10 Sep 2021 07:00:00 GMT",
+      "published_parsed": [
+        2021,
+        9,
+        10,
+        7,
+        0,
+        0,
+        4,
+        253,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTTVPVFRZWE5xZDMyZTU0V21XS243TTVrQ2p2aF9ldmx6alp0dUUyanhFd2hSaG50aloyaHYyb1p5cHlmbDktX0cwNmdvdUZVSWdBX1FoVFJBQTdMMFNvVzUxTmhKMWJraUMxSzkyZEVtYWg4UGxuSlZRbWlkWV9tR3luTTVoSDdzUXdn?oc=5\" target=\"_blank\">A Verywell Report: Vaccinated People Hold on to Hope of Boosters</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Verywell Health</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTTVPVFRZWE5xZDMyZTU0V21XS243TTVrQ2p2aF9ldmx6alp0dUUyanhFd2hSaG50aloyaHYyb1p5cHlmbDktX0cwNmdvdUZVSWdBX1FoVFJBQTdMMFNvVzUxTmhKMWJraUMxSzkyZEVtYWg4UGxuSlZRbWlkWV9tR3luTTVoSDdzUXdn?oc=5\" target=\"_blank\">A Verywell Report: Vaccinated People Hold on to Hope of Boosters</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Verywell Health</font>"
+      },
+      "source": {
+        "href": "https://www.verywellhealth.com",
+        "title": "Verywell Health"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Even California Has a Mosquito Problem (Published 2021) - The New York Times",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Even California Has a Mosquito Problem (Published 2021) - The New York Times"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMickFVX3lxTE1OVjMzQkRSLVZ6V001d05NeGt5bUg1VFBTbElDOC1xY2hiRVhHTm5jdkF0SWhhaU13eHliQ0VRSmJBSE9MY0VXXzBtbzBLZ0twX3UtSTg0SGdWMFQteU5KT083YkIwX2VtSDlISXZTWkhLQQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1OVjMzQkRSLVZ6V001d05NeGt5bUg1VFBTbElDOC1xY2hiRVhHTm5jdkF0SWhhaU13eHliQ0VRSmJBSE9MY0VXXzBtbzBLZ0twX3UtSTg0SGdWMFQteU5KT083YkIwX2VtSDlISXZTWkhLQQ?oc=5",
+      "id": "CBMickFVX3lxTE1OVjMzQkRSLVZ6V001d05NeGt5bUg1VFBTbElDOC1xY2hiRVhHTm5jdkF0SWhhaU13eHliQ0VRSmJBSE9MY0VXXzBtbzBLZ0twX3UtSTg0SGdWMFQteU5KT083YkIwX2VtSDlISXZTWkhLQQ",
+      "guidislink": false,
+      "published": "Wed, 22 Sep 2021 07:00:00 GMT",
+      "published_parsed": [
+        2021,
+        9,
+        22,
+        7,
+        0,
+        0,
+        2,
+        265,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE1OVjMzQkRSLVZ6V001d05NeGt5bUg1VFBTbElDOC1xY2hiRVhHTm5jdkF0SWhhaU13eHliQ0VRSmJBSE9MY0VXXzBtbzBLZ0twX3UtSTg0SGdWMFQteU5KT083YkIwX2VtSDlISXZTWkhLQQ?oc=5\" target=\"_blank\">Even California Has a Mosquito Problem (Published 2021)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New York Times</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE1OVjMzQkRSLVZ6V001d05NeGt5bUg1VFBTbElDOC1xY2hiRVhHTm5jdkF0SWhhaU13eHliQ0VRSmJBSE9MY0VXXzBtbzBLZ0twX3UtSTg0SGdWMFQteU5KT083YkIwX2VtSDlISXZTWkhLQQ?oc=5\" target=\"_blank\">Even California Has a Mosquito Problem (Published 2021)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New York Times</font>"
+      },
+      "source": {
+        "href": "https://www.nytimes.com",
+        "title": "The New York Times"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "What If You Could Become Invisible to Mosquitoes? (Published 2021) - The New York Times",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "What If You Could Become Invisible to Mosquitoes? (Published 2021) - The New York Times"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9jem5sRmJvYVgxZ0ZoYldEY0t6OHYxaHgxR05YQkJnb1JTNVZNY3VnZ1RURzFCYjUybE9hSC1LemZxWmFJLUpQbzVzei1rZjNnMU5vMkxUNURPcEpkN01NbmFxaU5Bak1weTZxejZNSjNsbWU3NlZjSF93?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9jem5sRmJvYVgxZ0ZoYldEY0t6OHYxaHgxR05YQkJnb1JTNVZNY3VnZ1RURzFCYjUybE9hSC1LemZxWmFJLUpQbzVzei1rZjNnMU5vMkxUNURPcEpkN01NbmFxaU5Bak1weTZxejZNSjNsbWU3NlZjSF93?oc=5",
+      "id": "CBMiekFVX3lxTE9jem5sRmJvYVgxZ0ZoYldEY0t6OHYxaHgxR05YQkJnb1JTNVZNY3VnZ1RURzFCYjUybE9hSC1LemZxWmFJLUpQbzVzei1rZjNnMU5vMkxUNURPcEpkN01NbmFxaU5Bak1weTZxejZNSjNsbWU3NlZjSF93",
+      "guidislink": false,
+      "published": "Wed, 22 Sep 2021 07:00:00 GMT",
+      "published_parsed": [
+        2021,
+        9,
+        22,
+        7,
+        0,
+        0,
+        2,
+        265,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE9jem5sRmJvYVgxZ0ZoYldEY0t6OHYxaHgxR05YQkJnb1JTNVZNY3VnZ1RURzFCYjUybE9hSC1LemZxWmFJLUpQbzVzei1rZjNnMU5vMkxUNURPcEpkN01NbmFxaU5Bak1weTZxejZNSjNsbWU3NlZjSF93?oc=5\" target=\"_blank\">What If You Could Become Invisible to Mosquitoes? (Published 2021)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New York Times</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE9jem5sRmJvYVgxZ0ZoYldEY0t6OHYxaHgxR05YQkJnb1JTNVZNY3VnZ1RURzFCYjUybE9hSC1LemZxWmFJLUpQbzVzei1rZjNnMU5vMkxUNURPcEpkN01NbmFxaU5Bak1weTZxejZNSjNsbWU3NlZjSF93?oc=5\" target=\"_blank\">What If You Could Become Invisible to Mosquitoes? (Published 2021)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New York Times</font>"
+      },
+      "source": {
+        "href": "https://www.nytimes.com",
+        "title": "The New York Times"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Ole Gunnar Solskjaer claims Man United can rule Europe with Cristiano Ronaldo and Raphael Varane - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Ole Gunnar Solskjaer claims Man United can rule Europe with Cristiano Ronaldo and Raphael Varane - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNTm5zQVNmZUpWeDlteVdLQmpjT05oaHprNXZGaW95MUFnODJzMUJ2Qkk5S0d6TTN0RGV4VS0wQjJjTW55NTI4dEVxd0NhV19KNkNBYks3OFRQbmNEdHZ4QjM0TzlJZEhaVngyYTdiVXRvUldpdnZFOUFzV21lVjJjZlZZSXltd1I5T1NoWkY3dWltZlBhbEhOem5wU2x2bk0xNW54UHRpQjRxbVBxQ0RHT0Q3N0R3bjRyTF9hZUJyY3JzV19oS05SWlhhTk96SGhHZXBta0dGcU5RQUFQbFZkNG1aWEJQQWlrY1ByMFBhX0tvSDdyWTZHX21kNmktdG1JM2tib1V0d2UtOFF5ZGs5Vktab3TSAZQCQVVfeXFMTU5uc0FTZmVKVng5bXlXS0JqY09OaGh6azV2RmlveTFBZzgyczFCdkJJOUtHek0zdERleFUtMEIyY01ueTUyOHRFcXdDYVdfSjZDQWJLNzhUUG5jRHR2eEIzNE85SWRIWlZ4MmE3YlV0b1JXaXZ2RTlBc1dtZVYyY2ZWWUl5bXdSOU9TaFpGN3VpbWZQYWxITnpucFNsdm5NMTVueFB0aUI0cW1QcUNER09ENzdEd240ckxfYWVCcmNyc1dfaEtOUlpYYU5PekhoR2VwbWtHRnFOUUFBUGxWZDRtWlhCUEFpa2NQcjBQYV9Lb0g3clk2R19tZDZpLXRtSTNrYm9VdHdlLThReWRrOVZLWm90?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNTm5zQVNmZUpWeDlteVdLQmpjT05oaHprNXZGaW95MUFnODJzMUJ2Qkk5S0d6TTN0RGV4VS0wQjJjTW55NTI4dEVxd0NhV19KNkNBYks3OFRQbmNEdHZ4QjM0TzlJZEhaVngyYTdiVXRvUldpdnZFOUFzV21lVjJjZlZZSXltd1I5T1NoWkY3dWltZlBhbEhOem5wU2x2bk0xNW54UHRpQjRxbVBxQ0RHT0Q3N0R3bjRyTF9hZUJyY3JzV19oS05SWlhhTk96SGhHZXBta0dGcU5RQUFQbFZkNG1aWEJQQWlrY1ByMFBhX0tvSDdyWTZHX21kNmktdG1JM2tib1V0d2UtOFF5ZGs5Vktab3TSAZQCQVVfeXFMTU5uc0FTZmVKVng5bXlXS0JqY09OaGh6azV2RmlveTFBZzgyczFCdkJJOUtHek0zdERleFUtMEIyY01ueTUyOHRFcXdDYVdfSjZDQWJLNzhUUG5jRHR2eEIzNE85SWRIWlZ4MmE3YlV0b1JXaXZ2RTlBc1dtZVYyY2ZWWUl5bXdSOU9TaFpGN3VpbWZQYWxITnpucFNsdm5NMTVueFB0aUI0cW1QcUNER09ENzdEd240ckxfYWVCcmNyc1dfaEtOUlpYYU5PekhoR2VwbWtHRnFOUUFBUGxWZDRtWlhCUEFpa2NQcjBQYV9Lb0g3clk2R19tZDZpLXRtSTNrYm9VdHdlLThReWRrOVZLWm90?oc=5",
+      "id": "CBMilAJBVV95cUxNTm5zQVNmZUpWeDlteVdLQmpjT05oaHprNXZGaW95MUFnODJzMUJ2Qkk5S0d6TTN0RGV4VS0wQjJjTW55NTI4dEVxd0NhV19KNkNBYks3OFRQbmNEdHZ4QjM0TzlJZEhaVngyYTdiVXRvUldpdnZFOUFzV21lVjJjZlZZSXltd1I5T1NoWkY3dWltZlBhbEhOem5wU2x2bk0xNW54UHRpQjRxbVBxQ0RHT0Q3N0R3bjRyTF9hZUJyY3JzV19oS05SWlhhTk96SGhHZXBta0dGcU5RQUFQbFZkNG1aWEJQQWlrY1ByMFBhX0tvSDdyWTZHX21kNmktdG1JM2tib1V0d2UtOFF5ZGs5Vktab3TSAZQCQVVfeXFMTU5uc0FTZmVKVng5bXlXS0JqY09OaGh6azV2RmlveTFBZzgyczFCdkJJOUtHek0zdERleFUtMEIyY01ueTUyOHRFcXdDYVdfSjZDQWJLNzhUUG5jRHR2eEIzNE85SWRIWlZ4MmE3YlV0b1JXaXZ2RTlBc1dtZVYyY2ZWWUl5bXdSOU9TaFpGN3VpbWZQYWxITnpucFNsdm5NMTVueFB0aUI0cW1QcUNER09ENzdEd240ckxfYWVCcmNyc1dfaEtOUlpYYU5PekhoR2VwbWtHRnFOUUFBUGxWZDRtWlhCUEFpa2NQcjBQYV9Lb0g3clk2R19tZDZpLXRtSTNrYm9VdHdlLThReWRrOVZLWm90",
+      "guidislink": false,
+      "published": "Mon, 13 Sep 2021 07:00:00 GMT",
+      "published_parsed": [
+        2021,
+        9,
+        13,
+        7,
+        0,
+        0,
+        0,
+        256,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAJBVV95cUxNTm5zQVNmZUpWeDlteVdLQmpjT05oaHprNXZGaW95MUFnODJzMUJ2Qkk5S0d6TTN0RGV4VS0wQjJjTW55NTI4dEVxd0NhV19KNkNBYks3OFRQbmNEdHZ4QjM0TzlJZEhaVngyYTdiVXRvUldpdnZFOUFzV21lVjJjZlZZSXltd1I5T1NoWkY3dWltZlBhbEhOem5wU2x2bk0xNW54UHRpQjRxbVBxQ0RHT0Q3N0R3bjRyTF9hZUJyY3JzV19oS05SWlhhTk96SGhHZXBta0dGcU5RQUFQbFZkNG1aWEJQQWlrY1ByMFBhX0tvSDdyWTZHX21kNmktdG1JM2tib1V0d2UtOFF5ZGs5Vktab3TSAZQCQVVfeXFMTU5uc0FTZmVKVng5bXlXS0JqY09OaGh6azV2RmlveTFBZzgyczFCdkJJOUtHek0zdERleFUtMEIyY01ueTUyOHRFcXdDYVdfSjZDQWJLNzhUUG5jRHR2eEIzNE85SWRIWlZ4MmE3YlV0b1JXaXZ2RTlBc1dtZVYyY2ZWWUl5bXdSOU9TaFpGN3VpbWZQYWxITnpucFNsdm5NMTVueFB0aUI0cW1QcUNER09ENzdEd240ckxfYWVCcmNyc1dfaEtOUlpYYU5PekhoR2VwbWtHRnFOUUFBUGxWZDRtWlhCUEFpa2NQcjBQYV9Lb0g3clk2R19tZDZpLXRtSTNrYm9VdHdlLThReWRrOVZLWm90?oc=5\" target=\"_blank\">Ole Gunnar Solskjaer claims Man United can rule Europe with Cristiano Ronaldo and Raphael Varane</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMilAJBVV95cUxNTm5zQVNmZUpWeDlteVdLQmpjT05oaHprNXZGaW95MUFnODJzMUJ2Qkk5S0d6TTN0RGV4VS0wQjJjTW55NTI4dEVxd0NhV19KNkNBYks3OFRQbmNEdHZ4QjM0TzlJZEhaVngyYTdiVXRvUldpdnZFOUFzV21lVjJjZlZZSXltd1I5T1NoWkY3dWltZlBhbEhOem5wU2x2bk0xNW54UHRpQjRxbVBxQ0RHT0Q3N0R3bjRyTF9hZUJyY3JzV19oS05SWlhhTk96SGhHZXBta0dGcU5RQUFQbFZkNG1aWEJQQWlrY1ByMFBhX0tvSDdyWTZHX21kNmktdG1JM2tib1V0d2UtOFF5ZGs5Vktab3TSAZQCQVVfeXFMTU5uc0FTZmVKVng5bXlXS0JqY09OaGh6azV2RmlveTFBZzgyczFCdkJJOUtHek0zdERleFUtMEIyY01ueTUyOHRFcXdDYVdfSjZDQWJLNzhUUG5jRHR2eEIzNE85SWRIWlZ4MmE3YlV0b1JXaXZ2RTlBc1dtZVYyY2ZWWUl5bXdSOU9TaFpGN3VpbWZQYWxITnpucFNsdm5NMTVueFB0aUI0cW1QcUNER09ENzdEd240ckxfYWVCcmNyc1dfaEtOUlpYYU5PekhoR2VwbWtHRnFOUUFBUGxWZDRtWlhCUEFpa2NQcjBQYV9Lb0g3clk2R19tZDZpLXRtSTNrYm9VdHdlLThReWRrOVZLWm90?oc=5\" target=\"_blank\">Ole Gunnar Solskjaer claims Man United can rule Europe with Cristiano Ronaldo and Raphael Varane</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "90 cases of dengue reported in Rawalpindi in last 24 hours - Daily Times",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "90 cases of dengue reported in Rawalpindi in last 24 hours - Daily Times"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPX2o0bU9XQkZQeHNXWmdWWlFhZWt1clNQSGZaNlVMejRSeGh0dm5KUE5yNjROOE93bGo4UW9HRjRDMmtpQnRDNUJHUXd1MmphVmJnbWNtaGNRSGVEd25PTi1kWHBWUE5tamFFeTM4RDlDNGtNQzFVZ2dxNngzcG1HZGdMMl9DTC1LZlpfWFhPQ0NMaWs2cHJr?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPX2o0bU9XQkZQeHNXWmdWWlFhZWt1clNQSGZaNlVMejRSeGh0dm5KUE5yNjROOE93bGo4UW9HRjRDMmtpQnRDNUJHUXd1MmphVmJnbWNtaGNRSGVEd25PTi1kWHBWUE5tamFFeTM4RDlDNGtNQzFVZ2dxNngzcG1HZGdMMl9DTC1LZlpfWFhPQ0NMaWs2cHJr?oc=5",
+      "id": "CBMilwFBVV95cUxPX2o0bU9XQkZQeHNXWmdWWlFhZWt1clNQSGZaNlVMejRSeGh0dm5KUE5yNjROOE93bGo4UW9HRjRDMmtpQnRDNUJHUXd1MmphVmJnbWNtaGNRSGVEd25PTi1kWHBWUE5tamFFeTM4RDlDNGtNQzFVZ2dxNngzcG1HZGdMMl9DTC1LZlpfWFhPQ0NMaWs2cHJr",
+      "guidislink": false,
+      "published": "Fri, 24 Sep 2021 07:00:00 GMT",
+      "published_parsed": [
+        2021,
+        9,
+        24,
+        7,
+        0,
+        0,
+        4,
+        267,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxPX2o0bU9XQkZQeHNXWmdWWlFhZWt1clNQSGZaNlVMejRSeGh0dm5KUE5yNjROOE93bGo4UW9HRjRDMmtpQnRDNUJHUXd1MmphVmJnbWNtaGNRSGVEd25PTi1kWHBWUE5tamFFeTM4RDlDNGtNQzFVZ2dxNngzcG1HZGdMMl9DTC1LZlpfWFhPQ0NMaWs2cHJr?oc=5\" target=\"_blank\">90 cases of dengue reported in Rawalpindi in last 24 hours</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Times</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxPX2o0bU9XQkZQeHNXWmdWWlFhZWt1clNQSGZaNlVMejRSeGh0dm5KUE5yNjROOE93bGo4UW9HRjRDMmtpQnRDNUJHUXd1MmphVmJnbWNtaGNRSGVEd25PTi1kWHBWUE5tamFFeTM4RDlDNGtNQzFVZ2dxNngzcG1HZGdMMl9DTC1LZlpfWFhPQ0NMaWs2cHJr?oc=5\" target=\"_blank\">90 cases of dengue reported in Rawalpindi in last 24 hours</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Times</font>"
+      },
+      "source": {
+        "href": "https://dailytimes.com.pk",
+        "title": "Daily Times"
+      },
+      "sub_articles": []
+    }
+  ]
+}

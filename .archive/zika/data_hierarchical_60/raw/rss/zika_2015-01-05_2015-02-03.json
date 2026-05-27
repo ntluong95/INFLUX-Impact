@@ -1,0 +1,435 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2015-01-05",
+  "window_end": "2015-02-03",
+  "window_days": 30,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2015-01-05+before%3A2015-02-04&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2015-01-05+before:2015-02-04&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T06:52:26Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2015-01-05 before:2015-02-04\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2015-01-05 before:2015-02-04\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2015-01-05+before:2015-02-04&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2015-01-05+before:2015-02-04&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 06:52:27 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      6,
+      52,
+      27,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "President Obama Attends the India State Dinner - National Archives (.gov)",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "President Obama Attends the India State Dinner - National Archives (.gov)"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQX3RiZnBXQmNOME1Sbi1mU0FNX0VFRl9ZNFNNVURzc1M2WU1FZDVxa0tfYmFVLUNiejVuTEE0Ry1NN01veGJpekdoc01XWmFmZTJZLXVROHYwYkdRX3ZFcktZeHhCNmFMaUNEemduTkExUUdHaDI0QUl1d0h2eGJUYVhhdXZUVUF4dmFBeE1TSkN6eXlhMTlnVVpYYklodzhweDVDMTJ1UnFsVm5za0FBWjVNY1Bsdm5iS0Q4?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQX3RiZnBXQmNOME1Sbi1mU0FNX0VFRl9ZNFNNVURzc1M2WU1FZDVxa0tfYmFVLUNiejVuTEE0Ry1NN01veGJpekdoc01XWmFmZTJZLXVROHYwYkdRX3ZFcktZeHhCNmFMaUNEemduTkExUUdHaDI0QUl1d0h2eGJUYVhhdXZUVUF4dmFBeE1TSkN6eXlhMTlnVVpYYklodzhweDVDMTJ1UnFsVm5za0FBWjVNY1Bsdm5iS0Q4?oc=5",
+      "id": "CBMiuwFBVV95cUxQX3RiZnBXQmNOME1Sbi1mU0FNX0VFRl9ZNFNNVURzc1M2WU1FZDVxa0tfYmFVLUNiejVuTEE0Ry1NN01veGJpekdoc01XWmFmZTJZLXVROHYwYkdRX3ZFcktZeHhCNmFMaUNEemduTkExUUdHaDI0QUl1d0h2eGJUYVhhdXZUVUF4dmFBeE1TSkN6eXlhMTlnVVpYYklodzhweDVDMTJ1UnFsVm5za0FBWjVNY1Bsdm5iS0Q4",
+      "guidislink": false,
+      "published": "Sun, 25 Jan 2015 08:00:00 GMT",
+      "published_parsed": [
+        2015,
+        1,
+        25,
+        8,
+        0,
+        0,
+        6,
+        25,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxQX3RiZnBXQmNOME1Sbi1mU0FNX0VFRl9ZNFNNVURzc1M2WU1FZDVxa0tfYmFVLUNiejVuTEE0Ry1NN01veGJpekdoc01XWmFmZTJZLXVROHYwYkdRX3ZFcktZeHhCNmFMaUNEemduTkExUUdHaDI0QUl1d0h2eGJUYVhhdXZUVUF4dmFBeE1TSkN6eXlhMTlnVVpYYklodzhweDVDMTJ1UnFsVm5za0FBWjVNY1Bsdm5iS0Q4?oc=5\" target=\"_blank\">President Obama Attends the India State Dinner</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">National Archives (.gov)</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxQX3RiZnBXQmNOME1Sbi1mU0FNX0VFRl9ZNFNNVURzc1M2WU1FZDVxa0tfYmFVLUNiejVuTEE0Ry1NN01veGJpekdoc01XWmFmZTJZLXVROHYwYkdRX3ZFcktZeHhCNmFMaUNEemduTkExUUdHaDI0QUl1d0h2eGJUYVhhdXZUVUF4dmFBeE1TSkN6eXlhMTlnVVpYYklodzhweDVDMTJ1UnFsVm5za0FBWjVNY1Bsdm5iS0Q4?oc=5\" target=\"_blank\">President Obama Attends the India State Dinner</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">National Archives (.gov)</font>"
+      },
+      "source": {
+        "href": "https://obamawhitehouse.archives.gov",
+        "title": "National Archives (.gov)"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Inside the One Place Where Footballs Are Made - TODAY.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Inside the One Place Where Footballs Are Made - TODAY.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQ3c2S19PSWVhX3dHWF8yandCSGFBeWxzVklvdmZ6VGFkcTlJUlpoT1Y3alZtNlZqLWlObHNFZW9ydUZneUl6eTEyelM0NWVsY2tPekw5Y01HUnFnZkdiYWdBZHZtNnhrMDVhSkQ5c0xqbHQyYlREb0JJUm5sWHZDYWtyd2RLWi01S3V6OGxkcw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQ3c2S19PSWVhX3dHWF8yandCSGFBeWxzVklvdmZ6VGFkcTlJUlpoT1Y3alZtNlZqLWlObHNFZW9ydUZneUl6eTEyelM0NWVsY2tPekw5Y01HUnFnZkdiYWdBZHZtNnhrMDVhSkQ5c0xqbHQyYlREb0JJUm5sWHZDYWtyd2RLWi01S3V6OGxkcw?oc=5",
+      "id": "CBMijwFBVV95cUxNQ3c2S19PSWVhX3dHWF8yandCSGFBeWxzVklvdmZ6VGFkcTlJUlpoT1Y3alZtNlZqLWlObHNFZW9ydUZneUl6eTEyelM0NWVsY2tPekw5Y01HUnFnZkdiYWdBZHZtNnhrMDVhSkQ5c0xqbHQyYlREb0JJUm5sWHZDYWtyd2RLWi01S3V6OGxkcw",
+      "guidislink": false,
+      "published": "Thu, 29 Jan 2015 08:00:00 GMT",
+      "published_parsed": [
+        2015,
+        1,
+        29,
+        8,
+        0,
+        0,
+        3,
+        29,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxNQ3c2S19PSWVhX3dHWF8yandCSGFBeWxzVklvdmZ6VGFkcTlJUlpoT1Y3alZtNlZqLWlObHNFZW9ydUZneUl6eTEyelM0NWVsY2tPekw5Y01HUnFnZkdiYWdBZHZtNnhrMDVhSkQ5c0xqbHQyYlREb0JJUm5sWHZDYWtyd2RLWi01S3V6OGxkcw?oc=5\" target=\"_blank\">Inside the One Place Where Footballs Are Made</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TODAY.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxNQ3c2S19PSWVhX3dHWF8yandCSGFBeWxzVklvdmZ6VGFkcTlJUlpoT1Y3alZtNlZqLWlObHNFZW9ydUZneUl6eTEyelM0NWVsY2tPekw5Y01HUnFnZkdiYWdBZHZtNnhrMDVhSkQ5c0xqbHQyYlREb0JJUm5sWHZDYWtyd2RLWi01S3V6OGxkcw?oc=5\" target=\"_blank\">Inside the One Place Where Footballs Are Made</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TODAY.com</font>"
+      },
+      "source": {
+        "href": "https://www.today.com",
+        "title": "TODAY.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Eight Facts About Auschwitz - NBC News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Eight Facts About Auschwitz - NBC News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9pN0ZpaWhRY21YVUpTcG9ORFBjaHBxcnRyY292NUt0RE9GU3Q5alpOVjVRMkRwS0luRTJPX3dQMHpqWThDRlNsYmJJZFNyQ3hqelA5c2F0Y0tJVGRzOXlONThKSTdUUlpQUXNXbmo0SGVOajQtY0twVWlB?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9pN0ZpaWhRY21YVUpTcG9ORFBjaHBxcnRyY292NUt0RE9GU3Q5alpOVjVRMkRwS0luRTJPX3dQMHpqWThDRlNsYmJJZFNyQ3hqelA5c2F0Y0tJVGRzOXlONThKSTdUUlpQUXNXbmo0SGVOajQtY0twVWlB?oc=5",
+      "id": "CBMiekFVX3lxTE9pN0ZpaWhRY21YVUpTcG9ORFBjaHBxcnRyY292NUt0RE9GU3Q5alpOVjVRMkRwS0luRTJPX3dQMHpqWThDRlNsYmJJZFNyQ3hqelA5c2F0Y0tJVGRzOXlONThKSTdUUlpQUXNXbmo0SGVOajQtY0twVWlB",
+      "guidislink": false,
+      "published": "Mon, 26 Jan 2015 08:00:00 GMT",
+      "published_parsed": [
+        2015,
+        1,
+        26,
+        8,
+        0,
+        0,
+        0,
+        26,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE9pN0ZpaWhRY21YVUpTcG9ORFBjaHBxcnRyY292NUt0RE9GU3Q5alpOVjVRMkRwS0luRTJPX3dQMHpqWThDRlNsYmJJZFNyQ3hqelA5c2F0Y0tJVGRzOXlONThKSTdUUlpQUXNXbmo0SGVOajQtY0twVWlB?oc=5\" target=\"_blank\">Eight Facts About Auschwitz</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NBC News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE9pN0ZpaWhRY21YVUpTcG9ORFBjaHBxcnRyY292NUt0RE9GU3Q5alpOVjVRMkRwS0luRTJPX3dQMHpqWThDRlNsYmJJZFNyQ3hqelA5c2F0Y0tJVGRzOXlONThKSTdUUlpQUXNXbmo0SGVOajQtY0twVWlB?oc=5\" target=\"_blank\">Eight Facts About Auschwitz</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NBC News</font>"
+      },
+      "source": {
+        "href": "https://www.nbcnews.com",
+        "title": "NBC News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Tottenham reject Kyle Naughton wants to copy Gylfi Sigurdsson and reignite his career at Swansea City - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Tottenham reject Kyle Naughton wants to copy Gylfi Sigurdsson and reignite his career at Swansea City - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNYllBY05tVGx4aTMxbmdQeWg3RGduUzNBN18xZVV5bkd5V05Pc3NJeFR0bmJ1OTB1VTBITldtSFlwM3ZfSzVTYXd0cmFMN1JJekRIQW9kWDhMYW02WW95OHB0YS1mSXRSa1ZVakhOUzNYZWJmaWtuTWVNTi01RUgyMlNBTGdkTE1CWHVGb2tNTzdka18xd01BSmEtV0VIOWhzM1dsaVRIdDhlZXNqZzR5WEYtTDF5U3E3YmlSVDRWYVFtdWhkMk5lMC1rMWRkN3AwbUV0ckwtQTRQNVZ0ZW4zOVBNLThCb0ZUM3BB0gHrAUFVX3lxTE1iWUFjTm1UbHhpMzFuZ1B5aDdEZ25TM0E3XzFlVXluR3lXTk9zc0l4VHRuYnU5MHVVMEhOV21IWXAzdl9LNVNhd3RyYUw3Ukl6REhBb2RYOExhbTZZb3k4cHRhLWZJdFJrVlVqSE5TM1hlYmZpa25NZU1OLTVFSDIyU0FMZ2RMTUJYdUZva01PN2RrXzF3TUFKYS1XRUg5aHMzV2xpVEh0OGVlc2pnNHlYRi1MMXlTcTdiaVJUNFZhUW11aGQyTmUwLWsxZGQ3cDBtRXRyTC1BNFA1VnRlbjM5UE0tOEJvRlQzcEE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNYllBY05tVGx4aTMxbmdQeWg3RGduUzNBN18xZVV5bkd5V05Pc3NJeFR0bmJ1OTB1VTBITldtSFlwM3ZfSzVTYXd0cmFMN1JJekRIQW9kWDhMYW02WW95OHB0YS1mSXRSa1ZVakhOUzNYZWJmaWtuTWVNTi01RUgyMlNBTGdkTE1CWHVGb2tNTzdka18xd01BSmEtV0VIOWhzM1dsaVRIdDhlZXNqZzR5WEYtTDF5U3E3YmlSVDRWYVFtdWhkMk5lMC1rMWRkN3AwbUV0ckwtQTRQNVZ0ZW4zOVBNLThCb0ZUM3BB0gHrAUFVX3lxTE1iWUFjTm1UbHhpMzFuZ1B5aDdEZ25TM0E3XzFlVXluR3lXTk9zc0l4VHRuYnU5MHVVMEhOV21IWXAzdl9LNVNhd3RyYUw3Ukl6REhBb2RYOExhbTZZb3k4cHRhLWZJdFJrVlVqSE5TM1hlYmZpa25NZU1OLTVFSDIyU0FMZ2RMTUJYdUZva01PN2RrXzF3TUFKYS1XRUg5aHMzV2xpVEh0OGVlc2pnNHlYRi1MMXlTcTdiaVJUNFZhUW11aGQyTmUwLWsxZGQ3cDBtRXRyTC1BNFA1VnRlbjM5UE0tOEJvRlQzcEE?oc=5",
+      "id": "CBMi6wFBVV95cUxNYllBY05tVGx4aTMxbmdQeWg3RGduUzNBN18xZVV5bkd5V05Pc3NJeFR0bmJ1OTB1VTBITldtSFlwM3ZfSzVTYXd0cmFMN1JJekRIQW9kWDhMYW02WW95OHB0YS1mSXRSa1ZVakhOUzNYZWJmaWtuTWVNTi01RUgyMlNBTGdkTE1CWHVGb2tNTzdka18xd01BSmEtV0VIOWhzM1dsaVRIdDhlZXNqZzR5WEYtTDF5U3E3YmlSVDRWYVFtdWhkMk5lMC1rMWRkN3AwbUV0ckwtQTRQNVZ0ZW4zOVBNLThCb0ZUM3BB0gHrAUFVX3lxTE1iWUFjTm1UbHhpMzFuZ1B5aDdEZ25TM0E3XzFlVXluR3lXTk9zc0l4VHRuYnU5MHVVMEhOV21IWXAzdl9LNVNhd3RyYUw3Ukl6REhBb2RYOExhbTZZb3k4cHRhLWZJdFJrVlVqSE5TM1hlYmZpa25NZU1OLTVFSDIyU0FMZ2RMTUJYdUZva01PN2RrXzF3TUFKYS1XRUg5aHMzV2xpVEh0OGVlc2pnNHlYRi1MMXlTcTdiaVJUNFZhUW11aGQyTmUwLWsxZGQ3cDBtRXRyTC1BNFA1VnRlbjM5UE0tOEJvRlQzcEE",
+      "guidislink": false,
+      "published": "Fri, 23 Jan 2015 08:00:00 GMT",
+      "published_parsed": [
+        2015,
+        1,
+        23,
+        8,
+        0,
+        0,
+        4,
+        23,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi6wFBVV95cUxNYllBY05tVGx4aTMxbmdQeWg3RGduUzNBN18xZVV5bkd5V05Pc3NJeFR0bmJ1OTB1VTBITldtSFlwM3ZfSzVTYXd0cmFMN1JJekRIQW9kWDhMYW02WW95OHB0YS1mSXRSa1ZVakhOUzNYZWJmaWtuTWVNTi01RUgyMlNBTGdkTE1CWHVGb2tNTzdka18xd01BSmEtV0VIOWhzM1dsaVRIdDhlZXNqZzR5WEYtTDF5U3E3YmlSVDRWYVFtdWhkMk5lMC1rMWRkN3AwbUV0ckwtQTRQNVZ0ZW4zOVBNLThCb0ZUM3BB0gHrAUFVX3lxTE1iWUFjTm1UbHhpMzFuZ1B5aDdEZ25TM0E3XzFlVXluR3lXTk9zc0l4VHRuYnU5MHVVMEhOV21IWXAzdl9LNVNhd3RyYUw3Ukl6REhBb2RYOExhbTZZb3k4cHRhLWZJdFJrVlVqSE5TM1hlYmZpa25NZU1OLTVFSDIyU0FMZ2RMTUJYdUZva01PN2RrXzF3TUFKYS1XRUg5aHMzV2xpVEh0OGVlc2pnNHlYRi1MMXlTcTdiaVJUNFZhUW11aGQyTmUwLWsxZGQ3cDBtRXRyTC1BNFA1VnRlbjM5UE0tOEJvRlQzcEE?oc=5\" target=\"_blank\">Tottenham reject Kyle Naughton wants to copy Gylfi Sigurdsson and reignite his career at Swansea City</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi6wFBVV95cUxNYllBY05tVGx4aTMxbmdQeWg3RGduUzNBN18xZVV5bkd5V05Pc3NJeFR0bmJ1OTB1VTBITldtSFlwM3ZfSzVTYXd0cmFMN1JJekRIQW9kWDhMYW02WW95OHB0YS1mSXRSa1ZVakhOUzNYZWJmaWtuTWVNTi01RUgyMlNBTGdkTE1CWHVGb2tNTzdka18xd01BSmEtV0VIOWhzM1dsaVRIdDhlZXNqZzR5WEYtTDF5U3E3YmlSVDRWYVFtdWhkMk5lMC1rMWRkN3AwbUV0ckwtQTRQNVZ0ZW4zOVBNLThCb0ZUM3BB0gHrAUFVX3lxTE1iWUFjTm1UbHhpMzFuZ1B5aDdEZ25TM0E3XzFlVXluR3lXTk9zc0l4VHRuYnU5MHVVMEhOV21IWXAzdl9LNVNhd3RyYUw3Ukl6REhBb2RYOExhbTZZb3k4cHRhLWZJdFJrVlVqSE5TM1hlYmZpa25NZU1OLTVFSDIyU0FMZ2RMTUJYdUZva01PN2RrXzF3TUFKYS1XRUg5aHMzV2xpVEh0OGVlc2pnNHlYRi1MMXlTcTdiaVJUNFZhUW11aGQyTmUwLWsxZGQ3cDBtRXRyTC1BNFA1VnRlbjM5UE0tOEJvRlQzcEE?oc=5\" target=\"_blank\">Tottenham reject Kyle Naughton wants to copy Gylfi Sigurdsson and reignite his career at Swansea City</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Martin Atkinson was right with all three major decisions during Liverpool vs Chelsea - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Martin Atkinson was right with all three major decisions during Liverpool vs Chelsea - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPRlFMNzBHVm51VXRqSHJZM3FXQVhPZTV1ZEhjX01fZDQwTlEzVm4xekJrRHNCbjlNZmhsRHRwd0xNaWxKN09tMHp5aDhjWkRFSUI0ekdMUldGZEVmd1AxVUo3eWdWS2dESmxoeDhOeW5YMW9kc0Q3em44RG5XVGNZdzR0ckx6V0E0ekRRaHFSUDBqNEUta2JUZVpubHVaV1hpVGlhYXpRS0V1VVQtZmt6cm5INmpIcVkwM2FlaEhWWkd3c2VmdnpxVHJKekhwZFJraW93ZDNsR0E2WDFWckJGVDRROWpqMk5xNkZsOTdsaGRFemMzYzNYVnhoa9IB-wFBVV95cUxPRlFMNzBHVm51VXRqSHJZM3FXQVhPZTV1ZEhjX01fZDQwTlEzVm4xekJrRHNCbjlNZmhsRHRwd0xNaWxKN09tMHp5aDhjWkRFSUI0ekdMUldGZEVmd1AxVUo3eWdWS2dESmxoeDhOeW5YMW9kc0Q3em44RG5XVGNZdzR0ckx6V0E0ekRRaHFSUDBqNEUta2JUZVpubHVaV1hpVGlhYXpRS0V1VVQtZmt6cm5INmpIcVkwM2FlaEhWWkd3c2VmdnpxVHJKekhwZFJraW93ZDNsR0E2WDFWckJGVDRROWpqMk5xNkZsOTdsaGRFemMzYzNYVnhoaw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPRlFMNzBHVm51VXRqSHJZM3FXQVhPZTV1ZEhjX01fZDQwTlEzVm4xekJrRHNCbjlNZmhsRHRwd0xNaWxKN09tMHp5aDhjWkRFSUI0ekdMUldGZEVmd1AxVUo3eWdWS2dESmxoeDhOeW5YMW9kc0Q3em44RG5XVGNZdzR0ckx6V0E0ekRRaHFSUDBqNEUta2JUZVpubHVaV1hpVGlhYXpRS0V1VVQtZmt6cm5INmpIcVkwM2FlaEhWWkd3c2VmdnpxVHJKekhwZFJraW93ZDNsR0E2WDFWckJGVDRROWpqMk5xNkZsOTdsaGRFemMzYzNYVnhoa9IB-wFBVV95cUxPRlFMNzBHVm51VXRqSHJZM3FXQVhPZTV1ZEhjX01fZDQwTlEzVm4xekJrRHNCbjlNZmhsRHRwd0xNaWxKN09tMHp5aDhjWkRFSUI0ekdMUldGZEVmd1AxVUo3eWdWS2dESmxoeDhOeW5YMW9kc0Q3em44RG5XVGNZdzR0ckx6V0E0ekRRaHFSUDBqNEUta2JUZVpubHVaV1hpVGlhYXpRS0V1VVQtZmt6cm5INmpIcVkwM2FlaEhWWkd3c2VmdnpxVHJKekhwZFJraW93ZDNsR0E2WDFWckJGVDRROWpqMk5xNkZsOTdsaGRFemMzYzNYVnhoaw?oc=5",
+      "id": "CBMi-wFBVV95cUxPRlFMNzBHVm51VXRqSHJZM3FXQVhPZTV1ZEhjX01fZDQwTlEzVm4xekJrRHNCbjlNZmhsRHRwd0xNaWxKN09tMHp5aDhjWkRFSUI0ekdMUldGZEVmd1AxVUo3eWdWS2dESmxoeDhOeW5YMW9kc0Q3em44RG5XVGNZdzR0ckx6V0E0ekRRaHFSUDBqNEUta2JUZVpubHVaV1hpVGlhYXpRS0V1VVQtZmt6cm5INmpIcVkwM2FlaEhWWkd3c2VmdnpxVHJKekhwZFJraW93ZDNsR0E2WDFWckJGVDRROWpqMk5xNkZsOTdsaGRFemMzYzNYVnhoa9IB-wFBVV95cUxPRlFMNzBHVm51VXRqSHJZM3FXQVhPZTV1ZEhjX01fZDQwTlEzVm4xekJrRHNCbjlNZmhsRHRwd0xNaWxKN09tMHp5aDhjWkRFSUI0ekdMUldGZEVmd1AxVUo3eWdWS2dESmxoeDhOeW5YMW9kc0Q3em44RG5XVGNZdzR0ckx6V0E0ekRRaHFSUDBqNEUta2JUZVpubHVaV1hpVGlhYXpRS0V1VVQtZmt6cm5INmpIcVkwM2FlaEhWWkd3c2VmdnpxVHJKekhwZFJraW93ZDNsR0E2WDFWckJGVDRROWpqMk5xNkZsOTdsaGRFemMzYzNYVnhoaw",
+      "guidislink": false,
+      "published": "Tue, 20 Jan 2015 08:00:00 GMT",
+      "published_parsed": [
+        2015,
+        1,
+        20,
+        8,
+        0,
+        0,
+        1,
+        20,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi-wFBVV95cUxPRlFMNzBHVm51VXRqSHJZM3FXQVhPZTV1ZEhjX01fZDQwTlEzVm4xekJrRHNCbjlNZmhsRHRwd0xNaWxKN09tMHp5aDhjWkRFSUI0ekdMUldGZEVmd1AxVUo3eWdWS2dESmxoeDhOeW5YMW9kc0Q3em44RG5XVGNZdzR0ckx6V0E0ekRRaHFSUDBqNEUta2JUZVpubHVaV1hpVGlhYXpRS0V1VVQtZmt6cm5INmpIcVkwM2FlaEhWWkd3c2VmdnpxVHJKekhwZFJraW93ZDNsR0E2WDFWckJGVDRROWpqMk5xNkZsOTdsaGRFemMzYzNYVnhoa9IB-wFBVV95cUxPRlFMNzBHVm51VXRqSHJZM3FXQVhPZTV1ZEhjX01fZDQwTlEzVm4xekJrRHNCbjlNZmhsRHRwd0xNaWxKN09tMHp5aDhjWkRFSUI0ekdMUldGZEVmd1AxVUo3eWdWS2dESmxoeDhOeW5YMW9kc0Q3em44RG5XVGNZdzR0ckx6V0E0ekRRaHFSUDBqNEUta2JUZVpubHVaV1hpVGlhYXpRS0V1VVQtZmt6cm5INmpIcVkwM2FlaEhWWkd3c2VmdnpxVHJKekhwZFJraW93ZDNsR0E2WDFWckJGVDRROWpqMk5xNkZsOTdsaGRFemMzYzNYVnhoaw?oc=5\" target=\"_blank\">Martin Atkinson was right with all three major decisions during Liverpool vs Chelsea</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi-wFBVV95cUxPRlFMNzBHVm51VXRqSHJZM3FXQVhPZTV1ZEhjX01fZDQwTlEzVm4xekJrRHNCbjlNZmhsRHRwd0xNaWxKN09tMHp5aDhjWkRFSUI0ekdMUldGZEVmd1AxVUo3eWdWS2dESmxoeDhOeW5YMW9kc0Q3em44RG5XVGNZdzR0ckx6V0E0ekRRaHFSUDBqNEUta2JUZVpubHVaV1hpVGlhYXpRS0V1VVQtZmt6cm5INmpIcVkwM2FlaEhWWkd3c2VmdnpxVHJKekhwZFJraW93ZDNsR0E2WDFWckJGVDRROWpqMk5xNkZsOTdsaGRFemMzYzNYVnhoa9IB-wFBVV95cUxPRlFMNzBHVm51VXRqSHJZM3FXQVhPZTV1ZEhjX01fZDQwTlEzVm4xekJrRHNCbjlNZmhsRHRwd0xNaWxKN09tMHp5aDhjWkRFSUI0ekdMUldGZEVmd1AxVUo3eWdWS2dESmxoeDhOeW5YMW9kc0Q3em44RG5XVGNZdzR0ckx6V0E0ekRRaHFSUDBqNEUta2JUZVpubHVaV1hpVGlhYXpRS0V1VVQtZmt6cm5INmpIcVkwM2FlaEhWWkd3c2VmdnpxVHJKekhwZFJraW93ZDNsR0E2WDFWckJGVDRROWpqMk5xNkZsOTdsaGRFemMzYzNYVnhoaw?oc=5\" target=\"_blank\">Martin Atkinson was right with all three major decisions during Liverpool vs Chelsea</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Jeopardy contestant confuses Iggy Azalea for nemesis Azealia Banks - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Jeopardy contestant confuses Iggy Azalea for nemesis Azealia Banks - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPSDdnekJEZFB4QVQxVU1CWUY1Z3ZZTHFkMmFrQW0tQmFoRXd6WU5BaUhVTUlqRXU5bmh3bU9URG9UZEVpQkR1eHZEVVVJblpLMU11RmdIenlhR0dRNjE0SnhIVzZ0NHJtMUdwMDdUa1RwcWpMZnl1cTlfSmxuLWdNUnJJYnd5c2QzS3p6Z19STVBZcFZmR1B2ZG5MbkJBbnVyazl1Y1BnNkhMRWxMem5pd2tzWjBQbXhXMzRCVjl5U1dtV3dxQ280Sl9Bc2xqT0JsV1ltQVZGUWpPcjRWWTVwTjQyVmxDa2J50gHoAUFVX3lxTE9IN2d6QkRkUHhBVDFVTUJZRjVndllMcWQyYWtBbS1CYWhFd3pZTkFpSFVNSWpFdTluaHdtT1REb1RkRWlCRHV4dkRVVUluWksxTXVGZ0h6eWFHR1E2MTRKeEhXNnQ0cm0xR3AwN1RrVHBxakxmeXVxOV9KbG4tZ01Scklid3lzZDNLenpnX1JNUFlwVmZHUHZkbkxuQkFudXJrOXVjUGc2SExFbEx6bml3a3NaMFBteFczNEJWOXlTV21Xd3FDbzRKX0FzbGpPQmxXWW1BVkZRak9yNFZZNXBONDJWbENrYnk?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPSDdnekJEZFB4QVQxVU1CWUY1Z3ZZTHFkMmFrQW0tQmFoRXd6WU5BaUhVTUlqRXU5bmh3bU9URG9UZEVpQkR1eHZEVVVJblpLMU11RmdIenlhR0dRNjE0SnhIVzZ0NHJtMUdwMDdUa1RwcWpMZnl1cTlfSmxuLWdNUnJJYnd5c2QzS3p6Z19STVBZcFZmR1B2ZG5MbkJBbnVyazl1Y1BnNkhMRWxMem5pd2tzWjBQbXhXMzRCVjl5U1dtV3dxQ280Sl9Bc2xqT0JsV1ltQVZGUWpPcjRWWTVwTjQyVmxDa2J50gHoAUFVX3lxTE9IN2d6QkRkUHhBVDFVTUJZRjVndllMcWQyYWtBbS1CYWhFd3pZTkFpSFVNSWpFdTluaHdtT1REb1RkRWlCRHV4dkRVVUluWksxTXVGZ0h6eWFHR1E2MTRKeEhXNnQ0cm0xR3AwN1RrVHBxakxmeXVxOV9KbG4tZ01Scklid3lzZDNLenpnX1JNUFlwVmZHUHZkbkxuQkFudXJrOXVjUGc2SExFbEx6bml3a3NaMFBteFczNEJWOXlTV21Xd3FDbzRKX0FzbGpPQmxXWW1BVkZRak9yNFZZNXBONDJWbENrYnk?oc=5",
+      "id": "CBMi6AFBVV95cUxPSDdnekJEZFB4QVQxVU1CWUY1Z3ZZTHFkMmFrQW0tQmFoRXd6WU5BaUhVTUlqRXU5bmh3bU9URG9UZEVpQkR1eHZEVVVJblpLMU11RmdIenlhR0dRNjE0SnhIVzZ0NHJtMUdwMDdUa1RwcWpMZnl1cTlfSmxuLWdNUnJJYnd5c2QzS3p6Z19STVBZcFZmR1B2ZG5MbkJBbnVyazl1Y1BnNkhMRWxMem5pd2tzWjBQbXhXMzRCVjl5U1dtV3dxQ280Sl9Bc2xqT0JsV1ltQVZGUWpPcjRWWTVwTjQyVmxDa2J50gHoAUFVX3lxTE9IN2d6QkRkUHhBVDFVTUJZRjVndllMcWQyYWtBbS1CYWhFd3pZTkFpSFVNSWpFdTluaHdtT1REb1RkRWlCRHV4dkRVVUluWksxTXVGZ0h6eWFHR1E2MTRKeEhXNnQ0cm0xR3AwN1RrVHBxakxmeXVxOV9KbG4tZ01Scklid3lzZDNLenpnX1JNUFlwVmZHUHZkbkxuQkFudXJrOXVjUGc2SExFbEx6bml3a3NaMFBteFczNEJWOXlTV21Xd3FDbzRKX0FzbGpPQmxXWW1BVkZRak9yNFZZNXBONDJWbENrYnk",
+      "guidislink": false,
+      "published": "Fri, 23 Jan 2015 08:00:00 GMT",
+      "published_parsed": [
+        2015,
+        1,
+        23,
+        8,
+        0,
+        0,
+        4,
+        23,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi6AFBVV95cUxPSDdnekJEZFB4QVQxVU1CWUY1Z3ZZTHFkMmFrQW0tQmFoRXd6WU5BaUhVTUlqRXU5bmh3bU9URG9UZEVpQkR1eHZEVVVJblpLMU11RmdIenlhR0dRNjE0SnhIVzZ0NHJtMUdwMDdUa1RwcWpMZnl1cTlfSmxuLWdNUnJJYnd5c2QzS3p6Z19STVBZcFZmR1B2ZG5MbkJBbnVyazl1Y1BnNkhMRWxMem5pd2tzWjBQbXhXMzRCVjl5U1dtV3dxQ280Sl9Bc2xqT0JsV1ltQVZGUWpPcjRWWTVwTjQyVmxDa2J50gHoAUFVX3lxTE9IN2d6QkRkUHhBVDFVTUJZRjVndllMcWQyYWtBbS1CYWhFd3pZTkFpSFVNSWpFdTluaHdtT1REb1RkRWlCRHV4dkRVVUluWksxTXVGZ0h6eWFHR1E2MTRKeEhXNnQ0cm0xR3AwN1RrVHBxakxmeXVxOV9KbG4tZ01Scklid3lzZDNLenpnX1JNUFlwVmZHUHZkbkxuQkFudXJrOXVjUGc2SExFbEx6bml3a3NaMFBteFczNEJWOXlTV21Xd3FDbzRKX0FzbGpPQmxXWW1BVkZRak9yNFZZNXBONDJWbENrYnk?oc=5\" target=\"_blank\">Jeopardy contestant confuses Iggy Azalea for nemesis Azealia Banks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi6AFBVV95cUxPSDdnekJEZFB4QVQxVU1CWUY1Z3ZZTHFkMmFrQW0tQmFoRXd6WU5BaUhVTUlqRXU5bmh3bU9URG9UZEVpQkR1eHZEVVVJblpLMU11RmdIenlhR0dRNjE0SnhIVzZ0NHJtMUdwMDdUa1RwcWpMZnl1cTlfSmxuLWdNUnJJYnd5c2QzS3p6Z19STVBZcFZmR1B2ZG5MbkJBbnVyazl1Y1BnNkhMRWxMem5pd2tzWjBQbXhXMzRCVjl5U1dtV3dxQ280Sl9Bc2xqT0JsV1ltQVZGUWpPcjRWWTVwTjQyVmxDa2J50gHoAUFVX3lxTE9IN2d6QkRkUHhBVDFVTUJZRjVndllMcWQyYWtBbS1CYWhFd3pZTkFpSFVNSWpFdTluaHdtT1REb1RkRWlCRHV4dkRVVUluWksxTXVGZ0h6eWFHR1E2MTRKeEhXNnQ0cm0xR3AwN1RrVHBxakxmeXVxOV9KbG4tZ01Scklid3lzZDNLenpnX1JNUFlwVmZHUHZkbkxuQkFudXJrOXVjUGc2SExFbEx6bml3a3NaMFBteFczNEJWOXlTV21Xd3FDbzRKX0FzbGpPQmxXWW1BVkZRak9yNFZZNXBONDJWbENrYnk?oc=5\" target=\"_blank\">Jeopardy contestant confuses Iggy Azalea for nemesis Azealia Banks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Biological clock predicts lifespan - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Biological clock predicts lifespan - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeDU5Tmd5RFVJT3cyYkp2ejQ1VFNhMTJ6R0duRmtsX1NZVHgxVlAtd20yb05iX2ZTSHJZcXl6MDBEQnFNQ21TLWxpMkpiU1hucmR0T2MtWktSWWtnUVQzTVF4TmUxa2hLODc2NW5DTHhvSjVCdENRVC1wemhDZi1BOHhIMjRfc1VDblAzdWxaYU1XVzJRNHR2U1FXOTdrbmN20gGgAUFVX3lxTE14NTlOZ3lEVUlPdzJiSnZ6NDVUU2ExMnpHR25Ga2xfU1lUeDFWUC13bTJvTmJfZlNIcllxeXowMERCcU1DbVMtbGkySmJTWG5yZHRPYy1aS1JZa2dRVDNNUXhOZTFraEs4NzY1bkNMeG9KNUJ0Q1FULXB6aENmLUE4eEgyNF9zVUNuUDN1bFphTVdXMlE0dHZTUVc5N2tuY3Y?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeDU5Tmd5RFVJT3cyYkp2ejQ1VFNhMTJ6R0duRmtsX1NZVHgxVlAtd20yb05iX2ZTSHJZcXl6MDBEQnFNQ21TLWxpMkpiU1hucmR0T2MtWktSWWtnUVQzTVF4TmUxa2hLODc2NW5DTHhvSjVCdENRVC1wemhDZi1BOHhIMjRfc1VDblAzdWxaYU1XVzJRNHR2U1FXOTdrbmN20gGgAUFVX3lxTE14NTlOZ3lEVUlPdzJiSnZ6NDVUU2ExMnpHR25Ga2xfU1lUeDFWUC13bTJvTmJfZlNIcllxeXowMERCcU1DbVMtbGkySmJTWG5yZHRPYy1aS1JZa2dRVDNNUXhOZTFraEs4NzY1bkNMeG9KNUJ0Q1FULXB6aENmLUE4eEgyNF9zVUNuUDN1bFphTVdXMlE0dHZTUVc5N2tuY3Y?oc=5",
+      "id": "CBMioAFBVV95cUxNeDU5Tmd5RFVJT3cyYkp2ejQ1VFNhMTJ6R0duRmtsX1NZVHgxVlAtd20yb05iX2ZTSHJZcXl6MDBEQnFNQ21TLWxpMkpiU1hucmR0T2MtWktSWWtnUVQzTVF4TmUxa2hLODc2NW5DTHhvSjVCdENRVC1wemhDZi1BOHhIMjRfc1VDblAzdWxaYU1XVzJRNHR2U1FXOTdrbmN20gGgAUFVX3lxTE14NTlOZ3lEVUlPdzJiSnZ6NDVUU2ExMnpHR25Ga2xfU1lUeDFWUC13bTJvTmJfZlNIcllxeXowMERCcU1DbVMtbGkySmJTWG5yZHRPYy1aS1JZa2dRVDNNUXhOZTFraEs4NzY1bkNMeG9KNUJ0Q1FULXB6aENmLUE4eEgyNF9zVUNuUDN1bFphTVdXMlE0dHZTUVc5N2tuY3Y",
+      "guidislink": false,
+      "published": "Fri, 30 Jan 2015 08:00:00 GMT",
+      "published_parsed": [
+        2015,
+        1,
+        30,
+        8,
+        0,
+        0,
+        4,
+        30,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNeDU5Tmd5RFVJT3cyYkp2ejQ1VFNhMTJ6R0duRmtsX1NZVHgxVlAtd20yb05iX2ZTSHJZcXl6MDBEQnFNQ21TLWxpMkpiU1hucmR0T2MtWktSWWtnUVQzTVF4TmUxa2hLODc2NW5DTHhvSjVCdENRVC1wemhDZi1BOHhIMjRfc1VDblAzdWxaYU1XVzJRNHR2U1FXOTdrbmN20gGgAUFVX3lxTE14NTlOZ3lEVUlPdzJiSnZ6NDVUU2ExMnpHR25Ga2xfU1lUeDFWUC13bTJvTmJfZlNIcllxeXowMERCcU1DbVMtbGkySmJTWG5yZHRPYy1aS1JZa2dRVDNNUXhOZTFraEs4NzY1bkNMeG9KNUJ0Q1FULXB6aENmLUE4eEgyNF9zVUNuUDN1bFphTVdXMlE0dHZTUVc5N2tuY3Y?oc=5\" target=\"_blank\">Biological clock predicts lifespan</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNeDU5Tmd5RFVJT3cyYkp2ejQ1VFNhMTJ6R0duRmtsX1NZVHgxVlAtd20yb05iX2ZTSHJZcXl6MDBEQnFNQ21TLWxpMkpiU1hucmR0T2MtWktSWWtnUVQzTVF4TmUxa2hLODc2NW5DTHhvSjVCdENRVC1wemhDZi1BOHhIMjRfc1VDblAzdWxaYU1XVzJRNHR2U1FXOTdrbmN20gGgAUFVX3lxTE14NTlOZ3lEVUlPdzJiSnZ6NDVUU2ExMnpHR25Ga2xfU1lUeDFWUC13bTJvTmJfZlNIcllxeXowMERCcU1DbVMtbGkySmJTWG5yZHRPYy1aS1JZa2dRVDNNUXhOZTFraEs4NzY1bkNMeG9KNUJ0Q1FULXB6aENmLUE4eEgyNF9zVUNuUDN1bFphTVdXMlE0dHZTUVc5N2tuY3Y?oc=5\" target=\"_blank\">Biological clock predicts lifespan</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Jaida Wand freezes her eggs after chemo on Hodgkin's lymphoma - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Jaida Wand freezes her eggs after chemo on Hodgkin's lymphoma - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPU2Y2S2JoZERyTTVodEVYNXQwV0ptTkJDV0I4RUpIT0JXLTQxY0lTaU1qUW1YQkY0a2g4TzFnTlBlYm50cVlIam0tOWJuamtuYlVNbFF1UFJ3SGEyZzlrUWVQa19QZUtEU19JVVY4WXNQTHVnVWlXUzFIcFdQSWlFc2lQZlhiaWIzeWc1Z3BXeWE5eGYyRUN3YVMwLXZ1eVE3Qm9sUlY5Q2E2bERSdHhUOFJyNmtqcXcyTjNPZzcxZk1JN0J3Qi0zWVJjcFZTdGthdGtwdmpKRWxtaHpaX3A0dHVEb1FBc3o2Q3dLUmlDYUctbmVaRXpvbWtZZUR6MmhYczRGZ2VXUHlQN1M5enJVeERmaFl4S1RKQzVkQmI1bU1sbmlDUmE0cmFqSkxPNlFxamfSAbICQVVfeXFMT1NmNktiaGREck01aHRFWDV0MFdKbU5CQ1dCOEVKSE9CVy00MWNJU2lNalFtWEJGNGtoOE8xZ05QZWJudHFZSGptLTlibmprbmJVTWxRdVBSd0hhMmc5a1FlUGtfUGVLRFNfSVVWOFlzUEx1Z1VpV1MxSHBXUElpRXNpUGZYYmliM3lnNWdwV3lhOXhmMkVDd2FTMC12dXlRN0JvbFJWOUNhNmxEUnR4VDhScjZranF3Mk4zT2c3MWZNSTdCd0ItM1lSY3BWU3RrYXRrcHZqSkVsbWh6Wl9wNHR1RG9RQXN6NkN3S1JpQ2FHLW5lWkV6b21rWWVEejJoWHM0RmdlV1B5UDdTOXpyVXhEZmhZeEtUSkM1ZEJiNW1NbG5pQ1JhNHJhakpMTzZRcWpn?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMisgJBVV95cUxPU2Y2S2JoZERyTTVodEVYNXQwV0ptTkJDV0I4RUpIT0JXLTQxY0lTaU1qUW1YQkY0a2g4TzFnTlBlYm50cVlIam0tOWJuamtuYlVNbFF1UFJ3SGEyZzlrUWVQa19QZUtEU19JVVY4WXNQTHVnVWlXUzFIcFdQSWlFc2lQZlhiaWIzeWc1Z3BXeWE5eGYyRUN3YVMwLXZ1eVE3Qm9sUlY5Q2E2bERSdHhUOFJyNmtqcXcyTjNPZzcxZk1JN0J3Qi0zWVJjcFZTdGthdGtwdmpKRWxtaHpaX3A0dHVEb1FBc3o2Q3dLUmlDYUctbmVaRXpvbWtZZUR6MmhYczRGZ2VXUHlQN1M5enJVeERmaFl4S1RKQzVkQmI1bU1sbmlDUmE0cmFqSkxPNlFxamfSAbICQVVfeXFMT1NmNktiaGREck01aHRFWDV0MFdKbU5CQ1dCOEVKSE9CVy00MWNJU2lNalFtWEJGNGtoOE8xZ05QZWJudHFZSGptLTlibmprbmJVTWxRdVBSd0hhMmc5a1FlUGtfUGVLRFNfSVVWOFlzUEx1Z1VpV1MxSHBXUElpRXNpUGZYYmliM3lnNWdwV3lhOXhmMkVDd2FTMC12dXlRN0JvbFJWOUNhNmxEUnR4VDhScjZranF3Mk4zT2c3MWZNSTdCd0ItM1lSY3BWU3RrYXRrcHZqSkVsbWh6Wl9wNHR1RG9RQXN6NkN3S1JpQ2FHLW5lWkV6b21rWWVEejJoWHM0RmdlV1B5UDdTOXpyVXhEZmhZeEtUSkM1ZEJiNW1NbG5pQ1JhNHJhakpMTzZRcWpn?oc=5",
+      "id": "CBMisgJBVV95cUxPU2Y2S2JoZERyTTVodEVYNXQwV0ptTkJDV0I4RUpIT0JXLTQxY0lTaU1qUW1YQkY0a2g4TzFnTlBlYm50cVlIam0tOWJuamtuYlVNbFF1UFJ3SGEyZzlrUWVQa19QZUtEU19JVVY4WXNQTHVnVWlXUzFIcFdQSWlFc2lQZlhiaWIzeWc1Z3BXeWE5eGYyRUN3YVMwLXZ1eVE3Qm9sUlY5Q2E2bERSdHhUOFJyNmtqcXcyTjNPZzcxZk1JN0J3Qi0zWVJjcFZTdGthdGtwdmpKRWxtaHpaX3A0dHVEb1FBc3o2Q3dLUmlDYUctbmVaRXpvbWtZZUR6MmhYczRGZ2VXUHlQN1M5enJVeERmaFl4S1RKQzVkQmI1bU1sbmlDUmE0cmFqSkxPNlFxamfSAbICQVVfeXFMT1NmNktiaGREck01aHRFWDV0MFdKbU5CQ1dCOEVKSE9CVy00MWNJU2lNalFtWEJGNGtoOE8xZ05QZWJudHFZSGptLTlibmprbmJVTWxRdVBSd0hhMmc5a1FlUGtfUGVLRFNfSVVWOFlzUEx1Z1VpV1MxSHBXUElpRXNpUGZYYmliM3lnNWdwV3lhOXhmMkVDd2FTMC12dXlRN0JvbFJWOUNhNmxEUnR4VDhScjZranF3Mk4zT2c3MWZNSTdCd0ItM1lSY3BWU3RrYXRrcHZqSkVsbWh6Wl9wNHR1RG9RQXN6NkN3S1JpQ2FHLW5lWkV6b21rWWVEejJoWHM0RmdlV1B5UDdTOXpyVXhEZmhZeEtUSkM1ZEJiNW1NbG5pQ1JhNHJhakpMTzZRcWpn",
+      "guidislink": false,
+      "published": "Thu, 15 Jan 2015 08:00:00 GMT",
+      "published_parsed": [
+        2015,
+        1,
+        15,
+        8,
+        0,
+        0,
+        3,
+        15,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgJBVV95cUxPU2Y2S2JoZERyTTVodEVYNXQwV0ptTkJDV0I4RUpIT0JXLTQxY0lTaU1qUW1YQkY0a2g4TzFnTlBlYm50cVlIam0tOWJuamtuYlVNbFF1UFJ3SGEyZzlrUWVQa19QZUtEU19JVVY4WXNQTHVnVWlXUzFIcFdQSWlFc2lQZlhiaWIzeWc1Z3BXeWE5eGYyRUN3YVMwLXZ1eVE3Qm9sUlY5Q2E2bERSdHhUOFJyNmtqcXcyTjNPZzcxZk1JN0J3Qi0zWVJjcFZTdGthdGtwdmpKRWxtaHpaX3A0dHVEb1FBc3o2Q3dLUmlDYUctbmVaRXpvbWtZZUR6MmhYczRGZ2VXUHlQN1M5enJVeERmaFl4S1RKQzVkQmI1bU1sbmlDUmE0cmFqSkxPNlFxamfSAbICQVVfeXFMT1NmNktiaGREck01aHRFWDV0MFdKbU5CQ1dCOEVKSE9CVy00MWNJU2lNalFtWEJGNGtoOE8xZ05QZWJudHFZSGptLTlibmprbmJVTWxRdVBSd0hhMmc5a1FlUGtfUGVLRFNfSVVWOFlzUEx1Z1VpV1MxSHBXUElpRXNpUGZYYmliM3lnNWdwV3lhOXhmMkVDd2FTMC12dXlRN0JvbFJWOUNhNmxEUnR4VDhScjZranF3Mk4zT2c3MWZNSTdCd0ItM1lSY3BWU3RrYXRrcHZqSkVsbWh6Wl9wNHR1RG9RQXN6NkN3S1JpQ2FHLW5lWkV6b21rWWVEejJoWHM0RmdlV1B5UDdTOXpyVXhEZmhZeEtUSkM1ZEJiNW1NbG5pQ1JhNHJhakpMTzZRcWpn?oc=5\" target=\"_blank\">Jaida Wand freezes her eggs after chemo on Hodgkin's lymphoma</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMisgJBVV95cUxPU2Y2S2JoZERyTTVodEVYNXQwV0ptTkJDV0I4RUpIT0JXLTQxY0lTaU1qUW1YQkY0a2g4TzFnTlBlYm50cVlIam0tOWJuamtuYlVNbFF1UFJ3SGEyZzlrUWVQa19QZUtEU19JVVY4WXNQTHVnVWlXUzFIcFdQSWlFc2lQZlhiaWIzeWc1Z3BXeWE5eGYyRUN3YVMwLXZ1eVE3Qm9sUlY5Q2E2bERSdHhUOFJyNmtqcXcyTjNPZzcxZk1JN0J3Qi0zWVJjcFZTdGthdGtwdmpKRWxtaHpaX3A0dHVEb1FBc3o2Q3dLUmlDYUctbmVaRXpvbWtZZUR6MmhYczRGZ2VXUHlQN1M5enJVeERmaFl4S1RKQzVkQmI1bU1sbmlDUmE0cmFqSkxPNlFxamfSAbICQVVfeXFMT1NmNktiaGREck01aHRFWDV0MFdKbU5CQ1dCOEVKSE9CVy00MWNJU2lNalFtWEJGNGtoOE8xZ05QZWJudHFZSGptLTlibmprbmJVTWxRdVBSd0hhMmc5a1FlUGtfUGVLRFNfSVVWOFlzUEx1Z1VpV1MxSHBXUElpRXNpUGZYYmliM3lnNWdwV3lhOXhmMkVDd2FTMC12dXlRN0JvbFJWOUNhNmxEUnR4VDhScjZranF3Mk4zT2c3MWZNSTdCd0ItM1lSY3BWU3RrYXRrcHZqSkVsbWh6Wl9wNHR1RG9RQXN6NkN3S1JpQ2FHLW5lWkV6b21rWWVEejJoWHM0RmdlV1B5UDdTOXpyVXhEZmhZeEtUSkM1ZEJiNW1NbG5pQ1JhNHJhakpMTzZRcWpn?oc=5\" target=\"_blank\">Jaida Wand freezes her eggs after chemo on Hodgkin's lymphoma</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    }
+  ]
+}

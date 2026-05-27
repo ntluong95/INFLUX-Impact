@@ -1,0 +1,779 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2016-04-23",
+  "window_end": "2016-04-25",
+  "window_days": 3,
+  "window_role": "hierarchical_child",
+  "parent_window_start": "2016-04-20",
+  "parent_window_end": "2016-04-26",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2016-04-23+before%3A2016-04-26&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2016-04-23+before:2016-04-26&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T06:56:06Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2016-04-23 before:2016-04-26\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2016-04-23 before:2016-04-26\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2016-04-23+before:2016-04-26&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2016-04-23+before:2016-04-26&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 06:56:07 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      6,
+      56,
+      7,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Venezuela’s Zika Outbreak May Be 150 Times Worse Than Reported, Study Says - Americas Quarterly",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Venezuela’s Zika Outbreak May Be 150 Times Worse Than Reported, Study Says - Americas Quarterly"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQU3VMWFRUbVVSSmtBaElEYTZHeWdlTUZHUEdNSVljTmRQT1ZMbHFCSHJHYnI0UjNaQXpSYi1fT1hrTFRuZVVCZURQZktjaWtQZTFHWVh0a05PZGVPeHhtSmlOM2xIal90TGNWaFVlU1JIZk5WVld0dktFaG5LemZLYmh6QVUwRXA2V0xueFI2d2hYbmNFWUpjYVIzdTNOT091X1VuZFZhVjQ2azAtemZXY1pwYmxiZw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQU3VMWFRUbVVSSmtBaElEYTZHeWdlTUZHUEdNSVljTmRQT1ZMbHFCSHJHYnI0UjNaQXpSYi1fT1hrTFRuZVVCZURQZktjaWtQZTFHWVh0a05PZGVPeHhtSmlOM2xIal90TGNWaFVlU1JIZk5WVld0dktFaG5LemZLYmh6QVUwRXA2V0xueFI2d2hYbmNFWUpjYVIzdTNOT091X1VuZFZhVjQ2azAtemZXY1pwYmxiZw?oc=5",
+      "id": "CBMitgFBVV95cUxQU3VMWFRUbVVSSmtBaElEYTZHeWdlTUZHUEdNSVljTmRQT1ZMbHFCSHJHYnI0UjNaQXpSYi1fT1hrTFRuZVVCZURQZktjaWtQZTFHWVh0a05PZGVPeHhtSmlOM2xIal90TGNWaFVlU1JIZk5WVld0dktFaG5LemZLYmh6QVUwRXA2V0xueFI2d2hYbmNFWUpjYVIzdTNOT091X1VuZFZhVjQ2azAtemZXY1pwYmxiZw",
+      "guidislink": false,
+      "published": "Tue, 26 Apr 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        4,
+        26,
+        7,
+        0,
+        0,
+        1,
+        117,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxQU3VMWFRUbVVSSmtBaElEYTZHeWdlTUZHUEdNSVljTmRQT1ZMbHFCSHJHYnI0UjNaQXpSYi1fT1hrTFRuZVVCZURQZktjaWtQZTFHWVh0a05PZGVPeHhtSmlOM2xIal90TGNWaFVlU1JIZk5WVld0dktFaG5LemZLYmh6QVUwRXA2V0xueFI2d2hYbmNFWUpjYVIzdTNOT091X1VuZFZhVjQ2azAtemZXY1pwYmxiZw?oc=5\" target=\"_blank\">Venezuela’s Zika Outbreak May Be 150 Times Worse Than Reported, Study Says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Americas Quarterly</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxQU3VMWFRUbVVSSmtBaElEYTZHeWdlTUZHUEdNSVljTmRQT1ZMbHFCSHJHYnI0UjNaQXpSYi1fT1hrTFRuZVVCZURQZktjaWtQZTFHWVh0a05PZGVPeHhtSmlOM2xIal90TGNWaFVlU1JIZk5WVld0dktFaG5LemZLYmh6QVUwRXA2V0xueFI2d2hYbmNFWUpjYVIzdTNOT091X1VuZFZhVjQ2azAtemZXY1pwYmxiZw?oc=5\" target=\"_blank\">Venezuela’s Zika Outbreak May Be 150 Times Worse Than Reported, Study Says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Americas Quarterly</font>"
+      },
+      "source": {
+        "href": "https://www.americasquarterly.org",
+        "title": "Americas Quarterly"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "How could Zika enter Europe? | - Institut Pasteur",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "How could Zika enter Europe? | - Institut Pasteur"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5oMkhXNEtVRlVNa3dDZEkxUk5iTUtXMDVQTGRaNEtvemZLVTYxWlZ2RTl4bDdsYmlIVmZLdHFTMk5aakNPYTJWdmJXNHNvWW5Tbjk3eG15b3F1ekhPeHk3a0dVQlF3Zw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5oMkhXNEtVRlVNa3dDZEkxUk5iTUtXMDVQTGRaNEtvemZLVTYxWlZ2RTl4bDdsYmlIVmZLdHFTMk5aakNPYTJWdmJXNHNvWW5Tbjk3eG15b3F1ekhPeHk3a0dVQlF3Zw?oc=5",
+      "id": "CBMiZkFVX3lxTE5oMkhXNEtVRlVNa3dDZEkxUk5iTUtXMDVQTGRaNEtvemZLVTYxWlZ2RTl4bDdsYmlIVmZLdHFTMk5aakNPYTJWdmJXNHNvWW5Tbjk3eG15b3F1ekhPeHk3a0dVQlF3Zw",
+      "guidislink": false,
+      "published": "Sun, 24 Apr 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        4,
+        24,
+        7,
+        0,
+        0,
+        6,
+        115,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE5oMkhXNEtVRlVNa3dDZEkxUk5iTUtXMDVQTGRaNEtvemZLVTYxWlZ2RTl4bDdsYmlIVmZLdHFTMk5aakNPYTJWdmJXNHNvWW5Tbjk3eG15b3F1ekhPeHk3a0dVQlF3Zw?oc=5\" target=\"_blank\">How could Zika enter Europe? |</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Institut Pasteur</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE5oMkhXNEtVRlVNa3dDZEkxUk5iTUtXMDVQTGRaNEtvemZLVTYxWlZ2RTl4bDdsYmlIVmZLdHFTMk5aakNPYTJWdmJXNHNvWW5Tbjk3eG15b3F1ekhPeHk3a0dVQlF3Zw?oc=5\" target=\"_blank\">How could Zika enter Europe? |</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Institut Pasteur</font>"
+      },
+      "source": {
+        "href": "https://www.pasteur.fr",
+        "title": "Institut Pasteur"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "For Expectant Mother, Possible Exposure to Zika a Terrifying Ordeal - WTTW",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "For Expectant Mother, Possible Exposure to Zika a Terrifying Ordeal - WTTW"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdVlIeTJrVHZQRUIzN003UThxX1FydmFGRGNKR2JEQVZsMElKRFVESzNnZ0ZlVmRUdEZSNVI5SnJwNThOeTR5a1hXaVZCYVRXN21wbWplNUF3d0ZKWkx6VGVqSVhqTnJmdUJEMmhwLUdsZFdGc1dlUUw3WUQzZ201R3dvdFZ3MlBVbDA1RzhaVHU1QjFK?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdVlIeTJrVHZQRUIzN003UThxX1FydmFGRGNKR2JEQVZsMElKRFVESzNnZ0ZlVmRUdEZSNVI5SnJwNThOeTR5a1hXaVZCYVRXN21wbWplNUF3d0ZKWkx6VGVqSVhqTnJmdUJEMmhwLUdsZFdGc1dlUUw3WUQzZ201R3dvdFZ3MlBVbDA1RzhaVHU1QjFK?oc=5",
+      "id": "CBMilAFBVV95cUxQdVlIeTJrVHZQRUIzN003UThxX1FydmFGRGNKR2JEQVZsMElKRFVESzNnZ0ZlVmRUdEZSNVI5SnJwNThOeTR5a1hXaVZCYVRXN21wbWplNUF3d0ZKWkx6VGVqSVhqTnJmdUJEMmhwLUdsZFdGc1dlUUw3WUQzZ201R3dvdFZ3MlBVbDA1RzhaVHU1QjFK",
+      "guidislink": false,
+      "published": "Tue, 26 Apr 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        4,
+        26,
+        7,
+        0,
+        0,
+        1,
+        117,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxQdVlIeTJrVHZQRUIzN003UThxX1FydmFGRGNKR2JEQVZsMElKRFVESzNnZ0ZlVmRUdEZSNVI5SnJwNThOeTR5a1hXaVZCYVRXN21wbWplNUF3d0ZKWkx6VGVqSVhqTnJmdUJEMmhwLUdsZFdGc1dlUUw3WUQzZ201R3dvdFZ3MlBVbDA1RzhaVHU1QjFK?oc=5\" target=\"_blank\">For Expectant Mother, Possible Exposure to Zika a Terrifying Ordeal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WTTW</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxQdVlIeTJrVHZQRUIzN003UThxX1FydmFGRGNKR2JEQVZsMElKRFVESzNnZ0ZlVmRUdEZSNVI5SnJwNThOeTR5a1hXaVZCYVRXN21wbWplNUF3d0ZKWkx6VGVqSVhqTnJmdUJEMmhwLUdsZFdGc1dlUUw3WUQzZ201R3dvdFZ3MlBVbDA1RzhaVHU1QjFK?oc=5\" target=\"_blank\">For Expectant Mother, Possible Exposure to Zika a Terrifying Ordeal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WTTW</font>"
+      },
+      "source": {
+        "href": "https://news.wttw.com",
+        "title": "WTTW"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Hirono Wants $1.9B To Fight Zika - Honolulu Civil Beat",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Hirono Wants $1.9B To Fight Zika - Honolulu Civil Beat"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMidEFVX3lxTE02aml0QWVxb3lIa3pVQW1xZ1hteTgyYVpINWN6MjZ5SDRKaHRuV1pFaG9NNUJLRHlhWjhHcHV6WWlLSF9sWjBRaHUtV1ZESXk5STNhOURWTmVWcjl1US1hTTFocXFzLXdIT3VxOC1GNlZkMFc4?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE02aml0QWVxb3lIa3pVQW1xZ1hteTgyYVpINWN6MjZ5SDRKaHRuV1pFaG9NNUJLRHlhWjhHcHV6WWlLSF9sWjBRaHUtV1ZESXk5STNhOURWTmVWcjl1US1hTTFocXFzLXdIT3VxOC1GNlZkMFc4?oc=5",
+      "id": "CBMidEFVX3lxTE02aml0QWVxb3lIa3pVQW1xZ1hteTgyYVpINWN6MjZ5SDRKaHRuV1pFaG9NNUJLRHlhWjhHcHV6WWlLSF9sWjBRaHUtV1ZESXk5STNhOURWTmVWcjl1US1hTTFocXFzLXdIT3VxOC1GNlZkMFc4",
+      "guidislink": false,
+      "published": "Sun, 24 Apr 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        4,
+        24,
+        7,
+        0,
+        0,
+        6,
+        115,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE02aml0QWVxb3lIa3pVQW1xZ1hteTgyYVpINWN6MjZ5SDRKaHRuV1pFaG9NNUJLRHlhWjhHcHV6WWlLSF9sWjBRaHUtV1ZESXk5STNhOURWTmVWcjl1US1hTTFocXFzLXdIT3VxOC1GNlZkMFc4?oc=5\" target=\"_blank\">Hirono Wants $1.9B To Fight Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Honolulu Civil Beat</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE02aml0QWVxb3lIa3pVQW1xZ1hteTgyYVpINWN6MjZ5SDRKaHRuV1pFaG9NNUJLRHlhWjhHcHV6WWlLSF9sWjBRaHUtV1ZESXk5STNhOURWTmVWcjl1US1hTTFocXFzLXdIT3VxOC1GNlZkMFc4?oc=5\" target=\"_blank\">Hirono Wants $1.9B To Fight Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Honolulu Civil Beat</font>"
+      },
+      "source": {
+        "href": "https://www.civilbeat.org",
+        "title": "Honolulu Civil Beat"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "What Makes the Zika-Spreading Mosquito Such a Menace - The Atlantic",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "What Makes the Zika-Spreading Mosquito Such a Menace - The Atlantic"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAybDNNeTVIMTdNeHVLOG9VdnBwczROd0hFbGdOeGFYcU9wTFpCV1JyOG1KNlhLQm5SazVHM0tNLUxIbkN5WV8wbXJuMEZ4WU05TFQ5N2xHS0tMYmhEZ3JtVFpjODFYQUVNb2lsWEhYVUE2U0F2UjNiU3lCWnc1UQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAybDNNeTVIMTdNeHVLOG9VdnBwczROd0hFbGdOeGFYcU9wTFpCV1JyOG1KNlhLQm5SazVHM0tNLUxIbkN5WV8wbXJuMEZ4WU05TFQ5N2xHS0tMYmhEZ3JtVFpjODFYQUVNb2lsWEhYVUE2U0F2UjNiU3lCWnc1UQ?oc=5",
+      "id": "CBMifkFVX3lxTFAybDNNeTVIMTdNeHVLOG9VdnBwczROd0hFbGdOeGFYcU9wTFpCV1JyOG1KNlhLQm5SazVHM0tNLUxIbkN5WV8wbXJuMEZ4WU05TFQ5N2xHS0tMYmhEZ3JtVFpjODFYQUVNb2lsWEhYVUE2U0F2UjNiU3lCWnc1UQ",
+      "guidislink": false,
+      "published": "Mon, 25 Apr 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        4,
+        25,
+        7,
+        0,
+        0,
+        0,
+        116,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTFAybDNNeTVIMTdNeHVLOG9VdnBwczROd0hFbGdOeGFYcU9wTFpCV1JyOG1KNlhLQm5SazVHM0tNLUxIbkN5WV8wbXJuMEZ4WU05TFQ5N2xHS0tMYmhEZ3JtVFpjODFYQUVNb2lsWEhYVUE2U0F2UjNiU3lCWnc1UQ?oc=5\" target=\"_blank\">What Makes the Zika-Spreading Mosquito Such a Menace</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Atlantic</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTFAybDNNeTVIMTdNeHVLOG9VdnBwczROd0hFbGdOeGFYcU9wTFpCV1JyOG1KNlhLQm5SazVHM0tNLUxIbkN5WV8wbXJuMEZ4WU05TFQ5N2xHS0tMYmhEZ3JtVFpjODFYQUVNb2lsWEhYVUE2U0F2UjNiU3lCWnc1UQ?oc=5\" target=\"_blank\">What Makes the Zika-Spreading Mosquito Such a Menace</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Atlantic</font>"
+      },
+      "source": {
+        "href": "https://www.theatlantic.com",
+        "title": "The Atlantic"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "How Can Newborns Get Zika? Babies Can Be Vulnerable To The Virus - romper.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "How Can Newborns Get Zika? Babies Can Be Vulnerable To The Virus - romper.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVE9XYUVSRVNzaWN1T0MwLWhvZW4xelUxLTBRVlo4cWMzOEUwRUdHQUFyNl9FTVU1dmhyQkp1ZzhRQnBiZWdPcXEtenZRenJMUXNRcjFWb01SVkQ3YUtQeG9tZEhJZ2NLQ0Nac051ejZRaTZLWHdnVWNhdVd5d21FbjJaaS0yME9rM0Z6bXZiNWlWMTktb055Zw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVE9XYUVSRVNzaWN1T0MwLWhvZW4xelUxLTBRVlo4cWMzOEUwRUdHQUFyNl9FTVU1dmhyQkp1ZzhRQnBiZWdPcXEtenZRenJMUXNRcjFWb01SVkQ3YUtQeG9tZEhJZ2NLQ0Nac051ejZRaTZLWHdnVWNhdVd5d21FbjJaaS0yME9rM0Z6bXZiNWlWMTktb055Zw?oc=5",
+      "id": "CBMimAFBVV95cUxNVE9XYUVSRVNzaWN1T0MwLWhvZW4xelUxLTBRVlo4cWMzOEUwRUdHQUFyNl9FTVU1dmhyQkp1ZzhRQnBiZWdPcXEtenZRenJMUXNRcjFWb01SVkQ3YUtQeG9tZEhJZ2NLQ0Nac051ejZRaTZLWHdnVWNhdVd5d21FbjJaaS0yME9rM0Z6bXZiNWlWMTktb055Zw",
+      "guidislink": false,
+      "published": "Tue, 26 Apr 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        4,
+        26,
+        7,
+        0,
+        0,
+        1,
+        117,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxNVE9XYUVSRVNzaWN1T0MwLWhvZW4xelUxLTBRVlo4cWMzOEUwRUdHQUFyNl9FTVU1dmhyQkp1ZzhRQnBiZWdPcXEtenZRenJMUXNRcjFWb01SVkQ3YUtQeG9tZEhJZ2NLQ0Nac051ejZRaTZLWHdnVWNhdVd5d21FbjJaaS0yME9rM0Z6bXZiNWlWMTktb055Zw?oc=5\" target=\"_blank\">How Can Newborns Get Zika? Babies Can Be Vulnerable To The Virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">romper.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxNVE9XYUVSRVNzaWN1T0MwLWhvZW4xelUxLTBRVlo4cWMzOEUwRUdHQUFyNl9FTVU1dmhyQkp1ZzhRQnBiZWdPcXEtenZRenJMUXNRcjFWb01SVkQ3YUtQeG9tZEhJZ2NLQ0Nac051ejZRaTZLWHdnVWNhdVd5d21FbjJaaS0yME9rM0Z6bXZiNWlWMTktb055Zw?oc=5\" target=\"_blank\">How Can Newborns Get Zika? Babies Can Be Vulnerable To The Virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">romper.com</font>"
+      },
+      "source": {
+        "href": "https://www.romper.com",
+        "title": "romper.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "'Whoa, what is this?' Man who had Zika shares story - USA Today",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "'Whoa, what is this?' Man who had Zika shares story - USA Today"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSGozUjEzVXk5czdlNmZSaWxCbDBoTFF5S0ktSG9zZXJKQ2pfUVFFWDJZWDQ1Z2xSTWdMV1ZVTU5HSWdPYzg4YkE5WW5meVlnUTBZTXUtRmFYbXFZOThCY1VFR3I2TGFKa3RzSEZkVGl6NXZUXy1TRlBhQVZDOXZvRkpQTFpEQ3dLT2Fhc2RtWnFCQWhSQkpjLVJpZGcyX1hBa1ItODZWRQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSGozUjEzVXk5czdlNmZSaWxCbDBoTFF5S0ktSG9zZXJKQ2pfUVFFWDJZWDQ1Z2xSTWdMV1ZVTU5HSWdPYzg4YkE5WW5meVlnUTBZTXUtRmFYbXFZOThCY1VFR3I2TGFKa3RzSEZkVGl6NXZUXy1TRlBhQVZDOXZvRkpQTFpEQ3dLT2Fhc2RtWnFCQWhSQkpjLVJpZGcyX1hBa1ItODZWRQ?oc=5",
+      "id": "CBMipwFBVV95cUxPSGozUjEzVXk5czdlNmZSaWxCbDBoTFF5S0ktSG9zZXJKQ2pfUVFFWDJZWDQ1Z2xSTWdMV1ZVTU5HSWdPYzg4YkE5WW5meVlnUTBZTXUtRmFYbXFZOThCY1VFR3I2TGFKa3RzSEZkVGl6NXZUXy1TRlBhQVZDOXZvRkpQTFpEQ3dLT2Fhc2RtWnFCQWhSQkpjLVJpZGcyX1hBa1ItODZWRQ",
+      "guidislink": false,
+      "published": "Mon, 25 Apr 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        4,
+        25,
+        7,
+        0,
+        0,
+        0,
+        116,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxPSGozUjEzVXk5czdlNmZSaWxCbDBoTFF5S0ktSG9zZXJKQ2pfUVFFWDJZWDQ1Z2xSTWdMV1ZVTU5HSWdPYzg4YkE5WW5meVlnUTBZTXUtRmFYbXFZOThCY1VFR3I2TGFKa3RzSEZkVGl6NXZUXy1TRlBhQVZDOXZvRkpQTFpEQ3dLT2Fhc2RtWnFCQWhSQkpjLVJpZGcyX1hBa1ItODZWRQ?oc=5\" target=\"_blank\">'Whoa, what is this?' Man who had Zika shares story</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">USA Today</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxPSGozUjEzVXk5czdlNmZSaWxCbDBoTFF5S0ktSG9zZXJKQ2pfUVFFWDJZWDQ1Z2xSTWdMV1ZVTU5HSWdPYzg4YkE5WW5meVlnUTBZTXUtRmFYbXFZOThCY1VFR3I2TGFKa3RzSEZkVGl6NXZUXy1TRlBhQVZDOXZvRkpQTFpEQ3dLT2Fhc2RtWnFCQWhSQkpjLVJpZGcyX1hBa1ItODZWRQ?oc=5\" target=\"_blank\">'Whoa, what is this?' Man who had Zika shares story</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">USA Today</font>"
+      },
+      "source": {
+        "href": "https://www.usatoday.com",
+        "title": "USA Today"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika case confirmed in Ontario, may be sexually transmitted - CBC",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika case confirmed in Ontario, may be sexually transmitted - CBC"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5EanBKWVJZdDd5QVpzVnYySllFMnpBeHRBM0ViWlNUMGh3TUV6OXRUUkgtbEx5TDR3a2NGc045ZzMtRGEwQzRDd3hjQVB6cGc0TGxYajBsX1c?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5EanBKWVJZdDd5QVpzVnYySllFMnpBeHRBM0ViWlNUMGh3TUV6OXRUUkgtbEx5TDR3a2NGc045ZzMtRGEwQzRDd3hjQVB6cGc0TGxYajBsX1c?oc=5",
+      "id": "CBMiWEFVX3lxTE5EanBKWVJZdDd5QVpzVnYySllFMnpBeHRBM0ViWlNUMGh3TUV6OXRUUkgtbEx5TDR3a2NGc045ZzMtRGEwQzRDd3hjQVB6cGc0TGxYajBsX1c",
+      "guidislink": false,
+      "published": "Tue, 26 Apr 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        4,
+        26,
+        7,
+        0,
+        0,
+        1,
+        117,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE5EanBKWVJZdDd5QVpzVnYySllFMnpBeHRBM0ViWlNUMGh3TUV6OXRUUkgtbEx5TDR3a2NGc045ZzMtRGEwQzRDd3hjQVB6cGc0TGxYajBsX1c?oc=5\" target=\"_blank\">Zika case confirmed in Ontario, may be sexually transmitted</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CBC</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE5EanBKWVJZdDd5QVpzVnYySllFMnpBeHRBM0ViWlNUMGh3TUV6OXRUUkgtbEx5TDR3a2NGc045ZzMtRGEwQzRDd3hjQVB6cGc0TGxYajBsX1c?oc=5\" target=\"_blank\">Zika case confirmed in Ontario, may be sexually transmitted</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CBC</font>"
+      },
+      "source": {
+        "href": "https://www.cbc.ca",
+        "title": "CBC"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "This “Sweaty” Billboard Kills Mosquitoes - Smithsonian Magazine",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "This “Sweaty” Billboard Kills Mosquitoes - Smithsonian Magazine"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVnFXWVFSdGxEV2FyeTRkQWlnTmdoNFZzRnpBenE2dzlQT20wSTRyaTlZMmx0TUQxRHR1dVhjQ0tWandSZ0FFbDVid0xtYXlER1NNZldjVG1IQ0tfYzRPb3lNeGR4T0dBbktjQ2VDeTF0a3N5d2o3Z21JVWU5WFhUTW0xdUZnMk9qMmJwbDAzYw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVnFXWVFSdGxEV2FyeTRkQWlnTmdoNFZzRnpBenE2dzlQT20wSTRyaTlZMmx0TUQxRHR1dVhjQ0tWandSZ0FFbDVid0xtYXlER1NNZldjVG1IQ0tfYzRPb3lNeGR4T0dBbktjQ2VDeTF0a3N5d2o3Z21JVWU5WFhUTW0xdUZnMk9qMmJwbDAzYw?oc=5",
+      "id": "CBMijwFBVV95cUxPVnFXWVFSdGxEV2FyeTRkQWlnTmdoNFZzRnpBenE2dzlQT20wSTRyaTlZMmx0TUQxRHR1dVhjQ0tWandSZ0FFbDVid0xtYXlER1NNZldjVG1IQ0tfYzRPb3lNeGR4T0dBbktjQ2VDeTF0a3N5d2o3Z21JVWU5WFhUTW0xdUZnMk9qMmJwbDAzYw",
+      "guidislink": false,
+      "published": "Mon, 25 Apr 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        4,
+        25,
+        7,
+        0,
+        0,
+        0,
+        116,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxPVnFXWVFSdGxEV2FyeTRkQWlnTmdoNFZzRnpBenE2dzlQT20wSTRyaTlZMmx0TUQxRHR1dVhjQ0tWandSZ0FFbDVid0xtYXlER1NNZldjVG1IQ0tfYzRPb3lNeGR4T0dBbktjQ2VDeTF0a3N5d2o3Z21JVWU5WFhUTW0xdUZnMk9qMmJwbDAzYw?oc=5\" target=\"_blank\">This “Sweaty” Billboard Kills Mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Smithsonian Magazine</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxPVnFXWVFSdGxEV2FyeTRkQWlnTmdoNFZzRnpBenE2dzlQT20wSTRyaTlZMmx0TUQxRHR1dVhjQ0tWandSZ0FFbDVid0xtYXlER1NNZldjVG1IQ0tfYzRPb3lNeGR4T0dBbktjQ2VDeTF0a3N5d2o3Z21JVWU5WFhUTW0xdUZnMk9qMmJwbDAzYw?oc=5\" target=\"_blank\">This “Sweaty” Billboard Kills Mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Smithsonian Magazine</font>"
+      },
+      "source": {
+        "href": "https://www.smithsonianmag.com",
+        "title": "Smithsonian Magazine"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Mini Brains Help Scientists Understand Zika - Sky News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Mini Brains Help Scientists Understand Zika - Sky News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPc2lGcW1vTjJEMHozODdUamVqTm9ZZjU0ajZ3aXZpeWQwUnFzTkw2dU5pSUY2R0poTklWOHRsYlR3LXJuS2I5SVNraUdTYllOOHdvWmIyYlB3NGtjQzJtajRPU1hCd1lRM0JPV2x1OEhLc3Itei1EZXd2WXJnbkN5R3EzY3lMZw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPc2lGcW1vTjJEMHozODdUamVqTm9ZZjU0ajZ3aXZpeWQwUnFzTkw2dU5pSUY2R0poTklWOHRsYlR3LXJuS2I5SVNraUdTYllOOHdvWmIyYlB3NGtjQzJtajRPU1hCd1lRM0JPV2x1OEhLc3Itei1EZXd2WXJnbkN5R3EzY3lMZw?oc=5",
+      "id": "CBMihgFBVV95cUxPc2lGcW1vTjJEMHozODdUamVqTm9ZZjU0ajZ3aXZpeWQwUnFzTkw2dU5pSUY2R0poTklWOHRsYlR3LXJuS2I5SVNraUdTYllOOHdvWmIyYlB3NGtjQzJtajRPU1hCd1lRM0JPV2x1OEhLc3Itei1EZXd2WXJnbkN5R3EzY3lMZw",
+      "guidislink": false,
+      "published": "Sat, 23 Apr 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        4,
+        23,
+        7,
+        0,
+        0,
+        5,
+        114,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxPc2lGcW1vTjJEMHozODdUamVqTm9ZZjU0ajZ3aXZpeWQwUnFzTkw2dU5pSUY2R0poTklWOHRsYlR3LXJuS2I5SVNraUdTYllOOHdvWmIyYlB3NGtjQzJtajRPU1hCd1lRM0JPV2x1OEhLc3Itei1EZXd2WXJnbkN5R3EzY3lMZw?oc=5\" target=\"_blank\">Mini Brains Help Scientists Understand Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sky News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxPc2lGcW1vTjJEMHozODdUamVqTm9ZZjU0ajZ3aXZpeWQwUnFzTkw2dU5pSUY2R0poTklWOHRsYlR3LXJuS2I5SVNraUdTYllOOHdvWmIyYlB3NGtjQzJtajRPU1hCd1lRM0JPV2x1OEhLc3Itei1EZXd2WXJnbkN5R3EzY3lMZw?oc=5\" target=\"_blank\">Mini Brains Help Scientists Understand Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sky News</font>"
+      },
+      "source": {
+        "href": "https://news.sky.com",
+        "title": "Sky News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika virus 'could be on its way to Europe', warns UN health agency - The Telegraph",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika virus 'could be on its way to Europe', warns UN health agency - The Telegraph"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcXIzWHZhdjhORW9ZcDlROGhCT1R2WHVQSndkV19WYXBTM1dLODRZVENMNUJ3TkNaMnk1TF9EMlFOOVo5UTJkT0hramZtWkh1Y3R1OGd5eXJFb0o3SVZ1Z0htZy1tbjNaMUdTQU0xQklrUXdORVZ5ZE1lNkpIOWJDQ201WXJFZi1yS3ZPUmFINlc0cm52RF9lODBkMUtSYTd6YW1JMFJGN09PUXZ3?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcXIzWHZhdjhORW9ZcDlROGhCT1R2WHVQSndkV19WYXBTM1dLODRZVENMNUJ3TkNaMnk1TF9EMlFOOVo5UTJkT0hramZtWkh1Y3R1OGd5eXJFb0o3SVZ1Z0htZy1tbjNaMUdTQU0xQklrUXdORVZ5ZE1lNkpIOWJDQ201WXJFZi1yS3ZPUmFINlc0cm52RF9lODBkMUtSYTd6YW1JMFJGN09PUXZ3?oc=5",
+      "id": "CBMirAFBVV95cUxOcXIzWHZhdjhORW9ZcDlROGhCT1R2WHVQSndkV19WYXBTM1dLODRZVENMNUJ3TkNaMnk1TF9EMlFOOVo5UTJkT0hramZtWkh1Y3R1OGd5eXJFb0o3SVZ1Z0htZy1tbjNaMUdTQU0xQklrUXdORVZ5ZE1lNkpIOWJDQ201WXJFZi1yS3ZPUmFINlc0cm52RF9lODBkMUtSYTd6YW1JMFJGN09PUXZ3",
+      "guidislink": false,
+      "published": "Tue, 26 Apr 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        4,
+        26,
+        7,
+        0,
+        0,
+        1,
+        117,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxOcXIzWHZhdjhORW9ZcDlROGhCT1R2WHVQSndkV19WYXBTM1dLODRZVENMNUJ3TkNaMnk1TF9EMlFOOVo5UTJkT0hramZtWkh1Y3R1OGd5eXJFb0o3SVZ1Z0htZy1tbjNaMUdTQU0xQklrUXdORVZ5ZE1lNkpIOWJDQ201WXJFZi1yS3ZPUmFINlc0cm52RF9lODBkMUtSYTd6YW1JMFJGN09PUXZ3?oc=5\" target=\"_blank\">Zika virus 'could be on its way to Europe', warns UN health agency</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Telegraph</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxOcXIzWHZhdjhORW9ZcDlROGhCT1R2WHVQSndkV19WYXBTM1dLODRZVENMNUJ3TkNaMnk1TF9EMlFOOVo5UTJkT0hramZtWkh1Y3R1OGd5eXJFb0o3SVZ1Z0htZy1tbjNaMUdTQU0xQklrUXdORVZ5ZE1lNkpIOWJDQ201WXJFZi1yS3ZPUmFINlc0cm52RF9lODBkMUtSYTd6YW1JMFJGN09PUXZ3?oc=5\" target=\"_blank\">Zika virus 'could be on its way to Europe', warns UN health agency</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Telegraph</font>"
+      },
+      "source": {
+        "href": "https://www.telegraph.co.uk",
+        "title": "The Telegraph"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "On the front lines in Brazil's war with Zika - The Virgin Islands Daily News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "On the front lines in Brazil's war with Zika - The Virgin Islands Daily News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTGpXVW5IVmIyS2VmR0NSTllPWHVrdDBnWHZ2ZF83ZnYzNG9PYmczQjlmN05jQnRoZXV1ZGpyRjJmRlVDLWNwc3Y3dmtIZlZIQmp1b3hCSzFPeFpXMkcwel9Ccnp5QkxNdC1YRXV6N1JZMkR3RFdIcEU0aTAtNUNoSXRSM3ZZLTZnVE4zaVdzMzRadGRGWENRTGtLOW5SZXpWY2puYXNBclhXcG1jRzJKTUFHd1VSdHJKdlhxNkV0SWdoNlJaNDdYSFZxT3oyMUk4S0U0?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTGpXVW5IVmIyS2VmR0NSTllPWHVrdDBnWHZ2ZF83ZnYzNG9PYmczQjlmN05jQnRoZXV1ZGpyRjJmRlVDLWNwc3Y3dmtIZlZIQmp1b3hCSzFPeFpXMkcwel9Ccnp5QkxNdC1YRXV6N1JZMkR3RFdIcEU0aTAtNUNoSXRSM3ZZLTZnVE4zaVdzMzRadGRGWENRTGtLOW5SZXpWY2puYXNBclhXcG1jRzJKTUFHd1VSdHJKdlhxNkV0SWdoNlJaNDdYSFZxT3oyMUk4S0U0?oc=5",
+      "id": "CBMi0wFBVV95cUxNTGpXVW5IVmIyS2VmR0NSTllPWHVrdDBnWHZ2ZF83ZnYzNG9PYmczQjlmN05jQnRoZXV1ZGpyRjJmRlVDLWNwc3Y3dmtIZlZIQmp1b3hCSzFPeFpXMkcwel9Ccnp5QkxNdC1YRXV6N1JZMkR3RFdIcEU0aTAtNUNoSXRSM3ZZLTZnVE4zaVdzMzRadGRGWENRTGtLOW5SZXpWY2puYXNBclhXcG1jRzJKTUFHd1VSdHJKdlhxNkV0SWdoNlJaNDdYSFZxT3oyMUk4S0U0",
+      "guidislink": false,
+      "published": "Mon, 25 Apr 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        4,
+        25,
+        7,
+        0,
+        0,
+        0,
+        116,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTGpXVW5IVmIyS2VmR0NSTllPWHVrdDBnWHZ2ZF83ZnYzNG9PYmczQjlmN05jQnRoZXV1ZGpyRjJmRlVDLWNwc3Y3dmtIZlZIQmp1b3hCSzFPeFpXMkcwel9Ccnp5QkxNdC1YRXV6N1JZMkR3RFdIcEU0aTAtNUNoSXRSM3ZZLTZnVE4zaVdzMzRadGRGWENRTGtLOW5SZXpWY2puYXNBclhXcG1jRzJKTUFHd1VSdHJKdlhxNkV0SWdoNlJaNDdYSFZxT3oyMUk4S0U0?oc=5\" target=\"_blank\">On the front lines in Brazil's war with Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Virgin Islands Daily News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTGpXVW5IVmIyS2VmR0NSTllPWHVrdDBnWHZ2ZF83ZnYzNG9PYmczQjlmN05jQnRoZXV1ZGpyRjJmRlVDLWNwc3Y3dmtIZlZIQmp1b3hCSzFPeFpXMkcwel9Ccnp5QkxNdC1YRXV6N1JZMkR3RFdIcEU0aTAtNUNoSXRSM3ZZLTZnVE4zaVdzMzRadGRGWENRTGtLOW5SZXpWY2puYXNBclhXcG1jRzJKTUFHd1VSdHJKdlhxNkV0SWdoNlJaNDdYSFZxT3oyMUk4S0U0?oc=5\" target=\"_blank\">On the front lines in Brazil's war with Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Virgin Islands Daily News</font>"
+      },
+      "source": {
+        "href": "https://www.virginislandsdailynews.com",
+        "title": "The Virgin Islands Daily News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Genetically Modified Mosquitoes: What Could Possibly Go Wrong? - The Atlantic",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Genetically Modified Mosquitoes: What Could Possibly Go Wrong? - The Atlantic"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdGRkRTMyMGQ5TXNFLUU3ZzR5WVZPLU11RzIxeU1VV0RlZVlDLUoxUXd6YjBnZGtmT0NpdURfcHRzT1RUb0U3RWRTWmktOGlsWGJYQnRDX25Lc1ZrZmZ4ekdLWkNZbHBiZnZwSFJlTXlaQ0lrQ2xPSzNBMm41cERRb0F4aHBvYU11T0tyRVdNVG12UFVzYW5aRjdZalJXcUk5?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdGRkRTMyMGQ5TXNFLUU3ZzR5WVZPLU11RzIxeU1VV0RlZVlDLUoxUXd6YjBnZGtmT0NpdURfcHRzT1RUb0U3RWRTWmktOGlsWGJYQnRDX25Lc1ZrZmZ4ekdLWkNZbHBiZnZwSFJlTXlaQ0lrQ2xPSzNBMm41cERRb0F4aHBvYU11T0tyRVdNVG12UFVzYW5aRjdZalJXcUk5?oc=5",
+      "id": "CBMioAFBVV95cUxQdGRkRTMyMGQ5TXNFLUU3ZzR5WVZPLU11RzIxeU1VV0RlZVlDLUoxUXd6YjBnZGtmT0NpdURfcHRzT1RUb0U3RWRTWmktOGlsWGJYQnRDX25Lc1ZrZmZ4ekdLWkNZbHBiZnZwSFJlTXlaQ0lrQ2xPSzNBMm41cERRb0F4aHBvYU11T0tyRVdNVG12UFVzYW5aRjdZalJXcUk5",
+      "guidislink": false,
+      "published": "Tue, 26 Apr 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        4,
+        26,
+        7,
+        0,
+        0,
+        1,
+        117,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxQdGRkRTMyMGQ5TXNFLUU3ZzR5WVZPLU11RzIxeU1VV0RlZVlDLUoxUXd6YjBnZGtmT0NpdURfcHRzT1RUb0U3RWRTWmktOGlsWGJYQnRDX25Lc1ZrZmZ4ekdLWkNZbHBiZnZwSFJlTXlaQ0lrQ2xPSzNBMm41cERRb0F4aHBvYU11T0tyRVdNVG12UFVzYW5aRjdZalJXcUk5?oc=5\" target=\"_blank\">Genetically Modified Mosquitoes: What Could Possibly Go Wrong?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Atlantic</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxQdGRkRTMyMGQ5TXNFLUU3ZzR5WVZPLU11RzIxeU1VV0RlZVlDLUoxUXd6YjBnZGtmT0NpdURfcHRzT1RUb0U3RWRTWmktOGlsWGJYQnRDX25Lc1ZrZmZ4ekdLWkNZbHBiZnZwSFJlTXlaQ0lrQ2xPSzNBMm41cERRb0F4aHBvYU11T0tyRVdNVG12UFVzYW5aRjdZalJXcUk5?oc=5\" target=\"_blank\">Genetically Modified Mosquitoes: What Could Possibly Go Wrong?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Atlantic</font>"
+      },
+      "source": {
+        "href": "https://www.theatlantic.com",
+        "title": "The Atlantic"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Weekly Update: Health Confirms Two More Cases of Zika, Warns People to Stay Protected During Carnival - St. Thomas Source",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Weekly Update: Health Confirms Two More Cases of Zika, Warns People to Stay Protected During Carnival - St. Thomas Source"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPYXA3ZzQ5UlNIRmYyN3gzTFVCdUpRSmNtd3RLbVFRQWVvLXJzNHp1R3BGVjVVNXlSTGpBbUs5dXBjUDVPaUVCMXlXb0g1cjVPVWF2X3hmWWY4M21IRWFzVExlMEhmWkZ0eEFKOFo3cHdTODNkRGEzRHBOM2xLdFJ5dDFYX0NBclItbHpxUG5SZUZvc25ac19lTW9vOHFmMWFEeDYtUFZPR05hVk1JNzRqVzQ0bUdzTUdlUzNZUkdEU2pMNXRmM09RXzJDajZ5WVBfdFZ3MWNuVkU3M1dLMlA4?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPYXA3ZzQ5UlNIRmYyN3gzTFVCdUpRSmNtd3RLbVFRQWVvLXJzNHp1R3BGVjVVNXlSTGpBbUs5dXBjUDVPaUVCMXlXb0g1cjVPVWF2X3hmWWY4M21IRWFzVExlMEhmWkZ0eEFKOFo3cHdTODNkRGEzRHBOM2xLdFJ5dDFYX0NBclItbHpxUG5SZUZvc25ac19lTW9vOHFmMWFEeDYtUFZPR05hVk1JNzRqVzQ0bUdzTUdlUzNZUkdEU2pMNXRmM09RXzJDajZ5WVBfdFZ3MWNuVkU3M1dLMlA4?oc=5",
+      "id": "CBMi3wFBVV95cUxPYXA3ZzQ5UlNIRmYyN3gzTFVCdUpRSmNtd3RLbVFRQWVvLXJzNHp1R3BGVjVVNXlSTGpBbUs5dXBjUDVPaUVCMXlXb0g1cjVPVWF2X3hmWWY4M21IRWFzVExlMEhmWkZ0eEFKOFo3cHdTODNkRGEzRHBOM2xLdFJ5dDFYX0NBclItbHpxUG5SZUZvc25ac19lTW9vOHFmMWFEeDYtUFZPR05hVk1JNzRqVzQ0bUdzTUdlUzNZUkdEU2pMNXRmM09RXzJDajZ5WVBfdFZ3MWNuVkU3M1dLMlA4",
+      "guidislink": false,
+      "published": "Tue, 26 Apr 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        4,
+        26,
+        7,
+        0,
+        0,
+        1,
+        117,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi3wFBVV95cUxPYXA3ZzQ5UlNIRmYyN3gzTFVCdUpRSmNtd3RLbVFRQWVvLXJzNHp1R3BGVjVVNXlSTGpBbUs5dXBjUDVPaUVCMXlXb0g1cjVPVWF2X3hmWWY4M21IRWFzVExlMEhmWkZ0eEFKOFo3cHdTODNkRGEzRHBOM2xLdFJ5dDFYX0NBclItbHpxUG5SZUZvc25ac19lTW9vOHFmMWFEeDYtUFZPR05hVk1JNzRqVzQ0bUdzTUdlUzNZUkdEU2pMNXRmM09RXzJDajZ5WVBfdFZ3MWNuVkU3M1dLMlA4?oc=5\" target=\"_blank\">Weekly Update: Health Confirms Two More Cases of Zika, Warns People to Stay Protected During Carnival</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">St. Thomas Source</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi3wFBVV95cUxPYXA3ZzQ5UlNIRmYyN3gzTFVCdUpRSmNtd3RLbVFRQWVvLXJzNHp1R3BGVjVVNXlSTGpBbUs5dXBjUDVPaUVCMXlXb0g1cjVPVWF2X3hmWWY4M21IRWFzVExlMEhmWkZ0eEFKOFo3cHdTODNkRGEzRHBOM2xLdFJ5dDFYX0NBclItbHpxUG5SZUZvc25ac19lTW9vOHFmMWFEeDYtUFZPR05hVk1JNzRqVzQ0bUdzTUdlUzNZUkdEU2pMNXRmM09RXzJDajZ5WVBfdFZ3MWNuVkU3M1dLMlA4?oc=5\" target=\"_blank\">Weekly Update: Health Confirms Two More Cases of Zika, Warns People to Stay Protected During Carnival</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">St. Thomas Source</font>"
+      },
+      "source": {
+        "href": "https://stthomassource.com",
+        "title": "St. Thomas Source"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Dengue mosquito trial shows signs of success - ABC News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Dengue mosquito trial shows signs of success - ABC News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNOWtNM3hMTXBGWk5yUWRwR0dnWkFZWTBUNXNNVDRSemt5NFZjVlE1YTQ3ODU0Tm1uZjNjcTBucUd0UGJ2Y1MyNXFoQ3M2cDY1dnphXzZZNnBNNEw5djZsZ0M4Q3VIR0tjdFlPZFpPQkdyZ01ManRTV05rQXNGamp1d2U1VjBHZl9zcVNJS0VadkRfWURy?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNOWtNM3hMTXBGWk5yUWRwR0dnWkFZWTBUNXNNVDRSemt5NFZjVlE1YTQ3ODU0Tm1uZjNjcTBucUd0UGJ2Y1MyNXFoQ3M2cDY1dnphXzZZNnBNNEw5djZsZ0M4Q3VIR0tjdFlPZFpPQkdyZ01ManRTV05rQXNGamp1d2U1VjBHZl9zcVNJS0VadkRfWURy?oc=5",
+      "id": "CBMilAFBVV95cUxNOWtNM3hMTXBGWk5yUWRwR0dnWkFZWTBUNXNNVDRSemt5NFZjVlE1YTQ3ODU0Tm1uZjNjcTBucUd0UGJ2Y1MyNXFoQ3M2cDY1dnphXzZZNnBNNEw5djZsZ0M4Q3VIR0tjdFlPZFpPQkdyZ01ManRTV05rQXNGamp1d2U1VjBHZl9zcVNJS0VadkRfWURy",
+      "guidislink": false,
+      "published": "Tue, 26 Apr 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        4,
+        26,
+        7,
+        0,
+        0,
+        1,
+        117,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNOWtNM3hMTXBGWk5yUWRwR0dnWkFZWTBUNXNNVDRSemt5NFZjVlE1YTQ3ODU0Tm1uZjNjcTBucUd0UGJ2Y1MyNXFoQ3M2cDY1dnphXzZZNnBNNEw5djZsZ0M4Q3VIR0tjdFlPZFpPQkdyZ01ManRTV05rQXNGamp1d2U1VjBHZl9zcVNJS0VadkRfWURy?oc=5\" target=\"_blank\">Dengue mosquito trial shows signs of success</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ABC News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNOWtNM3hMTXBGWk5yUWRwR0dnWkFZWTBUNXNNVDRSemt5NFZjVlE1YTQ3ODU0Tm1uZjNjcTBucUd0UGJ2Y1MyNXFoQ3M2cDY1dnphXzZZNnBNNEw5djZsZ0M4Q3VIR0tjdFlPZFpPQkdyZ01ManRTV05rQXNGamp1d2U1VjBHZl9zcVNJS0VadkRfWURy?oc=5\" target=\"_blank\">Dengue mosquito trial shows signs of success</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ABC News</font>"
+      },
+      "source": {
+        "href": "https://www.abc.net.au",
+        "title": "ABC News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Malawi warned on Zika virus - Malawi 24",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Malawi warned on Zika virus - Malawi 24"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5XT2t4R0ZKbmZqbFJkc3pzOHVQdWxPdDk4TU9URVo4WHBQc3MwWDI1YVJTMW9PS3d5VklWeXBFSjNuWkU3azVYMDd5OGpkMWhnVk9lZ2dfeTJOZFo2bWF2X05RaHMzQXNF?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5XT2t4R0ZKbmZqbFJkc3pzOHVQdWxPdDk4TU9URVo4WHBQc3MwWDI1YVJTMW9PS3d5VklWeXBFSjNuWkU3azVYMDd5OGpkMWhnVk9lZ2dfeTJOZFo2bWF2X05RaHMzQXNF?oc=5",
+      "id": "CBMiaEFVX3lxTE5XT2t4R0ZKbmZqbFJkc3pzOHVQdWxPdDk4TU9URVo4WHBQc3MwWDI1YVJTMW9PS3d5VklWeXBFSjNuWkU3azVYMDd5OGpkMWhnVk9lZ2dfeTJOZFo2bWF2X05RaHMzQXNF",
+      "guidislink": false,
+      "published": "Tue, 26 Apr 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        4,
+        26,
+        7,
+        0,
+        0,
+        1,
+        117,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE5XT2t4R0ZKbmZqbFJkc3pzOHVQdWxPdDk4TU9URVo4WHBQc3MwWDI1YVJTMW9PS3d5VklWeXBFSjNuWkU3azVYMDd5OGpkMWhnVk9lZ2dfeTJOZFo2bWF2X05RaHMzQXNF?oc=5\" target=\"_blank\">Malawi warned on Zika virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Malawi 24</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE5XT2t4R0ZKbmZqbFJkc3pzOHVQdWxPdDk4TU9URVo4WHBQc3MwWDI1YVJTMW9PS3d5VklWeXBFSjNuWkU3azVYMDd5OGpkMWhnVk9lZ2dfeTJOZFo2bWF2X05RaHMzQXNF?oc=5\" target=\"_blank\">Malawi warned on Zika virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Malawi 24</font>"
+      },
+      "source": {
+        "href": "https://malawi24.com",
+        "title": "Malawi 24"
+      },
+      "sub_articles": []
+    }
+  ]
+}

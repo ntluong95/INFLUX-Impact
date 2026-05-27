@@ -1,0 +1,306 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2014-12-26",
+  "window_end": "2015-01-08",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2014-12-26+before%3A2015-01-09&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2014-12-26+before:2015-01-09&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:19:35Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2014-12-26 before:2015-01-09\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2014-12-26 before:2015-01-09\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2014-12-26+before:2015-01-09&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2014-12-26+before:2015-01-09&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:19:36 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      19,
+      36,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Southampton 2-0 Arsenal: Wojciech Szczesny gifts Saints two goals as home side take advantage of Gunners' woeful defending - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Southampton 2-0 Arsenal: Wojciech Szczesny gifts Saints two goals as home side take advantage of Gunners' woeful defending - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPQjZ4dkRjSmxIQVhWTS1wMnFvLTBwcTB3b2ZKMTNBSUVpT2daU0pUTGRTM1V5Xy1fb2MwU0FPbVkzWmp0d0gxaXFiOVQ5OWJSSm94enJRYXFkRmExb19hb01ZY3liaG5mTWlNQXAxR2kyMWZBaEZGa0U2MXg0V05CLVI3cVhIOHFCQzBERkdCbnNtZ0ktcXJWM09uNVl5Yl9WRnRkNFlBSktvMV85UmJpdEFfUWRuanYzbF9qRzRDYjVxUk1yRXBOWG54cFRiRFJhdHNZVm5neGdFMDBIcUtLQnJ5YVJJQklrMnpoU193UTBJQV82WDNHd2ZaRDdSaG56b1HSAYICQVVfeXFMT0I2eHZEY0psSEFYVk0tcDJxby0wcHEwd29mSjEzQUlFaU9nWlNKVExkUzNVeV8tX29jMFNBT21ZM1pqdHdIMWlxYjlUOTliUkpveHpyUWFxZEZhMW9fYW9NWWN5YmhuZk1pTUFwMUdpMjFmQWhGRmtFNjF4NFdOQi1SN3FYSDhxQkMwREZHQm5zbWdJLXFyVjNPbjVZeWJfVkZ0ZDRZQUpLbzFfOVJiaXRBX1Fkbmp2M2xfakc0Q2I1cVJNckVwTlhueHBUYkRSYXRzWVZuZ3hnRTAwSHFLS0JyeWFSSUJJazJ6aFNfd1EwSUFfNlgzR3dmWkQ3Umhuem9R?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPQjZ4dkRjSmxIQVhWTS1wMnFvLTBwcTB3b2ZKMTNBSUVpT2daU0pUTGRTM1V5Xy1fb2MwU0FPbVkzWmp0d0gxaXFiOVQ5OWJSSm94enJRYXFkRmExb19hb01ZY3liaG5mTWlNQXAxR2kyMWZBaEZGa0U2MXg0V05CLVI3cVhIOHFCQzBERkdCbnNtZ0ktcXJWM09uNVl5Yl9WRnRkNFlBSktvMV85UmJpdEFfUWRuanYzbF9qRzRDYjVxUk1yRXBOWG54cFRiRFJhdHNZVm5neGdFMDBIcUtLQnJ5YVJJQklrMnpoU193UTBJQV82WDNHd2ZaRDdSaG56b1HSAYICQVVfeXFMT0I2eHZEY0psSEFYVk0tcDJxby0wcHEwd29mSjEzQUlFaU9nWlNKVExkUzNVeV8tX29jMFNBT21ZM1pqdHdIMWlxYjlUOTliUkpveHpyUWFxZEZhMW9fYW9NWWN5YmhuZk1pTUFwMUdpMjFmQWhGRmtFNjF4NFdOQi1SN3FYSDhxQkMwREZHQm5zbWdJLXFyVjNPbjVZeWJfVkZ0ZDRZQUpLbzFfOVJiaXRBX1Fkbmp2M2xfakc0Q2I1cVJNckVwTlhueHBUYkRSYXRzWVZuZ3hnRTAwSHFLS0JyeWFSSUJJazJ6aFNfd1EwSUFfNlgzR3dmWkQ3Umhuem9R?oc=5",
+      "id": "CBMiggJBVV95cUxPQjZ4dkRjSmxIQVhWTS1wMnFvLTBwcTB3b2ZKMTNBSUVpT2daU0pUTGRTM1V5Xy1fb2MwU0FPbVkzWmp0d0gxaXFiOVQ5OWJSSm94enJRYXFkRmExb19hb01ZY3liaG5mTWlNQXAxR2kyMWZBaEZGa0U2MXg0V05CLVI3cVhIOHFCQzBERkdCbnNtZ0ktcXJWM09uNVl5Yl9WRnRkNFlBSktvMV85UmJpdEFfUWRuanYzbF9qRzRDYjVxUk1yRXBOWG54cFRiRFJhdHNZVm5neGdFMDBIcUtLQnJ5YVJJQklrMnpoU193UTBJQV82WDNHd2ZaRDdSaG56b1HSAYICQVVfeXFMT0I2eHZEY0psSEFYVk0tcDJxby0wcHEwd29mSjEzQUlFaU9nWlNKVExkUzNVeV8tX29jMFNBT21ZM1pqdHdIMWlxYjlUOTliUkpveHpyUWFxZEZhMW9fYW9NWWN5YmhuZk1pTUFwMUdpMjFmQWhGRmtFNjF4NFdOQi1SN3FYSDhxQkMwREZHQm5zbWdJLXFyVjNPbjVZeWJfVkZ0ZDRZQUpLbzFfOVJiaXRBX1Fkbmp2M2xfakc0Q2I1cVJNckVwTlhueHBUYkRSYXRzWVZuZ3hnRTAwSHFLS0JyeWFSSUJJazJ6aFNfd1EwSUFfNlgzR3dmWkQ3Umhuem9R",
+      "guidislink": false,
+      "published": "Thu, 01 Jan 2015 08:00:00 GMT",
+      "published_parsed": [
+        2015,
+        1,
+        1,
+        8,
+        0,
+        0,
+        3,
+        1,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggJBVV95cUxPQjZ4dkRjSmxIQVhWTS1wMnFvLTBwcTB3b2ZKMTNBSUVpT2daU0pUTGRTM1V5Xy1fb2MwU0FPbVkzWmp0d0gxaXFiOVQ5OWJSSm94enJRYXFkRmExb19hb01ZY3liaG5mTWlNQXAxR2kyMWZBaEZGa0U2MXg0V05CLVI3cVhIOHFCQzBERkdCbnNtZ0ktcXJWM09uNVl5Yl9WRnRkNFlBSktvMV85UmJpdEFfUWRuanYzbF9qRzRDYjVxUk1yRXBOWG54cFRiRFJhdHNZVm5neGdFMDBIcUtLQnJ5YVJJQklrMnpoU193UTBJQV82WDNHd2ZaRDdSaG56b1HSAYICQVVfeXFMT0I2eHZEY0psSEFYVk0tcDJxby0wcHEwd29mSjEzQUlFaU9nWlNKVExkUzNVeV8tX29jMFNBT21ZM1pqdHdIMWlxYjlUOTliUkpveHpyUWFxZEZhMW9fYW9NWWN5YmhuZk1pTUFwMUdpMjFmQWhGRmtFNjF4NFdOQi1SN3FYSDhxQkMwREZHQm5zbWdJLXFyVjNPbjVZeWJfVkZ0ZDRZQUpLbzFfOVJiaXRBX1Fkbmp2M2xfakc0Q2I1cVJNckVwTlhueHBUYkRSYXRzWVZuZ3hnRTAwSHFLS0JyeWFSSUJJazJ6aFNfd1EwSUFfNlgzR3dmWkQ3Umhuem9R?oc=5\" target=\"_blank\">Southampton 2-0 Arsenal: Wojciech Szczesny gifts Saints two goals as home side take advantage of Gunners' woeful defending</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiggJBVV95cUxPQjZ4dkRjSmxIQVhWTS1wMnFvLTBwcTB3b2ZKMTNBSUVpT2daU0pUTGRTM1V5Xy1fb2MwU0FPbVkzWmp0d0gxaXFiOVQ5OWJSSm94enJRYXFkRmExb19hb01ZY3liaG5mTWlNQXAxR2kyMWZBaEZGa0U2MXg0V05CLVI3cVhIOHFCQzBERkdCbnNtZ0ktcXJWM09uNVl5Yl9WRnRkNFlBSktvMV85UmJpdEFfUWRuanYzbF9qRzRDYjVxUk1yRXBOWG54cFRiRFJhdHNZVm5neGdFMDBIcUtLQnJ5YVJJQklrMnpoU193UTBJQV82WDNHd2ZaRDdSaG56b1HSAYICQVVfeXFMT0I2eHZEY0psSEFYVk0tcDJxby0wcHEwd29mSjEzQUlFaU9nWlNKVExkUzNVeV8tX29jMFNBT21ZM1pqdHdIMWlxYjlUOTliUkpveHpyUWFxZEZhMW9fYW9NWWN5YmhuZk1pTUFwMUdpMjFmQWhGRmtFNjF4NFdOQi1SN3FYSDhxQkMwREZHQm5zbWdJLXFyVjNPbjVZeWJfVkZ0ZDRZQUpLbzFfOVJiaXRBX1Fkbmp2M2xfakc0Q2I1cVJNckVwTlhueHBUYkRSYXRzWVZuZ3hnRTAwSHFLS0JyeWFSSUJJazJ6aFNfd1EwSUFfNlgzR3dmWkQ3Umhuem9R?oc=5\" target=\"_blank\">Southampton 2-0 Arsenal: Wojciech Szczesny gifts Saints two goals as home side take advantage of Gunners' woeful defending</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Diego Costa and Eden Hazard are two of the world's best players, says Toby Alderweireld - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Diego Costa and Eden Hazard are two of the world's best players, says Toby Alderweireld - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPRjI5U0xiTXlDdXBaNEI1bTFJM0l4cGdkUXhQZndVdk1KRTMxZi0xd0d5bTk5R2w3OFdyS1FJSTBpTHA0RHl2U243ZEZFUlM5VlFPa0Z6LWx5R1l5NWhPcjlpdWxoZHA5c0lqU0ZPU1owZUR6Z0g2bUd4cGh2bTlNTThxdFR6MHZXNDJ2RVJlSFVoVjBoOWJMNjFxT3h5OUJYQVdwVnhoX2tRanpiWllwd05XNlhIRVFGSk9sMjNpdDh2Sjkwd0Z5U1daZWpKMnF2eHBGdnBVN2VybFFVUE9qbkRLRXlVOUN6X2ppV21JYXZQVnJCbmlHdVJOQjFYTkU0eW9wak44MkVyTklqV1M5VUNuNHkzbjF2X0kxNNIBnAJBVV95cUxPRjI5U0xiTXlDdXBaNEI1bTFJM0l4cGdkUXhQZndVdk1KRTMxZi0xd0d5bTk5R2w3OFdyS1FJSTBpTHA0RHl2U243ZEZFUlM5VlFPa0Z6LWx5R1l5NWhPcjlpdWxoZHA5c0lqU0ZPU1owZUR6Z0g2bUd4cGh2bTlNTThxdFR6MHZXNDJ2RVJlSFVoVjBoOWJMNjFxT3h5OUJYQVdwVnhoX2tRanpiWllwd05XNlhIRVFGSk9sMjNpdDh2Sjkwd0Z5U1daZWpKMnF2eHBGdnBVN2VybFFVUE9qbkRLRXlVOUN6X2ppV21JYXZQVnJCbmlHdVJOQjFYTkU0eW9wak44MkVyTklqV1M5VUNuNHkzbjF2X0kxNA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxPRjI5U0xiTXlDdXBaNEI1bTFJM0l4cGdkUXhQZndVdk1KRTMxZi0xd0d5bTk5R2w3OFdyS1FJSTBpTHA0RHl2U243ZEZFUlM5VlFPa0Z6LWx5R1l5NWhPcjlpdWxoZHA5c0lqU0ZPU1owZUR6Z0g2bUd4cGh2bTlNTThxdFR6MHZXNDJ2RVJlSFVoVjBoOWJMNjFxT3h5OUJYQVdwVnhoX2tRanpiWllwd05XNlhIRVFGSk9sMjNpdDh2Sjkwd0Z5U1daZWpKMnF2eHBGdnBVN2VybFFVUE9qbkRLRXlVOUN6X2ppV21JYXZQVnJCbmlHdVJOQjFYTkU0eW9wak44MkVyTklqV1M5VUNuNHkzbjF2X0kxNNIBnAJBVV95cUxPRjI5U0xiTXlDdXBaNEI1bTFJM0l4cGdkUXhQZndVdk1KRTMxZi0xd0d5bTk5R2w3OFdyS1FJSTBpTHA0RHl2U243ZEZFUlM5VlFPa0Z6LWx5R1l5NWhPcjlpdWxoZHA5c0lqU0ZPU1owZUR6Z0g2bUd4cGh2bTlNTThxdFR6MHZXNDJ2RVJlSFVoVjBoOWJMNjFxT3h5OUJYQVdwVnhoX2tRanpiWllwd05XNlhIRVFGSk9sMjNpdDh2Sjkwd0Z5U1daZWpKMnF2eHBGdnBVN2VybFFVUE9qbkRLRXlVOUN6X2ppV21JYXZQVnJCbmlHdVJOQjFYTkU0eW9wak44MkVyTklqV1M5VUNuNHkzbjF2X0kxNA?oc=5",
+      "id": "CBMinAJBVV95cUxPRjI5U0xiTXlDdXBaNEI1bTFJM0l4cGdkUXhQZndVdk1KRTMxZi0xd0d5bTk5R2w3OFdyS1FJSTBpTHA0RHl2U243ZEZFUlM5VlFPa0Z6LWx5R1l5NWhPcjlpdWxoZHA5c0lqU0ZPU1owZUR6Z0g2bUd4cGh2bTlNTThxdFR6MHZXNDJ2RVJlSFVoVjBoOWJMNjFxT3h5OUJYQVdwVnhoX2tRanpiWllwd05XNlhIRVFGSk9sMjNpdDh2Sjkwd0Z5U1daZWpKMnF2eHBGdnBVN2VybFFVUE9qbkRLRXlVOUN6X2ppV21JYXZQVnJCbmlHdVJOQjFYTkU0eW9wak44MkVyTklqV1M5VUNuNHkzbjF2X0kxNNIBnAJBVV95cUxPRjI5U0xiTXlDdXBaNEI1bTFJM0l4cGdkUXhQZndVdk1KRTMxZi0xd0d5bTk5R2w3OFdyS1FJSTBpTHA0RHl2U243ZEZFUlM5VlFPa0Z6LWx5R1l5NWhPcjlpdWxoZHA5c0lqU0ZPU1owZUR6Z0g2bUd4cGh2bTlNTThxdFR6MHZXNDJ2RVJlSFVoVjBoOWJMNjFxT3h5OUJYQVdwVnhoX2tRanpiWllwd05XNlhIRVFGSk9sMjNpdDh2Sjkwd0Z5U1daZWpKMnF2eHBGdnBVN2VybFFVUE9qbkRLRXlVOUN6X2ppV21JYXZQVnJCbmlHdVJOQjFYTkU0eW9wak44MkVyTklqV1M5VUNuNHkzbjF2X0kxNA",
+      "guidislink": false,
+      "published": "Sat, 27 Dec 2014 08:00:00 GMT",
+      "published_parsed": [
+        2014,
+        12,
+        27,
+        8,
+        0,
+        0,
+        5,
+        361,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAJBVV95cUxPRjI5U0xiTXlDdXBaNEI1bTFJM0l4cGdkUXhQZndVdk1KRTMxZi0xd0d5bTk5R2w3OFdyS1FJSTBpTHA0RHl2U243ZEZFUlM5VlFPa0Z6LWx5R1l5NWhPcjlpdWxoZHA5c0lqU0ZPU1owZUR6Z0g2bUd4cGh2bTlNTThxdFR6MHZXNDJ2RVJlSFVoVjBoOWJMNjFxT3h5OUJYQVdwVnhoX2tRanpiWllwd05XNlhIRVFGSk9sMjNpdDh2Sjkwd0Z5U1daZWpKMnF2eHBGdnBVN2VybFFVUE9qbkRLRXlVOUN6X2ppV21JYXZQVnJCbmlHdVJOQjFYTkU0eW9wak44MkVyTklqV1M5VUNuNHkzbjF2X0kxNNIBnAJBVV95cUxPRjI5U0xiTXlDdXBaNEI1bTFJM0l4cGdkUXhQZndVdk1KRTMxZi0xd0d5bTk5R2w3OFdyS1FJSTBpTHA0RHl2U243ZEZFUlM5VlFPa0Z6LWx5R1l5NWhPcjlpdWxoZHA5c0lqU0ZPU1owZUR6Z0g2bUd4cGh2bTlNTThxdFR6MHZXNDJ2RVJlSFVoVjBoOWJMNjFxT3h5OUJYQVdwVnhoX2tRanpiWllwd05XNlhIRVFGSk9sMjNpdDh2Sjkwd0Z5U1daZWpKMnF2eHBGdnBVN2VybFFVUE9qbkRLRXlVOUN6X2ppV21JYXZQVnJCbmlHdVJOQjFYTkU0eW9wak44MkVyTklqV1M5VUNuNHkzbjF2X0kxNA?oc=5\" target=\"_blank\">Diego Costa and Eden Hazard are two of the world's best players, says Toby Alderweireld</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMinAJBVV95cUxPRjI5U0xiTXlDdXBaNEI1bTFJM0l4cGdkUXhQZndVdk1KRTMxZi0xd0d5bTk5R2w3OFdyS1FJSTBpTHA0RHl2U243ZEZFUlM5VlFPa0Z6LWx5R1l5NWhPcjlpdWxoZHA5c0lqU0ZPU1owZUR6Z0g2bUd4cGh2bTlNTThxdFR6MHZXNDJ2RVJlSFVoVjBoOWJMNjFxT3h5OUJYQVdwVnhoX2tRanpiWllwd05XNlhIRVFGSk9sMjNpdDh2Sjkwd0Z5U1daZWpKMnF2eHBGdnBVN2VybFFVUE9qbkRLRXlVOUN6X2ppV21JYXZQVnJCbmlHdVJOQjFYTkU0eW9wak44MkVyTklqV1M5VUNuNHkzbjF2X0kxNNIBnAJBVV95cUxPRjI5U0xiTXlDdXBaNEI1bTFJM0l4cGdkUXhQZndVdk1KRTMxZi0xd0d5bTk5R2w3OFdyS1FJSTBpTHA0RHl2U243ZEZFUlM5VlFPa0Z6LWx5R1l5NWhPcjlpdWxoZHA5c0lqU0ZPU1owZUR6Z0g2bUd4cGh2bTlNTThxdFR6MHZXNDJ2RVJlSFVoVjBoOWJMNjFxT3h5OUJYQVdwVnhoX2tRanpiWllwd05XNlhIRVFGSk9sMjNpdDh2Sjkwd0Z5U1daZWpKMnF2eHBGdnBVN2VybFFVUE9qbkRLRXlVOUN6X2ppV21JYXZQVnJCbmlHdVJOQjFYTkU0eW9wak44MkVyTklqV1M5VUNuNHkzbjF2X0kxNA?oc=5\" target=\"_blank\">Diego Costa and Eden Hazard are two of the world's best players, says Toby Alderweireld</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Harry Kane is quick thinking and uses his brain just like Teddy Sheringham and is a nightmare to mark - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Harry Kane is quick thinking and uses his brain just like Teddy Sheringham and is a nightmare to mark - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQTUwxU19rb0NLLWpTZkZWZUxRYV9YblI2bE1RSENnV3VoTlRYRld2Nm11Rkx1Q3BLLURBME9lMXlKOFFVSW9lUWlqWVJ0UjAzWFFJVzVsWkpuVHIzRWRvcTlYQmpic1FHUHpjU2FJbTN6cDdFZHdOdUJHY2FRREg3S1ZaUUdvMU9CcDBaamhlSWZteU1nTDZuSDZpZVlnUHNISjMtWHRkSWx1cGh6SVNCN1ZuYmcxajdCS0N3YmhpM0dWRG1TQ3JEMHhjZEdsU2EtZ1lnc1FCN3FybnA0R3B0UGRiakk4LTN2NVlJb0FUS2dOQ1R2VzhEc3FFNnBhd9IB_gFBVV95cUxQTUwxU19rb0NLLWpTZkZWZUxRYV9YblI2bE1RSENnV3VoTlRYRld2Nm11Rkx1Q3BLLURBME9lMXlKOFFVSW9lUWlqWVJ0UjAzWFFJVzVsWkpuVHIzRWRvcTlYQmpic1FHUHpjU2FJbTN6cDdFZHdOdUJHY2FRREg3S1ZaUUdvMU9CcDBaamhlSWZteU1nTDZuSDZpZVlnUHNISjMtWHRkSWx1cGh6SVNCN1ZuYmcxajdCS0N3YmhpM0dWRG1TQ3JEMHhjZEdsU2EtZ1lnc1FCN3FybnA0R3B0UGRiakk4LTN2NVlJb0FUS2dOQ1R2VzhEc3FFNnBhdw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQTUwxU19rb0NLLWpTZkZWZUxRYV9YblI2bE1RSENnV3VoTlRYRld2Nm11Rkx1Q3BLLURBME9lMXlKOFFVSW9lUWlqWVJ0UjAzWFFJVzVsWkpuVHIzRWRvcTlYQmpic1FHUHpjU2FJbTN6cDdFZHdOdUJHY2FRREg3S1ZaUUdvMU9CcDBaamhlSWZteU1nTDZuSDZpZVlnUHNISjMtWHRkSWx1cGh6SVNCN1ZuYmcxajdCS0N3YmhpM0dWRG1TQ3JEMHhjZEdsU2EtZ1lnc1FCN3FybnA0R3B0UGRiakk4LTN2NVlJb0FUS2dOQ1R2VzhEc3FFNnBhd9IB_gFBVV95cUxQTUwxU19rb0NLLWpTZkZWZUxRYV9YblI2bE1RSENnV3VoTlRYRld2Nm11Rkx1Q3BLLURBME9lMXlKOFFVSW9lUWlqWVJ0UjAzWFFJVzVsWkpuVHIzRWRvcTlYQmpic1FHUHpjU2FJbTN6cDdFZHdOdUJHY2FRREg3S1ZaUUdvMU9CcDBaamhlSWZteU1nTDZuSDZpZVlnUHNISjMtWHRkSWx1cGh6SVNCN1ZuYmcxajdCS0N3YmhpM0dWRG1TQ3JEMHhjZEdsU2EtZ1lnc1FCN3FybnA0R3B0UGRiakk4LTN2NVlJb0FUS2dOQ1R2VzhEc3FFNnBhdw?oc=5",
+      "id": "CBMi_gFBVV95cUxQTUwxU19rb0NLLWpTZkZWZUxRYV9YblI2bE1RSENnV3VoTlRYRld2Nm11Rkx1Q3BLLURBME9lMXlKOFFVSW9lUWlqWVJ0UjAzWFFJVzVsWkpuVHIzRWRvcTlYQmpic1FHUHpjU2FJbTN6cDdFZHdOdUJHY2FRREg3S1ZaUUdvMU9CcDBaamhlSWZteU1nTDZuSDZpZVlnUHNISjMtWHRkSWx1cGh6SVNCN1ZuYmcxajdCS0N3YmhpM0dWRG1TQ3JEMHhjZEdsU2EtZ1lnc1FCN3FybnA0R3B0UGRiakk4LTN2NVlJb0FUS2dOQ1R2VzhEc3FFNnBhd9IB_gFBVV95cUxQTUwxU19rb0NLLWpTZkZWZUxRYV9YblI2bE1RSENnV3VoTlRYRld2Nm11Rkx1Q3BLLURBME9lMXlKOFFVSW9lUWlqWVJ0UjAzWFFJVzVsWkpuVHIzRWRvcTlYQmpic1FHUHpjU2FJbTN6cDdFZHdOdUJHY2FRREg3S1ZaUUdvMU9CcDBaamhlSWZteU1nTDZuSDZpZVlnUHNISjMtWHRkSWx1cGh6SVNCN1ZuYmcxajdCS0N3YmhpM0dWRG1TQ3JEMHhjZEdsU2EtZ1lnc1FCN3FybnA0R3B0UGRiakk4LTN2NVlJb0FUS2dOQ1R2VzhEc3FFNnBhdw",
+      "guidislink": false,
+      "published": "Sat, 03 Jan 2015 08:00:00 GMT",
+      "published_parsed": [
+        2015,
+        1,
+        3,
+        8,
+        0,
+        0,
+        5,
+        3,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi_gFBVV95cUxQTUwxU19rb0NLLWpTZkZWZUxRYV9YblI2bE1RSENnV3VoTlRYRld2Nm11Rkx1Q3BLLURBME9lMXlKOFFVSW9lUWlqWVJ0UjAzWFFJVzVsWkpuVHIzRWRvcTlYQmpic1FHUHpjU2FJbTN6cDdFZHdOdUJHY2FRREg3S1ZaUUdvMU9CcDBaamhlSWZteU1nTDZuSDZpZVlnUHNISjMtWHRkSWx1cGh6SVNCN1ZuYmcxajdCS0N3YmhpM0dWRG1TQ3JEMHhjZEdsU2EtZ1lnc1FCN3FybnA0R3B0UGRiakk4LTN2NVlJb0FUS2dOQ1R2VzhEc3FFNnBhd9IB_gFBVV95cUxQTUwxU19rb0NLLWpTZkZWZUxRYV9YblI2bE1RSENnV3VoTlRYRld2Nm11Rkx1Q3BLLURBME9lMXlKOFFVSW9lUWlqWVJ0UjAzWFFJVzVsWkpuVHIzRWRvcTlYQmpic1FHUHpjU2FJbTN6cDdFZHdOdUJHY2FRREg3S1ZaUUdvMU9CcDBaamhlSWZteU1nTDZuSDZpZVlnUHNISjMtWHRkSWx1cGh6SVNCN1ZuYmcxajdCS0N3YmhpM0dWRG1TQ3JEMHhjZEdsU2EtZ1lnc1FCN3FybnA0R3B0UGRiakk4LTN2NVlJb0FUS2dOQ1R2VzhEc3FFNnBhdw?oc=5\" target=\"_blank\">Harry Kane is quick thinking and uses his brain just like Teddy Sheringham and is a nightmare to mark</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi_gFBVV95cUxQTUwxU19rb0NLLWpTZkZWZUxRYV9YblI2bE1RSENnV3VoTlRYRld2Nm11Rkx1Q3BLLURBME9lMXlKOFFVSW9lUWlqWVJ0UjAzWFFJVzVsWkpuVHIzRWRvcTlYQmpic1FHUHpjU2FJbTN6cDdFZHdOdUJHY2FRREg3S1ZaUUdvMU9CcDBaamhlSWZteU1nTDZuSDZpZVlnUHNISjMtWHRkSWx1cGh6SVNCN1ZuYmcxajdCS0N3YmhpM0dWRG1TQ3JEMHhjZEdsU2EtZ1lnc1FCN3FybnA0R3B0UGRiakk4LTN2NVlJb0FUS2dOQ1R2VzhEc3FFNnBhd9IB_gFBVV95cUxQTUwxU19rb0NLLWpTZkZWZUxRYV9YblI2bE1RSENnV3VoTlRYRld2Nm11Rkx1Q3BLLURBME9lMXlKOFFVSW9lUWlqWVJ0UjAzWFFJVzVsWkpuVHIzRWRvcTlYQmpic1FHUHpjU2FJbTN6cDdFZHdOdUJHY2FRREg3S1ZaUUdvMU9CcDBaamhlSWZteU1nTDZuSDZpZVlnUHNISjMtWHRkSWx1cGh6SVNCN1ZuYmcxajdCS0N3YmhpM0dWRG1TQ3JEMHhjZEdsU2EtZ1lnc1FCN3FybnA0R3B0UGRiakk4LTN2NVlJb0FUS2dOQ1R2VzhEc3FFNnBhdw?oc=5\" target=\"_blank\">Harry Kane is quick thinking and uses his brain just like Teddy Sheringham and is a nightmare to mark</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Germany's World Cup triumph the most watched programme this year in the UK - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Germany's World Cup triumph the most watched programme this year in the UK - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQalFTN3M4NW40R2o1R2hSS1VlSDlkUXJRQ2laNmFKc3ZmYXhEZFE4V29fX09LeUZ1TVBWNGlqMGNTNG5nMzNKR1ZzbDFZLUJGbzY3M0cyVDlBc3VEMlFvNVZCTjlwSVR5QUlSOTh2b29rUHZrSDZUQnJHTTAtTGYwa0NrUlMwNElFYS1rcVVkRFliV1dOMkRVQU9POG90OEdkc3YxcVlGN2JQSnNJSzN4ZHNmMzZqTXd0d1U4Ulo1cGo3NTJ5NGFXaktDQWlvSl9tRVliTUZDZkdING16X0I5NXpuclVsQWFkZGQ3V9IB7AFBVV95cUxQalFTN3M4NW40R2o1R2hSS1VlSDlkUXJRQ2laNmFKc3ZmYXhEZFE4V29fX09LeUZ1TVBWNGlqMGNTNG5nMzNKR1ZzbDFZLUJGbzY3M0cyVDlBc3VEMlFvNVZCTjlwSVR5QUlSOTh2b29rUHZrSDZUQnJHTTAtTGYwa0NrUlMwNElFYS1rcVVkRFliV1dOMkRVQU9POG90OEdkc3YxcVlGN2JQSnNJSzN4ZHNmMzZqTXd0d1U4Ulo1cGo3NTJ5NGFXaktDQWlvSl9tRVliTUZDZkdING16X0I5NXpuclVsQWFkZGQ3Vw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQalFTN3M4NW40R2o1R2hSS1VlSDlkUXJRQ2laNmFKc3ZmYXhEZFE4V29fX09LeUZ1TVBWNGlqMGNTNG5nMzNKR1ZzbDFZLUJGbzY3M0cyVDlBc3VEMlFvNVZCTjlwSVR5QUlSOTh2b29rUHZrSDZUQnJHTTAtTGYwa0NrUlMwNElFYS1rcVVkRFliV1dOMkRVQU9POG90OEdkc3YxcVlGN2JQSnNJSzN4ZHNmMzZqTXd0d1U4Ulo1cGo3NTJ5NGFXaktDQWlvSl9tRVliTUZDZkdING16X0I5NXpuclVsQWFkZGQ3V9IB7AFBVV95cUxQalFTN3M4NW40R2o1R2hSS1VlSDlkUXJRQ2laNmFKc3ZmYXhEZFE4V29fX09LeUZ1TVBWNGlqMGNTNG5nMzNKR1ZzbDFZLUJGbzY3M0cyVDlBc3VEMlFvNVZCTjlwSVR5QUlSOTh2b29rUHZrSDZUQnJHTTAtTGYwa0NrUlMwNElFYS1rcVVkRFliV1dOMkRVQU9POG90OEdkc3YxcVlGN2JQSnNJSzN4ZHNmMzZqTXd0d1U4Ulo1cGo3NTJ5NGFXaktDQWlvSl9tRVliTUZDZkdING16X0I5NXpuclVsQWFkZGQ3Vw?oc=5",
+      "id": "CBMi7AFBVV95cUxQalFTN3M4NW40R2o1R2hSS1VlSDlkUXJRQ2laNmFKc3ZmYXhEZFE4V29fX09LeUZ1TVBWNGlqMGNTNG5nMzNKR1ZzbDFZLUJGbzY3M0cyVDlBc3VEMlFvNVZCTjlwSVR5QUlSOTh2b29rUHZrSDZUQnJHTTAtTGYwa0NrUlMwNElFYS1rcVVkRFliV1dOMkRVQU9POG90OEdkc3YxcVlGN2JQSnNJSzN4ZHNmMzZqTXd0d1U4Ulo1cGo3NTJ5NGFXaktDQWlvSl9tRVliTUZDZkdING16X0I5NXpuclVsQWFkZGQ3V9IB7AFBVV95cUxQalFTN3M4NW40R2o1R2hSS1VlSDlkUXJRQ2laNmFKc3ZmYXhEZFE4V29fX09LeUZ1TVBWNGlqMGNTNG5nMzNKR1ZzbDFZLUJGbzY3M0cyVDlBc3VEMlFvNVZCTjlwSVR5QUlSOTh2b29rUHZrSDZUQnJHTTAtTGYwa0NrUlMwNElFYS1rcVVkRFliV1dOMkRVQU9POG90OEdkc3YxcVlGN2JQSnNJSzN4ZHNmMzZqTXd0d1U4Ulo1cGo3NTJ5NGFXaktDQWlvSl9tRVliTUZDZkdING16X0I5NXpuclVsQWFkZGQ3Vw",
+      "guidislink": false,
+      "published": "Wed, 31 Dec 2014 08:00:00 GMT",
+      "published_parsed": [
+        2014,
+        12,
+        31,
+        8,
+        0,
+        0,
+        2,
+        365,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi7AFBVV95cUxQalFTN3M4NW40R2o1R2hSS1VlSDlkUXJRQ2laNmFKc3ZmYXhEZFE4V29fX09LeUZ1TVBWNGlqMGNTNG5nMzNKR1ZzbDFZLUJGbzY3M0cyVDlBc3VEMlFvNVZCTjlwSVR5QUlSOTh2b29rUHZrSDZUQnJHTTAtTGYwa0NrUlMwNElFYS1rcVVkRFliV1dOMkRVQU9POG90OEdkc3YxcVlGN2JQSnNJSzN4ZHNmMzZqTXd0d1U4Ulo1cGo3NTJ5NGFXaktDQWlvSl9tRVliTUZDZkdING16X0I5NXpuclVsQWFkZGQ3V9IB7AFBVV95cUxQalFTN3M4NW40R2o1R2hSS1VlSDlkUXJRQ2laNmFKc3ZmYXhEZFE4V29fX09LeUZ1TVBWNGlqMGNTNG5nMzNKR1ZzbDFZLUJGbzY3M0cyVDlBc3VEMlFvNVZCTjlwSVR5QUlSOTh2b29rUHZrSDZUQnJHTTAtTGYwa0NrUlMwNElFYS1rcVVkRFliV1dOMkRVQU9POG90OEdkc3YxcVlGN2JQSnNJSzN4ZHNmMzZqTXd0d1U4Ulo1cGo3NTJ5NGFXaktDQWlvSl9tRVliTUZDZkdING16X0I5NXpuclVsQWFkZGQ3Vw?oc=5\" target=\"_blank\">Germany's World Cup triumph the most watched programme this year in the UK</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi7AFBVV95cUxQalFTN3M4NW40R2o1R2hSS1VlSDlkUXJRQ2laNmFKc3ZmYXhEZFE4V29fX09LeUZ1TVBWNGlqMGNTNG5nMzNKR1ZzbDFZLUJGbzY3M0cyVDlBc3VEMlFvNVZCTjlwSVR5QUlSOTh2b29rUHZrSDZUQnJHTTAtTGYwa0NrUlMwNElFYS1rcVVkRFliV1dOMkRVQU9POG90OEdkc3YxcVlGN2JQSnNJSzN4ZHNmMzZqTXd0d1U4Ulo1cGo3NTJ5NGFXaktDQWlvSl9tRVliTUZDZkdING16X0I5NXpuclVsQWFkZGQ3V9IB7AFBVV95cUxQalFTN3M4NW40R2o1R2hSS1VlSDlkUXJRQ2laNmFKc3ZmYXhEZFE4V29fX09LeUZ1TVBWNGlqMGNTNG5nMzNKR1ZzbDFZLUJGbzY3M0cyVDlBc3VEMlFvNVZCTjlwSVR5QUlSOTh2b29rUHZrSDZUQnJHTTAtTGYwa0NrUlMwNElFYS1rcVVkRFliV1dOMkRVQU9POG90OEdkc3YxcVlGN2JQSnNJSzN4ZHNmMzZqTXd0d1U4Ulo1cGo3NTJ5NGFXaktDQWlvSl9tRVliTUZDZkdING16X0I5NXpuclVsQWFkZGQ3Vw?oc=5\" target=\"_blank\">Germany's World Cup triumph the most watched programme this year in the UK</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Swansea City 1-0 Aston Villa: Gylfi Sigurdsson steals the show with delightful free-kick to help Garry Monk's side claim win - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Swansea City 1-0 Aston Villa: Gylfi Sigurdsson steals the show with delightful free-kick to help Garry Monk's side claim win - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOdVgxcTFaQTlnZHBmTks5YnFDdG5Da1IxRFlWLXVxWHJPS1pvLXhycmdTeUJmQVpseXV1Tm42bm9LZmtvbVJZb3Z2d1NWVFFNQ3dybXd0eEVZR0J0TUMwN3lEOUVkVmVqSUJsenVxbkZNeDF4T09GTng2Q2YxczZQVi1aTjhTT0tPMG9od1cxLWRWc0lCbzVXSVdkUFZsR3VVbDQ3MjFvRzdlUU9vQkFvQ1JKRU1KOU1WbDhGaFg0WjJ5NEZJclU5ZGlBUUFhVVV2bEluaWo4MnNPbDY4OWpWNGF6OXQ4ZmxUSDlyNzJITzlBakV3SUFpVXpjTTVlUdIB_gFBVV95cUxOdVgxcTFaQTlnZHBmTks5YnFDdG5Da1IxRFlWLXVxWHJPS1pvLXhycmdTeUJmQVpseXV1Tm42bm9LZmtvbVJZb3Z2d1NWVFFNQ3dybXd0eEVZR0J0TUMwN3lEOUVkVmVqSUJsenVxbkZNeDF4T09GTng2Q2YxczZQVi1aTjhTT0tPMG9od1cxLWRWc0lCbzVXSVdkUFZsR3VVbDQ3MjFvRzdlUU9vQkFvQ1JKRU1KOU1WbDhGaFg0WjJ5NEZJclU5ZGlBUUFhVVV2bEluaWo4MnNPbDY4OWpWNGF6OXQ4ZmxUSDlyNzJITzlBakV3SUFpVXpjTTVlUQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOdVgxcTFaQTlnZHBmTks5YnFDdG5Da1IxRFlWLXVxWHJPS1pvLXhycmdTeUJmQVpseXV1Tm42bm9LZmtvbVJZb3Z2d1NWVFFNQ3dybXd0eEVZR0J0TUMwN3lEOUVkVmVqSUJsenVxbkZNeDF4T09GTng2Q2YxczZQVi1aTjhTT0tPMG9od1cxLWRWc0lCbzVXSVdkUFZsR3VVbDQ3MjFvRzdlUU9vQkFvQ1JKRU1KOU1WbDhGaFg0WjJ5NEZJclU5ZGlBUUFhVVV2bEluaWo4MnNPbDY4OWpWNGF6OXQ4ZmxUSDlyNzJITzlBakV3SUFpVXpjTTVlUdIB_gFBVV95cUxOdVgxcTFaQTlnZHBmTks5YnFDdG5Da1IxRFlWLXVxWHJPS1pvLXhycmdTeUJmQVpseXV1Tm42bm9LZmtvbVJZb3Z2d1NWVFFNQ3dybXd0eEVZR0J0TUMwN3lEOUVkVmVqSUJsenVxbkZNeDF4T09GTng2Q2YxczZQVi1aTjhTT0tPMG9od1cxLWRWc0lCbzVXSVdkUFZsR3VVbDQ3MjFvRzdlUU9vQkFvQ1JKRU1KOU1WbDhGaFg0WjJ5NEZJclU5ZGlBUUFhVVV2bEluaWo4MnNPbDY4OWpWNGF6OXQ4ZmxUSDlyNzJITzlBakV3SUFpVXpjTTVlUQ?oc=5",
+      "id": "CBMi_gFBVV95cUxOdVgxcTFaQTlnZHBmTks5YnFDdG5Da1IxRFlWLXVxWHJPS1pvLXhycmdTeUJmQVpseXV1Tm42bm9LZmtvbVJZb3Z2d1NWVFFNQ3dybXd0eEVZR0J0TUMwN3lEOUVkVmVqSUJsenVxbkZNeDF4T09GTng2Q2YxczZQVi1aTjhTT0tPMG9od1cxLWRWc0lCbzVXSVdkUFZsR3VVbDQ3MjFvRzdlUU9vQkFvQ1JKRU1KOU1WbDhGaFg0WjJ5NEZJclU5ZGlBUUFhVVV2bEluaWo4MnNPbDY4OWpWNGF6OXQ4ZmxUSDlyNzJITzlBakV3SUFpVXpjTTVlUdIB_gFBVV95cUxOdVgxcTFaQTlnZHBmTks5YnFDdG5Da1IxRFlWLXVxWHJPS1pvLXhycmdTeUJmQVpseXV1Tm42bm9LZmtvbVJZb3Z2d1NWVFFNQ3dybXd0eEVZR0J0TUMwN3lEOUVkVmVqSUJsenVxbkZNeDF4T09GTng2Q2YxczZQVi1aTjhTT0tPMG9od1cxLWRWc0lCbzVXSVdkUFZsR3VVbDQ3MjFvRzdlUU9vQkFvQ1JKRU1KOU1WbDhGaFg0WjJ5NEZJclU5ZGlBUUFhVVV2bEluaWo4MnNPbDY4OWpWNGF6OXQ4ZmxUSDlyNzJITzlBakV3SUFpVXpjTTVlUQ",
+      "guidislink": false,
+      "published": "Fri, 26 Dec 2014 08:00:00 GMT",
+      "published_parsed": [
+        2014,
+        12,
+        26,
+        8,
+        0,
+        0,
+        4,
+        360,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi_gFBVV95cUxOdVgxcTFaQTlnZHBmTks5YnFDdG5Da1IxRFlWLXVxWHJPS1pvLXhycmdTeUJmQVpseXV1Tm42bm9LZmtvbVJZb3Z2d1NWVFFNQ3dybXd0eEVZR0J0TUMwN3lEOUVkVmVqSUJsenVxbkZNeDF4T09GTng2Q2YxczZQVi1aTjhTT0tPMG9od1cxLWRWc0lCbzVXSVdkUFZsR3VVbDQ3MjFvRzdlUU9vQkFvQ1JKRU1KOU1WbDhGaFg0WjJ5NEZJclU5ZGlBUUFhVVV2bEluaWo4MnNPbDY4OWpWNGF6OXQ4ZmxUSDlyNzJITzlBakV3SUFpVXpjTTVlUdIB_gFBVV95cUxOdVgxcTFaQTlnZHBmTks5YnFDdG5Da1IxRFlWLXVxWHJPS1pvLXhycmdTeUJmQVpseXV1Tm42bm9LZmtvbVJZb3Z2d1NWVFFNQ3dybXd0eEVZR0J0TUMwN3lEOUVkVmVqSUJsenVxbkZNeDF4T09GTng2Q2YxczZQVi1aTjhTT0tPMG9od1cxLWRWc0lCbzVXSVdkUFZsR3VVbDQ3MjFvRzdlUU9vQkFvQ1JKRU1KOU1WbDhGaFg0WjJ5NEZJclU5ZGlBUUFhVVV2bEluaWo4MnNPbDY4OWpWNGF6OXQ4ZmxUSDlyNzJITzlBakV3SUFpVXpjTTVlUQ?oc=5\" target=\"_blank\">Swansea City 1-0 Aston Villa: Gylfi Sigurdsson steals the show with delightful free-kick to help Garry Monk's side claim win</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi_gFBVV95cUxOdVgxcTFaQTlnZHBmTks5YnFDdG5Da1IxRFlWLXVxWHJPS1pvLXhycmdTeUJmQVpseXV1Tm42bm9LZmtvbVJZb3Z2d1NWVFFNQ3dybXd0eEVZR0J0TUMwN3lEOUVkVmVqSUJsenVxbkZNeDF4T09GTng2Q2YxczZQVi1aTjhTT0tPMG9od1cxLWRWc0lCbzVXSVdkUFZsR3VVbDQ3MjFvRzdlUU9vQkFvQ1JKRU1KOU1WbDhGaFg0WjJ5NEZJclU5ZGlBUUFhVVV2bEluaWo4MnNPbDY4OWpWNGF6OXQ4ZmxUSDlyNzJITzlBakV3SUFpVXpjTTVlUdIB_gFBVV95cUxOdVgxcTFaQTlnZHBmTks5YnFDdG5Da1IxRFlWLXVxWHJPS1pvLXhycmdTeUJmQVpseXV1Tm42bm9LZmtvbVJZb3Z2d1NWVFFNQ3dybXd0eEVZR0J0TUMwN3lEOUVkVmVqSUJsenVxbkZNeDF4T09GTng2Q2YxczZQVi1aTjhTT0tPMG9od1cxLWRWc0lCbzVXSVdkUFZsR3VVbDQ3MjFvRzdlUU9vQkFvQ1JKRU1KOU1WbDhGaFg0WjJ5NEZJclU5ZGlBUUFhVVV2bEluaWo4MnNPbDY4OWpWNGF6OXQ4ZmxUSDlyNzJITzlBakV3SUFpVXpjTTVlUQ?oc=5\" target=\"_blank\">Swansea City 1-0 Aston Villa: Gylfi Sigurdsson steals the show with delightful free-kick to help Garry Monk's side claim win</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    }
+  ]
+}

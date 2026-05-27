@@ -1,0 +1,951 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2019-07-05",
+  "window_end": "2019-07-18",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2019-07-05+before%3A2019-07-19&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2019-07-05+before:2019-07-19&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:26:59Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2019-07-05 before:2019-07-19\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2019-07-05 before:2019-07-19\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2019-07-05+before:2019-07-19&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2019-07-05+before:2019-07-19&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:26:59 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      26,
+      59,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Human Schwann cells are susceptible to infection with Zika and yellow fever viruses, but not dengue virus - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Human Schwann cells are susceptible to infection with Zika and yellow fever viruses, but not dengue virus - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBJaGZLdHpKRGJuUUxheWVyMU9XY24xVjJOWHltMlR2N245SnhfTmVCcVZtQkZaNXlwRVljOW44RXdxT050M1FxWUFDQlNBcTBTVnlhTXdWNFdyRTNwdldr?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBJaGZLdHpKRGJuUUxheWVyMU9XY24xVjJOWHltMlR2N245SnhfTmVCcVZtQkZaNXlwRVljOW44RXdxT050M1FxWUFDQlNBcTBTVnlhTXdWNFdyRTNwdldr?oc=5",
+      "id": "CBMiX0FVX3lxTFBJaGZLdHpKRGJuUUxheWVyMU9XY24xVjJOWHltMlR2N245SnhfTmVCcVZtQkZaNXlwRVljOW44RXdxT050M1FxWUFDQlNBcTBTVnlhTXdWNFdyRTNwdldr",
+      "guidislink": false,
+      "published": "Tue, 09 Jul 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        7,
+        9,
+        7,
+        0,
+        0,
+        1,
+        190,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFBJaGZLdHpKRGJuUUxheWVyMU9XY24xVjJOWHltMlR2N245SnhfTmVCcVZtQkZaNXlwRVljOW44RXdxT050M1FxWUFDQlNBcTBTVnlhTXdWNFdyRTNwdldr?oc=5\" target=\"_blank\">Human Schwann cells are susceptible to infection with Zika and yellow fever viruses, but not dengue virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFBJaGZLdHpKRGJuUUxheWVyMU9XY24xVjJOWHltMlR2N245SnhfTmVCcVZtQkZaNXlwRVljOW44RXdxT050M1FxWUFDQlNBcTBTVnlhTXdWNFdyRTNwdldr?oc=5\" target=\"_blank\">Human Schwann cells are susceptible to infection with Zika and yellow fever viruses, but not dengue virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "A third of children up to age 3 exposed to Zika in-utero have neurological problems - UCLA Health",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "A third of children up to age 3 exposed to Zika in-utero have neurological problems - UCLA Health"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNXhBTWtTQVpFZ29YMzVLWEI5RDl2TXZNOEV1M2Y3dDhaSGdfY0lRdnA0c1dxXzBFRllyME9yeXR2RVFHemRVT0JmRUZlS3pxU3lCSG85bkM3VEJCcmp2QlJ1NUdSZEhNVzBSTkVvSlhqT04tZ05TOWhvMTBPbGFtZk5WdG9mV1dTbmpMZzIyQWg0cWNFZExwdENXZ1o1cExkQWlyczEtZHVjMnl2bHd5RlpWaTRJZF9CRkFUcl8yTQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPNXhBTWtTQVpFZ29YMzVLWEI5RDl2TXZNOEV1M2Y3dDhaSGdfY0lRdnA0c1dxXzBFRllyME9yeXR2RVFHemRVT0JmRUZlS3pxU3lCSG85bkM3VEJCcmp2QlJ1NUdSZEhNVzBSTkVvSlhqT04tZ05TOWhvMTBPbGFtZk5WdG9mV1dTbmpMZzIyQWg0cWNFZExwdENXZ1o1cExkQWlyczEtZHVjMnl2bHd5RlpWaTRJZF9CRkFUcl8yTQ?oc=5",
+      "id": "CBMivwFBVV95cUxPNXhBTWtTQVpFZ29YMzVLWEI5RDl2TXZNOEV1M2Y3dDhaSGdfY0lRdnA0c1dxXzBFRllyME9yeXR2RVFHemRVT0JmRUZlS3pxU3lCSG85bkM3VEJCcmp2QlJ1NUdSZEhNVzBSTkVvSlhqT04tZ05TOWhvMTBPbGFtZk5WdG9mV1dTbmpMZzIyQWg0cWNFZExwdENXZ1o1cExkQWlyczEtZHVjMnl2bHd5RlpWaTRJZF9CRkFUcl8yTQ",
+      "guidislink": false,
+      "published": "Sun, 07 Jul 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        7,
+        7,
+        7,
+        0,
+        0,
+        6,
+        188,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxPNXhBTWtTQVpFZ29YMzVLWEI5RDl2TXZNOEV1M2Y3dDhaSGdfY0lRdnA0c1dxXzBFRllyME9yeXR2RVFHemRVT0JmRUZlS3pxU3lCSG85bkM3VEJCcmp2QlJ1NUdSZEhNVzBSTkVvSlhqT04tZ05TOWhvMTBPbGFtZk5WdG9mV1dTbmpMZzIyQWg0cWNFZExwdENXZ1o1cExkQWlyczEtZHVjMnl2bHd5RlpWaTRJZF9CRkFUcl8yTQ?oc=5\" target=\"_blank\">A third of children up to age 3 exposed to Zika in-utero have neurological problems</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">UCLA Health</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxPNXhBTWtTQVpFZ29YMzVLWEI5RDl2TXZNOEV1M2Y3dDhaSGdfY0lRdnA0c1dxXzBFRllyME9yeXR2RVFHemRVT0JmRUZlS3pxU3lCSG85bkM3VEJCcmp2QlJ1NUdSZEhNVzBSTkVvSlhqT04tZ05TOWhvMTBPbGFtZk5WdG9mV1dTbmpMZzIyQWg0cWNFZExwdENXZ1o1cExkQWlyczEtZHVjMnl2bHd5RlpWaTRJZF9CRkFUcl8yTQ?oc=5\" target=\"_blank\">A third of children up to age 3 exposed to Zika in-utero have neurological problems</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">UCLA Health</font>"
+      },
+      "source": {
+        "href": "https://www.uclahealth.org",
+        "title": "UCLA Health"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Half of babies affected by Zika virus are developing normally by age 2 - New Scientist",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Half of babies affected by Zika virus are developing normally by age 2 - New Scientist"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVmxYZnh6OHMwd1NwWmRoY0sxRERDMDJtYTZoTENTa0syVk1heEZQVVU1SjFsRzNZYWJiUTc0STRVQ0FoajllTkNaQUFfZTh1eVd6LVRtQmZsZW5LZUZ3QkVfLVlKZ2hCTmNLZjFLVWpFM0I4UGhaRW96Zl9OaTVtVlFVRXBUTlBQLUpVR2hkdnhwYmlSWXR1MTBadDc1Y1U3MDdfRlBkSmJ5WEVKZTZRQ2VxcDZmMkk?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVmxYZnh6OHMwd1NwWmRoY0sxRERDMDJtYTZoTENTa0syVk1heEZQVVU1SjFsRzNZYWJiUTc0STRVQ0FoajllTkNaQUFfZTh1eVd6LVRtQmZsZW5LZUZ3QkVfLVlKZ2hCTmNLZjFLVWpFM0I4UGhaRW96Zl9OaTVtVlFVRXBUTlBQLUpVR2hkdnhwYmlSWXR1MTBadDc1Y1U3MDdfRlBkSmJ5WEVKZTZRQ2VxcDZmMkk?oc=5",
+      "id": "CBMitwFBVV95cUxOVmxYZnh6OHMwd1NwWmRoY0sxRERDMDJtYTZoTENTa0syVk1heEZQVVU1SjFsRzNZYWJiUTc0STRVQ0FoajllTkNaQUFfZTh1eVd6LVRtQmZsZW5LZUZ3QkVfLVlKZ2hCTmNLZjFLVWpFM0I4UGhaRW96Zl9OaTVtVlFVRXBUTlBQLUpVR2hkdnhwYmlSWXR1MTBadDc1Y1U3MDdfRlBkSmJ5WEVKZTZRQ2VxcDZmMkk",
+      "guidislink": false,
+      "published": "Mon, 08 Jul 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        7,
+        8,
+        7,
+        0,
+        0,
+        0,
+        189,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxOVmxYZnh6OHMwd1NwWmRoY0sxRERDMDJtYTZoTENTa0syVk1heEZQVVU1SjFsRzNZYWJiUTc0STRVQ0FoajllTkNaQUFfZTh1eVd6LVRtQmZsZW5LZUZ3QkVfLVlKZ2hCTmNLZjFLVWpFM0I4UGhaRW96Zl9OaTVtVlFVRXBUTlBQLUpVR2hkdnhwYmlSWXR1MTBadDc1Y1U3MDdfRlBkSmJ5WEVKZTZRQ2VxcDZmMkk?oc=5\" target=\"_blank\">Half of babies affected by Zika virus are developing normally by age 2</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">New Scientist</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxOVmxYZnh6OHMwd1NwWmRoY0sxRERDMDJtYTZoTENTa0syVk1heEZQVVU1SjFsRzNZYWJiUTc0STRVQ0FoajllTkNaQUFfZTh1eVd6LVRtQmZsZW5LZUZ3QkVfLVlKZ2hCTmNLZjFLVWpFM0I4UGhaRW96Zl9OaTVtVlFVRXBUTlBQLUpVR2hkdnhwYmlSWXR1MTBadDc1Y1U3MDdfRlBkSmJ5WEVKZTZRQ2VxcDZmMkk?oc=5\" target=\"_blank\">Half of babies affected by Zika virus are developing normally by age 2</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">New Scientist</font>"
+      },
+      "source": {
+        "href": "https://www.newscientist.com",
+        "title": "New Scientist"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "One-third of toddlers exposed to Zika in the womb suffer developmental problems, study says - The Washington Post",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "One-third of toddlers exposed to Zika in the womb suffer developmental problems, study says - The Washington Post"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQODNKRm5qMlUwMVBteEhJOHR6cDJwRVVUUTQ3ZWhkd3R5Z3h3RFNEaXRaNUZSWGZaUkJwWFhLTlZTT3NCT1lkZ3BLd3V3aER1NS1sQU5HNE9icjhpd3p5bGVHVWpGaHdoSTEzX0I4SEx3dTk1WC04cDZJU2QxYWFuN2dDQzdvUERDWGszRC04WW9Kc1AtX094QkhZN0hJa2R2SVFwQy1jZzd3YzdQSndoVkZyZnZXd2FPMHM1SFowWTFlWjBaT3c?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQODNKRm5qMlUwMVBteEhJOHR6cDJwRVVUUTQ3ZWhkd3R5Z3h3RFNEaXRaNUZSWGZaUkJwWFhLTlZTT3NCT1lkZ3BLd3V3aER1NS1sQU5HNE9icjhpd3p5bGVHVWpGaHdoSTEzX0I4SEx3dTk1WC04cDZJU2QxYWFuN2dDQzdvUERDWGszRC04WW9Kc1AtX094QkhZN0hJa2R2SVFwQy1jZzd3YzdQSndoVkZyZnZXd2FPMHM1SFowWTFlWjBaT3c?oc=5",
+      "id": "CBMixgFBVV95cUxQODNKRm5qMlUwMVBteEhJOHR6cDJwRVVUUTQ3ZWhkd3R5Z3h3RFNEaXRaNUZSWGZaUkJwWFhLTlZTT3NCT1lkZ3BLd3V3aER1NS1sQU5HNE9icjhpd3p5bGVHVWpGaHdoSTEzX0I4SEx3dTk1WC04cDZJU2QxYWFuN2dDQzdvUERDWGszRC04WW9Kc1AtX094QkhZN0hJa2R2SVFwQy1jZzd3YzdQSndoVkZyZnZXd2FPMHM1SFowWTFlWjBaT3c",
+      "guidislink": false,
+      "published": "Mon, 08 Jul 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        7,
+        8,
+        7,
+        0,
+        0,
+        0,
+        189,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxQODNKRm5qMlUwMVBteEhJOHR6cDJwRVVUUTQ3ZWhkd3R5Z3h3RFNEaXRaNUZSWGZaUkJwWFhLTlZTT3NCT1lkZ3BLd3V3aER1NS1sQU5HNE9icjhpd3p5bGVHVWpGaHdoSTEzX0I4SEx3dTk1WC04cDZJU2QxYWFuN2dDQzdvUERDWGszRC04WW9Kc1AtX094QkhZN0hJa2R2SVFwQy1jZzd3YzdQSndoVkZyZnZXd2FPMHM1SFowWTFlWjBaT3c?oc=5\" target=\"_blank\">One-third of toddlers exposed to Zika in the womb suffer developmental problems, study says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Washington Post</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxQODNKRm5qMlUwMVBteEhJOHR6cDJwRVVUUTQ3ZWhkd3R5Z3h3RFNEaXRaNUZSWGZaUkJwWFhLTlZTT3NCT1lkZ3BLd3V3aER1NS1sQU5HNE9icjhpd3p5bGVHVWpGaHdoSTEzX0I4SEx3dTk1WC04cDZJU2QxYWFuN2dDQzdvUERDWGszRC04WW9Kc1AtX094QkhZN0hJa2R2SVFwQy1jZzd3YzdQSndoVkZyZnZXd2FPMHM1SFowWTFlWjBaT3c?oc=5\" target=\"_blank\">One-third of toddlers exposed to Zika in the womb suffer developmental problems, study says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Washington Post</font>"
+      },
+      "source": {
+        "href": "https://www.washingtonpost.com",
+        "title": "The Washington Post"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "The Dual Role of the Immune Response in Reproductive Organs During Zika Virus Infection - Frontiers",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "The Dual Role of the Immune Response in Reproductive Organs During Zika Virus Infection - Frontiers"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObUhOWkhMSk1yS1FCSmkySnZlWE1OZ2pDaFVfZ3Z1aUlpN2xlcndFU1pnSE1Za3ZBMTNoNXRtLTFEeXVGTEVicUx2cjRHT3dsYUVGRGptTDIwR3JIYTgwMndXQlI3S3kzeUZjTnNkQ0laanlZa3k0QlBWaGxHdnJJOUd5TWI3SnlUZ2dzZmxGUQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObUhOWkhMSk1yS1FCSmkySnZlWE1OZ2pDaFVfZ3Z1aUlpN2xlcndFU1pnSE1Za3ZBMTNoNXRtLTFEeXVGTEVicUx2cjRHT3dsYUVGRGptTDIwR3JIYTgwMndXQlI3S3kzeUZjTnNkQ0laanlZa3k0QlBWaGxHdnJJOUd5TWI3SnlUZ2dzZmxGUQ?oc=5",
+      "id": "CBMijwFBVV95cUxObUhOWkhMSk1yS1FCSmkySnZlWE1OZ2pDaFVfZ3Z1aUlpN2xlcndFU1pnSE1Za3ZBMTNoNXRtLTFEeXVGTEVicUx2cjRHT3dsYUVGRGptTDIwR3JIYTgwMndXQlI3S3kzeUZjTnNkQ0laanlZa3k0QlBWaGxHdnJJOUd5TWI3SnlUZ2dzZmxGUQ",
+      "guidislink": false,
+      "published": "Wed, 10 Jul 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        7,
+        10,
+        7,
+        0,
+        0,
+        2,
+        191,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxObUhOWkhMSk1yS1FCSmkySnZlWE1OZ2pDaFVfZ3Z1aUlpN2xlcndFU1pnSE1Za3ZBMTNoNXRtLTFEeXVGTEVicUx2cjRHT3dsYUVGRGptTDIwR3JIYTgwMndXQlI3S3kzeUZjTnNkQ0laanlZa3k0QlBWaGxHdnJJOUd5TWI3SnlUZ2dzZmxGUQ?oc=5\" target=\"_blank\">The Dual Role of the Immune Response in Reproductive Organs During Zika Virus Infection</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Frontiers</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxObUhOWkhMSk1yS1FCSmkySnZlWE1OZ2pDaFVfZ3Z1aUlpN2xlcndFU1pnSE1Za3ZBMTNoNXRtLTFEeXVGTEVicUx2cjRHT3dsYUVGRGptTDIwR3JIYTgwMndXQlI3S3kzeUZjTnNkQ0laanlZa3k0QlBWaGxHdnJJOUd5TWI3SnlUZ2dzZmxGUQ?oc=5\" target=\"_blank\">The Dual Role of the Immune Response in Reproductive Organs During Zika Virus Infection</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Frontiers</font>"
+      },
+      "source": {
+        "href": "https://www.frontiersin.org",
+        "title": "Frontiers"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Mosquitoes Now a Year-Round Problem in Miami-Dade County, According to Collaborative Research Study - University of Miami",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Mosquitoes Now a Year-Round Problem in Miami-Dade County, According to Collaborative Research Study - University of Miami"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPelh4OFp6b0JjVGw5Zko0S1pMWGFINlpWRmFVbDZjUFZ3anpTM084MFppVkU0WXd4SFlXQmh6Z29zdkhQTTlvUVRYMXhGMjFfZ2ViUkdBNWl5RTlFSUNwMnh4d2c3WnJxdmxwMS1yNy1JZGhXSFU5VGZFWTJvZF80N1g3bjN2a2NTSGV0T2xTeFFrX2pkRG1sejdGdnFaSG5mWDlJUlo0cm5UZ1BxR1oxaDJreVhzN1hwUWthakZpWXpWdldD?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPelh4OFp6b0JjVGw5Zko0S1pMWGFINlpWRmFVbDZjUFZ3anpTM084MFppVkU0WXd4SFlXQmh6Z29zdkhQTTlvUVRYMXhGMjFfZ2ViUkdBNWl5RTlFSUNwMnh4d2c3WnJxdmxwMS1yNy1JZGhXSFU5VGZFWTJvZF80N1g3bjN2a2NTSGV0T2xTeFFrX2pkRG1sejdGdnFaSG5mWDlJUlo0cm5UZ1BxR1oxaDJreVhzN1hwUWthakZpWXpWdldD?oc=5",
+      "id": "CBMixAFBVV95cUxPelh4OFp6b0JjVGw5Zko0S1pMWGFINlpWRmFVbDZjUFZ3anpTM084MFppVkU0WXd4SFlXQmh6Z29zdkhQTTlvUVRYMXhGMjFfZ2ViUkdBNWl5RTlFSUNwMnh4d2c3WnJxdmxwMS1yNy1JZGhXSFU5VGZFWTJvZF80N1g3bjN2a2NTSGV0T2xTeFFrX2pkRG1sejdGdnFaSG5mWDlJUlo0cm5UZ1BxR1oxaDJreVhzN1hwUWthakZpWXpWdldD",
+      "guidislink": false,
+      "published": "Fri, 19 Jul 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        7,
+        19,
+        7,
+        0,
+        0,
+        4,
+        200,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxPelh4OFp6b0JjVGw5Zko0S1pMWGFINlpWRmFVbDZjUFZ3anpTM084MFppVkU0WXd4SFlXQmh6Z29zdkhQTTlvUVRYMXhGMjFfZ2ViUkdBNWl5RTlFSUNwMnh4d2c3WnJxdmxwMS1yNy1JZGhXSFU5VGZFWTJvZF80N1g3bjN2a2NTSGV0T2xTeFFrX2pkRG1sejdGdnFaSG5mWDlJUlo0cm5UZ1BxR1oxaDJreVhzN1hwUWthakZpWXpWdldD?oc=5\" target=\"_blank\">Mosquitoes Now a Year-Round Problem in Miami-Dade County, According to Collaborative Research Study</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of Miami</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxPelh4OFp6b0JjVGw5Zko0S1pMWGFINlpWRmFVbDZjUFZ3anpTM084MFppVkU0WXd4SFlXQmh6Z29zdkhQTTlvUVRYMXhGMjFfZ2ViUkdBNWl5RTlFSUNwMnh4d2c3WnJxdmxwMS1yNy1JZGhXSFU5VGZFWTJvZF80N1g3bjN2a2NTSGV0T2xTeFFrX2pkRG1sejdGdnFaSG5mWDlJUlo0cm5UZ1BxR1oxaDJreVhzN1hwUWthakZpWXpWdldD?oc=5\" target=\"_blank\">Mosquitoes Now a Year-Round Problem in Miami-Dade County, According to Collaborative Research Study</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of Miami</font>"
+      },
+      "source": {
+        "href": "https://news.med.miami.edu",
+        "title": "University of Miami"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "BugBitten How can we use fungi to control mosquitoes? - BMC blog network",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "BugBitten How can we use fungi to control mosquitoes? - BMC blog network"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOGVBMk9KT1Y0TnNGcjFkbnpXZzdNWnhvMDA0bmU2RG1sZTFPRnJwVGxCUENXV20wVnZxOUI5RXFWam1hZGVscVFwS1l4TmZBZTV6VVYtNXFma0NkTjh6MnNrVkZOc3N3MTBEUTc5WlM4WDB5RTc5ajFSd2lnTXF0UDM4ZC02a1Eta1J0R0pHd2RCcG1ZalVaNW1MTU4?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOGVBMk9KT1Y0TnNGcjFkbnpXZzdNWnhvMDA0bmU2RG1sZTFPRnJwVGxCUENXV20wVnZxOUI5RXFWam1hZGVscVFwS1l4TmZBZTV6VVYtNXFma0NkTjh6MnNrVkZOc3N3MTBEUTc5WlM4WDB5RTc5ajFSd2lnTXF0UDM4ZC02a1Eta1J0R0pHd2RCcG1ZalVaNW1MTU4?oc=5",
+      "id": "CBMinAFBVV95cUxQOGVBMk9KT1Y0TnNGcjFkbnpXZzdNWnhvMDA0bmU2RG1sZTFPRnJwVGxCUENXV20wVnZxOUI5RXFWam1hZGVscVFwS1l4TmZBZTV6VVYtNXFma0NkTjh6MnNrVkZOc3N3MTBEUTc5WlM4WDB5RTc5ajFSd2lnTXF0UDM4ZC02a1Eta1J0R0pHd2RCcG1ZalVaNW1MTU4",
+      "guidislink": false,
+      "published": "Fri, 05 Jul 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        7,
+        5,
+        7,
+        0,
+        0,
+        4,
+        186,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxQOGVBMk9KT1Y0TnNGcjFkbnpXZzdNWnhvMDA0bmU2RG1sZTFPRnJwVGxCUENXV20wVnZxOUI5RXFWam1hZGVscVFwS1l4TmZBZTV6VVYtNXFma0NkTjh6MnNrVkZOc3N3MTBEUTc5WlM4WDB5RTc5ajFSd2lnTXF0UDM4ZC02a1Eta1J0R0pHd2RCcG1ZalVaNW1MTU4?oc=5\" target=\"_blank\">BugBitten How can we use fungi to control mosquitoes?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BMC blog network</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxQOGVBMk9KT1Y0TnNGcjFkbnpXZzdNWnhvMDA0bmU2RG1sZTFPRnJwVGxCUENXV20wVnZxOUI5RXFWam1hZGVscVFwS1l4TmZBZTV6VVYtNXFma0NkTjh6MnNrVkZOc3N3MTBEUTc5WlM4WDB5RTc5ajFSd2lnTXF0UDM4ZC02a1Eta1J0R0pHd2RCcG1ZalVaNW1MTU4?oc=5\" target=\"_blank\">BugBitten How can we use fungi to control mosquitoes?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BMC blog network</font>"
+      },
+      "source": {
+        "href": "https://blogs.biomedcentral.com",
+        "title": "BMC blog network"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Mosquito milestone: Use bacteria and radiation to eliminate the bugs - Good Morning America",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Mosquito milestone: Use bacteria and radiation to eliminate the bugs - Good Morning America"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNM1JzS05NRFNES242SmFMUnlkMlVjQ2JvajBEUUdac0t4ZEVXV1dpLURxTWJVRmpSb28xUFpBYVBBQ0puWUs4R04zbklack96bmlrckRmT1JoOXc2dVVlbXZVQXdaQjhvRkxsdzc3N0RZNUxiY0o4WUhSb292bTRFVGN1VjN0SHdpU1pIbklGaXFNRHFmYzZHZ0lnTFZ4YUhpLXZPVW9CQks2VVMzSUxycdIBtgFBVV95cUxPNjd3Y1hnRGtrSlIzWURtVjB4dExJWlJSTlFxekRKblp2eGc5VlRkYm5Fbl9VT2h1Y25wZ3NGUXloekdkakEzNjlwOEd0NUJvNmVjSFJ5TTg1b3h5ZWRteDNnNEFJa1ZuRl9QS2pHWDg2TEZQM0JRQVdaXzlRcWNQTTBLb3RHMC1UY0FPaGhYbDdyYVE5Xy1YNl9jODVZN0dKeHppZExrak1EUGlGWUtwTUVEdmY2Zw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNM1JzS05NRFNES242SmFMUnlkMlVjQ2JvajBEUUdac0t4ZEVXV1dpLURxTWJVRmpSb28xUFpBYVBBQ0puWUs4R04zbklack96bmlrckRmT1JoOXc2dVVlbXZVQXdaQjhvRkxsdzc3N0RZNUxiY0o4WUhSb292bTRFVGN1VjN0SHdpU1pIbklGaXFNRHFmYzZHZ0lnTFZ4YUhpLXZPVW9CQks2VVMzSUxycdIBtgFBVV95cUxPNjd3Y1hnRGtrSlIzWURtVjB4dExJWlJSTlFxekRKblp2eGc5VlRkYm5Fbl9VT2h1Y25wZ3NGUXloekdkakEzNjlwOEd0NUJvNmVjSFJ5TTg1b3h5ZWRteDNnNEFJa1ZuRl9QS2pHWDg2TEZQM0JRQVdaXzlRcWNQTTBLb3RHMC1UY0FPaGhYbDdyYVE5Xy1YNl9jODVZN0dKeHppZExrak1EUGlGWUtwTUVEdmY2Zw?oc=5",
+      "id": "CBMisAFBVV95cUxNM1JzS05NRFNES242SmFMUnlkMlVjQ2JvajBEUUdac0t4ZEVXV1dpLURxTWJVRmpSb28xUFpBYVBBQ0puWUs4R04zbklack96bmlrckRmT1JoOXc2dVVlbXZVQXdaQjhvRkxsdzc3N0RZNUxiY0o4WUhSb292bTRFVGN1VjN0SHdpU1pIbklGaXFNRHFmYzZHZ0lnTFZ4YUhpLXZPVW9CQks2VVMzSUxycdIBtgFBVV95cUxPNjd3Y1hnRGtrSlIzWURtVjB4dExJWlJSTlFxekRKblp2eGc5VlRkYm5Fbl9VT2h1Y25wZ3NGUXloekdkakEzNjlwOEd0NUJvNmVjSFJ5TTg1b3h5ZWRteDNnNEFJa1ZuRl9QS2pHWDg2TEZQM0JRQVdaXzlRcWNQTTBLb3RHMC1UY0FPaGhYbDdyYVE5Xy1YNl9jODVZN0dKeHppZExrak1EUGlGWUtwTUVEdmY2Zw",
+      "guidislink": false,
+      "published": "Fri, 19 Jul 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        7,
+        19,
+        7,
+        0,
+        0,
+        4,
+        200,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxNM1JzS05NRFNES242SmFMUnlkMlVjQ2JvajBEUUdac0t4ZEVXV1dpLURxTWJVRmpSb28xUFpBYVBBQ0puWUs4R04zbklack96bmlrckRmT1JoOXc2dVVlbXZVQXdaQjhvRkxsdzc3N0RZNUxiY0o4WUhSb292bTRFVGN1VjN0SHdpU1pIbklGaXFNRHFmYzZHZ0lnTFZ4YUhpLXZPVW9CQks2VVMzSUxycdIBtgFBVV95cUxPNjd3Y1hnRGtrSlIzWURtVjB4dExJWlJSTlFxekRKblp2eGc5VlRkYm5Fbl9VT2h1Y25wZ3NGUXloekdkakEzNjlwOEd0NUJvNmVjSFJ5TTg1b3h5ZWRteDNnNEFJa1ZuRl9QS2pHWDg2TEZQM0JRQVdaXzlRcWNQTTBLb3RHMC1UY0FPaGhYbDdyYVE5Xy1YNl9jODVZN0dKeHppZExrak1EUGlGWUtwTUVEdmY2Zw?oc=5\" target=\"_blank\">Mosquito milestone: Use bacteria and radiation to eliminate the bugs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Good Morning America</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxNM1JzS05NRFNES242SmFMUnlkMlVjQ2JvajBEUUdac0t4ZEVXV1dpLURxTWJVRmpSb28xUFpBYVBBQ0puWUs4R04zbklack96bmlrckRmT1JoOXc2dVVlbXZVQXdaQjhvRkxsdzc3N0RZNUxiY0o4WUhSb292bTRFVGN1VjN0SHdpU1pIbklGaXFNRHFmYzZHZ0lnTFZ4YUhpLXZPVW9CQks2VVMzSUxycdIBtgFBVV95cUxPNjd3Y1hnRGtrSlIzWURtVjB4dExJWlJSTlFxekRKblp2eGc5VlRkYm5Fbl9VT2h1Y25wZ3NGUXloekdkakEzNjlwOEd0NUJvNmVjSFJ5TTg1b3h5ZWRteDNnNEFJa1ZuRl9QS2pHWDg2TEZQM0JRQVdaXzlRcWNQTTBLb3RHMC1UY0FPaGhYbDdyYVE5Xy1YNl9jODVZN0dKeHppZExrak1EUGlGWUtwTUVEdmY2Zw?oc=5\" target=\"_blank\">Mosquito milestone: Use bacteria and radiation to eliminate the bugs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Good Morning America</font>"
+      },
+      "source": {
+        "href": "https://www.goodmorningamerica.com",
+        "title": "Good Morning America"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Human Urban Arboviruses Can Infect Wild Animals and Jump to Sylvatic Maintenance Cycles in South America - Frontiers",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Human Urban Arboviruses Can Infect Wild Animals and Jump to Sylvatic Maintenance Cycles in South America - Frontiers"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTjNZY25ocURuTFBqN2Vfbkh1VUNzbi1xY0VrRTdQcXJGOVFnV01OcUxJOEdRNGV1OUx0bjVWX2pweGp1cEtSRElBZXRUcW8wcnp4bG9fbmFRZlVGYUhSM0RDYzdWR1RhbkJiZm1WeVZ5Mk1fa3F5aDV5Yi1KamN5UHBjclRVZ0tCbzR5R182MjFTRUFiRnB0TTJpN2dGcVFBLVpkM25DVTVUc1ZxQVFpYQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTjNZY25ocURuTFBqN2Vfbkh1VUNzbi1xY0VrRTdQcXJGOVFnV01OcUxJOEdRNGV1OUx0bjVWX2pweGp1cEtSRElBZXRUcW8wcnp4bG9fbmFRZlVGYUhSM0RDYzdWR1RhbkJiZm1WeVZ5Mk1fa3F5aDV5Yi1KamN5UHBjclRVZ0tCbzR5R182MjFTRUFiRnB0TTJpN2dGcVFBLVpkM25DVTVUc1ZxQVFpYQ?oc=5",
+      "id": "CBMisAFBVV95cUxPTjNZY25ocURuTFBqN2Vfbkh1VUNzbi1xY0VrRTdQcXJGOVFnV01OcUxJOEdRNGV1OUx0bjVWX2pweGp1cEtSRElBZXRUcW8wcnp4bG9fbmFRZlVGYUhSM0RDYzdWR1RhbkJiZm1WeVZ5Mk1fa3F5aDV5Yi1KamN5UHBjclRVZ0tCbzR5R182MjFTRUFiRnB0TTJpN2dGcVFBLVpkM25DVTVUc1ZxQVFpYQ",
+      "guidislink": false,
+      "published": "Tue, 16 Jul 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        7,
+        16,
+        7,
+        0,
+        0,
+        1,
+        197,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPTjNZY25ocURuTFBqN2Vfbkh1VUNzbi1xY0VrRTdQcXJGOVFnV01OcUxJOEdRNGV1OUx0bjVWX2pweGp1cEtSRElBZXRUcW8wcnp4bG9fbmFRZlVGYUhSM0RDYzdWR1RhbkJiZm1WeVZ5Mk1fa3F5aDV5Yi1KamN5UHBjclRVZ0tCbzR5R182MjFTRUFiRnB0TTJpN2dGcVFBLVpkM25DVTVUc1ZxQVFpYQ?oc=5\" target=\"_blank\">Human Urban Arboviruses Can Infect Wild Animals and Jump to Sylvatic Maintenance Cycles in South America</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Frontiers</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPTjNZY25ocURuTFBqN2Vfbkh1VUNzbi1xY0VrRTdQcXJGOVFnV01OcUxJOEdRNGV1OUx0bjVWX2pweGp1cEtSRElBZXRUcW8wcnp4bG9fbmFRZlVGYUhSM0RDYzdWR1RhbkJiZm1WeVZ5Mk1fa3F5aDV5Yi1KamN5UHBjclRVZ0tCbzR5R182MjFTRUFiRnB0TTJpN2dGcVFBLVpkM25DVTVUc1ZxQVFpYQ?oc=5\" target=\"_blank\">Human Urban Arboviruses Can Infect Wild Animals and Jump to Sylvatic Maintenance Cycles in South America</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Frontiers</font>"
+      },
+      "source": {
+        "href": "https://www.frontiersin.org",
+        "title": "Frontiers"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "EWG’s Top Three Bug Repellent Recommendations for Kids - Environmental Working Group",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "EWG’s Top Three Bug Repellent Recommendations for Kids - Environmental Working Group"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSHJCRTBxallVeGFveTJTNWFmVWZ3LW5fNWxqdXcxd0NHbS1XcGpQWVl0b0xSQ2RTa0JvN19SV2hFdzhyb1h5dzZNMHBCSHNhbHBTRV95RVE0TkQ1QkVmb1NFYkFGYkJNSHpFRTlNVUNaZlpuWDNpRW52RVRyRmZSSkhXZW5xb1hvSVYyQzJWTW15QQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSHJCRTBxallVeGFveTJTNWFmVWZ3LW5fNWxqdXcxd0NHbS1XcGpQWVl0b0xSQ2RTa0JvN19SV2hFdzhyb1h5dzZNMHBCSHNhbHBTRV95RVE0TkQ1QkVmb1NFYkFGYkJNSHpFRTlNVUNaZlpuWDNpRW52RVRyRmZSSkhXZW5xb1hvSVYyQzJWTW15QQ?oc=5",
+      "id": "CBMikgFBVV95cUxNSHJCRTBxallVeGFveTJTNWFmVWZ3LW5fNWxqdXcxd0NHbS1XcGpQWVl0b0xSQ2RTa0JvN19SV2hFdzhyb1h5dzZNMHBCSHNhbHBTRV95RVE0TkQ1QkVmb1NFYkFGYkJNSHpFRTlNVUNaZlpuWDNpRW52RVRyRmZSSkhXZW5xb1hvSVYyQzJWTW15QQ",
+      "guidislink": false,
+      "published": "Wed, 10 Jul 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        7,
+        10,
+        7,
+        0,
+        0,
+        2,
+        191,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxNSHJCRTBxallVeGFveTJTNWFmVWZ3LW5fNWxqdXcxd0NHbS1XcGpQWVl0b0xSQ2RTa0JvN19SV2hFdzhyb1h5dzZNMHBCSHNhbHBTRV95RVE0TkQ1QkVmb1NFYkFGYkJNSHpFRTlNVUNaZlpuWDNpRW52RVRyRmZSSkhXZW5xb1hvSVYyQzJWTW15QQ?oc=5\" target=\"_blank\">EWG’s Top Three Bug Repellent Recommendations for Kids</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Environmental Working Group</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxNSHJCRTBxallVeGFveTJTNWFmVWZ3LW5fNWxqdXcxd0NHbS1XcGpQWVl0b0xSQ2RTa0JvN19SV2hFdzhyb1h5dzZNMHBCSHNhbHBTRV95RVE0TkQ1QkVmb1NFYkFGYkJNSHpFRTlNVUNaZlpuWDNpRW52RVRyRmZSSkhXZW5xb1hvSVYyQzJWTW15QQ?oc=5\" target=\"_blank\">EWG’s Top Three Bug Repellent Recommendations for Kids</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Environmental Working Group</font>"
+      },
+      "source": {
+        "href": "https://www.ewg.org",
+        "title": "Environmental Working Group"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "House orders Pentagon to review if it exposed Americans to weaponised ticks - The Guardian",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "House orders Pentagon to review if it exposed Americans to weaponised ticks - The Guardian"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONkhjeVgzVzVScktmem4zRHJuN3hKbFE1TmJ6ZEo4Y3ZNSVJKWXFYSVNzQzZyZjRidlhaQlk3VkNpd2tWYkdlR1ZxeS1Qd2tHWkxHMm5FRWVsZlBwYm55Q3hveW9FUU5ZTWtKRDM3Z1IxX2tUalo1VlBKcnJIRUZJal9RcXk0Q0JZQS1qUDNrV05tOWpyYzBJcQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONkhjeVgzVzVScktmem4zRHJuN3hKbFE1TmJ6ZEo4Y3ZNSVJKWXFYSVNzQzZyZjRidlhaQlk3VkNpd2tWYkdlR1ZxeS1Qd2tHWkxHMm5FRWVsZlBwYm55Q3hveW9FUU5ZTWtKRDM3Z1IxX2tUalo1VlBKcnJIRUZJal9RcXk0Q0JZQS1qUDNrV05tOWpyYzBJcQ?oc=5",
+      "id": "CBMimAFBVV95cUxONkhjeVgzVzVScktmem4zRHJuN3hKbFE1TmJ6ZEo4Y3ZNSVJKWXFYSVNzQzZyZjRidlhaQlk3VkNpd2tWYkdlR1ZxeS1Qd2tHWkxHMm5FRWVsZlBwYm55Q3hveW9FUU5ZTWtKRDM3Z1IxX2tUalo1VlBKcnJIRUZJal9RcXk0Q0JZQS1qUDNrV05tOWpyYzBJcQ",
+      "guidislink": false,
+      "published": "Tue, 16 Jul 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        7,
+        16,
+        7,
+        0,
+        0,
+        1,
+        197,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxONkhjeVgzVzVScktmem4zRHJuN3hKbFE1TmJ6ZEo4Y3ZNSVJKWXFYSVNzQzZyZjRidlhaQlk3VkNpd2tWYkdlR1ZxeS1Qd2tHWkxHMm5FRWVsZlBwYm55Q3hveW9FUU5ZTWtKRDM3Z1IxX2tUalo1VlBKcnJIRUZJal9RcXk0Q0JZQS1qUDNrV05tOWpyYzBJcQ?oc=5\" target=\"_blank\">House orders Pentagon to review if it exposed Americans to weaponised ticks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxONkhjeVgzVzVScktmem4zRHJuN3hKbFE1TmJ6ZEo4Y3ZNSVJKWXFYSVNzQzZyZjRidlhaQlk3VkNpd2tWYkdlR1ZxeS1Qd2tHWkxHMm5FRWVsZlBwYm55Q3hveW9FUU5ZTWtKRDM3Z1IxX2tUalo1VlBKcnJIRUZJal9RcXk0Q0JZQS1qUDNrV05tOWpyYzBJcQ?oc=5\" target=\"_blank\">House orders Pentagon to review if it exposed Americans to weaponised ticks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>"
+      },
+      "source": {
+        "href": "https://www.theguardian.com",
+        "title": "The Guardian"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Pregnancy-related issues still leading cause of death among girls aged 15-19: UN chief - Xinhua | English.news.cn - 新华网",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Pregnancy-related issues still leading cause of death among girls aged 15-19: UN chief - Xinhua | English.news.cn - 新华网"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9HdEZxS0Q0SXhmYl93ZmZFNmk1M3c5RE55RFpOZkRkRWdCNE10aUhJX0VObFFSdEdNY3FuRkZCYUFleDhqRF8tZU9ubm5xRFpfQUtjRVBlZFdIQWZaMklHbEdDTElEbGZ0bVVn?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9HdEZxS0Q0SXhmYl93ZmZFNmk1M3c5RE55RFpOZkRkRWdCNE10aUhJX0VObFFSdEdNY3FuRkZCYUFleDhqRF8tZU9ubm5xRFpfQUtjRVBlZFdIQWZaMklHbEdDTElEbGZ0bVVn?oc=5",
+      "id": "CBMia0FVX3lxTE9HdEZxS0Q0SXhmYl93ZmZFNmk1M3c5RE55RFpOZkRkRWdCNE10aUhJX0VObFFSdEdNY3FuRkZCYUFleDhqRF8tZU9ubm5xRFpfQUtjRVBlZFdIQWZaMklHbEdDTElEbGZ0bVVn",
+      "guidislink": false,
+      "published": "Thu, 11 Jul 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        7,
+        11,
+        7,
+        0,
+        0,
+        3,
+        192,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE9HdEZxS0Q0SXhmYl93ZmZFNmk1M3c5RE55RFpOZkRkRWdCNE10aUhJX0VObFFSdEdNY3FuRkZCYUFleDhqRF8tZU9ubm5xRFpfQUtjRVBlZFdIQWZaMklHbEdDTElEbGZ0bVVn?oc=5\" target=\"_blank\">Pregnancy-related issues still leading cause of death among girls aged 15-19: UN chief - Xinhua | English.news.cn</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">新华网</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE9HdEZxS0Q0SXhmYl93ZmZFNmk1M3c5RE55RFpOZkRkRWdCNE10aUhJX0VObFFSdEdNY3FuRkZCYUFleDhqRF8tZU9ubm5xRFpfQUtjRVBlZFdIQWZaMklHbEdDTElEbGZ0bVVn?oc=5\" target=\"_blank\">Pregnancy-related issues still leading cause of death among girls aged 15-19: UN chief - Xinhua | English.news.cn</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">新华网</font>"
+      },
+      "source": {
+        "href": "http://www.xinhuanet.com",
+        "title": "新华网"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "World’s most invasive mosquito nearly eradicated from two islands in China - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "World’s most invasive mosquito nearly eradicated from two islands in China - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE13c0dCLU1DRHJ2eXhmT3hXMFFsTlRwSUctZnJLUFlFRllTclY3S01GNk0xREpjYWxZR2I2WU9LT18zQVQyWVBzMHdfUjQ1Rm13ZzFZTXBSQXlNc3BfOE9N?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE13c0dCLU1DRHJ2eXhmT3hXMFFsTlRwSUctZnJLUFlFRllTclY3S01GNk0xREpjYWxZR2I2WU9LT18zQVQyWVBzMHdfUjQ1Rm13ZzFZTXBSQXlNc3BfOE9N?oc=5",
+      "id": "CBMiX0FVX3lxTE13c0dCLU1DRHJ2eXhmT3hXMFFsTlRwSUctZnJLUFlFRllTclY3S01GNk0xREpjYWxZR2I2WU9LT18zQVQyWVBzMHdfUjQ1Rm13ZzFZTXBSQXlNc3BfOE9N",
+      "guidislink": false,
+      "published": "Wed, 17 Jul 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        7,
+        17,
+        7,
+        0,
+        0,
+        2,
+        198,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE13c0dCLU1DRHJ2eXhmT3hXMFFsTlRwSUctZnJLUFlFRllTclY3S01GNk0xREpjYWxZR2I2WU9LT18zQVQyWVBzMHdfUjQ1Rm13ZzFZTXBSQXlNc3BfOE9N?oc=5\" target=\"_blank\">World’s most invasive mosquito nearly eradicated from two islands in China</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE13c0dCLU1DRHJ2eXhmT3hXMFFsTlRwSUctZnJLUFlFRllTclY3S01GNk0xREpjYWxZR2I2WU9LT18zQVQyWVBzMHdfUjQ1Rm13ZzFZTXBSQXlNc3BfOE9N?oc=5\" target=\"_blank\">World’s most invasive mosquito nearly eradicated from two islands in China</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Gut microbiota and nutrition in cancer care - The Medical Journal of Australia",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Gut microbiota and nutrition in cancer care - The Medical Journal of Australia"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQb0NISVRiR0VLRDdYNmVFX29HQ004Uy1mVjdpOV9MeHdHXy0wWkkzbUgxV3hLQWpSbWk2SlJVQWlodTJFNVhHYXZzS1dhT1I3XzhWY3FsVUtYRE1ya19yOW5xZTN2Y29PcUppeHNvSDZ2UnZIcE1kVFAyUGZ1WEVfWVpoX0hiODFubElJ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQb0NISVRiR0VLRDdYNmVFX29HQ004Uy1mVjdpOV9MeHdHXy0wWkkzbUgxV3hLQWpSbWk2SlJVQWlodTJFNVhHYXZzS1dhT1I3XzhWY3FsVUtYRE1ya19yOW5xZTN2Y29PcUppeHNvSDZ2UnZIcE1kVFAyUGZ1WEVfWVpoX0hiODFubElJ?oc=5",
+      "id": "CBMiiwFBVV95cUxQb0NISVRiR0VLRDdYNmVFX29HQ004Uy1mVjdpOV9MeHdHXy0wWkkzbUgxV3hLQWpSbWk2SlJVQWlodTJFNVhHYXZzS1dhT1I3XzhWY3FsVUtYRE1ya19yOW5xZTN2Y29PcUppeHNvSDZ2UnZIcE1kVFAyUGZ1WEVfWVpoX0hiODFubElJ",
+      "guidislink": false,
+      "published": "Mon, 15 Jul 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        7,
+        15,
+        7,
+        0,
+        0,
+        0,
+        196,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxQb0NISVRiR0VLRDdYNmVFX29HQ004Uy1mVjdpOV9MeHdHXy0wWkkzbUgxV3hLQWpSbWk2SlJVQWlodTJFNVhHYXZzS1dhT1I3XzhWY3FsVUtYRE1ya19yOW5xZTN2Y29PcUppeHNvSDZ2UnZIcE1kVFAyUGZ1WEVfWVpoX0hiODFubElJ?oc=5\" target=\"_blank\">Gut microbiota and nutrition in cancer care</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Medical Journal of Australia</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxQb0NISVRiR0VLRDdYNmVFX29HQ004Uy1mVjdpOV9MeHdHXy0wWkkzbUgxV3hLQWpSbWk2SlJVQWlodTJFNVhHYXZzS1dhT1I3XzhWY3FsVUtYRE1ya19yOW5xZTN2Y29PcUppeHNvSDZ2UnZIcE1kVFAyUGZ1WEVfWVpoX0hiODFubElJ?oc=5\" target=\"_blank\">Gut microbiota and nutrition in cancer care</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Medical Journal of Australia</font>"
+      },
+      "source": {
+        "href": "https://insightplus.mja.com.au",
+        "title": "The Medical Journal of Australia"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "15 Facts You Need to Know About Yellow Fever - Best Health Magazine Canada",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "15 Facts You Need to Know About Yellow Fever - Best Health Magazine Canada"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBmUTl1Z0Iwcjd3NXd2MHZOWVpISGZwVjEtWVprQjk4WkJrcnZocGJkcGEzcVluN2FxOHZxSWdhX1pqaVlZX0VFYzNwNmN6Q09NSFdxWEtJSEtNWGJmSGlILW4xdnhkcTY0d3pHblVISC0yc3Fv?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBmUTl1Z0Iwcjd3NXd2MHZOWVpISGZwVjEtWVprQjk4WkJrcnZocGJkcGEzcVluN2FxOHZxSWdhX1pqaVlZX0VFYzNwNmN6Q09NSFdxWEtJSEtNWGJmSGlILW4xdnhkcTY0d3pHblVISC0yc3Fv?oc=5",
+      "id": "CBMidEFVX3lxTFBmUTl1Z0Iwcjd3NXd2MHZOWVpISGZwVjEtWVprQjk4WkJrcnZocGJkcGEzcVluN2FxOHZxSWdhX1pqaVlZX0VFYzNwNmN6Q09NSFdxWEtJSEtNWGJmSGlILW4xdnhkcTY0d3pHblVISC0yc3Fv",
+      "guidislink": false,
+      "published": "Tue, 16 Jul 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        7,
+        16,
+        7,
+        0,
+        0,
+        1,
+        197,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTFBmUTl1Z0Iwcjd3NXd2MHZOWVpISGZwVjEtWVprQjk4WkJrcnZocGJkcGEzcVluN2FxOHZxSWdhX1pqaVlZX0VFYzNwNmN6Q09NSFdxWEtJSEtNWGJmSGlILW4xdnhkcTY0d3pHblVISC0yc3Fv?oc=5\" target=\"_blank\">15 Facts You Need to Know About Yellow Fever</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Best Health Magazine Canada</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTFBmUTl1Z0Iwcjd3NXd2MHZOWVpISGZwVjEtWVprQjk4WkJrcnZocGJkcGEzcVluN2FxOHZxSWdhX1pqaVlZX0VFYzNwNmN6Q09NSFdxWEtJSEtNWGJmSGlILW4xdnhkcTY0d3pHblVISC0yc3Fv?oc=5\" target=\"_blank\">15 Facts You Need to Know About Yellow Fever</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Best Health Magazine Canada</font>"
+      },
+      "source": {
+        "href": "https://www.besthealthmag.ca",
+        "title": "Best Health Magazine Canada"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Cell damage caused by the pesticide DDT is palliated - Uco | Universidad de Córdoba",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Cell damage caused by the pesticide DDT is palliated - Uco | Universidad de Córdoba"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOclFoVTBqRDRGSTFEbjRNdWlsR1MxQ295YVdFRjFzRC1DTGlONEZvWHNyd3p0eTZTal9KdWRVQktXWllleFVGOGhKbjRSN1pERjJubS15MU9QOXFLdjVxU3FuWGVPRkw2a3Jqb2J4T2VpTlRxdGhXdlBMVzdxdy1ldENwV0tzMXJLc2xSTnpkSloyOHA4aF9vanh2SEl2TllwNzVVd1d3anY?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOclFoVTBqRDRGSTFEbjRNdWlsR1MxQ295YVdFRjFzRC1DTGlONEZvWHNyd3p0eTZTal9KdWRVQktXWllleFVGOGhKbjRSN1pERjJubS15MU9QOXFLdjVxU3FuWGVPRkw2a3Jqb2J4T2VpTlRxdGhXdlBMVzdxdy1ldENwV0tzMXJLc2xSTnpkSloyOHA4aF9vanh2SEl2TllwNzVVd1d3anY?oc=5",
+      "id": "CBMiqAFBVV95cUxOclFoVTBqRDRGSTFEbjRNdWlsR1MxQ295YVdFRjFzRC1DTGlONEZvWHNyd3p0eTZTal9KdWRVQktXWllleFVGOGhKbjRSN1pERjJubS15MU9QOXFLdjVxU3FuWGVPRkw2a3Jqb2J4T2VpTlRxdGhXdlBMVzdxdy1ldENwV0tzMXJLc2xSTnpkSloyOHA4aF9vanh2SEl2TllwNzVVd1d3anY",
+      "guidislink": false,
+      "published": "Fri, 05 Jul 2019 11:01:07 GMT",
+      "published_parsed": [
+        2019,
+        7,
+        5,
+        11,
+        1,
+        7,
+        4,
+        186,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxOclFoVTBqRDRGSTFEbjRNdWlsR1MxQ295YVdFRjFzRC1DTGlONEZvWHNyd3p0eTZTal9KdWRVQktXWllleFVGOGhKbjRSN1pERjJubS15MU9QOXFLdjVxU3FuWGVPRkw2a3Jqb2J4T2VpTlRxdGhXdlBMVzdxdy1ldENwV0tzMXJLc2xSTnpkSloyOHA4aF9vanh2SEl2TllwNzVVd1d3anY?oc=5\" target=\"_blank\">Cell damage caused by the pesticide DDT is palliated</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Uco | Universidad de Córdoba</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxOclFoVTBqRDRGSTFEbjRNdWlsR1MxQ295YVdFRjFzRC1DTGlONEZvWHNyd3p0eTZTal9KdWRVQktXWllleFVGOGhKbjRSN1pERjJubS15MU9QOXFLdjVxU3FuWGVPRkw2a3Jqb2J4T2VpTlRxdGhXdlBMVzdxdy1ldENwV0tzMXJLc2xSTnpkSloyOHA4aF9vanh2SEl2TllwNzVVd1d3anY?oc=5\" target=\"_blank\">Cell damage caused by the pesticide DDT is palliated</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Uco | Universidad de Córdoba</font>"
+      },
+      "source": {
+        "href": "https://www.uco.es",
+        "title": "Uco | Universidad de Córdoba"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "The mosquito does not believe in music - Periódico ¡ahora!",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "The mosquito does not believe in music - Periódico ¡ahora!"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeWRabnhzMjdQalBTZ2ZtcHJDRHRzX0NjT01vajNfcVRGZ0xHZ0ZZUVBfdUNudmphMmRoOFBkVERNd3B1YmZsLXcySndDeFhJQVoteFpzSXo3MmhrU3VDV0ExbjdzaUJQX3NtclZMYTFxM2c3cEpRXzJmSk1JX2hYSXBnZXM?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeWRabnhzMjdQalBTZ2ZtcHJDRHRzX0NjT01vajNfcVRGZ0xHZ0ZZUVBfdUNudmphMmRoOFBkVERNd3B1YmZsLXcySndDeFhJQVoteFpzSXo3MmhrU3VDV0ExbjdzaUJQX3NtclZMYTFxM2c3cEpRXzJmSk1JX2hYSXBnZXM?oc=5",
+      "id": "CBMihAFBVV95cUxPeWRabnhzMjdQalBTZ2ZtcHJDRHRzX0NjT01vajNfcVRGZ0xHZ0ZZUVBfdUNudmphMmRoOFBkVERNd3B1YmZsLXcySndDeFhJQVoteFpzSXo3MmhrU3VDV0ExbjdzaUJQX3NtclZMYTFxM2c3cEpRXzJmSk1JX2hYSXBnZXM",
+      "guidislink": false,
+      "published": "Wed, 10 Jul 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        7,
+        10,
+        7,
+        0,
+        0,
+        2,
+        191,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxPeWRabnhzMjdQalBTZ2ZtcHJDRHRzX0NjT01vajNfcVRGZ0xHZ0ZZUVBfdUNudmphMmRoOFBkVERNd3B1YmZsLXcySndDeFhJQVoteFpzSXo3MmhrU3VDV0ExbjdzaUJQX3NtclZMYTFxM2c3cEpRXzJmSk1JX2hYSXBnZXM?oc=5\" target=\"_blank\">The mosquito does not believe in music</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Periódico ¡ahora!</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxPeWRabnhzMjdQalBTZ2ZtcHJDRHRzX0NjT01vajNfcVRGZ0xHZ0ZZUVBfdUNudmphMmRoOFBkVERNd3B1YmZsLXcySndDeFhJQVoteFpzSXo3MmhrU3VDV0ExbjdzaUJQX3NtclZMYTFxM2c3cEpRXzJmSk1JX2hYSXBnZXM?oc=5\" target=\"_blank\">The mosquito does not believe in music</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Periódico ¡ahora!</font>"
+      },
+      "source": {
+        "href": "https://www.ahora.cu",
+        "title": "Periódico ¡ahora!"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Faecal microbiota transplants: benefits and challenges | InSight+ - The Medical Journal of Australia",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Faecal microbiota transplants: benefits and challenges | InSight+ - The Medical Journal of Australia"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMFdoZ1dCX0xMWFFOSEluSVZ1S3ZjRmtJYXVlTTBZVk5OaWJTcExXN0Q1WDVuZlZqVmZLdXR3VVBZaUk2M2ZGRUJoTVk5Y2RCWTlxYTYzQW5BLTAyMV9Oc1BkcXd6Nzhub2FnRWJTTU5FX1hzMjNpY0FhMUIxWTVPNnozaXE1Z2pJaXljSUZkbzh2UGc2Q2tBb2VXeS05Wk9tLWdj?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMFdoZ1dCX0xMWFFOSEluSVZ1S3ZjRmtJYXVlTTBZVk5OaWJTcExXN0Q1WDVuZlZqVmZLdXR3VVBZaUk2M2ZGRUJoTVk5Y2RCWTlxYTYzQW5BLTAyMV9Oc1BkcXd6Nzhub2FnRWJTTU5FX1hzMjNpY0FhMUIxWTVPNnozaXE1Z2pJaXljSUZkbzh2UGc2Q2tBb2VXeS05Wk9tLWdj?oc=5",
+      "id": "CBMiowFBVV95cUxOMFdoZ1dCX0xMWFFOSEluSVZ1S3ZjRmtJYXVlTTBZVk5OaWJTcExXN0Q1WDVuZlZqVmZLdXR3VVBZaUk2M2ZGRUJoTVk5Y2RCWTlxYTYzQW5BLTAyMV9Oc1BkcXd6Nzhub2FnRWJTTU5FX1hzMjNpY0FhMUIxWTVPNnozaXE1Z2pJaXljSUZkbzh2UGc2Q2tBb2VXeS05Wk9tLWdj",
+      "guidislink": false,
+      "published": "Mon, 08 Jul 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        7,
+        8,
+        7,
+        0,
+        0,
+        0,
+        189,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxOMFdoZ1dCX0xMWFFOSEluSVZ1S3ZjRmtJYXVlTTBZVk5OaWJTcExXN0Q1WDVuZlZqVmZLdXR3VVBZaUk2M2ZGRUJoTVk5Y2RCWTlxYTYzQW5BLTAyMV9Oc1BkcXd6Nzhub2FnRWJTTU5FX1hzMjNpY0FhMUIxWTVPNnozaXE1Z2pJaXljSUZkbzh2UGc2Q2tBb2VXeS05Wk9tLWdj?oc=5\" target=\"_blank\">Faecal microbiota transplants: benefits and challenges | InSight+</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Medical Journal of Australia</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxOMFdoZ1dCX0xMWFFOSEluSVZ1S3ZjRmtJYXVlTTBZVk5OaWJTcExXN0Q1WDVuZlZqVmZLdXR3VVBZaUk2M2ZGRUJoTVk5Y2RCWTlxYTYzQW5BLTAyMV9Oc1BkcXd6Nzhub2FnRWJTTU5FX1hzMjNpY0FhMUIxWTVPNnozaXE1Z2pJaXljSUZkbzh2UGc2Q2tBb2VXeS05Wk9tLWdj?oc=5\" target=\"_blank\">Faecal microbiota transplants: benefits and challenges | InSight+</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Medical Journal of Australia</font>"
+      },
+      "source": {
+        "href": "https://insightplus.mja.com.au",
+        "title": "The Medical Journal of Australia"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "How to Treat Dengue Fever - India.Com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "How to Treat Dengue Fever - India.Com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5GOFROLUNtdFByVl8xNUh5MXlSVnNYclRTTTU4ODBRWVBUMFlibnlFTlZPZWVWUVRmb1o3ZHplZ3VtMVhiVUZyTHhNNXNkaTFWOXJ6TnNJbDBYOE9QRU81dEM0ODc3cUZlWEFlTFVPVjU4RlFF0gF6QVVfeXFMTjREZ1lpcDZHV1JxRXpsZ3J2WXE3Vk1Zd2FVSDNZN095T216b2IxeWtVSHJWZ0s1eTFrS24ySVZtZkI2VGJtR0ZiSF9hbFhhY09yUGxkcWhPVEFlWVVMZmdpTUhFUEtiMDYxVE5qT3JyUnpRTFNNOVZsckE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5GOFROLUNtdFByVl8xNUh5MXlSVnNYclRTTTU4ODBRWVBUMFlibnlFTlZPZWVWUVRmb1o3ZHplZ3VtMVhiVUZyTHhNNXNkaTFWOXJ6TnNJbDBYOE9QRU81dEM0ODc3cUZlWEFlTFVPVjU4RlFF0gF6QVVfeXFMTjREZ1lpcDZHV1JxRXpsZ3J2WXE3Vk1Zd2FVSDNZN095T216b2IxeWtVSHJWZ0s1eTFrS24ySVZtZkI2VGJtR0ZiSF9hbFhhY09yUGxkcWhPVEFlWVVMZmdpTUhFUEtiMDYxVE5qT3JyUnpRTFNNOVZsckE?oc=5",
+      "id": "CBMidEFVX3lxTE5GOFROLUNtdFByVl8xNUh5MXlSVnNYclRTTTU4ODBRWVBUMFlibnlFTlZPZWVWUVRmb1o3ZHplZ3VtMVhiVUZyTHhNNXNkaTFWOXJ6TnNJbDBYOE9QRU81dEM0ODc3cUZlWEFlTFVPVjU4RlFF0gF6QVVfeXFMTjREZ1lpcDZHV1JxRXpsZ3J2WXE3Vk1Zd2FVSDNZN095T216b2IxeWtVSHJWZ0s1eTFrS24ySVZtZkI2VGJtR0ZiSF9hbFhhY09yUGxkcWhPVEFlWVVMZmdpTUhFUEtiMDYxVE5qT3JyUnpRTFNNOVZsckE",
+      "guidislink": false,
+      "published": "Fri, 19 Jul 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        7,
+        19,
+        7,
+        0,
+        0,
+        4,
+        200,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE5GOFROLUNtdFByVl8xNUh5MXlSVnNYclRTTTU4ODBRWVBUMFlibnlFTlZPZWVWUVRmb1o3ZHplZ3VtMVhiVUZyTHhNNXNkaTFWOXJ6TnNJbDBYOE9QRU81dEM0ODc3cUZlWEFlTFVPVjU4RlFF0gF6QVVfeXFMTjREZ1lpcDZHV1JxRXpsZ3J2WXE3Vk1Zd2FVSDNZN095T216b2IxeWtVSHJWZ0s1eTFrS24ySVZtZkI2VGJtR0ZiSF9hbFhhY09yUGxkcWhPVEFlWVVMZmdpTUhFUEtiMDYxVE5qT3JyUnpRTFNNOVZsckE?oc=5\" target=\"_blank\">How to Treat Dengue Fever</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">India.Com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE5GOFROLUNtdFByVl8xNUh5MXlSVnNYclRTTTU4ODBRWVBUMFlibnlFTlZPZWVWUVRmb1o3ZHplZ3VtMVhiVUZyTHhNNXNkaTFWOXJ6TnNJbDBYOE9QRU81dEM0ODc3cUZlWEFlTFVPVjU4RlFF0gF6QVVfeXFMTjREZ1lpcDZHV1JxRXpsZ3J2WXE3Vk1Zd2FVSDNZN095T216b2IxeWtVSHJWZ0s1eTFrS24ySVZtZkI2VGJtR0ZiSF9hbFhhY09yUGxkcWhPVEFlWVVMZmdpTUhFUEtiMDYxVE5qT3JyUnpRTFNNOVZsckE?oc=5\" target=\"_blank\">How to Treat Dengue Fever</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">India.Com</font>"
+      },
+      "source": {
+        "href": "https://www.india.com",
+        "title": "India.Com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Amaphoyisa ashaqe izidakamizwa zika-R12 million ePhoenix - Isolezwe",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Amaphoyisa ashaqe izidakamizwa zika-R12 million ePhoenix - Isolezwe"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRHdEWFJlY3pkYUJjRWV5Yy1nSkVqX0w3YldTMzlWV0VzeGcwU3lVckJYajdyWU1NZ01meXBmdnkyNlpUNDVIc09OM09MMklGODM3a0R3Qzh4LUhvN1o1SXBuN09acGl5MlVreWZmejBESGVFUjZVVDladzhET0s5YUVWeTJvZ2xDTDd6dVJYbm1LdHZ2MGRSV3AxQ2xlSDdsS0E?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRHdEWFJlY3pkYUJjRWV5Yy1nSkVqX0w3YldTMzlWV0VzeGcwU3lVckJYajdyWU1NZ01meXBmdnkyNlpUNDVIc09OM09MMklGODM3a0R3Qzh4LUhvN1o1SXBuN09acGl5MlVreWZmejBESGVFUjZVVDladzhET0s5YUVWeTJvZ2xDTDd6dVJYbm1LdHZ2MGRSV3AxQ2xlSDdsS0E?oc=5",
+      "id": "CBMiogFBVV95cUxNRHdEWFJlY3pkYUJjRWV5Yy1nSkVqX0w3YldTMzlWV0VzeGcwU3lVckJYajdyWU1NZ01meXBmdnkyNlpUNDVIc09OM09MMklGODM3a0R3Qzh4LUhvN1o1SXBuN09acGl5MlVreWZmejBESGVFUjZVVDladzhET0s5YUVWeTJvZ2xDTDd6dVJYbm1LdHZ2MGRSV3AxQ2xlSDdsS0E",
+      "guidislink": false,
+      "published": "Thu, 18 Jul 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        7,
+        18,
+        7,
+        0,
+        0,
+        3,
+        199,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxNRHdEWFJlY3pkYUJjRWV5Yy1nSkVqX0w3YldTMzlWV0VzeGcwU3lVckJYajdyWU1NZ01meXBmdnkyNlpUNDVIc09OM09MMklGODM3a0R3Qzh4LUhvN1o1SXBuN09acGl5MlVreWZmejBESGVFUjZVVDladzhET0s5YUVWeTJvZ2xDTDd6dVJYbm1LdHZ2MGRSV3AxQ2xlSDdsS0E?oc=5\" target=\"_blank\">Amaphoyisa ashaqe izidakamizwa zika-R12 million ePhoenix</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Isolezwe</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxNRHdEWFJlY3pkYUJjRWV5Yy1nSkVqX0w3YldTMzlWV0VzeGcwU3lVckJYajdyWU1NZ01meXBmdnkyNlpUNDVIc09OM09MMklGODM3a0R3Qzh4LUhvN1o1SXBuN09acGl5MlVreWZmejBESGVFUjZVVDladzhET0s5YUVWeTJvZ2xDTDd6dVJYbm1LdHZ2MGRSV3AxQ2xlSDdsS0E?oc=5\" target=\"_blank\">Amaphoyisa ashaqe izidakamizwa zika-R12 million ePhoenix</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Isolezwe</font>"
+      },
+      "source": {
+        "href": "https://isolezwe.co.za",
+        "title": "Isolezwe"
+      },
+      "sub_articles": []
+    }
+  ]
+}

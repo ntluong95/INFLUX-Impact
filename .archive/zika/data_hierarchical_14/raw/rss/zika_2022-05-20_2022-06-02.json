@@ -1,0 +1,564 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2022-05-20",
+  "window_end": "2022-06-02",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2022-05-20+before%3A2022-06-03&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2022-05-20+before:2022-06-03&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:29:18Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2022-05-20 before:2022-06-03\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2022-05-20 before:2022-06-03\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2022-05-20+before:2022-06-03&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2022-05-20+before:2022-06-03&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:29:18 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      29,
+      18,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Predicted Reservoir Risk Map for Zika Virus in South America (IMAGE) - EurekAlert!",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Predicted Reservoir Risk Map for Zika Virus in South America (IMAGE) - EurekAlert!"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1TelpJX19iVm1MdVpDY2Nfdm1Fbmc1MjBLNzQ4OHhHOWJjWXBrQ3hMS2xVeGlQakFQZ29fTWw0aGJTb1N0dndUTWthN3JLeWpqY2RZUDdfRQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1TelpJX19iVm1MdVpDY2Nfdm1Fbmc1MjBLNzQ4OHhHOWJjWXBrQ3hMS2xVeGlQakFQZ29fTWw0aGJTb1N0dndUTWthN3JLeWpqY2RZUDdfRQ?oc=5",
+      "id": "CBMiV0FVX3lxTE1TelpJX19iVm1MdVpDY2Nfdm1Fbmc1MjBLNzQ4OHhHOWJjWXBrQ3hMS2xVeGlQakFQZ29fTWw0aGJTb1N0dndUTWthN3JLeWpqY2RZUDdfRQ",
+      "guidislink": false,
+      "published": "Tue, 24 May 2022 05:19:30 GMT",
+      "published_parsed": [
+        2022,
+        5,
+        24,
+        5,
+        19,
+        30,
+        1,
+        144,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE1TelpJX19iVm1MdVpDY2Nfdm1Fbmc1MjBLNzQ4OHhHOWJjWXBrQ3hMS2xVeGlQakFQZ29fTWw0aGJTb1N0dndUTWthN3JLeWpqY2RZUDdfRQ?oc=5\" target=\"_blank\">Predicted Reservoir Risk Map for Zika Virus in South America (IMAGE)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">EurekAlert!</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE1TelpJX19iVm1MdVpDY2Nfdm1Fbmc1MjBLNzQ4OHhHOWJjWXBrQ3hMS2xVeGlQakFQZ29fTWw0aGJTb1N0dndUTWthN3JLeWpqY2RZUDdfRQ?oc=5\" target=\"_blank\">Predicted Reservoir Risk Map for Zika Virus in South America (IMAGE)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">EurekAlert!</font>"
+      },
+      "source": {
+        "href": "https://www.eurekalert.org",
+        "title": "EurekAlert!"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Ardian Zika endorses Kevin Steele as preferred successor - Florida Politics",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Ardian Zika endorses Kevin Steele as preferred successor - Florida Politics"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOLUN0Z1lrajh4ajRESGgyU192NklWcEFGQkpPTWtYQ3l5bUJlZmliMHJQTFJBUlg4MUFJLWJvOU1KbWpPYTdLR1FPTkNWaUFlRnRHMmh3aXFBQjN0X1ZDUzBWaUVTZHhWUUExcjdqUXFybXJpdFItMGlMVEJ4UHRYclR5eHNyMTRpQWxtX3JSVGFnWjh3OWo5cnVqNXJyb0dfNmhJ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOLUN0Z1lrajh4ajRESGgyU192NklWcEFGQkpPTWtYQ3l5bUJlZmliMHJQTFJBUlg4MUFJLWJvOU1KbWpPYTdLR1FPTkNWaUFlRnRHMmh3aXFBQjN0X1ZDUzBWaUVTZHhWUUExcjdqUXFybXJpdFItMGlMVEJ4UHRYclR5eHNyMTRpQWxtX3JSVGFnWjh3OWo5cnVqNXJyb0dfNmhJ?oc=5",
+      "id": "CBMiowFBVV95cUxOLUN0Z1lrajh4ajRESGgyU192NklWcEFGQkpPTWtYQ3l5bUJlZmliMHJQTFJBUlg4MUFJLWJvOU1KbWpPYTdLR1FPTkNWaUFlRnRHMmh3aXFBQjN0X1ZDUzBWaUVTZHhWUUExcjdqUXFybXJpdFItMGlMVEJ4UHRYclR5eHNyMTRpQWxtX3JSVGFnWjh3OWo5cnVqNXJyb0dfNmhJ",
+      "guidislink": false,
+      "published": "Tue, 24 May 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        5,
+        24,
+        7,
+        0,
+        0,
+        1,
+        144,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxOLUN0Z1lrajh4ajRESGgyU192NklWcEFGQkpPTWtYQ3l5bUJlZmliMHJQTFJBUlg4MUFJLWJvOU1KbWpPYTdLR1FPTkNWaUFlRnRHMmh3aXFBQjN0X1ZDUzBWaUVTZHhWUUExcjdqUXFybXJpdFItMGlMVEJ4UHRYclR5eHNyMTRpQWxtX3JSVGFnWjh3OWo5cnVqNXJyb0dfNmhJ?oc=5\" target=\"_blank\">Ardian Zika endorses Kevin Steele as preferred successor</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Florida Politics</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxOLUN0Z1lrajh4ajRESGgyU192NklWcEFGQkpPTWtYQ3l5bUJlZmliMHJQTFJBUlg4MUFJLWJvOU1KbWpPYTdLR1FPTkNWaUFlRnRHMmh3aXFBQjN0X1ZDUzBWaUVTZHhWUUExcjdqUXFybXJpdFItMGlMVEJ4UHRYclR5eHNyMTRpQWxtX3JSVGFnWjh3OWo5cnVqNXJyb0dfNmhJ?oc=5\" target=\"_blank\">Ardian Zika endorses Kevin Steele as preferred successor</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Florida Politics</font>"
+      },
+      "source": {
+        "href": "https://floridapolitics.com",
+        "title": "Florida Politics"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Monkeypox: Time to worry or one to ignore? - BBC",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Monkeypox: Time to worry or one to ignore? - BBC"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA2TEc3cnlTWWNsM0ZYUy0yOXRrc0tfcDN4Q1lWWmI3RXRLMEhBZ19jVE5NUFo4c0VZa21SdU9neFZGaFlzazZpMUVIZmp2dS0tUFE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA2TEc3cnlTWWNsM0ZYUy0yOXRrc0tfcDN4Q1lWWmI3RXRLMEhBZ19jVE5NUFo4c0VZa21SdU9neFZGaFlzazZpMUVIZmp2dS0tUFE?oc=5",
+      "id": "CBMiUkFVX3lxTFA2TEc3cnlTWWNsM0ZYUy0yOXRrc0tfcDN4Q1lWWmI3RXRLMEhBZ19jVE5NUFo4c0VZa21SdU9neFZGaFlzazZpMUVIZmp2dS0tUFE",
+      "guidislink": false,
+      "published": "Fri, 20 May 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        5,
+        20,
+        7,
+        0,
+        0,
+        4,
+        140,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTFA2TEc3cnlTWWNsM0ZYUy0yOXRrc0tfcDN4Q1lWWmI3RXRLMEhBZ19jVE5NUFo4c0VZa21SdU9neFZGaFlzazZpMUVIZmp2dS0tUFE?oc=5\" target=\"_blank\">Monkeypox: Time to worry or one to ignore?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTFA2TEc3cnlTWWNsM0ZYUy0yOXRrc0tfcDN4Q1lWWmI3RXRLMEhBZ19jVE5NUFo4c0VZa21SdU9neFZGaFlzazZpMUVIZmp2dS0tUFE?oc=5\" target=\"_blank\">Monkeypox: Time to worry or one to ignore?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>"
+      },
+      "source": {
+        "href": "https://www.bbc.com",
+        "title": "BBC"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Modeling the impact of genetically modified male mosquitoes in the spatial population dynamics of Aedes aegypti - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Modeling the impact of genetically modified male mosquitoes in the spatial population dynamics of Aedes aegypti - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBMTnF4TlduTDM1OXI3bTl1QWFieUVGemFqTVg3c3pBZmI1dWZqNUxMN0h0eXIta0VoUi1MRUpmclRfUjNfZ21tTVMtcFh1ZEhNRHhzeGVDc0ExUGFqa3ZB?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBMTnF4TlduTDM1OXI3bTl1QWFieUVGemFqTVg3c3pBZmI1dWZqNUxMN0h0eXIta0VoUi1MRUpmclRfUjNfZ21tTVMtcFh1ZEhNRHhzeGVDc0ExUGFqa3ZB?oc=5",
+      "id": "CBMiX0FVX3lxTFBMTnF4TlduTDM1OXI3bTl1QWFieUVGemFqTVg3c3pBZmI1dWZqNUxMN0h0eXIta0VoUi1MRUpmclRfUjNfZ21tTVMtcFh1ZEhNRHhzeGVDc0ExUGFqa3ZB",
+      "guidislink": false,
+      "published": "Wed, 01 Jun 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        6,
+        1,
+        7,
+        0,
+        0,
+        2,
+        152,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFBMTnF4TlduTDM1OXI3bTl1QWFieUVGemFqTVg3c3pBZmI1dWZqNUxMN0h0eXIta0VoUi1MRUpmclRfUjNfZ21tTVMtcFh1ZEhNRHhzeGVDc0ExUGFqa3ZB?oc=5\" target=\"_blank\">Modeling the impact of genetically modified male mosquitoes in the spatial population dynamics of Aedes aegypti</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFBMTnF4TlduTDM1OXI3bTl1QWFieUVGemFqTVg3c3pBZmI1dWZqNUxMN0h0eXIta0VoUi1MRUpmclRfUjNfZ21tTVMtcFh1ZEhNRHhzeGVDc0ExUGFqa3ZB?oc=5\" target=\"_blank\">Modeling the impact of genetically modified male mosquitoes in the spatial population dynamics of Aedes aegypti</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "National Weather Service reacts to Gaylord tornado - Upper Michigan's Source",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "National Weather Service reacts to Gaylord tornado - Upper Michigan's Source"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNGpGWV9vZWFqazNTaXF6S01uQURTbjhJaUxNUGtoRTc3X3hldjBZMnRWSUJFZXloVmFybFh3dEdsd19wWUU0Mk04RkNMMWRhcjdkOVIwVlN1b2FKU25Rbk5kR1Z3N1VMb25mcXJoOUxFR1ZRRzlmY2JIcTQ3Z1dhetIBlAFBVV95cUxNR3YwR0p0WVZpbFllV0YwaE9lTmxobEFGUGdXRVlxMS1JdXNNYU9qYWZXYVltV0tJeDlvRnRTcHBlYVIySEFYX0ZMRkd2MDYyVlRIaTQxT1dMdTV3eG9EMGdlQzJlSjYwcm9jaWh1UXY3aUdXZ1VmNmkzMjBFZGFPbnVjWC1Qa0tfcFV1Zzg2cGxtZzhu?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNGpGWV9vZWFqazNTaXF6S01uQURTbjhJaUxNUGtoRTc3X3hldjBZMnRWSUJFZXloVmFybFh3dEdsd19wWUU0Mk04RkNMMWRhcjdkOVIwVlN1b2FKU25Rbk5kR1Z3N1VMb25mcXJoOUxFR1ZRRzlmY2JIcTQ3Z1dhetIBlAFBVV95cUxNR3YwR0p0WVZpbFllV0YwaE9lTmxobEFGUGdXRVlxMS1JdXNNYU9qYWZXYVltV0tJeDlvRnRTcHBlYVIySEFYX0ZMRkd2MDYyVlRIaTQxT1dMdTV3eG9EMGdlQzJlSjYwcm9jaWh1UXY3aUdXZ1VmNmkzMjBFZGFPbnVjWC1Qa0tfcFV1Zzg2cGxtZzhu?oc=5",
+      "id": "CBMigAFBVV95cUxQNGpGWV9vZWFqazNTaXF6S01uQURTbjhJaUxNUGtoRTc3X3hldjBZMnRWSUJFZXloVmFybFh3dEdsd19wWUU0Mk04RkNMMWRhcjdkOVIwVlN1b2FKU25Rbk5kR1Z3N1VMb25mcXJoOUxFR1ZRRzlmY2JIcTQ3Z1dhetIBlAFBVV95cUxNR3YwR0p0WVZpbFllV0YwaE9lTmxobEFGUGdXRVlxMS1JdXNNYU9qYWZXYVltV0tJeDlvRnRTcHBlYVIySEFYX0ZMRkd2MDYyVlRIaTQxT1dMdTV3eG9EMGdlQzJlSjYwcm9jaWh1UXY3aUdXZ1VmNmkzMjBFZGFPbnVjWC1Qa0tfcFV1Zzg2cGxtZzhu",
+      "guidislink": false,
+      "published": "Mon, 23 May 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        5,
+        23,
+        7,
+        0,
+        0,
+        0,
+        143,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxQNGpGWV9vZWFqazNTaXF6S01uQURTbjhJaUxNUGtoRTc3X3hldjBZMnRWSUJFZXloVmFybFh3dEdsd19wWUU0Mk04RkNMMWRhcjdkOVIwVlN1b2FKU25Rbk5kR1Z3N1VMb25mcXJoOUxFR1ZRRzlmY2JIcTQ3Z1dhetIBlAFBVV95cUxNR3YwR0p0WVZpbFllV0YwaE9lTmxobEFGUGdXRVlxMS1JdXNNYU9qYWZXYVltV0tJeDlvRnRTcHBlYVIySEFYX0ZMRkd2MDYyVlRIaTQxT1dMdTV3eG9EMGdlQzJlSjYwcm9jaWh1UXY3aUdXZ1VmNmkzMjBFZGFPbnVjWC1Qa0tfcFV1Zzg2cGxtZzhu?oc=5\" target=\"_blank\">National Weather Service reacts to Gaylord tornado</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Upper Michigan's Source</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxQNGpGWV9vZWFqazNTaXF6S01uQURTbjhJaUxNUGtoRTc3X3hldjBZMnRWSUJFZXloVmFybFh3dEdsd19wWUU0Mk04RkNMMWRhcjdkOVIwVlN1b2FKU25Rbk5kR1Z3N1VMb25mcXJoOUxFR1ZRRzlmY2JIcTQ3Z1dhetIBlAFBVV95cUxNR3YwR0p0WVZpbFllV0YwaE9lTmxobEFGUGdXRVlxMS1JdXNNYU9qYWZXYVltV0tJeDlvRnRTcHBlYVIySEFYX0ZMRkd2MDYyVlRIaTQxT1dMdTV3eG9EMGdlQzJlSjYwcm9jaWh1UXY3aUdXZ1VmNmkzMjBFZGFPbnVjWC1Qa0tfcFV1Zzg2cGxtZzhu?oc=5\" target=\"_blank\">National Weather Service reacts to Gaylord tornado</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Upper Michigan's Source</font>"
+      },
+      "source": {
+        "href": "https://www.uppermichiganssource.com",
+        "title": "Upper Michigan's Source"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Broad-spectrum antivirals made from polymers - Advanced Science News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Broad-spectrum antivirals made from polymers - Advanced Science News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeVJLSnI3cmpVSDU0U0RKaXRxVEZnNmFHMGkxY3dFOENLQnhLaHdoOGR2S240alRiV0QwdEZUMHpOQy1XMGtlbGF5cV90MzhNTDluMEs1ZElnUWhIZUtDT3VtU3hIYVBZMlZkT2EtZEJJRndXd0htTGczWmZ4VGc0Z2Z0VUtCRHAz?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeVJLSnI3cmpVSDU0U0RKaXRxVEZnNmFHMGkxY3dFOENLQnhLaHdoOGR2S240alRiV0QwdEZUMHpOQy1XMGtlbGF5cV90MzhNTDluMEs1ZElnUWhIZUtDT3VtU3hIYVBZMlZkT2EtZEJJRndXd0htTGczWmZ4VGc0Z2Z0VUtCRHAz?oc=5",
+      "id": "CBMiiAFBVV95cUxNeVJLSnI3cmpVSDU0U0RKaXRxVEZnNmFHMGkxY3dFOENLQnhLaHdoOGR2S240alRiV0QwdEZUMHpOQy1XMGtlbGF5cV90MzhNTDluMEs1ZElnUWhIZUtDT3VtU3hIYVBZMlZkT2EtZEJJRndXd0htTGczWmZ4VGc0Z2Z0VUtCRHAz",
+      "guidislink": false,
+      "published": "Tue, 24 May 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        5,
+        24,
+        7,
+        0,
+        0,
+        1,
+        144,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeVJLSnI3cmpVSDU0U0RKaXRxVEZnNmFHMGkxY3dFOENLQnhLaHdoOGR2S240alRiV0QwdEZUMHpOQy1XMGtlbGF5cV90MzhNTDluMEs1ZElnUWhIZUtDT3VtU3hIYVBZMlZkT2EtZEJJRndXd0htTGczWmZ4VGc0Z2Z0VUtCRHAz?oc=5\" target=\"_blank\">Broad-spectrum antivirals made from polymers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Advanced Science News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeVJLSnI3cmpVSDU0U0RKaXRxVEZnNmFHMGkxY3dFOENLQnhLaHdoOGR2S240alRiV0QwdEZUMHpOQy1XMGtlbGF5cV90MzhNTDluMEs1ZElnUWhIZUtDT3VtU3hIYVBZMlZkT2EtZEJJRndXd0htTGczWmZ4VGc0Z2Z0VUtCRHAz?oc=5\" target=\"_blank\">Broad-spectrum antivirals made from polymers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Advanced Science News</font>"
+      },
+      "source": {
+        "href": "https://www.advancedsciencenews.com",
+        "title": "Advanced Science News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Do Mosquito-Repellent Plants Work? No—Here’s Why & What You Should Try Instead - PureWow",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Do Mosquito-Repellent Plants Work? No—Here’s Why & What You Should Try Instead - PureWow"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBuWkU2ZkZROW8tby1hNkhzUElYMDBlbzZ4cFNTZnhvYVFGOHdFYU9jaFhVQnNPRk9reWhQSi1JX1ljOFhiN2FqdjZldFRtLWtDZ1ZveFdjOUQyT3FUQXdlQjQ5dFE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBuWkU2ZkZROW8tby1hNkhzUElYMDBlbzZ4cFNTZnhvYVFGOHdFYU9jaFhVQnNPRk9reWhQSi1JX1ljOFhiN2FqdjZldFRtLWtDZ1ZveFdjOUQyT3FUQXdlQjQ5dFE?oc=5",
+      "id": "CBMiZEFVX3lxTFBuWkU2ZkZROW8tby1hNkhzUElYMDBlbzZ4cFNTZnhvYVFGOHdFYU9jaFhVQnNPRk9reWhQSi1JX1ljOFhiN2FqdjZldFRtLWtDZ1ZveFdjOUQyT3FUQXdlQjQ5dFE",
+      "guidislink": false,
+      "published": "Fri, 27 May 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        5,
+        27,
+        7,
+        0,
+        0,
+        4,
+        147,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZEFVX3lxTFBuWkU2ZkZROW8tby1hNkhzUElYMDBlbzZ4cFNTZnhvYVFGOHdFYU9jaFhVQnNPRk9reWhQSi1JX1ljOFhiN2FqdjZldFRtLWtDZ1ZveFdjOUQyT3FUQXdlQjQ5dFE?oc=5\" target=\"_blank\">Do Mosquito-Repellent Plants Work? No—Here’s Why & What You Should Try Instead</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PureWow</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiZEFVX3lxTFBuWkU2ZkZROW8tby1hNkhzUElYMDBlbzZ4cFNTZnhvYVFGOHdFYU9jaFhVQnNPRk9reWhQSi1JX1ljOFhiN2FqdjZldFRtLWtDZ1ZveFdjOUQyT3FUQXdlQjQ5dFE?oc=5\" target=\"_blank\">Do Mosquito-Repellent Plants Work? No—Here’s Why & What You Should Try Instead</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PureWow</font>"
+      },
+      "source": {
+        "href": "https://www.purewow.com",
+        "title": "PureWow"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "West Nile Virus - Drishti IAS",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "West Nile Virus - Drishti IAS"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMickFVX3lxTE02amN0aUFCSUI4dThVbnY1OHdIb2U4cF92T0k1YXo3OEMwMTVnQUptQTRiVEpuRjhmTDhONGJHV3JVNmwxZzltNUdjMGhIUHREMFBESXd1dzB1bnNJd1ZhdEluMDJ6YXFnMVlSV2h5c2xvZw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE02amN0aUFCSUI4dThVbnY1OHdIb2U4cF92T0k1YXo3OEMwMTVnQUptQTRiVEpuRjhmTDhONGJHV3JVNmwxZzltNUdjMGhIUHREMFBESXd1dzB1bnNJd1ZhdEluMDJ6YXFnMVlSV2h5c2xvZw?oc=5",
+      "id": "CBMickFVX3lxTE02amN0aUFCSUI4dThVbnY1OHdIb2U4cF92T0k1YXo3OEMwMTVnQUptQTRiVEpuRjhmTDhONGJHV3JVNmwxZzltNUdjMGhIUHREMFBESXd1dzB1bnNJd1ZhdEluMDJ6YXFnMVlSV2h5c2xvZw",
+      "guidislink": false,
+      "published": "Wed, 01 Jun 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        6,
+        1,
+        7,
+        0,
+        0,
+        2,
+        152,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE02amN0aUFCSUI4dThVbnY1OHdIb2U4cF92T0k1YXo3OEMwMTVnQUptQTRiVEpuRjhmTDhONGJHV3JVNmwxZzltNUdjMGhIUHREMFBESXd1dzB1bnNJd1ZhdEluMDJ6YXFnMVlSV2h5c2xvZw?oc=5\" target=\"_blank\">West Nile Virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Drishti IAS</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE02amN0aUFCSUI4dThVbnY1OHdIb2U4cF92T0k1YXo3OEMwMTVnQUptQTRiVEpuRjhmTDhONGJHV3JVNmwxZzltNUdjMGhIUHREMFBESXd1dzB1bnNJd1ZhdEluMDJ6YXFnMVlSV2h5c2xvZw?oc=5\" target=\"_blank\">West Nile Virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Drishti IAS</font>"
+      },
+      "source": {
+        "href": "https://www.drishtiias.com",
+        "title": "Drishti IAS"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Exotic mosquitos: Public asked to join in hunt for rare species - The Brussels Times",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Exotic mosquitos: Public asked to join in hunt for rare species - The Brussels Times"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPOFQ0T3MyUU5iT3ZuQ3dZV3Jzc2RYc19NNmV2N2ZmMDBMbGVHN3lncmxBVjhweENfcEI4eHBWUkc3VFRYRm8tNkFTMHhRZWNuaDd5dFFQWmNISjJMMzRwVGZESS1sVnRZNFRVQk1FOW1MNXVkSm1wTVJWZ2IwYU4za0tpdWxMM1UyM2lmNW5UV09SVzI4QlloTkVjUl9qNFN3?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPOFQ0T3MyUU5iT3ZuQ3dZV3Jzc2RYc19NNmV2N2ZmMDBMbGVHN3lncmxBVjhweENfcEI4eHBWUkc3VFRYRm8tNkFTMHhRZWNuaDd5dFFQWmNISjJMMzRwVGZESS1sVnRZNFRVQk1FOW1MNXVkSm1wTVJWZ2IwYU4za0tpdWxMM1UyM2lmNW5UV09SVzI4QlloTkVjUl9qNFN3?oc=5",
+      "id": "CBMioAFBVV95cUxPOFQ0T3MyUU5iT3ZuQ3dZV3Jzc2RYc19NNmV2N2ZmMDBMbGVHN3lncmxBVjhweENfcEI4eHBWUkc3VFRYRm8tNkFTMHhRZWNuaDd5dFFQWmNISjJMMzRwVGZESS1sVnRZNFRVQk1FOW1MNXVkSm1wTVJWZ2IwYU4za0tpdWxMM1UyM2lmNW5UV09SVzI4QlloTkVjUl9qNFN3",
+      "guidislink": false,
+      "published": "Mon, 30 May 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        5,
+        30,
+        7,
+        0,
+        0,
+        0,
+        150,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPOFQ0T3MyUU5iT3ZuQ3dZV3Jzc2RYc19NNmV2N2ZmMDBMbGVHN3lncmxBVjhweENfcEI4eHBWUkc3VFRYRm8tNkFTMHhRZWNuaDd5dFFQWmNISjJMMzRwVGZESS1sVnRZNFRVQk1FOW1MNXVkSm1wTVJWZ2IwYU4za0tpdWxMM1UyM2lmNW5UV09SVzI4QlloTkVjUl9qNFN3?oc=5\" target=\"_blank\">Exotic mosquitos: Public asked to join in hunt for rare species</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Brussels Times</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPOFQ0T3MyUU5iT3ZuQ3dZV3Jzc2RYc19NNmV2N2ZmMDBMbGVHN3lncmxBVjhweENfcEI4eHBWUkc3VFRYRm8tNkFTMHhRZWNuaDd5dFFQWmNISjJMMzRwVGZESS1sVnRZNFRVQk1FOW1MNXVkSm1wTVJWZ2IwYU4za0tpdWxMM1UyM2lmNW5UV09SVzI4QlloTkVjUl9qNFN3?oc=5\" target=\"_blank\">Exotic mosquitos: Public asked to join in hunt for rare species</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Brussels Times</font>"
+      },
+      "source": {
+        "href": "https://www.brusselstimes.com",
+        "title": "The Brussels Times"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Makati City launches simultaneous clean-up drive against dengue - Manila Bulletin",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Makati City launches simultaneous clean-up drive against dengue - Manila Bulletin"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPY3YwZ2huNG5PNFJ1SmZSSC1CSWVDY0hRVW1NWjZ2bERSRURFQWFPZnlyQTlkcE4wWEdwb3Nyd2VJZmxzTm50Z1R3OHB2YmFJVzBRc3VRM3FxcTFaMDBJNlNNcGk1b2RGZ1NReFhDZEp2REVnX0xjUl9MYlZ4SUR6bGplYzEtTVJaRFJvVklVV29KNUxtRk9R?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPY3YwZ2huNG5PNFJ1SmZSSC1CSWVDY0hRVW1NWjZ2bERSRURFQWFPZnlyQTlkcE4wWEdwb3Nyd2VJZmxzTm50Z1R3OHB2YmFJVzBRc3VRM3FxcTFaMDBJNlNNcGk1b2RGZ1NReFhDZEp2REVnX0xjUl9MYlZ4SUR6bGplYzEtTVJaRFJvVklVV29KNUxtRk9R?oc=5",
+      "id": "CBMilwFBVV95cUxPY3YwZ2huNG5PNFJ1SmZSSC1CSWVDY0hRVW1NWjZ2bERSRURFQWFPZnlyQTlkcE4wWEdwb3Nyd2VJZmxzTm50Z1R3OHB2YmFJVzBRc3VRM3FxcTFaMDBJNlNNcGk1b2RGZ1NReFhDZEp2REVnX0xjUl9MYlZ4SUR6bGplYzEtTVJaRFJvVklVV29KNUxtRk9R",
+      "guidislink": false,
+      "published": "Thu, 02 Jun 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        6,
+        2,
+        7,
+        0,
+        0,
+        3,
+        153,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxPY3YwZ2huNG5PNFJ1SmZSSC1CSWVDY0hRVW1NWjZ2bERSRURFQWFPZnlyQTlkcE4wWEdwb3Nyd2VJZmxzTm50Z1R3OHB2YmFJVzBRc3VRM3FxcTFaMDBJNlNNcGk1b2RGZ1NReFhDZEp2REVnX0xjUl9MYlZ4SUR6bGplYzEtTVJaRFJvVklVV29KNUxtRk9R?oc=5\" target=\"_blank\">Makati City launches simultaneous clean-up drive against dengue</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Manila Bulletin</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxPY3YwZ2huNG5PNFJ1SmZSSC1CSWVDY0hRVW1NWjZ2bERSRURFQWFPZnlyQTlkcE4wWEdwb3Nyd2VJZmxzTm50Z1R3OHB2YmFJVzBRc3VRM3FxcTFaMDBJNlNNcGk1b2RGZ1NReFhDZEp2REVnX0xjUl9MYlZ4SUR6bGplYzEtTVJaRFJvVklVV29KNUxtRk9R?oc=5\" target=\"_blank\">Makati City launches simultaneous clean-up drive against dengue</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Manila Bulletin</font>"
+      },
+      "source": {
+        "href": "https://mb.com.ph",
+        "title": "Manila Bulletin"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Akiolu wins Reps APC primary - The Sun Nigeria",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Akiolu wins Reps APC primary - The Sun Nigeria"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBsTG5YNjE0WHlpZEJFOUFKeHJ4MGllNXdSN1ZtMTNqd285LWdPR0QyZm1PMjIzRWx3M2pod2NPZExVczU3am5aNlJEczNCcUFJWDRHMWlqbkZDcUnSAWBBVV95cUxQREswQ0J6dXgxRkdvcHZ5eGI3N1N3NjdrV1Riam1sV3dPY3pja3ljN3h2VXJiRlZSTGt0cDBfZTN6LTdMUjUzQXFnbjZHSGo0cGR4UkFpS29pRjhyVndMX3U?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBsTG5YNjE0WHlpZEJFOUFKeHJ4MGllNXdSN1ZtMTNqd285LWdPR0QyZm1PMjIzRWx3M2pod2NPZExVczU3am5aNlJEczNCcUFJWDRHMWlqbkZDcUnSAWBBVV95cUxQREswQ0J6dXgxRkdvcHZ5eGI3N1N3NjdrV1Riam1sV3dPY3pja3ljN3h2VXJiRlZSTGt0cDBfZTN6LTdMUjUzQXFnbjZHSGo0cGR4UkFpS29pRjhyVndMX3U?oc=5",
+      "id": "CBMiW0FVX3lxTFBsTG5YNjE0WHlpZEJFOUFKeHJ4MGllNXdSN1ZtMTNqd285LWdPR0QyZm1PMjIzRWx3M2pod2NPZExVczU3am5aNlJEczNCcUFJWDRHMWlqbkZDcUnSAWBBVV95cUxQREswQ0J6dXgxRkdvcHZ5eGI3N1N3NjdrV1Riam1sV3dPY3pja3ljN3h2VXJiRlZSTGt0cDBfZTN6LTdMUjUzQXFnbjZHSGo0cGR4UkFpS29pRjhyVndMX3U",
+      "guidislink": false,
+      "published": "Mon, 30 May 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        5,
+        30,
+        7,
+        0,
+        0,
+        0,
+        150,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTFBsTG5YNjE0WHlpZEJFOUFKeHJ4MGllNXdSN1ZtMTNqd285LWdPR0QyZm1PMjIzRWx3M2pod2NPZExVczU3am5aNlJEczNCcUFJWDRHMWlqbkZDcUnSAWBBVV95cUxQREswQ0J6dXgxRkdvcHZ5eGI3N1N3NjdrV1Riam1sV3dPY3pja3ljN3h2VXJiRlZSTGt0cDBfZTN6LTdMUjUzQXFnbjZHSGo0cGR4UkFpS29pRjhyVndMX3U?oc=5\" target=\"_blank\">Akiolu wins Reps APC primary</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Sun Nigeria</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTFBsTG5YNjE0WHlpZEJFOUFKeHJ4MGllNXdSN1ZtMTNqd285LWdPR0QyZm1PMjIzRWx3M2pod2NPZExVczU3am5aNlJEczNCcUFJWDRHMWlqbkZDcUnSAWBBVV95cUxQREswQ0J6dXgxRkdvcHZ5eGI3N1N3NjdrV1Riam1sV3dPY3pja3ljN3h2VXJiRlZSTGt0cDBfZTN6LTdMUjUzQXFnbjZHSGo0cGR4UkFpS29pRjhyVndMX3U?oc=5\" target=\"_blank\">Akiolu wins Reps APC primary</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Sun Nigeria</font>"
+      },
+      "source": {
+        "href": "https://thesun.ng",
+        "title": "The Sun Nigeria"
+      },
+      "sub_articles": []
+    }
+  ]
+}

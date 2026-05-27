@@ -1,0 +1,779 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2018-09-14",
+  "window_end": "2018-09-27",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2018-09-14+before%3A2018-09-28&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2018-09-14+before:2018-09-28&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:26:20Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2018-09-14 before:2018-09-28\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2018-09-14 before:2018-09-28\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2018-09-14+before:2018-09-28&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2018-09-14+before:2018-09-28&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:26:20 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      26,
+      20,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Differentiation enhances Zika virus infection of neuronal brain cells - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Differentiation enhances Zika virus infection of neuronal brain cells - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5WbkNXbWZmTFdRMDNQX18tVE1yejM4alA4M0djZFcydjA5R2xsaHNqQ3JLSk5iTC05ZTVZTkJaR3ZFdjJoQ2puSWQ3OFdXMi1DdkY5Q2tua242LTVEdnhV?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5WbkNXbWZmTFdRMDNQX18tVE1yejM4alA4M0djZFcydjA5R2xsaHNqQ3JLSk5iTC05ZTVZTkJaR3ZFdjJoQ2puSWQ3OFdXMi1DdkY5Q2tua242LTVEdnhV?oc=5",
+      "id": "CBMiX0FVX3lxTE5WbkNXbWZmTFdRMDNQX18tVE1yejM4alA4M0djZFcydjA5R2xsaHNqQ3JLSk5iTC05ZTVZTkJaR3ZFdjJoQ2puSWQ3OFdXMi1DdkY5Q2tua242LTVEdnhV",
+      "guidislink": false,
+      "published": "Fri, 28 Sep 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        9,
+        28,
+        7,
+        0,
+        0,
+        4,
+        271,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5WbkNXbWZmTFdRMDNQX18tVE1yejM4alA4M0djZFcydjA5R2xsaHNqQ3JLSk5iTC05ZTVZTkJaR3ZFdjJoQ2puSWQ3OFdXMi1DdkY5Q2tua242LTVEdnhV?oc=5\" target=\"_blank\">Differentiation enhances Zika virus infection of neuronal brain cells</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5WbkNXbWZmTFdRMDNQX18tVE1yejM4alA4M0djZFcydjA5R2xsaHNqQ3JLSk5iTC05ZTVZTkJaR3ZFdjJoQ2puSWQ3OFdXMi1DdkY5Q2tua242LTVEdnhV?oc=5\" target=\"_blank\">Differentiation enhances Zika virus infection of neuronal brain cells</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Treatment of Human Glioblastoma with a Live Attenuated Zika Virus Vaccine Candidate - ASM Journals",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Treatment of Human Glioblastoma with a Live Attenuated Zika Virus Vaccine Candidate - ASM Journals"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5tTVozcGlTS1V4UWRuby1WdFB6Y3VqdmNHNzRQekp4MklvUDRNaXFzUFEycmh3NDJxU1RwN25qRXE5UktRTWtkZlpEbkw0QlV1dU4wdFloQXd5YUtzWWNr?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5tTVozcGlTS1V4UWRuby1WdFB6Y3VqdmNHNzRQekp4MklvUDRNaXFzUFEycmh3NDJxU1RwN25qRXE5UktRTWtkZlpEbkw0QlV1dU4wdFloQXd5YUtzWWNr?oc=5",
+      "id": "CBMiX0FVX3lxTE5tTVozcGlTS1V4UWRuby1WdFB6Y3VqdmNHNzRQekp4MklvUDRNaXFzUFEycmh3NDJxU1RwN25qRXE5UktRTWtkZlpEbkw0QlV1dU4wdFloQXd5YUtzWWNr",
+      "guidislink": false,
+      "published": "Tue, 18 Sep 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        9,
+        18,
+        7,
+        0,
+        0,
+        1,
+        261,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5tTVozcGlTS1V4UWRuby1WdFB6Y3VqdmNHNzRQekp4MklvUDRNaXFzUFEycmh3NDJxU1RwN25qRXE5UktRTWtkZlpEbkw0QlV1dU4wdFloQXd5YUtzWWNr?oc=5\" target=\"_blank\">Treatment of Human Glioblastoma with a Live Attenuated Zika Virus Vaccine Candidate</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ASM Journals</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5tTVozcGlTS1V4UWRuby1WdFB6Y3VqdmNHNzRQekp4MklvUDRNaXFzUFEycmh3NDJxU1RwN25qRXE5UktRTWtkZlpEbkw0QlV1dU4wdFloQXd5YUtzWWNr?oc=5\" target=\"_blank\">Treatment of Human Glioblastoma with a Live Attenuated Zika Virus Vaccine Candidate</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ASM Journals</font>"
+      },
+      "source": {
+        "href": "https://journals.asm.org",
+        "title": "ASM Journals"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Brazil Should Not Forget the Zika Families - Human Rights Watch",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Brazil Should Not Forget the Zika Families - Human Rights Watch"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA1QW1xRVl3aEctSjBVYWtqbW8zRFRwU3N4U0pZMXRlZ09nNEtQQVA3b2E3LTRPN0pvVnpoUDRWdVRYTzRVcVgzc01SYzNxYnNMZnpxNnMzaW5XbF9yRzFrc3FWZWd6NHdlZXpaS3VlOVhTVkRDaTRiV1ZSNXdZQ0U?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA1QW1xRVl3aEctSjBVYWtqbW8zRFRwU3N4U0pZMXRlZ09nNEtQQVA3b2E3LTRPN0pvVnpoUDRWdVRYTzRVcVgzc01SYzNxYnNMZnpxNnMzaW5XbF9yRzFrc3FWZWd6NHdlZXpaS3VlOVhTVkRDaTRiV1ZSNXdZQ0U?oc=5",
+      "id": "CBMif0FVX3lxTFA1QW1xRVl3aEctSjBVYWtqbW8zRFRwU3N4U0pZMXRlZ09nNEtQQVA3b2E3LTRPN0pvVnpoUDRWdVRYTzRVcVgzc01SYzNxYnNMZnpxNnMzaW5XbF9yRzFrc3FWZWd6NHdlZXpaS3VlOVhTVkRDaTRiV1ZSNXdZQ0U",
+      "guidislink": false,
+      "published": "Thu, 27 Sep 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        9,
+        27,
+        7,
+        0,
+        0,
+        3,
+        270,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTFA1QW1xRVl3aEctSjBVYWtqbW8zRFRwU3N4U0pZMXRlZ09nNEtQQVA3b2E3LTRPN0pvVnpoUDRWdVRYTzRVcVgzc01SYzNxYnNMZnpxNnMzaW5XbF9yRzFrc3FWZWd6NHdlZXpaS3VlOVhTVkRDaTRiV1ZSNXdZQ0U?oc=5\" target=\"_blank\">Brazil Should Not Forget the Zika Families</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Human Rights Watch</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTFA1QW1xRVl3aEctSjBVYWtqbW8zRFRwU3N4U0pZMXRlZ09nNEtQQVA3b2E3LTRPN0pvVnpoUDRWdVRYTzRVcVgzc01SYzNxYnNMZnpxNnMzaW5XbF9yRzFrc3FWZWd6NHdlZXpaS3VlOVhTVkRDaTRiV1ZSNXdZQ0U?oc=5\" target=\"_blank\">Brazil Should Not Forget the Zika Families</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Human Rights Watch</font>"
+      },
+      "source": {
+        "href": "https://www.hrw.org",
+        "title": "Human Rights Watch"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Cases of microcephaly in Brazil, 2010–2016. - PLOS",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Cases of microcephaly in Brazil, 2010–2016. - PLOS"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeUlhQ3E2cWxJM081MmVfcTl2UTgyS2pEUXNWS3NqbGJqbFFsWHdSQ1J5UFg5OEppRTNWLTE1Ni1HWWhLY1NsN1hGc1psd1ZjelBiazRRN2dtVkoxaXRlTm1ESlQyRGJob092Y3Z4VUR0dlNESi1MQlQ2aXllamdjUnA4TlVSYWst?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeUlhQ3E2cWxJM081MmVfcTl2UTgyS2pEUXNWS3NqbGJqbFFsWHdSQ1J5UFg5OEppRTNWLTE1Ni1HWWhLY1NsN1hGc1psd1ZjelBiazRRN2dtVkoxaXRlTm1ESlQyRGJob092Y3Z4VUR0dlNESi1MQlQ2aXllamdjUnA4TlVSYWst?oc=5",
+      "id": "CBMiiAFBVV95cUxNeUlhQ3E2cWxJM081MmVfcTl2UTgyS2pEUXNWS3NqbGJqbFFsWHdSQ1J5UFg5OEppRTNWLTE1Ni1HWWhLY1NsN1hGc1psd1ZjelBiazRRN2dtVkoxaXRlTm1ESlQyRGJob092Y3Z4VUR0dlNESi1MQlQ2aXllamdjUnA4TlVSYWst",
+      "guidislink": false,
+      "published": "Sat, 22 Sep 2018 09:38:46 GMT",
+      "published_parsed": [
+        2018,
+        9,
+        22,
+        9,
+        38,
+        46,
+        5,
+        265,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeUlhQ3E2cWxJM081MmVfcTl2UTgyS2pEUXNWS3NqbGJqbFFsWHdSQ1J5UFg5OEppRTNWLTE1Ni1HWWhLY1NsN1hGc1psd1ZjelBiazRRN2dtVkoxaXRlTm1ESlQyRGJob092Y3Z4VUR0dlNESi1MQlQ2aXllamdjUnA4TlVSYWst?oc=5\" target=\"_blank\">Cases of microcephaly in Brazil, 2010–2016.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PLOS</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeUlhQ3E2cWxJM081MmVfcTl2UTgyS2pEUXNWS3NqbGJqbFFsWHdSQ1J5UFg5OEppRTNWLTE1Ni1HWWhLY1NsN1hGc1psd1ZjelBiazRRN2dtVkoxaXRlTm1ESlQyRGJob092Y3Z4VUR0dlNESi1MQlQ2aXllamdjUnA4TlVSYWst?oc=5\" target=\"_blank\">Cases of microcephaly in Brazil, 2010–2016.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PLOS</font>"
+      },
+      "source": {
+        "href": "https://journals.plos.org",
+        "title": "PLOS"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika virus could become a weapon against brain cancer - News-Medical",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika virus could become a weapon against brain cancer - News-Medical"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPYjR1RVVzbUZQeTRyLXRuZGpSS0ZtbmdEZFctX2dfdndueWdHclhQZ2trYkc3X25UbG5oMWFaYm8wMDVseVRuWTRxOXRHUWI4V3AxYUpEaVJqU01jTDZtQ1RTblZtOUxfczRhWFhCRjh2V1pwdlZ1QWlIN1NCel9EVWJzVUFyMzJXa0UzUnl6dnJrd1F4RFVnWlVOWC1kNWNEb0Fz?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPYjR1RVVzbUZQeTRyLXRuZGpSS0ZtbmdEZFctX2dfdndueWdHclhQZ2trYkc3X25UbG5oMWFaYm8wMDVseVRuWTRxOXRHUWI4V3AxYUpEaVJqU01jTDZtQ1RTblZtOUxfczRhWFhCRjh2V1pwdlZ1QWlIN1NCel9EVWJzVUFyMzJXa0UzUnl6dnJrd1F4RFVnWlVOWC1kNWNEb0Fz?oc=5",
+      "id": "CBMiowFBVV95cUxPYjR1RVVzbUZQeTRyLXRuZGpSS0ZtbmdEZFctX2dfdndueWdHclhQZ2trYkc3X25UbG5oMWFaYm8wMDVseVRuWTRxOXRHUWI4V3AxYUpEaVJqU01jTDZtQ1RTblZtOUxfczRhWFhCRjh2V1pwdlZ1QWlIN1NCel9EVWJzVUFyMzJXa0UzUnl6dnJrd1F4RFVnWlVOWC1kNWNEb0Fz",
+      "guidislink": false,
+      "published": "Thu, 20 Sep 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        9,
+        20,
+        7,
+        0,
+        0,
+        3,
+        263,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxPYjR1RVVzbUZQeTRyLXRuZGpSS0ZtbmdEZFctX2dfdndueWdHclhQZ2trYkc3X25UbG5oMWFaYm8wMDVseVRuWTRxOXRHUWI4V3AxYUpEaVJqU01jTDZtQ1RTblZtOUxfczRhWFhCRjh2V1pwdlZ1QWlIN1NCel9EVWJzVUFyMzJXa0UzUnl6dnJrd1F4RFVnWlVOWC1kNWNEb0Fz?oc=5\" target=\"_blank\">Zika virus could become a weapon against brain cancer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">News-Medical</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxPYjR1RVVzbUZQeTRyLXRuZGpSS0ZtbmdEZFctX2dfdndueWdHclhQZ2trYkc3X25UbG5oMWFaYm8wMDVseVRuWTRxOXRHUWI4V3AxYUpEaVJqU01jTDZtQ1RTblZtOUxfczRhWFhCRjh2V1pwdlZ1QWlIN1NCel9EVWJzVUFyMzJXa0UzUnl6dnJrd1F4RFVnWlVOWC1kNWNEb0Fz?oc=5\" target=\"_blank\">Zika virus could become a weapon against brain cancer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">News-Medical</font>"
+      },
+      "source": {
+        "href": "https://www.news-medical.net",
+        "title": "News-Medical"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Scientists used Zika to kill aggressive brain cancer cells in mice - popsci.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Scientists used Zika to kill aggressive brain cancer cells in mice - popsci.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE42ZjBKdm5GWnhsT2RCeG5Jb1k4REEzb0ZVREMta2xiNzAwaXJBVENzbl9UTWZVbVp5OHpKWHJKNk9VaEdITFY3V2dLUF95ZkNUcGRkc2ZQLV9VMVZ5?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE42ZjBKdm5GWnhsT2RCeG5Jb1k4REEzb0ZVREMta2xiNzAwaXJBVENzbl9UTWZVbVp5OHpKWHJKNk9VaEdITFY3V2dLUF95ZkNUcGRkc2ZQLV9VMVZ5?oc=5",
+      "id": "CBMiXEFVX3lxTE42ZjBKdm5GWnhsT2RCeG5Jb1k4REEzb0ZVREMta2xiNzAwaXJBVENzbl9UTWZVbVp5OHpKWHJKNk9VaEdITFY3V2dLUF95ZkNUcGRkc2ZQLV9VMVZ5",
+      "guidislink": false,
+      "published": "Fri, 21 Sep 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        9,
+        21,
+        7,
+        0,
+        0,
+        4,
+        264,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE42ZjBKdm5GWnhsT2RCeG5Jb1k4REEzb0ZVREMta2xiNzAwaXJBVENzbl9UTWZVbVp5OHpKWHJKNk9VaEdITFY3V2dLUF95ZkNUcGRkc2ZQLV9VMVZ5?oc=5\" target=\"_blank\">Scientists used Zika to kill aggressive brain cancer cells in mice</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">popsci.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE42ZjBKdm5GWnhsT2RCeG5Jb1k4REEzb0ZVREMta2xiNzAwaXJBVENzbl9UTWZVbVp5OHpKWHJKNk9VaEdITFY3V2dLUF95ZkNUcGRkc2ZQLV9VMVZ5?oc=5\" target=\"_blank\">Scientists used Zika to kill aggressive brain cancer cells in mice</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">popsci.com</font>"
+      },
+      "source": {
+        "href": "https://www.popsci.com",
+        "title": "popsci.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Our babies are 'little warriors': how love is transforming tragedy in the wake of Brazil's Zika outbreak - The Telegraph",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Our babies are 'little warriors': how love is transforming tragedy in the wake of Brazil's Zika outbreak - The Telegraph"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMF84cDVtWm5ZejZqczhrczVUQW9fT2xRQ1dRSWNMN05rNGdBX0RnVjJITy03azdRd0Q5UXpxa0t4UkJmd05XVFVlNnlQSk1KWnA5VGFuZVVYZ1g5UU8xOS1DdzVrVmc2UFd4RG5YT2N4d01rVW1ycWNSWmYzWEEwb2Q4dU5vYk9RbFBwR1I5NE0yX2hUOU5TQXREYzJXd3JzNXd4U09XWWFCeWNqSTVkQ3J4TlRhU2JFR3h1UU1scXIydw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMF84cDVtWm5ZejZqczhrczVUQW9fT2xRQ1dRSWNMN05rNGdBX0RnVjJITy03azdRd0Q5UXpxa0t4UkJmd05XVFVlNnlQSk1KWnA5VGFuZVVYZ1g5UU8xOS1DdzVrVmc2UFd4RG5YT2N4d01rVW1ycWNSWmYzWEEwb2Q4dU5vYk9RbFBwR1I5NE0yX2hUOU5TQXREYzJXd3JzNXd4U09XWWFCeWNqSTVkQ3J4TlRhU2JFR3h1UU1scXIydw?oc=5",
+      "id": "CBMiwgFBVV95cUxPMF84cDVtWm5ZejZqczhrczVUQW9fT2xRQ1dRSWNMN05rNGdBX0RnVjJITy03azdRd0Q5UXpxa0t4UkJmd05XVFVlNnlQSk1KWnA5VGFuZVVYZ1g5UU8xOS1DdzVrVmc2UFd4RG5YT2N4d01rVW1ycWNSWmYzWEEwb2Q4dU5vYk9RbFBwR1I5NE0yX2hUOU5TQXREYzJXd3JzNXd4U09XWWFCeWNqSTVkQ3J4TlRhU2JFR3h1UU1scXIydw",
+      "guidislink": false,
+      "published": "Tue, 18 Sep 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        9,
+        18,
+        7,
+        0,
+        0,
+        1,
+        261,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMF84cDVtWm5ZejZqczhrczVUQW9fT2xRQ1dRSWNMN05rNGdBX0RnVjJITy03azdRd0Q5UXpxa0t4UkJmd05XVFVlNnlQSk1KWnA5VGFuZVVYZ1g5UU8xOS1DdzVrVmc2UFd4RG5YT2N4d01rVW1ycWNSWmYzWEEwb2Q4dU5vYk9RbFBwR1I5NE0yX2hUOU5TQXREYzJXd3JzNXd4U09XWWFCeWNqSTVkQ3J4TlRhU2JFR3h1UU1scXIydw?oc=5\" target=\"_blank\">Our babies are 'little warriors': how love is transforming tragedy in the wake of Brazil's Zika outbreak</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Telegraph</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMF84cDVtWm5ZejZqczhrczVUQW9fT2xRQ1dRSWNMN05rNGdBX0RnVjJITy03azdRd0Q5UXpxa0t4UkJmd05XVFVlNnlQSk1KWnA5VGFuZVVYZ1g5UU8xOS1DdzVrVmc2UFd4RG5YT2N4d01rVW1ycWNSWmYzWEEwb2Q4dU5vYk9RbFBwR1I5NE0yX2hUOU5TQXREYzJXd3JzNXd4U09XWWFCeWNqSTVkQ3J4TlRhU2JFR3h1UU1scXIydw?oc=5\" target=\"_blank\">Our babies are 'little warriors': how love is transforming tragedy in the wake of Brazil's Zika outbreak</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Telegraph</font>"
+      },
+      "source": {
+        "href": "https://www.telegraph.co.uk",
+        "title": "The Telegraph"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "The Association Between Zika and Microcephaly in Vietnam - amed.go.jp",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "The Association Between Zika and Microcephaly in Vietnam - amed.go.jp"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5SMmdUVFFHNWdINE96cHdWTGtFM1pHUkp3MFhUNC1HVHpkUkZ6QTI3YVQ1blNWaVBicU13LUZJdW1hTHgtZ0lVNkh5WnJBOWhrS2NDRV9SX2FyUQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5SMmdUVFFHNWdINE96cHdWTGtFM1pHUkp3MFhUNC1HVHpkUkZ6QTI3YVQ1blNWaVBicU13LUZJdW1hTHgtZ0lVNkh5WnJBOWhrS2NDRV9SX2FyUQ?oc=5",
+      "id": "CBMiWkFVX3lxTE5SMmdUVFFHNWdINE96cHdWTGtFM1pHUkp3MFhUNC1HVHpkUkZ6QTI3YVQ1blNWaVBicU13LUZJdW1hTHgtZ0lVNkh5WnJBOWhrS2NDRV9SX2FyUQ",
+      "guidislink": false,
+      "published": "Thu, 20 Sep 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        9,
+        20,
+        7,
+        0,
+        0,
+        3,
+        263,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE5SMmdUVFFHNWdINE96cHdWTGtFM1pHUkp3MFhUNC1HVHpkUkZ6QTI3YVQ1blNWaVBicU13LUZJdW1hTHgtZ0lVNkh5WnJBOWhrS2NDRV9SX2FyUQ?oc=5\" target=\"_blank\">The Association Between Zika and Microcephaly in Vietnam</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">amed.go.jp</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE5SMmdUVFFHNWdINE96cHdWTGtFM1pHUkp3MFhUNC1HVHpkUkZ6QTI3YVQ1blNWaVBicU13LUZJdW1hTHgtZ0lVNkh5WnJBOWhrS2NDRV9SX2FyUQ?oc=5\" target=\"_blank\">The Association Between Zika and Microcephaly in Vietnam</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">amed.go.jp</font>"
+      },
+      "source": {
+        "href": "https://www.amed.go.jp",
+        "title": "amed.go.jp"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Yale athlete overcomes injury to help Puerto Rican team win bronze - YaleNews",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Yale athlete overcomes injury to help Puerto Rican team win bronze - YaleNews"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdmt3eGVHSnEtbXY5VmFuZVcxaFUzcTEyT2NSRUdWeHc1YU55U0sxZzBBcnFuWkxqWmZRVHI3akZ6OVY5NXF2c2JhZ19mSnF4bk11Zzk0dzZ2dmxuMWZ4aDY4Vll4TFE5TDU1UDBfMUEyUXdfZW1sODA2OUhmdVdtRExzQVVOZGFPQVZ5Z1d4Ri0xd3pUYWV6SlQyVDI?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdmt3eGVHSnEtbXY5VmFuZVcxaFUzcTEyT2NSRUdWeHc1YU55U0sxZzBBcnFuWkxqWmZRVHI3akZ6OVY5NXF2c2JhZ19mSnF4bk11Zzk0dzZ2dmxuMWZ4aDY4Vll4TFE5TDU1UDBfMUEyUXdfZW1sODA2OUhmdVdtRExzQVVOZGFPQVZ5Z1d4Ri0xd3pUYWV6SlQyVDI?oc=5",
+      "id": "CBMinAFBVV95cUxPdmt3eGVHSnEtbXY5VmFuZVcxaFUzcTEyT2NSRUdWeHc1YU55U0sxZzBBcnFuWkxqWmZRVHI3akZ6OVY5NXF2c2JhZ19mSnF4bk11Zzk0dzZ2dmxuMWZ4aDY4Vll4TFE5TDU1UDBfMUEyUXdfZW1sODA2OUhmdVdtRExzQVVOZGFPQVZ5Z1d4Ri0xd3pUYWV6SlQyVDI",
+      "guidislink": false,
+      "published": "Tue, 18 Sep 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        9,
+        18,
+        7,
+        0,
+        0,
+        1,
+        261,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxPdmt3eGVHSnEtbXY5VmFuZVcxaFUzcTEyT2NSRUdWeHc1YU55U0sxZzBBcnFuWkxqWmZRVHI3akZ6OVY5NXF2c2JhZ19mSnF4bk11Zzk0dzZ2dmxuMWZ4aDY4Vll4TFE5TDU1UDBfMUEyUXdfZW1sODA2OUhmdVdtRExzQVVOZGFPQVZ5Z1d4Ri0xd3pUYWV6SlQyVDI?oc=5\" target=\"_blank\">Yale athlete overcomes injury to help Puerto Rican team win bronze</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">YaleNews</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxPdmt3eGVHSnEtbXY5VmFuZVcxaFUzcTEyT2NSRUdWeHc1YU55U0sxZzBBcnFuWkxqWmZRVHI3akZ6OVY5NXF2c2JhZ19mSnF4bk11Zzk0dzZ2dmxuMWZ4aDY4Vll4TFE5TDU1UDBfMUEyUXdfZW1sODA2OUhmdVdtRExzQVVOZGFPQVZ5Z1d4Ri0xd3pUYWV6SlQyVDI?oc=5\" target=\"_blank\">Yale athlete overcomes injury to help Puerto Rican team win bronze</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">YaleNews</font>"
+      },
+      "source": {
+        "href": "https://news.yale.edu",
+        "title": "YaleNews"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "People Need To Stop Jumping To Conclusions About Meghan Markle’s Pregnancy And Zika Virus - ELLE",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "People Need To Stop Jumping To Conclusions About Meghan Markle’s Pregnancy And Zika Virus - ELLE"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeVhjU19LUUJ5YkNhZnBRcURxZXV4RkZ1cC1WMGRYbS1ndHEza0JfTGdOLW5VWERySm1KbkhFZUl3LVBpaW5lMmlvSXhPdFlBZEJQaWRBX1dTQWZpcTgtYVhQb2xWcUNOT2dpbUMxdHEyYzZBcTlDd2M2aFVFN1ZaRWE1VWFjWHFZZjJRbHE1eHhNMVA2OTgycXlqZ3QtWWhXcTlqSHpR?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeVhjU19LUUJ5YkNhZnBRcURxZXV4RkZ1cC1WMGRYbS1ndHEza0JfTGdOLW5VWERySm1KbkhFZUl3LVBpaW5lMmlvSXhPdFlBZEJQaWRBX1dTQWZpcTgtYVhQb2xWcUNOT2dpbUMxdHEyYzZBcTlDd2M2aFVFN1ZaRWE1VWFjWHFZZjJRbHE1eHhNMVA2OTgycXlqZ3QtWWhXcTlqSHpR?oc=5",
+      "id": "CBMipgFBVV95cUxOeVhjU19LUUJ5YkNhZnBRcURxZXV4RkZ1cC1WMGRYbS1ndHEza0JfTGdOLW5VWERySm1KbkhFZUl3LVBpaW5lMmlvSXhPdFlBZEJQaWRBX1dTQWZpcTgtYVhQb2xWcUNOT2dpbUMxdHEyYzZBcTlDd2M2aFVFN1ZaRWE1VWFjWHFZZjJRbHE1eHhNMVA2OTgycXlqZ3QtWWhXcTlqSHpR",
+      "guidislink": false,
+      "published": "Fri, 14 Sep 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        9,
+        14,
+        7,
+        0,
+        0,
+        4,
+        257,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxOeVhjU19LUUJ5YkNhZnBRcURxZXV4RkZ1cC1WMGRYbS1ndHEza0JfTGdOLW5VWERySm1KbkhFZUl3LVBpaW5lMmlvSXhPdFlBZEJQaWRBX1dTQWZpcTgtYVhQb2xWcUNOT2dpbUMxdHEyYzZBcTlDd2M2aFVFN1ZaRWE1VWFjWHFZZjJRbHE1eHhNMVA2OTgycXlqZ3QtWWhXcTlqSHpR?oc=5\" target=\"_blank\">People Need To Stop Jumping To Conclusions About Meghan Markle’s Pregnancy And Zika Virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ELLE</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxOeVhjU19LUUJ5YkNhZnBRcURxZXV4RkZ1cC1WMGRYbS1ndHEza0JfTGdOLW5VWERySm1KbkhFZUl3LVBpaW5lMmlvSXhPdFlBZEJQaWRBX1dTQWZpcTgtYVhQb2xWcUNOT2dpbUMxdHEyYzZBcTlDd2M2aFVFN1ZaRWE1VWFjWHFZZjJRbHE1eHhNMVA2OTgycXlqZ3QtWWhXcTlqSHpR?oc=5\" target=\"_blank\">People Need To Stop Jumping To Conclusions About Meghan Markle’s Pregnancy And Zika Virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ELLE</font>"
+      },
+      "source": {
+        "href": "https://www.elle.com",
+        "title": "ELLE"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Device could detect mosquito species common for disease - The Tuscaloosa News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Device could detect mosquito species common for disease - The Tuscaloosa News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNTENWSGhTMDg0NTlRQ3V0c2RyTTBDRndoZ002MkdncnhOa3ppQmJzUEZFMi01S1k1OUlMT293QVg4Vzk4dWlVcGRDYlR5RUhvX1NsZFpKbUwwam12aDIwZFR0dmNhempBbzdmT01qVE9TYVRQdXpHZE5CakdsVEpldEszcGp2dVRoMVA3aUh6WGNWM3d5RTU2LXlDQzVwRGVleUdPbE44S1RwbTZobHVRMTlDSzZXQ3RJWkZiWXBPVUVxWWp1T1VCU0FDdHh1U0FZOTRlR25qdUxOcDRqOXpTSEZtcw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNTENWSGhTMDg0NTlRQ3V0c2RyTTBDRndoZ002MkdncnhOa3ppQmJzUEZFMi01S1k1OUlMT293QVg4Vzk4dWlVcGRDYlR5RUhvX1NsZFpKbUwwam12aDIwZFR0dmNhempBbzdmT01qVE9TYVRQdXpHZE5CakdsVEpldEszcGp2dVRoMVA3aUh6WGNWM3d5RTU2LXlDQzVwRGVleUdPbE44S1RwbTZobHVRMTlDSzZXQ3RJWkZiWXBPVUVxWWp1T1VCU0FDdHh1U0FZOTRlR25qdUxOcDRqOXpTSEZtcw?oc=5",
+      "id": "CBMi4wFBVV95cUxNTENWSGhTMDg0NTlRQ3V0c2RyTTBDRndoZ002MkdncnhOa3ppQmJzUEZFMi01S1k1OUlMT293QVg4Vzk4dWlVcGRDYlR5RUhvX1NsZFpKbUwwam12aDIwZFR0dmNhempBbzdmT01qVE9TYVRQdXpHZE5CakdsVEpldEszcGp2dVRoMVA3aUh6WGNWM3d5RTU2LXlDQzVwRGVleUdPbE44S1RwbTZobHVRMTlDSzZXQ3RJWkZiWXBPVUVxWWp1T1VCU0FDdHh1U0FZOTRlR25qdUxOcDRqOXpTSEZtcw",
+      "guidislink": false,
+      "published": "Wed, 26 Sep 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        9,
+        26,
+        7,
+        0,
+        0,
+        2,
+        269,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi4wFBVV95cUxNTENWSGhTMDg0NTlRQ3V0c2RyTTBDRndoZ002MkdncnhOa3ppQmJzUEZFMi01S1k1OUlMT293QVg4Vzk4dWlVcGRDYlR5RUhvX1NsZFpKbUwwam12aDIwZFR0dmNhempBbzdmT01qVE9TYVRQdXpHZE5CakdsVEpldEszcGp2dVRoMVA3aUh6WGNWM3d5RTU2LXlDQzVwRGVleUdPbE44S1RwbTZobHVRMTlDSzZXQ3RJWkZiWXBPVUVxWWp1T1VCU0FDdHh1U0FZOTRlR25qdUxOcDRqOXpTSEZtcw?oc=5\" target=\"_blank\">Device could detect mosquito species common for disease</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Tuscaloosa News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi4wFBVV95cUxNTENWSGhTMDg0NTlRQ3V0c2RyTTBDRndoZ002MkdncnhOa3ppQmJzUEZFMi01S1k1OUlMT293QVg4Vzk4dWlVcGRDYlR5RUhvX1NsZFpKbUwwam12aDIwZFR0dmNhempBbzdmT01qVE9TYVRQdXpHZE5CakdsVEpldEszcGp2dVRoMVA3aUh6WGNWM3d5RTU2LXlDQzVwRGVleUdPbE44S1RwbTZobHVRMTlDSzZXQ3RJWkZiWXBPVUVxWWp1T1VCU0FDdHh1U0FZOTRlR25qdUxOcDRqOXpTSEZtcw?oc=5\" target=\"_blank\">Device could detect mosquito species common for disease</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Tuscaloosa News</font>"
+      },
+      "source": {
+        "href": "https://www.tuscaloosanews.com",
+        "title": "The Tuscaloosa News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Cross-faculty collaboration leads to development of new antiviral compound - thegatewayonline.ca",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Cross-faculty collaboration leads to development of new antiviral compound - thegatewayonline.ca"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQ2hTQ3NJeEhtTUZJTTBJY3YzWncwMWprOHMyajh2dzYtdFVhRVlDT295aE4yQlIwWk94SWprSnAtUmdKRmpKSVNhOVJQNVhSMXhUN0lkNDlYVFFRdHNkS2dOVEVPVTVlOGdTUXROZllCQmVaUUZUSzFiYjFDeFQ2T1BMMnV5eFJkTjR1bVU2U1VHd2hZSWpmdHpXeTMyVXRhX3o5NkZnUWp0TVN4NjZzYw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQ2hTQ3NJeEhtTUZJTTBJY3YzWncwMWprOHMyajh2dzYtdFVhRVlDT295aE4yQlIwWk94SWprSnAtUmdKRmpKSVNhOVJQNVhSMXhUN0lkNDlYVFFRdHNkS2dOVEVPVTVlOGdTUXROZllCQmVaUUZUSzFiYjFDeFQ2T1BMMnV5eFJkTjR1bVU2U1VHd2hZSWpmdHpXeTMyVXRhX3o5NkZnUWp0TVN4NjZzYw?oc=5",
+      "id": "CBMisAFBVV95cUxPQ2hTQ3NJeEhtTUZJTTBJY3YzWncwMWprOHMyajh2dzYtdFVhRVlDT295aE4yQlIwWk94SWprSnAtUmdKRmpKSVNhOVJQNVhSMXhUN0lkNDlYVFFRdHNkS2dOVEVPVTVlOGdTUXROZllCQmVaUUZUSzFiYjFDeFQ2T1BMMnV5eFJkTjR1bVU2U1VHd2hZSWpmdHpXeTMyVXRhX3o5NkZnUWp0TVN4NjZzYw",
+      "guidislink": false,
+      "published": "Tue, 25 Sep 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        9,
+        25,
+        7,
+        0,
+        0,
+        1,
+        268,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPQ2hTQ3NJeEhtTUZJTTBJY3YzWncwMWprOHMyajh2dzYtdFVhRVlDT295aE4yQlIwWk94SWprSnAtUmdKRmpKSVNhOVJQNVhSMXhUN0lkNDlYVFFRdHNkS2dOVEVPVTVlOGdTUXROZllCQmVaUUZUSzFiYjFDeFQ2T1BMMnV5eFJkTjR1bVU2U1VHd2hZSWpmdHpXeTMyVXRhX3o5NkZnUWp0TVN4NjZzYw?oc=5\" target=\"_blank\">Cross-faculty collaboration leads to development of new antiviral compound</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">thegatewayonline.ca</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPQ2hTQ3NJeEhtTUZJTTBJY3YzWncwMWprOHMyajh2dzYtdFVhRVlDT295aE4yQlIwWk94SWprSnAtUmdKRmpKSVNhOVJQNVhSMXhUN0lkNDlYVFFRdHNkS2dOVEVPVTVlOGdTUXROZllCQmVaUUZUSzFiYjFDeFQ2T1BMMnV5eFJkTjR1bVU2U1VHd2hZSWpmdHpXeTMyVXRhX3o5NkZnUWp0TVN4NjZzYw?oc=5\" target=\"_blank\">Cross-faculty collaboration leads to development of new antiviral compound</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">thegatewayonline.ca</font>"
+      },
+      "source": {
+        "href": "https://thegatewayonline.ca",
+        "title": "thegatewayonline.ca"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika: UAE travellers warned to take precautions against mosquito bites - Gulf News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika: UAE travellers warned to take precautions against mosquito bites - Gulf News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQam1CUVV6SkZkMU5XTkZPajZXZTZoeWh3eTcwcG9fS2dtcThPUlJNSjgxNFhsdkZKZEtuc3BscDdReHlTUFVESkw5MTVUUTFrcGp3UWdHQms4VmxxSnV6X0hYa0p5b19FYUp6R285Z1hkSWh4WVlkSXNyOVFZS21DaFFZOXAtVGtHYS1XNWhueVdHWjctNk1ESk5icHZwanZqbUZhMkpCb19KNHZ5QVUwONIBwwFBVV95cUxNMHJaaEZTUWxxb0RrdGhoTzFJa2NfY0dMRUg4TEhKWGpjcVdrdV9KaHlRMXVFMVcyTjZkeU5DY3ZveWg3MS1RNjdvekR2eXVKYk54UkZlRW1CLXV5bzVtUnRaY3FkWW45aE1PMGI0VjJpUWtLUmxiLTcwbjc2WHdJYVBoVjdUc0FvS0VHQ2VlXzE1RE51dTJ4c0NMZ1NOeC1MdEYyTUx5dFV2am80SF93QXAtSW0xcGJKcGlDQVhRTDYwdms?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQam1CUVV6SkZkMU5XTkZPajZXZTZoeWh3eTcwcG9fS2dtcThPUlJNSjgxNFhsdkZKZEtuc3BscDdReHlTUFVESkw5MTVUUTFrcGp3UWdHQms4VmxxSnV6X0hYa0p5b19FYUp6R285Z1hkSWh4WVlkSXNyOVFZS21DaFFZOXAtVGtHYS1XNWhueVdHWjctNk1ESk5icHZwanZqbUZhMkpCb19KNHZ5QVUwONIBwwFBVV95cUxNMHJaaEZTUWxxb0RrdGhoTzFJa2NfY0dMRUg4TEhKWGpjcVdrdV9KaHlRMXVFMVcyTjZkeU5DY3ZveWg3MS1RNjdvekR2eXVKYk54UkZlRW1CLXV5bzVtUnRaY3FkWW45aE1PMGI0VjJpUWtLUmxiLTcwbjc2WHdJYVBoVjdUc0FvS0VHQ2VlXzE1RE51dTJ4c0NMZ1NOeC1MdEYyTUx5dFV2am80SF93QXAtSW0xcGJKcGlDQVhRTDYwdms?oc=5",
+      "id": "CBMisAFBVV95cUxQam1CUVV6SkZkMU5XTkZPajZXZTZoeWh3eTcwcG9fS2dtcThPUlJNSjgxNFhsdkZKZEtuc3BscDdReHlTUFVESkw5MTVUUTFrcGp3UWdHQms4VmxxSnV6X0hYa0p5b19FYUp6R285Z1hkSWh4WVlkSXNyOVFZS21DaFFZOXAtVGtHYS1XNWhueVdHWjctNk1ESk5icHZwanZqbUZhMkpCb19KNHZ5QVUwONIBwwFBVV95cUxNMHJaaEZTUWxxb0RrdGhoTzFJa2NfY0dMRUg4TEhKWGpjcVdrdV9KaHlRMXVFMVcyTjZkeU5DY3ZveWg3MS1RNjdvekR2eXVKYk54UkZlRW1CLXV5bzVtUnRaY3FkWW45aE1PMGI0VjJpUWtLUmxiLTcwbjc2WHdJYVBoVjdUc0FvS0VHQ2VlXzE1RE51dTJ4c0NMZ1NOeC1MdEYyTUx5dFV2am80SF93QXAtSW0xcGJKcGlDQVhRTDYwdms",
+      "guidislink": false,
+      "published": "Sat, 15 Sep 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        9,
+        15,
+        7,
+        0,
+        0,
+        5,
+        258,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQam1CUVV6SkZkMU5XTkZPajZXZTZoeWh3eTcwcG9fS2dtcThPUlJNSjgxNFhsdkZKZEtuc3BscDdReHlTUFVESkw5MTVUUTFrcGp3UWdHQms4VmxxSnV6X0hYa0p5b19FYUp6R285Z1hkSWh4WVlkSXNyOVFZS21DaFFZOXAtVGtHYS1XNWhueVdHWjctNk1ESk5icHZwanZqbUZhMkpCb19KNHZ5QVUwONIBwwFBVV95cUxNMHJaaEZTUWxxb0RrdGhoTzFJa2NfY0dMRUg4TEhKWGpjcVdrdV9KaHlRMXVFMVcyTjZkeU5DY3ZveWg3MS1RNjdvekR2eXVKYk54UkZlRW1CLXV5bzVtUnRaY3FkWW45aE1PMGI0VjJpUWtLUmxiLTcwbjc2WHdJYVBoVjdUc0FvS0VHQ2VlXzE1RE51dTJ4c0NMZ1NOeC1MdEYyTUx5dFV2am80SF93QXAtSW0xcGJKcGlDQVhRTDYwdms?oc=5\" target=\"_blank\">Zika: UAE travellers warned to take precautions against mosquito bites</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Gulf News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQam1CUVV6SkZkMU5XTkZPajZXZTZoeWh3eTcwcG9fS2dtcThPUlJNSjgxNFhsdkZKZEtuc3BscDdReHlTUFVESkw5MTVUUTFrcGp3UWdHQms4VmxxSnV6X0hYa0p5b19FYUp6R285Z1hkSWh4WVlkSXNyOVFZS21DaFFZOXAtVGtHYS1XNWhueVdHWjctNk1ESk5icHZwanZqbUZhMkpCb19KNHZ5QVUwONIBwwFBVV95cUxNMHJaaEZTUWxxb0RrdGhoTzFJa2NfY0dMRUg4TEhKWGpjcVdrdV9KaHlRMXVFMVcyTjZkeU5DY3ZveWg3MS1RNjdvekR2eXVKYk54UkZlRW1CLXV5bzVtUnRaY3FkWW45aE1PMGI0VjJpUWtLUmxiLTcwbjc2WHdJYVBoVjdUc0FvS0VHQ2VlXzE1RE51dTJ4c0NMZ1NOeC1MdEYyTUx5dFV2am80SF93QXAtSW0xcGJKcGlDQVhRTDYwdms?oc=5\" target=\"_blank\">Zika: UAE travellers warned to take precautions against mosquito bites</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Gulf News</font>"
+      },
+      "source": {
+        "href": "https://gulfnews.com",
+        "title": "Gulf News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Pregnant (or planning) and travelling? Here's what you should consider - SMH.com.au",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Pregnant (or planning) and travelling? Here's what you should consider - SMH.com.au"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYnlyQk9WcVlwcW5VVWZHR2dIdE5HLU1ZT1pwZkxUTFNYdWFPMHdqMG9jVzladWowS2NiMUl3bFp3UW1BTTZKOXZiaGI0LTlYZndVbnYxNGJRd3h0YjJob096OVZRZ3QySFRoUFlqc25xc2RJbGJ0cVFPODJKUWhFNkpmdlBfeWdZRjBYcWFmTUdMWkVFZVNEd1RQOXdZNkd0dDVYem1HT291MnZOZDZldU5PcDVudF9iUTJseDdYMnlsWDkzamJ6X3k2U2prYU1yaFZWeDZfaVc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYnlyQk9WcVlwcW5VVWZHR2dIdE5HLU1ZT1pwZkxUTFNYdWFPMHdqMG9jVzladWowS2NiMUl3bFp3UW1BTTZKOXZiaGI0LTlYZndVbnYxNGJRd3h0YjJob096OVZRZ3QySFRoUFlqc25xc2RJbGJ0cVFPODJKUWhFNkpmdlBfeWdZRjBYcWFmTUdMWkVFZVNEd1RQOXdZNkd0dDVYem1HT291MnZOZDZldU5PcDVudF9iUTJseDdYMnlsWDkzamJ6X3k2U2prYU1yaFZWeDZfaVc?oc=5",
+      "id": "CBMi2AFBVV95cUxNYnlyQk9WcVlwcW5VVWZHR2dIdE5HLU1ZT1pwZkxUTFNYdWFPMHdqMG9jVzladWowS2NiMUl3bFp3UW1BTTZKOXZiaGI0LTlYZndVbnYxNGJRd3h0YjJob096OVZRZ3QySFRoUFlqc25xc2RJbGJ0cVFPODJKUWhFNkpmdlBfeWdZRjBYcWFmTUdMWkVFZVNEd1RQOXdZNkd0dDVYem1HT291MnZOZDZldU5PcDVudF9iUTJseDdYMnlsWDkzamJ6X3k2U2prYU1yaFZWeDZfaVc",
+      "guidislink": false,
+      "published": "Fri, 28 Sep 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        9,
+        28,
+        7,
+        0,
+        0,
+        4,
+        271,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYnlyQk9WcVlwcW5VVWZHR2dIdE5HLU1ZT1pwZkxUTFNYdWFPMHdqMG9jVzladWowS2NiMUl3bFp3UW1BTTZKOXZiaGI0LTlYZndVbnYxNGJRd3h0YjJob096OVZRZ3QySFRoUFlqc25xc2RJbGJ0cVFPODJKUWhFNkpmdlBfeWdZRjBYcWFmTUdMWkVFZVNEd1RQOXdZNkd0dDVYem1HT291MnZOZDZldU5PcDVudF9iUTJseDdYMnlsWDkzamJ6X3k2U2prYU1yaFZWeDZfaVc?oc=5\" target=\"_blank\">Pregnant (or planning) and travelling? Here's what you should consider</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SMH.com.au</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYnlyQk9WcVlwcW5VVWZHR2dIdE5HLU1ZT1pwZkxUTFNYdWFPMHdqMG9jVzladWowS2NiMUl3bFp3UW1BTTZKOXZiaGI0LTlYZndVbnYxNGJRd3h0YjJob096OVZRZ3QySFRoUFlqc25xc2RJbGJ0cVFPODJKUWhFNkpmdlBfeWdZRjBYcWFmTUdMWkVFZVNEd1RQOXdZNkd0dDVYem1HT291MnZOZDZldU5PcDVudF9iUTJseDdYMnlsWDkzamJ6X3k2U2prYU1yaFZWeDZfaVc?oc=5\" target=\"_blank\">Pregnant (or planning) and travelling? Here's what you should consider</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SMH.com.au</font>"
+      },
+      "source": {
+        "href": "https://www.smh.com.au",
+        "title": "SMH.com.au"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Mosquito carrying Zika virus not present in UAE, says ministry - Gulf News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Mosquito carrying Zika virus not present in UAE, says ministry - Gulf News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSnFHRkhTRHYwM1JuVjMzcEVGenM5dTR5aE12WTAwVGUtNTBEaEtOc1AwQ0YtQXdjTkpITUN0WU9UQjN6NGhfZ1kweDl6aUVXam9pR3JES3d6VnJtSVdvTkJVdWJmNlotMTV6bzhtdGIwTWJzdUY1anhrTDJFSjdyOTNFZHU2bGl4YUJLVWJqX19CQXFOLUJUMjdRUk94NFVZdXI1NHBR0gG4AUFVX3lxTE5wbXljRmVkekJDbzU3OFduaWM1Z1hFNk1lYlE2SUxibWZxQUIwMUttNlQ0VG5ZR2NsMF83RWxCQ0M3QVVZQ1FPcExMM2Z6Q2I4SHUzS1dqV2N2V2k0RXVZQWthalZBNldXRVd5VC1kdF9zNW9JQ2ExTEk0aDItaUtyQ2lBaTl3ZUJWcTJ6OW1rUW9PXzhtYmMyaWlmdFphNjZ6b1pRYUNVc3ZaVUpoUUpkSEo4OHlDQWY?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSnFHRkhTRHYwM1JuVjMzcEVGenM5dTR5aE12WTAwVGUtNTBEaEtOc1AwQ0YtQXdjTkpITUN0WU9UQjN6NGhfZ1kweDl6aUVXam9pR3JES3d6VnJtSVdvTkJVdWJmNlotMTV6bzhtdGIwTWJzdUY1anhrTDJFSjdyOTNFZHU2bGl4YUJLVWJqX19CQXFOLUJUMjdRUk94NFVZdXI1NHBR0gG4AUFVX3lxTE5wbXljRmVkekJDbzU3OFduaWM1Z1hFNk1lYlE2SUxibWZxQUIwMUttNlQ0VG5ZR2NsMF83RWxCQ0M3QVVZQ1FPcExMM2Z6Q2I4SHUzS1dqV2N2V2k0RXVZQWthalZBNldXRVd5VC1kdF9zNW9JQ2ExTEk0aDItaUtyQ2lBaTl3ZUJWcTJ6OW1rUW9PXzhtYmMyaWlmdFphNjZ6b1pRYUNVc3ZaVUpoUUpkSEo4OHlDQWY?oc=5",
+      "id": "CBMipgFBVV95cUxNSnFHRkhTRHYwM1JuVjMzcEVGenM5dTR5aE12WTAwVGUtNTBEaEtOc1AwQ0YtQXdjTkpITUN0WU9UQjN6NGhfZ1kweDl6aUVXam9pR3JES3d6VnJtSVdvTkJVdWJmNlotMTV6bzhtdGIwTWJzdUY1anhrTDJFSjdyOTNFZHU2bGl4YUJLVWJqX19CQXFOLUJUMjdRUk94NFVZdXI1NHBR0gG4AUFVX3lxTE5wbXljRmVkekJDbzU3OFduaWM1Z1hFNk1lYlE2SUxibWZxQUIwMUttNlQ0VG5ZR2NsMF83RWxCQ0M3QVVZQ1FPcExMM2Z6Q2I4SHUzS1dqV2N2V2k0RXVZQWthalZBNldXRVd5VC1kdF9zNW9JQ2ExTEk0aDItaUtyQ2lBaTl3ZUJWcTJ6OW1rUW9PXzhtYmMyaWlmdFphNjZ6b1pRYUNVc3ZaVUpoUUpkSEo4OHlDQWY",
+      "guidislink": false,
+      "published": "Sat, 15 Sep 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        9,
+        15,
+        7,
+        0,
+        0,
+        5,
+        258,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxNSnFHRkhTRHYwM1JuVjMzcEVGenM5dTR5aE12WTAwVGUtNTBEaEtOc1AwQ0YtQXdjTkpITUN0WU9UQjN6NGhfZ1kweDl6aUVXam9pR3JES3d6VnJtSVdvTkJVdWJmNlotMTV6bzhtdGIwTWJzdUY1anhrTDJFSjdyOTNFZHU2bGl4YUJLVWJqX19CQXFOLUJUMjdRUk94NFVZdXI1NHBR0gG4AUFVX3lxTE5wbXljRmVkekJDbzU3OFduaWM1Z1hFNk1lYlE2SUxibWZxQUIwMUttNlQ0VG5ZR2NsMF83RWxCQ0M3QVVZQ1FPcExMM2Z6Q2I4SHUzS1dqV2N2V2k0RXVZQWthalZBNldXRVd5VC1kdF9zNW9JQ2ExTEk0aDItaUtyQ2lBaTl3ZUJWcTJ6OW1rUW9PXzhtYmMyaWlmdFphNjZ6b1pRYUNVc3ZaVUpoUUpkSEo4OHlDQWY?oc=5\" target=\"_blank\">Mosquito carrying Zika virus not present in UAE, says ministry</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Gulf News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxNSnFHRkhTRHYwM1JuVjMzcEVGenM5dTR5aE12WTAwVGUtNTBEaEtOc1AwQ0YtQXdjTkpITUN0WU9UQjN6NGhfZ1kweDl6aUVXam9pR3JES3d6VnJtSVdvTkJVdWJmNlotMTV6bzhtdGIwTWJzdUY1anhrTDJFSjdyOTNFZHU2bGl4YUJLVWJqX19CQXFOLUJUMjdRUk94NFVZdXI1NHBR0gG4AUFVX3lxTE5wbXljRmVkekJDbzU3OFduaWM1Z1hFNk1lYlE2SUxibWZxQUIwMUttNlQ0VG5ZR2NsMF83RWxCQ0M3QVVZQ1FPcExMM2Z6Q2I4SHUzS1dqV2N2V2k0RXVZQWthalZBNldXRVd5VC1kdF9zNW9JQ2ExTEk0aDItaUtyQ2lBaTl3ZUJWcTJ6OW1rUW9PXzhtYmMyaWlmdFphNjZ6b1pRYUNVc3ZaVUpoUUpkSEo4OHlDQWY?oc=5\" target=\"_blank\">Mosquito carrying Zika virus not present in UAE, says ministry</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Gulf News</font>"
+      },
+      "source": {
+        "href": "https://gulfnews.com",
+        "title": "Gulf News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Meet Daryle Koltay, a 19-year-old sufferer of microcephaly - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Meet Daryle Koltay, a 19-year-old sufferer of microcephaly - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWXhhMGp3eXI2MVlXWXlyRktiN3JuNkR4RkR2WnZRcjZhUGJ6WmRqSlJkd1lNWmdWSV9TTzY4UGRyNVBEQVBJeXcwaFhoTTNVcV9kNEF0RDNKZzF2NzVleTRNUEk3YXF1RkJqMlE2emVyVTN3bFZzNHM4dXVSSVVEQ0ZsRC1pakRPSzBsemhvaTVjdWdKd01yQ3R6UkRpU3h1ZUNFRXJqV3lmVjNJSDZCMlRn?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWXhhMGp3eXI2MVlXWXlyRktiN3JuNkR4RkR2WnZRcjZhUGJ6WmRqSlJkd1lNWmdWSV9TTzY4UGRyNVBEQVBJeXcwaFhoTTNVcV9kNEF0RDNKZzF2NzVleTRNUEk3YXF1RkJqMlE2emVyVTN3bFZzNHM4dXVSSVVEQ0ZsRC1pakRPSzBsemhvaTVjdWdKd01yQ3R6UkRpU3h1ZUNFRXJqV3lmVjNJSDZCMlRn?oc=5",
+      "id": "CBMisgFBVV95cUxPWXhhMGp3eXI2MVlXWXlyRktiN3JuNkR4RkR2WnZRcjZhUGJ6WmRqSlJkd1lNWmdWSV9TTzY4UGRyNVBEQVBJeXcwaFhoTTNVcV9kNEF0RDNKZzF2NzVleTRNUEk3YXF1RkJqMlE2emVyVTN3bFZzNHM4dXVSSVVEQ0ZsRC1pakRPSzBsemhvaTVjdWdKd01yQ3R6UkRpU3h1ZUNFRXJqV3lmVjNJSDZCMlRn",
+      "guidislink": false,
+      "published": "Fri, 14 Sep 2018 09:59:19 GMT",
+      "published_parsed": [
+        2018,
+        9,
+        14,
+        9,
+        59,
+        19,
+        4,
+        257,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPWXhhMGp3eXI2MVlXWXlyRktiN3JuNkR4RkR2WnZRcjZhUGJ6WmRqSlJkd1lNWmdWSV9TTzY4UGRyNVBEQVBJeXcwaFhoTTNVcV9kNEF0RDNKZzF2NzVleTRNUEk3YXF1RkJqMlE2emVyVTN3bFZzNHM4dXVSSVVEQ0ZsRC1pakRPSzBsemhvaTVjdWdKd01yQ3R6UkRpU3h1ZUNFRXJqV3lmVjNJSDZCMlRn?oc=5\" target=\"_blank\">Meet Daryle Koltay, a 19-year-old sufferer of microcephaly</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPWXhhMGp3eXI2MVlXWXlyRktiN3JuNkR4RkR2WnZRcjZhUGJ6WmRqSlJkd1lNWmdWSV9TTzY4UGRyNVBEQVBJeXcwaFhoTTNVcV9kNEF0RDNKZzF2NzVleTRNUEk3YXF1RkJqMlE2emVyVTN3bFZzNHM4dXVSSVVEQ0ZsRC1pakRPSzBsemhvaTVjdWdKd01yQ3R6UkRpU3h1ZUNFRXJqV3lmVjNJSDZCMlRn?oc=5\" target=\"_blank\">Meet Daryle Koltay, a 19-year-old sufferer of microcephaly</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    }
+  ]
+}

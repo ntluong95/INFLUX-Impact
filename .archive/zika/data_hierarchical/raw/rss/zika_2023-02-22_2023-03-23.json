@@ -1,0 +1,1424 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2023-02-22",
+  "window_end": "2023-03-23",
+  "window_days": 30,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2023-02-22+before%3A2023-03-24&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2023-02-22+before:2023-03-24&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T06:09:48Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2023-02-22 before:2023-03-24\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2023-02-22 before:2023-03-24\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2023-02-22+before:2023-03-24&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2023-02-22+before:2023-03-24&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 06:09:48 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      6,
+      9,
+      48,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Zika virus RNA structure controls its unique neurotropism by bipartite binding to Musashi-1 - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika virus RNA structure controls its unique neurotropism by bipartite binding to Musashi-1 - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1aWmpqSkxoTk9UMFYwTlQzS0hLOE5yTm1IQWRqdE5aQUMwekFrTDc4cGhzT0dKcG4yb185SVpHaS1RaFMzZ3RzOWdRa0dnYzFFLVBiYVQwSFFnZ3RuTUtJ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1aWmpqSkxoTk9UMFYwTlQzS0hLOE5yTm1IQWRqdE5aQUMwekFrTDc4cGhzT0dKcG4yb185SVpHaS1RaFMzZ3RzOWdRa0dnYzFFLVBiYVQwSFFnZ3RuTUtJ?oc=5",
+      "id": "CBMiX0FVX3lxTE1aWmpqSkxoTk9UMFYwTlQzS0hLOE5yTm1IQWRqdE5aQUMwekFrTDc4cGhzT0dKcG4yb185SVpHaS1RaFMzZ3RzOWdRa0dnYzFFLVBiYVQwSFFnZ3RuTUtJ",
+      "guidislink": false,
+      "published": "Tue, 28 Feb 2023 08:00:00 GMT",
+      "published_parsed": [
+        2023,
+        2,
+        28,
+        8,
+        0,
+        0,
+        1,
+        59,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1aWmpqSkxoTk9UMFYwTlQzS0hLOE5yTm1IQWRqdE5aQUMwekFrTDc4cGhzT0dKcG4yb185SVpHaS1RaFMzZ3RzOWdRa0dnYzFFLVBiYVQwSFFnZ3RuTUtJ?oc=5\" target=\"_blank\">Zika virus RNA structure controls its unique neurotropism by bipartite binding to Musashi-1</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1aWmpqSkxoTk9UMFYwTlQzS0hLOE5yTm1IQWRqdE5aQUMwekFrTDc4cGhzT0dKcG4yb185SVpHaS1RaFMzZ3RzOWdRa0dnYzFFLVBiYVQwSFFnZ3RuTUtJ?oc=5\" target=\"_blank\">Zika virus RNA structure controls its unique neurotropism by bipartite binding to Musashi-1</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "How Human Challenge Trials Accelerate Vaccine Development - Hopkins Bloomberg Public Health Magazine",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "How Human Challenge Trials Accelerate Vaccine Development - Hopkins Bloomberg Public Health Magazine"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQYmFSUW5wZUpXeE01MzJyX2pnVEotdGdkbnhlWGFvQW1Vd0R3RnRuSWRJVWs3aFhjczZPcks4OWROMkNLdzNkQTcteDdKemdyd3NfSG1oa1BOeGpsZFRTTVNQUi04Q3lXekR1dXpTa1d1M0R4ZjJNTzc3NnlQeEF5NzROUHdWS3NUUlcyZkVJUE9PS0s3LXdTOVlTZXAwVDVYV3c?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQYmFSUW5wZUpXeE01MzJyX2pnVEotdGdkbnhlWGFvQW1Vd0R3RnRuSWRJVWs3aFhjczZPcks4OWROMkNLdzNkQTcteDdKemdyd3NfSG1oa1BOeGpsZFRTTVNQUi04Q3lXekR1dXpTa1d1M0R4ZjJNTzc3NnlQeEF5NzROUHdWS3NUUlcyZkVJUE9PS0s3LXdTOVlTZXAwVDVYV3c?oc=5",
+      "id": "CBMiogFBVV95cUxQYmFSUW5wZUpXeE01MzJyX2pnVEotdGdkbnhlWGFvQW1Vd0R3RnRuSWRJVWs3aFhjczZPcks4OWROMkNLdzNkQTcteDdKemdyd3NfSG1oa1BOeGpsZFRTTVNQUi04Q3lXekR1dXpTa1d1M0R4ZjJNTzc3NnlQeEF5NzROUHdWS3NUUlcyZkVJUE9PS0s3LXdTOVlTZXAwVDVYV3c",
+      "guidislink": false,
+      "published": "Mon, 13 Mar 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        3,
+        13,
+        7,
+        0,
+        0,
+        0,
+        72,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxQYmFSUW5wZUpXeE01MzJyX2pnVEotdGdkbnhlWGFvQW1Vd0R3RnRuSWRJVWs3aFhjczZPcks4OWROMkNLdzNkQTcteDdKemdyd3NfSG1oa1BOeGpsZFRTTVNQUi04Q3lXekR1dXpTa1d1M0R4ZjJNTzc3NnlQeEF5NzROUHdWS3NUUlcyZkVJUE9PS0s3LXdTOVlTZXAwVDVYV3c?oc=5\" target=\"_blank\">How Human Challenge Trials Accelerate Vaccine Development</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Hopkins Bloomberg Public Health Magazine</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxQYmFSUW5wZUpXeE01MzJyX2pnVEotdGdkbnhlWGFvQW1Vd0R3RnRuSWRJVWs3aFhjczZPcks4OWROMkNLdzNkQTcteDdKemdyd3NfSG1oa1BOeGpsZFRTTVNQUi04Q3lXekR1dXpTa1d1M0R4ZjJNTzc3NnlQeEF5NzROUHdWS3NUUlcyZkVJUE9PS0s3LXdTOVlTZXAwVDVYV3c?oc=5\" target=\"_blank\">How Human Challenge Trials Accelerate Vaccine Development</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Hopkins Bloomberg Public Health Magazine</font>"
+      },
+      "source": {
+        "href": "https://magazine.publichealth.jhu.edu",
+        "title": "Hopkins Bloomberg Public Health Magazine"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Structural and immunological basis of cross-reactivity between dengue and Zika infections: Implications in serosurveillance in endemic regions - Frontiers",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Structural and immunological basis of cross-reactivity between dengue and Zika infections: Implications in serosurveillance in endemic regions - Frontiers"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQenY0eVhqVlRya1ZTeUtncGZSM3Y1cDM5eE0tV1BjZnRPM0FyblBqSzZIeldjaERiR2dfMmFLY1ZSZ2w2QmpDd0Q0V3pudzZmS0oxUU5oOXhiZlZRczRBRXR0eklCTmxDY0NzUEd2eVF1RkZXcC03QTJzX2hWZHNBR1I1MlZqM1QzVVpoZUI4TmNWcU9a?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQenY0eVhqVlRya1ZTeUtncGZSM3Y1cDM5eE0tV1BjZnRPM0FyblBqSzZIeldjaERiR2dfMmFLY1ZSZ2w2QmpDd0Q0V3pudzZmS0oxUU5oOXhiZlZRczRBRXR0eklCTmxDY0NzUEd2eVF1RkZXcC03QTJzX2hWZHNBR1I1MlZqM1QzVVpoZUI4TmNWcU9a?oc=5",
+      "id": "CBMilAFBVV95cUxQenY0eVhqVlRya1ZTeUtncGZSM3Y1cDM5eE0tV1BjZnRPM0FyblBqSzZIeldjaERiR2dfMmFLY1ZSZ2w2QmpDd0Q0V3pudzZmS0oxUU5oOXhiZlZRczRBRXR0eklCTmxDY0NzUEd2eVF1RkZXcC03QTJzX2hWZHNBR1I1MlZqM1QzVVpoZUI4TmNWcU9a",
+      "guidislink": false,
+      "published": "Thu, 16 Mar 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        3,
+        16,
+        7,
+        0,
+        0,
+        3,
+        75,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxQenY0eVhqVlRya1ZTeUtncGZSM3Y1cDM5eE0tV1BjZnRPM0FyblBqSzZIeldjaERiR2dfMmFLY1ZSZ2w2QmpDd0Q0V3pudzZmS0oxUU5oOXhiZlZRczRBRXR0eklCTmxDY0NzUEd2eVF1RkZXcC03QTJzX2hWZHNBR1I1MlZqM1QzVVpoZUI4TmNWcU9a?oc=5\" target=\"_blank\">Structural and immunological basis of cross-reactivity between dengue and Zika infections: Implications in serosurveillance in endemic regions</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Frontiers</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxQenY0eVhqVlRya1ZTeUtncGZSM3Y1cDM5eE0tV1BjZnRPM0FyblBqSzZIeldjaERiR2dfMmFLY1ZSZ2w2QmpDd0Q0V3pudzZmS0oxUU5oOXhiZlZRczRBRXR0eklCTmxDY0NzUEd2eVF1RkZXcC03QTJzX2hWZHNBR1I1MlZqM1QzVVpoZUI4TmNWcU9a?oc=5\" target=\"_blank\">Structural and immunological basis of cross-reactivity between dengue and Zika infections: Implications in serosurveillance in endemic regions</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Frontiers</font>"
+      },
+      "source": {
+        "href": "https://www.frontiersin.org",
+        "title": "Frontiers"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Immunization against Zika by entrapping live virus in a subcutaneous self-adjuvanting hydrogel - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Immunization against Zika by entrapping live virus in a subcutaneous self-adjuvanting hydrogel - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBsX181MUxsdndpNWlMMnk0Q3k0RXJjSEJGaWlKVXN1dldibXhXOWJqc3BjdjlnYVVSZmtRTmFEa3lqMXVVYjVxRnR0aDRzYWV2ZHM4Zk5WTjlwY284RFgw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBsX181MUxsdndpNWlMMnk0Q3k0RXJjSEJGaWlKVXN1dldibXhXOWJqc3BjdjlnYVVSZmtRTmFEa3lqMXVVYjVxRnR0aDRzYWV2ZHM4Zk5WTjlwY284RFgw?oc=5",
+      "id": "CBMiX0FVX3lxTFBsX181MUxsdndpNWlMMnk0Q3k0RXJjSEJGaWlKVXN1dldibXhXOWJqc3BjdjlnYVVSZmtRTmFEa3lqMXVVYjVxRnR0aDRzYWV2ZHM4Zk5WTjlwY284RFgw",
+      "guidislink": false,
+      "published": "Thu, 23 Mar 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        3,
+        23,
+        7,
+        0,
+        0,
+        3,
+        82,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFBsX181MUxsdndpNWlMMnk0Q3k0RXJjSEJGaWlKVXN1dldibXhXOWJqc3BjdjlnYVVSZmtRTmFEa3lqMXVVYjVxRnR0aDRzYWV2ZHM4Zk5WTjlwY284RFgw?oc=5\" target=\"_blank\">Immunization against Zika by entrapping live virus in a subcutaneous self-adjuvanting hydrogel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFBsX181MUxsdndpNWlMMnk0Q3k0RXJjSEJGaWlKVXN1dldibXhXOWJqc3BjdjlnYVVSZmtRTmFEa3lqMXVVYjVxRnR0aDRzYWV2ZHM4Zk5WTjlwY284RFgw?oc=5\" target=\"_blank\">Immunization against Zika by entrapping live virus in a subcutaneous self-adjuvanting hydrogel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Increased Chikungunya Virus Activity in Paraguay and Associated Risk to Travelers - Centers for Disease Control and Prevention | CDC (.gov)",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Increased Chikungunya Virus Activity in Paraguay and Associated Risk to Travelers - Centers for Disease Control and Prevention | CDC (.gov)"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBpRGFsYlFSZ01yR0pKWEZaU1lYRHF3RUdBMEN0SzYxbk5NZmwtYzFBaU5jTWFlekJBbkhxOW1UaldjWHVJSmZJY3VDc1V5UVNybkZ1RA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBpRGFsYlFSZ01yR0pKWEZaU1lYRHF3RUdBMEN0SzYxbk5NZmwtYzFBaU5jTWFlekJBbkhxOW1UaldjWHVJSmZJY3VDc1V5UVNybkZ1RA?oc=5",
+      "id": "CBMiVEFVX3lxTFBpRGFsYlFSZ01yR0pKWEZaU1lYRHF3RUdBMEN0SzYxbk5NZmwtYzFBaU5jTWFlekJBbkhxOW1UaldjWHVJSmZJY3VDc1V5UVNybkZ1RA",
+      "guidislink": false,
+      "published": "Thu, 02 Mar 2023 08:00:00 GMT",
+      "published_parsed": [
+        2023,
+        3,
+        2,
+        8,
+        0,
+        0,
+        3,
+        61,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTFBpRGFsYlFSZ01yR0pKWEZaU1lYRHF3RUdBMEN0SzYxbk5NZmwtYzFBaU5jTWFlekJBbkhxOW1UaldjWHVJSmZJY3VDc1V5UVNybkZ1RA?oc=5\" target=\"_blank\">Increased Chikungunya Virus Activity in Paraguay and Associated Risk to Travelers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Centers for Disease Control and Prevention | CDC (.gov)</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTFBpRGFsYlFSZ01yR0pKWEZaU1lYRHF3RUdBMEN0SzYxbk5NZmwtYzFBaU5jTWFlekJBbkhxOW1UaldjWHVJSmZJY3VDc1V5UVNybkZ1RA?oc=5\" target=\"_blank\">Increased Chikungunya Virus Activity in Paraguay and Associated Risk to Travelers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Centers for Disease Control and Prevention | CDC (.gov)</font>"
+      },
+      "source": {
+        "href": "https://www.cdc.gov",
+        "title": "Centers for Disease Control and Prevention | CDC (.gov)"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Congrats to UC Davis Postdoc Olivia Winokur: Winner of AMCA's Hollandsworth Prize - UC Agriculture and Natural Resources",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Congrats to UC Davis Postdoc Olivia Winokur: Winner of AMCA's Hollandsworth Prize - UC Agriculture and Natural Resources"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaVBDMFJYUXZtbzZhSGt3bTBzMXFSeTd5MklHWEJLTFlvYUk3VUlGLUNfME9VQTFtRW5LU2pyQ05JaDJaQUYwNVd1bzJFb1pIZzltd3VUWnJ6VW80Y0lxQ194c3hoa0k1Nm1IUzhlZjhRRXQ3NTZpLXFuS3ZPRVd1RFlPaWk2WVhiS3BWcHNVUWRVZ0RVejlUVEJodXE1RG01MDY2cm5BM21BalV3ZEE5VTJReDY?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaVBDMFJYUXZtbzZhSGt3bTBzMXFSeTd5MklHWEJLTFlvYUk3VUlGLUNfME9VQTFtRW5LU2pyQ05JaDJaQUYwNVd1bzJFb1pIZzltd3VUWnJ6VW80Y0lxQ194c3hoa0k1Nm1IUzhlZjhRRXQ3NTZpLXFuS3ZPRVd1RFlPaWk2WVhiS3BWcHNVUWRVZ0RVejlUVEJodXE1RG01MDY2cm5BM21BalV3ZEE5VTJReDY?oc=5",
+      "id": "CBMitAFBVV95cUxOaVBDMFJYUXZtbzZhSGt3bTBzMXFSeTd5MklHWEJLTFlvYUk3VUlGLUNfME9VQTFtRW5LU2pyQ05JaDJaQUYwNVd1bzJFb1pIZzltd3VUWnJ6VW80Y0lxQ194c3hoa0k1Nm1IUzhlZjhRRXQ3NTZpLXFuS3ZPRVd1RFlPaWk2WVhiS3BWcHNVUWRVZ0RVejlUVEJodXE1RG01MDY2cm5BM21BalV3ZEE5VTJReDY",
+      "guidislink": false,
+      "published": "Thu, 23 Mar 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        3,
+        23,
+        7,
+        0,
+        0,
+        3,
+        82,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxOaVBDMFJYUXZtbzZhSGt3bTBzMXFSeTd5MklHWEJLTFlvYUk3VUlGLUNfME9VQTFtRW5LU2pyQ05JaDJaQUYwNVd1bzJFb1pIZzltd3VUWnJ6VW80Y0lxQ194c3hoa0k1Nm1IUzhlZjhRRXQ3NTZpLXFuS3ZPRVd1RFlPaWk2WVhiS3BWcHNVUWRVZ0RVejlUVEJodXE1RG01MDY2cm5BM21BalV3ZEE5VTJReDY?oc=5\" target=\"_blank\">Congrats to UC Davis Postdoc Olivia Winokur: Winner of AMCA's Hollandsworth Prize</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">UC Agriculture and Natural Resources</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxOaVBDMFJYUXZtbzZhSGt3bTBzMXFSeTd5MklHWEJLTFlvYUk3VUlGLUNfME9VQTFtRW5LU2pyQ05JaDJaQUYwNVd1bzJFb1pIZzltd3VUWnJ6VW80Y0lxQ194c3hoa0k1Nm1IUzhlZjhRRXQ3NTZpLXFuS3ZPRVd1RFlPaWk2WVhiS3BWcHNVUWRVZ0RVejlUVEJodXE1RG01MDY2cm5BM21BalV3ZEE5VTJReDY?oc=5\" target=\"_blank\">Congrats to UC Davis Postdoc Olivia Winokur: Winner of AMCA's Hollandsworth Prize</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">UC Agriculture and Natural Resources</font>"
+      },
+      "source": {
+        "href": "https://ucanr.edu",
+        "title": "UC Agriculture and Natural Resources"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Puerto Rico Reports Probable Zika Cases in 2023 - Vax-Before-Travel",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Puerto Rico Reports Probable Zika Cases in 2023 - Vax-Before-Travel"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQOUthNEFzN1AybFBzVFhCeHJzbWxpaUFDWTNUcjJ4a2ZINlRvT3VXY3haaUxRdzg4ZmN1N2dUUXNmVFROWTBTbzE5UXAxNVBQZWJ4MG9NeDBudmlVTUdrRXNyQjhyenl2ZTFCRDJ1OG5PcE8xRFdLQmtyOGhiUmRxRnhES0FJa3E0M05qcUhLWURkVWs?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQOUthNEFzN1AybFBzVFhCeHJzbWxpaUFDWTNUcjJ4a2ZINlRvT3VXY3haaUxRdzg4ZmN1N2dUUXNmVFROWTBTbzE5UXAxNVBQZWJ4MG9NeDBudmlVTUdrRXNyQjhyenl2ZTFCRDJ1OG5PcE8xRFdLQmtyOGhiUmRxRnhES0FJa3E0M05qcUhLWURkVWs?oc=5",
+      "id": "CBMikwFBVV95cUxQOUthNEFzN1AybFBzVFhCeHJzbWxpaUFDWTNUcjJ4a2ZINlRvT3VXY3haaUxRdzg4ZmN1N2dUUXNmVFROWTBTbzE5UXAxNVBQZWJ4MG9NeDBudmlVTUdrRXNyQjhyenl2ZTFCRDJ1OG5PcE8xRFdLQmtyOGhiUmRxRnhES0FJa3E0M05qcUhLWURkVWs",
+      "guidislink": false,
+      "published": "Fri, 24 Mar 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        3,
+        24,
+        7,
+        0,
+        0,
+        4,
+        83,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxQOUthNEFzN1AybFBzVFhCeHJzbWxpaUFDWTNUcjJ4a2ZINlRvT3VXY3haaUxRdzg4ZmN1N2dUUXNmVFROWTBTbzE5UXAxNVBQZWJ4MG9NeDBudmlVTUdrRXNyQjhyenl2ZTFCRDJ1OG5PcE8xRFdLQmtyOGhiUmRxRnhES0FJa3E0M05qcUhLWURkVWs?oc=5\" target=\"_blank\">Puerto Rico Reports Probable Zika Cases in 2023</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vax-Before-Travel</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxQOUthNEFzN1AybFBzVFhCeHJzbWxpaUFDWTNUcjJ4a2ZINlRvT3VXY3haaUxRdzg4ZmN1N2dUUXNmVFROWTBTbzE5UXAxNVBQZWJ4MG9NeDBudmlVTUdrRXNyQjhyenl2ZTFCRDJ1OG5PcE8xRFdLQmtyOGhiUmRxRnhES0FJa3E0M05qcUhLWURkVWs?oc=5\" target=\"_blank\">Puerto Rico Reports Probable Zika Cases in 2023</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vax-Before-Travel</font>"
+      },
+      "source": {
+        "href": "https://www.vax-before-travel.com",
+        "title": "Vax-Before-Travel"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "St. Louis researchers seek public's help with new mosquito tracking app - Spectrum News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "St. Louis researchers seek public's help with new mosquito tracking app - Spectrum News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNckJadG5DdXRESVNkbFFpUTZjUTdvWUptbFhzcUZZSTNnZjZwbE9KTjRyc054aFBaR0JSUzNqemUzTnBZZHNfa0pMSS1rWWh6cGp2SmVtUDZ1V05ocWQwTFQxc2U1ZnRtd1BXa3ZycXdXeEx2NXUwR2pQODFhZVpwQVp6d0dSTUFVY3lTWUV5cnRwSmpoMk4yc3c2NFBFajN6TGZpYWJmZUZkRTJrcDB5SVBPYXdiY2xGMDQwSnpTLWwtTjVDUWFpaw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNckJadG5DdXRESVNkbFFpUTZjUTdvWUptbFhzcUZZSTNnZjZwbE9KTjRyc054aFBaR0JSUzNqemUzTnBZZHNfa0pMSS1rWWh6cGp2SmVtUDZ1V05ocWQwTFQxc2U1ZnRtd1BXa3ZycXdXeEx2NXUwR2pQODFhZVpwQVp6d0dSTUFVY3lTWUV5cnRwSmpoMk4yc3c2NFBFajN6TGZpYWJmZUZkRTJrcDB5SVBPYXdiY2xGMDQwSnpTLWwtTjVDUWFpaw?oc=5",
+      "id": "CBMiyAFBVV95cUxNckJadG5DdXRESVNkbFFpUTZjUTdvWUptbFhzcUZZSTNnZjZwbE9KTjRyc054aFBaR0JSUzNqemUzTnBZZHNfa0pMSS1rWWh6cGp2SmVtUDZ1V05ocWQwTFQxc2U1ZnRtd1BXa3ZycXdXeEx2NXUwR2pQODFhZVpwQVp6d0dSTUFVY3lTWUV5cnRwSmpoMk4yc3c2NFBFajN6TGZpYWJmZUZkRTJrcDB5SVBPYXdiY2xGMDQwSnpTLWwtTjVDUWFpaw",
+      "guidislink": false,
+      "published": "Mon, 13 Mar 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        3,
+        13,
+        7,
+        0,
+        0,
+        0,
+        72,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxNckJadG5DdXRESVNkbFFpUTZjUTdvWUptbFhzcUZZSTNnZjZwbE9KTjRyc054aFBaR0JSUzNqemUzTnBZZHNfa0pMSS1rWWh6cGp2SmVtUDZ1V05ocWQwTFQxc2U1ZnRtd1BXa3ZycXdXeEx2NXUwR2pQODFhZVpwQVp6d0dSTUFVY3lTWUV5cnRwSmpoMk4yc3c2NFBFajN6TGZpYWJmZUZkRTJrcDB5SVBPYXdiY2xGMDQwSnpTLWwtTjVDUWFpaw?oc=5\" target=\"_blank\">St. Louis researchers seek public's help with new mosquito tracking app</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Spectrum News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxNckJadG5DdXRESVNkbFFpUTZjUTdvWUptbFhzcUZZSTNnZjZwbE9KTjRyc054aFBaR0JSUzNqemUzTnBZZHNfa0pMSS1rWWh6cGp2SmVtUDZ1V05ocWQwTFQxc2U1ZnRtd1BXa3ZycXdXeEx2NXUwR2pQODFhZVpwQVp6d0dSTUFVY3lTWUV5cnRwSmpoMk4yc3c2NFBFajN6TGZpYWJmZUZkRTJrcDB5SVBPYXdiY2xGMDQwSnpTLWwtTjVDUWFpaw?oc=5\" target=\"_blank\">St. Louis researchers seek public's help with new mosquito tracking app</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Spectrum News</font>"
+      },
+      "source": {
+        "href": "https://spectrumlocalnews.com",
+        "title": "Spectrum News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Mosquito-borne diseases become climate reality in warming Pacific - Al Jazeera",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Mosquito-borne diseases become climate reality in warming Pacific - Al Jazeera"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWlhFRkVKUTU2bnlWaF9KZ0l5bUhOeXhYZFNXSjhJdHkxbWx1VG5LbklsMTFLTXExaDFobjNKQUt2T2o3VmhRYkNJbmttVVFBbDdVdU5XUDF0OS1QdXBocXVMRUllV05Wc1JpUE5GV1pwbGxYb0JERzdheTlrTFQ1RllLMnh3RUN4dU1zazZwejg5SkhXbng5WlR4R3ZBTldWVFk1NFZKbVPSAa4BQVVfeXFMUGZWc0ZveFVTTHRLU29EQnp6OUE3NkhkeHlrS2FJYXJ1bHRqN01fNE5PUUdPWGpoaGg0REUtTUF2YWhERnVYeHhDRVY4TU96VlpJa290MGJxM0NoeV9JendXcmlHM2tzaDRvc2dGWlptbDNvS0p5WW1wUHhZTFFYT2ZQcGQ1RnozWU8wbDJIc2NmanQwU0REMjZCNXd2T2RQVUV5eG9ROGNsYm94djB3?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWlhFRkVKUTU2bnlWaF9KZ0l5bUhOeXhYZFNXSjhJdHkxbWx1VG5LbklsMTFLTXExaDFobjNKQUt2T2o3VmhRYkNJbmttVVFBbDdVdU5XUDF0OS1QdXBocXVMRUllV05Wc1JpUE5GV1pwbGxYb0JERzdheTlrTFQ1RllLMnh3RUN4dU1zazZwejg5SkhXbng5WlR4R3ZBTldWVFk1NFZKbVPSAa4BQVVfeXFMUGZWc0ZveFVTTHRLU29EQnp6OUE3NkhkeHlrS2FJYXJ1bHRqN01fNE5PUUdPWGpoaGg0REUtTUF2YWhERnVYeHhDRVY4TU96VlpJa290MGJxM0NoeV9JendXcmlHM2tzaDRvc2dGWlptbDNvS0p5WW1wUHhZTFFYT2ZQcGQ1RnozWU8wbDJIc2NmanQwU0REMjZCNXd2T2RQVUV5eG9ROGNsYm94djB3?oc=5",
+      "id": "CBMiqAFBVV95cUxQWlhFRkVKUTU2bnlWaF9KZ0l5bUhOeXhYZFNXSjhJdHkxbWx1VG5LbklsMTFLTXExaDFobjNKQUt2T2o3VmhRYkNJbmttVVFBbDdVdU5XUDF0OS1QdXBocXVMRUllV05Wc1JpUE5GV1pwbGxYb0JERzdheTlrTFQ1RllLMnh3RUN4dU1zazZwejg5SkhXbng5WlR4R3ZBTldWVFk1NFZKbVPSAa4BQVVfeXFMUGZWc0ZveFVTTHRLU29EQnp6OUE3NkhkeHlrS2FJYXJ1bHRqN01fNE5PUUdPWGpoaGg0REUtTUF2YWhERnVYeHhDRVY4TU96VlpJa290MGJxM0NoeV9JendXcmlHM2tzaDRvc2dGWlptbDNvS0p5WW1wUHhZTFFYT2ZQcGQ1RnozWU8wbDJIc2NmanQwU0REMjZCNXd2T2RQVUV5eG9ROGNsYm94djB3",
+      "guidislink": false,
+      "published": "Wed, 22 Feb 2023 08:00:00 GMT",
+      "published_parsed": [
+        2023,
+        2,
+        22,
+        8,
+        0,
+        0,
+        2,
+        53,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWlhFRkVKUTU2bnlWaF9KZ0l5bUhOeXhYZFNXSjhJdHkxbWx1VG5LbklsMTFLTXExaDFobjNKQUt2T2o3VmhRYkNJbmttVVFBbDdVdU5XUDF0OS1QdXBocXVMRUllV05Wc1JpUE5GV1pwbGxYb0JERzdheTlrTFQ1RllLMnh3RUN4dU1zazZwejg5SkhXbng5WlR4R3ZBTldWVFk1NFZKbVPSAa4BQVVfeXFMUGZWc0ZveFVTTHRLU29EQnp6OUE3NkhkeHlrS2FJYXJ1bHRqN01fNE5PUUdPWGpoaGg0REUtTUF2YWhERnVYeHhDRVY4TU96VlpJa290MGJxM0NoeV9JendXcmlHM2tzaDRvc2dGWlptbDNvS0p5WW1wUHhZTFFYT2ZQcGQ1RnozWU8wbDJIc2NmanQwU0REMjZCNXd2T2RQVUV5eG9ROGNsYm94djB3?oc=5\" target=\"_blank\">Mosquito-borne diseases become climate reality in warming Pacific</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Al Jazeera</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWlhFRkVKUTU2bnlWaF9KZ0l5bUhOeXhYZFNXSjhJdHkxbWx1VG5LbklsMTFLTXExaDFobjNKQUt2T2o3VmhRYkNJbmttVVFBbDdVdU5XUDF0OS1QdXBocXVMRUllV05Wc1JpUE5GV1pwbGxYb0JERzdheTlrTFQ1RllLMnh3RUN4dU1zazZwejg5SkhXbng5WlR4R3ZBTldWVFk1NFZKbVPSAa4BQVVfeXFMUGZWc0ZveFVTTHRLU29EQnp6OUE3NkhkeHlrS2FJYXJ1bHRqN01fNE5PUUdPWGpoaGg0REUtTUF2YWhERnVYeHhDRVY4TU96VlpJa290MGJxM0NoeV9JendXcmlHM2tzaDRvc2dGWlptbDNvS0p5WW1wUHhZTFFYT2ZQcGQ1RnozWU8wbDJIc2NmanQwU0REMjZCNXd2T2RQVUV5eG9ROGNsYm94djB3?oc=5\" target=\"_blank\">Mosquito-borne diseases become climate reality in warming Pacific</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Al Jazeera</font>"
+      },
+      "source": {
+        "href": "https://www.aljazeera.com",
+        "title": "Al Jazeera"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Scientists Disable Protective Gene In Mosquitoes - Texas A&M Stories",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Scientists Disable Protective Gene In Mosquitoes - Texas A&M Stories"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQ05BRkFfSGRfRzRNdm1MM1JXakJnVk9yazJrOFR4MWRWTkwyWmlnSFVBYnFBckpkMDF3WjEweEFVOERocUF0cXg1c19ZU0ZFdkdEWU55bWF3MEtfdDNQcDU3WFI4QVJ1YzY3ZzZVck1MMmctcmtaZE00ODRlbDB0QVdiOEx1WVBjQTNiOE9FazVGSkly?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQ05BRkFfSGRfRzRNdm1MM1JXakJnVk9yazJrOFR4MWRWTkwyWmlnSFVBYnFBckpkMDF3WjEweEFVOERocUF0cXg1c19ZU0ZFdkdEWU55bWF3MEtfdDNQcDU3WFI4QVJ1YzY3ZzZVck1MMmctcmtaZE00ODRlbDB0QVdiOEx1WVBjQTNiOE9FazVGSkly?oc=5",
+      "id": "CBMilAFBVV95cUxQQ05BRkFfSGRfRzRNdm1MM1JXakJnVk9yazJrOFR4MWRWTkwyWmlnSFVBYnFBckpkMDF3WjEweEFVOERocUF0cXg1c19ZU0ZFdkdEWU55bWF3MEtfdDNQcDU3WFI4QVJ1YzY3ZzZVck1MMmctcmtaZE00ODRlbDB0QVdiOEx1WVBjQTNiOE9FazVGSkly",
+      "guidislink": false,
+      "published": "Wed, 15 Mar 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        3,
+        15,
+        7,
+        0,
+        0,
+        2,
+        74,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxQQ05BRkFfSGRfRzRNdm1MM1JXakJnVk9yazJrOFR4MWRWTkwyWmlnSFVBYnFBckpkMDF3WjEweEFVOERocUF0cXg1c19ZU0ZFdkdEWU55bWF3MEtfdDNQcDU3WFI4QVJ1YzY3ZzZVck1MMmctcmtaZE00ODRlbDB0QVdiOEx1WVBjQTNiOE9FazVGSkly?oc=5\" target=\"_blank\">Scientists Disable Protective Gene In Mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Texas A&amp;M Stories</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxQQ05BRkFfSGRfRzRNdm1MM1JXakJnVk9yazJrOFR4MWRWTkwyWmlnSFVBYnFBckpkMDF3WjEweEFVOERocUF0cXg1c19ZU0ZFdkdEWU55bWF3MEtfdDNQcDU3WFI4QVJ1YzY3ZzZVck1MMmctcmtaZE00ODRlbDB0QVdiOEx1WVBjQTNiOE9FazVGSkly?oc=5\" target=\"_blank\">Scientists Disable Protective Gene In Mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Texas A&amp;M Stories</font>"
+      },
+      "source": {
+        "href": "https://stories.tamu.edu",
+        "title": "Texas A&M Stories"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Gainesville business owners react to possible changes to public drinking ordinance - Gainesville Sun",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Gainesville business owners react to possible changes to public drinking ordinance - Gainesville Sun"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiywFBVV95cUxORmVwNXpwQmpzaW1hYndWRENiNXg1RG9XQzhuci1MUGVBb2VnOEcwX1g5WG5hQ3FUa2JvMHVMRmpuYmFqOGtPUktxUi1hNGgyT0JMeTRCb1hpbVNhYXZ0V2p3WTg2R2VMQjFURGpoVGt3b2s1ZndJdjRDcF96ME9Xdnh0aWludk00MW5YNlpqSkdhYnNTbjlGbXlncERtTFFoa3J0VVhxelBVVEZaM3h4aDE2QjhJeHNLUmJfci1lMXpkdHJCUnRGc25BTQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxORmVwNXpwQmpzaW1hYndWRENiNXg1RG9XQzhuci1MUGVBb2VnOEcwX1g5WG5hQ3FUa2JvMHVMRmpuYmFqOGtPUktxUi1hNGgyT0JMeTRCb1hpbVNhYXZ0V2p3WTg2R2VMQjFURGpoVGt3b2s1ZndJdjRDcF96ME9Xdnh0aWludk00MW5YNlpqSkdhYnNTbjlGbXlncERtTFFoa3J0VVhxelBVVEZaM3h4aDE2QjhJeHNLUmJfci1lMXpkdHJCUnRGc25BTQ?oc=5",
+      "id": "CBMiywFBVV95cUxORmVwNXpwQmpzaW1hYndWRENiNXg1RG9XQzhuci1MUGVBb2VnOEcwX1g5WG5hQ3FUa2JvMHVMRmpuYmFqOGtPUktxUi1hNGgyT0JMeTRCb1hpbVNhYXZ0V2p3WTg2R2VMQjFURGpoVGt3b2s1ZndJdjRDcF96ME9Xdnh0aWludk00MW5YNlpqSkdhYnNTbjlGbXlncERtTFFoa3J0VVhxelBVVEZaM3h4aDE2QjhJeHNLUmJfci1lMXpkdHJCUnRGc25BTQ",
+      "guidislink": false,
+      "published": "Tue, 07 Mar 2023 08:00:00 GMT",
+      "published_parsed": [
+        2023,
+        3,
+        7,
+        8,
+        0,
+        0,
+        1,
+        66,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxORmVwNXpwQmpzaW1hYndWRENiNXg1RG9XQzhuci1MUGVBb2VnOEcwX1g5WG5hQ3FUa2JvMHVMRmpuYmFqOGtPUktxUi1hNGgyT0JMeTRCb1hpbVNhYXZ0V2p3WTg2R2VMQjFURGpoVGt3b2s1ZndJdjRDcF96ME9Xdnh0aWludk00MW5YNlpqSkdhYnNTbjlGbXlncERtTFFoa3J0VVhxelBVVEZaM3h4aDE2QjhJeHNLUmJfci1lMXpkdHJCUnRGc25BTQ?oc=5\" target=\"_blank\">Gainesville business owners react to possible changes to public drinking ordinance</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Gainesville Sun</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxORmVwNXpwQmpzaW1hYndWRENiNXg1RG9XQzhuci1MUGVBb2VnOEcwX1g5WG5hQ3FUa2JvMHVMRmpuYmFqOGtPUktxUi1hNGgyT0JMeTRCb1hpbVNhYXZ0V2p3WTg2R2VMQjFURGpoVGt3b2s1ZndJdjRDcF96ME9Xdnh0aWludk00MW5YNlpqSkdhYnNTbjlGbXlncERtTFFoa3J0VVhxelBVVEZaM3h4aDE2QjhJeHNLUmJfci1lMXpkdHJCUnRGc25BTQ?oc=5\" target=\"_blank\">Gainesville business owners react to possible changes to public drinking ordinance</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Gainesville Sun</font>"
+      },
+      "source": {
+        "href": "https://www.gainesville.com",
+        "title": "Gainesville Sun"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Tracking malaria and mosquitoes with the help of pregnant women and city dwellers - research-and-innovation.ec.europa.eu",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Tracking malaria and mosquitoes with the help of pregnant women and city dwellers - research-and-innovation.ec.europa.eu"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPMjNEZ2lzd3hqVWt6b3phZ0VxRjFyVXBiVlRpWTRCNFBjclFJZGpwS1VlaVRnaFBPVW4wNVVqX053R3hOUWJCMUpaU1hjZkhveXVDWDEtUHlZRkU5X3l1LVA4R3Vjd1V1TzY0RnBRODZ1UVRDZjAycjRVR0FlRDNTV1ZIZDlQa1BGb1d0a2xDaV94YXg2V2RtQTFvQm1WaFNGRFZlN21ZNWFxZmdzWWJSZFc2bndlYWcwREVBTUJPa21xU3pvaC1VSksydFJOS192X2RnSDJSNS02LVE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPMjNEZ2lzd3hqVWt6b3phZ0VxRjFyVXBiVlRpWTRCNFBjclFJZGpwS1VlaVRnaFBPVW4wNVVqX053R3hOUWJCMUpaU1hjZkhveXVDWDEtUHlZRkU5X3l1LVA4R3Vjd1V1TzY0RnBRODZ1UVRDZjAycjRVR0FlRDNTV1ZIZDlQa1BGb1d0a2xDaV94YXg2V2RtQTFvQm1WaFNGRFZlN21ZNWFxZmdzWWJSZFc2bndlYWcwREVBTUJPa21xU3pvaC1VSksydFJOS192X2RnSDJSNS02LVE?oc=5",
+      "id": "CBMi2wFBVV95cUxPMjNEZ2lzd3hqVWt6b3phZ0VxRjFyVXBiVlRpWTRCNFBjclFJZGpwS1VlaVRnaFBPVW4wNVVqX053R3hOUWJCMUpaU1hjZkhveXVDWDEtUHlZRkU5X3l1LVA4R3Vjd1V1TzY0RnBRODZ1UVRDZjAycjRVR0FlRDNTV1ZIZDlQa1BGb1d0a2xDaV94YXg2V2RtQTFvQm1WaFNGRFZlN21ZNWFxZmdzWWJSZFc2bndlYWcwREVBTUJPa21xU3pvaC1VSksydFJOS192X2RnSDJSNS02LVE",
+      "guidislink": false,
+      "published": "Wed, 22 Feb 2023 08:00:00 GMT",
+      "published_parsed": [
+        2023,
+        2,
+        22,
+        8,
+        0,
+        0,
+        2,
+        53,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2wFBVV95cUxPMjNEZ2lzd3hqVWt6b3phZ0VxRjFyVXBiVlRpWTRCNFBjclFJZGpwS1VlaVRnaFBPVW4wNVVqX053R3hOUWJCMUpaU1hjZkhveXVDWDEtUHlZRkU5X3l1LVA4R3Vjd1V1TzY0RnBRODZ1UVRDZjAycjRVR0FlRDNTV1ZIZDlQa1BGb1d0a2xDaV94YXg2V2RtQTFvQm1WaFNGRFZlN21ZNWFxZmdzWWJSZFc2bndlYWcwREVBTUJPa21xU3pvaC1VSksydFJOS192X2RnSDJSNS02LVE?oc=5\" target=\"_blank\">Tracking malaria and mosquitoes with the help of pregnant women and city dwellers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">research-and-innovation.ec.europa.eu</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi2wFBVV95cUxPMjNEZ2lzd3hqVWt6b3phZ0VxRjFyVXBiVlRpWTRCNFBjclFJZGpwS1VlaVRnaFBPVW4wNVVqX053R3hOUWJCMUpaU1hjZkhveXVDWDEtUHlZRkU5X3l1LVA4R3Vjd1V1TzY0RnBRODZ1UVRDZjAycjRVR0FlRDNTV1ZIZDlQa1BGb1d0a2xDaV94YXg2V2RtQTFvQm1WaFNGRFZlN21ZNWFxZmdzWWJSZFc2bndlYWcwREVBTUJPa21xU3pvaC1VSksydFJOS192X2RnSDJSNS02LVE?oc=5\" target=\"_blank\">Tracking malaria and mosquitoes with the help of pregnant women and city dwellers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">research-and-innovation.ec.europa.eu</font>"
+      },
+      "source": {
+        "href": "https://projects.research-and-innovation.ec.europa.eu",
+        "title": "research-and-innovation.ec.europa.eu"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Which disease that mosquito gives you depends on a landscape’s human footprint - Anthropocene Magazine",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Which disease that mosquito gives you depends on a landscape’s human footprint - Anthropocene Magazine"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVzJPUFFvUzNFQ09fYm5rOFAwcVpMbk1ocy1hcUhacGtvRGFkSS0wY3JuTXh0dExkY1Z6dHlZajRCYi1TSEw5QXBNNXNjMS15UEtGMDhhN2diZnVIbHl2dGRZNk5fRTlHbC0tako1U3dnT2dheXRVZFZMUXRiMW5vcjlveGNaLWFRLVpmTXJIcG1STGF0ck5QQjB6eWQtRjNHRDBpLXJSRjRQSElGc3k3bWJET1FRbXZNZDZrQWlha0U?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVzJPUFFvUzNFQ09fYm5rOFAwcVpMbk1ocy1hcUhacGtvRGFkSS0wY3JuTXh0dExkY1Z6dHlZajRCYi1TSEw5QXBNNXNjMS15UEtGMDhhN2diZnVIbHl2dGRZNk5fRTlHbC0tako1U3dnT2dheXRVZFZMUXRiMW5vcjlveGNaLWFRLVpmTXJIcG1STGF0ck5QQjB6eWQtRjNHRDBpLXJSRjRQSElGc3k3bWJET1FRbXZNZDZrQWlha0U?oc=5",
+      "id": "CBMiwAFBVV95cUxPVzJPUFFvUzNFQ09fYm5rOFAwcVpMbk1ocy1hcUhacGtvRGFkSS0wY3JuTXh0dExkY1Z6dHlZajRCYi1TSEw5QXBNNXNjMS15UEtGMDhhN2diZnVIbHl2dGRZNk5fRTlHbC0tako1U3dnT2dheXRVZFZMUXRiMW5vcjlveGNaLWFRLVpmTXJIcG1STGF0ck5QQjB6eWQtRjNHRDBpLXJSRjRQSElGc3k3bWJET1FRbXZNZDZrQWlha0U",
+      "guidislink": false,
+      "published": "Wed, 22 Mar 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        3,
+        22,
+        7,
+        0,
+        0,
+        2,
+        81,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVzJPUFFvUzNFQ09fYm5rOFAwcVpMbk1ocy1hcUhacGtvRGFkSS0wY3JuTXh0dExkY1Z6dHlZajRCYi1TSEw5QXBNNXNjMS15UEtGMDhhN2diZnVIbHl2dGRZNk5fRTlHbC0tako1U3dnT2dheXRVZFZMUXRiMW5vcjlveGNaLWFRLVpmTXJIcG1STGF0ck5QQjB6eWQtRjNHRDBpLXJSRjRQSElGc3k3bWJET1FRbXZNZDZrQWlha0U?oc=5\" target=\"_blank\">Which disease that mosquito gives you depends on a landscape’s human footprint</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Anthropocene Magazine</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVzJPUFFvUzNFQ09fYm5rOFAwcVpMbk1ocy1hcUhacGtvRGFkSS0wY3JuTXh0dExkY1Z6dHlZajRCYi1TSEw5QXBNNXNjMS15UEtGMDhhN2diZnVIbHl2dGRZNk5fRTlHbC0tako1U3dnT2dheXRVZFZMUXRiMW5vcjlveGNaLWFRLVpmTXJIcG1STGF0ck5QQjB6eWQtRjNHRDBpLXJSRjRQSElGc3k3bWJET1FRbXZNZDZrQWlha0U?oc=5\" target=\"_blank\">Which disease that mosquito gives you depends on a landscape’s human footprint</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Anthropocene Magazine</font>"
+      },
+      "source": {
+        "href": "https://www.anthropocenemagazine.org",
+        "title": "Anthropocene Magazine"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Pandemic city: Village-in-a-dish unlocks dynamic genetic effects in the brain | Newswise - Newswise",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Pandemic city: Village-in-a-dish unlocks dynamic genetic effects in the brain | Newswise - Newswise"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONzZQQ094MkhVMWhzZHNYWTc4ekpnZ1VMODN1WmhScnBVbGQ3OXdqSGZOMGNpMkozdXZndXE3OFAtbVJuVlZiSTd0UGJ5UGI0UnRWMVA5TDRzbGlVYnhQaS1SYWJpV0w5NV9lY0dEaUJzUDFHaGpMNkhOY090Z3NEbUpLTHlFTTdMT0RvSG9LMWlBUE9GTzlCYkxPQ2hVVUo3bmliQXMteUxXLV9mSkIw0gGvAUFVX3lxTE43NlBDT3gySFUxaHNkc1hZNzh6SmdnVUw4M3VaaFJycFVsZDc5d2pIZk4wY2kySjN1dmd1cTc4UC1tUm5WVmJJN3RQYnlQYjRSdFYxUDlMNHNsaVVieFBpLVJhYmlXTDk1X2VjR0RpQnNQMUdoakw2SE5jT3Rnc0RtSktMeUVNN0xPRG9Ib0sxaUFQT0ZPOUJiTE9DaFVVSjduaWJBcy15TFctX2ZKQjA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONzZQQ094MkhVMWhzZHNYWTc4ekpnZ1VMODN1WmhScnBVbGQ3OXdqSGZOMGNpMkozdXZndXE3OFAtbVJuVlZiSTd0UGJ5UGI0UnRWMVA5TDRzbGlVYnhQaS1SYWJpV0w5NV9lY0dEaUJzUDFHaGpMNkhOY090Z3NEbUpLTHlFTTdMT0RvSG9LMWlBUE9GTzlCYkxPQ2hVVUo3bmliQXMteUxXLV9mSkIw0gGvAUFVX3lxTE43NlBDT3gySFUxaHNkc1hZNzh6SmdnVUw4M3VaaFJycFVsZDc5d2pIZk4wY2kySjN1dmd1cTc4UC1tUm5WVmJJN3RQYnlQYjRSdFYxUDlMNHNsaVVieFBpLVJhYmlXTDk1X2VjR0RpQnNQMUdoakw2SE5jT3Rnc0RtSktMeUVNN0xPRG9Ib0sxaUFQT0ZPOUJiTE9DaFVVSjduaWJBcy15TFctX2ZKQjA?oc=5",
+      "id": "CBMirwFBVV95cUxONzZQQ094MkhVMWhzZHNYWTc4ekpnZ1VMODN1WmhScnBVbGQ3OXdqSGZOMGNpMkozdXZndXE3OFAtbVJuVlZiSTd0UGJ5UGI0UnRWMVA5TDRzbGlVYnhQaS1SYWJpV0w5NV9lY0dEaUJzUDFHaGpMNkhOY090Z3NEbUpLTHlFTTdMT0RvSG9LMWlBUE9GTzlCYkxPQ2hVVUo3bmliQXMteUxXLV9mSkIw0gGvAUFVX3lxTE43NlBDT3gySFUxaHNkc1hZNzh6SmdnVUw4M3VaaFJycFVsZDc5d2pIZk4wY2kySjN1dmd1cTc4UC1tUm5WVmJJN3RQYnlQYjRSdFYxUDlMNHNsaVVieFBpLVJhYmlXTDk1X2VjR0RpQnNQMUdoakw2SE5jT3Rnc0RtSktMeUVNN0xPRG9Ib0sxaUFQT0ZPOUJiTE9DaFVVSjduaWJBcy15TFctX2ZKQjA",
+      "guidislink": false,
+      "published": "Thu, 02 Mar 2023 08:00:00 GMT",
+      "published_parsed": [
+        2023,
+        3,
+        2,
+        8,
+        0,
+        0,
+        3,
+        61,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxONzZQQ094MkhVMWhzZHNYWTc4ekpnZ1VMODN1WmhScnBVbGQ3OXdqSGZOMGNpMkozdXZndXE3OFAtbVJuVlZiSTd0UGJ5UGI0UnRWMVA5TDRzbGlVYnhQaS1SYWJpV0w5NV9lY0dEaUJzUDFHaGpMNkhOY090Z3NEbUpLTHlFTTdMT0RvSG9LMWlBUE9GTzlCYkxPQ2hVVUo3bmliQXMteUxXLV9mSkIw0gGvAUFVX3lxTE43NlBDT3gySFUxaHNkc1hZNzh6SmdnVUw4M3VaaFJycFVsZDc5d2pIZk4wY2kySjN1dmd1cTc4UC1tUm5WVmJJN3RQYnlQYjRSdFYxUDlMNHNsaVVieFBpLVJhYmlXTDk1X2VjR0RpQnNQMUdoakw2SE5jT3Rnc0RtSktMeUVNN0xPRG9Ib0sxaUFQT0ZPOUJiTE9DaFVVSjduaWJBcy15TFctX2ZKQjA?oc=5\" target=\"_blank\">Pandemic city: Village-in-a-dish unlocks dynamic genetic effects in the brain | Newswise</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Newswise</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxONzZQQ094MkhVMWhzZHNYWTc4ekpnZ1VMODN1WmhScnBVbGQ3OXdqSGZOMGNpMkozdXZndXE3OFAtbVJuVlZiSTd0UGJ5UGI0UnRWMVA5TDRzbGlVYnhQaS1SYWJpV0w5NV9lY0dEaUJzUDFHaGpMNkhOY090Z3NEbUpLTHlFTTdMT0RvSG9LMWlBUE9GTzlCYkxPQ2hVVUo3bmliQXMteUxXLV9mSkIw0gGvAUFVX3lxTE43NlBDT3gySFUxaHNkc1hZNzh6SmdnVUw4M3VaaFJycFVsZDc5d2pIZk4wY2kySjN1dmd1cTc4UC1tUm5WVmJJN3RQYnlQYjRSdFYxUDlMNHNsaVVieFBpLVJhYmlXTDk1X2VjR0RpQnNQMUdoakw2SE5jT3Rnc0RtSktMeUVNN0xPRG9Ib0sxaUFQT0ZPOUJiTE9DaFVVSjduaWJBcy15TFctX2ZKQjA?oc=5\" target=\"_blank\">Pandemic city: Village-in-a-dish unlocks dynamic genetic effects in the brain | Newswise</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Newswise</font>"
+      },
+      "source": {
+        "href": "https://www.newswise.com",
+        "title": "Newswise"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "‘Tis The Season … For Gonorrhea? - abcnews.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "‘Tis The Season … For Gonorrhea? - abcnews.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5kamo3Yno1bVFJMmh4dFBwVTRTeFZsVlNJSFRCTjMyU2p3OXhCNzZrUEljZVUyTTJzQVBwc0hCa0ZPWC1CWDB4cGlEVXRtU3NkYVdSS1dtMU1mcW1YRW5MLUVxN3pUSExwM1BuZmZLaFhwdFBz?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5kamo3Yno1bVFJMmh4dFBwVTRTeFZsVlNJSFRCTjMyU2p3OXhCNzZrUEljZVUyTTJzQVBwc0hCa0ZPWC1CWDB4cGlEVXRtU3NkYVdSS1dtMU1mcW1YRW5MLUVxN3pUSExwM1BuZmZLaFhwdFBz?oc=5",
+      "id": "CBMidEFVX3lxTE5kamo3Yno1bVFJMmh4dFBwVTRTeFZsVlNJSFRCTjMyU2p3OXhCNzZrUEljZVUyTTJzQVBwc0hCa0ZPWC1CWDB4cGlEVXRtU3NkYVdSS1dtMU1mcW1YRW5MLUVxN3pUSExwM1BuZmZLaFhwdFBz",
+      "guidislink": false,
+      "published": "Wed, 22 Mar 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        3,
+        22,
+        7,
+        0,
+        0,
+        2,
+        81,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE5kamo3Yno1bVFJMmh4dFBwVTRTeFZsVlNJSFRCTjMyU2p3OXhCNzZrUEljZVUyTTJzQVBwc0hCa0ZPWC1CWDB4cGlEVXRtU3NkYVdSS1dtMU1mcW1YRW5MLUVxN3pUSExwM1BuZmZLaFhwdFBz?oc=5\" target=\"_blank\">‘Tis The Season … For Gonorrhea?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">abcnews.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE5kamo3Yno1bVFJMmh4dFBwVTRTeFZsVlNJSFRCTjMyU2p3OXhCNzZrUEljZVUyTTJzQVBwc0hCa0ZPWC1CWDB4cGlEVXRtU3NkYVdSS1dtMU1mcW1YRW5MLUVxN3pUSExwM1BuZmZLaFhwdFBz?oc=5\" target=\"_blank\">‘Tis The Season … For Gonorrhea?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">abcnews.com</font>"
+      },
+      "source": {
+        "href": "https://fivethirtyeight.com",
+        "title": "abcnews.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Travelers Bring Zika To Hungary - Vax-Before-Travel",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Travelers Bring Zika To Hungary - Vax-Before-Travel"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5oZ2FKX1JIdVc0a3M5cXFPZk80RVlHZnJYSVhqVHNFam5BS0R6VUowUVMwenN0SkptS3JKa2tnWTZWZFNfWGdmX0ZkWXBHSlhleGI5R000NXBNUkMxOWQxaXRreVFDSjJNRXNvZnRUZw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5oZ2FKX1JIdVc0a3M5cXFPZk80RVlHZnJYSVhqVHNFam5BS0R6VUowUVMwenN0SkptS3JKa2tnWTZWZFNfWGdmX0ZkWXBHSlhleGI5R000NXBNUkMxOWQxaXRreVFDSjJNRXNvZnRUZw?oc=5",
+      "id": "CBMib0FVX3lxTE5oZ2FKX1JIdVc0a3M5cXFPZk80RVlHZnJYSVhqVHNFam5BS0R6VUowUVMwenN0SkptS3JKa2tnWTZWZFNfWGdmX0ZkWXBHSlhleGI5R000NXBNUkMxOWQxaXRreVFDSjJNRXNvZnRUZw",
+      "guidislink": false,
+      "published": "Wed, 22 Mar 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        3,
+        22,
+        7,
+        0,
+        0,
+        2,
+        81,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE5oZ2FKX1JIdVc0a3M5cXFPZk80RVlHZnJYSVhqVHNFam5BS0R6VUowUVMwenN0SkptS3JKa2tnWTZWZFNfWGdmX0ZkWXBHSlhleGI5R000NXBNUkMxOWQxaXRreVFDSjJNRXNvZnRUZw?oc=5\" target=\"_blank\">Travelers Bring Zika To Hungary</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vax-Before-Travel</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE5oZ2FKX1JIdVc0a3M5cXFPZk80RVlHZnJYSVhqVHNFam5BS0R6VUowUVMwenN0SkptS3JKa2tnWTZWZFNfWGdmX0ZkWXBHSlhleGI5R000NXBNUkMxOWQxaXRreVFDSjJNRXNvZnRUZw?oc=5\" target=\"_blank\">Travelers Bring Zika To Hungary</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vax-Before-Travel</font>"
+      },
+      "source": {
+        "href": "https://www.vax-before-travel.com",
+        "title": "Vax-Before-Travel"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Sharmila Tagore recalls horrible comments against Kareena when Taimur was born | Bollywood - Hindustan Times",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Sharmila Tagore recalls horrible comments against Kareena when Taimur was born | Bollywood - Hindustan Times"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNekNBSlR0UF9sVlJwUVpmNUphUng3X2lXRzVCUjVyV0VzNXZrc3dFOXk1SjI1amVEczJSWkNsalFhX2wzU0s1RU9ZTTg4WWxCYkYyZGN6ODloZVJqdXdDMHJobzZOaXBQSzBGcFBSRWpOWnJwMnRNMkZkc2RJUWxyRzZtWTFDdWFZYlRvWWdDekpORHYzb1hkbEk1bTBBbFVWZGZROWo3WFVlRmctSm1rai1mcXdteUFtNldLNDNMZHVlNWtXUXZDSGdQOEUxSEdWY2hDN2xKZ3VVT2tHSklLV09fdkVneENxYldMRWtQX1MtdEJqbGlmVVdyVEFkRFo0WGJVb0lNSHhLaVdlUVJJ0gGUAkFVX3lxTFB5NDVhUUF5bUZhMWgwWk1FdkU4eTBRT3JHcksxaGRxZ3o2V0VVMEF3cDVPT0ROeXgyNDBjZ3pWRHF2dGJCcGJOY3c1WXN4dzdrLWhYMWZ0dlQ5Rm0wNjFRck8tU3l4YkxTel96XzJkVEVuU0tWMkJMOTRzMjE1T0xQRURWY3hacG1GZDlXb01VOWpWeUJjbjBjdU45VU4wQkR3VjFFdFNLa0JmMnVzNFBoQzhzcW5fTUtzdW1fa3JxUy04QUI5aUNaajk0Z0ZPOHRFV1MxTC1vTG1MWWwzelBnYklOS1YwNXowMTEtZS0xZkR0TF9tM0JQLWtPNWcyUndZWmFpcXNyOEVvZGpCdEdHX1ROMg?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNekNBSlR0UF9sVlJwUVpmNUphUng3X2lXRzVCUjVyV0VzNXZrc3dFOXk1SjI1amVEczJSWkNsalFhX2wzU0s1RU9ZTTg4WWxCYkYyZGN6ODloZVJqdXdDMHJobzZOaXBQSzBGcFBSRWpOWnJwMnRNMkZkc2RJUWxyRzZtWTFDdWFZYlRvWWdDekpORHYzb1hkbEk1bTBBbFVWZGZROWo3WFVlRmctSm1rai1mcXdteUFtNldLNDNMZHVlNWtXUXZDSGdQOEUxSEdWY2hDN2xKZ3VVT2tHSklLV09fdkVneENxYldMRWtQX1MtdEJqbGlmVVdyVEFkRFo0WGJVb0lNSHhLaVdlUVJJ0gGUAkFVX3lxTFB5NDVhUUF5bUZhMWgwWk1FdkU4eTBRT3JHcksxaGRxZ3o2V0VVMEF3cDVPT0ROeXgyNDBjZ3pWRHF2dGJCcGJOY3c1WXN4dzdrLWhYMWZ0dlQ5Rm0wNjFRck8tU3l4YkxTel96XzJkVEVuU0tWMkJMOTRzMjE1T0xQRURWY3hacG1GZDlXb01VOWpWeUJjbjBjdU45VU4wQkR3VjFFdFNLa0JmMnVzNFBoQzhzcW5fTUtzdW1fa3JxUy04QUI5aUNaajk0Z0ZPOHRFV1MxTC1vTG1MWWwzelBnYklOS1YwNXowMTEtZS0xZkR0TF9tM0JQLWtPNWcyUndZWmFpcXNyOEVvZGpCdEdHX1ROMg?oc=5",
+      "id": "CBMijwJBVV95cUxNekNBSlR0UF9sVlJwUVpmNUphUng3X2lXRzVCUjVyV0VzNXZrc3dFOXk1SjI1amVEczJSWkNsalFhX2wzU0s1RU9ZTTg4WWxCYkYyZGN6ODloZVJqdXdDMHJobzZOaXBQSzBGcFBSRWpOWnJwMnRNMkZkc2RJUWxyRzZtWTFDdWFZYlRvWWdDekpORHYzb1hkbEk1bTBBbFVWZGZROWo3WFVlRmctSm1rai1mcXdteUFtNldLNDNMZHVlNWtXUXZDSGdQOEUxSEdWY2hDN2xKZ3VVT2tHSklLV09fdkVneENxYldMRWtQX1MtdEJqbGlmVVdyVEFkRFo0WGJVb0lNSHhLaVdlUVJJ0gGUAkFVX3lxTFB5NDVhUUF5bUZhMWgwWk1FdkU4eTBRT3JHcksxaGRxZ3o2V0VVMEF3cDVPT0ROeXgyNDBjZ3pWRHF2dGJCcGJOY3c1WXN4dzdrLWhYMWZ0dlQ5Rm0wNjFRck8tU3l4YkxTel96XzJkVEVuU0tWMkJMOTRzMjE1T0xQRURWY3hacG1GZDlXb01VOWpWeUJjbjBjdU45VU4wQkR3VjFFdFNLa0JmMnVzNFBoQzhzcW5fTUtzdW1fa3JxUy04QUI5aUNaajk0Z0ZPOHRFV1MxTC1vTG1MWWwzelBnYklOS1YwNXowMTEtZS0xZkR0TF9tM0JQLWtPNWcyUndZWmFpcXNyOEVvZGpCdEdHX1ROMg",
+      "guidislink": false,
+      "published": "Fri, 03 Mar 2023 08:00:00 GMT",
+      "published_parsed": [
+        2023,
+        3,
+        3,
+        8,
+        0,
+        0,
+        4,
+        62,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwJBVV95cUxNekNBSlR0UF9sVlJwUVpmNUphUng3X2lXRzVCUjVyV0VzNXZrc3dFOXk1SjI1amVEczJSWkNsalFhX2wzU0s1RU9ZTTg4WWxCYkYyZGN6ODloZVJqdXdDMHJobzZOaXBQSzBGcFBSRWpOWnJwMnRNMkZkc2RJUWxyRzZtWTFDdWFZYlRvWWdDekpORHYzb1hkbEk1bTBBbFVWZGZROWo3WFVlRmctSm1rai1mcXdteUFtNldLNDNMZHVlNWtXUXZDSGdQOEUxSEdWY2hDN2xKZ3VVT2tHSklLV09fdkVneENxYldMRWtQX1MtdEJqbGlmVVdyVEFkRFo0WGJVb0lNSHhLaVdlUVJJ0gGUAkFVX3lxTFB5NDVhUUF5bUZhMWgwWk1FdkU4eTBRT3JHcksxaGRxZ3o2V0VVMEF3cDVPT0ROeXgyNDBjZ3pWRHF2dGJCcGJOY3c1WXN4dzdrLWhYMWZ0dlQ5Rm0wNjFRck8tU3l4YkxTel96XzJkVEVuU0tWMkJMOTRzMjE1T0xQRURWY3hacG1GZDlXb01VOWpWeUJjbjBjdU45VU4wQkR3VjFFdFNLa0JmMnVzNFBoQzhzcW5fTUtzdW1fa3JxUy04QUI5aUNaajk0Z0ZPOHRFV1MxTC1vTG1MWWwzelBnYklOS1YwNXowMTEtZS0xZkR0TF9tM0JQLWtPNWcyUndZWmFpcXNyOEVvZGpCdEdHX1ROMg?oc=5\" target=\"_blank\">Sharmila Tagore recalls horrible comments against Kareena when Taimur was born | Bollywood</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Hindustan Times</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMijwJBVV95cUxNekNBSlR0UF9sVlJwUVpmNUphUng3X2lXRzVCUjVyV0VzNXZrc3dFOXk1SjI1amVEczJSWkNsalFhX2wzU0s1RU9ZTTg4WWxCYkYyZGN6ODloZVJqdXdDMHJobzZOaXBQSzBGcFBSRWpOWnJwMnRNMkZkc2RJUWxyRzZtWTFDdWFZYlRvWWdDekpORHYzb1hkbEk1bTBBbFVWZGZROWo3WFVlRmctSm1rai1mcXdteUFtNldLNDNMZHVlNWtXUXZDSGdQOEUxSEdWY2hDN2xKZ3VVT2tHSklLV09fdkVneENxYldMRWtQX1MtdEJqbGlmVVdyVEFkRFo0WGJVb0lNSHhLaVdlUVJJ0gGUAkFVX3lxTFB5NDVhUUF5bUZhMWgwWk1FdkU4eTBRT3JHcksxaGRxZ3o2V0VVMEF3cDVPT0ROeXgyNDBjZ3pWRHF2dGJCcGJOY3c1WXN4dzdrLWhYMWZ0dlQ5Rm0wNjFRck8tU3l4YkxTel96XzJkVEVuU0tWMkJMOTRzMjE1T0xQRURWY3hacG1GZDlXb01VOWpWeUJjbjBjdU45VU4wQkR3VjFFdFNLa0JmMnVzNFBoQzhzcW5fTUtzdW1fa3JxUy04QUI5aUNaajk0Z0ZPOHRFV1MxTC1vTG1MWWwzelBnYklOS1YwNXowMTEtZS0xZkR0TF9tM0JQLWtPNWcyUndZWmFpcXNyOEVvZGpCdEdHX1ROMg?oc=5\" target=\"_blank\">Sharmila Tagore recalls horrible comments against Kareena when Taimur was born | Bollywood</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Hindustan Times</font>"
+      },
+      "source": {
+        "href": "https://www.hindustantimes.com",
+        "title": "Hindustan Times"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Human footprint is associated with shifts in the assemblages of major vector-borne diseases - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Human footprint is associated with shifts in the assemblages of major vector-borne diseases - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9qT0czRDNTTFd5QUEzMzJMN3Q1Yl8ta1NqcXlUb09RaHgwcnVBMjVMNFNEN1FsT1VTLVA0bFJNOW1ibWJTQldVODlOcnpiQWkxRVRELUY1b09rdkxfcGJB?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9qT0czRDNTTFd5QUEzMzJMN3Q1Yl8ta1NqcXlUb09RaHgwcnVBMjVMNFNEN1FsT1VTLVA0bFJNOW1ibWJTQldVODlOcnpiQWkxRVRELUY1b09rdkxfcGJB?oc=5",
+      "id": "CBMiX0FVX3lxTE9qT0czRDNTTFd5QUEzMzJMN3Q1Yl8ta1NqcXlUb09RaHgwcnVBMjVMNFNEN1FsT1VTLVA0bFJNOW1ibWJTQldVODlOcnpiQWkxRVRELUY1b09rdkxfcGJB",
+      "guidislink": false,
+      "published": "Mon, 13 Mar 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        3,
+        13,
+        7,
+        0,
+        0,
+        0,
+        72,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9qT0czRDNTTFd5QUEzMzJMN3Q1Yl8ta1NqcXlUb09RaHgwcnVBMjVMNFNEN1FsT1VTLVA0bFJNOW1ibWJTQldVODlOcnpiQWkxRVRELUY1b09rdkxfcGJB?oc=5\" target=\"_blank\">Human footprint is associated with shifts in the assemblages of major vector-borne diseases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9qT0czRDNTTFd5QUEzMzJMN3Q1Yl8ta1NqcXlUb09RaHgwcnVBMjVMNFNEN1FsT1VTLVA0bFJNOW1ibWJTQldVODlOcnpiQWkxRVRELUY1b09rdkxfcGJB?oc=5\" target=\"_blank\">Human footprint is associated with shifts in the assemblages of major vector-borne diseases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Prestigious Pasteur Institute severs ties with China infectious disease lab - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Prestigious Pasteur Institute severs ties with China infectious disease lab - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9PSU56emRQcW9lQ01NbWdBNE5XSy1sS3loZ0JHOXdIOXFGdUJKcy1HUTFWUFEwRVhsUi1RQndxNnQ3Sk45N0F0NlhYMVZnSlJxTk96TGlRTzhNX1RpYU1j?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9PSU56emRQcW9lQ01NbWdBNE5XSy1sS3loZ0JHOXdIOXFGdUJKcy1HUTFWUFEwRVhsUi1RQndxNnQ3Sk45N0F0NlhYMVZnSlJxTk96TGlRTzhNX1RpYU1j?oc=5",
+      "id": "CBMiX0FVX3lxTE9PSU56emRQcW9lQ01NbWdBNE5XSy1sS3loZ0JHOXdIOXFGdUJKcy1HUTFWUFEwRVhsUi1RQndxNnQ3Sk45N0F0NlhYMVZnSlJxTk96TGlRTzhNX1RpYU1j",
+      "guidislink": false,
+      "published": "Wed, 08 Mar 2023 08:00:00 GMT",
+      "published_parsed": [
+        2023,
+        3,
+        8,
+        8,
+        0,
+        0,
+        2,
+        67,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9PSU56emRQcW9lQ01NbWdBNE5XSy1sS3loZ0JHOXdIOXFGdUJKcy1HUTFWUFEwRVhsUi1RQndxNnQ3Sk45N0F0NlhYMVZnSlJxTk96TGlRTzhNX1RpYU1j?oc=5\" target=\"_blank\">Prestigious Pasteur Institute severs ties with China infectious disease lab</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9PSU56emRQcW9lQ01NbWdBNE5XSy1sS3loZ0JHOXdIOXFGdUJKcy1HUTFWUFEwRVhsUi1RQndxNnQ3Sk45N0F0NlhYMVZnSlJxTk96TGlRTzhNX1RpYU1j?oc=5\" target=\"_blank\">Prestigious Pasteur Institute severs ties with China infectious disease lab</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "John Legg to kick off Pasco Superintendent campaign next month - Florida Politics",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "John Legg to kick off Pasco Superintendent campaign next month - Florida Politics"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdmpERVQ1b0gxT2l0dzN2emhWUGlHSFJPSm5nQVktRFBVUmxkQ1VKR2VhNUhQUWZmRWYxbkhhNHlZdW9paE5UQ2lQdDZqdUoxUFdxMkZDbWlwclE2QUROWlZZSnNKVXBZVzFTYUNMNm5UcUNaeVlUVEFwenVLRnRPNEl2djJTOGV1NWZvRVg0OHFKb1dmNlN2NFFmcEtoSWo3Mk1RNnJWeVBuUUU?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdmpERVQ1b0gxT2l0dzN2emhWUGlHSFJPSm5nQVktRFBVUmxkQ1VKR2VhNUhQUWZmRWYxbkhhNHlZdW9paE5UQ2lQdDZqdUoxUFdxMkZDbWlwclE2QUROWlZZSnNKVXBZVzFTYUNMNm5UcUNaeVlUVEFwenVLRnRPNEl2djJTOGV1NWZvRVg0OHFKb1dmNlN2NFFmcEtoSWo3Mk1RNnJWeVBuUUU?oc=5",
+      "id": "CBMiqwFBVV95cUxOdmpERVQ1b0gxT2l0dzN2emhWUGlHSFJPSm5nQVktRFBVUmxkQ1VKR2VhNUhQUWZmRWYxbkhhNHlZdW9paE5UQ2lQdDZqdUoxUFdxMkZDbWlwclE2QUROWlZZSnNKVXBZVzFTYUNMNm5UcUNaeVlUVEFwenVLRnRPNEl2djJTOGV1NWZvRVg0OHFKb1dmNlN2NFFmcEtoSWo3Mk1RNnJWeVBuUUU",
+      "guidislink": false,
+      "published": "Mon, 20 Mar 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        3,
+        20,
+        7,
+        0,
+        0,
+        0,
+        79,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdmpERVQ1b0gxT2l0dzN2emhWUGlHSFJPSm5nQVktRFBVUmxkQ1VKR2VhNUhQUWZmRWYxbkhhNHlZdW9paE5UQ2lQdDZqdUoxUFdxMkZDbWlwclE2QUROWlZZSnNKVXBZVzFTYUNMNm5UcUNaeVlUVEFwenVLRnRPNEl2djJTOGV1NWZvRVg0OHFKb1dmNlN2NFFmcEtoSWo3Mk1RNnJWeVBuUUU?oc=5\" target=\"_blank\">John Legg to kick off Pasco Superintendent campaign next month</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Florida Politics</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdmpERVQ1b0gxT2l0dzN2emhWUGlHSFJPSm5nQVktRFBVUmxkQ1VKR2VhNUhQUWZmRWYxbkhhNHlZdW9paE5UQ2lQdDZqdUoxUFdxMkZDbWlwclE2QUROWlZZSnNKVXBZVzFTYUNMNm5UcUNaeVlUVEFwenVLRnRPNEl2djJTOGV1NWZvRVg0OHFKb1dmNlN2NFFmcEtoSWo3Mk1RNnJWeVBuUUU?oc=5\" target=\"_blank\">John Legg to kick off Pasco Superintendent campaign next month</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Florida Politics</font>"
+      },
+      "source": {
+        "href": "https://floridapolitics.com",
+        "title": "Florida Politics"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Clinic details how 'transformational gift' will bolster research in Cleveland - Crain's Cleveland",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Clinic details how 'transformational gift' will bolster research in Cleveland - Crain's Cleveland"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUWhSaElYRWx6bHJPTk9scG5QT0VpbkRPNGF3TmdXS0c5SU5kQVBvaFhtUTdXcVF3OXZsTTdEYlhWOWxKSHNBUU1CSjRkaFlNeVRPSWZFSTY0dmdOMUd3dE1UajFfZ2tXT3hIbGxCcTJLV20xQkNTOVM3VUNScXhDeWZCUEpQYWNTNmRUT2Q5MTBYWU1kbnV2TkhNRFd2TzRUU3hXU1pOaw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUWhSaElYRWx6bHJPTk9scG5QT0VpbkRPNGF3TmdXS0c5SU5kQVBvaFhtUTdXcVF3OXZsTTdEYlhWOWxKSHNBUU1CSjRkaFlNeVRPSWZFSTY0dmdOMUd3dE1UajFfZ2tXT3hIbGxCcTJLV20xQkNTOVM3VUNScXhDeWZCUEpQYWNTNmRUT2Q5MTBYWU1kbnV2TkhNRFd2TzRUU3hXU1pOaw?oc=5",
+      "id": "CBMipwFBVV95cUxNUWhSaElYRWx6bHJPTk9scG5QT0VpbkRPNGF3TmdXS0c5SU5kQVBvaFhtUTdXcVF3OXZsTTdEYlhWOWxKSHNBUU1CSjRkaFlNeVRPSWZFSTY0dmdOMUd3dE1UajFfZ2tXT3hIbGxCcTJLV20xQkNTOVM3VUNScXhDeWZCUEpQYWNTNmRUT2Q5MTBYWU1kbnV2TkhNRFd2TzRUU3hXU1pOaw",
+      "guidislink": false,
+      "published": "Tue, 14 Mar 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        3,
+        14,
+        7,
+        0,
+        0,
+        1,
+        73,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxNUWhSaElYRWx6bHJPTk9scG5QT0VpbkRPNGF3TmdXS0c5SU5kQVBvaFhtUTdXcVF3OXZsTTdEYlhWOWxKSHNBUU1CSjRkaFlNeVRPSWZFSTY0dmdOMUd3dE1UajFfZ2tXT3hIbGxCcTJLV20xQkNTOVM3VUNScXhDeWZCUEpQYWNTNmRUT2Q5MTBYWU1kbnV2TkhNRFd2TzRUU3hXU1pOaw?oc=5\" target=\"_blank\">Clinic details how 'transformational gift' will bolster research in Cleveland</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crain's Cleveland</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxNUWhSaElYRWx6bHJPTk9scG5QT0VpbkRPNGF3TmdXS0c5SU5kQVBvaFhtUTdXcVF3OXZsTTdEYlhWOWxKSHNBUU1CSjRkaFlNeVRPSWZFSTY0dmdOMUd3dE1UajFfZ2tXT3hIbGxCcTJLV20xQkNTOVM3VUNScXhDeWZCUEpQYWNTNmRUT2Q5MTBYWU1kbnV2TkhNRFd2TzRUU3hXU1pOaw?oc=5\" target=\"_blank\">Clinic details how 'transformational gift' will bolster research in Cleveland</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Crain's Cleveland</font>"
+      },
+      "source": {
+        "href": "https://www.crainscleveland.com",
+        "title": "Crain's Cleveland"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Forrest Innovations vs. Mosquito-borne Diseases - Haaretz",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Forrest Innovations vs. Mosquito-borne Diseases - Haaretz"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQY0s4Sk52NjRTMHNudnpaT2U3RTlGNGN1SGMweVFpdVAzZ3ZRc0JvYlJwSWNEQTIwTjJlOC0wMWJMY2FVSVBIS1ZVVmVPRnlPMGpCakhKeXRVQ0lIZ3U3VzJoMFhldUNpVFNIbVU1SDFQeG9EcDJNdkVRVVVjTnhJckZ2b0VyQnJ0ampkOS04S1FwdkNmaGxyTldFZjVTSGdKX0d5LUlJbXk5MXNrV2xsdl9LdFZoRWpmMmtMT2pIYVJYQ2pkOEZHVlRJUnpRR3Y4ZHFZN1U2SHlLUTN2cmp1TmVza3pZT1dqOEpjalItYUZLSVIxTTNJYndwYzU1Q2l3UzVj?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQY0s4Sk52NjRTMHNudnpaT2U3RTlGNGN1SGMweVFpdVAzZ3ZRc0JvYlJwSWNEQTIwTjJlOC0wMWJMY2FVSVBIS1ZVVmVPRnlPMGpCakhKeXRVQ0lIZ3U3VzJoMFhldUNpVFNIbVU1SDFQeG9EcDJNdkVRVVVjTnhJckZ2b0VyQnJ0ampkOS04S1FwdkNmaGxyTldFZjVTSGdKX0d5LUlJbXk5MXNrV2xsdl9LdFZoRWpmMmtMT2pIYVJYQ2pkOEZHVlRJUnpRR3Y4ZHFZN1U2SHlLUTN2cmp1TmVza3pZT1dqOEpjalItYUZLSVIxTTNJYndwYzU1Q2l3UzVj?oc=5",
+      "id": "CBMigwJBVV95cUxQY0s4Sk52NjRTMHNudnpaT2U3RTlGNGN1SGMweVFpdVAzZ3ZRc0JvYlJwSWNEQTIwTjJlOC0wMWJMY2FVSVBIS1ZVVmVPRnlPMGpCakhKeXRVQ0lIZ3U3VzJoMFhldUNpVFNIbVU1SDFQeG9EcDJNdkVRVVVjTnhJckZ2b0VyQnJ0ampkOS04S1FwdkNmaGxyTldFZjVTSGdKX0d5LUlJbXk5MXNrV2xsdl9LdFZoRWpmMmtMT2pIYVJYQ2pkOEZHVlRJUnpRR3Y4ZHFZN1U2SHlLUTN2cmp1TmVza3pZT1dqOEpjalItYUZLSVIxTTNJYndwYzU1Q2l3UzVj",
+      "guidislink": false,
+      "published": "Mon, 13 Mar 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        3,
+        13,
+        7,
+        0,
+        0,
+        0,
+        72,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwJBVV95cUxQY0s4Sk52NjRTMHNudnpaT2U3RTlGNGN1SGMweVFpdVAzZ3ZRc0JvYlJwSWNEQTIwTjJlOC0wMWJMY2FVSVBIS1ZVVmVPRnlPMGpCakhKeXRVQ0lIZ3U3VzJoMFhldUNpVFNIbVU1SDFQeG9EcDJNdkVRVVVjTnhJckZ2b0VyQnJ0ampkOS04S1FwdkNmaGxyTldFZjVTSGdKX0d5LUlJbXk5MXNrV2xsdl9LdFZoRWpmMmtMT2pIYVJYQ2pkOEZHVlRJUnpRR3Y4ZHFZN1U2SHlLUTN2cmp1TmVza3pZT1dqOEpjalItYUZLSVIxTTNJYndwYzU1Q2l3UzVj?oc=5\" target=\"_blank\">Forrest Innovations vs. Mosquito-borne Diseases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Haaretz</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMigwJBVV95cUxQY0s4Sk52NjRTMHNudnpaT2U3RTlGNGN1SGMweVFpdVAzZ3ZRc0JvYlJwSWNEQTIwTjJlOC0wMWJMY2FVSVBIS1ZVVmVPRnlPMGpCakhKeXRVQ0lIZ3U3VzJoMFhldUNpVFNIbVU1SDFQeG9EcDJNdkVRVVVjTnhJckZ2b0VyQnJ0ampkOS04S1FwdkNmaGxyTldFZjVTSGdKX0d5LUlJbXk5MXNrV2xsdl9LdFZoRWpmMmtMT2pIYVJYQ2pkOEZHVlRJUnpRR3Y4ZHFZN1U2SHlLUTN2cmp1TmVza3pZT1dqOEpjalItYUZLSVIxTTNJYndwYzU1Q2l3UzVj?oc=5\" target=\"_blank\">Forrest Innovations vs. Mosquito-borne Diseases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Haaretz</font>"
+      },
+      "source": {
+        "href": "https://www.haaretz.com",
+        "title": "Haaretz"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Needle-free Injection Offers Robust Immune Response - Vax-Before-Travel",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Needle-free Injection Offers Robust Immune Response - Vax-Before-Travel"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUmhHSDVFWXlHVkUzd3ZDWU82OGNNeEJxX2J3M2NOY1NFbks5bUY0QURoSlFUSlVKOXVHODBIcHVmWGlqa2NlcmRHcXdWT19qcTgxdW9HSEZkenc2VU84ZThRUDdUZkF3VEtxUjMta2wxNnBZTGdVeWRQdVhuYWVCbGx1cnFSZ3VMN3lINUVxRGJ1S2t4SDlTMTVZdmk?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUmhHSDVFWXlHVkUzd3ZDWU82OGNNeEJxX2J3M2NOY1NFbks5bUY0QURoSlFUSlVKOXVHODBIcHVmWGlqa2NlcmRHcXdWT19qcTgxdW9HSEZkenc2VU84ZThRUDdUZkF3VEtxUjMta2wxNnBZTGdVeWRQdVhuYWVCbGx1cnFSZ3VMN3lINUVxRGJ1S2t4SDlTMTVZdmk?oc=5",
+      "id": "CBMinAFBVV95cUxPUmhHSDVFWXlHVkUzd3ZDWU82OGNNeEJxX2J3M2NOY1NFbks5bUY0QURoSlFUSlVKOXVHODBIcHVmWGlqa2NlcmRHcXdWT19qcTgxdW9HSEZkenc2VU84ZThRUDdUZkF3VEtxUjMta2wxNnBZTGdVeWRQdVhuYWVCbGx1cnFSZ3VMN3lINUVxRGJ1S2t4SDlTMTVZdmk",
+      "guidislink": false,
+      "published": "Thu, 23 Feb 2023 08:00:00 GMT",
+      "published_parsed": [
+        2023,
+        2,
+        23,
+        8,
+        0,
+        0,
+        3,
+        54,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxPUmhHSDVFWXlHVkUzd3ZDWU82OGNNeEJxX2J3M2NOY1NFbks5bUY0QURoSlFUSlVKOXVHODBIcHVmWGlqa2NlcmRHcXdWT19qcTgxdW9HSEZkenc2VU84ZThRUDdUZkF3VEtxUjMta2wxNnBZTGdVeWRQdVhuYWVCbGx1cnFSZ3VMN3lINUVxRGJ1S2t4SDlTMTVZdmk?oc=5\" target=\"_blank\">Needle-free Injection Offers Robust Immune Response</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vax-Before-Travel</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxPUmhHSDVFWXlHVkUzd3ZDWU82OGNNeEJxX2J3M2NOY1NFbks5bUY0QURoSlFUSlVKOXVHODBIcHVmWGlqa2NlcmRHcXdWT19qcTgxdW9HSEZkenc2VU84ZThRUDdUZkF3VEtxUjMta2wxNnBZTGdVeWRQdVhuYWVCbGx1cnFSZ3VMN3lINUVxRGJ1S2t4SDlTMTVZdmk?oc=5\" target=\"_blank\">Needle-free Injection Offers Robust Immune Response</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vax-Before-Travel</font>"
+      },
+      "source": {
+        "href": "https://www.vax-before-travel.com",
+        "title": "Vax-Before-Travel"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Dangers of Disease-Carrying Mosquitoes Highlighted by Greece’s Health Ministry - GreekReporter.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Dangers of Disease-Carrying Mosquitoes Highlighted by Greece’s Health Ministry - GreekReporter.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdmJveFA4cUttYzFUcmhZUDM0Z3BJZGFIUmpSNWo1bmM3N01CWC1yOWFLdGxGd0VvUGNVOGQxVUZ6eXJqTGIwejZEaVlSUmxtV2tVQm1IQ1ZfdHRid2UxVks5M3cwSXhGclI4WkZKZUhNNjJjem5YT2pfd2hYWjdrQ3VKa0xVdw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdmJveFA4cUttYzFUcmhZUDM0Z3BJZGFIUmpSNWo1bmM3N01CWC1yOWFLdGxGd0VvUGNVOGQxVUZ6eXJqTGIwejZEaVlSUmxtV2tVQm1IQ1ZfdHRid2UxVks5M3cwSXhGclI4WkZKZUhNNjJjem5YT2pfd2hYWjdrQ3VKa0xVdw?oc=5",
+      "id": "CBMihgFBVV95cUxPdmJveFA4cUttYzFUcmhZUDM0Z3BJZGFIUmpSNWo1bmM3N01CWC1yOWFLdGxGd0VvUGNVOGQxVUZ6eXJqTGIwejZEaVlSUmxtV2tVQm1IQ1ZfdHRid2UxVks5M3cwSXhGclI4WkZKZUhNNjJjem5YT2pfd2hYWjdrQ3VKa0xVdw",
+      "guidislink": false,
+      "published": "Fri, 10 Mar 2023 08:00:00 GMT",
+      "published_parsed": [
+        2023,
+        3,
+        10,
+        8,
+        0,
+        0,
+        4,
+        69,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxPdmJveFA4cUttYzFUcmhZUDM0Z3BJZGFIUmpSNWo1bmM3N01CWC1yOWFLdGxGd0VvUGNVOGQxVUZ6eXJqTGIwejZEaVlSUmxtV2tVQm1IQ1ZfdHRid2UxVks5M3cwSXhGclI4WkZKZUhNNjJjem5YT2pfd2hYWjdrQ3VKa0xVdw?oc=5\" target=\"_blank\">Dangers of Disease-Carrying Mosquitoes Highlighted by Greece’s Health Ministry</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GreekReporter.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxPdmJveFA4cUttYzFUcmhZUDM0Z3BJZGFIUmpSNWo1bmM3N01CWC1yOWFLdGxGd0VvUGNVOGQxVUZ6eXJqTGIwejZEaVlSUmxtV2tVQm1IQ1ZfdHRid2UxVks5M3cwSXhGclI4WkZKZUhNNjJjem5YT2pfd2hYWjdrQ3VKa0xVdw?oc=5\" target=\"_blank\">Dangers of Disease-Carrying Mosquitoes Highlighted by Greece’s Health Ministry</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GreekReporter.com</font>"
+      },
+      "source": {
+        "href": "https://greekreporter.com",
+        "title": "GreekReporter.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "‘Tiger mosquito’ may bring grim new diseases to Toronto - Toronto Star",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "‘Tiger mosquito’ may bring grim new diseases to Toronto - Toronto Star"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNODdDN1dlUUl3dU5UQzV5MXVLZWtIX0VFVWw4VDI3Um9zZWNtajZHR3J6azBIRVBqTTlZZVNjdU85OEdzSHhFY0E3cmt5akFlTVNLSElMcjI5VVNOTkRScGhoa3JFNE5xaGNRaG1CeFZicFp4anV6RHBTU01QeS1YblVQbzNIM2FaTXRCaXlJSG4zdlF3cXR0UFdlZ1Z5VEVteFZRRTNKaXVjQ2lJSGJCZko4NVA1LV9yUWpHR0lCekdhd2k5NGNDTUw2SlhySGhXdWNGTmQ4X3IxbndSWW9iQXBKcjZiYjdNeGZZZ3lub3hmUQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNODdDN1dlUUl3dU5UQzV5MXVLZWtIX0VFVWw4VDI3Um9zZWNtajZHR3J6azBIRVBqTTlZZVNjdU85OEdzSHhFY0E3cmt5akFlTVNLSElMcjI5VVNOTkRScGhoa3JFNE5xaGNRaG1CeFZicFp4anV6RHBTU01QeS1YblVQbzNIM2FaTXRCaXlJSG4zdlF3cXR0UFdlZ1Z5VEVteFZRRTNKaXVjQ2lJSGJCZko4NVA1LV9yUWpHR0lCekdhd2k5NGNDTUw2SlhySGhXdWNGTmQ4X3IxbndSWW9iQXBKcjZiYjdNeGZZZ3lub3hmUQ?oc=5",
+      "id": "CBMi8gFBVV95cUxNODdDN1dlUUl3dU5UQzV5MXVLZWtIX0VFVWw4VDI3Um9zZWNtajZHR3J6azBIRVBqTTlZZVNjdU85OEdzSHhFY0E3cmt5akFlTVNLSElMcjI5VVNOTkRScGhoa3JFNE5xaGNRaG1CeFZicFp4anV6RHBTU01QeS1YblVQbzNIM2FaTXRCaXlJSG4zdlF3cXR0UFdlZ1Z5VEVteFZRRTNKaXVjQ2lJSGJCZko4NVA1LV9yUWpHR0lCekdhd2k5NGNDTUw2SlhySGhXdWNGTmQ4X3IxbndSWW9iQXBKcjZiYjdNeGZZZ3lub3hmUQ",
+      "guidislink": false,
+      "published": "Wed, 01 Mar 2023 08:00:00 GMT",
+      "published_parsed": [
+        2023,
+        3,
+        1,
+        8,
+        0,
+        0,
+        2,
+        60,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi8gFBVV95cUxNODdDN1dlUUl3dU5UQzV5MXVLZWtIX0VFVWw4VDI3Um9zZWNtajZHR3J6azBIRVBqTTlZZVNjdU85OEdzSHhFY0E3cmt5akFlTVNLSElMcjI5VVNOTkRScGhoa3JFNE5xaGNRaG1CeFZicFp4anV6RHBTU01QeS1YblVQbzNIM2FaTXRCaXlJSG4zdlF3cXR0UFdlZ1Z5VEVteFZRRTNKaXVjQ2lJSGJCZko4NVA1LV9yUWpHR0lCekdhd2k5NGNDTUw2SlhySGhXdWNGTmQ4X3IxbndSWW9iQXBKcjZiYjdNeGZZZ3lub3hmUQ?oc=5\" target=\"_blank\">‘Tiger mosquito’ may bring grim new diseases to Toronto</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Toronto Star</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi8gFBVV95cUxNODdDN1dlUUl3dU5UQzV5MXVLZWtIX0VFVWw4VDI3Um9zZWNtajZHR3J6azBIRVBqTTlZZVNjdU85OEdzSHhFY0E3cmt5akFlTVNLSElMcjI5VVNOTkRScGhoa3JFNE5xaGNRaG1CeFZicFp4anV6RHBTU01QeS1YblVQbzNIM2FaTXRCaXlJSG4zdlF3cXR0UFdlZ1Z5VEVteFZRRTNKaXVjQ2lJSGJCZko4NVA1LV9yUWpHR0lCekdhd2k5NGNDTUw2SlhySGhXdWNGTmQ4X3IxbndSWW9iQXBKcjZiYjdNeGZZZ3lub3hmUQ?oc=5\" target=\"_blank\">‘Tiger mosquito’ may bring grim new diseases to Toronto</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Toronto Star</font>"
+      },
+      "source": {
+        "href": "https://www.thestar.com",
+        "title": "Toronto Star"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "William \" Bill\" W. Harding Jr. - Villages-News.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "William \" Bill\" W. Harding Jr. - Villages-News.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9zZW5VSkNfaWJRY0hZUWRha1Z4ZGE0MUwzZDdCUnZvN1VKY3Z2dU9xRlJ6VVlSY2Y5X205SmtzdHZwaEJqV2g1aGE0MzVBQ1JTSV9EeFVtTTZHQjJrOEdOZU9TWVdKNDI1OERrUGRuSVBES3ZFeVE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9zZW5VSkNfaWJRY0hZUWRha1Z4ZGE0MUwzZDdCUnZvN1VKY3Z2dU9xRlJ6VVlSY2Y5X205SmtzdHZwaEJqV2g1aGE0MzVBQ1JTSV9EeFVtTTZHQjJrOEdOZU9TWVdKNDI1OERrUGRuSVBES3ZFeVE?oc=5",
+      "id": "CBMidkFVX3lxTE9zZW5VSkNfaWJRY0hZUWRha1Z4ZGE0MUwzZDdCUnZvN1VKY3Z2dU9xRlJ6VVlSY2Y5X205SmtzdHZwaEJqV2g1aGE0MzVBQ1JTSV9EeFVtTTZHQjJrOEdOZU9TWVdKNDI1OERrUGRuSVBES3ZFeVE",
+      "guidislink": false,
+      "published": "Mon, 20 Mar 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        3,
+        20,
+        7,
+        0,
+        0,
+        0,
+        79,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE9zZW5VSkNfaWJRY0hZUWRha1Z4ZGE0MUwzZDdCUnZvN1VKY3Z2dU9xRlJ6VVlSY2Y5X205SmtzdHZwaEJqV2g1aGE0MzVBQ1JTSV9EeFVtTTZHQjJrOEdOZU9TWVdKNDI1OERrUGRuSVBES3ZFeVE?oc=5\" target=\"_blank\">William \" Bill\" W. Harding Jr.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Villages-News.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE9zZW5VSkNfaWJRY0hZUWRha1Z4ZGE0MUwzZDdCUnZvN1VKY3Z2dU9xRlJ6VVlSY2Y5X205SmtzdHZwaEJqV2g1aGE0MzVBQ1JTSV9EeFVtTTZHQjJrOEdOZU9TWVdKNDI1OERrUGRuSVBES3ZFeVE?oc=5\" target=\"_blank\">William \" Bill\" W. Harding Jr.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Villages-News.com</font>"
+      },
+      "source": {
+        "href": "https://www.villages-news.com",
+        "title": "Villages-News.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Will the 'Tiger mosquito' bring infectious disease to Ontario? What you need to know - CTV News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Will the 'Tiger mosquito' bring infectious disease to Ontario? What you need to know - CTV News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNeXdrVF9HWEl1akNadEtYNE0xM29FaWNMNzBrcnlGQ3RPRzBrdno4dFBvT2plM2huOE1JakpXU2g0cjRLRjJ6ZExiMWQ4dFNJQVNYSElIRXRyamV5QlpwRGFJekZJTTNXaUtlSnNjVnVYVkd3SHhCVDkwWF9sZ3N2djFTY0VKMDV1bTRkdnQ4S0J0SnNrcFBVYloxSDJSMlVoNXh3dGlGZko4SDRxNkxrOVNINlZONzRzcDBUZWlR?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNeXdrVF9HWEl1akNadEtYNE0xM29FaWNMNzBrcnlGQ3RPRzBrdno4dFBvT2plM2huOE1JakpXU2g0cjRLRjJ6ZExiMWQ4dFNJQVNYSElIRXRyamV5QlpwRGFJekZJTTNXaUtlSnNjVnVYVkd3SHhCVDkwWF9sZ3N2djFTY0VKMDV1bTRkdnQ4S0J0SnNrcFBVYloxSDJSMlVoNXh3dGlGZko4SDRxNkxrOVNINlZONzRzcDBUZWlR?oc=5",
+      "id": "CBMivgFBVV95cUxNeXdrVF9HWEl1akNadEtYNE0xM29FaWNMNzBrcnlGQ3RPRzBrdno4dFBvT2plM2huOE1JakpXU2g0cjRLRjJ6ZExiMWQ4dFNJQVNYSElIRXRyamV5QlpwRGFJekZJTTNXaUtlSnNjVnVYVkd3SHhCVDkwWF9sZ3N2djFTY0VKMDV1bTRkdnQ4S0J0SnNrcFBVYloxSDJSMlVoNXh3dGlGZko4SDRxNkxrOVNINlZONzRzcDBUZWlR",
+      "guidislink": false,
+      "published": "Thu, 02 Mar 2023 08:00:00 GMT",
+      "published_parsed": [
+        2023,
+        3,
+        2,
+        8,
+        0,
+        0,
+        3,
+        61,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxNeXdrVF9HWEl1akNadEtYNE0xM29FaWNMNzBrcnlGQ3RPRzBrdno4dFBvT2plM2huOE1JakpXU2g0cjRLRjJ6ZExiMWQ4dFNJQVNYSElIRXRyamV5QlpwRGFJekZJTTNXaUtlSnNjVnVYVkd3SHhCVDkwWF9sZ3N2djFTY0VKMDV1bTRkdnQ4S0J0SnNrcFBVYloxSDJSMlVoNXh3dGlGZko4SDRxNkxrOVNINlZONzRzcDBUZWlR?oc=5\" target=\"_blank\">Will the 'Tiger mosquito' bring infectious disease to Ontario? What you need to know</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CTV News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxNeXdrVF9HWEl1akNadEtYNE0xM29FaWNMNzBrcnlGQ3RPRzBrdno4dFBvT2plM2huOE1JakpXU2g0cjRLRjJ6ZExiMWQ4dFNJQVNYSElIRXRyamV5QlpwRGFJekZJTTNXaUtlSnNjVnVYVkd3SHhCVDkwWF9sZ3N2djFTY0VKMDV1bTRkdnQ4S0J0SnNrcFBVYloxSDJSMlVoNXh3dGlGZko4SDRxNkxrOVNINlZONzRzcDBUZWlR?oc=5\" target=\"_blank\">Will the 'Tiger mosquito' bring infectious disease to Ontario? What you need to know</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CTV News</font>"
+      },
+      "source": {
+        "href": "https://www.ctvnews.ca",
+        "title": "CTV News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Summer brings in fear of mosquito menace - Deccan Chronicle",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Summer brings in fear of mosquito menace - Deccan Chronicle"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRl9XMlN4TGlIYXpXel9xZ1Y5Z3NnaVBqN29QX3lGejhvdlhGY21zX0pCUXRNTVdtSzVmckVuUXNIaEloNkV0bFhxUDg0d3dJbHQtbG02QU9jS2JDNGhEUGJQaVFFMFc5UjN5Z1p2VGwzT3hEb2xRd1dPNktvb2tfNDhWTVZGazBCVWlnYTlKOVI4WGtOQTRoVEhwalItQ055YnhDWV9QV2ZVVDTSAbABQVVfeXFMTVBhNFpXaGp6bTAySk1WcUdYWklhV3c5UG5zaG03R1RqQktjTE5xQjltVFFlQXI1Y2RieXd5ckJrenpXV084NHZDU3dYZUUtMDFsVjJKcEdZWjJpbWhuVXFWelFMR0tzM2VFQjJQX08tb25INURNT1N5SldBMmlqdWo4MWNBOU1hUGhfQUpsN1JSa0pST1c3THl0UE96Tm5DalpnZFdPaWRxUHhtanBFRXo?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRl9XMlN4TGlIYXpXel9xZ1Y5Z3NnaVBqN29QX3lGejhvdlhGY21zX0pCUXRNTVdtSzVmckVuUXNIaEloNkV0bFhxUDg0d3dJbHQtbG02QU9jS2JDNGhEUGJQaVFFMFc5UjN5Z1p2VGwzT3hEb2xRd1dPNktvb2tfNDhWTVZGazBCVWlnYTlKOVI4WGtOQTRoVEhwalItQ055YnhDWV9QV2ZVVDTSAbABQVVfeXFMTVBhNFpXaGp6bTAySk1WcUdYWklhV3c5UG5zaG03R1RqQktjTE5xQjltVFFlQXI1Y2RieXd5ckJrenpXV084NHZDU3dYZUUtMDFsVjJKcEdZWjJpbWhuVXFWelFMR0tzM2VFQjJQX08tb25INURNT1N5SldBMmlqdWo4MWNBOU1hUGhfQUpsN1JSa0pST1c3THl0UE96Tm5DalpnZFdPaWRxUHhtanBFRXo?oc=5",
+      "id": "CBMiqwFBVV95cUxNRl9XMlN4TGlIYXpXel9xZ1Y5Z3NnaVBqN29QX3lGejhvdlhGY21zX0pCUXRNTVdtSzVmckVuUXNIaEloNkV0bFhxUDg0d3dJbHQtbG02QU9jS2JDNGhEUGJQaVFFMFc5UjN5Z1p2VGwzT3hEb2xRd1dPNktvb2tfNDhWTVZGazBCVWlnYTlKOVI4WGtOQTRoVEhwalItQ055YnhDWV9QV2ZVVDTSAbABQVVfeXFMTVBhNFpXaGp6bTAySk1WcUdYWklhV3c5UG5zaG03R1RqQktjTE5xQjltVFFlQXI1Y2RieXd5ckJrenpXV084NHZDU3dYZUUtMDFsVjJKcEdZWjJpbWhuVXFWelFMR0tzM2VFQjJQX08tb25INURNT1N5SldBMmlqdWo4MWNBOU1hUGhfQUpsN1JSa0pST1c3THl0UE96Tm5DalpnZFdPaWRxUHhtanBFRXo",
+      "guidislink": false,
+      "published": "Fri, 24 Feb 2023 08:00:00 GMT",
+      "published_parsed": [
+        2023,
+        2,
+        24,
+        8,
+        0,
+        0,
+        4,
+        55,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRl9XMlN4TGlIYXpXel9xZ1Y5Z3NnaVBqN29QX3lGejhvdlhGY21zX0pCUXRNTVdtSzVmckVuUXNIaEloNkV0bFhxUDg0d3dJbHQtbG02QU9jS2JDNGhEUGJQaVFFMFc5UjN5Z1p2VGwzT3hEb2xRd1dPNktvb2tfNDhWTVZGazBCVWlnYTlKOVI4WGtOQTRoVEhwalItQ055YnhDWV9QV2ZVVDTSAbABQVVfeXFMTVBhNFpXaGp6bTAySk1WcUdYWklhV3c5UG5zaG03R1RqQktjTE5xQjltVFFlQXI1Y2RieXd5ckJrenpXV084NHZDU3dYZUUtMDFsVjJKcEdZWjJpbWhuVXFWelFMR0tzM2VFQjJQX08tb25INURNT1N5SldBMmlqdWo4MWNBOU1hUGhfQUpsN1JSa0pST1c3THl0UE96Tm5DalpnZFdPaWRxUHhtanBFRXo?oc=5\" target=\"_blank\">Summer brings in fear of mosquito menace</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Deccan Chronicle</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRl9XMlN4TGlIYXpXel9xZ1Y5Z3NnaVBqN29QX3lGejhvdlhGY21zX0pCUXRNTVdtSzVmckVuUXNIaEloNkV0bFhxUDg0d3dJbHQtbG02QU9jS2JDNGhEUGJQaVFFMFc5UjN5Z1p2VGwzT3hEb2xRd1dPNktvb2tfNDhWTVZGazBCVWlnYTlKOVI4WGtOQTRoVEhwalItQ055YnhDWV9QV2ZVVDTSAbABQVVfeXFMTVBhNFpXaGp6bTAySk1WcUdYWklhV3c5UG5zaG03R1RqQktjTE5xQjltVFFlQXI1Y2RieXd5ckJrenpXV084NHZDU3dYZUUtMDFsVjJKcEdZWjJpbWhuVXFWelFMR0tzM2VFQjJQX08tb25INURNT1N5SldBMmlqdWo4MWNBOU1hUGhfQUpsN1JSa0pST1c3THl0UE96Tm5DalpnZFdPaWRxUHhtanBFRXo?oc=5\" target=\"_blank\">Summer brings in fear of mosquito menace</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Deccan Chronicle</font>"
+      },
+      "source": {
+        "href": "https://www.deccanchronicle.com",
+        "title": "Deccan Chronicle"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Health overhaul: BBMP to set up surveillance unit in Bengaluru - The New Indian Express",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Health overhaul: BBMP to set up surveillance unit in Bengaluru - The New Indian Express"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQajBCaWVmWkJoczVoaTJKVkZyajZRSGNaUkN4QXhBZ1MxT3VaOVBZSzRwVnZNdmotLTd4OU1hbjVJYVl6dG1jbEVacXNYNFlZbmpDbzlsMFAteUxJNjlNX3NleUEtR1ozeDc1c0I1OGxxTzRwdXd1ZHdRazFlQ1MxVHR3UHZReElGdlNsVEljNXc2RmQtUEc2V0E1Q2o4OTFPVXVsSGhRbjdyUXJvMW9mMmNjbTdEbnYxdGNZUHN5bHVfdFZadFJyUVJ4dUszZkxk0gHeAUFVX3lxTFAwRTl0YjlpdDNyc0F0a1U4NzlmeVoyQzV0OWxxRUdKUUlhSFcxNnZnZzVEYUNfcS1QV0NhWjlNTmdDNGxMVHBHc19qeUExa29zTkt0N2lwdHpfekNCMmY1ZE1sbmJ6UmQ5cFd0MlE4UUwzNVdYUXRITXJCRUdqOXlCTVpEV252NE9BS2hjY1E4N3plLWU2NUt6NWYxcnYxQ2hiVzFrV0xONmhwZTNuc2NnVWhLdHdtYXJBWUhYUVk1cENlT3ZUR1paa1ljQzJ4WVp6ZGp1VDlEZGRtNjlVUQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQajBCaWVmWkJoczVoaTJKVkZyajZRSGNaUkN4QXhBZ1MxT3VaOVBZSzRwVnZNdmotLTd4OU1hbjVJYVl6dG1jbEVacXNYNFlZbmpDbzlsMFAteUxJNjlNX3NleUEtR1ozeDc1c0I1OGxxTzRwdXd1ZHdRazFlQ1MxVHR3UHZReElGdlNsVEljNXc2RmQtUEc2V0E1Q2o4OTFPVXVsSGhRbjdyUXJvMW9mMmNjbTdEbnYxdGNZUHN5bHVfdFZadFJyUVJ4dUszZkxk0gHeAUFVX3lxTFAwRTl0YjlpdDNyc0F0a1U4NzlmeVoyQzV0OWxxRUdKUUlhSFcxNnZnZzVEYUNfcS1QV0NhWjlNTmdDNGxMVHBHc19qeUExa29zTkt0N2lwdHpfekNCMmY1ZE1sbmJ6UmQ5cFd0MlE4UUwzNVdYUXRITXJCRUdqOXlCTVpEV252NE9BS2hjY1E4N3plLWU2NUt6NWYxcnYxQ2hiVzFrV0xONmhwZTNuc2NnVWhLdHdtYXJBWUhYUVk1cENlT3ZUR1paa1ljQzJ4WVp6ZGp1VDlEZGRtNjlVUQ?oc=5",
+      "id": "CBMi0AFBVV95cUxQajBCaWVmWkJoczVoaTJKVkZyajZRSGNaUkN4QXhBZ1MxT3VaOVBZSzRwVnZNdmotLTd4OU1hbjVJYVl6dG1jbEVacXNYNFlZbmpDbzlsMFAteUxJNjlNX3NleUEtR1ozeDc1c0I1OGxxTzRwdXd1ZHdRazFlQ1MxVHR3UHZReElGdlNsVEljNXc2RmQtUEc2V0E1Q2o4OTFPVXVsSGhRbjdyUXJvMW9mMmNjbTdEbnYxdGNZUHN5bHVfdFZadFJyUVJ4dUszZkxk0gHeAUFVX3lxTFAwRTl0YjlpdDNyc0F0a1U4NzlmeVoyQzV0OWxxRUdKUUlhSFcxNnZnZzVEYUNfcS1QV0NhWjlNTmdDNGxMVHBHc19qeUExa29zTkt0N2lwdHpfekNCMmY1ZE1sbmJ6UmQ5cFd0MlE4UUwzNVdYUXRITXJCRUdqOXlCTVpEV252NE9BS2hjY1E4N3plLWU2NUt6NWYxcnYxQ2hiVzFrV0xONmhwZTNuc2NnVWhLdHdtYXJBWUhYUVk1cENlT3ZUR1paa1ljQzJ4WVp6ZGp1VDlEZGRtNjlVUQ",
+      "guidislink": false,
+      "published": "Fri, 10 Mar 2023 08:00:00 GMT",
+      "published_parsed": [
+        2023,
+        3,
+        10,
+        8,
+        0,
+        0,
+        4,
+        69,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxQajBCaWVmWkJoczVoaTJKVkZyajZRSGNaUkN4QXhBZ1MxT3VaOVBZSzRwVnZNdmotLTd4OU1hbjVJYVl6dG1jbEVacXNYNFlZbmpDbzlsMFAteUxJNjlNX3NleUEtR1ozeDc1c0I1OGxxTzRwdXd1ZHdRazFlQ1MxVHR3UHZReElGdlNsVEljNXc2RmQtUEc2V0E1Q2o4OTFPVXVsSGhRbjdyUXJvMW9mMmNjbTdEbnYxdGNZUHN5bHVfdFZadFJyUVJ4dUszZkxk0gHeAUFVX3lxTFAwRTl0YjlpdDNyc0F0a1U4NzlmeVoyQzV0OWxxRUdKUUlhSFcxNnZnZzVEYUNfcS1QV0NhWjlNTmdDNGxMVHBHc19qeUExa29zTkt0N2lwdHpfekNCMmY1ZE1sbmJ6UmQ5cFd0MlE4UUwzNVdYUXRITXJCRUdqOXlCTVpEV252NE9BS2hjY1E4N3plLWU2NUt6NWYxcnYxQ2hiVzFrV0xONmhwZTNuc2NnVWhLdHdtYXJBWUhYUVk1cENlT3ZUR1paa1ljQzJ4WVp6ZGp1VDlEZGRtNjlVUQ?oc=5\" target=\"_blank\">Health overhaul: BBMP to set up surveillance unit in Bengaluru</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New Indian Express</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxQajBCaWVmWkJoczVoaTJKVkZyajZRSGNaUkN4QXhBZ1MxT3VaOVBZSzRwVnZNdmotLTd4OU1hbjVJYVl6dG1jbEVacXNYNFlZbmpDbzlsMFAteUxJNjlNX3NleUEtR1ozeDc1c0I1OGxxTzRwdXd1ZHdRazFlQ1MxVHR3UHZReElGdlNsVEljNXc2RmQtUEc2V0E1Q2o4OTFPVXVsSGhRbjdyUXJvMW9mMmNjbTdEbnYxdGNZUHN5bHVfdFZadFJyUVJ4dUszZkxk0gHeAUFVX3lxTFAwRTl0YjlpdDNyc0F0a1U4NzlmeVoyQzV0OWxxRUdKUUlhSFcxNnZnZzVEYUNfcS1QV0NhWjlNTmdDNGxMVHBHc19qeUExa29zTkt0N2lwdHpfekNCMmY1ZE1sbmJ6UmQ5cFd0MlE4UUwzNVdYUXRITXJCRUdqOXlCTVpEV252NE9BS2hjY1E4N3plLWU2NUt6NWYxcnYxQ2hiVzFrV0xONmhwZTNuc2NnVWhLdHdtYXJBWUhYUVk1cENlT3ZUR1paa1ljQzJ4WVp6ZGp1VDlEZGRtNjlVUQ?oc=5\" target=\"_blank\">Health overhaul: BBMP to set up surveillance unit in Bengaluru</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New Indian Express</font>"
+      },
+      "source": {
+        "href": "https://www.newindianexpress.com",
+        "title": "The New Indian Express"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Sharmila Tagore says Vidya Balan’s Kahaani and Dirty Picture compromised on their feminist themes: ‘In Dirty Picture, she is a victim…’ - The Indian Express",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Sharmila Tagore says Vidya Balan’s Kahaani and Dirty Picture compromised on their feminist themes: ‘In Dirty Picture, she is a victim…’ - The Indian Express"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPazB4cFNuUF9VNVlqZjNtdjE0SFZsNjNwMFE0ZTRDS1libGtqaHlwMmN3OHRITWp4Qml5blFEeXBlTGZsUVJQWUJfNjhkQUFMTHBhNHI2WnlqX2xiWHEzSFFhLUdoMVNZRTh3T0E2SV9JQVhYaHJiVWhsVTRkYU5BMldENUVsYTF4WE1rY0JHclFMM1N2b052U01scmpMMjZpeWNiUGZBeTVvbVNpX2dydU80bDdBY2ljRFRqaFdFYzlFYXpfX1RFM29iMUdDZHdVMm5zZ1IwQXpNYmNTVkt5MVFfcHAyZzJGTjVPdndTakJCd9IB-AFBVV95cUxPTklUa01sZzdkcVJxcWtSb3UtY1c5aHFrR3h6ckREd0dBRlhTX2JiZ0RqOHhRUUk5bTEzcnoxNTBPS2F3bGZQZjFtcWNpdXkxM3RPaFR5SUNSRVpvZzBGOXZxYU5CY1FHYjgzQklsdU5TeUVtbEZMdC1VeEpmc0hLLTRCOEN0blh6WGlkUXhvZjVHX0Q5X3YxaEdXWVJ0VFFjd2pzM0hfbDhybjR3eGh0c2ZyWC13Wmk0QThIWk02NmdFcm9qZDYtYlVsblozYzktd3ZZX0Y2OFVqajYzaVgyQzFDQjM2VFYtTDBWUDRoUjlHNW9CRVM4MA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPazB4cFNuUF9VNVlqZjNtdjE0SFZsNjNwMFE0ZTRDS1libGtqaHlwMmN3OHRITWp4Qml5blFEeXBlTGZsUVJQWUJfNjhkQUFMTHBhNHI2WnlqX2xiWHEzSFFhLUdoMVNZRTh3T0E2SV9JQVhYaHJiVWhsVTRkYU5BMldENUVsYTF4WE1rY0JHclFMM1N2b052U01scmpMMjZpeWNiUGZBeTVvbVNpX2dydU80bDdBY2ljRFRqaFdFYzlFYXpfX1RFM29iMUdDZHdVMm5zZ1IwQXpNYmNTVkt5MVFfcHAyZzJGTjVPdndTakJCd9IB-AFBVV95cUxPTklUa01sZzdkcVJxcWtSb3UtY1c5aHFrR3h6ckREd0dBRlhTX2JiZ0RqOHhRUUk5bTEzcnoxNTBPS2F3bGZQZjFtcWNpdXkxM3RPaFR5SUNSRVpvZzBGOXZxYU5CY1FHYjgzQklsdU5TeUVtbEZMdC1VeEpmc0hLLTRCOEN0blh6WGlkUXhvZjVHX0Q5X3YxaEdXWVJ0VFFjd2pzM0hfbDhybjR3eGh0c2ZyWC13Wmk0QThIWk02NmdFcm9qZDYtYlVsblozYzktd3ZZX0Y2OFVqajYzaVgyQzFDQjM2VFYtTDBWUDRoUjlHNW9CRVM4MA?oc=5",
+      "id": "CBMi8gFBVV95cUxPazB4cFNuUF9VNVlqZjNtdjE0SFZsNjNwMFE0ZTRDS1libGtqaHlwMmN3OHRITWp4Qml5blFEeXBlTGZsUVJQWUJfNjhkQUFMTHBhNHI2WnlqX2xiWHEzSFFhLUdoMVNZRTh3T0E2SV9JQVhYaHJiVWhsVTRkYU5BMldENUVsYTF4WE1rY0JHclFMM1N2b052U01scmpMMjZpeWNiUGZBeTVvbVNpX2dydU80bDdBY2ljRFRqaFdFYzlFYXpfX1RFM29iMUdDZHdVMm5zZ1IwQXpNYmNTVkt5MVFfcHAyZzJGTjVPdndTakJCd9IB-AFBVV95cUxPTklUa01sZzdkcVJxcWtSb3UtY1c5aHFrR3h6ckREd0dBRlhTX2JiZ0RqOHhRUUk5bTEzcnoxNTBPS2F3bGZQZjFtcWNpdXkxM3RPaFR5SUNSRVpvZzBGOXZxYU5CY1FHYjgzQklsdU5TeUVtbEZMdC1VeEpmc0hLLTRCOEN0blh6WGlkUXhvZjVHX0Q5X3YxaEdXWVJ0VFFjd2pzM0hfbDhybjR3eGh0c2ZyWC13Wmk0QThIWk02NmdFcm9qZDYtYlVsblozYzktd3ZZX0Y2OFVqajYzaVgyQzFDQjM2VFYtTDBWUDRoUjlHNW9CRVM4MA",
+      "guidislink": false,
+      "published": "Thu, 02 Mar 2023 08:00:00 GMT",
+      "published_parsed": [
+        2023,
+        3,
+        2,
+        8,
+        0,
+        0,
+        3,
+        61,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi8gFBVV95cUxPazB4cFNuUF9VNVlqZjNtdjE0SFZsNjNwMFE0ZTRDS1libGtqaHlwMmN3OHRITWp4Qml5blFEeXBlTGZsUVJQWUJfNjhkQUFMTHBhNHI2WnlqX2xiWHEzSFFhLUdoMVNZRTh3T0E2SV9JQVhYaHJiVWhsVTRkYU5BMldENUVsYTF4WE1rY0JHclFMM1N2b052U01scmpMMjZpeWNiUGZBeTVvbVNpX2dydU80bDdBY2ljRFRqaFdFYzlFYXpfX1RFM29iMUdDZHdVMm5zZ1IwQXpNYmNTVkt5MVFfcHAyZzJGTjVPdndTakJCd9IB-AFBVV95cUxPTklUa01sZzdkcVJxcWtSb3UtY1c5aHFrR3h6ckREd0dBRlhTX2JiZ0RqOHhRUUk5bTEzcnoxNTBPS2F3bGZQZjFtcWNpdXkxM3RPaFR5SUNSRVpvZzBGOXZxYU5CY1FHYjgzQklsdU5TeUVtbEZMdC1VeEpmc0hLLTRCOEN0blh6WGlkUXhvZjVHX0Q5X3YxaEdXWVJ0VFFjd2pzM0hfbDhybjR3eGh0c2ZyWC13Wmk0QThIWk02NmdFcm9qZDYtYlVsblozYzktd3ZZX0Y2OFVqajYzaVgyQzFDQjM2VFYtTDBWUDRoUjlHNW9CRVM4MA?oc=5\" target=\"_blank\">Sharmila Tagore says Vidya Balan’s Kahaani and Dirty Picture compromised on their feminist themes: ‘In Dirty Picture, she is a victim…’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Indian Express</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi8gFBVV95cUxPazB4cFNuUF9VNVlqZjNtdjE0SFZsNjNwMFE0ZTRDS1libGtqaHlwMmN3OHRITWp4Qml5blFEeXBlTGZsUVJQWUJfNjhkQUFMTHBhNHI2WnlqX2xiWHEzSFFhLUdoMVNZRTh3T0E2SV9JQVhYaHJiVWhsVTRkYU5BMldENUVsYTF4WE1rY0JHclFMM1N2b052U01scmpMMjZpeWNiUGZBeTVvbVNpX2dydU80bDdBY2ljRFRqaFdFYzlFYXpfX1RFM29iMUdDZHdVMm5zZ1IwQXpNYmNTVkt5MVFfcHAyZzJGTjVPdndTakJCd9IB-AFBVV95cUxPTklUa01sZzdkcVJxcWtSb3UtY1c5aHFrR3h6ckREd0dBRlhTX2JiZ0RqOHhRUUk5bTEzcnoxNTBPS2F3bGZQZjFtcWNpdXkxM3RPaFR5SUNSRVpvZzBGOXZxYU5CY1FHYjgzQklsdU5TeUVtbEZMdC1VeEpmc0hLLTRCOEN0blh6WGlkUXhvZjVHX0Q5X3YxaEdXWVJ0VFFjd2pzM0hfbDhybjR3eGh0c2ZyWC13Wmk0QThIWk02NmdFcm9qZDYtYlVsblozYzktd3ZZX0Y2OFVqajYzaVgyQzFDQjM2VFYtTDBWUDRoUjlHNW9CRVM4MA?oc=5\" target=\"_blank\">Sharmila Tagore says Vidya Balan’s Kahaani and Dirty Picture compromised on their feminist themes: ‘In Dirty Picture, she is a victim…’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Indian Express</font>"
+      },
+      "source": {
+        "href": "https://indianexpress.com",
+        "title": "The Indian Express"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "When Sharmila Tagore got her driver to remove ‘titillating’ posters of her film before mother-in-law arrived: ‘You couldn’t tell if I was wearing something’ - The Indian Express",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "When Sharmila Tagore got her driver to remove ‘titillating’ posters of her film before mother-in-law arrived: ‘You couldn’t tell if I was wearing something’ - The Indian Express"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOUHE0RldaTE9zTGxCOWd0clVsYWk0YXdJWmJSNFIwYlNjTTJMaS1QYk56aFNzM212bGJHN1paV0xJb0F2UEw3d3ZJdmQ4QUp4M2JfUEQ0V2F1OGE2TDhPd2hFRVlnRVEyWmNjUFdpQ0lQLUFfYUVlVGIxUmZ0dk9jeEtNYU0wOW9qTDVkM1lGRWFtWlYySjB4S3hUSnEwWFFKamhzdkZuakZXc1lqNVQ3X1FQR1hWcmhad21tcnA0WFpac3dFU1hMZ3p4ZVBlLVVnMUMxZk1ucGRad0ZkZDVGS0E3bThaVzZhVFZUWHVIeEXSAfcBQVVfeXFMTkQ1SDg4Rnp3NURmVzBMc3ZwQi1RNzh4NGwwSjRMQnh2MGJpNEJybnN6TkJsM1IydzBueGhfMDBGa1hpTTJwSjJXQWs0ZmVnczU2N3JBdF9MckZ5VnNmeUt5clR5bWtNQlAwVFZPSXlySWpDdHpsN0l5dThGazE5WVBIRU9QdWJJeFMyaVJmLWc0SnQ0cnh3cFlrUGx5S2RlNjlDLW1TRlNMeTh2d3JhR0dSd1ZZSDYwVkhoNzdzM19idlU2VFQ0OHpTLW8yU1VoOXJLT1pjdUx6T3M0TGJyRnlBb0NtSUZsY2gtVGo1eGVkUXhHTE9wRQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOUHE0RldaTE9zTGxCOWd0clVsYWk0YXdJWmJSNFIwYlNjTTJMaS1QYk56aFNzM212bGJHN1paV0xJb0F2UEw3d3ZJdmQ4QUp4M2JfUEQ0V2F1OGE2TDhPd2hFRVlnRVEyWmNjUFdpQ0lQLUFfYUVlVGIxUmZ0dk9jeEtNYU0wOW9qTDVkM1lGRWFtWlYySjB4S3hUSnEwWFFKamhzdkZuakZXc1lqNVQ3X1FQR1hWcmhad21tcnA0WFpac3dFU1hMZ3p4ZVBlLVVnMUMxZk1ucGRad0ZkZDVGS0E3bThaVzZhVFZUWHVIeEXSAfcBQVVfeXFMTkQ1SDg4Rnp3NURmVzBMc3ZwQi1RNzh4NGwwSjRMQnh2MGJpNEJybnN6TkJsM1IydzBueGhfMDBGa1hpTTJwSjJXQWs0ZmVnczU2N3JBdF9MckZ5VnNmeUt5clR5bWtNQlAwVFZPSXlySWpDdHpsN0l5dThGazE5WVBIRU9QdWJJeFMyaVJmLWc0SnQ0cnh3cFlrUGx5S2RlNjlDLW1TRlNMeTh2d3JhR0dSd1ZZSDYwVkhoNzdzM19idlU2VFQ0OHpTLW8yU1VoOXJLT1pjdUx6T3M0TGJyRnlBb0NtSUZsY2gtVGo1eGVkUXhHTE9wRQ?oc=5",
+      "id": "CBMi8AFBVV95cUxOUHE0RldaTE9zTGxCOWd0clVsYWk0YXdJWmJSNFIwYlNjTTJMaS1QYk56aFNzM212bGJHN1paV0xJb0F2UEw3d3ZJdmQ4QUp4M2JfUEQ0V2F1OGE2TDhPd2hFRVlnRVEyWmNjUFdpQ0lQLUFfYUVlVGIxUmZ0dk9jeEtNYU0wOW9qTDVkM1lGRWFtWlYySjB4S3hUSnEwWFFKamhzdkZuakZXc1lqNVQ3X1FQR1hWcmhad21tcnA0WFpac3dFU1hMZ3p4ZVBlLVVnMUMxZk1ucGRad0ZkZDVGS0E3bThaVzZhVFZUWHVIeEXSAfcBQVVfeXFMTkQ1SDg4Rnp3NURmVzBMc3ZwQi1RNzh4NGwwSjRMQnh2MGJpNEJybnN6TkJsM1IydzBueGhfMDBGa1hpTTJwSjJXQWs0ZmVnczU2N3JBdF9MckZ5VnNmeUt5clR5bWtNQlAwVFZPSXlySWpDdHpsN0l5dThGazE5WVBIRU9QdWJJeFMyaVJmLWc0SnQ0cnh3cFlrUGx5S2RlNjlDLW1TRlNMeTh2d3JhR0dSd1ZZSDYwVkhoNzdzM19idlU2VFQ0OHpTLW8yU1VoOXJLT1pjdUx6T3M0TGJyRnlBb0NtSUZsY2gtVGo1eGVkUXhHTE9wRQ",
+      "guidislink": false,
+      "published": "Thu, 02 Mar 2023 08:00:00 GMT",
+      "published_parsed": [
+        2023,
+        3,
+        2,
+        8,
+        0,
+        0,
+        3,
+        61,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi8AFBVV95cUxOUHE0RldaTE9zTGxCOWd0clVsYWk0YXdJWmJSNFIwYlNjTTJMaS1QYk56aFNzM212bGJHN1paV0xJb0F2UEw3d3ZJdmQ4QUp4M2JfUEQ0V2F1OGE2TDhPd2hFRVlnRVEyWmNjUFdpQ0lQLUFfYUVlVGIxUmZ0dk9jeEtNYU0wOW9qTDVkM1lGRWFtWlYySjB4S3hUSnEwWFFKamhzdkZuakZXc1lqNVQ3X1FQR1hWcmhad21tcnA0WFpac3dFU1hMZ3p4ZVBlLVVnMUMxZk1ucGRad0ZkZDVGS0E3bThaVzZhVFZUWHVIeEXSAfcBQVVfeXFMTkQ1SDg4Rnp3NURmVzBMc3ZwQi1RNzh4NGwwSjRMQnh2MGJpNEJybnN6TkJsM1IydzBueGhfMDBGa1hpTTJwSjJXQWs0ZmVnczU2N3JBdF9MckZ5VnNmeUt5clR5bWtNQlAwVFZPSXlySWpDdHpsN0l5dThGazE5WVBIRU9QdWJJeFMyaVJmLWc0SnQ0cnh3cFlrUGx5S2RlNjlDLW1TRlNMeTh2d3JhR0dSd1ZZSDYwVkhoNzdzM19idlU2VFQ0OHpTLW8yU1VoOXJLT1pjdUx6T3M0TGJyRnlBb0NtSUZsY2gtVGo1eGVkUXhHTE9wRQ?oc=5\" target=\"_blank\">When Sharmila Tagore got her driver to remove ‘titillating’ posters of her film before mother-in-law arrived: ‘You couldn’t tell if I was wearing something’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Indian Express</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi8AFBVV95cUxOUHE0RldaTE9zTGxCOWd0clVsYWk0YXdJWmJSNFIwYlNjTTJMaS1QYk56aFNzM212bGJHN1paV0xJb0F2UEw3d3ZJdmQ4QUp4M2JfUEQ0V2F1OGE2TDhPd2hFRVlnRVEyWmNjUFdpQ0lQLUFfYUVlVGIxUmZ0dk9jeEtNYU0wOW9qTDVkM1lGRWFtWlYySjB4S3hUSnEwWFFKamhzdkZuakZXc1lqNVQ3X1FQR1hWcmhad21tcnA0WFpac3dFU1hMZ3p4ZVBlLVVnMUMxZk1ucGRad0ZkZDVGS0E3bThaVzZhVFZUWHVIeEXSAfcBQVVfeXFMTkQ1SDg4Rnp3NURmVzBMc3ZwQi1RNzh4NGwwSjRMQnh2MGJpNEJybnN6TkJsM1IydzBueGhfMDBGa1hpTTJwSjJXQWs0ZmVnczU2N3JBdF9MckZ5VnNmeUt5clR5bWtNQlAwVFZPSXlySWpDdHpsN0l5dThGazE5WVBIRU9QdWJJeFMyaVJmLWc0SnQ0cnh3cFlrUGx5S2RlNjlDLW1TRlNMeTh2d3JhR0dSd1ZZSDYwVkhoNzdzM19idlU2VFQ0OHpTLW8yU1VoOXJLT1pjdUx6T3M0TGJyRnlBb0NtSUZsY2gtVGo1eGVkUXhHTE9wRQ?oc=5\" target=\"_blank\">When Sharmila Tagore got her driver to remove ‘titillating’ posters of her film before mother-in-law arrived: ‘You couldn’t tell if I was wearing something’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Indian Express</font>"
+      },
+      "source": {
+        "href": "https://indianexpress.com",
+        "title": "The Indian Express"
+      },
+      "sub_articles": []
+    }
+  ]
+}

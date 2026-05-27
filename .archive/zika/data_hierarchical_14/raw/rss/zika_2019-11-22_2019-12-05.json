@@ -1,0 +1,779 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2019-11-22",
+  "window_end": "2019-12-05",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2019-11-22+before%3A2019-12-06&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2019-11-22+before:2019-12-06&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:27:17Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2019-11-22 before:2019-12-06\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2019-11-22 before:2019-12-06\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2019-11-22+before:2019-12-06&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2019-11-22+before:2019-12-06&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:27:17 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      27,
+      17,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "In France, Aedes albopictus better transmits the African \"Zika\" than the Asian one - Institut Pasteur",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "In France, Aedes albopictus better transmits the African \"Zika\" than the Asian one - Institut Pasteur"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMDd0Ry04ejR1eXlpRUlDU3N2MVZoR3d3Y1NNeFlwYVBEdkFIanJTM1pJRFN2OUY4cXY2X0RKVXdoVWhpRDNoNXpwQ181Q2pOYzh1ZDIyM2FENVpaMmNnQVlxU3F2amhWZElpVUVGSnVyQm93RjE4emh4T3lpbzJhSmtaZjZ0MlllTkxEMXpSTmRMekpqVnFrWm9QZ05HQTZrQ1RGVW5iLUR0MXpJbERHYQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMDd0Ry04ejR1eXlpRUlDU3N2MVZoR3d3Y1NNeFlwYVBEdkFIanJTM1pJRFN2OUY4cXY2X0RKVXdoVWhpRDNoNXpwQ181Q2pOYzh1ZDIyM2FENVpaMmNnQVlxU3F2amhWZElpVUVGSnVyQm93RjE4emh4T3lpbzJhSmtaZjZ0MlllTkxEMXpSTmRMekpqVnFrWm9QZ05HQTZrQ1RGVW5iLUR0MXpJbERHYQ?oc=5",
+      "id": "CBMisAFBVV95cUxOMDd0Ry04ejR1eXlpRUlDU3N2MVZoR3d3Y1NNeFlwYVBEdkFIanJTM1pJRFN2OUY4cXY2X0RKVXdoVWhpRDNoNXpwQ181Q2pOYzh1ZDIyM2FENVpaMmNnQVlxU3F2amhWZElpVUVGSnVyQm93RjE4emh4T3lpbzJhSmtaZjZ0MlllTkxEMXpSTmRMekpqVnFrWm9QZ05HQTZrQ1RGVW5iLUR0MXpJbERHYQ",
+      "guidislink": false,
+      "published": "Mon, 25 Nov 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        11,
+        25,
+        8,
+        0,
+        0,
+        0,
+        329,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxOMDd0Ry04ejR1eXlpRUlDU3N2MVZoR3d3Y1NNeFlwYVBEdkFIanJTM1pJRFN2OUY4cXY2X0RKVXdoVWhpRDNoNXpwQ181Q2pOYzh1ZDIyM2FENVpaMmNnQVlxU3F2amhWZElpVUVGSnVyQm93RjE4emh4T3lpbzJhSmtaZjZ0MlllTkxEMXpSTmRMekpqVnFrWm9QZ05HQTZrQ1RGVW5iLUR0MXpJbERHYQ?oc=5\" target=\"_blank\">In France, Aedes albopictus better transmits the African \"Zika\" than the Asian one</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Institut Pasteur</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxOMDd0Ry04ejR1eXlpRUlDU3N2MVZoR3d3Y1NNeFlwYVBEdkFIanJTM1pJRFN2OUY4cXY2X0RKVXdoVWhpRDNoNXpwQ181Q2pOYzh1ZDIyM2FENVpaMmNnQVlxU3F2amhWZElpVUVGSnVyQm93RjE4emh4T3lpbzJhSmtaZjZ0MlllTkxEMXpSTmRMekpqVnFrWm9QZ05HQTZrQ1RGVW5iLUR0MXpJbERHYQ?oc=5\" target=\"_blank\">In France, Aedes albopictus better transmits the African \"Zika\" than the Asian one</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Institut Pasteur</font>"
+      },
+      "source": {
+        "href": "https://www.pasteur.fr",
+        "title": "Institut Pasteur"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Mosquito-Borne Diseases - TN.gov",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Mosquito-Borne Diseases - TN.gov"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVWtmQXVPTWoxN2FOc3ZxX0h6T1RtRkpPN1Nua3VUVkFpMTV2M3ZmSzl3VDJBS0stSVRpeU8ydU1VQ2hmYTFYcjVuVFFfWXBWc3FRZEl6akpBVzF2SXFlOHhaTldHelUwWjkwMDdUUDN6d1RRVkdET1dMQ19RSDM1bXFGc1Rpd1kyRkE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVWtmQXVPTWoxN2FOc3ZxX0h6T1RtRkpPN1Nua3VUVkFpMTV2M3ZmSzl3VDJBS0stSVRpeU8ydU1VQ2hmYTFYcjVuVFFfWXBWc3FRZEl6akpBVzF2SXFlOHhaTldHelUwWjkwMDdUUDN6d1RRVkdET1dMQ19RSDM1bXFGc1Rpd1kyRkE?oc=5",
+      "id": "CBMiigFBVV95cUxNVWtmQXVPTWoxN2FOc3ZxX0h6T1RtRkpPN1Nua3VUVkFpMTV2M3ZmSzl3VDJBS0stSVRpeU8ydU1VQ2hmYTFYcjVuVFFfWXBWc3FRZEl6akpBVzF2SXFlOHhaTldHelUwWjkwMDdUUDN6d1RRVkdET1dMQ19RSDM1bXFGc1Rpd1kyRkE",
+      "guidislink": false,
+      "published": "Thu, 28 Nov 2019 13:12:07 GMT",
+      "published_parsed": [
+        2019,
+        11,
+        28,
+        13,
+        12,
+        7,
+        3,
+        332,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxNVWtmQXVPTWoxN2FOc3ZxX0h6T1RtRkpPN1Nua3VUVkFpMTV2M3ZmSzl3VDJBS0stSVRpeU8ydU1VQ2hmYTFYcjVuVFFfWXBWc3FRZEl6akpBVzF2SXFlOHhaTldHelUwWjkwMDdUUDN6d1RRVkdET1dMQ19RSDM1bXFGc1Rpd1kyRkE?oc=5\" target=\"_blank\">Mosquito-Borne Diseases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TN.gov</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxNVWtmQXVPTWoxN2FOc3ZxX0h6T1RtRkpPN1Nua3VUVkFpMTV2M3ZmSzl3VDJBS0stSVRpeU8ydU1VQ2hmYTFYcjVuVFFfWXBWc3FRZEl6akpBVzF2SXFlOHhaTldHelUwWjkwMDdUUDN6d1RRVkdET1dMQ19RSDM1bXFGc1Rpd1kyRkE?oc=5\" target=\"_blank\">Mosquito-Borne Diseases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TN.gov</font>"
+      },
+      "source": {
+        "href": "https://www.tn.gov",
+        "title": "TN.gov"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika virus: Congress looks toward a cure - FOX13 Memphis",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika virus: Congress looks toward a cure - FOX13 Memphis"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPaFFWRl8tdDhERVo2REdkaVBlM1EwNXJkLXlVenVMNEZJdjhyQW1oby1nMXlFMm9qelFQcmdWbUVVeDZPcmlLWXVEZVRjc0N1Y1g1UDIxNVotbExKZnNLRkMydVBqMWFJYTlDUWFxYnlzNEJQQjl3SEpJTU1oSUdnNTJfZmpjbWdLVy1hdlk4bTRDblROSFdIOVhYNGdrQjJoc1cydVV3ZHlaRDFFbjlZZ0hNSGdBcFRIcTFWRFZxSXBTSVowRHM3eXJNdWo?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPaFFWRl8tdDhERVo2REdkaVBlM1EwNXJkLXlVenVMNEZJdjhyQW1oby1nMXlFMm9qelFQcmdWbUVVeDZPcmlLWXVEZVRjc0N1Y1g1UDIxNVotbExKZnNLRkMydVBqMWFJYTlDUWFxYnlzNEJQQjl3SEpJTU1oSUdnNTJfZmpjbWdLVy1hdlk4bTRDblROSFdIOVhYNGdrQjJoc1cydVV3ZHlaRDFFbjlZZ0hNSGdBcFRIcTFWRFZxSXBTSVowRHM3eXJNdWo?oc=5",
+      "id": "CBMizAFBVV95cUxPaFFWRl8tdDhERVo2REdkaVBlM1EwNXJkLXlVenVMNEZJdjhyQW1oby1nMXlFMm9qelFQcmdWbUVVeDZPcmlLWXVEZVRjc0N1Y1g1UDIxNVotbExKZnNLRkMydVBqMWFJYTlDUWFxYnlzNEJQQjl3SEpJTU1oSUdnNTJfZmpjbWdLVy1hdlk4bTRDblROSFdIOVhYNGdrQjJoc1cydVV3ZHlaRDFFbjlZZ0hNSGdBcFRIcTFWRFZxSXBTSVowRHM3eXJNdWo",
+      "guidislink": false,
+      "published": "Mon, 25 Nov 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        11,
+        25,
+        8,
+        0,
+        0,
+        0,
+        329,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxPaFFWRl8tdDhERVo2REdkaVBlM1EwNXJkLXlVenVMNEZJdjhyQW1oby1nMXlFMm9qelFQcmdWbUVVeDZPcmlLWXVEZVRjc0N1Y1g1UDIxNVotbExKZnNLRkMydVBqMWFJYTlDUWFxYnlzNEJQQjl3SEpJTU1oSUdnNTJfZmpjbWdLVy1hdlk4bTRDblROSFdIOVhYNGdrQjJoc1cydVV3ZHlaRDFFbjlZZ0hNSGdBcFRIcTFWRFZxSXBTSVowRHM3eXJNdWo?oc=5\" target=\"_blank\">Zika virus: Congress looks toward a cure</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FOX13 Memphis</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxPaFFWRl8tdDhERVo2REdkaVBlM1EwNXJkLXlVenVMNEZJdjhyQW1oby1nMXlFMm9qelFQcmdWbUVVeDZPcmlLWXVEZVRjc0N1Y1g1UDIxNVotbExKZnNLRkMydVBqMWFJYTlDUWFxYnlzNEJQQjl3SEpJTU1oSUdnNTJfZmpjbWdLVy1hdlk4bTRDblROSFdIOVhYNGdrQjJoc1cydVV3ZHlaRDFFbjlZZ0hNSGdBcFRIcTFWRFZxSXBTSVowRHM3eXJNdWo?oc=5\" target=\"_blank\">Zika virus: Congress looks toward a cure</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FOX13 Memphis</font>"
+      },
+      "source": {
+        "href": "https://www.fox13memphis.com",
+        "title": "FOX13 Memphis"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "A diarylamine derived from anthranilic acid inhibits ZIKV replication - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "A diarylamine derived from anthranilic acid inhibits ZIKV replication - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE56eGhsTmdQMDZhNUlIOG1SU1BnV2lnOC1KRm1WQ3hnWGlBV1RvTHhYcFNzYjBlRlBmTU15bUVsWEpqVGlEQlhkUFRoSktkaGV6QkRPYjNpUURqREduUFNz?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE56eGhsTmdQMDZhNUlIOG1SU1BnV2lnOC1KRm1WQ3hnWGlBV1RvTHhYcFNzYjBlRlBmTU15bUVsWEpqVGlEQlhkUFRoSktkaGV6QkRPYjNpUURqREduUFNz?oc=5",
+      "id": "CBMiX0FVX3lxTE56eGhsTmdQMDZhNUlIOG1SU1BnV2lnOC1KRm1WQ3hnWGlBV1RvTHhYcFNzYjBlRlBmTU15bUVsWEpqVGlEQlhkUFRoSktkaGV6QkRPYjNpUURqREduUFNz",
+      "guidislink": false,
+      "published": "Wed, 27 Nov 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        11,
+        27,
+        8,
+        0,
+        0,
+        2,
+        331,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE56eGhsTmdQMDZhNUlIOG1SU1BnV2lnOC1KRm1WQ3hnWGlBV1RvTHhYcFNzYjBlRlBmTU15bUVsWEpqVGlEQlhkUFRoSktkaGV6QkRPYjNpUURqREduUFNz?oc=5\" target=\"_blank\">A diarylamine derived from anthranilic acid inhibits ZIKV replication</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE56eGhsTmdQMDZhNUlIOG1SU1BnV2lnOC1KRm1WQ3hnWGlBV1RvTHhYcFNzYjBlRlBmTU15bUVsWEpqVGlEQlhkUFRoSktkaGV6QkRPYjNpUURqREduUFNz?oc=5\" target=\"_blank\">A diarylamine derived from anthranilic acid inhibits ZIKV replication</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Mosquito Program | Vector Control Branch - Hawaii Department of Health (.gov)",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Mosquito Program | Vector Control Branch - Hawaii Department of Health (.gov)"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE12NHg2N0VCaFVrV1k4ZnhnTncxNlQzZ3BUVGRCcDVfQmRrZFE4MmlXem1ocHFNRDM0V181MXFJSmdlTGRqd1R5ZDNGZXUtMjdCNy1Z?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE12NHg2N0VCaFVrV1k4ZnhnTncxNlQzZ3BUVGRCcDVfQmRrZFE4MmlXem1ocHFNRDM0V181MXFJSmdlTGRqd1R5ZDNGZXUtMjdCNy1Z?oc=5",
+      "id": "CBMiU0FVX3lxTE12NHg2N0VCaFVrV1k4ZnhnTncxNlQzZ3BUVGRCcDVfQmRrZFE4MmlXem1ocHFNRDM0V181MXFJSmdlTGRqd1R5ZDNGZXUtMjdCNy1Z",
+      "guidislink": false,
+      "published": "Thu, 28 Nov 2019 00:40:34 GMT",
+      "published_parsed": [
+        2019,
+        11,
+        28,
+        0,
+        40,
+        34,
+        3,
+        332,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE12NHg2N0VCaFVrV1k4ZnhnTncxNlQzZ3BUVGRCcDVfQmRrZFE4MmlXem1ocHFNRDM0V181MXFJSmdlTGRqd1R5ZDNGZXUtMjdCNy1Z?oc=5\" target=\"_blank\">Mosquito Program | Vector Control Branch</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Hawaii Department of Health (.gov)</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTE12NHg2N0VCaFVrV1k4ZnhnTncxNlQzZ3BUVGRCcDVfQmRrZFE4MmlXem1ocHFNRDM0V181MXFJSmdlTGRqd1R5ZDNGZXUtMjdCNy1Z?oc=5\" target=\"_blank\">Mosquito Program | Vector Control Branch</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Hawaii Department of Health (.gov)</font>"
+      },
+      "source": {
+        "href": "https://health.hawaii.gov",
+        "title": "Hawaii Department of Health (.gov)"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "The bizarre and ecologically important hidden lives of mosquitoes - The Conversation",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "The bizarre and ecologically important hidden lives of mosquitoes - The Conversation"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNS2ZKQTctYS1XdHVXQTNJUE9KWUdEbmRnQk5zSVAyNDd1alhIc0Y1MGtOdzkxWnIxNXNzMWh5b3pwVFFfaS1fMWJ5RzNIT2FzYzVjazBsX0hRXy1VUV9YOXJCSXJXdjlGazM5cVdzRVVXdFFTV2NRS0lldVNHZDZkSXZ3cXlNQXFjdnJlTlBiQWRzVVNKdGhGU05XV1NEMmF6blE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNS2ZKQTctYS1XdHVXQTNJUE9KWUdEbmRnQk5zSVAyNDd1alhIc0Y1MGtOdzkxWnIxNXNzMWh5b3pwVFFfaS1fMWJ5RzNIT2FzYzVjazBsX0hRXy1VUV9YOXJCSXJXdjlGazM5cVdzRVVXdFFTV2NRS0lldVNHZDZkSXZ3cXlNQXFjdnJlTlBiQWRzVVNKdGhGU05XV1NEMmF6blE?oc=5",
+      "id": "CBMiogFBVV95cUxNS2ZKQTctYS1XdHVXQTNJUE9KWUdEbmRnQk5zSVAyNDd1alhIc0Y1MGtOdzkxWnIxNXNzMWh5b3pwVFFfaS1fMWJ5RzNIT2FzYzVjazBsX0hRXy1VUV9YOXJCSXJXdjlGazM5cVdzRVVXdFFTV2NRS0lldVNHZDZkSXZ3cXlNQXFjdnJlTlBiQWRzVVNKdGhGU05XV1NEMmF6blE",
+      "guidislink": false,
+      "published": "Mon, 02 Dec 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        12,
+        2,
+        8,
+        0,
+        0,
+        0,
+        336,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxNS2ZKQTctYS1XdHVXQTNJUE9KWUdEbmRnQk5zSVAyNDd1alhIc0Y1MGtOdzkxWnIxNXNzMWh5b3pwVFFfaS1fMWJ5RzNIT2FzYzVjazBsX0hRXy1VUV9YOXJCSXJXdjlGazM5cVdzRVVXdFFTV2NRS0lldVNHZDZkSXZ3cXlNQXFjdnJlTlBiQWRzVVNKdGhGU05XV1NEMmF6blE?oc=5\" target=\"_blank\">The bizarre and ecologically important hidden lives of mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Conversation</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxNS2ZKQTctYS1XdHVXQTNJUE9KWUdEbmRnQk5zSVAyNDd1alhIc0Y1MGtOdzkxWnIxNXNzMWh5b3pwVFFfaS1fMWJ5RzNIT2FzYzVjazBsX0hRXy1VUV9YOXJCSXJXdjlGazM5cVdzRVVXdFFTV2NRS0lldVNHZDZkSXZ3cXlNQXFjdnJlTlBiQWRzVVNKdGhGU05XV1NEMmF6blE?oc=5\" target=\"_blank\">The bizarre and ecologically important hidden lives of mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Conversation</font>"
+      },
+      "source": {
+        "href": "https://theconversation.com",
+        "title": "The Conversation"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika or dengue epidemic? Only tests will tell - The Himalayan Times",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika or dengue epidemic? Only tests will tell - The Himalayan Times"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNQXRaNC1wZjVHQlhoOWJuZHJjczA1cXM0YzltWUdKd1M2VmRtMGEzVVhmZEVNRkJKMVRJbUZUMHFqT2xKenRjRnN3bWV2NXVDQkhYdzNhb1RuM1M0Y2tmR3VYcnBxUHFhdjI0QXNETnpVUlRLMUdFTXFiT0RNVHFINWZvT0FJMFY4RXc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNQXRaNC1wZjVHQlhoOWJuZHJjczA1cXM0YzltWUdKd1M2VmRtMGEzVVhmZEVNRkJKMVRJbUZUMHFqT2xKenRjRnN3bWV2NXVDQkhYdzNhb1RuM1M0Y2tmR3VYcnBxUHFhdjI0QXNETnpVUlRLMUdFTXFiT0RNVHFINWZvT0FJMFY4RXc?oc=5",
+      "id": "CBMiigFBVV95cUxNQXRaNC1wZjVHQlhoOWJuZHJjczA1cXM0YzltWUdKd1M2VmRtMGEzVVhmZEVNRkJKMVRJbUZUMHFqT2xKenRjRnN3bWV2NXVDQkhYdzNhb1RuM1M0Y2tmR3VYcnBxUHFhdjI0QXNETnpVUlRLMUdFTXFiT0RNVHFINWZvT0FJMFY4RXc",
+      "guidislink": false,
+      "published": "Mon, 25 Nov 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        11,
+        25,
+        8,
+        0,
+        0,
+        0,
+        329,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxNQXRaNC1wZjVHQlhoOWJuZHJjczA1cXM0YzltWUdKd1M2VmRtMGEzVVhmZEVNRkJKMVRJbUZUMHFqT2xKenRjRnN3bWV2NXVDQkhYdzNhb1RuM1M0Y2tmR3VYcnBxUHFhdjI0QXNETnpVUlRLMUdFTXFiT0RNVHFINWZvT0FJMFY4RXc?oc=5\" target=\"_blank\">Zika or dengue epidemic? Only tests will tell</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Himalayan Times</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxNQXRaNC1wZjVHQlhoOWJuZHJjczA1cXM0YzltWUdKd1M2VmRtMGEzVVhmZEVNRkJKMVRJbUZUMHFqT2xKenRjRnN3bWV2NXVDQkhYdzNhb1RuM1M0Y2tmR3VYcnBxUHFhdjI0QXNETnpVUlRLMUdFTXFiT0RNVHFINWZvT0FJMFY4RXc?oc=5\" target=\"_blank\">Zika or dengue epidemic? Only tests will tell</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Himalayan Times</font>"
+      },
+      "source": {
+        "href": "https://thehimalayantimes.com",
+        "title": "The Himalayan Times"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Greenwich High science superstars petition for funding - Greenwich Time",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Greenwich High science superstars petition for funding - Greenwich Time"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWkFTZ0MxekY0VHVSNWpuMWpTX0ozUEQ2M0RPNW41YzhReUVuVk44Y0J3aTJPU1dyenozLWZpNHRiT1pSdkZXbVlVSGY3OGh1cDNIQU9weUdrLUdZaU5fNE1QcktDYkJRbktjbDBEOXljUFozYjcxMnE0enZBNHRHaDBPQUNiZnVnZVZyQkF2eDV1R0hhRXJuUktUNlJtVFRHY2V2dHNR?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWkFTZ0MxekY0VHVSNWpuMWpTX0ozUEQ2M0RPNW41YzhReUVuVk44Y0J3aTJPU1dyenozLWZpNHRiT1pSdkZXbVlVSGY3OGh1cDNIQU9weUdrLUdZaU5fNE1QcktDYkJRbktjbDBEOXljUFozYjcxMnE0enZBNHRHaDBPQUNiZnVnZVZyQkF2eDV1R0hhRXJuUktUNlJtVFRHY2V2dHNR?oc=5",
+      "id": "CBMipgFBVV95cUxQWkFTZ0MxekY0VHVSNWpuMWpTX0ozUEQ2M0RPNW41YzhReUVuVk44Y0J3aTJPU1dyenozLWZpNHRiT1pSdkZXbVlVSGY3OGh1cDNIQU9weUdrLUdZaU5fNE1QcktDYkJRbktjbDBEOXljUFozYjcxMnE0enZBNHRHaDBPQUNiZnVnZVZyQkF2eDV1R0hhRXJuUktUNlJtVFRHY2V2dHNR",
+      "guidislink": false,
+      "published": "Fri, 06 Dec 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        12,
+        6,
+        8,
+        0,
+        0,
+        4,
+        340,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxQWkFTZ0MxekY0VHVSNWpuMWpTX0ozUEQ2M0RPNW41YzhReUVuVk44Y0J3aTJPU1dyenozLWZpNHRiT1pSdkZXbVlVSGY3OGh1cDNIQU9weUdrLUdZaU5fNE1QcktDYkJRbktjbDBEOXljUFozYjcxMnE0enZBNHRHaDBPQUNiZnVnZVZyQkF2eDV1R0hhRXJuUktUNlJtVFRHY2V2dHNR?oc=5\" target=\"_blank\">Greenwich High science superstars petition for funding</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Greenwich Time</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxQWkFTZ0MxekY0VHVSNWpuMWpTX0ozUEQ2M0RPNW41YzhReUVuVk44Y0J3aTJPU1dyenozLWZpNHRiT1pSdkZXbVlVSGY3OGh1cDNIQU9weUdrLUdZaU5fNE1QcktDYkJRbktjbDBEOXljUFozYjcxMnE0enZBNHRHaDBPQUNiZnVnZVZyQkF2eDV1R0hhRXJuUktUNlJtVFRHY2V2dHNR?oc=5\" target=\"_blank\">Greenwich High science superstars petition for funding</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Greenwich Time</font>"
+      },
+      "source": {
+        "href": "https://www.greenwichtime.com",
+        "title": "Greenwich Time"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Modified mosquitoes reduce cases of dengue fever - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Modified mosquitoes reduce cases of dengue fever - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE02QUFfWlBmRUhWZE5wN2tNYzMyMHhRRXJlX1kxVF8wZ2wyYkh2N1QzNzV5dmNlcUR1N3NVaUh0MHEyRmRCLXd0MDJvZk9WS2RGRG55eU5XRkNPRFdQTENF?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE02QUFfWlBmRUhWZE5wN2tNYzMyMHhRRXJlX1kxVF8wZ2wyYkh2N1QzNzV5dmNlcUR1N3NVaUh0MHEyRmRCLXd0MDJvZk9WS2RGRG55eU5XRkNPRFdQTENF?oc=5",
+      "id": "CBMiX0FVX3lxTE02QUFfWlBmRUhWZE5wN2tNYzMyMHhRRXJlX1kxVF8wZ2wyYkh2N1QzNzV5dmNlcUR1N3NVaUh0MHEyRmRCLXd0MDJvZk9WS2RGRG55eU5XRkNPRFdQTENF",
+      "guidislink": false,
+      "published": "Tue, 26 Nov 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        11,
+        26,
+        8,
+        0,
+        0,
+        1,
+        330,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE02QUFfWlBmRUhWZE5wN2tNYzMyMHhRRXJlX1kxVF8wZ2wyYkh2N1QzNzV5dmNlcUR1N3NVaUh0MHEyRmRCLXd0MDJvZk9WS2RGRG55eU5XRkNPRFdQTENF?oc=5\" target=\"_blank\">Modified mosquitoes reduce cases of dengue fever</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE02QUFfWlBmRUhWZE5wN2tNYzMyMHhRRXJlX1kxVF8wZ2wyYkh2N1QzNzV5dmNlcUR1N3NVaUh0MHEyRmRCLXd0MDJvZk9WS2RGRG55eU5XRkNPRFdQTENF?oc=5\" target=\"_blank\">Modified mosquitoes reduce cases of dengue fever</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Invasive tiger mosquito real threat for Europe: Experts - Anadolu Ajansı",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Invasive tiger mosquito real threat for Europe: Experts - Anadolu Ajansı"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPczRFcGhqczg5T0VBMktqVUVLb19SS3dwWE5hVS1GRXFheWozX1E4djdXM18wdnNjTVVfRmFBN0JwWVhHUjZ4dkR1SzI5UjRaR2owR3kwVHhPOXRlSjhUVlJ6SERNZDZxNU03SVNRTk9DNWc0VHkxLTJldGZ6X28wY2dWMnBBRE8weUQ1MzJ0NWhVaTVJUFFPOUc0M1c1UmdE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPczRFcGhqczg5T0VBMktqVUVLb19SS3dwWE5hVS1GRXFheWozX1E4djdXM18wdnNjTVVfRmFBN0JwWVhHUjZ4dkR1SzI5UjRaR2owR3kwVHhPOXRlSjhUVlJ6SERNZDZxNU03SVNRTk9DNWc0VHkxLTJldGZ6X28wY2dWMnBBRE8weUQ1MzJ0NWhVaTVJUFFPOUc0M1c1UmdE?oc=5",
+      "id": "CBMioAFBVV95cUxPczRFcGhqczg5T0VBMktqVUVLb19SS3dwWE5hVS1GRXFheWozX1E4djdXM18wdnNjTVVfRmFBN0JwWVhHUjZ4dkR1SzI5UjRaR2owR3kwVHhPOXRlSjhUVlJ6SERNZDZxNU03SVNRTk9DNWc0VHkxLTJldGZ6X28wY2dWMnBBRE8weUQ1MzJ0NWhVaTVJUFFPOUc0M1c1UmdE",
+      "guidislink": false,
+      "published": "Wed, 04 Dec 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        12,
+        4,
+        8,
+        0,
+        0,
+        2,
+        338,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPczRFcGhqczg5T0VBMktqVUVLb19SS3dwWE5hVS1GRXFheWozX1E4djdXM18wdnNjTVVfRmFBN0JwWVhHUjZ4dkR1SzI5UjRaR2owR3kwVHhPOXRlSjhUVlJ6SERNZDZxNU03SVNRTk9DNWc0VHkxLTJldGZ6X28wY2dWMnBBRE8weUQ1MzJ0NWhVaTVJUFFPOUc0M1c1UmdE?oc=5\" target=\"_blank\">Invasive tiger mosquito real threat for Europe: Experts</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Anadolu Ajansı</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPczRFcGhqczg5T0VBMktqVUVLb19SS3dwWE5hVS1GRXFheWozX1E4djdXM18wdnNjTVVfRmFBN0JwWVhHUjZ4dkR1SzI5UjRaR2owR3kwVHhPOXRlSjhUVlJ6SERNZDZxNU03SVNRTk9DNWc0VHkxLTJldGZ6X28wY2dWMnBBRE8weUQ1MzJ0NWhVaTVJUFFPOUc0M1c1UmdE?oc=5\" target=\"_blank\">Invasive tiger mosquito real threat for Europe: Experts</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Anadolu Ajansı</font>"
+      },
+      "source": {
+        "href": "https://www.aa.com.tr",
+        "title": "Anadolu Ajansı"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "An environmentally sustainable method found to block dengue and Zika virus transmission - TheHealthSite",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "An environmentally sustainable method found to block dengue and Zika virus transmission - TheHealthSite"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOOXdncFUyWi1saGpNMXBuOVlSMlI3dzQyTEhrSXM1Qkx3UUlKY3lUUWw2eXhjQTZ0Y0NkVkstdzhlMTNSU3ZNcVNKSGRlTmlVd2pFVVVHdHFGa0NNTENWcUszcnc2dGdsUDY4MXBlbFNJOUFpWmNYTVhMbnFNVGJCUC1XSEoxaGtRb19hN3VRZTVuSVFtdDM5RWR2WkRwQTRaem9HeFVMT293X3Q1VHRJWWdGSFNCYzMySkhaQ0ZfaHFNbG9DTUt6amlR0gHPAUFVX3lxTFBxYlhMQjZaMzJhOWhiQ0JSZmN3ZGxUYmNyUEFYejMzMmdIZk9jb2RvRlhZVDI4LU9iaTlXOXhuRmNvTFNLSS1qbGUwRF9jN1BDV1dFVFB2NUhjZjdJU29ySkFINlFuX1B4MUwtUWdfMmNBWjkwQ0E0SWU2SldLbHkzOEM4VjlLODU3TUtLRDVockdOYUh5RG9GcWhBazhJT1JIXzI3U05yU254ZVBaZ3Rpbmh2VDJPQXJnNWdhU0hnb09najgyYURJRTNldkhHUQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOOXdncFUyWi1saGpNMXBuOVlSMlI3dzQyTEhrSXM1Qkx3UUlKY3lUUWw2eXhjQTZ0Y0NkVkstdzhlMTNSU3ZNcVNKSGRlTmlVd2pFVVVHdHFGa0NNTENWcUszcnc2dGdsUDY4MXBlbFNJOUFpWmNYTVhMbnFNVGJCUC1XSEoxaGtRb19hN3VRZTVuSVFtdDM5RWR2WkRwQTRaem9HeFVMT293X3Q1VHRJWWdGSFNCYzMySkhaQ0ZfaHFNbG9DTUt6amlR0gHPAUFVX3lxTFBxYlhMQjZaMzJhOWhiQ0JSZmN3ZGxUYmNyUEFYejMzMmdIZk9jb2RvRlhZVDI4LU9iaTlXOXhuRmNvTFNLSS1qbGUwRF9jN1BDV1dFVFB2NUhjZjdJU29ySkFINlFuX1B4MUwtUWdfMmNBWjkwQ0E0SWU2SldLbHkzOEM4VjlLODU3TUtLRDVockdOYUh5RG9GcWhBazhJT1JIXzI3U05yU254ZVBaZ3Rpbmh2VDJPQXJnNWdhU0hnb09najgyYURJRTNldkhHUQ?oc=5",
+      "id": "CBMiygFBVV95cUxOOXdncFUyWi1saGpNMXBuOVlSMlI3dzQyTEhrSXM1Qkx3UUlKY3lUUWw2eXhjQTZ0Y0NkVkstdzhlMTNSU3ZNcVNKSGRlTmlVd2pFVVVHdHFGa0NNTENWcUszcnc2dGdsUDY4MXBlbFNJOUFpWmNYTVhMbnFNVGJCUC1XSEoxaGtRb19hN3VRZTVuSVFtdDM5RWR2WkRwQTRaem9HeFVMT293X3Q1VHRJWWdGSFNCYzMySkhaQ0ZfaHFNbG9DTUt6amlR0gHPAUFVX3lxTFBxYlhMQjZaMzJhOWhiQ0JSZmN3ZGxUYmNyUEFYejMzMmdIZk9jb2RvRlhZVDI4LU9iaTlXOXhuRmNvTFNLSS1qbGUwRF9jN1BDV1dFVFB2NUhjZjdJU29ySkFINlFuX1B4MUwtUWdfMmNBWjkwQ0E0SWU2SldLbHkzOEM4VjlLODU3TUtLRDVockdOYUh5RG9GcWhBazhJT1JIXzI3U05yU254ZVBaZ3Rpbmh2VDJPQXJnNWdhU0hnb09najgyYURJRTNldkhHUQ",
+      "guidislink": false,
+      "published": "Sun, 24 Nov 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        11,
+        24,
+        8,
+        0,
+        0,
+        6,
+        328,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxOOXdncFUyWi1saGpNMXBuOVlSMlI3dzQyTEhrSXM1Qkx3UUlKY3lUUWw2eXhjQTZ0Y0NkVkstdzhlMTNSU3ZNcVNKSGRlTmlVd2pFVVVHdHFGa0NNTENWcUszcnc2dGdsUDY4MXBlbFNJOUFpWmNYTVhMbnFNVGJCUC1XSEoxaGtRb19hN3VRZTVuSVFtdDM5RWR2WkRwQTRaem9HeFVMT293X3Q1VHRJWWdGSFNCYzMySkhaQ0ZfaHFNbG9DTUt6amlR0gHPAUFVX3lxTFBxYlhMQjZaMzJhOWhiQ0JSZmN3ZGxUYmNyUEFYejMzMmdIZk9jb2RvRlhZVDI4LU9iaTlXOXhuRmNvTFNLSS1qbGUwRF9jN1BDV1dFVFB2NUhjZjdJU29ySkFINlFuX1B4MUwtUWdfMmNBWjkwQ0E0SWU2SldLbHkzOEM4VjlLODU3TUtLRDVockdOYUh5RG9GcWhBazhJT1JIXzI3U05yU254ZVBaZ3Rpbmh2VDJPQXJnNWdhU0hnb09najgyYURJRTNldkhHUQ?oc=5\" target=\"_blank\">An environmentally sustainable method found to block dengue and Zika virus transmission</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TheHealthSite</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxOOXdncFUyWi1saGpNMXBuOVlSMlI3dzQyTEhrSXM1Qkx3UUlKY3lUUWw2eXhjQTZ0Y0NkVkstdzhlMTNSU3ZNcVNKSGRlTmlVd2pFVVVHdHFGa0NNTENWcUszcnc2dGdsUDY4MXBlbFNJOUFpWmNYTVhMbnFNVGJCUC1XSEoxaGtRb19hN3VRZTVuSVFtdDM5RWR2WkRwQTRaem9HeFVMT293X3Q1VHRJWWdGSFNCYzMySkhaQ0ZfaHFNbG9DTUt6amlR0gHPAUFVX3lxTFBxYlhMQjZaMzJhOWhiQ0JSZmN3ZGxUYmNyUEFYejMzMmdIZk9jb2RvRlhZVDI4LU9iaTlXOXhuRmNvTFNLSS1qbGUwRF9jN1BDV1dFVFB2NUhjZjdJU29ySkFINlFuX1B4MUwtUWdfMmNBWjkwQ0E0SWU2SldLbHkzOEM4VjlLODU3TUtLRDVockdOYUh5RG9GcWhBazhJT1JIXzI3U05yU254ZVBaZ3Rpbmh2VDJPQXJnNWdhU0hnb09najgyYURJRTNldkhHUQ?oc=5\" target=\"_blank\">An environmentally sustainable method found to block dengue and Zika virus transmission</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TheHealthSite</font>"
+      },
+      "source": {
+        "href": "https://www.thehealthsite.com",
+        "title": "TheHealthSite"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Prevent Tick Bites: 13 Things Ticks Won’t Tell You - The Healthy @Reader's Digest",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Prevent Tick Bites: 13 Things Ticks Won’t Tell You - The Healthy @Reader's Digest"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9iRHdGOVhBUFR4MnI2bk9WSWc3OTBQekkxazBQYU5jS19ua2lqTmo3VTdXMmxBWkZTNFlDSW1mVWszUE9fTy1zLXp2V2VXVHhMZjFNcTVJSGUtZVBnTlhoeF9Na0ZrUTh6aEE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9iRHdGOVhBUFR4MnI2bk9WSWc3OTBQekkxazBQYU5jS19ua2lqTmo3VTdXMmxBWkZTNFlDSW1mVWszUE9fTy1zLXp2V2VXVHhMZjFNcTVJSGUtZVBnTlhoeF9Na0ZrUTh6aEE?oc=5",
+      "id": "CBMiakFVX3lxTE9iRHdGOVhBUFR4MnI2bk9WSWc3OTBQekkxazBQYU5jS19ua2lqTmo3VTdXMmxBWkZTNFlDSW1mVWszUE9fTy1zLXp2V2VXVHhMZjFNcTVJSGUtZVBnTlhoeF9Na0ZrUTh6aEE",
+      "guidislink": false,
+      "published": "Fri, 29 Nov 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        11,
+        29,
+        8,
+        0,
+        0,
+        4,
+        333,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE9iRHdGOVhBUFR4MnI2bk9WSWc3OTBQekkxazBQYU5jS19ua2lqTmo3VTdXMmxBWkZTNFlDSW1mVWszUE9fTy1zLXp2V2VXVHhMZjFNcTVJSGUtZVBnTlhoeF9Na0ZrUTh6aEE?oc=5\" target=\"_blank\">Prevent Tick Bites: 13 Things Ticks Won’t Tell You</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Healthy @Reader's Digest</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE9iRHdGOVhBUFR4MnI2bk9WSWc3OTBQekkxazBQYU5jS19ua2lqTmo3VTdXMmxBWkZTNFlDSW1mVWszUE9fTy1zLXp2V2VXVHhMZjFNcTVJSGUtZVBnTlhoeF9Na0ZrUTh6aEE?oc=5\" target=\"_blank\">Prevent Tick Bites: 13 Things Ticks Won’t Tell You</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Healthy @Reader's Digest</font>"
+      },
+      "source": {
+        "href": "https://www.thehealthy.com",
+        "title": "The Healthy @Reader's Digest"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Community Asked To Reduce Mosquito Breeding To Prevent Disease - Government of the Virgin Islands",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Community Asked To Reduce Mosquito Breeding To Prevent Disease - Government of the Virgin Islands"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUFV1UUgzRGVheWc3U3lCdXRuSkdxLXBNZXV1bDI0WThTeFpaV01sOTR5bmQyMUdUQW1lSmRwNDVXdWZWdlpGYkM0Uk1RQU11SnBISURvNjRYRHlENTZKVi13bFhFanFWUWhCbDVpdUlRR3c0b1ZmSThIenVTQzNtUS1VbzNtM0s5UFZ3eW5fVE9qclhJRVFj?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUFV1UUgzRGVheWc3U3lCdXRuSkdxLXBNZXV1bDI0WThTeFpaV01sOTR5bmQyMUdUQW1lSmRwNDVXdWZWdlpGYkM0Uk1RQU11SnBISURvNjRYRHlENTZKVi13bFhFanFWUWhCbDVpdUlRR3c0b1ZmSThIenVTQzNtUS1VbzNtM0s5UFZ3eW5fVE9qclhJRVFj?oc=5",
+      "id": "CBMilwFBVV95cUxNUFV1UUgzRGVheWc3U3lCdXRuSkdxLXBNZXV1bDI0WThTeFpaV01sOTR5bmQyMUdUQW1lSmRwNDVXdWZWdlpGYkM0Uk1RQU11SnBISURvNjRYRHlENTZKVi13bFhFanFWUWhCbDVpdUlRR3c0b1ZmSThIenVTQzNtUS1VbzNtM0s5UFZ3eW5fVE9qclhJRVFj",
+      "guidislink": false,
+      "published": "Thu, 28 Nov 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        11,
+        28,
+        8,
+        0,
+        0,
+        3,
+        332,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxNUFV1UUgzRGVheWc3U3lCdXRuSkdxLXBNZXV1bDI0WThTeFpaV01sOTR5bmQyMUdUQW1lSmRwNDVXdWZWdlpGYkM0Uk1RQU11SnBISURvNjRYRHlENTZKVi13bFhFanFWUWhCbDVpdUlRR3c0b1ZmSThIenVTQzNtUS1VbzNtM0s5UFZ3eW5fVE9qclhJRVFj?oc=5\" target=\"_blank\">Community Asked To Reduce Mosquito Breeding To Prevent Disease</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Government of the Virgin Islands</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxNUFV1UUgzRGVheWc3U3lCdXRuSkdxLXBNZXV1bDI0WThTeFpaV01sOTR5bmQyMUdUQW1lSmRwNDVXdWZWdlpGYkM0Uk1RQU11SnBISURvNjRYRHlENTZKVi13bFhFanFWUWhCbDVpdUlRR3c0b1ZmSThIenVTQzNtUS1VbzNtM0s5UFZ3eW5fVE9qclhJRVFj?oc=5\" target=\"_blank\">Community Asked To Reduce Mosquito Breeding To Prevent Disease</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Government of the Virgin Islands</font>"
+      },
+      "source": {
+        "href": "https://www.bvi.gov.vg",
+        "title": "Government of the Virgin Islands"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Estimating the risk of arbovirus transmission in Southern Europe using vector competence data - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Estimating the risk of arbovirus transmission in Southern Europe using vector competence data - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE15aUZIV1BfRmpvbksyTkZva0ZXblMwTEJpSGxjeHJfTEc1VmhaTlVwRC1FTmFPN2haaS05aTJCbDdtSF9hRmI5aUJvdnJ1S3hvcE82X3o2NFk4QkhHOVZR?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE15aUZIV1BfRmpvbksyTkZva0ZXblMwTEJpSGxjeHJfTEc1VmhaTlVwRC1FTmFPN2haaS05aTJCbDdtSF9hRmI5aUJvdnJ1S3hvcE82X3o2NFk4QkhHOVZR?oc=5",
+      "id": "CBMiX0FVX3lxTE15aUZIV1BfRmpvbksyTkZva0ZXblMwTEJpSGxjeHJfTEc1VmhaTlVwRC1FTmFPN2haaS05aTJCbDdtSF9hRmI5aUJvdnJ1S3hvcE82X3o2NFk4QkhHOVZR",
+      "guidislink": false,
+      "published": "Thu, 28 Nov 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        11,
+        28,
+        8,
+        0,
+        0,
+        3,
+        332,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE15aUZIV1BfRmpvbksyTkZva0ZXblMwTEJpSGxjeHJfTEc1VmhaTlVwRC1FTmFPN2haaS05aTJCbDdtSF9hRmI5aUJvdnJ1S3hvcE82X3o2NFk4QkhHOVZR?oc=5\" target=\"_blank\">Estimating the risk of arbovirus transmission in Southern Europe using vector competence data</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE15aUZIV1BfRmpvbksyTkZva0ZXblMwTEJpSGxjeHJfTEc1VmhaTlVwRC1FTmFPN2haaS05aTJCbDdtSF9hRmI5aUJvdnJ1S3hvcE82X3o2NFk4QkhHOVZR?oc=5\" target=\"_blank\">Estimating the risk of arbovirus transmission in Southern Europe using vector competence data</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Combating Aedes - Business Standard",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Combating Aedes - Business Standard"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeEFoZ2tyVjlOaUM2RDhqN3NGU1QzQUZDZTRSR1h0b2hZQnU0WklCMnRmb2FhczR1ZF83a3A2VzVpNFowbWdVRVJaMFZXX05XYktlSExpMThra2JQY2p6MDltS05sbEZCUUJxTGQ4ZkRHZ2hhbTEyY3NlRWxnTUt6X29MT3FrdFN2Mmhpbnp30gGTAUFVX3lxTE5ZYlFzYmRVcXh2WGpoaVZHdHgyR2d6bWNlZmpnZ29zMjVtSVl2bFB5LVpVLVFSWlM0ZzhSZEM5cld1NC1KOU83LXdObjY1VjkwWFgzcTFNelNYY0dYSnBad0hVUW1jeVZkSVlCek4zcE9oOFFLSHFXREJkWTN6ajlPU1FGWVZPcGpoMVVkeTdvWHNFZw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeEFoZ2tyVjlOaUM2RDhqN3NGU1QzQUZDZTRSR1h0b2hZQnU0WklCMnRmb2FhczR1ZF83a3A2VzVpNFowbWdVRVJaMFZXX05XYktlSExpMThra2JQY2p6MDltS05sbEZCUUJxTGQ4ZkRHZ2hhbTEyY3NlRWxnTUt6X29MT3FrdFN2Mmhpbnp30gGTAUFVX3lxTE5ZYlFzYmRVcXh2WGpoaVZHdHgyR2d6bWNlZmpnZ29zMjVtSVl2bFB5LVpVLVFSWlM0ZzhSZEM5cld1NC1KOU83LXdObjY1VjkwWFgzcTFNelNYY0dYSnBad0hVUW1jeVZkSVlCek4zcE9oOFFLSHFXREJkWTN6ajlPU1FGWVZPcGpoMVVkeTdvWHNFZw?oc=5",
+      "id": "CBMijgFBVV95cUxPeEFoZ2tyVjlOaUM2RDhqN3NGU1QzQUZDZTRSR1h0b2hZQnU0WklCMnRmb2FhczR1ZF83a3A2VzVpNFowbWdVRVJaMFZXX05XYktlSExpMThra2JQY2p6MDltS05sbEZCUUJxTGQ4ZkRHZ2hhbTEyY3NlRWxnTUt6X29MT3FrdFN2Mmhpbnp30gGTAUFVX3lxTE5ZYlFzYmRVcXh2WGpoaVZHdHgyR2d6bWNlZmpnZ29zMjVtSVl2bFB5LVpVLVFSWlM0ZzhSZEM5cld1NC1KOU83LXdObjY1VjkwWFgzcTFNelNYY0dYSnBad0hVUW1jeVZkSVlCek4zcE9oOFFLSHFXREJkWTN6ajlPU1FGWVZPcGpoMVVkeTdvWHNFZw",
+      "guidislink": false,
+      "published": "Sun, 01 Dec 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        12,
+        1,
+        8,
+        0,
+        0,
+        6,
+        335,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxPeEFoZ2tyVjlOaUM2RDhqN3NGU1QzQUZDZTRSR1h0b2hZQnU0WklCMnRmb2FhczR1ZF83a3A2VzVpNFowbWdVRVJaMFZXX05XYktlSExpMThra2JQY2p6MDltS05sbEZCUUJxTGQ4ZkRHZ2hhbTEyY3NlRWxnTUt6X29MT3FrdFN2Mmhpbnp30gGTAUFVX3lxTE5ZYlFzYmRVcXh2WGpoaVZHdHgyR2d6bWNlZmpnZ29zMjVtSVl2bFB5LVpVLVFSWlM0ZzhSZEM5cld1NC1KOU83LXdObjY1VjkwWFgzcTFNelNYY0dYSnBad0hVUW1jeVZkSVlCek4zcE9oOFFLSHFXREJkWTN6ajlPU1FGWVZPcGpoMVVkeTdvWHNFZw?oc=5\" target=\"_blank\">Combating Aedes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Business Standard</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxPeEFoZ2tyVjlOaUM2RDhqN3NGU1QzQUZDZTRSR1h0b2hZQnU0WklCMnRmb2FhczR1ZF83a3A2VzVpNFowbWdVRVJaMFZXX05XYktlSExpMThra2JQY2p6MDltS05sbEZCUUJxTGQ4ZkRHZ2hhbTEyY3NlRWxnTUt6X29MT3FrdFN2Mmhpbnp30gGTAUFVX3lxTE5ZYlFzYmRVcXh2WGpoaVZHdHgyR2d6bWNlZmpnZ29zMjVtSVl2bFB5LVpVLVFSWlM0ZzhSZEM5cld1NC1KOU83LXdObjY1VjkwWFgzcTFNelNYY0dYSnBad0hVUW1jeVZkSVlCek4zcE9oOFFLSHFXREJkWTN6ajlPU1FGWVZPcGpoMVVkeTdvWHNFZw?oc=5\" target=\"_blank\">Combating Aedes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Business Standard</font>"
+      },
+      "source": {
+        "href": "https://www.business-standard.com",
+        "title": "Business Standard"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "New facility in Ang Mo Kio aims to produce 5 million mosquitoes a week to fight dengue - The Straits Times",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "New facility in Ang Mo Kio aims to produce 5 million mosquitoes a week to fight dengue - The Straits Times"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdFZUZ0FmMEdqTkxkUlpPaFV6Nkl4RkNwUlpLU3pkcXU2N1Jla19QeGxEc3dVcUJMd2ZyRk1NejhhVUd6bGhZSEk2UzlyR3liRWZRZXRiMTFvclBFWW03N2NVNktidFM1azZ2VlVKbkdMUXQ1T1VoS211eURhRlBud2F6TEw4a2Rjb0J5OG50U2ZJcXJHSnBUd1NtUmFEY3B1bDRMUkJNN1ZVTkltSXdaWDRZVG1uTVozRnd0OVZnYjMtQm9UcnhQbw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdFZUZ0FmMEdqTkxkUlpPaFV6Nkl4RkNwUlpLU3pkcXU2N1Jla19QeGxEc3dVcUJMd2ZyRk1NejhhVUd6bGhZSEk2UzlyR3liRWZRZXRiMTFvclBFWW03N2NVNktidFM1azZ2VlVKbkdMUXQ1T1VoS211eURhRlBud2F6TEw4a2Rjb0J5OG50U2ZJcXJHSnBUd1NtUmFEY3B1bDRMUkJNN1ZVTkltSXdaWDRZVG1uTVozRnd0OVZnYjMtQm9UcnhQbw?oc=5",
+      "id": "CBMiyAFBVV95cUxQdFZUZ0FmMEdqTkxkUlpPaFV6Nkl4RkNwUlpLU3pkcXU2N1Jla19QeGxEc3dVcUJMd2ZyRk1NejhhVUd6bGhZSEk2UzlyR3liRWZRZXRiMTFvclBFWW03N2NVNktidFM1azZ2VlVKbkdMUXQ1T1VoS211eURhRlBud2F6TEw4a2Rjb0J5OG50U2ZJcXJHSnBUd1NtUmFEY3B1bDRMUkJNN1ZVTkltSXdaWDRZVG1uTVozRnd0OVZnYjMtQm9UcnhQbw",
+      "guidislink": false,
+      "published": "Mon, 02 Dec 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        12,
+        2,
+        8,
+        0,
+        0,
+        0,
+        336,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdFZUZ0FmMEdqTkxkUlpPaFV6Nkl4RkNwUlpLU3pkcXU2N1Jla19QeGxEc3dVcUJMd2ZyRk1NejhhVUd6bGhZSEk2UzlyR3liRWZRZXRiMTFvclBFWW03N2NVNktidFM1azZ2VlVKbkdMUXQ1T1VoS211eURhRlBud2F6TEw4a2Rjb0J5OG50U2ZJcXJHSnBUd1NtUmFEY3B1bDRMUkJNN1ZVTkltSXdaWDRZVG1uTVozRnd0OVZnYjMtQm9UcnhQbw?oc=5\" target=\"_blank\">New facility in Ang Mo Kio aims to produce 5 million mosquitoes a week to fight dengue</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Straits Times</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdFZUZ0FmMEdqTkxkUlpPaFV6Nkl4RkNwUlpLU3pkcXU2N1Jla19QeGxEc3dVcUJMd2ZyRk1NejhhVUd6bGhZSEk2UzlyR3liRWZRZXRiMTFvclBFWW03N2NVNktidFM1azZ2VlVKbkdMUXQ1T1VoS211eURhRlBud2F6TEw4a2Rjb0J5OG50U2ZJcXJHSnBUd1NtUmFEY3B1bDRMUkJNN1ZVTkltSXdaWDRZVG1uTVozRnd0OVZnYjMtQm9UcnhQbw?oc=5\" target=\"_blank\">New facility in Ang Mo Kio aims to produce 5 million mosquitoes a week to fight dengue</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Straits Times</font>"
+      },
+      "source": {
+        "href": "https://www.straitstimes.com",
+        "title": "The Straits Times"
+      },
+      "sub_articles": []
+    }
+  ]
+}

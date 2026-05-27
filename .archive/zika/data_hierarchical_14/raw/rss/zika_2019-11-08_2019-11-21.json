@@ -1,0 +1,736 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2019-11-08",
+  "window_end": "2019-11-21",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2019-11-08+before%3A2019-11-22&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2019-11-08+before:2019-11-22&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:27:15Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2019-11-08 before:2019-11-22\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2019-11-08 before:2019-11-22\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2019-11-08+before:2019-11-22&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2019-11-08+before:2019-11-22&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:27:16 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      27,
+      16,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "The first local cases of Zika virus in Europe - The Lancet",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "The first local cases of Zika virus in Europe - The Lancet"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWkw4NjljMnRhT1YxbnZ6U2I2UmM3MVJKU3hZX2pRN3JQTjFrWFhMR2R4LTFrQTE0dDRGZmVPLXBIcHBPTy1ubWRjN0Y3SjE1cVJUZWpmZzFyakYyRDNYUmtqQ1lDeHNyckZFMjRvcWVpbGNFTV9IREQ4MWExc2FNN2QwRUFpNzhoU0VN?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWkw4NjljMnRhT1YxbnZ6U2I2UmM3MVJKU3hZX2pRN3JQTjFrWFhMR2R4LTFrQTE0dDRGZmVPLXBIcHBPTy1ubWRjN0Y3SjE1cVJUZWpmZzFyakYyRDNYUmtqQ1lDeHNyckZFMjRvcWVpbGNFTV9IREQ4MWExc2FNN2QwRUFpNzhoU0VN?oc=5",
+      "id": "CBMiiwFBVV95cUxOWkw4NjljMnRhT1YxbnZ6U2I2UmM3MVJKU3hZX2pRN3JQTjFrWFhMR2R4LTFrQTE0dDRGZmVPLXBIcHBPTy1ubWRjN0Y3SjE1cVJUZWpmZzFyakYyRDNYUmtqQ1lDeHNyckZFMjRvcWVpbGNFTV9IREQ4MWExc2FNN2QwRUFpNzhoU0VN",
+      "guidislink": false,
+      "published": "Mon, 18 Nov 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        11,
+        18,
+        8,
+        0,
+        0,
+        0,
+        322,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWkw4NjljMnRhT1YxbnZ6U2I2UmM3MVJKU3hZX2pRN3JQTjFrWFhMR2R4LTFrQTE0dDRGZmVPLXBIcHBPTy1ubWRjN0Y3SjE1cVJUZWpmZzFyakYyRDNYUmtqQ1lDeHNyckZFMjRvcWVpbGNFTV9IREQ4MWExc2FNN2QwRUFpNzhoU0VN?oc=5\" target=\"_blank\">The first local cases of Zika virus in Europe</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Lancet</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWkw4NjljMnRhT1YxbnZ6U2I2UmM3MVJKU3hZX2pRN3JQTjFrWFhMR2R4LTFrQTE0dDRGZmVPLXBIcHBPTy1ubWRjN0Y3SjE1cVJUZWpmZzFyakYyRDNYUmtqQ1lDeHNyckZFMjRvcWVpbGNFTV9IREQ4MWExc2FNN2QwRUFpNzhoU0VN?oc=5\" target=\"_blank\">The first local cases of Zika virus in Europe</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Lancet</font>"
+      },
+      "source": {
+        "href": "https://www.thelancet.com",
+        "title": "The Lancet"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Impact of weather seasonality and sexual transmission on the spread of Zika fever - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Impact of weather seasonality and sexual transmission on the spread of Zika fever - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4wLVViVnB0azg5Znh1NmNKZEhIWXVBaWdEN0x4MnBPajhsak41d1lfZFdreTVZYy14UTdIZ0FtTGtmU1k0ZTVjOEdDM2pqaHd1Mkw3c2dXVjFIcXpkWHBr?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4wLVViVnB0azg5Znh1NmNKZEhIWXVBaWdEN0x4MnBPajhsak41d1lfZFdreTVZYy14UTdIZ0FtTGtmU1k0ZTVjOEdDM2pqaHd1Mkw3c2dXVjFIcXpkWHBr?oc=5",
+      "id": "CBMiX0FVX3lxTE4wLVViVnB0azg5Znh1NmNKZEhIWXVBaWdEN0x4MnBPajhsak41d1lfZFdreTVZYy14UTdIZ0FtTGtmU1k0ZTVjOEdDM2pqaHd1Mkw3c2dXVjFIcXpkWHBr",
+      "guidislink": false,
+      "published": "Tue, 19 Nov 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        11,
+        19,
+        8,
+        0,
+        0,
+        1,
+        323,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE4wLVViVnB0azg5Znh1NmNKZEhIWXVBaWdEN0x4MnBPajhsak41d1lfZFdreTVZYy14UTdIZ0FtTGtmU1k0ZTVjOEdDM2pqaHd1Mkw3c2dXVjFIcXpkWHBr?oc=5\" target=\"_blank\">Impact of weather seasonality and sexual transmission on the spread of Zika fever</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE4wLVViVnB0azg5Znh1NmNKZEhIWXVBaWdEN0x4MnBPajhsak41d1lfZFdreTVZYy14UTdIZ0FtTGtmU1k0ZTVjOEdDM2pqaHd1Mkw3c2dXVjFIcXpkWHBr?oc=5\" target=\"_blank\">Impact of weather seasonality and sexual transmission on the spread of Zika fever</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Here’s One Way Zika Virus Causes Microcephaly - HHMI",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Here’s One Way Zika Virus Causes Microcephaly - HHMI"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5ibHVOTkN1T1FQMnJIbUxYd3B4X1R0SFJxR2FIcmN4aGctc0tUem9pLTlPNEJUcnhKTHpjbk1NdFc3QURhalEzM2tsTUEzYkR4TmwzeFlvVFdLME5adVFQbDFoQi03MXh6dmwwVWlTVDVGWjZGUDZMbGJR?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5ibHVOTkN1T1FQMnJIbUxYd3B4X1R0SFJxR2FIcmN4aGctc0tUem9pLTlPNEJUcnhKTHpjbk1NdFc3QURhalEzM2tsTUEzYkR4TmwzeFlvVFdLME5adVFQbDFoQi03MXh6dmwwVWlTVDVGWjZGUDZMbGJR?oc=5",
+      "id": "CBMiekFVX3lxTE5ibHVOTkN1T1FQMnJIbUxYd3B4X1R0SFJxR2FIcmN4aGctc0tUem9pLTlPNEJUcnhKTHpjbk1NdFc3QURhalEzM2tsTUEzYkR4TmwzeFlvVFdLME5adVFQbDFoQi03MXh6dmwwVWlTVDVGWjZGUDZMbGJR",
+      "guidislink": false,
+      "published": "Thu, 14 Nov 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        11,
+        14,
+        8,
+        0,
+        0,
+        3,
+        318,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE5ibHVOTkN1T1FQMnJIbUxYd3B4X1R0SFJxR2FIcmN4aGctc0tUem9pLTlPNEJUcnhKTHpjbk1NdFc3QURhalEzM2tsTUEzYkR4TmwzeFlvVFdLME5adVFQbDFoQi03MXh6dmwwVWlTVDVGWjZGUDZMbGJR?oc=5\" target=\"_blank\">Here’s One Way Zika Virus Causes Microcephaly</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">HHMI</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE5ibHVOTkN1T1FQMnJIbUxYd3B4X1R0SFJxR2FIcmN4aGctc0tUem9pLTlPNEJUcnhKTHpjbk1NdFc3QURhalEzM2tsTUEzYkR4TmwzeFlvVFdLME5adVFQbDFoQi03MXh6dmwwVWlTVDVGWjZGUDZMbGJR?oc=5\" target=\"_blank\">Here’s One Way Zika Virus Causes Microcephaly</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">HHMI</font>"
+      },
+      "source": {
+        "href": "https://www.hhmi.org",
+        "title": "HHMI"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika Virus Outbreak on Curaçao and Bonaire, a Report Based on Laboratory Diagnostics Data - Frontiers",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika Virus Outbreak on Curaçao and Bonaire, a Report Based on Laboratory Diagnostics Data - Frontiers"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQalZ6ZUZQT1ZoR2g5cEJ0dE4xanIwSjRieldBN0gzMjJRWUpfejhZYXlUOGcxbkdDNDRhRTdTT0lOaEZlNWhKZlM5RkUyTDRhY3NMY3UtUkxFLWQxOE9yTjMtRjhmaHV1QzdXb1FRbEl6cGEwWDVueXV4MGZaU2JaYTY1ekNYNW4zc1o0Q1RBM1BvOHM?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQalZ6ZUZQT1ZoR2g5cEJ0dE4xanIwSjRieldBN0gzMjJRWUpfejhZYXlUOGcxbkdDNDRhRTdTT0lOaEZlNWhKZlM5RkUyTDRhY3NMY3UtUkxFLWQxOE9yTjMtRjhmaHV1QzdXb1FRbEl6cGEwWDVueXV4MGZaU2JaYTY1ekNYNW4zc1o0Q1RBM1BvOHM?oc=5",
+      "id": "CBMikwFBVV95cUxQalZ6ZUZQT1ZoR2g5cEJ0dE4xanIwSjRieldBN0gzMjJRWUpfejhZYXlUOGcxbkdDNDRhRTdTT0lOaEZlNWhKZlM5RkUyTDRhY3NMY3UtUkxFLWQxOE9yTjMtRjhmaHV1QzdXb1FRbEl6cGEwWDVueXV4MGZaU2JaYTY1ekNYNW4zc1o0Q1RBM1BvOHM",
+      "guidislink": false,
+      "published": "Mon, 11 Nov 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        11,
+        11,
+        8,
+        0,
+        0,
+        0,
+        315,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxQalZ6ZUZQT1ZoR2g5cEJ0dE4xanIwSjRieldBN0gzMjJRWUpfejhZYXlUOGcxbkdDNDRhRTdTT0lOaEZlNWhKZlM5RkUyTDRhY3NMY3UtUkxFLWQxOE9yTjMtRjhmaHV1QzdXb1FRbEl6cGEwWDVueXV4MGZaU2JaYTY1ekNYNW4zc1o0Q1RBM1BvOHM?oc=5\" target=\"_blank\">Zika Virus Outbreak on Curaçao and Bonaire, a Report Based on Laboratory Diagnostics Data</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Frontiers</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxQalZ6ZUZQT1ZoR2g5cEJ0dE4xanIwSjRieldBN0gzMjJRWUpfejhZYXlUOGcxbkdDNDRhRTdTT0lOaEZlNWhKZlM5RkUyTDRhY3NMY3UtUkxFLWQxOE9yTjMtRjhmaHV1QzdXb1FRbEl6cGEwWDVueXV4MGZaU2JaYTY1ekNYNW4zc1o0Q1RBM1BvOHM?oc=5\" target=\"_blank\">Zika Virus Outbreak on Curaçao and Bonaire, a Report Based on Laboratory Diagnostics Data</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Frontiers</font>"
+      },
+      "source": {
+        "href": "https://www.frontiersin.org",
+        "title": "Frontiers"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Mosquito sterilization offers new opportunity to control chikungunya, dengue, and Zika - World Health Organization (WHO)",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Mosquito sterilization offers new opportunity to control chikungunya, dengue, and Zika - World Health Organization (WHO)"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNR3dUTnBKR1BBSzE5QnYzZlhKVzU5aGxwd3JqYUU1ZWhlbFgzVjI5NGJCMi04cENzZ2dsUGcwWk13bUVON3NLaGxMUUszVmRfVzM5ZFNPNWx1cTI3bGdNNXRUY2pkZmh3RGRFbmZsWE1LTzVlWXpCN0FzaWRXa3RwUkFPYko3U3VheFRLY3dPZ0psWDlpQTQ5bkgxYnYtYW5oUEhJdHVyeDR3ZVhfT2RJMWNINExtSVpMTHlPNVVVMHB1Mk0?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNR3dUTnBKR1BBSzE5QnYzZlhKVzU5aGxwd3JqYUU1ZWhlbFgzVjI5NGJCMi04cENzZ2dsUGcwWk13bUVON3NLaGxMUUszVmRfVzM5ZFNPNWx1cTI3bGdNNXRUY2pkZmh3RGRFbmZsWE1LTzVlWXpCN0FzaWRXa3RwUkFPYko3U3VheFRLY3dPZ0psWDlpQTQ5bkgxYnYtYW5oUEhJdHVyeDR3ZVhfT2RJMWNINExtSVpMTHlPNVVVMHB1Mk0?oc=5",
+      "id": "CBMiwwFBVV95cUxNR3dUTnBKR1BBSzE5QnYzZlhKVzU5aGxwd3JqYUU1ZWhlbFgzVjI5NGJCMi04cENzZ2dsUGcwWk13bUVON3NLaGxMUUszVmRfVzM5ZFNPNWx1cTI3bGdNNXRUY2pkZmh3RGRFbmZsWE1LTzVlWXpCN0FzaWRXa3RwUkFPYko3U3VheFRLY3dPZ0psWDlpQTQ5bkgxYnYtYW5oUEhJdHVyeDR3ZVhfT2RJMWNINExtSVpMTHlPNVVVMHB1Mk0",
+      "guidislink": false,
+      "published": "Thu, 14 Nov 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        11,
+        14,
+        8,
+        0,
+        0,
+        3,
+        318,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxNR3dUTnBKR1BBSzE5QnYzZlhKVzU5aGxwd3JqYUU1ZWhlbFgzVjI5NGJCMi04cENzZ2dsUGcwWk13bUVON3NLaGxMUUszVmRfVzM5ZFNPNWx1cTI3bGdNNXRUY2pkZmh3RGRFbmZsWE1LTzVlWXpCN0FzaWRXa3RwUkFPYko3U3VheFRLY3dPZ0psWDlpQTQ5bkgxYnYtYW5oUEhJdHVyeDR3ZVhfT2RJMWNINExtSVpMTHlPNVVVMHB1Mk0?oc=5\" target=\"_blank\">Mosquito sterilization offers new opportunity to control chikungunya, dengue, and Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">World Health Organization (WHO)</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxNR3dUTnBKR1BBSzE5QnYzZlhKVzU5aGxwd3JqYUU1ZWhlbFgzVjI5NGJCMi04cENzZ2dsUGcwWk13bUVON3NLaGxMUUszVmRfVzM5ZFNPNWx1cTI3bGdNNXRUY2pkZmh3RGRFbmZsWE1LTzVlWXpCN0FzaWRXa3RwUkFPYko3U3VheFRLY3dPZ0psWDlpQTQ5bkgxYnYtYW5oUEhJdHVyeDR3ZVhfT2RJMWNINExtSVpMTHlPNVVVMHB1Mk0?oc=5\" target=\"_blank\">Mosquito sterilization offers new opportunity to control chikungunya, dengue, and Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">World Health Organization (WHO)</font>"
+      },
+      "source": {
+        "href": "https://www.who.int",
+        "title": "World Health Organization (WHO)"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Understanding Spatial and Temporal Patterns of Zika Transmission - Global Biodefense",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Understanding Spatial and Temporal Patterns of Zika Transmission - Global Biodefense"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNY01hWFdpb2s4Z0hvRUVaM2dzeW95cXFDZ1czT2ZEUEdLRkI2TFJTNkw5X2sxU19uM0xLZGM3N213aVJjR1FEbi1yOHBtQml3S2M4Qk5Fd3dpellaVEM3dHk4R1I3SVdNSEVIS1JKNEc2anFwYXRzWFpwMXJZZTFYNlZDeVY4aU1nRUNtVjhrWUJTRk5VUURsT0phYks2YkVISlRQN2tSMjU?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNY01hWFdpb2s4Z0hvRUVaM2dzeW95cXFDZ1czT2ZEUEdLRkI2TFJTNkw5X2sxU19uM0xLZGM3N213aVJjR1FEbi1yOHBtQml3S2M4Qk5Fd3dpellaVEM3dHk4R1I3SVdNSEVIS1JKNEc2anFwYXRzWFpwMXJZZTFYNlZDeVY4aU1nRUNtVjhrWUJTRk5VUURsT0phYks2YkVISlRQN2tSMjU?oc=5",
+      "id": "CBMiqAFBVV95cUxNY01hWFdpb2s4Z0hvRUVaM2dzeW95cXFDZ1czT2ZEUEdLRkI2TFJTNkw5X2sxU19uM0xLZGM3N213aVJjR1FEbi1yOHBtQml3S2M4Qk5Fd3dpellaVEM3dHk4R1I3SVdNSEVIS1JKNEc2anFwYXRzWFpwMXJZZTFYNlZDeVY4aU1nRUNtVjhrWUJTRk5VUURsT0phYks2YkVISlRQN2tSMjU",
+      "guidislink": false,
+      "published": "Tue, 12 Nov 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        11,
+        12,
+        8,
+        0,
+        0,
+        1,
+        316,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxNY01hWFdpb2s4Z0hvRUVaM2dzeW95cXFDZ1czT2ZEUEdLRkI2TFJTNkw5X2sxU19uM0xLZGM3N213aVJjR1FEbi1yOHBtQml3S2M4Qk5Fd3dpellaVEM3dHk4R1I3SVdNSEVIS1JKNEc2anFwYXRzWFpwMXJZZTFYNlZDeVY4aU1nRUNtVjhrWUJTRk5VUURsT0phYks2YkVISlRQN2tSMjU?oc=5\" target=\"_blank\">Understanding Spatial and Temporal Patterns of Zika Transmission</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Global Biodefense</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxNY01hWFdpb2s4Z0hvRUVaM2dzeW95cXFDZ1czT2ZEUEdLRkI2TFJTNkw5X2sxU19uM0xLZGM3N213aVJjR1FEbi1yOHBtQml3S2M4Qk5Fd3dpellaVEM3dHk4R1I3SVdNSEVIS1JKNEc2anFwYXRzWFpwMXJZZTFYNlZDeVY4aU1nRUNtVjhrWUJTRk5VUURsT0phYks2YkVISlRQN2tSMjU?oc=5\" target=\"_blank\">Understanding Spatial and Temporal Patterns of Zika Transmission</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Global Biodefense</font>"
+      },
+      "source": {
+        "href": "https://globalbiodefense.com",
+        "title": "Global Biodefense"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "'We Now Have a New Exotic Disease in Europe': Native Zika Virus Spreads Due to Climate Change - EcoWatch",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "'We Now Have a New Exotic Disease in Europe': Native Zika Virus Spreads Due to Climate Change - EcoWatch"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1lelRoUWhBaDk2OVZLY05zUzlCbkxkUlZaSjNteVcybFhLNUh4MEFoeDBWZklpTWYySUpuM2hvMlpLT05PMmt5eEZHVHdZTnlfaHkxQ09lWjEtRWotTmdZVXc3TkFhSXZPUk5sdXVWQVZ1Q2lZUlE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1lelRoUWhBaDk2OVZLY05zUzlCbkxkUlZaSjNteVcybFhLNUh4MEFoeDBWZklpTWYySUpuM2hvMlpLT05PMmt5eEZHVHdZTnlfaHkxQ09lWjEtRWotTmdZVXc3TkFhSXZPUk5sdXVWQVZ1Q2lZUlE?oc=5",
+      "id": "CBMidkFVX3lxTE1lelRoUWhBaDk2OVZLY05zUzlCbkxkUlZaSjNteVcybFhLNUh4MEFoeDBWZklpTWYySUpuM2hvMlpLT05PMmt5eEZHVHdZTnlfaHkxQ09lWjEtRWotTmdZVXc3TkFhSXZPUk5sdXVWQVZ1Q2lZUlE",
+      "guidislink": false,
+      "published": "Fri, 08 Nov 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        11,
+        8,
+        8,
+        0,
+        0,
+        4,
+        312,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE1lelRoUWhBaDk2OVZLY05zUzlCbkxkUlZaSjNteVcybFhLNUh4MEFoeDBWZklpTWYySUpuM2hvMlpLT05PMmt5eEZHVHdZTnlfaHkxQ09lWjEtRWotTmdZVXc3TkFhSXZPUk5sdXVWQVZ1Q2lZUlE?oc=5\" target=\"_blank\">'We Now Have a New Exotic Disease in Europe': Native Zika Virus Spreads Due to Climate Change</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">EcoWatch</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE1lelRoUWhBaDk2OVZLY05zUzlCbkxkUlZaSjNteVcybFhLNUh4MEFoeDBWZklpTWYySUpuM2hvMlpLT05PMmt5eEZHVHdZTnlfaHkxQ09lWjEtRWotTmdZVXc3TkFhSXZPUk5sdXVWQVZ1Q2lZUlE?oc=5\" target=\"_blank\">'We Now Have a New Exotic Disease in Europe': Native Zika Virus Spreads Due to Climate Change</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">EcoWatch</font>"
+      },
+      "source": {
+        "href": "https://www.ecowatch.com",
+        "title": "EcoWatch"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Phylogenetic surveillance of travel-related Zika virus infections through whole-genome sequencing methods - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Phylogenetic surveillance of travel-related Zika virus infections through whole-genome sequencing methods - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBvNHpTVHkwSXFKR3kxM3BreVNrRkhKVldsUkNXNmVkd3VCcGhyRjhkOFAwWHVfa243Tlh5N2VwTzhQM1JodkRMdnJDWTY5ZUFGa3RwelkxYkI1UFRJSVVv?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBvNHpTVHkwSXFKR3kxM3BreVNrRkhKVldsUkNXNmVkd3VCcGhyRjhkOFAwWHVfa243Tlh5N2VwTzhQM1JodkRMdnJDWTY5ZUFGa3RwelkxYkI1UFRJSVVv?oc=5",
+      "id": "CBMiX0FVX3lxTFBvNHpTVHkwSXFKR3kxM3BreVNrRkhKVldsUkNXNmVkd3VCcGhyRjhkOFAwWHVfa243Tlh5N2VwTzhQM1JodkRMdnJDWTY5ZUFGa3RwelkxYkI1UFRJSVVv",
+      "guidislink": false,
+      "published": "Mon, 11 Nov 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        11,
+        11,
+        8,
+        0,
+        0,
+        0,
+        315,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFBvNHpTVHkwSXFKR3kxM3BreVNrRkhKVldsUkNXNmVkd3VCcGhyRjhkOFAwWHVfa243Tlh5N2VwTzhQM1JodkRMdnJDWTY5ZUFGa3RwelkxYkI1UFRJSVVv?oc=5\" target=\"_blank\">Phylogenetic surveillance of travel-related Zika virus infections through whole-genome sequencing methods</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFBvNHpTVHkwSXFKR3kxM3BreVNrRkhKVldsUkNXNmVkd3VCcGhyRjhkOFAwWHVfa243Tlh5N2VwTzhQM1JodkRMdnJDWTY5ZUFGa3RwelkxYkI1UFRJSVVv?oc=5\" target=\"_blank\">Phylogenetic surveillance of travel-related Zika virus infections through whole-genome sequencing methods</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "UN mosquito sterilization technology set for global testing, in battle against malaria, dengue - Welcome to the United Nations",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "UN mosquito sterilization technology set for global testing, in battle against malaria, dengue - Welcome to the United Nations"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA5TnVHSEp3b0t5TFdxcEo4RzMtUmxSQksyNDF6X1RWOVZYazBnaFA2bWRMT0dFUmxfUUdWQkRYSS1VdE9DeEoxRHFjdURtQS1lQnRyYmZTVQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA5TnVHSEp3b0t5TFdxcEo4RzMtUmxSQksyNDF6X1RWOVZYazBnaFA2bWRMT0dFUmxfUUdWQkRYSS1VdE9DeEoxRHFjdURtQS1lQnRyYmZTVQ?oc=5",
+      "id": "CBMiV0FVX3lxTFA5TnVHSEp3b0t5TFdxcEo4RzMtUmxSQksyNDF6X1RWOVZYazBnaFA2bWRMT0dFUmxfUUdWQkRYSS1VdE9DeEoxRHFjdURtQS1lQnRyYmZTVQ",
+      "guidislink": false,
+      "published": "Thu, 14 Nov 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        11,
+        14,
+        8,
+        0,
+        0,
+        3,
+        318,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTFA5TnVHSEp3b0t5TFdxcEo4RzMtUmxSQksyNDF6X1RWOVZYazBnaFA2bWRMT0dFUmxfUUdWQkRYSS1VdE9DeEoxRHFjdURtQS1lQnRyYmZTVQ?oc=5\" target=\"_blank\">UN mosquito sterilization technology set for global testing, in battle against malaria, dengue</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Welcome to the United Nations</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTFA5TnVHSEp3b0t5TFdxcEo4RzMtUmxSQksyNDF6X1RWOVZYazBnaFA2bWRMT0dFUmxfUUdWQkRYSS1VdE9DeEoxRHFjdURtQS1lQnRyYmZTVQ?oc=5\" target=\"_blank\">UN mosquito sterilization technology set for global testing, in battle against malaria, dengue</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Welcome to the United Nations</font>"
+      },
+      "source": {
+        "href": "https://news.un.org",
+        "title": "Welcome to the United Nations"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Rare genetic mutations and the fruit fly explain how Zika causes microcephaly - ZME Science",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Rare genetic mutations and the fruit fly explain how Zika causes microcephaly - ZME Science"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRlFPSDhvdXg5VU53Zmt1NC1uM3RuQmp2bU45ZV9YS0l2cTJqRmFfVGhkU2dJNWJQbjdyWGpIdkNoTGcxaUN3ZzJmUTIxdEdzZThXd2wzaEdmSHhaajJNbTBIcHk4LUJwSzJxUDFuZmNWeUxJcVFYSHFSZ0dRZDhfMzM4VVQ4UGt0SS1PSUJ2TUJNX2RNMXFteVlNNVAzc0ZKckRRc0xlVVE0dUxiWHpjQVNhVWJLVTVPSm9teFZ3?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRlFPSDhvdXg5VU53Zmt1NC1uM3RuQmp2bU45ZV9YS0l2cTJqRmFfVGhkU2dJNWJQbjdyWGpIdkNoTGcxaUN3ZzJmUTIxdEdzZThXd2wzaEdmSHhaajJNbTBIcHk4LUJwSzJxUDFuZmNWeUxJcVFYSHFSZ0dRZDhfMzM4VVQ4UGt0SS1PSUJ2TUJNX2RNMXFteVlNNVAzc0ZKckRRc0xlVVE0dUxiWHpjQVNhVWJLVTVPSm9teFZ3?oc=5",
+      "id": "CBMivgFBVV95cUxPRlFPSDhvdXg5VU53Zmt1NC1uM3RuQmp2bU45ZV9YS0l2cTJqRmFfVGhkU2dJNWJQbjdyWGpIdkNoTGcxaUN3ZzJmUTIxdEdzZThXd2wzaEdmSHhaajJNbTBIcHk4LUJwSzJxUDFuZmNWeUxJcVFYSHFSZ0dRZDhfMzM4VVQ4UGt0SS1PSUJ2TUJNX2RNMXFteVlNNVAzc0ZKckRRc0xlVVE0dUxiWHpjQVNhVWJLVTVPSm9teFZ3",
+      "guidislink": false,
+      "published": "Mon, 18 Nov 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        11,
+        18,
+        8,
+        0,
+        0,
+        0,
+        322,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPRlFPSDhvdXg5VU53Zmt1NC1uM3RuQmp2bU45ZV9YS0l2cTJqRmFfVGhkU2dJNWJQbjdyWGpIdkNoTGcxaUN3ZzJmUTIxdEdzZThXd2wzaEdmSHhaajJNbTBIcHk4LUJwSzJxUDFuZmNWeUxJcVFYSHFSZ0dRZDhfMzM4VVQ4UGt0SS1PSUJ2TUJNX2RNMXFteVlNNVAzc0ZKckRRc0xlVVE0dUxiWHpjQVNhVWJLVTVPSm9teFZ3?oc=5\" target=\"_blank\">Rare genetic mutations and the fruit fly explain how Zika causes microcephaly</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ZME Science</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPRlFPSDhvdXg5VU53Zmt1NC1uM3RuQmp2bU45ZV9YS0l2cTJqRmFfVGhkU2dJNWJQbjdyWGpIdkNoTGcxaUN3ZzJmUTIxdEdzZThXd2wzaEdmSHhaajJNbTBIcHk4LUJwSzJxUDFuZmNWeUxJcVFYSHFSZ0dRZDhfMzM4VVQ4UGt0SS1PSUJ2TUJNX2RNMXFteVlNNVAzc0ZKckRRc0xlVVE0dUxiWHpjQVNhVWJLVTVPSm9teFZ3?oc=5\" target=\"_blank\">Rare genetic mutations and the fruit fly explain how Zika causes microcephaly</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ZME Science</font>"
+      },
+      "source": {
+        "href": "https://www.zmescience.com",
+        "title": "ZME Science"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Mild Zika infection in fetuses may cause brain abnormalities - University of Saskatchewan",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Mild Zika infection in fetuses may cause brain abnormalities - University of Saskatchewan"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQV0g2N1hXbi1lMUpOU0JwUmEtWXpFMjJSSU5PZUFEWDllZXNHRlBQMHNiaWlfRDRLNkpoWU84aTJ6V1RhZ0N2dk5ZSnZiUkZsWVFFd2FubllZQXN0RmtLdXF3WlV6NTRBOUFNVXoxcWNwWmtnU2dOVUw0dVlkRW50WTJfbmZrVzR4ME1EWGpmM01UUVJOSjJPai03enZJLXJnMHFyTnFLTGVLWktWUW5JWWl6SlVDdUI4Q2V2YzRpcmZHTG9leHNnOENUWTBxdHZTdllXaA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQV0g2N1hXbi1lMUpOU0JwUmEtWXpFMjJSSU5PZUFEWDllZXNHRlBQMHNiaWlfRDRLNkpoWU84aTJ6V1RhZ0N2dk5ZSnZiUkZsWVFFd2FubllZQXN0RmtLdXF3WlV6NTRBOUFNVXoxcWNwWmtnU2dOVUw0dVlkRW50WTJfbmZrVzR4ME1EWGpmM01UUVJOSjJPai03enZJLXJnMHFyTnFLTGVLWktWUW5JWWl6SlVDdUI4Q2V2YzRpcmZHTG9leHNnOENUWTBxdHZTdllXaA?oc=5",
+      "id": "CBMi1AFBVV95cUxQV0g2N1hXbi1lMUpOU0JwUmEtWXpFMjJSSU5PZUFEWDllZXNHRlBQMHNiaWlfRDRLNkpoWU84aTJ6V1RhZ0N2dk5ZSnZiUkZsWVFFd2FubllZQXN0RmtLdXF3WlV6NTRBOUFNVXoxcWNwWmtnU2dOVUw0dVlkRW50WTJfbmZrVzR4ME1EWGpmM01UUVJOSjJPai03enZJLXJnMHFyTnFLTGVLWktWUW5JWWl6SlVDdUI4Q2V2YzRpcmZHTG9leHNnOENUWTBxdHZTdllXaA",
+      "guidislink": false,
+      "published": "Thu, 14 Nov 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        11,
+        14,
+        8,
+        0,
+        0,
+        3,
+        318,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxQV0g2N1hXbi1lMUpOU0JwUmEtWXpFMjJSSU5PZUFEWDllZXNHRlBQMHNiaWlfRDRLNkpoWU84aTJ6V1RhZ0N2dk5ZSnZiUkZsWVFFd2FubllZQXN0RmtLdXF3WlV6NTRBOUFNVXoxcWNwWmtnU2dOVUw0dVlkRW50WTJfbmZrVzR4ME1EWGpmM01UUVJOSjJPai03enZJLXJnMHFyTnFLTGVLWktWUW5JWWl6SlVDdUI4Q2V2YzRpcmZHTG9leHNnOENUWTBxdHZTdllXaA?oc=5\" target=\"_blank\">Mild Zika infection in fetuses may cause brain abnormalities</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of Saskatchewan</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxQV0g2N1hXbi1lMUpOU0JwUmEtWXpFMjJSSU5PZUFEWDllZXNHRlBQMHNiaWlfRDRLNkpoWU84aTJ6V1RhZ0N2dk5ZSnZiUkZsWVFFd2FubllZQXN0RmtLdXF3WlV6NTRBOUFNVXoxcWNwWmtnU2dOVUw0dVlkRW50WTJfbmZrVzR4ME1EWGpmM01UUVJOSjJPai03enZJLXJnMHFyTnFLTGVLWktWUW5JWWl6SlVDdUI4Q2V2YzRpcmZHTG9leHNnOENUWTBxdHZTdllXaA?oc=5\" target=\"_blank\">Mild Zika infection in fetuses may cause brain abnormalities</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of Saskatchewan</font>"
+      },
+      "source": {
+        "href": "https://news.usask.ca",
+        "title": "University of Saskatchewan"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "The citrus flavonoid naringenin impairs the in vitro infection of human cells by Zika virus - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "The citrus flavonoid naringenin impairs the in vitro infection of human cells by Zika virus - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9rSTNsc0ZjS0RlUW5ZdGM0ZjE4Q1Aycmdua3VsTDBTaVpienBCYVlpWHl1NGdUV0xGclZ0MEpZZ2lvTmM1TV9SMXNLRTlwekpuc2JmX3J5ajZDZEE0WWIw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9rSTNsc0ZjS0RlUW5ZdGM0ZjE4Q1Aycmdua3VsTDBTaVpienBCYVlpWHl1NGdUV0xGclZ0MEpZZ2lvTmM1TV9SMXNLRTlwekpuc2JmX3J5ajZDZEE0WWIw?oc=5",
+      "id": "CBMiX0FVX3lxTE9rSTNsc0ZjS0RlUW5ZdGM0ZjE4Q1Aycmdua3VsTDBTaVpienBCYVlpWHl1NGdUV0xGclZ0MEpZZ2lvTmM1TV9SMXNLRTlwekpuc2JmX3J5ajZDZEE0WWIw",
+      "guidislink": false,
+      "published": "Fri, 08 Nov 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        11,
+        8,
+        8,
+        0,
+        0,
+        4,
+        312,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9rSTNsc0ZjS0RlUW5ZdGM0ZjE4Q1Aycmdua3VsTDBTaVpienBCYVlpWHl1NGdUV0xGclZ0MEpZZ2lvTmM1TV9SMXNLRTlwekpuc2JmX3J5ajZDZEE0WWIw?oc=5\" target=\"_blank\">The citrus flavonoid naringenin impairs the in vitro infection of human cells by Zika virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9rSTNsc0ZjS0RlUW5ZdGM0ZjE4Q1Aycmdua3VsTDBTaVpienBCYVlpWHl1NGdUV0xGclZ0MEpZZ2lvTmM1TV9SMXNLRTlwekpuc2JmX3J5ajZDZEE0WWIw?oc=5\" target=\"_blank\">The citrus flavonoid naringenin impairs the in vitro infection of human cells by Zika virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika-impacted baby needs funds for treatment - Trinidad Guardian",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika-impacted baby needs funds for treatment - Trinidad Guardian"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPb3hVN1ZFcVRGQjFUQmtwRE1Kd1FMWHEwX18zREVvbEMtZGNuZGtHT3N4NDUtcFNYNnJGR0ZteXRVbjItZU9nMlN3WHREVnN2TEo5aWtqLW5QaHFvb1AzTVA4RUpjcUw3WGN0MzdWNmVNMVZocTFTbWQ1RHdBZDNnWWNtclNFbklOZHZoVTNRdk9RQWlva2FlRWppRVk?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPb3hVN1ZFcVRGQjFUQmtwRE1Kd1FMWHEwX18zREVvbEMtZGNuZGtHT3N4NDUtcFNYNnJGR0ZteXRVbjItZU9nMlN3WHREVnN2TEo5aWtqLW5QaHFvb1AzTVA4RUpjcUw3WGN0MzdWNmVNMVZocTFTbWQ1RHdBZDNnWWNtclNFbklOZHZoVTNRdk9RQWlva2FlRWppRVk?oc=5",
+      "id": "CBMinAFBVV95cUxPb3hVN1ZFcVRGQjFUQmtwRE1Kd1FMWHEwX18zREVvbEMtZGNuZGtHT3N4NDUtcFNYNnJGR0ZteXRVbjItZU9nMlN3WHREVnN2TEo5aWtqLW5QaHFvb1AzTVA4RUpjcUw3WGN0MzdWNmVNMVZocTFTbWQ1RHdBZDNnWWNtclNFbklOZHZoVTNRdk9RQWlva2FlRWppRVk",
+      "guidislink": false,
+      "published": "Tue, 12 Nov 2019 08:50:16 GMT",
+      "published_parsed": [
+        2019,
+        11,
+        12,
+        8,
+        50,
+        16,
+        1,
+        316,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxPb3hVN1ZFcVRGQjFUQmtwRE1Kd1FMWHEwX18zREVvbEMtZGNuZGtHT3N4NDUtcFNYNnJGR0ZteXRVbjItZU9nMlN3WHREVnN2TEo5aWtqLW5QaHFvb1AzTVA4RUpjcUw3WGN0MzdWNmVNMVZocTFTbWQ1RHdBZDNnWWNtclNFbklOZHZoVTNRdk9RQWlva2FlRWppRVk?oc=5\" target=\"_blank\">Zika-impacted baby needs funds for treatment</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Trinidad Guardian</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxPb3hVN1ZFcVRGQjFUQmtwRE1Kd1FMWHEwX18zREVvbEMtZGNuZGtHT3N4NDUtcFNYNnJGR0ZteXRVbjItZU9nMlN3WHREVnN2TEo5aWtqLW5QaHFvb1AzTVA4RUpjcUw3WGN0MzdWNmVNMVZocTFTbWQ1RHdBZDNnWWNtclNFbklOZHZoVTNRdk9RQWlva2FlRWppRVk?oc=5\" target=\"_blank\">Zika-impacted baby needs funds for treatment</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Trinidad Guardian</font>"
+      },
+      "source": {
+        "href": "http://www.guardian.co.tt",
+        "title": "Trinidad Guardian"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Vector competence of Aedes aegypti and Culex quinquefasciatus from the metropolitan area of Guadalajara, Jalisco, Mexico for Zika virus - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Vector competence of Aedes aegypti and Culex quinquefasciatus from the metropolitan area of Guadalajara, Jalisco, Mexico for Zika virus - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1mSWpMRWlBckQ4X1F0SjgycDB4WUVEUG5qdHQ1b1JKaHBpckhDS1o5NFo0YV9jZmVDX0VNY0U2eHpieVhfWmVDeXZNNlhfamY1c1JnMl80Tm9kQzlTUFFv?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1mSWpMRWlBckQ4X1F0SjgycDB4WUVEUG5qdHQ1b1JKaHBpckhDS1o5NFo0YV9jZmVDX0VNY0U2eHpieVhfWmVDeXZNNlhfamY1c1JnMl80Tm9kQzlTUFFv?oc=5",
+      "id": "CBMiX0FVX3lxTE1mSWpMRWlBckQ4X1F0SjgycDB4WUVEUG5qdHQ1b1JKaHBpckhDS1o5NFo0YV9jZmVDX0VNY0U2eHpieVhfWmVDeXZNNlhfamY1c1JnMl80Tm9kQzlTUFFv",
+      "guidislink": false,
+      "published": "Mon, 18 Nov 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        11,
+        18,
+        8,
+        0,
+        0,
+        0,
+        322,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1mSWpMRWlBckQ4X1F0SjgycDB4WUVEUG5qdHQ1b1JKaHBpckhDS1o5NFo0YV9jZmVDX0VNY0U2eHpieVhfWmVDeXZNNlhfamY1c1JnMl80Tm9kQzlTUFFv?oc=5\" target=\"_blank\">Vector competence of Aedes aegypti and Culex quinquefasciatus from the metropolitan area of Guadalajara, Jalisco, Mexico for Zika virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1mSWpMRWlBckQ4X1F0SjgycDB4WUVEUG5qdHQ1b1JKaHBpckhDS1o5NFo0YV9jZmVDX0VNY0U2eHpieVhfWmVDeXZNNlhfamY1c1JnMl80Tm9kQzlTUFFv?oc=5\" target=\"_blank\">Vector competence of Aedes aegypti and Culex quinquefasciatus from the metropolitan area of Guadalajara, Jalisco, Mexico for Zika virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Differential Pattern of Soluble Immune Markers in Asymptomatic Dengue, West Nile and Zika Virus Infections - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Differential Pattern of Soluble Immune Markers in Asymptomatic Dengue, West Nile and Zika Virus Infections - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAyVk9YWlh4UVowbzhQeVBpYW1DSVRBWVdURlJOUTg3SW5IYjl6Q0tCLTBaa3JMQ3E0UGJhZXZmZGdMcVFfbS1IZ014Qlp0WktxbFU2aWYwWmgyUk0wLVpr?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAyVk9YWlh4UVowbzhQeVBpYW1DSVRBWVdURlJOUTg3SW5IYjl6Q0tCLTBaa3JMQ3E0UGJhZXZmZGdMcVFfbS1IZ014Qlp0WktxbFU2aWYwWmgyUk0wLVpr?oc=5",
+      "id": "CBMiX0FVX3lxTFAyVk9YWlh4UVowbzhQeVBpYW1DSVRBWVdURlJOUTg3SW5IYjl6Q0tCLTBaa3JMQ3E0UGJhZXZmZGdMcVFfbS1IZ014Qlp0WktxbFU2aWYwWmgyUk0wLVpr",
+      "guidislink": false,
+      "published": "Wed, 20 Nov 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        11,
+        20,
+        8,
+        0,
+        0,
+        2,
+        324,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFAyVk9YWlh4UVowbzhQeVBpYW1DSVRBWVdURlJOUTg3SW5IYjl6Q0tCLTBaa3JMQ3E0UGJhZXZmZGdMcVFfbS1IZ014Qlp0WktxbFU2aWYwWmgyUk0wLVpr?oc=5\" target=\"_blank\">Differential Pattern of Soluble Immune Markers in Asymptomatic Dengue, West Nile and Zika Virus Infections</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFAyVk9YWlh4UVowbzhQeVBpYW1DSVRBWVdURlJOUTg3SW5IYjl6Q0tCLTBaa3JMQ3E0UGJhZXZmZGdMcVFfbS1IZ014Qlp0WktxbFU2aWYwWmgyUk0wLVpr?oc=5\" target=\"_blank\">Differential Pattern of Soluble Immune Markers in Asymptomatic Dengue, West Nile and Zika Virus Infections</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    }
+  ]
+}

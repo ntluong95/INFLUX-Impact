@@ -1,0 +1,1639 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2021-02-02",
+  "window_end": "2021-03-03",
+  "window_days": 30,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2021-02-02+before%3A2021-03-04&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2021-02-02+before:2021-03-04&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T06:09:00Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2021-02-02 before:2021-03-04\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2021-02-02 before:2021-03-04\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2021-02-02+before:2021-03-04&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2021-02-02+before:2021-03-04&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 06:09:00 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      6,
+      9,
+      0,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Recent African strains of Zika virus display higher transmissibility and fetal pathogenicity than Asian strains - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Recent African strains of Zika virus display higher transmissibility and fetal pathogenicity than Asian strains - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1Sb2ZpYTdPYy1taFpsMERLOElZR2ZHNXJoOEhLcVJmM1BlS0UxVEx0S2JyUUhIY0NpZ3ZzeEVBdEdXeUdmR3RqQmtCU2VodGFxVE9mNWg5cTJ6Y3JNMjFn?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1Sb2ZpYTdPYy1taFpsMERLOElZR2ZHNXJoOEhLcVJmM1BlS0UxVEx0S2JyUUhIY0NpZ3ZzeEVBdEdXeUdmR3RqQmtCU2VodGFxVE9mNWg5cTJ6Y3JNMjFn?oc=5",
+      "id": "CBMiX0FVX3lxTE1Sb2ZpYTdPYy1taFpsMERLOElZR2ZHNXJoOEhLcVJmM1BlS0UxVEx0S2JyUUhIY0NpZ3ZzeEVBdEdXeUdmR3RqQmtCU2VodGFxVE9mNWg5cTJ6Y3JNMjFn",
+      "guidislink": false,
+      "published": "Wed, 10 Feb 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        2,
+        10,
+        8,
+        0,
+        0,
+        2,
+        41,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1Sb2ZpYTdPYy1taFpsMERLOElZR2ZHNXJoOEhLcVJmM1BlS0UxVEx0S2JyUUhIY0NpZ3ZzeEVBdEdXeUdmR3RqQmtCU2VodGFxVE9mNWg5cTJ6Y3JNMjFn?oc=5\" target=\"_blank\">Recent African strains of Zika virus display higher transmissibility and fetal pathogenicity than Asian strains</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1Sb2ZpYTdPYy1taFpsMERLOElZR2ZHNXJoOEhLcVJmM1BlS0UxVEx0S2JyUUhIY0NpZ3ZzeEVBdEdXeUdmR3RqQmtCU2VodGFxVE9mNWg5cTJ6Y3JNMjFn?oc=5\" target=\"_blank\">Recent African strains of Zika virus display higher transmissibility and fetal pathogenicity than Asian strains</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Stopping Zika: Engineering an Alternative to ‘Suicide Mosquitoes’ - Global Biodefense",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Stopping Zika: Engineering an Alternative to ‘Suicide Mosquitoes’ - Global Biodefense"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObVZTeXVjaGcxM0hFRks1cjNmZEMwUDJmMEhFTG53QkhKTVkzOTRnVjR1dG50dVJQSnlOYWJSbXF2V1FGRjdpWS00Z2ZEdnRtUFdwX1JDQnlrV0dGbUhrUlYzNllpU2Y3T2x3cTRScXN3V1hLYWJKZzJzYWhrQlYxTnpmcUhyLWlVN2k5UU1RVUJuWXJZMjRQNmJlcjJGcnpGZnVMOVlB?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObVZTeXVjaGcxM0hFRks1cjNmZEMwUDJmMEhFTG53QkhKTVkzOTRnVjR1dG50dVJQSnlOYWJSbXF2V1FGRjdpWS00Z2ZEdnRtUFdwX1JDQnlrV0dGbUhrUlYzNllpU2Y3T2x3cTRScXN3V1hLYWJKZzJzYWhrQlYxTnpmcUhyLWlVN2k5UU1RVUJuWXJZMjRQNmJlcjJGcnpGZnVMOVlB?oc=5",
+      "id": "CBMipgFBVV95cUxObVZTeXVjaGcxM0hFRks1cjNmZEMwUDJmMEhFTG53QkhKTVkzOTRnVjR1dG50dVJQSnlOYWJSbXF2V1FGRjdpWS00Z2ZEdnRtUFdwX1JDQnlrV0dGbUhrUlYzNllpU2Y3T2x3cTRScXN3V1hLYWJKZzJzYWhrQlYxTnpmcUhyLWlVN2k5UU1RVUJuWXJZMjRQNmJlcjJGcnpGZnVMOVlB",
+      "guidislink": false,
+      "published": "Sun, 14 Feb 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        2,
+        14,
+        8,
+        0,
+        0,
+        6,
+        45,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxObVZTeXVjaGcxM0hFRks1cjNmZEMwUDJmMEhFTG53QkhKTVkzOTRnVjR1dG50dVJQSnlOYWJSbXF2V1FGRjdpWS00Z2ZEdnRtUFdwX1JDQnlrV0dGbUhrUlYzNllpU2Y3T2x3cTRScXN3V1hLYWJKZzJzYWhrQlYxTnpmcUhyLWlVN2k5UU1RVUJuWXJZMjRQNmJlcjJGcnpGZnVMOVlB?oc=5\" target=\"_blank\">Stopping Zika: Engineering an Alternative to ‘Suicide Mosquitoes’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Global Biodefense</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxObVZTeXVjaGcxM0hFRks1cjNmZEMwUDJmMEhFTG53QkhKTVkzOTRnVjR1dG50dVJQSnlOYWJSbXF2V1FGRjdpWS00Z2ZEdnRtUFdwX1JDQnlrV0dGbUhrUlYzNllpU2Y3T2x3cTRScXN3V1hLYWJKZzJzYWhrQlYxTnpmcUhyLWlVN2k5UU1RVUJuWXJZMjRQNmJlcjJGcnpGZnVMOVlB?oc=5\" target=\"_blank\">Stopping Zika: Engineering an Alternative to ‘Suicide Mosquitoes’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Global Biodefense</font>"
+      },
+      "source": {
+        "href": "https://globalbiodefense.com",
+        "title": "Global Biodefense"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Researchers identify how Zika infects foetuses and a potential drug to prevent it - Drug Target Review",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Researchers identify how Zika infects foetuses and a potential drug to prevent it - Drug Target Review"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSnloWWVkQkNFczJqRXBlc0tiUFFwUWE0ZGk4bGp4VEUtaUtCcVpOT0x2UU1RNjd5eThiOV9UYVktVUcxT0I5aGxkYVkwcnJxNS1uWUphQzQ0c2YzbkFEX1lvVjROYVh5WlVvSmJrUS1IYUt1MHpmM21RZTdmbFkwMWhibDFhNGhCbHBSSGVFWTlVcEZ4NjdGbTFqNzdZZjlzLWc0a0IwWWJSUlQyTXdiNjF6RGRfemFBTHZwRXlTbGFYaFU2ZTh2eXF2SkE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPSnloWWVkQkNFczJqRXBlc0tiUFFwUWE0ZGk4bGp4VEUtaUtCcVpOT0x2UU1RNjd5eThiOV9UYVktVUcxT0I5aGxkYVkwcnJxNS1uWUphQzQ0c2YzbkFEX1lvVjROYVh5WlVvSmJrUS1IYUt1MHpmM21RZTdmbFkwMWhibDFhNGhCbHBSSGVFWTlVcEZ4NjdGbTFqNzdZZjlzLWc0a0IwWWJSUlQyTXdiNjF6RGRfemFBTHZwRXlTbGFYaFU2ZTh2eXF2SkE?oc=5",
+      "id": "CBMizAFBVV95cUxPSnloWWVkQkNFczJqRXBlc0tiUFFwUWE0ZGk4bGp4VEUtaUtCcVpOT0x2UU1RNjd5eThiOV9UYVktVUcxT0I5aGxkYVkwcnJxNS1uWUphQzQ0c2YzbkFEX1lvVjROYVh5WlVvSmJrUS1IYUt1MHpmM21RZTdmbFkwMWhibDFhNGhCbHBSSGVFWTlVcEZ4NjdGbTFqNzdZZjlzLWc0a0IwWWJSUlQyTXdiNjF6RGRfemFBTHZwRXlTbGFYaFU2ZTh2eXF2SkE",
+      "guidislink": false,
+      "published": "Thu, 04 Feb 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        2,
+        4,
+        8,
+        0,
+        0,
+        3,
+        35,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxPSnloWWVkQkNFczJqRXBlc0tiUFFwUWE0ZGk4bGp4VEUtaUtCcVpOT0x2UU1RNjd5eThiOV9UYVktVUcxT0I5aGxkYVkwcnJxNS1uWUphQzQ0c2YzbkFEX1lvVjROYVh5WlVvSmJrUS1IYUt1MHpmM21RZTdmbFkwMWhibDFhNGhCbHBSSGVFWTlVcEZ4NjdGbTFqNzdZZjlzLWc0a0IwWWJSUlQyTXdiNjF6RGRfemFBTHZwRXlTbGFYaFU2ZTh2eXF2SkE?oc=5\" target=\"_blank\">Researchers identify how Zika infects foetuses and a potential drug to prevent it</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Drug Target Review</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxPSnloWWVkQkNFczJqRXBlc0tiUFFwUWE0ZGk4bGp4VEUtaUtCcVpOT0x2UU1RNjd5eThiOV9UYVktVUcxT0I5aGxkYVkwcnJxNS1uWUphQzQ0c2YzbkFEX1lvVjROYVh5WlVvSmJrUS1IYUt1MHpmM21RZTdmbFkwMWhibDFhNGhCbHBSSGVFWTlVcEZ4NjdGbTFqNzdZZjlzLWc0a0IwWWJSUlQyTXdiNjF6RGRfemFBTHZwRXlTbGFYaFU2ZTh2eXF2SkE?oc=5\" target=\"_blank\">Researchers identify how Zika infects foetuses and a potential drug to prevent it</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Drug Target Review</font>"
+      },
+      "source": {
+        "href": "https://www.drugtargetreview.com",
+        "title": "Drug Target Review"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika roadmap outlines steps toward diagnostics, treatment, vaccines - CIDRAP",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika roadmap outlines steps toward diagnostics, treatment, vaccines - CIDRAP"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWEZKTDZtNzRiLVAyZHlhMERKdlU5bWZaeXB2ZVoyak1ISy1mSlpEWDE5UHlpM0x1d2tUUUZWZjdEVzQ5aXVjcmt3czVnNnY4QVNEelNCREJvSk04bmNwQ2xwTzV2MmFpLXdueldIWk9wVEl5QmtwbDBGTFFJR0V0VF9GdlROWk9wSjB1MDJIYkZKWHBoS01nbGtXZU9tQQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWEZKTDZtNzRiLVAyZHlhMERKdlU5bWZaeXB2ZVoyak1ISy1mSlpEWDE5UHlpM0x1d2tUUUZWZjdEVzQ5aXVjcmt3czVnNnY4QVNEelNCREJvSk04bmNwQ2xwTzV2MmFpLXdueldIWk9wVEl5QmtwbDBGTFFJR0V0VF9GdlROWk9wSjB1MDJIYkZKWHBoS01nbGtXZU9tQQ?oc=5",
+      "id": "CBMingFBVV95cUxNWEZKTDZtNzRiLVAyZHlhMERKdlU5bWZaeXB2ZVoyak1ISy1mSlpEWDE5UHlpM0x1d2tUUUZWZjdEVzQ5aXVjcmt3czVnNnY4QVNEelNCREJvSk04bmNwQ2xwTzV2MmFpLXdueldIWk9wVEl5QmtwbDBGTFFJR0V0VF9GdlROWk9wSjB1MDJIYkZKWHBoS01nbGtXZU9tQQ",
+      "guidislink": false,
+      "published": "Fri, 26 Feb 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        2,
+        26,
+        8,
+        0,
+        0,
+        4,
+        57,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNWEZKTDZtNzRiLVAyZHlhMERKdlU5bWZaeXB2ZVoyak1ISy1mSlpEWDE5UHlpM0x1d2tUUUZWZjdEVzQ5aXVjcmt3czVnNnY4QVNEelNCREJvSk04bmNwQ2xwTzV2MmFpLXdueldIWk9wVEl5QmtwbDBGTFFJR0V0VF9GdlROWk9wSjB1MDJIYkZKWHBoS01nbGtXZU9tQQ?oc=5\" target=\"_blank\">Zika roadmap outlines steps toward diagnostics, treatment, vaccines</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CIDRAP</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNWEZKTDZtNzRiLVAyZHlhMERKdlU5bWZaeXB2ZVoyak1ISy1mSlpEWDE5UHlpM0x1d2tUUUZWZjdEVzQ5aXVjcmt3czVnNnY4QVNEelNCREJvSk04bmNwQ2xwTzV2MmFpLXdueldIWk9wVEl5QmtwbDBGTFFJR0V0VF9GdlROWk9wSjB1MDJIYkZKWHBoS01nbGtXZU9tQQ?oc=5\" target=\"_blank\">Zika roadmap outlines steps toward diagnostics, treatment, vaccines</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CIDRAP</font>"
+      },
+      "source": {
+        "href": "https://www.cidrap.umn.edu",
+        "title": "CIDRAP"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Recent progresses and remaining challenges for the detection of Zika virus - Wiley Online Library",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Recent progresses and remaining challenges for the detection of Zika virus - Wiley Online Library"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5PbDlDQmtxcG5fTl9iWGwzSUtabldVUEJYQy0tczNoRVp5QUtSZWhhZUVUQzNTX203dkNOc0k3cHpESFgtQ2dEY3J2Y2dYeGVGcEo5bUxqVTdVOGEtdDNvb3JsTlFhRVQyZWktbA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5PbDlDQmtxcG5fTl9iWGwzSUtabldVUEJYQy0tczNoRVp5QUtSZWhhZUVUQzNTX203dkNOc0k3cHpESFgtQ2dEY3J2Y2dYeGVGcEo5bUxqVTdVOGEtdDNvb3JsTlFhRVQyZWktbA?oc=5",
+      "id": "CBMibEFVX3lxTE5PbDlDQmtxcG5fTl9iWGwzSUtabldVUEJYQy0tczNoRVp5QUtSZWhhZUVUQzNTX203dkNOc0k3cHpESFgtQ2dEY3J2Y2dYeGVGcEo5bUxqVTdVOGEtdDNvb3JsTlFhRVQyZWktbA",
+      "guidislink": false,
+      "published": "Tue, 09 Feb 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        2,
+        9,
+        8,
+        0,
+        0,
+        1,
+        40,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE5PbDlDQmtxcG5fTl9iWGwzSUtabldVUEJYQy0tczNoRVp5QUtSZWhhZUVUQzNTX203dkNOc0k3cHpESFgtQ2dEY3J2Y2dYeGVGcEo5bUxqVTdVOGEtdDNvb3JsTlFhRVQyZWktbA?oc=5\" target=\"_blank\">Recent progresses and remaining challenges for the detection of Zika virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Wiley Online Library</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE5PbDlDQmtxcG5fTl9iWGwzSUtabldVUEJYQy0tczNoRVp5QUtSZWhhZUVUQzNTX203dkNOc0k3cHpESFgtQ2dEY3J2Y2dYeGVGcEo5bUxqVTdVOGEtdDNvb3JsTlFhRVQyZWktbA?oc=5\" target=\"_blank\">Recent progresses and remaining challenges for the detection of Zika virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Wiley Online Library</font>"
+      },
+      "source": {
+        "href": "https://onlinelibrary.wiley.com",
+        "title": "Wiley Online Library"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "A genetically stable Zika virus vaccine candidate protects mice against virus infection and vertical transmission - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "A genetically stable Zika virus vaccine candidate protects mice against virus infection and vertical transmission - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5EVzJzZHZVUGJLY1MyYlV1MzVaeWVwb2l6S25UTXNLODE5aEJxMEcxRmd1VXZlRS1SOGRaT1dCXzlGYmxNLVNia0dkcDl5X3VCdlo4emE5SUFyMmhJRmc0?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5EVzJzZHZVUGJLY1MyYlV1MzVaeWVwb2l6S25UTXNLODE5aEJxMEcxRmd1VXZlRS1SOGRaT1dCXzlGYmxNLVNia0dkcDl5X3VCdlo4emE5SUFyMmhJRmc0?oc=5",
+      "id": "CBMiX0FVX3lxTE5EVzJzZHZVUGJLY1MyYlV1MzVaeWVwb2l6S25UTXNLODE5aEJxMEcxRmd1VXZlRS1SOGRaT1dCXzlGYmxNLVNia0dkcDl5X3VCdlo4emE5SUFyMmhJRmc0",
+      "guidislink": false,
+      "published": "Wed, 17 Feb 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        2,
+        17,
+        8,
+        0,
+        0,
+        2,
+        48,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5EVzJzZHZVUGJLY1MyYlV1MzVaeWVwb2l6S25UTXNLODE5aEJxMEcxRmd1VXZlRS1SOGRaT1dCXzlGYmxNLVNia0dkcDl5X3VCdlo4emE5SUFyMmhJRmc0?oc=5\" target=\"_blank\">A genetically stable Zika virus vaccine candidate protects mice against virus infection and vertical transmission</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5EVzJzZHZVUGJLY1MyYlV1MzVaeWVwb2l6S25UTXNLODE5aEJxMEcxRmd1VXZlRS1SOGRaT1dCXzlGYmxNLVNia0dkcDl5X3VCdlo4emE5SUFyMmhJRmc0?oc=5\" target=\"_blank\">A genetically stable Zika virus vaccine candidate protects mice against virus infection and vertical transmission</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Origins of the Zika outbreak and its potential threat - The Pharmaceutical Journal",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Origins of the Zika outbreak and its potential threat - The Pharmaceutical Journal"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNWNZamZEckRIaTJvckMzOEtjSlRSVmI2aW0zMVQ3Si1VRFFNeExtYVNNRjZ1SG5CVENMMk8wa0ItNU52bFlOT3I4dG1ZSlpTa3lPUXpyaDdIQ3BqSVRWdXlvLWFqaHNFY2Juc056SklUNFBxMlFCenZicVBmUlJoNHV2NTZSLUFScnpILTFsaHJyc3Zua0lMVmc5cmNSakM3UnZzM3NYZDhwOFlaZEE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNWNZamZEckRIaTJvckMzOEtjSlRSVmI2aW0zMVQ3Si1VRFFNeExtYVNNRjZ1SG5CVENMMk8wa0ItNU52bFlOT3I4dG1ZSlpTa3lPUXpyaDdIQ3BqSVRWdXlvLWFqaHNFY2Juc056SklUNFBxMlFCenZicVBmUlJoNHV2NTZSLUFScnpILTFsaHJyc3Zua0lMVmc5cmNSakM3UnZzM3NYZDhwOFlaZEE?oc=5",
+      "id": "CBMirgFBVV95cUxPNWNZamZEckRIaTJvckMzOEtjSlRSVmI2aW0zMVQ3Si1VRFFNeExtYVNNRjZ1SG5CVENMMk8wa0ItNU52bFlOT3I4dG1ZSlpTa3lPUXpyaDdIQ3BqSVRWdXlvLWFqaHNFY2Juc056SklUNFBxMlFCenZicVBmUlJoNHV2NTZSLUFScnpILTFsaHJyc3Zua0lMVmc5cmNSakM3UnZzM3NYZDhwOFlaZEE",
+      "guidislink": false,
+      "published": "Fri, 12 Feb 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        2,
+        12,
+        8,
+        0,
+        0,
+        4,
+        43,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxPNWNZamZEckRIaTJvckMzOEtjSlRSVmI2aW0zMVQ3Si1VRFFNeExtYVNNRjZ1SG5CVENMMk8wa0ItNU52bFlOT3I4dG1ZSlpTa3lPUXpyaDdIQ3BqSVRWdXlvLWFqaHNFY2Juc056SklUNFBxMlFCenZicVBmUlJoNHV2NTZSLUFScnpILTFsaHJyc3Zua0lMVmc5cmNSakM3UnZzM3NYZDhwOFlaZEE?oc=5\" target=\"_blank\">Origins of the Zika outbreak and its potential threat</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Pharmaceutical Journal</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxPNWNZamZEckRIaTJvckMzOEtjSlRSVmI2aW0zMVQ3Si1VRFFNeExtYVNNRjZ1SG5CVENMMk8wa0ItNU52bFlOT3I4dG1ZSlpTa3lPUXpyaDdIQ3BqSVRWdXlvLWFqaHNFY2Juc056SklUNFBxMlFCenZicVBmUlJoNHV2NTZSLUFScnpILTFsaHJyc3Zua0lMVmc5cmNSakM3UnZzM3NYZDhwOFlaZEE?oc=5\" target=\"_blank\">Origins of the Zika outbreak and its potential threat</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Pharmaceutical Journal</font>"
+      },
+      "source": {
+        "href": "https://pharmaceutical-journal.com",
+        "title": "The Pharmaceutical Journal"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Using Landscape Connectivity to Control Deadly Mosquito-Borne Viruses - Yale School of the Environment",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Using Landscape Connectivity to Control Deadly Mosquito-Borne Viruses - Yale School of the Environment"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdXpiMGZuNTFtQTZnQjNMYy0xV1FNOTlXaHEzTktnTTl4bllqWTN2RVViSDdpcUc4dVBMNTY2VmktZGd2RWdGbmIxZUEyY2lNRS15U2JXOGpXZ2cweW9fUlh2Rk1hZDFNUVR0UDYyNTNUWC10UTRBOTlwYVZOTXI1LVFYcnlmS3U1SHE2NWx6alFFYzhfQWNUc3FmUUpTYVpLVm44b3RuY2NuMW5rQzVJ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdXpiMGZuNTFtQTZnQjNMYy0xV1FNOTlXaHEzTktnTTl4bllqWTN2RVViSDdpcUc4dVBMNTY2VmktZGd2RWdGbmIxZUEyY2lNRS15U2JXOGpXZ2cweW9fUlh2Rk1hZDFNUVR0UDYyNTNUWC10UTRBOTlwYVZOTXI1LVFYcnlmS3U1SHE2NWx6alFFYzhfQWNUc3FmUUpTYVpLVm44b3RuY2NuMW5rQzVJ?oc=5",
+      "id": "CBMirwFBVV95cUxNdXpiMGZuNTFtQTZnQjNMYy0xV1FNOTlXaHEzTktnTTl4bllqWTN2RVViSDdpcUc4dVBMNTY2VmktZGd2RWdGbmIxZUEyY2lNRS15U2JXOGpXZ2cweW9fUlh2Rk1hZDFNUVR0UDYyNTNUWC10UTRBOTlwYVZOTXI1LVFYcnlmS3U1SHE2NWx6alFFYzhfQWNUc3FmUUpTYVpLVm44b3RuY2NuMW5rQzVJ",
+      "guidislink": false,
+      "published": "Wed, 24 Feb 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        2,
+        24,
+        8,
+        0,
+        0,
+        2,
+        55,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxNdXpiMGZuNTFtQTZnQjNMYy0xV1FNOTlXaHEzTktnTTl4bllqWTN2RVViSDdpcUc4dVBMNTY2VmktZGd2RWdGbmIxZUEyY2lNRS15U2JXOGpXZ2cweW9fUlh2Rk1hZDFNUVR0UDYyNTNUWC10UTRBOTlwYVZOTXI1LVFYcnlmS3U1SHE2NWx6alFFYzhfQWNUc3FmUUpTYVpLVm44b3RuY2NuMW5rQzVJ?oc=5\" target=\"_blank\">Using Landscape Connectivity to Control Deadly Mosquito-Borne Viruses</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yale School of the Environment</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxNdXpiMGZuNTFtQTZnQjNMYy0xV1FNOTlXaHEzTktnTTl4bllqWTN2RVViSDdpcUc4dVBMNTY2VmktZGd2RWdGbmIxZUEyY2lNRS15U2JXOGpXZ2cweW9fUlh2Rk1hZDFNUVR0UDYyNTNUWC10UTRBOTlwYVZOTXI1LVFYcnlmS3U1SHE2NWx6alFFYzhfQWNUc3FmUUpTYVpLVm44b3RuY2NuMW5rQzVJ?oc=5\" target=\"_blank\">Using Landscape Connectivity to Control Deadly Mosquito-Borne Viruses</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Yale School of the Environment</font>"
+      },
+      "source": {
+        "href": "https://environment.yale.edu",
+        "title": "Yale School of the Environment"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "USU Biologist Uses Machine-Learning Approach to Track Disease-Carrying Mosquitoes - Utah State University",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "USU Biologist Uses Machine-Learning Approach to Track Disease-Carrying Mosquitoes - Utah State University"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQN2h1cnkxcVlaeDloTXdEV3c5UWtYcDU4bTBrNV9NaDBIdXYwakVNWFVLcVhPYkZlRW9nQTI3aE9NZm9jQ0VUenV3UDdNNXhmOWZjOWdPbWgwWWhpdzFiSFdpVjBtMlNuWXQ3azYzMGVyVHViMUN0VzF0TlljUlJkRVBxR2J4eFlfWHVvSV9xajVHa091UVVDN3ozc2ZyV1dTc1JzUVQtQU5DNHRZZ0JIc2FTRQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQN2h1cnkxcVlaeDloTXdEV3c5UWtYcDU4bTBrNV9NaDBIdXYwakVNWFVLcVhPYkZlRW9nQTI3aE9NZm9jQ0VUenV3UDdNNXhmOWZjOWdPbWgwWWhpdzFiSFdpVjBtMlNuWXQ3azYzMGVyVHViMUN0VzF0TlljUlJkRVBxR2J4eFlfWHVvSV9xajVHa091UVVDN3ozc2ZyV1dTc1JzUVQtQU5DNHRZZ0JIc2FTRQ?oc=5",
+      "id": "CBMiswFBVV95cUxQN2h1cnkxcVlaeDloTXdEV3c5UWtYcDU4bTBrNV9NaDBIdXYwakVNWFVLcVhPYkZlRW9nQTI3aE9NZm9jQ0VUenV3UDdNNXhmOWZjOWdPbWgwWWhpdzFiSFdpVjBtMlNuWXQ3azYzMGVyVHViMUN0VzF0TlljUlJkRVBxR2J4eFlfWHVvSV9xajVHa091UVVDN3ozc2ZyV1dTc1JzUVQtQU5DNHRZZ0JIc2FTRQ",
+      "guidislink": false,
+      "published": "Mon, 22 Feb 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        2,
+        22,
+        8,
+        0,
+        0,
+        0,
+        53,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQN2h1cnkxcVlaeDloTXdEV3c5UWtYcDU4bTBrNV9NaDBIdXYwakVNWFVLcVhPYkZlRW9nQTI3aE9NZm9jQ0VUenV3UDdNNXhmOWZjOWdPbWgwWWhpdzFiSFdpVjBtMlNuWXQ3azYzMGVyVHViMUN0VzF0TlljUlJkRVBxR2J4eFlfWHVvSV9xajVHa091UVVDN3ozc2ZyV1dTc1JzUVQtQU5DNHRZZ0JIc2FTRQ?oc=5\" target=\"_blank\">USU Biologist Uses Machine-Learning Approach to Track Disease-Carrying Mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Utah State University</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQN2h1cnkxcVlaeDloTXdEV3c5UWtYcDU4bTBrNV9NaDBIdXYwakVNWFVLcVhPYkZlRW9nQTI3aE9NZm9jQ0VUenV3UDdNNXhmOWZjOWdPbWgwWWhpdzFiSFdpVjBtMlNuWXQ3azYzMGVyVHViMUN0VzF0TlljUlJkRVBxR2J4eFlfWHVvSV9xajVHa091UVVDN3ozc2ZyV1dTc1JzUVQtQU5DNHRZZ0JIc2FTRQ?oc=5\" target=\"_blank\">USU Biologist Uses Machine-Learning Approach to Track Disease-Carrying Mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Utah State University</font>"
+      },
+      "source": {
+        "href": "https://www.usu.edu",
+        "title": "Utah State University"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Alejandro Mayorkas - Homeland Security (.gov)",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Alejandro Mayorkas - Homeland Security (.gov)"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA3UktTb1RlTjBJTUlGOGJnYjZiRlR0TXhLeVlRNDQtM01LYlgyc2JGYkpieXR3dXJPc3M5cWtVTjRxWEpvYlRRQVdEWS1peUE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA3UktTb1RlTjBJTUlGOGJnYjZiRlR0TXhLeVlRNDQtM01LYlgyc2JGYkpieXR3dXJPc3M5cWtVTjRxWEpvYlRRQVdEWS1peUE?oc=5",
+      "id": "CBMiT0FVX3lxTFA3UktTb1RlTjBJTUlGOGJnYjZiRlR0TXhLeVlRNDQtM01LYlgyc2JGYkpieXR3dXJPc3M5cWtVTjRxWEpvYlRRQVdEWS1peUE",
+      "guidislink": false,
+      "published": "Tue, 02 Feb 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        2,
+        2,
+        8,
+        0,
+        0,
+        1,
+        33,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiT0FVX3lxTFA3UktTb1RlTjBJTUlGOGJnYjZiRlR0TXhLeVlRNDQtM01LYlgyc2JGYkpieXR3dXJPc3M5cWtVTjRxWEpvYlRRQVdEWS1peUE?oc=5\" target=\"_blank\">Alejandro Mayorkas</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Homeland Security (.gov)</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiT0FVX3lxTFA3UktTb1RlTjBJTUlGOGJnYjZiRlR0TXhLeVlRNDQtM01LYlgyc2JGYkpieXR3dXJPc3M5cWtVTjRxWEpvYlRRQVdEWS1peUE?oc=5\" target=\"_blank\">Alejandro Mayorkas</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Homeland Security (.gov)</font>"
+      },
+      "source": {
+        "href": "https://www.dhs.gov",
+        "title": "Homeland Security (.gov)"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Site-specific N -glycosylation analysis of animal cell culture-derived Zika virus proteins - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Site-specific N -glycosylation analysis of animal cell culture-derived Zika virus proteins - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5oZnRKRjJNekhDVUtKZ1U5ZkRuUHJxYjJkbk43a1RZUDNIcG1jTWd6bGNQM1Z2TXVUSDYzS3NUeWVfcDlMdmVCbjhkWEw2bUJvMmRRcmNDN0xMMmRYSE4w?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5oZnRKRjJNekhDVUtKZ1U5ZkRuUHJxYjJkbk43a1RZUDNIcG1jTWd6bGNQM1Z2TXVUSDYzS3NUeWVfcDlMdmVCbjhkWEw2bUJvMmRRcmNDN0xMMmRYSE4w?oc=5",
+      "id": "CBMiX0FVX3lxTE5oZnRKRjJNekhDVUtKZ1U5ZkRuUHJxYjJkbk43a1RZUDNIcG1jTWd6bGNQM1Z2TXVUSDYzS3NUeWVfcDlMdmVCbjhkWEw2bUJvMmRRcmNDN0xMMmRYSE4w",
+      "guidislink": false,
+      "published": "Thu, 04 Mar 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        3,
+        4,
+        8,
+        0,
+        0,
+        3,
+        63,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5oZnRKRjJNekhDVUtKZ1U5ZkRuUHJxYjJkbk43a1RZUDNIcG1jTWd6bGNQM1Z2TXVUSDYzS3NUeWVfcDlMdmVCbjhkWEw2bUJvMmRRcmNDN0xMMmRYSE4w?oc=5\" target=\"_blank\">Site-specific N -glycosylation analysis of animal cell culture-derived Zika virus proteins</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5oZnRKRjJNekhDVUtKZ1U5ZkRuUHJxYjJkbk43a1RZUDNIcG1jTWd6bGNQM1Z2TXVUSDYzS3NUeWVfcDlMdmVCbjhkWEw2bUJvMmRRcmNDN0xMMmRYSE4w?oc=5\" target=\"_blank\">Site-specific N -glycosylation analysis of animal cell culture-derived Zika virus proteins</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "11 Relaxing Babymoon Ideas for Parents-to-Be - Condé Nast Traveler",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "11 Relaxing Babymoon Ideas for Parents-to-Be - Condé Nast Traveler"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1DczM2Yk9PUDJwb2p0T3U2dTJmZnJXbjBZYzJMNHZpelFzMXZoZXlkYXJSN1p2TFlkTGg3TDY5bTgxM3c4dFZSMEx0WWZ2clNXM3hiNml4c1BUUGhZbEp4R1dtNTMxalZnYktTMUlmNzlNbUR2WHc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1DczM2Yk9PUDJwb2p0T3U2dTJmZnJXbjBZYzJMNHZpelFzMXZoZXlkYXJSN1p2TFlkTGg3TDY5bTgxM3c4dFZSMEx0WWZ2clNXM3hiNml4c1BUUGhZbEp4R1dtNTMxalZnYktTMUlmNzlNbUR2WHc?oc=5",
+      "id": "CBMidkFVX3lxTE1DczM2Yk9PUDJwb2p0T3U2dTJmZnJXbjBZYzJMNHZpelFzMXZoZXlkYXJSN1p2TFlkTGg3TDY5bTgxM3c4dFZSMEx0WWZ2clNXM3hiNml4c1BUUGhZbEp4R1dtNTMxalZnYktTMUlmNzlNbUR2WHc",
+      "guidislink": false,
+      "published": "Tue, 09 Feb 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        2,
+        9,
+        8,
+        0,
+        0,
+        1,
+        40,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE1DczM2Yk9PUDJwb2p0T3U2dTJmZnJXbjBZYzJMNHZpelFzMXZoZXlkYXJSN1p2TFlkTGg3TDY5bTgxM3c4dFZSMEx0WWZ2clNXM3hiNml4c1BUUGhZbEp4R1dtNTMxalZnYktTMUlmNzlNbUR2WHc?oc=5\" target=\"_blank\">11 Relaxing Babymoon Ideas for Parents-to-Be</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Condé Nast Traveler</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE1DczM2Yk9PUDJwb2p0T3U2dTJmZnJXbjBZYzJMNHZpelFzMXZoZXlkYXJSN1p2TFlkTGg3TDY5bTgxM3c4dFZSMEx0WWZ2clNXM3hiNml4c1BUUGhZbEp4R1dtNTMxalZnYktTMUlmNzlNbUR2WHc?oc=5\" target=\"_blank\">11 Relaxing Babymoon Ideas for Parents-to-Be</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Condé Nast Traveler</font>"
+      },
+      "source": {
+        "href": "https://www.cntraveler.com",
+        "title": "Condé Nast Traveler"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "It’s not the ‘British variant.’ It’s B.1.1.7 - statnews.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "It’s not the ‘British variant.’ It’s B.1.1.7 - statnews.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0xSnhPMHhQcVNJNTk0ejhKeEwzMUh2a0haMFd2Si1BME9yRVAzM1dONk9jc3l2ZVpfbEc1VkttSDZsQ0VjUmxGWE40bllHaGVacF82VWZsU0g2N1J6YlFMNlhYOE10QlFvdUlwbFRzNnk3QjJKYV9zcg?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0xSnhPMHhQcVNJNTk0ejhKeEwzMUh2a0haMFd2Si1BME9yRVAzM1dONk9jc3l2ZVpfbEc1VkttSDZsQ0VjUmxGWE40bllHaGVacF82VWZsU0g2N1J6YlFMNlhYOE10QlFvdUlwbFRzNnk3QjJKYV9zcg?oc=5",
+      "id": "CBMieEFVX3lxTE0xSnhPMHhQcVNJNTk0ejhKeEwzMUh2a0haMFd2Si1BME9yRVAzM1dONk9jc3l2ZVpfbEc1VkttSDZsQ0VjUmxGWE40bllHaGVacF82VWZsU0g2N1J6YlFMNlhYOE10QlFvdUlwbFRzNnk3QjJKYV9zcg",
+      "guidislink": false,
+      "published": "Tue, 09 Feb 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        2,
+        9,
+        8,
+        0,
+        0,
+        1,
+        40,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE0xSnhPMHhQcVNJNTk0ejhKeEwzMUh2a0haMFd2Si1BME9yRVAzM1dONk9jc3l2ZVpfbEc1VkttSDZsQ0VjUmxGWE40bllHaGVacF82VWZsU0g2N1J6YlFMNlhYOE10QlFvdUlwbFRzNnk3QjJKYV9zcg?oc=5\" target=\"_blank\">It’s not the ‘British variant.’ It’s B.1.1.7</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">statnews.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE0xSnhPMHhQcVNJNTk0ejhKeEwzMUh2a0haMFd2Si1BME9yRVAzM1dONk9jc3l2ZVpfbEc1VkttSDZsQ0VjUmxGWE40bllHaGVacF82VWZsU0g2N1J6YlFMNlhYOE10QlFvdUlwbFRzNnk3QjJKYV9zcg?oc=5\" target=\"_blank\">It’s not the ‘British variant.’ It’s B.1.1.7</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">statnews.com</font>"
+      },
+      "source": {
+        "href": "https://www.statnews.com",
+        "title": "statnews.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "What’s in a name for a vaccine campaign? Maybe the end of the pandemic - The Conversation",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "What’s in a name for a vaccine campaign? Maybe the end of the pandemic - The Conversation"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbVZtS2NSdVVqVjBrc2JGNlFFNWtycEl5XzNfVGRtaElHLTVnelRPOTJpM3V0T0dVV3Q1MGJjVzBKLVhaOFBZM0ZyOWphWTg3Wjd1alFKY19lQk9ZY0RKUW9tVzJTbG5UbEhTOG1wRDUxeWZBWHR5Z0RUQ0ljRG94LWZxZUpITWJqZnVnZUhNeW1WdnlxcTFwTU45Y01pNVVhSWNGQU1n?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbVZtS2NSdVVqVjBrc2JGNlFFNWtycEl5XzNfVGRtaElHLTVnelRPOTJpM3V0T0dVV3Q1MGJjVzBKLVhaOFBZM0ZyOWphWTg3Wjd1alFKY19lQk9ZY0RKUW9tVzJTbG5UbEhTOG1wRDUxeWZBWHR5Z0RUQ0ljRG94LWZxZUpITWJqZnVnZUhNeW1WdnlxcTFwTU45Y01pNVVhSWNGQU1n?oc=5",
+      "id": "CBMipgFBVV95cUxPbVZtS2NSdVVqVjBrc2JGNlFFNWtycEl5XzNfVGRtaElHLTVnelRPOTJpM3V0T0dVV3Q1MGJjVzBKLVhaOFBZM0ZyOWphWTg3Wjd1alFKY19lQk9ZY0RKUW9tVzJTbG5UbEhTOG1wRDUxeWZBWHR5Z0RUQ0ljRG94LWZxZUpITWJqZnVnZUhNeW1WdnlxcTFwTU45Y01pNVVhSWNGQU1n",
+      "guidislink": false,
+      "published": "Tue, 02 Mar 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        3,
+        2,
+        8,
+        0,
+        0,
+        1,
+        61,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxPbVZtS2NSdVVqVjBrc2JGNlFFNWtycEl5XzNfVGRtaElHLTVnelRPOTJpM3V0T0dVV3Q1MGJjVzBKLVhaOFBZM0ZyOWphWTg3Wjd1alFKY19lQk9ZY0RKUW9tVzJTbG5UbEhTOG1wRDUxeWZBWHR5Z0RUQ0ljRG94LWZxZUpITWJqZnVnZUhNeW1WdnlxcTFwTU45Y01pNVVhSWNGQU1n?oc=5\" target=\"_blank\">What’s in a name for a vaccine campaign? Maybe the end of the pandemic</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Conversation</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxPbVZtS2NSdVVqVjBrc2JGNlFFNWtycEl5XzNfVGRtaElHLTVnelRPOTJpM3V0T0dVV3Q1MGJjVzBKLVhaOFBZM0ZyOWphWTg3Wjd1alFKY19lQk9ZY0RKUW9tVzJTbG5UbEhTOG1wRDUxeWZBWHR5Z0RUQ0ljRG94LWZxZUpITWJqZnVnZUhNeW1WdnlxcTFwTU45Y01pNVVhSWNGQU1n?oc=5\" target=\"_blank\">What’s in a name for a vaccine campaign? Maybe the end of the pandemic</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Conversation</font>"
+      },
+      "source": {
+        "href": "https://theconversation.com",
+        "title": "The Conversation"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Researchers develop models to predict epidemics of yellow fever, other mosquito-borne diseases - News-Medical",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Researchers develop models to predict epidemics of yellow fever, other mosquito-borne diseases - News-Medical"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNakNacHZDOU5Ibk9sT2tJS1F0dHZpbWVqajhXOG82VlhXRmZ4QnZVbTZuTGlSNHdFVjV0RTRqaVpQbWFXMnIwa0hXS3d0OWJuUkRuZ2FFSGJlSkc3aU03T3hhSzZZZWN5c1hURjZLOGJ6U1pfeU5ZT0dpc3hoMmpVWWc4eDZmajlzWmZCNUo4VERlOG5Jc2RuOFlMMEh1ZGtJN3lSam5HZmJScldCOFVKNEFHUGpkVkdJbk1nZ2tkaU1WbHgydVoyTTIxUGk2bFJ4Yk0wNUVub28?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNakNacHZDOU5Ibk9sT2tJS1F0dHZpbWVqajhXOG82VlhXRmZ4QnZVbTZuTGlSNHdFVjV0RTRqaVpQbWFXMnIwa0hXS3d0OWJuUkRuZ2FFSGJlSkc3aU03T3hhSzZZZWN5c1hURjZLOGJ6U1pfeU5ZT0dpc3hoMmpVWWc4eDZmajlzWmZCNUo4VERlOG5Jc2RuOFlMMEh1ZGtJN3lSam5HZmJScldCOFVKNEFHUGpkVkdJbk1nZ2tkaU1WbHgydVoyTTIxUGk2bFJ4Yk0wNUVub28?oc=5",
+      "id": "CBMi2AFBVV95cUxNakNacHZDOU5Ibk9sT2tJS1F0dHZpbWVqajhXOG82VlhXRmZ4QnZVbTZuTGlSNHdFVjV0RTRqaVpQbWFXMnIwa0hXS3d0OWJuUkRuZ2FFSGJlSkc3aU03T3hhSzZZZWN5c1hURjZLOGJ6U1pfeU5ZT0dpc3hoMmpVWWc4eDZmajlzWmZCNUo4VERlOG5Jc2RuOFlMMEh1ZGtJN3lSam5HZmJScldCOFVKNEFHUGpkVkdJbk1nZ2tkaU1WbHgydVoyTTIxUGk2bFJ4Yk0wNUVub28",
+      "guidislink": false,
+      "published": "Tue, 23 Feb 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        2,
+        23,
+        8,
+        0,
+        0,
+        1,
+        54,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxNakNacHZDOU5Ibk9sT2tJS1F0dHZpbWVqajhXOG82VlhXRmZ4QnZVbTZuTGlSNHdFVjV0RTRqaVpQbWFXMnIwa0hXS3d0OWJuUkRuZ2FFSGJlSkc3aU03T3hhSzZZZWN5c1hURjZLOGJ6U1pfeU5ZT0dpc3hoMmpVWWc4eDZmajlzWmZCNUo4VERlOG5Jc2RuOFlMMEh1ZGtJN3lSam5HZmJScldCOFVKNEFHUGpkVkdJbk1nZ2tkaU1WbHgydVoyTTIxUGk2bFJ4Yk0wNUVub28?oc=5\" target=\"_blank\">Researchers develop models to predict epidemics of yellow fever, other mosquito-borne diseases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">News-Medical</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxNakNacHZDOU5Ibk9sT2tJS1F0dHZpbWVqajhXOG82VlhXRmZ4QnZVbTZuTGlSNHdFVjV0RTRqaVpQbWFXMnIwa0hXS3d0OWJuUkRuZ2FFSGJlSkc3aU03T3hhSzZZZWN5c1hURjZLOGJ6U1pfeU5ZT0dpc3hoMmpVWWc4eDZmajlzWmZCNUo4VERlOG5Jc2RuOFlMMEh1ZGtJN3lSam5HZmJScldCOFVKNEFHUGpkVkdJbk1nZ2tkaU1WbHgydVoyTTIxUGk2bFJ4Yk0wNUVub28?oc=5\" target=\"_blank\">Researchers develop models to predict epidemics of yellow fever, other mosquito-borne diseases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">News-Medical</font>"
+      },
+      "source": {
+        "href": "https://www.news-medical.net",
+        "title": "News-Medical"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Vaccine coalition launched to tackle emerging global health threats - The Pharmaceutical Journal",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Vaccine coalition launched to tackle emerging global health threats - The Pharmaceutical Journal"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUHpaTUR5bWRSQWJkem1KaDBGMUxKeEFDNXpYd1FiNFFBMVdnazJhQmFqLTBWb0tsbEItcnNFWERTSHo1c3pIdGRHdXhZMEctanRucGs4Q0o2US1NOTJCWjVtU0JNSHEyNjJzTEIzd2M5UXdPWjJhZmw3V2JVQ2tuMjlxVmNDc1Z6YmJOREtXZk5tRnduRGhfMGlMOGxPVjVpVDVUX2ExLXBvanFyWllfZGdod3NyQQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUHpaTUR5bWRSQWJkem1KaDBGMUxKeEFDNXpYd1FiNFFBMVdnazJhQmFqLTBWb0tsbEItcnNFWERTSHo1c3pIdGRHdXhZMEctanRucGs4Q0o2US1NOTJCWjVtU0JNSHEyNjJzTEIzd2M5UXdPWjJhZmw3V2JVQ2tuMjlxVmNDc1Z6YmJOREtXZk5tRnduRGhfMGlMOGxPVjVpVDVUX2ExLXBvanFyWllfZGdod3NyQQ?oc=5",
+      "id": "CBMitgFBVV95cUxPUHpaTUR5bWRSQWJkem1KaDBGMUxKeEFDNXpYd1FiNFFBMVdnazJhQmFqLTBWb0tsbEItcnNFWERTSHo1c3pIdGRHdXhZMEctanRucGs4Q0o2US1NOTJCWjVtU0JNSHEyNjJzTEIzd2M5UXdPWjJhZmw3V2JVQ2tuMjlxVmNDc1Z6YmJOREtXZk5tRnduRGhfMGlMOGxPVjVpVDVUX2ExLXBvanFyWllfZGdod3NyQQ",
+      "guidislink": false,
+      "published": "Fri, 12 Feb 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        2,
+        12,
+        8,
+        0,
+        0,
+        4,
+        43,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPUHpaTUR5bWRSQWJkem1KaDBGMUxKeEFDNXpYd1FiNFFBMVdnazJhQmFqLTBWb0tsbEItcnNFWERTSHo1c3pIdGRHdXhZMEctanRucGs4Q0o2US1NOTJCWjVtU0JNSHEyNjJzTEIzd2M5UXdPWjJhZmw3V2JVQ2tuMjlxVmNDc1Z6YmJOREtXZk5tRnduRGhfMGlMOGxPVjVpVDVUX2ExLXBvanFyWllfZGdod3NyQQ?oc=5\" target=\"_blank\">Vaccine coalition launched to tackle emerging global health threats</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Pharmaceutical Journal</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPUHpaTUR5bWRSQWJkem1KaDBGMUxKeEFDNXpYd1FiNFFBMVdnazJhQmFqLTBWb0tsbEItcnNFWERTSHo1c3pIdGRHdXhZMEctanRucGs4Q0o2US1NOTJCWjVtU0JNSHEyNjJzTEIzd2M5UXdPWjJhZmw3V2JVQ2tuMjlxVmNDc1Z6YmJOREtXZk5tRnduRGhfMGlMOGxPVjVpVDVUX2ExLXBvanFyWllfZGdod3NyQQ?oc=5\" target=\"_blank\">Vaccine coalition launched to tackle emerging global health threats</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Pharmaceutical Journal</font>"
+      },
+      "source": {
+        "href": "https://pharmaceutical-journal.com",
+        "title": "The Pharmaceutical Journal"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Development and validation of a one-step reverse transcription loop-mediated isothermal amplification (RT-LAMP) for rapid detection of ZIKV in patient samples from Brazil - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Development and validation of a one-step reverse transcription loop-mediated isothermal amplification (RT-LAMP) for rapid detection of ZIKV in patient samples from Brazil - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1Fc25tWWFtWGc2VzlWYjJwTEJyeFBycFRiZ2RMMTE3ckZRdE9PVmJLVFg2ekE4aXZWU3dacW8zVml2QU1Oc0tHYjdINTVoUnh0eU1zMmd2QS1mLW9qRGZF?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1Fc25tWWFtWGc2VzlWYjJwTEJyeFBycFRiZ2RMMTE3ckZRdE9PVmJLVFg2ekE4aXZWU3dacW8zVml2QU1Oc0tHYjdINTVoUnh0eU1zMmd2QS1mLW9qRGZF?oc=5",
+      "id": "CBMiX0FVX3lxTE1Fc25tWWFtWGc2VzlWYjJwTEJyeFBycFRiZ2RMMTE3ckZRdE9PVmJLVFg2ekE4aXZWU3dacW8zVml2QU1Oc0tHYjdINTVoUnh0eU1zMmd2QS1mLW9qRGZF",
+      "guidislink": false,
+      "published": "Thu, 18 Feb 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        2,
+        18,
+        8,
+        0,
+        0,
+        3,
+        49,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1Fc25tWWFtWGc2VzlWYjJwTEJyeFBycFRiZ2RMMTE3ckZRdE9PVmJLVFg2ekE4aXZWU3dacW8zVml2QU1Oc0tHYjdINTVoUnh0eU1zMmd2QS1mLW9qRGZF?oc=5\" target=\"_blank\">Development and validation of a one-step reverse transcription loop-mediated isothermal amplification (RT-LAMP) for rapid detection of ZIKV in patient samples from Brazil</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1Fc25tWWFtWGc2VzlWYjJwTEJyeFBycFRiZ2RMMTE3ckZRdE9PVmJLVFg2ekE4aXZWU3dacW8zVml2QU1Oc0tHYjdINTVoUnh0eU1zMmd2QS1mLW9qRGZF?oc=5\" target=\"_blank\">Development and validation of a one-step reverse transcription loop-mediated isothermal amplification (RT-LAMP) for rapid detection of ZIKV in patient samples from Brazil</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Flavivirus maturation leads to the formation of an occupied lipid pocket in the surface glycoproteins - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Flavivirus maturation leads to the formation of an occupied lipid pocket in the surface glycoproteins - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1Fdm1kSDZyUVRTWlRqWnlGM2c0WUd2dTZjSGZ4R2ZzN0lEYVFvMmVESDZhbU4xdEh2OFJ3R2s0QkxncjFpdDUxbzVUWERHVDh0bmptQ0M1YkVKcndNa2pj?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1Fdm1kSDZyUVRTWlRqWnlGM2c0WUd2dTZjSGZ4R2ZzN0lEYVFvMmVESDZhbU4xdEh2OFJ3R2s0QkxncjFpdDUxbzVUWERHVDh0bmptQ0M1YkVKcndNa2pj?oc=5",
+      "id": "CBMiX0FVX3lxTE1Fdm1kSDZyUVRTWlRqWnlGM2c0WUd2dTZjSGZ4R2ZzN0lEYVFvMmVESDZhbU4xdEh2OFJ3R2s0QkxncjFpdDUxbzVUWERHVDh0bmptQ0M1YkVKcndNa2pj",
+      "guidislink": false,
+      "published": "Tue, 23 Feb 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        2,
+        23,
+        8,
+        0,
+        0,
+        1,
+        54,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1Fdm1kSDZyUVRTWlRqWnlGM2c0WUd2dTZjSGZ4R2ZzN0lEYVFvMmVESDZhbU4xdEh2OFJ3R2s0QkxncjFpdDUxbzVUWERHVDh0bmptQ0M1YkVKcndNa2pj?oc=5\" target=\"_blank\">Flavivirus maturation leads to the formation of an occupied lipid pocket in the surface glycoproteins</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1Fdm1kSDZyUVRTWlRqWnlGM2c0WUd2dTZjSGZ4R2ZzN0lEYVFvMmVESDZhbU4xdEh2OFJ3R2s0QkxncjFpdDUxbzVUWERHVDh0bmptQ0M1YkVKcndNa2pj?oc=5\" target=\"_blank\">Flavivirus maturation leads to the formation of an occupied lipid pocket in the surface glycoproteins</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Climate predicts geographic and temporal variation in mosquito-borne disease dynamics on two continents - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Climate predicts geographic and temporal variation in mosquito-borne disease dynamics on two continents - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ocWo3a25ndXVoWFNtTlE4WklZR3lMcU1Yc2RFWF9sSnZoLU1qOWE0MnJ1STB4X0lwb2kxd2xyS01CY0J4RVJDQVlFZnh3NEpnMUdzakxDNjd4UmR2UEFV?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ocWo3a25ndXVoWFNtTlE4WklZR3lMcU1Yc2RFWF9sSnZoLU1qOWE0MnJ1STB4X0lwb2kxd2xyS01CY0J4RVJDQVlFZnh3NEpnMUdzakxDNjd4UmR2UEFV?oc=5",
+      "id": "CBMiX0FVX3lxTE5ocWo3a25ndXVoWFNtTlE4WklZR3lMcU1Yc2RFWF9sSnZoLU1qOWE0MnJ1STB4X0lwb2kxd2xyS01CY0J4RVJDQVlFZnh3NEpnMUdzakxDNjd4UmR2UEFV",
+      "guidislink": false,
+      "published": "Tue, 23 Feb 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        2,
+        23,
+        8,
+        0,
+        0,
+        1,
+        54,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ocWo3a25ndXVoWFNtTlE4WklZR3lMcU1Yc2RFWF9sSnZoLU1qOWE0MnJ1STB4X0lwb2kxd2xyS01CY0J4RVJDQVlFZnh3NEpnMUdzakxDNjd4UmR2UEFV?oc=5\" target=\"_blank\">Climate predicts geographic and temporal variation in mosquito-borne disease dynamics on two continents</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ocWo3a25ndXVoWFNtTlE4WklZR3lMcU1Yc2RFWF9sSnZoLU1qOWE0MnJ1STB4X0lwb2kxd2xyS01CY0J4RVJDQVlFZnh3NEpnMUdzakxDNjd4UmR2UEFV?oc=5\" target=\"_blank\">Climate predicts geographic and temporal variation in mosquito-borne disease dynamics on two continents</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Biological activity-based modeling identifies antiviral leads against SARS-CoV-2 - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Biological activity-based modeling identifies antiviral leads against SARS-CoV-2 - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE56UDdqWENGTGlBdGxnMDktN2twNjVSVnVjcXNPdTR3MzFsQU5ibmI4dXBkN0FCaTJyZ0ZVZ1VzRWFlNGtITm1aak1waGlmdGdob0lwVWlpUWVVbDB6RURn?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE56UDdqWENGTGlBdGxnMDktN2twNjVSVnVjcXNPdTR3MzFsQU5ibmI4dXBkN0FCaTJyZ0ZVZ1VzRWFlNGtITm1aak1waGlmdGdob0lwVWlpUWVVbDB6RURn?oc=5",
+      "id": "CBMiX0FVX3lxTE56UDdqWENGTGlBdGxnMDktN2twNjVSVnVjcXNPdTR3MzFsQU5ibmI4dXBkN0FCaTJyZ0ZVZ1VzRWFlNGtITm1aak1waGlmdGdob0lwVWlpUWVVbDB6RURn",
+      "guidislink": false,
+      "published": "Tue, 23 Feb 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        2,
+        23,
+        8,
+        0,
+        0,
+        1,
+        54,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE56UDdqWENGTGlBdGxnMDktN2twNjVSVnVjcXNPdTR3MzFsQU5ibmI4dXBkN0FCaTJyZ0ZVZ1VzRWFlNGtITm1aak1waGlmdGdob0lwVWlpUWVVbDB6RURn?oc=5\" target=\"_blank\">Biological activity-based modeling identifies antiviral leads against SARS-CoV-2</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE56UDdqWENGTGlBdGxnMDktN2twNjVSVnVjcXNPdTR3MzFsQU5ibmI4dXBkN0FCaTJyZ0ZVZ1VzRWFlNGtITm1aak1waGlmdGdob0lwVWlpUWVVbDB6RURn?oc=5\" target=\"_blank\">Biological activity-based modeling identifies antiviral leads against SARS-CoV-2</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Locals protest over genetically modified mosquito plan in Florida Keys - Miami Herald",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Locals protest over genetically modified mosquito plan in Florida Keys - Miami Herald"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOY00weEVscjdBU1RnY0dDWjlrVUFaczkzNlRPb1hLaFl2VV9HVjlLaHNPZjZLNFU3cGJWdFh2YUJIZ3F6aXFEV0dlR2JjeHRZMGJOeXJyVGZ6dFA0SkQ2SGRsYzV4V2VsMHVIY2t1Umh5UzktbFFfbGVnTW52SEtKblZpUTYtUTg2T2Fj0gGLAUFVX3lxTFBjYTBiZlQ2U2xKZXN3d2Z4T0g0ZjZIdmpYMUU3V3dCSlVCSkFyS2JKQUEwMkRZNTA3Rm9VX0RibHVwUldlRTlKcEJzVlRudGdPR1NQekFBTHgwb1VtMHNrbms3ZE91bEw3YXg3Rm9MdnFsU2pSUDdVakdYTFpEemdxcHVWYlVFMllJeFk?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOY00weEVscjdBU1RnY0dDWjlrVUFaczkzNlRPb1hLaFl2VV9HVjlLaHNPZjZLNFU3cGJWdFh2YUJIZ3F6aXFEV0dlR2JjeHRZMGJOeXJyVGZ6dFA0SkQ2SGRsYzV4V2VsMHVIY2t1Umh5UzktbFFfbGVnTW52SEtKblZpUTYtUTg2T2Fj0gGLAUFVX3lxTFBjYTBiZlQ2U2xKZXN3d2Z4T0g0ZjZIdmpYMUU3V3dCSlVCSkFyS2JKQUEwMkRZNTA3Rm9VX0RibHVwUldlRTlKcEJzVlRudGdPR1NQekFBTHgwb1VtMHNrbms3ZE91bEw3YXg3Rm9MdnFsU2pSUDdVakdYTFpEemdxcHVWYlVFMllJeFk?oc=5",
+      "id": "CBMiiwFBVV95cUxOY00weEVscjdBU1RnY0dDWjlrVUFaczkzNlRPb1hLaFl2VV9HVjlLaHNPZjZLNFU3cGJWdFh2YUJIZ3F6aXFEV0dlR2JjeHRZMGJOeXJyVGZ6dFA0SkQ2SGRsYzV4V2VsMHVIY2t1Umh5UzktbFFfbGVnTW52SEtKblZpUTYtUTg2T2Fj0gGLAUFVX3lxTFBjYTBiZlQ2U2xKZXN3d2Z4T0g0ZjZIdmpYMUU3V3dCSlVCSkFyS2JKQUEwMkRZNTA3Rm9VX0RibHVwUldlRTlKcEJzVlRudGdPR1NQekFBTHgwb1VtMHNrbms3ZE91bEw3YXg3Rm9MdnFsU2pSUDdVakdYTFpEemdxcHVWYlVFMllJeFk",
+      "guidislink": false,
+      "published": "Thu, 25 Feb 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        2,
+        25,
+        8,
+        0,
+        0,
+        3,
+        56,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxOY00weEVscjdBU1RnY0dDWjlrVUFaczkzNlRPb1hLaFl2VV9HVjlLaHNPZjZLNFU3cGJWdFh2YUJIZ3F6aXFEV0dlR2JjeHRZMGJOeXJyVGZ6dFA0SkQ2SGRsYzV4V2VsMHVIY2t1Umh5UzktbFFfbGVnTW52SEtKblZpUTYtUTg2T2Fj0gGLAUFVX3lxTFBjYTBiZlQ2U2xKZXN3d2Z4T0g0ZjZIdmpYMUU3V3dCSlVCSkFyS2JKQUEwMkRZNTA3Rm9VX0RibHVwUldlRTlKcEJzVlRudGdPR1NQekFBTHgwb1VtMHNrbms3ZE91bEw3YXg3Rm9MdnFsU2pSUDdVakdYTFpEemdxcHVWYlVFMllJeFk?oc=5\" target=\"_blank\">Locals protest over genetically modified mosquito plan in Florida Keys</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Miami Herald</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxOY00weEVscjdBU1RnY0dDWjlrVUFaczkzNlRPb1hLaFl2VV9HVjlLaHNPZjZLNFU3cGJWdFh2YUJIZ3F6aXFEV0dlR2JjeHRZMGJOeXJyVGZ6dFA0SkQ2SGRsYzV4V2VsMHVIY2t1Umh5UzktbFFfbGVnTW52SEtKblZpUTYtUTg2T2Fj0gGLAUFVX3lxTFBjYTBiZlQ2U2xKZXN3d2Z4T0g0ZjZIdmpYMUU3V3dCSlVCSkFyS2JKQUEwMkRZNTA3Rm9VX0RibHVwUldlRTlKcEJzVlRudGdPR1NQekFBTHgwb1VtMHNrbms3ZE91bEw3YXg3Rm9MdnFsU2pSUDdVakdYTFpEemdxcHVWYlVFMllJeFk?oc=5\" target=\"_blank\">Locals protest over genetically modified mosquito plan in Florida Keys</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Miami Herald</font>"
+      },
+      "source": {
+        "href": "https://www.miamiherald.com",
+        "title": "Miami Herald"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Over 100,000 Viruses Identified in the Gut Microbiome - Genetic Engineering and Biotechnology News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Over 100,000 Viruses Identified in the Gut Microbiome - Genetic Engineering and Biotechnology News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaTEyaGJxLXpfaWhOQXdzeW4xNjM4by1WQnVvX3VuaWdYMHZqRHJlc1M1UWNURTdpUnhpOF9WMDJRakRDMHNnWUk0cXJBWnBzNzZZYnV0YVNRalA4akstUzFCLVF6UVVkX1NfbUZGX08yQUJRM0M1dTZfUXlYcWtSRUZFU0pWbHBORHNmenVn?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaTEyaGJxLXpfaWhOQXdzeW4xNjM4by1WQnVvX3VuaWdYMHZqRHJlc1M1UWNURTdpUnhpOF9WMDJRakRDMHNnWUk0cXJBWnBzNzZZYnV0YVNRalA4akstUzFCLVF6UVVkX1NfbUZGX08yQUJRM0M1dTZfUXlYcWtSRUZFU0pWbHBORHNmenVn?oc=5",
+      "id": "CBMijgFBVV95cUxOaTEyaGJxLXpfaWhOQXdzeW4xNjM4by1WQnVvX3VuaWdYMHZqRHJlc1M1UWNURTdpUnhpOF9WMDJRakRDMHNnWUk0cXJBWnBzNzZZYnV0YVNRalA4akstUzFCLVF6UVVkX1NfbUZGX08yQUJRM0M1dTZfUXlYcWtSRUZFU0pWbHBORHNmenVn",
+      "guidislink": false,
+      "published": "Fri, 19 Feb 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        2,
+        19,
+        8,
+        0,
+        0,
+        4,
+        50,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxOaTEyaGJxLXpfaWhOQXdzeW4xNjM4by1WQnVvX3VuaWdYMHZqRHJlc1M1UWNURTdpUnhpOF9WMDJRakRDMHNnWUk0cXJBWnBzNzZZYnV0YVNRalA4akstUzFCLVF6UVVkX1NfbUZGX08yQUJRM0M1dTZfUXlYcWtSRUZFU0pWbHBORHNmenVn?oc=5\" target=\"_blank\">Over 100,000 Viruses Identified in the Gut Microbiome</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Genetic Engineering and Biotechnology News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxOaTEyaGJxLXpfaWhOQXdzeW4xNjM4by1WQnVvX3VuaWdYMHZqRHJlc1M1UWNURTdpUnhpOF9WMDJRakRDMHNnWUk0cXJBWnBzNzZZYnV0YVNRalA4akstUzFCLVF6UVVkX1NfbUZGX08yQUJRM0M1dTZfUXlYcWtSRUZFU0pWbHBORHNmenVn?oc=5\" target=\"_blank\">Over 100,000 Viruses Identified in the Gut Microbiome</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Genetic Engineering and Biotechnology News</font>"
+      },
+      "source": {
+        "href": "https://www.genengnews.com",
+        "title": "Genetic Engineering and Biotechnology News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Mosquitos suck, so which repellent is best to deter them: Deet or Picaridin? - Task & Purpose",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Mosquitos suck, so which repellent is best to deter them: Deet or Picaridin? - Task & Purpose"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1fa1d5eG5TTlNfZXpOd3FsM2ZleW9zMGVqRzZieXNqUFFhUUlvdFU5M3ZhdERXZWRkRzV2aVpNQklwT0dMMW5JMGVsTFozWU1TNVljblN2NElCWG1ia2tISHg2NE13ZlI5cEE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1fa1d5eG5TTlNfZXpOd3FsM2ZleW9zMGVqRzZieXNqUFFhUUlvdFU5M3ZhdERXZWRkRzV2aVpNQklwT0dMMW5JMGVsTFozWU1TNVljblN2NElCWG1ia2tISHg2NE13ZlI5cEE?oc=5",
+      "id": "CBMiakFVX3lxTE1fa1d5eG5TTlNfZXpOd3FsM2ZleW9zMGVqRzZieXNqUFFhUUlvdFU5M3ZhdERXZWRkRzV2aVpNQklwT0dMMW5JMGVsTFozWU1TNVljblN2NElCWG1ia2tISHg2NE13ZlI5cEE",
+      "guidislink": false,
+      "published": "Fri, 12 Feb 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        2,
+        12,
+        8,
+        0,
+        0,
+        4,
+        43,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE1fa1d5eG5TTlNfZXpOd3FsM2ZleW9zMGVqRzZieXNqUFFhUUlvdFU5M3ZhdERXZWRkRzV2aVpNQklwT0dMMW5JMGVsTFozWU1TNVljblN2NElCWG1ia2tISHg2NE13ZlI5cEE?oc=5\" target=\"_blank\">Mosquitos suck, so which repellent is best to deter them: Deet or Picaridin?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Task & Purpose</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE1fa1d5eG5TTlNfZXpOd3FsM2ZleW9zMGVqRzZieXNqUFFhUUlvdFU5M3ZhdERXZWRkRzV2aVpNQklwT0dMMW5JMGVsTFozWU1TNVljblN2NElCWG1ia2tISHg2NE13ZlI5cEE?oc=5\" target=\"_blank\">Mosquitos suck, so which repellent is best to deter them: Deet or Picaridin?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Task & Purpose</font>"
+      },
+      "source": {
+        "href": "https://taskandpurpose.com",
+        "title": "Task & Purpose"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Anguilla Declares Itself Virus-Free - Travel Agent Central",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Anguilla Declares Itself Virus-Free - Travel Agent Central"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVnlHc2VpRDNJeEk1QXFXNWlwUTFKbm9oa0ZlWENfcEt6RFQ2RmhTWkYwaHNyYUlGOVFwUjUzbFYtTnlQa2h5Um1JNmpwV2diejhZYlBVdkgwNEdsUTB3RzZ0Z1kxTHNPcmZGRDRPc3gyMzFTcXJMbWNmQ2VTbWFZM0lkZk9YQ1E?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVnlHc2VpRDNJeEk1QXFXNWlwUTFKbm9oa0ZlWENfcEt6RFQ2RmhTWkYwaHNyYUlGOVFwUjUzbFYtTnlQa2h5Um1JNmpwV2diejhZYlBVdkgwNEdsUTB3RzZ0Z1kxTHNPcmZGRDRPc3gyMzFTcXJMbWNmQ2VTbWFZM0lkZk9YQ1E?oc=5",
+      "id": "CBMihwFBVV95cUxNVnlHc2VpRDNJeEk1QXFXNWlwUTFKbm9oa0ZlWENfcEt6RFQ2RmhTWkYwaHNyYUlGOVFwUjUzbFYtTnlQa2h5Um1JNmpwV2diejhZYlBVdkgwNEdsUTB3RzZ0Z1kxTHNPcmZGRDRPc3gyMzFTcXJMbWNmQ2VTbWFZM0lkZk9YQ1E",
+      "guidislink": false,
+      "published": "Tue, 02 Mar 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        3,
+        2,
+        8,
+        0,
+        0,
+        1,
+        61,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxNVnlHc2VpRDNJeEk1QXFXNWlwUTFKbm9oa0ZlWENfcEt6RFQ2RmhTWkYwaHNyYUlGOVFwUjUzbFYtTnlQa2h5Um1JNmpwV2diejhZYlBVdkgwNEdsUTB3RzZ0Z1kxTHNPcmZGRDRPc3gyMzFTcXJMbWNmQ2VTbWFZM0lkZk9YQ1E?oc=5\" target=\"_blank\">Anguilla Declares Itself Virus-Free</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Travel Agent Central</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxNVnlHc2VpRDNJeEk1QXFXNWlwUTFKbm9oa0ZlWENfcEt6RFQ2RmhTWkYwaHNyYUlGOVFwUjUzbFYtTnlQa2h5Um1JNmpwV2diejhZYlBVdkgwNEdsUTB3RzZ0Z1kxTHNPcmZGRDRPc3gyMzFTcXJMbWNmQ2VTbWFZM0lkZk9YQ1E?oc=5\" target=\"_blank\">Anguilla Declares Itself Virus-Free</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Travel Agent Central</font>"
+      },
+      "source": {
+        "href": "https://www.travelagentcentral.com",
+        "title": "Travel Agent Central"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "virusPHIX™ virus inactivation medium launched by RNAssist & Rapid Labs Ltd. - News-Medical",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "virusPHIX™ virus inactivation medium launched by RNAssist & Rapid Labs Ltd. - News-Medical"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQT2lsU2VqNkhqQWRXdVdJandjWDI5dk5jTDE1RkxPdjh1LUdkZ1dkcHBBSUpjMExBOG1lRU9NM1pvV0NON0NCY0hiZ1lvTnlvNlZIMS1MNzlzY2lfYUUyWC15WHI5ejBZZllpVjRILWVKaTJWNGJOZmN6SUhiRG4xemNfZ1pRZHZDWHlMSkowTFlYbWlBWUJ2YTlsTmlUYkktZ1ZxbDFpSkZ1bFktVktZSzRNeW1BbXNTZ2pFRjU1ek1aUWc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQT2lsU2VqNkhqQWRXdVdJandjWDI5dk5jTDE1RkxPdjh1LUdkZ1dkcHBBSUpjMExBOG1lRU9NM1pvV0NON0NCY0hiZ1lvTnlvNlZIMS1MNzlzY2lfYUUyWC15WHI5ejBZZllpVjRILWVKaTJWNGJOZmN6SUhiRG4xemNfZ1pRZHZDWHlMSkowTFlYbWlBWUJ2YTlsTmlUYkktZ1ZxbDFpSkZ1bFktVktZSzRNeW1BbXNTZ2pFRjU1ek1aUWc?oc=5",
+      "id": "CBMiwwFBVV95cUxQT2lsU2VqNkhqQWRXdVdJandjWDI5dk5jTDE1RkxPdjh1LUdkZ1dkcHBBSUpjMExBOG1lRU9NM1pvV0NON0NCY0hiZ1lvTnlvNlZIMS1MNzlzY2lfYUUyWC15WHI5ejBZZllpVjRILWVKaTJWNGJOZmN6SUhiRG4xemNfZ1pRZHZDWHlMSkowTFlYbWlBWUJ2YTlsTmlUYkktZ1ZxbDFpSkZ1bFktVktZSzRNeW1BbXNTZ2pFRjU1ek1aUWc",
+      "guidislink": false,
+      "published": "Thu, 04 Feb 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        2,
+        4,
+        8,
+        0,
+        0,
+        3,
+        35,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxQT2lsU2VqNkhqQWRXdVdJandjWDI5dk5jTDE1RkxPdjh1LUdkZ1dkcHBBSUpjMExBOG1lRU9NM1pvV0NON0NCY0hiZ1lvTnlvNlZIMS1MNzlzY2lfYUUyWC15WHI5ejBZZllpVjRILWVKaTJWNGJOZmN6SUhiRG4xemNfZ1pRZHZDWHlMSkowTFlYbWlBWUJ2YTlsTmlUYkktZ1ZxbDFpSkZ1bFktVktZSzRNeW1BbXNTZ2pFRjU1ek1aUWc?oc=5\" target=\"_blank\">virusPHIX™ virus inactivation medium launched by RNAssist & Rapid Labs Ltd.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">News-Medical</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxQT2lsU2VqNkhqQWRXdVdJandjWDI5dk5jTDE1RkxPdjh1LUdkZ1dkcHBBSUpjMExBOG1lRU9NM1pvV0NON0NCY0hiZ1lvTnlvNlZIMS1MNzlzY2lfYUUyWC15WHI5ejBZZllpVjRILWVKaTJWNGJOZmN6SUhiRG4xemNfZ1pRZHZDWHlMSkowTFlYbWlBWUJ2YTlsTmlUYkktZ1ZxbDFpSkZ1bFktVktZSzRNeW1BbXNTZ2pFRjU1ek1aUWc?oc=5\" target=\"_blank\">virusPHIX™ virus inactivation medium launched by RNAssist & Rapid Labs Ltd.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">News-Medical</font>"
+      },
+      "source": {
+        "href": "https://www.news-medical.net",
+        "title": "News-Medical"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Neanderthal genes are still helping humans today - popsci.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Neanderthal genes are still helping humans today - popsci.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9XR1dnMV9TVEM4Q3ZxdnRWLVpiQklDNkZrOE5Geks0N3NtUXZnUXRnX0JVU256S2Y0alZCeVhuYWJFNWJCTGxHTWVCaHhORDNvTF9pUld4QkRmeDNSYjB5bXFnSUp5TGo2Z3c?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9XR1dnMV9TVEM4Q3ZxdnRWLVpiQklDNkZrOE5Geks0N3NtUXZnUXRnX0JVU256S2Y0alZCeVhuYWJFNWJCTGxHTWVCaHhORDNvTF9pUld4QkRmeDNSYjB5bXFnSUp5TGo2Z3c?oc=5",
+      "id": "CBMiakFVX3lxTE9XR1dnMV9TVEM4Q3ZxdnRWLVpiQklDNkZrOE5Geks0N3NtUXZnUXRnX0JVU256S2Y0alZCeVhuYWJFNWJCTGxHTWVCaHhORDNvTF9pUld4QkRmeDNSYjB5bXFnSUp5TGo2Z3c",
+      "guidislink": false,
+      "published": "Sat, 13 Feb 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        2,
+        13,
+        8,
+        0,
+        0,
+        5,
+        44,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE9XR1dnMV9TVEM4Q3ZxdnRWLVpiQklDNkZrOE5Geks0N3NtUXZnUXRnX0JVU256S2Y0alZCeVhuYWJFNWJCTGxHTWVCaHhORDNvTF9pUld4QkRmeDNSYjB5bXFnSUp5TGo2Z3c?oc=5\" target=\"_blank\">Neanderthal genes are still helping humans today</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">popsci.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE9XR1dnMV9TVEM4Q3ZxdnRWLVpiQklDNkZrOE5Geks0N3NtUXZnUXRnX0JVU256S2Y0alZCeVhuYWJFNWJCTGxHTWVCaHhORDNvTF9pUld4QkRmeDNSYjB5bXFnSUp5TGo2Z3c?oc=5\" target=\"_blank\">Neanderthal genes are still helping humans today</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">popsci.com</font>"
+      },
+      "source": {
+        "href": "https://www.popsci.com",
+        "title": "popsci.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Diagnostics provider Hologic expects Covid-19 testing capacities to boost business post-pandemic - CNBC",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Diagnostics provider Hologic expects Covid-19 testing capacities to boost business post-pandemic - CNBC"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPM2xLSGszX1VDNEdiM1RRUkFMOWZTUTBqZFpkTXUwV2JNZWNFTVZVNEZEdk9aem03aWRTb1I5Z3BtdDJBOWJvU1pNR1BIdXdNQmV4T3JMaDhNQ0FubXk4eHVZUC01WFMxdGV0TFhKU3ZrUW5rUTdfOWtlbmV3WmQyREZqWFd1VXg4MEMtc1N2ZXBmR2xBdFVKMGM5VU1XQjhBN2IzYVZvMjRCY2NrMXNiVE5R0gG3AUFVX3lxTE53Nmc3NUdiZ1JwZXNaTThvVk5FM0QyX2tSdTZrRVZWcmZWTXVBWFY3ekltaTkyaUtkdzlOa3lQajl5bTdiaVRTOWtDUmFVc29LZTFnZlpvZko5VE5rUVhoUXEyZ0hKbTlMekhIQmJwNHVpT1Frel9MM1pESFBXelZTNXRwVC0xbjd3M28zS3NQTnAtTThBYnJfU3FKZFN4MmVWd1hfZi1pZEhwczI5ZmpCREtyWk9XZw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPM2xLSGszX1VDNEdiM1RRUkFMOWZTUTBqZFpkTXUwV2JNZWNFTVZVNEZEdk9aem03aWRTb1I5Z3BtdDJBOWJvU1pNR1BIdXdNQmV4T3JMaDhNQ0FubXk4eHVZUC01WFMxdGV0TFhKU3ZrUW5rUTdfOWtlbmV3WmQyREZqWFd1VXg4MEMtc1N2ZXBmR2xBdFVKMGM5VU1XQjhBN2IzYVZvMjRCY2NrMXNiVE5R0gG3AUFVX3lxTE53Nmc3NUdiZ1JwZXNaTThvVk5FM0QyX2tSdTZrRVZWcmZWTXVBWFY3ekltaTkyaUtkdzlOa3lQajl5bTdiaVRTOWtDUmFVc29LZTFnZlpvZko5VE5rUVhoUXEyZ0hKbTlMekhIQmJwNHVpT1Frel9MM1pESFBXelZTNXRwVC0xbjd3M28zS3NQTnAtTThBYnJfU3FKZFN4MmVWd1hfZi1pZEhwczI5ZmpCREtyWk9XZw?oc=5",
+      "id": "CBMisgFBVV95cUxPM2xLSGszX1VDNEdiM1RRUkFMOWZTUTBqZFpkTXUwV2JNZWNFTVZVNEZEdk9aem03aWRTb1I5Z3BtdDJBOWJvU1pNR1BIdXdNQmV4T3JMaDhNQ0FubXk4eHVZUC01WFMxdGV0TFhKU3ZrUW5rUTdfOWtlbmV3WmQyREZqWFd1VXg4MEMtc1N2ZXBmR2xBdFVKMGM5VU1XQjhBN2IzYVZvMjRCY2NrMXNiVE5R0gG3AUFVX3lxTE53Nmc3NUdiZ1JwZXNaTThvVk5FM0QyX2tSdTZrRVZWcmZWTXVBWFY3ekltaTkyaUtkdzlOa3lQajl5bTdiaVRTOWtDUmFVc29LZTFnZlpvZko5VE5rUVhoUXEyZ0hKbTlMekhIQmJwNHVpT1Frel9MM1pESFBXelZTNXRwVC0xbjd3M28zS3NQTnAtTThBYnJfU3FKZFN4MmVWd1hfZi1pZEhwczI5ZmpCREtyWk9XZw",
+      "guidislink": false,
+      "published": "Wed, 03 Feb 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        2,
+        3,
+        8,
+        0,
+        0,
+        2,
+        34,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPM2xLSGszX1VDNEdiM1RRUkFMOWZTUTBqZFpkTXUwV2JNZWNFTVZVNEZEdk9aem03aWRTb1I5Z3BtdDJBOWJvU1pNR1BIdXdNQmV4T3JMaDhNQ0FubXk4eHVZUC01WFMxdGV0TFhKU3ZrUW5rUTdfOWtlbmV3WmQyREZqWFd1VXg4MEMtc1N2ZXBmR2xBdFVKMGM5VU1XQjhBN2IzYVZvMjRCY2NrMXNiVE5R0gG3AUFVX3lxTE53Nmc3NUdiZ1JwZXNaTThvVk5FM0QyX2tSdTZrRVZWcmZWTXVBWFY3ekltaTkyaUtkdzlOa3lQajl5bTdiaVRTOWtDUmFVc29LZTFnZlpvZko5VE5rUVhoUXEyZ0hKbTlMekhIQmJwNHVpT1Frel9MM1pESFBXelZTNXRwVC0xbjd3M28zS3NQTnAtTThBYnJfU3FKZFN4MmVWd1hfZi1pZEhwczI5ZmpCREtyWk9XZw?oc=5\" target=\"_blank\">Diagnostics provider Hologic expects Covid-19 testing capacities to boost business post-pandemic</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPM2xLSGszX1VDNEdiM1RRUkFMOWZTUTBqZFpkTXUwV2JNZWNFTVZVNEZEdk9aem03aWRTb1I5Z3BtdDJBOWJvU1pNR1BIdXdNQmV4T3JMaDhNQ0FubXk4eHVZUC01WFMxdGV0TFhKU3ZrUW5rUTdfOWtlbmV3WmQyREZqWFd1VXg4MEMtc1N2ZXBmR2xBdFVKMGM5VU1XQjhBN2IzYVZvMjRCY2NrMXNiVE5R0gG3AUFVX3lxTE53Nmc3NUdiZ1JwZXNaTThvVk5FM0QyX2tSdTZrRVZWcmZWTXVBWFY3ekltaTkyaUtkdzlOa3lQajl5bTdiaVRTOWtDUmFVc29LZTFnZlpvZko5VE5rUVhoUXEyZ0hKbTlMekhIQmJwNHVpT1Frel9MM1pESFBXelZTNXRwVC0xbjd3M28zS3NQTnAtTThBYnJfU3FKZFN4MmVWd1hfZi1pZEhwczI5ZmpCREtyWk9XZw?oc=5\" target=\"_blank\">Diagnostics provider Hologic expects Covid-19 testing capacities to boost business post-pandemic</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC</font>"
+      },
+      "source": {
+        "href": "https://www.cnbc.com",
+        "title": "CNBC"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "New approach to HIV vaccination shows promise - Life4me.plus",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "New approach to HIV vaccination shows promise - Life4me.plus"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBfdGo3ODNTMGh1bEpkV1F1bDYyU1BabGg3NjVlVkkzQXZhdWhfRVFQeW5oUXNhZ21VSTdXM2R0S3l3SGcwMlJPS1ZJb2xTOVVSa2lVVXhmTUplV0hWZVdNSHpfSXBNV3gwRVHSAXNBVV95cUxOOGdmTDAtWTlZdExybnp2ZFIzSDBIOTVKcE9NZGZKRDJuejZoQUJKQTI3eXNxRkljM3I3QWtMTnFMblRJeDJVTTNOcUJrS3I5TjVLSUM3QUZPZFdpdEsxX0VkTF8zTTc5Q01ISUcwVVRQdElN?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBfdGo3ODNTMGh1bEpkV1F1bDYyU1BabGg3NjVlVkkzQXZhdWhfRVFQeW5oUXNhZ21VSTdXM2R0S3l3SGcwMlJPS1ZJb2xTOVVSa2lVVXhmTUplV0hWZVdNSHpfSXBNV3gwRVHSAXNBVV95cUxOOGdmTDAtWTlZdExybnp2ZFIzSDBIOTVKcE9NZGZKRDJuejZoQUJKQTI3eXNxRkljM3I3QWtMTnFMblRJeDJVTTNOcUJrS3I5TjVLSUM3QUZPZFdpdEsxX0VkTF8zTTc5Q01ISUcwVVRQdElN?oc=5",
+      "id": "CBMiakFVX3lxTFBfdGo3ODNTMGh1bEpkV1F1bDYyU1BabGg3NjVlVkkzQXZhdWhfRVFQeW5oUXNhZ21VSTdXM2R0S3l3SGcwMlJPS1ZJb2xTOVVSa2lVVXhmTUplV0hWZVdNSHpfSXBNV3gwRVHSAXNBVV95cUxOOGdmTDAtWTlZdExybnp2ZFIzSDBIOTVKcE9NZGZKRDJuejZoQUJKQTI3eXNxRkljM3I3QWtMTnFMblRJeDJVTTNOcUJrS3I5TjVLSUM3QUZPZFdpdEsxX0VkTF8zTTc5Q01ISUcwVVRQdElN",
+      "guidislink": false,
+      "published": "Mon, 08 Feb 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        2,
+        8,
+        8,
+        0,
+        0,
+        0,
+        39,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTFBfdGo3ODNTMGh1bEpkV1F1bDYyU1BabGg3NjVlVkkzQXZhdWhfRVFQeW5oUXNhZ21VSTdXM2R0S3l3SGcwMlJPS1ZJb2xTOVVSa2lVVXhmTUplV0hWZVdNSHpfSXBNV3gwRVHSAXNBVV95cUxOOGdmTDAtWTlZdExybnp2ZFIzSDBIOTVKcE9NZGZKRDJuejZoQUJKQTI3eXNxRkljM3I3QWtMTnFMblRJeDJVTTNOcUJrS3I5TjVLSUM3QUZPZFdpdEsxX0VkTF8zTTc5Q01ISUcwVVRQdElN?oc=5\" target=\"_blank\">New approach to HIV vaccination shows promise</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Life4me.plus</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTFBfdGo3ODNTMGh1bEpkV1F1bDYyU1BabGg3NjVlVkkzQXZhdWhfRVFQeW5oUXNhZ21VSTdXM2R0S3l3SGcwMlJPS1ZJb2xTOVVSa2lVVXhmTUplV0hWZVdNSHpfSXBNV3gwRVHSAXNBVV95cUxOOGdmTDAtWTlZdExybnp2ZFIzSDBIOTVKcE9NZGZKRDJuejZoQUJKQTI3eXNxRkljM3I3QWtMTnFMblRJeDJVTTNOcUJrS3I5TjVLSUM3QUZPZFdpdEsxX0VkTF8zTTc5Q01ISUcwVVRQdElN?oc=5\" target=\"_blank\">New approach to HIV vaccination shows promise</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Life4me.plus</font>"
+      },
+      "source": {
+        "href": "https://life4me.plus",
+        "title": "Life4me.plus"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Today in History: Feb. 2 - St. Augustine Record",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Today in History: Feb. 2 - St. Augustine Record"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTkh6c2Z1RHRldWdDOFVIVTBTQmFrbFRVYUt5bHZVcEdtN1RaUXI4ZUk4cFhzdnoxYWRmZ1RXYnVmZjNaMEIxaDg3bHFwSzhmQ215QjJSUTU1dXZTQzFmZkhfempPZ0R5N3c4Y0Zwd29iVFA1elQxUGRYVGgxRTN4RnlCeWlRaHAwYk1HUDBfTQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTkh6c2Z1RHRldWdDOFVIVTBTQmFrbFRVYUt5bHZVcEdtN1RaUXI4ZUk4cFhzdnoxYWRmZ1RXYnVmZjNaMEIxaDg3bHFwSzhmQ215QjJSUTU1dXZTQzFmZkhfempPZ0R5N3c4Y0Zwd29iVFA1elQxUGRYVGgxRTN4RnlCeWlRaHAwYk1HUDBfTQ?oc=5",
+      "id": "CBMijwFBVV95cUxNTkh6c2Z1RHRldWdDOFVIVTBTQmFrbFRVYUt5bHZVcEdtN1RaUXI4ZUk4cFhzdnoxYWRmZ1RXYnVmZjNaMEIxaDg3bHFwSzhmQ215QjJSUTU1dXZTQzFmZkhfempPZ0R5N3c4Y0Zwd29iVFA1elQxUGRYVGgxRTN4RnlCeWlRaHAwYk1HUDBfTQ",
+      "guidislink": false,
+      "published": "Tue, 02 Feb 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        2,
+        2,
+        8,
+        0,
+        0,
+        1,
+        33,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxNTkh6c2Z1RHRldWdDOFVIVTBTQmFrbFRVYUt5bHZVcEdtN1RaUXI4ZUk4cFhzdnoxYWRmZ1RXYnVmZjNaMEIxaDg3bHFwSzhmQ215QjJSUTU1dXZTQzFmZkhfempPZ0R5N3c4Y0Zwd29iVFA1elQxUGRYVGgxRTN4RnlCeWlRaHAwYk1HUDBfTQ?oc=5\" target=\"_blank\">Today in History: Feb. 2</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">St. Augustine Record</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxNTkh6c2Z1RHRldWdDOFVIVTBTQmFrbFRVYUt5bHZVcEdtN1RaUXI4ZUk4cFhzdnoxYWRmZ1RXYnVmZjNaMEIxaDg3bHFwSzhmQ215QjJSUTU1dXZTQzFmZkhfempPZ0R5N3c4Y0Zwd29iVFA1elQxUGRYVGgxRTN4RnlCeWlRaHAwYk1HUDBfTQ?oc=5\" target=\"_blank\">Today in History: Feb. 2</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">St. Augustine Record</font>"
+      },
+      "source": {
+        "href": "https://www.staugustine.com",
+        "title": "St. Augustine Record"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Dr. Linda Bell becoming a household name in SC - WLTX",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Dr. Linda Bell becoming a household name in SC - WLTX"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaDRCUXhFSmcwdnVERFB2dl9RbWtPNk03NHVXNFUteTRFVGR0WlplVTNsRktNc2xFQWNpS3Z1bHI1NTQ2QUpNM1lyMG1JX2VPck9lMThTRnlPMV8ycjZoQ2dfVjNaaXRhZHF0ZFlydE1Bcm80ZnhrazgxaDZnVzVRUTRLLXBvYkQxdEpFckp2S3ZZSGFUTUZsamZMRFFHTnJkYm9uSlBGc2pYUmhFWGFKZV9DYkFxelk3ZEtn?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaDRCUXhFSmcwdnVERFB2dl9RbWtPNk03NHVXNFUteTRFVGR0WlplVTNsRktNc2xFQWNpS3Z1bHI1NTQ2QUpNM1lyMG1JX2VPck9lMThTRnlPMV8ycjZoQ2dfVjNaaXRhZHF0ZFlydE1Bcm80ZnhrazgxaDZnVzVRUTRLLXBvYkQxdEpFckp2S3ZZSGFUTUZsamZMRFFHTnJkYm9uSlBGc2pYUmhFWGFKZV9DYkFxelk3ZEtn?oc=5",
+      "id": "CBMiuwFBVV95cUxPaDRCUXhFSmcwdnVERFB2dl9RbWtPNk03NHVXNFUteTRFVGR0WlplVTNsRktNc2xFQWNpS3Z1bHI1NTQ2QUpNM1lyMG1JX2VPck9lMThTRnlPMV8ycjZoQ2dfVjNaaXRhZHF0ZFlydE1Bcm80ZnhrazgxaDZnVzVRUTRLLXBvYkQxdEpFckp2S3ZZSGFUTUZsamZMRFFHTnJkYm9uSlBGc2pYUmhFWGFKZV9DYkFxelk3ZEtn",
+      "guidislink": false,
+      "published": "Sun, 07 Feb 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        2,
+        7,
+        8,
+        0,
+        0,
+        6,
+        38,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaDRCUXhFSmcwdnVERFB2dl9RbWtPNk03NHVXNFUteTRFVGR0WlplVTNsRktNc2xFQWNpS3Z1bHI1NTQ2QUpNM1lyMG1JX2VPck9lMThTRnlPMV8ycjZoQ2dfVjNaaXRhZHF0ZFlydE1Bcm80ZnhrazgxaDZnVzVRUTRLLXBvYkQxdEpFckp2S3ZZSGFUTUZsamZMRFFHTnJkYm9uSlBGc2pYUmhFWGFKZV9DYkFxelk3ZEtn?oc=5\" target=\"_blank\">Dr. Linda Bell becoming a household name in SC</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WLTX</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaDRCUXhFSmcwdnVERFB2dl9RbWtPNk03NHVXNFUteTRFVGR0WlplVTNsRktNc2xFQWNpS3Z1bHI1NTQ2QUpNM1lyMG1JX2VPck9lMThTRnlPMV8ycjZoQ2dfVjNaaXRhZHF0ZFlydE1Bcm80ZnhrazgxaDZnVzVRUTRLLXBvYkQxdEpFckp2S3ZZSGFUTUZsamZMRFFHTnJkYm9uSlBGc2pYUmhFWGFKZV9DYkFxelk3ZEtn?oc=5\" target=\"_blank\">Dr. Linda Bell becoming a household name in SC</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WLTX</font>"
+      },
+      "source": {
+        "href": "https://www.wltx.com",
+        "title": "WLTX"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "New vaccine boosts hopes in battle against COVID-19 - Mansfield News Journal",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "New vaccine boosts hopes in battle against COVID-19 - Mansfield News Journal"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTVpIM1B4TVpOX09CdnVaY3JmZ2oxQW5wbFVTb3NTaU95NEludVV0Q0I2endQejA0VmZHdzE4XzVnTzREbUtQYmZleW9MbUtfY1pOdC1kTi1WdEtsN1VzOEphSDJnNV9sTVlfeUs4akxNcVRjT2hpUGJxdmtWSWlSeTgwZXdwTFZOSHdrTFNxdU1ma0Y2aW9TeFVpdXlwNDRVRTFwblVCTHhIQ1k0bUF1ZG1BV3FTcW91MlJwYlRtQVZYVDBaNkdHLWxwNF9Jdw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTVpIM1B4TVpOX09CdnVaY3JmZ2oxQW5wbFVTb3NTaU95NEludVV0Q0I2endQejA0VmZHdzE4XzVnTzREbUtQYmZleW9MbUtfY1pOdC1kTi1WdEtsN1VzOEphSDJnNV9sTVlfeUs4akxNcVRjT2hpUGJxdmtWSWlSeTgwZXdwTFZOSHdrTFNxdU1ma0Y2aW9TeFVpdXlwNDRVRTFwblVCTHhIQ1k0bUF1ZG1BV3FTcW91MlJwYlRtQVZYVDBaNkdHLWxwNF9Jdw?oc=5",
+      "id": "CBMizgFBVV95cUxNTVpIM1B4TVpOX09CdnVaY3JmZ2oxQW5wbFVTb3NTaU95NEludVV0Q0I2endQejA0VmZHdzE4XzVnTzREbUtQYmZleW9MbUtfY1pOdC1kTi1WdEtsN1VzOEphSDJnNV9sTVlfeUs4akxNcVRjT2hpUGJxdmtWSWlSeTgwZXdwTFZOSHdrTFNxdU1ma0Y2aW9TeFVpdXlwNDRVRTFwblVCTHhIQ1k0bUF1ZG1BV3FTcW91MlJwYlRtQVZYVDBaNkdHLWxwNF9Jdw",
+      "guidislink": false,
+      "published": "Sat, 06 Feb 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        2,
+        6,
+        8,
+        0,
+        0,
+        5,
+        37,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxNTVpIM1B4TVpOX09CdnVaY3JmZ2oxQW5wbFVTb3NTaU95NEludVV0Q0I2endQejA0VmZHdzE4XzVnTzREbUtQYmZleW9MbUtfY1pOdC1kTi1WdEtsN1VzOEphSDJnNV9sTVlfeUs4akxNcVRjT2hpUGJxdmtWSWlSeTgwZXdwTFZOSHdrTFNxdU1ma0Y2aW9TeFVpdXlwNDRVRTFwblVCTHhIQ1k0bUF1ZG1BV3FTcW91MlJwYlRtQVZYVDBaNkdHLWxwNF9Jdw?oc=5\" target=\"_blank\">New vaccine boosts hopes in battle against COVID-19</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Mansfield News Journal</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxNTVpIM1B4TVpOX09CdnVaY3JmZ2oxQW5wbFVTb3NTaU95NEludVV0Q0I2endQejA0VmZHdzE4XzVnTzREbUtQYmZleW9MbUtfY1pOdC1kTi1WdEtsN1VzOEphSDJnNV9sTVlfeUs4akxNcVRjT2hpUGJxdmtWSWlSeTgwZXdwTFZOSHdrTFNxdU1ma0Y2aW9TeFVpdXlwNDRVRTFwblVCTHhIQ1k0bUF1ZG1BV3FTcW91MlJwYlRtQVZYVDBaNkdHLWxwNF9Jdw?oc=5\" target=\"_blank\">New vaccine boosts hopes in battle against COVID-19</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Mansfield News Journal</font>"
+      },
+      "source": {
+        "href": "https://www.mansfieldnewsjournal.com",
+        "title": "Mansfield News Journal"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "How a UK firm put a Covid-19 vaccine in a pill - Research Professional News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "How a UK firm put a Covid-19 vaccine in a pill - Research Professional News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNmEwd1FkRkRKMHJRYnRjbE5Td3d5RTRkQXV4eHljVlAwcVd6NUpWU25PQ3BQYU93YWtmN0xKbU9UVzhERW5FQ0I1V0VaOE1iQkNkRGMyN3hUSGZhVnoweGJ5ZFVKYjVlaEFVbk1CNjVpM1ktMVVxekZaUVBBb3ZwenNXVlVJaTZ5VjBBUHlQeDRYM2lKcHZfZTlLbzlGbEJpcmF0TmZHb0NUc2hQM1dMWVRXZTcyMjdX?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNmEwd1FkRkRKMHJRYnRjbE5Td3d5RTRkQXV4eHljVlAwcVd6NUpWU25PQ3BQYU93YWtmN0xKbU9UVzhERW5FQ0I1V0VaOE1iQkNkRGMyN3hUSGZhVnoweGJ5ZFVKYjVlaEFVbk1CNjVpM1ktMVVxekZaUVBBb3ZwenNXVlVJaTZ5VjBBUHlQeDRYM2lKcHZfZTlLbzlGbEJpcmF0TmZHb0NUc2hQM1dMWVRXZTcyMjdX?oc=5",
+      "id": "CBMiuAFBVV95cUxPNmEwd1FkRkRKMHJRYnRjbE5Td3d5RTRkQXV4eHljVlAwcVd6NUpWU25PQ3BQYU93YWtmN0xKbU9UVzhERW5FQ0I1V0VaOE1iQkNkRGMyN3hUSGZhVnoweGJ5ZFVKYjVlaEFVbk1CNjVpM1ktMVVxekZaUVBBb3ZwenNXVlVJaTZ5VjBBUHlQeDRYM2lKcHZfZTlLbzlGbEJpcmF0TmZHb0NUc2hQM1dMWVRXZTcyMjdX",
+      "guidislink": false,
+      "published": "Fri, 19 Feb 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        2,
+        19,
+        8,
+        0,
+        0,
+        4,
+        50,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNmEwd1FkRkRKMHJRYnRjbE5Td3d5RTRkQXV4eHljVlAwcVd6NUpWU25PQ3BQYU93YWtmN0xKbU9UVzhERW5FQ0I1V0VaOE1iQkNkRGMyN3hUSGZhVnoweGJ5ZFVKYjVlaEFVbk1CNjVpM1ktMVVxekZaUVBBb3ZwenNXVlVJaTZ5VjBBUHlQeDRYM2lKcHZfZTlLbzlGbEJpcmF0TmZHb0NUc2hQM1dMWVRXZTcyMjdX?oc=5\" target=\"_blank\">How a UK firm put a Covid-19 vaccine in a pill</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Research Professional News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNmEwd1FkRkRKMHJRYnRjbE5Td3d5RTRkQXV4eHljVlAwcVd6NUpWU25PQ3BQYU93YWtmN0xKbU9UVzhERW5FQ0I1V0VaOE1iQkNkRGMyN3hUSGZhVnoweGJ5ZFVKYjVlaEFVbk1CNjVpM1ktMVVxekZaUVBBb3ZwenNXVlVJaTZ5VjBBUHlQeDRYM2lKcHZfZTlLbzlGbEJpcmF0TmZHb0NUc2hQM1dMWVRXZTcyMjdX?oc=5\" target=\"_blank\">How a UK firm put a Covid-19 vaccine in a pill</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Research Professional News</font>"
+      },
+      "source": {
+        "href": "https://www.researchprofessionalnews.com",
+        "title": "Research Professional News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Covid in Scotland: Inside the Glasgow University lab sequencing the virus - BBC",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Covid in Scotland: Inside the Glasgow University lab sequencing the virus - BBC"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMibEFVX3lxTE03Q2dvcHJaRkt3WE5PUlF5cWJGYVJ2VmF1VllBUFktY21ZYllHWFNZc08zcHVPcHJQZVRWTnp5UFNna19vTGVfWmJlRDZ1VjEtb25KSTNYMVF0M3dpVDYwanBoUW55VDNKdXlWaA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE03Q2dvcHJaRkt3WE5PUlF5cWJGYVJ2VmF1VllBUFktY21ZYllHWFNZc08zcHVPcHJQZVRWTnp5UFNna19vTGVfWmJlRDZ1VjEtb25KSTNYMVF0M3dpVDYwanBoUW55VDNKdXlWaA?oc=5",
+      "id": "CBMibEFVX3lxTE03Q2dvcHJaRkt3WE5PUlF5cWJGYVJ2VmF1VllBUFktY21ZYllHWFNZc08zcHVPcHJQZVRWTnp5UFNna19vTGVfWmJlRDZ1VjEtb25KSTNYMVF0M3dpVDYwanBoUW55VDNKdXlWaA",
+      "guidislink": false,
+      "published": "Tue, 16 Feb 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        2,
+        16,
+        8,
+        0,
+        0,
+        1,
+        47,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE03Q2dvcHJaRkt3WE5PUlF5cWJGYVJ2VmF1VllBUFktY21ZYllHWFNZc08zcHVPcHJQZVRWTnp5UFNna19vTGVfWmJlRDZ1VjEtb25KSTNYMVF0M3dpVDYwanBoUW55VDNKdXlWaA?oc=5\" target=\"_blank\">Covid in Scotland: Inside the Glasgow University lab sequencing the virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE03Q2dvcHJaRkt3WE5PUlF5cWJGYVJ2VmF1VllBUFktY21ZYllHWFNZc08zcHVPcHJQZVRWTnp5UFNna19vTGVfWmJlRDZ1VjEtb25KSTNYMVF0M3dpVDYwanBoUW55VDNKdXlWaA?oc=5\" target=\"_blank\">Covid in Scotland: Inside the Glasgow University lab sequencing the virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>"
+      },
+      "source": {
+        "href": "https://www.bbc.co.uk",
+        "title": "BBC"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "The superspreaders behind top COVID-19 conspiracy theories - 9News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "The superspreaders behind top COVID-19 conspiracy theories - 9News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbmk3cnVrUXF2eE9tUEJ1cl9ma2YtWUROS2RjQnlJUFVrUjdfWjlnWnloSzZ0ZzNweExCMENBb2poSGV4N3NGem5KZm9IeWk1enFreWkzazJXNG9hVEJkdzhRbFl0M0FTUXItTW53NnVGa09NY3ZyeklkMzE4aGlDX2t3SzhKYWRkVE9vTEQ5NlBrcTdwc2pUOHZablBZeXh4WXJHRU9pd19ORkhObTFHSkN6ajB0OTRxQkF5M2NKRDUybm_SAXhBVV95cUxQSlNrZU5jZWNMb2hxWHdzTThPSlFLYjk0c25XQmg1RzdFNzV4V21qRGpaaDNHOFg2VXNqemphcTlXeVFCY2R5VWVvT2hRMjdRVnhCMTAwQ0xxZ0JocVUxSUlMRjZOa3hlSno5R2FKNVpmZnNMelNaQmg?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbmk3cnVrUXF2eE9tUEJ1cl9ma2YtWUROS2RjQnlJUFVrUjdfWjlnWnloSzZ0ZzNweExCMENBb2poSGV4N3NGem5KZm9IeWk1enFreWkzazJXNG9hVEJkdzhRbFl0M0FTUXItTW53NnVGa09NY3ZyeklkMzE4aGlDX2t3SzhKYWRkVE9vTEQ5NlBrcTdwc2pUOHZablBZeXh4WXJHRU9pd19ORkhObTFHSkN6ajB0OTRxQkF5M2NKRDUybm_SAXhBVV95cUxQSlNrZU5jZWNMb2hxWHdzTThPSlFLYjk0c25XQmg1RzdFNzV4V21qRGpaaDNHOFg2VXNqemphcTlXeVFCY2R5VWVvT2hRMjdRVnhCMTAwQ0xxZ0JocVUxSUlMRjZOa3hlSno5R2FKNVpmZnNMelNaQmg?oc=5",
+      "id": "CBMiwwFBVV95cUxQbmk3cnVrUXF2eE9tUEJ1cl9ma2YtWUROS2RjQnlJUFVrUjdfWjlnWnloSzZ0ZzNweExCMENBb2poSGV4N3NGem5KZm9IeWk1enFreWkzazJXNG9hVEJkdzhRbFl0M0FTUXItTW53NnVGa09NY3ZyeklkMzE4aGlDX2t3SzhKYWRkVE9vTEQ5NlBrcTdwc2pUOHZablBZeXh4WXJHRU9pd19ORkhObTFHSkN6ajB0OTRxQkF5M2NKRDUybm_SAXhBVV95cUxQSlNrZU5jZWNMb2hxWHdzTThPSlFLYjk0c25XQmg1RzdFNzV4V21qRGpaaDNHOFg2VXNqemphcTlXeVFCY2R5VWVvT2hRMjdRVnhCMTAwQ0xxZ0JocVUxSUlMRjZOa3hlSno5R2FKNVpmZnNMelNaQmg",
+      "guidislink": false,
+      "published": "Mon, 15 Feb 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        2,
+        15,
+        8,
+        0,
+        0,
+        0,
+        46,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbmk3cnVrUXF2eE9tUEJ1cl9ma2YtWUROS2RjQnlJUFVrUjdfWjlnWnloSzZ0ZzNweExCMENBb2poSGV4N3NGem5KZm9IeWk1enFreWkzazJXNG9hVEJkdzhRbFl0M0FTUXItTW53NnVGa09NY3ZyeklkMzE4aGlDX2t3SzhKYWRkVE9vTEQ5NlBrcTdwc2pUOHZablBZeXh4WXJHRU9pd19ORkhObTFHSkN6ajB0OTRxQkF5M2NKRDUybm_SAXhBVV95cUxQSlNrZU5jZWNMb2hxWHdzTThPSlFLYjk0c25XQmg1RzdFNzV4V21qRGpaaDNHOFg2VXNqemphcTlXeVFCY2R5VWVvT2hRMjdRVnhCMTAwQ0xxZ0JocVUxSUlMRjZOa3hlSno5R2FKNVpmZnNMelNaQmg?oc=5\" target=\"_blank\">The superspreaders behind top COVID-19 conspiracy theories</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">9News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbmk3cnVrUXF2eE9tUEJ1cl9ma2YtWUROS2RjQnlJUFVrUjdfWjlnWnloSzZ0ZzNweExCMENBb2poSGV4N3NGem5KZm9IeWk1enFreWkzazJXNG9hVEJkdzhRbFl0M0FTUXItTW53NnVGa09NY3ZyeklkMzE4aGlDX2t3SzhKYWRkVE9vTEQ5NlBrcTdwc2pUOHZablBZeXh4WXJHRU9pd19ORkhObTFHSkN6ajB0OTRxQkF5M2NKRDUybm_SAXhBVV95cUxQSlNrZU5jZWNMb2hxWHdzTThPSlFLYjk0c25XQmg1RzdFNzV4V21qRGpaaDNHOFg2VXNqemphcTlXeVFCY2R5VWVvT2hRMjdRVnhCMTAwQ0xxZ0JocVUxSUlMRjZOa3hlSno5R2FKNVpmZnNMelNaQmg?oc=5\" target=\"_blank\">The superspreaders behind top COVID-19 conspiracy theories</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">9News</font>"
+      },
+      "source": {
+        "href": "https://www.9news.com.au",
+        "title": "9News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Jamia Millia Prof launches book on Covid-19 pandemic, therapy - ummid.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Jamia Millia Prof launches book on Covid-19 pandemic, therapy - ummid.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcHpSTlZFVDAxMDJIOHcwdkdZbVNXS0lyU2xTenBYR21rUHgyNVRGZXg0UklCU1hkNlVnaE9FcjZPVlk5YmdFZjdXR2w0MnBZVmhCQ0ptM0NVc2NRMERyclpKTGZSdGJGR1N5VkQ1dG9mSEVGdzRCTmFCcXJPbkR4enhrZFQyN2pQRFdRSklKNkt2ektOQmNSc0VWZXpBYjUzd2xXVDFoZlA0RkFDUmJ2TWNaUQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcHpSTlZFVDAxMDJIOHcwdkdZbVNXS0lyU2xTenBYR21rUHgyNVRGZXg0UklCU1hkNlVnaE9FcjZPVlk5YmdFZjdXR2w0MnBZVmhCQ0ptM0NVc2NRMERyclpKTGZSdGJGR1N5VkQ1dG9mSEVGdzRCTmFCcXJPbkR4enhrZFQyN2pQRFdRSklKNkt2ektOQmNSc0VWZXpBYjUzd2xXVDFoZlA0RkFDUmJ2TWNaUQ?oc=5",
+      "id": "CBMiswFBVV95cUxPcHpSTlZFVDAxMDJIOHcwdkdZbVNXS0lyU2xTenBYR21rUHgyNVRGZXg0UklCU1hkNlVnaE9FcjZPVlk5YmdFZjdXR2w0MnBZVmhCQ0ptM0NVc2NRMERyclpKTGZSdGJGR1N5VkQ1dG9mSEVGdzRCTmFCcXJPbkR4enhrZFQyN2pQRFdRSklKNkt2ektOQmNSc0VWZXpBYjUzd2xXVDFoZlA0RkFDUmJ2TWNaUQ",
+      "guidislink": false,
+      "published": "Sat, 06 Feb 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        2,
+        6,
+        8,
+        0,
+        0,
+        5,
+        37,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxPcHpSTlZFVDAxMDJIOHcwdkdZbVNXS0lyU2xTenBYR21rUHgyNVRGZXg0UklCU1hkNlVnaE9FcjZPVlk5YmdFZjdXR2w0MnBZVmhCQ0ptM0NVc2NRMERyclpKTGZSdGJGR1N5VkQ1dG9mSEVGdzRCTmFCcXJPbkR4enhrZFQyN2pQRFdRSklKNkt2ektOQmNSc0VWZXpBYjUzd2xXVDFoZlA0RkFDUmJ2TWNaUQ?oc=5\" target=\"_blank\">Jamia Millia Prof launches book on Covid-19 pandemic, therapy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ummid.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxPcHpSTlZFVDAxMDJIOHcwdkdZbVNXS0lyU2xTenBYR21rUHgyNVRGZXg0UklCU1hkNlVnaE9FcjZPVlk5YmdFZjdXR2w0MnBZVmhCQ0ptM0NVc2NRMERyclpKTGZSdGJGR1N5VkQ1dG9mSEVGdzRCTmFCcXJPbkR4enhrZFQyN2pQRFdRSklKNkt2ektOQmNSc0VWZXpBYjUzd2xXVDFoZlA0RkFDUmJ2TWNaUQ?oc=5\" target=\"_blank\">Jamia Millia Prof launches book on Covid-19 pandemic, therapy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ummid.com</font>"
+      },
+      "source": {
+        "href": "https://ummid.com",
+        "title": "ummid.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "PHOTO | Srѓаan каika одоodorovi - - the new star on Instagram: Share a photo from a performance in Skopje with EKV! - Слободен печат",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "PHOTO | Srѓаan каika одоodorovi - - the new star on Instagram: Share a photo from a performance in Skopje with EKV! - Слободен печат"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQaE1MQmU2V2I1ZXk4dmNSMEdNa3Z6MllJdzh3VnRCTlBPQ2RqdGdFWU5pV0FTVlNrZjQ0eVFsZUp3Q0FHQ2dORDYyT1liUHJORXBrR2VtNFplZnlzS0dwOFZad3JsYkZtOVBsQVlGM0hTQ21qakZab3N4R1VQV3psd01vZ1Qydm9rY2pFQ1gwcWJGWkZxRU5wdnhuRHdHb2JlamVXM21NUWl0NGxYUDYtSVY0MWpRY1hSQ295OUp6MXJyeVJ0TlNwM2phRmltR2sz?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQaE1MQmU2V2I1ZXk4dmNSMEdNa3Z6MllJdzh3VnRCTlBPQ2RqdGdFWU5pV0FTVlNrZjQ0eVFsZUp3Q0FHQ2dORDYyT1liUHJORXBrR2VtNFplZnlzS0dwOFZad3JsYkZtOVBsQVlGM0hTQ21qakZab3N4R1VQV3psd01vZ1Qydm9rY2pFQ1gwcWJGWkZxRU5wdnhuRHdHb2JlamVXM21NUWl0NGxYUDYtSVY0MWpRY1hSQ295OUp6MXJyeVJ0TlNwM2phRmltR2sz?oc=5",
+      "id": "CBMi0AFBVV95cUxQaE1MQmU2V2I1ZXk4dmNSMEdNa3Z6MllJdzh3VnRCTlBPQ2RqdGdFWU5pV0FTVlNrZjQ0eVFsZUp3Q0FHQ2dORDYyT1liUHJORXBrR2VtNFplZnlzS0dwOFZad3JsYkZtOVBsQVlGM0hTQ21qakZab3N4R1VQV3psd01vZ1Qydm9rY2pFQ1gwcWJGWkZxRU5wdnhuRHdHb2JlamVXM21NUWl0NGxYUDYtSVY0MWpRY1hSQ295OUp6MXJyeVJ0TlNwM2phRmltR2sz",
+      "guidislink": false,
+      "published": "Sat, 06 Feb 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        2,
+        6,
+        8,
+        0,
+        0,
+        5,
+        37,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxQaE1MQmU2V2I1ZXk4dmNSMEdNa3Z6MllJdzh3VnRCTlBPQ2RqdGdFWU5pV0FTVlNrZjQ0eVFsZUp3Q0FHQ2dORDYyT1liUHJORXBrR2VtNFplZnlzS0dwOFZad3JsYkZtOVBsQVlGM0hTQ21qakZab3N4R1VQV3psd01vZ1Qydm9rY2pFQ1gwcWJGWkZxRU5wdnhuRHdHb2JlamVXM21NUWl0NGxYUDYtSVY0MWpRY1hSQ295OUp6MXJyeVJ0TlNwM2phRmltR2sz?oc=5\" target=\"_blank\">PHOTO | Srѓаan каika одоodorovi - - the new star on Instagram: Share a photo from a performance in Skopje with EKV!</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Слободен печат</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxQaE1MQmU2V2I1ZXk4dmNSMEdNa3Z6MllJdzh3VnRCTlBPQ2RqdGdFWU5pV0FTVlNrZjQ0eVFsZUp3Q0FHQ2dORDYyT1liUHJORXBrR2VtNFplZnlzS0dwOFZad3JsYkZtOVBsQVlGM0hTQ21qakZab3N4R1VQV3psd01vZ1Qydm9rY2pFQ1gwcWJGWkZxRU5wdnhuRHdHb2JlamVXM21NUWl0NGxYUDYtSVY0MWpRY1hSQ295OUp6MXJyeVJ0TlNwM2phRmltR2sz?oc=5\" target=\"_blank\">PHOTO | Srѓаan каika одоodorovi - - the new star on Instagram: Share a photo from a performance in Skopje with EKV!</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Слободен печат</font>"
+      },
+      "source": {
+        "href": "https://www.slobodenpecat.mk",
+        "title": "Слободен печат"
+      },
+      "sub_articles": []
+    }
+  ]
+}

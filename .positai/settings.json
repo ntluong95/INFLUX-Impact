@@ -1,0 +1,10 @@
+{
+  "permission": {
+    "executeCode": {
+      "*": "allow"
+    },
+    "edit": {
+      "*.R": "allow"
+    }
+  }
+}

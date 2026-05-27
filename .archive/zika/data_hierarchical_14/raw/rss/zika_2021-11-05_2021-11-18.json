@@ -1,0 +1,908 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2021-11-05",
+  "window_end": "2021-11-18",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2021-11-05+before%3A2021-11-19&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2021-11-05+before:2021-11-19&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:28:52Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2021-11-05 before:2021-11-19\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2021-11-05 before:2021-11-19\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2021-11-05+before:2021-11-19&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2021-11-05+before:2021-11-19&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:28:52 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      28,
+      52,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Zika virus: India's Kanpur city on alert after 89 cases reported - BBC",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika virus: India's Kanpur city on alert after 89 cases reported - BBC"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5IeTV2SGhKaUpDNjJSbWlDV0ZMbW1GRWdnVzFRSm5nbHJYU3dRT0xYS1ZMb3IwYVR0WmhOR2M4S2d0UHVkNEx1c1RkNFlDLWQ1NC1yVHZDS0EyT1huRU9N?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5IeTV2SGhKaUpDNjJSbWlDV0ZMbW1GRWdnVzFRSm5nbHJYU3dRT0xYS1ZMb3IwYVR0WmhOR2M4S2d0UHVkNEx1c1RkNFlDLWQ1NC1yVHZDS0EyT1huRU9N?oc=5",
+      "id": "CBMiX0FVX3lxTE5IeTV2SGhKaUpDNjJSbWlDV0ZMbW1GRWdnVzFRSm5nbHJYU3dRT0xYS1ZMb3IwYVR0WmhOR2M4S2d0UHVkNEx1c1RkNFlDLWQ1NC1yVHZDS0EyT1huRU9N",
+      "guidislink": false,
+      "published": "Mon, 08 Nov 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        11,
+        8,
+        8,
+        0,
+        0,
+        0,
+        312,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5IeTV2SGhKaUpDNjJSbWlDV0ZMbW1GRWdnVzFRSm5nbHJYU3dRT0xYS1ZMb3IwYVR0WmhOR2M4S2d0UHVkNEx1c1RkNFlDLWQ1NC1yVHZDS0EyT1huRU9N?oc=5\" target=\"_blank\">Zika virus: India's Kanpur city on alert after 89 cases reported</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5IeTV2SGhKaUpDNjJSbWlDV0ZMbW1GRWdnVzFRSm5nbHJYU3dRT0xYS1ZMb3IwYVR0WmhOR2M4S2d0UHVkNEx1c1RkNFlDLWQ1NC1yVHZDS0EyT1huRU9N?oc=5\" target=\"_blank\">Zika virus: India's Kanpur city on alert after 89 cases reported</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>"
+      },
+      "source": {
+        "href": "https://www.bbc.com",
+        "title": "BBC"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Functionalized Nanoparticles in Prevention and Targeted Therapy of Viral Diseases With Neurotropism Properties, Special Insight on COVID-19 - Frontiers",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Functionalized Nanoparticles in Prevention and Targeted Therapy of Viral Diseases With Neurotropism Properties, Special Insight on COVID-19 - Frontiers"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWXBPeW9fYms5YXdlTVVVbXdsSWRtZjdERTN0OXRMS2hMTUdMNEN0ODluUS1QQkh5WkhUX1RETjhJM2EzVDhTN3YyUzBjbmdERGRlX2hnYURLWEhZQ0xpQlJsN0N6WmNIMmJrNFhmdF9VbXM2S1M2SVd1X3h2VHNhOXVlcmdPcUZrbUVQNFVUMUxBUVU?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWXBPeW9fYms5YXdlTVVVbXdsSWRtZjdERTN0OXRMS2hMTUdMNEN0ODluUS1QQkh5WkhUX1RETjhJM2EzVDhTN3YyUzBjbmdERGRlX2hnYURLWEhZQ0xpQlJsN0N6WmNIMmJrNFhmdF9VbXM2S1M2SVd1X3h2VHNhOXVlcmdPcUZrbUVQNFVUMUxBUVU?oc=5",
+      "id": "CBMikwFBVV95cUxQWXBPeW9fYms5YXdlTVVVbXdsSWRtZjdERTN0OXRMS2hMTUdMNEN0ODluUS1QQkh5WkhUX1RETjhJM2EzVDhTN3YyUzBjbmdERGRlX2hnYURLWEhZQ0xpQlJsN0N6WmNIMmJrNFhmdF9VbXM2S1M2SVd1X3h2VHNhOXVlcmdPcUZrbUVQNFVUMUxBUVU",
+      "guidislink": false,
+      "published": "Sun, 14 Nov 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        11,
+        14,
+        8,
+        0,
+        0,
+        6,
+        318,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxQWXBPeW9fYms5YXdlTVVVbXdsSWRtZjdERTN0OXRMS2hMTUdMNEN0ODluUS1QQkh5WkhUX1RETjhJM2EzVDhTN3YyUzBjbmdERGRlX2hnYURLWEhZQ0xpQlJsN0N6WmNIMmJrNFhmdF9VbXM2S1M2SVd1X3h2VHNhOXVlcmdPcUZrbUVQNFVUMUxBUVU?oc=5\" target=\"_blank\">Functionalized Nanoparticles in Prevention and Targeted Therapy of Viral Diseases With Neurotropism Properties, Special Insight on COVID-19</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Frontiers</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxQWXBPeW9fYms5YXdlTVVVbXdsSWRtZjdERTN0OXRMS2hMTUdMNEN0ODluUS1QQkh5WkhUX1RETjhJM2EzVDhTN3YyUzBjbmdERGRlX2hnYURLWEhZQ0xpQlJsN0N6WmNIMmJrNFhmdF9VbXM2S1M2SVd1X3h2VHNhOXVlcmdPcUZrbUVQNFVUMUxBUVU?oc=5\" target=\"_blank\">Functionalized Nanoparticles in Prevention and Targeted Therapy of Viral Diseases With Neurotropism Properties, Special Insight on COVID-19</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Frontiers</font>"
+      },
+      "source": {
+        "href": "https://www.frontiersin.org",
+        "title": "Frontiers"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Nearly 240 million children with disabilities around the world, UNICEF’s most comprehensive statistical analysis finds - Unicef",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Nearly 240 million children with disabilities around the world, UNICEF’s most comprehensive statistical analysis finds - Unicef"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQlRQS0hHUWVCMVo4dnE2LTE0akZ6UlRTYnh4VEFsRUhEOVNSNlFnMGtETVFIWTVxMlI0RlJaTzFWVVVScS1WVG8xN3dDSjJwY1RKVmotY3BvaWh3Ty1paWx2WXdFZ3dQS25WNjdRdUNyLW8wMkVLLUtuQ2JVLXRhc0p1QVVOaWpGSzRjTlc5QklyeW9JRC1nZjFfTkdYZE5LRHhBT1ZvRjNUQThFamRrU2tScFlBM0ZjeUE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQlRQS0hHUWVCMVo4dnE2LTE0akZ6UlRTYnh4VEFsRUhEOVNSNlFnMGtETVFIWTVxMlI0RlJaTzFWVVVScS1WVG8xN3dDSjJwY1RKVmotY3BvaWh3Ty1paWx2WXdFZ3dQS25WNjdRdUNyLW8wMkVLLUtuQ2JVLXRhc0p1QVVOaWpGSzRjTlc5QklyeW9JRC1nZjFfTkdYZE5LRHhBT1ZvRjNUQThFamRrU2tScFlBM0ZjeUE?oc=5",
+      "id": "CBMiugFBVV95cUxQQlRQS0hHUWVCMVo4dnE2LTE0akZ6UlRTYnh4VEFsRUhEOVNSNlFnMGtETVFIWTVxMlI0RlJaTzFWVVVScS1WVG8xN3dDSjJwY1RKVmotY3BvaWh3Ty1paWx2WXdFZ3dQS25WNjdRdUNyLW8wMkVLLUtuQ2JVLXRhc0p1QVVOaWpGSzRjTlc5QklyeW9JRC1nZjFfTkdYZE5LRHhBT1ZvRjNUQThFamRrU2tScFlBM0ZjeUE",
+      "guidislink": false,
+      "published": "Tue, 09 Nov 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        11,
+        9,
+        8,
+        0,
+        0,
+        1,
+        313,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxQQlRQS0hHUWVCMVo4dnE2LTE0akZ6UlRTYnh4VEFsRUhEOVNSNlFnMGtETVFIWTVxMlI0RlJaTzFWVVVScS1WVG8xN3dDSjJwY1RKVmotY3BvaWh3Ty1paWx2WXdFZ3dQS25WNjdRdUNyLW8wMkVLLUtuQ2JVLXRhc0p1QVVOaWpGSzRjTlc5QklyeW9JRC1nZjFfTkdYZE5LRHhBT1ZvRjNUQThFamRrU2tScFlBM0ZjeUE?oc=5\" target=\"_blank\">Nearly 240 million children with disabilities around the world, UNICEF’s most comprehensive statistical analysis finds</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Unicef</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxQQlRQS0hHUWVCMVo4dnE2LTE0akZ6UlRTYnh4VEFsRUhEOVNSNlFnMGtETVFIWTVxMlI0RlJaTzFWVVVScS1WVG8xN3dDSjJwY1RKVmotY3BvaWh3Ty1paWx2WXdFZ3dQS25WNjdRdUNyLW8wMkVLLUtuQ2JVLXRhc0p1QVVOaWpGSzRjTlc5QklyeW9JRC1nZjFfTkdYZE5LRHhBT1ZvRjNUQThFamRrU2tScFlBM0ZjeUE?oc=5\" target=\"_blank\">Nearly 240 million children with disabilities around the world, UNICEF’s most comprehensive statistical analysis finds</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Unicef</font>"
+      },
+      "source": {
+        "href": "https://www.unicef.org",
+        "title": "Unicef"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Showing the way in infectious disease control - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Showing the way in infectious disease control - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1fT1NJdWx1Y0M1Q0FGVTNTWWQycnRmME0zMUhMdFNWX3RRckFlQXUzajZMbUhmNE9oSW5teGstdGtYSEtVYjZXcVVMMWVfdFI4aVFuOVRSU0dDaUZsSU40?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1fT1NJdWx1Y0M1Q0FGVTNTWWQycnRmME0zMUhMdFNWX3RRckFlQXUzajZMbUhmNE9oSW5teGstdGtYSEtVYjZXcVVMMWVfdFI4aVFuOVRSU0dDaUZsSU40?oc=5",
+      "id": "CBMiX0FVX3lxTE1fT1NJdWx1Y0M1Q0FGVTNTWWQycnRmME0zMUhMdFNWX3RRckFlQXUzajZMbUhmNE9oSW5teGstdGtYSEtVYjZXcVVMMWVfdFI4aVFuOVRSU0dDaUZsSU40",
+      "guidislink": false,
+      "published": "Sun, 07 Nov 2021 09:34:30 GMT",
+      "published_parsed": [
+        2021,
+        11,
+        7,
+        9,
+        34,
+        30,
+        6,
+        311,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1fT1NJdWx1Y0M1Q0FGVTNTWWQycnRmME0zMUhMdFNWX3RRckFlQXUzajZMbUhmNE9oSW5teGstdGtYSEtVYjZXcVVMMWVfdFI4aVFuOVRSU0dDaUZsSU40?oc=5\" target=\"_blank\">Showing the way in infectious disease control</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1fT1NJdWx1Y0M1Q0FGVTNTWWQycnRmME0zMUhMdFNWX3RRckFlQXUzajZMbUhmNE9oSW5teGstdGtYSEtVYjZXcVVMMWVfdFI4aVFuOVRSU0dDaUZsSU40?oc=5\" target=\"_blank\">Showing the way in infectious disease control</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "What climate change means for mosquito- borne diseases - Lowy Institute",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "What climate change means for mosquito- borne diseases - Lowy Institute"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOa3JCc1NUTU5fb1pZWUZiSjBqZFBUWFowWmJ2Qm91d09qakdmM2xLcS14YmZPWGhTQTNBblpTSGFjeGRoLXgxWG1zRGNVeElmcmE0ajhVVTVKWW5iSVZIeDJhamxJZXc0d2FkNXhBS2pFRmlrYk9CMEJjdmIzRDM5c0xhVVVjRlZXZVNkakR3WEMtdHhUN0FrY2xSQQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOa3JCc1NUTU5fb1pZWUZiSjBqZFBUWFowWmJ2Qm91d09qakdmM2xLcS14YmZPWGhTQTNBblpTSGFjeGRoLXgxWG1zRGNVeElmcmE0ajhVVTVKWW5iSVZIeDJhamxJZXc0d2FkNXhBS2pFRmlrYk9CMEJjdmIzRDM5c0xhVVVjRlZXZVNkakR3WEMtdHhUN0FrY2xSQQ?oc=5",
+      "id": "CBMimwFBVV95cUxOa3JCc1NUTU5fb1pZWUZiSjBqZFBUWFowWmJ2Qm91d09qakdmM2xLcS14YmZPWGhTQTNBblpTSGFjeGRoLXgxWG1zRGNVeElmcmE0ajhVVTVKWW5iSVZIeDJhamxJZXc0d2FkNXhBS2pFRmlrYk9CMEJjdmIzRDM5c0xhVVVjRlZXZVNkakR3WEMtdHhUN0FrY2xSQQ",
+      "guidislink": false,
+      "published": "Thu, 11 Nov 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        11,
+        11,
+        8,
+        0,
+        0,
+        3,
+        315,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxOa3JCc1NUTU5fb1pZWUZiSjBqZFBUWFowWmJ2Qm91d09qakdmM2xLcS14YmZPWGhTQTNBblpTSGFjeGRoLXgxWG1zRGNVeElmcmE0ajhVVTVKWW5iSVZIeDJhamxJZXc0d2FkNXhBS2pFRmlrYk9CMEJjdmIzRDM5c0xhVVVjRlZXZVNkakR3WEMtdHhUN0FrY2xSQQ?oc=5\" target=\"_blank\">What climate change means for mosquito- borne diseases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lowy Institute</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxOa3JCc1NUTU5fb1pZWUZiSjBqZFBUWFowWmJ2Qm91d09qakdmM2xLcS14YmZPWGhTQTNBblpTSGFjeGRoLXgxWG1zRGNVeElmcmE0ajhVVTVKWW5iSVZIeDJhamxJZXc0d2FkNXhBS2pFRmlrYk9CMEJjdmIzRDM5c0xhVVVjRlZXZVNkakR3WEMtdHhUN0FrY2xSQQ?oc=5\" target=\"_blank\">What climate change means for mosquito- borne diseases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Lowy Institute</font>"
+      },
+      "source": {
+        "href": "https://www.lowyinstitute.org",
+        "title": "Lowy Institute"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Fighting the world's most deadly animal: the mosquito - Understanding Animal Research",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Fighting the world's most deadly animal: the mosquito - Understanding Animal Research"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaWxTZGR4QUNBenZ2MzU0dW1yd3hLVTlBdFVZc2prdF9DNnFoMXVadTZLNHJfUlJucEJPWGNqTVEzNm14Wml4VVZRN2htSTBxcWZtckxWTk1NUTZObnNZanlSeTlIM3dsc0cwWmJiTHF4d3l0MzFnMU1NSGVZTnU4S2N6MXlzVkxNb2xjSlN0YTFPODRMSlQ5VTRFODlLWEVjMmp5MV9B?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaWxTZGR4QUNBenZ2MzU0dW1yd3hLVTlBdFVZc2prdF9DNnFoMXVadTZLNHJfUlJucEJPWGNqTVEzNm14Wml4VVZRN2htSTBxcWZtckxWTk1NUTZObnNZanlSeTlIM3dsc0cwWmJiTHF4d3l0MzFnMU1NSGVZTnU4S2N6MXlzVkxNb2xjSlN0YTFPODRMSlQ5VTRFODlLWEVjMmp5MV9B?oc=5",
+      "id": "CBMipgFBVV95cUxQaWxTZGR4QUNBenZ2MzU0dW1yd3hLVTlBdFVZc2prdF9DNnFoMXVadTZLNHJfUlJucEJPWGNqTVEzNm14Wml4VVZRN2htSTBxcWZtckxWTk1NUTZObnNZanlSeTlIM3dsc0cwWmJiTHF4d3l0MzFnMU1NSGVZTnU4S2N6MXlzVkxNb2xjSlN0YTFPODRMSlQ5VTRFODlLWEVjMmp5MV9B",
+      "guidislink": false,
+      "published": "Tue, 09 Nov 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        11,
+        9,
+        8,
+        0,
+        0,
+        1,
+        313,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxQaWxTZGR4QUNBenZ2MzU0dW1yd3hLVTlBdFVZc2prdF9DNnFoMXVadTZLNHJfUlJucEJPWGNqTVEzNm14Wml4VVZRN2htSTBxcWZtckxWTk1NUTZObnNZanlSeTlIM3dsc0cwWmJiTHF4d3l0MzFnMU1NSGVZTnU4S2N6MXlzVkxNb2xjSlN0YTFPODRMSlQ5VTRFODlLWEVjMmp5MV9B?oc=5\" target=\"_blank\">Fighting the world's most deadly animal: the mosquito</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Understanding Animal Research</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxQaWxTZGR4QUNBenZ2MzU0dW1yd3hLVTlBdFVZc2prdF9DNnFoMXVadTZLNHJfUlJucEJPWGNqTVEzNm14Wml4VVZRN2htSTBxcWZtckxWTk1NUTZObnNZanlSeTlIM3dsc0cwWmJiTHF4d3l0MzFnMU1NSGVZTnU4S2N6MXlzVkxNb2xjSlN0YTFPODRMSlQ5VTRFODlLWEVjMmp5MV9B?oc=5\" target=\"_blank\">Fighting the world's most deadly animal: the mosquito</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Understanding Animal Research</font>"
+      },
+      "source": {
+        "href": "https://www.understandinganimalresearch.org.uk",
+        "title": "Understanding Animal Research"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Jeff Reardon calls it quits after decade in Oregon state House - Oregon Capital Chronicle",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Jeff Reardon calls it quits after decade in Oregon state House - Oregon Capital Chronicle"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOemE0b0FwZFZiajFLS211UWtuNlFwa1JHWmxaT04tek1BQTQ3NXZuN0J3MW5raDJUWGFCS0V6dU1rcXhPd0FwTzJzZ21kYml3bE1GZ1JUNEFPQmV4dFZmcVptWTJ4ekNIYWMzelRjX3NNb25KVlhMNXE0VjdQMWV1MV8zOWsxeldaZzhzUG0zc2doMnZKM3V1dWk2VGFMZ2htTFA4ZFpMNjk?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOemE0b0FwZFZiajFLS211UWtuNlFwa1JHWmxaT04tek1BQTQ3NXZuN0J3MW5raDJUWGFCS0V6dU1rcXhPd0FwTzJzZ21kYml3bE1GZ1JUNEFPQmV4dFZmcVptWTJ4ekNIYWMzelRjX3NNb25KVlhMNXE0VjdQMWV1MV8zOWsxeldaZzhzUG0zc2doMnZKM3V1dWk2VGFMZ2htTFA4ZFpMNjk?oc=5",
+      "id": "CBMiqAFBVV95cUxOemE0b0FwZFZiajFLS211UWtuNlFwa1JHWmxaT04tek1BQTQ3NXZuN0J3MW5raDJUWGFCS0V6dU1rcXhPd0FwTzJzZ21kYml3bE1GZ1JUNEFPQmV4dFZmcVptWTJ4ekNIYWMzelRjX3NNb25KVlhMNXE0VjdQMWV1MV8zOWsxeldaZzhzUG0zc2doMnZKM3V1dWk2VGFMZ2htTFA4ZFpMNjk",
+      "guidislink": false,
+      "published": "Thu, 18 Nov 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        11,
+        18,
+        8,
+        0,
+        0,
+        3,
+        322,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxOemE0b0FwZFZiajFLS211UWtuNlFwa1JHWmxaT04tek1BQTQ3NXZuN0J3MW5raDJUWGFCS0V6dU1rcXhPd0FwTzJzZ21kYml3bE1GZ1JUNEFPQmV4dFZmcVptWTJ4ekNIYWMzelRjX3NNb25KVlhMNXE0VjdQMWV1MV8zOWsxeldaZzhzUG0zc2doMnZKM3V1dWk2VGFMZ2htTFA4ZFpMNjk?oc=5\" target=\"_blank\">Jeff Reardon calls it quits after decade in Oregon state House</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Oregon Capital Chronicle</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxOemE0b0FwZFZiajFLS211UWtuNlFwa1JHWmxaT04tek1BQTQ3NXZuN0J3MW5raDJUWGFCS0V6dU1rcXhPd0FwTzJzZ21kYml3bE1GZ1JUNEFPQmV4dFZmcVptWTJ4ekNIYWMzelRjX3NNb25KVlhMNXE0VjdQMWV1MV8zOWsxeldaZzhzUG0zc2doMnZKM3V1dWk2VGFMZ2htTFA4ZFpMNjk?oc=5\" target=\"_blank\">Jeff Reardon calls it quits after decade in Oregon state House</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Oregon Capital Chronicle</font>"
+      },
+      "source": {
+        "href": "https://oregoncapitalchronicle.com",
+        "title": "Oregon Capital Chronicle"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "How a mosquito fights a virus - Radboudumc",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "How a mosquito fights a virus - Radboudumc"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQUDFMS3llVUZfMC1xS2J6MHhYWHBsYzd2bGFaaTRnVjFtNXYwbU9KX2Z6WWUtXzVCd3h5N1lydVNwaDRpNTFFT2ZmYVFTOWE4R1FHTVJiQ3h6dGZtWnp6c3ZvVjhXdlRUY1R5SW5wdC1qOXlWeWtqMmpDc2lqVDQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQUDFMS3llVUZfMC1xS2J6MHhYWHBsYzd2bGFaaTRnVjFtNXYwbU9KX2Z6WWUtXzVCd3h5N1lydVNwaDRpNTFFT2ZmYVFTOWE4R1FHTVJiQ3h6dGZtWnp6c3ZvVjhXdlRUY1R5SW5wdC1qOXlWeWtqMmpDc2lqVDQ?oc=5",
+      "id": "CBMif0FVX3lxTFBQUDFMS3llVUZfMC1xS2J6MHhYWHBsYzd2bGFaaTRnVjFtNXYwbU9KX2Z6WWUtXzVCd3h5N1lydVNwaDRpNTFFT2ZmYVFTOWE4R1FHTVJiQ3h6dGZtWnp6c3ZvVjhXdlRUY1R5SW5wdC1qOXlWeWtqMmpDc2lqVDQ",
+      "guidislink": false,
+      "published": "Fri, 19 Nov 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        11,
+        19,
+        8,
+        0,
+        0,
+        4,
+        323,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTFBQUDFMS3llVUZfMC1xS2J6MHhYWHBsYzd2bGFaaTRnVjFtNXYwbU9KX2Z6WWUtXzVCd3h5N1lydVNwaDRpNTFFT2ZmYVFTOWE4R1FHTVJiQ3h6dGZtWnp6c3ZvVjhXdlRUY1R5SW5wdC1qOXlWeWtqMmpDc2lqVDQ?oc=5\" target=\"_blank\">How a mosquito fights a virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Radboudumc</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTFBQUDFMS3llVUZfMC1xS2J6MHhYWHBsYzd2bGFaaTRnVjFtNXYwbU9KX2Z6WWUtXzVCd3h5N1lydVNwaDRpNTFFT2ZmYVFTOWE4R1FHTVJiQ3h6dGZtWnp6c3ZvVjhXdlRUY1R5SW5wdC1qOXlWeWtqMmpDc2lqVDQ?oc=5\" target=\"_blank\">How a mosquito fights a virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Radboudumc</font>"
+      },
+      "source": {
+        "href": "https://www.radboudumc.nl",
+        "title": "Radboudumc"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "30 more people test positive for Zika virus in Kanpur, tally rises to 66 - Tribune India",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "30 more people test positive for Zika virus in Kanpur, tally rises to 66 - Tribune India"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVlJLcWYxQXAwZC1heUtuTi1KbVFta2VUY3A4a1FmY2dpWTZzVC04Sl94eklLTnplWTdCaXVpcjJLWHp6Sk9pRXJYREVEdGY0b2tjTWZLdVBEUWRSNlZQN3ZHMENHdkFzaDNIRkZpZkVjNDd2ZDg2SmdjU09NZlozY2VDNWM5V1o5RWZRWVpoRzFFajNnWUJ0UHNObV9ULWRQZWhZVGJhT044SFBINjAxQ1puLTlqcDRfbDFHNnRpcTU5UGNDRUHSAcoBQVVfeXFMTk5NZFJ6NWxRMHRaZFh4QWZyT3dIaXctNFN4aHJjdDd4anRtVTg3MHBGZFByQk0yX2MzVmlWendxdnhRX1Q5TnBuSnU1Z2txX09HTXAzaWRXRFhKZ015aWhjZFJ4aDNlY2VRQktHN0lqYXFRSmhWQXpOMy1DdXJtX19DVnM1d1JhMHpoeHJ6d1U0ZEoyQmxhYllzdTBTazVTampIS2R5akdIV05fb2tBODVfOW9ZSl9MX2hjRWxaYWFRdTNBbXZEYjNYQQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVlJLcWYxQXAwZC1heUtuTi1KbVFta2VUY3A4a1FmY2dpWTZzVC04Sl94eklLTnplWTdCaXVpcjJLWHp6Sk9pRXJYREVEdGY0b2tjTWZLdVBEUWRSNlZQN3ZHMENHdkFzaDNIRkZpZkVjNDd2ZDg2SmdjU09NZlozY2VDNWM5V1o5RWZRWVpoRzFFajNnWUJ0UHNObV9ULWRQZWhZVGJhT044SFBINjAxQ1puLTlqcDRfbDFHNnRpcTU5UGNDRUHSAcoBQVVfeXFMTk5NZFJ6NWxRMHRaZFh4QWZyT3dIaXctNFN4aHJjdDd4anRtVTg3MHBGZFByQk0yX2MzVmlWendxdnhRX1Q5TnBuSnU1Z2txX09HTXAzaWRXRFhKZ015aWhjZFJ4aDNlY2VRQktHN0lqYXFRSmhWQXpOMy1DdXJtX19DVnM1d1JhMHpoeHJ6d1U0ZEoyQmxhYllzdTBTazVTampIS2R5akdIV05fb2tBODVfOW9ZSl9MX2hjRWxaYWFRdTNBbXZEYjNYQQ?oc=5",
+      "id": "CBMixgFBVV95cUxNVlJLcWYxQXAwZC1heUtuTi1KbVFta2VUY3A4a1FmY2dpWTZzVC04Sl94eklLTnplWTdCaXVpcjJLWHp6Sk9pRXJYREVEdGY0b2tjTWZLdVBEUWRSNlZQN3ZHMENHdkFzaDNIRkZpZkVjNDd2ZDg2SmdjU09NZlozY2VDNWM5V1o5RWZRWVpoRzFFajNnWUJ0UHNObV9ULWRQZWhZVGJhT044SFBINjAxQ1puLTlqcDRfbDFHNnRpcTU5UGNDRUHSAcoBQVVfeXFMTk5NZFJ6NWxRMHRaZFh4QWZyT3dIaXctNFN4aHJjdDd4anRtVTg3MHBGZFByQk0yX2MzVmlWendxdnhRX1Q5TnBuSnU1Z2txX09HTXAzaWRXRFhKZ015aWhjZFJ4aDNlY2VRQktHN0lqYXFRSmhWQXpOMy1DdXJtX19DVnM1d1JhMHpoeHJ6d1U0ZEoyQmxhYllzdTBTazVTampIS2R5akdIV05fb2tBODVfOW9ZSl9MX2hjRWxaYWFRdTNBbXZEYjNYQQ",
+      "guidislink": false,
+      "published": "Fri, 05 Nov 2021 07:00:00 GMT",
+      "published_parsed": [
+        2021,
+        11,
+        5,
+        7,
+        0,
+        0,
+        4,
+        309,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxNVlJLcWYxQXAwZC1heUtuTi1KbVFta2VUY3A4a1FmY2dpWTZzVC04Sl94eklLTnplWTdCaXVpcjJLWHp6Sk9pRXJYREVEdGY0b2tjTWZLdVBEUWRSNlZQN3ZHMENHdkFzaDNIRkZpZkVjNDd2ZDg2SmdjU09NZlozY2VDNWM5V1o5RWZRWVpoRzFFajNnWUJ0UHNObV9ULWRQZWhZVGJhT044SFBINjAxQ1puLTlqcDRfbDFHNnRpcTU5UGNDRUHSAcoBQVVfeXFMTk5NZFJ6NWxRMHRaZFh4QWZyT3dIaXctNFN4aHJjdDd4anRtVTg3MHBGZFByQk0yX2MzVmlWendxdnhRX1Q5TnBuSnU1Z2txX09HTXAzaWRXRFhKZ015aWhjZFJ4aDNlY2VRQktHN0lqYXFRSmhWQXpOMy1DdXJtX19DVnM1d1JhMHpoeHJ6d1U0ZEoyQmxhYllzdTBTazVTampIS2R5akdIV05fb2tBODVfOW9ZSl9MX2hjRWxaYWFRdTNBbXZEYjNYQQ?oc=5\" target=\"_blank\">30 more people test positive for Zika virus in Kanpur, tally rises to 66</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tribune India</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxNVlJLcWYxQXAwZC1heUtuTi1KbVFta2VUY3A4a1FmY2dpWTZzVC04Sl94eklLTnplWTdCaXVpcjJLWHp6Sk9pRXJYREVEdGY0b2tjTWZLdVBEUWRSNlZQN3ZHMENHdkFzaDNIRkZpZkVjNDd2ZDg2SmdjU09NZlozY2VDNWM5V1o5RWZRWVpoRzFFajNnWUJ0UHNObV9ULWRQZWhZVGJhT044SFBINjAxQ1puLTlqcDRfbDFHNnRpcTU5UGNDRUHSAcoBQVVfeXFMTk5NZFJ6NWxRMHRaZFh4QWZyT3dIaXctNFN4aHJjdDd4anRtVTg3MHBGZFByQk0yX2MzVmlWendxdnhRX1Q5TnBuSnU1Z2txX09HTXAzaWRXRFhKZ015aWhjZFJ4aDNlY2VRQktHN0lqYXFRSmhWQXpOMy1DdXJtX19DVnM1d1JhMHpoeHJ6d1U0ZEoyQmxhYllzdTBTazVTampIS2R5akdIV05fb2tBODVfOW9ZSl9MX2hjRWxaYWFRdTNBbXZEYjNYQQ?oc=5\" target=\"_blank\">30 more people test positive for Zika virus in Kanpur, tally rises to 66</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tribune India</font>"
+      },
+      "source": {
+        "href": "https://www.tribuneindia.com",
+        "title": "Tribune India"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika Outbreak In Kanpur, 17 Children Among 89 Infected: 10 Points - NDTV",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika Outbreak In Kanpur, 17 Children Among 89 Infected: 10 Points - NDTV"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaFA5ZGdHczNQOG10WVdhM2JmRExrMVg4a1pvUFJuSHk5R2NycFl4R2lUQXpHbk9tVWUwQm9rMDFlVWtQNUtYMUFCWWVhRDJxLV90d1VqQUxWNzlVWUpSa21YUExKckFKS2hiZUxNRV9HLTE2UzNmUUhEdUFMZFAzMV9oLUJqZ3h0RjliMWU4QXVKekVMd2c5Q3hpVER4VW96SWtGR2FR?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaFA5ZGdHczNQOG10WVdhM2JmRExrMVg4a1pvUFJuSHk5R2NycFl4R2lUQXpHbk9tVWUwQm9rMDFlVWtQNUtYMUFCWWVhRDJxLV90d1VqQUxWNzlVWUpSa21YUExKckFKS2hiZUxNRV9HLTE2UzNmUUhEdUFMZFAzMV9oLUJqZ3h0RjliMWU4QXVKekVMd2c5Q3hpVER4VW96SWtGR2FR?oc=5",
+      "id": "CBMipgFBVV95cUxPaFA5ZGdHczNQOG10WVdhM2JmRExrMVg4a1pvUFJuSHk5R2NycFl4R2lUQXpHbk9tVWUwQm9rMDFlVWtQNUtYMUFCWWVhRDJxLV90d1VqQUxWNzlVWUpSa21YUExKckFKS2hiZUxNRV9HLTE2UzNmUUhEdUFMZFAzMV9oLUJqZ3h0RjliMWU4QXVKekVMd2c5Q3hpVER4VW96SWtGR2FR",
+      "guidislink": false,
+      "published": "Mon, 08 Nov 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        11,
+        8,
+        8,
+        0,
+        0,
+        0,
+        312,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxPaFA5ZGdHczNQOG10WVdhM2JmRExrMVg4a1pvUFJuSHk5R2NycFl4R2lUQXpHbk9tVWUwQm9rMDFlVWtQNUtYMUFCWWVhRDJxLV90d1VqQUxWNzlVWUpSa21YUExKckFKS2hiZUxNRV9HLTE2UzNmUUhEdUFMZFAzMV9oLUJqZ3h0RjliMWU4QXVKekVMd2c5Q3hpVER4VW96SWtGR2FR?oc=5\" target=\"_blank\">Zika Outbreak In Kanpur, 17 Children Among 89 Infected: 10 Points</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NDTV</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxPaFA5ZGdHczNQOG10WVdhM2JmRExrMVg4a1pvUFJuSHk5R2NycFl4R2lUQXpHbk9tVWUwQm9rMDFlVWtQNUtYMUFCWWVhRDJxLV90d1VqQUxWNzlVWUpSa21YUExKckFKS2hiZUxNRV9HLTE2UzNmUUhEdUFMZFAzMV9oLUJqZ3h0RjliMWU4QXVKekVMd2c5Q3hpVER4VW96SWtGR2FR?oc=5\" target=\"_blank\">Zika Outbreak In Kanpur, 17 Children Among 89 Infected: 10 Points</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NDTV</font>"
+      },
+      "source": {
+        "href": "https://www.ndtv.com",
+        "title": "NDTV"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "No research about us without us: why research capacity strengthening is essential to health for all - World Health Organization (WHO)",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "No research about us without us: why research capacity strengthening is essential to health for all - World Health Organization (WHO)"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdGM5amlWT1NpQ050Vy1FWVVPUHpxLTRXanJWUVBJeExCSEdpZXhKQm5SQVNJX0RTRklFSmhHQWQ0QThYN1BLano0U0dRNU91VmZKY1M4X1ZTQUNXRnctdTR5Zm9MRHc2U0RxVVhHUGdQTTNoblBoSU9LOUUyamFsNmpfdUFKTldPX0VNa3JkNDEwU3dFY1pCb3J2TzBZT2ZHaG9kczNQSFAxUk0yUEpqaGpVVU5hOHQxeVV5dHRfLVc3S1E1Z2NobFNNUVJSWFQ0ZjN5b2Nn?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdGM5amlWT1NpQ050Vy1FWVVPUHpxLTRXanJWUVBJeExCSEdpZXhKQm5SQVNJX0RTRklFSmhHQWQ0QThYN1BLano0U0dRNU91VmZKY1M4X1ZTQUNXRnctdTR5Zm9MRHc2U0RxVVhHUGdQTTNoblBoSU9LOUUyamFsNmpfdUFKTldPX0VNa3JkNDEwU3dFY1pCb3J2TzBZT2ZHaG9kczNQSFAxUk0yUEpqaGpVVU5hOHQxeVV5dHRfLVc3S1E1Z2NobFNNUVJSWFQ0ZjN5b2Nn?oc=5",
+      "id": "CBMi1gFBVV95cUxNdGM5amlWT1NpQ050Vy1FWVVPUHpxLTRXanJWUVBJeExCSEdpZXhKQm5SQVNJX0RTRklFSmhHQWQ0QThYN1BLano0U0dRNU91VmZKY1M4X1ZTQUNXRnctdTR5Zm9MRHc2U0RxVVhHUGdQTTNoblBoSU9LOUUyamFsNmpfdUFKTldPX0VNa3JkNDEwU3dFY1pCb3J2TzBZT2ZHaG9kczNQSFAxUk0yUEpqaGpVVU5hOHQxeVV5dHRfLVc3S1E1Z2NobFNNUVJSWFQ0ZjN5b2Nn",
+      "guidislink": false,
+      "published": "Tue, 16 Nov 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        11,
+        16,
+        8,
+        0,
+        0,
+        1,
+        320,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdGM5amlWT1NpQ050Vy1FWVVPUHpxLTRXanJWUVBJeExCSEdpZXhKQm5SQVNJX0RTRklFSmhHQWQ0QThYN1BLano0U0dRNU91VmZKY1M4X1ZTQUNXRnctdTR5Zm9MRHc2U0RxVVhHUGdQTTNoblBoSU9LOUUyamFsNmpfdUFKTldPX0VNa3JkNDEwU3dFY1pCb3J2TzBZT2ZHaG9kczNQSFAxUk0yUEpqaGpVVU5hOHQxeVV5dHRfLVc3S1E1Z2NobFNNUVJSWFQ0ZjN5b2Nn?oc=5\" target=\"_blank\">No research about us without us: why research capacity strengthening is essential to health for all</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">World Health Organization (WHO)</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdGM5amlWT1NpQ050Vy1FWVVPUHpxLTRXanJWUVBJeExCSEdpZXhKQm5SQVNJX0RTRklFSmhHQWQ0QThYN1BLano0U0dRNU91VmZKY1M4X1ZTQUNXRnctdTR5Zm9MRHc2U0RxVVhHUGdQTTNoblBoSU9LOUUyamFsNmpfdUFKTldPX0VNa3JkNDEwU3dFY1pCb3J2TzBZT2ZHaG9kczNQSFAxUk0yUEpqaGpVVU5hOHQxeVV5dHRfLVc3S1E1Z2NobFNNUVJSWFQ0ZjN5b2Nn?oc=5\" target=\"_blank\">No research about us without us: why research capacity strengthening is essential to health for all</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">World Health Organization (WHO)</font>"
+      },
+      "source": {
+        "href": "https://www.who.int",
+        "title": "World Health Organization (WHO)"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "‘This is about power’: DeSantis gets big wins ahead of 2022 - Politico",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "‘This is about power’: DeSantis gets big wins ahead of 2022 - Politico"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYWlOd0tWN2RfR2EyNnJEeHhsclBDeWI4d3hpSzF5V25rVkZMTE1hemM0c2dFVGdGeUFrUV9tV1R5anpWc2JCMkZ0aEJQLVhERUpoUHAtYmxMM3psWHNzOGl4R1htQ3YxekwtcHpBSzJYZGxUUjRNTDF2VkhpcHFlM1pzRmpzSXJkejN4eE9hSzJ4aHhyUGhBOUx3Zmo1R0w0d3lvcVRPalBOMFhyanZaOG45OE81MlNqRGFUZnVR?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYWlOd0tWN2RfR2EyNnJEeHhsclBDeWI4d3hpSzF5V25rVkZMTE1hemM0c2dFVGdGeUFrUV9tV1R5anpWc2JCMkZ0aEJQLVhERUpoUHAtYmxMM3psWHNzOGl4R1htQ3YxekwtcHpBSzJYZGxUUjRNTDF2VkhpcHFlM1pzRmpzSXJkejN4eE9hSzJ4aHhyUGhBOUx3Zmo1R0w0d3lvcVRPalBOMFhyanZaOG45OE81MlNqRGFUZnVR?oc=5",
+      "id": "CBMivgFBVV95cUxPYWlOd0tWN2RfR2EyNnJEeHhsclBDeWI4d3hpSzF5V25rVkZMTE1hemM0c2dFVGdGeUFrUV9tV1R5anpWc2JCMkZ0aEJQLVhERUpoUHAtYmxMM3psWHNzOGl4R1htQ3YxekwtcHpBSzJYZGxUUjRNTDF2VkhpcHFlM1pzRmpzSXJkejN4eE9hSzJ4aHhyUGhBOUx3Zmo1R0w0d3lvcVRPalBOMFhyanZaOG45OE81MlNqRGFUZnVR",
+      "guidislink": false,
+      "published": "Wed, 17 Nov 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        11,
+        17,
+        8,
+        0,
+        0,
+        2,
+        321,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPYWlOd0tWN2RfR2EyNnJEeHhsclBDeWI4d3hpSzF5V25rVkZMTE1hemM0c2dFVGdGeUFrUV9tV1R5anpWc2JCMkZ0aEJQLVhERUpoUHAtYmxMM3psWHNzOGl4R1htQ3YxekwtcHpBSzJYZGxUUjRNTDF2VkhpcHFlM1pzRmpzSXJkejN4eE9hSzJ4aHhyUGhBOUx3Zmo1R0w0d3lvcVRPalBOMFhyanZaOG45OE81MlNqRGFUZnVR?oc=5\" target=\"_blank\">‘This is about power’: DeSantis gets big wins ahead of 2022</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Politico</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPYWlOd0tWN2RfR2EyNnJEeHhsclBDeWI4d3hpSzF5V25rVkZMTE1hemM0c2dFVGdGeUFrUV9tV1R5anpWc2JCMkZ0aEJQLVhERUpoUHAtYmxMM3psWHNzOGl4R1htQ3YxekwtcHpBSzJYZGxUUjRNTDF2VkhpcHFlM1pzRmpzSXJkejN4eE9hSzJ4aHhyUGhBOUx3Zmo1R0w0d3lvcVRPalBOMFhyanZaOG45OE81MlNqRGFUZnVR?oc=5\" target=\"_blank\">‘This is about power’: DeSantis gets big wins ahead of 2022</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Politico</font>"
+      },
+      "source": {
+        "href": "https://www.politico.com",
+        "title": "Politico"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Pandemic puts Oxford Nanopore ‘on the map’ - Financial Times",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Pandemic puts Oxford Nanopore ‘on the map’ - Financial Times"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAzd3BlcF9abU9mSFAzYk9JVklWeWlkYnFvcXBEWHRSLXJDeHMyYmtyMEpMVExURzRaX3VwNXFTQU9pMDF2Q2RINUhteEJ5bmN4bU9FbExDU1dUdUJkeEcxbVBrUDZfSEl3cDBsT19FcmY?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAzd3BlcF9abU9mSFAzYk9JVklWeWlkYnFvcXBEWHRSLXJDeHMyYmtyMEpMVExURzRaX3VwNXFTQU9pMDF2Q2RINUhteEJ5bmN4bU9FbExDU1dUdUJkeEcxbVBrUDZfSEl3cDBsT19FcmY?oc=5",
+      "id": "CBMicEFVX3lxTFAzd3BlcF9abU9mSFAzYk9JVklWeWlkYnFvcXBEWHRSLXJDeHMyYmtyMEpMVExURzRaX3VwNXFTQU9pMDF2Q2RINUhteEJ5bmN4bU9FbExDU1dUdUJkeEcxbVBrUDZfSEl3cDBsT19FcmY",
+      "guidislink": false,
+      "published": "Sun, 07 Nov 2021 07:00:00 GMT",
+      "published_parsed": [
+        2021,
+        11,
+        7,
+        7,
+        0,
+        0,
+        6,
+        311,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTFAzd3BlcF9abU9mSFAzYk9JVklWeWlkYnFvcXBEWHRSLXJDeHMyYmtyMEpMVExURzRaX3VwNXFTQU9pMDF2Q2RINUhteEJ5bmN4bU9FbExDU1dUdUJkeEcxbVBrUDZfSEl3cDBsT19FcmY?oc=5\" target=\"_blank\">Pandemic puts Oxford Nanopore ‘on the map’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTFAzd3BlcF9abU9mSFAzYk9JVklWeWlkYnFvcXBEWHRSLXJDeHMyYmtyMEpMVExURzRaX3VwNXFTQU9pMDF2Q2RINUhteEJ5bmN4bU9FbExDU1dUdUJkeEcxbVBrUDZfSEl3cDBsT19FcmY?oc=5\" target=\"_blank\">Pandemic puts Oxford Nanopore ‘on the map’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Financial Times</font>"
+      },
+      "source": {
+        "href": "https://www.ft.com",
+        "title": "Financial Times"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika virus: - INSIGHTS IAS",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika virus: - INSIGHTS IAS"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ObUsxZlJCZE56SlBrUEFrZWNMNjFfUHF2ZWFxRDBmSERvOVJjY1ZLci02bHAtUW5LNG8xcnZkWlo2WWdFejNyb0Jqb0VzaXhKLU1Hb2NsZ19IRTA4NmxoYTRkbFFJblU?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ObUsxZlJCZE56SlBrUEFrZWNMNjFfUHF2ZWFxRDBmSERvOVJjY1ZLci02bHAtUW5LNG8xcnZkWlo2WWdFejNyb0Jqb0VzaXhKLU1Hb2NsZ19IRTA4NmxoYTRkbFFJblU?oc=5",
+      "id": "CBMiZ0FVX3lxTE5ObUsxZlJCZE56SlBrUEFrZWNMNjFfUHF2ZWFxRDBmSERvOVJjY1ZLci02bHAtUW5LNG8xcnZkWlo2WWdFejNyb0Jqb0VzaXhKLU1Hb2NsZ19IRTA4NmxoYTRkbFFJblU",
+      "guidislink": false,
+      "published": "Tue, 09 Nov 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        11,
+        9,
+        8,
+        0,
+        0,
+        1,
+        313,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ObUsxZlJCZE56SlBrUEFrZWNMNjFfUHF2ZWFxRDBmSERvOVJjY1ZLci02bHAtUW5LNG8xcnZkWlo2WWdFejNyb0Jqb0VzaXhKLU1Hb2NsZ19IRTA4NmxoYTRkbFFJblU?oc=5\" target=\"_blank\">Zika virus:</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">INSIGHTS IAS</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ObUsxZlJCZE56SlBrUEFrZWNMNjFfUHF2ZWFxRDBmSERvOVJjY1ZLci02bHAtUW5LNG8xcnZkWlo2WWdFejNyb0Jqb0VzaXhKLU1Hb2NsZ19IRTA4NmxoYTRkbFFJblU?oc=5\" target=\"_blank\">Zika virus:</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">INSIGHTS IAS</font>"
+      },
+      "source": {
+        "href": "https://www.insightsonindia.com",
+        "title": "INSIGHTS IAS"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "What is Scrub Typhus And Why This Virus is Found in Rural Pockets? Symptoms, Treatment And All You Need To Kn - India.Com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "What is Scrub Typhus And Why This Virus is Found in Rural Pockets? Symptoms, Treatment And All You Need To Kn - India.Com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQaFJUQmQ5RzhLNF8zZWhKOXBrZFgzSXZtNGF4RWExNkZVRV9IUm1ISm9XQXotR09VazBnLVFpZlN0em1xVnRIX0pQUnRteWFCcDZfZndzT2hJSDE2MHJtS1c0anZkRmtFN2IyY1pXdnhJYlptT2hWWl9tV3RNR0lUdmlNX2JsNzNJU1RYZk5DN25LT2EwbkxqczF2TzQtSXlEWmo3SFlxMWdIdElva3lNbHMycmFaNHAwb21GTVBCWWJtX0trZkRoeXVBZU5ZVkZ3V09jU1hCaVdSQTVlMm51atIB5gFBVV95cUxPTndtNEQxSzV4dloyeURoN1Zsdm45SEFncTNwcHBDcFM0aFBpM1phRUhyT2cwbE5fb0dTQl9vRExkbUliaGFXbDd1S3RDcEpna05yN201TVpkRm56LUhPNmlnVXR0UWVBRzRvTXpsWHA5UW1MbE51bEJWVlo5WkY1VTF1blUtZUtwZ1lxYWJNYXlUbjFRZzd6bk4wNHoxZjlrWEl1RWNBcXBaWHJ0YlZ6M3BTWW13V1NLQVlTUDM0WlBfUmpodG95OU1GYUd6ZW5YMG9YeWx1T1JMREZFWVAzSTZXMTMxQQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQaFJUQmQ5RzhLNF8zZWhKOXBrZFgzSXZtNGF4RWExNkZVRV9IUm1ISm9XQXotR09VazBnLVFpZlN0em1xVnRIX0pQUnRteWFCcDZfZndzT2hJSDE2MHJtS1c0anZkRmtFN2IyY1pXdnhJYlptT2hWWl9tV3RNR0lUdmlNX2JsNzNJU1RYZk5DN25LT2EwbkxqczF2TzQtSXlEWmo3SFlxMWdIdElva3lNbHMycmFaNHAwb21GTVBCWWJtX0trZkRoeXVBZU5ZVkZ3V09jU1hCaVdSQTVlMm51atIB5gFBVV95cUxPTndtNEQxSzV4dloyeURoN1Zsdm45SEFncTNwcHBDcFM0aFBpM1phRUhyT2cwbE5fb0dTQl9vRExkbUliaGFXbDd1S3RDcEpna05yN201TVpkRm56LUhPNmlnVXR0UWVBRzRvTXpsWHA5UW1MbE51bEJWVlo5WkY1VTF1blUtZUtwZ1lxYWJNYXlUbjFRZzd6bk4wNHoxZjlrWEl1RWNBcXBaWHJ0YlZ6M3BTWW13V1NLQVlTUDM0WlBfUmpodG95OU1GYUd6ZW5YMG9YeWx1T1JMREZFWVAzSTZXMTMxQQ?oc=5",
+      "id": "CBMi4AFBVV95cUxQaFJUQmQ5RzhLNF8zZWhKOXBrZFgzSXZtNGF4RWExNkZVRV9IUm1ISm9XQXotR09VazBnLVFpZlN0em1xVnRIX0pQUnRteWFCcDZfZndzT2hJSDE2MHJtS1c0anZkRmtFN2IyY1pXdnhJYlptT2hWWl9tV3RNR0lUdmlNX2JsNzNJU1RYZk5DN25LT2EwbkxqczF2TzQtSXlEWmo3SFlxMWdIdElva3lNbHMycmFaNHAwb21GTVBCWWJtX0trZkRoeXVBZU5ZVkZ3V09jU1hCaVdSQTVlMm51atIB5gFBVV95cUxPTndtNEQxSzV4dloyeURoN1Zsdm45SEFncTNwcHBDcFM0aFBpM1phRUhyT2cwbE5fb0dTQl9vRExkbUliaGFXbDd1S3RDcEpna05yN201TVpkRm56LUhPNmlnVXR0UWVBRzRvTXpsWHA5UW1MbE51bEJWVlo5WkY1VTF1blUtZUtwZ1lxYWJNYXlUbjFRZzd6bk4wNHoxZjlrWEl1RWNBcXBaWHJ0YlZ6M3BTWW13V1NLQVlTUDM0WlBfUmpodG95OU1GYUd6ZW5YMG9YeWx1T1JMREZFWVAzSTZXMTMxQQ",
+      "guidislink": false,
+      "published": "Thu, 18 Nov 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        11,
+        18,
+        8,
+        0,
+        0,
+        3,
+        322,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi4AFBVV95cUxQaFJUQmQ5RzhLNF8zZWhKOXBrZFgzSXZtNGF4RWExNkZVRV9IUm1ISm9XQXotR09VazBnLVFpZlN0em1xVnRIX0pQUnRteWFCcDZfZndzT2hJSDE2MHJtS1c0anZkRmtFN2IyY1pXdnhJYlptT2hWWl9tV3RNR0lUdmlNX2JsNzNJU1RYZk5DN25LT2EwbkxqczF2TzQtSXlEWmo3SFlxMWdIdElva3lNbHMycmFaNHAwb21GTVBCWWJtX0trZkRoeXVBZU5ZVkZ3V09jU1hCaVdSQTVlMm51atIB5gFBVV95cUxPTndtNEQxSzV4dloyeURoN1Zsdm45SEFncTNwcHBDcFM0aFBpM1phRUhyT2cwbE5fb0dTQl9vRExkbUliaGFXbDd1S3RDcEpna05yN201TVpkRm56LUhPNmlnVXR0UWVBRzRvTXpsWHA5UW1MbE51bEJWVlo5WkY1VTF1blUtZUtwZ1lxYWJNYXlUbjFRZzd6bk4wNHoxZjlrWEl1RWNBcXBaWHJ0YlZ6M3BTWW13V1NLQVlTUDM0WlBfUmpodG95OU1GYUd6ZW5YMG9YeWx1T1JMREZFWVAzSTZXMTMxQQ?oc=5\" target=\"_blank\">What is Scrub Typhus And Why This Virus is Found in Rural Pockets? Symptoms, Treatment And All You Need To Kn</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">India.Com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi4AFBVV95cUxQaFJUQmQ5RzhLNF8zZWhKOXBrZFgzSXZtNGF4RWExNkZVRV9IUm1ISm9XQXotR09VazBnLVFpZlN0em1xVnRIX0pQUnRteWFCcDZfZndzT2hJSDE2MHJtS1c0anZkRmtFN2IyY1pXdnhJYlptT2hWWl9tV3RNR0lUdmlNX2JsNzNJU1RYZk5DN25LT2EwbkxqczF2TzQtSXlEWmo3SFlxMWdIdElva3lNbHMycmFaNHAwb21GTVBCWWJtX0trZkRoeXVBZU5ZVkZ3V09jU1hCaVdSQTVlMm51atIB5gFBVV95cUxPTndtNEQxSzV4dloyeURoN1Zsdm45SEFncTNwcHBDcFM0aFBpM1phRUhyT2cwbE5fb0dTQl9vRExkbUliaGFXbDd1S3RDcEpna05yN201TVpkRm56LUhPNmlnVXR0UWVBRzRvTXpsWHA5UW1MbE51bEJWVlo5WkY1VTF1blUtZUtwZ1lxYWJNYXlUbjFRZzd6bk4wNHoxZjlrWEl1RWNBcXBaWHJ0YlZ6M3BTWW13V1NLQVlTUDM0WlBfUmpodG95OU1GYUd6ZW5YMG9YeWx1T1JMREZFWVAzSTZXMTMxQQ?oc=5\" target=\"_blank\">What is Scrub Typhus And Why This Virus is Found in Rural Pockets? Symptoms, Treatment And All You Need To Kn</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">India.Com</font>"
+      },
+      "source": {
+        "href": "https://www.india.com",
+        "title": "India.Com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "‘Booster shots, pediatric jabs to keep vaccine demand high,’ says Emcure MD - The Hindu",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "‘Booster shots, pediatric jabs to keep vaccine demand high,’ says Emcure MD - The Hindu"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMVloZGxFWmlTMTN5d016MDZwNUhJdEtqTmVMMDJwTTBRZVJtSjY3a0dlS1pnRktlSGJRd1Zsd0xqb2YzR18tNlpMQmd1Y0QzUmotWVhzczdWRHl3NUthN1NhMVVZVV9OcmRpWVd3ajluMGtwbEpCV1pvMmxkdE41QXR1WUE4aG9HUDFCeTYyZmF5VlB2OGhDSFRXRVhVMzlvSkl5WWxERXBObk41dzNJ0gG2AUFVX3lxTE5HSEZZNXNuVGtUUXNPc3liZFBKcWFJam9CV2U4SlJ0RHpMdThPVUVfZUZ3ZjUyeTNKYlF3S3p1NHhzQmM4bEU4b1dmYUNHVjFRS0k0OVkwRU5sdGlicFM5RXdMUmNXUXA1dEtFU0stdG8wZzFfbEwwRUhYeUtyeENQRHI1eVBXcVJQZE5UZjhmdk1YWVZlSU9WZ01zaS1jc1V0cnhIWmhRRmlkV2NHOWt5UklYY2l3?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMVloZGxFWmlTMTN5d016MDZwNUhJdEtqTmVMMDJwTTBRZVJtSjY3a0dlS1pnRktlSGJRd1Zsd0xqb2YzR18tNlpMQmd1Y0QzUmotWVhzczdWRHl3NUthN1NhMVVZVV9OcmRpWVd3ajluMGtwbEpCV1pvMmxkdE41QXR1WUE4aG9HUDFCeTYyZmF5VlB2OGhDSFRXRVhVMzlvSkl5WWxERXBObk41dzNJ0gG2AUFVX3lxTE5HSEZZNXNuVGtUUXNPc3liZFBKcWFJam9CV2U4SlJ0RHpMdThPVUVfZUZ3ZjUyeTNKYlF3S3p1NHhzQmM4bEU4b1dmYUNHVjFRS0k0OVkwRU5sdGlicFM5RXdMUmNXUXA1dEtFU0stdG8wZzFfbEwwRUhYeUtyeENQRHI1eVBXcVJQZE5UZjhmdk1YWVZlSU9WZ01zaS1jc1V0cnhIWmhRRmlkV2NHOWt5UklYY2l3?oc=5",
+      "id": "CBMirwFBVV95cUxQMVloZGxFWmlTMTN5d016MDZwNUhJdEtqTmVMMDJwTTBRZVJtSjY3a0dlS1pnRktlSGJRd1Zsd0xqb2YzR18tNlpMQmd1Y0QzUmotWVhzczdWRHl3NUthN1NhMVVZVV9OcmRpWVd3ajluMGtwbEpCV1pvMmxkdE41QXR1WUE4aG9HUDFCeTYyZmF5VlB2OGhDSFRXRVhVMzlvSkl5WWxERXBObk41dzNJ0gG2AUFVX3lxTE5HSEZZNXNuVGtUUXNPc3liZFBKcWFJam9CV2U4SlJ0RHpMdThPVUVfZUZ3ZjUyeTNKYlF3S3p1NHhzQmM4bEU4b1dmYUNHVjFRS0k0OVkwRU5sdGlicFM5RXdMUmNXUXA1dEtFU0stdG8wZzFfbEwwRUhYeUtyeENQRHI1eVBXcVJQZE5UZjhmdk1YWVZlSU9WZ01zaS1jc1V0cnhIWmhRRmlkV2NHOWt5UklYY2l3",
+      "guidislink": false,
+      "published": "Sat, 06 Nov 2021 07:00:00 GMT",
+      "published_parsed": [
+        2021,
+        11,
+        6,
+        7,
+        0,
+        0,
+        5,
+        310,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxQMVloZGxFWmlTMTN5d016MDZwNUhJdEtqTmVMMDJwTTBRZVJtSjY3a0dlS1pnRktlSGJRd1Zsd0xqb2YzR18tNlpMQmd1Y0QzUmotWVhzczdWRHl3NUthN1NhMVVZVV9OcmRpWVd3ajluMGtwbEpCV1pvMmxkdE41QXR1WUE4aG9HUDFCeTYyZmF5VlB2OGhDSFRXRVhVMzlvSkl5WWxERXBObk41dzNJ0gG2AUFVX3lxTE5HSEZZNXNuVGtUUXNPc3liZFBKcWFJam9CV2U4SlJ0RHpMdThPVUVfZUZ3ZjUyeTNKYlF3S3p1NHhzQmM4bEU4b1dmYUNHVjFRS0k0OVkwRU5sdGlicFM5RXdMUmNXUXA1dEtFU0stdG8wZzFfbEwwRUhYeUtyeENQRHI1eVBXcVJQZE5UZjhmdk1YWVZlSU9WZ01zaS1jc1V0cnhIWmhRRmlkV2NHOWt5UklYY2l3?oc=5\" target=\"_blank\">‘Booster shots, pediatric jabs to keep vaccine demand high,’ says Emcure MD</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Hindu</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxQMVloZGxFWmlTMTN5d016MDZwNUhJdEtqTmVMMDJwTTBRZVJtSjY3a0dlS1pnRktlSGJRd1Zsd0xqb2YzR18tNlpMQmd1Y0QzUmotWVhzczdWRHl3NUthN1NhMVVZVV9OcmRpWVd3ajluMGtwbEpCV1pvMmxkdE41QXR1WUE4aG9HUDFCeTYyZmF5VlB2OGhDSFRXRVhVMzlvSkl5WWxERXBObk41dzNJ0gG2AUFVX3lxTE5HSEZZNXNuVGtUUXNPc3liZFBKcWFJam9CV2U4SlJ0RHpMdThPVUVfZUZ3ZjUyeTNKYlF3S3p1NHhzQmM4bEU4b1dmYUNHVjFRS0k0OVkwRU5sdGlicFM5RXdMUmNXUXA1dEtFU0stdG8wZzFfbEwwRUhYeUtyeENQRHI1eVBXcVJQZE5UZjhmdk1YWVZlSU9WZ01zaS1jc1V0cnhIWmhRRmlkV2NHOWt5UklYY2l3?oc=5\" target=\"_blank\">‘Booster shots, pediatric jabs to keep vaccine demand high,’ says Emcure MD</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Hindu</font>"
+      },
+      "source": {
+        "href": "https://www.thehindu.com",
+        "title": "The Hindu"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "The indictment against the former director of Education in Gjakova for abuse of position is confirmed - KOHA.net",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "The indictment against the former director of Education in Gjakova for abuse of position is confirmed - KOHA.net"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUFpLR3BWZTlueUlGaThPNmJYNGJQR0xzLWl2b3VmZEV1d1Rvc3ZsaW9JT0pROHl1My1UcUMwLVlmYzUtc1M5dkJQTUpOLWpHVDZSakNBREpJS2JjcGhHMzVydVhPUm9rYklNdU9aMTZDTjBKd0FZU0ZFT2VlZ1RBLVo1d2hhS2VCV2ZBdTFuSnVMNXhGMkJSTW83RU9DQms0a3BFUjdHa2RrRWx0c21ZaXBGMmF0NlAyQmVB?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUFpLR3BWZTlueUlGaThPNmJYNGJQR0xzLWl2b3VmZEV1d1Rvc3ZsaW9JT0pROHl1My1UcUMwLVlmYzUtc1M5dkJQTUpOLWpHVDZSakNBREpJS2JjcGhHMzVydVhPUm9rYklNdU9aMTZDTjBKd0FZU0ZFT2VlZ1RBLVo1d2hhS2VCV2ZBdTFuSnVMNXhGMkJSTW83RU9DQms0a3BFUjdHa2RrRWx0c21ZaXBGMmF0NlAyQmVB?oc=5",
+      "id": "CBMiuwFBVV95cUxPUFpLR3BWZTlueUlGaThPNmJYNGJQR0xzLWl2b3VmZEV1d1Rvc3ZsaW9JT0pROHl1My1UcUMwLVlmYzUtc1M5dkJQTUpOLWpHVDZSakNBREpJS2JjcGhHMzVydVhPUm9rYklNdU9aMTZDTjBKd0FZU0ZFT2VlZ1RBLVo1d2hhS2VCV2ZBdTFuSnVMNXhGMkJSTW83RU9DQms0a3BFUjdHa2RrRWx0c21ZaXBGMmF0NlAyQmVB",
+      "guidislink": false,
+      "published": "Sat, 13 Nov 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        11,
+        13,
+        8,
+        0,
+        0,
+        5,
+        317,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUFpLR3BWZTlueUlGaThPNmJYNGJQR0xzLWl2b3VmZEV1d1Rvc3ZsaW9JT0pROHl1My1UcUMwLVlmYzUtc1M5dkJQTUpOLWpHVDZSakNBREpJS2JjcGhHMzVydVhPUm9rYklNdU9aMTZDTjBKd0FZU0ZFT2VlZ1RBLVo1d2hhS2VCV2ZBdTFuSnVMNXhGMkJSTW83RU9DQms0a3BFUjdHa2RrRWx0c21ZaXBGMmF0NlAyQmVB?oc=5\" target=\"_blank\">The indictment against the former director of Education in Gjakova for abuse of position is confirmed</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KOHA.net</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUFpLR3BWZTlueUlGaThPNmJYNGJQR0xzLWl2b3VmZEV1d1Rvc3ZsaW9JT0pROHl1My1UcUMwLVlmYzUtc1M5dkJQTUpOLWpHVDZSakNBREpJS2JjcGhHMzVydVhPUm9rYklNdU9aMTZDTjBKd0FZU0ZFT2VlZ1RBLVo1d2hhS2VCV2ZBdTFuSnVMNXhGMkJSTW83RU9DQms0a3BFUjdHa2RrRWx0c21ZaXBGMmF0NlAyQmVB?oc=5\" target=\"_blank\">The indictment against the former director of Education in Gjakova for abuse of position is confirmed</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KOHA.net</font>"
+      },
+      "source": {
+        "href": "https://www.koha.net",
+        "title": "KOHA.net"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Landis to be installed as UWI’s sixth principal - Barbados Today",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Landis to be installed as UWI’s sixth principal - Barbados Today"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaFJ2cjRuYzYwYWpwODdhQ0htX2Ruemswc05Wa01KY1Jhcm9Ga3VvTE9ENzBuQmZOa2dWeG1INEVCemlCS0pCYjc1Y1VVWmUwX3VsdHZrbWlNSVJsNFNOdkMwenJUeG1OaVA3Q1h2SnJTS0dBeWFsRTBFQ2J5dXQyY0dHVno4LUxQZG800gGQAUFVX3lxTE5IeTF2YllSYWphZWh1WHpYbmF2NW5hbEZ2aVExVl9XZVNMcG4wTU5BWXpRa2REbVRwMDhTOHBnbWRTNEhkMDFtM2t5am5xX0QtUDU4TDJURkF4b3BxS2psUUpKd1dEWnYyTlhwT0t6d2FVbktIdE5heHozLUxwOHl2cV9fakIwekp4SEZPYlNxVw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaFJ2cjRuYzYwYWpwODdhQ0htX2Ruemswc05Wa01KY1Jhcm9Ga3VvTE9ENzBuQmZOa2dWeG1INEVCemlCS0pCYjc1Y1VVWmUwX3VsdHZrbWlNSVJsNFNOdkMwenJUeG1OaVA3Q1h2SnJTS0dBeWFsRTBFQ2J5dXQyY0dHVno4LUxQZG800gGQAUFVX3lxTE5IeTF2YllSYWphZWh1WHpYbmF2NW5hbEZ2aVExVl9XZVNMcG4wTU5BWXpRa2REbVRwMDhTOHBnbWRTNEhkMDFtM2t5am5xX0QtUDU4TDJURkF4b3BxS2psUUpKd1dEWnYyTlhwT0t6d2FVbktIdE5heHozLUxwOHl2cV9fakIwekp4SEZPYlNxVw?oc=5",
+      "id": "CBMiiwFBVV95cUxOaFJ2cjRuYzYwYWpwODdhQ0htX2Ruemswc05Wa01KY1Jhcm9Ga3VvTE9ENzBuQmZOa2dWeG1INEVCemlCS0pCYjc1Y1VVWmUwX3VsdHZrbWlNSVJsNFNOdkMwenJUeG1OaVA3Q1h2SnJTS0dBeWFsRTBFQ2J5dXQyY0dHVno4LUxQZG800gGQAUFVX3lxTE5IeTF2YllSYWphZWh1WHpYbmF2NW5hbEZ2aVExVl9XZVNMcG4wTU5BWXpRa2REbVRwMDhTOHBnbWRTNEhkMDFtM2t5am5xX0QtUDU4TDJURkF4b3BxS2psUUpKd1dEWnYyTlhwT0t6d2FVbktIdE5heHozLUxwOHl2cV9fakIwekp4SEZPYlNxVw",
+      "guidislink": false,
+      "published": "Wed, 10 Nov 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        11,
+        10,
+        8,
+        0,
+        0,
+        2,
+        314,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaFJ2cjRuYzYwYWpwODdhQ0htX2Ruemswc05Wa01KY1Jhcm9Ga3VvTE9ENzBuQmZOa2dWeG1INEVCemlCS0pCYjc1Y1VVWmUwX3VsdHZrbWlNSVJsNFNOdkMwenJUeG1OaVA3Q1h2SnJTS0dBeWFsRTBFQ2J5dXQyY0dHVno4LUxQZG800gGQAUFVX3lxTE5IeTF2YllSYWphZWh1WHpYbmF2NW5hbEZ2aVExVl9XZVNMcG4wTU5BWXpRa2REbVRwMDhTOHBnbWRTNEhkMDFtM2t5am5xX0QtUDU4TDJURkF4b3BxS2psUUpKd1dEWnYyTlhwT0t6d2FVbktIdE5heHozLUxwOHl2cV9fakIwekp4SEZPYlNxVw?oc=5\" target=\"_blank\">Landis to be installed as UWI’s sixth principal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Barbados Today</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaFJ2cjRuYzYwYWpwODdhQ0htX2Ruemswc05Wa01KY1Jhcm9Ga3VvTE9ENzBuQmZOa2dWeG1INEVCemlCS0pCYjc1Y1VVWmUwX3VsdHZrbWlNSVJsNFNOdkMwenJUeG1OaVA3Q1h2SnJTS0dBeWFsRTBFQ2J5dXQyY0dHVno4LUxQZG800gGQAUFVX3lxTE5IeTF2YllSYWphZWh1WHpYbmF2NW5hbEZ2aVExVl9XZVNMcG4wTU5BWXpRa2REbVRwMDhTOHBnbWRTNEhkMDFtM2t5am5xX0QtUDU4TDJURkF4b3BxS2psUUpKd1dEWnYyTlhwT0t6d2FVbktIdE5heHozLUxwOHl2cV9fakIwekp4SEZPYlNxVw?oc=5\" target=\"_blank\">Landis to be installed as UWI’s sixth principal</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Barbados Today</font>"
+      },
+      "source": {
+        "href": "https://barbadostoday.bb",
+        "title": "Barbados Today"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "UP CM Yogi Adityanath to flag off Kanpur Metro trial run tomorrow - Oneindia",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "UP CM Yogi Adityanath to flag off Kanpur Metro trial run tomorrow - Oneindia"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMVdLUXdBX2ZwWHZtXzEzVThvWVN1czlUZVNUZlF5a3doLXNGRDZYT2tIRFR2Q3V4Ym9Jb0FxcGtEZFRBd0xMeWY3d01mY1EtVzBCWWt6d3dkbmU5cC1fdHZLQ0ZBbHYzRVZoNWFMZE5oUFBTX2xuMTE4ZUplWkZhYkViMEI1R0ZvVUNCTUhWYl9CNWN3SndxaEt0LWVvYm5jNEQtR3MybHd5VS1WQVE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMVdLUXdBX2ZwWHZtXzEzVThvWVN1czlUZVNUZlF5a3doLXNGRDZYT2tIRFR2Q3V4Ym9Jb0FxcGtEZFRBd0xMeWY3d01mY1EtVzBCWWt6d3dkbmU5cC1fdHZLQ0ZBbHYzRVZoNWFMZE5oUFBTX2xuMTE4ZUplWkZhYkViMEI1R0ZvVUNCTUhWYl9CNWN3SndxaEt0LWVvYm5jNEQtR3MybHd5VS1WQVE?oc=5",
+      "id": "CBMirgFBVV95cUxQMVdLUXdBX2ZwWHZtXzEzVThvWVN1czlUZVNUZlF5a3doLXNGRDZYT2tIRFR2Q3V4Ym9Jb0FxcGtEZFRBd0xMeWY3d01mY1EtVzBCWWt6d3dkbmU5cC1fdHZLQ0ZBbHYzRVZoNWFMZE5oUFBTX2xuMTE4ZUplWkZhYkViMEI1R0ZvVUNCTUhWYl9CNWN3SndxaEt0LWVvYm5jNEQtR3MybHd5VS1WQVE",
+      "guidislink": false,
+      "published": "Tue, 09 Nov 2021 08:00:00 GMT",
+      "published_parsed": [
+        2021,
+        11,
+        9,
+        8,
+        0,
+        0,
+        1,
+        313,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxQMVdLUXdBX2ZwWHZtXzEzVThvWVN1czlUZVNUZlF5a3doLXNGRDZYT2tIRFR2Q3V4Ym9Jb0FxcGtEZFRBd0xMeWY3d01mY1EtVzBCWWt6d3dkbmU5cC1fdHZLQ0ZBbHYzRVZoNWFMZE5oUFBTX2xuMTE4ZUplWkZhYkViMEI1R0ZvVUNCTUhWYl9CNWN3SndxaEt0LWVvYm5jNEQtR3MybHd5VS1WQVE?oc=5\" target=\"_blank\">UP CM Yogi Adityanath to flag off Kanpur Metro trial run tomorrow</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Oneindia</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxQMVdLUXdBX2ZwWHZtXzEzVThvWVN1czlUZVNUZlF5a3doLXNGRDZYT2tIRFR2Q3V4Ym9Jb0FxcGtEZFRBd0xMeWY3d01mY1EtVzBCWWt6d3dkbmU5cC1fdHZLQ0ZBbHYzRVZoNWFMZE5oUFBTX2xuMTE4ZUplWkZhYkViMEI1R0ZvVUNCTUhWYl9CNWN3SndxaEt0LWVvYm5jNEQtR3MybHd5VS1WQVE?oc=5\" target=\"_blank\">UP CM Yogi Adityanath to flag off Kanpur Metro trial run tomorrow</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Oneindia</font>"
+      },
+      "source": {
+        "href": "https://www.oneindia.com",
+        "title": "Oneindia"
+      },
+      "sub_articles": []
+    }
+  ]
+}

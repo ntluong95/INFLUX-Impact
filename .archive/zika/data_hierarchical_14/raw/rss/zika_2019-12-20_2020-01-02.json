@@ -1,0 +1,521 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2019-12-20",
+  "window_end": "2020-01-02",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2019-12-20+before%3A2020-01-03&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2019-12-20+before:2020-01-03&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:27:21Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2019-12-20 before:2020-01-03\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2019-12-20 before:2020-01-03\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2019-12-20+before:2020-01-03&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2019-12-20+before:2020-01-03&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:27:21 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      27,
+      21,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "A natural polymorphism in Zika virus NS2A protein responsible of virulence in mice - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "A natural polymorphism in Zika virus NS2A protein responsible of virulence in mice - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBwVTVOM20wZDZHclRMaU9EM1Y4QkxCR0RBRVJMbGxHSkdYdk1HeTdBckZJRHVVbkxjd2huOTZLdDI0VGdqQTJZeFAtSnFpLUFFd0ZmSEphSFRjNmlHZkNN?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBwVTVOM20wZDZHclRMaU9EM1Y4QkxCR0RBRVJMbGxHSkdYdk1HeTdBckZJRHVVbkxjd2huOTZLdDI0VGdqQTJZeFAtSnFpLUFFd0ZmSEphSFRjNmlHZkNN?oc=5",
+      "id": "CBMiX0FVX3lxTFBwVTVOM20wZDZHclRMaU9EM1Y4QkxCR0RBRVJMbGxHSkdYdk1HeTdBckZJRHVVbkxjd2huOTZLdDI0VGdqQTJZeFAtSnFpLUFFd0ZmSEphSFRjNmlHZkNN",
+      "guidislink": false,
+      "published": "Fri, 27 Dec 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        12,
+        27,
+        8,
+        0,
+        0,
+        4,
+        361,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFBwVTVOM20wZDZHclRMaU9EM1Y4QkxCR0RBRVJMbGxHSkdYdk1HeTdBckZJRHVVbkxjd2huOTZLdDI0VGdqQTJZeFAtSnFpLUFFd0ZmSEphSFRjNmlHZkNN?oc=5\" target=\"_blank\">A natural polymorphism in Zika virus NS2A protein responsible of virulence in mice</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFBwVTVOM20wZDZHclRMaU9EM1Y4QkxCR0RBRVJMbGxHSkdYdk1HeTdBckZJRHVVbkxjd2huOTZLdDI0VGdqQTJZeFAtSnFpLUFFd0ZmSEphSFRjNmlHZkNN?oc=5\" target=\"_blank\">A natural polymorphism in Zika virus NS2A protein responsible of virulence in mice</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika virus infection causes temporary paralysis in adult mice with motor neuron synaptic retraction and evidence for proximal peripheral neuropathy - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika virus infection causes temporary paralysis in adult mice with motor neuron synaptic retraction and evidence for proximal peripheral neuropathy - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5wVl9WbFFYVkxfMHVLUjl5V3lMNnNJbVJoRHZoc0lRYTJTNC01Z19LQlA4b29kNkx6Q0E3V0k2NG5kOEZ1b1ZSdDkwbWFabjBZUXhlblFzeXRPQXcteUxN?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5wVl9WbFFYVkxfMHVLUjl5V3lMNnNJbVJoRHZoc0lRYTJTNC01Z19LQlA4b29kNkx6Q0E3V0k2NG5kOEZ1b1ZSdDkwbWFabjBZUXhlblFzeXRPQXcteUxN?oc=5",
+      "id": "CBMiX0FVX3lxTE5wVl9WbFFYVkxfMHVLUjl5V3lMNnNJbVJoRHZoc0lRYTJTNC01Z19LQlA4b29kNkx6Q0E3V0k2NG5kOEZ1b1ZSdDkwbWFabjBZUXhlblFzeXRPQXcteUxN",
+      "guidislink": false,
+      "published": "Fri, 20 Dec 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        12,
+        20,
+        8,
+        0,
+        0,
+        4,
+        354,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5wVl9WbFFYVkxfMHVLUjl5V3lMNnNJbVJoRHZoc0lRYTJTNC01Z19LQlA4b29kNkx6Q0E3V0k2NG5kOEZ1b1ZSdDkwbWFabjBZUXhlblFzeXRPQXcteUxN?oc=5\" target=\"_blank\">Zika virus infection causes temporary paralysis in adult mice with motor neuron synaptic retraction and evidence for proximal peripheral neuropathy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5wVl9WbFFYVkxfMHVLUjl5V3lMNnNJbVJoRHZoc0lRYTJTNC01Z19LQlA4b29kNkx6Q0E3V0k2NG5kOEZ1b1ZSdDkwbWFabjBZUXhlblFzeXRPQXcteUxN?oc=5\" target=\"_blank\">Zika virus infection causes temporary paralysis in adult mice with motor neuron synaptic retraction and evidence for proximal peripheral neuropathy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Potential neuroprotective and anti-inflammatory effects provided by omega-3 (DHA) against Zika virus infection in human SH-SY5Y cells - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Potential neuroprotective and anti-inflammatory effects provided by omega-3 (DHA) against Zika virus infection in human SH-SY5Y cells - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB5Z0czU0dMc1lYQkJGRmpwZHJJYVVweDBPMnlHNjJQQnZrWEE5UlI2UVhDa1lVdEt6cm5WT3AzVXByTVFUc29XZjN0SldJMEd0enlNdkxXeEtUUFdQLTc4?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB5Z0czU0dMc1lYQkJGRmpwZHJJYVVweDBPMnlHNjJQQnZrWEE5UlI2UVhDa1lVdEt6cm5WT3AzVXByTVFUc29XZjN0SldJMEd0enlNdkxXeEtUUFdQLTc4?oc=5",
+      "id": "CBMiX0FVX3lxTFB5Z0czU0dMc1lYQkJGRmpwZHJJYVVweDBPMnlHNjJQQnZrWEE5UlI2UVhDa1lVdEt6cm5WT3AzVXByTVFUc29XZjN0SldJMEd0enlNdkxXeEtUUFdQLTc4",
+      "guidislink": false,
+      "published": "Fri, 27 Dec 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        12,
+        27,
+        8,
+        0,
+        0,
+        4,
+        361,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFB5Z0czU0dMc1lYQkJGRmpwZHJJYVVweDBPMnlHNjJQQnZrWEE5UlI2UVhDa1lVdEt6cm5WT3AzVXByTVFUc29XZjN0SldJMEd0enlNdkxXeEtUUFdQLTc4?oc=5\" target=\"_blank\">Potential neuroprotective and anti-inflammatory effects provided by omega-3 (DHA) against Zika virus infection in human SH-SY5Y cells</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFB5Z0czU0dMc1lYQkJGRmpwZHJJYVVweDBPMnlHNjJQQnZrWEE5UlI2UVhDa1lVdEt6cm5WT3AzVXByTVFUc29XZjN0SldJMEd0enlNdkxXeEtUUFdQLTc4?oc=5\" target=\"_blank\">Potential neuroprotective and anti-inflammatory effects provided by omega-3 (DHA) against Zika virus infection in human SH-SY5Y cells</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "No. 3 on the list of Florida Politicians of the Decade: Marco Rubio - Florida Politics",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "No. 3 on the list of Florida Politicians of the Decade: Marco Rubio - Florida Politics"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOaW0zWkhUTF83MjZSeEZweGpzWk5tcFlPWEVxdUF3MnZOdHB3RlV1UDlwdU1qVVRBSGJBb3NnRUs2b1NLRDB2V3BsdXNWODRiV0pILUJaVUFrTWUweXhRNGpaWER3el9leWFfczhIWjQ5ZXhTOFhieTUxOG1CZEg5M0psUnhRc1JzUm14UHRCem9LOGlqY3E1X3o4YlpKTzQ1WWJXdl9VVEtmWDRtSDY4?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOaW0zWkhUTF83MjZSeEZweGpzWk5tcFlPWEVxdUF3MnZOdHB3RlV1UDlwdU1qVVRBSGJBb3NnRUs2b1NLRDB2V3BsdXNWODRiV0pILUJaVUFrTWUweXhRNGpaWER3el9leWFfczhIWjQ5ZXhTOFhieTUxOG1CZEg5M0psUnhRc1JzUm14UHRCem9LOGlqY3E1X3o4YlpKTzQ1WWJXdl9VVEtmWDRtSDY4?oc=5",
+      "id": "CBMirwFBVV95cUxOaW0zWkhUTF83MjZSeEZweGpzWk5tcFlPWEVxdUF3MnZOdHB3RlV1UDlwdU1qVVRBSGJBb3NnRUs2b1NLRDB2V3BsdXNWODRiV0pILUJaVUFrTWUweXhRNGpaWER3el9leWFfczhIWjQ5ZXhTOFhieTUxOG1CZEg5M0psUnhRc1JzUm14UHRCem9LOGlqY3E1X3o4YlpKTzQ1WWJXdl9VVEtmWDRtSDY4",
+      "guidislink": false,
+      "published": "Fri, 03 Jan 2020 08:00:00 GMT",
+      "published_parsed": [
+        2020,
+        1,
+        3,
+        8,
+        0,
+        0,
+        4,
+        3,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxOaW0zWkhUTF83MjZSeEZweGpzWk5tcFlPWEVxdUF3MnZOdHB3RlV1UDlwdU1qVVRBSGJBb3NnRUs2b1NLRDB2V3BsdXNWODRiV0pILUJaVUFrTWUweXhRNGpaWER3el9leWFfczhIWjQ5ZXhTOFhieTUxOG1CZEg5M0psUnhRc1JzUm14UHRCem9LOGlqY3E1X3o4YlpKTzQ1WWJXdl9VVEtmWDRtSDY4?oc=5\" target=\"_blank\">No. 3 on the list of Florida Politicians of the Decade: Marco Rubio</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Florida Politics</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxOaW0zWkhUTF83MjZSeEZweGpzWk5tcFlPWEVxdUF3MnZOdHB3RlV1UDlwdU1qVVRBSGJBb3NnRUs2b1NLRDB2V3BsdXNWODRiV0pILUJaVUFrTWUweXhRNGpaWER3el9leWFfczhIWjQ5ZXhTOFhieTUxOG1CZEg5M0psUnhRc1JzUm14UHRCem9LOGlqY3E1X3o4YlpKTzQ1WWJXdl9VVEtmWDRtSDY4?oc=5\" target=\"_blank\">No. 3 on the list of Florida Politicians of the Decade: Marco Rubio</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Florida Politics</font>"
+      },
+      "source": {
+        "href": "https://floridapolitics.com",
+        "title": "Florida Politics"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Decade in Review: A look back at what happened in 2016 - Sky News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Decade in Review: A look back at what happened in 2016 - Sky News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRGw0b0Q0dWsyWFhoRnBKNDkxUXNVdnZfbW9feWs4N2lKc2lldEI1aG5tcXpUOUxNdFM1SlROSDBPdGpKMXA0dEM5VXRIRURVdTlJdmxuSVFuVUQ3cE4tM3JWZWM2SkR4dE1hYXdFVDN2cnRqYUZNOWpmQW9EREVEZUZybE9iSVV2ZXdqbXdFbVAtS2s?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRGw0b0Q0dWsyWFhoRnBKNDkxUXNVdnZfbW9feWs4N2lKc2lldEI1aG5tcXpUOUxNdFM1SlROSDBPdGpKMXA0dEM5VXRIRURVdTlJdmxuSVFuVUQ3cE4tM3JWZWM2SkR4dE1hYXdFVDN2cnRqYUZNOWpmQW9EREVEZUZybE9iSVV2ZXdqbXdFbVAtS2s?oc=5",
+      "id": "CBMikwFBVV95cUxPRGw0b0Q0dWsyWFhoRnBKNDkxUXNVdnZfbW9feWs4N2lKc2lldEI1aG5tcXpUOUxNdFM1SlROSDBPdGpKMXA0dEM5VXRIRURVdTlJdmxuSVFuVUQ3cE4tM3JWZWM2SkR4dE1hYXdFVDN2cnRqYUZNOWpmQW9EREVEZUZybE9iSVV2ZXdqbXdFbVAtS2s",
+      "guidislink": false,
+      "published": "Tue, 31 Dec 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        12,
+        31,
+        8,
+        0,
+        0,
+        1,
+        365,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxPRGw0b0Q0dWsyWFhoRnBKNDkxUXNVdnZfbW9feWs4N2lKc2lldEI1aG5tcXpUOUxNdFM1SlROSDBPdGpKMXA0dEM5VXRIRURVdTlJdmxuSVFuVUQ3cE4tM3JWZWM2SkR4dE1hYXdFVDN2cnRqYUZNOWpmQW9EREVEZUZybE9iSVV2ZXdqbXdFbVAtS2s?oc=5\" target=\"_blank\">Decade in Review: A look back at what happened in 2016</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sky News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxPRGw0b0Q0dWsyWFhoRnBKNDkxUXNVdnZfbW9feWs4N2lKc2lldEI1aG5tcXpUOUxNdFM1SlROSDBPdGpKMXA0dEM5VXRIRURVdTlJdmxuSVFuVUQ3cE4tM3JWZWM2SkR4dE1hYXdFVDN2cnRqYUZNOWpmQW9EREVEZUZybE9iSVV2ZXdqbXdFbVAtS2s?oc=5\" target=\"_blank\">Decade in Review: A look back at what happened in 2016</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sky News</font>"
+      },
+      "source": {
+        "href": "https://news.sky.com",
+        "title": "Sky News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Dengue’s V.I. Reappearance Makes Mosquito Control Paramount - St. Thomas Source",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Dengue’s V.I. Reappearance Makes Mosquito Control Paramount - St. Thomas Source"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYVZFV1cxM2RFa014TlpydHdpaFhIVUxwcEVPSTRHMExOc2t0ZXA4cGFEQllLR1FILVlBZ0VxZU5jRXVSY3BrRk5IQzBKQTlaUVBKcEE2YXNnOXV6QTlOQ1FwMkwxN0U5bkw3cFlQYVFma2hxbndoLUxfQmxoeGhlbzZpajBJU2V0MkJ3V0x5bkxyTkF3UkZmeUxrdURfeXVjeXZPeEFtMA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYVZFV1cxM2RFa014TlpydHdpaFhIVUxwcEVPSTRHMExOc2t0ZXA4cGFEQllLR1FILVlBZ0VxZU5jRXVSY3BrRk5IQzBKQTlaUVBKcEE2YXNnOXV6QTlOQ1FwMkwxN0U5bkw3cFlQYVFma2hxbndoLUxfQmxoeGhlbzZpajBJU2V0MkJ3V0x5bkxyTkF3UkZmeUxrdURfeXVjeXZPeEFtMA?oc=5",
+      "id": "CBMipwFBVV95cUxQYVZFV1cxM2RFa014TlpydHdpaFhIVUxwcEVPSTRHMExOc2t0ZXA4cGFEQllLR1FILVlBZ0VxZU5jRXVSY3BrRk5IQzBKQTlaUVBKcEE2YXNnOXV6QTlOQ1FwMkwxN0U5bkw3cFlQYVFma2hxbndoLUxfQmxoeGhlbzZpajBJU2V0MkJ3V0x5bkxyTkF3UkZmeUxrdURfeXVjeXZPeEFtMA",
+      "guidislink": false,
+      "published": "Thu, 02 Jan 2020 08:00:00 GMT",
+      "published_parsed": [
+        2020,
+        1,
+        2,
+        8,
+        0,
+        0,
+        3,
+        2,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxQYVZFV1cxM2RFa014TlpydHdpaFhIVUxwcEVPSTRHMExOc2t0ZXA4cGFEQllLR1FILVlBZ0VxZU5jRXVSY3BrRk5IQzBKQTlaUVBKcEE2YXNnOXV6QTlOQ1FwMkwxN0U5bkw3cFlQYVFma2hxbndoLUxfQmxoeGhlbzZpajBJU2V0MkJ3V0x5bkxyTkF3UkZmeUxrdURfeXVjeXZPeEFtMA?oc=5\" target=\"_blank\">Dengue’s V.I. Reappearance Makes Mosquito Control Paramount</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">St. Thomas Source</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxQYVZFV1cxM2RFa014TlpydHdpaFhIVUxwcEVPSTRHMExOc2t0ZXA4cGFEQllLR1FILVlBZ0VxZU5jRXVSY3BrRk5IQzBKQTlaUVBKcEE2YXNnOXV6QTlOQ1FwMkwxN0U5bkw3cFlQYVFma2hxbndoLUxfQmxoeGhlbzZpajBJU2V0MkJ3V0x5bkxyTkF3UkZmeUxrdURfeXVjeXZPeEFtMA?oc=5\" target=\"_blank\">Dengue’s V.I. Reappearance Makes Mosquito Control Paramount</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">St. Thomas Source</font>"
+      },
+      "source": {
+        "href": "https://stthomassource.com",
+        "title": "St. Thomas Source"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Adam Scott still unsure if he wants to compete in 2020 Summer Olympics - GOLF.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Adam Scott still unsure if he wants to compete in 2020 Summer Olympics - GOLF.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBFYk52UTRldElQdW1nZzJaNlk4Z3pNMFRxZXo5blN2U2M0QThJREY5TmZPbTN6WU0wR21zaVQ3a1lsZTBGODZhczFFNUl0d2otamJxY2ZPd1Y2NzVIU2VtbXBUVzZyLWlZcE9pSA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBFYk52UTRldElQdW1nZzJaNlk4Z3pNMFRxZXo5blN2U2M0QThJREY5TmZPbTN6WU0wR21zaVQ3a1lsZTBGODZhczFFNUl0d2otamJxY2ZPd1Y2NzVIU2VtbXBUVzZyLWlZcE9pSA?oc=5",
+      "id": "CBMibEFVX3lxTFBFYk52UTRldElQdW1nZzJaNlk4Z3pNMFRxZXo5blN2U2M0QThJREY5TmZPbTN6WU0wR21zaVQ3a1lsZTBGODZhczFFNUl0d2otamJxY2ZPd1Y2NzVIU2VtbXBUVzZyLWlZcE9pSA",
+      "guidislink": false,
+      "published": "Mon, 23 Dec 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        12,
+        23,
+        8,
+        0,
+        0,
+        0,
+        357,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTFBFYk52UTRldElQdW1nZzJaNlk4Z3pNMFRxZXo5blN2U2M0QThJREY5TmZPbTN6WU0wR21zaVQ3a1lsZTBGODZhczFFNUl0d2otamJxY2ZPd1Y2NzVIU2VtbXBUVzZyLWlZcE9pSA?oc=5\" target=\"_blank\">Adam Scott still unsure if he wants to compete in 2020 Summer Olympics</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GOLF.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTFBFYk52UTRldElQdW1nZzJaNlk4Z3pNMFRxZXo5blN2U2M0QThJREY5TmZPbTN6WU0wR21zaVQ3a1lsZTBGODZhczFFNUl0d2otamJxY2ZPd1Y2NzVIU2VtbXBUVzZyLWlZcE9pSA?oc=5\" target=\"_blank\">Adam Scott still unsure if he wants to compete in 2020 Summer Olympics</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GOLF.com</font>"
+      },
+      "source": {
+        "href": "https://golf.com",
+        "title": "GOLF.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Researchers find genetic mutations may play a role in disease outbreaks - Homeland Preparedness News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Researchers find genetic mutations may play a role in disease outbreaks - Homeland Preparedness News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPajV6N3BmT0FaSVBqMHRMZTBCZ0NHRjJNcGhHVEo0SjBrZGZDaE9fTDVVUzF1bzdBQlJFLWlSWFBSaUVuZ29NejNXQVkzVWl5dm5kYk42ZEo1Zjkta1RZRWN0X1ZFd0FpR1FBbkwwUE9HSDR5UDFjeXRIc3FTdVYyaUNMMDJGNll0cndfa3FSNEczcDhPRWpqR2duSlNPZ3RHVlRXTkdibFpmSG5uZjI4MndhaGR6Zw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPajV6N3BmT0FaSVBqMHRMZTBCZ0NHRjJNcGhHVEo0SjBrZGZDaE9fTDVVUzF1bzdBQlJFLWlSWFBSaUVuZ29NejNXQVkzVWl5dm5kYk42ZEo1Zjkta1RZRWN0X1ZFd0FpR1FBbkwwUE9HSDR5UDFjeXRIc3FTdVYyaUNMMDJGNll0cndfa3FSNEczcDhPRWpqR2duSlNPZ3RHVlRXTkdibFpmSG5uZjI4MndhaGR6Zw?oc=5",
+      "id": "CBMitgFBVV95cUxPajV6N3BmT0FaSVBqMHRMZTBCZ0NHRjJNcGhHVEo0SjBrZGZDaE9fTDVVUzF1bzdBQlJFLWlSWFBSaUVuZ29NejNXQVkzVWl5dm5kYk42ZEo1Zjkta1RZRWN0X1ZFd0FpR1FBbkwwUE9HSDR5UDFjeXRIc3FTdVYyaUNMMDJGNll0cndfa3FSNEczcDhPRWpqR2duSlNPZ3RHVlRXTkdibFpmSG5uZjI4MndhaGR6Zw",
+      "guidislink": false,
+      "published": "Tue, 31 Dec 2019 13:22:27 GMT",
+      "published_parsed": [
+        2019,
+        12,
+        31,
+        13,
+        22,
+        27,
+        1,
+        365,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPajV6N3BmT0FaSVBqMHRMZTBCZ0NHRjJNcGhHVEo0SjBrZGZDaE9fTDVVUzF1bzdBQlJFLWlSWFBSaUVuZ29NejNXQVkzVWl5dm5kYk42ZEo1Zjkta1RZRWN0X1ZFd0FpR1FBbkwwUE9HSDR5UDFjeXRIc3FTdVYyaUNMMDJGNll0cndfa3FSNEczcDhPRWpqR2duSlNPZ3RHVlRXTkdibFpmSG5uZjI4MndhaGR6Zw?oc=5\" target=\"_blank\">Researchers find genetic mutations may play a role in disease outbreaks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Homeland Preparedness News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPajV6N3BmT0FaSVBqMHRMZTBCZ0NHRjJNcGhHVEo0SjBrZGZDaE9fTDVVUzF1bzdBQlJFLWlSWFBSaUVuZ29NejNXQVkzVWl5dm5kYk42ZEo1Zjkta1RZRWN0X1ZFd0FpR1FBbkwwUE9HSDR5UDFjeXRIc3FTdVYyaUNMMDJGNll0cndfa3FSNEczcDhPRWpqR2duSlNPZ3RHVlRXTkdibFpmSG5uZjI4MndhaGR6Zw?oc=5\" target=\"_blank\">Researchers find genetic mutations may play a role in disease outbreaks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Homeland Preparedness News</font>"
+      },
+      "source": {
+        "href": "https://homelandprepnews.com",
+        "title": "Homeland Preparedness News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Low vector competence in sylvatic mosquitoes limits Zika virus to initiate an enzootic cycle in South America - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Low vector competence in sylvatic mosquitoes limits Zika virus to initiate an enzootic cycle in South America - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9rdW5MQnYzM3RxWllIY1ZfdVBBZldIYmFxamxsMTFpenhXSGNRVGhnU0NhdTB1eE1hVWtnVWZCRFI0amJpVkxTbXJpWVp4U0dRcWtzVG4teng5MS1JdENn?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9rdW5MQnYzM3RxWllIY1ZfdVBBZldIYmFxamxsMTFpenhXSGNRVGhnU0NhdTB1eE1hVWtnVWZCRFI0amJpVkxTbXJpWVp4U0dRcWtzVG4teng5MS1JdENn?oc=5",
+      "id": "CBMiX0FVX3lxTE9rdW5MQnYzM3RxWllIY1ZfdVBBZldIYmFxamxsMTFpenhXSGNRVGhnU0NhdTB1eE1hVWtnVWZCRFI0amJpVkxTbXJpWVp4U0dRcWtzVG4teng5MS1JdENn",
+      "guidislink": false,
+      "published": "Fri, 27 Dec 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        12,
+        27,
+        8,
+        0,
+        0,
+        4,
+        361,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9rdW5MQnYzM3RxWllIY1ZfdVBBZldIYmFxamxsMTFpenhXSGNRVGhnU0NhdTB1eE1hVWtnVWZCRFI0amJpVkxTbXJpWVp4U0dRcWtzVG4teng5MS1JdENn?oc=5\" target=\"_blank\">Low vector competence in sylvatic mosquitoes limits Zika virus to initiate an enzootic cycle in South America</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9rdW5MQnYzM3RxWllIY1ZfdVBBZldIYmFxamxsMTFpenhXSGNRVGhnU0NhdTB1eE1hVWtnVWZCRFI0amJpVkxTbXJpWVp4U0dRcWtzVG4teng5MS1JdENn?oc=5\" target=\"_blank\">Low vector competence in sylvatic mosquitoes limits Zika virus to initiate an enzootic cycle in South America</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Malaysia Reports 130,000 Dengue Cases In 2019, Highest Since 2015 - CodeBlue",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Malaysia Reports 130,000 Dengue Cases In 2019, Highest Since 2015 - CodeBlue"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOV0RyU1J4a1VRc1ZjY3BIVURIY1IwNXNqd3FtZ191cEZwemNJYjVjNnhSQk9UZE82V0hMLVBPX1dPeXFEaUVxelY2cG1OOTIzWkloTUI4SkFKRHpwb09LcXNBV2ZfMFpoZ0JQUXlsWlJvbDNKcVMzUlpRZjQ2WVZVeEJoaTlzZ0tBZkhzSFBMRlpIMTl4TWtFQXdlNXBfN2xFTDJmMzlkUHI?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOV0RyU1J4a1VRc1ZjY3BIVURIY1IwNXNqd3FtZ191cEZwemNJYjVjNnhSQk9UZE82V0hMLVBPX1dPeXFEaUVxelY2cG1OOTIzWkloTUI4SkFKRHpwb09LcXNBV2ZfMFpoZ0JQUXlsWlJvbDNKcVMzUlpRZjQ2WVZVeEJoaTlzZ0tBZkhzSFBMRlpIMTl4TWtFQXdlNXBfN2xFTDJmMzlkUHI?oc=5",
+      "id": "CBMiqAFBVV95cUxOV0RyU1J4a1VRc1ZjY3BIVURIY1IwNXNqd3FtZ191cEZwemNJYjVjNnhSQk9UZE82V0hMLVBPX1dPeXFEaUVxelY2cG1OOTIzWkloTUI4SkFKRHpwb09LcXNBV2ZfMFpoZ0JQUXlsWlJvbDNKcVMzUlpRZjQ2WVZVeEJoaTlzZ0tBZkhzSFBMRlpIMTl4TWtFQXdlNXBfN2xFTDJmMzlkUHI",
+      "guidislink": false,
+      "published": "Fri, 03 Jan 2020 08:00:00 GMT",
+      "published_parsed": [
+        2020,
+        1,
+        3,
+        8,
+        0,
+        0,
+        4,
+        3,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxOV0RyU1J4a1VRc1ZjY3BIVURIY1IwNXNqd3FtZ191cEZwemNJYjVjNnhSQk9UZE82V0hMLVBPX1dPeXFEaUVxelY2cG1OOTIzWkloTUI4SkFKRHpwb09LcXNBV2ZfMFpoZ0JQUXlsWlJvbDNKcVMzUlpRZjQ2WVZVeEJoaTlzZ0tBZkhzSFBMRlpIMTl4TWtFQXdlNXBfN2xFTDJmMzlkUHI?oc=5\" target=\"_blank\">Malaysia Reports 130,000 Dengue Cases In 2019, Highest Since 2015</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CodeBlue</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxOV0RyU1J4a1VRc1ZjY3BIVURIY1IwNXNqd3FtZ191cEZwemNJYjVjNnhSQk9UZE82V0hMLVBPX1dPeXFEaUVxelY2cG1OOTIzWkloTUI4SkFKRHpwb09LcXNBV2ZfMFpoZ0JQUXlsWlJvbDNKcVMzUlpRZjQ2WVZVeEJoaTlzZ0tBZkhzSFBMRlpIMTl4TWtFQXdlNXBfN2xFTDJmMzlkUHI?oc=5\" target=\"_blank\">Malaysia Reports 130,000 Dengue Cases In 2019, Highest Since 2015</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CodeBlue</font>"
+      },
+      "source": {
+        "href": "https://codeblue.galencentre.org",
+        "title": "CodeBlue"
+      },
+      "sub_articles": []
+    }
+  ]
+}

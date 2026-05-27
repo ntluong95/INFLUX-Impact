@@ -1,0 +1,650 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2019-10-25",
+  "window_end": "2019-11-07",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2019-10-25+before%3A2019-11-08&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2019-10-25+before:2019-11-08&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:27:14Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2019-10-25 before:2019-11-08\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2019-10-25 before:2019-11-08\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2019-10-25+before:2019-11-08&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2019-10-25+before:2019-11-08&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:27:14 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      27,
+      14,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Asian and African lineage Zika viruses show differential replication and innate immune responses in human dendritic cells and macrophages - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Asian and African lineage Zika viruses show differential replication and innate immune responses in human dendritic cells and macrophages - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5nTGYxZ3ozdTA1YmZtWWRBRmc4SmNkVVk3WU5FMjhKV01hNXA5TnhxaC1VUFR3ZVlxaWlmYnVyTGJObEJ6S254bnh5SmZjZlNaQU0zNlVzb3dKUGxFY2ZF?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5nTGYxZ3ozdTA1YmZtWWRBRmc4SmNkVVk3WU5FMjhKV01hNXA5TnhxaC1VUFR3ZVlxaWlmYnVyTGJObEJ6S254bnh5SmZjZlNaQU0zNlVzb3dKUGxFY2ZF?oc=5",
+      "id": "CBMiX0FVX3lxTE5nTGYxZ3ozdTA1YmZtWWRBRmc4SmNkVVk3WU5FMjhKV01hNXA5TnhxaC1VUFR3ZVlxaWlmYnVyTGJObEJ6S254bnh5SmZjZlNaQU0zNlVzb3dKUGxFY2ZF",
+      "guidislink": false,
+      "published": "Thu, 31 Oct 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        10,
+        31,
+        7,
+        0,
+        0,
+        3,
+        304,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5nTGYxZ3ozdTA1YmZtWWRBRmc4SmNkVVk3WU5FMjhKV01hNXA5TnhxaC1VUFR3ZVlxaWlmYnVyTGJObEJ6S254bnh5SmZjZlNaQU0zNlVzb3dKUGxFY2ZF?oc=5\" target=\"_blank\">Asian and African lineage Zika viruses show differential replication and innate immune responses in human dendritic cells and macrophages</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5nTGYxZ3ozdTA1YmZtWWRBRmc4SmNkVVk3WU5FMjhKV01hNXA5TnhxaC1VUFR3ZVlxaWlmYnVyTGJObEJ6S254bnh5SmZjZlNaQU0zNlVzb3dKUGxFY2ZF?oc=5\" target=\"_blank\">Asian and African lineage Zika viruses show differential replication and innate immune responses in human dendritic cells and macrophages</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "First native Zika cases in Europe confirmed as experts warn climate change could bring more - CNN",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "First native Zika cases in Europe confirmed as experts warn climate change could bring more - CNN"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMickFVX3lxTE5RS1Q5N0lOQVI4TG5zTUlLbENQMWFITmZMOWVPRWhMZVV0VlZtcHVGS05Pa0RlTS1DYnZ2SW4zMUtWRllCX1djZU53VEdUN1VVZ0UwY19mTnE5R19GbDdIOF9GSWVUQU4zQmVmNHpRRTVEUQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5RS1Q5N0lOQVI4TG5zTUlLbENQMWFITmZMOWVPRWhMZVV0VlZtcHVGS05Pa0RlTS1DYnZ2SW4zMUtWRllCX1djZU53VEdUN1VVZ0UwY19mTnE5R19GbDdIOF9GSWVUQU4zQmVmNHpRRTVEUQ?oc=5",
+      "id": "CBMickFVX3lxTE5RS1Q5N0lOQVI4TG5zTUlLbENQMWFITmZMOWVPRWhMZVV0VlZtcHVGS05Pa0RlTS1DYnZ2SW4zMUtWRllCX1djZU53VEdUN1VVZ0UwY19mTnE5R19GbDdIOF9GSWVUQU4zQmVmNHpRRTVEUQ",
+      "guidislink": false,
+      "published": "Thu, 07 Nov 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        11,
+        7,
+        8,
+        0,
+        0,
+        3,
+        311,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE5RS1Q5N0lOQVI4TG5zTUlLbENQMWFITmZMOWVPRWhMZVV0VlZtcHVGS05Pa0RlTS1DYnZ2SW4zMUtWRllCX1djZU53VEdUN1VVZ0UwY19mTnE5R19GbDdIOF9GSWVUQU4zQmVmNHpRRTVEUQ?oc=5\" target=\"_blank\">First native Zika cases in Europe confirmed as experts warn climate change could bring more</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNN</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE5RS1Q5N0lOQVI4TG5zTUlLbENQMWFITmZMOWVPRWhMZVV0VlZtcHVGS05Pa0RlTS1DYnZ2SW4zMUtWRllCX1djZU53VEdUN1VVZ0UwY19mTnE5R19GbDdIOF9GSWVUQU4zQmVmNHpRRTVEUQ?oc=5\" target=\"_blank\">First native Zika cases in Europe confirmed as experts warn climate change could bring more</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNN</font>"
+      },
+      "source": {
+        "href": "https://www.cnn.com",
+        "title": "CNN"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Epidemiological update: third case of locally acquired Zika virus disease in Hyères, France - ecdc.europa.eu",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Epidemiological update: third case of locally acquired Zika virus disease in Hyères, France - ecdc.europa.eu"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZ3EzcDNFcmg1WnFwZlMwV1d4TnNNSDNEUGJON3oxc3BuQVNpUFB6TmpvUlN6LVpIaTJIVFJTckd2RTFoS2JQWUtjU2xrZGdKQ3Awb0RMeVQ3QkxkaHhZc204UU9XZWdyeGJyZEJPa21mUVB6RmIzZGpoMVdTdW9STVU0WGNGNGh4ZWNCM3FPSlhTWmJTNWQ3S3VyenE0aEd4c185WEdSTW9Jdlo5bk1COGszLTYzclVHLU14bDVnZkpGRXc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZ3EzcDNFcmg1WnFwZlMwV1d4TnNNSDNEUGJON3oxc3BuQVNpUFB6TmpvUlN6LVpIaTJIVFJTckd2RTFoS2JQWUtjU2xrZGdKQ3Awb0RMeVQ3QkxkaHhZc204UU9XZWdyeGJyZEJPa21mUVB6RmIzZGpoMVdTdW9STVU0WGNGNGh4ZWNCM3FPSlhTWmJTNWQ3S3VyenE0aEd4c185WEdSTW9Jdlo5bk1COGszLTYzclVHLU14bDVnZkpGRXc?oc=5",
+      "id": "CBMiwwFBVV95cUxQZ3EzcDNFcmg1WnFwZlMwV1d4TnNNSDNEUGJON3oxc3BuQVNpUFB6TmpvUlN6LVpIaTJIVFJTckd2RTFoS2JQWUtjU2xrZGdKQ3Awb0RMeVQ3QkxkaHhZc204UU9XZWdyeGJyZEJPa21mUVB6RmIzZGpoMVdTdW9STVU0WGNGNGh4ZWNCM3FPSlhTWmJTNWQ3S3VyenE0aEd4c185WEdSTW9Jdlo5bk1COGszLTYzclVHLU14bDVnZkpGRXc",
+      "guidislink": false,
+      "published": "Thu, 31 Oct 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        10,
+        31,
+        7,
+        0,
+        0,
+        3,
+        304,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZ3EzcDNFcmg1WnFwZlMwV1d4TnNNSDNEUGJON3oxc3BuQVNpUFB6TmpvUlN6LVpIaTJIVFJTckd2RTFoS2JQWUtjU2xrZGdKQ3Awb0RMeVQ3QkxkaHhZc204UU9XZWdyeGJyZEJPa21mUVB6RmIzZGpoMVdTdW9STVU0WGNGNGh4ZWNCM3FPSlhTWmJTNWQ3S3VyenE0aEd4c185WEdSTW9Jdlo5bk1COGszLTYzclVHLU14bDVnZkpGRXc?oc=5\" target=\"_blank\">Epidemiological update: third case of locally acquired Zika virus disease in Hyères, France</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ecdc.europa.eu</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZ3EzcDNFcmg1WnFwZlMwV1d4TnNNSDNEUGJON3oxc3BuQVNpUFB6TmpvUlN6LVpIaTJIVFJTckd2RTFoS2JQWUtjU2xrZGdKQ3Awb0RMeVQ3QkxkaHhZc204UU9XZWdyeGJyZEJPa21mUVB6RmIzZGpoMVdTdW9STVU0WGNGNGh4ZWNCM3FPSlhTWmJTNWQ3S3VyenE0aEd4c185WEdSTW9Jdlo5bk1COGszLTYzclVHLU14bDVnZkpGRXc?oc=5\" target=\"_blank\">Epidemiological update: third case of locally acquired Zika virus disease in Hyères, France</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ecdc.europa.eu</font>"
+      },
+      "source": {
+        "href": "https://www.ecdc.europa.eu",
+        "title": "ecdc.europa.eu"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Anna Zika - National Geographic",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Anna Zika - National Geographic"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBnMWJISl9OWmNBUzVwX2xVbS1KU0JYWEZTd3AtMi1KbVRyRnR3cDVlTUpVMmQ1YU15YXM0Z1dySHk4UTNvUTFCZ0tzdW5zSzVKVXNmSVNWbmd6Ri1PN1RXXzNpbmZtSkZwekpneV9Vdy1VQjg?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBnMWJISl9OWmNBUzVwX2xVbS1KU0JYWEZTd3AtMi1KbVRyRnR3cDVlTUpVMmQ1YU15YXM0Z1dySHk4UTNvUTFCZ0tzdW5zSzVKVXNmSVNWbmd6Ri1PN1RXXzNpbmZtSkZwekpneV9Vdy1VQjg?oc=5",
+      "id": "CBMic0FVX3lxTFBnMWJISl9OWmNBUzVwX2xVbS1KU0JYWEZTd3AtMi1KbVRyRnR3cDVlTUpVMmQ1YU15YXM0Z1dySHk4UTNvUTFCZ0tzdW5zSzVKVXNmSVNWbmd6Ri1PN1RXXzNpbmZtSkZwekpneV9Vdy1VQjg",
+      "guidislink": false,
+      "published": "Wed, 06 Nov 2019 09:25:12 GMT",
+      "published_parsed": [
+        2019,
+        11,
+        6,
+        9,
+        25,
+        12,
+        2,
+        310,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTFBnMWJISl9OWmNBUzVwX2xVbS1KU0JYWEZTd3AtMi1KbVRyRnR3cDVlTUpVMmQ1YU15YXM0Z1dySHk4UTNvUTFCZ0tzdW5zSzVKVXNmSVNWbmd6Ri1PN1RXXzNpbmZtSkZwekpneV9Vdy1VQjg?oc=5\" target=\"_blank\">Anna Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">National Geographic</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTFBnMWJISl9OWmNBUzVwX2xVbS1KU0JYWEZTd3AtMi1KbVRyRnR3cDVlTUpVMmQ1YU15YXM0Z1dySHk4UTNvUTFCZ0tzdW5zSzVKVXNmSVNWbmd6Ri1PN1RXXzNpbmZtSkZwekpneV9Vdy1VQjg?oc=5\" target=\"_blank\">Anna Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">National Geographic</font>"
+      },
+      "source": {
+        "href": "https://www.nationalgeographic.com",
+        "title": "National Geographic"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "'We Now Have a New Exotic Disease in Europe': Native Zika Virus Spreads Due to Climate Change - EcoWatch",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "'We Now Have a New Exotic Disease in Europe': Native Zika Virus Spreads Due to Climate Change - EcoWatch"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1lelRoUWhBaDk2OVZLY05zUzlCbkxkUlZaSjNteVcybFhLNUh4MEFoeDBWZklpTWYySUpuM2hvMlpLT05PMmt5eEZHVHdZTnlfaHkxQ09lWjEtRWotTmdZVXc3TkFhSXZPUk5sdXVWQVZ1Q2lZUlE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1lelRoUWhBaDk2OVZLY05zUzlCbkxkUlZaSjNteVcybFhLNUh4MEFoeDBWZklpTWYySUpuM2hvMlpLT05PMmt5eEZHVHdZTnlfaHkxQ09lWjEtRWotTmdZVXc3TkFhSXZPUk5sdXVWQVZ1Q2lZUlE?oc=5",
+      "id": "CBMidkFVX3lxTE1lelRoUWhBaDk2OVZLY05zUzlCbkxkUlZaSjNteVcybFhLNUh4MEFoeDBWZklpTWYySUpuM2hvMlpLT05PMmt5eEZHVHdZTnlfaHkxQ09lWjEtRWotTmdZVXc3TkFhSXZPUk5sdXVWQVZ1Q2lZUlE",
+      "guidislink": false,
+      "published": "Fri, 08 Nov 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        11,
+        8,
+        8,
+        0,
+        0,
+        4,
+        312,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE1lelRoUWhBaDk2OVZLY05zUzlCbkxkUlZaSjNteVcybFhLNUh4MEFoeDBWZklpTWYySUpuM2hvMlpLT05PMmt5eEZHVHdZTnlfaHkxQ09lWjEtRWotTmdZVXc3TkFhSXZPUk5sdXVWQVZ1Q2lZUlE?oc=5\" target=\"_blank\">'We Now Have a New Exotic Disease in Europe': Native Zika Virus Spreads Due to Climate Change</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">EcoWatch</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTE1lelRoUWhBaDk2OVZLY05zUzlCbkxkUlZaSjNteVcybFhLNUh4MEFoeDBWZklpTWYySUpuM2hvMlpLT05PMmt5eEZHVHdZTnlfaHkxQ09lWjEtRWotTmdZVXc3TkFhSXZPUk5sdXVWQVZ1Q2lZUlE?oc=5\" target=\"_blank\">'We Now Have a New Exotic Disease in Europe': Native Zika Virus Spreads Due to Climate Change</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">EcoWatch</font>"
+      },
+      "source": {
+        "href": "https://www.ecowatch.com",
+        "title": "EcoWatch"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Paper-Based Diagnostics - Wyss Institute at Harvard",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Paper-Based Diagnostics - Wyss Institute at Harvard"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9teE9CdUpldDRfOUJYZWdHTXhYV29iX3YzWmVrNzhoaVJQMGNuWW96TW9tU1pJVnMwUHN0MUlCdm1LUGlPM2QtX3NoZDNnZTRzeVgtb21Dams5VGl5MlloNFVBNXBiUGFpU095Mg?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9teE9CdUpldDRfOUJYZWdHTXhYV29iX3YzWmVrNzhoaVJQMGNuWW96TW9tU1pJVnMwUHN0MUlCdm1LUGlPM2QtX3NoZDNnZTRzeVgtb21Dams5VGl5MlloNFVBNXBiUGFpU095Mg?oc=5",
+      "id": "CBMibEFVX3lxTE9teE9CdUpldDRfOUJYZWdHTXhYV29iX3YzWmVrNzhoaVJQMGNuWW96TW9tU1pJVnMwUHN0MUlCdm1LUGlPM2QtX3NoZDNnZTRzeVgtb21Dams5VGl5MlloNFVBNXBiUGFpU095Mg",
+      "guidislink": false,
+      "published": "Mon, 04 Nov 2019 18:47:49 GMT",
+      "published_parsed": [
+        2019,
+        11,
+        4,
+        18,
+        47,
+        49,
+        0,
+        308,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE9teE9CdUpldDRfOUJYZWdHTXhYV29iX3YzWmVrNzhoaVJQMGNuWW96TW9tU1pJVnMwUHN0MUlCdm1LUGlPM2QtX3NoZDNnZTRzeVgtb21Dams5VGl5MlloNFVBNXBiUGFpU095Mg?oc=5\" target=\"_blank\">Paper-Based Diagnostics</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Wyss Institute at Harvard</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE9teE9CdUpldDRfOUJYZWdHTXhYV29iX3YzWmVrNzhoaVJQMGNuWW96TW9tU1pJVnMwUHN0MUlCdm1LUGlPM2QtX3NoZDNnZTRzeVgtb21Dams5VGl5MlloNFVBNXBiUGFpU095Mg?oc=5\" target=\"_blank\">Paper-Based Diagnostics</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Wyss Institute at Harvard</font>"
+      },
+      "source": {
+        "href": "https://wyss.harvard.edu",
+        "title": "Wyss Institute at Harvard"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Europe's first ever native Zika cases should be a 'wake-up call' for the continent - The Telegraph",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Europe's first ever native Zika cases should be a 'wake-up call' for the continent - The Telegraph"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMVlBTGxWZi14bE9sN20wY0xYUWRlRW9USlRrQmItZE1EdHNDUEt2cWJtWGJXS0NpRG1ScUxreVFBcVI0YlVSdW0wT2lRRGhoNjIyeGQ3TXdQck9zdWxHVW9OejQwWGNhUFpjaXFLeW0yME9fM0JLZV9EYl9vYTUyckI4enk3RlRmYkpINEpES21ac1o1NXlCakZCX3BJX2ZNMm9qWXpxczk5alVQYnp1Q0pYUEJQODlZelBHbnhqd0hfalR3LThNMQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMVlBTGxWZi14bE9sN20wY0xYUWRlRW9USlRrQmItZE1EdHNDUEt2cWJtWGJXS0NpRG1ScUxreVFBcVI0YlVSdW0wT2lRRGhoNjIyeGQ3TXdQck9zdWxHVW9OejQwWGNhUFpjaXFLeW0yME9fM0JLZV9EYl9vYTUyckI4enk3RlRmYkpINEpES21ac1o1NXlCakZCX3BJX2ZNMm9qWXpxczk5alVQYnp1Q0pYUEJQODlZelBHbnhqd0hfalR3LThNMQ?oc=5",
+      "id": "CBMiyAFBVV95cUxPMVlBTGxWZi14bE9sN20wY0xYUWRlRW9USlRrQmItZE1EdHNDUEt2cWJtWGJXS0NpRG1ScUxreVFBcVI0YlVSdW0wT2lRRGhoNjIyeGQ3TXdQck9zdWxHVW9OejQwWGNhUFpjaXFLeW0yME9fM0JLZV9EYl9vYTUyckI4enk3RlRmYkpINEpES21ac1o1NXlCakZCX3BJX2ZNMm9qWXpxczk5alVQYnp1Q0pYUEJQODlZelBHbnhqd0hfalR3LThNMQ",
+      "guidislink": false,
+      "published": "Tue, 05 Nov 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        11,
+        5,
+        8,
+        0,
+        0,
+        1,
+        309,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMVlBTGxWZi14bE9sN20wY0xYUWRlRW9USlRrQmItZE1EdHNDUEt2cWJtWGJXS0NpRG1ScUxreVFBcVI0YlVSdW0wT2lRRGhoNjIyeGQ3TXdQck9zdWxHVW9OejQwWGNhUFpjaXFLeW0yME9fM0JLZV9EYl9vYTUyckI4enk3RlRmYkpINEpES21ac1o1NXlCakZCX3BJX2ZNMm9qWXpxczk5alVQYnp1Q0pYUEJQODlZelBHbnhqd0hfalR3LThNMQ?oc=5\" target=\"_blank\">Europe's first ever native Zika cases should be a 'wake-up call' for the continent</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Telegraph</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMVlBTGxWZi14bE9sN20wY0xYUWRlRW9USlRrQmItZE1EdHNDUEt2cWJtWGJXS0NpRG1ScUxreVFBcVI0YlVSdW0wT2lRRGhoNjIyeGQ3TXdQck9zdWxHVW9OejQwWGNhUFpjaXFLeW0yME9fM0JLZV9EYl9vYTUyckI4enk3RlRmYkpINEpES21ac1o1NXlCakZCX3BJX2ZNMm9qWXpxczk5alVQYnp1Q0pYUEJQODlZelBHbnhqd0hfalR3LThNMQ?oc=5\" target=\"_blank\">Europe's first ever native Zika cases should be a 'wake-up call' for the continent</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Telegraph</font>"
+      },
+      "source": {
+        "href": "https://www.telegraph.co.uk",
+        "title": "The Telegraph"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "The citrus flavonoid naringenin impairs the in vitro infection of human cells by Zika virus - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "The citrus flavonoid naringenin impairs the in vitro infection of human cells by Zika virus - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9rSTNsc0ZjS0RlUW5ZdGM0ZjE4Q1Aycmdua3VsTDBTaVpienBCYVlpWHl1NGdUV0xGclZ0MEpZZ2lvTmM1TV9SMXNLRTlwekpuc2JmX3J5ajZDZEE0WWIw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9rSTNsc0ZjS0RlUW5ZdGM0ZjE4Q1Aycmdua3VsTDBTaVpienBCYVlpWHl1NGdUV0xGclZ0MEpZZ2lvTmM1TV9SMXNLRTlwekpuc2JmX3J5ajZDZEE0WWIw?oc=5",
+      "id": "CBMiX0FVX3lxTE9rSTNsc0ZjS0RlUW5ZdGM0ZjE4Q1Aycmdua3VsTDBTaVpienBCYVlpWHl1NGdUV0xGclZ0MEpZZ2lvTmM1TV9SMXNLRTlwekpuc2JmX3J5ajZDZEE0WWIw",
+      "guidislink": false,
+      "published": "Fri, 08 Nov 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        11,
+        8,
+        8,
+        0,
+        0,
+        4,
+        312,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9rSTNsc0ZjS0RlUW5ZdGM0ZjE4Q1Aycmdua3VsTDBTaVpienBCYVlpWHl1NGdUV0xGclZ0MEpZZ2lvTmM1TV9SMXNLRTlwekpuc2JmX3J5ajZDZEE0WWIw?oc=5\" target=\"_blank\">The citrus flavonoid naringenin impairs the in vitro infection of human cells by Zika virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9rSTNsc0ZjS0RlUW5ZdGM0ZjE4Q1Aycmdua3VsTDBTaVpienBCYVlpWHl1NGdUV0xGclZ0MEpZZ2lvTmM1TV9SMXNLRTlwekpuc2JmX3J5ajZDZEE0WWIw?oc=5\" target=\"_blank\">The citrus flavonoid naringenin impairs the in vitro infection of human cells by Zika virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Better vaccines, immune response with new additives - OHSU News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Better vaccines, immune response with new additives - OHSU News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOM3djcnBhY1JZT08yUmxPVXhBRTJoT0I2SWRlSWNIaUZqdXFkTG1OVDF2QnR2YloxWGpCVnRWVmp6bURmNHF4V0xGcHZxN1J4VWotRDlMVjRqUjNCN2tJQjIxTXRKaHE0NHVfeGFqODEyOHBpQllPNmtrSW91dlhybHl4cnQ1eUthNlpn?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOM3djcnBhY1JZT08yUmxPVXhBRTJoT0I2SWRlSWNIaUZqdXFkTG1OVDF2QnR2YloxWGpCVnRWVmp6bURmNHF4V0xGcHZxN1J4VWotRDlMVjRqUjNCN2tJQjIxTXRKaHE0NHVfeGFqODEyOHBpQllPNmtrSW91dlhybHl4cnQ1eUthNlpn?oc=5",
+      "id": "CBMiiwFBVV95cUxOM3djcnBhY1JZT08yUmxPVXhBRTJoT0I2SWRlSWNIaUZqdXFkTG1OVDF2QnR2YloxWGpCVnRWVmp6bURmNHF4V0xGcHZxN1J4VWotRDlMVjRqUjNCN2tJQjIxTXRKaHE0NHVfeGFqODEyOHBpQllPNmtrSW91dlhybHl4cnQ1eUthNlpn",
+      "guidislink": false,
+      "published": "Wed, 30 Oct 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        10,
+        30,
+        7,
+        0,
+        0,
+        2,
+        303,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxOM3djcnBhY1JZT08yUmxPVXhBRTJoT0I2SWRlSWNIaUZqdXFkTG1OVDF2QnR2YloxWGpCVnRWVmp6bURmNHF4V0xGcHZxN1J4VWotRDlMVjRqUjNCN2tJQjIxTXRKaHE0NHVfeGFqODEyOHBpQllPNmtrSW91dlhybHl4cnQ1eUthNlpn?oc=5\" target=\"_blank\">Better vaccines, immune response with new additives</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">OHSU News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxOM3djcnBhY1JZT08yUmxPVXhBRTJoT0I2SWRlSWNIaUZqdXFkTG1OVDF2QnR2YloxWGpCVnRWVmp6bURmNHF4V0xGcHZxN1J4VWotRDlMVjRqUjNCN2tJQjIxTXRKaHE0NHVfeGFqODEyOHBpQllPNmtrSW91dlhybHl4cnQ1eUthNlpn?oc=5\" target=\"_blank\">Better vaccines, immune response with new additives</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">OHSU News</font>"
+      },
+      "source": {
+        "href": "https://news.ohsu.edu",
+        "title": "OHSU News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Scientists discover cell protein crucial in preventing viral replication - News-Medical",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Scientists discover cell protein crucial in preventing viral replication - News-Medical"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZUxNOVpUWTNBQnNFSVh0djJnNmtZd2lDTWtRdGt5b01KWmJkdEs1YzhVZUxXMEMtOFdvWENHNzFwd1g0ejBvVUFnM1JhYWJHY19rSFNjVEJpZnpmX2VMRXZmN1U1Vnk0UmZXdVVtdHEwbVl1aFBRdkU1RlNUWVp5aW40YTU2WjZsdGhNVExXVU5oNkFIUFFKenN0TU1uNHhYQ2FSSWw4b01BcjY4TGVaNUZaX25GNVh6LXVCbw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZUxNOVpUWTNBQnNFSVh0djJnNmtZd2lDTWtRdGt5b01KWmJkdEs1YzhVZUxXMEMtOFdvWENHNzFwd1g0ejBvVUFnM1JhYWJHY19rSFNjVEJpZnpmX2VMRXZmN1U1Vnk0UmZXdVVtdHEwbVl1aFBRdkU1RlNUWVp5aW40YTU2WjZsdGhNVExXVU5oNkFIUFFKenN0TU1uNHhYQ2FSSWw4b01BcjY4TGVaNUZaX25GNVh6LXVCbw?oc=5",
+      "id": "CBMivAFBVV95cUxQZUxNOVpUWTNBQnNFSVh0djJnNmtZd2lDTWtRdGt5b01KWmJkdEs1YzhVZUxXMEMtOFdvWENHNzFwd1g0ejBvVUFnM1JhYWJHY19rSFNjVEJpZnpmX2VMRXZmN1U1Vnk0UmZXdVVtdHEwbVl1aFBRdkU1RlNUWVp5aW40YTU2WjZsdGhNVExXVU5oNkFIUFFKenN0TU1uNHhYQ2FSSWw4b01BcjY4TGVaNUZaX25GNVh6LXVCbw",
+      "guidislink": false,
+      "published": "Wed, 06 Nov 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        11,
+        6,
+        8,
+        0,
+        0,
+        2,
+        310,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxQZUxNOVpUWTNBQnNFSVh0djJnNmtZd2lDTWtRdGt5b01KWmJkdEs1YzhVZUxXMEMtOFdvWENHNzFwd1g0ejBvVUFnM1JhYWJHY19rSFNjVEJpZnpmX2VMRXZmN1U1Vnk0UmZXdVVtdHEwbVl1aFBRdkU1RlNUWVp5aW40YTU2WjZsdGhNVExXVU5oNkFIUFFKenN0TU1uNHhYQ2FSSWw4b01BcjY4TGVaNUZaX25GNVh6LXVCbw?oc=5\" target=\"_blank\">Scientists discover cell protein crucial in preventing viral replication</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">News-Medical</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxQZUxNOVpUWTNBQnNFSVh0djJnNmtZd2lDTWtRdGt5b01KWmJkdEs1YzhVZUxXMEMtOFdvWENHNzFwd1g0ejBvVUFnM1JhYWJHY19rSFNjVEJpZnpmX2VMRXZmN1U1Vnk0UmZXdVVtdHEwbVl1aFBRdkU1RlNUWVp5aW40YTU2WjZsdGhNVExXVU5oNkFIUFFKenN0TU1uNHhYQ2FSSWw4b01BcjY4TGVaNUZaX25GNVh6LXVCbw?oc=5\" target=\"_blank\">Scientists discover cell protein crucial in preventing viral replication</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">News-Medical</font>"
+      },
+      "source": {
+        "href": "https://www.news-medical.net",
+        "title": "News-Medical"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Carol A. (Smith) Witscher Barnard Obituary October 29, 2019 - Rose Funeral Home | Meadville, PA",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Carol A. (Smith) Witscher Barnard Obituary October 29, 2019 - Rose Funeral Home | Meadville, PA"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBfZ2RySkN3Z2lTcVJqNTBKVFNIeXpTcGRUb1dwVlhHODg3WG5KZkF1S3VsYlptX2xmUzJmc0h1TFUxaG1YUEt4bnZjNEl0UGdabTltMVZ5RkRhSXdUX2NNaHdudV9NQQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBfZ2RySkN3Z2lTcVJqNTBKVFNIeXpTcGRUb1dwVlhHODg3WG5KZkF1S3VsYlptX2xmUzJmc0h1TFUxaG1YUEt4bnZjNEl0UGdabTltMVZ5RkRhSXdUX2NNaHdudV9NQQ?oc=5",
+      "id": "CBMiZkFVX3lxTFBfZ2RySkN3Z2lTcVJqNTBKVFNIeXpTcGRUb1dwVlhHODg3WG5KZkF1S3VsYlptX2xmUzJmc0h1TFUxaG1YUEt4bnZjNEl0UGdabTltMVZ5RkRhSXdUX2NNaHdudV9NQQ",
+      "guidislink": false,
+      "published": "Tue, 29 Oct 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        10,
+        29,
+        7,
+        0,
+        0,
+        1,
+        302,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTFBfZ2RySkN3Z2lTcVJqNTBKVFNIeXpTcGRUb1dwVlhHODg3WG5KZkF1S3VsYlptX2xmUzJmc0h1TFUxaG1YUEt4bnZjNEl0UGdabTltMVZ5RkRhSXdUX2NNaHdudV9NQQ?oc=5\" target=\"_blank\">Carol A. (Smith) Witscher Barnard Obituary October 29, 2019</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Rose Funeral Home | Meadville, PA</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTFBfZ2RySkN3Z2lTcVJqNTBKVFNIeXpTcGRUb1dwVlhHODg3WG5KZkF1S3VsYlptX2xmUzJmc0h1TFUxaG1YUEt4bnZjNEl0UGdabTltMVZ5RkRhSXdUX2NNaHdudV9NQQ?oc=5\" target=\"_blank\">Carol A. (Smith) Witscher Barnard Obituary October 29, 2019</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Rose Funeral Home | Meadville, PA</font>"
+      },
+      "source": {
+        "href": "https://www.rosefh.com",
+        "title": "Rose Funeral Home | Meadville, PA"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Death In Paradise at risk of 'different disease every year' on set - Metro.co.uk",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Death In Paradise at risk of 'different disease every year' on set - Metro.co.uk"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdGdzQXVza0lreFBsOUlOZV81THZwU0hjVFNDaUFycHk5R2wzWWlJVTAzUkxRbHVhdExUSENxM21PN0NDc3BFeEozcDh2Rnk1OGY0d2NnRnF5XzVDRUVaV3lyZ05pYTNiSHdPbzdJSlJLblhfZEM2TnNMNFFBWFhoNU5saFVzUlc3TWhZeTFBaG9hNTg0SXpTQ2JROVM1c01SenltSHZzLXVVaFl6NzhqeHdUSG5KeWJwVUxvMWJvUGpGTlpZdUU2czZ5NURhd9IB0wFBVV95cUxNZ09jT0gzTlpQTlpiZ2Vyc3dkRFMxaHVPSlcyWm8wNmNGOXRjdzhZVERiV2NlZExZSGVVVmhOdGZ5UmNCSlgxVm1ucmVYektnRE04LVBVd0ZhTjFrZXN6NTRSamxQYVVqaXV6akFUM3RzLW5ORV9OWDVKSklOaTB2Slg1NzVscjhSYVhjRWVpQ2d5MDQzSl9XNDR4eXl5YWF1YUlWMFozWDlnbTdvcjI2YUY5eUJCeUc1N0dobi1UajY3RUl6X3pJZEIwVHd4Y0tUdHo4?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdGdzQXVza0lreFBsOUlOZV81THZwU0hjVFNDaUFycHk5R2wzWWlJVTAzUkxRbHVhdExUSENxM21PN0NDc3BFeEozcDh2Rnk1OGY0d2NnRnF5XzVDRUVaV3lyZ05pYTNiSHdPbzdJSlJLblhfZEM2TnNMNFFBWFhoNU5saFVzUlc3TWhZeTFBaG9hNTg0SXpTQ2JROVM1c01SenltSHZzLXVVaFl6NzhqeHdUSG5KeWJwVUxvMWJvUGpGTlpZdUU2czZ5NURhd9IB0wFBVV95cUxNZ09jT0gzTlpQTlpiZ2Vyc3dkRFMxaHVPSlcyWm8wNmNGOXRjdzhZVERiV2NlZExZSGVVVmhOdGZ5UmNCSlgxVm1ucmVYektnRE04LVBVd0ZhTjFrZXN6NTRSamxQYVVqaXV6akFUM3RzLW5ORV9OWDVKSklOaTB2Slg1NzVscjhSYVhjRWVpQ2d5MDQzSl9XNDR4eXl5YWF1YUlWMFozWDlnbTdvcjI2YUY5eUJCeUc1N0dobi1UajY3RUl6X3pJZEIwVHd4Y0tUdHo4?oc=5",
+      "id": "CBMizgFBVV95cUxOdGdzQXVza0lreFBsOUlOZV81THZwU0hjVFNDaUFycHk5R2wzWWlJVTAzUkxRbHVhdExUSENxM21PN0NDc3BFeEozcDh2Rnk1OGY0d2NnRnF5XzVDRUVaV3lyZ05pYTNiSHdPbzdJSlJLblhfZEM2TnNMNFFBWFhoNU5saFVzUlc3TWhZeTFBaG9hNTg0SXpTQ2JROVM1c01SenltSHZzLXVVaFl6NzhqeHdUSG5KeWJwVUxvMWJvUGpGTlpZdUU2czZ5NURhd9IB0wFBVV95cUxNZ09jT0gzTlpQTlpiZ2Vyc3dkRFMxaHVPSlcyWm8wNmNGOXRjdzhZVERiV2NlZExZSGVVVmhOdGZ5UmNCSlgxVm1ucmVYektnRE04LVBVd0ZhTjFrZXN6NTRSamxQYVVqaXV6akFUM3RzLW5ORV9OWDVKSklOaTB2Slg1NzVscjhSYVhjRWVpQ2d5MDQzSl9XNDR4eXl5YWF1YUlWMFozWDlnbTdvcjI2YUY5eUJCeUc1N0dobi1UajY3RUl6X3pJZEIwVHd4Y0tUdHo4",
+      "guidislink": false,
+      "published": "Tue, 29 Oct 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        10,
+        29,
+        7,
+        0,
+        0,
+        1,
+        302,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxOdGdzQXVza0lreFBsOUlOZV81THZwU0hjVFNDaUFycHk5R2wzWWlJVTAzUkxRbHVhdExUSENxM21PN0NDc3BFeEozcDh2Rnk1OGY0d2NnRnF5XzVDRUVaV3lyZ05pYTNiSHdPbzdJSlJLblhfZEM2TnNMNFFBWFhoNU5saFVzUlc3TWhZeTFBaG9hNTg0SXpTQ2JROVM1c01SenltSHZzLXVVaFl6NzhqeHdUSG5KeWJwVUxvMWJvUGpGTlpZdUU2czZ5NURhd9IB0wFBVV95cUxNZ09jT0gzTlpQTlpiZ2Vyc3dkRFMxaHVPSlcyWm8wNmNGOXRjdzhZVERiV2NlZExZSGVVVmhOdGZ5UmNCSlgxVm1ucmVYektnRE04LVBVd0ZhTjFrZXN6NTRSamxQYVVqaXV6akFUM3RzLW5ORV9OWDVKSklOaTB2Slg1NzVscjhSYVhjRWVpQ2d5MDQzSl9XNDR4eXl5YWF1YUlWMFozWDlnbTdvcjI2YUY5eUJCeUc1N0dobi1UajY3RUl6X3pJZEIwVHd4Y0tUdHo4?oc=5\" target=\"_blank\">Death In Paradise at risk of 'different disease every year' on set</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Metro.co.uk</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxOdGdzQXVza0lreFBsOUlOZV81THZwU0hjVFNDaUFycHk5R2wzWWlJVTAzUkxRbHVhdExUSENxM21PN0NDc3BFeEozcDh2Rnk1OGY0d2NnRnF5XzVDRUVaV3lyZ05pYTNiSHdPbzdJSlJLblhfZEM2TnNMNFFBWFhoNU5saFVzUlc3TWhZeTFBaG9hNTg0SXpTQ2JROVM1c01SenltSHZzLXVVaFl6NzhqeHdUSG5KeWJwVUxvMWJvUGpGTlpZdUU2czZ5NURhd9IB0wFBVV95cUxNZ09jT0gzTlpQTlpiZ2Vyc3dkRFMxaHVPSlcyWm8wNmNGOXRjdzhZVERiV2NlZExZSGVVVmhOdGZ5UmNCSlgxVm1ucmVYektnRE04LVBVd0ZhTjFrZXN6NTRSamxQYVVqaXV6akFUM3RzLW5ORV9OWDVKSklOaTB2Slg1NzVscjhSYVhjRWVpQ2d5MDQzSl9XNDR4eXl5YWF1YUlWMFozWDlnbTdvcjI2YUY5eUJCeUc1N0dobi1UajY3RUl6X3pJZEIwVHd4Y0tUdHo4?oc=5\" target=\"_blank\">Death In Paradise at risk of 'different disease every year' on set</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Metro.co.uk</font>"
+      },
+      "source": {
+        "href": "https://metro.co.uk",
+        "title": "Metro.co.uk"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "20. The Tropic, Burleigh Heads - delicious.com.au",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "20. The Tropic, Burleigh Heads - delicious.com.au"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNaWZoWGdSUlpQV2x0QlRTR3BwZjZXSXc0dmVXVFZFSnhURkM4Z0l0U3VQZk8wM0lEdklZZlozRDBESUhuVktuc2xNRjFQdjRXcW54bHdabDNZQndETDlkRlV5Tk1kM3NtZTJscGViaXp3V0d6T0sxSzJjOTZScG1FMFBYTi1WUFVIVDhXYW9lNVVHUldiNk5VSks5Z0tObjhqdU1zLWktcC1TYmxFaGc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNaWZoWGdSUlpQV2x0QlRTR3BwZjZXSXc0dmVXVFZFSnhURkM4Z0l0U3VQZk8wM0lEdklZZlozRDBESUhuVktuc2xNRjFQdjRXcW54bHdabDNZQndETDlkRlV5Tk1kM3NtZTJscGViaXp3V0d6T0sxSzJjOTZScG1FMFBYTi1WUFVIVDhXYW9lNVVHUldiNk5VSks5Z0tObjhqdU1zLWktcC1TYmxFaGc?oc=5",
+      "id": "CBMirgFBVV95cUxNaWZoWGdSUlpQV2x0QlRTR3BwZjZXSXc0dmVXVFZFSnhURkM4Z0l0U3VQZk8wM0lEdklZZlozRDBESUhuVktuc2xNRjFQdjRXcW54bHdabDNZQndETDlkRlV5Tk1kM3NtZTJscGViaXp3V0d6T0sxSzJjOTZScG1FMFBYTi1WUFVIVDhXYW9lNVVHUldiNk5VSks5Z0tObjhqdU1zLWktcC1TYmxFaGc",
+      "guidislink": false,
+      "published": "Mon, 04 Nov 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        11,
+        4,
+        8,
+        0,
+        0,
+        0,
+        308,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxNaWZoWGdSUlpQV2x0QlRTR3BwZjZXSXc0dmVXVFZFSnhURkM4Z0l0U3VQZk8wM0lEdklZZlozRDBESUhuVktuc2xNRjFQdjRXcW54bHdabDNZQndETDlkRlV5Tk1kM3NtZTJscGViaXp3V0d6T0sxSzJjOTZScG1FMFBYTi1WUFVIVDhXYW9lNVVHUldiNk5VSks5Z0tObjhqdU1zLWktcC1TYmxFaGc?oc=5\" target=\"_blank\">20. The Tropic, Burleigh Heads</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">delicious.com.au</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxNaWZoWGdSUlpQV2x0QlRTR3BwZjZXSXc0dmVXVFZFSnhURkM4Z0l0U3VQZk8wM0lEdklZZlozRDBESUhuVktuc2xNRjFQdjRXcW54bHdabDNZQndETDlkRlV5Tk1kM3NtZTJscGViaXp3V0d6T0sxSzJjOTZScG1FMFBYTi1WUFVIVDhXYW9lNVVHUldiNk5VSks5Z0tObjhqdU1zLWktcC1TYmxFaGc?oc=5\" target=\"_blank\">20. The Tropic, Burleigh Heads</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">delicious.com.au</font>"
+      },
+      "source": {
+        "href": "https://www.delicious.com.au",
+        "title": "delicious.com.au"
+      },
+      "sub_articles": []
+    }
+  ]
+}

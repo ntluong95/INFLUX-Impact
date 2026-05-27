@@ -1,0 +1,908 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2018-09-28",
+  "window_end": "2018-10-11",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2018-09-28+before%3A2018-10-12&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2018-09-28+before:2018-10-12&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:26:21Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2018-09-28 before:2018-10-12\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2018-09-28 before:2018-10-12\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2018-09-28+before:2018-10-12&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2018-09-28+before:2018-10-12&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:26:22 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      26,
+      22,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Differentiation enhances Zika virus infection of neuronal brain cells - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Differentiation enhances Zika virus infection of neuronal brain cells - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5WbkNXbWZmTFdRMDNQX18tVE1yejM4alA4M0djZFcydjA5R2xsaHNqQ3JLSk5iTC05ZTVZTkJaR3ZFdjJoQ2puSWQ3OFdXMi1DdkY5Q2tua242LTVEdnhV?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5WbkNXbWZmTFdRMDNQX18tVE1yejM4alA4M0djZFcydjA5R2xsaHNqQ3JLSk5iTC05ZTVZTkJaR3ZFdjJoQ2puSWQ3OFdXMi1DdkY5Q2tua242LTVEdnhV?oc=5",
+      "id": "CBMiX0FVX3lxTE5WbkNXbWZmTFdRMDNQX18tVE1yejM4alA4M0djZFcydjA5R2xsaHNqQ3JLSk5iTC05ZTVZTkJaR3ZFdjJoQ2puSWQ3OFdXMi1DdkY5Q2tua242LTVEdnhV",
+      "guidislink": false,
+      "published": "Fri, 28 Sep 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        9,
+        28,
+        7,
+        0,
+        0,
+        4,
+        271,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5WbkNXbWZmTFdRMDNQX18tVE1yejM4alA4M0djZFcydjA5R2xsaHNqQ3JLSk5iTC05ZTVZTkJaR3ZFdjJoQ2puSWQ3OFdXMi1DdkY5Q2tua242LTVEdnhV?oc=5\" target=\"_blank\">Differentiation enhances Zika virus infection of neuronal brain cells</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5WbkNXbWZmTFdRMDNQX18tVE1yejM4alA4M0djZFcydjA5R2xsaHNqQ3JLSk5iTC05ZTVZTkJaR3ZFdjJoQ2puSWQ3OFdXMi1DdkY5Q2tua242LTVEdnhV?oc=5\" target=\"_blank\">Differentiation enhances Zika virus infection of neuronal brain cells</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Is the Zika virus epidemic in Latin America and the Caribbean really over? - The London School of Hygiene & Tropical Medicine",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Is the Zika virus epidemic in Latin America and the Caribbean really over? - The London School of Hygiene & Tropical Medicine"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVkZhUTBMcTVMRGJmemc1LXhYQ212QVM3eWQ1R3kzRndBV0Fza3Y5QzVVa3N3c3hhc2dELUJ1ZXlzbEF0U2VxZHhNMkEweG54RW93U0R5eXJnSW9TaG5ZMjZwYk81eFJRaFJpUF9tcTFoOHhCc0EyOWdZcGF0OGtYWU9ZZl83aVBEc3RtU1EtVmtxMm1fWGkyd0s4czZDUDAzdEk3SlI0a21sV3M4dlE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVkZhUTBMcTVMRGJmemc1LXhYQ212QVM3eWQ1R3kzRndBV0Fza3Y5QzVVa3N3c3hhc2dELUJ1ZXlzbEF0U2VxZHhNMkEweG54RW93U0R5eXJnSW9TaG5ZMjZwYk81eFJRaFJpUF9tcTFoOHhCc0EyOWdZcGF0OGtYWU9ZZl83aVBEc3RtU1EtVmtxMm1fWGkyd0s4czZDUDAzdEk3SlI0a21sV3M4dlE?oc=5",
+      "id": "CBMirgFBVV95cUxPVkZhUTBMcTVMRGJmemc1LXhYQ212QVM3eWQ1R3kzRndBV0Fza3Y5QzVVa3N3c3hhc2dELUJ1ZXlzbEF0U2VxZHhNMkEweG54RW93U0R5eXJnSW9TaG5ZMjZwYk81eFJRaFJpUF9tcTFoOHhCc0EyOWdZcGF0OGtYWU9ZZl83aVBEc3RtU1EtVmtxMm1fWGkyd0s4czZDUDAzdEk3SlI0a21sV3M4dlE",
+      "guidislink": false,
+      "published": "Wed, 03 Oct 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        10,
+        3,
+        7,
+        0,
+        0,
+        2,
+        276,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxPVkZhUTBMcTVMRGJmemc1LXhYQ212QVM3eWQ1R3kzRndBV0Fza3Y5QzVVa3N3c3hhc2dELUJ1ZXlzbEF0U2VxZHhNMkEweG54RW93U0R5eXJnSW9TaG5ZMjZwYk81eFJRaFJpUF9tcTFoOHhCc0EyOWdZcGF0OGtYWU9ZZl83aVBEc3RtU1EtVmtxMm1fWGkyd0s4czZDUDAzdEk3SlI0a21sV3M4dlE?oc=5\" target=\"_blank\">Is the Zika virus epidemic in Latin America and the Caribbean really over?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The London School of Hygiene & Tropical Medicine</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxPVkZhUTBMcTVMRGJmemc1LXhYQ212QVM3eWQ1R3kzRndBV0Fza3Y5QzVVa3N3c3hhc2dELUJ1ZXlzbEF0U2VxZHhNMkEweG54RW93U0R5eXJnSW9TaG5ZMjZwYk81eFJRaFJpUF9tcTFoOHhCc0EyOWdZcGF0OGtYWU9ZZl83aVBEc3RtU1EtVmtxMm1fWGkyd0s4czZDUDAzdEk3SlI0a21sV3M4dlE?oc=5\" target=\"_blank\">Is the Zika virus epidemic in Latin America and the Caribbean really over?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The London School of Hygiene & Tropical Medicine</font>"
+      },
+      "source": {
+        "href": "https://www.lshtm.ac.uk",
+        "title": "The London School of Hygiene & Tropical Medicine"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "ZIKA LOVE STORIES - BBC",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "ZIKA LOVE STORIES - BBC"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1sVFpYckxWMmd0ZEpSV3FYWG5kTTZub1lMOE1CY0dUV3F3NjhDTlI0QVpTbTY5ZS12Sk03X18xTWxtMTJUQlhGaFpCQW5DdjVaTUxZcjlGcVFqVDRvQkdydmx0RlNqeHBEc0pTTGV3?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1sVFpYckxWMmd0ZEpSV3FYWG5kTTZub1lMOE1CY0dUV3F3NjhDTlI0QVpTbTY5ZS12Sk03X18xTWxtMTJUQlhGaFpCQW5DdjVaTUxZcjlGcVFqVDRvQkdydmx0RlNqeHBEc0pTTGV3?oc=5",
+      "id": "CBMibkFVX3lxTE1sVFpYckxWMmd0ZEpSV3FYWG5kTTZub1lMOE1CY0dUV3F3NjhDTlI0QVpTbTY5ZS12Sk03X18xTWxtMTJUQlhGaFpCQW5DdjVaTUxZcjlGcVFqVDRvQkdydmx0RlNqeHBEc0pTTGV3",
+      "guidislink": false,
+      "published": "Sun, 30 Sep 2018 23:48:55 GMT",
+      "published_parsed": [
+        2018,
+        9,
+        30,
+        23,
+        48,
+        55,
+        6,
+        273,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTE1sVFpYckxWMmd0ZEpSV3FYWG5kTTZub1lMOE1CY0dUV3F3NjhDTlI0QVpTbTY5ZS12Sk03X18xTWxtMTJUQlhGaFpCQW5DdjVaTUxZcjlGcVFqVDRvQkdydmx0RlNqeHBEc0pTTGV3?oc=5\" target=\"_blank\">ZIKA LOVE STORIES</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTE1sVFpYckxWMmd0ZEpSV3FYWG5kTTZub1lMOE1CY0dUV3F3NjhDTlI0QVpTbTY5ZS12Sk03X18xTWxtMTJUQlhGaFpCQW5DdjVaTUxZcjlGcVFqVDRvQkdydmx0RlNqeHBEc0pTTGV3?oc=5\" target=\"_blank\">ZIKA LOVE STORIES</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>"
+      },
+      "source": {
+        "href": "https://www.bbc.co.uk",
+        "title": "BBC"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Pasadena Residents Advised to Take Precautions Against Mosquito Bites - City of Pasadena",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Pasadena Residents Advised to Take Precautions Against Mosquito Bites - City of Pasadena"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTHFiN1hwdGEyTWk5VTU3WGJPcnZ5MmNwdXV4MV9wMld5OUNwbXE5RHZBQ2tzSUFieVI3OFNzTlVhanhPU3BNXzdxeGh0NHNLa3FFR2ZxM2J1LXpuRjNqTlU4Zmd4YUpWM1R6b3N0UWhCdXUtYkMyeUtNUzUxbXNvcWZoX2RhWU1FR2JmbThXWlpSTlNkcjlSZ1ZJNzc0MDZ4M1R1LW5QaTF4WTI4bmNuVUJFaUhrMEdCMTFF?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTHFiN1hwdGEyTWk5VTU3WGJPcnZ5MmNwdXV4MV9wMld5OUNwbXE5RHZBQ2tzSUFieVI3OFNzTlVhanhPU3BNXzdxeGh0NHNLa3FFR2ZxM2J1LXpuRjNqTlU4Zmd4YUpWM1R6b3N0UWhCdXUtYkMyeUtNUzUxbXNvcWZoX2RhWU1FR2JmbThXWlpSTlNkcjlSZ1ZJNzc0MDZ4M1R1LW5QaTF4WTI4bmNuVUJFaUhrMEdCMTFF?oc=5",
+      "id": "CBMiuwFBVV95cUxNTHFiN1hwdGEyTWk5VTU3WGJPcnZ5MmNwdXV4MV9wMld5OUNwbXE5RHZBQ2tzSUFieVI3OFNzTlVhanhPU3BNXzdxeGh0NHNLa3FFR2ZxM2J1LXpuRjNqTlU4Zmd4YUpWM1R6b3N0UWhCdXUtYkMyeUtNUzUxbXNvcWZoX2RhWU1FR2JmbThXWlpSTlNkcjlSZ1ZJNzc0MDZ4M1R1LW5QaTF4WTI4bmNuVUJFaUhrMEdCMTFF",
+      "guidislink": false,
+      "published": "Tue, 02 Oct 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        10,
+        2,
+        7,
+        0,
+        0,
+        1,
+        275,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTHFiN1hwdGEyTWk5VTU3WGJPcnZ5MmNwdXV4MV9wMld5OUNwbXE5RHZBQ2tzSUFieVI3OFNzTlVhanhPU3BNXzdxeGh0NHNLa3FFR2ZxM2J1LXpuRjNqTlU4Zmd4YUpWM1R6b3N0UWhCdXUtYkMyeUtNUzUxbXNvcWZoX2RhWU1FR2JmbThXWlpSTlNkcjlSZ1ZJNzc0MDZ4M1R1LW5QaTF4WTI4bmNuVUJFaUhrMEdCMTFF?oc=5\" target=\"_blank\">Pasadena Residents Advised to Take Precautions Against Mosquito Bites</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">City of Pasadena</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTHFiN1hwdGEyTWk5VTU3WGJPcnZ5MmNwdXV4MV9wMld5OUNwbXE5RHZBQ2tzSUFieVI3OFNzTlVhanhPU3BNXzdxeGh0NHNLa3FFR2ZxM2J1LXpuRjNqTlU4Zmd4YUpWM1R6b3N0UWhCdXUtYkMyeUtNUzUxbXNvcWZoX2RhWU1FR2JmbThXWlpSTlNkcjlSZ1ZJNzc0MDZ4M1R1LW5QaTF4WTI4bmNuVUJFaUhrMEdCMTFF?oc=5\" target=\"_blank\">Pasadena Residents Advised to Take Precautions Against Mosquito Bites</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">City of Pasadena</font>"
+      },
+      "source": {
+        "href": "https://www.cityofpasadena.net",
+        "title": "City of Pasadena"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Urological assessment in 22 consecutive patients with confirmed Congenital Zika Syndrome. - PLOS",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Urological assessment in 22 consecutive patients with confirmed Congenital Zika Syndrome. - PLOS"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxON2Ixa1FGakhfTUtQYzlfVVdWLVZZblZsbnBRQWF1RXZCM0hmWGR4N2I0R19NU2o5RUpwZ3hENHhFUEpKb0dDUDJTMW9vZ2RrYm44OV9qdm9VU25zX04wNUFjU0J1N3ZSQ1FaNVV4SEE0Z0EzVXJKQjJOTE54eWtGOTBtSmVWemdU?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxON2Ixa1FGakhfTUtQYzlfVVdWLVZZblZsbnBRQWF1RXZCM0hmWGR4N2I0R19NU2o5RUpwZ3hENHhFUEpKb0dDUDJTMW9vZ2RrYm44OV9qdm9VU25zX04wNUFjU0J1N3ZSQ1FaNVV4SEE0Z0EzVXJKQjJOTE54eWtGOTBtSmVWemdU?oc=5",
+      "id": "CBMiiAFBVV95cUxON2Ixa1FGakhfTUtQYzlfVVdWLVZZblZsbnBRQWF1RXZCM0hmWGR4N2I0R19NU2o5RUpwZ3hENHhFUEpKb0dDUDJTMW9vZ2RrYm44OV9qdm9VU25zX04wNUFjU0J1N3ZSQ1FaNVV4SEE0Z0EzVXJKQjJOTE54eWtGOTBtSmVWemdU",
+      "guidislink": false,
+      "published": "Thu, 04 Oct 2018 22:13:45 GMT",
+      "published_parsed": [
+        2018,
+        10,
+        4,
+        22,
+        13,
+        45,
+        3,
+        277,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxON2Ixa1FGakhfTUtQYzlfVVdWLVZZblZsbnBRQWF1RXZCM0hmWGR4N2I0R19NU2o5RUpwZ3hENHhFUEpKb0dDUDJTMW9vZ2RrYm44OV9qdm9VU25zX04wNUFjU0J1N3ZSQ1FaNVV4SEE0Z0EzVXJKQjJOTE54eWtGOTBtSmVWemdU?oc=5\" target=\"_blank\">Urological assessment in 22 consecutive patients with confirmed Congenital Zika Syndrome.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PLOS</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxON2Ixa1FGakhfTUtQYzlfVVdWLVZZblZsbnBRQWF1RXZCM0hmWGR4N2I0R19NU2o5RUpwZ3hENHhFUEpKb0dDUDJTMW9vZ2RrYm44OV9qdm9VU25zX04wNUFjU0J1N3ZSQ1FaNVV4SEE0Z0EzVXJKQjJOTE54eWtGOTBtSmVWemdU?oc=5\" target=\"_blank\">Urological assessment in 22 consecutive patients with confirmed Congenital Zika Syndrome.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PLOS</font>"
+      },
+      "source": {
+        "href": "https://journals.plos.org",
+        "title": "PLOS"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Identifying Zika-transmitting mosquito fast, cheaply, and on the go - Mongabay",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Identifying Zika-transmitting mosquito fast, cheaply, and on the go - Mongabay"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdVc2Ul9JajN0dTNsU1dYdW5hczVLQmRleVpBSnpGWnBaRHdrWUFrRTlJQjJTX2M3dVFqQ0N4UWdlbmR2NlhidnVvTmI3VmU1U3ZiMm5CWDFsLXVHb01va1BOSEVKZ1p5eU9ocUhqenpxVXRHYjlLMEZxNTNtNWFSOHRTaGVVQmpnaHVqek5kcWI5VkpkMmpnekJVaVRackVjNGfSAacBQVVfeXFMT0oyM1FOMDVjMVVGakVkcGgzVHlJSlByZFprYnhOWFdsN0tEa2tWV3BWRFNQTXc4V2h0YU5LTVpGTnN3Y3I2QlpKOHFWWFpMYmRmclZwNWVqeGpVbXU0Z3plbVJ5UEhLa0tvNHdjVTBpVUk0Y1VEU3R4OVFFclJ0QW1hZVZ1RFVVbjZQMkdKMzlpVGpnSnJtck1FUmp5T2VSdDN2VVB2NWc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdVc2Ul9JajN0dTNsU1dYdW5hczVLQmRleVpBSnpGWnBaRHdrWUFrRTlJQjJTX2M3dVFqQ0N4UWdlbmR2NlhidnVvTmI3VmU1U3ZiMm5CWDFsLXVHb01va1BOSEVKZ1p5eU9ocUhqenpxVXRHYjlLMEZxNTNtNWFSOHRTaGVVQmpnaHVqek5kcWI5VkpkMmpnekJVaVRackVjNGfSAacBQVVfeXFMT0oyM1FOMDVjMVVGakVkcGgzVHlJSlByZFprYnhOWFdsN0tEa2tWV3BWRFNQTXc4V2h0YU5LTVpGTnN3Y3I2QlpKOHFWWFpMYmRmclZwNWVqeGpVbXU0Z3plbVJ5UEhLa0tvNHdjVTBpVUk0Y1VEU3R4OVFFclJ0QW1hZVZ1RFVVbjZQMkdKMzlpVGpnSnJtck1FUmp5T2VSdDN2VVB2NWc?oc=5",
+      "id": "CBMiogFBVV95cUxPdVc2Ul9JajN0dTNsU1dYdW5hczVLQmRleVpBSnpGWnBaRHdrWUFrRTlJQjJTX2M3dVFqQ0N4UWdlbmR2NlhidnVvTmI3VmU1U3ZiMm5CWDFsLXVHb01va1BOSEVKZ1p5eU9ocUhqenpxVXRHYjlLMEZxNTNtNWFSOHRTaGVVQmpnaHVqek5kcWI5VkpkMmpnekJVaVRackVjNGfSAacBQVVfeXFMT0oyM1FOMDVjMVVGakVkcGgzVHlJSlByZFprYnhOWFdsN0tEa2tWV3BWRFNQTXc4V2h0YU5LTVpGTnN3Y3I2QlpKOHFWWFpMYmRmclZwNWVqeGpVbXU0Z3plbVJ5UEhLa0tvNHdjVTBpVUk0Y1VEU3R4OVFFclJ0QW1hZVZ1RFVVbjZQMkdKMzlpVGpnSnJtck1FUmp5T2VSdDN2VVB2NWc",
+      "guidislink": false,
+      "published": "Wed, 03 Oct 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        10,
+        3,
+        7,
+        0,
+        0,
+        2,
+        276,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxPdVc2Ul9JajN0dTNsU1dYdW5hczVLQmRleVpBSnpGWnBaRHdrWUFrRTlJQjJTX2M3dVFqQ0N4UWdlbmR2NlhidnVvTmI3VmU1U3ZiMm5CWDFsLXVHb01va1BOSEVKZ1p5eU9ocUhqenpxVXRHYjlLMEZxNTNtNWFSOHRTaGVVQmpnaHVqek5kcWI5VkpkMmpnekJVaVRackVjNGfSAacBQVVfeXFMT0oyM1FOMDVjMVVGakVkcGgzVHlJSlByZFprYnhOWFdsN0tEa2tWV3BWRFNQTXc4V2h0YU5LTVpGTnN3Y3I2QlpKOHFWWFpMYmRmclZwNWVqeGpVbXU0Z3plbVJ5UEhLa0tvNHdjVTBpVUk0Y1VEU3R4OVFFclJ0QW1hZVZ1RFVVbjZQMkdKMzlpVGpnSnJtck1FUmp5T2VSdDN2VVB2NWc?oc=5\" target=\"_blank\">Identifying Zika-transmitting mosquito fast, cheaply, and on the go</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Mongabay</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxPdVc2Ul9JajN0dTNsU1dYdW5hczVLQmRleVpBSnpGWnBaRHdrWUFrRTlJQjJTX2M3dVFqQ0N4UWdlbmR2NlhidnVvTmI3VmU1U3ZiMm5CWDFsLXVHb01va1BOSEVKZ1p5eU9ocUhqenpxVXRHYjlLMEZxNTNtNWFSOHRTaGVVQmpnaHVqek5kcWI5VkpkMmpnekJVaVRackVjNGfSAacBQVVfeXFMT0oyM1FOMDVjMVVGakVkcGgzVHlJSlByZFprYnhOWFdsN0tEa2tWV3BWRFNQTXc4V2h0YU5LTVpGTnN3Y3I2QlpKOHFWWFpMYmRmclZwNWVqeGpVbXU0Z3plbVJ5UEhLa0tvNHdjVTBpVUk0Y1VEU3R4OVFFclJ0QW1hZVZ1RFVVbjZQMkdKMzlpVGpnSnJtck1FUmp5T2VSdDN2VVB2NWc?oc=5\" target=\"_blank\">Identifying Zika-transmitting mosquito fast, cheaply, and on the go</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Mongabay</font>"
+      },
+      "source": {
+        "href": "https://news.mongabay.com",
+        "title": "Mongabay"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "American Samoa UHC Zika & Dengue Situation Report Epi Week 38 (September 16–22, 2018) - ReliefWeb",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "American Samoa UHC Zika & Dengue Situation Report Epi Week 38 (September 16–22, 2018) - ReliefWeb"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQX2Fvd2pIRFVOWEtmMGNEVU0xZHhSMDRkZC1fclQ5MXA1ZjRXVkM4WlNxR0Qya2JDUDY1Y1hnbmtmbUE1SlBVQ2YxTm5QZjZ3bzcwT2swR1JqTlBsWjRyNVVaNE5VdEZ2WDVQNWc3VVpkOHFjWGxPektnTVBlY1prVm9WTHI4ekdRR1pMTXc2X0VBSTlKbTBMck9LMW5fM2NBRkpPdDFBcEs2bmg4aUlLZDM5NThQRFpvNl9N?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQX2Fvd2pIRFVOWEtmMGNEVU0xZHhSMDRkZC1fclQ5MXA1ZjRXVkM4WlNxR0Qya2JDUDY1Y1hnbmtmbUE1SlBVQ2YxTm5QZjZ3bzcwT2swR1JqTlBsWjRyNVVaNE5VdEZ2WDVQNWc3VVpkOHFjWGxPektnTVBlY1prVm9WTHI4ekdRR1pMTXc2X0VBSTlKbTBMck9LMW5fM2NBRkpPdDFBcEs2bmg4aUlLZDM5NThQRFpvNl9N?oc=5",
+      "id": "CBMiuwFBVV95cUxQX2Fvd2pIRFVOWEtmMGNEVU0xZHhSMDRkZC1fclQ5MXA1ZjRXVkM4WlNxR0Qya2JDUDY1Y1hnbmtmbUE1SlBVQ2YxTm5QZjZ3bzcwT2swR1JqTlBsWjRyNVVaNE5VdEZ2WDVQNWc3VVpkOHFjWGxPektnTVBlY1prVm9WTHI4ekdRR1pMTXc2X0VBSTlKbTBMck9LMW5fM2NBRkpPdDFBcEs2bmg4aUlLZDM5NThQRFpvNl9N",
+      "guidislink": false,
+      "published": "Mon, 01 Oct 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        10,
+        1,
+        7,
+        0,
+        0,
+        0,
+        274,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxQX2Fvd2pIRFVOWEtmMGNEVU0xZHhSMDRkZC1fclQ5MXA1ZjRXVkM4WlNxR0Qya2JDUDY1Y1hnbmtmbUE1SlBVQ2YxTm5QZjZ3bzcwT2swR1JqTlBsWjRyNVVaNE5VdEZ2WDVQNWc3VVpkOHFjWGxPektnTVBlY1prVm9WTHI4ekdRR1pMTXc2X0VBSTlKbTBMck9LMW5fM2NBRkpPdDFBcEs2bmg4aUlLZDM5NThQRFpvNl9N?oc=5\" target=\"_blank\">American Samoa UHC Zika & Dengue Situation Report Epi Week 38 (September 16–22, 2018)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ReliefWeb</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxQX2Fvd2pIRFVOWEtmMGNEVU0xZHhSMDRkZC1fclQ5MXA1ZjRXVkM4WlNxR0Qya2JDUDY1Y1hnbmtmbUE1SlBVQ2YxTm5QZjZ3bzcwT2swR1JqTlBsWjRyNVVaNE5VdEZ2WDVQNWc3VVpkOHFjWGxPektnTVBlY1prVm9WTHI4ekdRR1pMTXc2X0VBSTlKbTBMck9LMW5fM2NBRkpPdDFBcEs2bmg4aUlLZDM5NThQRFpvNl9N?oc=5\" target=\"_blank\">American Samoa UHC Zika & Dengue Situation Report Epi Week 38 (September 16–22, 2018)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ReliefWeb</font>"
+      },
+      "source": {
+        "href": "https://reliefweb.int",
+        "title": "ReliefWeb"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Break on through: How some viruses infect the placenta - Knowable Magazine",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Break on through: How some viruses infect the placenta - Knowable Magazine"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPblcySzRoMVo2WC1MZFZtVTd1b1QwemsyRzRVUWdpLXZaMlVmUTlrNWY0bnB4VUJibVAxa3hTNUdrcnJwUWxORHNLTnJXQmlTeVUzNDNTWDlpS05mR0F3TWs5bTRJUkkzQkJLVnd1UjdUU3VOUVhvLTdGaDZxdWpQeGRYSGhqeGpYNzh0WS1fVkY4TVMtZVpwRmljaFVTZzZ1VUtxZnhpQWNORG00YkVTZA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPblcySzRoMVo2WC1MZFZtVTd1b1QwemsyRzRVUWdpLXZaMlVmUTlrNWY0bnB4VUJibVAxa3hTNUdrcnJwUWxORHNLTnJXQmlTeVUzNDNTWDlpS05mR0F3TWs5bTRJUkkzQkJLVnd1UjdUU3VOUVhvLTdGaDZxdWpQeGRYSGhqeGpYNzh0WS1fVkY4TVMtZVpwRmljaFVTZzZ1VUtxZnhpQWNORG00YkVTZA?oc=5",
+      "id": "CBMisAFBVV95cUxPblcySzRoMVo2WC1MZFZtVTd1b1QwemsyRzRVUWdpLXZaMlVmUTlrNWY0bnB4VUJibVAxa3hTNUdrcnJwUWxORHNLTnJXQmlTeVUzNDNTWDlpS05mR0F3TWs5bTRJUkkzQkJLVnd1UjdUU3VOUVhvLTdGaDZxdWpQeGRYSGhqeGpYNzh0WS1fVkY4TVMtZVpwRmljaFVTZzZ1VUtxZnhpQWNORG00YkVTZA",
+      "guidislink": false,
+      "published": "Wed, 10 Oct 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        10,
+        10,
+        7,
+        0,
+        0,
+        2,
+        283,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPblcySzRoMVo2WC1MZFZtVTd1b1QwemsyRzRVUWdpLXZaMlVmUTlrNWY0bnB4VUJibVAxa3hTNUdrcnJwUWxORHNLTnJXQmlTeVUzNDNTWDlpS05mR0F3TWs5bTRJUkkzQkJLVnd1UjdUU3VOUVhvLTdGaDZxdWpQeGRYSGhqeGpYNzh0WS1fVkY4TVMtZVpwRmljaFVTZzZ1VUtxZnhpQWNORG00YkVTZA?oc=5\" target=\"_blank\">Break on through: How some viruses infect the placenta</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Knowable Magazine</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPblcySzRoMVo2WC1MZFZtVTd1b1QwemsyRzRVUWdpLXZaMlVmUTlrNWY0bnB4VUJibVAxa3hTNUdrcnJwUWxORHNLTnJXQmlTeVUzNDNTWDlpS05mR0F3TWs5bTRJUkkzQkJLVnd1UjdUU3VOUVhvLTdGaDZxdWpQeGRYSGhqeGpYNzh0WS1fVkY4TVMtZVpwRmljaFVTZzZ1VUtxZnhpQWNORG00YkVTZA?oc=5\" target=\"_blank\">Break on through: How some viruses infect the placenta</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Knowable Magazine</font>"
+      },
+      "source": {
+        "href": "https://knowablemagazine.org",
+        "title": "Knowable Magazine"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Taiwan issues travel alert after case of Zika imported into country - The Telegraph",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Taiwan issues travel alert after case of Zika imported into country - The Telegraph"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcDlwUEZYYnZ6QWxzd3NXQnV1YjI0dVY3Z3QyU19QNlk1OUwzeTVtYXd0TnpySWU4c21Zck93MFoyRXNhblR2Z2VkZnlDdHpzYUtWUDNCbWxwTVFVd1RMZHRTZGFsNFRSbk85UHk2OWluZ2pJcTRFT2dEQUFuM3lpYXNtQTBZZGc2YWsxSXpXOXZLQXk0emJvUGd4MXNobkhNS3VnQl9tRFdEcEpMMm9scWlSQjBSeEk?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcDlwUEZYYnZ6QWxzd3NXQnV1YjI0dVY3Z3QyU19QNlk1OUwzeTVtYXd0TnpySWU4c21Zck93MFoyRXNhblR2Z2VkZnlDdHpzYUtWUDNCbWxwTVFVd1RMZHRTZGFsNFRSbk85UHk2OWluZ2pJcTRFT2dEQUFuM3lpYXNtQTBZZGc2YWsxSXpXOXZLQXk0emJvUGd4MXNobkhNS3VnQl9tRFdEcEpMMm9scWlSQjBSeEk?oc=5",
+      "id": "CBMitwFBVV95cUxNcDlwUEZYYnZ6QWxzd3NXQnV1YjI0dVY3Z3QyU19QNlk1OUwzeTVtYXd0TnpySWU4c21Zck93MFoyRXNhblR2Z2VkZnlDdHpzYUtWUDNCbWxwTVFVd1RMZHRTZGFsNFRSbk85UHk2OWluZ2pJcTRFT2dEQUFuM3lpYXNtQTBZZGc2YWsxSXpXOXZLQXk0emJvUGd4MXNobkhNS3VnQl9tRFdEcEpMMm9scWlSQjBSeEk",
+      "guidislink": false,
+      "published": "Thu, 04 Oct 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        10,
+        4,
+        7,
+        0,
+        0,
+        3,
+        277,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxNcDlwUEZYYnZ6QWxzd3NXQnV1YjI0dVY3Z3QyU19QNlk1OUwzeTVtYXd0TnpySWU4c21Zck93MFoyRXNhblR2Z2VkZnlDdHpzYUtWUDNCbWxwTVFVd1RMZHRTZGFsNFRSbk85UHk2OWluZ2pJcTRFT2dEQUFuM3lpYXNtQTBZZGc2YWsxSXpXOXZLQXk0emJvUGd4MXNobkhNS3VnQl9tRFdEcEpMMm9scWlSQjBSeEk?oc=5\" target=\"_blank\">Taiwan issues travel alert after case of Zika imported into country</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Telegraph</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxNcDlwUEZYYnZ6QWxzd3NXQnV1YjI0dVY3Z3QyU19QNlk1OUwzeTVtYXd0TnpySWU4c21Zck93MFoyRXNhblR2Z2VkZnlDdHpzYUtWUDNCbWxwTVFVd1RMZHRTZGFsNFRSbk85UHk2OWluZ2pJcTRFT2dEQUFuM3lpYXNtQTBZZGc2YWsxSXpXOXZLQXk0emJvUGd4MXNobkhNS3VnQl9tRFdEcEpMMm9scWlSQjBSeEk?oc=5\" target=\"_blank\">Taiwan issues travel alert after case of Zika imported into country</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Telegraph</font>"
+      },
+      "source": {
+        "href": "https://www.telegraph.co.uk",
+        "title": "The Telegraph"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Mothers of Brazil’s Zika babies visit UK to share their stories - University of York",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Mothers of Brazil’s Zika babies visit UK to share their stories - University of York"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUzB3NFJKQzd5aXNGeVk1V3BrVUVlNUVidjVIRHJMNjREaG1sYjFZWlQxdEtHaHhPckpHcldlUlY3U25MRldmc0I2eWtFVUxzamZRd3hHZzVqMkU3bUZMOTlmQ0NRUXdpNmt4VzNEN2tuUjEwVnh4ZzB1N1kxY2ZiaktZRmpPMFAxR3RNVm42MUlHVUxXV0RqYmk3dVNObHM?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUzB3NFJKQzd5aXNGeVk1V3BrVUVlNUVidjVIRHJMNjREaG1sYjFZWlQxdEtHaHhPckpHcldlUlY3U25MRldmc0I2eWtFVUxzamZRd3hHZzVqMkU3bUZMOTlmQ0NRUXdpNmt4VzNEN2tuUjEwVnh4ZzB1N1kxY2ZiaktZRmpPMFAxR3RNVm42MUlHVUxXV0RqYmk3dVNObHM?oc=5",
+      "id": "CBMinwFBVV95cUxPUzB3NFJKQzd5aXNGeVk1V3BrVUVlNUVidjVIRHJMNjREaG1sYjFZWlQxdEtHaHhPckpHcldlUlY3U25MRldmc0I2eWtFVUxzamZRd3hHZzVqMkU3bUZMOTlmQ0NRUXdpNmt4VzNEN2tuUjEwVnh4ZzB1N1kxY2ZiaktZRmpPMFAxR3RNVm42MUlHVUxXV0RqYmk3dVNObHM",
+      "guidislink": false,
+      "published": "Mon, 08 Oct 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        10,
+        8,
+        7,
+        0,
+        0,
+        0,
+        281,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxPUzB3NFJKQzd5aXNGeVk1V3BrVUVlNUVidjVIRHJMNjREaG1sYjFZWlQxdEtHaHhPckpHcldlUlY3U25MRldmc0I2eWtFVUxzamZRd3hHZzVqMkU3bUZMOTlmQ0NRUXdpNmt4VzNEN2tuUjEwVnh4ZzB1N1kxY2ZiaktZRmpPMFAxR3RNVm42MUlHVUxXV0RqYmk3dVNObHM?oc=5\" target=\"_blank\">Mothers of Brazil’s Zika babies visit UK to share their stories</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of York</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxPUzB3NFJKQzd5aXNGeVk1V3BrVUVlNUVidjVIRHJMNjREaG1sYjFZWlQxdEtHaHhPckpHcldlUlY3U25MRldmc0I2eWtFVUxzamZRd3hHZzVqMkU3bUZMOTlmQ0NRUXdpNmt4VzNEN2tuUjEwVnh4ZzB1N1kxY2ZiaktZRmpPMFAxR3RNVm42MUlHVUxXV0RqYmk3dVNObHM?oc=5\" target=\"_blank\">Mothers of Brazil’s Zika babies visit UK to share their stories</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of York</font>"
+      },
+      "source": {
+        "href": "https://www.york.ac.uk",
+        "title": "University of York"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "10 Facts You Need To Know About Zika Virus In India - NDTV",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "10 Facts You Need To Know About Zika Virus In India - NDTV"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMHdXd2JGQTEwWkE3NVN1RXNkWlV5cndkM183aHc2dVpKZDctYVB0RVRkdFA1WXhvV3dHbHpzamxEQ1VrcVZTZ3JpdGowdFBxZ3MzMmQ3RWYwY0tGSm5aV2VkRlVheWhLbEs0eUpVeEtpWlhkdlhFT0F6N01UUnlBalVsb0J0cDE5LURwbHpB?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMHdXd2JGQTEwWkE3NVN1RXNkWlV5cndkM183aHc2dVpKZDctYVB0RVRkdFA1WXhvV3dHbHpzamxEQ1VrcVZTZ3JpdGowdFBxZ3MzMmQ3RWYwY0tGSm5aV2VkRlVheWhLbEs0eUpVeEtpWlhkdlhFT0F6N01UUnlBalVsb0J0cDE5LURwbHpB?oc=5",
+      "id": "CBMijgFBVV95cUxPMHdXd2JGQTEwWkE3NVN1RXNkWlV5cndkM183aHc2dVpKZDctYVB0RVRkdFA1WXhvV3dHbHpzamxEQ1VrcVZTZ3JpdGowdFBxZ3MzMmQ3RWYwY0tGSm5aV2VkRlVheWhLbEs0eUpVeEtpWlhkdlhFT0F6N01UUnlBalVsb0J0cDE5LURwbHpB",
+      "guidislink": false,
+      "published": "Tue, 09 Oct 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        10,
+        9,
+        7,
+        0,
+        0,
+        1,
+        282,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxPMHdXd2JGQTEwWkE3NVN1RXNkWlV5cndkM183aHc2dVpKZDctYVB0RVRkdFA1WXhvV3dHbHpzamxEQ1VrcVZTZ3JpdGowdFBxZ3MzMmQ3RWYwY0tGSm5aV2VkRlVheWhLbEs0eUpVeEtpWlhkdlhFT0F6N01UUnlBalVsb0J0cDE5LURwbHpB?oc=5\" target=\"_blank\">10 Facts You Need To Know About Zika Virus In India</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NDTV</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxPMHdXd2JGQTEwWkE3NVN1RXNkWlV5cndkM183aHc2dVpKZDctYVB0RVRkdFA1WXhvV3dHbHpzamxEQ1VrcVZTZ3JpdGowdFBxZ3MzMmQ3RWYwY0tGSm5aV2VkRlVheWhLbEs0eUpVeEtpWlhkdlhFT0F6N01UUnlBalVsb0J0cDE5LURwbHpB?oc=5\" target=\"_blank\">10 Facts You Need To Know About Zika Virus In India</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NDTV</font>"
+      },
+      "source": {
+        "href": "https://www.ndtv.com",
+        "title": "NDTV"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika - TheHealthSite",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika - TheHealthSite"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE83Szlnb3Z5UDdJSmkzUUtjQjVheFRScGJKemxPSmVDSHl2X1hkS2ZYWV8xZnl2bjE1Qzd5YXNTaWNwVzIxdlk1OWQ3UWdpSXNsSFhaQ0J6cUU3QnplWVZBR05DTFF2UQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE83Szlnb3Z5UDdJSmkzUUtjQjVheFRScGJKemxPSmVDSHl2X1hkS2ZYWV8xZnl2bjE1Qzd5YXNTaWNwVzIxdlk1OWQ3UWdpSXNsSFhaQ0J6cUU3QnplWVZBR05DTFF2UQ?oc=5",
+      "id": "CBMiZkFVX3lxTE83Szlnb3Z5UDdJSmkzUUtjQjVheFRScGJKemxPSmVDSHl2X1hkS2ZYWV8xZnl2bjE1Qzd5YXNTaWNwVzIxdlk1OWQ3UWdpSXNsSFhaQ0J6cUU3QnplWVZBR05DTFF2UQ",
+      "guidislink": false,
+      "published": "Fri, 12 Oct 2018 00:16:59 GMT",
+      "published_parsed": [
+        2018,
+        10,
+        12,
+        0,
+        16,
+        59,
+        4,
+        285,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE83Szlnb3Z5UDdJSmkzUUtjQjVheFRScGJKemxPSmVDSHl2X1hkS2ZYWV8xZnl2bjE1Qzd5YXNTaWNwVzIxdlk1OWQ3UWdpSXNsSFhaQ0J6cUU3QnplWVZBR05DTFF2UQ?oc=5\" target=\"_blank\">Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TheHealthSite</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE83Szlnb3Z5UDdJSmkzUUtjQjVheFRScGJKemxPSmVDSHl2X1hkS2ZYWV8xZnl2bjE1Qzd5YXNTaWNwVzIxdlk1OWQ3UWdpSXNsSFhaQ0J6cUU3QnplWVZBR05DTFF2UQ?oc=5\" target=\"_blank\">Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TheHealthSite</font>"
+      },
+      "source": {
+        "href": "https://www.thehealthsite.com",
+        "title": "TheHealthSite"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika threat reaches Bihar - Down To Earth",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika threat reaches Bihar - Down To Earth"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBxRHNTVUxmSnFGOFRfZG42MkN4MXZiZ3d3dUFiX21pWWJiQnNtM3ZadFZlYWQ4UlNUUWJ3NXNsR0ptN3ZPZkU2ckxocDNqTlZTdUJQTDZ5TExjVkhsM1FnamswOGFCZmw3dTdsR3BIQmV6cUotYy1YadIBhgFBVV95cUxQLW50aDhuSXhsVmJKZFppTjhjZW5zTG1EUlJxRC0zVmF2T3BtZllwUWVXU19YTTJ1QXhVNVUyVFdWOUJyRTg4NWVPb1pVSWM3Wll5eGptaW81YlZXcFhBVG9vMjdvZzFVYW9FTFhGS1BrV29iM21wQmRueGNGb1pKdnBRTDJXdw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBxRHNTVUxmSnFGOFRfZG42MkN4MXZiZ3d3dUFiX21pWWJiQnNtM3ZadFZlYWQ4UlNUUWJ3NXNsR0ptN3ZPZkU2ckxocDNqTlZTdUJQTDZ5TExjVkhsM1FnamswOGFCZmw3dTdsR3BIQmV6cUotYy1YadIBhgFBVV95cUxQLW50aDhuSXhsVmJKZFppTjhjZW5zTG1EUlJxRC0zVmF2T3BtZllwUWVXU19YTTJ1QXhVNVUyVFdWOUJyRTg4NWVPb1pVSWM3Wll5eGptaW81YlZXcFhBVG9vMjdvZzFVYW9FTFhGS1BrV29iM21wQmRueGNGb1pKdnBRTDJXdw?oc=5",
+      "id": "CBMieEFVX3lxTFBxRHNTVUxmSnFGOFRfZG42MkN4MXZiZ3d3dUFiX21pWWJiQnNtM3ZadFZlYWQ4UlNUUWJ3NXNsR0ptN3ZPZkU2ckxocDNqTlZTdUJQTDZ5TExjVkhsM1FnamswOGFCZmw3dTdsR3BIQmV6cUotYy1YadIBhgFBVV95cUxQLW50aDhuSXhsVmJKZFppTjhjZW5zTG1EUlJxRC0zVmF2T3BtZllwUWVXU19YTTJ1QXhVNVUyVFdWOUJyRTg4NWVPb1pVSWM3Wll5eGptaW81YlZXcFhBVG9vMjdvZzFVYW9FTFhGS1BrV29iM21wQmRueGNGb1pKdnBRTDJXdw",
+      "guidislink": false,
+      "published": "Mon, 08 Oct 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        10,
+        8,
+        7,
+        0,
+        0,
+        0,
+        281,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTFBxRHNTVUxmSnFGOFRfZG42MkN4MXZiZ3d3dUFiX21pWWJiQnNtM3ZadFZlYWQ4UlNUUWJ3NXNsR0ptN3ZPZkU2ckxocDNqTlZTdUJQTDZ5TExjVkhsM1FnamswOGFCZmw3dTdsR3BIQmV6cUotYy1YadIBhgFBVV95cUxQLW50aDhuSXhsVmJKZFppTjhjZW5zTG1EUlJxRC0zVmF2T3BtZllwUWVXU19YTTJ1QXhVNVUyVFdWOUJyRTg4NWVPb1pVSWM3Wll5eGptaW81YlZXcFhBVG9vMjdvZzFVYW9FTFhGS1BrV29iM21wQmRueGNGb1pKdnBRTDJXdw?oc=5\" target=\"_blank\">Zika threat reaches Bihar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Down To Earth</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTFBxRHNTVUxmSnFGOFRfZG42MkN4MXZiZ3d3dUFiX21pWWJiQnNtM3ZadFZlYWQ4UlNUUWJ3NXNsR0ptN3ZPZkU2ckxocDNqTlZTdUJQTDZ5TExjVkhsM1FnamswOGFCZmw3dTdsR3BIQmV6cUotYy1YadIBhgFBVV95cUxQLW50aDhuSXhsVmJKZFppTjhjZW5zTG1EUlJxRC0zVmF2T3BtZllwUWVXU19YTTJ1QXhVNVUyVFdWOUJyRTg4NWVPb1pVSWM3Wll5eGptaW81YlZXcFhBVG9vMjdvZzFVYW9FTFhGS1BrV29iM21wQmRueGNGb1pKdnBRTDJXdw?oc=5\" target=\"_blank\">Zika threat reaches Bihar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Down To Earth</font>"
+      },
+      "source": {
+        "href": "https://www.downtoearth.org.in",
+        "title": "Down To Earth"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "USAID ZAP, health ministry move north with Zika AIRS Project - PressReader",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "USAID ZAP, health ministry move north with Zika AIRS Project - PressReader"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNaVBkWTNLX0RndUVxTHZSeGNieFU3WlJaSTlseF9JZGg2eUZpaHh5WTV5VWdDTm9ubmlvWF9CUVE4RVpCN1ZNRVhCYm0yRjhsempqNkl4bmY0Y3NPZEstdWJHN0l1REx1bzh0cU11Mng2LVo4blhzWHNyYkJmV0c3RmZZOGhpVUZnU2tV?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNaVBkWTNLX0RndUVxTHZSeGNieFU3WlJaSTlseF9JZGg2eUZpaHh5WTV5VWdDTm9ubmlvWF9CUVE4RVpCN1ZNRVhCYm0yRjhsempqNkl4bmY0Y3NPZEstdWJHN0l1REx1bzh0cU11Mng2LVo4blhzWHNyYkJmV0c3RmZZOGhpVUZnU2tV?oc=5",
+      "id": "CBMiiwFBVV95cUxNaVBkWTNLX0RndUVxTHZSeGNieFU3WlJaSTlseF9JZGg2eUZpaHh5WTV5VWdDTm9ubmlvWF9CUVE4RVpCN1ZNRVhCYm0yRjhsempqNkl4bmY0Y3NPZEstdWJHN0l1REx1bzh0cU11Mng2LVo4blhzWHNyYkJmV0c3RmZZOGhpVUZnU2tV",
+      "guidislink": false,
+      "published": "Mon, 01 Oct 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        10,
+        1,
+        7,
+        0,
+        0,
+        0,
+        274,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxNaVBkWTNLX0RndUVxTHZSeGNieFU3WlJaSTlseF9JZGg2eUZpaHh5WTV5VWdDTm9ubmlvWF9CUVE4RVpCN1ZNRVhCYm0yRjhsempqNkl4bmY0Y3NPZEstdWJHN0l1REx1bzh0cU11Mng2LVo4blhzWHNyYkJmV0c3RmZZOGhpVUZnU2tV?oc=5\" target=\"_blank\">USAID ZAP, health ministry move north with Zika AIRS Project</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PressReader</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxNaVBkWTNLX0RndUVxTHZSeGNieFU3WlJaSTlseF9JZGg2eUZpaHh5WTV5VWdDTm9ubmlvWF9CUVE4RVpCN1ZNRVhCYm0yRjhsempqNkl4bmY0Y3NPZEstdWJHN0l1REx1bzh0cU11Mng2LVo4blhzWHNyYkJmV0c3RmZZOGhpVUZnU2tV?oc=5\" target=\"_blank\">USAID ZAP, health ministry move north with Zika AIRS Project</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PressReader</font>"
+      },
+      "source": {
+        "href": "https://www.pressreader.com",
+        "title": "PressReader"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "West Nile, Zika virus can lead to gut problems: Study - Business Standard",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "West Nile, Zika virus can lead to gut problems: Study - Business Standard"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNa1lqUkhnS3NNdmtEMEt2RXRGU0NhS1BneUpZVnlNaDBPSEt2dFdqYmFTWFBjNE9hQWc1dUpJOF9SNEc0MWMtTnBLbGpsdEhIYmt3SXNja0N5ZUZETGs0bHpucjYxUE5DX25OOFFvVXBjanhNcDFKTm5YV3hqcmR1YkVWd2hxR25HMkJrYXhQX1luQmktNHdMY2xDYlNFSS1EMjMwRXlFcU5IWlpPc3hESkxBR0FVb1hfSDRwa0tJSzHSAcYBQVVfeXFMUDN6d0I1MnF4ZUk1dUVldTR2REJtNFFjZkNOcDE1QXlfSG1ZNDJicjVwQklPdzRvblJCT2RKUTlTNHJ4VUQ1STA1WmU2cjBfVnRIekNic0h6bTdlVkp3bmlsTVdncUhLNU5iTGpTN0JCMlQtdkNjN3ItTTJPS1VGWDRodm5sTnV5NTZnUEZhdTNPRUlsWFliUW1US1EzWGxHdWdjOXFRQTkwWHlhOW4xbFVBN1MwVkF3Q0pTN29fWUNxbDliYjRn?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNa1lqUkhnS3NNdmtEMEt2RXRGU0NhS1BneUpZVnlNaDBPSEt2dFdqYmFTWFBjNE9hQWc1dUpJOF9SNEc0MWMtTnBLbGpsdEhIYmt3SXNja0N5ZUZETGs0bHpucjYxUE5DX25OOFFvVXBjanhNcDFKTm5YV3hqcmR1YkVWd2hxR25HMkJrYXhQX1luQmktNHdMY2xDYlNFSS1EMjMwRXlFcU5IWlpPc3hESkxBR0FVb1hfSDRwa0tJSzHSAcYBQVVfeXFMUDN6d0I1MnF4ZUk1dUVldTR2REJtNFFjZkNOcDE1QXlfSG1ZNDJicjVwQklPdzRvblJCT2RKUTlTNHJ4VUQ1STA1WmU2cjBfVnRIekNic0h6bTdlVkp3bmlsTVdncUhLNU5iTGpTN0JCMlQtdkNjN3ItTTJPS1VGWDRodm5sTnV5NTZnUEZhdTNPRUlsWFliUW1US1EzWGxHdWdjOXFRQTkwWHlhOW4xbFVBN1MwVkF3Q0pTN29fWUNxbDliYjRn?oc=5",
+      "id": "CBMiwAFBVV95cUxNa1lqUkhnS3NNdmtEMEt2RXRGU0NhS1BneUpZVnlNaDBPSEt2dFdqYmFTWFBjNE9hQWc1dUpJOF9SNEc0MWMtTnBLbGpsdEhIYmt3SXNja0N5ZUZETGs0bHpucjYxUE5DX25OOFFvVXBjanhNcDFKTm5YV3hqcmR1YkVWd2hxR25HMkJrYXhQX1luQmktNHdMY2xDYlNFSS1EMjMwRXlFcU5IWlpPc3hESkxBR0FVb1hfSDRwa0tJSzHSAcYBQVVfeXFMUDN6d0I1MnF4ZUk1dUVldTR2REJtNFFjZkNOcDE1QXlfSG1ZNDJicjVwQklPdzRvblJCT2RKUTlTNHJ4VUQ1STA1WmU2cjBfVnRIekNic0h6bTdlVkp3bmlsTVdncUhLNU5iTGpTN0JCMlQtdkNjN3ItTTJPS1VGWDRodm5sTnV5NTZnUEZhdTNPRUlsWFliUW1US1EzWGxHdWdjOXFRQTkwWHlhOW4xbFVBN1MwVkF3Q0pTN29fWUNxbDliYjRn",
+      "guidislink": false,
+      "published": "Tue, 09 Oct 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        10,
+        9,
+        7,
+        0,
+        0,
+        1,
+        282,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNa1lqUkhnS3NNdmtEMEt2RXRGU0NhS1BneUpZVnlNaDBPSEt2dFdqYmFTWFBjNE9hQWc1dUpJOF9SNEc0MWMtTnBLbGpsdEhIYmt3SXNja0N5ZUZETGs0bHpucjYxUE5DX25OOFFvVXBjanhNcDFKTm5YV3hqcmR1YkVWd2hxR25HMkJrYXhQX1luQmktNHdMY2xDYlNFSS1EMjMwRXlFcU5IWlpPc3hESkxBR0FVb1hfSDRwa0tJSzHSAcYBQVVfeXFMUDN6d0I1MnF4ZUk1dUVldTR2REJtNFFjZkNOcDE1QXlfSG1ZNDJicjVwQklPdzRvblJCT2RKUTlTNHJ4VUQ1STA1WmU2cjBfVnRIekNic0h6bTdlVkp3bmlsTVdncUhLNU5iTGpTN0JCMlQtdkNjN3ItTTJPS1VGWDRodm5sTnV5NTZnUEZhdTNPRUlsWFliUW1US1EzWGxHdWdjOXFRQTkwWHlhOW4xbFVBN1MwVkF3Q0pTN29fWUNxbDliYjRn?oc=5\" target=\"_blank\">West Nile, Zika virus can lead to gut problems: Study</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Business Standard</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNa1lqUkhnS3NNdmtEMEt2RXRGU0NhS1BneUpZVnlNaDBPSEt2dFdqYmFTWFBjNE9hQWc1dUpJOF9SNEc0MWMtTnBLbGpsdEhIYmt3SXNja0N5ZUZETGs0bHpucjYxUE5DX25OOFFvVXBjanhNcDFKTm5YV3hqcmR1YkVWd2hxR25HMkJrYXhQX1luQmktNHdMY2xDYlNFSS1EMjMwRXlFcU5IWlpPc3hESkxBR0FVb1hfSDRwa0tJSzHSAcYBQVVfeXFMUDN6d0I1MnF4ZUk1dUVldTR2REJtNFFjZkNOcDE1QXlfSG1ZNDJicjVwQklPdzRvblJCT2RKUTlTNHJ4VUQ1STA1WmU2cjBfVnRIekNic0h6bTdlVkp3bmlsTVdncUhLNU5iTGpTN0JCMlQtdkNjN3ItTTJPS1VGWDRodm5sTnV5NTZnUEZhdTNPRUlsWFliUW1US1EzWGxHdWdjOXFRQTkwWHlhOW4xbFVBN1MwVkF3Q0pTN29fWUNxbDliYjRn?oc=5\" target=\"_blank\">West Nile, Zika virus can lead to gut problems: Study</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Business Standard</font>"
+      },
+      "source": {
+        "href": "https://www.business-standard.com",
+        "title": "Business Standard"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "No Black Scientist Has Ever Won a Nobel – That’s Bad for Science and for Society - The Wire Science",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "No Black Scientist Has Ever Won a Nobel – That’s Bad for Science and for Society - The Wire Science"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOei1rdm1qV3AzWThrWU45M3ZTUmhMbEtYMXNLaXZEdl9uNmk0dlh3bjhIU1h3eVNIUXc4NWJneDc2M2RPYV9TM3ZPeDRiWmhNQ04xTjdrWHo5dC1HVGV3dHV1ZEdWUDlSSjFScHlLQWhXUkNBSjFpV1BLdHpjd0tPT0dJQjVndUQzcjd0UklzOUUzamdv?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOei1rdm1qV3AzWThrWU45M3ZTUmhMbEtYMXNLaXZEdl9uNmk0dlh3bjhIU1h3eVNIUXc4NWJneDc2M2RPYV9TM3ZPeDRiWmhNQ04xTjdrWHo5dC1HVGV3dHV1ZEdWUDlSSjFScHlLQWhXUkNBSjFpV1BLdHpjd0tPT0dJQjVndUQzcjd0UklzOUUzamdv?oc=5",
+      "id": "CBMilAFBVV95cUxOei1rdm1qV3AzWThrWU45M3ZTUmhMbEtYMXNLaXZEdl9uNmk0dlh3bjhIU1h3eVNIUXc4NWJneDc2M2RPYV9TM3ZPeDRiWmhNQ04xTjdrWHo5dC1HVGV3dHV1ZEdWUDlSSjFScHlLQWhXUkNBSjFpV1BLdHpjd0tPT0dJQjVndUQzcjd0UklzOUUzamdv",
+      "guidislink": false,
+      "published": "Tue, 09 Oct 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        10,
+        9,
+        7,
+        0,
+        0,
+        1,
+        282,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxOei1rdm1qV3AzWThrWU45M3ZTUmhMbEtYMXNLaXZEdl9uNmk0dlh3bjhIU1h3eVNIUXc4NWJneDc2M2RPYV9TM3ZPeDRiWmhNQ04xTjdrWHo5dC1HVGV3dHV1ZEdWUDlSSjFScHlLQWhXUkNBSjFpV1BLdHpjd0tPT0dJQjVndUQzcjd0UklzOUUzamdv?oc=5\" target=\"_blank\">No Black Scientist Has Ever Won a Nobel – That’s Bad for Science and for Society</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Wire Science</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxOei1rdm1qV3AzWThrWU45M3ZTUmhMbEtYMXNLaXZEdl9uNmk0dlh3bjhIU1h3eVNIUXc4NWJneDc2M2RPYV9TM3ZPeDRiWmhNQ04xTjdrWHo5dC1HVGV3dHV1ZEdWUDlSSjFScHlLQWhXUkNBSjFpV1BLdHpjd0tPT0dJQjVndUQzcjd0UklzOUUzamdv?oc=5\" target=\"_blank\">No Black Scientist Has Ever Won a Nobel – That’s Bad for Science and for Society</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Wire Science</font>"
+      },
+      "source": {
+        "href": "https://science.thewire.in",
+        "title": "The Wire Science"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Pregnant (or planning) and travelling? Here's what you should consider - SMH.com.au",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Pregnant (or planning) and travelling? Here's what you should consider - SMH.com.au"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYnlyQk9WcVlwcW5VVWZHR2dIdE5HLU1ZT1pwZkxUTFNYdWFPMHdqMG9jVzladWowS2NiMUl3bFp3UW1BTTZKOXZiaGI0LTlYZndVbnYxNGJRd3h0YjJob096OVZRZ3QySFRoUFlqc25xc2RJbGJ0cVFPODJKUWhFNkpmdlBfeWdZRjBYcWFmTUdMWkVFZVNEd1RQOXdZNkd0dDVYem1HT291MnZOZDZldU5PcDVudF9iUTJseDdYMnlsWDkzamJ6X3k2U2prYU1yaFZWeDZfaVc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYnlyQk9WcVlwcW5VVWZHR2dIdE5HLU1ZT1pwZkxUTFNYdWFPMHdqMG9jVzladWowS2NiMUl3bFp3UW1BTTZKOXZiaGI0LTlYZndVbnYxNGJRd3h0YjJob096OVZRZ3QySFRoUFlqc25xc2RJbGJ0cVFPODJKUWhFNkpmdlBfeWdZRjBYcWFmTUdMWkVFZVNEd1RQOXdZNkd0dDVYem1HT291MnZOZDZldU5PcDVudF9iUTJseDdYMnlsWDkzamJ6X3k2U2prYU1yaFZWeDZfaVc?oc=5",
+      "id": "CBMi2AFBVV95cUxNYnlyQk9WcVlwcW5VVWZHR2dIdE5HLU1ZT1pwZkxUTFNYdWFPMHdqMG9jVzladWowS2NiMUl3bFp3UW1BTTZKOXZiaGI0LTlYZndVbnYxNGJRd3h0YjJob096OVZRZ3QySFRoUFlqc25xc2RJbGJ0cVFPODJKUWhFNkpmdlBfeWdZRjBYcWFmTUdMWkVFZVNEd1RQOXdZNkd0dDVYem1HT291MnZOZDZldU5PcDVudF9iUTJseDdYMnlsWDkzamJ6X3k2U2prYU1yaFZWeDZfaVc",
+      "guidislink": false,
+      "published": "Fri, 28 Sep 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        9,
+        28,
+        7,
+        0,
+        0,
+        4,
+        271,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYnlyQk9WcVlwcW5VVWZHR2dIdE5HLU1ZT1pwZkxUTFNYdWFPMHdqMG9jVzladWowS2NiMUl3bFp3UW1BTTZKOXZiaGI0LTlYZndVbnYxNGJRd3h0YjJob096OVZRZ3QySFRoUFlqc25xc2RJbGJ0cVFPODJKUWhFNkpmdlBfeWdZRjBYcWFmTUdMWkVFZVNEd1RQOXdZNkd0dDVYem1HT291MnZOZDZldU5PcDVudF9iUTJseDdYMnlsWDkzamJ6X3k2U2prYU1yaFZWeDZfaVc?oc=5\" target=\"_blank\">Pregnant (or planning) and travelling? Here's what you should consider</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SMH.com.au</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYnlyQk9WcVlwcW5VVWZHR2dIdE5HLU1ZT1pwZkxUTFNYdWFPMHdqMG9jVzladWowS2NiMUl3bFp3UW1BTTZKOXZiaGI0LTlYZndVbnYxNGJRd3h0YjJob096OVZRZ3QySFRoUFlqc25xc2RJbGJ0cVFPODJKUWhFNkpmdlBfeWdZRjBYcWFmTUdMWkVFZVNEd1RQOXdZNkd0dDVYem1HT291MnZOZDZldU5PcDVudF9iUTJseDdYMnlsWDkzamJ6X3k2U2prYU1yaFZWeDZfaVc?oc=5\" target=\"_blank\">Pregnant (or planning) and travelling? Here's what you should consider</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SMH.com.au</font>"
+      },
+      "source": {
+        "href": "https://www.smh.com.au",
+        "title": "SMH.com.au"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "No need to panic, Zika outbreak under control: Health Ministry - ET HealthWorld",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "No need to panic, Zika outbreak under control: Health Ministry - ET HealthWorld"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVzVjM0k0VmhyemVtWDJ5c2hONWNRUlN5djRmbUN3WWctU0pwRGIyTDJsX1VINFYwMUZVNnBuMmYyX0lvQlM5cVpQcEpyYU5LMkVoMXQ0Q1FEN2VSWEVHZVZmTGFjMnp2RV9tR1lHcFBOX3JtYkU5TnM4c3dPU211WVhGR00yWnZ6dVJFczRmQTVxVlNzNm9CbnR5Y2JZNkl6eS15UlFqUzZoQUc0ZTVvVXZ6SXdOTHRxS0trZkY5NVJJNkU4MUHSAcsBQVVfeXFMTTJaRl9wY0lvT18wcGZFWVZTTWdJbjhKdGdFc01iVUQ2dktWWnF5dVowVy1BMXpaNDVSVER2c2lNQ0lPMGFEUWg1Vm13d2VoMUZaRTZTQWYzMk9TOVJ4Yms5VmdZWEI5NHAtSmNEa0EzUGlNblVTdHdnSk9ybWdEWlJhMUYxeF9jUWw0Uy1XbE81clA2YmpZMHZiT2thVTRYMXNubnpKeTVONm1pMWpsWUFqM0hxVjBSQ1ROemU0Rm9lV3JfMFQtZUZQa1U?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVzVjM0k0VmhyemVtWDJ5c2hONWNRUlN5djRmbUN3WWctU0pwRGIyTDJsX1VINFYwMUZVNnBuMmYyX0lvQlM5cVpQcEpyYU5LMkVoMXQ0Q1FEN2VSWEVHZVZmTGFjMnp2RV9tR1lHcFBOX3JtYkU5TnM4c3dPU211WVhGR00yWnZ6dVJFczRmQTVxVlNzNm9CbnR5Y2JZNkl6eS15UlFqUzZoQUc0ZTVvVXZ6SXdOTHRxS0trZkY5NVJJNkU4MUHSAcsBQVVfeXFMTTJaRl9wY0lvT18wcGZFWVZTTWdJbjhKdGdFc01iVUQ2dktWWnF5dVowVy1BMXpaNDVSVER2c2lNQ0lPMGFEUWg1Vm13d2VoMUZaRTZTQWYzMk9TOVJ4Yms5VmdZWEI5NHAtSmNEa0EzUGlNblVTdHdnSk9ybWdEWlJhMUYxeF9jUWw0Uy1XbE81clA2YmpZMHZiT2thVTRYMXNubnpKeTVONm1pMWpsWUFqM0hxVjBSQ1ROemU0Rm9lV3JfMFQtZUZQa1U?oc=5",
+      "id": "CBMixgFBVV95cUxOVzVjM0k0VmhyemVtWDJ5c2hONWNRUlN5djRmbUN3WWctU0pwRGIyTDJsX1VINFYwMUZVNnBuMmYyX0lvQlM5cVpQcEpyYU5LMkVoMXQ0Q1FEN2VSWEVHZVZmTGFjMnp2RV9tR1lHcFBOX3JtYkU5TnM4c3dPU211WVhGR00yWnZ6dVJFczRmQTVxVlNzNm9CbnR5Y2JZNkl6eS15UlFqUzZoQUc0ZTVvVXZ6SXdOTHRxS0trZkY5NVJJNkU4MUHSAcsBQVVfeXFMTTJaRl9wY0lvT18wcGZFWVZTTWdJbjhKdGdFc01iVUQ2dktWWnF5dVowVy1BMXpaNDVSVER2c2lNQ0lPMGFEUWg1Vm13d2VoMUZaRTZTQWYzMk9TOVJ4Yms5VmdZWEI5NHAtSmNEa0EzUGlNblVTdHdnSk9ybWdEWlJhMUYxeF9jUWw0Uy1XbE81clA2YmpZMHZiT2thVTRYMXNubnpKeTVONm1pMWpsWUFqM0hxVjBSQ1ROemU0Rm9lV3JfMFQtZUZQa1U",
+      "guidislink": false,
+      "published": "Tue, 09 Oct 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        10,
+        9,
+        7,
+        0,
+        0,
+        1,
+        282,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxOVzVjM0k0VmhyemVtWDJ5c2hONWNRUlN5djRmbUN3WWctU0pwRGIyTDJsX1VINFYwMUZVNnBuMmYyX0lvQlM5cVpQcEpyYU5LMkVoMXQ0Q1FEN2VSWEVHZVZmTGFjMnp2RV9tR1lHcFBOX3JtYkU5TnM4c3dPU211WVhGR00yWnZ6dVJFczRmQTVxVlNzNm9CbnR5Y2JZNkl6eS15UlFqUzZoQUc0ZTVvVXZ6SXdOTHRxS0trZkY5NVJJNkU4MUHSAcsBQVVfeXFMTTJaRl9wY0lvT18wcGZFWVZTTWdJbjhKdGdFc01iVUQ2dktWWnF5dVowVy1BMXpaNDVSVER2c2lNQ0lPMGFEUWg1Vm13d2VoMUZaRTZTQWYzMk9TOVJ4Yms5VmdZWEI5NHAtSmNEa0EzUGlNblVTdHdnSk9ybWdEWlJhMUYxeF9jUWw0Uy1XbE81clA2YmpZMHZiT2thVTRYMXNubnpKeTVONm1pMWpsWUFqM0hxVjBSQ1ROemU0Rm9lV3JfMFQtZUZQa1U?oc=5\" target=\"_blank\">No need to panic, Zika outbreak under control: Health Ministry</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ET HealthWorld</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxOVzVjM0k0VmhyemVtWDJ5c2hONWNRUlN5djRmbUN3WWctU0pwRGIyTDJsX1VINFYwMUZVNnBuMmYyX0lvQlM5cVpQcEpyYU5LMkVoMXQ0Q1FEN2VSWEVHZVZmTGFjMnp2RV9tR1lHcFBOX3JtYkU5TnM4c3dPU211WVhGR00yWnZ6dVJFczRmQTVxVlNzNm9CbnR5Y2JZNkl6eS15UlFqUzZoQUc0ZTVvVXZ6SXdOTHRxS0trZkY5NVJJNkU4MUHSAcsBQVVfeXFMTTJaRl9wY0lvT18wcGZFWVZTTWdJbjhKdGdFc01iVUQ2dktWWnF5dVowVy1BMXpaNDVSVER2c2lNQ0lPMGFEUWg1Vm13d2VoMUZaRTZTQWYzMk9TOVJ4Yms5VmdZWEI5NHAtSmNEa0EzUGlNblVTdHdnSk9ybWdEWlJhMUYxeF9jUWw0Uy1XbE81clA2YmpZMHZiT2thVTRYMXNubnpKeTVONm1pMWpsWUFqM0hxVjBSQ1ROemU0Rm9lV3JfMFQtZUZQa1U?oc=5\" target=\"_blank\">No need to panic, Zika outbreak under control: Health Ministry</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ET HealthWorld</font>"
+      },
+      "source": {
+        "href": "https://health.economictimes.indiatimes.com",
+        "title": "ET HealthWorld"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "’90 Day Fiance’: Paul and Karine – Zika Virus Possibly Caused Miscarriage - Soap Dirt |",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "’90 Day Fiance’: Paul and Karine – Zika Virus Possibly Caused Miscarriage - Soap Dirt |"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZEFCNkZIbGl1VVBwcnV2RXdTYWd4WnRUSF9nd2Jza3BjdVdkM202VlJPVTBjNW5YazRUbUZtNWFCaDd1TEhRTWNkbTFRakxQTnRUc0J3Z1k5NUxjSVN1TlEtWlozUVlYR25UX2lzdXFaMHJXZkhBNDk0QnNyeGU5WVpxdjNCQV9CN3Y4VVY0dw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZEFCNkZIbGl1VVBwcnV2RXdTYWd4WnRUSF9nd2Jza3BjdVdkM202VlJPVTBjNW5YazRUbUZtNWFCaDd1TEhRTWNkbTFRakxQTnRUc0J3Z1k5NUxjSVN1TlEtWlozUVlYR25UX2lzdXFaMHJXZkhBNDk0QnNyeGU5WVpxdjNCQV9CN3Y4VVY0dw?oc=5",
+      "id": "CBMijwFBVV95cUxPZEFCNkZIbGl1VVBwcnV2RXdTYWd4WnRUSF9nd2Jza3BjdVdkM202VlJPVTBjNW5YazRUbUZtNWFCaDd1TEhRTWNkbTFRakxQTnRUc0J3Z1k5NUxjSVN1TlEtWlozUVlYR25UX2lzdXFaMHJXZkhBNDk0QnNyeGU5WVpxdjNCQV9CN3Y4VVY0dw",
+      "guidislink": false,
+      "published": "Sun, 07 Oct 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        10,
+        7,
+        7,
+        0,
+        0,
+        6,
+        280,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxPZEFCNkZIbGl1VVBwcnV2RXdTYWd4WnRUSF9nd2Jza3BjdVdkM202VlJPVTBjNW5YazRUbUZtNWFCaDd1TEhRTWNkbTFRakxQTnRUc0J3Z1k5NUxjSVN1TlEtWlozUVlYR25UX2lzdXFaMHJXZkhBNDk0QnNyeGU5WVpxdjNCQV9CN3Y4VVY0dw?oc=5\" target=\"_blank\">’90 Day Fiance’: Paul and Karine – Zika Virus Possibly Caused Miscarriage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Soap Dirt |</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxPZEFCNkZIbGl1VVBwcnV2RXdTYWd4WnRUSF9nd2Jza3BjdVdkM202VlJPVTBjNW5YazRUbUZtNWFCaDd1TEhRTWNkbTFRakxQTnRUc0J3Z1k5NUxjSVN1TlEtWlozUVlYR25UX2lzdXFaMHJXZkhBNDk0QnNyeGU5WVpxdjNCQV9CN3Y4VVY0dw?oc=5\" target=\"_blank\">’90 Day Fiance’: Paul and Karine – Zika Virus Possibly Caused Miscarriage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Soap Dirt |</font>"
+      },
+      "source": {
+        "href": "https://soapdirt.com",
+        "title": "Soap Dirt |"
+      },
+      "sub_articles": []
+    }
+  ]
+}

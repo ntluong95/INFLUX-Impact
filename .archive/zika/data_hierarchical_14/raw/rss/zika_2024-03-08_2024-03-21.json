@@ -1,0 +1,822 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2024-03-08",
+  "window_end": "2024-03-21",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2024-03-08+before%3A2024-03-22&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2024-03-08+before:2024-03-22&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:30:46Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2024-03-08 before:2024-03-22\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2024-03-08 before:2024-03-22\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2024-03-08+before:2024-03-22&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2024-03-08+before:2024-03-22&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:30:46 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      30,
+      46,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Moderna won't advance US-backed Zika vaccine without more outside funding - Fierce Biotech",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Moderna won't advance US-backed Zika vaccine without more outside funding - Fierce Biotech"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPV2tOS05jcnNtYTFyMUwwUUJTamtOcjZZNlRMSkx2MGVieGV4Q2FKdWhXWURNeDVVZ3ZXZENaRU5YNC0tLS1lREdiY0ZocC0wOGFUVy0xUk83N3FSWWFBYzNpWGZMNzQ1S0o3NjI2YU1JLVZUVnpHRWhibjhia1Q3dzItTWxQQUJxckdsWWRfNkcyYmg5S0ZaNTFKVjRWdlhuWmdtZEQ2dXBzTzlST0JqUnp4VnFGVVJ3cFE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPV2tOS05jcnNtYTFyMUwwUUJTamtOcjZZNlRMSkx2MGVieGV4Q2FKdWhXWURNeDVVZ3ZXZENaRU5YNC0tLS1lREdiY0ZocC0wOGFUVy0xUk83N3FSWWFBYzNpWGZMNzQ1S0o3NjI2YU1JLVZUVnpHRWhibjhia1Q3dzItTWxQQUJxckdsWWRfNkcyYmg5S0ZaNTFKVjRWdlhuWmdtZEQ2dXBzTzlST0JqUnp4VnFGVVJ3cFE?oc=5",
+      "id": "CBMiugFBVV95cUxPV2tOS05jcnNtYTFyMUwwUUJTamtOcjZZNlRMSkx2MGVieGV4Q2FKdWhXWURNeDVVZ3ZXZENaRU5YNC0tLS1lREdiY0ZocC0wOGFUVy0xUk83N3FSWWFBYzNpWGZMNzQ1S0o3NjI2YU1JLVZUVnpHRWhibjhia1Q3dzItTWxQQUJxckdsWWRfNkcyYmg5S0ZaNTFKVjRWdlhuWmdtZEQ2dXBzTzlST0JqUnp4VnFGVVJ3cFE",
+      "guidislink": false,
+      "published": "Fri, 15 Mar 2024 07:00:00 GMT",
+      "published_parsed": [
+        2024,
+        3,
+        15,
+        7,
+        0,
+        0,
+        4,
+        75,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPV2tOS05jcnNtYTFyMUwwUUJTamtOcjZZNlRMSkx2MGVieGV4Q2FKdWhXWURNeDVVZ3ZXZENaRU5YNC0tLS1lREdiY0ZocC0wOGFUVy0xUk83N3FSWWFBYzNpWGZMNzQ1S0o3NjI2YU1JLVZUVnpHRWhibjhia1Q3dzItTWxQQUJxckdsWWRfNkcyYmg5S0ZaNTFKVjRWdlhuWmdtZEQ2dXBzTzlST0JqUnp4VnFGVVJ3cFE?oc=5\" target=\"_blank\">Moderna won't advance US-backed Zika vaccine without more outside funding</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fierce Biotech</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPV2tOS05jcnNtYTFyMUwwUUJTamtOcjZZNlRMSkx2MGVieGV4Q2FKdWhXWURNeDVVZ3ZXZENaRU5YNC0tLS1lREdiY0ZocC0wOGFUVy0xUk83N3FSWWFBYzNpWGZMNzQ1S0o3NjI2YU1JLVZUVnpHRWhibjhia1Q3dzItTWxQQUJxckdsWWRfNkcyYmg5S0ZaNTFKVjRWdlhuWmdtZEQ2dXBzTzlST0JqUnp4VnFGVVJ3cFE?oc=5\" target=\"_blank\">Moderna won't advance US-backed Zika vaccine without more outside funding</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fierce Biotech</font>"
+      },
+      "source": {
+        "href": "https://www.fiercebiotech.com",
+        "title": "Fierce Biotech"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "New study will evaluate the long-term consequences of Zika virus infections during pregnancy - The London School of Hygiene & Tropical Medicine",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "New study will evaluate the long-term consequences of Zika virus infections during pregnancy - The London School of Hygiene & Tropical Medicine"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQRGxqSldmNnFXUTNaYU11MVFOZVJzYTgwWFg4RXBJMVZ3cjFMb21rSlNjaENKMXhkVlU0TGM5eGFaNW1wTWtZTVkybF81UTlTSDkwWXo0VnlVT3RlLWtpN2pTVWZkX2k4VVhxdENzNlRQS1NQUVNfU1N0RFZxZ1NEWlJYS0xRdC1sNlBzUTkzR0RrNDctZG91NUloTHBNV19uRHNmRXJ5UkJJNmk5cy1raUpCZUpNZENWM0g1TTJSSVFNSTNpRl9teHZ2WmpwbTBYeklLYk53R21WRHpzWUtRVlR1aEgtMVVPcFduenlyTXpIS3hXUjlMZHFsdmlDZ1RheVE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQRGxqSldmNnFXUTNaYU11MVFOZVJzYTgwWFg4RXBJMVZ3cjFMb21rSlNjaENKMXhkVlU0TGM5eGFaNW1wTWtZTVkybF81UTlTSDkwWXo0VnlVT3RlLWtpN2pTVWZkX2k4VVhxdENzNlRQS1NQUVNfU1N0RFZxZ1NEWlJYS0xRdC1sNlBzUTkzR0RrNDctZG91NUloTHBNV19uRHNmRXJ5UkJJNmk5cy1raUpCZUpNZENWM0g1TTJSSVFNSTNpRl9teHZ2WmpwbTBYeklLYk53R21WRHpzWUtRVlR1aEgtMVVPcFduenlyTXpIS3hXUjlMZHFsdmlDZ1RheVE?oc=5",
+      "id": "CBMiggJBVV95cUxQRGxqSldmNnFXUTNaYU11MVFOZVJzYTgwWFg4RXBJMVZ3cjFMb21rSlNjaENKMXhkVlU0TGM5eGFaNW1wTWtZTVkybF81UTlTSDkwWXo0VnlVT3RlLWtpN2pTVWZkX2k4VVhxdENzNlRQS1NQUVNfU1N0RFZxZ1NEWlJYS0xRdC1sNlBzUTkzR0RrNDctZG91NUloTHBNV19uRHNmRXJ5UkJJNmk5cy1raUpCZUpNZENWM0g1TTJSSVFNSTNpRl9teHZ2WmpwbTBYeklLYk53R21WRHpzWUtRVlR1aEgtMVVPcFduenlyTXpIS3hXUjlMZHFsdmlDZ1RheVE",
+      "guidislink": false,
+      "published": "Tue, 19 Mar 2024 07:00:00 GMT",
+      "published_parsed": [
+        2024,
+        3,
+        19,
+        7,
+        0,
+        0,
+        1,
+        79,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggJBVV95cUxQRGxqSldmNnFXUTNaYU11MVFOZVJzYTgwWFg4RXBJMVZ3cjFMb21rSlNjaENKMXhkVlU0TGM5eGFaNW1wTWtZTVkybF81UTlTSDkwWXo0VnlVT3RlLWtpN2pTVWZkX2k4VVhxdENzNlRQS1NQUVNfU1N0RFZxZ1NEWlJYS0xRdC1sNlBzUTkzR0RrNDctZG91NUloTHBNV19uRHNmRXJ5UkJJNmk5cy1raUpCZUpNZENWM0g1TTJSSVFNSTNpRl9teHZ2WmpwbTBYeklLYk53R21WRHpzWUtRVlR1aEgtMVVPcFduenlyTXpIS3hXUjlMZHFsdmlDZ1RheVE?oc=5\" target=\"_blank\">New study will evaluate the long-term consequences of Zika virus infections during pregnancy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The London School of Hygiene & Tropical Medicine</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiggJBVV95cUxQRGxqSldmNnFXUTNaYU11MVFOZVJzYTgwWFg4RXBJMVZ3cjFMb21rSlNjaENKMXhkVlU0TGM5eGFaNW1wTWtZTVkybF81UTlTSDkwWXo0VnlVT3RlLWtpN2pTVWZkX2k4VVhxdENzNlRQS1NQUVNfU1N0RFZxZ1NEWlJYS0xRdC1sNlBzUTkzR0RrNDctZG91NUloTHBNV19uRHNmRXJ5UkJJNmk5cy1raUpCZUpNZENWM0g1TTJSSVFNSTNpRl9teHZ2WmpwbTBYeklLYk53R21WRHpzWUtRVlR1aEgtMVVPcFduenlyTXpIS3hXUjlMZHFsdmlDZ1RheVE?oc=5\" target=\"_blank\">New study will evaluate the long-term consequences of Zika virus infections during pregnancy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The London School of Hygiene & Tropical Medicine</font>"
+      },
+      "source": {
+        "href": "https://www.lshtm.ac.uk",
+        "title": "The London School of Hygiene & Tropical Medicine"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Duke-NUS research discovery sparks hope: Zika virus vaccine emerges as an unlikely hero in battling brain cancer - EurekAlert!",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Duke-NUS research discovery sparks hope: Zika virus vaccine emerges as an unlikely hero in battling brain cancer - EurekAlert!"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBBaGVIc2tOd1hKNFVfMlc4NF9WY2Rjc0xZeVB1Wi1DY29LM01RWmEtZGJScmlvdFNiQUt3SGE5MkRZTm5iVVZCWFdrVDllUTN3TEs1WS00MEY2YnJw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBBaGVIc2tOd1hKNFVfMlc4NF9WY2Rjc0xZeVB1Wi1DY29LM01RWmEtZGJScmlvdFNiQUt3SGE5MkRZTm5iVVZCWFdrVDllUTN3TEs1WS00MEY2YnJw?oc=5",
+      "id": "CBMiXEFVX3lxTFBBaGVIc2tOd1hKNFVfMlc4NF9WY2Rjc0xZeVB1Wi1DY29LM01RWmEtZGJScmlvdFNiQUt3SGE5MkRZTm5iVVZCWFdrVDllUTN3TEs1WS00MEY2YnJw",
+      "guidislink": false,
+      "published": "Fri, 08 Mar 2024 08:00:00 GMT",
+      "published_parsed": [
+        2024,
+        3,
+        8,
+        8,
+        0,
+        0,
+        4,
+        68,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTFBBaGVIc2tOd1hKNFVfMlc4NF9WY2Rjc0xZeVB1Wi1DY29LM01RWmEtZGJScmlvdFNiQUt3SGE5MkRZTm5iVVZCWFdrVDllUTN3TEs1WS00MEY2YnJw?oc=5\" target=\"_blank\">Duke-NUS research discovery sparks hope: Zika virus vaccine emerges as an unlikely hero in battling brain cancer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">EurekAlert!</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTFBBaGVIc2tOd1hKNFVfMlc4NF9WY2Rjc0xZeVB1Wi1DY29LM01RWmEtZGJScmlvdFNiQUt3SGE5MkRZTm5iVVZCWFdrVDllUTN3TEs1WS00MEY2YnJw?oc=5\" target=\"_blank\">Duke-NUS research discovery sparks hope: Zika virus vaccine emerges as an unlikely hero in battling brain cancer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">EurekAlert!</font>"
+      },
+      "source": {
+        "href": "https://www.eurekalert.org",
+        "title": "EurekAlert!"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "The global dengue epidemic and a resurgence of Zika loom over Easter travel - EL PAÍS English",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "The global dengue epidemic and a resurgence of Zika loom over Easter travel - EL PAÍS English"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZkh4dUNzYkJnR0FsZ1NNajlzRVdOcTJFaW5QdkRGaTgwRXJ6NUFsVW9ORHUzTlU2YWgxSlFqUDRLcVFkVHk3clYzclRFeHZ2Qm9ZYUlLWFJUQ202bG1wTHowUkx1aWdZMHBLU0pCeDhOSDFGZWhOSWVVeUM3U1d5ekRyck5STEtUTzBRV1Uwcm1qdmw4LVk4Q3FlOW1SdDg0Z25CY2dlbWpjdlhUb2pCRFNWUWhQb0E2Vm1rUnNMOVpXenPSAdcBQVVfeXFMT3E3SUVRN2JRVEdBa1dfSm9KNE1Yb2JsR1MzaFpzek93M3VQTTlFenBXUm84dDR1ZTdDQmZVSUYtcVRRR2E2N1A2eVNaY0xEdHBGdy1YSWt6SXNmVWdmNU4yUGM4YnNOVzJ3bmlNTkFLNDdTaHhNUC0tSVAyLUMxWkVFTnlYbVNJdjhydnd3Njg3akxRVEJyR0NZQWNhM2dneE82Mk1saEd5NHFJUDZLREZmWXRWZXlxN1FBeDZqak0xQWxuTzgzWVRjQlZDdzU5MW9YWTA1VkE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZkh4dUNzYkJnR0FsZ1NNajlzRVdOcTJFaW5QdkRGaTgwRXJ6NUFsVW9ORHUzTlU2YWgxSlFqUDRLcVFkVHk3clYzclRFeHZ2Qm9ZYUlLWFJUQ202bG1wTHowUkx1aWdZMHBLU0pCeDhOSDFGZWhOSWVVeUM3U1d5ekRyck5STEtUTzBRV1Uwcm1qdmw4LVk4Q3FlOW1SdDg0Z25CY2dlbWpjdlhUb2pCRFNWUWhQb0E2Vm1rUnNMOVpXenPSAdcBQVVfeXFMT3E3SUVRN2JRVEdBa1dfSm9KNE1Yb2JsR1MzaFpzek93M3VQTTlFenBXUm84dDR1ZTdDQmZVSUYtcVRRR2E2N1A2eVNaY0xEdHBGdy1YSWt6SXNmVWdmNU4yUGM4YnNOVzJ3bmlNTkFLNDdTaHhNUC0tSVAyLUMxWkVFTnlYbVNJdjhydnd3Njg3akxRVEJyR0NZQWNhM2dneE82Mk1saEd5NHFJUDZLREZmWXRWZXlxN1FBeDZqak0xQWxuTzgzWVRjQlZDdzU5MW9YWTA1VkE?oc=5",
+      "id": "CBMiwwFBVV95cUxNZkh4dUNzYkJnR0FsZ1NNajlzRVdOcTJFaW5QdkRGaTgwRXJ6NUFsVW9ORHUzTlU2YWgxSlFqUDRLcVFkVHk3clYzclRFeHZ2Qm9ZYUlLWFJUQ202bG1wTHowUkx1aWdZMHBLU0pCeDhOSDFGZWhOSWVVeUM3U1d5ekRyck5STEtUTzBRV1Uwcm1qdmw4LVk4Q3FlOW1SdDg0Z25CY2dlbWpjdlhUb2pCRFNWUWhQb0E2Vm1rUnNMOVpXenPSAdcBQVVfeXFMT3E3SUVRN2JRVEdBa1dfSm9KNE1Yb2JsR1MzaFpzek93M3VQTTlFenBXUm84dDR1ZTdDQmZVSUYtcVRRR2E2N1A2eVNaY0xEdHBGdy1YSWt6SXNmVWdmNU4yUGM4YnNOVzJ3bmlNTkFLNDdTaHhNUC0tSVAyLUMxWkVFTnlYbVNJdjhydnd3Njg3akxRVEJyR0NZQWNhM2dneE82Mk1saEd5NHFJUDZLREZmWXRWZXlxN1FBeDZqak0xQWxuTzgzWVRjQlZDdzU5MW9YWTA1VkE",
+      "guidislink": false,
+      "published": "Thu, 14 Mar 2024 07:00:00 GMT",
+      "published_parsed": [
+        2024,
+        3,
+        14,
+        7,
+        0,
+        0,
+        3,
+        74,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZkh4dUNzYkJnR0FsZ1NNajlzRVdOcTJFaW5QdkRGaTgwRXJ6NUFsVW9ORHUzTlU2YWgxSlFqUDRLcVFkVHk3clYzclRFeHZ2Qm9ZYUlLWFJUQ202bG1wTHowUkx1aWdZMHBLU0pCeDhOSDFGZWhOSWVVeUM3U1d5ekRyck5STEtUTzBRV1Uwcm1qdmw4LVk4Q3FlOW1SdDg0Z25CY2dlbWpjdlhUb2pCRFNWUWhQb0E2Vm1rUnNMOVpXenPSAdcBQVVfeXFMT3E3SUVRN2JRVEdBa1dfSm9KNE1Yb2JsR1MzaFpzek93M3VQTTlFenBXUm84dDR1ZTdDQmZVSUYtcVRRR2E2N1A2eVNaY0xEdHBGdy1YSWt6SXNmVWdmNU4yUGM4YnNOVzJ3bmlNTkFLNDdTaHhNUC0tSVAyLUMxWkVFTnlYbVNJdjhydnd3Njg3akxRVEJyR0NZQWNhM2dneE82Mk1saEd5NHFJUDZLREZmWXRWZXlxN1FBeDZqak0xQWxuTzgzWVRjQlZDdzU5MW9YWTA1VkE?oc=5\" target=\"_blank\">The global dengue epidemic and a resurgence of Zika loom over Easter travel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">EL PAÍS English</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZkh4dUNzYkJnR0FsZ1NNajlzRVdOcTJFaW5QdkRGaTgwRXJ6NUFsVW9ORHUzTlU2YWgxSlFqUDRLcVFkVHk3clYzclRFeHZ2Qm9ZYUlLWFJUQ202bG1wTHowUkx1aWdZMHBLU0pCeDhOSDFGZWhOSWVVeUM3U1d5ekRyck5STEtUTzBRV1Uwcm1qdmw4LVk4Q3FlOW1SdDg0Z25CY2dlbWpjdlhUb2pCRFNWUWhQb0E2Vm1rUnNMOVpXenPSAdcBQVVfeXFMT3E3SUVRN2JRVEdBa1dfSm9KNE1Yb2JsR1MzaFpzek93M3VQTTlFenBXUm84dDR1ZTdDQmZVSUYtcVRRR2E2N1A2eVNaY0xEdHBGdy1YSWt6SXNmVWdmNU4yUGM4YnNOVzJ3bmlNTkFLNDdTaHhNUC0tSVAyLUMxWkVFTnlYbVNJdjhydnd3Njg3akxRVEJyR0NZQWNhM2dneE82Mk1saEd5NHFJUDZLREZmWXRWZXlxN1FBeDZqak0xQWxuTzgzWVRjQlZDdzU5MW9YWTA1VkE?oc=5\" target=\"_blank\">The global dengue epidemic and a resurgence of Zika loom over Easter travel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">EL PAÍS English</font>"
+      },
+      "source": {
+        "href": "https://english.elpais.com",
+        "title": "EL PAÍS English"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Female mosquitoes rely on one another to choose the best breeding sites − and with the arrival of spring, they’re already on the hunt - The Invading Sea",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Female mosquitoes rely on one another to choose the best breeding sites − and with the arrival of spring, they’re already on the hunt - The Invading Sea"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNY0FXS2EyUjlMYnljQTFfY2hFSXNDdTNlSUxaV0xWdXFSM3VTdXJYUjJOLWozODh6cXltMXdsN0ExWTJfYjZvbE52MXA4akdOaERseUFqNDl1dWttY3d6dXpOSE9BT1lYcVFpUW5PdmlSaHRudjMyOFBudEdzQi1pSS05QnUtX09Fd0NaRS1jcUhXaVRIcHBNNXZ3Z0k2d1ZZbW9FNEd4cEN1VF9kWGlHSVFScmtreVpvVzZqU2F4VjRTblVhYkQ2NWFuNW5nUQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNY0FXS2EyUjlMYnljQTFfY2hFSXNDdTNlSUxaV0xWdXFSM3VTdXJYUjJOLWozODh6cXltMXdsN0ExWTJfYjZvbE52MXA4akdOaERseUFqNDl1dWttY3d6dXpOSE9BT1lYcVFpUW5PdmlSaHRudjMyOFBudEdzQi1pSS05QnUtX09Fd0NaRS1jcUhXaVRIcHBNNXZ3Z0k2d1ZZbW9FNEd4cEN1VF9kWGlHSVFScmtreVpvVzZqU2F4VjRTblVhYkQ2NWFuNW5nUQ?oc=5",
+      "id": "CBMizgFBVV95cUxNY0FXS2EyUjlMYnljQTFfY2hFSXNDdTNlSUxaV0xWdXFSM3VTdXJYUjJOLWozODh6cXltMXdsN0ExWTJfYjZvbE52MXA4akdOaERseUFqNDl1dWttY3d6dXpOSE9BT1lYcVFpUW5PdmlSaHRudjMyOFBudEdzQi1pSS05QnUtX09Fd0NaRS1jcUhXaVRIcHBNNXZ3Z0k2d1ZZbW9FNEd4cEN1VF9kWGlHSVFScmtreVpvVzZqU2F4VjRTblVhYkQ2NWFuNW5nUQ",
+      "guidislink": false,
+      "published": "Fri, 22 Mar 2024 07:00:00 GMT",
+      "published_parsed": [
+        2024,
+        3,
+        22,
+        7,
+        0,
+        0,
+        4,
+        82,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxNY0FXS2EyUjlMYnljQTFfY2hFSXNDdTNlSUxaV0xWdXFSM3VTdXJYUjJOLWozODh6cXltMXdsN0ExWTJfYjZvbE52MXA4akdOaERseUFqNDl1dWttY3d6dXpOSE9BT1lYcVFpUW5PdmlSaHRudjMyOFBudEdzQi1pSS05QnUtX09Fd0NaRS1jcUhXaVRIcHBNNXZ3Z0k2d1ZZbW9FNEd4cEN1VF9kWGlHSVFScmtreVpvVzZqU2F4VjRTblVhYkQ2NWFuNW5nUQ?oc=5\" target=\"_blank\">Female mosquitoes rely on one another to choose the best breeding sites − and with the arrival of spring, they’re already on the hunt</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Invading Sea</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxNY0FXS2EyUjlMYnljQTFfY2hFSXNDdTNlSUxaV0xWdXFSM3VTdXJYUjJOLWozODh6cXltMXdsN0ExWTJfYjZvbE52MXA4akdOaERseUFqNDl1dWttY3d6dXpOSE9BT1lYcVFpUW5PdmlSaHRudjMyOFBudEdzQi1pSS05QnUtX09Fd0NaRS1jcUhXaVRIcHBNNXZ3Z0k2d1ZZbW9FNEd4cEN1VF9kWGlHSVFScmtreVpvVzZqU2F4VjRTblVhYkQ2NWFuNW5nUQ?oc=5\" target=\"_blank\">Female mosquitoes rely on one another to choose the best breeding sites − and with the arrival of spring, they’re already on the hunt</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Invading Sea</font>"
+      },
+      "source": {
+        "href": "https://www.theinvadingsea.com",
+        "title": "The Invading Sea"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "The Rise of Deadly Mosquito-Borne Diseases - Vax-Before-Travel",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "The Rise of Deadly Mosquito-Borne Diseases - Vax-Before-Travel"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUkRJUDduVlFCRm9vdnlEU0pqWlNJMHpGYkM1eTNVRU9EX0djZE9HN1VuTFIzS1ZzTTNXUTFqX2pBcGoxVWJ5NVlVbExjcUlUUGZlY3lrZFlCUGJQcHB2QUtmVlhzc3hlQURlRWRqcXN0VmNmREUxTElsazFuVWxLT3RpT2pZTGM?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUkRJUDduVlFCRm9vdnlEU0pqWlNJMHpGYkM1eTNVRU9EX0djZE9HN1VuTFIzS1ZzTTNXUTFqX2pBcGoxVWJ5NVlVbExjcUlUUGZlY3lrZFlCUGJQcHB2QUtmVlhzc3hlQURlRWRqcXN0VmNmREUxTElsazFuVWxLT3RpT2pZTGM?oc=5",
+      "id": "CBMihwFBVV95cUxOUkRJUDduVlFCRm9vdnlEU0pqWlNJMHpGYkM1eTNVRU9EX0djZE9HN1VuTFIzS1ZzTTNXUTFqX2pBcGoxVWJ5NVlVbExjcUlUUGZlY3lrZFlCUGJQcHB2QUtmVlhzc3hlQURlRWRqcXN0VmNmREUxTElsazFuVWxLT3RpT2pZTGM",
+      "guidislink": false,
+      "published": "Tue, 12 Mar 2024 07:00:00 GMT",
+      "published_parsed": [
+        2024,
+        3,
+        12,
+        7,
+        0,
+        0,
+        1,
+        72,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxOUkRJUDduVlFCRm9vdnlEU0pqWlNJMHpGYkM1eTNVRU9EX0djZE9HN1VuTFIzS1ZzTTNXUTFqX2pBcGoxVWJ5NVlVbExjcUlUUGZlY3lrZFlCUGJQcHB2QUtmVlhzc3hlQURlRWRqcXN0VmNmREUxTElsazFuVWxLT3RpT2pZTGM?oc=5\" target=\"_blank\">The Rise of Deadly Mosquito-Borne Diseases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vax-Before-Travel</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxOUkRJUDduVlFCRm9vdnlEU0pqWlNJMHpGYkM1eTNVRU9EX0djZE9HN1VuTFIzS1ZzTTNXUTFqX2pBcGoxVWJ5NVlVbExjcUlUUGZlY3lrZFlCUGJQcHB2QUtmVlhzc3hlQURlRWRqcXN0VmNmREUxTElsazFuVWxLT3RpT2pZTGM?oc=5\" target=\"_blank\">The Rise of Deadly Mosquito-Borne Diseases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vax-Before-Travel</font>"
+      },
+      "source": {
+        "href": "https://www.vax-before-travel.com",
+        "title": "Vax-Before-Travel"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "UA scientists explore new way to control mosquito populations - AZPM News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "UA scientists explore new way to control mosquito populations - AZPM News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQ2VvSVlsY3REQ3A4R0pxYVZPeWxDV2tEVGkzX2ZFTDF1SWpZU2c4V01fa3oyMnBaTC00UHJzUXZKN3JmNlEyV0lpUDVwelZ4a1ZNVjE5c0ZqOUVJLUJKODlxZnV3REVXa0FSSEs4VkNJcURLZHZJNXVRQ2lzSEJLUVRINEdaMWZGYVB3NUl4UGl2R3NFaEIw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQ2VvSVlsY3REQ3A4R0pxYVZPeWxDV2tEVGkzX2ZFTDF1SWpZU2c4V01fa3oyMnBaTC00UHJzUXZKN3JmNlEyV0lpUDVwelZ4a1ZNVjE5c0ZqOUVJLUJKODlxZnV3REVXa0FSSEs4VkNJcURLZHZJNXVRQ2lzSEJLUVRINEdaMWZGYVB3NUl4UGl2R3NFaEIw?oc=5",
+      "id": "CBMilwFBVV95cUxQQ2VvSVlsY3REQ3A4R0pxYVZPeWxDV2tEVGkzX2ZFTDF1SWpZU2c4V01fa3oyMnBaTC00UHJzUXZKN3JmNlEyV0lpUDVwelZ4a1ZNVjE5c0ZqOUVJLUJKODlxZnV3REVXa0FSSEs4VkNJcURLZHZJNXVRQ2lzSEJLUVRINEdaMWZGYVB3NUl4UGl2R3NFaEIw",
+      "guidislink": false,
+      "published": "Thu, 21 Mar 2024 07:00:00 GMT",
+      "published_parsed": [
+        2024,
+        3,
+        21,
+        7,
+        0,
+        0,
+        3,
+        81,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxQQ2VvSVlsY3REQ3A4R0pxYVZPeWxDV2tEVGkzX2ZFTDF1SWpZU2c4V01fa3oyMnBaTC00UHJzUXZKN3JmNlEyV0lpUDVwelZ4a1ZNVjE5c0ZqOUVJLUJKODlxZnV3REVXa0FSSEs4VkNJcURLZHZJNXVRQ2lzSEJLUVRINEdaMWZGYVB3NUl4UGl2R3NFaEIw?oc=5\" target=\"_blank\">UA scientists explore new way to control mosquito populations</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AZPM News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxQQ2VvSVlsY3REQ3A4R0pxYVZPeWxDV2tEVGkzX2ZFTDF1SWpZU2c4V01fa3oyMnBaTC00UHJzUXZKN3JmNlEyV0lpUDVwelZ4a1ZNVjE5c0ZqOUVJLUJKODlxZnV3REVXa0FSSEs4VkNJcURLZHZJNXVRQ2lzSEJLUVRINEdaMWZGYVB3NUl4UGl2R3NFaEIw?oc=5\" target=\"_blank\">UA scientists explore new way to control mosquito populations</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AZPM News</font>"
+      },
+      "source": {
+        "href": "https://news.azpm.org",
+        "title": "AZPM News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "As temperatures rise, Brazil ramps up efforts to combat dengue outbreaks - Reuters",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "As temperatures rise, Brazil ramps up efforts to combat dengue outbreaks - Reuters"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNU0EwNDUxWU92RlJ0N3MtdGlOMGNPQUd1VjVnTDZrYkZtdEplWUw5OG9ITWpiTDJQQTZoTjhaR1lIdUMxaFFLdzItQnM0Z2hNc0l6VF92Mnk3aXE1VC1UOGZZX0dDejcxLTB1cU1zSTNYNVlNVWd0SVduTUNqLWxRTlk1aWNfUmRrWV9lLWxydmJNeFJjX3otQkJMRlE1YlJ6WGVJc0tMWFE3Nmg4cmYwcUExcjg2TllvRDVLZlI2MkJfaVk1cm1RUElQTQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNU0EwNDUxWU92RlJ0N3MtdGlOMGNPQUd1VjVnTDZrYkZtdEplWUw5OG9ITWpiTDJQQTZoTjhaR1lIdUMxaFFLdzItQnM0Z2hNc0l6VF92Mnk3aXE1VC1UOGZZX0dDejcxLTB1cU1zSTNYNVlNVWd0SVduTUNqLWxRTlk1aWNfUmRrWV9lLWxydmJNeFJjX3otQkJMRlE1YlJ6WGVJc0tMWFE3Nmg4cmYwcUExcjg2TllvRDVLZlI2MkJfaVk1cm1RUElQTQ?oc=5",
+      "id": "CBMiywFBVV95cUxNU0EwNDUxWU92RlJ0N3MtdGlOMGNPQUd1VjVnTDZrYkZtdEplWUw5OG9ITWpiTDJQQTZoTjhaR1lIdUMxaFFLdzItQnM0Z2hNc0l6VF92Mnk3aXE1VC1UOGZZX0dDejcxLTB1cU1zSTNYNVlNVWd0SVduTUNqLWxRTlk1aWNfUmRrWV9lLWxydmJNeFJjX3otQkJMRlE1YlJ6WGVJc0tMWFE3Nmg4cmYwcUExcjg2TllvRDVLZlI2MkJfaVk1cm1RUElQTQ",
+      "guidislink": false,
+      "published": "Tue, 12 Mar 2024 07:00:00 GMT",
+      "published_parsed": [
+        2024,
+        3,
+        12,
+        7,
+        0,
+        0,
+        1,
+        72,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxNU0EwNDUxWU92RlJ0N3MtdGlOMGNPQUd1VjVnTDZrYkZtdEplWUw5OG9ITWpiTDJQQTZoTjhaR1lIdUMxaFFLdzItQnM0Z2hNc0l6VF92Mnk3aXE1VC1UOGZZX0dDejcxLTB1cU1zSTNYNVlNVWd0SVduTUNqLWxRTlk1aWNfUmRrWV9lLWxydmJNeFJjX3otQkJMRlE1YlJ6WGVJc0tMWFE3Nmg4cmYwcUExcjg2TllvRDVLZlI2MkJfaVk1cm1RUElQTQ?oc=5\" target=\"_blank\">As temperatures rise, Brazil ramps up efforts to combat dengue outbreaks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxNU0EwNDUxWU92RlJ0N3MtdGlOMGNPQUd1VjVnTDZrYkZtdEplWUw5OG9ITWpiTDJQQTZoTjhaR1lIdUMxaFFLdzItQnM0Z2hNc0l6VF92Mnk3aXE1VC1UOGZZX0dDejcxLTB1cU1zSTNYNVlNVWd0SVduTUNqLWxRTlk1aWNfUmRrWV9lLWxydmJNeFJjX3otQkJMRlE1YlJ6WGVJc0tMWFE3Nmg4cmYwcUExcjg2TllvRDVLZlI2MkJfaVk1cm1RUElQTQ?oc=5\" target=\"_blank\">As temperatures rise, Brazil ramps up efforts to combat dengue outbreaks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>"
+      },
+      "source": {
+        "href": "https://www.reuters.com",
+        "title": "Reuters"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "WHO African Region Health Emergency Situation Report - Multi-country Outbreak of Dengue, Consolidated Regional Situation Report # 004 – As of 3 March, 2024 - ReliefWeb",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "WHO African Region Health Emergency Situation Report - Multi-country Outbreak of Dengue, Consolidated Regional Situation Report # 004 – As of 3 March, 2024 - ReliefWeb"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQZTk3ZnVsRW9ZNTdaRmdFeGpGMjh1TVdqSXdhd1I4c0Nqb3dXUE9kblYtNklsNE9yNWRkQUlDV2tDd2hFSHZKXzRIRWYzX3dUTVROS0FHNl9EbjRqc3lDbzY3RTBHOXV0M05adHBOQTBpQnJob3VHM3p0U0wxLTdnUFRiMlJWWUFacjZrbkVlREpSaWtES2hpWmhNVmFZNnFzczUzOTdHSTRuOUFwN3V6RTVUOGZheHlsVU1pV2hsOUFZbFJRQ1p0bEpvQm42TmxKSEdwXzZxWS1Sc1Z6TVBJTzR0RmgzZy1oQzJwcXBWS0pNSV9CcnhOT1JSSWtSSGlnajF5S21QRTdaTXVY?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQZTk3ZnVsRW9ZNTdaRmdFeGpGMjh1TVdqSXdhd1I4c0Nqb3dXUE9kblYtNklsNE9yNWRkQUlDV2tDd2hFSHZKXzRIRWYzX3dUTVROS0FHNl9EbjRqc3lDbzY3RTBHOXV0M05adHBOQTBpQnJob3VHM3p0U0wxLTdnUFRiMlJWWUFacjZrbkVlREpSaWtES2hpWmhNVmFZNnFzczUzOTdHSTRuOUFwN3V6RTVUOGZheHlsVU1pV2hsOUFZbFJRQ1p0bEpvQm42TmxKSEdwXzZxWS1Sc1Z6TVBJTzR0RmgzZy1oQzJwcXBWS0pNSV9CcnhOT1JSSWtSSGlnajF5S21QRTdaTXVY?oc=5",
+      "id": "CBMijAJBVV95cUxQZTk3ZnVsRW9ZNTdaRmdFeGpGMjh1TVdqSXdhd1I4c0Nqb3dXUE9kblYtNklsNE9yNWRkQUlDV2tDd2hFSHZKXzRIRWYzX3dUTVROS0FHNl9EbjRqc3lDbzY3RTBHOXV0M05adHBOQTBpQnJob3VHM3p0U0wxLTdnUFRiMlJWWUFacjZrbkVlREpSaWtES2hpWmhNVmFZNnFzczUzOTdHSTRuOUFwN3V6RTVUOGZheHlsVU1pV2hsOUFZbFJRQ1p0bEpvQm42TmxKSEdwXzZxWS1Sc1Z6TVBJTzR0RmgzZy1oQzJwcXBWS0pNSV9CcnhOT1JSSWtSSGlnajF5S21QRTdaTXVY",
+      "guidislink": false,
+      "published": "Wed, 13 Mar 2024 07:00:00 GMT",
+      "published_parsed": [
+        2024,
+        3,
+        13,
+        7,
+        0,
+        0,
+        2,
+        73,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAJBVV95cUxQZTk3ZnVsRW9ZNTdaRmdFeGpGMjh1TVdqSXdhd1I4c0Nqb3dXUE9kblYtNklsNE9yNWRkQUlDV2tDd2hFSHZKXzRIRWYzX3dUTVROS0FHNl9EbjRqc3lDbzY3RTBHOXV0M05adHBOQTBpQnJob3VHM3p0U0wxLTdnUFRiMlJWWUFacjZrbkVlREpSaWtES2hpWmhNVmFZNnFzczUzOTdHSTRuOUFwN3V6RTVUOGZheHlsVU1pV2hsOUFZbFJRQ1p0bEpvQm42TmxKSEdwXzZxWS1Sc1Z6TVBJTzR0RmgzZy1oQzJwcXBWS0pNSV9CcnhOT1JSSWtSSGlnajF5S21QRTdaTXVY?oc=5\" target=\"_blank\">WHO African Region Health Emergency Situation Report - Multi-country Outbreak of Dengue, Consolidated Regional Situation Report # 004 – As of 3 March, 2024</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ReliefWeb</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMijAJBVV95cUxQZTk3ZnVsRW9ZNTdaRmdFeGpGMjh1TVdqSXdhd1I4c0Nqb3dXUE9kblYtNklsNE9yNWRkQUlDV2tDd2hFSHZKXzRIRWYzX3dUTVROS0FHNl9EbjRqc3lDbzY3RTBHOXV0M05adHBOQTBpQnJob3VHM3p0U0wxLTdnUFRiMlJWWUFacjZrbkVlREpSaWtES2hpWmhNVmFZNnFzczUzOTdHSTRuOUFwN3V6RTVUOGZheHlsVU1pV2hsOUFZbFJRQ1p0bEpvQm42TmxKSEdwXzZxWS1Sc1Z6TVBJTzR0RmgzZy1oQzJwcXBWS0pNSV9CcnhOT1JSSWtSSGlnajF5S21QRTdaTXVY?oc=5\" target=\"_blank\">WHO African Region Health Emergency Situation Report - Multi-country Outbreak of Dengue, Consolidated Regional Situation Report # 004 – As of 3 March, 2024</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ReliefWeb</font>"
+      },
+      "source": {
+        "href": "https://reliefweb.int",
+        "title": "ReliefWeb"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "This $19 million factory in Brazil will breed mosquitos that don’t spread disease - Fast Company",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "This $19 million factory in Brazil will breed mosquitos that don’t spread disease - Fast Company"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSi12NWJBSmZPbXFIUmk5Tk11ZmZLYmtVT3htMXNEbnBxRmw2NHB2MkdYS0pQOTBSTW9rN2QtNV8xX1N1dmFiNUQxS0had1ltUFZQX0owejgyVDRrR1ZxT3UwTFBxM1RNS2dyVmlwdnBDTzUyUUxLc1NnN1FMZ1BjRnpCbGRhbFlDUktYaWJuMjhxRHNI?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNSi12NWJBSmZPbXFIUmk5Tk11ZmZLYmtVT3htMXNEbnBxRmw2NHB2MkdYS0pQOTBSTW9rN2QtNV8xX1N1dmFiNUQxS0had1ltUFZQX0owejgyVDRrR1ZxT3UwTFBxM1RNS2dyVmlwdnBDTzUyUUxLc1NnN1FMZ1BjRnpCbGRhbFlDUktYaWJuMjhxRHNI?oc=5",
+      "id": "CBMilAFBVV95cUxNSi12NWJBSmZPbXFIUmk5Tk11ZmZLYmtVT3htMXNEbnBxRmw2NHB2MkdYS0pQOTBSTW9rN2QtNV8xX1N1dmFiNUQxS0had1ltUFZQX0owejgyVDRrR1ZxT3UwTFBxM1RNS2dyVmlwdnBDTzUyUUxLc1NnN1FMZ1BjRnpCbGRhbFlDUktYaWJuMjhxRHNI",
+      "guidislink": false,
+      "published": "Tue, 19 Mar 2024 07:00:00 GMT",
+      "published_parsed": [
+        2024,
+        3,
+        19,
+        7,
+        0,
+        0,
+        1,
+        79,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNSi12NWJBSmZPbXFIUmk5Tk11ZmZLYmtVT3htMXNEbnBxRmw2NHB2MkdYS0pQOTBSTW9rN2QtNV8xX1N1dmFiNUQxS0had1ltUFZQX0owejgyVDRrR1ZxT3UwTFBxM1RNS2dyVmlwdnBDTzUyUUxLc1NnN1FMZ1BjRnpCbGRhbFlDUktYaWJuMjhxRHNI?oc=5\" target=\"_blank\">This $19 million factory in Brazil will breed mosquitos that don’t spread disease</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fast Company</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNSi12NWJBSmZPbXFIUmk5Tk11ZmZLYmtVT3htMXNEbnBxRmw2NHB2MkdYS0pQOTBSTW9rN2QtNV8xX1N1dmFiNUQxS0had1ltUFZQX0owejgyVDRrR1ZxT3UwTFBxM1RNS2dyVmlwdnBDTzUyUUxLc1NnN1FMZ1BjRnpCbGRhbFlDUktYaWJuMjhxRHNI?oc=5\" target=\"_blank\">This $19 million factory in Brazil will breed mosquitos that don’t spread disease</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fast Company</font>"
+      },
+      "source": {
+        "href": "https://www.fastcompany.com",
+        "title": "Fast Company"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "A return to health? Flu levels in Ohio beginning to drop according to latest CDC data - Cleveland.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "A return to health? Flu levels in Ohio beginning to drop according to latest CDC data - Cleveland.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPU0dPcUtfa2w5eHREaktEUVpwbXhmTjg5aUJkSXozRWE4QUJRZEI5dHZKTEJqZGZUR0xLT0VWNzhackdzRmhnbjY5V2FoRGkwUEpKXzZGbnhZSUE1OVMzNy1LRTdZOTZNNk44dWJ5NjBqNFp4My1ORnlEdlFpN2lHT0txZGV2eFNOWjhndHRnSFhfV2lGVEpZYVNhZXhBbTlCaTh5U010MVQ5bGhsNU5CRGJDQmY3anFSR1pZRDg5dU1vSkc0MHBn0gHbAUFVX3lxTE9xU1k3bFo3NTEtRjI5SVBtMGpxU0d0ZmNNRl9uYWoyeGoxb3FqRUNVMU9TQ0lhenY2Ti15TnA3eDkxV2VCYkdiVXFGajV1RnloeUxyRHpFdUFaenNEQmFnXzBCM1RXX0ZSOXZzdXhXREV1Y2FNR0RjUFptWVJiQnNkX1pnN01KeHYySVJvcUtxOVBacmNlTHNFeFJfWDA0aGhsQ0wzbjJtTzFMd0U1XzFJX3RRekk5YXUyTXBOOUh1OVBYc1VZUkxCa3R3TjR0QzJ3UEJPTHBCZ21Ndw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPU0dPcUtfa2w5eHREaktEUVpwbXhmTjg5aUJkSXozRWE4QUJRZEI5dHZKTEJqZGZUR0xLT0VWNzhackdzRmhnbjY5V2FoRGkwUEpKXzZGbnhZSUE1OVMzNy1LRTdZOTZNNk44dWJ5NjBqNFp4My1ORnlEdlFpN2lHT0txZGV2eFNOWjhndHRnSFhfV2lGVEpZYVNhZXhBbTlCaTh5U010MVQ5bGhsNU5CRGJDQmY3anFSR1pZRDg5dU1vSkc0MHBn0gHbAUFVX3lxTE9xU1k3bFo3NTEtRjI5SVBtMGpxU0d0ZmNNRl9uYWoyeGoxb3FqRUNVMU9TQ0lhenY2Ti15TnA3eDkxV2VCYkdiVXFGajV1RnloeUxyRHpFdUFaenNEQmFnXzBCM1RXX0ZSOXZzdXhXREV1Y2FNR0RjUFptWVJiQnNkX1pnN01KeHYySVJvcUtxOVBacmNlTHNFeFJfWDA0aGhsQ0wzbjJtTzFMd0U1XzFJX3RRekk5YXUyTXBOOUh1OVBYc1VZUkxCa3R3TjR0QzJ3UEJPTHBCZ21Ndw?oc=5",
+      "id": "CBMixwFBVV95cUxPU0dPcUtfa2w5eHREaktEUVpwbXhmTjg5aUJkSXozRWE4QUJRZEI5dHZKTEJqZGZUR0xLT0VWNzhackdzRmhnbjY5V2FoRGkwUEpKXzZGbnhZSUE1OVMzNy1LRTdZOTZNNk44dWJ5NjBqNFp4My1ORnlEdlFpN2lHT0txZGV2eFNOWjhndHRnSFhfV2lGVEpZYVNhZXhBbTlCaTh5U010MVQ5bGhsNU5CRGJDQmY3anFSR1pZRDg5dU1vSkc0MHBn0gHbAUFVX3lxTE9xU1k3bFo3NTEtRjI5SVBtMGpxU0d0ZmNNRl9uYWoyeGoxb3FqRUNVMU9TQ0lhenY2Ti15TnA3eDkxV2VCYkdiVXFGajV1RnloeUxyRHpFdUFaenNEQmFnXzBCM1RXX0ZSOXZzdXhXREV1Y2FNR0RjUFptWVJiQnNkX1pnN01KeHYySVJvcUtxOVBacmNlTHNFeFJfWDA0aGhsQ0wzbjJtTzFMd0U1XzFJX3RRekk5YXUyTXBOOUh1OVBYc1VZUkxCa3R3TjR0QzJ3UEJPTHBCZ21Ndw",
+      "guidislink": false,
+      "published": "Fri, 22 Mar 2024 07:00:00 GMT",
+      "published_parsed": [
+        2024,
+        3,
+        22,
+        7,
+        0,
+        0,
+        4,
+        82,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxPU0dPcUtfa2w5eHREaktEUVpwbXhmTjg5aUJkSXozRWE4QUJRZEI5dHZKTEJqZGZUR0xLT0VWNzhackdzRmhnbjY5V2FoRGkwUEpKXzZGbnhZSUE1OVMzNy1LRTdZOTZNNk44dWJ5NjBqNFp4My1ORnlEdlFpN2lHT0txZGV2eFNOWjhndHRnSFhfV2lGVEpZYVNhZXhBbTlCaTh5U010MVQ5bGhsNU5CRGJDQmY3anFSR1pZRDg5dU1vSkc0MHBn0gHbAUFVX3lxTE9xU1k3bFo3NTEtRjI5SVBtMGpxU0d0ZmNNRl9uYWoyeGoxb3FqRUNVMU9TQ0lhenY2Ti15TnA3eDkxV2VCYkdiVXFGajV1RnloeUxyRHpFdUFaenNEQmFnXzBCM1RXX0ZSOXZzdXhXREV1Y2FNR0RjUFptWVJiQnNkX1pnN01KeHYySVJvcUtxOVBacmNlTHNFeFJfWDA0aGhsQ0wzbjJtTzFMd0U1XzFJX3RRekk5YXUyTXBOOUh1OVBYc1VZUkxCa3R3TjR0QzJ3UEJPTHBCZ21Ndw?oc=5\" target=\"_blank\">A return to health? Flu levels in Ohio beginning to drop according to latest CDC data</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cleveland.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxPU0dPcUtfa2w5eHREaktEUVpwbXhmTjg5aUJkSXozRWE4QUJRZEI5dHZKTEJqZGZUR0xLT0VWNzhackdzRmhnbjY5V2FoRGkwUEpKXzZGbnhZSUE1OVMzNy1LRTdZOTZNNk44dWJ5NjBqNFp4My1ORnlEdlFpN2lHT0txZGV2eFNOWjhndHRnSFhfV2lGVEpZYVNhZXhBbTlCaTh5U010MVQ5bGhsNU5CRGJDQmY3anFSR1pZRDg5dU1vSkc0MHBn0gHbAUFVX3lxTE9xU1k3bFo3NTEtRjI5SVBtMGpxU0d0ZmNNRl9uYWoyeGoxb3FqRUNVMU9TQ0lhenY2Ti15TnA3eDkxV2VCYkdiVXFGajV1RnloeUxyRHpFdUFaenNEQmFnXzBCM1RXX0ZSOXZzdXhXREV1Y2FNR0RjUFptWVJiQnNkX1pnN01KeHYySVJvcUtxOVBacmNlTHNFeFJfWDA0aGhsQ0wzbjJtTzFMd0U1XzFJX3RRekk5YXUyTXBOOUh1OVBYc1VZUkxCa3R3TjR0QzJ3UEJPTHBCZ21Ndw?oc=5\" target=\"_blank\">A return to health? Flu levels in Ohio beginning to drop according to latest CDC data</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cleveland.com</font>"
+      },
+      "source": {
+        "href": "https://www.cleveland.com",
+        "title": "Cleveland.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika Virus warning - CHCH",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika Virus warning - CHCH"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBOY1hPZ3ZmQTBMWmFVRWZJa1NuWVE3UjlEdGFyeDExT2ZqdzVxWXpXdmY3WkJxdkVGTVVXbF9oX29VYUR3THBKY1dmcURBSlVwYnh5Wjdn?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBOY1hPZ3ZmQTBMWmFVRWZJa1NuWVE3UjlEdGFyeDExT2ZqdzVxWXpXdmY3WkJxdkVGTVVXbF9oX29VYUR3THBKY1dmcURBSlVwYnh5Wjdn?oc=5",
+      "id": "CBMiVkFVX3lxTFBOY1hPZ3ZmQTBMWmFVRWZJa1NuWVE3UjlEdGFyeDExT2ZqdzVxWXpXdmY3WkJxdkVGTVVXbF9oX29VYUR3THBKY1dmcURBSlVwYnh5Wjdn",
+      "guidislink": false,
+      "published": "Sat, 16 Mar 2024 07:00:00 GMT",
+      "published_parsed": [
+        2024,
+        3,
+        16,
+        7,
+        0,
+        0,
+        5,
+        76,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTFBOY1hPZ3ZmQTBMWmFVRWZJa1NuWVE3UjlEdGFyeDExT2ZqdzVxWXpXdmY3WkJxdkVGTVVXbF9oX29VYUR3THBKY1dmcURBSlVwYnh5Wjdn?oc=5\" target=\"_blank\">Zika Virus warning</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CHCH</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTFBOY1hPZ3ZmQTBMWmFVRWZJa1NuWVE3UjlEdGFyeDExT2ZqdzVxWXpXdmY3WkJxdkVGTVVXbF9oX29VYUR3THBKY1dmcURBSlVwYnh5Wjdn?oc=5\" target=\"_blank\">Zika Virus warning</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CHCH</font>"
+      },
+      "source": {
+        "href": "https://www.chch.com",
+        "title": "CHCH"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Does the warm winter mean we will see mosquitoes earlier in NY? - Democrat and Chronicle",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Does the warm winter mean we will see mosquitoes earlier in NY? - Democrat and Chronicle"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPLXljWHRTdWJCZDgyY3FLRHd5eEZTSDFQTnY4Q1ludzlnc3JBTlB4OVRidFZvRWVMSkVqTUMteG93Q3ZTdjBlZ1RIZzh6emZ5ZE5wTG9FVEcxbEI0Qkg3UmlPbVhsbkFEY3VsaG5zcE9TeXdvRUlxNmJRLTBLQXk3UmlrRm9uQ01ZMWRyT1F2N25HY2lhMF9wQ2x4TDI3Y0t5OEo4dFlWVUN2TmV0bjYwOUh5c2xzOEFPWnIxamo2T1BmSmo0bFpmX3JwemF2V3IzeWk0LW1PNUY?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPLXljWHRTdWJCZDgyY3FLRHd5eEZTSDFQTnY4Q1ludzlnc3JBTlB4OVRidFZvRWVMSkVqTUMteG93Q3ZTdjBlZ1RIZzh6emZ5ZE5wTG9FVEcxbEI0Qkg3UmlPbVhsbkFEY3VsaG5zcE9TeXdvRUlxNmJRLTBLQXk3UmlrRm9uQ01ZMWRyT1F2N25HY2lhMF9wQ2x4TDI3Y0t5OEo4dFlWVUN2TmV0bjYwOUh5c2xzOEFPWnIxamo2T1BmSmo0bFpmX3JwemF2V3IzeWk0LW1PNUY?oc=5",
+      "id": "CBMi2AFBVV95cUxPLXljWHRTdWJCZDgyY3FLRHd5eEZTSDFQTnY4Q1ludzlnc3JBTlB4OVRidFZvRWVMSkVqTUMteG93Q3ZTdjBlZ1RIZzh6emZ5ZE5wTG9FVEcxbEI0Qkg3UmlPbVhsbkFEY3VsaG5zcE9TeXdvRUlxNmJRLTBLQXk3UmlrRm9uQ01ZMWRyT1F2N25HY2lhMF9wQ2x4TDI3Y0t5OEo4dFlWVUN2TmV0bjYwOUh5c2xzOEFPWnIxamo2T1BmSmo0bFpmX3JwemF2V3IzeWk0LW1PNUY",
+      "guidislink": false,
+      "published": "Mon, 18 Mar 2024 07:00:00 GMT",
+      "published_parsed": [
+        2024,
+        3,
+        18,
+        7,
+        0,
+        0,
+        0,
+        78,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxPLXljWHRTdWJCZDgyY3FLRHd5eEZTSDFQTnY4Q1ludzlnc3JBTlB4OVRidFZvRWVMSkVqTUMteG93Q3ZTdjBlZ1RIZzh6emZ5ZE5wTG9FVEcxbEI0Qkg3UmlPbVhsbkFEY3VsaG5zcE9TeXdvRUlxNmJRLTBLQXk3UmlrRm9uQ01ZMWRyT1F2N25HY2lhMF9wQ2x4TDI3Y0t5OEo4dFlWVUN2TmV0bjYwOUh5c2xzOEFPWnIxamo2T1BmSmo0bFpmX3JwemF2V3IzeWk0LW1PNUY?oc=5\" target=\"_blank\">Does the warm winter mean we will see mosquitoes earlier in NY?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Democrat and Chronicle</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxPLXljWHRTdWJCZDgyY3FLRHd5eEZTSDFQTnY4Q1ludzlnc3JBTlB4OVRidFZvRWVMSkVqTUMteG93Q3ZTdjBlZ1RIZzh6emZ5ZE5wTG9FVEcxbEI0Qkg3UmlPbVhsbkFEY3VsaG5zcE9TeXdvRUlxNmJRLTBLQXk3UmlrRm9uQ01ZMWRyT1F2N25HY2lhMF9wQ2x4TDI3Y0t5OEo4dFlWVUN2TmV0bjYwOUh5c2xzOEFPWnIxamo2T1BmSmo0bFpmX3JwemF2V3IzeWk0LW1PNUY?oc=5\" target=\"_blank\">Does the warm winter mean we will see mosquitoes earlier in NY?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Democrat and Chronicle</font>"
+      },
+      "source": {
+        "href": "https://www.democratandchronicle.com",
+        "title": "Democrat and Chronicle"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Travel-associated infections approaching pre-pandemic levels - GOV.UK",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Travel-associated infections approaching pre-pandemic levels - GOV.UK"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdEdZVFN1NTFhRGFzYThXNlN1QS1xa1J4c1dnLWVvaEctaXpMMUVKNU9BN2l3M1dfakpCdjJMUGpDNkZfS2ZrNUZDdHNvT3ZqVDZIbEllZXF3WTg1WHhLaElwOF9TUDlhZHNtS0NEM0ptSkhJSlVYUU9MUlZvSjFkaElZbDF5ajJrWjZVQUhUVGtBX2pVQVdYcVh6cw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdEdZVFN1NTFhRGFzYThXNlN1QS1xa1J4c1dnLWVvaEctaXpMMUVKNU9BN2l3M1dfakpCdjJMUGpDNkZfS2ZrNUZDdHNvT3ZqVDZIbEllZXF3WTg1WHhLaElwOF9TUDlhZHNtS0NEM0ptSkhJSlVYUU9MUlZvSjFkaElZbDF5ajJrWjZVQUhUVGtBX2pVQVdYcVh6cw?oc=5",
+      "id": "CBMimwFBVV95cUxQdEdZVFN1NTFhRGFzYThXNlN1QS1xa1J4c1dnLWVvaEctaXpMMUVKNU9BN2l3M1dfakpCdjJMUGpDNkZfS2ZrNUZDdHNvT3ZqVDZIbEllZXF3WTg1WHhLaElwOF9TUDlhZHNtS0NEM0ptSkhJSlVYUU9MUlZvSjFkaElZbDF5ajJrWjZVQUhUVGtBX2pVQVdYcVh6cw",
+      "guidislink": false,
+      "published": "Thu, 21 Mar 2024 07:00:00 GMT",
+      "published_parsed": [
+        2024,
+        3,
+        21,
+        7,
+        0,
+        0,
+        3,
+        81,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxQdEdZVFN1NTFhRGFzYThXNlN1QS1xa1J4c1dnLWVvaEctaXpMMUVKNU9BN2l3M1dfakpCdjJMUGpDNkZfS2ZrNUZDdHNvT3ZqVDZIbEllZXF3WTg1WHhLaElwOF9TUDlhZHNtS0NEM0ptSkhJSlVYUU9MUlZvSjFkaElZbDF5ajJrWjZVQUhUVGtBX2pVQVdYcVh6cw?oc=5\" target=\"_blank\">Travel-associated infections approaching pre-pandemic levels</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GOV.UK</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxQdEdZVFN1NTFhRGFzYThXNlN1QS1xa1J4c1dnLWVvaEctaXpMMUVKNU9BN2l3M1dfakpCdjJMUGpDNkZfS2ZrNUZDdHNvT3ZqVDZIbEllZXF3WTg1WHhLaElwOF9TUDlhZHNtS0NEM0ptSkhJSlVYUU9MUlZvSjFkaElZbDF5ajJrWjZVQUhUVGtBX2pVQVdYcVh6cw?oc=5\" target=\"_blank\">Travel-associated infections approaching pre-pandemic levels</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GOV.UK</font>"
+      },
+      "source": {
+        "href": "https://www.gov.uk",
+        "title": "GOV.UK"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Viagra can protect your brain, Cleveland Clinic study finds - Cleveland.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Viagra can protect your brain, Cleveland Clinic study finds - Cleveland.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdERtbXFGdjVpemZFaG42WkVMdTlxTWlvNXhsTFVJWnVSSlk5cFkxY0xDcWZMeUQ0dWtmNGRBT1R6ck9Sc3NtemhxQVdpYUxiLVFQNkRwbW5qdnh0M20xZGNkc0kxTHQxOXN0V3NtZ214YlQtZTZnM2xiTl8xa3BWUXpaazFDYUptQzF0LVI5cjV1V1JZZ1k4dUg2TlFRc1FmeFNOb9IBuAFBVV95cUxQV0p6cXlDNzd3eWw1dEV0LXVCWFhLVm9PTGxpR3M0am9NUWgzNU9pYXZFSWMwc3paRURTNmpJbVZJS0ZRSXFFbmdOZEZMMTZzcTRoamZNZWFmMVlXU0JhUGZBSWJKQU04WW12WXUtTGlwa3NyOTMtWmNXSEpKWXRFekp1Nkw3dDJNOEttMGdUU2l6dDBHUV9NR21wNF9IemQ2WGtqSkh0b2FBYnlYb2phNWRvSDEzdTlP?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdERtbXFGdjVpemZFaG42WkVMdTlxTWlvNXhsTFVJWnVSSlk5cFkxY0xDcWZMeUQ0dWtmNGRBT1R6ck9Sc3NtemhxQVdpYUxiLVFQNkRwbW5qdnh0M20xZGNkc0kxTHQxOXN0V3NtZ214YlQtZTZnM2xiTl8xa3BWUXpaazFDYUptQzF0LVI5cjV1V1JZZ1k4dUg2TlFRc1FmeFNOb9IBuAFBVV95cUxQV0p6cXlDNzd3eWw1dEV0LXVCWFhLVm9PTGxpR3M0am9NUWgzNU9pYXZFSWMwc3paRURTNmpJbVZJS0ZRSXFFbmdOZEZMMTZzcTRoamZNZWFmMVlXU0JhUGZBSWJKQU04WW12WXUtTGlwa3NyOTMtWmNXSEpKWXRFekp1Nkw3dDJNOEttMGdUU2l6dDBHUV9NR21wNF9IemQ2WGtqSkh0b2FBYnlYb2phNWRvSDEzdTlP?oc=5",
+      "id": "CBMipAFBVV95cUxOdERtbXFGdjVpemZFaG42WkVMdTlxTWlvNXhsTFVJWnVSSlk5cFkxY0xDcWZMeUQ0dWtmNGRBT1R6ck9Sc3NtemhxQVdpYUxiLVFQNkRwbW5qdnh0M20xZGNkc0kxTHQxOXN0V3NtZ214YlQtZTZnM2xiTl8xa3BWUXpaazFDYUptQzF0LVI5cjV1V1JZZ1k4dUg2TlFRc1FmeFNOb9IBuAFBVV95cUxQV0p6cXlDNzd3eWw1dEV0LXVCWFhLVm9PTGxpR3M0am9NUWgzNU9pYXZFSWMwc3paRURTNmpJbVZJS0ZRSXFFbmdOZEZMMTZzcTRoamZNZWFmMVlXU0JhUGZBSWJKQU04WW12WXUtTGlwa3NyOTMtWmNXSEpKWXRFekp1Nkw3dDJNOEttMGdUU2l6dDBHUV9NR21wNF9IemQ2WGtqSkh0b2FBYnlYb2phNWRvSDEzdTlP",
+      "guidislink": false,
+      "published": "Tue, 12 Mar 2024 07:00:00 GMT",
+      "published_parsed": [
+        2024,
+        3,
+        12,
+        7,
+        0,
+        0,
+        1,
+        72,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxOdERtbXFGdjVpemZFaG42WkVMdTlxTWlvNXhsTFVJWnVSSlk5cFkxY0xDcWZMeUQ0dWtmNGRBT1R6ck9Sc3NtemhxQVdpYUxiLVFQNkRwbW5qdnh0M20xZGNkc0kxTHQxOXN0V3NtZ214YlQtZTZnM2xiTl8xa3BWUXpaazFDYUptQzF0LVI5cjV1V1JZZ1k4dUg2TlFRc1FmeFNOb9IBuAFBVV95cUxQV0p6cXlDNzd3eWw1dEV0LXVCWFhLVm9PTGxpR3M0am9NUWgzNU9pYXZFSWMwc3paRURTNmpJbVZJS0ZRSXFFbmdOZEZMMTZzcTRoamZNZWFmMVlXU0JhUGZBSWJKQU04WW12WXUtTGlwa3NyOTMtWmNXSEpKWXRFekp1Nkw3dDJNOEttMGdUU2l6dDBHUV9NR21wNF9IemQ2WGtqSkh0b2FBYnlYb2phNWRvSDEzdTlP?oc=5\" target=\"_blank\">Viagra can protect your brain, Cleveland Clinic study finds</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cleveland.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxOdERtbXFGdjVpemZFaG42WkVMdTlxTWlvNXhsTFVJWnVSSlk5cFkxY0xDcWZMeUQ0dWtmNGRBT1R6ck9Sc3NtemhxQVdpYUxiLVFQNkRwbW5qdnh0M20xZGNkc0kxTHQxOXN0V3NtZ214YlQtZTZnM2xiTl8xa3BWUXpaazFDYUptQzF0LVI5cjV1V1JZZ1k4dUg2TlFRc1FmeFNOb9IBuAFBVV95cUxQV0p6cXlDNzd3eWw1dEV0LXVCWFhLVm9PTGxpR3M0am9NUWgzNU9pYXZFSWMwc3paRURTNmpJbVZJS0ZRSXFFbmdOZEZMMTZzcTRoamZNZWFmMVlXU0JhUGZBSWJKQU04WW12WXUtTGlwa3NyOTMtWmNXSEpKWXRFekp1Nkw3dDJNOEttMGdUU2l6dDBHUV9NR21wNF9IemQ2WGtqSkh0b2FBYnlYb2phNWRvSDEzdTlP?oc=5\" target=\"_blank\">Viagra can protect your brain, Cleveland Clinic study finds</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cleveland.com</font>"
+      },
+      "source": {
+        "href": "https://www.cleveland.com",
+        "title": "Cleveland.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Vaccine for dengue may be available commercially by mid-2026 - The Hindu",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Vaccine for dengue may be available commercially by mid-2026 - The Hindu"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWTRNTmdNdHM1Y0dqeEtwTlE5Q29tX2tqX3dMV3h3ZkxOTnh6OGJ5b2g2LUVEQk1MdlVCblgwRlFSTmQyaHQxRkMzT2pYTlE1LXY3YXVqUHdOOFMzNnRYSEhEUENSeWt5dHhxSXZ6WVk1U0lNLWNMNWJXM2wzdGtqcTVaNThsSS0xaEZjMElrT3lIdUNnUjIySmd2dG83T3F3UXZicWU4V2ZhQzdaYXJ3U25Rbmtna2g4bnNHRVVEa9IBxgFBVV95cUxPRTFVa05MLTMtTkRCb19FV3pQYlFYRkdJWUIwbjVDMDFaRXE0NFY4SFFQbWlxMnpSTjcwX29BZGNid195ZXhRdDBtZHpFS1pmU0RRRTJvVXVMX2ZUYVRzNnl6S01PMGpfUlg5T0dUeEpORmxtbFVQSDllbmM1NmNvNUlzQzloc2FnRzFENVlmdy1zbkkweFF4SDNNRl9nNi1ERFpHM3lLTTdHOTNma0V4eHBTcktpWjJrTWU4NENHbGZPcDM2Z2c?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWTRNTmdNdHM1Y0dqeEtwTlE5Q29tX2tqX3dMV3h3ZkxOTnh6OGJ5b2g2LUVEQk1MdlVCblgwRlFSTmQyaHQxRkMzT2pYTlE1LXY3YXVqUHdOOFMzNnRYSEhEUENSeWt5dHhxSXZ6WVk1U0lNLWNMNWJXM2wzdGtqcTVaNThsSS0xaEZjMElrT3lIdUNnUjIySmd2dG83T3F3UXZicWU4V2ZhQzdaYXJ3U25Rbmtna2g4bnNHRVVEa9IBxgFBVV95cUxPRTFVa05MLTMtTkRCb19FV3pQYlFYRkdJWUIwbjVDMDFaRXE0NFY4SFFQbWlxMnpSTjcwX29BZGNid195ZXhRdDBtZHpFS1pmU0RRRTJvVXVMX2ZUYVRzNnl6S01PMGpfUlg5T0dUeEpORmxtbFVQSDllbmM1NmNvNUlzQzloc2FnRzFENVlmdy1zbkkweFF4SDNNRl9nNi1ERFpHM3lLTTdHOTNma0V4eHBTcktpWjJrTWU4NENHbGZPcDM2Z2c?oc=5",
+      "id": "CBMivwFBVV95cUxOWTRNTmdNdHM1Y0dqeEtwTlE5Q29tX2tqX3dMV3h3ZkxOTnh6OGJ5b2g2LUVEQk1MdlVCblgwRlFSTmQyaHQxRkMzT2pYTlE1LXY3YXVqUHdOOFMzNnRYSEhEUENSeWt5dHhxSXZ6WVk1U0lNLWNMNWJXM2wzdGtqcTVaNThsSS0xaEZjMElrT3lIdUNnUjIySmd2dG83T3F3UXZicWU4V2ZhQzdaYXJ3U25Rbmtna2g4bnNHRVVEa9IBxgFBVV95cUxPRTFVa05MLTMtTkRCb19FV3pQYlFYRkdJWUIwbjVDMDFaRXE0NFY4SFFQbWlxMnpSTjcwX29BZGNid195ZXhRdDBtZHpFS1pmU0RRRTJvVXVMX2ZUYVRzNnl6S01PMGpfUlg5T0dUeEpORmxtbFVQSDllbmM1NmNvNUlzQzloc2FnRzFENVlmdy1zbkkweFF4SDNNRl9nNi1ERFpHM3lLTTdHOTNma0V4eHBTcktpWjJrTWU4NENHbGZPcDM2Z2c",
+      "guidislink": false,
+      "published": "Mon, 18 Mar 2024 07:00:00 GMT",
+      "published_parsed": [
+        2024,
+        3,
+        18,
+        7,
+        0,
+        0,
+        0,
+        78,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxOWTRNTmdNdHM1Y0dqeEtwTlE5Q29tX2tqX3dMV3h3ZkxOTnh6OGJ5b2g2LUVEQk1MdlVCblgwRlFSTmQyaHQxRkMzT2pYTlE1LXY3YXVqUHdOOFMzNnRYSEhEUENSeWt5dHhxSXZ6WVk1U0lNLWNMNWJXM2wzdGtqcTVaNThsSS0xaEZjMElrT3lIdUNnUjIySmd2dG83T3F3UXZicWU4V2ZhQzdaYXJ3U25Rbmtna2g4bnNHRVVEa9IBxgFBVV95cUxPRTFVa05MLTMtTkRCb19FV3pQYlFYRkdJWUIwbjVDMDFaRXE0NFY4SFFQbWlxMnpSTjcwX29BZGNid195ZXhRdDBtZHpFS1pmU0RRRTJvVXVMX2ZUYVRzNnl6S01PMGpfUlg5T0dUeEpORmxtbFVQSDllbmM1NmNvNUlzQzloc2FnRzFENVlmdy1zbkkweFF4SDNNRl9nNi1ERFpHM3lLTTdHOTNma0V4eHBTcktpWjJrTWU4NENHbGZPcDM2Z2c?oc=5\" target=\"_blank\">Vaccine for dengue may be available commercially by mid-2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Hindu</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxOWTRNTmdNdHM1Y0dqeEtwTlE5Q29tX2tqX3dMV3h3ZkxOTnh6OGJ5b2g2LUVEQk1MdlVCblgwRlFSTmQyaHQxRkMzT2pYTlE1LXY3YXVqUHdOOFMzNnRYSEhEUENSeWt5dHhxSXZ6WVk1U0lNLWNMNWJXM2wzdGtqcTVaNThsSS0xaEZjMElrT3lIdUNnUjIySmd2dG83T3F3UXZicWU4V2ZhQzdaYXJ3U25Rbmtna2g4bnNHRVVEa9IBxgFBVV95cUxPRTFVa05MLTMtTkRCb19FV3pQYlFYRkdJWUIwbjVDMDFaRXE0NFY4SFFQbWlxMnpSTjcwX29BZGNid195ZXhRdDBtZHpFS1pmU0RRRTJvVXVMX2ZUYVRzNnl6S01PMGpfUlg5T0dUeEpORmxtbFVQSDllbmM1NmNvNUlzQzloc2FnRzFENVlmdy1zbkkweFF4SDNNRl9nNi1ERFpHM3lLTTdHOTNma0V4eHBTcktpWjJrTWU4NENHbGZPcDM2Z2c?oc=5\" target=\"_blank\">Vaccine for dengue may be available commercially by mid-2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Hindu</font>"
+      },
+      "source": {
+        "href": "https://www.thehindu.com",
+        "title": "The Hindu"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Mosquito which can spread viruses found in Normandy - Jersey Evening Post",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Mosquito which can spread viruses found in Normandy - Jersey Evening Post"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOM1pId3phS21QN2pjeVU0QU1ueDY0RWZPUWV6d3NDVVg1NXlWb3ZVcUR2dUhVUzktVjhCQXMzVHpwZVVrUHBEZW1wWjRSQkdpbHlzTUtSMTFlZ2tvZVhIWnpuOC1fdy02M2tjSEtYSzhMMkdfSlVFaFNKUmxWbTNHWWl6a2RRdTBLd1RUS2RUZloxWEt6a2lQdnYydHcwYkk?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOM1pId3phS21QN2pjeVU0QU1ueDY0RWZPUWV6d3NDVVg1NXlWb3ZVcUR2dUhVUzktVjhCQXMzVHpwZVVrUHBEZW1wWjRSQkdpbHlzTUtSMTFlZ2tvZVhIWnpuOC1fdy02M2tjSEtYSzhMMkdfSlVFaFNKUmxWbTNHWWl6a2RRdTBLd1RUS2RUZloxWEt6a2lQdnYydHcwYkk?oc=5",
+      "id": "CBMinwFBVV95cUxOM1pId3phS21QN2pjeVU0QU1ueDY0RWZPUWV6d3NDVVg1NXlWb3ZVcUR2dUhVUzktVjhCQXMzVHpwZVVrUHBEZW1wWjRSQkdpbHlzTUtSMTFlZ2tvZVhIWnpuOC1fdy02M2tjSEtYSzhMMkdfSlVFaFNKUmxWbTNHWWl6a2RRdTBLd1RUS2RUZloxWEt6a2lQdnYydHcwYkk",
+      "guidislink": false,
+      "published": "Fri, 22 Mar 2024 07:00:00 GMT",
+      "published_parsed": [
+        2024,
+        3,
+        22,
+        7,
+        0,
+        0,
+        4,
+        82,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxOM1pId3phS21QN2pjeVU0QU1ueDY0RWZPUWV6d3NDVVg1NXlWb3ZVcUR2dUhVUzktVjhCQXMzVHpwZVVrUHBEZW1wWjRSQkdpbHlzTUtSMTFlZ2tvZVhIWnpuOC1fdy02M2tjSEtYSzhMMkdfSlVFaFNKUmxWbTNHWWl6a2RRdTBLd1RUS2RUZloxWEt6a2lQdnYydHcwYkk?oc=5\" target=\"_blank\">Mosquito which can spread viruses found in Normandy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Jersey Evening Post</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxOM1pId3phS21QN2pjeVU0QU1ueDY0RWZPUWV6d3NDVVg1NXlWb3ZVcUR2dUhVUzktVjhCQXMzVHpwZVVrUHBEZW1wWjRSQkdpbHlzTUtSMTFlZ2tvZVhIWnpuOC1fdy02M2tjSEtYSzhMMkdfSlVFaFNKUmxWbTNHWWl6a2RRdTBLd1RUS2RUZloxWEt6a2lQdnYydHcwYkk?oc=5\" target=\"_blank\">Mosquito which can spread viruses found in Normandy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Jersey Evening Post</font>"
+      },
+      "source": {
+        "href": "https://jerseyeveningpost.com",
+        "title": "Jersey Evening Post"
+      },
+      "sub_articles": []
+    }
+  ]
+}

@@ -1,0 +1,865 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2018-03-16",
+  "window_end": "2018-03-29",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2018-03-16+before%3A2018-03-30&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2018-03-16+before:2018-03-30&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:25:55Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2018-03-16 before:2018-03-30\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2018-03-16 before:2018-03-30\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2018-03-16+before:2018-03-30&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2018-03-16+before:2018-03-30&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:25:55 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      25,
+      55,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Consensus and conflict among ecological forecasts of Zika virus outbreaks in the United States - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Consensus and conflict among ecological forecasts of Zika virus outbreaks in the United States - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFByYVZvQzJqWW1aSzRFRDN4MDF1Q2lQbWs3bnRVRlBzZ1ZrWUtTTm0zcDN2a19PalBoQTN5YUxFWS1CakxEMWlHTVNXZnZCdWxhdUI0MzNaR2s2UzBHM1pV?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFByYVZvQzJqWW1aSzRFRDN4MDF1Q2lQbWs3bnRVRlBzZ1ZrWUtTTm0zcDN2a19PalBoQTN5YUxFWS1CakxEMWlHTVNXZnZCdWxhdUI0MzNaR2s2UzBHM1pV?oc=5",
+      "id": "CBMiX0FVX3lxTFByYVZvQzJqWW1aSzRFRDN4MDF1Q2lQbWs3bnRVRlBzZ1ZrWUtTTm0zcDN2a19PalBoQTN5YUxFWS1CakxEMWlHTVNXZnZCdWxhdUI0MzNaR2s2UzBHM1pV",
+      "guidislink": false,
+      "published": "Wed, 21 Mar 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        3,
+        21,
+        7,
+        0,
+        0,
+        2,
+        80,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFByYVZvQzJqWW1aSzRFRDN4MDF1Q2lQbWs3bnRVRlBzZ1ZrWUtTTm0zcDN2a19PalBoQTN5YUxFWS1CakxEMWlHTVNXZnZCdWxhdUI0MzNaR2s2UzBHM1pV?oc=5\" target=\"_blank\">Consensus and conflict among ecological forecasts of Zika virus outbreaks in the United States</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFByYVZvQzJqWW1aSzRFRDN4MDF1Q2lQbWs3bnRVRlBzZ1ZrWUtTTm0zcDN2a19PalBoQTN5YUxFWS1CakxEMWlHTVNXZnZCdWxhdUI0MzNaR2s2UzBHM1pV?oc=5\" target=\"_blank\">Consensus and conflict among ecological forecasts of Zika virus outbreaks in the United States</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Early intrauterine Zika infection linked to birth defects among infants in the US French Territories - 2 Minute Medicine",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Early intrauterine Zika infection linked to birth defects among infants in the US French Territories - 2 Minute Medicine"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVF82MXd5eFF3U0xpOVRzWDlORUtWOVdhSFFHbE1vLWFGOGh1bUx5R2JpUDlPVXY5d2lnbWtFQXVXQ2FydXRwME43U21XbV9BcVVhaEtySlViWWN3azJHbEtzcDhwdE1Qc2lEekdJYnRaeUdiUTdURXRNcVdGaU9QTWFIZkw3Smg1blh5OUZDbUR0QWR4SkJzNDBob09Ball0Y3lSNDRiS3JvZExENUV1Mm5qbWZMdXZveUFsbFpnTmgzdU9IeUl1M190OWVxdw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVF82MXd5eFF3U0xpOVRzWDlORUtWOVdhSFFHbE1vLWFGOGh1bUx5R2JpUDlPVXY5d2lnbWtFQXVXQ2FydXRwME43U21XbV9BcVVhaEtySlViWWN3azJHbEtzcDhwdE1Qc2lEekdJYnRaeUdiUTdURXRNcVdGaU9QTWFIZkw3Smg1blh5OUZDbUR0QWR4SkJzNDBob09Ball0Y3lSNDRiS3JvZExENUV1Mm5qbWZMdXZveUFsbFpnTmgzdU9IeUl1M190OWVxdw?oc=5",
+      "id": "CBMizgFBVV95cUxQVF82MXd5eFF3U0xpOVRzWDlORUtWOVdhSFFHbE1vLWFGOGh1bUx5R2JpUDlPVXY5d2lnbWtFQXVXQ2FydXRwME43U21XbV9BcVVhaEtySlViWWN3azJHbEtzcDhwdE1Qc2lEekdJYnRaeUdiUTdURXRNcVdGaU9QTWFIZkw3Smg1blh5OUZDbUR0QWR4SkJzNDBob09Ball0Y3lSNDRiS3JvZExENUV1Mm5qbWZMdXZveUFsbFpnTmgzdU9IeUl1M190OWVxdw",
+      "guidislink": false,
+      "published": "Tue, 20 Mar 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        3,
+        20,
+        7,
+        0,
+        0,
+        1,
+        79,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxQVF82MXd5eFF3U0xpOVRzWDlORUtWOVdhSFFHbE1vLWFGOGh1bUx5R2JpUDlPVXY5d2lnbWtFQXVXQ2FydXRwME43U21XbV9BcVVhaEtySlViWWN3azJHbEtzcDhwdE1Qc2lEekdJYnRaeUdiUTdURXRNcVdGaU9QTWFIZkw3Smg1blh5OUZDbUR0QWR4SkJzNDBob09Ball0Y3lSNDRiS3JvZExENUV1Mm5qbWZMdXZveUFsbFpnTmgzdU9IeUl1M190OWVxdw?oc=5\" target=\"_blank\">Early intrauterine Zika infection linked to birth defects among infants in the US French Territories</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">2 Minute Medicine</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxQVF82MXd5eFF3U0xpOVRzWDlORUtWOVdhSFFHbE1vLWFGOGh1bUx5R2JpUDlPVXY5d2lnbWtFQXVXQ2FydXRwME43U21XbV9BcVVhaEtySlViWWN3azJHbEtzcDhwdE1Qc2lEekdJYnRaeUdiUTdURXRNcVdGaU9QTWFIZkw3Smg1blh5OUZDbUR0QWR4SkJzNDBob09Ball0Y3lSNDRiS3JvZExENUV1Mm5qbWZMdXZveUFsbFpnTmgzdU9IeUl1M190OWVxdw?oc=5\" target=\"_blank\">Early intrauterine Zika infection linked to birth defects among infants in the US French Territories</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">2 Minute Medicine</font>"
+      },
+      "source": {
+        "href": "https://www.2minutemedicine.com",
+        "title": "2 Minute Medicine"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Antibiotics Increase Mouse Susceptibility to Dengue, West Nile, and Zika - the-scientist.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Antibiotics Increase Mouse Susceptibility to Dengue, West Nile, and Zika - the-scientist.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTUxBVDEyam9JXzhIaXI1akJLcHdNanpoRUhkYWdGdlhldDEyZHZDWVg5RmNyQTdROThXaEY4LUg3cDVJX19kN09oUHppckZ4ek44d0JpWFgzRmtUUDZHRG8xMFZjLWhXLXpoeXBUbEE5SnZxQkk3QlA4STdXYkN4WmhDV3h1Q1phb05VVWVQUG5XMGFseEhLN3VFRHVyY19vclMyM3dMTjR0Zw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTUxBVDEyam9JXzhIaXI1akJLcHdNanpoRUhkYWdGdlhldDEyZHZDWVg5RmNyQTdROThXaEY4LUg3cDVJX19kN09oUHppckZ4ek44d0JpWFgzRmtUUDZHRG8xMFZjLWhXLXpoeXBUbEE5SnZxQkk3QlA4STdXYkN4WmhDV3h1Q1phb05VVWVQUG5XMGFseEhLN3VFRHVyY19vclMyM3dMTjR0Zw?oc=5",
+      "id": "CBMiqgFBVV95cUxOTUxBVDEyam9JXzhIaXI1akJLcHdNanpoRUhkYWdGdlhldDEyZHZDWVg5RmNyQTdROThXaEY4LUg3cDVJX19kN09oUHppckZ4ek44d0JpWFgzRmtUUDZHRG8xMFZjLWhXLXpoeXBUbEE5SnZxQkk3QlA4STdXYkN4WmhDV3h1Q1phb05VVWVQUG5XMGFseEhLN3VFRHVyY19vclMyM3dMTjR0Zw",
+      "guidislink": false,
+      "published": "Tue, 27 Mar 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        3,
+        27,
+        7,
+        0,
+        0,
+        1,
+        86,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTUxBVDEyam9JXzhIaXI1akJLcHdNanpoRUhkYWdGdlhldDEyZHZDWVg5RmNyQTdROThXaEY4LUg3cDVJX19kN09oUHppckZ4ek44d0JpWFgzRmtUUDZHRG8xMFZjLWhXLXpoeXBUbEE5SnZxQkk3QlA4STdXYkN4WmhDV3h1Q1phb05VVWVQUG5XMGFseEhLN3VFRHVyY19vclMyM3dMTjR0Zw?oc=5\" target=\"_blank\">Antibiotics Increase Mouse Susceptibility to Dengue, West Nile, and Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">the-scientist.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTUxBVDEyam9JXzhIaXI1akJLcHdNanpoRUhkYWdGdlhldDEyZHZDWVg5RmNyQTdROThXaEY4LUg3cDVJX19kN09oUHppckZ4ek44d0JpWFgzRmtUUDZHRG8xMFZjLWhXLXpoeXBUbEE5SnZxQkk3QlA4STdXYkN4WmhDV3h1Q1phb05VVWVQUG5XMGFseEhLN3VFRHVyY19vclMyM3dMTjR0Zw?oc=5\" target=\"_blank\">Antibiotics Increase Mouse Susceptibility to Dengue, West Nile, and Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">the-scientist.com</font>"
+      },
+      "source": {
+        "href": "https://www.the-scientist.com",
+        "title": "the-scientist.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "A vaccinia-based single vector construct multi-pathogen vaccine protects against both Zika and chikungunya viruses - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "A vaccinia-based single vector construct multi-pathogen vaccine protects against both Zika and chikungunya viruses - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB1UzZmZnlYYzI4SEt5TFM5M055V2NPMHgzdTByUlU2TnJBRnk4Z2dlYkU4cktZVjBYdW5hYVE0TDhnUWJreEpMelJHQTlvSTVlb25iZkY1UkNUdkN0NEs4?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB1UzZmZnlYYzI4SEt5TFM5M055V2NPMHgzdTByUlU2TnJBRnk4Z2dlYkU4cktZVjBYdW5hYVE0TDhnUWJreEpMelJHQTlvSTVlb25iZkY1UkNUdkN0NEs4?oc=5",
+      "id": "CBMiX0FVX3lxTFB1UzZmZnlYYzI4SEt5TFM5M055V2NPMHgzdTByUlU2TnJBRnk4Z2dlYkU4cktZVjBYdW5hYVE0TDhnUWJreEpMelJHQTlvSTVlb25iZkY1UkNUdkN0NEs4",
+      "guidislink": false,
+      "published": "Mon, 26 Mar 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        3,
+        26,
+        7,
+        0,
+        0,
+        0,
+        85,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFB1UzZmZnlYYzI4SEt5TFM5M055V2NPMHgzdTByUlU2TnJBRnk4Z2dlYkU4cktZVjBYdW5hYVE0TDhnUWJreEpMelJHQTlvSTVlb25iZkY1UkNUdkN0NEs4?oc=5\" target=\"_blank\">A vaccinia-based single vector construct multi-pathogen vaccine protects against both Zika and chikungunya viruses</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFB1UzZmZnlYYzI4SEt5TFM5M055V2NPMHgzdTByUlU2TnJBRnk4Z2dlYkU4cktZVjBYdW5hYVE0TDhnUWJreEpMelJHQTlvSTVlb25iZkY1UkNUdkN0NEs4?oc=5\" target=\"_blank\">A vaccinia-based single vector construct multi-pathogen vaccine protects against both Zika and chikungunya viruses</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Brock mosquito expert Fiona Hunter to conduct Zika research in Dominican Republic - Brock University",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Brock mosquito expert Fiona Hunter to conduct Zika research in Dominican Republic - Brock University"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQY0R4SV9EZVdfMkRGY1lrN3JxZXFDTFAyMzhIaExobDI3U00tZjFmZ3BsS3Z5OGtGdEgwWXdkUWM4QXljczVnOTRVWnBjYVZUakVRaDF6MmxyOXFQb001TnF1a0VBcHV3MnR5cExpSkRHUGRuRVAtVldQN0VRYnpTVFRuVzFxd3JqUkZSLUFvd2ZYbi14NFZWbHlrNC1QVWRqYWZyOWktTWVlaGw3V2tqZFMwUzZYZkFPSnB5LVRjVFAtdEJLMGp1bmhQYw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQY0R4SV9EZVdfMkRGY1lrN3JxZXFDTFAyMzhIaExobDI3U00tZjFmZ3BsS3Z5OGtGdEgwWXdkUWM4QXljczVnOTRVWnBjYVZUakVRaDF6MmxyOXFQb001TnF1a0VBcHV3MnR5cExpSkRHUGRuRVAtVldQN0VRYnpTVFRuVzFxd3JqUkZSLUFvd2ZYbi14NFZWbHlrNC1QVWRqYWZyOWktTWVlaGw3V2tqZFMwUzZYZkFPSnB5LVRjVFAtdEJLMGp1bmhQYw?oc=5",
+      "id": "CBMiywFBVV95cUxQY0R4SV9EZVdfMkRGY1lrN3JxZXFDTFAyMzhIaExobDI3U00tZjFmZ3BsS3Z5OGtGdEgwWXdkUWM4QXljczVnOTRVWnBjYVZUakVRaDF6MmxyOXFQb001TnF1a0VBcHV3MnR5cExpSkRHUGRuRVAtVldQN0VRYnpTVFRuVzFxd3JqUkZSLUFvd2ZYbi14NFZWbHlrNC1QVWRqYWZyOWktTWVlaGw3V2tqZFMwUzZYZkFPSnB5LVRjVFAtdEJLMGp1bmhQYw",
+      "guidislink": false,
+      "published": "Wed, 28 Mar 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        3,
+        28,
+        7,
+        0,
+        0,
+        2,
+        87,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxQY0R4SV9EZVdfMkRGY1lrN3JxZXFDTFAyMzhIaExobDI3U00tZjFmZ3BsS3Z5OGtGdEgwWXdkUWM4QXljczVnOTRVWnBjYVZUakVRaDF6MmxyOXFQb001TnF1a0VBcHV3MnR5cExpSkRHUGRuRVAtVldQN0VRYnpTVFRuVzFxd3JqUkZSLUFvd2ZYbi14NFZWbHlrNC1QVWRqYWZyOWktTWVlaGw3V2tqZFMwUzZYZkFPSnB5LVRjVFAtdEJLMGp1bmhQYw?oc=5\" target=\"_blank\">Brock mosquito expert Fiona Hunter to conduct Zika research in Dominican Republic</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Brock University</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxQY0R4SV9EZVdfMkRGY1lrN3JxZXFDTFAyMzhIaExobDI3U00tZjFmZ3BsS3Z5OGtGdEgwWXdkUWM4QXljczVnOTRVWnBjYVZUakVRaDF6MmxyOXFQb001TnF1a0VBcHV3MnR5cExpSkRHUGRuRVAtVldQN0VRYnpTVFRuVzFxd3JqUkZSLUFvd2ZYbi14NFZWbHlrNC1QVWRqYWZyOWktTWVlaGw3V2tqZFMwUzZYZkFPSnB5LVRjVFAtdEJLMGp1bmhQYw?oc=5\" target=\"_blank\">Brock mosquito expert Fiona Hunter to conduct Zika research in Dominican Republic</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Brock University</font>"
+      },
+      "source": {
+        "href": "https://brocku.ca",
+        "title": "Brock University"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Experts Call For More Resources to Combat Zika - Colorado Springs Gazette",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Experts Call For More Resources to Combat Zika - Colorado Springs Gazette"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQnZOaHFubHg0SEV1ekdrOUxNQVIxM0RJb0hpaHlIMVR0SlNXemVxXzN0djVSc1A0eHh5MUNpMXhsUXB2THJqT05ia0pIV0E1TlpUV3QtdFhScUQ0X2tKMlF2a0RoRkpJWm5kUGhoODVlNDdfV183b0UxVXBENmwwLU15MW8?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQnZOaHFubHg0SEV1ekdrOUxNQVIxM0RJb0hpaHlIMVR0SlNXemVxXzN0djVSc1A0eHh5MUNpMXhsUXB2THJqT05ia0pIV0E1TlpUV3QtdFhScUQ0X2tKMlF2a0RoRkpJWm5kUGhoODVlNDdfV183b0UxVXBENmwwLU15MW8?oc=5",
+      "id": "CBMihAFBVV95cUxOQnZOaHFubHg0SEV1ekdrOUxNQVIxM0RJb0hpaHlIMVR0SlNXemVxXzN0djVSc1A0eHh5MUNpMXhsUXB2THJqT05ia0pIV0E1TlpUV3QtdFhScUQ0X2tKMlF2a0RoRkpJWm5kUGhoODVlNDdfV183b0UxVXBENmwwLU15MW8",
+      "guidislink": false,
+      "published": "Fri, 30 Mar 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        3,
+        30,
+        7,
+        0,
+        0,
+        4,
+        89,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOQnZOaHFubHg0SEV1ekdrOUxNQVIxM0RJb0hpaHlIMVR0SlNXemVxXzN0djVSc1A0eHh5MUNpMXhsUXB2THJqT05ia0pIV0E1TlpUV3QtdFhScUQ0X2tKMlF2a0RoRkpJWm5kUGhoODVlNDdfV183b0UxVXBENmwwLU15MW8?oc=5\" target=\"_blank\">Experts Call For More Resources to Combat Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Colorado Springs Gazette</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOQnZOaHFubHg0SEV1ekdrOUxNQVIxM0RJb0hpaHlIMVR0SlNXemVxXzN0djVSc1A0eHh5MUNpMXhsUXB2THJqT05ia0pIV0E1TlpUV3QtdFhScUQ0X2tKMlF2a0RoRkpJWm5kUGhoODVlNDdfV183b0UxVXBENmwwLU15MW8?oc=5\" target=\"_blank\">Experts Call For More Resources to Combat Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Colorado Springs Gazette</font>"
+      },
+      "source": {
+        "href": "https://gazette.com",
+        "title": "Colorado Springs Gazette"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "These Significant Zika Findings Might Help Moms Breathe A Little Easier - romper.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "These Significant Zika Findings Might Help Moms Breathe A Little Easier - romper.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWFlja0t4a1JCRk1aRWhjam9Od2tDZ3Q4Qjdmei1WdWRKdkRQRGtXa0VMbzNJVTA1ZHlMMXFNTXl5NXhyTzZNWTVNSlcydGxWTndEc1pXdVFMZks4MGgxR0VfeW1xOWRDa0dSektROFpUM2t0d2NEX1JuMkY3YUpSSW1BV2hHUWtCcHVPQzNIUHYyQmphcFBvcFJwQVVFSFlra1NSdC1ERUNlZW0xVEt6bGRUdmlPcFpsWGV4dGd3dkpOWGc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWFlja0t4a1JCRk1aRWhjam9Od2tDZ3Q4Qjdmei1WdWRKdkRQRGtXa0VMbzNJVTA1ZHlMMXFNTXl5NXhyTzZNWTVNSlcydGxWTndEc1pXdVFMZks4MGgxR0VfeW1xOWRDa0dSektROFpUM2t0d2NEX1JuMkY3YUpSSW1BV2hHUWtCcHVPQzNIUHYyQmphcFBvcFJwQVVFSFlra1NSdC1ERUNlZW0xVEt6bGRUdmlPcFpsWGV4dGd3dkpOWGc?oc=5",
+      "id": "CBMiwwFBVV95cUxNWFlja0t4a1JCRk1aRWhjam9Od2tDZ3Q4Qjdmei1WdWRKdkRQRGtXa0VMbzNJVTA1ZHlMMXFNTXl5NXhyTzZNWTVNSlcydGxWTndEc1pXdVFMZks4MGgxR0VfeW1xOWRDa0dSektROFpUM2t0d2NEX1JuMkY3YUpSSW1BV2hHUWtCcHVPQzNIUHYyQmphcFBvcFJwQVVFSFlra1NSdC1ERUNlZW0xVEt6bGRUdmlPcFpsWGV4dGd3dkpOWGc",
+      "guidislink": false,
+      "published": "Fri, 16 Mar 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        3,
+        16,
+        7,
+        0,
+        0,
+        4,
+        75,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWFlja0t4a1JCRk1aRWhjam9Od2tDZ3Q4Qjdmei1WdWRKdkRQRGtXa0VMbzNJVTA1ZHlMMXFNTXl5NXhyTzZNWTVNSlcydGxWTndEc1pXdVFMZks4MGgxR0VfeW1xOWRDa0dSektROFpUM2t0d2NEX1JuMkY3YUpSSW1BV2hHUWtCcHVPQzNIUHYyQmphcFBvcFJwQVVFSFlra1NSdC1ERUNlZW0xVEt6bGRUdmlPcFpsWGV4dGd3dkpOWGc?oc=5\" target=\"_blank\">These Significant Zika Findings Might Help Moms Breathe A Little Easier</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">romper.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxNWFlja0t4a1JCRk1aRWhjam9Od2tDZ3Q4Qjdmei1WdWRKdkRQRGtXa0VMbzNJVTA1ZHlMMXFNTXl5NXhyTzZNWTVNSlcydGxWTndEc1pXdVFMZks4MGgxR0VfeW1xOWRDa0dSektROFpUM2t0d2NEX1JuMkY3YUpSSW1BV2hHUWtCcHVPQzNIUHYyQmphcFBvcFJwQVVFSFlra1NSdC1ERUNlZW0xVEt6bGRUdmlPcFpsWGV4dGd3dkpOWGc?oc=5\" target=\"_blank\">These Significant Zika Findings Might Help Moms Breathe A Little Easier</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">romper.com</font>"
+      },
+      "source": {
+        "href": "https://www.romper.com",
+        "title": "romper.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Risk Communication Expert Ellen Peters Joins APPC as Visiting Scholar - Annenberg Public Policy Center",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Risk Communication Expert Ellen Peters Joins APPC as Visiting Scholar - Annenberg Public Policy Center"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcEtUMXl4alpXX1g0dGFnRFFEZDNzbFlSQkluYXlhQXNvbnpOQXRveUs5eDhSNWJoMXBtZmVLOUxFNmtxQXhQeFRMbjdubTdqWnJlaVFDMXdKSG5ING9WZzdJX0lLZE1HNkc5Ym1vYnhLRlp4M0k4LTNfdzhzZGt1OWlmb0piQ0NvQmhrd2FQRktpR1VfNHFYc2xBSHprTXVfS1hNcmx4NTRWOTRFTUYwbXBHa0E?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcEtUMXl4alpXX1g0dGFnRFFEZDNzbFlSQkluYXlhQXNvbnpOQXRveUs5eDhSNWJoMXBtZmVLOUxFNmtxQXhQeFRMbjdubTdqWnJlaVFDMXdKSG5ING9WZzdJX0lLZE1HNkc5Ym1vYnhLRlp4M0k4LTNfdzhzZGt1OWlmb0piQ0NvQmhrd2FQRktpR1VfNHFYc2xBSHprTXVfS1hNcmx4NTRWOTRFTUYwbXBHa0E?oc=5",
+      "id": "CBMitAFBVV95cUxQcEtUMXl4alpXX1g0dGFnRFFEZDNzbFlSQkluYXlhQXNvbnpOQXRveUs5eDhSNWJoMXBtZmVLOUxFNmtxQXhQeFRMbjdubTdqWnJlaVFDMXdKSG5ING9WZzdJX0lLZE1HNkc5Ym1vYnhLRlp4M0k4LTNfdzhzZGt1OWlmb0piQ0NvQmhrd2FQRktpR1VfNHFYc2xBSHprTXVfS1hNcmx4NTRWOTRFTUYwbXBHa0E",
+      "guidislink": false,
+      "published": "Thu, 29 Mar 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        3,
+        29,
+        7,
+        0,
+        0,
+        3,
+        88,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQcEtUMXl4alpXX1g0dGFnRFFEZDNzbFlSQkluYXlhQXNvbnpOQXRveUs5eDhSNWJoMXBtZmVLOUxFNmtxQXhQeFRMbjdubTdqWnJlaVFDMXdKSG5ING9WZzdJX0lLZE1HNkc5Ym1vYnhLRlp4M0k4LTNfdzhzZGt1OWlmb0piQ0NvQmhrd2FQRktpR1VfNHFYc2xBSHprTXVfS1hNcmx4NTRWOTRFTUYwbXBHa0E?oc=5\" target=\"_blank\">Risk Communication Expert Ellen Peters Joins APPC as Visiting Scholar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Annenberg Public Policy Center</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQcEtUMXl4alpXX1g0dGFnRFFEZDNzbFlSQkluYXlhQXNvbnpOQXRveUs5eDhSNWJoMXBtZmVLOUxFNmtxQXhQeFRMbjdubTdqWnJlaVFDMXdKSG5ING9WZzdJX0lLZE1HNkc5Ym1vYnhLRlp4M0k4LTNfdzhzZGt1OWlmb0piQ0NvQmhrd2FQRktpR1VfNHFYc2xBSHprTXVfS1hNcmx4NTRWOTRFTUYwbXBHa0E?oc=5\" target=\"_blank\">Risk Communication Expert Ellen Peters Joins APPC as Visiting Scholar</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Annenberg Public Policy Center</font>"
+      },
+      "source": {
+        "href": "https://www.annenbergpublicpolicycenter.org",
+        "title": "Annenberg Public Policy Center"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Long-lasting method to prevent dengue launched in Mexico’s Baja California Sur - Monash University",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Long-lasting method to prevent dengue launched in Mexico’s Baja California Sur - Monash University"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMHNic2ROZ0wybHZDSVdXN3FleXpXU09UbWQ2amZ5Nm9rRHJFbk0yT19uUGhyZ1A5TXBTZFpLbHAwOG1GeWs3TG5mc201TFZQM2g1UVo4cndQMWVqTzRJVk1JYzRDLXpqNHBnSVB6SkJsS0g0dDE4RzQ3c05CN1EyUjViMERycGcxdlBjZUxYNlg5UjJyd3hWSVhzYTBKWVZrV0R6d3JDRW1sbGFFVFJVY1ZhSmQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMHNic2ROZ0wybHZDSVdXN3FleXpXU09UbWQ2amZ5Nm9rRHJFbk0yT19uUGhyZ1A5TXBTZFpLbHAwOG1GeWs3TG5mc201TFZQM2g1UVo4cndQMWVqTzRJVk1JYzRDLXpqNHBnSVB6SkJsS0g0dDE4RzQ3c05CN1EyUjViMERycGcxdlBjZUxYNlg5UjJyd3hWSVhzYTBKWVZrV0R6d3JDRW1sbGFFVFJVY1ZhSmQ?oc=5",
+      "id": "CBMitAFBVV95cUxNMHNic2ROZ0wybHZDSVdXN3FleXpXU09UbWQ2amZ5Nm9rRHJFbk0yT19uUGhyZ1A5TXBTZFpLbHAwOG1GeWs3TG5mc201TFZQM2g1UVo4cndQMWVqTzRJVk1JYzRDLXpqNHBnSVB6SkJsS0g0dDE4RzQ3c05CN1EyUjViMERycGcxdlBjZUxYNlg5UjJyd3hWSVhzYTBKWVZrV0R6d3JDRW1sbGFFVFJVY1ZhSmQ",
+      "guidislink": false,
+      "published": "Wed, 21 Mar 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        3,
+        21,
+        7,
+        0,
+        0,
+        2,
+        80,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxNMHNic2ROZ0wybHZDSVdXN3FleXpXU09UbWQ2amZ5Nm9rRHJFbk0yT19uUGhyZ1A5TXBTZFpLbHAwOG1GeWs3TG5mc201TFZQM2g1UVo4cndQMWVqTzRJVk1JYzRDLXpqNHBnSVB6SkJsS0g0dDE4RzQ3c05CN1EyUjViMERycGcxdlBjZUxYNlg5UjJyd3hWSVhzYTBKWVZrV0R6d3JDRW1sbGFFVFJVY1ZhSmQ?oc=5\" target=\"_blank\">Long-lasting method to prevent dengue launched in Mexico’s Baja California Sur</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Monash University</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxNMHNic2ROZ0wybHZDSVdXN3FleXpXU09UbWQ2amZ5Nm9rRHJFbk0yT19uUGhyZ1A5TXBTZFpLbHAwOG1GeWs3TG5mc201TFZQM2g1UVo4cndQMWVqTzRJVk1JYzRDLXpqNHBnSVB6SkJsS0g0dDE4RzQ3c05CN1EyUjViMERycGcxdlBjZUxYNlg5UjJyd3hWSVhzYTBKWVZrV0R6d3JDRW1sbGFFVFJVY1ZhSmQ?oc=5\" target=\"_blank\">Long-lasting method to prevent dengue launched in Mexico’s Baja California Sur</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Monash University</font>"
+      },
+      "source": {
+        "href": "https://www.monash.edu",
+        "title": "Monash University"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika Virus Disease - Canadian Union of Public Employees",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika Virus Disease - Canadian Union of Public Employees"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1lUnE2cURQc2VxMnFBal9ZVHZUNFh1UWZZQUxVb2VnUTRvWExtRVA2dXBPZDVlNTFQdEVoNTFHeWxKdzdjSWdST3VkQno?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1lUnE2cURQc2VxMnFBal9ZVHZUNFh1UWZZQUxVb2VnUTRvWExtRVA2dXBPZDVlNTFQdEVoNTFHeWxKdzdjSWdST3VkQno?oc=5",
+      "id": "CBMiTEFVX3lxTE1lUnE2cURQc2VxMnFBal9ZVHZUNFh1UWZZQUxVb2VnUTRvWExtRVA2dXBPZDVlNTFQdEVoNTFHeWxKdzdjSWdST3VkQno",
+      "guidislink": false,
+      "published": "Tue, 27 Mar 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        3,
+        27,
+        7,
+        0,
+        0,
+        1,
+        86,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiTEFVX3lxTE1lUnE2cURQc2VxMnFBal9ZVHZUNFh1UWZZQUxVb2VnUTRvWExtRVA2dXBPZDVlNTFQdEVoNTFHeWxKdzdjSWdST3VkQno?oc=5\" target=\"_blank\">Zika Virus Disease</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Canadian Union of Public Employees</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiTEFVX3lxTE1lUnE2cURQc2VxMnFBal9ZVHZUNFh1UWZZQUxVb2VnUTRvWExtRVA2dXBPZDVlNTFQdEVoNTFHeWxKdzdjSWdST3VkQno?oc=5\" target=\"_blank\">Zika Virus Disease</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Canadian Union of Public Employees</font>"
+      },
+      "source": {
+        "href": "https://cupe.ca",
+        "title": "Canadian Union of Public Employees"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "WesternU College of Veterinary Medicine Professor to talk biosurveillance threats at TEDxUCLA - WesternU News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "WesternU College of Veterinary Medicine Professor to talk biosurveillance threats at TEDxUCLA - WesternU News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUEFRNzUydEpvVlhodk1qTDgwRnFjWVlUTEtvTXpGa1FlT2IxZEZTdXlENkJRUXVHWDVNZ0k5MW84T2RxNUxsMndMczk3cVBaaXNGVjQxUm9hbTVwWXN4bUNmdVRHV1VhWUdNRzBmdW1wSnZwdGViNVVfcFR1MmphdVZZdWIteTZma2M3Wm5yajZyU3AzMllqbDdPN0xuN1BFdnZ5OGVlUWFZdVNJNjltU2lxXzl1VkFNaktWUA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUEFRNzUydEpvVlhodk1qTDgwRnFjWVlUTEtvTXpGa1FlT2IxZEZTdXlENkJRUXVHWDVNZ0k5MW84T2RxNUxsMndMczk3cVBaaXNGVjQxUm9hbTVwWXN4bUNmdVRHV1VhWUdNRzBmdW1wSnZwdGViNVVfcFR1MmphdVZZdWIteTZma2M3Wm5yajZyU3AzMllqbDdPN0xuN1BFdnZ5OGVlUWFZdVNJNjltU2lxXzl1VkFNaktWUA?oc=5",
+      "id": "CBMivAFBVV95cUxNUEFRNzUydEpvVlhodk1qTDgwRnFjWVlUTEtvTXpGa1FlT2IxZEZTdXlENkJRUXVHWDVNZ0k5MW84T2RxNUxsMndMczk3cVBaaXNGVjQxUm9hbTVwWXN4bUNmdVRHV1VhWUdNRzBmdW1wSnZwdGViNVVfcFR1MmphdVZZdWIteTZma2M3Wm5yajZyU3AzMllqbDdPN0xuN1BFdnZ5OGVlUWFZdVNJNjltU2lxXzl1VkFNaktWUA",
+      "guidislink": false,
+      "published": "Thu, 29 Mar 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        3,
+        29,
+        7,
+        0,
+        0,
+        3,
+        88,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxNUEFRNzUydEpvVlhodk1qTDgwRnFjWVlUTEtvTXpGa1FlT2IxZEZTdXlENkJRUXVHWDVNZ0k5MW84T2RxNUxsMndMczk3cVBaaXNGVjQxUm9hbTVwWXN4bUNmdVRHV1VhWUdNRzBmdW1wSnZwdGViNVVfcFR1MmphdVZZdWIteTZma2M3Wm5yajZyU3AzMllqbDdPN0xuN1BFdnZ5OGVlUWFZdVNJNjltU2lxXzl1VkFNaktWUA?oc=5\" target=\"_blank\">WesternU College of Veterinary Medicine Professor to talk biosurveillance threats at TEDxUCLA</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WesternU News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxNUEFRNzUydEpvVlhodk1qTDgwRnFjWVlUTEtvTXpGa1FlT2IxZEZTdXlENkJRUXVHWDVNZ0k5MW84T2RxNUxsMndMczk3cVBaaXNGVjQxUm9hbTVwWXN4bUNmdVRHV1VhWUdNRzBmdW1wSnZwdGViNVVfcFR1MmphdVZZdWIteTZma2M3Wm5yajZyU3AzMllqbDdPN0xuN1BFdnZ5OGVlUWFZdVNJNjltU2lxXzl1VkFNaktWUA?oc=5\" target=\"_blank\">WesternU College of Veterinary Medicine Professor to talk biosurveillance threats at TEDxUCLA</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WesternU News</font>"
+      },
+      "source": {
+        "href": "https://news.westernu.edu",
+        "title": "WesternU News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "The Mosquito Gap - Inequality.org",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "The Mosquito Gap - Inequality.org"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBqWGZLZVd6RVhTWVRRM095V2o2WWlRWFhWT1U5YXNtSzNMMkl2ZUZsV2U3a0hUSWkwY3ZCSGdCNDdOVndpTVhrMldkUHd2S05RZEc3eldiRQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBqWGZLZVd6RVhTWVRRM095V2o2WWlRWFhWT1U5YXNtSzNMMkl2ZUZsV2U3a0hUSWkwY3ZCSGdCNDdOVndpTVhrMldkUHd2S05RZEc3eldiRQ?oc=5",
+      "id": "CBMiV0FVX3lxTFBqWGZLZVd6RVhTWVRRM095V2o2WWlRWFhWT1U5YXNtSzNMMkl2ZUZsV2U3a0hUSWkwY3ZCSGdCNDdOVndpTVhrMldkUHd2S05RZEc3eldiRQ",
+      "guidislink": false,
+      "published": "Wed, 28 Mar 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        3,
+        28,
+        7,
+        0,
+        0,
+        2,
+        87,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTFBqWGZLZVd6RVhTWVRRM095V2o2WWlRWFhWT1U5YXNtSzNMMkl2ZUZsV2U3a0hUSWkwY3ZCSGdCNDdOVndpTVhrMldkUHd2S05RZEc3eldiRQ?oc=5\" target=\"_blank\">The Mosquito Gap</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Inequality.org</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTFBqWGZLZVd6RVhTWVRRM095V2o2WWlRWFhWT1U5YXNtSzNMMkl2ZUZsV2U3a0hUSWkwY3ZCSGdCNDdOVndpTVhrMldkUHd2S05RZEc3eldiRQ?oc=5\" target=\"_blank\">The Mosquito Gap</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Inequality.org</font>"
+      },
+      "source": {
+        "href": "https://inequality.org",
+        "title": "Inequality.org"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "AHF Global Public Health Institute at University of Miami Launched - AIDS Healthcare Foundation",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "AHF Global Public Health Institute at University of Miami Launched - AIDS Healthcare Foundation"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOS1kySW1JdDFDV25JLTlBYVZmeVVtTExRY3pHaUZQd2tLVkJPbmx2d1JRNXNXTFFPUUZ1azU2ZEpKWWFNNnIwVDZVZzZEdThRczRZOUQ5dlc5eDJWQVpsMEFHNTBnYmtsTDhyUmpUM0tubmJZZ1ZFc3MzRmZ3N0tqTkJqekpmZUZrSjk3V19Nc2hNYWZ3MHFOTlpqRXo?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOS1kySW1JdDFDV25JLTlBYVZmeVVtTExRY3pHaUZQd2tLVkJPbmx2d1JRNXNXTFFPUUZ1azU2ZEpKWWFNNnIwVDZVZzZEdThRczRZOUQ5dlc5eDJWQVpsMEFHNTBnYmtsTDhyUmpUM0tubmJZZ1ZFc3MzRmZ3N0tqTkJqekpmZUZrSjk3V19Nc2hNYWZ3MHFOTlpqRXo?oc=5",
+      "id": "CBMinAFBVV95cUxOS1kySW1JdDFDV25JLTlBYVZmeVVtTExRY3pHaUZQd2tLVkJPbmx2d1JRNXNXTFFPUUZ1azU2ZEpKWWFNNnIwVDZVZzZEdThRczRZOUQ5dlc5eDJWQVpsMEFHNTBnYmtsTDhyUmpUM0tubmJZZ1ZFc3MzRmZ3N0tqTkJqekpmZUZrSjk3V19Nc2hNYWZ3MHFOTlpqRXo",
+      "guidislink": false,
+      "published": "Fri, 16 Mar 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        3,
+        16,
+        7,
+        0,
+        0,
+        4,
+        75,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxOS1kySW1JdDFDV25JLTlBYVZmeVVtTExRY3pHaUZQd2tLVkJPbmx2d1JRNXNXTFFPUUZ1azU2ZEpKWWFNNnIwVDZVZzZEdThRczRZOUQ5dlc5eDJWQVpsMEFHNTBnYmtsTDhyUmpUM0tubmJZZ1ZFc3MzRmZ3N0tqTkJqekpmZUZrSjk3V19Nc2hNYWZ3MHFOTlpqRXo?oc=5\" target=\"_blank\">AHF Global Public Health Institute at University of Miami Launched</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AIDS Healthcare Foundation</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxOS1kySW1JdDFDV25JLTlBYVZmeVVtTExRY3pHaUZQd2tLVkJPbmx2d1JRNXNXTFFPUUZ1azU2ZEpKWWFNNnIwVDZVZzZEdThRczRZOUQ5dlc5eDJWQVpsMEFHNTBnYmtsTDhyUmpUM0tubmJZZ1ZFc3MzRmZ3N0tqTkJqekpmZUZrSjk3V19Nc2hNYWZ3MHFOTlpqRXo?oc=5\" target=\"_blank\">AHF Global Public Health Institute at University of Miami Launched</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">AIDS Healthcare Foundation</font>"
+      },
+      "source": {
+        "href": "https://www.aidshealth.org",
+        "title": "AIDS Healthcare Foundation"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Serbian Red Berets ‘Killed Civilian Captives’ in Bosnia - Balkan Insight",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Serbian Red Berets ‘Killed Civilian Captives’ in Bosnia - Balkan Insight"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbjhqWXdsWTZOZzAxTFVTNXEzMkRjb1ExelNzTW9KWDJWN3EzdHVkTEtKTkJxYjBQV3VBZjQxbjUyZWk1Sjd2bWNud3FONVlrNXlZckcwN2xHaDY1SmRkUVd5Nm14QmY4VlJ1T1I4Sk5lSUJuSTZjcUtXN0pJdjNFdExTRkVtRVBJS3hJUFJ2T29wRDdLQVFiN1lFRmZZS3E4c3c0UmhyaG9PUQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbjhqWXdsWTZOZzAxTFVTNXEzMkRjb1ExelNzTW9KWDJWN3EzdHVkTEtKTkJxYjBQV3VBZjQxbjUyZWk1Sjd2bWNud3FONVlrNXlZckcwN2xHaDY1SmRkUVd5Nm14QmY4VlJ1T1I4Sk5lSUJuSTZjcUtXN0pJdjNFdExTRkVtRVBJS3hJUFJ2T29wRDdLQVFiN1lFRmZZS3E4c3c0UmhyaG9PUQ?oc=5",
+      "id": "CBMiqgFBVV95cUxQbjhqWXdsWTZOZzAxTFVTNXEzMkRjb1ExelNzTW9KWDJWN3EzdHVkTEtKTkJxYjBQV3VBZjQxbjUyZWk1Sjd2bWNud3FONVlrNXlZckcwN2xHaDY1SmRkUVd5Nm14QmY4VlJ1T1I4Sk5lSUJuSTZjcUtXN0pJdjNFdExTRkVtRVBJS3hJUFJ2T29wRDdLQVFiN1lFRmZZS3E4c3c0UmhyaG9PUQ",
+      "guidislink": false,
+      "published": "Wed, 28 Mar 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        3,
+        28,
+        7,
+        0,
+        0,
+        2,
+        87,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbjhqWXdsWTZOZzAxTFVTNXEzMkRjb1ExelNzTW9KWDJWN3EzdHVkTEtKTkJxYjBQV3VBZjQxbjUyZWk1Sjd2bWNud3FONVlrNXlZckcwN2xHaDY1SmRkUVd5Nm14QmY4VlJ1T1I4Sk5lSUJuSTZjcUtXN0pJdjNFdExTRkVtRVBJS3hJUFJ2T29wRDdLQVFiN1lFRmZZS3E4c3c0UmhyaG9PUQ?oc=5\" target=\"_blank\">Serbian Red Berets ‘Killed Civilian Captives’ in Bosnia</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Balkan Insight</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbjhqWXdsWTZOZzAxTFVTNXEzMkRjb1ExelNzTW9KWDJWN3EzdHVkTEtKTkJxYjBQV3VBZjQxbjUyZWk1Sjd2bWNud3FONVlrNXlZckcwN2xHaDY1SmRkUVd5Nm14QmY4VlJ1T1I4Sk5lSUJuSTZjcUtXN0pJdjNFdExTRkVtRVBJS3hJUFJ2T29wRDdLQVFiN1lFRmZZS3E4c3c0UmhyaG9PUQ?oc=5\" target=\"_blank\">Serbian Red Berets ‘Killed Civilian Captives’ in Bosnia</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Balkan Insight</font>"
+      },
+      "source": {
+        "href": "https://balkaninsight.com",
+        "title": "Balkan Insight"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "What is Disease X? - The Economist",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "What is Disease X? - The Economist"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQR2F5aDgtQnNnOUViQ255YnhSeVo2Yy1CSmlPdGFRWVcxaExEZjdDcEtranZWOGx3NWFZSzV1aFNleW1ZakFYaU9KVEw3dlZDM0FiY3lKRVJiZVVyb3o5ZUh2VHM0YzNWeFNWV3VVTVRTZ09TUVdRQ2d5QlNiUG9TMnUtVQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQR2F5aDgtQnNnOUViQ255YnhSeVo2Yy1CSmlPdGFRWVcxaExEZjdDcEtranZWOGx3NWFZSzV1aFNleW1ZakFYaU9KVEw3dlZDM0FiY3lKRVJiZVVyb3o5ZUh2VHM0YzNWeFNWV3VVTVRTZ09TUVdRQ2d5QlNiUG9TMnUtVQ?oc=5",
+      "id": "CBMigwFBVV95cUxQR2F5aDgtQnNnOUViQ255YnhSeVo2Yy1CSmlPdGFRWVcxaExEZjdDcEtranZWOGx3NWFZSzV1aFNleW1ZakFYaU9KVEw3dlZDM0FiY3lKRVJiZVVyb3o5ZUh2VHM0YzNWeFNWV3VVTVRTZ09TUVdRQ2d5QlNiUG9TMnUtVQ",
+      "guidislink": false,
+      "published": "Fri, 23 Mar 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        3,
+        23,
+        7,
+        0,
+        0,
+        4,
+        82,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxQR2F5aDgtQnNnOUViQ255YnhSeVo2Yy1CSmlPdGFRWVcxaExEZjdDcEtranZWOGx3NWFZSzV1aFNleW1ZakFYaU9KVEw3dlZDM0FiY3lKRVJiZVVyb3o5ZUh2VHM0YzNWeFNWV3VVTVRTZ09TUVdRQ2d5QlNiUG9TMnUtVQ?oc=5\" target=\"_blank\">What is Disease X?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Economist</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxQR2F5aDgtQnNnOUViQ255YnhSeVo2Yy1CSmlPdGFRWVcxaExEZjdDcEtranZWOGx3NWFZSzV1aFNleW1ZakFYaU9KVEw3dlZDM0FiY3lKRVJiZVVyb3o5ZUh2VHM0YzNWeFNWV3VVTVRTZ09TUVdRQ2d5QlNiUG9TMnUtVQ?oc=5\" target=\"_blank\">What is Disease X?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Economist</font>"
+      },
+      "source": {
+        "href": "https://www.economist.com",
+        "title": "The Economist"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika virus travel warning - Vancouver Sun",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika virus travel warning - Vancouver Sun"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcVNfc3NVa1B0Ylh2bElGWDR0SUwwY0x4ZE9mclA0Q0RuLTk2OFd5ZkZsUkI4d3dDQTc0Sm1DZ3pObkV1YW5TekpKQ0tDQ1ozcW5yVXhxanFJMm1QWnd1SFh6Zm5mWW9QNzVaTGFRNXRYdUZlR3c2cFhkdmthVkp4ZWx0VnJZOVRKLXpKcUhJZ2w4S3pDUkExdA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcVNfc3NVa1B0Ylh2bElGWDR0SUwwY0x4ZE9mclA0Q0RuLTk2OFd5ZkZsUkI4d3dDQTc0Sm1DZ3pObkV1YW5TekpKQ0tDQ1ozcW5yVXhxanFJMm1QWnd1SFh6Zm5mWW9QNzVaTGFRNXRYdUZlR3c2cFhkdmthVkp4ZWx0VnJZOVRKLXpKcUhJZ2w4S3pDUkExdA?oc=5",
+      "id": "CBMimAFBVV95cUxOcVNfc3NVa1B0Ylh2bElGWDR0SUwwY0x4ZE9mclA0Q0RuLTk2OFd5ZkZsUkI4d3dDQTc0Sm1DZ3pObkV1YW5TekpKQ0tDQ1ozcW5yVXhxanFJMm1QWnd1SFh6Zm5mWW9QNzVaTGFRNXRYdUZlR3c2cFhkdmthVkp4ZWx0VnJZOVRKLXpKcUhJZ2w4S3pDUkExdA",
+      "guidislink": false,
+      "published": "Thu, 22 Mar 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        3,
+        22,
+        7,
+        0,
+        0,
+        3,
+        81,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxOcVNfc3NVa1B0Ylh2bElGWDR0SUwwY0x4ZE9mclA0Q0RuLTk2OFd5ZkZsUkI4d3dDQTc0Sm1DZ3pObkV1YW5TekpKQ0tDQ1ozcW5yVXhxanFJMm1QWnd1SFh6Zm5mWW9QNzVaTGFRNXRYdUZlR3c2cFhkdmthVkp4ZWx0VnJZOVRKLXpKcUhJZ2w4S3pDUkExdA?oc=5\" target=\"_blank\">Zika virus travel warning</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vancouver Sun</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxOcVNfc3NVa1B0Ylh2bElGWDR0SUwwY0x4ZE9mclA0Q0RuLTk2OFd5ZkZsUkI4d3dDQTc0Sm1DZ3pObkV1YW5TekpKQ0tDQ1ozcW5yVXhxanFJMm1QWnd1SFh6Zm5mWW9QNzVaTGFRNXRYdUZlR3c2cFhkdmthVkp4ZWx0VnJZOVRKLXpKcUhJZ2w4S3pDUkExdA?oc=5\" target=\"_blank\">Zika virus travel warning</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vancouver Sun</font>"
+      },
+      "source": {
+        "href": "https://vancouversun.com",
+        "title": "Vancouver Sun"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Brock mosquito expert to conduct Zika research in Dominican Republic – The Brock News - Brock University",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Brock mosquito expert to conduct Zika research in Dominican Republic – The Brock News - Brock University"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZU1CUU5sSUhhR2dVMnNmOHZxVng2bGxtaWlkOXAzLWdjdUxCdjl1cXJiSkE3S0FQLTVSTTI4S3BVTkNjTHNvMTFhWnZ4QnBpcXhIcTVXdkdPTHJXRkpPN0I3RUhjS1hXVFZ0b2txdXk0QVlxeThhSlBPTnFPUFAtczBxdFJvOHhmVl90dXhZb2NBTEh0ckpJa2tiZW1ieVlkdEo1STNIRWRxZw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZU1CUU5sSUhhR2dVMnNmOHZxVng2bGxtaWlkOXAzLWdjdUxCdjl1cXJiSkE3S0FQLTVSTTI4S3BVTkNjTHNvMTFhWnZ4QnBpcXhIcTVXdkdPTHJXRkpPN0I3RUhjS1hXVFZ0b2txdXk0QVlxeThhSlBPTnFPUFAtczBxdFJvOHhmVl90dXhZb2NBTEh0ckpJa2tiZW1ieVlkdEo1STNIRWRxZw?oc=5",
+      "id": "CBMiqgFBVV95cUxOZU1CUU5sSUhhR2dVMnNmOHZxVng2bGxtaWlkOXAzLWdjdUxCdjl1cXJiSkE3S0FQLTVSTTI4S3BVTkNjTHNvMTFhWnZ4QnBpcXhIcTVXdkdPTHJXRkpPN0I3RUhjS1hXVFZ0b2txdXk0QVlxeThhSlBPTnFPUFAtczBxdFJvOHhmVl90dXhZb2NBTEh0ckpJa2tiZW1ieVlkdEo1STNIRWRxZw",
+      "guidislink": false,
+      "published": "Tue, 27 Mar 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        3,
+        27,
+        7,
+        0,
+        0,
+        1,
+        86,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZU1CUU5sSUhhR2dVMnNmOHZxVng2bGxtaWlkOXAzLWdjdUxCdjl1cXJiSkE3S0FQLTVSTTI4S3BVTkNjTHNvMTFhWnZ4QnBpcXhIcTVXdkdPTHJXRkpPN0I3RUhjS1hXVFZ0b2txdXk0QVlxeThhSlBPTnFPUFAtczBxdFJvOHhmVl90dXhZb2NBTEh0ckpJa2tiZW1ieVlkdEo1STNIRWRxZw?oc=5\" target=\"_blank\">Brock mosquito expert to conduct Zika research in Dominican Republic – The Brock News</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Brock University</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZU1CUU5sSUhhR2dVMnNmOHZxVng2bGxtaWlkOXAzLWdjdUxCdjl1cXJiSkE3S0FQLTVSTTI4S3BVTkNjTHNvMTFhWnZ4QnBpcXhIcTVXdkdPTHJXRkpPN0I3RUhjS1hXVFZ0b2txdXk0QVlxeThhSlBPTnFPUFAtczBxdFJvOHhmVl90dXhZb2NBTEh0ckpJa2tiZW1ieVlkdEo1STNIRWRxZw?oc=5\" target=\"_blank\">Brock mosquito expert to conduct Zika research in Dominican Republic – The Brock News</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Brock University</font>"
+      },
+      "source": {
+        "href": "https://brocku.ca",
+        "title": "Brock University"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Why disease-bearing insects, viral infections are increasing - The Guardian Nigeria News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Why disease-bearing insects, viral infections are increasing - The Guardian Nigeria News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORXdiWHhsRkhJVHJNbHRhUDhNQk4zb3J6dVJZaWFpRVRTYUZXVnp0d241NTRqM2ZIblFhUFJrb1gxdGVWMEJ1Zl9pS3pIZ2ZOZ0Y0aTU5aW9xbHdnQ2xLa1MxdkxPT2pYT3laTlRFZjlEdFBTMWFLQy1oUjZzaWF1aVhweTdFRnJ2VlFrRElndXAxZzQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORXdiWHhsRkhJVHJNbHRhUDhNQk4zb3J6dVJZaWFpRVRTYUZXVnp0d241NTRqM2ZIblFhUFJrb1gxdGVWMEJ1Zl9pS3pIZ2ZOZ0Y0aTU5aW9xbHdnQ2xLa1MxdkxPT2pYT3laTlRFZjlEdFBTMWFLQy1oUjZzaWF1aVhweTdFRnJ2VlFrRElndXAxZzQ?oc=5",
+      "id": "CBMikwFBVV95cUxORXdiWHhsRkhJVHJNbHRhUDhNQk4zb3J6dVJZaWFpRVRTYUZXVnp0d241NTRqM2ZIblFhUFJrb1gxdGVWMEJ1Zl9pS3pIZ2ZOZ0Y0aTU5aW9xbHdnQ2xLa1MxdkxPT2pYT3laTlRFZjlEdFBTMWFLQy1oUjZzaWF1aVhweTdFRnJ2VlFrRElndXAxZzQ",
+      "guidislink": false,
+      "published": "Mon, 19 Mar 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        3,
+        19,
+        7,
+        0,
+        0,
+        0,
+        78,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxORXdiWHhsRkhJVHJNbHRhUDhNQk4zb3J6dVJZaWFpRVRTYUZXVnp0d241NTRqM2ZIblFhUFJrb1gxdGVWMEJ1Zl9pS3pIZ2ZOZ0Y0aTU5aW9xbHdnQ2xLa1MxdkxPT2pYT3laTlRFZjlEdFBTMWFLQy1oUjZzaWF1aVhweTdFRnJ2VlFrRElndXAxZzQ?oc=5\" target=\"_blank\">Why disease-bearing insects, viral infections are increasing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian Nigeria News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxORXdiWHhsRkhJVHJNbHRhUDhNQk4zb3J6dVJZaWFpRVRTYUZXVnp0d241NTRqM2ZIblFhUFJrb1gxdGVWMEJ1Zl9pS3pIZ2ZOZ0Y0aTU5aW9xbHdnQ2xLa1MxdkxPT2pYT3laTlRFZjlEdFBTMWFLQy1oUjZzaWF1aVhweTdFRnJ2VlFrRElndXAxZzQ?oc=5\" target=\"_blank\">Why disease-bearing insects, viral infections are increasing</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian Nigeria News</font>"
+      },
+      "source": {
+        "href": "https://guardian.ng",
+        "title": "The Guardian Nigeria News"
+      },
+      "sub_articles": []
+    }
+  ]
+}

@@ -1,0 +1,865 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2019-02-01",
+  "window_end": "2019-02-14",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2019-02-01+before%3A2019-02-15&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2019-02-01+before:2019-02-15&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:26:38Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2019-02-01 before:2019-02-15\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2019-02-01 before:2019-02-15\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2019-02-01+before:2019-02-15&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2019-02-01+before:2019-02-15&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:26:38 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      26,
+      38,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Engineered resistance to Zika virus in transgenic Aedes aegypti expressing a polycistronic cluster of synthetic small RNAs - PNAS",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Engineered resistance to Zika virus in transgenic Aedes aegypti expressing a polycistronic cluster of synthetic small RNAs - PNAS"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBEeEk1bmQ5c1lQaUszQVNqVUVfZ215ckhvVGVBN1RweDVJdFpYY2E5SlhNVGZSd0M3R0lrbEpLMzY1OFhpalRkU2hSdldzZDFDR3ZSNnVSWWJlbFNQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBEeEk1bmQ5c1lQaUszQVNqVUVfZ215ckhvVGVBN1RweDVJdFpYY2E5SlhNVGZSd0M3R0lrbEpLMzY1OFhpalRkU2hSdldzZDFDR3ZSNnVSWWJlbFNQ?oc=5",
+      "id": "CBMiXEFVX3lxTFBEeEk1bmQ5c1lQaUszQVNqVUVfZ215ckhvVGVBN1RweDVJdFpYY2E5SlhNVGZSd0M3R0lrbEpLMzY1OFhpalRkU2hSdldzZDFDR3ZSNnVSWWJlbFNQ",
+      "guidislink": false,
+      "published": "Tue, 05 Feb 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        2,
+        5,
+        8,
+        0,
+        0,
+        1,
+        36,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTFBEeEk1bmQ5c1lQaUszQVNqVUVfZ215ckhvVGVBN1RweDVJdFpYY2E5SlhNVGZSd0M3R0lrbEpLMzY1OFhpalRkU2hSdldzZDFDR3ZSNnVSWWJlbFNQ?oc=5\" target=\"_blank\">Engineered resistance to Zika virus in transgenic Aedes aegypti expressing a polycistronic cluster of synthetic small RNAs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PNAS</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTFBEeEk1bmQ5c1lQaUszQVNqVUVfZ215ckhvVGVBN1RweDVJdFpYY2E5SlhNVGZSd0M3R0lrbEpLMzY1OFhpalRkU2hSdldzZDFDR3ZSNnVSWWJlbFNQ?oc=5\" target=\"_blank\">Engineered resistance to Zika virus in transgenic Aedes aegypti expressing a polycistronic cluster of synthetic small RNAs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PNAS</font>"
+      },
+      "source": {
+        "href": "https://www.pnas.org",
+        "title": "PNAS"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Blocking Zika: New antiviral may treat and prevent infection, a Stanford study suggests - Stanford Medicine",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Blocking Zika: New antiviral may treat and prevent infection, a Stanford study suggests - Stanford Medicine"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQSEtWTktzRm1EUXVpLXFGcEp5cHJjV0N4QXMwZDRMeXNOZERFZmc4Zmw0WlV3UlpzdWg1cjZYdl9XSm1YSU45amFpN3ZVUUdvWnpzMlVJaXNFRGNRQkIzX3NWVnUyRTNLWXFtVGhEVnRicTVRT0NVZkgzQkpyMlFFamYzakRHYmdPYUlob2REcUxSdGttYm5NU09MREEzNk9xeEtaQlNUeHFVVWI2UjVCZjhlYzgxNEpjOTNtU0dMUzdiN1VKeUl3NHNoUmpPZzZjRWtB?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQSEtWTktzRm1EUXVpLXFGcEp5cHJjV0N4QXMwZDRMeXNOZERFZmc4Zmw0WlV3UlpzdWg1cjZYdl9XSm1YSU45amFpN3ZVUUdvWnpzMlVJaXNFRGNRQkIzX3NWVnUyRTNLWXFtVGhEVnRicTVRT0NVZkgzQkpyMlFFamYzakRHYmdPYUlob2REcUxSdGttYm5NU09MREEzNk9xeEtaQlNUeHFVVWI2UjVCZjhlYzgxNEpjOTNtU0dMUzdiN1VKeUl3NHNoUmpPZzZjRWtB?oc=5",
+      "id": "CBMi0wFBVV95cUxQSEtWTktzRm1EUXVpLXFGcEp5cHJjV0N4QXMwZDRMeXNOZERFZmc4Zmw0WlV3UlpzdWg1cjZYdl9XSm1YSU45amFpN3ZVUUdvWnpzMlVJaXNFRGNRQkIzX3NWVnUyRTNLWXFtVGhEVnRicTVRT0NVZkgzQkpyMlFFamYzakRHYmdPYUlob2REcUxSdGttYm5NU09MREEzNk9xeEtaQlNUeHFVVWI2UjVCZjhlYzgxNEpjOTNtU0dMUzdiN1VKeUl3NHNoUmpPZzZjRWtB",
+      "guidislink": false,
+      "published": "Wed, 06 Feb 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        2,
+        6,
+        8,
+        0,
+        0,
+        2,
+        37,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxQSEtWTktzRm1EUXVpLXFGcEp5cHJjV0N4QXMwZDRMeXNOZERFZmc4Zmw0WlV3UlpzdWg1cjZYdl9XSm1YSU45amFpN3ZVUUdvWnpzMlVJaXNFRGNRQkIzX3NWVnUyRTNLWXFtVGhEVnRicTVRT0NVZkgzQkpyMlFFamYzakRHYmdPYUlob2REcUxSdGttYm5NU09MREEzNk9xeEtaQlNUeHFVVWI2UjVCZjhlYzgxNEpjOTNtU0dMUzdiN1VKeUl3NHNoUmpPZzZjRWtB?oc=5\" target=\"_blank\">Blocking Zika: New antiviral may treat and prevent infection, a Stanford study suggests</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Stanford Medicine</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxQSEtWTktzRm1EUXVpLXFGcEp5cHJjV0N4QXMwZDRMeXNOZERFZmc4Zmw0WlV3UlpzdWg1cjZYdl9XSm1YSU45amFpN3ZVUUdvWnpzMlVJaXNFRGNRQkIzX3NWVnUyRTNLWXFtVGhEVnRicTVRT0NVZkgzQkpyMlFFamYzakRHYmdPYUlob2REcUxSdGttYm5NU09MREEzNk9xeEtaQlNUeHFVVWI2UjVCZjhlYzgxNEpjOTNtU0dMUzdiN1VKeUl3NHNoUmpPZzZjRWtB?oc=5\" target=\"_blank\">Blocking Zika: New antiviral may treat and prevent infection, a Stanford study suggests</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Stanford Medicine</font>"
+      },
+      "source": {
+        "href": "https://med.stanford.edu",
+        "title": "Stanford Medicine"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika Virus IgM Detected 12 to 19 Months Following Infection Onset, Study Finds - Contagion Live",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika Virus IgM Detected 12 to 19 Months Following Infection Onset, Study Finds - Contagion Live"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMXJDZ1JmOE45dWxZMmJ5aXF5dXJObFNGbHhpcXo2N3Z3MlhVOVdKMGhjX0xHcDVoODdUWlREMmpERmo3UEYwWGxpeWdiU1JxWUV5VC00amI5VF9adGRiZDlOVDZIRU5HSFc4dzV1Unh5SHdhUHFkLTYwTzlzWmZuWlJwV2FNWGlDczBseFF3ek9ybTVJcVY0dndWRkNRNUstWFFkSWE0UWc5QlE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMXJDZ1JmOE45dWxZMmJ5aXF5dXJObFNGbHhpcXo2N3Z3MlhVOVdKMGhjX0xHcDVoODdUWlREMmpERmo3UEYwWGxpeWdiU1JxWUV5VC00amI5VF9adGRiZDlOVDZIRU5HSFc4dzV1Unh5SHdhUHFkLTYwTzlzWmZuWlJwV2FNWGlDczBseFF3ek9ybTVJcVY0dndWRkNRNUstWFFkSWE0UWc5QlE?oc=5",
+      "id": "CBMiqwFBVV95cUxOMXJDZ1JmOE45dWxZMmJ5aXF5dXJObFNGbHhpcXo2N3Z3MlhVOVdKMGhjX0xHcDVoODdUWlREMmpERmo3UEYwWGxpeWdiU1JxWUV5VC00amI5VF9adGRiZDlOVDZIRU5HSFc4dzV1Unh5SHdhUHFkLTYwTzlzWmZuWlJwV2FNWGlDczBseFF3ek9ybTVJcVY0dndWRkNRNUstWFFkSWE0UWc5QlE",
+      "guidislink": false,
+      "published": "Mon, 11 Feb 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        2,
+        11,
+        8,
+        0,
+        0,
+        0,
+        42,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMXJDZ1JmOE45dWxZMmJ5aXF5dXJObFNGbHhpcXo2N3Z3MlhVOVdKMGhjX0xHcDVoODdUWlREMmpERmo3UEYwWGxpeWdiU1JxWUV5VC00amI5VF9adGRiZDlOVDZIRU5HSFc4dzV1Unh5SHdhUHFkLTYwTzlzWmZuWlJwV2FNWGlDczBseFF3ek9ybTVJcVY0dndWRkNRNUstWFFkSWE0UWc5QlE?oc=5\" target=\"_blank\">Zika Virus IgM Detected 12 to 19 Months Following Infection Onset, Study Finds</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Contagion Live</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMXJDZ1JmOE45dWxZMmJ5aXF5dXJObFNGbHhpcXo2N3Z3MlhVOVdKMGhjX0xHcDVoODdUWlREMmpERmo3UEYwWGxpeWdiU1JxWUV5VC00amI5VF9adGRiZDlOVDZIRU5HSFc4dzV1Unh5SHdhUHFkLTYwTzlzWmZuWlJwV2FNWGlDczBseFF3ek9ybTVJcVY0dndWRkNRNUstWFFkSWE0UWc5QlE?oc=5\" target=\"_blank\">Zika Virus IgM Detected 12 to 19 Months Following Infection Onset, Study Finds</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Contagion Live</font>"
+      },
+      "source": {
+        "href": "https://www.contagionlive.com",
+        "title": "Contagion Live"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Miller School Pediatric Team Monitors Zika-Exposed Infants for Developmental Delays - University of Miami",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Miller School Pediatric Team Monitors Zika-Exposed Infants for Developmental Delays - University of Miami"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUnZ1MU1NWjlvWl9JZ2syMFMxYXBxRUY5bERUMm9mU2VLSTRrT184WHJrTmlJYVpOOW1GeWMtdUhDV2lFWUNUUHZaZE1oVFYzZzFsQlhQSWRyMEJ4MjJGU292LTJPR3NKb3RWSzJ3Nkg2UkZqRU9OaEpHaHprUTk4VG51RVVsN0hHNFNqNzN4RktTckRzcmdoVEVBT1J6WE9JTFRwUXV4ckVZX2FnYW04LQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUnZ1MU1NWjlvWl9JZ2syMFMxYXBxRUY5bERUMm9mU2VLSTRrT184WHJrTmlJYVpOOW1GeWMtdUhDV2lFWUNUUHZaZE1oVFYzZzFsQlhQSWRyMEJ4MjJGU292LTJPR3NKb3RWSzJ3Nkg2UkZqRU9OaEpHaHprUTk4VG51RVVsN0hHNFNqNzN4RktTckRzcmdoVEVBT1J6WE9JTFRwUXV4ckVZX2FnYW04LQ?oc=5",
+      "id": "CBMisAFBVV95cUxPUnZ1MU1NWjlvWl9JZ2syMFMxYXBxRUY5bERUMm9mU2VLSTRrT184WHJrTmlJYVpOOW1GeWMtdUhDV2lFWUNUUHZaZE1oVFYzZzFsQlhQSWRyMEJ4MjJGU292LTJPR3NKb3RWSzJ3Nkg2UkZqRU9OaEpHaHprUTk4VG51RVVsN0hHNFNqNzN4RktTckRzcmdoVEVBT1J6WE9JTFRwUXV4ckVZX2FnYW04LQ",
+      "guidislink": false,
+      "published": "Mon, 11 Feb 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        2,
+        11,
+        8,
+        0,
+        0,
+        0,
+        42,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPUnZ1MU1NWjlvWl9JZ2syMFMxYXBxRUY5bERUMm9mU2VLSTRrT184WHJrTmlJYVpOOW1GeWMtdUhDV2lFWUNUUHZaZE1oVFYzZzFsQlhQSWRyMEJ4MjJGU292LTJPR3NKb3RWSzJ3Nkg2UkZqRU9OaEpHaHprUTk4VG51RVVsN0hHNFNqNzN4RktTckRzcmdoVEVBT1J6WE9JTFRwUXV4ckVZX2FnYW04LQ?oc=5\" target=\"_blank\">Miller School Pediatric Team Monitors Zika-Exposed Infants for Developmental Delays</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of Miami</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPUnZ1MU1NWjlvWl9JZ2syMFMxYXBxRUY5bERUMm9mU2VLSTRrT184WHJrTmlJYVpOOW1GeWMtdUhDV2lFWUNUUHZaZE1oVFYzZzFsQlhQSWRyMEJ4MjJGU292LTJPR3NKb3RWSzJ3Nkg2UkZqRU9OaEpHaHprUTk4VG51RVVsN0hHNFNqNzN4RktTckRzcmdoVEVBT1J6WE9JTFRwUXV4ckVZX2FnYW04LQ?oc=5\" target=\"_blank\">Miller School Pediatric Team Monitors Zika-Exposed Infants for Developmental Delays</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of Miami</font>"
+      },
+      "source": {
+        "href": "https://news.med.miami.edu",
+        "title": "University of Miami"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Quick Take: Prior dengue virus infection and risk of Zika: a pediatric cohort in Nicaragua - 2 Minute Medicine",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Quick Take: Prior dengue virus infection and risk of Zika: a pediatric cohort in Nicaragua - 2 Minute Medicine"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbm8yT2hIeWdlTXpaSVAxbEVta0RwZ3p1RXJzZ3ctSTNhY0E3V2doMnAxWUs1WnJER095ZFFEVnNIelB6cnJFaUZPMUhmNzlKWUdPOUZaVEw3UzdERFFZTVFxQk9Ob3FzTWFJOWhXb3lnS1FTbkFEQjNkanZYa21JeDRFWWxCT0diaHlEZEFxbkptVGkxa2xNOFBfbmhPUXRuMWZBLVlXWEx3UHBINVdHS0FFZUFBNkhVZHMwenlB?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbm8yT2hIeWdlTXpaSVAxbEVta0RwZ3p1RXJzZ3ctSTNhY0E3V2doMnAxWUs1WnJER095ZFFEVnNIelB6cnJFaUZPMUhmNzlKWUdPOUZaVEw3UzdERFFZTVFxQk9Ob3FzTWFJOWhXb3lnS1FTbkFEQjNkanZYa21JeDRFWWxCT0diaHlEZEFxbkptVGkxa2xNOFBfbmhPUXRuMWZBLVlXWEx3UHBINVdHS0FFZUFBNkhVZHMwenlB?oc=5",
+      "id": "CBMivgFBVV95cUxNbm8yT2hIeWdlTXpaSVAxbEVta0RwZ3p1RXJzZ3ctSTNhY0E3V2doMnAxWUs1WnJER095ZFFEVnNIelB6cnJFaUZPMUhmNzlKWUdPOUZaVEw3UzdERFFZTVFxQk9Ob3FzTWFJOWhXb3lnS1FTbkFEQjNkanZYa21JeDRFWWxCT0diaHlEZEFxbkptVGkxa2xNOFBfbmhPUXRuMWZBLVlXWEx3UHBINVdHS0FFZUFBNkhVZHMwenlB",
+      "guidislink": false,
+      "published": "Fri, 01 Feb 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        2,
+        1,
+        8,
+        0,
+        0,
+        4,
+        32,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxNbm8yT2hIeWdlTXpaSVAxbEVta0RwZ3p1RXJzZ3ctSTNhY0E3V2doMnAxWUs1WnJER095ZFFEVnNIelB6cnJFaUZPMUhmNzlKWUdPOUZaVEw3UzdERFFZTVFxQk9Ob3FzTWFJOWhXb3lnS1FTbkFEQjNkanZYa21JeDRFWWxCT0diaHlEZEFxbkptVGkxa2xNOFBfbmhPUXRuMWZBLVlXWEx3UHBINVdHS0FFZUFBNkhVZHMwenlB?oc=5\" target=\"_blank\">Quick Take: Prior dengue virus infection and risk of Zika: a pediatric cohort in Nicaragua</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">2 Minute Medicine</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxNbm8yT2hIeWdlTXpaSVAxbEVta0RwZ3p1RXJzZ3ctSTNhY0E3V2doMnAxWUs1WnJER095ZFFEVnNIelB6cnJFaUZPMUhmNzlKWUdPOUZaVEw3UzdERFFZTVFxQk9Ob3FzTWFJOWhXb3lnS1FTbkFEQjNkanZYa21JeDRFWWxCT0diaHlEZEFxbkptVGkxa2xNOFBfbmhPUXRuMWZBLVlXWEx3UHBINVdHS0FFZUFBNkhVZHMwenlB?oc=5\" target=\"_blank\">Quick Take: Prior dengue virus infection and risk of Zika: a pediatric cohort in Nicaragua</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">2 Minute Medicine</font>"
+      },
+      "source": {
+        "href": "https://www.2minutemedicine.com",
+        "title": "2 Minute Medicine"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "At epicenter of Zika outbreak, dengue immunity provided protection - YaleNews",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "At epicenter of Zika outbreak, dengue immunity provided protection - YaleNews"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOM183UlY5dWdtMkFUakJXNWpQSFNfUDhLaWhDNUZDYnhISUIwV3N0YzhOQ1VZdmFjVzBNak1Pa0txZllYOUpmNXVnSEgzMlpERHZtckdLQ243UEd5UmpxSTIyRlV5MnVvdlFYMkYtNzZCUENFdzd0dE5jSngxN3JZbDBOVzQ2dmJaNm1XcTJiUkI4VTNLazhF?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOM183UlY5dWdtMkFUakJXNWpQSFNfUDhLaWhDNUZDYnhISUIwV3N0YzhOQ1VZdmFjVzBNak1Pa0txZllYOUpmNXVnSEgzMlpERHZtckdLQ243UEd5UmpxSTIyRlV5MnVvdlFYMkYtNzZCUENFdzd0dE5jSngxN3JZbDBOVzQ2dmJaNm1XcTJiUkI4VTNLazhF?oc=5",
+      "id": "CBMilwFBVV95cUxOM183UlY5dWdtMkFUakJXNWpQSFNfUDhLaWhDNUZDYnhISUIwV3N0YzhOQ1VZdmFjVzBNak1Pa0txZllYOUpmNXVnSEgzMlpERHZtckdLQ243UEd5UmpxSTIyRlV5MnVvdlFYMkYtNzZCUENFdzd0dE5jSngxN3JZbDBOVzQ2dmJaNm1XcTJiUkI4VTNLazhF",
+      "guidislink": false,
+      "published": "Thu, 07 Feb 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        2,
+        7,
+        8,
+        0,
+        0,
+        3,
+        38,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxOM183UlY5dWdtMkFUakJXNWpQSFNfUDhLaWhDNUZDYnhISUIwV3N0YzhOQ1VZdmFjVzBNak1Pa0txZllYOUpmNXVnSEgzMlpERHZtckdLQ243UEd5UmpxSTIyRlV5MnVvdlFYMkYtNzZCUENFdzd0dE5jSngxN3JZbDBOVzQ2dmJaNm1XcTJiUkI4VTNLazhF?oc=5\" target=\"_blank\">At epicenter of Zika outbreak, dengue immunity provided protection</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">YaleNews</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxOM183UlY5dWdtMkFUakJXNWpQSFNfUDhLaWhDNUZDYnhISUIwV3N0YzhOQ1VZdmFjVzBNak1Pa0txZllYOUpmNXVnSEgzMlpERHZtckdLQ243UEd5UmpxSTIyRlV5MnVvdlFYMkYtNzZCUENFdzd0dE5jSngxN3JZbDBOVzQ2dmJaNm1XcTJiUkI4VTNLazhF?oc=5\" target=\"_blank\">At epicenter of Zika outbreak, dengue immunity provided protection</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">YaleNews</font>"
+      },
+      "source": {
+        "href": "https://news.yale.edu",
+        "title": "YaleNews"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Dengue defends against Zika virus - BioTechniques",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Dengue defends against Zika virus - BioTechniques"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVUVNc09qUTFOTndCTjVzcGNxZXVhY196LUQ3QUZvS0tZRHo1czh3cElhMkJjQmJac3BqdlctdWtqTWVYTzRxV20zMUJVNFlkNFZOYlBKbXRiSEFhVllMSzFSLU9uSFRLWTlmb0xwWjB5X1I0S01OUHJybk1idkJBeldsTQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVUVNc09qUTFOTndCTjVzcGNxZXVhY196LUQ3QUZvS0tZRHo1czh3cElhMkJjQmJac3BqdlctdWtqTWVYTzRxV20zMUJVNFlkNFZOYlBKbXRiSEFhVllMSzFSLU9uSFRLWTlmb0xwWjB5X1I0S01OUHJybk1idkJBeldsTQ?oc=5",
+      "id": "CBMigwFBVV95cUxOVUVNc09qUTFOTndCTjVzcGNxZXVhY196LUQ3QUZvS0tZRHo1czh3cElhMkJjQmJac3BqdlctdWtqTWVYTzRxV20zMUJVNFlkNFZOYlBKbXRiSEFhVllMSzFSLU9uSFRLWTlmb0xwWjB5X1I0S01OUHJybk1idkJBeldsTQ",
+      "guidislink": false,
+      "published": "Wed, 06 Feb 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        2,
+        6,
+        8,
+        0,
+        0,
+        2,
+        37,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxOVUVNc09qUTFOTndCTjVzcGNxZXVhY196LUQ3QUZvS0tZRHo1czh3cElhMkJjQmJac3BqdlctdWtqTWVYTzRxV20zMUJVNFlkNFZOYlBKbXRiSEFhVllMSzFSLU9uSFRLWTlmb0xwWjB5X1I0S01OUHJybk1idkJBeldsTQ?oc=5\" target=\"_blank\">Dengue defends against Zika virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BioTechniques</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxOVUVNc09qUTFOTndCTjVzcGNxZXVhY196LUQ3QUZvS0tZRHo1czh3cElhMkJjQmJac3BqdlctdWtqTWVYTzRxV20zMUJVNFlkNFZOYlBKbXRiSEFhVllMSzFSLU9uSFRLWTlmb0xwWjB5X1I0S01OUHJybk1idkJBeldsTQ?oc=5\" target=\"_blank\">Dengue defends against Zika virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BioTechniques</font>"
+      },
+      "source": {
+        "href": "https://www.biotechniques.com",
+        "title": "BioTechniques"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Dengue immunity may buffer against Zika, study finds - CLAS News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Dengue immunity may buffer against Zika, study finds - CLAS News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYXhMR3ozTjlJTkdFYVNkYngtdEx1MzdlM05oZ1h6aWJoelNRQjRNZHZYdkZEdjBfTkV4WF84TTd3c196X0Z6V01UcDJTWEpEQnU1RnBnNWdld0Y3ek5aRjNqQjctQ2JjWGtSOWNKalJQeEJYSUs5aklwZTE5Z2ViaDdySjk?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYXhMR3ozTjlJTkdFYVNkYngtdEx1MzdlM05oZ1h6aWJoelNRQjRNZHZYdkZEdjBfTkV4WF84TTd3c196X0Z6V01UcDJTWEpEQnU1RnBnNWdld0Y3ek5aRjNqQjctQ2JjWGtSOWNKalJQeEJYSUs5aklwZTE5Z2ViaDdySjk?oc=5",
+      "id": "CBMihAFBVV95cUxQYXhMR3ozTjlJTkdFYVNkYngtdEx1MzdlM05oZ1h6aWJoelNRQjRNZHZYdkZEdjBfTkV4WF84TTd3c196X0Z6V01UcDJTWEpEQnU1RnBnNWdld0Y3ek5aRjNqQjctQ2JjWGtSOWNKalJQeEJYSUs5aklwZTE5Z2ViaDdySjk",
+      "guidislink": false,
+      "published": "Fri, 08 Feb 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        2,
+        8,
+        8,
+        0,
+        0,
+        4,
+        39,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQYXhMR3ozTjlJTkdFYVNkYngtdEx1MzdlM05oZ1h6aWJoelNRQjRNZHZYdkZEdjBfTkV4WF84TTd3c196X0Z6V01UcDJTWEpEQnU1RnBnNWdld0Y3ek5aRjNqQjctQ2JjWGtSOWNKalJQeEJYSUs5aklwZTE5Z2ViaDdySjk?oc=5\" target=\"_blank\">Dengue immunity may buffer against Zika, study finds</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CLAS News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxQYXhMR3ozTjlJTkdFYVNkYngtdEx1MzdlM05oZ1h6aWJoelNRQjRNZHZYdkZEdjBfTkV4WF84TTd3c196X0Z6V01UcDJTWEpEQnU1RnBnNWdld0Y3ek5aRjNqQjctQ2JjWGtSOWNKalJQeEJYSUs5aklwZTE5Z2ViaDdySjk?oc=5\" target=\"_blank\">Dengue immunity may buffer against Zika, study finds</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CLAS News</font>"
+      },
+      "source": {
+        "href": "https://news.clas.ufl.edu",
+        "title": "CLAS News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika still a threat in Puerto Rico, but government stopped tracking it - Association of Health Care Journalists",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika still a threat in Puerto Rico, but government stopped tracking it - Association of Health Care Journalists"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTFFSQ1FYdkM0Z0NaY3RHdjFzNjBzcjBWS0VKQ0JWUGpQV2ZXQXlKTm9CREVyMWJmU1R6UmNmUW03dkpRUE9Wb056STJBOUswcGxBcFNXSU9KZnY0N0hoT0ppbVZpYnkyNThzQkZvZTBNeHo4c0QwVWg0T3IxLS1KdTFzVGg5MHhldHowVC1LcjJ3N1Q0aVlXMEk4MVFKQXNNSlFWOUVfMmRMSEZfVHpqWTJR?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTFFSQ1FYdkM0Z0NaY3RHdjFzNjBzcjBWS0VKQ0JWUGpQV2ZXQXlKTm9CREVyMWJmU1R6UmNmUW03dkpRUE9Wb056STJBOUswcGxBcFNXSU9KZnY0N0hoT0ppbVZpYnkyNThzQkZvZTBNeHo4c0QwVWg0T3IxLS1KdTFzVGg5MHhldHowVC1LcjJ3N1Q0aVlXMEk4MVFKQXNNSlFWOUVfMmRMSEZfVHpqWTJR?oc=5",
+      "id": "CBMisgFBVV95cUxNTFFSQ1FYdkM0Z0NaY3RHdjFzNjBzcjBWS0VKQ0JWUGpQV2ZXQXlKTm9CREVyMWJmU1R6UmNmUW03dkpRUE9Wb056STJBOUswcGxBcFNXSU9KZnY0N0hoT0ppbVZpYnkyNThzQkZvZTBNeHo4c0QwVWg0T3IxLS1KdTFzVGg5MHhldHowVC1LcjJ3N1Q0aVlXMEk4MVFKQXNNSlFWOUVfMmRMSEZfVHpqWTJR",
+      "guidislink": false,
+      "published": "Mon, 04 Feb 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        2,
+        4,
+        8,
+        0,
+        0,
+        0,
+        35,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxNTFFSQ1FYdkM0Z0NaY3RHdjFzNjBzcjBWS0VKQ0JWUGpQV2ZXQXlKTm9CREVyMWJmU1R6UmNmUW03dkpRUE9Wb056STJBOUswcGxBcFNXSU9KZnY0N0hoT0ppbVZpYnkyNThzQkZvZTBNeHo4c0QwVWg0T3IxLS1KdTFzVGg5MHhldHowVC1LcjJ3N1Q0aVlXMEk4MVFKQXNNSlFWOUVfMmRMSEZfVHpqWTJR?oc=5\" target=\"_blank\">Zika still a threat in Puerto Rico, but government stopped tracking it</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Association of Health Care Journalists</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxNTFFSQ1FYdkM0Z0NaY3RHdjFzNjBzcjBWS0VKQ0JWUGpQV2ZXQXlKTm9CREVyMWJmU1R6UmNmUW03dkpRUE9Wb056STJBOUswcGxBcFNXSU9KZnY0N0hoT0ppbVZpYnkyNThzQkZvZTBNeHo4c0QwVWg0T3IxLS1KdTFzVGg5MHhldHowVC1LcjJ3N1Q0aVlXMEk4MVFKQXNNSlFWOUVfMmRMSEZfVHpqWTJR?oc=5\" target=\"_blank\">Zika still a threat in Puerto Rico, but government stopped tracking it</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Association of Health Care Journalists</font>"
+      },
+      "source": {
+        "href": "https://healthjournalism.org",
+        "title": "Association of Health Care Journalists"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "The Protective Role of Dengue Immunity on Zika Infection in a Brazilian Favela (1 of 3) - EurekAlert!",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "The Protective Role of Dengue Immunity on Zika Infection in a Brazilian Favela (1 of 3) - EurekAlert!"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9mQnY0dWJVTU1rSWlvWGZmVmpaSVdIVHJESjRNajRDbVpVNmM2RzhsQ1JvUUtEZVZxbmdoZVB3a0RRUGtxOC1BSFg5SDZoV0psSDcxTWxjZW9Jbk0?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9mQnY0dWJVTU1rSWlvWGZmVmpaSVdIVHJESjRNajRDbVpVNmM2RzhsQ1JvUUtEZVZxbmdoZVB3a0RRUGtxOC1BSFg5SDZoV0psSDcxTWxjZW9Jbk0?oc=5",
+      "id": "CBMiW0FVX3lxTE9mQnY0dWJVTU1rSWlvWGZmVmpaSVdIVHJESjRNajRDbVpVNmM2RzhsQ1JvUUtEZVZxbmdoZVB3a0RRUGtxOC1BSFg5SDZoV0psSDcxTWxjZW9Jbk0",
+      "guidislink": false,
+      "published": "Thu, 07 Feb 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        2,
+        7,
+        8,
+        0,
+        0,
+        3,
+        38,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE9mQnY0dWJVTU1rSWlvWGZmVmpaSVdIVHJESjRNajRDbVpVNmM2RzhsQ1JvUUtEZVZxbmdoZVB3a0RRUGtxOC1BSFg5SDZoV0psSDcxTWxjZW9Jbk0?oc=5\" target=\"_blank\">The Protective Role of Dengue Immunity on Zika Infection in a Brazilian Favela (1 of 3)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">EurekAlert!</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE9mQnY0dWJVTU1rSWlvWGZmVmpaSVdIVHJESjRNajRDbVpVNmM2RzhsQ1JvUUtEZVZxbmdoZVB3a0RRUGtxOC1BSFg5SDZoV0psSDcxTWxjZW9Jbk0?oc=5\" target=\"_blank\">The Protective Role of Dengue Immunity on Zika Infection in a Brazilian Favela (1 of 3)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">EurekAlert!</font>"
+      },
+      "source": {
+        "href": "https://www.eurekalert.org",
+        "title": "EurekAlert!"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Mosquitoes Show High Resistance to Common Insecticide - ARS, USDA (.gov)",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Mosquitoes Show High Resistance to Common Insecticide - ARS, USDA (.gov)"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLVFNOTNRV2Jhb1FiNUZQOUV1cW9rakp2UUJlSkpUbmtYbDc2UnNlbTkzaHdZSjMyTzhHUXJFazBYUGNsQkstbFZsa042VmtxS2J2cFctWVhJbVk3RkpTRzByMHNQclB3cGNFVWZaZHAwME8zNlpmcXA1dG5MdXB4cjdkZ2hlaDJYTmtxWEVxT3NOWEpsSVBudkt0QVhFal9oR0RxRUd0ZWJfZGNRT3J3VmN3bWd6QQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLVFNOTNRV2Jhb1FiNUZQOUV1cW9rakp2UUJlSkpUbmtYbDc2UnNlbTkzaHdZSjMyTzhHUXJFazBYUGNsQkstbFZsa042VmtxS2J2cFctWVhJbVk3RkpTRzByMHNQclB3cGNFVWZaZHAwME8zNlpmcXA1dG5MdXB4cjdkZ2hlaDJYTmtxWEVxT3NOWEpsSVBudkt0QVhFal9oR0RxRUd0ZWJfZGNRT3J3VmN3bWd6QQ?oc=5",
+      "id": "CBMitgFBVV95cUxOLVFNOTNRV2Jhb1FiNUZQOUV1cW9rakp2UUJlSkpUbmtYbDc2UnNlbTkzaHdZSjMyTzhHUXJFazBYUGNsQkstbFZsa042VmtxS2J2cFctWVhJbVk3RkpTRzByMHNQclB3cGNFVWZaZHAwME8zNlpmcXA1dG5MdXB4cjdkZ2hlaDJYTmtxWEVxT3NOWEpsSVBudkt0QVhFal9oR0RxRUd0ZWJfZGNRT3J3VmN3bWd6QQ",
+      "guidislink": false,
+      "published": "Wed, 13 Feb 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        2,
+        13,
+        8,
+        0,
+        0,
+        2,
+        44,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxOLVFNOTNRV2Jhb1FiNUZQOUV1cW9rakp2UUJlSkpUbmtYbDc2UnNlbTkzaHdZSjMyTzhHUXJFazBYUGNsQkstbFZsa042VmtxS2J2cFctWVhJbVk3RkpTRzByMHNQclB3cGNFVWZaZHAwME8zNlpmcXA1dG5MdXB4cjdkZ2hlaDJYTmtxWEVxT3NOWEpsSVBudkt0QVhFal9oR0RxRUd0ZWJfZGNRT3J3VmN3bWd6QQ?oc=5\" target=\"_blank\">Mosquitoes Show High Resistance to Common Insecticide</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ARS, USDA (.gov)</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxOLVFNOTNRV2Jhb1FiNUZQOUV1cW9rakp2UUJlSkpUbmtYbDc2UnNlbTkzaHdZSjMyTzhHUXJFazBYUGNsQkstbFZsa042VmtxS2J2cFctWVhJbVk3RkpTRzByMHNQclB3cGNFVWZaZHAwME8zNlpmcXA1dG5MdXB4cjdkZ2hlaDJYTmtxWEVxT3NOWEpsSVBudkt0QVhFal9oR0RxRUd0ZWJfZGNRT3J3VmN3bWd6QQ?oc=5\" target=\"_blank\">Mosquitoes Show High Resistance to Common Insecticide</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ARS, USDA (.gov)</font>"
+      },
+      "source": {
+        "href": "https://www.ars.usda.gov",
+        "title": "ARS, USDA (.gov)"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Dengue Virus Infection May Cause Severe Outcomes Following Zika Virus Infection During Pregnancy - drugdiscoverytrends.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Dengue Virus Infection May Cause Severe Outcomes Following Zika Virus Infection During Pregnancy - drugdiscoverytrends.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNN0FTTl9HWGkxYWVEN1ZhczJTemdzRjFDR1BWd1ktaTdMT3VGNjc4dnhWR3loN3JHMnVPYUQ5VFdaX3ZsOVN6S1JIa25ELVUyMDBsb2ZlVzBzb0lLMTVNUmNqZXFleW5Yc1I3MlBNaTFkVHNZT1VJWUllXzBsdjEyRW0tR3FBVEFMVWJZVUMyaUJnRERMOF9wcUJMSmhQMGlYcTR2a3hZT2VHQjVON292MDFlbks2YjhPSXBBaHBReWdOMi1UNHRMbUx0b2NMZw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNN0FTTl9HWGkxYWVEN1ZhczJTemdzRjFDR1BWd1ktaTdMT3VGNjc4dnhWR3loN3JHMnVPYUQ5VFdaX3ZsOVN6S1JIa25ELVUyMDBsb2ZlVzBzb0lLMTVNUmNqZXFleW5Yc1I3MlBNaTFkVHNZT1VJWUllXzBsdjEyRW0tR3FBVEFMVWJZVUMyaUJnRERMOF9wcUJMSmhQMGlYcTR2a3hZT2VHQjVON292MDFlbks2YjhPSXBBaHBReWdOMi1UNHRMbUx0b2NMZw?oc=5",
+      "id": "CBMizgFBVV95cUxNN0FTTl9HWGkxYWVEN1ZhczJTemdzRjFDR1BWd1ktaTdMT3VGNjc4dnhWR3loN3JHMnVPYUQ5VFdaX3ZsOVN6S1JIa25ELVUyMDBsb2ZlVzBzb0lLMTVNUmNqZXFleW5Yc1I3MlBNaTFkVHNZT1VJWUllXzBsdjEyRW0tR3FBVEFMVWJZVUMyaUJnRERMOF9wcUJMSmhQMGlYcTR2a3hZT2VHQjVON292MDFlbks2YjhPSXBBaHBReWdOMi1UNHRMbUx0b2NMZw",
+      "guidislink": false,
+      "published": "Fri, 08 Feb 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        2,
+        8,
+        8,
+        0,
+        0,
+        4,
+        39,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxNN0FTTl9HWGkxYWVEN1ZhczJTemdzRjFDR1BWd1ktaTdMT3VGNjc4dnhWR3loN3JHMnVPYUQ5VFdaX3ZsOVN6S1JIa25ELVUyMDBsb2ZlVzBzb0lLMTVNUmNqZXFleW5Yc1I3MlBNaTFkVHNZT1VJWUllXzBsdjEyRW0tR3FBVEFMVWJZVUMyaUJnRERMOF9wcUJMSmhQMGlYcTR2a3hZT2VHQjVON292MDFlbks2YjhPSXBBaHBReWdOMi1UNHRMbUx0b2NMZw?oc=5\" target=\"_blank\">Dengue Virus Infection May Cause Severe Outcomes Following Zika Virus Infection During Pregnancy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">drugdiscoverytrends.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxNN0FTTl9HWGkxYWVEN1ZhczJTemdzRjFDR1BWd1ktaTdMT3VGNjc4dnhWR3loN3JHMnVPYUQ5VFdaX3ZsOVN6S1JIa25ELVUyMDBsb2ZlVzBzb0lLMTVNUmNqZXFleW5Yc1I3MlBNaTFkVHNZT1VJWUllXzBsdjEyRW0tR3FBVEFMVWJZVUMyaUJnRERMOF9wcUJMSmhQMGlYcTR2a3hZT2VHQjVON292MDFlbks2YjhPSXBBaHBReWdOMi1UNHRMbUx0b2NMZw?oc=5\" target=\"_blank\">Dengue Virus Infection May Cause Severe Outcomes Following Zika Virus Infection During Pregnancy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">drugdiscoverytrends.com</font>"
+      },
+      "source": {
+        "href": "https://www.drugdiscoverytrends.com",
+        "title": "drugdiscoverytrends.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Red-eyed mosquitoes engineered to break the chain of Zika virus transmission - New Atlas",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Red-eyed mosquitoes engineered to break the chain of Zika virus transmission - New Atlas"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1SNTM0ZnotYm9zaXNEdVpwVlFxRVJVaEROSkE1WndVMkVXT1FzLWJKbVRfSDFNbmpuRmJ6OVh6WDE2cXlHMnJpbl9FUGVkeWxsVzUzNl9FM3RxTUZWeEtHc09UeVNSMGM0SElISFlB?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1SNTM0ZnotYm9zaXNEdVpwVlFxRVJVaEROSkE1WndVMkVXT1FzLWJKbVRfSDFNbmpuRmJ6OVh6WDE2cXlHMnJpbl9FUGVkeWxsVzUzNl9FM3RxTUZWeEtHc09UeVNSMGM0SElISFlB?oc=5",
+      "id": "CBMibkFVX3lxTE1SNTM0ZnotYm9zaXNEdVpwVlFxRVJVaEROSkE1WndVMkVXT1FzLWJKbVRfSDFNbmpuRmJ6OVh6WDE2cXlHMnJpbl9FUGVkeWxsVzUzNl9FM3RxTUZWeEtHc09UeVNSMGM0SElISFlB",
+      "guidislink": false,
+      "published": "Thu, 07 Feb 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        2,
+        7,
+        8,
+        0,
+        0,
+        3,
+        38,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTE1SNTM0ZnotYm9zaXNEdVpwVlFxRVJVaEROSkE1WndVMkVXT1FzLWJKbVRfSDFNbmpuRmJ6OVh6WDE2cXlHMnJpbl9FUGVkeWxsVzUzNl9FM3RxTUZWeEtHc09UeVNSMGM0SElISFlB?oc=5\" target=\"_blank\">Red-eyed mosquitoes engineered to break the chain of Zika virus transmission</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">New Atlas</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTE1SNTM0ZnotYm9zaXNEdVpwVlFxRVJVaEROSkE1WndVMkVXT1FzLWJKbVRfSDFNbmpuRmJ6OVh6WDE2cXlHMnJpbl9FUGVkeWxsVzUzNl9FM3RxTUZWeEtHc09UeVNSMGM0SElISFlB?oc=5\" target=\"_blank\">Red-eyed mosquitoes engineered to break the chain of Zika virus transmission</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">New Atlas</font>"
+      },
+      "source": {
+        "href": "https://newatlas.com",
+        "title": "New Atlas"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Stuffed mosquitoes are less likely to take a bite - futurity.org",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Stuffed mosquitoes are less likely to take a bite - futurity.org"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1FY1VrYkdGSWRmRHpNX19wMndMWXVxYkJHdE40ZERqSFVwYVF5bTFwWlN6RnNXVVBmV1I2LUQ1c0poRFMyYnpCRVUtMTdrX0tqd1hzeTJPeGtJdGozeVBZT0haQTNNbGJqR2c?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1FY1VrYkdGSWRmRHpNX19wMndMWXVxYkJHdE40ZERqSFVwYVF5bTFwWlN6RnNXVVBmV1I2LUQ1c0poRFMyYnpCRVUtMTdrX0tqd1hzeTJPeGtJdGozeVBZT0haQTNNbGJqR2c?oc=5",
+      "id": "CBMiakFVX3lxTE1FY1VrYkdGSWRmRHpNX19wMndMWXVxYkJHdE40ZERqSFVwYVF5bTFwWlN6RnNXVVBmV1I2LUQ1c0poRFMyYnpCRVUtMTdrX0tqd1hzeTJPeGtJdGozeVBZT0haQTNNbGJqR2c",
+      "guidislink": false,
+      "published": "Mon, 11 Feb 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        2,
+        11,
+        8,
+        0,
+        0,
+        0,
+        42,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE1FY1VrYkdGSWRmRHpNX19wMndMWXVxYkJHdE40ZERqSFVwYVF5bTFwWlN6RnNXVVBmV1I2LUQ1c0poRFMyYnpCRVUtMTdrX0tqd1hzeTJPeGtJdGozeVBZT0haQTNNbGJqR2c?oc=5\" target=\"_blank\">Stuffed mosquitoes are less likely to take a bite</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">futurity.org</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE1FY1VrYkdGSWRmRHpNX19wMndMWXVxYkJHdE40ZERqSFVwYVF5bTFwWlN6RnNXVVBmV1I2LUQ1c0poRFMyYnpCRVUtMTdrX0tqd1hzeTJPeGtJdGozeVBZT0haQTNNbGJqR2c?oc=5\" target=\"_blank\">Stuffed mosquitoes are less likely to take a bite</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">futurity.org</font>"
+      },
+      "source": {
+        "href": "https://www.futurity.org",
+        "title": "futurity.org"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Battle against blood-thirsty mosquitoes already underway — ‘We’ve got our eyes on the ball’ - Orlando Sentinel",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Battle against blood-thirsty mosquitoes already underway — ‘We’ve got our eyes on the ball’ - Orlando Sentinel"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSTJxOXdVU3FuaG5BY016TEI2Qm4tWm1FYXBMUVdIMG5mSk1QR3FybWNPR3J1YzEybVlpTHNlenRTVHdNNnJYdXgwWEppLWNWTmVSNE4yZFBQYU44NjBaRWhsLWxwZjc4YmVpSm9NRkRkb3ZESUpTUGdQVVV2WjlsUHRlNE9RY1ZGYXRYY0FNenRraUliODBpT3BMcnVYaGpGZDd0YXZvMHRqa3Z4S0lNUEViMUxsd3dKbHhsOUlNcl82aE5uRW90MHZn?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSTJxOXdVU3FuaG5BY016TEI2Qm4tWm1FYXBMUVdIMG5mSk1QR3FybWNPR3J1YzEybVlpTHNlenRTVHdNNnJYdXgwWEppLWNWTmVSNE4yZFBQYU44NjBaRWhsLWxwZjc4YmVpSm9NRkRkb3ZESUpTUGdQVVV2WjlsUHRlNE9RY1ZGYXRYY0FNenRraUliODBpT3BMcnVYaGpGZDd0YXZvMHRqa3Z4S0lNUEViMUxsd3dKbHhsOUlNcl82aE5uRW90MHZn?oc=5",
+      "id": "CBMiygFBVV95cUxNSTJxOXdVU3FuaG5BY016TEI2Qm4tWm1FYXBMUVdIMG5mSk1QR3FybWNPR3J1YzEybVlpTHNlenRTVHdNNnJYdXgwWEppLWNWTmVSNE4yZFBQYU44NjBaRWhsLWxwZjc4YmVpSm9NRkRkb3ZESUpTUGdQVVV2WjlsUHRlNE9RY1ZGYXRYY0FNenRraUliODBpT3BMcnVYaGpGZDd0YXZvMHRqa3Z4S0lNUEViMUxsd3dKbHhsOUlNcl82aE5uRW90MHZn",
+      "guidislink": false,
+      "published": "Fri, 15 Feb 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        2,
+        15,
+        8,
+        0,
+        0,
+        4,
+        46,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxNSTJxOXdVU3FuaG5BY016TEI2Qm4tWm1FYXBMUVdIMG5mSk1QR3FybWNPR3J1YzEybVlpTHNlenRTVHdNNnJYdXgwWEppLWNWTmVSNE4yZFBQYU44NjBaRWhsLWxwZjc4YmVpSm9NRkRkb3ZESUpTUGdQVVV2WjlsUHRlNE9RY1ZGYXRYY0FNenRraUliODBpT3BMcnVYaGpGZDd0YXZvMHRqa3Z4S0lNUEViMUxsd3dKbHhsOUlNcl82aE5uRW90MHZn?oc=5\" target=\"_blank\">Battle against blood-thirsty mosquitoes already underway — ‘We’ve got our eyes on the ball’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Orlando Sentinel</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxNSTJxOXdVU3FuaG5BY016TEI2Qm4tWm1FYXBMUVdIMG5mSk1QR3FybWNPR3J1YzEybVlpTHNlenRTVHdNNnJYdXgwWEppLWNWTmVSNE4yZFBQYU44NjBaRWhsLWxwZjc4YmVpSm9NRkRkb3ZESUpTUGdQVVV2WjlsUHRlNE9RY1ZGYXRYY0FNenRraUliODBpT3BMcnVYaGpGZDd0YXZvMHRqa3Z4S0lNUEViMUxsd3dKbHhsOUlNcl82aE5uRW90MHZn?oc=5\" target=\"_blank\">Battle against blood-thirsty mosquitoes already underway — ‘We’ve got our eyes on the ball’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Orlando Sentinel</font>"
+      },
+      "source": {
+        "href": "https://www.orlandosentinel.com",
+        "title": "Orlando Sentinel"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "What Is Skeeter Syndrome? Allergic Reactions To Mosquito Bites You're Probably Not Aware Of - YourTango",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "What Is Skeeter Syndrome? Allergic Reactions To Mosquito Bites You're Probably Not Aware Of - YourTango"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMingFBVV95cUxNS29xWE5UN3E0Z3A2bXFXTFRkZWFYYWFKR2dVcTlfX0JDbk1sVzduQVFJQTdXYU9pRHNBd1NBX1BfNEd3bEN3d2FZTWthSTd0SDZLOUJhRFoyak9uQlF5bjl6cE1KRzc2dEtrUG5RYUhlYlEwdTI1bnloay1DMmx0bFc4dHEzbGRRRUppYVVDQTI0NmFRUFRUdzB3U2M0Zw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNS29xWE5UN3E0Z3A2bXFXTFRkZWFYYWFKR2dVcTlfX0JDbk1sVzduQVFJQTdXYU9pRHNBd1NBX1BfNEd3bEN3d2FZTWthSTd0SDZLOUJhRFoyak9uQlF5bjl6cE1KRzc2dEtrUG5RYUhlYlEwdTI1bnloay1DMmx0bFc4dHEzbGRRRUppYVVDQTI0NmFRUFRUdzB3U2M0Zw?oc=5",
+      "id": "CBMingFBVV95cUxNS29xWE5UN3E0Z3A2bXFXTFRkZWFYYWFKR2dVcTlfX0JDbk1sVzduQVFJQTdXYU9pRHNBd1NBX1BfNEd3bEN3d2FZTWthSTd0SDZLOUJhRFoyak9uQlF5bjl6cE1KRzc2dEtrUG5RYUhlYlEwdTI1bnloay1DMmx0bFc4dHEzbGRRRUppYVVDQTI0NmFRUFRUdzB3U2M0Zw",
+      "guidislink": false,
+      "published": "Sat, 09 Feb 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        2,
+        9,
+        8,
+        0,
+        0,
+        5,
+        40,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNS29xWE5UN3E0Z3A2bXFXTFRkZWFYYWFKR2dVcTlfX0JDbk1sVzduQVFJQTdXYU9pRHNBd1NBX1BfNEd3bEN3d2FZTWthSTd0SDZLOUJhRFoyak9uQlF5bjl6cE1KRzc2dEtrUG5RYUhlYlEwdTI1bnloay1DMmx0bFc4dHEzbGRRRUppYVVDQTI0NmFRUFRUdzB3U2M0Zw?oc=5\" target=\"_blank\">What Is Skeeter Syndrome? Allergic Reactions To Mosquito Bites You're Probably Not Aware Of</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">YourTango</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNS29xWE5UN3E0Z3A2bXFXTFRkZWFYYWFKR2dVcTlfX0JDbk1sVzduQVFJQTdXYU9pRHNBd1NBX1BfNEd3bEN3d2FZTWthSTd0SDZLOUJhRFoyak9uQlF5bjl6cE1KRzc2dEtrUG5RYUhlYlEwdTI1bnloay1DMmx0bFc4dHEzbGRRRUppYVVDQTI0NmFRUFRUdzB3U2M0Zw?oc=5\" target=\"_blank\">What Is Skeeter Syndrome? Allergic Reactions To Mosquito Bites You're Probably Not Aware Of</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">YourTango</font>"
+      },
+      "source": {
+        "href": "https://www.yourtango.com",
+        "title": "YourTango"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "No confirmed Zika cases since 2017 - Barbados Today",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "No confirmed Zika cases since 2017 - Barbados Today"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5VbHYzRExZTUlaQXk3YWJCREpFaFBta0ZNVmRfUjByUHFMdWQtRzdGbkxjUEdVczlfMk45MTE1VTlIWHNsTjBsQTVYbE9henFzMHM4UUFZMzcxbkt3cXdobjlYNk1tdmRQVC02VUdPUTFyT1lFZGdjZGJ6UdIBgAFBVV95cUxNem51Z3pkdzFNd29BcHVqamoyaDRFc2VOR1gwREwwMTFZaEVqNU9yT1VnOUZhczZSVjlDN0pwNktDMkstR1BkTG9iZ2JDcnZIOHhZNi1QeGxXbXhWSmhNWlo2X3RvU2VlZGhFZWVsWXg2Qm9DMHZka3FsUlhXRm1jMw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5VbHYzRExZTUlaQXk3YWJCREpFaFBta0ZNVmRfUjByUHFMdWQtRzdGbkxjUEdVczlfMk45MTE1VTlIWHNsTjBsQTVYbE9henFzMHM4UUFZMzcxbkt3cXdobjlYNk1tdmRQVC02VUdPUTFyT1lFZGdjZGJ6UdIBgAFBVV95cUxNem51Z3pkdzFNd29BcHVqamoyaDRFc2VOR1gwREwwMTFZaEVqNU9yT1VnOUZhczZSVjlDN0pwNktDMkstR1BkTG9iZ2JDcnZIOHhZNi1QeGxXbXhWSmhNWlo2X3RvU2VlZGhFZWVsWXg2Qm9DMHZka3FsUlhXRm1jMw?oc=5",
+      "id": "CBMie0FVX3lxTE5VbHYzRExZTUlaQXk3YWJCREpFaFBta0ZNVmRfUjByUHFMdWQtRzdGbkxjUEdVczlfMk45MTE1VTlIWHNsTjBsQTVYbE9henFzMHM4UUFZMzcxbkt3cXdobjlYNk1tdmRQVC02VUdPUTFyT1lFZGdjZGJ6UdIBgAFBVV95cUxNem51Z3pkdzFNd29BcHVqamoyaDRFc2VOR1gwREwwMTFZaEVqNU9yT1VnOUZhczZSVjlDN0pwNktDMkstR1BkTG9iZ2JDcnZIOHhZNi1QeGxXbXhWSmhNWlo2X3RvU2VlZGhFZWVsWXg2Qm9DMHZka3FsUlhXRm1jMw",
+      "guidislink": false,
+      "published": "Thu, 14 Feb 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        2,
+        14,
+        8,
+        0,
+        0,
+        3,
+        45,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE5VbHYzRExZTUlaQXk3YWJCREpFaFBta0ZNVmRfUjByUHFMdWQtRzdGbkxjUEdVczlfMk45MTE1VTlIWHNsTjBsQTVYbE9henFzMHM4UUFZMzcxbkt3cXdobjlYNk1tdmRQVC02VUdPUTFyT1lFZGdjZGJ6UdIBgAFBVV95cUxNem51Z3pkdzFNd29BcHVqamoyaDRFc2VOR1gwREwwMTFZaEVqNU9yT1VnOUZhczZSVjlDN0pwNktDMkstR1BkTG9iZ2JDcnZIOHhZNi1QeGxXbXhWSmhNWlo2X3RvU2VlZGhFZWVsWXg2Qm9DMHZka3FsUlhXRm1jMw?oc=5\" target=\"_blank\">No confirmed Zika cases since 2017</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Barbados Today</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE5VbHYzRExZTUlaQXk3YWJCREpFaFBta0ZNVmRfUjByUHFMdWQtRzdGbkxjUEdVczlfMk45MTE1VTlIWHNsTjBsQTVYbE9henFzMHM4UUFZMzcxbkt3cXdobjlYNk1tdmRQVC02VUdPUTFyT1lFZGdjZGJ6UdIBgAFBVV95cUxNem51Z3pkdzFNd29BcHVqamoyaDRFc2VOR1gwREwwMTFZaEVqNU9yT1VnOUZhczZSVjlDN0pwNktDMkstR1BkTG9iZ2JDcnZIOHhZNi1QeGxXbXhWSmhNWlo2X3RvU2VlZGhFZWVsWXg2Qm9DMHZka3FsUlhXRm1jMw?oc=5\" target=\"_blank\">No confirmed Zika cases since 2017</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Barbados Today</font>"
+      },
+      "source": {
+        "href": "https://barbadostoday.bb",
+        "title": "Barbados Today"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Burleigh Pavilion now open on the Gold Coast - Spice News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Burleigh Pavilion now open on the Gold Coast - Spice News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPR0M0eHlvSHpxTlVTcE1RcmlLdFFMNUhlOTI5UUJqMnFjTUkxa1JUaU9xOUZNMmxLdzB4R1dhQnp1NERnRDAzYUdKNjhIdzdkbTJZYUJZQm9mSEJvX2xQanR1U1VIbE51TFlZajlXek9LRWFnLTlmcU1CRGdqMUxYamRucGJ0cWkwc3F3M2l4REcyMDBONVE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPR0M0eHlvSHpxTlVTcE1RcmlLdFFMNUhlOTI5UUJqMnFjTUkxa1JUaU9xOUZNMmxLdzB4R1dhQnp1NERnRDAzYUdKNjhIdzdkbTJZYUJZQm9mSEJvX2xQanR1U1VIbE51TFlZajlXek9LRWFnLTlmcU1CRGdqMUxYamRucGJ0cWkwc3F3M2l4REcyMDBONVE?oc=5",
+      "id": "CBMilgFBVV95cUxPR0M0eHlvSHpxTlVTcE1RcmlLdFFMNUhlOTI5UUJqMnFjTUkxa1JUaU9xOUZNMmxLdzB4R1dhQnp1NERnRDAzYUdKNjhIdzdkbTJZYUJZQm9mSEJvX2xQanR1U1VIbE51TFlZajlXek9LRWFnLTlmcU1CRGdqMUxYamRucGJ0cWkwc3F3M2l4REcyMDBONVE",
+      "guidislink": false,
+      "published": "Wed, 06 Feb 2019 08:00:00 GMT",
+      "published_parsed": [
+        2019,
+        2,
+        6,
+        8,
+        0,
+        0,
+        2,
+        37,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxPR0M0eHlvSHpxTlVTcE1RcmlLdFFMNUhlOTI5UUJqMnFjTUkxa1JUaU9xOUZNMmxLdzB4R1dhQnp1NERnRDAzYUdKNjhIdzdkbTJZYUJZQm9mSEJvX2xQanR1U1VIbE51TFlZajlXek9LRWFnLTlmcU1CRGdqMUxYamRucGJ0cWkwc3F3M2l4REcyMDBONVE?oc=5\" target=\"_blank\">Burleigh Pavilion now open on the Gold Coast</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Spice News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxPR0M0eHlvSHpxTlVTcE1RcmlLdFFMNUhlOTI5UUJqMnFjTUkxa1JUaU9xOUZNMmxLdzB4R1dhQnp1NERnRDAzYUdKNjhIdzdkbTJZYUJZQm9mSEJvX2xQanR1U1VIbE51TFlZajlXek9LRWFnLTlmcU1CRGdqMUxYamRucGJ0cWkwc3F3M2l4REcyMDBONVE?oc=5\" target=\"_blank\">Burleigh Pavilion now open on the Gold Coast</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Spice News</font>"
+      },
+      "source": {
+        "href": "https://www.spicenews.com.au",
+        "title": "Spice News"
+      },
+      "sub_articles": []
+    }
+  ]
+}

@@ -1,0 +1,908 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2018-07-06",
+  "window_end": "2018-07-19",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2018-07-06+before%3A2018-07-20&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2018-07-06+before:2018-07-20&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:26:10Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2018-07-06 before:2018-07-20\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2018-07-06 before:2018-07-20\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2018-07-06+before:2018-07-20&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2018-07-06+before:2018-07-20&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:26:11 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      26,
+      11,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "What happened to Zika? - PBS",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "What happened to Zika? - PBS"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAzMUN6YVBJbFdZNHdzWURqY1N6OGlyMUJWWjhsWFI0Y0RsSF84VFpoYmwwWi0taDdLZEI0aVl5X0t6S0hHSUZybHBZcFJGUG9LOGRxR2x5RFpDaGJncGhzR0hHaHIyVGRHckHSAW9BVV95cUxNOTc2R2MxTWNqcWxjMDlsQkFwMmJRRno0aGZyZTIzUmlLZUFGdWtTZXVyZnh4emhLeGNEbFJFTklzSTZOVFYwQ1Q4ak9VcHlDTWdTOTdRSkM3TjFTdWw0bHVqVmg4bjNaUFNuY2ZOWTA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAzMUN6YVBJbFdZNHdzWURqY1N6OGlyMUJWWjhsWFI0Y0RsSF84VFpoYmwwWi0taDdLZEI0aVl5X0t6S0hHSUZybHBZcFJGUG9LOGRxR2x5RFpDaGJncGhzR0hHaHIyVGRHckHSAW9BVV95cUxNOTc2R2MxTWNqcWxjMDlsQkFwMmJRRno0aGZyZTIzUmlLZUFGdWtTZXVyZnh4emhLeGNEbFJFTklzSTZOVFYwQ1Q4ak9VcHlDTWdTOTdRSkM3TjFTdWw0bHVqVmg4bjNaUFNuY2ZOWTA?oc=5",
+      "id": "CBMiakFVX3lxTFAzMUN6YVBJbFdZNHdzWURqY1N6OGlyMUJWWjhsWFI0Y0RsSF84VFpoYmwwWi0taDdLZEI0aVl5X0t6S0hHSUZybHBZcFJGUG9LOGRxR2x5RFpDaGJncGhzR0hHaHIyVGRHckHSAW9BVV95cUxNOTc2R2MxTWNqcWxjMDlsQkFwMmJRRno0aGZyZTIzUmlLZUFGdWtTZXVyZnh4emhLeGNEbFJFTklzSTZOVFYwQ1Q4ak9VcHlDTWdTOTdRSkM3TjFTdWw0bHVqVmg4bjNaUFNuY2ZOWTA",
+      "guidislink": false,
+      "published": "Fri, 06 Jul 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        7,
+        6,
+        7,
+        0,
+        0,
+        4,
+        187,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTFAzMUN6YVBJbFdZNHdzWURqY1N6OGlyMUJWWjhsWFI0Y0RsSF84VFpoYmwwWi0taDdLZEI0aVl5X0t6S0hHSUZybHBZcFJGUG9LOGRxR2x5RFpDaGJncGhzR0hHaHIyVGRHckHSAW9BVV95cUxNOTc2R2MxTWNqcWxjMDlsQkFwMmJRRno0aGZyZTIzUmlLZUFGdWtTZXVyZnh4emhLeGNEbFJFTklzSTZOVFYwQ1Q4ak9VcHlDTWdTOTdRSkM3TjFTdWw0bHVqVmg4bjNaUFNuY2ZOWTA?oc=5\" target=\"_blank\">What happened to Zika?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PBS</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTFAzMUN6YVBJbFdZNHdzWURqY1N6OGlyMUJWWjhsWFI0Y0RsSF84VFpoYmwwWi0taDdLZEI0aVl5X0t6S0hHSUZybHBZcFJGUG9LOGRxR2x5RFpDaGJncGhzR0hHaHIyVGRHckHSAW9BVV95cUxNOTc2R2MxTWNqcWxjMDlsQkFwMmJRRno0aGZyZTIzUmlLZUFGdWtTZXVyZnh4emhLeGNEbFJFTklzSTZOVFYwQ1Q4ak9VcHlDTWdTOTdRSkM3TjFTdWw0bHVqVmg4bjNaUFNuY2ZOWTA?oc=5\" target=\"_blank\">What happened to Zika?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PBS</font>"
+      },
+      "source": {
+        "href": "https://www.pbs.org",
+        "title": "PBS"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "FDA Revises Recommendations for Testing Donated Blood for Zika - American Hospital Association",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "FDA Revises Recommendations for Testing Donated Blood for Zika - American Hospital Association"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWFNrMTJWWDBlZmcxaXVvN1pRbmRtcGJyMVZrLVdlT3ZDUWZhRldOTjBPYW5uMWJPcmd0a05EWlBnUU10cHJpSjVMODlwZThNQ3J0RnFJLUJIMVZObG11VjI2NkZCMEVTMlpFc3A2ejZxLWxEaTUwTlk4eG9uZDNqTWZWN0pxS0lnRjZWLXZOQnBWa2tlMzRqYi1iY3JrRWJv?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWFNrMTJWWDBlZmcxaXVvN1pRbmRtcGJyMVZrLVdlT3ZDUWZhRldOTjBPYW5uMWJPcmd0a05EWlBnUU10cHJpSjVMODlwZThNQ3J0RnFJLUJIMVZObG11VjI2NkZCMEVTMlpFc3A2ejZxLWxEaTUwTlk4eG9uZDNqTWZWN0pxS0lnRjZWLXZOQnBWa2tlMzRqYi1iY3JrRWJv?oc=5",
+      "id": "CBMioAFBVV95cUxNWFNrMTJWWDBlZmcxaXVvN1pRbmRtcGJyMVZrLVdlT3ZDUWZhRldOTjBPYW5uMWJPcmd0a05EWlBnUU10cHJpSjVMODlwZThNQ3J0RnFJLUJIMVZObG11VjI2NkZCMEVTMlpFc3A2ejZxLWxEaTUwTlk4eG9uZDNqTWZWN0pxS0lnRjZWLXZOQnBWa2tlMzRqYi1iY3JrRWJv",
+      "guidislink": false,
+      "published": "Fri, 06 Jul 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        7,
+        6,
+        7,
+        0,
+        0,
+        4,
+        187,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNWFNrMTJWWDBlZmcxaXVvN1pRbmRtcGJyMVZrLVdlT3ZDUWZhRldOTjBPYW5uMWJPcmd0a05EWlBnUU10cHJpSjVMODlwZThNQ3J0RnFJLUJIMVZObG11VjI2NkZCMEVTMlpFc3A2ejZxLWxEaTUwTlk4eG9uZDNqTWZWN0pxS0lnRjZWLXZOQnBWa2tlMzRqYi1iY3JrRWJv?oc=5\" target=\"_blank\">FDA Revises Recommendations for Testing Donated Blood for Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">American Hospital Association</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNWFNrMTJWWDBlZmcxaXVvN1pRbmRtcGJyMVZrLVdlT3ZDUWZhRldOTjBPYW5uMWJPcmd0a05EWlBnUU10cHJpSjVMODlwZThNQ3J0RnFJLUJIMVZObG11VjI2NkZCMEVTMlpFc3A2ejZxLWxEaTUwTlk4eG9uZDNqTWZWN0pxS0lnRjZWLXZOQnBWa2tlMzRqYi1iY3JrRWJv?oc=5\" target=\"_blank\">FDA Revises Recommendations for Testing Donated Blood for Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">American Hospital Association</font>"
+      },
+      "source": {
+        "href": "https://www.aha.org",
+        "title": "American Hospital Association"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "The Importance of Disease Surveillance: The Case of Zika Virus Disease - Georgetown University",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "The Importance of Disease Surveillance: The Case of Zika Virus Disease - Georgetown University"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRTRYODRyZTFnbUZubm9aYXMybkkwczNiR2RnMzc5S1BSWmF1UXQzTHdGOG9EOFBsWFJkbWVKYWp6a2hGbU42OUZwakVOdTBaZUFEdjRmTFhVYUJiYlNDZW1mbVNBR2dJY3JrdTV2RVZsS0dwZVA0WDNLWmhpS1N3VW9UR1l0djFvbkF1cVRfMVY1Q1E1dmNsem43S2ZaUDc2ckdWQ193QQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRTRYODRyZTFnbUZubm9aYXMybkkwczNiR2RnMzc5S1BSWmF1UXQzTHdGOG9EOFBsWFJkbWVKYWp6a2hGbU42OUZwakVOdTBaZUFEdjRmTFhVYUJiYlNDZW1mbVNBR2dJY3JrdTV2RVZsS0dwZVA0WDNLWmhpS1N3VW9UR1l0djFvbkF1cVRfMVY1Q1E1dmNsem43S2ZaUDc2ckdWQ193QQ?oc=5",
+      "id": "CBMipwFBVV95cUxQRTRYODRyZTFnbUZubm9aYXMybkkwczNiR2RnMzc5S1BSWmF1UXQzTHdGOG9EOFBsWFJkbWVKYWp6a2hGbU42OUZwakVOdTBaZUFEdjRmTFhVYUJiYlNDZW1mbVNBR2dJY3JrdTV2RVZsS0dwZVA0WDNLWmhpS1N3VW9UR1l0djFvbkF1cVRfMVY1Q1E1dmNsem43S2ZaUDc2ckdWQ193QQ",
+      "guidislink": false,
+      "published": "Fri, 13 Jul 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        7,
+        13,
+        7,
+        0,
+        0,
+        4,
+        194,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxQRTRYODRyZTFnbUZubm9aYXMybkkwczNiR2RnMzc5S1BSWmF1UXQzTHdGOG9EOFBsWFJkbWVKYWp6a2hGbU42OUZwakVOdTBaZUFEdjRmTFhVYUJiYlNDZW1mbVNBR2dJY3JrdTV2RVZsS0dwZVA0WDNLWmhpS1N3VW9UR1l0djFvbkF1cVRfMVY1Q1E1dmNsem43S2ZaUDc2ckdWQ193QQ?oc=5\" target=\"_blank\">The Importance of Disease Surveillance: The Case of Zika Virus Disease</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Georgetown University</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxQRTRYODRyZTFnbUZubm9aYXMybkkwczNiR2RnMzc5S1BSWmF1UXQzTHdGOG9EOFBsWFJkbWVKYWp6a2hGbU42OUZwakVOdTBaZUFEdjRmTFhVYUJiYlNDZW1mbVNBR2dJY3JrdTV2RVZsS0dwZVA0WDNLWmhpS1N3VW9UR1l0djFvbkF1cVRfMVY1Q1E1dmNsem43S2ZaUDc2ckdWQ193QQ?oc=5\" target=\"_blank\">The Importance of Disease Surveillance: The Case of Zika Virus Disease</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Georgetown University</font>"
+      },
+      "source": {
+        "href": "https://oneill.law.georgetown.edu",
+        "title": "Georgetown University"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Two Zika cases confirmed in Williamson County, how to avoid the virus - KVUE",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Two Zika cases confirmed in Williamson County, how to avoid the virus - KVUE"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQnM1TTRIMnA3V21WeTJ4SkxQUXEyQzJiTXFXMDJIWkV1ZVRXbnhGZHM4dk9wdzMyRVo3Z2o3VTlRUE5lNzRmR1FiN21HblNRMlpPYm5rcjdSRTZaMGxFWldtYmZSS3FBTTFvbXFPTGRhUUV4aUdpcDhKUWsyX1J4c01LLVF1WEpIRjNSRkJobkdvc0p4S1BhZ05TV1lHVEd3ZHZqNHdiTnFsN2FxMlJHYlUyNkJBNXpPZXM3WVgtTQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQnM1TTRIMnA3V21WeTJ4SkxQUXEyQzJiTXFXMDJIWkV1ZVRXbnhGZHM4dk9wdzMyRVo3Z2o3VTlRUE5lNzRmR1FiN21HblNRMlpPYm5rcjdSRTZaMGxFWldtYmZSS3FBTTFvbXFPTGRhUUV4aUdpcDhKUWsyX1J4c01LLVF1WEpIRjNSRkJobkdvc0p4S1BhZ05TV1lHVEd3ZHZqNHdiTnFsN2FxMlJHYlUyNkJBNXpPZXM3WVgtTQ?oc=5",
+      "id": "CBMivwFBVV95cUxOQnM1TTRIMnA3V21WeTJ4SkxQUXEyQzJiTXFXMDJIWkV1ZVRXbnhGZHM4dk9wdzMyRVo3Z2o3VTlRUE5lNzRmR1FiN21HblNRMlpPYm5rcjdSRTZaMGxFWldtYmZSS3FBTTFvbXFPTGRhUUV4aUdpcDhKUWsyX1J4c01LLVF1WEpIRjNSRkJobkdvc0p4S1BhZ05TV1lHVEd3ZHZqNHdiTnFsN2FxMlJHYlUyNkJBNXpPZXM3WVgtTQ",
+      "guidislink": false,
+      "published": "Sat, 07 Jul 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        7,
+        7,
+        7,
+        0,
+        0,
+        5,
+        188,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxOQnM1TTRIMnA3V21WeTJ4SkxQUXEyQzJiTXFXMDJIWkV1ZVRXbnhGZHM4dk9wdzMyRVo3Z2o3VTlRUE5lNzRmR1FiN21HblNRMlpPYm5rcjdSRTZaMGxFWldtYmZSS3FBTTFvbXFPTGRhUUV4aUdpcDhKUWsyX1J4c01LLVF1WEpIRjNSRkJobkdvc0p4S1BhZ05TV1lHVEd3ZHZqNHdiTnFsN2FxMlJHYlUyNkJBNXpPZXM3WVgtTQ?oc=5\" target=\"_blank\">Two Zika cases confirmed in Williamson County, how to avoid the virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KVUE</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxOQnM1TTRIMnA3V21WeTJ4SkxQUXEyQzJiTXFXMDJIWkV1ZVRXbnhGZHM4dk9wdzMyRVo3Z2o3VTlRUE5lNzRmR1FiN21HblNRMlpPYm5rcjdSRTZaMGxFWldtYmZSS3FBTTFvbXFPTGRhUUV4aUdpcDhKUWsyX1J4c01LLVF1WEpIRjNSRkJobkdvc0p4S1BhZ05TV1lHVEd3ZHZqNHdiTnFsN2FxMlJHYlUyNkJBNXpPZXM3WVgtTQ?oc=5\" target=\"_blank\">Two Zika cases confirmed in Williamson County, how to avoid the virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KVUE</font>"
+      },
+      "source": {
+        "href": "https://www.kvue.com",
+        "title": "KVUE"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Extract from Aphloia theiformis , an edible indigenous plant from Reunion Island, impairs Zika virus attachment to the host cell surface - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Extract from Aphloia theiformis , an edible indigenous plant from Reunion Island, impairs Zika virus attachment to the host cell surface - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ZNjY3RGFSb21PSzVTdlBJWVJTVEtwYjhBZkVXMFNQanNna3RFY0F5c3pQRkE3UHZqb3pMY2dLSnVvT0VuRUFwbW5lNDZuQlU5VDJIRjdDNDFRaVBKX0pn?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ZNjY3RGFSb21PSzVTdlBJWVJTVEtwYjhBZkVXMFNQanNna3RFY0F5c3pQRkE3UHZqb3pMY2dLSnVvT0VuRUFwbW5lNDZuQlU5VDJIRjdDNDFRaVBKX0pn?oc=5",
+      "id": "CBMiX0FVX3lxTE9ZNjY3RGFSb21PSzVTdlBJWVJTVEtwYjhBZkVXMFNQanNna3RFY0F5c3pQRkE3UHZqb3pMY2dLSnVvT0VuRUFwbW5lNDZuQlU5VDJIRjdDNDFRaVBKX0pn",
+      "guidislink": false,
+      "published": "Wed, 18 Jul 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        7,
+        18,
+        7,
+        0,
+        0,
+        2,
+        199,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ZNjY3RGFSb21PSzVTdlBJWVJTVEtwYjhBZkVXMFNQanNna3RFY0F5c3pQRkE3UHZqb3pMY2dLSnVvT0VuRUFwbW5lNDZuQlU5VDJIRjdDNDFRaVBKX0pn?oc=5\" target=\"_blank\">Extract from Aphloia theiformis , an edible indigenous plant from Reunion Island, impairs Zika virus attachment to the host cell surface</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ZNjY3RGFSb21PSzVTdlBJWVJTVEtwYjhBZkVXMFNQanNna3RFY0F5c3pQRkE3UHZqb3pMY2dLSnVvT0VuRUFwbW5lNDZuQlU5VDJIRjdDNDFRaVBKX0pn?oc=5\" target=\"_blank\">Extract from Aphloia theiformis , an edible indigenous plant from Reunion Island, impairs Zika virus attachment to the host cell surface</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika and health cuts blamed for rise in baby death rates in Brazil - The Guardian",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika and health cuts blamed for rise in baby death rates in Brazil - The Guardian"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVVcwLWg5NUhpdUEzXzFiaW5nRHo5eC1WNk1zWGpXRlp0WXFxWmU4QV8zaXY1RHdSVGFEcUF1dmRpS0JCVE9jTnRsOFZtTHB0OWR3VDZ4TUVLMTk1OVFNdlh5S1FnXzQzaWFHUXdhalZlMDFaY2VGWEhvc1d1QlpKcnRxeXlEWEcxU3dPbTdxOE9STmdkVGl5S1ppeDIxUlUzOVMyd1REWklTVFRIcW81Qw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVVcwLWg5NUhpdUEzXzFiaW5nRHo5eC1WNk1zWGpXRlp0WXFxWmU4QV8zaXY1RHdSVGFEcUF1dmRpS0JCVE9jTnRsOFZtTHB0OWR3VDZ4TUVLMTk1OVFNdlh5S1FnXzQzaWFHUXdhalZlMDFaY2VGWEhvc1d1QlpKcnRxeXlEWEcxU3dPbTdxOE9STmdkVGl5S1ppeDIxUlUzOVMyd1REWklTVFRIcW81Qw?oc=5",
+      "id": "CBMisAFBVV95cUxPVVcwLWg5NUhpdUEzXzFiaW5nRHo5eC1WNk1zWGpXRlp0WXFxWmU4QV8zaXY1RHdSVGFEcUF1dmRpS0JCVE9jTnRsOFZtTHB0OWR3VDZ4TUVLMTk1OVFNdlh5S1FnXzQzaWFHUXdhalZlMDFaY2VGWEhvc1d1QlpKcnRxeXlEWEcxU3dPbTdxOE9STmdkVGl5S1ppeDIxUlUzOVMyd1REWklTVFRIcW81Qw",
+      "guidislink": false,
+      "published": "Tue, 17 Jul 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        7,
+        17,
+        7,
+        0,
+        0,
+        1,
+        198,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPVVcwLWg5NUhpdUEzXzFiaW5nRHo5eC1WNk1zWGpXRlp0WXFxWmU4QV8zaXY1RHdSVGFEcUF1dmRpS0JCVE9jTnRsOFZtTHB0OWR3VDZ4TUVLMTk1OVFNdlh5S1FnXzQzaWFHUXdhalZlMDFaY2VGWEhvc1d1QlpKcnRxeXlEWEcxU3dPbTdxOE9STmdkVGl5S1ppeDIxUlUzOVMyd1REWklTVFRIcW81Qw?oc=5\" target=\"_blank\">Zika and health cuts blamed for rise in baby death rates in Brazil</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPVVcwLWg5NUhpdUEzXzFiaW5nRHo5eC1WNk1zWGpXRlp0WXFxWmU4QV8zaXY1RHdSVGFEcUF1dmRpS0JCVE9jTnRsOFZtTHB0OWR3VDZ4TUVLMTk1OVFNdlh5S1FnXzQzaWFHUXdhalZlMDFaY2VGWEhvc1d1QlpKcnRxeXlEWEcxU3dPbTdxOE9STmdkVGl5S1ppeDIxUlUzOVMyd1REWklTVFRIcW81Qw?oc=5\" target=\"_blank\">Zika and health cuts blamed for rise in baby death rates in Brazil</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>"
+      },
+      "source": {
+        "href": "https://www.theguardian.com",
+        "title": "The Guardian"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Purdue researchers developing device that detects mosquito-borne diseases, giving health officials time to take action - Purdue University",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Purdue researchers developing device that detects mosquito-borne diseases, giving health officials time to take action - Purdue University"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNUTBCNHo1X3BudnJqZEdFRFZUaTctcU5fZFFMdGIzQUVSS1g1NElsSWU5bklTcDlObDh2MTNVXzlVaXpMUGZlYXVGY01vTEhvUEJBTHBDeDVwWVJLN0NoN0FDTlBaVUxVdWxfalZoM1pnUHpjWGJHS0Vvd1RFZDRLTDdZZ2RZUGNPeENONnpxN01yVlhnMVhLMTByNUJqOWpTMklIT0Fla29pU2VUaEd5WUxuMFJzNno0Zm5IME50bmFTS09LRHNVWlFQMkgyQXZCX3dDQXJHcU5tYmN0NlNWYU1JM0t3Y1lnaUNlamp0aFBTZ1RueVpXeC1JZEVRaHdrb2RtSTg5aE1nMW1C?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNUTBCNHo1X3BudnJqZEdFRFZUaTctcU5fZFFMdGIzQUVSS1g1NElsSWU5bklTcDlObDh2MTNVXzlVaXpMUGZlYXVGY01vTEhvUEJBTHBDeDVwWVJLN0NoN0FDTlBaVUxVdWxfalZoM1pnUHpjWGJHS0Vvd1RFZDRLTDdZZ2RZUGNPeENONnpxN01yVlhnMVhLMTByNUJqOWpTMklIT0Fla29pU2VUaEd5WUxuMFJzNno0Zm5IME50bmFTS09LRHNVWlFQMkgyQXZCX3dDQXJHcU5tYmN0NlNWYU1JM0t3Y1lnaUNlamp0aFBTZ1RueVpXeC1JZEVRaHdrb2RtSTg5aE1nMW1C?oc=5",
+      "id": "CBMijAJBVV95cUxNUTBCNHo1X3BudnJqZEdFRFZUaTctcU5fZFFMdGIzQUVSS1g1NElsSWU5bklTcDlObDh2MTNVXzlVaXpMUGZlYXVGY01vTEhvUEJBTHBDeDVwWVJLN0NoN0FDTlBaVUxVdWxfalZoM1pnUHpjWGJHS0Vvd1RFZDRLTDdZZ2RZUGNPeENONnpxN01yVlhnMVhLMTByNUJqOWpTMklIT0Fla29pU2VUaEd5WUxuMFJzNno0Zm5IME50bmFTS09LRHNVWlFQMkgyQXZCX3dDQXJHcU5tYmN0NlNWYU1JM0t3Y1lnaUNlamp0aFBTZ1RueVpXeC1JZEVRaHdrb2RtSTg5aE1nMW1C",
+      "guidislink": false,
+      "published": "Thu, 12 Jul 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        7,
+        12,
+        7,
+        0,
+        0,
+        3,
+        193,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAJBVV95cUxNUTBCNHo1X3BudnJqZEdFRFZUaTctcU5fZFFMdGIzQUVSS1g1NElsSWU5bklTcDlObDh2MTNVXzlVaXpMUGZlYXVGY01vTEhvUEJBTHBDeDVwWVJLN0NoN0FDTlBaVUxVdWxfalZoM1pnUHpjWGJHS0Vvd1RFZDRLTDdZZ2RZUGNPeENONnpxN01yVlhnMVhLMTByNUJqOWpTMklIT0Fla29pU2VUaEd5WUxuMFJzNno0Zm5IME50bmFTS09LRHNVWlFQMkgyQXZCX3dDQXJHcU5tYmN0NlNWYU1JM0t3Y1lnaUNlamp0aFBTZ1RueVpXeC1JZEVRaHdrb2RtSTg5aE1nMW1C?oc=5\" target=\"_blank\">Purdue researchers developing device that detects mosquito-borne diseases, giving health officials time to take action</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Purdue University</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMijAJBVV95cUxNUTBCNHo1X3BudnJqZEdFRFZUaTctcU5fZFFMdGIzQUVSS1g1NElsSWU5bklTcDlObDh2MTNVXzlVaXpMUGZlYXVGY01vTEhvUEJBTHBDeDVwWVJLN0NoN0FDTlBaVUxVdWxfalZoM1pnUHpjWGJHS0Vvd1RFZDRLTDdZZ2RZUGNPeENONnpxN01yVlhnMVhLMTByNUJqOWpTMklIT0Fla29pU2VUaEd5WUxuMFJzNno0Zm5IME50bmFTS09LRHNVWlFQMkgyQXZCX3dDQXJHcU5tYmN0NlNWYU1JM0t3Y1lnaUNlamp0aFBTZ1RueVpXeC1JZEVRaHdrb2RtSTg5aE1nMW1C?oc=5\" target=\"_blank\">Purdue researchers developing device that detects mosquito-borne diseases, giving health officials time to take action</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Purdue University</font>"
+      },
+      "source": {
+        "href": "https://www.purdue.edu",
+        "title": "Purdue University"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Suppressing negative emotions during health scare may whip up spiral of fear - Penn State University",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Suppressing negative emotions during health scare may whip up spiral of fear - Penn State University"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONmo5bG1rU1hueU5RVmk5OGIxT2s4M1pYQW5mRk9uMVpfdFFiOV9Fc0dpc1hTOXBPVFBYSWhzNlg1SHI2a0ZOLWNRVUZSSk5Ibmd1TE1XZHd1UHdUS2ZnZEhnZnNPQ3lfcUVGcTZ4QUNZTFlxeHg3X3ZkNXJ5WTVrV2d6V1hrYmExeDlyOUVZMk9CcmRqLTV3eFA2VU5TTVhrQm9RUERDTGpicFJaR2VZ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONmo5bG1rU1hueU5RVmk5OGIxT2s4M1pYQW5mRk9uMVpfdFFiOV9Fc0dpc1hTOXBPVFBYSWhzNlg1SHI2a0ZOLWNRVUZSSk5Ibmd1TE1XZHd1UHdUS2ZnZEhnZnNPQ3lfcUVGcTZ4QUNZTFlxeHg3X3ZkNXJ5WTVrV2d6V1hrYmExeDlyOUVZMk9CcmRqLTV3eFA2VU5TTVhrQm9RUERDTGpicFJaR2VZ?oc=5",
+      "id": "CBMirwFBVV95cUxONmo5bG1rU1hueU5RVmk5OGIxT2s4M1pYQW5mRk9uMVpfdFFiOV9Fc0dpc1hTOXBPVFBYSWhzNlg1SHI2a0ZOLWNRVUZSSk5Ibmd1TE1XZHd1UHdUS2ZnZEhnZnNPQ3lfcUVGcTZ4QUNZTFlxeHg3X3ZkNXJ5WTVrV2d6V1hrYmExeDlyOUVZMk9CcmRqLTV3eFA2VU5TTVhrQm9RUERDTGpicFJaR2VZ",
+      "guidislink": false,
+      "published": "Tue, 10 Jul 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        7,
+        10,
+        7,
+        0,
+        0,
+        1,
+        191,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxONmo5bG1rU1hueU5RVmk5OGIxT2s4M1pYQW5mRk9uMVpfdFFiOV9Fc0dpc1hTOXBPVFBYSWhzNlg1SHI2a0ZOLWNRVUZSSk5Ibmd1TE1XZHd1UHdUS2ZnZEhnZnNPQ3lfcUVGcTZ4QUNZTFlxeHg3X3ZkNXJ5WTVrV2d6V1hrYmExeDlyOUVZMk9CcmRqLTV3eFA2VU5TTVhrQm9RUERDTGpicFJaR2VZ?oc=5\" target=\"_blank\">Suppressing negative emotions during health scare may whip up spiral of fear</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Penn State University</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxONmo5bG1rU1hueU5RVmk5OGIxT2s4M1pYQW5mRk9uMVpfdFFiOV9Fc0dpc1hTOXBPVFBYSWhzNlg1SHI2a0ZOLWNRVUZSSk5Ibmd1TE1XZHd1UHdUS2ZnZEhnZnNPQ3lfcUVGcTZ4QUNZTFlxeHg3X3ZkNXJ5WTVrV2d6V1hrYmExeDlyOUVZMk9CcmRqLTV3eFA2VU5TTVhrQm9RUERDTGpicFJaR2VZ?oc=5\" target=\"_blank\">Suppressing negative emotions during health scare may whip up spiral of fear</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Penn State University</font>"
+      },
+      "source": {
+        "href": "https://www.psu.edu",
+        "title": "Penn State University"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Calculations suggest flea and tick medications for pets could benefit people by controlling mosquitoes - Chemical & Engineering News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Calculations suggest flea and tick medications for pets could benefit people by controlling mosquitoes - Chemical & Engineering News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNc0pPTDlUNW9pLXVEVGp1WDdoZHBwRUlyMElONDdSLTlMaTByeW1BdjZhNjg1M0JhcUI4VjZfWVo3Vi11S3RlbExaak5RMkNBNjU0RTI2MHktVVNoZU5CWVU4TFh5UDh5M0Z6SmVXY29ONlA4cDA3d3EtdW1uVE1XTVRROFdURTJzRjNWN0NlWFRObzZ3RmhPMnFxZEx3NEFzaXQ0?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNc0pPTDlUNW9pLXVEVGp1WDdoZHBwRUlyMElONDdSLTlMaTByeW1BdjZhNjg1M0JhcUI4VjZfWVo3Vi11S3RlbExaak5RMkNBNjU0RTI2MHktVVNoZU5CWVU4TFh5UDh5M0Z6SmVXY29ONlA4cDA3d3EtdW1uVE1XTVRROFdURTJzRjNWN0NlWFRObzZ3RmhPMnFxZEx3NEFzaXQ0?oc=5",
+      "id": "CBMiowFBVV95cUxNc0pPTDlUNW9pLXVEVGp1WDdoZHBwRUlyMElONDdSLTlMaTByeW1BdjZhNjg1M0JhcUI4VjZfWVo3Vi11S3RlbExaak5RMkNBNjU0RTI2MHktVVNoZU5CWVU4TFh5UDh5M0Z6SmVXY29ONlA4cDA3d3EtdW1uVE1XTVRROFdURTJzRjNWN0NlWFRObzZ3RmhPMnFxZEx3NEFzaXQ0",
+      "guidislink": false,
+      "published": "Sun, 08 Jul 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        7,
+        8,
+        7,
+        0,
+        0,
+        6,
+        189,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxNc0pPTDlUNW9pLXVEVGp1WDdoZHBwRUlyMElONDdSLTlMaTByeW1BdjZhNjg1M0JhcUI4VjZfWVo3Vi11S3RlbExaak5RMkNBNjU0RTI2MHktVVNoZU5CWVU4TFh5UDh5M0Z6SmVXY29ONlA4cDA3d3EtdW1uVE1XTVRROFdURTJzRjNWN0NlWFRObzZ3RmhPMnFxZEx3NEFzaXQ0?oc=5\" target=\"_blank\">Calculations suggest flea and tick medications for pets could benefit people by controlling mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chemical & Engineering News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxNc0pPTDlUNW9pLXVEVGp1WDdoZHBwRUlyMElONDdSLTlMaTByeW1BdjZhNjg1M0JhcUI4VjZfWVo3Vi11S3RlbExaak5RMkNBNjU0RTI2MHktVVNoZU5CWVU4TFh5UDh5M0Z6SmVXY29ONlA4cDA3d3EtdW1uVE1XTVRROFdURTJzRjNWN0NlWFRObzZ3RmhPMnFxZEx3NEFzaXQ0?oc=5\" target=\"_blank\">Calculations suggest flea and tick medications for pets could benefit people by controlling mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Chemical & Engineering News</font>"
+      },
+      "source": {
+        "href": "https://cen.acs.org",
+        "title": "Chemical & Engineering News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Minister assures Nigerians that Lassa fever outbreak is under control but tasks citizenry to be vigilant on Zika virus - WHO | Regional Office for Africa",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Minister assures Nigerians that Lassa fever outbreak is under control but tasks citizenry to be vigilant on Zika virus - WHO | Regional Office for Africa"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQ19VOXBVczQ2ZVlTd2szZ25qNTA1VVNNa2ozMHpCT014T3A0cWhMM1FTWFBxeXdBSkxCa1pvRkxnbXVkelpUMUNNTnNDWExYWjFtTXJMR19uZkdXc29KejZtd3c4eFFWU0JBY0loUVBkNGxXN1Y4UTZnbGpoc1hEUHhMLUxJNmk4dFdVU2txWTJtLTU4NjlrRVNJSWtlY3E3ckpsZXpMTUxhalRYeXlJZUxRYk5wU1NNRjFibG1fVzB6UQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQ19VOXBVczQ2ZVlTd2szZ25qNTA1VVNNa2ozMHpCT014T3A0cWhMM1FTWFBxeXdBSkxCa1pvRkxnbXVkelpUMUNNTnNDWExYWjFtTXJMR19uZkdXc29KejZtd3c4eFFWU0JBY0loUVBkNGxXN1Y4UTZnbGpoc1hEUHhMLUxJNmk4dFdVU2txWTJtLTU4NjlrRVNJSWtlY3E3ckpsZXpMTUxhalRYeXlJZUxRYk5wU1NNRjFibG1fVzB6UQ?oc=5",
+      "id": "CBMiwgFBVV95cUxQQ19VOXBVczQ2ZVlTd2szZ25qNTA1VVNNa2ozMHpCT014T3A0cWhMM1FTWFBxeXdBSkxCa1pvRkxnbXVkelpUMUNNTnNDWExYWjFtTXJMR19uZkdXc29KejZtd3c4eFFWU0JBY0loUVBkNGxXN1Y4UTZnbGpoc1hEUHhMLUxJNmk4dFdVU2txWTJtLTU4NjlrRVNJSWtlY3E3ckpsZXpMTUxhalRYeXlJZUxRYk5wU1NNRjFibG1fVzB6UQ",
+      "guidislink": false,
+      "published": "Tue, 10 Jul 2018 05:09:49 GMT",
+      "published_parsed": [
+        2018,
+        7,
+        10,
+        5,
+        9,
+        49,
+        1,
+        191,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQ19VOXBVczQ2ZVlTd2szZ25qNTA1VVNNa2ozMHpCT014T3A0cWhMM1FTWFBxeXdBSkxCa1pvRkxnbXVkelpUMUNNTnNDWExYWjFtTXJMR19uZkdXc29KejZtd3c4eFFWU0JBY0loUVBkNGxXN1Y4UTZnbGpoc1hEUHhMLUxJNmk4dFdVU2txWTJtLTU4NjlrRVNJSWtlY3E3ckpsZXpMTUxhalRYeXlJZUxRYk5wU1NNRjFibG1fVzB6UQ?oc=5\" target=\"_blank\">Minister assures Nigerians that Lassa fever outbreak is under control but tasks citizenry to be vigilant on Zika virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WHO | Regional Office for Africa</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQ19VOXBVczQ2ZVlTd2szZ25qNTA1VVNNa2ozMHpCT014T3A0cWhMM1FTWFBxeXdBSkxCa1pvRkxnbXVkelpUMUNNTnNDWExYWjFtTXJMR19uZkdXc29KejZtd3c4eFFWU0JBY0loUVBkNGxXN1Y4UTZnbGpoc1hEUHhMLUxJNmk4dFdVU2txWTJtLTU4NjlrRVNJSWtlY3E3ckpsZXpMTUxhalRYeXlJZUxRYk5wU1NNRjFibG1fVzB6UQ?oc=5\" target=\"_blank\">Minister assures Nigerians that Lassa fever outbreak is under control but tasks citizenry to be vigilant on Zika virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WHO | Regional Office for Africa</font>"
+      },
+      "source": {
+        "href": "https://www.afro.who.int",
+        "title": "WHO | Regional Office for Africa"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika epidemic sheds light on Brazil's 'invisible children' - The Guardian",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika epidemic sheds light on Brazil's 'invisible children' - The Guardian"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWG1DUjJ3SEhuRTVZNGFxVGgwaUVqcWdrUFBGUnpIS3VEbk5NeWczYzhTRVZYWjc0ZHlNWVhHbE50bVNucTRjZi1UMzhDdXB2R2tEcWNXSWJGakJOV1ZBRU5WTThPaDdXcVNudjk5MmkycnJoRXdHQUlXYnB0NTBleGhPaTYtQkF0SXBTb2lnRlZTQ2I2NWtmR3NpMXNVTXVhd1c0?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWG1DUjJ3SEhuRTVZNGFxVGgwaUVqcWdrUFBGUnpIS3VEbk5NeWczYzhTRVZYWjc0ZHlNWVhHbE50bVNucTRjZi1UMzhDdXB2R2tEcWNXSWJGakJOV1ZBRU5WTThPaDdXcVNudjk5MmkycnJoRXdHQUlXYnB0NTBleGhPaTYtQkF0SXBTb2lnRlZTQ2I2NWtmR3NpMXNVTXVhd1c0?oc=5",
+      "id": "CBMiowFBVV95cUxNWG1DUjJ3SEhuRTVZNGFxVGgwaUVqcWdrUFBGUnpIS3VEbk5NeWczYzhTRVZYWjc0ZHlNWVhHbE50bVNucTRjZi1UMzhDdXB2R2tEcWNXSWJGakJOV1ZBRU5WTThPaDdXcVNudjk5MmkycnJoRXdHQUlXYnB0NTBleGhPaTYtQkF0SXBTb2lnRlZTQ2I2NWtmR3NpMXNVTXVhd1c0",
+      "guidislink": false,
+      "published": "Fri, 20 Jul 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        7,
+        20,
+        7,
+        0,
+        0,
+        4,
+        201,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxNWG1DUjJ3SEhuRTVZNGFxVGgwaUVqcWdrUFBGUnpIS3VEbk5NeWczYzhTRVZYWjc0ZHlNWVhHbE50bVNucTRjZi1UMzhDdXB2R2tEcWNXSWJGakJOV1ZBRU5WTThPaDdXcVNudjk5MmkycnJoRXdHQUlXYnB0NTBleGhPaTYtQkF0SXBTb2lnRlZTQ2I2NWtmR3NpMXNVTXVhd1c0?oc=5\" target=\"_blank\">Zika epidemic sheds light on Brazil's 'invisible children'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxNWG1DUjJ3SEhuRTVZNGFxVGgwaUVqcWdrUFBGUnpIS3VEbk5NeWczYzhTRVZYWjc0ZHlNWVhHbE50bVNucTRjZi1UMzhDdXB2R2tEcWNXSWJGakJOV1ZBRU5WTThPaDdXcVNudjk5MmkycnJoRXdHQUlXYnB0NTBleGhPaTYtQkF0SXBTb2lnRlZTQ2I2NWtmR3NpMXNVTXVhd1c0?oc=5\" target=\"_blank\">Zika epidemic sheds light on Brazil's 'invisible children'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>"
+      },
+      "source": {
+        "href": "https://www.theguardian.com",
+        "title": "The Guardian"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Negligible contribution of M2634V substitution to ZIKV pathogenesis in AG6 mice revealed by a bacterial promoter activity reduced infectious clone - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Negligible contribution of M2634V substitution to ZIKV pathogenesis in AG6 mice revealed by a bacterial promoter activity reduced infectious clone - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1hX05JbnE5UHlhTGZjYkpNYlRWYVVBdTQ4VHJOOWp1M08xWW41RzhaTExBd2pTNzBaUzJsVUVtSUVQVlFRalN1TDNRWXRtRU5YclNoaTZkWGVjS2F1QXRR?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1hX05JbnE5UHlhTGZjYkpNYlRWYVVBdTQ4VHJOOWp1M08xWW41RzhaTExBd2pTNzBaUzJsVUVtSUVQVlFRalN1TDNRWXRtRU5YclNoaTZkWGVjS2F1QXRR?oc=5",
+      "id": "CBMiX0FVX3lxTE1hX05JbnE5UHlhTGZjYkpNYlRWYVVBdTQ4VHJOOWp1M08xWW41RzhaTExBd2pTNzBaUzJsVUVtSUVQVlFRalN1TDNRWXRtRU5YclNoaTZkWGVjS2F1QXRR",
+      "guidislink": false,
+      "published": "Thu, 12 Jul 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        7,
+        12,
+        7,
+        0,
+        0,
+        3,
+        193,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1hX05JbnE5UHlhTGZjYkpNYlRWYVVBdTQ4VHJOOWp1M08xWW41RzhaTExBd2pTNzBaUzJsVUVtSUVQVlFRalN1TDNRWXRtRU5YclNoaTZkWGVjS2F1QXRR?oc=5\" target=\"_blank\">Negligible contribution of M2634V substitution to ZIKV pathogenesis in AG6 mice revealed by a bacterial promoter activity reduced infectious clone</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1hX05JbnE5UHlhTGZjYkpNYlRWYVVBdTQ4VHJOOWp1M08xWW41RzhaTExBd2pTNzBaUzJsVUVtSUVQVlFRalN1TDNRWXRtRU5YclNoaTZkWGVjS2F1QXRR?oc=5\" target=\"_blank\">Negligible contribution of M2634V substitution to ZIKV pathogenesis in AG6 mice revealed by a bacterial promoter activity reduced infectious clone</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Educating Customers vs. Fear Mongering - Pest Control Technology",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Educating Customers vs. Fear Mongering - Pest Control Technology"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9OR2NIQUd5VU1KdkFvcVQ1VzRjWE43R0V2WEdCYk5VYjZYX1lVX0FLUGJuOGp1SXZycndPalF2dklWQjk1SEkyYldzYlU4ekFzdnEyNjR0blE1Mk5xcmRrQVd5ejlfOVNmYkdXOGpkVmlPdE9jd1dHM2lBbkk?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9OR2NIQUd5VU1KdkFvcVQ1VzRjWE43R0V2WEdCYk5VYjZYX1lVX0FLUGJuOGp1SXZycndPalF2dklWQjk1SEkyYldzYlU4ekFzdnEyNjR0blE1Mk5xcmRrQVd5ejlfOVNmYkdXOGpkVmlPdE9jd1dHM2lBbkk?oc=5",
+      "id": "CBMifEFVX3lxTE9OR2NIQUd5VU1KdkFvcVQ1VzRjWE43R0V2WEdCYk5VYjZYX1lVX0FLUGJuOGp1SXZycndPalF2dklWQjk1SEkyYldzYlU4ekFzdnEyNjR0blE1Mk5xcmRrQVd5ejlfOVNmYkdXOGpkVmlPdE9jd1dHM2lBbkk",
+      "guidislink": false,
+      "published": "Mon, 16 Jul 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        7,
+        16,
+        7,
+        0,
+        0,
+        0,
+        197,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE9OR2NIQUd5VU1KdkFvcVQ1VzRjWE43R0V2WEdCYk5VYjZYX1lVX0FLUGJuOGp1SXZycndPalF2dklWQjk1SEkyYldzYlU4ekFzdnEyNjR0blE1Mk5xcmRrQVd5ejlfOVNmYkdXOGpkVmlPdE9jd1dHM2lBbkk?oc=5\" target=\"_blank\">Educating Customers vs. Fear Mongering</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Pest Control Technology</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE9OR2NIQUd5VU1KdkFvcVQ1VzRjWE43R0V2WEdCYk5VYjZYX1lVX0FLUGJuOGp1SXZycndPalF2dklWQjk1SEkyYldzYlU4ekFzdnEyNjR0blE1Mk5xcmRrQVd5ejlfOVNmYkdXOGpkVmlPdE9jd1dHM2lBbkk?oc=5\" target=\"_blank\">Educating Customers vs. Fear Mongering</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Pest Control Technology</font>"
+      },
+      "source": {
+        "href": "https://www.pctonline.com",
+        "title": "Pest Control Technology"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Queensland study takes a bite out of dengue and zika mozzies - ABC News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Queensland study takes a bite out of dengue and zika mozzies - ABC News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeXpHS2lLN0hybF9hYkdWTWpBMlo0V0pkOXNmYk5oOGlyS0ZuSTNWUmhxZmlUMkNYeDY4cFZYQXBmaUNRU1JkWm9uRl9QSmU5NERFdVF3THlvLWl3NU9zM2hLOFM3aWlmQno1V1VPZDBqUktoSlpfVk9Ta01nTVZqUTdVa2E2Qk9ka2pYdXVsMVBLUTQ0Y0FqRks0bThCVm52dTdvYThibmlwR1Zk?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeXpHS2lLN0hybF9hYkdWTWpBMlo0V0pkOXNmYk5oOGlyS0ZuSTNWUmhxZmlUMkNYeDY4cFZYQXBmaUNRU1JkWm9uRl9QSmU5NERFdVF3THlvLWl3NU9zM2hLOFM3aWlmQno1V1VPZDBqUktoSlpfVk9Ta01nTVZqUTdVa2E2Qk9ka2pYdXVsMVBLUTQ0Y0FqRks0bThCVm52dTdvYThibmlwR1Zk?oc=5",
+      "id": "CBMirAFBVV95cUxNeXpHS2lLN0hybF9hYkdWTWpBMlo0V0pkOXNmYk5oOGlyS0ZuSTNWUmhxZmlUMkNYeDY4cFZYQXBmaUNRU1JkWm9uRl9QSmU5NERFdVF3THlvLWl3NU9zM2hLOFM3aWlmQno1V1VPZDBqUktoSlpfVk9Ta01nTVZqUTdVa2E2Qk9ka2pYdXVsMVBLUTQ0Y0FqRks0bThCVm52dTdvYThibmlwR1Zk",
+      "guidislink": false,
+      "published": "Mon, 09 Jul 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        7,
+        9,
+        7,
+        0,
+        0,
+        0,
+        190,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxNeXpHS2lLN0hybF9hYkdWTWpBMlo0V0pkOXNmYk5oOGlyS0ZuSTNWUmhxZmlUMkNYeDY4cFZYQXBmaUNRU1JkWm9uRl9QSmU5NERFdVF3THlvLWl3NU9zM2hLOFM3aWlmQno1V1VPZDBqUktoSlpfVk9Ta01nTVZqUTdVa2E2Qk9ka2pYdXVsMVBLUTQ0Y0FqRks0bThCVm52dTdvYThibmlwR1Zk?oc=5\" target=\"_blank\">Queensland study takes a bite out of dengue and zika mozzies</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ABC News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxNeXpHS2lLN0hybF9hYkdWTWpBMlo0V0pkOXNmYk5oOGlyS0ZuSTNWUmhxZmlUMkNYeDY4cFZYQXBmaUNRU1JkWm9uRl9QSmU5NERFdVF3THlvLWl3NU9zM2hLOFM3aWlmQno1V1VPZDBqUktoSlpfVk9Ta01nTVZqUTdVa2E2Qk9ka2pYdXVsMVBLUTQ0Y0FqRks0bThCVm52dTdvYThibmlwR1Zk?oc=5\" target=\"_blank\">Queensland study takes a bite out of dengue and zika mozzies</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ABC News</font>"
+      },
+      "source": {
+        "href": "https://www.abc.net.au",
+        "title": "ABC News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "New Mosquito Virus Identified in Humans for the First Time Ever - Dr. Axe",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "New Mosquito Virus Identified in Humans for the First Time Ever - Dr. Axe"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBOU3BXYS1zaTRZX2N6TXZ6eS1ka2NjaU5vRWNyczNINl9zMUZBZDhYUVh5SVNsQ3UyY2p4LXVvODRHRFBfZ19XeGtrcnBnMlBNcFE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBOU3BXYS1zaTRZX2N6TXZ6eS1ka2NjaU5vRWNyczNINl9zMUZBZDhYUVh5SVNsQ3UyY2p4LXVvODRHRFBfZ19XeGtrcnBnMlBNcFE?oc=5",
+      "id": "CBMiUkFVX3lxTFBOU3BXYS1zaTRZX2N6TXZ6eS1ka2NjaU5vRWNyczNINl9zMUZBZDhYUVh5SVNsQ3UyY2p4LXVvODRHRFBfZ19XeGtrcnBnMlBNcFE",
+      "guidislink": false,
+      "published": "Sat, 14 Jul 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        7,
+        14,
+        7,
+        0,
+        0,
+        5,
+        195,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTFBOU3BXYS1zaTRZX2N6TXZ6eS1ka2NjaU5vRWNyczNINl9zMUZBZDhYUVh5SVNsQ3UyY2p4LXVvODRHRFBfZ19XeGtrcnBnMlBNcFE?oc=5\" target=\"_blank\">New Mosquito Virus Identified in Humans for the First Time Ever</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Dr. Axe</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTFBOU3BXYS1zaTRZX2N6TXZ6eS1ka2NjaU5vRWNyczNINl9zMUZBZDhYUVh5SVNsQ3UyY2p4LXVvODRHRFBfZ19XeGtrcnBnMlBNcFE?oc=5\" target=\"_blank\">New Mosquito Virus Identified in Humans for the First Time Ever</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Dr. Axe</font>"
+      },
+      "source": {
+        "href": "https://draxe.com",
+        "title": "Dr. Axe"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Fighting Malaria with Genetically Engineered Mosquitoes - The Borgen Project",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Fighting Malaria with Genetically Engineered Mosquitoes - The Borgen Project"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9maDkxeWZaYnZKMnY1bFgxUEtRcFZQVjlMeG1vUWZCeTZzdFh0OGdoSUhVQ3k4RTBDUi1PTmlCTWtCdElRTnVmZzVPeGRxYW1zVVM0My1qb3dXNU5xYVR6d3Z2YUxlYjZnUEk1ZA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9maDkxeWZaYnZKMnY1bFgxUEtRcFZQVjlMeG1vUWZCeTZzdFh0OGdoSUhVQ3k4RTBDUi1PTmlCTWtCdElRTnVmZzVPeGRxYW1zVVM0My1qb3dXNU5xYVR6d3Z2YUxlYjZnUEk1ZA?oc=5",
+      "id": "CBMibEFVX3lxTE9maDkxeWZaYnZKMnY1bFgxUEtRcFZQVjlMeG1vUWZCeTZzdFh0OGdoSUhVQ3k4RTBDUi1PTmlCTWtCdElRTnVmZzVPeGRxYW1zVVM0My1qb3dXNU5xYVR6d3Z2YUxlYjZnUEk1ZA",
+      "guidislink": false,
+      "published": "Thu, 12 Jul 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        7,
+        12,
+        7,
+        0,
+        0,
+        3,
+        193,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE9maDkxeWZaYnZKMnY1bFgxUEtRcFZQVjlMeG1vUWZCeTZzdFh0OGdoSUhVQ3k4RTBDUi1PTmlCTWtCdElRTnVmZzVPeGRxYW1zVVM0My1qb3dXNU5xYVR6d3Z2YUxlYjZnUEk1ZA?oc=5\" target=\"_blank\">Fighting Malaria with Genetically Engineered Mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Borgen Project</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE9maDkxeWZaYnZKMnY1bFgxUEtRcFZQVjlMeG1vUWZCeTZzdFh0OGdoSUhVQ3k4RTBDUi1PTmlCTWtCdElRTnVmZzVPeGRxYW1zVVM0My1qb3dXNU5xYVR6d3Z2YUxlYjZnUEk1ZA?oc=5\" target=\"_blank\">Fighting Malaria with Genetically Engineered Mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Borgen Project</font>"
+      },
+      "source": {
+        "href": "https://borgenproject.org",
+        "title": "The Borgen Project"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Australian Trial Crushes Numbers of Disease-spreading Mosquitoes - VOA - Voice of America English News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Australian Trial Crushes Numbers of Disease-spreading Mosquitoes - VOA - Voice of America English News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaG5fancwWlBFRTBwTG9LSHpxMnVfQjN1S3pFbXVadTlXelVfZS0wNkFvUnZ5YTh1TDBnbWFacUo1dlFWRHVKSnVSeTB2UnJNbk9SQl9ZbS1wcW1fNm1NSHV1Yi16QjZZdEkzaGFXMDk0ZV8yVGhBRDVOVU9aQjNTLWlRRnNWNFdqb0w40gGOAUFVX3lxTFBBX1ItemRtb0hKUWRsamhVc0lKb05IbjZrM3FLSndsYzQxOEpOaHpaTGlXNkRCdV9xaDZXbk52b0pXZ242b2xEaHFSWl9rektlbWM5WXc2S0VJSWMxRUFRX2FTb1E2ZUxWbjNpSWFMSXBSX1phbTF6dWdVMktUY1FiRnh5U0tJMHRia2xFNWc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaG5fancwWlBFRTBwTG9LSHpxMnVfQjN1S3pFbXVadTlXelVfZS0wNkFvUnZ5YTh1TDBnbWFacUo1dlFWRHVKSnVSeTB2UnJNbk9SQl9ZbS1wcW1fNm1NSHV1Yi16QjZZdEkzaGFXMDk0ZV8yVGhBRDVOVU9aQjNTLWlRRnNWNFdqb0w40gGOAUFVX3lxTFBBX1ItemRtb0hKUWRsamhVc0lKb05IbjZrM3FLSndsYzQxOEpOaHpaTGlXNkRCdV9xaDZXbk52b0pXZ242b2xEaHFSWl9rektlbWM5WXc2S0VJSWMxRUFRX2FTb1E2ZUxWbjNpSWFMSXBSX1phbTF6dWdVMktUY1FiRnh5U0tJMHRia2xFNWc?oc=5",
+      "id": "CBMiiwFBVV95cUxPaG5fancwWlBFRTBwTG9LSHpxMnVfQjN1S3pFbXVadTlXelVfZS0wNkFvUnZ5YTh1TDBnbWFacUo1dlFWRHVKSnVSeTB2UnJNbk9SQl9ZbS1wcW1fNm1NSHV1Yi16QjZZdEkzaGFXMDk0ZV8yVGhBRDVOVU9aQjNTLWlRRnNWNFdqb0w40gGOAUFVX3lxTFBBX1ItemRtb0hKUWRsamhVc0lKb05IbjZrM3FLSndsYzQxOEpOaHpaTGlXNkRCdV9xaDZXbk52b0pXZ242b2xEaHFSWl9rektlbWM5WXc2S0VJSWMxRUFRX2FTb1E2ZUxWbjNpSWFMSXBSX1phbTF6dWdVMktUY1FiRnh5U0tJMHRia2xFNWc",
+      "guidislink": false,
+      "published": "Sun, 15 Jul 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        7,
+        15,
+        7,
+        0,
+        0,
+        6,
+        196,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaG5fancwWlBFRTBwTG9LSHpxMnVfQjN1S3pFbXVadTlXelVfZS0wNkFvUnZ5YTh1TDBnbWFacUo1dlFWRHVKSnVSeTB2UnJNbk9SQl9ZbS1wcW1fNm1NSHV1Yi16QjZZdEkzaGFXMDk0ZV8yVGhBRDVOVU9aQjNTLWlRRnNWNFdqb0w40gGOAUFVX3lxTFBBX1ItemRtb0hKUWRsamhVc0lKb05IbjZrM3FLSndsYzQxOEpOaHpaTGlXNkRCdV9xaDZXbk52b0pXZ242b2xEaHFSWl9rektlbWM5WXc2S0VJSWMxRUFRX2FTb1E2ZUxWbjNpSWFMSXBSX1phbTF6dWdVMktUY1FiRnh5U0tJMHRia2xFNWc?oc=5\" target=\"_blank\">Australian Trial Crushes Numbers of Disease-spreading Mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">VOA - Voice of America English News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaG5fancwWlBFRTBwTG9LSHpxMnVfQjN1S3pFbXVadTlXelVfZS0wNkFvUnZ5YTh1TDBnbWFacUo1dlFWRHVKSnVSeTB2UnJNbk9SQl9ZbS1wcW1fNm1NSHV1Yi16QjZZdEkzaGFXMDk0ZV8yVGhBRDVOVU9aQjNTLWlRRnNWNFdqb0w40gGOAUFVX3lxTFBBX1ItemRtb0hKUWRsamhVc0lKb05IbjZrM3FLSndsYzQxOEpOaHpaTGlXNkRCdV9xaDZXbk52b0pXZ242b2xEaHFSWl9rektlbWM5WXc2S0VJSWMxRUFRX2FTb1E2ZUxWbjNpSWFMSXBSX1phbTF6dWdVMktUY1FiRnh5U0tJMHRia2xFNWc?oc=5\" target=\"_blank\">Australian Trial Crushes Numbers of Disease-spreading Mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">VOA - Voice of America English News</font>"
+      },
+      "source": {
+        "href": "https://www.voanews.com",
+        "title": "VOA - Voice of America English News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Landmark experiment wipes out over 80 pc mosquitoes carrying dengue fever and Zika - The Asian Age",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Landmark experiment wipes out over 80 pc mosquitoes carrying dengue fever and Zika - The Asian Age"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPOFNiZEtuVTJXVTkyOFdta0MyOVZ3VjZuXy14amtsV04tTkhjdmlIclN5eVZ5US00ZVNYVGFJbHdfSWFpRXh4LUhya05KS0Jxd255VFhHbWlrX0Q1SlV1RTNZVXp3Y0JUUVYyaDNjNUxYcUVmN1Q4YkZvalJaSTlSWFFpZThIdkVzdTlrTVdBSmhQRldrNlYxRDBnV2xUeGllR0xzY0pMSllJQlY2WS1BSWVTaVdxSjhpaV9IRkxqd1cwUHFTaVhTYWI5SdIB0AFBVV95cUxPUWx6UU9PUWI4QjRHNVhsVklxSXJtMlFOamZCQWFyTWlxSjlxeTc1VXBnUzY5d0lVVElDb0ZuSWNyS0ZESkl2ZnhqM0JWZ3AtQ2ZiaGdWWHBBazliZzNOb00wZnRGS3p4OE1VdTdqakVhU3FzTVpfdFF0bXIwRUxJWU1WME9LM2l4TE5ONUd2LUNyQkpaQ0xTUTFSMG9ZazhvaGpMSUNTYkhUU01qT3VYM0RQYnVmdjBWYXAzRjRqTUFoMlo4bGtNMUMzb0xOakhV?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPOFNiZEtuVTJXVTkyOFdta0MyOVZ3VjZuXy14amtsV04tTkhjdmlIclN5eVZ5US00ZVNYVGFJbHdfSWFpRXh4LUhya05KS0Jxd255VFhHbWlrX0Q1SlV1RTNZVXp3Y0JUUVYyaDNjNUxYcUVmN1Q4YkZvalJaSTlSWFFpZThIdkVzdTlrTVdBSmhQRldrNlYxRDBnV2xUeGllR0xzY0pMSllJQlY2WS1BSWVTaVdxSjhpaV9IRkxqd1cwUHFTaVhTYWI5SdIB0AFBVV95cUxPUWx6UU9PUWI4QjRHNVhsVklxSXJtMlFOamZCQWFyTWlxSjlxeTc1VXBnUzY5d0lVVElDb0ZuSWNyS0ZESkl2ZnhqM0JWZ3AtQ2ZiaGdWWHBBazliZzNOb00wZnRGS3p4OE1VdTdqakVhU3FzTVpfdFF0bXIwRUxJWU1WME9LM2l4TE5ONUd2LUNyQkpaQ0xTUTFSMG9ZazhvaGpMSUNTYkhUU01qT3VYM0RQYnVmdjBWYXAzRjRqTUFoMlo4bGtNMUMzb0xOakhV?oc=5",
+      "id": "CBMiywFBVV95cUxPOFNiZEtuVTJXVTkyOFdta0MyOVZ3VjZuXy14amtsV04tTkhjdmlIclN5eVZ5US00ZVNYVGFJbHdfSWFpRXh4LUhya05KS0Jxd255VFhHbWlrX0Q1SlV1RTNZVXp3Y0JUUVYyaDNjNUxYcUVmN1Q4YkZvalJaSTlSWFFpZThIdkVzdTlrTVdBSmhQRldrNlYxRDBnV2xUeGllR0xzY0pMSllJQlY2WS1BSWVTaVdxSjhpaV9IRkxqd1cwUHFTaVhTYWI5SdIB0AFBVV95cUxPUWx6UU9PUWI4QjRHNVhsVklxSXJtMlFOamZCQWFyTWlxSjlxeTc1VXBnUzY5d0lVVElDb0ZuSWNyS0ZESkl2ZnhqM0JWZ3AtQ2ZiaGdWWHBBazliZzNOb00wZnRGS3p4OE1VdTdqakVhU3FzTVpfdFF0bXIwRUxJWU1WME9LM2l4TE5ONUd2LUNyQkpaQ0xTUTFSMG9ZazhvaGpMSUNTYkhUU01qT3VYM0RQYnVmdjBWYXAzRjRqTUFoMlo4bGtNMUMzb0xOakhV",
+      "guidislink": false,
+      "published": "Sun, 15 Jul 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        7,
+        15,
+        7,
+        0,
+        0,
+        6,
+        196,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxPOFNiZEtuVTJXVTkyOFdta0MyOVZ3VjZuXy14amtsV04tTkhjdmlIclN5eVZ5US00ZVNYVGFJbHdfSWFpRXh4LUhya05KS0Jxd255VFhHbWlrX0Q1SlV1RTNZVXp3Y0JUUVYyaDNjNUxYcUVmN1Q4YkZvalJaSTlSWFFpZThIdkVzdTlrTVdBSmhQRldrNlYxRDBnV2xUeGllR0xzY0pMSllJQlY2WS1BSWVTaVdxSjhpaV9IRkxqd1cwUHFTaVhTYWI5SdIB0AFBVV95cUxPUWx6UU9PUWI4QjRHNVhsVklxSXJtMlFOamZCQWFyTWlxSjlxeTc1VXBnUzY5d0lVVElDb0ZuSWNyS0ZESkl2ZnhqM0JWZ3AtQ2ZiaGdWWHBBazliZzNOb00wZnRGS3p4OE1VdTdqakVhU3FzTVpfdFF0bXIwRUxJWU1WME9LM2l4TE5ONUd2LUNyQkpaQ0xTUTFSMG9ZazhvaGpMSUNTYkhUU01qT3VYM0RQYnVmdjBWYXAzRjRqTUFoMlo4bGtNMUMzb0xOakhV?oc=5\" target=\"_blank\">Landmark experiment wipes out over 80 pc mosquitoes carrying dengue fever and Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Asian Age</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxPOFNiZEtuVTJXVTkyOFdta0MyOVZ3VjZuXy14amtsV04tTkhjdmlIclN5eVZ5US00ZVNYVGFJbHdfSWFpRXh4LUhya05KS0Jxd255VFhHbWlrX0Q1SlV1RTNZVXp3Y0JUUVYyaDNjNUxYcUVmN1Q4YkZvalJaSTlSWFFpZThIdkVzdTlrTVdBSmhQRldrNlYxRDBnV2xUeGllR0xzY0pMSllJQlY2WS1BSWVTaVdxSjhpaV9IRkxqd1cwUHFTaVhTYWI5SdIB0AFBVV95cUxPUWx6UU9PUWI4QjRHNVhsVklxSXJtMlFOamZCQWFyTWlxSjlxeTc1VXBnUzY5d0lVVElDb0ZuSWNyS0ZESkl2ZnhqM0JWZ3AtQ2ZiaGdWWHBBazliZzNOb00wZnRGS3p4OE1VdTdqakVhU3FzTVpfdFF0bXIwRUxJWU1WME9LM2l4TE5ONUd2LUNyQkpaQ0xTUTFSMG9ZazhvaGpMSUNTYkhUU01qT3VYM0RQYnVmdjBWYXAzRjRqTUFoMlo4bGtNMUMzb0xOakhV?oc=5\" target=\"_blank\">Landmark experiment wipes out over 80 pc mosquitoes carrying dengue fever and Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Asian Age</font>"
+      },
+      "source": {
+        "href": "https://www.asianage.com",
+        "title": "The Asian Age"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Bulk of mosquitoes that spread dengue, zika wiped out in Australia trial - PressReader",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Bulk of mosquitoes that spread dengue, zika wiped out in Australia trial - PressReader"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAwNlZTaTV4N3lBZlpUMDh4S05iS245Q19pTmpCSERNeGxtRml5a2hOUXY3OTlZUDl4QkJJMHRSS3FQNU9WMThSUEN4dXNoaWs1aHZNR0RaSnJTTDNwM2JjbUdjN0VWb3ZPc3RpNTgyem5raXpU?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAwNlZTaTV4N3lBZlpUMDh4S05iS245Q19pTmpCSERNeGxtRml5a2hOUXY3OTlZUDl4QkJJMHRSS3FQNU9WMThSUEN4dXNoaWs1aHZNR0RaSnJTTDNwM2JjbUdjN0VWb3ZPc3RpNTgyem5raXpU?oc=5",
+      "id": "CBMidEFVX3lxTFAwNlZTaTV4N3lBZlpUMDh4S05iS245Q19pTmpCSERNeGxtRml5a2hOUXY3OTlZUDl4QkJJMHRSS3FQNU9WMThSUEN4dXNoaWs1aHZNR0RaSnJTTDNwM2JjbUdjN0VWb3ZPc3RpNTgyem5raXpU",
+      "guidislink": false,
+      "published": "Sat, 14 Jul 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        7,
+        14,
+        7,
+        0,
+        0,
+        5,
+        195,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTFAwNlZTaTV4N3lBZlpUMDh4S05iS245Q19pTmpCSERNeGxtRml5a2hOUXY3OTlZUDl4QkJJMHRSS3FQNU9WMThSUEN4dXNoaWs1aHZNR0RaSnJTTDNwM2JjbUdjN0VWb3ZPc3RpNTgyem5raXpU?oc=5\" target=\"_blank\">Bulk of mosquitoes that spread dengue, zika wiped out in Australia trial</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PressReader</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTFAwNlZTaTV4N3lBZlpUMDh4S05iS245Q19pTmpCSERNeGxtRml5a2hOUXY3OTlZUDl4QkJJMHRSS3FQNU9WMThSUEN4dXNoaWs1aHZNR0RaSnJTTDNwM2JjbUdjN0VWb3ZPc3RpNTgyem5raXpU?oc=5\" target=\"_blank\">Bulk of mosquitoes that spread dengue, zika wiped out in Australia trial</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PressReader</font>"
+      },
+      "source": {
+        "href": "https://www.pressreader.com",
+        "title": "PressReader"
+      },
+      "sub_articles": []
+    }
+  ]
+}

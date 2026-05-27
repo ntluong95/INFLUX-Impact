@@ -1,0 +1,1338 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2016-05-20",
+  "window_end": "2016-05-22",
+  "window_days": 3,
+  "window_role": "hierarchical_child",
+  "parent_window_start": "2016-05-20",
+  "parent_window_end": "2016-05-26",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2016-05-20+before%3A2016-05-23&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2016-05-20+before:2016-05-23&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T06:56:54Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2016-05-20 before:2016-05-23\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2016-05-20 before:2016-05-23\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2016-05-20+before:2016-05-23&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2016-05-20+before:2016-05-23&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 06:56:54 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      6,
+      56,
+      54,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "5 Questions: Desiree LaBeaud on the Zika virus - Stanford Medicine",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "5 Questions: Desiree LaBeaud on the Zika virus - Stanford Medicine"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMingFBVV95cUxQYVZ1UFRIUUt0UjYxRFd0RHc5QnBvMmJCZDZYTWZ0VW1SOXVxN3VsWGphZFJnWGhQZUgtcjJxWkhxYVp4Y1JMeHpHZ283UW9ORzdlV0FKUlRlR3BvRGw1bndSNFBDS1RLZW5JVnFNbzliRFpsRExfNW95djJ5VlVrV19BZ1lHQl9VV3psZnItc05hZG9JQVpUQTB4cXRsQQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQYVZ1UFRIUUt0UjYxRFd0RHc5QnBvMmJCZDZYTWZ0VW1SOXVxN3VsWGphZFJnWGhQZUgtcjJxWkhxYVp4Y1JMeHpHZ283UW9ORzdlV0FKUlRlR3BvRGw1bndSNFBDS1RLZW5JVnFNbzliRFpsRExfNW95djJ5VlVrV19BZ1lHQl9VV3psZnItc05hZG9JQVpUQTB4cXRsQQ?oc=5",
+      "id": "CBMingFBVV95cUxQYVZ1UFRIUUt0UjYxRFd0RHc5QnBvMmJCZDZYTWZ0VW1SOXVxN3VsWGphZFJnWGhQZUgtcjJxWkhxYVp4Y1JMeHpHZ283UW9ORzdlV0FKUlRlR3BvRGw1bndSNFBDS1RLZW5JVnFNbzliRFpsRExfNW95djJ5VlVrV19BZ1lHQl9VV3psZnItc05hZG9JQVpUQTB4cXRsQQ",
+      "guidislink": false,
+      "published": "Fri, 20 May 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        5,
+        20,
+        7,
+        0,
+        0,
+        4,
+        141,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQYVZ1UFRIUUt0UjYxRFd0RHc5QnBvMmJCZDZYTWZ0VW1SOXVxN3VsWGphZFJnWGhQZUgtcjJxWkhxYVp4Y1JMeHpHZ283UW9ORzdlV0FKUlRlR3BvRGw1bndSNFBDS1RLZW5JVnFNbzliRFpsRExfNW95djJ5VlVrV19BZ1lHQl9VV3psZnItc05hZG9JQVpUQTB4cXRsQQ?oc=5\" target=\"_blank\">5 Questions: Desiree LaBeaud on the Zika virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Stanford Medicine</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQYVZ1UFRIUUt0UjYxRFd0RHc5QnBvMmJCZDZYTWZ0VW1SOXVxN3VsWGphZFJnWGhQZUgtcjJxWkhxYVp4Y1JMeHpHZ283UW9ORzdlV0FKUlRlR3BvRGw1bndSNFBDS1RLZW5JVnFNbzliRFpsRExfNW95djJ5VlVrV19BZ1lHQl9VV3psZnItc05hZG9JQVpUQTB4cXRsQQ?oc=5\" target=\"_blank\">5 Questions: Desiree LaBeaud on the Zika virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Stanford Medicine</font>"
+      },
+      "source": {
+        "href": "https://med.stanford.edu",
+        "title": "Stanford Medicine"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "The latest on Zika and the Olympics - CNN",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "The latest on Zika and the Olympics - CNN"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9OQTVyN2ZrMFdlWUxqekRQcmhGa0UzdGtLZjhhTnA0dDFSeS11ZDJzNzV3MXE3cE04aXFsS0E4WlZtQXFpR0lVWktvY2w0NXBGeVIyWXBpakxYZ0VINWVoYTJjdmlQUnktUEdKTEZDQTR5RVk?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9OQTVyN2ZrMFdlWUxqekRQcmhGa0UzdGtLZjhhTnA0dDFSeS11ZDJzNzV3MXE3cE04aXFsS0E4WlZtQXFpR0lVWktvY2w0NXBGeVIyWXBpakxYZ0VINWVoYTJjdmlQUnktUEdKTEZDQTR5RVk?oc=5",
+      "id": "CBMic0FVX3lxTE9OQTVyN2ZrMFdlWUxqekRQcmhGa0UzdGtLZjhhTnA0dDFSeS11ZDJzNzV3MXE3cE04aXFsS0E4WlZtQXFpR0lVWktvY2w0NXBGeVIyWXBpakxYZ0VINWVoYTJjdmlQUnktUEdKTEZDQTR5RVk",
+      "guidislink": false,
+      "published": "Fri, 20 May 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        5,
+        20,
+        7,
+        0,
+        0,
+        4,
+        141,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE9OQTVyN2ZrMFdlWUxqekRQcmhGa0UzdGtLZjhhTnA0dDFSeS11ZDJzNzV3MXE3cE04aXFsS0E4WlZtQXFpR0lVWktvY2w0NXBGeVIyWXBpakxYZ0VINWVoYTJjdmlQUnktUEdKTEZDQTR5RVk?oc=5\" target=\"_blank\">The latest on Zika and the Olympics</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNN</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE9OQTVyN2ZrMFdlWUxqekRQcmhGa0UzdGtLZjhhTnA0dDFSeS11ZDJzNzV3MXE3cE04aXFsS0E4WlZtQXFpR0lVWktvY2w0NXBGeVIyWXBpakxYZ0VINWVoYTJjdmlQUnktUEdKTEZDQTR5RVk?oc=5\" target=\"_blank\">The latest on Zika and the Olympics</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNN</font>"
+      },
+      "source": {
+        "href": "https://www.cnn.com",
+        "title": "CNN"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Top mosquito suspect found infected with Zika - Science | AAAS",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Top mosquito suspect found infected with Zika - Science | AAAS"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcG5tUXh4ZEhzTVpPUC1zOTBnMVkyTjZiS0Roc0w2aU1JTWUwYUQ3VjhjcE9pTmVGRDdSMWFIS1NzbUVpRThDWFY0bzUwVlFJZVkyR0VSSldGUVpGZ0JMaWtmS3JnS2U0ZkEyelVFMjVZWVc2bEFhTWd1ZHlYUnl5VTZfal8zY3M?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOcG5tUXh4ZEhzTVpPUC1zOTBnMVkyTjZiS0Roc0w2aU1JTWUwYUQ3VjhjcE9pTmVGRDdSMWFIS1NzbUVpRThDWFY0bzUwVlFJZVkyR0VSSldGUVpGZ0JMaWtmS3JnS2U0ZkEyelVFMjVZWVc2bEFhTWd1ZHlYUnl5VTZfal8zY3M?oc=5",
+      "id": "CBMihwFBVV95cUxOcG5tUXh4ZEhzTVpPUC1zOTBnMVkyTjZiS0Roc0w2aU1JTWUwYUQ3VjhjcE9pTmVGRDdSMWFIS1NzbUVpRThDWFY0bzUwVlFJZVkyR0VSSldGUVpGZ0JMaWtmS3JnS2U0ZkEyelVFMjVZWVc2bEFhTWd1ZHlYUnl5VTZfal8zY3M",
+      "guidislink": false,
+      "published": "Mon, 23 May 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        5,
+        23,
+        7,
+        0,
+        0,
+        0,
+        144,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxOcG5tUXh4ZEhzTVpPUC1zOTBnMVkyTjZiS0Roc0w2aU1JTWUwYUQ3VjhjcE9pTmVGRDdSMWFIS1NzbUVpRThDWFY0bzUwVlFJZVkyR0VSSldGUVpGZ0JMaWtmS3JnS2U0ZkEyelVFMjVZWVc2bEFhTWd1ZHlYUnl5VTZfal8zY3M?oc=5\" target=\"_blank\">Top mosquito suspect found infected with Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Science | AAAS</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxOcG5tUXh4ZEhzTVpPUC1zOTBnMVkyTjZiS0Roc0w2aU1JTWUwYUQ3VjhjcE9pTmVGRDdSMWFIS1NzbUVpRThDWFY0bzUwVlFJZVkyR0VSSldGUVpGZ0JMaWtmS3JnS2U0ZkEyelVFMjVZWVc2bEFhTWd1ZHlYUnl5VTZfal8zY3M?oc=5\" target=\"_blank\">Top mosquito suspect found infected with Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Science | AAAS</font>"
+      },
+      "source": {
+        "href": "https://www.science.org",
+        "title": "Science | AAAS"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika Virus Next Public Health Emergency | The Brink - Boston University",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika Virus Next Public Health Emergency | The Brink - Boston University"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBRNkNmckgzWnZrTWhUSHRwWUZiZV9WdVJQMXA2WG9Rd3dsZnhmVXlTUkV0M1oyVHZPX3I4eUVOT2ZOV0dMcGFPVGZnSTZvX0pXZ2tPQ1BLdw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBRNkNmckgzWnZrTWhUSHRwWUZiZV9WdVJQMXA2WG9Rd3dsZnhmVXlTUkV0M1oyVHZPX3I4eUVOT2ZOV0dMcGFPVGZnSTZvX0pXZ2tPQ1BLdw?oc=5",
+      "id": "CBMiV0FVX3lxTFBRNkNmckgzWnZrTWhUSHRwWUZiZV9WdVJQMXA2WG9Rd3dsZnhmVXlTUkV0M1oyVHZPX3I4eUVOT2ZOV0dMcGFPVGZnSTZvX0pXZ2tPQ1BLdw",
+      "guidislink": false,
+      "published": "Fri, 20 May 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        5,
+        20,
+        7,
+        0,
+        0,
+        4,
+        141,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTFBRNkNmckgzWnZrTWhUSHRwWUZiZV9WdVJQMXA2WG9Rd3dsZnhmVXlTUkV0M1oyVHZPX3I4eUVOT2ZOV0dMcGFPVGZnSTZvX0pXZ2tPQ1BLdw?oc=5\" target=\"_blank\">Zika Virus Next Public Health Emergency | The Brink</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Boston University</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTFBRNkNmckgzWnZrTWhUSHRwWUZiZV9WdVJQMXA2WG9Rd3dsZnhmVXlTUkV0M1oyVHZPX3I4eUVOT2ZOV0dMcGFPVGZnSTZvX0pXZ2tPQ1BLdw?oc=5\" target=\"_blank\">Zika Virus Next Public Health Emergency | The Brink</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Boston University</font>"
+      },
+      "source": {
+        "href": "https://www.bu.edu",
+        "title": "Boston University"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "WHO confirms Zika virus strain imported from the Americas to Cabo Verde - World Health Organization (WHO)",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "WHO confirms Zika virus strain imported from the Americas to Cabo Verde - World Health Organization (WHO)"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcGN0NHExbFBEcDR4X281U1NvakhxOHlGQXpaOFVmQkVrUWM2d2VKLWpERnBoSEF5YjZNUERVTDhKZmpZOUFramlDMndzYXFXX2lvcnRodWZtMHpzRmZfNG9PZmh5TTZtdERxUWFlTlJDa1p0Qm5ITWVPZVI4alF2dUpTakdmeFVMbGJTYzhlZEZialhVSk44YXEtRXIyZFlLRC1JWmtLM1ZJVWl3d1hTSERR?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcGN0NHExbFBEcDR4X281U1NvakhxOHlGQXpaOFVmQkVrUWM2d2VKLWpERnBoSEF5YjZNUERVTDhKZmpZOUFramlDMndzYXFXX2lvcnRodWZtMHpzRmZfNG9PZmh5TTZtdERxUWFlTlJDa1p0Qm5ITWVPZVI4alF2dUpTakdmeFVMbGJTYzhlZEZialhVSk44YXEtRXIyZFlLRC1JWmtLM1ZJVWl3d1hTSERR?oc=5",
+      "id": "CBMisgFBVV95cUxNcGN0NHExbFBEcDR4X281U1NvakhxOHlGQXpaOFVmQkVrUWM2d2VKLWpERnBoSEF5YjZNUERVTDhKZmpZOUFramlDMndzYXFXX2lvcnRodWZtMHpzRmZfNG9PZmh5TTZtdERxUWFlTlJDa1p0Qm5ITWVPZVI4alF2dUpTakdmeFVMbGJTYzhlZEZialhVSk44YXEtRXIyZFlLRC1JWmtLM1ZJVWl3d1hTSERR",
+      "guidislink": false,
+      "published": "Fri, 20 May 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        5,
+        20,
+        7,
+        0,
+        0,
+        4,
+        141,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxNcGN0NHExbFBEcDR4X281U1NvakhxOHlGQXpaOFVmQkVrUWM2d2VKLWpERnBoSEF5YjZNUERVTDhKZmpZOUFramlDMndzYXFXX2lvcnRodWZtMHpzRmZfNG9PZmh5TTZtdERxUWFlTlJDa1p0Qm5ITWVPZVI4alF2dUpTakdmeFVMbGJTYzhlZEZialhVSk44YXEtRXIyZFlLRC1JWmtLM1ZJVWl3d1hTSERR?oc=5\" target=\"_blank\">WHO confirms Zika virus strain imported from the Americas to Cabo Verde</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">World Health Organization (WHO)</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxNcGN0NHExbFBEcDR4X281U1NvakhxOHlGQXpaOFVmQkVrUWM2d2VKLWpERnBoSEF5YjZNUERVTDhKZmpZOUFramlDMndzYXFXX2lvcnRodWZtMHpzRmZfNG9PZmh5TTZtdERxUWFlTlJDa1p0Qm5ITWVPZVI4alF2dUpTakdmeFVMbGJTYzhlZEZialhVSk44YXEtRXIyZFlLRC1JWmtLM1ZJVWl3d1hTSERR?oc=5\" target=\"_blank\">WHO confirms Zika virus strain imported from the Americas to Cabo Verde</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">World Health Organization (WHO)</font>"
+      },
+      "source": {
+        "href": "https://www.who.int",
+        "title": "World Health Organization (WHO)"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Cape Verde Zika virus matches Americas' strain, threatening Africa - CIDRAP",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Cape Verde Zika virus matches Americas' strain, threatening Africa - CIDRAP"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVkV3Y3dXek1XVkI0Y3djTW9ydzdQSGNOa29GNzFtUk1OZGdsUzRxS0tLa3dxTVJsc3M1cXUwVUh5VzlYZDlOSldFT2wyZGl1WDQyZThJQURxR0VyZlJSUExKVWh0UFVXS3ZaVlRLTmo3X20yNW9vUWRUdU1kZ21XQldxTEhIVlNNTnY3b01WV19UWWg1dUl3U0RTS3k?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVkV3Y3dXek1XVkI0Y3djTW9ydzdQSGNOa29GNzFtUk1OZGdsUzRxS0tLa3dxTVJsc3M1cXUwVUh5VzlYZDlOSldFT2wyZGl1WDQyZThJQURxR0VyZlJSUExKVWh0UFVXS3ZaVlRLTmo3X20yNW9vUWRUdU1kZ21XQldxTEhIVlNNTnY3b01WV19UWWg1dUl3U0RTS3k?oc=5",
+      "id": "CBMinAFBVV95cUxNVkV3Y3dXek1XVkI0Y3djTW9ydzdQSGNOa29GNzFtUk1OZGdsUzRxS0tLa3dxTVJsc3M1cXUwVUh5VzlYZDlOSldFT2wyZGl1WDQyZThJQURxR0VyZlJSUExKVWh0UFVXS3ZaVlRLTmo3X20yNW9vUWRUdU1kZ21XQldxTEhIVlNNTnY3b01WV19UWWg1dUl3U0RTS3k",
+      "guidislink": false,
+      "published": "Fri, 20 May 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        5,
+        20,
+        7,
+        0,
+        0,
+        4,
+        141,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxNVkV3Y3dXek1XVkI0Y3djTW9ydzdQSGNOa29GNzFtUk1OZGdsUzRxS0tLa3dxTVJsc3M1cXUwVUh5VzlYZDlOSldFT2wyZGl1WDQyZThJQURxR0VyZlJSUExKVWh0UFVXS3ZaVlRLTmo3X20yNW9vUWRUdU1kZ21XQldxTEhIVlNNTnY3b01WV19UWWg1dUl3U0RTS3k?oc=5\" target=\"_blank\">Cape Verde Zika virus matches Americas' strain, threatening Africa</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CIDRAP</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxNVkV3Y3dXek1XVkI0Y3djTW9ydzdQSGNOa29GNzFtUk1OZGdsUzRxS0tLa3dxTVJsc3M1cXUwVUh5VzlYZDlOSldFT2wyZGl1WDQyZThJQURxR0VyZlJSUExKVWh0UFVXS3ZaVlRLTmo3X20yNW9vUWRUdU1kZ21XQldxTEhIVlNNTnY3b01WV19UWWg1dUl3U0RTS3k?oc=5\" target=\"_blank\">Cape Verde Zika virus matches Americas' strain, threatening Africa</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CIDRAP</font>"
+      },
+      "source": {
+        "href": "https://www.cidrap.umn.edu",
+        "title": "CIDRAP"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "We 'Dropped Ball' on Mosquito Control, WHO Chief Says - NBC News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "We 'Dropped Ball' on Mosquito Control, WHO Chief Says - NBC News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWWxkcE0tYUNad1pYWkY3cDlZV08yc1pET1RBYXZDb3pBU0FSX2hiX1NSWEUwdmJNUW00VE5DM3htX1NSYzFac3hiVHI2Z3haTlFxdTlBMGJzbW9zYmFhRWtVbXRoY25aWmZIMnYtRUhVS0hPbXk1cWVwQ3huTlp6LUdxLVpOY0lMb3VvX0FHMmMtVHA1UlFtYXFLY0FKcy1UdkhWSmRReDFaZGc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWWxkcE0tYUNad1pYWkY3cDlZV08yc1pET1RBYXZDb3pBU0FSX2hiX1NSWEUwdmJNUW00VE5DM3htX1NSYzFac3hiVHI2Z3haTlFxdTlBMGJzbW9zYmFhRWtVbXRoY25aWmZIMnYtRUhVS0hPbXk1cWVwQ3huTlp6LUdxLVpOY0lMb3VvX0FHMmMtVHA1UlFtYXFLY0FKcy1UdkhWSmRReDFaZGc?oc=5",
+      "id": "CBMiqwFBVV95cUxNWWxkcE0tYUNad1pYWkY3cDlZV08yc1pET1RBYXZDb3pBU0FSX2hiX1NSWEUwdmJNUW00VE5DM3htX1NSYzFac3hiVHI2Z3haTlFxdTlBMGJzbW9zYmFhRWtVbXRoY25aWmZIMnYtRUhVS0hPbXk1cWVwQ3huTlp6LUdxLVpOY0lMb3VvX0FHMmMtVHA1UlFtYXFLY0FKcy1UdkhWSmRReDFaZGc",
+      "guidislink": false,
+      "published": "Mon, 23 May 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        5,
+        23,
+        7,
+        0,
+        0,
+        0,
+        144,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWWxkcE0tYUNad1pYWkY3cDlZV08yc1pET1RBYXZDb3pBU0FSX2hiX1NSWEUwdmJNUW00VE5DM3htX1NSYzFac3hiVHI2Z3haTlFxdTlBMGJzbW9zYmFhRWtVbXRoY25aWmZIMnYtRUhVS0hPbXk1cWVwQ3huTlp6LUdxLVpOY0lMb3VvX0FHMmMtVHA1UlFtYXFLY0FKcy1UdkhWSmRReDFaZGc?oc=5\" target=\"_blank\">We 'Dropped Ball' on Mosquito Control, WHO Chief Says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NBC News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWWxkcE0tYUNad1pYWkY3cDlZV08yc1pET1RBYXZDb3pBU0FSX2hiX1NSWEUwdmJNUW00VE5DM3htX1NSYzFac3hiVHI2Z3haTlFxdTlBMGJzbW9zYmFhRWtVbXRoY25aWmZIMnYtRUhVS0hPbXk1cWVwQ3huTlp6LUdxLVpOY0lMb3VvX0FHMmMtVHA1UlFtYXFLY0FKcy1UdkhWSmRReDFaZGc?oc=5\" target=\"_blank\">We 'Dropped Ball' on Mosquito Control, WHO Chief Says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NBC News</font>"
+      },
+      "source": {
+        "href": "https://www.nbcnews.com",
+        "title": "NBC News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Brazilian strain of Zika virus confirmed in Africa, says WHO - The Guardian",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Brazilian strain of Zika virus confirmed in Africa, says WHO - The Guardian"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSFU2WXdxMnY1bGhvZ0tMa0EtbFh0QUlvSDNETFlKUV92ZTlXMmJBZWl1dDN6OGtleF82NHZyamRzQUlqblIwSjBrQWFlNGlORlJwNEJfRnlRb2NpbXN3aUxmRTNPUWUxLU5ka0t0T25NZ2s2MXo2YmlmLVpuc2VrRXhqV213WVduQjhMbzZ4clFJQUhCRzVkOVA4cHlhM0hIVDBBb0tSM2haNVZh?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSFU2WXdxMnY1bGhvZ0tMa0EtbFh0QUlvSDNETFlKUV92ZTlXMmJBZWl1dDN6OGtleF82NHZyamRzQUlqblIwSjBrQWFlNGlORlJwNEJfRnlRb2NpbXN3aUxmRTNPUWUxLU5ka0t0T25NZ2s2MXo2YmlmLVpuc2VrRXhqV213WVduQjhMbzZ4clFJQUhCRzVkOVA4cHlhM0hIVDBBb0tSM2haNVZh?oc=5",
+      "id": "CBMirAFBVV95cUxNSFU2WXdxMnY1bGhvZ0tMa0EtbFh0QUlvSDNETFlKUV92ZTlXMmJBZWl1dDN6OGtleF82NHZyamRzQUlqblIwSjBrQWFlNGlORlJwNEJfRnlRb2NpbXN3aUxmRTNPUWUxLU5ka0t0T25NZ2s2MXo2YmlmLVpuc2VrRXhqV213WVduQjhMbzZ4clFJQUhCRzVkOVA4cHlhM0hIVDBBb0tSM2haNVZh",
+      "guidislink": false,
+      "published": "Fri, 20 May 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        5,
+        20,
+        7,
+        0,
+        0,
+        4,
+        141,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxNSFU2WXdxMnY1bGhvZ0tMa0EtbFh0QUlvSDNETFlKUV92ZTlXMmJBZWl1dDN6OGtleF82NHZyamRzQUlqblIwSjBrQWFlNGlORlJwNEJfRnlRb2NpbXN3aUxmRTNPUWUxLU5ka0t0T25NZ2s2MXo2YmlmLVpuc2VrRXhqV213WVduQjhMbzZ4clFJQUhCRzVkOVA4cHlhM0hIVDBBb0tSM2haNVZh?oc=5\" target=\"_blank\">Brazilian strain of Zika virus confirmed in Africa, says WHO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxNSFU2WXdxMnY1bGhvZ0tMa0EtbFh0QUlvSDNETFlKUV92ZTlXMmJBZWl1dDN6OGtleF82NHZyamRzQUlqblIwSjBrQWFlNGlORlJwNEJfRnlRb2NpbXN3aUxmRTNPUWUxLU5ka0t0T25NZ2s2MXo2YmlmLVpuc2VrRXhqV213WVduQjhMbzZ4clFJQUhCRzVkOVA4cHlhM0hIVDBBb0tSM2haNVZh?oc=5\" target=\"_blank\">Brazilian strain of Zika virus confirmed in Africa, says WHO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>"
+      },
+      "source": {
+        "href": "https://www.theguardian.com",
+        "title": "The Guardian"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika virus strain 'imported from the Americas' to Africa - BBC",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika virus strain 'imported from the Americas' to Africa - BBC"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE80QnlIRlJva0FLaEp6ak9wMlVUU3Y1Q3BqV2dJN2F0MEF5d1RnMWk2dGRqV0dfYV94eXJNTjV1T1gzcDdJZ2RHbEVqQ1VYbDhjNWc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE80QnlIRlJva0FLaEp6ak9wMlVUU3Y1Q3BqV2dJN2F0MEF5d1RnMWk2dGRqV0dfYV94eXJNTjV1T1gzcDdJZ2RHbEVqQ1VYbDhjNWc?oc=5",
+      "id": "CBMiUkFVX3lxTE80QnlIRlJva0FLaEp6ak9wMlVUU3Y1Q3BqV2dJN2F0MEF5d1RnMWk2dGRqV0dfYV94eXJNTjV1T1gzcDdJZ2RHbEVqQ1VYbDhjNWc",
+      "guidislink": false,
+      "published": "Fri, 20 May 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        5,
+        20,
+        7,
+        0,
+        0,
+        4,
+        141,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTE80QnlIRlJva0FLaEp6ak9wMlVUU3Y1Q3BqV2dJN2F0MEF5d1RnMWk2dGRqV0dfYV94eXJNTjV1T1gzcDdJZ2RHbEVqQ1VYbDhjNWc?oc=5\" target=\"_blank\">Zika virus strain 'imported from the Americas' to Africa</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTE80QnlIRlJva0FLaEp6ak9wMlVUU3Y1Q3BqV2dJN2F0MEF5d1RnMWk2dGRqV0dfYV94eXJNTjV1T1gzcDdJZ2RHbEVqQ1VYbDhjNWc?oc=5\" target=\"_blank\">Zika virus strain 'imported from the Americas' to Africa</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>"
+      },
+      "source": {
+        "href": "https://www.bbc.com",
+        "title": "BBC"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "CDC’s Response to Zika: PREGNANT? Read this before you travel - Coos Health & Wellness",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "CDC’s Response to Zika: PREGNANT? Read this before you travel - Coos Health & Wellness"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWFYxQVRYS2RHMzhpdnJGN1B1aVFFc3BoWnV5dlRiWk5la1Z1MmlOOFFKVGNoNW1fS0NpbVhRVWIwcHk3cDh2Y3F0c2pJYzRaU0JoQWRteGxwZFZLNENPNW1wRmVlemJNWU1VNTRNVVFDQk1CZENVbzVxM2dCYWpfb2VnRnByWnYxLUVBNWR1SnphYkRlbnNlZg?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWFYxQVRYS2RHMzhpdnJGN1B1aVFFc3BoWnV5dlRiWk5la1Z1MmlOOFFKVGNoNW1fS0NpbVhRVWIwcHk3cDh2Y3F0c2pJYzRaU0JoQWRteGxwZFZLNENPNW1wRmVlemJNWU1VNTRNVVFDQk1CZENVbzVxM2dCYWpfb2VnRnByWnYxLUVBNWR1SnphYkRlbnNlZg?oc=5",
+      "id": "CBMimAFBVV95cUxNWFYxQVRYS2RHMzhpdnJGN1B1aVFFc3BoWnV5dlRiWk5la1Z1MmlOOFFKVGNoNW1fS0NpbVhRVWIwcHk3cDh2Y3F0c2pJYzRaU0JoQWRteGxwZFZLNENPNW1wRmVlemJNWU1VNTRNVVFDQk1CZENVbzVxM2dCYWpfb2VnRnByWnYxLUVBNWR1SnphYkRlbnNlZg",
+      "guidislink": false,
+      "published": "Fri, 20 May 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        5,
+        20,
+        7,
+        0,
+        0,
+        4,
+        141,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxNWFYxQVRYS2RHMzhpdnJGN1B1aVFFc3BoWnV5dlRiWk5la1Z1MmlOOFFKVGNoNW1fS0NpbVhRVWIwcHk3cDh2Y3F0c2pJYzRaU0JoQWRteGxwZFZLNENPNW1wRmVlemJNWU1VNTRNVVFDQk1CZENVbzVxM2dCYWpfb2VnRnByWnYxLUVBNWR1SnphYkRlbnNlZg?oc=5\" target=\"_blank\">CDC’s Response to Zika: PREGNANT? Read this before you travel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Coos Health & Wellness</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxNWFYxQVRYS2RHMzhpdnJGN1B1aVFFc3BoWnV5dlRiWk5la1Z1MmlOOFFKVGNoNW1fS0NpbVhRVWIwcHk3cDh2Y3F0c2pJYzRaU0JoQWRteGxwZFZLNENPNW1wRmVlemJNWU1VNTRNVVFDQk1CZENVbzVxM2dCYWpfb2VnRnByWnYxLUVBNWR1SnphYkRlbnNlZg?oc=5\" target=\"_blank\">CDC’s Response to Zika: PREGNANT? Read this before you travel</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Coos Health & Wellness</font>"
+      },
+      "source": {
+        "href": "https://cooshealthandwellness.org",
+        "title": "Coos Health & Wellness"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika virus threat in Arizona puts focus on mosquito control - The Arizona Republic",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika virus threat in Arizona puts focus on mosquito control - The Arizona Republic"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTktuVk1pRjU2LVF2ZTFtUmJESmpaX0tSdHppdWpzNElSUlFhOE9DTC1wN1pkZ1hkTkxMSEZyLUIyUnVSWHk5VnVFZHh6NkEzX2pNM0padXkxVGQyRzRuUm5kLW1iYXFmdEoteHZPUFQyODNhbnNKTXlsTzlTNUZaRHhVZUFnQXBOTjlaSHczRnFDU3FzUnJ2QlpoVmhkOUpfVVpEbExyY0EtMHI0a3JqcnAwYXc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTktuVk1pRjU2LVF2ZTFtUmJESmpaX0tSdHppdWpzNElSUlFhOE9DTC1wN1pkZ1hkTkxMSEZyLUIyUnVSWHk5VnVFZHh6NkEzX2pNM0padXkxVGQyRzRuUm5kLW1iYXFmdEoteHZPUFQyODNhbnNKTXlsTzlTNUZaRHhVZUFnQXBOTjlaSHczRnFDU3FzUnJ2QlpoVmhkOUpfVVpEbExyY0EtMHI0a3JqcnAwYXc?oc=5",
+      "id": "CBMitAFBVV95cUxOTktuVk1pRjU2LVF2ZTFtUmJESmpaX0tSdHppdWpzNElSUlFhOE9DTC1wN1pkZ1hkTkxMSEZyLUIyUnVSWHk5VnVFZHh6NkEzX2pNM0padXkxVGQyRzRuUm5kLW1iYXFmdEoteHZPUFQyODNhbnNKTXlsTzlTNUZaRHhVZUFnQXBOTjlaSHczRnFDU3FzUnJ2QlpoVmhkOUpfVVpEbExyY0EtMHI0a3JqcnAwYXc",
+      "guidislink": false,
+      "published": "Mon, 23 May 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        5,
+        23,
+        7,
+        0,
+        0,
+        0,
+        144,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxOTktuVk1pRjU2LVF2ZTFtUmJESmpaX0tSdHppdWpzNElSUlFhOE9DTC1wN1pkZ1hkTkxMSEZyLUIyUnVSWHk5VnVFZHh6NkEzX2pNM0padXkxVGQyRzRuUm5kLW1iYXFmdEoteHZPUFQyODNhbnNKTXlsTzlTNUZaRHhVZUFnQXBOTjlaSHczRnFDU3FzUnJ2QlpoVmhkOUpfVVpEbExyY0EtMHI0a3JqcnAwYXc?oc=5\" target=\"_blank\">Zika virus threat in Arizona puts focus on mosquito control</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Arizona Republic</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxOTktuVk1pRjU2LVF2ZTFtUmJESmpaX0tSdHppdWpzNElSUlFhOE9DTC1wN1pkZ1hkTkxMSEZyLUIyUnVSWHk5VnVFZHh6NkEzX2pNM0padXkxVGQyRzRuUm5kLW1iYXFmdEoteHZPUFQyODNhbnNKTXlsTzlTNUZaRHhVZUFnQXBOTjlaSHczRnFDU3FzUnJ2QlpoVmhkOUpfVVpEbExyY0EtMHI0a3JqcnAwYXc?oc=5\" target=\"_blank\">Zika virus threat in Arizona puts focus on mosquito control</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Arizona Republic</font>"
+      },
+      "source": {
+        "href": "https://www.azcentral.com",
+        "title": "The Arizona Republic"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Transgender Bathrooms, Friction Among Democrats, Latino Voters, Fighting Zika - WLRN",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Transgender Bathrooms, Friction Among Democrats, Latino Voters, Fighting Zika - WLRN"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQLXhRN0MtSTUyYTF2RjNaODVnSEtLOWVvU0YtRW55SHUtOWRVcm1OTHVzdXJLMi1KdjJXMlBwR21MNi1VN2VtQ3lyOS15eXNDLWcycE9sTWVsV01FOGpTV0pUZnVCbEtJbGpEdFZWdGRTVzhGemN6OUduci1JUVk2Ujc3ZjZSeDd2ZFNmM1FlSVNGZndzSGJSNjhjTTFxNDlJTTlFQThjMm9jUjd5UmllUlFtMGJLNkE1cXotdFN2dXQ5T1pieG11R2hSWWEwcElyRkZR?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQLXhRN0MtSTUyYTF2RjNaODVnSEtLOWVvU0YtRW55SHUtOWRVcm1OTHVzdXJLMi1KdjJXMlBwR21MNi1VN2VtQ3lyOS15eXNDLWcycE9sTWVsV01FOGpTV0pUZnVCbEtJbGpEdFZWdGRTVzhGemN6OUduci1JUVk2Ujc3ZjZSeDd2ZFNmM1FlSVNGZndzSGJSNjhjTTFxNDlJTTlFQThjMm9jUjd5UmllUlFtMGJLNkE1cXotdFN2dXQ5T1pieG11R2hSWWEwcElyRkZR?oc=5",
+      "id": "CBMi0wFBVV95cUxQLXhRN0MtSTUyYTF2RjNaODVnSEtLOWVvU0YtRW55SHUtOWRVcm1OTHVzdXJLMi1KdjJXMlBwR21MNi1VN2VtQ3lyOS15eXNDLWcycE9sTWVsV01FOGpTV0pUZnVCbEtJbGpEdFZWdGRTVzhGemN6OUduci1JUVk2Ujc3ZjZSeDd2ZFNmM1FlSVNGZndzSGJSNjhjTTFxNDlJTTlFQThjMm9jUjd5UmllUlFtMGJLNkE1cXotdFN2dXQ5T1pieG11R2hSWWEwcElyRkZR",
+      "guidislink": false,
+      "published": "Fri, 20 May 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        5,
+        20,
+        7,
+        0,
+        0,
+        4,
+        141,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxQLXhRN0MtSTUyYTF2RjNaODVnSEtLOWVvU0YtRW55SHUtOWRVcm1OTHVzdXJLMi1KdjJXMlBwR21MNi1VN2VtQ3lyOS15eXNDLWcycE9sTWVsV01FOGpTV0pUZnVCbEtJbGpEdFZWdGRTVzhGemN6OUduci1JUVk2Ujc3ZjZSeDd2ZFNmM1FlSVNGZndzSGJSNjhjTTFxNDlJTTlFQThjMm9jUjd5UmllUlFtMGJLNkE1cXotdFN2dXQ5T1pieG11R2hSWWEwcElyRkZR?oc=5\" target=\"_blank\">Transgender Bathrooms, Friction Among Democrats, Latino Voters, Fighting Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WLRN</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxQLXhRN0MtSTUyYTF2RjNaODVnSEtLOWVvU0YtRW55SHUtOWRVcm1OTHVzdXJLMi1KdjJXMlBwR21MNi1VN2VtQ3lyOS15eXNDLWcycE9sTWVsV01FOGpTV0pUZnVCbEtJbGpEdFZWdGRTVzhGemN6OUduci1JUVk2Ujc3ZjZSeDd2ZFNmM1FlSVNGZndzSGJSNjhjTTFxNDlJTTlFQThjMm9jUjd5UmllUlFtMGJLNkE1cXotdFN2dXQ5T1pieG11R2hSWWEwcElyRkZR?oc=5\" target=\"_blank\">Transgender Bathrooms, Friction Among Democrats, Latino Voters, Fighting Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WLRN</font>"
+      },
+      "source": {
+        "href": "https://www.wlrn.org",
+        "title": "WLRN"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "What Zika means for Minnesota - FOX 9 Minneapolis-St. Paul",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "What Zika means for Minnesota - FOX 9 Minneapolis-St. Paul"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1fbW9xVVZXQ0k2TXpaTDNnNlpWOVpYdGg4bDkzQ2pUalBXSWVaTUNhYWdVeFY4ZkttUDhOdmdxQzBibENxb3FKVtIBTkFVX3lxTE82eEdLeHF6Mlk2QTlnYk4xaTRmTVAxZXhJdWVHOXJ6cUhHV0tJZUJ5a0ZubjdRSXItMHVyQjd3SjVsVEpsVVUwcl94MExPQQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1fbW9xVVZXQ0k2TXpaTDNnNlpWOVpYdGg4bDkzQ2pUalBXSWVaTUNhYWdVeFY4ZkttUDhOdmdxQzBibENxb3FKVtIBTkFVX3lxTE82eEdLeHF6Mlk2QTlnYk4xaTRmTVAxZXhJdWVHOXJ6cUhHV0tJZUJ5a0ZubjdRSXItMHVyQjd3SjVsVEpsVVUwcl94MExPQQ?oc=5",
+      "id": "CBMiSEFVX3lxTE1fbW9xVVZXQ0k2TXpaTDNnNlpWOVpYdGg4bDkzQ2pUalBXSWVaTUNhYWdVeFY4ZkttUDhOdmdxQzBibENxb3FKVtIBTkFVX3lxTE82eEdLeHF6Mlk2QTlnYk4xaTRmTVAxZXhJdWVHOXJ6cUhHV0tJZUJ5a0ZubjdRSXItMHVyQjd3SjVsVEpsVVUwcl94MExPQQ",
+      "guidislink": false,
+      "published": "Fri, 20 May 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        5,
+        20,
+        7,
+        0,
+        0,
+        4,
+        141,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTE1fbW9xVVZXQ0k2TXpaTDNnNlpWOVpYdGg4bDkzQ2pUalBXSWVaTUNhYWdVeFY4ZkttUDhOdmdxQzBibENxb3FKVtIBTkFVX3lxTE82eEdLeHF6Mlk2QTlnYk4xaTRmTVAxZXhJdWVHOXJ6cUhHV0tJZUJ5a0ZubjdRSXItMHVyQjd3SjVsVEpsVVUwcl94MExPQQ?oc=5\" target=\"_blank\">What Zika means for Minnesota</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FOX 9 Minneapolis-St. Paul</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiSEFVX3lxTE1fbW9xVVZXQ0k2TXpaTDNnNlpWOVpYdGg4bDkzQ2pUalBXSWVaTUNhYWdVeFY4ZkttUDhOdmdxQzBibENxb3FKVtIBTkFVX3lxTE82eEdLeHF6Mlk2QTlnYk4xaTRmTVAxZXhJdWVHOXJ6cUhHV0tJZUJ5a0ZubjdRSXItMHVyQjd3SjVsVEpsVVUwcl94MExPQQ?oc=5\" target=\"_blank\">What Zika means for Minnesota</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FOX 9 Minneapolis-St. Paul</font>"
+      },
+      "source": {
+        "href": "https://www.fox9.com",
+        "title": "FOX 9 Minneapolis-St. Paul"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Presence of Zika Virus Confirmed in Cape Verde: WHO - VOA - Voice of America English News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Presence of Zika Virus Confirmed in Cape Verde: WHO - VOA - Voice of America English News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQ1ZHN1VQaEdzRkZLMXh5eWtuU1JnXzIwMGFkUDhTZHJ6U29kNWM0MWFjTEhQNkhsT3cxRkZ1OVlJQkh0bGgycDZpdnhPaFZKeFhOc3ZVY2tHZGRrbC12YTV3Rm9tTTVNNUhOcEYxT1VGVGlwN0JIak5KVHAwcV9fMGotZWZpVzkxWlB2Q09R0gGQAUFVX3lxTE1fckNxdjRWUnc2em1rRjNvbGZqSUl3SG9nQm1CWXpqMGVEdm93eFhZMm8yZEhXVXNGTnktdWZ2bEpiaVJPLTlrU3M3VEJFVzU3VmVYX0h3NVNhbndOakRaWFVROUlLajBBN0JJbUV2blp1MUdlSnlOSzJqU3JUQ1BmejJtVmRRSFFCVGlLNFcwTA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQ1ZHN1VQaEdzRkZLMXh5eWtuU1JnXzIwMGFkUDhTZHJ6U29kNWM0MWFjTEhQNkhsT3cxRkZ1OVlJQkh0bGgycDZpdnhPaFZKeFhOc3ZVY2tHZGRrbC12YTV3Rm9tTTVNNUhOcEYxT1VGVGlwN0JIak5KVHAwcV9fMGotZWZpVzkxWlB2Q09R0gGQAUFVX3lxTE1fckNxdjRWUnc2em1rRjNvbGZqSUl3SG9nQm1CWXpqMGVEdm93eFhZMm8yZEhXVXNGTnktdWZ2bEpiaVJPLTlrU3M3VEJFVzU3VmVYX0h3NVNhbndOakRaWFVROUlLajBBN0JJbUV2blp1MUdlSnlOSzJqU3JUQ1BmejJtVmRRSFFCVGlLNFcwTA?oc=5",
+      "id": "CBMijgFBVV95cUxPQ1ZHN1VQaEdzRkZLMXh5eWtuU1JnXzIwMGFkUDhTZHJ6U29kNWM0MWFjTEhQNkhsT3cxRkZ1OVlJQkh0bGgycDZpdnhPaFZKeFhOc3ZVY2tHZGRrbC12YTV3Rm9tTTVNNUhOcEYxT1VGVGlwN0JIak5KVHAwcV9fMGotZWZpVzkxWlB2Q09R0gGQAUFVX3lxTE1fckNxdjRWUnc2em1rRjNvbGZqSUl3SG9nQm1CWXpqMGVEdm93eFhZMm8yZEhXVXNGTnktdWZ2bEpiaVJPLTlrU3M3VEJFVzU3VmVYX0h3NVNhbndOakRaWFVROUlLajBBN0JJbUV2blp1MUdlSnlOSzJqU3JUQ1BmejJtVmRRSFFCVGlLNFcwTA",
+      "guidislink": false,
+      "published": "Fri, 20 May 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        5,
+        20,
+        7,
+        0,
+        0,
+        4,
+        141,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxPQ1ZHN1VQaEdzRkZLMXh5eWtuU1JnXzIwMGFkUDhTZHJ6U29kNWM0MWFjTEhQNkhsT3cxRkZ1OVlJQkh0bGgycDZpdnhPaFZKeFhOc3ZVY2tHZGRrbC12YTV3Rm9tTTVNNUhOcEYxT1VGVGlwN0JIak5KVHAwcV9fMGotZWZpVzkxWlB2Q09R0gGQAUFVX3lxTE1fckNxdjRWUnc2em1rRjNvbGZqSUl3SG9nQm1CWXpqMGVEdm93eFhZMm8yZEhXVXNGTnktdWZ2bEpiaVJPLTlrU3M3VEJFVzU3VmVYX0h3NVNhbndOakRaWFVROUlLajBBN0JJbUV2blp1MUdlSnlOSzJqU3JUQ1BmejJtVmRRSFFCVGlLNFcwTA?oc=5\" target=\"_blank\">Presence of Zika Virus Confirmed in Cape Verde: WHO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">VOA - Voice of America English News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxPQ1ZHN1VQaEdzRkZLMXh5eWtuU1JnXzIwMGFkUDhTZHJ6U29kNWM0MWFjTEhQNkhsT3cxRkZ1OVlJQkh0bGgycDZpdnhPaFZKeFhOc3ZVY2tHZGRrbC12YTV3Rm9tTTVNNUhOcEYxT1VGVGlwN0JIak5KVHAwcV9fMGotZWZpVzkxWlB2Q09R0gGQAUFVX3lxTE1fckNxdjRWUnc2em1rRjNvbGZqSUl3SG9nQm1CWXpqMGVEdm93eFhZMm8yZEhXVXNGTnktdWZ2bEpiaVJPLTlrU3M3VEJFVzU3VmVYX0h3NVNhbndOakRaWFVROUlLajBBN0JJbUV2blp1MUdlSnlOSzJqU3JUQ1BmejJtVmRRSFFCVGlLNFcwTA?oc=5\" target=\"_blank\">Presence of Zika Virus Confirmed in Cape Verde: WHO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">VOA - Voice of America English News</font>"
+      },
+      "source": {
+        "href": "https://www.voanews.com",
+        "title": "VOA - Voice of America English News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika concerns fuel spike in bug spray sales, new report shows - Florida Politics",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika concerns fuel spike in bug spray sales, new report shows - Florida Politics"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVjNUbEtKQmMxeG1wdmd0c3hhd2x3N2NidTFKb2FJYjBEdlFsSVhEeFJPRjNxT0RVdEowaFVwMDlqMG83OEEydmdpeG9pR05GUERlQXZWQ0ZJN1kyYzZGb2tqQWtaekhyekp5VjVtWG01M0tOOFpZUExqeUNKVVF4dFU1TFppN0pGNzVpVWZn?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVjNUbEtKQmMxeG1wdmd0c3hhd2x3N2NidTFKb2FJYjBEdlFsSVhEeFJPRjNxT0RVdEowaFVwMDlqMG83OEEydmdpeG9pR05GUERlQXZWQ0ZJN1kyYzZGb2tqQWtaekhyekp5VjVtWG01M0tOOFpZUExqeUNKVVF4dFU1TFppN0pGNzVpVWZn?oc=5",
+      "id": "CBMijgFBVV95cUxPVjNUbEtKQmMxeG1wdmd0c3hhd2x3N2NidTFKb2FJYjBEdlFsSVhEeFJPRjNxT0RVdEowaFVwMDlqMG83OEEydmdpeG9pR05GUERlQXZWQ0ZJN1kyYzZGb2tqQWtaekhyekp5VjVtWG01M0tOOFpZUExqeUNKVVF4dFU1TFppN0pGNzVpVWZn",
+      "guidislink": false,
+      "published": "Mon, 23 May 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        5,
+        23,
+        7,
+        0,
+        0,
+        0,
+        144,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxPVjNUbEtKQmMxeG1wdmd0c3hhd2x3N2NidTFKb2FJYjBEdlFsSVhEeFJPRjNxT0RVdEowaFVwMDlqMG83OEEydmdpeG9pR05GUERlQXZWQ0ZJN1kyYzZGb2tqQWtaekhyekp5VjVtWG01M0tOOFpZUExqeUNKVVF4dFU1TFppN0pGNzVpVWZn?oc=5\" target=\"_blank\">Zika concerns fuel spike in bug spray sales, new report shows</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Florida Politics</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxPVjNUbEtKQmMxeG1wdmd0c3hhd2x3N2NidTFKb2FJYjBEdlFsSVhEeFJPRjNxT0RVdEowaFVwMDlqMG83OEEydmdpeG9pR05GUERlQXZWQ0ZJN1kyYzZGb2tqQWtaekhyekp5VjVtWG01M0tOOFpZUExqeUNKVVF4dFU1TFppN0pGNzVpVWZn?oc=5\" target=\"_blank\">Zika concerns fuel spike in bug spray sales, new report shows</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Florida Politics</font>"
+      },
+      "source": {
+        "href": "https://floridapolitics.com",
+        "title": "Florida Politics"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Situation Report #5: Zika in Kosrae, Federated States of Micronesia, 2016 (May 22, 2016) - ReliefWeb",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Situation Report #5: Zika in Kosrae, Federated States of Micronesia, 2016 (May 22, 2016) - ReliefWeb"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSV9RWlBsRXNnLV95emJCOU4yREswb0NkRVFKM2l6SGhtdVJSdERSRnRPZ2dUXzc4LTNlWXFrNlFDNE5mMDNkUHR3b1UxamFpTkFzTVpsVHlodU5JcHBDakJERWxpRlYyNVFtcEp0UEdYU0dNWXRHQmpyVWRGa2w5d1preWxUdXF5dXFTZW5OMEFjMlcyZFBQeTBzWlZLbS1VYTJkazFsSEo0WEE2NkJncFpkREtQTHdYMU9BQg?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSV9RWlBsRXNnLV95emJCOU4yREswb0NkRVFKM2l6SGhtdVJSdERSRnRPZ2dUXzc4LTNlWXFrNlFDNE5mMDNkUHR3b1UxamFpTkFzTVpsVHlodU5JcHBDakJERWxpRlYyNVFtcEp0UEdYU0dNWXRHQmpyVWRGa2w5d1preWxUdXF5dXFTZW5OMEFjMlcyZFBQeTBzWlZLbS1VYTJkazFsSEo0WEE2NkJncFpkREtQTHdYMU9BQg?oc=5",
+      "id": "CBMivAFBVV95cUxOSV9RWlBsRXNnLV95emJCOU4yREswb0NkRVFKM2l6SGhtdVJSdERSRnRPZ2dUXzc4LTNlWXFrNlFDNE5mMDNkUHR3b1UxamFpTkFzTVpsVHlodU5JcHBDakJERWxpRlYyNVFtcEp0UEdYU0dNWXRHQmpyVWRGa2w5d1preWxUdXF5dXFTZW5OMEFjMlcyZFBQeTBzWlZLbS1VYTJkazFsSEo0WEE2NkJncFpkREtQTHdYMU9BQg",
+      "guidislink": false,
+      "published": "Mon, 23 May 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        5,
+        23,
+        7,
+        0,
+        0,
+        0,
+        144,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxOSV9RWlBsRXNnLV95emJCOU4yREswb0NkRVFKM2l6SGhtdVJSdERSRnRPZ2dUXzc4LTNlWXFrNlFDNE5mMDNkUHR3b1UxamFpTkFzTVpsVHlodU5JcHBDakJERWxpRlYyNVFtcEp0UEdYU0dNWXRHQmpyVWRGa2w5d1preWxUdXF5dXFTZW5OMEFjMlcyZFBQeTBzWlZLbS1VYTJkazFsSEo0WEE2NkJncFpkREtQTHdYMU9BQg?oc=5\" target=\"_blank\">Situation Report #5: Zika in Kosrae, Federated States of Micronesia, 2016 (May 22, 2016)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ReliefWeb</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxOSV9RWlBsRXNnLV95emJCOU4yREswb0NkRVFKM2l6SGhtdVJSdERSRnRPZ2dUXzc4LTNlWXFrNlFDNE5mMDNkUHR3b1UxamFpTkFzTVpsVHlodU5JcHBDakJERWxpRlYyNVFtcEp0UEdYU0dNWXRHQmpyVWRGa2w5d1preWxUdXF5dXFTZW5OMEFjMlcyZFBQeTBzWlZLbS1VYTJkazFsSEo0WEE2NkJncFpkREtQTHdYMU9BQg?oc=5\" target=\"_blank\">Situation Report #5: Zika in Kosrae, Federated States of Micronesia, 2016 (May 22, 2016)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ReliefWeb</font>"
+      },
+      "source": {
+        "href": "https://reliefweb.int",
+        "title": "ReliefWeb"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Number of pregnant women with Zika virus in U.S. triples, CDC says - CNN",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Number of pregnant women with Zika virus in U.S. triples, CDC says - CNN"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0xOTRkZy04ZmlOOWxuSXVtRWJJZjh4SnE3QmdoRUdFeWdTc0NOalFjWWpITWhIR0lhNjNxTjFndlVTWnREbnlNaUk4QTA1SVRxZTZKc3FfdHo1Q3lsbkNUTVhiU0o?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0xOTRkZy04ZmlOOWxuSXVtRWJJZjh4SnE3QmdoRUdFeWdTc0NOalFjWWpITWhIR0lhNjNxTjFndlVTWnREbnlNaUk4QTA1SVRxZTZKc3FfdHo1Q3lsbkNUTVhiU0o?oc=5",
+      "id": "CBMiZEFVX3lxTE0xOTRkZy04ZmlOOWxuSXVtRWJJZjh4SnE3QmdoRUdFeWdTc0NOalFjWWpITWhIR0lhNjNxTjFndlVTWnREbnlNaUk4QTA1SVRxZTZKc3FfdHo1Q3lsbkNUTVhiU0o",
+      "guidislink": false,
+      "published": "Fri, 20 May 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        5,
+        20,
+        7,
+        0,
+        0,
+        4,
+        141,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZEFVX3lxTE0xOTRkZy04ZmlOOWxuSXVtRWJJZjh4SnE3QmdoRUdFeWdTc0NOalFjWWpITWhIR0lhNjNxTjFndlVTWnREbnlNaUk4QTA1SVRxZTZKc3FfdHo1Q3lsbkNUTVhiU0o?oc=5\" target=\"_blank\">Number of pregnant women with Zika virus in U.S. triples, CDC says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNN</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiZEFVX3lxTE0xOTRkZy04ZmlOOWxuSXVtRWJJZjh4SnE3QmdoRUdFeWdTc0NOalFjWWpITWhIR0lhNjNxTjFndlVTWnREbnlNaUk4QTA1SVRxZTZKc3FfdHo1Q3lsbkNUTVhiU0o?oc=5\" target=\"_blank\">Number of pregnant women with Zika virus in U.S. triples, CDC says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNN</font>"
+      },
+      "source": {
+        "href": "https://www.cnn.com",
+        "title": "CNN"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika outbreak fuelled by mosquito control failure, says WHO boss - BBC",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika outbreak fuelled by mosquito control failure, says WHO boss - BBC"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE95VzRYd3NXRVdfT19Sd2V2ZU1ZenhsV2tleVNoVVAtSUVsRTFYUTZMc3RMMFZOb2hXZUtaVjFzSm9rR0NHMVI1V1g5R2RJaElMNWc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE95VzRYd3NXRVdfT19Sd2V2ZU1ZenhsV2tleVNoVVAtSUVsRTFYUTZMc3RMMFZOb2hXZUtaVjFzSm9rR0NHMVI1V1g5R2RJaElMNWc?oc=5",
+      "id": "CBMiUkFVX3lxTE95VzRYd3NXRVdfT19Sd2V2ZU1ZenhsV2tleVNoVVAtSUVsRTFYUTZMc3RMMFZOb2hXZUtaVjFzSm9rR0NHMVI1V1g5R2RJaElMNWc",
+      "guidislink": false,
+      "published": "Mon, 23 May 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        5,
+        23,
+        7,
+        0,
+        0,
+        0,
+        144,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTE95VzRYd3NXRVdfT19Sd2V2ZU1ZenhsV2tleVNoVVAtSUVsRTFYUTZMc3RMMFZOb2hXZUtaVjFzSm9rR0NHMVI1V1g5R2RJaElMNWc?oc=5\" target=\"_blank\">Zika outbreak fuelled by mosquito control failure, says WHO boss</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiUkFVX3lxTE95VzRYd3NXRVdfT19Sd2V2ZU1ZenhsV2tleVNoVVAtSUVsRTFYUTZMc3RMMFZOb2hXZUtaVjFzSm9rR0NHMVI1V1g5R2RJaElMNWc?oc=5\" target=\"_blank\">Zika outbreak fuelled by mosquito control failure, says WHO boss</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>"
+      },
+      "source": {
+        "href": "https://www.bbc.com",
+        "title": "BBC"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "CDC Reports 279 Pregnant Women With Zika in U.S. - NBC News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "CDC Reports 279 Pregnant Women With Zika in U.S. - NBC News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTC1JUGVOYnRING9lV0NKRTNtb0RlLXZOWEdhM09RcnJmd2dRRm54eVliTjVoS0lyR2VqdC1Fc2lBMGs2ckVyb1FjS3hDVEdibjFzQXdlOXhsd3pFaGtiVmNvMFk5Y2tuNTVIQk5lS3RENVBHYlJobFEwY1lWQ0lqSTN0WE9VbG16bV9XNE84Z2lKclZ1UU1JeUY2X1REbzlRVTRr?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTC1JUGVOYnRING9lV0NKRTNtb0RlLXZOWEdhM09RcnJmd2dRRm54eVliTjVoS0lyR2VqdC1Fc2lBMGs2ckVyb1FjS3hDVEdibjFzQXdlOXhsd3pFaGtiVmNvMFk5Y2tuNTVIQk5lS3RENVBHYlJobFEwY1lWQ0lqSTN0WE9VbG16bV9XNE84Z2lKclZ1UU1JeUY2X1REbzlRVTRr?oc=5",
+      "id": "CBMiowFBVV95cUxPTC1JUGVOYnRING9lV0NKRTNtb0RlLXZOWEdhM09RcnJmd2dRRm54eVliTjVoS0lyR2VqdC1Fc2lBMGs2ckVyb1FjS3hDVEdibjFzQXdlOXhsd3pFaGtiVmNvMFk5Y2tuNTVIQk5lS3RENVBHYlJobFEwY1lWQ0lqSTN0WE9VbG16bV9XNE84Z2lKclZ1UU1JeUY2X1REbzlRVTRr",
+      "guidislink": false,
+      "published": "Fri, 20 May 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        5,
+        20,
+        7,
+        0,
+        0,
+        4,
+        141,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxPTC1JUGVOYnRING9lV0NKRTNtb0RlLXZOWEdhM09RcnJmd2dRRm54eVliTjVoS0lyR2VqdC1Fc2lBMGs2ckVyb1FjS3hDVEdibjFzQXdlOXhsd3pFaGtiVmNvMFk5Y2tuNTVIQk5lS3RENVBHYlJobFEwY1lWQ0lqSTN0WE9VbG16bV9XNE84Z2lKclZ1UU1JeUY2X1REbzlRVTRr?oc=5\" target=\"_blank\">CDC Reports 279 Pregnant Women With Zika in U.S.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NBC News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxPTC1JUGVOYnRING9lV0NKRTNtb0RlLXZOWEdhM09RcnJmd2dRRm54eVliTjVoS0lyR2VqdC1Fc2lBMGs2ckVyb1FjS3hDVEdibjFzQXdlOXhsd3pFaGtiVmNvMFk5Y2tuNTVIQk5lS3RENVBHYlJobFEwY1lWQ0lqSTN0WE9VbG16bV9XNE84Z2lKclZ1UU1JeUY2X1REbzlRVTRr?oc=5\" target=\"_blank\">CDC Reports 279 Pregnant Women With Zika in U.S.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NBC News</font>"
+      },
+      "source": {
+        "href": "https://www.nbcnews.com",
+        "title": "NBC News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Rory McIlroy could skip 2016 Olympics because of Zika virus risk in Rio - Golfweek",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Rory McIlroy could skip 2016 Olympics because of Zika virus risk in Rio - Golfweek"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNUN0VHN6SlVXNGNhWWNlbXYyT3dvckhOWWY4aUxsNHZEMnZmQjhfU0Z1cjVydGRheDM0Y1U4UnIyVm83X0dDb1dtXzU4WGJFMFNIY0d6bTJwRVFlMTlLeEJZV190SEtaeVRtZmJBbXBlVnZEdGZJRnQ2bW5mYTMwVld6SjMtZWcxMHZ1WHE4T0FQdG5FLWR6elN1R2Rfc2QtblY5TkhnWndqeXFj?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNUN0VHN6SlVXNGNhWWNlbXYyT3dvckhOWWY4aUxsNHZEMnZmQjhfU0Z1cjVydGRheDM0Y1U4UnIyVm83X0dDb1dtXzU4WGJFMFNIY0d6bTJwRVFlMTlLeEJZV190SEtaeVRtZmJBbXBlVnZEdGZJRnQ2bW5mYTMwVld6SjMtZWcxMHZ1WHE4T0FQdG5FLWR6elN1R2Rfc2QtblY5TkhnWndqeXFj?oc=5",
+      "id": "CBMirAFBVV95cUxQNUN0VHN6SlVXNGNhWWNlbXYyT3dvckhOWWY4aUxsNHZEMnZmQjhfU0Z1cjVydGRheDM0Y1U4UnIyVm83X0dDb1dtXzU4WGJFMFNIY0d6bTJwRVFlMTlLeEJZV190SEtaeVRtZmJBbXBlVnZEdGZJRnQ2bW5mYTMwVld6SjMtZWcxMHZ1WHE4T0FQdG5FLWR6elN1R2Rfc2QtblY5TkhnWndqeXFj",
+      "guidislink": false,
+      "published": "Mon, 23 May 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        5,
+        23,
+        7,
+        0,
+        0,
+        0,
+        144,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxQNUN0VHN6SlVXNGNhWWNlbXYyT3dvckhOWWY4aUxsNHZEMnZmQjhfU0Z1cjVydGRheDM0Y1U4UnIyVm83X0dDb1dtXzU4WGJFMFNIY0d6bTJwRVFlMTlLeEJZV190SEtaeVRtZmJBbXBlVnZEdGZJRnQ2bW5mYTMwVld6SjMtZWcxMHZ1WHE4T0FQdG5FLWR6elN1R2Rfc2QtblY5TkhnWndqeXFj?oc=5\" target=\"_blank\">Rory McIlroy could skip 2016 Olympics because of Zika virus risk in Rio</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Golfweek</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxQNUN0VHN6SlVXNGNhWWNlbXYyT3dvckhOWWY4aUxsNHZEMnZmQjhfU0Z1cjVydGRheDM0Y1U4UnIyVm83X0dDb1dtXzU4WGJFMFNIY0d6bTJwRVFlMTlLeEJZV190SEtaeVRtZmJBbXBlVnZEdGZJRnQ2bW5mYTMwVld6SjMtZWcxMHZ1WHE4T0FQdG5FLWR6elN1R2Rfc2QtblY5TkhnWndqeXFj?oc=5\" target=\"_blank\">Rory McIlroy could skip 2016 Olympics because of Zika virus risk in Rio</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Golfweek</font>"
+      },
+      "source": {
+        "href": "https://golfweek.usatoday.com",
+        "title": "Golfweek"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "House approves $622 million to combat Zika virus - The Guam Daily Post",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "House approves $622 million to combat Zika virus - The Guam Daily Post"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOb280ZUlvdXRqOUQ4WmJfS3d0am45NlJzRTlkMGRnLW9sb0lDZTNMOWhJZzk5dG1acFFlS2JybG1nV2NXZjgtUnNHNk9jZ2dVZ2dzT2l0ZEZPcVBrN0wyOXlWbXFSVXRsUzB0RkRoRTh6WnZUOEpHQ0MtcVB6dXNXbWZoa3d2dnFjRzZrUjI2bGNkNjM0WHduMVUyY0NGYTh4d3ktU1dfRGRydmZkUTJ4UGtpT1M1WW5zZ1pzNVBjeVpMNkE0WW9yLUVTcWh6TWQwd2FDRHNR?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOb280ZUlvdXRqOUQ4WmJfS3d0am45NlJzRTlkMGRnLW9sb0lDZTNMOWhJZzk5dG1acFFlS2JybG1nV2NXZjgtUnNHNk9jZ2dVZ2dzT2l0ZEZPcVBrN0wyOXlWbXFSVXRsUzB0RkRoRTh6WnZUOEpHQ0MtcVB6dXNXbWZoa3d2dnFjRzZrUjI2bGNkNjM0WHduMVUyY0NGYTh4d3ktU1dfRGRydmZkUTJ4UGtpT1M1WW5zZ1pzNVBjeVpMNkE0WW9yLUVTcWh6TWQwd2FDRHNR?oc=5",
+      "id": "CBMi1gFBVV95cUxOb280ZUlvdXRqOUQ4WmJfS3d0am45NlJzRTlkMGRnLW9sb0lDZTNMOWhJZzk5dG1acFFlS2JybG1nV2NXZjgtUnNHNk9jZ2dVZ2dzT2l0ZEZPcVBrN0wyOXlWbXFSVXRsUzB0RkRoRTh6WnZUOEpHQ0MtcVB6dXNXbWZoa3d2dnFjRzZrUjI2bGNkNjM0WHduMVUyY0NGYTh4d3ktU1dfRGRydmZkUTJ4UGtpT1M1WW5zZ1pzNVBjeVpMNkE0WW9yLUVTcWh6TWQwd2FDRHNR",
+      "guidislink": false,
+      "published": "Fri, 20 May 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        5,
+        20,
+        7,
+        0,
+        0,
+        4,
+        141,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1gFBVV95cUxOb280ZUlvdXRqOUQ4WmJfS3d0am45NlJzRTlkMGRnLW9sb0lDZTNMOWhJZzk5dG1acFFlS2JybG1nV2NXZjgtUnNHNk9jZ2dVZ2dzT2l0ZEZPcVBrN0wyOXlWbXFSVXRsUzB0RkRoRTh6WnZUOEpHQ0MtcVB6dXNXbWZoa3d2dnFjRzZrUjI2bGNkNjM0WHduMVUyY0NGYTh4d3ktU1dfRGRydmZkUTJ4UGtpT1M1WW5zZ1pzNVBjeVpMNkE0WW9yLUVTcWh6TWQwd2FDRHNR?oc=5\" target=\"_blank\">House approves $622 million to combat Zika virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guam Daily Post</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi1gFBVV95cUxOb280ZUlvdXRqOUQ4WmJfS3d0am45NlJzRTlkMGRnLW9sb0lDZTNMOWhJZzk5dG1acFFlS2JybG1nV2NXZjgtUnNHNk9jZ2dVZ2dzT2l0ZEZPcVBrN0wyOXlWbXFSVXRsUzB0RkRoRTh6WnZUOEpHQ0MtcVB6dXNXbWZoa3d2dnFjRzZrUjI2bGNkNjM0WHduMVUyY0NGYTh4d3ktU1dfRGRydmZkUTJ4UGtpT1M1WW5zZ1pzNVBjeVpMNkE0WW9yLUVTcWh6TWQwd2FDRHNR?oc=5\" target=\"_blank\">House approves $622 million to combat Zika virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guam Daily Post</font>"
+      },
+      "source": {
+        "href": "https://www.postguam.com",
+        "title": "The Guam Daily Post"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "The Zika strain has spread to Africa for the first time - The Independent",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "The Zika strain has spread to Africa for the first time - The Independent"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPMzNpdlNHb1ZRN1lqUDZBcXU4UGpZVFVSTlFPNmlNYXlhY2JXU0FiQ29vSGotNzRhRVFYZ2U5U1FJYkFXd192WVJya20td3JNUTl2U0dLQzBBZVNpY2lpelZVMmd6OUhYMk9aNjZnYW5nX25ZOTUxenR5SUJfbHgxbldMZ25BS3RhSV9VYXJUNFZSaXo2Q1dOdk5qNGlpRVZhWHRhUl9xVmxDNi1fLWk2VnI4TDQzd1BpSkFORXlmVVZfZzRKdVhMVFlYeXpLeExJTklkMEREaXhsNC1qOWNLelU1WFhiMWh2d2w4cEVCZXNwVm1RbVhKekZDOXZ5WHRW?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPMzNpdlNHb1ZRN1lqUDZBcXU4UGpZVFVSTlFPNmlNYXlhY2JXU0FiQ29vSGotNzRhRVFYZ2U5U1FJYkFXd192WVJya20td3JNUTl2U0dLQzBBZVNpY2lpelZVMmd6OUhYMk9aNjZnYW5nX25ZOTUxenR5SUJfbHgxbldMZ25BS3RhSV9VYXJUNFZSaXo2Q1dOdk5qNGlpRVZhWHRhUl9xVmxDNi1fLWk2VnI4TDQzd1BpSkFORXlmVVZfZzRKdVhMVFlYeXpLeExJTklkMEREaXhsNC1qOWNLelU1WFhiMWh2d2w4cEVCZXNwVm1RbVhKekZDOXZ5WHRW?oc=5",
+      "id": "CBMigAJBVV95cUxPMzNpdlNHb1ZRN1lqUDZBcXU4UGpZVFVSTlFPNmlNYXlhY2JXU0FiQ29vSGotNzRhRVFYZ2U5U1FJYkFXd192WVJya20td3JNUTl2U0dLQzBBZVNpY2lpelZVMmd6OUhYMk9aNjZnYW5nX25ZOTUxenR5SUJfbHgxbldMZ25BS3RhSV9VYXJUNFZSaXo2Q1dOdk5qNGlpRVZhWHRhUl9xVmxDNi1fLWk2VnI4TDQzd1BpSkFORXlmVVZfZzRKdVhMVFlYeXpLeExJTklkMEREaXhsNC1qOWNLelU1WFhiMWh2d2w4cEVCZXNwVm1RbVhKekZDOXZ5WHRW",
+      "guidislink": false,
+      "published": "Fri, 20 May 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        5,
+        20,
+        7,
+        0,
+        0,
+        4,
+        141,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigAJBVV95cUxPMzNpdlNHb1ZRN1lqUDZBcXU4UGpZVFVSTlFPNmlNYXlhY2JXU0FiQ29vSGotNzRhRVFYZ2U5U1FJYkFXd192WVJya20td3JNUTl2U0dLQzBBZVNpY2lpelZVMmd6OUhYMk9aNjZnYW5nX25ZOTUxenR5SUJfbHgxbldMZ25BS3RhSV9VYXJUNFZSaXo2Q1dOdk5qNGlpRVZhWHRhUl9xVmxDNi1fLWk2VnI4TDQzd1BpSkFORXlmVVZfZzRKdVhMVFlYeXpLeExJTklkMEREaXhsNC1qOWNLelU1WFhiMWh2d2w4cEVCZXNwVm1RbVhKekZDOXZ5WHRW?oc=5\" target=\"_blank\">The Zika strain has spread to Africa for the first time</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Independent</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMigAJBVV95cUxPMzNpdlNHb1ZRN1lqUDZBcXU4UGpZVFVSTlFPNmlNYXlhY2JXU0FiQ29vSGotNzRhRVFYZ2U5U1FJYkFXd192WVJya20td3JNUTl2U0dLQzBBZVNpY2lpelZVMmd6OUhYMk9aNjZnYW5nX25ZOTUxenR5SUJfbHgxbldMZ25BS3RhSV9VYXJUNFZSaXo2Q1dOdk5qNGlpRVZhWHRhUl9xVmxDNi1fLWk2VnI4TDQzd1BpSkFORXlmVVZfZzRKdVhMVFlYeXpLeExJTklkMEREaXhsNC1qOWNLelU1WFhiMWh2d2w4cEVCZXNwVm1RbVhKekZDOXZ5WHRW?oc=5\" target=\"_blank\">The Zika strain has spread to Africa for the first time</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Independent</font>"
+      },
+      "source": {
+        "href": "https://www.independent.co.uk",
+        "title": "The Independent"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika fears spread among holidaymakers as virus is detected in Cape Verde - The Independent",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika fears spread among holidaymakers as virus is detected in Cape Verde - The Independent"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTUkyMXh1SFdjY2pUMnIxNHJmYVo2TVozVVQzZFJnYy00cFNlTHFzc0hJNXFvcjVEaWNWMG9pdFZVTzViNjlUblktRm1ZNFU2eW5jV29ubGR0OXMtNUpCVXVibnlJZkNoLWVnZmhjNnVCUWptdjVibmpONUhyZFFrZ2tQUWtmdmhvOWhSSWZyMG96YWs1MHVJQ21FWTNSbkJ2LVBVaDB0dGJVcHRQYXVIUS1MWGw1dEdOdE03SWFZbTE1RUJZVjY0VS04WW90WFRjeXc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTUkyMXh1SFdjY2pUMnIxNHJmYVo2TVozVVQzZFJnYy00cFNlTHFzc0hJNXFvcjVEaWNWMG9pdFZVTzViNjlUblktRm1ZNFU2eW5jV29ubGR0OXMtNUpCVXVibnlJZkNoLWVnZmhjNnVCUWptdjVibmpONUhyZFFrZ2tQUWtmdmhvOWhSSWZyMG96YWs1MHVJQ21FWTNSbkJ2LVBVaDB0dGJVcHRQYXVIUS1MWGw1dEdOdE03SWFZbTE1RUJZVjY0VS04WW90WFRjeXc?oc=5",
+      "id": "CBMi0gFBVV95cUxQTUkyMXh1SFdjY2pUMnIxNHJmYVo2TVozVVQzZFJnYy00cFNlTHFzc0hJNXFvcjVEaWNWMG9pdFZVTzViNjlUblktRm1ZNFU2eW5jV29ubGR0OXMtNUpCVXVibnlJZkNoLWVnZmhjNnVCUWptdjVibmpONUhyZFFrZ2tQUWtmdmhvOWhSSWZyMG96YWs1MHVJQ21FWTNSbkJ2LVBVaDB0dGJVcHRQYXVIUS1MWGw1dEdOdE03SWFZbTE1RUJZVjY0VS04WW90WFRjeXc",
+      "guidislink": false,
+      "published": "Sun, 22 May 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        5,
+        22,
+        7,
+        0,
+        0,
+        6,
+        143,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTUkyMXh1SFdjY2pUMnIxNHJmYVo2TVozVVQzZFJnYy00cFNlTHFzc0hJNXFvcjVEaWNWMG9pdFZVTzViNjlUblktRm1ZNFU2eW5jV29ubGR0OXMtNUpCVXVibnlJZkNoLWVnZmhjNnVCUWptdjVibmpONUhyZFFrZ2tQUWtmdmhvOWhSSWZyMG96YWs1MHVJQ21FWTNSbkJ2LVBVaDB0dGJVcHRQYXVIUS1MWGw1dEdOdE03SWFZbTE1RUJZVjY0VS04WW90WFRjeXc?oc=5\" target=\"_blank\">Zika fears spread among holidaymakers as virus is detected in Cape Verde</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Independent</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTUkyMXh1SFdjY2pUMnIxNHJmYVo2TVozVVQzZFJnYy00cFNlTHFzc0hJNXFvcjVEaWNWMG9pdFZVTzViNjlUblktRm1ZNFU2eW5jV29ubGR0OXMtNUpCVXVibnlJZkNoLWVnZmhjNnVCUWptdjVibmpONUhyZFFrZ2tQUWtmdmhvOWhSSWZyMG96YWs1MHVJQ21FWTNSbkJ2LVBVaDB0dGJVcHRQYXVIUS1MWGw1dEdOdE03SWFZbTE1RUJZVjY0VS04WW90WFRjeXc?oc=5\" target=\"_blank\">Zika fears spread among holidaymakers as virus is detected in Cape Verde</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Independent</font>"
+      },
+      "source": {
+        "href": "https://www.independent.co.uk",
+        "title": "The Independent"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "US monitoring 279 pregnant women with possible Zika cases - The Express Tribune",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "US monitoring 279 pregnant women with possible Zika cases - The Express Tribune"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQ3dBOFE5NVR6bjdrMUR1QWJ3N1hKNHdpLTNOTDZNWFJJRS1rQ0xSNTZ0VFBVLUZLdnQ4MDVKM2xkUkJWTUd1M3J5VU9SQVZxTlRnc28wYWJNeFdOemFKQU1xZXZFRXA1dVJBelJKclhhNkd2dkFUOVAyOUdhamVQT0VqOXdzeV9CSWxiM3BSN1NoMnfSAZsBQVVfeXFMTnZUdnFCR1I0cVY0ZmpsWDlNNnBNV1NKb0ZhRmV1aUFCUXZxbmRWY1laQnZSSUViYnBWZGdHbHppZTlpY2RsYTcxQ1NBTnQxQXNtYmVYMUs0N1ROVWtxeEU4WGdfbHNpSjBwSWk0LXFsQVpNejJEdVBXSVdReERXYXg1WWtmNkF4cTZNRkhtUm5Fb0ZuY2xQWlI2WTA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQ3dBOFE5NVR6bjdrMUR1QWJ3N1hKNHdpLTNOTDZNWFJJRS1rQ0xSNTZ0VFBVLUZLdnQ4MDVKM2xkUkJWTUd1M3J5VU9SQVZxTlRnc28wYWJNeFdOemFKQU1xZXZFRXA1dVJBelJKclhhNkd2dkFUOVAyOUdhamVQT0VqOXdzeV9CSWxiM3BSN1NoMnfSAZsBQVVfeXFMTnZUdnFCR1I0cVY0ZmpsWDlNNnBNV1NKb0ZhRmV1aUFCUXZxbmRWY1laQnZSSUViYnBWZGdHbHppZTlpY2RsYTcxQ1NBTnQxQXNtYmVYMUs0N1ROVWtxeEU4WGdfbHNpSjBwSWk0LXFsQVpNejJEdVBXSVdReERXYXg1WWtmNkF4cTZNRkhtUm5Fb0ZuY2xQWlI2WTA?oc=5",
+      "id": "CBMikwFBVV95cUxPQ3dBOFE5NVR6bjdrMUR1QWJ3N1hKNHdpLTNOTDZNWFJJRS1rQ0xSNTZ0VFBVLUZLdnQ4MDVKM2xkUkJWTUd1M3J5VU9SQVZxTlRnc28wYWJNeFdOemFKQU1xZXZFRXA1dVJBelJKclhhNkd2dkFUOVAyOUdhamVQT0VqOXdzeV9CSWxiM3BSN1NoMnfSAZsBQVVfeXFMTnZUdnFCR1I0cVY0ZmpsWDlNNnBNV1NKb0ZhRmV1aUFCUXZxbmRWY1laQnZSSUViYnBWZGdHbHppZTlpY2RsYTcxQ1NBTnQxQXNtYmVYMUs0N1ROVWtxeEU4WGdfbHNpSjBwSWk0LXFsQVpNejJEdVBXSVdReERXYXg1WWtmNkF4cTZNRkhtUm5Fb0ZuY2xQWlI2WTA",
+      "guidislink": false,
+      "published": "Sat, 21 May 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        5,
+        21,
+        7,
+        0,
+        0,
+        5,
+        142,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxPQ3dBOFE5NVR6bjdrMUR1QWJ3N1hKNHdpLTNOTDZNWFJJRS1rQ0xSNTZ0VFBVLUZLdnQ4MDVKM2xkUkJWTUd1M3J5VU9SQVZxTlRnc28wYWJNeFdOemFKQU1xZXZFRXA1dVJBelJKclhhNkd2dkFUOVAyOUdhamVQT0VqOXdzeV9CSWxiM3BSN1NoMnfSAZsBQVVfeXFMTnZUdnFCR1I0cVY0ZmpsWDlNNnBNV1NKb0ZhRmV1aUFCUXZxbmRWY1laQnZSSUViYnBWZGdHbHppZTlpY2RsYTcxQ1NBTnQxQXNtYmVYMUs0N1ROVWtxeEU4WGdfbHNpSjBwSWk0LXFsQVpNejJEdVBXSVdReERXYXg1WWtmNkF4cTZNRkhtUm5Fb0ZuY2xQWlI2WTA?oc=5\" target=\"_blank\">US monitoring 279 pregnant women with possible Zika cases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Express Tribune</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxPQ3dBOFE5NVR6bjdrMUR1QWJ3N1hKNHdpLTNOTDZNWFJJRS1rQ0xSNTZ0VFBVLUZLdnQ4MDVKM2xkUkJWTUd1M3J5VU9SQVZxTlRnc28wYWJNeFdOemFKQU1xZXZFRXA1dVJBelJKclhhNkd2dkFUOVAyOUdhamVQT0VqOXdzeV9CSWxiM3BSN1NoMnfSAZsBQVVfeXFMTnZUdnFCR1I0cVY0ZmpsWDlNNnBNV1NKb0ZhRmV1aUFCUXZxbmRWY1laQnZSSUViYnBWZGdHbHppZTlpY2RsYTcxQ1NBTnQxQXNtYmVYMUs0N1ROVWtxeEU4WGdfbHNpSjBwSWk0LXFsQVpNejJEdVBXSVdReERXYXg1WWtmNkF4cTZNRkhtUm5Fb0ZuY2xQWlI2WTA?oc=5\" target=\"_blank\">US monitoring 279 pregnant women with possible Zika cases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Express Tribune</font>"
+      },
+      "source": {
+        "href": "https://tribune.com.pk",
+        "title": "The Express Tribune"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "How to Keep Mosquitoes from Biting You - The People's Pharmacy",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "How to Keep Mosquitoes from Biting You - The People's Pharmacy"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdWo0WFJUd0tZNml2a0tNNFFoenIzV1VhV29rdkxhdEo3Yk16VENJYmRqWnk0eWotQnhrVFdZb0J6OUl0TUxJUnRHelhIbEwyUVl0Z3N4OXkwRzFaNnhZRk5jTjd1WFJNOFFkRmNWVS1IV2sxVkZCLTZhYU1OSThfZ1NRNVdEZw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdWo0WFJUd0tZNml2a0tNNFFoenIzV1VhV29rdkxhdEo3Yk16VENJYmRqWnk0eWotQnhrVFdZb0J6OUl0TUxJUnRHelhIbEwyUVl0Z3N4OXkwRzFaNnhZRk5jTjd1WFJNOFFkRmNWVS1IV2sxVkZCLTZhYU1OSThfZ1NRNVdEZw?oc=5",
+      "id": "CBMihgFBVV95cUxQdWo0WFJUd0tZNml2a0tNNFFoenIzV1VhV29rdkxhdEo3Yk16VENJYmRqWnk0eWotQnhrVFdZb0J6OUl0TUxJUnRHelhIbEwyUVl0Z3N4OXkwRzFaNnhZRk5jTjd1WFJNOFFkRmNWVS1IV2sxVkZCLTZhYU1OSThfZ1NRNVdEZw",
+      "guidislink": false,
+      "published": "Mon, 23 May 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        5,
+        23,
+        7,
+        0,
+        0,
+        0,
+        144,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxQdWo0WFJUd0tZNml2a0tNNFFoenIzV1VhV29rdkxhdEo3Yk16VENJYmRqWnk0eWotQnhrVFdZb0J6OUl0TUxJUnRHelhIbEwyUVl0Z3N4OXkwRzFaNnhZRk5jTjd1WFJNOFFkRmNWVS1IV2sxVkZCLTZhYU1OSThfZ1NRNVdEZw?oc=5\" target=\"_blank\">How to Keep Mosquitoes from Biting You</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The People's Pharmacy</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxQdWo0WFJUd0tZNml2a0tNNFFoenIzV1VhV29rdkxhdEo3Yk16VENJYmRqWnk0eWotQnhrVFdZb0J6OUl0TUxJUnRHelhIbEwyUVl0Z3N4OXkwRzFaNnhZRk5jTjd1WFJNOFFkRmNWVS1IV2sxVkZCLTZhYU1OSThfZ1NRNVdEZw?oc=5\" target=\"_blank\">How to Keep Mosquitoes from Biting You</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The People's Pharmacy</font>"
+      },
+      "source": {
+        "href": "https://www.peoplespharmacy.com",
+        "title": "The People's Pharmacy"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika virus spreads to popular British holiday destination Cape Verde - The Mirror",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika virus spreads to popular British holiday destination Cape Verde - The Mirror"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOTlqWEt5N0hUVGNwRFRORHRVbFZDb0ZoNHk5VnFOYmYwdF85M1QzMEhZdzNXRmxaTDVUX3pWb0ZWWEJQdUJUNG43U2plTzdERkZkQ0RyNzFabUFqVWZoY3ZYQUNIT3dXZkMyTGdOWUFXQmVhOWt0QzI1S3NyNWVBN3B2RV9WWG9pcHRn0gGQAUFVX3lxTFB5TUl5Vkk4cTdOV3dOM0FPbmQ5cFpTOXRaUTdfSnRVTEM3eGRHbThvQkNvZWxDVk1PZWR4YUtxdDZlaDVtMkRHRnlRcWJjZ0U4NXdKTTJYMXUzaEI3Smc3TXh6ZXgxVVlFaFl6NEpJeDJOWkpncEpJSTMwaWpsRlk1eEFSd0xCcFA3NFd2WEo2MA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOTlqWEt5N0hUVGNwRFRORHRVbFZDb0ZoNHk5VnFOYmYwdF85M1QzMEhZdzNXRmxaTDVUX3pWb0ZWWEJQdUJUNG43U2plTzdERkZkQ0RyNzFabUFqVWZoY3ZYQUNIT3dXZkMyTGdOWUFXQmVhOWt0QzI1S3NyNWVBN3B2RV9WWG9pcHRn0gGQAUFVX3lxTFB5TUl5Vkk4cTdOV3dOM0FPbmQ5cFpTOXRaUTdfSnRVTEM3eGRHbThvQkNvZWxDVk1PZWR4YUtxdDZlaDVtMkRHRnlRcWJjZ0U4NXdKTTJYMXUzaEI3Smc3TXh6ZXgxVVlFaFl6NEpJeDJOWkpncEpJSTMwaWpsRlk1eEFSd0xCcFA3NFd2WEo2MA?oc=5",
+      "id": "CBMiiwFBVV95cUxNOTlqWEt5N0hUVGNwRFRORHRVbFZDb0ZoNHk5VnFOYmYwdF85M1QzMEhZdzNXRmxaTDVUX3pWb0ZWWEJQdUJUNG43U2plTzdERkZkQ0RyNzFabUFqVWZoY3ZYQUNIT3dXZkMyTGdOWUFXQmVhOWt0QzI1S3NyNWVBN3B2RV9WWG9pcHRn0gGQAUFVX3lxTFB5TUl5Vkk4cTdOV3dOM0FPbmQ5cFpTOXRaUTdfSnRVTEM3eGRHbThvQkNvZWxDVk1PZWR4YUtxdDZlaDVtMkRHRnlRcWJjZ0U4NXdKTTJYMXUzaEI3Smc3TXh6ZXgxVVlFaFl6NEpJeDJOWkpncEpJSTMwaWpsRlk1eEFSd0xCcFA3NFd2WEo2MA",
+      "guidislink": false,
+      "published": "Fri, 20 May 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        5,
+        20,
+        7,
+        0,
+        0,
+        4,
+        141,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOTlqWEt5N0hUVGNwRFRORHRVbFZDb0ZoNHk5VnFOYmYwdF85M1QzMEhZdzNXRmxaTDVUX3pWb0ZWWEJQdUJUNG43U2plTzdERkZkQ0RyNzFabUFqVWZoY3ZYQUNIT3dXZkMyTGdOWUFXQmVhOWt0QzI1S3NyNWVBN3B2RV9WWG9pcHRn0gGQAUFVX3lxTFB5TUl5Vkk4cTdOV3dOM0FPbmQ5cFpTOXRaUTdfSnRVTEM3eGRHbThvQkNvZWxDVk1PZWR4YUtxdDZlaDVtMkRHRnlRcWJjZ0U4NXdKTTJYMXUzaEI3Smc3TXh6ZXgxVVlFaFl6NEpJeDJOWkpncEpJSTMwaWpsRlk1eEFSd0xCcFA3NFd2WEo2MA?oc=5\" target=\"_blank\">Zika virus spreads to popular British holiday destination Cape Verde</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Mirror</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOTlqWEt5N0hUVGNwRFRORHRVbFZDb0ZoNHk5VnFOYmYwdF85M1QzMEhZdzNXRmxaTDVUX3pWb0ZWWEJQdUJUNG43U2plTzdERkZkQ0RyNzFabUFqVWZoY3ZYQUNIT3dXZkMyTGdOWUFXQmVhOWt0QzI1S3NyNWVBN3B2RV9WWG9pcHRn0gGQAUFVX3lxTFB5TUl5Vkk4cTdOV3dOM0FPbmQ5cFpTOXRaUTdfSnRVTEM3eGRHbThvQkNvZWxDVk1PZWR4YUtxdDZlaDVtMkRHRnlRcWJjZ0U4NXdKTTJYMXUzaEI3Smc3TXh6ZXgxVVlFaFl6NEpJeDJOWkpncEpJSTMwaWpsRlk1eEFSd0xCcFA3NFd2WEo2MA?oc=5\" target=\"_blank\">Zika virus spreads to popular British holiday destination Cape Verde</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Mirror</font>"
+      },
+      "source": {
+        "href": "https://www.mirror.co.uk",
+        "title": "The Mirror"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "279 test positive for Zika virus - The Fiji Times",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "279 test positive for Zika virus - The Fiji Times"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5nOEd4QVN1a01rQkFka3ZxZE9tdkNvYXgzV3hydUVIX2I1SGlTSXo1RGZnQ2FtejJna1FWOWJ2dXRlQWZiR19hV2g0Q3lPUGFZMndpa3NTOG9PeDJCUVN4YThmcXpoWE8xSHVXdVVEMA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5nOEd4QVN1a01rQkFka3ZxZE9tdkNvYXgzV3hydUVIX2I1SGlTSXo1RGZnQ2FtejJna1FWOWJ2dXRlQWZiR19hV2g0Q3lPUGFZMndpa3NTOG9PeDJCUVN4YThmcXpoWE8xSHVXdVVEMA?oc=5",
+      "id": "CBMib0FVX3lxTE5nOEd4QVN1a01rQkFka3ZxZE9tdkNvYXgzV3hydUVIX2I1SGlTSXo1RGZnQ2FtejJna1FWOWJ2dXRlQWZiR19hV2g0Q3lPUGFZMndpa3NTOG9PeDJCUVN4YThmcXpoWE8xSHVXdVVEMA",
+      "guidislink": false,
+      "published": "Sun, 22 May 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        5,
+        22,
+        7,
+        0,
+        0,
+        6,
+        143,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE5nOEd4QVN1a01rQkFka3ZxZE9tdkNvYXgzV3hydUVIX2I1SGlTSXo1RGZnQ2FtejJna1FWOWJ2dXRlQWZiR19hV2g0Q3lPUGFZMndpa3NTOG9PeDJCUVN4YThmcXpoWE8xSHVXdVVEMA?oc=5\" target=\"_blank\">279 test positive for Zika virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Fiji Times</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE5nOEd4QVN1a01rQkFka3ZxZE9tdkNvYXgzV3hydUVIX2I1SGlTSXo1RGZnQ2FtejJna1FWOWJ2dXRlQWZiR19hV2g0Q3lPUGFZMndpa3NTOG9PeDJCUVN4YThmcXpoWE8xSHVXdVVEMA?oc=5\" target=\"_blank\">279 test positive for Zika virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Fiji Times</font>"
+      },
+      "source": {
+        "href": "https://www.fijitimes.com.fj",
+        "title": "The Fiji Times"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Bermuda 2000 Appointed NOsquito Distributor - Bernews",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Bermuda 2000 Appointed NOsquito Distributor - Bernews"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBKWUxDdEdGX1JjNlBKbVI0Q2dnaHRranJfeGdlX0x0Y21EQmN3NndKX3VMMVR2UktEU0VmTTBwX0VTbFQ5cDZZYjBJTmZQMGdxYzRJV1NUNVA5VGtPbzE1bUZwTGE0Vlc5RDd0YkRCcnpzbjhrcHFyWlVFRnE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBKWUxDdEdGX1JjNlBKbVI0Q2dnaHRranJfeGdlX0x0Y21EQmN3NndKX3VMMVR2UktEU0VmTTBwX0VTbFQ5cDZZYjBJTmZQMGdxYzRJV1NUNVA5VGtPbzE1bUZwTGE0Vlc5RDd0YkRCcnpzbjhrcHFyWlVFRnE?oc=5",
+      "id": "CBMifEFVX3lxTFBKWUxDdEdGX1JjNlBKbVI0Q2dnaHRranJfeGdlX0x0Y21EQmN3NndKX3VMMVR2UktEU0VmTTBwX0VTbFQ5cDZZYjBJTmZQMGdxYzRJV1NUNVA5VGtPbzE1bUZwTGE0Vlc5RDd0YkRCcnpzbjhrcHFyWlVFRnE",
+      "guidislink": false,
+      "published": "Fri, 20 May 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        5,
+        20,
+        7,
+        0,
+        0,
+        4,
+        141,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTFBKWUxDdEdGX1JjNlBKbVI0Q2dnaHRranJfeGdlX0x0Y21EQmN3NndKX3VMMVR2UktEU0VmTTBwX0VTbFQ5cDZZYjBJTmZQMGdxYzRJV1NUNVA5VGtPbzE1bUZwTGE0Vlc5RDd0YkRCcnpzbjhrcHFyWlVFRnE?oc=5\" target=\"_blank\">Bermuda 2000 Appointed NOsquito Distributor</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bernews</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTFBKWUxDdEdGX1JjNlBKbVI0Q2dnaHRranJfeGdlX0x0Y21EQmN3NndKX3VMMVR2UktEU0VmTTBwX0VTbFQ5cDZZYjBJTmZQMGdxYzRJV1NUNVA5VGtPbzE1bUZwTGE0Vlc5RDd0YkRCcnpzbjhrcHFyWlVFRnE?oc=5\" target=\"_blank\">Bermuda 2000 Appointed NOsquito Distributor</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bernews</font>"
+      },
+      "source": {
+        "href": "https://bernews.com",
+        "title": "Bernews"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Panic as Zika strain from Americas spreads to Africa - The Independent Uganda",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Panic as Zika strain from Americas spreads to Africa - The Independent Uganda"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaFppS3dwQVFQbFZrZndreWNkNnlVZndZdlJHdVgzaGtMeTZUZjN1V2lTajRITWFnU2I4LXFRbU1nQWlNdDEwbDZRWko5N2tGU1F6dS15QUV1YUhMVTR5ZkNJenhLYzNzNkJITERUMDlGMlRsRXNpU3RyQjV4Z2xka1F6eFV6UEhMTC1V?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaFppS3dwQVFQbFZrZndreWNkNnlVZndZdlJHdVgzaGtMeTZUZjN1V2lTajRITWFnU2I4LXFRbU1nQWlNdDEwbDZRWko5N2tGU1F6dS15QUV1YUhMVTR5ZkNJenhLYzNzNkJITERUMDlGMlRsRXNpU3RyQjV4Z2xka1F6eFV6UEhMTC1V?oc=5",
+      "id": "CBMiiwFBVV95cUxPaFppS3dwQVFQbFZrZndreWNkNnlVZndZdlJHdVgzaGtMeTZUZjN1V2lTajRITWFnU2I4LXFRbU1nQWlNdDEwbDZRWko5N2tGU1F6dS15QUV1YUhMVTR5ZkNJenhLYzNzNkJITERUMDlGMlRsRXNpU3RyQjV4Z2xka1F6eFV6UEhMTC1V",
+      "guidislink": false,
+      "published": "Fri, 20 May 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        5,
+        20,
+        7,
+        0,
+        0,
+        4,
+        141,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaFppS3dwQVFQbFZrZndreWNkNnlVZndZdlJHdVgzaGtMeTZUZjN1V2lTajRITWFnU2I4LXFRbU1nQWlNdDEwbDZRWko5N2tGU1F6dS15QUV1YUhMVTR5ZkNJenhLYzNzNkJITERUMDlGMlRsRXNpU3RyQjV4Z2xka1F6eFV6UEhMTC1V?oc=5\" target=\"_blank\">Panic as Zika strain from Americas spreads to Africa</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Independent Uganda</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaFppS3dwQVFQbFZrZndreWNkNnlVZndZdlJHdVgzaGtMeTZUZjN1V2lTajRITWFnU2I4LXFRbU1nQWlNdDEwbDZRWko5N2tGU1F6dS15QUV1YUhMVTR5ZkNJenhLYzNzNkJITERUMDlGMlRsRXNpU3RyQjV4Z2xka1F6eFV6UEhMTC1V?oc=5\" target=\"_blank\">Panic as Zika strain from Americas spreads to Africa</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Independent Uganda</font>"
+      },
+      "source": {
+        "href": "https://www.independent.co.ug",
+        "title": "The Independent Uganda"
+      },
+      "sub_articles": []
+    }
+  ]
+}

@@ -1,0 +1,736 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2022-11-04",
+  "window_end": "2022-11-17",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2022-11-04+before%3A2022-11-18&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2022-11-04+before:2022-11-18&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:29:41Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2022-11-04 before:2022-11-18\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2022-11-04 before:2022-11-18\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2022-11-04+before:2022-11-18&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2022-11-04+before:2022-11-18&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:29:41 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      29,
+      41,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Unusual Type of Antibody Shows Ultrapotent Activity Against Zika - WCM Newsroom",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Unusual Type of Antibody Shows Ultrapotent Activity Against Zika - WCM Newsroom"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdjMyUEVVcTdLTTdBeHlXVXR3am1URTBMUVBSQkJVcUJrd3VNbWg5WkdfS3hQc2ZnMnk2WEVITXJpVGNiZGJBYm1DM3pLM25JU0hDQkZJWDM4T24xc2hnRXdQLXdYOXJ2WHdlR3czRDNfZmVCd1ZYNXlEVUR1dDdPckRleXBfZy1kM3ZWQnZScmVkWlY3QXc1NUtXdHpDNDRXb2RvQm05SDFYREVW?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdjMyUEVVcTdLTTdBeHlXVXR3am1URTBMUVBSQkJVcUJrd3VNbWg5WkdfS3hQc2ZnMnk2WEVITXJpVGNiZGJBYm1DM3pLM25JU0hDQkZJWDM4T24xc2hnRXdQLXdYOXJ2WHdlR3czRDNfZmVCd1ZYNXlEVUR1dDdPckRleXBfZy1kM3ZWQnZScmVkWlY3QXc1NUtXdHpDNDRXb2RvQm05SDFYREVW?oc=5",
+      "id": "CBMirAFBVV95cUxNdjMyUEVVcTdLTTdBeHlXVXR3am1URTBMUVBSQkJVcUJrd3VNbWg5WkdfS3hQc2ZnMnk2WEVITXJpVGNiZGJBYm1DM3pLM25JU0hDQkZJWDM4T24xc2hnRXdQLXdYOXJ2WHdlR3czRDNfZmVCd1ZYNXlEVUR1dDdPckRleXBfZy1kM3ZWQnZScmVkWlY3QXc1NUtXdHpDNDRXb2RvQm05SDFYREVW",
+      "guidislink": false,
+      "published": "Fri, 18 Nov 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        11,
+        18,
+        8,
+        0,
+        0,
+        4,
+        322,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxNdjMyUEVVcTdLTTdBeHlXVXR3am1URTBMUVBSQkJVcUJrd3VNbWg5WkdfS3hQc2ZnMnk2WEVITXJpVGNiZGJBYm1DM3pLM25JU0hDQkZJWDM4T24xc2hnRXdQLXdYOXJ2WHdlR3czRDNfZmVCd1ZYNXlEVUR1dDdPckRleXBfZy1kM3ZWQnZScmVkWlY3QXc1NUtXdHpDNDRXb2RvQm05SDFYREVW?oc=5\" target=\"_blank\">Unusual Type of Antibody Shows Ultrapotent Activity Against Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WCM Newsroom</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxNdjMyUEVVcTdLTTdBeHlXVXR3am1URTBMUVBSQkJVcUJrd3VNbWg5WkdfS3hQc2ZnMnk2WEVITXJpVGNiZGJBYm1DM3pLM25JU0hDQkZJWDM4T24xc2hnRXdQLXdYOXJ2WHdlR3czRDNfZmVCd1ZYNXlEVUR1dDdPckRleXBfZy1kM3ZWQnZScmVkWlY3QXc1NUtXdHpDNDRXb2RvQm05SDFYREVW?oc=5\" target=\"_blank\">Unusual Type of Antibody Shows Ultrapotent Activity Against Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WCM Newsroom</font>"
+      },
+      "source": {
+        "href": "https://news.weill.cornell.edu",
+        "title": "WCM Newsroom"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Jan Zika's research on ocean warming features in Newsroom - UNSW Sydney",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Jan Zika's research on ocean warming features in Newsroom - UNSW Sydney"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBMc2lNT0FWYnh2V3RoeE1KakRkc2tVdHRIUE5mN3RxemJLTEhMV01KdFV1RFk4ZUhucFYzaU9pR1c3NTliN2dVSjlDUVYxYXJ5TEgzSWNjWkFZYW1YeVFSZVhaMy1CZFBaaDlJ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBMc2lNT0FWYnh2V3RoeE1KakRkc2tVdHRIUE5mN3RxemJLTEhMV01KdFV1RFk4ZUhucFYzaU9pR1c3NTliN2dVSjlDUVYxYXJ5TEgzSWNjWkFZYW1YeVFSZVhaMy1CZFBaaDlJ?oc=5",
+      "id": "CBMia0FVX3lxTFBMc2lNT0FWYnh2V3RoeE1KakRkc2tVdHRIUE5mN3RxemJLTEhMV01KdFV1RFk4ZUhucFYzaU9pR1c3NTliN2dVSjlDUVYxYXJ5TEgzSWNjWkFZYW1YeVFSZVhaMy1CZFBaaDlJ",
+      "guidislink": false,
+      "published": "Fri, 18 Nov 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        11,
+        18,
+        8,
+        0,
+        0,
+        4,
+        322,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTFBMc2lNT0FWYnh2V3RoeE1KakRkc2tVdHRIUE5mN3RxemJLTEhMV01KdFV1RFk4ZUhucFYzaU9pR1c3NTliN2dVSjlDUVYxYXJ5TEgzSWNjWkFZYW1YeVFSZVhaMy1CZFBaaDlJ?oc=5\" target=\"_blank\">Jan Zika's research on ocean warming features in Newsroom</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">UNSW Sydney</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTFBMc2lNT0FWYnh2V3RoeE1KakRkc2tVdHRIUE5mN3RxemJLTEhMV01KdFV1RFk4ZUhucFYzaU9pR1c3NTliN2dVSjlDUVYxYXJ5TEgzSWNjWkFZYW1YeVFSZVhaMy1CZFBaaDlJ?oc=5\" target=\"_blank\">Jan Zika's research on ocean warming features in Newsroom</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">UNSW Sydney</font>"
+      },
+      "source": {
+        "href": "https://www.unsw.edu.au",
+        "title": "UNSW Sydney"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Climate change - Unicef",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Climate change - Unicef"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1TWk5jS2l1aFhaNDhzUXZIcVpmV19KdEN0S0Z1NXkwNmtlU1p1Tk1wQmE3eFZDWUpRZXFoSndmbzZGNldKZW1jbE9nbEd2c0plNUdremFwaw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1TWk5jS2l1aFhaNDhzUXZIcVpmV19KdEN0S0Z1NXkwNmtlU1p1Tk1wQmE3eFZDWUpRZXFoSndmbzZGNldKZW1jbE9nbEd2c0plNUdremFwaw?oc=5",
+      "id": "CBMiV0FVX3lxTE1TWk5jS2l1aFhaNDhzUXZIcVpmV19KdEN0S0Z1NXkwNmtlU1p1Tk1wQmE3eFZDWUpRZXFoSndmbzZGNldKZW1jbE9nbEd2c0plNUdremFwaw",
+      "guidislink": false,
+      "published": "Thu, 10 Nov 2022 00:57:32 GMT",
+      "published_parsed": [
+        2022,
+        11,
+        10,
+        0,
+        57,
+        32,
+        3,
+        314,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE1TWk5jS2l1aFhaNDhzUXZIcVpmV19KdEN0S0Z1NXkwNmtlU1p1Tk1wQmE3eFZDWUpRZXFoSndmbzZGNldKZW1jbE9nbEd2c0plNUdremFwaw?oc=5\" target=\"_blank\">Climate change</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Unicef</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE1TWk5jS2l1aFhaNDhzUXZIcVpmV19KdEN0S0Z1NXkwNmtlU1p1Tk1wQmE3eFZDWUpRZXFoSndmbzZGNldKZW1jbE9nbEd2c0plNUdremFwaw?oc=5\" target=\"_blank\">Climate change</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Unicef</font>"
+      },
+      "source": {
+        "href": "https://www.unicef.org",
+        "title": "Unicef"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "How Viruses Hop from Wild Animals to Humans - Scientific American",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "How Viruses Hop from Wild Animals to Humans - Scientific American"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUUxSOS1DYU41S2JWY2w1dEZ1U2V5cFJNVDlBanNXNldoSWdScHFCeVp2WXloVGkzZ0JLeW1YWGg2MUhuRWc3THlZb255bmVoZkxHYVA1dTl6UEZ3LS1SdDNPZGdkaWZZa3UzN0hwejBUcGJHV1BiQWZDalJwMFVmblVCMEhWMENCZmVWdVFXRnM?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUUxSOS1DYU41S2JWY2w1dEZ1U2V5cFJNVDlBanNXNldoSWdScHFCeVp2WXloVGkzZ0JLeW1YWGg2MUhuRWc3THlZb255bmVoZkxHYVA1dTl6UEZ3LS1SdDNPZGdkaWZZa3UzN0hwejBUcGJHV1BiQWZDalJwMFVmblVCMEhWMENCZmVWdVFXRnM?oc=5",
+      "id": "CBMikAFBVV95cUxQUUxSOS1DYU41S2JWY2w1dEZ1U2V5cFJNVDlBanNXNldoSWdScHFCeVp2WXloVGkzZ0JLeW1YWGg2MUhuRWc3THlZb255bmVoZkxHYVA1dTl6UEZ3LS1SdDNPZGdkaWZZa3UzN0hwejBUcGJHV1BiQWZDalJwMFVmblVCMEhWMENCZmVWdVFXRnM",
+      "guidislink": false,
+      "published": "Tue, 15 Nov 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        11,
+        15,
+        8,
+        0,
+        0,
+        1,
+        319,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxQUUxSOS1DYU41S2JWY2w1dEZ1U2V5cFJNVDlBanNXNldoSWdScHFCeVp2WXloVGkzZ0JLeW1YWGg2MUhuRWc3THlZb255bmVoZkxHYVA1dTl6UEZ3LS1SdDNPZGdkaWZZa3UzN0hwejBUcGJHV1BiQWZDalJwMFVmblVCMEhWMENCZmVWdVFXRnM?oc=5\" target=\"_blank\">How Viruses Hop from Wild Animals to Humans</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Scientific American</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxQUUxSOS1DYU41S2JWY2w1dEZ1U2V5cFJNVDlBanNXNldoSWdScHFCeVp2WXloVGkzZ0JLeW1YWGg2MUhuRWc3THlZb255bmVoZkxHYVA1dTl6UEZ3LS1SdDNPZGdkaWZZa3UzN0hwejBUcGJHV1BiQWZDalJwMFVmblVCMEhWMENCZmVWdVFXRnM?oc=5\" target=\"_blank\">How Viruses Hop from Wild Animals to Humans</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Scientific American</font>"
+      },
+      "source": {
+        "href": "https://www.scientificamerican.com",
+        "title": "Scientific American"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Researchers highlight latest advances during American Society of Tropical Medicine and Hygiene meeting - DVIDS",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Researchers highlight latest advances during American Society of Tropical Medicine and Hygiene meeting - DVIDS"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNUW1IZG0xNm9IdkJOV2k0OWp1WElFOUg0dmVFNXdLRzRfLUtTenNiVmhWUFNlNXZ5V1JaeC1PLVQwV2pIM09STFV5ZldhTDR1TWl1U2FtdnNSel8zM3F4QzZqWkxHZkthWW9lTVBFMmplRERTSWZmR0hDRDVLaWtQeE9WOGdMWHB2cGFRUjhtc0dvTzlpRG9ZNGt5RlU4ZVBsc3VVcl9LSTZRVThrSlM3ODAxT3VjVWw5Y3B3cVlacnM1OXpBYUxaamxhaDN2bnlSV2dKTg?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNUW1IZG0xNm9IdkJOV2k0OWp1WElFOUg0dmVFNXdLRzRfLUtTenNiVmhWUFNlNXZ5V1JaeC1PLVQwV2pIM09STFV5ZldhTDR1TWl1U2FtdnNSel8zM3F4QzZqWkxHZkthWW9lTVBFMmplRERTSWZmR0hDRDVLaWtQeE9WOGdMWHB2cGFRUjhtc0dvTzlpRG9ZNGt5RlU4ZVBsc3VVcl9LSTZRVThrSlM3ODAxT3VjVWw5Y3B3cVlacnM1OXpBYUxaamxhaDN2bnlSV2dKTg?oc=5",
+      "id": "CBMi1AFBVV95cUxNUW1IZG0xNm9IdkJOV2k0OWp1WElFOUg0dmVFNXdLRzRfLUtTenNiVmhWUFNlNXZ5V1JaeC1PLVQwV2pIM09STFV5ZldhTDR1TWl1U2FtdnNSel8zM3F4QzZqWkxHZkthWW9lTVBFMmplRERTSWZmR0hDRDVLaWtQeE9WOGdMWHB2cGFRUjhtc0dvTzlpRG9ZNGt5RlU4ZVBsc3VVcl9LSTZRVThrSlM3ODAxT3VjVWw5Y3B3cVlacnM1OXpBYUxaamxhaDN2bnlSV2dKTg",
+      "guidislink": false,
+      "published": "Thu, 17 Nov 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        11,
+        17,
+        8,
+        0,
+        0,
+        3,
+        321,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxNUW1IZG0xNm9IdkJOV2k0OWp1WElFOUg0dmVFNXdLRzRfLUtTenNiVmhWUFNlNXZ5V1JaeC1PLVQwV2pIM09STFV5ZldhTDR1TWl1U2FtdnNSel8zM3F4QzZqWkxHZkthWW9lTVBFMmplRERTSWZmR0hDRDVLaWtQeE9WOGdMWHB2cGFRUjhtc0dvTzlpRG9ZNGt5RlU4ZVBsc3VVcl9LSTZRVThrSlM3ODAxT3VjVWw5Y3B3cVlacnM1OXpBYUxaamxhaDN2bnlSV2dKTg?oc=5\" target=\"_blank\">Researchers highlight latest advances during American Society of Tropical Medicine and Hygiene meeting</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">DVIDS</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxNUW1IZG0xNm9IdkJOV2k0OWp1WElFOUg0dmVFNXdLRzRfLUtTenNiVmhWUFNlNXZ5V1JaeC1PLVQwV2pIM09STFV5ZldhTDR1TWl1U2FtdnNSel8zM3F4QzZqWkxHZkthWW9lTVBFMmplRERTSWZmR0hDRDVLaWtQeE9WOGdMWHB2cGFRUjhtc0dvTzlpRG9ZNGt5RlU4ZVBsc3VVcl9LSTZRVThrSlM3ODAxT3VjVWw5Y3B3cVlacnM1OXpBYUxaamxhaDN2bnlSV2dKTg?oc=5\" target=\"_blank\">Researchers highlight latest advances during American Society of Tropical Medicine and Hygiene meeting</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">DVIDS</font>"
+      },
+      "source": {
+        "href": "https://www.dvidshub.net",
+        "title": "DVIDS"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "The Increasing Burden of Dengue Fever in a Changing Climate - The Rockefeller Foundation",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "The Increasing Burden of Dengue Fever in a Changing Climate - The Rockefeller Foundation"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVGx6MVJrNEJEMjlxU1NkWUJDYUZteWg2QWZXUUpHVGhXd0NRNTZrSHlqdDhQTWZibVpHcnZsVDNOSzA2bEtCSm1NZE1MWm1ScmtHMzZTUndQb2wycFZWdkRFb0hrQV9ZakxONkNfWFFUVi1tdlUwWE53bmVjbl9CZnp2MjA2ek1HSkV1dnp6WnFQeE96Zk1IcHFMOW5Jb0NyeGdQZVZkOU9IZm9kMWVV?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVGx6MVJrNEJEMjlxU1NkWUJDYUZteWg2QWZXUUpHVGhXd0NRNTZrSHlqdDhQTWZibVpHcnZsVDNOSzA2bEtCSm1NZE1MWm1ScmtHMzZTUndQb2wycFZWdkRFb0hrQV9ZakxONkNfWFFUVi1tdlUwWE53bmVjbl9CZnp2MjA2ek1HSkV1dnp6WnFQeE96Zk1IcHFMOW5Jb0NyeGdQZVZkOU9IZm9kMWVV?oc=5",
+      "id": "CBMirwFBVV95cUxQVGx6MVJrNEJEMjlxU1NkWUJDYUZteWg2QWZXUUpHVGhXd0NRNTZrSHlqdDhQTWZibVpHcnZsVDNOSzA2bEtCSm1NZE1MWm1ScmtHMzZTUndQb2wycFZWdkRFb0hrQV9ZakxONkNfWFFUVi1tdlUwWE53bmVjbl9CZnp2MjA2ek1HSkV1dnp6WnFQeE96Zk1IcHFMOW5Jb0NyeGdQZVZkOU9IZm9kMWVV",
+      "guidislink": false,
+      "published": "Thu, 10 Nov 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        11,
+        10,
+        8,
+        0,
+        0,
+        3,
+        314,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxQVGx6MVJrNEJEMjlxU1NkWUJDYUZteWg2QWZXUUpHVGhXd0NRNTZrSHlqdDhQTWZibVpHcnZsVDNOSzA2bEtCSm1NZE1MWm1ScmtHMzZTUndQb2wycFZWdkRFb0hrQV9ZakxONkNfWFFUVi1tdlUwWE53bmVjbl9CZnp2MjA2ek1HSkV1dnp6WnFQeE96Zk1IcHFMOW5Jb0NyeGdQZVZkOU9IZm9kMWVV?oc=5\" target=\"_blank\">The Increasing Burden of Dengue Fever in a Changing Climate</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Rockefeller Foundation</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxQVGx6MVJrNEJEMjlxU1NkWUJDYUZteWg2QWZXUUpHVGhXd0NRNTZrSHlqdDhQTWZibVpHcnZsVDNOSzA2bEtCSm1NZE1MWm1ScmtHMzZTUndQb2wycFZWdkRFb0hrQV9ZakxONkNfWFFUVi1tdlUwWE53bmVjbl9CZnp2MjA2ek1HSkV1dnp6WnFQeE96Zk1IcHFMOW5Jb0NyeGdQZVZkOU9IZm9kMWVV?oc=5\" target=\"_blank\">The Increasing Burden of Dengue Fever in a Changing Climate</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Rockefeller Foundation</font>"
+      },
+      "source": {
+        "href": "https://www.rockefellerfoundation.org",
+        "title": "The Rockefeller Foundation"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Maricopa County health officials report 1 case of dengue, offer free at-home tests - azcentral.com and The Arizona Republic",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Maricopa County health officials report 1 case of dengue, offer free at-home tests - azcentral.com and The Arizona Republic"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOZkNTRzltcUNfRFVISXJKSVVhZTFpSVpKSG5YWXlBUFQ1d0RLOXFaemp6QzJyRlc0RGpsY1ZIVUNmOXplYS1kdFpTc0VXdkx3VWVhRUFKT0U5eHZFZ2Z2dWQxVHltQ05oXzM2N1RGb0huN05icTFONzFaVXpHUWxBeWV5UFFJQ1BQcDU3RjVvekkxQjJXNEFnY3Q4WEdia0FyVXdHSjNwS3d4U2tsSXlKbTJvV0pSdEs4MG5iMF9QVjh0TlF2MkpLbnltMmhSZnNVdXc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOZkNTRzltcUNfRFVISXJKSVVhZTFpSVpKSG5YWXlBUFQ1d0RLOXFaemp6QzJyRlc0RGpsY1ZIVUNmOXplYS1kdFpTc0VXdkx3VWVhRUFKT0U5eHZFZ2Z2dWQxVHltQ05oXzM2N1RGb0huN05icTFONzFaVXpHUWxBeWV5UFFJQ1BQcDU3RjVvekkxQjJXNEFnY3Q4WEdia0FyVXdHSjNwS3d4U2tsSXlKbTJvV0pSdEs4MG5iMF9QVjh0TlF2MkpLbnltMmhSZnNVdXc?oc=5",
+      "id": "CBMi0gFBVV95cUxOZkNTRzltcUNfRFVISXJKSVVhZTFpSVpKSG5YWXlBUFQ1d0RLOXFaemp6QzJyRlc0RGpsY1ZIVUNmOXplYS1kdFpTc0VXdkx3VWVhRUFKT0U5eHZFZ2Z2dWQxVHltQ05oXzM2N1RGb0huN05icTFONzFaVXpHUWxBeWV5UFFJQ1BQcDU3RjVvekkxQjJXNEFnY3Q4WEdia0FyVXdHSjNwS3d4U2tsSXlKbTJvV0pSdEs4MG5iMF9QVjh0TlF2MkpLbnltMmhSZnNVdXc",
+      "guidislink": false,
+      "published": "Mon, 14 Nov 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        11,
+        14,
+        8,
+        0,
+        0,
+        0,
+        318,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxOZkNTRzltcUNfRFVISXJKSVVhZTFpSVpKSG5YWXlBUFQ1d0RLOXFaemp6QzJyRlc0RGpsY1ZIVUNmOXplYS1kdFpTc0VXdkx3VWVhRUFKT0U5eHZFZ2Z2dWQxVHltQ05oXzM2N1RGb0huN05icTFONzFaVXpHUWxBeWV5UFFJQ1BQcDU3RjVvekkxQjJXNEFnY3Q4WEdia0FyVXdHSjNwS3d4U2tsSXlKbTJvV0pSdEs4MG5iMF9QVjh0TlF2MkpLbnltMmhSZnNVdXc?oc=5\" target=\"_blank\">Maricopa County health officials report 1 case of dengue, offer free at-home tests</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">azcentral.com and The Arizona Republic</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi0gFBVV95cUxOZkNTRzltcUNfRFVISXJKSVVhZTFpSVpKSG5YWXlBUFQ1d0RLOXFaemp6QzJyRlc0RGpsY1ZIVUNmOXplYS1kdFpTc0VXdkx3VWVhRUFKT0U5eHZFZ2Z2dWQxVHltQ05oXzM2N1RGb0huN05icTFONzFaVXpHUWxBeWV5UFFJQ1BQcDU3RjVvekkxQjJXNEFnY3Q4WEdia0FyVXdHSjNwS3d4U2tsSXlKbTJvV0pSdEs4MG5iMF9QVjh0TlF2MkpLbnltMmhSZnNVdXc?oc=5\" target=\"_blank\">Maricopa County health officials report 1 case of dengue, offer free at-home tests</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">azcentral.com and The Arizona Republic</font>"
+      },
+      "source": {
+        "href": "https://www.azcentral.com",
+        "title": "azcentral.com and The Arizona Republic"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Kids in Brazil’s favelas are eliminating dengue fever – by breeding mosquitos - Positive News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Kids in Brazil’s favelas are eliminating dengue fever – by breeding mosquitos - Positive News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPU3VCeUhvMDc3SEY0d3BDWG5mUC1Pdk5lcnJONy1vOTBodGFhRVNCQjREbTM3eVVZUXZ2eUhONFNEYVNIeUdyMGRZYWh3VmVLNHplakpGZXdEdTNXMEwtTVhVOVd1RU9MX3RoTEt1ejlENXNHZ0g2LUJ4ZHVkQ0hrTGE3MlQya3h2NHVodzVYQQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPU3VCeUhvMDc3SEY0d3BDWG5mUC1Pdk5lcnJONy1vOTBodGFhRVNCQjREbTM3eVVZUXZ2eUhONFNEYVNIeUdyMGRZYWh3VmVLNHplakpGZXdEdTNXMEwtTVhVOVd1RU9MX3RoTEt1ejlENXNHZ0g2LUJ4ZHVkQ0hrTGE3MlQya3h2NHVodzVYQQ?oc=5",
+      "id": "CBMijwFBVV95cUxPU3VCeUhvMDc3SEY0d3BDWG5mUC1Pdk5lcnJONy1vOTBodGFhRVNCQjREbTM3eVVZUXZ2eUhONFNEYVNIeUdyMGRZYWh3VmVLNHplakpGZXdEdTNXMEwtTVhVOVd1RU9MX3RoTEt1ejlENXNHZ0g2LUJ4ZHVkQ0hrTGE3MlQya3h2NHVodzVYQQ",
+      "guidislink": false,
+      "published": "Wed, 16 Nov 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        11,
+        16,
+        8,
+        0,
+        0,
+        2,
+        320,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxPU3VCeUhvMDc3SEY0d3BDWG5mUC1Pdk5lcnJONy1vOTBodGFhRVNCQjREbTM3eVVZUXZ2eUhONFNEYVNIeUdyMGRZYWh3VmVLNHplakpGZXdEdTNXMEwtTVhVOVd1RU9MX3RoTEt1ejlENXNHZ0g2LUJ4ZHVkQ0hrTGE3MlQya3h2NHVodzVYQQ?oc=5\" target=\"_blank\">Kids in Brazil’s favelas are eliminating dengue fever – by breeding mosquitos</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Positive News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxPU3VCeUhvMDc3SEY0d3BDWG5mUC1Pdk5lcnJONy1vOTBodGFhRVNCQjREbTM3eVVZUXZ2eUhONFNEYVNIeUdyMGRZYWh3VmVLNHplakpGZXdEdTNXMEwtTVhVOVd1RU9MX3RoTEt1ejlENXNHZ0g2LUJ4ZHVkQ0hrTGE3MlQya3h2NHVodzVYQQ?oc=5\" target=\"_blank\">Kids in Brazil’s favelas are eliminating dengue fever – by breeding mosquitos</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Positive News</font>"
+      },
+      "source": {
+        "href": "https://www.positive.news",
+        "title": "Positive News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Researchers call for Brazilian government to take action to tackle discrimination against Black people with disabilities - University of York",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Researchers call for Brazilian government to take action to tackle discrimination against Black people with disabilities - University of York"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcXNLSTZSazh1MlVtZUpfNHpyZ0xNT3dqZUtBdWxjSUR3bV9zUFo1VHhCWHZIaFNaWXdYRGZzc2hkd0FkVXNPaWx6Q2FoQjBtTWt0RWNIZVNNei1jQkE0MHl3azlMcTZmNHU0Sjg3WWdJbGtpaXFmUjU0c1VrV2NLaXU5aTFZcXVvMGoxckxfMVJPUQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcXNLSTZSazh1MlVtZUpfNHpyZ0xNT3dqZUtBdWxjSUR3bV9zUFo1VHhCWHZIaFNaWXdYRGZzc2hkd0FkVXNPaWx6Q2FoQjBtTWt0RWNIZVNNei1jQkE0MHl3azlMcTZmNHU0Sjg3WWdJbGtpaXFmUjU0c1VrV2NLaXU5aTFZcXVvMGoxckxfMVJPUQ?oc=5",
+      "id": "CBMikgFBVV95cUxQcXNLSTZSazh1MlVtZUpfNHpyZ0xNT3dqZUtBdWxjSUR3bV9zUFo1VHhCWHZIaFNaWXdYRGZzc2hkd0FkVXNPaWx6Q2FoQjBtTWt0RWNIZVNNei1jQkE0MHl3azlMcTZmNHU0Sjg3WWdJbGtpaXFmUjU0c1VrV2NLaXU5aTFZcXVvMGoxckxfMVJPUQ",
+      "guidislink": false,
+      "published": "Tue, 15 Nov 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        11,
+        15,
+        8,
+        0,
+        0,
+        1,
+        319,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxQcXNLSTZSazh1MlVtZUpfNHpyZ0xNT3dqZUtBdWxjSUR3bV9zUFo1VHhCWHZIaFNaWXdYRGZzc2hkd0FkVXNPaWx6Q2FoQjBtTWt0RWNIZVNNei1jQkE0MHl3azlMcTZmNHU0Sjg3WWdJbGtpaXFmUjU0c1VrV2NLaXU5aTFZcXVvMGoxckxfMVJPUQ?oc=5\" target=\"_blank\">Researchers call for Brazilian government to take action to tackle discrimination against Black people with disabilities</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of York</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxQcXNLSTZSazh1MlVtZUpfNHpyZ0xNT3dqZUtBdWxjSUR3bV9zUFo1VHhCWHZIaFNaWXdYRGZzc2hkd0FkVXNPaWx6Q2FoQjBtTWt0RWNIZVNNei1jQkE0MHl3azlMcTZmNHU0Sjg3WWdJbGtpaXFmUjU0c1VrV2NLaXU5aTFZcXVvMGoxckxfMVJPUQ?oc=5\" target=\"_blank\">Researchers call for Brazilian government to take action to tackle discrimination against Black people with disabilities</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of York</font>"
+      },
+      "source": {
+        "href": "https://www.york.ac.uk",
+        "title": "University of York"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Can’t take the heat: Aging Europe vulnerable to climate impacts - politico.eu",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Can’t take the heat: Aging Europe vulnerable to climate impacts - politico.eu"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA0MDFfZHNJOVlVN21zUV9pNFFXMmh6bmJyY0tMU3VDUHZCRVdPNEF2b0xyaGo0VndTZWYySGJxa2thdU5ZRlBBTDk1ems5QVFubXpueEpEUGMxZDROd1B6dmZNMVd6T1RhNHVrWnZOeUYtYXl5OGI1Wk53?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA0MDFfZHNJOVlVN21zUV9pNFFXMmh6bmJyY0tMU3VDUHZCRVdPNEF2b0xyaGo0VndTZWYySGJxa2thdU5ZRlBBTDk1ems5QVFubXpueEpEUGMxZDROd1B6dmZNMVd6T1RhNHVrWnZOeUYtYXl5OGI1Wk53?oc=5",
+      "id": "CBMiekFVX3lxTFA0MDFfZHNJOVlVN21zUV9pNFFXMmh6bmJyY0tMU3VDUHZCRVdPNEF2b0xyaGo0VndTZWYySGJxa2thdU5ZRlBBTDk1ems5QVFubXpueEpEUGMxZDROd1B6dmZNMVd6T1RhNHVrWnZOeUYtYXl5OGI1Wk53",
+      "guidislink": false,
+      "published": "Wed, 09 Nov 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        11,
+        9,
+        8,
+        0,
+        0,
+        2,
+        313,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTFA0MDFfZHNJOVlVN21zUV9pNFFXMmh6bmJyY0tMU3VDUHZCRVdPNEF2b0xyaGo0VndTZWYySGJxa2thdU5ZRlBBTDk1ems5QVFubXpueEpEUGMxZDROd1B6dmZNMVd6T1RhNHVrWnZOeUYtYXl5OGI1Wk53?oc=5\" target=\"_blank\">Can’t take the heat: Aging Europe vulnerable to climate impacts</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">politico.eu</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTFA0MDFfZHNJOVlVN21zUV9pNFFXMmh6bmJyY0tMU3VDUHZCRVdPNEF2b0xyaGo0VndTZWYySGJxa2thdU5ZRlBBTDk1ems5QVFubXpueEpEUGMxZDROd1B6dmZNMVd6T1RhNHVrWnZOeUYtYXl5OGI1Wk53?oc=5\" target=\"_blank\">Can’t take the heat: Aging Europe vulnerable to climate impacts</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">politico.eu</font>"
+      },
+      "source": {
+        "href": "https://www.politico.eu",
+        "title": "politico.eu"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "First mosquito survey for the ABC islands in nearly 75 years - Nature Today",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "First mosquito survey for the ABC islands in nearly 75 years - Nature Today"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1JYWg5a3N0V0hNVC1aSFQyQlIzbkpTU184Ynd5VWNLM3pTeEx5VFBsMk5SUTVQemktXzk5VlExWEtUdlZkNG8xdXJfOUttVDFVeDZqSFptUWQyZVozbmsyTk1PN2xERXhLQzZZMTVUN1RIOTBXUWN2Qg?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1JYWg5a3N0V0hNVC1aSFQyQlIzbkpTU184Ynd5VWNLM3pTeEx5VFBsMk5SUTVQemktXzk5VlExWEtUdlZkNG8xdXJfOUttVDFVeDZqSFptUWQyZVozbmsyTk1PN2xERXhLQzZZMTVUN1RIOTBXUWN2Qg?oc=5",
+      "id": "CBMieEFVX3lxTE1JYWg5a3N0V0hNVC1aSFQyQlIzbkpTU184Ynd5VWNLM3pTeEx5VFBsMk5SUTVQemktXzk5VlExWEtUdlZkNG8xdXJfOUttVDFVeDZqSFptUWQyZVozbmsyTk1PN2xERXhLQzZZMTVUN1RIOTBXUWN2Qg",
+      "guidislink": false,
+      "published": "Thu, 10 Nov 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        11,
+        10,
+        8,
+        0,
+        0,
+        3,
+        314,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE1JYWg5a3N0V0hNVC1aSFQyQlIzbkpTU184Ynd5VWNLM3pTeEx5VFBsMk5SUTVQemktXzk5VlExWEtUdlZkNG8xdXJfOUttVDFVeDZqSFptUWQyZVozbmsyTk1PN2xERXhLQzZZMTVUN1RIOTBXUWN2Qg?oc=5\" target=\"_blank\">First mosquito survey for the ABC islands in nearly 75 years</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature Today</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE1JYWg5a3N0V0hNVC1aSFQyQlIzbkpTU184Ynd5VWNLM3pTeEx5VFBsMk5SUTVQemktXzk5VlExWEtUdlZkNG8xdXJfOUttVDFVeDZqSFptUWQyZVozbmsyTk1PN2xERXhLQzZZMTVUN1RIOTBXUWN2Qg?oc=5\" target=\"_blank\">First mosquito survey for the ABC islands in nearly 75 years</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature Today</font>"
+      },
+      "source": {
+        "href": "https://www.naturetoday.com",
+        "title": "Nature Today"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "10 Animals That Kill The Most Humans - WorldAtlas",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "10 Animals That Kill The Most Humans - WorldAtlas"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPMlV3X2JoakwzOTlzeUcycE9tRXk5WHAyZ0pjM1VOckF6YzFwLTg0WDB6b1RFUnk2aXZaUnF4S3E3UFE3RFNfNzhjWDVYLTV2ZmpYdUlHc2sxQlJGNWJlSnpGOF9VM1A5dEI0TXJyWlpoc0tucHFnU0JTa0UyTmJ0UmRR?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPMlV3X2JoakwzOTlzeUcycE9tRXk5WHAyZ0pjM1VOckF6YzFwLTg0WDB6b1RFUnk2aXZaUnF4S3E3UFE3RFNfNzhjWDVYLTV2ZmpYdUlHc2sxQlJGNWJlSnpGOF9VM1A5dEI0TXJyWlpoc0tucHFnU0JTa0UyTmJ0UmRR?oc=5",
+      "id": "CBMiggFBVV95cUxPMlV3X2JoakwzOTlzeUcycE9tRXk5WHAyZ0pjM1VOckF6YzFwLTg0WDB6b1RFUnk2aXZaUnF4S3E3UFE3RFNfNzhjWDVYLTV2ZmpYdUlHc2sxQlJGNWJlSnpGOF9VM1A5dEI0TXJyWlpoc0tucHFnU0JTa0UyTmJ0UmRR",
+      "guidislink": false,
+      "published": "Wed, 16 Nov 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        11,
+        16,
+        8,
+        0,
+        0,
+        2,
+        320,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxPMlV3X2JoakwzOTlzeUcycE9tRXk5WHAyZ0pjM1VOckF6YzFwLTg0WDB6b1RFUnk2aXZaUnF4S3E3UFE3RFNfNzhjWDVYLTV2ZmpYdUlHc2sxQlJGNWJlSnpGOF9VM1A5dEI0TXJyWlpoc0tucHFnU0JTa0UyTmJ0UmRR?oc=5\" target=\"_blank\">10 Animals That Kill The Most Humans</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WorldAtlas</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxPMlV3X2JoakwzOTlzeUcycE9tRXk5WHAyZ0pjM1VOckF6YzFwLTg0WDB6b1RFUnk2aXZaUnF4S3E3UFE3RFNfNzhjWDVYLTV2ZmpYdUlHc2sxQlJGNWJlSnpGOF9VM1A5dEI0TXJyWlpoc0tucHFnU0JTa0UyTmJ0UmRR?oc=5\" target=\"_blank\">10 Animals That Kill The Most Humans</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WorldAtlas</font>"
+      },
+      "source": {
+        "href": "https://www.worldatlas.com",
+        "title": "WorldAtlas"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Sudan’s dengue epidemic spreads further, no pathogen found for South Darfur ‘hysteria’ - Radio Dabanga",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Sudan’s dengue epidemic spreads further, no pathogen found for South Darfur ‘hysteria’ - Radio Dabanga"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZGZwX1ptaDZ2RFVRTy1IZ1BZclJPSWFTc2xuTmxOclQ4Ny1HeFV5U2RuNHdtVEdNcmN1UGw0THNRWDZfWDRaOTB3VHZ2ampMRlVRbXJQWnZqYzFmWE1BSnNzSVNtM0FmLUdOdWdJczJQUFJZb0dnU2xPVU5jMFJpNllQalV0aUJiLTdOcS1DQkRsQjhGTF9ybzJWSmZGS05qNFk5RGF6RGZYNUNlak80U2VHeTFiWkR5M1RYc3VjUFBwYjlSWDgwZ0xrU0o4QjdpN2tRZUFTVQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZGZwX1ptaDZ2RFVRTy1IZ1BZclJPSWFTc2xuTmxOclQ4Ny1HeFV5U2RuNHdtVEdNcmN1UGw0THNRWDZfWDRaOTB3VHZ2ampMRlVRbXJQWnZqYzFmWE1BSnNzSVNtM0FmLUdOdWdJczJQUFJZb0dnU2xPVU5jMFJpNllQalV0aUJiLTdOcS1DQkRsQjhGTF9ybzJWSmZGS05qNFk5RGF6RGZYNUNlak80U2VHeTFiWkR5M1RYc3VjUFBwYjlSWDgwZ0xrU0o4QjdpN2tRZUFTVQ?oc=5",
+      "id": "CBMi1wFBVV95cUxQZGZwX1ptaDZ2RFVRTy1IZ1BZclJPSWFTc2xuTmxOclQ4Ny1HeFV5U2RuNHdtVEdNcmN1UGw0THNRWDZfWDRaOTB3VHZ2ampMRlVRbXJQWnZqYzFmWE1BSnNzSVNtM0FmLUdOdWdJczJQUFJZb0dnU2xPVU5jMFJpNllQalV0aUJiLTdOcS1DQkRsQjhGTF9ybzJWSmZGS05qNFk5RGF6RGZYNUNlak80U2VHeTFiWkR5M1RYc3VjUFBwYjlSWDgwZ0xrU0o4QjdpN2tRZUFTVQ",
+      "guidislink": false,
+      "published": "Fri, 18 Nov 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        11,
+        18,
+        8,
+        0,
+        0,
+        4,
+        322,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZGZwX1ptaDZ2RFVRTy1IZ1BZclJPSWFTc2xuTmxOclQ4Ny1HeFV5U2RuNHdtVEdNcmN1UGw0THNRWDZfWDRaOTB3VHZ2ampMRlVRbXJQWnZqYzFmWE1BSnNzSVNtM0FmLUdOdWdJczJQUFJZb0dnU2xPVU5jMFJpNllQalV0aUJiLTdOcS1DQkRsQjhGTF9ybzJWSmZGS05qNFk5RGF6RGZYNUNlak80U2VHeTFiWkR5M1RYc3VjUFBwYjlSWDgwZ0xrU0o4QjdpN2tRZUFTVQ?oc=5\" target=\"_blank\">Sudan’s dengue epidemic spreads further, no pathogen found for South Darfur ‘hysteria’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Radio Dabanga</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZGZwX1ptaDZ2RFVRTy1IZ1BZclJPSWFTc2xuTmxOclQ4Ny1HeFV5U2RuNHdtVEdNcmN1UGw0THNRWDZfWDRaOTB3VHZ2ampMRlVRbXJQWnZqYzFmWE1BSnNzSVNtM0FmLUdOdWdJczJQUFJZb0dnU2xPVU5jMFJpNllQalV0aUJiLTdOcS1DQkRsQjhGTF9ybzJWSmZGS05qNFk5RGF6RGZYNUNlak80U2VHeTFiWkR5M1RYc3VjUFBwYjlSWDgwZ0xrU0o4QjdpN2tRZUFTVQ?oc=5\" target=\"_blank\">Sudan’s dengue epidemic spreads further, no pathogen found for South Darfur ‘hysteria’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Radio Dabanga</font>"
+      },
+      "source": {
+        "href": "https://www.dabangasudan.org",
+        "title": "Radio Dabanga"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "First mosquito survey for the ABC Islands in nearly 75 years. - SMN News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "First mosquito survey for the ABC Islands in nearly 75 years. - SMN News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRTA3WEI3OWlpREVtREowZTdYbEl4clZ1VFk1b2NxWHVWa3BuS04wSlp4Y2V2Q2JRZ1VlTE5JSFRWMU5oMTMzS0hGRUZQVDRLRmpfZmtnVDlOd0cyX2hDV0RTUGhSalVzYkpXSGFhZWpFLVhlUE9IQVJtZnBTZFRZeldFWDNXWnB5Q01HLWg1ZDJvbjhvMTVhRzlMc2xhT1NVWkZqT1AtTXV2Y1VpNmczeDRPLTRCdm1LbTFqU3VpTl9qUXh2QzJz?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRTA3WEI3OWlpREVtREowZTdYbEl4clZ1VFk1b2NxWHVWa3BuS04wSlp4Y2V2Q2JRZ1VlTE5JSFRWMU5oMTMzS0hGRUZQVDRLRmpfZmtnVDlOd0cyX2hDV0RTUGhSalVzYkpXSGFhZWpFLVhlUE9IQVJtZnBTZFRZeldFWDNXWnB5Q01HLWg1ZDJvbjhvMTVhRzlMc2xhT1NVWkZqT1AtTXV2Y1VpNmczeDRPLTRCdm1LbTFqU3VpTl9qUXh2QzJz?oc=5",
+      "id": "CBMixwFBVV95cUxQRTA3WEI3OWlpREVtREowZTdYbEl4clZ1VFk1b2NxWHVWa3BuS04wSlp4Y2V2Q2JRZ1VlTE5JSFRWMU5oMTMzS0hGRUZQVDRLRmpfZmtnVDlOd0cyX2hDV0RTUGhSalVzYkpXSGFhZWpFLVhlUE9IQVJtZnBTZFRZeldFWDNXWnB5Q01HLWg1ZDJvbjhvMTVhRzlMc2xhT1NVWkZqT1AtTXV2Y1VpNmczeDRPLTRCdm1LbTFqU3VpTl9qUXh2QzJz",
+      "guidislink": false,
+      "published": "Thu, 10 Nov 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        11,
+        10,
+        8,
+        0,
+        0,
+        3,
+        314,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxQRTA3WEI3OWlpREVtREowZTdYbEl4clZ1VFk1b2NxWHVWa3BuS04wSlp4Y2V2Q2JRZ1VlTE5JSFRWMU5oMTMzS0hGRUZQVDRLRmpfZmtnVDlOd0cyX2hDV0RTUGhSalVzYkpXSGFhZWpFLVhlUE9IQVJtZnBTZFRZeldFWDNXWnB5Q01HLWg1ZDJvbjhvMTVhRzlMc2xhT1NVWkZqT1AtTXV2Y1VpNmczeDRPLTRCdm1LbTFqU3VpTl9qUXh2QzJz?oc=5\" target=\"_blank\">First mosquito survey for the ABC Islands in nearly 75 years.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SMN News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxQRTA3WEI3OWlpREVtREowZTdYbEl4clZ1VFk1b2NxWHVWa3BuS04wSlp4Y2V2Q2JRZ1VlTE5JSFRWMU5oMTMzS0hGRUZQVDRLRmpfZmtnVDlOd0cyX2hDV0RTUGhSalVzYkpXSGFhZWpFLVhlUE9IQVJtZnBTZFRZeldFWDNXWnB5Q01HLWg1ZDJvbjhvMTVhRzlMc2xhT1NVWkZqT1AtTXV2Y1VpNmczeDRPLTRCdm1LbTFqU3VpTl9qUXh2QzJz?oc=5\" target=\"_blank\">First mosquito survey for the ABC Islands in nearly 75 years.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SMN News</font>"
+      },
+      "source": {
+        "href": "https://smn-news.com",
+        "title": "SMN News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "13-year-old ICT genius, Emmanuella, gains admission to US varsity - The Sun Nigeria",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "13-year-old ICT genius, Emmanuella, gains admission to US varsity - The Sun Nigeria"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObTdkUG1xdmdCOFFnak1DRkpRZVhMUWEwZGQ1dWlFVmFQNUo0RE9LRUNiMDFiZ0Fxb3lDd2V5MnAtYmZGZXpDZnhIeFdDWVRsaUJqZGlsMlc1LVVTTThsY1BZU2xzQU1hMmQ2MHV4MEtpVndVd1VSaWk0YzRLeEs2c0wtc1MxaVRJTEHSAY8BQVVfeXFMTkhjLWxPZjJWZ01GZjJxS1Zha1AzRGFKeXdXU1hSSnlSTFNtMnpuZmd1QzZKVTRYZkdnOVBRNkJHTndfWHNQcFYtRnBIVTdncXQzdVRoUXNEODJ2dEU0M2Z1UFRreTFDRU5tUURKdkVISjNDNUVoZUJIV2tBQkRrMElZUjQzemNNQWJZOWJSNHM?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObTdkUG1xdmdCOFFnak1DRkpRZVhMUWEwZGQ1dWlFVmFQNUo0RE9LRUNiMDFiZ0Fxb3lDd2V5MnAtYmZGZXpDZnhIeFdDWVRsaUJqZGlsMlc1LVVTTThsY1BZU2xzQU1hMmQ2MHV4MEtpVndVd1VSaWk0YzRLeEs2c0wtc1MxaVRJTEHSAY8BQVVfeXFMTkhjLWxPZjJWZ01GZjJxS1Zha1AzRGFKeXdXU1hSSnlSTFNtMnpuZmd1QzZKVTRYZkdnOVBRNkJHTndfWHNQcFYtRnBIVTdncXQzdVRoUXNEODJ2dEU0M2Z1UFRreTFDRU5tUURKdkVISjNDNUVoZUJIV2tBQkRrMElZUjQzemNNQWJZOWJSNHM?oc=5",
+      "id": "CBMiigFBVV95cUxObTdkUG1xdmdCOFFnak1DRkpRZVhMUWEwZGQ1dWlFVmFQNUo0RE9LRUNiMDFiZ0Fxb3lDd2V5MnAtYmZGZXpDZnhIeFdDWVRsaUJqZGlsMlc1LVVTTThsY1BZU2xzQU1hMmQ2MHV4MEtpVndVd1VSaWk0YzRLeEs2c0wtc1MxaVRJTEHSAY8BQVVfeXFMTkhjLWxPZjJWZ01GZjJxS1Zha1AzRGFKeXdXU1hSSnlSTFNtMnpuZmd1QzZKVTRYZkdnOVBRNkJHTndfWHNQcFYtRnBIVTdncXQzdVRoUXNEODJ2dEU0M2Z1UFRreTFDRU5tUURKdkVISjNDNUVoZUJIV2tBQkRrMElZUjQzemNNQWJZOWJSNHM",
+      "guidislink": false,
+      "published": "Wed, 09 Nov 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        11,
+        9,
+        8,
+        0,
+        0,
+        2,
+        313,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxObTdkUG1xdmdCOFFnak1DRkpRZVhMUWEwZGQ1dWlFVmFQNUo0RE9LRUNiMDFiZ0Fxb3lDd2V5MnAtYmZGZXpDZnhIeFdDWVRsaUJqZGlsMlc1LVVTTThsY1BZU2xzQU1hMmQ2MHV4MEtpVndVd1VSaWk0YzRLeEs2c0wtc1MxaVRJTEHSAY8BQVVfeXFMTkhjLWxPZjJWZ01GZjJxS1Zha1AzRGFKeXdXU1hSSnlSTFNtMnpuZmd1QzZKVTRYZkdnOVBRNkJHTndfWHNQcFYtRnBIVTdncXQzdVRoUXNEODJ2dEU0M2Z1UFRreTFDRU5tUURKdkVISjNDNUVoZUJIV2tBQkRrMElZUjQzemNNQWJZOWJSNHM?oc=5\" target=\"_blank\">13-year-old ICT genius, Emmanuella, gains admission to US varsity</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Sun Nigeria</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxObTdkUG1xdmdCOFFnak1DRkpRZVhMUWEwZGQ1dWlFVmFQNUo0RE9LRUNiMDFiZ0Fxb3lDd2V5MnAtYmZGZXpDZnhIeFdDWVRsaUJqZGlsMlc1LVVTTThsY1BZU2xzQU1hMmQ2MHV4MEtpVndVd1VSaWk0YzRLeEs2c0wtc1MxaVRJTEHSAY8BQVVfeXFMTkhjLWxPZjJWZ01GZjJxS1Zha1AzRGFKeXdXU1hSSnlSTFNtMnpuZmd1QzZKVTRYZkdnOVBRNkJHTndfWHNQcFYtRnBIVTdncXQzdVRoUXNEODJ2dEU0M2Z1UFRreTFDRU5tUURKdkVISjNDNUVoZUJIV2tBQkRrMElZUjQzemNNQWJZOWJSNHM?oc=5\" target=\"_blank\">13-year-old ICT genius, Emmanuella, gains admission to US varsity</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Sun Nigeria</font>"
+      },
+      "source": {
+        "href": "https://thesun.ng",
+        "title": "The Sun Nigeria"
+      },
+      "sub_articles": []
+    }
+  ]
+}

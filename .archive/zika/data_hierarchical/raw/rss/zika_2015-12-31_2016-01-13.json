@@ -1,0 +1,1682 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2015-12-31",
+  "window_end": "2016-01-13",
+  "window_days": 14,
+  "window_role": "hierarchical_child",
+  "parent_window_start": "2015-12-31",
+  "parent_window_end": "2016-01-29",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2015-12-31+before%3A2016-01-14&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2015-12-31+before:2016-01-14&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T06:02:21Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2015-12-31 before:2016-01-14\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2015-12-31 before:2016-01-14\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2015-12-31+before:2016-01-14&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2015-12-31+before:2016-01-14&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 06:02:22 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      6,
+      2,
+      22,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Zika Virus in the Americas — Yet Another Arbovirus Threat - The New England Journal of Medicine",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika Virus in the Americas — Yet Another Arbovirus Threat - The New England Journal of Medicine"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ZejFfVzdJOEE0ZEMwcE9tTVRydXQtLWNKY29QdHUwQ21TU3ZZYzM4NDREaG9uajhweDhoRHVZd3RHV3FiYUlXRHAtOXdtaW92Q0paXzM0ZnBvUHpqdTJR?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ZejFfVzdJOEE0ZEMwcE9tTVRydXQtLWNKY29QdHUwQ21TU3ZZYzM4NDREaG9uajhweDhoRHVZd3RHV3FiYUlXRHAtOXdtaW92Q0paXzM0ZnBvUHpqdTJR?oc=5",
+      "id": "CBMiX0FVX3lxTE9ZejFfVzdJOEE0ZEMwcE9tTVRydXQtLWNKY29QdHUwQ21TU3ZZYzM4NDREaG9uajhweDhoRHVZd3RHV3FiYUlXRHAtOXdtaW92Q0paXzM0ZnBvUHpqdTJR",
+      "guidislink": false,
+      "published": "Wed, 13 Jan 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        1,
+        13,
+        8,
+        0,
+        0,
+        2,
+        13,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ZejFfVzdJOEE0ZEMwcE9tTVRydXQtLWNKY29QdHUwQ21TU3ZZYzM4NDREaG9uajhweDhoRHVZd3RHV3FiYUlXRHAtOXdtaW92Q0paXzM0ZnBvUHpqdTJR?oc=5\" target=\"_blank\">Zika Virus in the Americas — Yet Another Arbovirus Threat</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New England Journal of Medicine</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ZejFfVzdJOEE0ZEMwcE9tTVRydXQtLWNKY29QdHUwQ21TU3ZZYzM4NDREaG9uajhweDhoRHVZd3RHV3FiYUlXRHAtOXdtaW92Q0paXzM0ZnBvUHpqdTJR?oc=5\" target=\"_blank\">Zika Virus in the Americas — Yet Another Arbovirus Threat</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New England Journal of Medicine</font>"
+      },
+      "source": {
+        "href": "https://www.nejm.org",
+        "title": "The New England Journal of Medicine"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Anticipating the international spread of Zika virus from Brazil - The Lancet",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Anticipating the international spread of Zika virus from Brazil - The Lancet"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWWswYm01YjYtOHhWYjJQQjJxVUJTSm01MW93RjRtaFdITE03YllILWhrY21ONkx5MjBGSWxNZnNUY1VQbE4yTV9saVlHZjFhSmJhdzVyakRBUWU2NVc5NnczUVVaTWF1TFZsRVVFdm5LaUVvOVhtYVZhSWdQdUNOT29TbWRlN1MwT09r?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWWswYm01YjYtOHhWYjJQQjJxVUJTSm01MW93RjRtaFdITE03YllILWhrY21ONkx5MjBGSWxNZnNUY1VQbE4yTV9saVlHZjFhSmJhdzVyakRBUWU2NVc5NnczUVVaTWF1TFZsRVVFdm5LaUVvOVhtYVZhSWdQdUNOT29TbWRlN1MwT09r?oc=5",
+      "id": "CBMiiwFBVV95cUxNWWswYm01YjYtOHhWYjJQQjJxVUJTSm01MW93RjRtaFdITE03YllILWhrY21ONkx5MjBGSWxNZnNUY1VQbE4yTV9saVlHZjFhSmJhdzVyakRBUWU2NVc5NnczUVVaTWF1TFZsRVVFdm5LaUVvOVhtYVZhSWdQdUNOT29TbWRlN1MwT09r",
+      "guidislink": false,
+      "published": "Thu, 14 Jan 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        1,
+        14,
+        8,
+        0,
+        0,
+        3,
+        14,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWWswYm01YjYtOHhWYjJQQjJxVUJTSm01MW93RjRtaFdITE03YllILWhrY21ONkx5MjBGSWxNZnNUY1VQbE4yTV9saVlHZjFhSmJhdzVyakRBUWU2NVc5NnczUVVaTWF1TFZsRVVFdm5LaUVvOVhtYVZhSWdQdUNOT29TbWRlN1MwT09r?oc=5\" target=\"_blank\">Anticipating the international spread of Zika virus from Brazil</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Lancet</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWWswYm01YjYtOHhWYjJQQjJxVUJTSm01MW93RjRtaFdITE03YllILWhrY21ONkx5MjBGSWxNZnNUY1VQbE4yTV9saVlHZjFhSmJhdzVyakRBUWU2NVc5NnczUVVaTWF1TFZsRVVFdm5LaUVvOVhtYVZhSWdQdUNOT29TbWRlN1MwT09r?oc=5\" target=\"_blank\">Anticipating the international spread of Zika virus from Brazil</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Lancet</font>"
+      },
+      "source": {
+        "href": "https://www.thelancet.com",
+        "title": "The Lancet"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Everything you need to know about Zika virus - statnews.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Everything you need to know about Zika virus - statnews.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1Cal9hdFZ5ZFM3eTRNckY1VTFyMHVoUGdzNEV0TU95cF82Yi1ZUGhQVk5GVldiQ1oxSlFSbUJsZE1wdXJlU1RvNW5hOW1sb01lNEJscGdEY1FPWTFfeHlrMTA0LXBfaE82OHZ3MHVfRnFuczBPX3Q0?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1Cal9hdFZ5ZFM3eTRNckY1VTFyMHVoUGdzNEV0TU95cF82Yi1ZUGhQVk5GVldiQ1oxSlFSbUJsZE1wdXJlU1RvNW5hOW1sb01lNEJscGdEY1FPWTFfeHlrMTA0LXBfaE82OHZ3MHVfRnFuczBPX3Q0?oc=5",
+      "id": "CBMid0FVX3lxTE1Cal9hdFZ5ZFM3eTRNckY1VTFyMHVoUGdzNEV0TU95cF82Yi1ZUGhQVk5GVldiQ1oxSlFSbUJsZE1wdXJlU1RvNW5hOW1sb01lNEJscGdEY1FPWTFfeHlrMTA0LXBfaE82OHZ3MHVfRnFuczBPX3Q0",
+      "guidislink": false,
+      "published": "Thu, 14 Jan 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        1,
+        14,
+        8,
+        0,
+        0,
+        3,
+        14,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE1Cal9hdFZ5ZFM3eTRNckY1VTFyMHVoUGdzNEV0TU95cF82Yi1ZUGhQVk5GVldiQ1oxSlFSbUJsZE1wdXJlU1RvNW5hOW1sb01lNEJscGdEY1FPWTFfeHlrMTA0LXBfaE82OHZ3MHVfRnFuczBPX3Q0?oc=5\" target=\"_blank\">Everything you need to know about Zika virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">statnews.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE1Cal9hdFZ5ZFM3eTRNckY1VTFyMHVoUGdzNEV0TU95cF82Yi1ZUGhQVk5GVldiQ1oxSlFSbUJsZE1wdXJlU1RvNW5hOW1sb01lNEJscGdEY1FPWTFfeHlrMTA0LXBfaE82OHZ3MHVfRnFuczBPX3Q0?oc=5\" target=\"_blank\">Everything you need to know about Zika virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">statnews.com</font>"
+      },
+      "source": {
+        "href": "https://www.statnews.com",
+        "title": "statnews.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika: a rare benign virus suddenly turns nasty, and heads for the US - The Conversation",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika: a rare benign virus suddenly turns nasty, and heads for the US - The Conversation"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMFRLbWowYl8xZlY0R3d5RFFRRlJmY0FkSWtRQzE1MmJ4V0pHNjU5Z1dJNTdxVFl6UGhTLXhHMmlkandpRlJkRzJGN1BxZklOSlh3clN2YjJIZmY2VFpZc1JOZ0E5TFRsa05ZQ1RtUkd4RllDQXFyYl9RbnFYNEt5U2lsUUJBakUtM2hKN0ZWVVVWdEdPaWgzZ3MxM1VMSUV2WGc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMFRLbWowYl8xZlY0R3d5RFFRRlJmY0FkSWtRQzE1MmJ4V0pHNjU5Z1dJNTdxVFl6UGhTLXhHMmlkandpRlJkRzJGN1BxZklOSlh3clN2YjJIZmY2VFpZc1JOZ0E5TFRsa05ZQ1RtUkd4RllDQXFyYl9RbnFYNEt5U2lsUUJBakUtM2hKN0ZWVVVWdEdPaWgzZ3MxM1VMSUV2WGc?oc=5",
+      "id": "CBMiogFBVV95cUxOMFRLbWowYl8xZlY0R3d5RFFRRlJmY0FkSWtRQzE1MmJ4V0pHNjU5Z1dJNTdxVFl6UGhTLXhHMmlkandpRlJkRzJGN1BxZklOSlh3clN2YjJIZmY2VFpZc1JOZ0E5TFRsa05ZQ1RtUkd4RllDQXFyYl9RbnFYNEt5U2lsUUJBakUtM2hKN0ZWVVVWdEdPaWgzZ3MxM1VMSUV2WGc",
+      "guidislink": false,
+      "published": "Thu, 07 Jan 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        1,
+        7,
+        8,
+        0,
+        0,
+        3,
+        7,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxOMFRLbWowYl8xZlY0R3d5RFFRRlJmY0FkSWtRQzE1MmJ4V0pHNjU5Z1dJNTdxVFl6UGhTLXhHMmlkandpRlJkRzJGN1BxZklOSlh3clN2YjJIZmY2VFpZc1JOZ0E5TFRsa05ZQ1RtUkd4RllDQXFyYl9RbnFYNEt5U2lsUUJBakUtM2hKN0ZWVVVWdEdPaWgzZ3MxM1VMSUV2WGc?oc=5\" target=\"_blank\">Zika: a rare benign virus suddenly turns nasty, and heads for the US</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Conversation</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxOMFRLbWowYl8xZlY0R3d5RFFRRlJmY0FkSWtRQzE1MmJ4V0pHNjU5Z1dJNTdxVFl6UGhTLXhHMmlkandpRlJkRzJGN1BxZklOSlh3clN2YjJIZmY2VFpZc1JOZ0E5TFRsa05ZQ1RtUkd4RllDQXFyYl9RbnFYNEt5U2lsUUJBakUtM2hKN0ZWVVVWdEdPaWgzZ3MxM1VMSUV2WGc?oc=5\" target=\"_blank\">Zika: a rare benign virus suddenly turns nasty, and heads for the US</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Conversation</font>"
+      },
+      "source": {
+        "href": "https://theconversation.com",
+        "title": "The Conversation"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika Virus: A New Threat and a New Kind of Pandemic - National Geographic",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika Virus: A New Threat and a New Kind of Pandemic - National Geographic"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBQZko1aWR4X2lKTVltUXpYcFRMVzlUQ256OHdPcDNqaHVfeUVhN29uNmtjSzZ3Z3JvVTVqRzV2OW1saVRaWkg3U0RkX0MzZENqUjNnZXpTQ2l3MmQ4dEhGZTdKaDRDRmtk?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBQZko1aWR4X2lKTVltUXpYcFRMVzlUQ256OHdPcDNqaHVfeUVhN29uNmtjSzZ3Z3JvVTVqRzV2OW1saVRaWkg3U0RkX0MzZENqUjNnZXpTQ2l3MmQ4dEhGZTdKaDRDRmtk?oc=5",
+      "id": "CBMiaEFVX3lxTFBQZko1aWR4X2lKTVltUXpYcFRMVzlUQ256OHdPcDNqaHVfeUVhN29uNmtjSzZ3Z3JvVTVqRzV2OW1saVRaWkg3U0RkX0MzZENqUjNnZXpTQ2l3MmQ4dEhGZTdKaDRDRmtk",
+      "guidislink": false,
+      "published": "Wed, 13 Jan 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        1,
+        13,
+        8,
+        0,
+        0,
+        2,
+        13,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTFBQZko1aWR4X2lKTVltUXpYcFRMVzlUQ256OHdPcDNqaHVfeUVhN29uNmtjSzZ3Z3JvVTVqRzV2OW1saVRaWkg3U0RkX0MzZENqUjNnZXpTQ2l3MmQ4dEhGZTdKaDRDRmtk?oc=5\" target=\"_blank\">Zika Virus: A New Threat and a New Kind of Pandemic</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">National Geographic</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTFBQZko1aWR4X2lKTVltUXpYcFRMVzlUQ256OHdPcDNqaHVfeUVhN29uNmtjSzZ3Z3JvVTVqRzV2OW1saVRaWkg3U0RkX0MzZENqUjNnZXpTQ2l3MmQ4dEhGZTdKaDRDRmtk?oc=5\" target=\"_blank\">Zika Virus: A New Threat and a New Kind of Pandemic</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">National Geographic</font>"
+      },
+      "source": {
+        "href": "https://www.nationalgeographic.com",
+        "title": "National Geographic"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Puerto Rico reports first locally acquired Zika virus case - CIDRAP",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Puerto Rico reports first locally acquired Zika virus case - CIDRAP"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONmVEYUxLQ2JMVG5IUTlWNUxUOEV3UFdIaWQzWDBfRWRfanFRZTI0TllNT2NibFI4OWp3TnNyczBxTVpCY0hXMlRPU2ZQb3VVQkJ2ckR4ajZTQ3ZEYU1Fam1uREhOaWFnV09fSG1sXzV3VlpfcXNXTmt1a2huN3ZqVkV3MnZ2dUd5MHhFRWh5cVZXc3RE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONmVEYUxLQ2JMVG5IUTlWNUxUOEV3UFdIaWQzWDBfRWRfanFRZTI0TllNT2NibFI4OWp3TnNyczBxTVpCY0hXMlRPU2ZQb3VVQkJ2ckR4ajZTQ3ZEYU1Fam1uREhOaWFnV09fSG1sXzV3VlpfcXNXTmt1a2huN3ZqVkV3MnZ2dUd5MHhFRWh5cVZXc3RE?oc=5",
+      "id": "CBMilAFBVV95cUxONmVEYUxLQ2JMVG5IUTlWNUxUOEV3UFdIaWQzWDBfRWRfanFRZTI0TllNT2NibFI4OWp3TnNyczBxTVpCY0hXMlRPU2ZQb3VVQkJ2ckR4ajZTQ3ZEYU1Fam1uREhOaWFnV09fSG1sXzV3VlpfcXNXTmt1a2huN3ZqVkV3MnZ2dUd5MHhFRWh5cVZXc3RE",
+      "guidislink": false,
+      "published": "Mon, 04 Jan 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        1,
+        4,
+        8,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxONmVEYUxLQ2JMVG5IUTlWNUxUOEV3UFdIaWQzWDBfRWRfanFRZTI0TllNT2NibFI4OWp3TnNyczBxTVpCY0hXMlRPU2ZQb3VVQkJ2ckR4ajZTQ3ZEYU1Fam1uREhOaWFnV09fSG1sXzV3VlpfcXNXTmt1a2huN3ZqVkV3MnZ2dUd5MHhFRWh5cVZXc3RE?oc=5\" target=\"_blank\">Puerto Rico reports first locally acquired Zika virus case</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CIDRAP</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxONmVEYUxLQ2JMVG5IUTlWNUxUOEV3UFdIaWQzWDBfRWRfanFRZTI0TllNT2NibFI4OWp3TnNyczBxTVpCY0hXMlRPU2ZQb3VVQkJ2ckR4ajZTQ3ZEYU1Fam1uREhOaWFnV09fSG1sXzV3VlpfcXNXTmt1a2huN3ZqVkV3MnZ2dUd5MHhFRWh5cVZXc3RE?oc=5\" target=\"_blank\">Puerto Rico reports first locally acquired Zika virus case</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CIDRAP</font>"
+      },
+      "source": {
+        "href": "https://www.cidrap.umn.edu",
+        "title": "CIDRAP"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika virus intrauterine infection causes fetal brain abnormality and microcephaly: tip of the iceberg? - Wiley",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika virus intrauterine infection causes fetal brain abnormality and microcephaly: tip of the iceberg? - Wiley"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMickFVX3lxTE5TSmVVdUExOUd4M3MtcGJTcnBFcld3MGdkd2pWYmNBRzFUVTFsR0VpcWM2RXZhMzZCbXhhOWxka204WlBCRV9DUmRQRlBwTGFwX3dKSzZYeElGLXVBQ3JlV215REREVms2TG9LTlJhTmFHZw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5TSmVVdUExOUd4M3MtcGJTcnBFcld3MGdkd2pWYmNBRzFUVTFsR0VpcWM2RXZhMzZCbXhhOWxka204WlBCRV9DUmRQRlBwTGFwX3dKSzZYeElGLXVBQ3JlV215REREVms2TG9LTlJhTmFHZw?oc=5",
+      "id": "CBMickFVX3lxTE5TSmVVdUExOUd4M3MtcGJTcnBFcld3MGdkd2pWYmNBRzFUVTFsR0VpcWM2RXZhMzZCbXhhOWxka204WlBCRV9DUmRQRlBwTGFwX3dKSzZYeElGLXVBQ3JlV215REREVms2TG9LTlJhTmFHZw",
+      "guidislink": false,
+      "published": "Tue, 05 Jan 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        1,
+        5,
+        8,
+        0,
+        0,
+        1,
+        5,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE5TSmVVdUExOUd4M3MtcGJTcnBFcld3MGdkd2pWYmNBRzFUVTFsR0VpcWM2RXZhMzZCbXhhOWxka204WlBCRV9DUmRQRlBwTGFwX3dKSzZYeElGLXVBQ3JlV215REREVms2TG9LTlJhTmFHZw?oc=5\" target=\"_blank\">Zika virus intrauterine infection causes fetal brain abnormality and microcephaly: tip of the iceberg?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Wiley</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE5TSmVVdUExOUd4M3MtcGJTcnBFcld3MGdkd2pWYmNBRzFUVTFsR0VpcWM2RXZhMzZCbXhhOWxka204WlBCRV9DUmRQRlBwTGFwX3dKSzZYeElGLXVBQ3JlV215REREVms2TG9LTlJhTmFHZw?oc=5\" target=\"_blank\">Zika virus intrauterine infection causes fetal brain abnormality and microcephaly: tip of the iceberg?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Wiley</font>"
+      },
+      "source": {
+        "href": "https://obgyn.onlinelibrary.wiley.com",
+        "title": "Wiley"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "First case of tropical Zika virus linked to serious birth defect found in Texas - The Guardian",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "First case of tropical Zika virus linked to serious birth defect found in Texas - The Guardian"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNaUVsVnFpTjAwYm1SY002cjZlaU9QSS1zOGtsRjdSUjNYQ1NZc1MyUFN5QUpOT01kamRoN2ZXTWNkcVpKMWJPX2hyTXdBc1Vua0dRTDV3TUJTM3M1ZTJVMi1sYl9qUjRrWDBVYnBoYThwbGgxeHE1UzlKdFNkcG1QTGZnTTBZMWxpUXRiY3lVRGpHMEpHMHlHaEMwWQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNaUVsVnFpTjAwYm1SY002cjZlaU9QSS1zOGtsRjdSUjNYQ1NZc1MyUFN5QUpOT01kamRoN2ZXTWNkcVpKMWJPX2hyTXdBc1Vua0dRTDV3TUJTM3M1ZTJVMi1sYl9qUjRrWDBVYnBoYThwbGgxeHE1UzlKdFNkcG1QTGZnTTBZMWxpUXRiY3lVRGpHMEpHMHlHaEMwWQ?oc=5",
+      "id": "CBMimwFBVV95cUxNaUVsVnFpTjAwYm1SY002cjZlaU9QSS1zOGtsRjdSUjNYQ1NZc1MyUFN5QUpOT01kamRoN2ZXTWNkcVpKMWJPX2hyTXdBc1Vua0dRTDV3TUJTM3M1ZTJVMi1sYl9qUjRrWDBVYnBoYThwbGgxeHE1UzlKdFNkcG1QTGZnTTBZMWxpUXRiY3lVRGpHMEpHMHlHaEMwWQ",
+      "guidislink": false,
+      "published": "Wed, 13 Jan 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        1,
+        13,
+        8,
+        0,
+        0,
+        2,
+        13,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxNaUVsVnFpTjAwYm1SY002cjZlaU9QSS1zOGtsRjdSUjNYQ1NZc1MyUFN5QUpOT01kamRoN2ZXTWNkcVpKMWJPX2hyTXdBc1Vua0dRTDV3TUJTM3M1ZTJVMi1sYl9qUjRrWDBVYnBoYThwbGgxeHE1UzlKdFNkcG1QTGZnTTBZMWxpUXRiY3lVRGpHMEpHMHlHaEMwWQ?oc=5\" target=\"_blank\">First case of tropical Zika virus linked to serious birth defect found in Texas</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxNaUVsVnFpTjAwYm1SY002cjZlaU9QSS1zOGtsRjdSUjNYQ1NZc1MyUFN5QUpOT01kamRoN2ZXTWNkcVpKMWJPX2hyTXdBc1Vua0dRTDV3TUJTM3M1ZTJVMi1sYl9qUjRrWDBVYnBoYThwbGgxeHE1UzlKdFNkcG1QTGZnTTBZMWxpUXRiY3lVRGpHMEpHMHlHaEMwWQ?oc=5\" target=\"_blank\">First case of tropical Zika virus linked to serious birth defect found in Texas</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>"
+      },
+      "source": {
+        "href": "https://www.theguardian.com",
+        "title": "The Guardian"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika virus reported in Puerto Rico - CNN",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika virus reported in Puerto Rico - CNN"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1rc1NNM2pUXzZ2UTcza00zNW9rWkhRRjRfbE42Rk1DZFl6enBHa1liLXdXNWk2dFBuek1oS1k3T3laUTZ6WjRTOWRlcmVIbzhVMUNpR3h2bXRhN0ZkMmNTMVA4dmltWDJobkRsdVdRMVR6Ny12ZzhsYg?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1rc1NNM2pUXzZ2UTcza00zNW9rWkhRRjRfbE42Rk1DZFl6enBHa1liLXdXNWk2dFBuek1oS1k3T3laUTZ6WjRTOWRlcmVIbzhVMUNpR3h2bXRhN0ZkMmNTMVA4dmltWDJobkRsdVdRMVR6Ny12ZzhsYg?oc=5",
+      "id": "CBMieEFVX3lxTE1rc1NNM2pUXzZ2UTcza00zNW9rWkhRRjRfbE42Rk1DZFl6enBHa1liLXdXNWk2dFBuek1oS1k3T3laUTZ6WjRTOWRlcmVIbzhVMUNpR3h2bXRhN0ZkMmNTMVA4dmltWDJobkRsdVdRMVR6Ny12ZzhsYg",
+      "guidislink": false,
+      "published": "Sat, 02 Jan 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        1,
+        2,
+        8,
+        0,
+        0,
+        5,
+        2,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE1rc1NNM2pUXzZ2UTcza00zNW9rWkhRRjRfbE42Rk1DZFl6enBHa1liLXdXNWk2dFBuek1oS1k3T3laUTZ6WjRTOWRlcmVIbzhVMUNpR3h2bXRhN0ZkMmNTMVA4dmltWDJobkRsdVdRMVR6Ny12ZzhsYg?oc=5\" target=\"_blank\">Zika virus reported in Puerto Rico</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNN</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE1rc1NNM2pUXzZ2UTcza00zNW9rWkhRRjRfbE42Rk1DZFl6enBHa1liLXdXNWk2dFBuek1oS1k3T3laUTZ6WjRTOWRlcmVIbzhVMUNpR3h2bXRhN0ZkMmNTMVA4dmltWDJobkRsdVdRMVR6Ny12ZzhsYg?oc=5\" target=\"_blank\">Zika virus reported in Puerto Rico</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNN</font>"
+      },
+      "source": {
+        "href": "https://www.cnn.com",
+        "title": "CNN"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Why You Can Get So Many Diseases from Mosquitoes - Time Magazine",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Why You Can Get So Many Diseases from Mosquitoes - Time Magazine"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4UXh3MlFlMTJsQ0xKSGZvUjh5cTVrMVhwdGxBbWRUWndSY3BRbll6eEFocGFMY2pKMEJXSU9HRnJ3RXctY1VyZjh1LVk1YjdaOXpUbXIwaTBfUV9UMlYwUnozU0FnSHc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4UXh3MlFlMTJsQ0xKSGZvUjh5cTVrMVhwdGxBbWRUWndSY3BRbll6eEFocGFMY2pKMEJXSU9HRnJ3RXctY1VyZjh1LVk1YjdaOXpUbXIwaTBfUV9UMlYwUnozU0FnSHc?oc=5",
+      "id": "CBMiZ0FVX3lxTFB4UXh3MlFlMTJsQ0xKSGZvUjh5cTVrMVhwdGxBbWRUWndSY3BRbll6eEFocGFMY2pKMEJXSU9HRnJ3RXctY1VyZjh1LVk1YjdaOXpUbXIwaTBfUV9UMlYwUnozU0FnSHc",
+      "guidislink": false,
+      "published": "Wed, 13 Jan 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        1,
+        13,
+        8,
+        0,
+        0,
+        2,
+        13,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4UXh3MlFlMTJsQ0xKSGZvUjh5cTVrMVhwdGxBbWRUWndSY3BRbll6eEFocGFMY2pKMEJXSU9HRnJ3RXctY1VyZjh1LVk1YjdaOXpUbXIwaTBfUV9UMlYwUnozU0FnSHc?oc=5\" target=\"_blank\">Why You Can Get So Many Diseases from Mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Time Magazine</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4UXh3MlFlMTJsQ0xKSGZvUjh5cTVrMVhwdGxBbWRUWndSY3BRbll6eEFocGFMY2pKMEJXSU9HRnJ3RXctY1VyZjh1LVk1YjdaOXpUbXIwaTBfUV9UMlYwUnozU0FnSHc?oc=5\" target=\"_blank\">Why You Can Get So Many Diseases from Mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Time Magazine</font>"
+      },
+      "source": {
+        "href": "https://time.com",
+        "title": "Time Magazine"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Brazil Grapples With Spread of Zika Virus and Dengue Fever - WSJ",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Brazil Grapples With Spread of Zika Virus and Dengue Fever - WSJ"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMipANBVV95cUxPU2ZvX1hCZDV5blg2NXJxekJucEY3Vm9DWmZtd0NKMmFDSlRscFNlOXo0emZfUWtrSGVKX3Q0bC1taF81NDhRejNJOUtHNUloSXJzZkpUZTBmNzhRSkltTnFZQ3hTZEJqNG5ZdERobGRvQVNYbzh2aEY3NnJXQ1RjUXRYbHV4bDNVdTdidGhjc09rQmlfTjd0V2pxQXRaV19ySGpfSHNPSFk0ME5CVTFLUzJRSXZXM3RXSUtKaXVrUXZOVUdFUXdRaU1sejVpS1U3dGVRdWQwUUo3YmppbVQ4dkcxdHVvMFFHd0p3NmRXSTUxT3dmMUNmSEdvNk5MUkdKRkJsanlGQW00ZTlZeUpzckJSQ0g1eEpWVE5hWmowcVMxbUI4d3FUUkh1TWM1eVJpT2FnR2Z5N3M4LWVuamFOa2g5czVqTFpNcUV2VHhmdUQ5NVBXa09YeDdTWDVGa3BtZmxuUzVJa3Z3ZktXbWpHQmM3MmRRNmhuM05SaERDYTFEaGNuWG9CSFNRTUw3R2lZUlAxSWFRVl9uV0dlWGN1Q21YYms?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMipANBVV95cUxPU2ZvX1hCZDV5blg2NXJxekJucEY3Vm9DWmZtd0NKMmFDSlRscFNlOXo0emZfUWtrSGVKX3Q0bC1taF81NDhRejNJOUtHNUloSXJzZkpUZTBmNzhRSkltTnFZQ3hTZEJqNG5ZdERobGRvQVNYbzh2aEY3NnJXQ1RjUXRYbHV4bDNVdTdidGhjc09rQmlfTjd0V2pxQXRaV19ySGpfSHNPSFk0ME5CVTFLUzJRSXZXM3RXSUtKaXVrUXZOVUdFUXdRaU1sejVpS1U3dGVRdWQwUUo3YmppbVQ4dkcxdHVvMFFHd0p3NmRXSTUxT3dmMUNmSEdvNk5MUkdKRkJsanlGQW00ZTlZeUpzckJSQ0g1eEpWVE5hWmowcVMxbUI4d3FUUkh1TWM1eVJpT2FnR2Z5N3M4LWVuamFOa2g5czVqTFpNcUV2VHhmdUQ5NVBXa09YeDdTWDVGa3BtZmxuUzVJa3Z3ZktXbWpHQmM3MmRRNmhuM05SaERDYTFEaGNuWG9CSFNRTUw3R2lZUlAxSWFRVl9uV0dlWGN1Q21YYms?oc=5",
+      "id": "CBMipANBVV95cUxPU2ZvX1hCZDV5blg2NXJxekJucEY3Vm9DWmZtd0NKMmFDSlRscFNlOXo0emZfUWtrSGVKX3Q0bC1taF81NDhRejNJOUtHNUloSXJzZkpUZTBmNzhRSkltTnFZQ3hTZEJqNG5ZdERobGRvQVNYbzh2aEY3NnJXQ1RjUXRYbHV4bDNVdTdidGhjc09rQmlfTjd0V2pxQXRaV19ySGpfSHNPSFk0ME5CVTFLUzJRSXZXM3RXSUtKaXVrUXZOVUdFUXdRaU1sejVpS1U3dGVRdWQwUUo3YmppbVQ4dkcxdHVvMFFHd0p3NmRXSTUxT3dmMUNmSEdvNk5MUkdKRkJsanlGQW00ZTlZeUpzckJSQ0g1eEpWVE5hWmowcVMxbUI4d3FUUkh1TWM1eVJpT2FnR2Z5N3M4LWVuamFOa2g5czVqTFpNcUV2VHhmdUQ5NVBXa09YeDdTWDVGa3BtZmxuUzVJa3Z3ZktXbWpHQmM3MmRRNmhuM05SaERDYTFEaGNuWG9CSFNRTUw3R2lZUlAxSWFRVl9uV0dlWGN1Q21YYms",
+      "guidislink": false,
+      "published": "Tue, 05 Jan 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        1,
+        5,
+        8,
+        0,
+        0,
+        1,
+        5,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipANBVV95cUxPU2ZvX1hCZDV5blg2NXJxekJucEY3Vm9DWmZtd0NKMmFDSlRscFNlOXo0emZfUWtrSGVKX3Q0bC1taF81NDhRejNJOUtHNUloSXJzZkpUZTBmNzhRSkltTnFZQ3hTZEJqNG5ZdERobGRvQVNYbzh2aEY3NnJXQ1RjUXRYbHV4bDNVdTdidGhjc09rQmlfTjd0V2pxQXRaV19ySGpfSHNPSFk0ME5CVTFLUzJRSXZXM3RXSUtKaXVrUXZOVUdFUXdRaU1sejVpS1U3dGVRdWQwUUo3YmppbVQ4dkcxdHVvMFFHd0p3NmRXSTUxT3dmMUNmSEdvNk5MUkdKRkJsanlGQW00ZTlZeUpzckJSQ0g1eEpWVE5hWmowcVMxbUI4d3FUUkh1TWM1eVJpT2FnR2Z5N3M4LWVuamFOa2g5czVqTFpNcUV2VHhmdUQ5NVBXa09YeDdTWDVGa3BtZmxuUzVJa3Z3ZktXbWpHQmM3MmRRNmhuM05SaERDYTFEaGNuWG9CSFNRTUw3R2lZUlAxSWFRVl9uV0dlWGN1Q21YYms?oc=5\" target=\"_blank\">Brazil Grapples With Spread of Zika Virus and Dengue Fever</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMipANBVV95cUxPU2ZvX1hCZDV5blg2NXJxekJucEY3Vm9DWmZtd0NKMmFDSlRscFNlOXo0emZfUWtrSGVKX3Q0bC1taF81NDhRejNJOUtHNUloSXJzZkpUZTBmNzhRSkltTnFZQ3hTZEJqNG5ZdERobGRvQVNYbzh2aEY3NnJXQ1RjUXRYbHV4bDNVdTdidGhjc09rQmlfTjd0V2pxQXRaV19ySGpfSHNPSFk0ME5CVTFLUzJRSXZXM3RXSUtKaXVrUXZOVUdFUXdRaU1sejVpS1U3dGVRdWQwUUo3YmppbVQ4dkcxdHVvMFFHd0p3NmRXSTUxT3dmMUNmSEdvNk5MUkdKRkJsanlGQW00ZTlZeUpzckJSQ0g1eEpWVE5hWmowcVMxbUI4d3FUUkh1TWM1eVJpT2FnR2Z5N3M4LWVuamFOa2g5czVqTFpNcUV2VHhmdUQ5NVBXa09YeDdTWDVGa3BtZmxuUzVJa3Z3ZktXbWpHQmM3MmRRNmhuM05SaERDYTFEaGNuWG9CSFNRTUw3R2lZUlAxSWFRVl9uV0dlWGN1Q21YYms?oc=5\" target=\"_blank\">Brazil Grapples With Spread of Zika Virus and Dengue Fever</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>"
+      },
+      "source": {
+        "href": "https://www.wsj.com",
+        "title": "WSJ"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "A rare, mosquito-borne virus that may cause birth defects is poised to reach America - Vox",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "A rare, mosquito-borne virus that may cause birth defects is poised to reach America - Vox"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1GbzZsMUt5TGpWQTRWNnM5a1VtdWtoSmpfdW1GNERUTjhvZWdTcWZIZDJrVkxTMXc3SmNzUXVPZUFNOGlTdHJVVmRMdmVuVjVhLWR4cUdwZzVyNlBBX0xNVUJNendCOTg?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1GbzZsMUt5TGpWQTRWNnM5a1VtdWtoSmpfdW1GNERUTjhvZWdTcWZIZDJrVkxTMXc3SmNzUXVPZUFNOGlTdHJVVmRMdmVuVjVhLWR4cUdwZzVyNlBBX0xNVUJNendCOTg?oc=5",
+      "id": "CBMiZ0FVX3lxTE1GbzZsMUt5TGpWQTRWNnM5a1VtdWtoSmpfdW1GNERUTjhvZWdTcWZIZDJrVkxTMXc3SmNzUXVPZUFNOGlTdHJVVmRMdmVuVjVhLWR4cUdwZzVyNlBBX0xNVUJNendCOTg",
+      "guidislink": false,
+      "published": "Tue, 05 Jan 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        1,
+        5,
+        8,
+        0,
+        0,
+        1,
+        5,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1GbzZsMUt5TGpWQTRWNnM5a1VtdWtoSmpfdW1GNERUTjhvZWdTcWZIZDJrVkxTMXc3SmNzUXVPZUFNOGlTdHJVVmRMdmVuVjVhLWR4cUdwZzVyNlBBX0xNVUJNendCOTg?oc=5\" target=\"_blank\">A rare, mosquito-borne virus that may cause birth defects is poised to reach America</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vox</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1GbzZsMUt5TGpWQTRWNnM5a1VtdWtoSmpfdW1GNERUTjhvZWdTcWZIZDJrVkxTMXc3SmNzUXVPZUFNOGlTdHJVVmRMdmVuVjVhLWR4cUdwZzVyNlBBX0xNVUJNendCOTg?oc=5\" target=\"_blank\">A rare, mosquito-borne virus that may cause birth defects is poised to reach America</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vox</font>"
+      },
+      "source": {
+        "href": "https://www.vox.com",
+        "title": "Vox"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Travel warning considered as Zika virus spreads - TODAY.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Travel warning considered as Zika virus spreads - TODAY.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQ1NJQ0NrVDJ5MDk4VXBGWUsySXVtZF83UXkzRF8yeGhNQ3R4Q1VJNmNjc2lwWjZiRnJxTERud1ZTd0F2NE4tRWN6VDB1ZVhvcmNhdWpBLUluTlZYbG9pa3FKZExxa3N1TmloVWpIZ2k0T1VVMlY2emRSTlFyVnpEUzk4aTJERkE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQ1NJQ0NrVDJ5MDk4VXBGWUsySXVtZF83UXkzRF8yeGhNQ3R4Q1VJNmNjc2lwWjZiRnJxTERud1ZTd0F2NE4tRWN6VDB1ZVhvcmNhdWpBLUluTlZYbG9pa3FKZExxa3N1TmloVWpIZ2k0T1VVMlY2emRSTlFyVnpEUzk4aTJERkE?oc=5",
+      "id": "CBMihwFBVV95cUxNQ1NJQ0NrVDJ5MDk4VXBGWUsySXVtZF83UXkzRF8yeGhNQ3R4Q1VJNmNjc2lwWjZiRnJxTERud1ZTd0F2NE4tRWN6VDB1ZVhvcmNhdWpBLUluTlZYbG9pa3FKZExxa3N1TmloVWpIZ2k0T1VVMlY2emRSTlFyVnpEUzk4aTJERkE",
+      "guidislink": false,
+      "published": "Thu, 14 Jan 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        1,
+        14,
+        8,
+        0,
+        0,
+        3,
+        14,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxNQ1NJQ0NrVDJ5MDk4VXBGWUsySXVtZF83UXkzRF8yeGhNQ3R4Q1VJNmNjc2lwWjZiRnJxTERud1ZTd0F2NE4tRWN6VDB1ZVhvcmNhdWpBLUluTlZYbG9pa3FKZExxa3N1TmloVWpIZ2k0T1VVMlY2emRSTlFyVnpEUzk4aTJERkE?oc=5\" target=\"_blank\">Travel warning considered as Zika virus spreads</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TODAY.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxNQ1NJQ0NrVDJ5MDk4VXBGWUsySXVtZF83UXkzRF8yeGhNQ3R4Q1VJNmNjc2lwWjZiRnJxTERud1ZTd0F2NE4tRWN6VDB1ZVhvcmNhdWpBLUluTlZYbG9pa3FKZExxa3N1TmloVWpIZ2k0T1VVMlY2emRSTlFyVnpEUzk4aTJERkE?oc=5\" target=\"_blank\">Travel warning considered as Zika virus spreads</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TODAY.com</font>"
+      },
+      "source": {
+        "href": "https://www.today.com",
+        "title": "TODAY.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Global Health Forecast For 2016: Which Diseases Will Rise ... Or Fall? - NPR",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Global Health Forecast For 2016: Which Diseases Will Rise ... Or Fall? - NPR"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOV3phcnYxaEtNM3F1WWhDYm00VFhUNk5PVUVLSE9leEs3OVF0djhMMmpRVGJBaFNCa1dIWC1pNnozY0NsWlowUEhqdXE4ckdwTlhheXZWOFE3N2dzeVBRX2JjY1NrM2czVF9KV25YeXh0NUlfR1NjS0l1MWNYc2o3dFVvcHRtNWJMaXk4V05jSG1SMV9VbTFoZW9XR1lXOVJrSGpSSHZNUEtoaFh1YThXQVRTdi1FV2xrME5YMXFnbkpaV2Y5U1E?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOV3phcnYxaEtNM3F1WWhDYm00VFhUNk5PVUVLSE9leEs3OVF0djhMMmpRVGJBaFNCa1dIWC1pNnozY0NsWlowUEhqdXE4ckdwTlhheXZWOFE3N2dzeVBRX2JjY1NrM2czVF9KV25YeXh0NUlfR1NjS0l1MWNYc2o3dFVvcHRtNWJMaXk4V05jSG1SMV9VbTFoZW9XR1lXOVJrSGpSSHZNUEtoaFh1YThXQVRTdi1FV2xrME5YMXFnbkpaV2Y5U1E?oc=5",
+      "id": "CBMixgFBVV95cUxOV3phcnYxaEtNM3F1WWhDYm00VFhUNk5PVUVLSE9leEs3OVF0djhMMmpRVGJBaFNCa1dIWC1pNnozY0NsWlowUEhqdXE4ckdwTlhheXZWOFE3N2dzeVBRX2JjY1NrM2czVF9KV25YeXh0NUlfR1NjS0l1MWNYc2o3dFVvcHRtNWJMaXk4V05jSG1SMV9VbTFoZW9XR1lXOVJrSGpSSHZNUEtoaFh1YThXQVRTdi1FV2xrME5YMXFnbkpaV2Y5U1E",
+      "guidislink": false,
+      "published": "Mon, 04 Jan 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        1,
+        4,
+        8,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxOV3phcnYxaEtNM3F1WWhDYm00VFhUNk5PVUVLSE9leEs3OVF0djhMMmpRVGJBaFNCa1dIWC1pNnozY0NsWlowUEhqdXE4ckdwTlhheXZWOFE3N2dzeVBRX2JjY1NrM2czVF9KV25YeXh0NUlfR1NjS0l1MWNYc2o3dFVvcHRtNWJMaXk4V05jSG1SMV9VbTFoZW9XR1lXOVJrSGpSSHZNUEtoaFh1YThXQVRTdi1FV2xrME5YMXFnbkpaV2Y5U1E?oc=5\" target=\"_blank\">Global Health Forecast For 2016: Which Diseases Will Rise ... Or Fall?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NPR</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxOV3phcnYxaEtNM3F1WWhDYm00VFhUNk5PVUVLSE9leEs3OVF0djhMMmpRVGJBaFNCa1dIWC1pNnozY0NsWlowUEhqdXE4ckdwTlhheXZWOFE3N2dzeVBRX2JjY1NrM2czVF9KV25YeXh0NUlfR1NjS0l1MWNYc2o3dFVvcHRtNWJMaXk4V05jSG1SMV9VbTFoZW9XR1lXOVJrSGpSSHZNUEtoaFh1YThXQVRTdi1FV2xrME5YMXFnbkpaV2Y5U1E?oc=5\" target=\"_blank\">Global Health Forecast For 2016: Which Diseases Will Rise ... Or Fall?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NPR</font>"
+      },
+      "source": {
+        "href": "https://www.npr.org",
+        "title": "NPR"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Mosquitoes Are Spreading a Rare Virus Around the World - WIRED",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Mosquitoes Are Spreading a Rare Virus Around the World - WIRED"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBQRTJLY0lPZ0RTZ2YtQ1ZEMGExQk83NmU4YVpaYjJvT1oyOWhNdnVYQkZnVnBvdXlYV2daeWNlSDNucUlBRzZCaEE1VnhyaFVxSWxF?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBQRTJLY0lPZ0RTZ2YtQ1ZEMGExQk83NmU4YVpaYjJvT1oyOWhNdnVYQkZnVnBvdXlYV2daeWNlSDNucUlBRzZCaEE1VnhyaFVxSWxF?oc=5",
+      "id": "CBMiU0FVX3lxTFBQRTJLY0lPZ0RTZ2YtQ1ZEMGExQk83NmU4YVpaYjJvT1oyOWhNdnVYQkZnVnBvdXlYV2daeWNlSDNucUlBRzZCaEE1VnhyaFVxSWxF",
+      "guidislink": false,
+      "published": "Wed, 06 Jan 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        1,
+        6,
+        8,
+        0,
+        0,
+        2,
+        6,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTFBQRTJLY0lPZ0RTZ2YtQ1ZEMGExQk83NmU4YVpaYjJvT1oyOWhNdnVYQkZnVnBvdXlYV2daeWNlSDNucUlBRzZCaEE1VnhyaFVxSWxF?oc=5\" target=\"_blank\">Mosquitoes Are Spreading a Rare Virus Around the World</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WIRED</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTFBQRTJLY0lPZ0RTZ2YtQ1ZEMGExQk83NmU4YVpaYjJvT1oyOWhNdnVYQkZnVnBvdXlYV2daeWNlSDNucUlBRzZCaEE1VnhyaFVxSWxF?oc=5\" target=\"_blank\">Mosquitoes Are Spreading a Rare Virus Around the World</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WIRED</font>"
+      },
+      "source": {
+        "href": "https://www.wired.com",
+        "title": "WIRED"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Puerto Rico Reports First Case of Zika Virus, Linked to Birth Defect - NBC News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Puerto Rico Reports First Case of Zika Virus, Linked to Birth Defect - NBC News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMW9BaHhTRzVJdERveGJkenYxSG4wQmJMUFhIQUkxdGFFU25Rc05IUVEtRXp3Y0gtdE9ZeEUxZ2VaMGszcHZqSFdFdjlSVmdNZ2xMdmN6bERMREJEU0ZDZ0pYX2IyXzFfOVlFbkdCRGhuOXQ2dzZQYWRickVqNTh3U29sUFZrMVZ2MzNnd1laaC1kRndsYW5TcjhadDRjQmsxOTV3LUdFQzc4dWVXZjlUQ0RXTUc4ZjZ4ckhNQ3F0YmM?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMW9BaHhTRzVJdERveGJkenYxSG4wQmJMUFhIQUkxdGFFU25Rc05IUVEtRXp3Y0gtdE9ZeEUxZ2VaMGszcHZqSFdFdjlSVmdNZ2xMdmN6bERMREJEU0ZDZ0pYX2IyXzFfOVlFbkdCRGhuOXQ2dzZQYWRickVqNTh3U29sUFZrMVZ2MzNnd1laaC1kRndsYW5TcjhadDRjQmsxOTV3LUdFQzc4dWVXZjlUQ0RXTUc4ZjZ4ckhNQ3F0YmM?oc=5",
+      "id": "CBMiwAFBVV95cUxNMW9BaHhTRzVJdERveGJkenYxSG4wQmJMUFhIQUkxdGFFU25Rc05IUVEtRXp3Y0gtdE9ZeEUxZ2VaMGszcHZqSFdFdjlSVmdNZ2xMdmN6bERMREJEU0ZDZ0pYX2IyXzFfOVlFbkdCRGhuOXQ2dzZQYWRickVqNTh3U29sUFZrMVZ2MzNnd1laaC1kRndsYW5TcjhadDRjQmsxOTV3LUdFQzc4dWVXZjlUQ0RXTUc4ZjZ4ckhNQ3F0YmM",
+      "guidislink": false,
+      "published": "Fri, 01 Jan 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        1,
+        1,
+        8,
+        0,
+        0,
+        4,
+        1,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMW9BaHhTRzVJdERveGJkenYxSG4wQmJMUFhIQUkxdGFFU25Rc05IUVEtRXp3Y0gtdE9ZeEUxZ2VaMGszcHZqSFdFdjlSVmdNZ2xMdmN6bERMREJEU0ZDZ0pYX2IyXzFfOVlFbkdCRGhuOXQ2dzZQYWRickVqNTh3U29sUFZrMVZ2MzNnd1laaC1kRndsYW5TcjhadDRjQmsxOTV3LUdFQzc4dWVXZjlUQ0RXTUc4ZjZ4ckhNQ3F0YmM?oc=5\" target=\"_blank\">Puerto Rico Reports First Case of Zika Virus, Linked to Birth Defect</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NBC News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNMW9BaHhTRzVJdERveGJkenYxSG4wQmJMUFhIQUkxdGFFU25Rc05IUVEtRXp3Y0gtdE9ZeEUxZ2VaMGszcHZqSFdFdjlSVmdNZ2xMdmN6bERMREJEU0ZDZ0pYX2IyXzFfOVlFbkdCRGhuOXQ2dzZQYWRickVqNTh3U29sUFZrMVZ2MzNnd1laaC1kRndsYW5TcjhadDRjQmsxOTV3LUdFQzc4dWVXZjlUQ0RXTUc4ZjZ4ckhNQ3F0YmM?oc=5\" target=\"_blank\">Puerto Rico Reports First Case of Zika Virus, Linked to Birth Defect</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NBC News</font>"
+      },
+      "source": {
+        "href": "https://www.nbcnews.com",
+        "title": "NBC News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "What's Behind Brazil's Alarming Surge in Babies Born with Small Heads - Scientific American",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "What's Behind Brazil's Alarming Surge in Babies Born with Small Heads - Scientific American"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaVNlS1liOUFOZVktRTViSTZFYVByLWhURG5odEFPZjYxaFN4amROVGpHUmtrNHRlOV9jOU5RdjA1NWtGMmFhZzc1cDVYOEFMMjhfcWFnWlNJU1dHNFRITHBmNko3elh5bGVDYUdTMkR0TU1VSE1UMXQ0UjZPdzJwM0Q5bnVmUjBRU0tXVTFNNk84T3FJNWVGWEt3VjBaX0ZQbGx1MDRtbUM5N3VDdjBsMjNFYw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaVNlS1liOUFOZVktRTViSTZFYVByLWhURG5odEFPZjYxaFN4amROVGpHUmtrNHRlOV9jOU5RdjA1NWtGMmFhZzc1cDVYOEFMMjhfcWFnWlNJU1dHNFRITHBmNko3elh5bGVDYUdTMkR0TU1VSE1UMXQ0UjZPdzJwM0Q5bnVmUjBRU0tXVTFNNk84T3FJNWVGWEt3VjBaX0ZQbGx1MDRtbUM5N3VDdjBsMjNFYw?oc=5",
+      "id": "CBMiswFBVV95cUxQaVNlS1liOUFOZVktRTViSTZFYVByLWhURG5odEFPZjYxaFN4amROVGpHUmtrNHRlOV9jOU5RdjA1NWtGMmFhZzc1cDVYOEFMMjhfcWFnWlNJU1dHNFRITHBmNko3elh5bGVDYUdTMkR0TU1VSE1UMXQ0UjZPdzJwM0Q5bnVmUjBRU0tXVTFNNk84T3FJNWVGWEt3VjBaX0ZQbGx1MDRtbUM5N3VDdjBsMjNFYw",
+      "guidislink": false,
+      "published": "Wed, 06 Jan 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        1,
+        6,
+        8,
+        0,
+        0,
+        2,
+        6,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQaVNlS1liOUFOZVktRTViSTZFYVByLWhURG5odEFPZjYxaFN4amROVGpHUmtrNHRlOV9jOU5RdjA1NWtGMmFhZzc1cDVYOEFMMjhfcWFnWlNJU1dHNFRITHBmNko3elh5bGVDYUdTMkR0TU1VSE1UMXQ0UjZPdzJwM0Q5bnVmUjBRU0tXVTFNNk84T3FJNWVGWEt3VjBaX0ZQbGx1MDRtbUM5N3VDdjBsMjNFYw?oc=5\" target=\"_blank\">What's Behind Brazil's Alarming Surge in Babies Born with Small Heads</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Scientific American</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQaVNlS1liOUFOZVktRTViSTZFYVByLWhURG5odEFPZjYxaFN4amROVGpHUmtrNHRlOV9jOU5RdjA1NWtGMmFhZzc1cDVYOEFMMjhfcWFnWlNJU1dHNFRITHBmNko3elh5bGVDYUdTMkR0TU1VSE1UMXQ0UjZPdzJwM0Q5bnVmUjBRU0tXVTFNNk84T3FJNWVGWEt3VjBaX0ZQbGx1MDRtbUM5N3VDdjBsMjNFYw?oc=5\" target=\"_blank\">What's Behind Brazil's Alarming Surge in Babies Born with Small Heads</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Scientific American</font>"
+      },
+      "source": {
+        "href": "https://www.scientificamerican.com",
+        "title": "Scientific American"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "The Institut Pasteur in French Guiana publishes the first complete genome sequence of the Zika virus circulating in the Americas - Institut Pasteur",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "The Institut Pasteur in French Guiana publishes the first complete genome sequence of the Zika virus circulating in the Americas - Institut Pasteur"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONjhaSW1kQVYzU1ZseFg1TXFkTU1MTWQwMXdPUFplNW54elpocHlrWFZaUVJ2d1l5TFMyUGJ6T0tzSWFnckZaSENqZEZQdWdSZk4wc09URnc1UnJ4eC1Hd0VnVGJvVS04ZUt6SzlwM0VrenJzR09wVnlPOWZCalJTMlhzUEwyTGRGbTRDVTl3V2ZKZG1KSWE3ZWplb3lFUk9vS2ZxUFlOWXhDZU1UcmwtajBxeEhfTjQ4QVkzVA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONjhaSW1kQVYzU1ZseFg1TXFkTU1MTWQwMXdPUFplNW54elpocHlrWFZaUVJ2d1l5TFMyUGJ6T0tzSWFnckZaSENqZEZQdWdSZk4wc09URnc1UnJ4eC1Hd0VnVGJvVS04ZUt6SzlwM0VrenJzR09wVnlPOWZCalJTMlhzUEwyTGRGbTRDVTl3V2ZKZG1KSWE3ZWplb3lFUk9vS2ZxUFlOWXhDZU1UcmwtajBxeEhfTjQ4QVkzVA?oc=5",
+      "id": "CBMivAFBVV95cUxONjhaSW1kQVYzU1ZseFg1TXFkTU1MTWQwMXdPUFplNW54elpocHlrWFZaUVJ2d1l5TFMyUGJ6T0tzSWFnckZaSENqZEZQdWdSZk4wc09URnc1UnJ4eC1Hd0VnVGJvVS04ZUt6SzlwM0VrenJzR09wVnlPOWZCalJTMlhzUEwyTGRGbTRDVTl3V2ZKZG1KSWE3ZWplb3lFUk9vS2ZxUFlOWXhDZU1UcmwtajBxeEhfTjQ4QVkzVA",
+      "guidislink": false,
+      "published": "Fri, 08 Jan 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        1,
+        8,
+        8,
+        0,
+        0,
+        4,
+        8,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxONjhaSW1kQVYzU1ZseFg1TXFkTU1MTWQwMXdPUFplNW54elpocHlrWFZaUVJ2d1l5TFMyUGJ6T0tzSWFnckZaSENqZEZQdWdSZk4wc09URnc1UnJ4eC1Hd0VnVGJvVS04ZUt6SzlwM0VrenJzR09wVnlPOWZCalJTMlhzUEwyTGRGbTRDVTl3V2ZKZG1KSWE3ZWplb3lFUk9vS2ZxUFlOWXhDZU1UcmwtajBxeEhfTjQ4QVkzVA?oc=5\" target=\"_blank\">The Institut Pasteur in French Guiana publishes the first complete genome sequence of the Zika virus circulating in the Americas</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Institut Pasteur</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxONjhaSW1kQVYzU1ZseFg1TXFkTU1MTWQwMXdPUFplNW54elpocHlrWFZaUVJ2d1l5TFMyUGJ6T0tzSWFnckZaSENqZEZQdWdSZk4wc09URnc1UnJ4eC1Hd0VnVGJvVS04ZUt6SzlwM0VrenJzR09wVnlPOWZCalJTMlhzUEwyTGRGbTRDVTl3V2ZKZG1KSWE3ZWplb3lFUk9vS2ZxUFlOWXhDZU1UcmwtajBxeEhfTjQ4QVkzVA?oc=5\" target=\"_blank\">The Institut Pasteur in French Guiana publishes the first complete genome sequence of the Zika virus circulating in the Americas</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Institut Pasteur</font>"
+      },
+      "source": {
+        "href": "https://www.pasteur.fr",
+        "title": "Institut Pasteur"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "B.C. resident diagnosed with Zika virus after trip to El Salvador - CBC",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "B.C. resident diagnosed with Zika virus after trip to El Salvador - CBC"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAwNnFlYWZRTkZVdVJLTE85aldGWkdNY29scklLajhPWTBqMlFMdW04ZHd6bmlsRWdGcXdEU25jSlh0SEx0clVfckhsN0JCYlk1YU5uTDFGWVBYdzVfcjNqVQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAwNnFlYWZRTkZVdVJLTE85aldGWkdNY29scklLajhPWTBqMlFMdW04ZHd6bmlsRWdGcXdEU25jSlh0SEx0clVfckhsN0JCYlk1YU5uTDFGWVBYdzVfcjNqVQ?oc=5",
+      "id": "CBMiYEFVX3lxTFAwNnFlYWZRTkZVdVJLTE85aldGWkdNY29scklLajhPWTBqMlFMdW04ZHd6bmlsRWdGcXdEU25jSlh0SEx0clVfckhsN0JCYlk1YU5uTDFGWVBYdzVfcjNqVQ",
+      "guidislink": false,
+      "published": "Mon, 11 Jan 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        1,
+        11,
+        8,
+        0,
+        0,
+        0,
+        11,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTFAwNnFlYWZRTkZVdVJLTE85aldGWkdNY29scklLajhPWTBqMlFMdW04ZHd6bmlsRWdGcXdEU25jSlh0SEx0clVfckhsN0JCYlk1YU5uTDFGWVBYdzVfcjNqVQ?oc=5\" target=\"_blank\">B.C. resident diagnosed with Zika virus after trip to El Salvador</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CBC</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTFAwNnFlYWZRTkZVdVJLTE85aldGWkdNY29scklLajhPWTBqMlFMdW04ZHd6bmlsRWdGcXdEU25jSlh0SEx0clVfckhsN0JCYlk1YU5uTDFGWVBYdzVfcjNqVQ?oc=5\" target=\"_blank\">B.C. resident diagnosed with Zika virus after trip to El Salvador</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CBC</font>"
+      },
+      "source": {
+        "href": "https://www.cbc.ca",
+        "title": "CBC"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika virus likely tied to Brazil’s surge in babies born with small heads, CDC says - statnews.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika virus likely tied to Brazil’s surge in babies born with small heads, CDC says - statnews.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9GZmFXQzAwc3l4aDMtZ0JzM1Z3RlNuTWUwelA5LWVySXFVSnhjM0RmUEJzTnhSck5Bd2toYzBSQnZkUGFmbUlod1RGZGR4V045eU9SNkEyZnFMWU9UZm5LeDFYb1dsdlFXRkFVYw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9GZmFXQzAwc3l4aDMtZ0JzM1Z3RlNuTWUwelA5LWVySXFVSnhjM0RmUEJzTnhSck5Bd2toYzBSQnZkUGFmbUlod1RGZGR4V045eU9SNkEyZnFMWU9UZm5LeDFYb1dsdlFXRkFVYw?oc=5",
+      "id": "CBMibEFVX3lxTE9GZmFXQzAwc3l4aDMtZ0JzM1Z3RlNuTWUwelA5LWVySXFVSnhjM0RmUEJzTnhSck5Bd2toYzBSQnZkUGFmbUlod1RGZGR4V045eU9SNkEyZnFMWU9UZm5LeDFYb1dsdlFXRkFVYw",
+      "guidislink": false,
+      "published": "Wed, 13 Jan 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        1,
+        13,
+        8,
+        0,
+        0,
+        2,
+        13,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE9GZmFXQzAwc3l4aDMtZ0JzM1Z3RlNuTWUwelA5LWVySXFVSnhjM0RmUEJzTnhSck5Bd2toYzBSQnZkUGFmbUlod1RGZGR4V045eU9SNkEyZnFMWU9UZm5LeDFYb1dsdlFXRkFVYw?oc=5\" target=\"_blank\">Zika virus likely tied to Brazil’s surge in babies born with small heads, CDC says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">statnews.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE9GZmFXQzAwc3l4aDMtZ0JzM1Z3RlNuTWUwelA5LWVySXFVSnhjM0RmUEJzTnhSck5Bd2toYzBSQnZkUGFmbUlod1RGZGR4V045eU9SNkEyZnFMWU9UZm5LeDFYb1dsdlFXRkFVYw?oc=5\" target=\"_blank\">Zika virus likely tied to Brazil’s surge in babies born with small heads, CDC says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">statnews.com</font>"
+      },
+      "source": {
+        "href": "https://www.statnews.com",
+        "title": "statnews.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "A little-known, untreatable virus is quickly spreading across the Americas - Business Insider",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "A little-known, untreatable virus is quickly spreading across the Americas - Business Insider"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMib0FVX3lxTE52Vjd0N25MR3FJQWNnSGxOQ1V0VHJISGFXUFY4dTFITWg4WXgxNG1mU25pTXdsS29CN2NpQjhhVTBZbEgyWGEwd21pd1VENVBqaENueThVSUZKQkNjaEVUbmN5dURINC02TmFrZ2lLNA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE52Vjd0N25MR3FJQWNnSGxOQ1V0VHJISGFXUFY4dTFITWg4WXgxNG1mU25pTXdsS29CN2NpQjhhVTBZbEgyWGEwd21pd1VENVBqaENueThVSUZKQkNjaEVUbmN5dURINC02TmFrZ2lLNA?oc=5",
+      "id": "CBMib0FVX3lxTE52Vjd0N25MR3FJQWNnSGxOQ1V0VHJISGFXUFY4dTFITWg4WXgxNG1mU25pTXdsS29CN2NpQjhhVTBZbEgyWGEwd21pd1VENVBqaENueThVSUZKQkNjaEVUbmN5dURINC02TmFrZ2lLNA",
+      "guidislink": false,
+      "published": "Mon, 04 Jan 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        1,
+        4,
+        8,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE52Vjd0N25MR3FJQWNnSGxOQ1V0VHJISGFXUFY4dTFITWg4WXgxNG1mU25pTXdsS29CN2NpQjhhVTBZbEgyWGEwd21pd1VENVBqaENueThVSUZKQkNjaEVUbmN5dURINC02TmFrZ2lLNA?oc=5\" target=\"_blank\">A little-known, untreatable virus is quickly spreading across the Americas</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Business Insider</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE52Vjd0N25MR3FJQWNnSGxOQ1V0VHJISGFXUFY4dTFITWg4WXgxNG1mU25pTXdsS29CN2NpQjhhVTBZbEgyWGEwd21pd1VENVBqaENueThVSUZKQkNjaEVUbmN5dURINC02TmFrZ2lLNA?oc=5\" target=\"_blank\">A little-known, untreatable virus is quickly spreading across the Americas</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Business Insider</font>"
+      },
+      "source": {
+        "href": "https://www.businessinsider.com",
+        "title": "Business Insider"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "As diseases proliferate, mosquitoes becoming Public Enemy No. 1 - USA Today",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "As diseases proliferate, mosquitoes becoming Public Enemy No. 1 - USA Today"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdDJrR3loQXN4WWhtNlRrN0hnMDJfeU9BMTlYUGMyYXFERGtEZ0VIcFd4Mlpha0NpbkRRbW9yaThYSnRabG51LUV6ZzNQWlVzcDF3M1dnTEM4elVRRFdrRi1nRFpmYkhNbnFLdW1OaG10eWN6RHRFalFOZUx4aVdzT0d4cW51bWJFejdpM0xvRzRTMGtITE9sbUtFeHE0ZjhMd3lLWlF1Q051elFpeFk0ZW1MamVEQQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdDJrR3loQXN4WWhtNlRrN0hnMDJfeU9BMTlYUGMyYXFERGtEZ0VIcFd4Mlpha0NpbkRRbW9yaThYSnRabG51LUV6ZzNQWlVzcDF3M1dnTEM4elVRRFdrRi1nRFpmYkhNbnFLdW1OaG10eWN6RHRFalFOZUx4aVdzT0d4cW51bWJFejdpM0xvRzRTMGtITE9sbUtFeHE0ZjhMd3lLWlF1Q051elFpeFk0ZW1MamVEQQ?oc=5",
+      "id": "CBMitgFBVV95cUxNdDJrR3loQXN4WWhtNlRrN0hnMDJfeU9BMTlYUGMyYXFERGtEZ0VIcFd4Mlpha0NpbkRRbW9yaThYSnRabG51LUV6ZzNQWlVzcDF3M1dnTEM4elVRRFdrRi1nRFpmYkhNbnFLdW1OaG10eWN6RHRFalFOZUx4aVdzT0d4cW51bWJFejdpM0xvRzRTMGtITE9sbUtFeHE0ZjhMd3lLWlF1Q051elFpeFk0ZW1MamVEQQ",
+      "guidislink": false,
+      "published": "Thu, 14 Jan 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        1,
+        14,
+        8,
+        0,
+        0,
+        3,
+        14,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxNdDJrR3loQXN4WWhtNlRrN0hnMDJfeU9BMTlYUGMyYXFERGtEZ0VIcFd4Mlpha0NpbkRRbW9yaThYSnRabG51LUV6ZzNQWlVzcDF3M1dnTEM4elVRRFdrRi1nRFpmYkhNbnFLdW1OaG10eWN6RHRFalFOZUx4aVdzT0d4cW51bWJFejdpM0xvRzRTMGtITE9sbUtFeHE0ZjhMd3lLWlF1Q051elFpeFk0ZW1MamVEQQ?oc=5\" target=\"_blank\">As diseases proliferate, mosquitoes becoming Public Enemy No. 1</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">USA Today</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxNdDJrR3loQXN4WWhtNlRrN0hnMDJfeU9BMTlYUGMyYXFERGtEZ0VIcFd4Mlpha0NpbkRRbW9yaThYSnRabG51LUV6ZzNQWlVzcDF3M1dnTEM4elVRRFdrRi1nRFpmYkhNbnFLdW1OaG10eWN6RHRFalFOZUx4aVdzT0d4cW51bWJFejdpM0xvRzRTMGtITE9sbUtFeHE0ZjhMd3lLWlF1Q051elFpeFk0ZW1MamVEQQ?oc=5\" target=\"_blank\">As diseases proliferate, mosquitoes becoming Public Enemy No. 1</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">USA Today</font>"
+      },
+      "source": {
+        "href": "https://www.usatoday.com",
+        "title": "USA Today"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Another mosquito-borne virus may be headed to U.S. - KVUE",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Another mosquito-borne virus may be headed to U.S. - KVUE"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdGtRTGRLNElfR0xqbFRFZkRvbXdySmJvcGwzOHhEMGdGLVROU3J2Nl9CcE5HSG1TcDlNX09fZTRqZU0tVUN0MUkza0N5cWJXQUlJY3kwckxaWi1LM19GODBlaGtXS3RKX29ILXE1UlRucF9vaVk3amVKWFByMGZFS3hIXy1fSGdSY0ZCYWk2cjNFSW8tWFBlTWVEVWl3YzFKVklybg?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdGtRTGRLNElfR0xqbFRFZkRvbXdySmJvcGwzOHhEMGdGLVROU3J2Nl9CcE5HSG1TcDlNX09fZTRqZU0tVUN0MUkza0N5cWJXQUlJY3kwckxaWi1LM19GODBlaGtXS3RKX29ILXE1UlRucF9vaVk3amVKWFByMGZFS3hIXy1fSGdSY0ZCYWk2cjNFSW8tWFBlTWVEVWl3YzFKVklybg?oc=5",
+      "id": "CBMipAFBVV95cUxOdGtRTGRLNElfR0xqbFRFZkRvbXdySmJvcGwzOHhEMGdGLVROU3J2Nl9CcE5HSG1TcDlNX09fZTRqZU0tVUN0MUkza0N5cWJXQUlJY3kwckxaWi1LM19GODBlaGtXS3RKX29ILXE1UlRucF9vaVk3amVKWFByMGZFS3hIXy1fSGdSY0ZCYWk2cjNFSW8tWFBlTWVEVWl3YzFKVklybg",
+      "guidislink": false,
+      "published": "Tue, 05 Jan 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        1,
+        5,
+        8,
+        0,
+        0,
+        1,
+        5,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxOdGtRTGRLNElfR0xqbFRFZkRvbXdySmJvcGwzOHhEMGdGLVROU3J2Nl9CcE5HSG1TcDlNX09fZTRqZU0tVUN0MUkza0N5cWJXQUlJY3kwckxaWi1LM19GODBlaGtXS3RKX29ILXE1UlRucF9vaVk3amVKWFByMGZFS3hIXy1fSGdSY0ZCYWk2cjNFSW8tWFBlTWVEVWl3YzFKVklybg?oc=5\" target=\"_blank\">Another mosquito-borne virus may be headed to U.S.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KVUE</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxOdGtRTGRLNElfR0xqbFRFZkRvbXdySmJvcGwzOHhEMGdGLVROU3J2Nl9CcE5HSG1TcDlNX09fZTRqZU0tVUN0MUkza0N5cWJXQUlJY3kwckxaWi1LM19GODBlaGtXS3RKX29ILXE1UlRucF9vaVk3amVKWFByMGZFS3hIXy1fSGdSY0ZCYWk2cjNFSW8tWFBlTWVEVWl3YzFKVklybg?oc=5\" target=\"_blank\">Another mosquito-borne virus may be headed to U.S.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">KVUE</font>"
+      },
+      "source": {
+        "href": "https://www.kvue.com",
+        "title": "KVUE"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika virus may be linked to birth defects in Brazil, health officials say - CBC",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika virus may be linked to birth defects in Brazil, health officials say - CBC"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5xa3VMZVc5VTU4bWhuX21yOTlTVTVoTVl2aGFFNHZZQmZQbnFNTElPYjM4M3BtQkVoRDcxQVBQR0JKczN2TXN4Ty1QVUNMZ0NMZVN1V0xzVklWQi1fVHEtb2RJeHh6STJyTXBlaXhZQTExMTg?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5xa3VMZVc5VTU4bWhuX21yOTlTVTVoTVl2aGFFNHZZQmZQbnFNTElPYjM4M3BtQkVoRDcxQVBQR0JKczN2TXN4Ty1QVUNMZ0NMZVN1V0xzVklWQi1fVHEtb2RJeHh6STJyTXBlaXhZQTExMTg?oc=5",
+      "id": "CBMic0FVX3lxTE5xa3VMZVc5VTU4bWhuX21yOTlTVTVoTVl2aGFFNHZZQmZQbnFNTElPYjM4M3BtQkVoRDcxQVBQR0JKczN2TXN4Ty1QVUNMZ0NMZVN1V0xzVklWQi1fVHEtb2RJeHh6STJyTXBlaXhZQTExMTg",
+      "guidislink": false,
+      "published": "Thu, 14 Jan 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        1,
+        14,
+        8,
+        0,
+        0,
+        3,
+        14,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE5xa3VMZVc5VTU4bWhuX21yOTlTVTVoTVl2aGFFNHZZQmZQbnFNTElPYjM4M3BtQkVoRDcxQVBQR0JKczN2TXN4Ty1QVUNMZ0NMZVN1V0xzVklWQi1fVHEtb2RJeHh6STJyTXBlaXhZQTExMTg?oc=5\" target=\"_blank\">Zika virus may be linked to birth defects in Brazil, health officials say</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CBC</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE5xa3VMZVc5VTU4bWhuX21yOTlTVTVoTVl2aGFFNHZZQmZQbnFNTElPYjM4M3BtQkVoRDcxQVBQR0JKczN2TXN4Ty1QVUNMZ0NMZVN1V0xzVklWQi1fVHEtb2RJeHh6STJyTXBlaXhZQTExMTg?oc=5\" target=\"_blank\">Zika virus may be linked to birth defects in Brazil, health officials say</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CBC</font>"
+      },
+      "source": {
+        "href": "https://www.cbc.ca",
+        "title": "CBC"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika is latest mosquito-borne virus knocking on Texas' door - Sun Herald",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika is latest mosquito-borne virus knocking on Texas' door - Sun Herald"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBkY0Y3S0lJM1Fld2paWEhiWGZtaWdMT0c4M0ZUeExmZ1VSTWhTQkx6R1J4TWdTcUpnMHZET1owXzlwbkM0eXU2bVlBR0MzTUlrRFEtb3JDSDc2bk1tSUpRUy1qQUVyYmhnY1HSAWpBVV95cUxOWGxzc1FiZWRQRDBob1Mwc2lRalQ0ZUhyaTBiNzMzOWdDTmxMOF94SkJjcUtzLUVzeWlscFBmbnlhS0drS1dQbTdJY2Nja1hQM3pyZkdvVjM3YmNsdWt4SzhuR3p2VmhWZnF3?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBkY0Y3S0lJM1Fld2paWEhiWGZtaWdMT0c4M0ZUeExmZ1VSTWhTQkx6R1J4TWdTcUpnMHZET1owXzlwbkM0eXU2bVlBR0MzTUlrRFEtb3JDSDc2bk1tSUpRUy1qQUVyYmhnY1HSAWpBVV95cUxOWGxzc1FiZWRQRDBob1Mwc2lRalQ0ZUhyaTBiNzMzOWdDTmxMOF94SkJjcUtzLUVzeWlscFBmbnlhS0drS1dQbTdJY2Nja1hQM3pyZkdvVjM3YmNsdWt4SzhuR3p2VmhWZnF3?oc=5",
+      "id": "CBMiakFVX3lxTFBkY0Y3S0lJM1Fld2paWEhiWGZtaWdMT0c4M0ZUeExmZ1VSTWhTQkx6R1J4TWdTcUpnMHZET1owXzlwbkM0eXU2bVlBR0MzTUlrRFEtb3JDSDc2bk1tSUpRUy1qQUVyYmhnY1HSAWpBVV95cUxOWGxzc1FiZWRQRDBob1Mwc2lRalQ0ZUhyaTBiNzMzOWdDTmxMOF94SkJjcUtzLUVzeWlscFBmbnlhS0drS1dQbTdJY2Nja1hQM3pyZkdvVjM3YmNsdWt4SzhuR3p2VmhWZnF3",
+      "guidislink": false,
+      "published": "Thu, 14 Jan 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        1,
+        14,
+        8,
+        0,
+        0,
+        3,
+        14,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTFBkY0Y3S0lJM1Fld2paWEhiWGZtaWdMT0c4M0ZUeExmZ1VSTWhTQkx6R1J4TWdTcUpnMHZET1owXzlwbkM0eXU2bVlBR0MzTUlrRFEtb3JDSDc2bk1tSUpRUy1qQUVyYmhnY1HSAWpBVV95cUxOWGxzc1FiZWRQRDBob1Mwc2lRalQ0ZUhyaTBiNzMzOWdDTmxMOF94SkJjcUtzLUVzeWlscFBmbnlhS0drS1dQbTdJY2Nja1hQM3pyZkdvVjM3YmNsdWt4SzhuR3p2VmhWZnF3?oc=5\" target=\"_blank\">Zika is latest mosquito-borne virus knocking on Texas' door</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sun Herald</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTFBkY0Y3S0lJM1Fld2paWEhiWGZtaWdMT0c4M0ZUeExmZ1VSTWhTQkx6R1J4TWdTcUpnMHZET1owXzlwbkM0eXU2bVlBR0MzTUlrRFEtb3JDSDc2bk1tSUpRUy1qQUVyYmhnY1HSAWpBVV95cUxOWGxzc1FiZWRQRDBob1Mwc2lRalQ0ZUhyaTBiNzMzOWdDTmxMOF94SkJjcUtzLUVzeWlscFBmbnlhS0drS1dQbTdJY2Nja1hQM3pyZkdvVjM3YmNsdWt4SzhuR3p2VmhWZnF3?oc=5\" target=\"_blank\">Zika is latest mosquito-borne virus knocking on Texas' door</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sun Herald</font>"
+      },
+      "source": {
+        "href": "https://www.sunherald.com",
+        "title": "Sun Herald"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika Virus Reported In Puerto Rico: 10 Things To Know About This Mosquito-Borne Disease - Latin Times",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika Virus Reported In Puerto Rico: 10 Things To Know About This Mosquito-Borne Disease - Latin Times"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVV9DalNnMmsxUkVHT1FDX1I1UmVoVE4xUEwzUUdwbDJ0RW5PNWxUXzBQYTg5SUVHeWU0a09yVUc5MW5qTFV2LUk2RjBCb0dpcjlsM3RwcXF1ZVh1elZoaXhsa1Z4ajZUOUIyajhDWTI4dEF4RTczVTNmWnVmNlh4Z3FDYmplQ0doZno3R0t0TmlqS3BGd0QxV1RhaDdZN1J2eVFaOHhCRF9JelM3Snc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVV9DalNnMmsxUkVHT1FDX1I1UmVoVE4xUEwzUUdwbDJ0RW5PNWxUXzBQYTg5SUVHeWU0a09yVUc5MW5qTFV2LUk2RjBCb0dpcjlsM3RwcXF1ZVh1elZoaXhsa1Z4ajZUOUIyajhDWTI4dEF4RTczVTNmWnVmNlh4Z3FDYmplQ0doZno3R0t0TmlqS3BGd0QxV1RhaDdZN1J2eVFaOHhCRF9JelM3Snc?oc=5",
+      "id": "CBMirgFBVV95cUxPVV9DalNnMmsxUkVHT1FDX1I1UmVoVE4xUEwzUUdwbDJ0RW5PNWxUXzBQYTg5SUVHeWU0a09yVUc5MW5qTFV2LUk2RjBCb0dpcjlsM3RwcXF1ZVh1elZoaXhsa1Z4ajZUOUIyajhDWTI4dEF4RTczVTNmWnVmNlh4Z3FDYmplQ0doZno3R0t0TmlqS3BGd0QxV1RhaDdZN1J2eVFaOHhCRF9JelM3Snc",
+      "guidislink": false,
+      "published": "Mon, 04 Jan 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        1,
+        4,
+        8,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxPVV9DalNnMmsxUkVHT1FDX1I1UmVoVE4xUEwzUUdwbDJ0RW5PNWxUXzBQYTg5SUVHeWU0a09yVUc5MW5qTFV2LUk2RjBCb0dpcjlsM3RwcXF1ZVh1elZoaXhsa1Z4ajZUOUIyajhDWTI4dEF4RTczVTNmWnVmNlh4Z3FDYmplQ0doZno3R0t0TmlqS3BGd0QxV1RhaDdZN1J2eVFaOHhCRF9JelM3Snc?oc=5\" target=\"_blank\">Zika Virus Reported In Puerto Rico: 10 Things To Know About This Mosquito-Borne Disease</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Latin Times</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxPVV9DalNnMmsxUkVHT1FDX1I1UmVoVE4xUEwzUUdwbDJ0RW5PNWxUXzBQYTg5SUVHeWU0a09yVUc5MW5qTFV2LUk2RjBCb0dpcjlsM3RwcXF1ZVh1elZoaXhsa1Z4ajZUOUIyajhDWTI4dEF4RTczVTNmWnVmNlh4Z3FDYmplQ0doZno3R0t0TmlqS3BGd0QxV1RhaDdZN1J2eVFaOHhCRF9JelM3Snc?oc=5\" target=\"_blank\">Zika Virus Reported In Puerto Rico: 10 Things To Know About This Mosquito-Borne Disease</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Latin Times</font>"
+      },
+      "source": {
+        "href": "https://www.latintimes.com",
+        "title": "Latin Times"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Almost 500 new cases of Zika-induced microcephaly reported in Brazil - ZME Science",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Almost 500 new cases of Zika-induced microcephaly reported in Brazil - ZME Science"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9oQjQteEJtSFZHV3JyZUhrbGMzc2h4cjNURlNnbTJ3aVB5WVVBXzF1bmlCYUE0c2JoTnNSVWkyNVhBQ0JKWmNhc0FEdExZRVNrZUo0ak40T2kwNnphbWwxY2xWSVl4a2tSbkdJWU5rWkh4QnRjeGlvWA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9oQjQteEJtSFZHV3JyZUhrbGMzc2h4cjNURlNnbTJ3aVB5WVVBXzF1bmlCYUE0c2JoTnNSVWkyNVhBQ0JKWmNhc0FEdExZRVNrZUo0ak40T2kwNnphbWwxY2xWSVl4a2tSbkdJWU5rWkh4QnRjeGlvWA?oc=5",
+      "id": "CBMieEFVX3lxTE9oQjQteEJtSFZHV3JyZUhrbGMzc2h4cjNURlNnbTJ3aVB5WVVBXzF1bmlCYUE0c2JoTnNSVWkyNVhBQ0JKWmNhc0FEdExZRVNrZUo0ak40T2kwNnphbWwxY2xWSVl4a2tSbkdJWU5rWkh4QnRjeGlvWA",
+      "guidislink": false,
+      "published": "Mon, 11 Jan 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        1,
+        11,
+        8,
+        0,
+        0,
+        0,
+        11,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE9oQjQteEJtSFZHV3JyZUhrbGMzc2h4cjNURlNnbTJ3aVB5WVVBXzF1bmlCYUE0c2JoTnNSVWkyNVhBQ0JKWmNhc0FEdExZRVNrZUo0ak40T2kwNnphbWwxY2xWSVl4a2tSbkdJWU5rWkh4QnRjeGlvWA?oc=5\" target=\"_blank\">Almost 500 new cases of Zika-induced microcephaly reported in Brazil</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ZME Science</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE9oQjQteEJtSFZHV3JyZUhrbGMzc2h4cjNURlNnbTJ3aVB5WVVBXzF1bmlCYUE0c2JoTnNSVWkyNVhBQ0JKWmNhc0FEdExZRVNrZUo0ak40T2kwNnphbWwxY2xWSVl4a2tSbkdJWU5rWkh4QnRjeGlvWA?oc=5\" target=\"_blank\">Almost 500 new cases of Zika-induced microcephaly reported in Brazil</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ZME Science</font>"
+      },
+      "source": {
+        "href": "https://www.zmescience.com",
+        "title": "ZME Science"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Puerto Rico Reports First Case Of Zika Virus, Spread By Mosquitoes - NDTV",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Puerto Rico Reports First Case Of Zika Virus, Spread By Mosquitoes - NDTV"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPczIxdWp6WDdkNi04N2Y4cDU3YjU1b0pkR25IcWVvMFBkTXN4OWVvVGI3U2xhWVpJVkNmdFRHMTdjdjB4TTExaHlYWV9vSldoUWhpckcxWXJoOXF4SUFXOGE4X1MyMnpmWFJFazM0T1dsMXpUa2lmQnRleGRpTjh3M3dIRDdrMW5jc01NSEVaaS1oRmh6VWFHR2s3cHE5d3pqSUM0?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPczIxdWp6WDdkNi04N2Y4cDU3YjU1b0pkR25IcWVvMFBkTXN4OWVvVGI3U2xhWVpJVkNmdFRHMTdjdjB4TTExaHlYWV9vSldoUWhpckcxWXJoOXF4SUFXOGE4X1MyMnpmWFJFazM0T1dsMXpUa2lmQnRleGRpTjh3M3dIRDdrMW5jc01NSEVaaS1oRmh6VWFHR2s3cHE5d3pqSUM0?oc=5",
+      "id": "CBMiowFBVV95cUxPczIxdWp6WDdkNi04N2Y4cDU3YjU1b0pkR25IcWVvMFBkTXN4OWVvVGI3U2xhWVpJVkNmdFRHMTdjdjB4TTExaHlYWV9vSldoUWhpckcxWXJoOXF4SUFXOGE4X1MyMnpmWFJFazM0T1dsMXpUa2lmQnRleGRpTjh3M3dIRDdrMW5jc01NSEVaaS1oRmh6VWFHR2s3cHE5d3pqSUM0",
+      "guidislink": false,
+      "published": "Fri, 01 Jan 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        1,
+        1,
+        8,
+        0,
+        0,
+        4,
+        1,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxPczIxdWp6WDdkNi04N2Y4cDU3YjU1b0pkR25IcWVvMFBkTXN4OWVvVGI3U2xhWVpJVkNmdFRHMTdjdjB4TTExaHlYWV9vSldoUWhpckcxWXJoOXF4SUFXOGE4X1MyMnpmWFJFazM0T1dsMXpUa2lmQnRleGRpTjh3M3dIRDdrMW5jc01NSEVaaS1oRmh6VWFHR2s3cHE5d3pqSUM0?oc=5\" target=\"_blank\">Puerto Rico Reports First Case Of Zika Virus, Spread By Mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NDTV</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxPczIxdWp6WDdkNi04N2Y4cDU3YjU1b0pkR25IcWVvMFBkTXN4OWVvVGI3U2xhWVpJVkNmdFRHMTdjdjB4TTExaHlYWV9vSldoUWhpckcxWXJoOXF4SUFXOGE4X1MyMnpmWFJFazM0T1dsMXpUa2lmQnRleGRpTjh3M3dIRDdrMW5jc01NSEVaaS1oRmh6VWFHR2s3cHE5d3pqSUM0?oc=5\" target=\"_blank\">Puerto Rico Reports First Case Of Zika Virus, Spread By Mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NDTV</font>"
+      },
+      "source": {
+        "href": "https://www.ndtv.com",
+        "title": "NDTV"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Residents Warned To Be On Alert For The Zika Virus - Government of the Virgin Islands",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Residents Warned To Be On Alert For The Zika Virus - Government of the Virgin Islands"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMid0FVX3lxTE51Y003UDZjNGxGQkp5VVhHZzFqcnNfTTR0U3hVUXlsTEhfdW9ZeDJhdG9kS1dudXpLSnloRUpnZWdaRGtkNjhVeElFdGdManJyS2p5UFl5OFRyXzNibVFabjhHcmdNQ3F0RklhbEhSRFRiNXk2TGtz?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE51Y003UDZjNGxGQkp5VVhHZzFqcnNfTTR0U3hVUXlsTEhfdW9ZeDJhdG9kS1dudXpLSnloRUpnZWdaRGtkNjhVeElFdGdManJyS2p5UFl5OFRyXzNibVFabjhHcmdNQ3F0RklhbEhSRFRiNXk2TGtz?oc=5",
+      "id": "CBMid0FVX3lxTE51Y003UDZjNGxGQkp5VVhHZzFqcnNfTTR0U3hVUXlsTEhfdW9ZeDJhdG9kS1dudXpLSnloRUpnZWdaRGtkNjhVeElFdGdManJyS2p5UFl5OFRyXzNibVFabjhHcmdNQ3F0RklhbEhSRFRiNXk2TGtz",
+      "guidislink": false,
+      "published": "Mon, 04 Jan 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        1,
+        4,
+        8,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE51Y003UDZjNGxGQkp5VVhHZzFqcnNfTTR0U3hVUXlsTEhfdW9ZeDJhdG9kS1dudXpLSnloRUpnZWdaRGtkNjhVeElFdGdManJyS2p5UFl5OFRyXzNibVFabjhHcmdNQ3F0RklhbEhSRFRiNXk2TGtz?oc=5\" target=\"_blank\">Residents Warned To Be On Alert For The Zika Virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Government of the Virgin Islands</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTE51Y003UDZjNGxGQkp5VVhHZzFqcnNfTTR0U3hVUXlsTEhfdW9ZeDJhdG9kS1dudXpLSnloRUpnZWdaRGtkNjhVeElFdGdManJyS2p5UFl5OFRyXzNibVFabjhHcmdNQ3F0RklhbEhSRFRiNXk2TGtz?oc=5\" target=\"_blank\">Residents Warned To Be On Alert For The Zika Virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Government of the Virgin Islands</font>"
+      },
+      "source": {
+        "href": "https://bvi.gov.vg",
+        "title": "Government of the Virgin Islands"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Birth Defect-Linked Zika Virus In Puerto Rico - Sky News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Birth Defect-Linked Zika Virus In Puerto Rico - Sky News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNT2xDenNtMm1hRnB0S2REVWlXYXNZN2d6WXF5MmIzYVJQVTlSd1c0YzhHam9uMDZzU2l2aS1xdEpZVEpHT0FaeG1vZlRiWDJJSWFhWEdUaVpqTC1Tanc5NXktOGhtbzRsdlZOaXROeVQ4bmFYNFBPQWRBcHVHWVhXRWVXVkRqeFd1?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNT2xDenNtMm1hRnB0S2REVWlXYXNZN2d6WXF5MmIzYVJQVTlSd1c0YzhHam9uMDZzU2l2aS1xdEpZVEpHT0FaeG1vZlRiWDJJSWFhWEdUaVpqTC1Tanc5NXktOGhtbzRsdlZOaXROeVQ4bmFYNFBPQWRBcHVHWVhXRWVXVkRqeFd1?oc=5",
+      "id": "CBMiiAFBVV95cUxNT2xDenNtMm1hRnB0S2REVWlXYXNZN2d6WXF5MmIzYVJQVTlSd1c0YzhHam9uMDZzU2l2aS1xdEpZVEpHT0FaeG1vZlRiWDJJSWFhWEdUaVpqTC1Tanc5NXktOGhtbzRsdlZOaXROeVQ4bmFYNFBPQWRBcHVHWVhXRWVXVkRqeFd1",
+      "guidislink": false,
+      "published": "Sat, 02 Jan 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        1,
+        2,
+        8,
+        0,
+        0,
+        5,
+        2,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxNT2xDenNtMm1hRnB0S2REVWlXYXNZN2d6WXF5MmIzYVJQVTlSd1c0YzhHam9uMDZzU2l2aS1xdEpZVEpHT0FaeG1vZlRiWDJJSWFhWEdUaVpqTC1Tanc5NXktOGhtbzRsdlZOaXROeVQ4bmFYNFBPQWRBcHVHWVhXRWVXVkRqeFd1?oc=5\" target=\"_blank\">Birth Defect-Linked Zika Virus In Puerto Rico</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sky News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxNT2xDenNtMm1hRnB0S2REVWlXYXNZN2d6WXF5MmIzYVJQVTlSd1c0YzhHam9uMDZzU2l2aS1xdEpZVEpHT0FaeG1vZlRiWDJJSWFhWEdUaVpqTC1Tanc5NXktOGhtbzRsdlZOaXROeVQ4bmFYNFBPQWRBcHVHWVhXRWVXVkRqeFd1?oc=5\" target=\"_blank\">Birth Defect-Linked Zika Virus In Puerto Rico</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sky News</font>"
+      },
+      "source": {
+        "href": "https://news.sky.com",
+        "title": "Sky News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika virus that shrinks babies' brains is spreading across South America after Puerto Rico detects case, say scientists - The Independent",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika virus that shrinks babies' brains is spreading across South America after Puerto Rico detects case, say scientists - The Independent"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRENJLUFPMWdOdEZuWi1TOWhrNmZuLUN1MFJYWTZjWm44eWhnTHVIR0lzUWxVbTJpUXllMEhkbVcwZVV4QkNYMTBlTG1vc1VrQ1k0YThnQ09ub296ckIyeVBkZmFubEVJQkVFUFZnOGJESXdFVnN4cXJmbC1PVDNZU3dCRms2M2k5dGFoTlFadVVhSzJHaVROMHNjWVdJT0RaRGduY28wVHVqLWdPWHlfXzFZcjhZa0RMaDhFWEp3OUxuOTJIRHBYcA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRENJLUFPMWdOdEZuWi1TOWhrNmZuLUN1MFJYWTZjWm44eWhnTHVIR0lzUWxVbTJpUXllMEhkbVcwZVV4QkNYMTBlTG1vc1VrQ1k0YThnQ09ub296ckIyeVBkZmFubEVJQkVFUFZnOGJESXdFVnN4cXJmbC1PVDNZU3dCRms2M2k5dGFoTlFadVVhSzJHaVROMHNjWVdJT0RaRGduY28wVHVqLWdPWHlfXzFZcjhZa0RMaDhFWEp3OUxuOTJIRHBYcA?oc=5",
+      "id": "CBMiyAFBVV95cUxQRENJLUFPMWdOdEZuWi1TOWhrNmZuLUN1MFJYWTZjWm44eWhnTHVIR0lzUWxVbTJpUXllMEhkbVcwZVV4QkNYMTBlTG1vc1VrQ1k0YThnQ09ub296ckIyeVBkZmFubEVJQkVFUFZnOGJESXdFVnN4cXJmbC1PVDNZU3dCRms2M2k5dGFoTlFadVVhSzJHaVROMHNjWVdJT0RaRGduY28wVHVqLWdPWHlfXzFZcjhZa0RMaDhFWEp3OUxuOTJIRHBYcA",
+      "guidislink": false,
+      "published": "Mon, 04 Jan 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        1,
+        4,
+        8,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRENJLUFPMWdOdEZuWi1TOWhrNmZuLUN1MFJYWTZjWm44eWhnTHVIR0lzUWxVbTJpUXllMEhkbVcwZVV4QkNYMTBlTG1vc1VrQ1k0YThnQ09ub296ckIyeVBkZmFubEVJQkVFUFZnOGJESXdFVnN4cXJmbC1PVDNZU3dCRms2M2k5dGFoTlFadVVhSzJHaVROMHNjWVdJT0RaRGduY28wVHVqLWdPWHlfXzFZcjhZa0RMaDhFWEp3OUxuOTJIRHBYcA?oc=5\" target=\"_blank\">Zika virus that shrinks babies' brains is spreading across South America after Puerto Rico detects case, say scientists</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Independent</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRENJLUFPMWdOdEZuWi1TOWhrNmZuLUN1MFJYWTZjWm44eWhnTHVIR0lzUWxVbTJpUXllMEhkbVcwZVV4QkNYMTBlTG1vc1VrQ1k0YThnQ09ub296ckIyeVBkZmFubEVJQkVFUFZnOGJESXdFVnN4cXJmbC1PVDNZU3dCRms2M2k5dGFoTlFadVVhSzJHaVROMHNjWVdJT0RaRGduY28wVHVqLWdPWHlfXzFZcjhZa0RMaDhFWEp3OUxuOTJIRHBYcA?oc=5\" target=\"_blank\">Zika virus that shrinks babies' brains is spreading across South America after Puerto Rico detects case, say scientists</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Independent</font>"
+      },
+      "source": {
+        "href": "https://www.independent.co.uk",
+        "title": "The Independent"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "P.R. Reports First Case of Zika Virus in Region - St. Thomas Source",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "P.R. Reports First Case of Zika Virus in Region - St. Thomas Source"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQX1JJSkNZanZDT0ZVVlZpZ0hrYjRfOTFqQWdIMFJGLWFsdTVxVzF4RlhaYnZ3d0FlYjUyYnRoR0tnMFdPT0FvSU10aFA0Y0hzOUtaaXhEWm1VUXFCUU5QbEZhdkVCRFhvY0tiQjFkaU9aYlhfMUduUklGU1pxNHloTFpBdWJNSjB4dEJmUzNvR3hXemJXcV9CeQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQX1JJSkNZanZDT0ZVVlZpZ0hrYjRfOTFqQWdIMFJGLWFsdTVxVzF4RlhaYnZ3d0FlYjUyYnRoR0tnMFdPT0FvSU10aFA0Y0hzOUtaaXhEWm1VUXFCUU5QbEZhdkVCRFhvY0tiQjFkaU9aYlhfMUduUklGU1pxNHloTFpBdWJNSjB4dEJmUzNvR3hXemJXcV9CeQ?oc=5",
+      "id": "CBMimAFBVV95cUxQX1JJSkNZanZDT0ZVVlZpZ0hrYjRfOTFqQWdIMFJGLWFsdTVxVzF4RlhaYnZ3d0FlYjUyYnRoR0tnMFdPT0FvSU10aFA0Y0hzOUtaaXhEWm1VUXFCUU5QbEZhdkVCRFhvY0tiQjFkaU9aYlhfMUduUklGU1pxNHloTFpBdWJNSjB4dEJmUzNvR3hXemJXcV9CeQ",
+      "guidislink": false,
+      "published": "Tue, 05 Jan 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        1,
+        5,
+        8,
+        0,
+        0,
+        1,
+        5,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxQX1JJSkNZanZDT0ZVVlZpZ0hrYjRfOTFqQWdIMFJGLWFsdTVxVzF4RlhaYnZ3d0FlYjUyYnRoR0tnMFdPT0FvSU10aFA0Y0hzOUtaaXhEWm1VUXFCUU5QbEZhdkVCRFhvY0tiQjFkaU9aYlhfMUduUklGU1pxNHloTFpBdWJNSjB4dEJmUzNvR3hXemJXcV9CeQ?oc=5\" target=\"_blank\">P.R. Reports First Case of Zika Virus in Region</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">St. Thomas Source</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxQX1JJSkNZanZDT0ZVVlZpZ0hrYjRfOTFqQWdIMFJGLWFsdTVxVzF4RlhaYnZ3d0FlYjUyYnRoR0tnMFdPT0FvSU10aFA0Y0hzOUtaaXhEWm1VUXFCUU5QbEZhdkVCRFhvY0tiQjFkaU9aYlhfMUduUklGU1pxNHloTFpBdWJNSjB4dEJmUzNvR3hXemJXcV9CeQ?oc=5\" target=\"_blank\">P.R. Reports First Case of Zika Virus in Region</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">St. Thomas Source</font>"
+      },
+      "source": {
+        "href": "https://stthomassource.com",
+        "title": "St. Thomas Source"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Health Zika virus in the Americas: What you need to know By PAHO-WHO Jan 11, 2016 - 1:20:49 PM - The Bahamas Weekly",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Health Zika virus in the Americas: What you need to know By PAHO-WHO Jan 11, 2016 - 1:20:49 PM - The Bahamas Weekly"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNTGtoRkVKMjc2TVE1X0NfU1J1SExIdVc0X3NMTHJZeXRrVE84SHowcmFRcnhLcWxzeHBfZjZ5NlYxRFJwUW93Zjc2NlJKeE9iS1lIaVQxSGprd0RaX2QxeFA4ZUZOSkQwc0hncE10NnZTWGNWXzVoS1Jpc213SmRWc3hKcjJ3WEw1U1BuU1Z1QnBHaEs2WVBiWEtfYW9DWDVCT0tDNWxqcUNwYmU5TWFXUEp1MkpUR1FvOTd4LUlvUFhuT1hvOWxhNFVITkNJUE5tLUNFSndtZGNBRkVDVkd4eHhLMUhpUQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNTGtoRkVKMjc2TVE1X0NfU1J1SExIdVc0X3NMTHJZeXRrVE84SHowcmFRcnhLcWxzeHBfZjZ5NlYxRFJwUW93Zjc2NlJKeE9iS1lIaVQxSGprd0RaX2QxeFA4ZUZOSkQwc0hncE10NnZTWGNWXzVoS1Jpc213SmRWc3hKcjJ3WEw1U1BuU1Z1QnBHaEs2WVBiWEtfYW9DWDVCT0tDNWxqcUNwYmU5TWFXUEp1MkpUR1FvOTd4LUlvUFhuT1hvOWxhNFVITkNJUE5tLUNFSndtZGNBRkVDVkd4eHhLMUhpUQ?oc=5",
+      "id": "CBMi5gFBVV95cUxNTGtoRkVKMjc2TVE1X0NfU1J1SExIdVc0X3NMTHJZeXRrVE84SHowcmFRcnhLcWxzeHBfZjZ5NlYxRFJwUW93Zjc2NlJKeE9iS1lIaVQxSGprd0RaX2QxeFA4ZUZOSkQwc0hncE10NnZTWGNWXzVoS1Jpc213SmRWc3hKcjJ3WEw1U1BuU1Z1QnBHaEs2WVBiWEtfYW9DWDVCT0tDNWxqcUNwYmU5TWFXUEp1MkpUR1FvOTd4LUlvUFhuT1hvOWxhNFVITkNJUE5tLUNFSndtZGNBRkVDVkd4eHhLMUhpUQ",
+      "guidislink": false,
+      "published": "Mon, 11 Jan 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        1,
+        11,
+        8,
+        0,
+        0,
+        0,
+        11,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi5gFBVV95cUxNTGtoRkVKMjc2TVE1X0NfU1J1SExIdVc0X3NMTHJZeXRrVE84SHowcmFRcnhLcWxzeHBfZjZ5NlYxRFJwUW93Zjc2NlJKeE9iS1lIaVQxSGprd0RaX2QxeFA4ZUZOSkQwc0hncE10NnZTWGNWXzVoS1Jpc213SmRWc3hKcjJ3WEw1U1BuU1Z1QnBHaEs2WVBiWEtfYW9DWDVCT0tDNWxqcUNwYmU5TWFXUEp1MkpUR1FvOTd4LUlvUFhuT1hvOWxhNFVITkNJUE5tLUNFSndtZGNBRkVDVkd4eHhLMUhpUQ?oc=5\" target=\"_blank\">Health Zika virus in the Americas: What you need to know By PAHO-WHO Jan 11, 2016 - 1:20:49 PM</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Bahamas Weekly</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi5gFBVV95cUxNTGtoRkVKMjc2TVE1X0NfU1J1SExIdVc0X3NMTHJZeXRrVE84SHowcmFRcnhLcWxzeHBfZjZ5NlYxRFJwUW93Zjc2NlJKeE9iS1lIaVQxSGprd0RaX2QxeFA4ZUZOSkQwc0hncE10NnZTWGNWXzVoS1Jpc213SmRWc3hKcjJ3WEw1U1BuU1Z1QnBHaEs2WVBiWEtfYW9DWDVCT0tDNWxqcUNwYmU5TWFXUEp1MkpUR1FvOTd4LUlvUFhuT1hvOWxhNFVITkNJUE5tLUNFSndtZGNBRkVDVkd4eHhLMUhpUQ?oc=5\" target=\"_blank\">Health Zika virus in the Americas: What you need to know By PAHO-WHO Jan 11, 2016 - 1:20:49 PM</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Bahamas Weekly</font>"
+      },
+      "source": {
+        "href": "http://www.thebahamasweekly.com",
+        "title": "The Bahamas Weekly"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika virus and pregnancy: FAQs - PressReader",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika virus and pregnancy: FAQs - PressReader"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQeUxhREtCR1A0UjI0YjdOaWpoRzl1T093bmI5V3dqZ05HeVRyaVhhdXoxdHR5b1huX2xZalBhcG1LeEFvYTRnT05sUlNab29pWHVTajgyX3lLTVdTRi1xLUVEUHA5U2FBYkpCSU9MRmhxUU43RnZNc3BQcHF6U3kwWk53?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQeUxhREtCR1A0UjI0YjdOaWpoRzl1T093bmI5V3dqZ05HeVRyaVhhdXoxdHR5b1huX2xZalBhcG1LeEFvYTRnT05sUlNab29pWHVTajgyX3lLTVdTRi1xLUVEUHA5U2FBYkpCSU9MRmhxUU43RnZNc3BQcHF6U3kwWk53?oc=5",
+      "id": "CBMiggFBVV95cUxQeUxhREtCR1A0UjI0YjdOaWpoRzl1T093bmI5V3dqZ05HeVRyaVhhdXoxdHR5b1huX2xZalBhcG1LeEFvYTRnT05sUlNab29pWHVTajgyX3lLTVdTRi1xLUVEUHA5U2FBYkpCSU9MRmhxUU43RnZNc3BQcHF6U3kwWk53",
+      "guidislink": false,
+      "published": "Wed, 13 Jan 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        1,
+        13,
+        8,
+        0,
+        0,
+        2,
+        13,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxQeUxhREtCR1A0UjI0YjdOaWpoRzl1T093bmI5V3dqZ05HeVRyaVhhdXoxdHR5b1huX2xZalBhcG1LeEFvYTRnT05sUlNab29pWHVTajgyX3lLTVdTRi1xLUVEUHA5U2FBYkpCSU9MRmhxUU43RnZNc3BQcHF6U3kwWk53?oc=5\" target=\"_blank\">Zika virus and pregnancy: FAQs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PressReader</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxQeUxhREtCR1A0UjI0YjdOaWpoRzl1T093bmI5V3dqZ05HeVRyaVhhdXoxdHR5b1huX2xZalBhcG1LeEFvYTRnT05sUlNab29pWHVTajgyX3lLTVdTRi1xLUVEUHA5U2FBYkpCSU9MRmhxUU43RnZNc3BQcHF6U3kwWk53?oc=5\" target=\"_blank\">Zika virus and pregnancy: FAQs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PressReader</font>"
+      },
+      "source": {
+        "href": "https://www.pressreader.com",
+        "title": "PressReader"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "El Salvador issues alert against illness-bearing mosquitoes - Inquirer.net",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "El Salvador issues alert against illness-bearing mosquitoes - Inquirer.net"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdmkzekRrWWhpY2lINXh5OWNEMXdtVWhQMGZZT21BbUdHVmU2VDdyR2p1R3Q0Q2hObGVkblVORU5oQ2wyNU9qaHo4SkI2TUZPVmJFRmdSbU9nWk9ZSUt2WkJScHJvR3MyLUVkVXRjZ2E4eUp6V2xGb3dLa3laZFF4ekVjc0l2c3VuQlV6MjNPcTgxRnVYQ0dMMVl2elDSAaIBQVVfeXFMTmVZdVhjbjlFbzktdGwteVFYMjg3WmFZcm9tTXV0NUNNdW9sdldPc0xtZWpGWTAxQWVHZGU0UFNhSm93dFQyXzJwNkZQZnIzRWhEWUZ1ck9JMWtTT2NQSDA1NWpKNkw1SW00bEZhTjYwSzJDZGRGc21UWnpHVl9zMGU2R3I1aXE3ZWZGZXdRT0V0WGVJNTNqLWYxdjJjb2dtOV9R?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdmkzekRrWWhpY2lINXh5OWNEMXdtVWhQMGZZT21BbUdHVmU2VDdyR2p1R3Q0Q2hObGVkblVORU5oQ2wyNU9qaHo4SkI2TUZPVmJFRmdSbU9nWk9ZSUt2WkJScHJvR3MyLUVkVXRjZ2E4eUp6V2xGb3dLa3laZFF4ekVjc0l2c3VuQlV6MjNPcTgxRnVYQ0dMMVl2elDSAaIBQVVfeXFMTmVZdVhjbjlFbzktdGwteVFYMjg3WmFZcm9tTXV0NUNNdW9sdldPc0xtZWpGWTAxQWVHZGU0UFNhSm93dFQyXzJwNkZQZnIzRWhEWUZ1ck9JMWtTT2NQSDA1NWpKNkw1SW00bEZhTjYwSzJDZGRGc21UWnpHVl9zMGU2R3I1aXE3ZWZGZXdRT0V0WGVJNTNqLWYxdjJjb2dtOV9R?oc=5",
+      "id": "CBMinAFBVV95cUxQdmkzekRrWWhpY2lINXh5OWNEMXdtVWhQMGZZT21BbUdHVmU2VDdyR2p1R3Q0Q2hObGVkblVORU5oQ2wyNU9qaHo4SkI2TUZPVmJFRmdSbU9nWk9ZSUt2WkJScHJvR3MyLUVkVXRjZ2E4eUp6V2xGb3dLa3laZFF4ekVjc0l2c3VuQlV6MjNPcTgxRnVYQ0dMMVl2elDSAaIBQVVfeXFMTmVZdVhjbjlFbzktdGwteVFYMjg3WmFZcm9tTXV0NUNNdW9sdldPc0xtZWpGWTAxQWVHZGU0UFNhSm93dFQyXzJwNkZQZnIzRWhEWUZ1ck9JMWtTT2NQSDA1NWpKNkw1SW00bEZhTjYwSzJDZGRGc21UWnpHVl9zMGU2R3I1aXE3ZWZGZXdRT0V0WGVJNTNqLWYxdjJjb2dtOV9R",
+      "guidislink": false,
+      "published": "Tue, 12 Jan 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        1,
+        12,
+        8,
+        0,
+        0,
+        1,
+        12,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxQdmkzekRrWWhpY2lINXh5OWNEMXdtVWhQMGZZT21BbUdHVmU2VDdyR2p1R3Q0Q2hObGVkblVORU5oQ2wyNU9qaHo4SkI2TUZPVmJFRmdSbU9nWk9ZSUt2WkJScHJvR3MyLUVkVXRjZ2E4eUp6V2xGb3dLa3laZFF4ekVjc0l2c3VuQlV6MjNPcTgxRnVYQ0dMMVl2elDSAaIBQVVfeXFMTmVZdVhjbjlFbzktdGwteVFYMjg3WmFZcm9tTXV0NUNNdW9sdldPc0xtZWpGWTAxQWVHZGU0UFNhSm93dFQyXzJwNkZQZnIzRWhEWUZ1ck9JMWtTT2NQSDA1NWpKNkw1SW00bEZhTjYwSzJDZGRGc21UWnpHVl9zMGU2R3I1aXE3ZWZGZXdRT0V0WGVJNTNqLWYxdjJjb2dtOV9R?oc=5\" target=\"_blank\">El Salvador issues alert against illness-bearing mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Inquirer.net</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxQdmkzekRrWWhpY2lINXh5OWNEMXdtVWhQMGZZT21BbUdHVmU2VDdyR2p1R3Q0Q2hObGVkblVORU5oQ2wyNU9qaHo4SkI2TUZPVmJFRmdSbU9nWk9ZSUt2WkJScHJvR3MyLUVkVXRjZ2E4eUp6V2xGb3dLa3laZFF4ekVjc0l2c3VuQlV6MjNPcTgxRnVYQ0dMMVl2elDSAaIBQVVfeXFMTmVZdVhjbjlFbzktdGwteVFYMjg3WmFZcm9tTXV0NUNNdW9sdldPc0xtZWpGWTAxQWVHZGU0UFNhSm93dFQyXzJwNkZQZnIzRWhEWUZ1ck9JMWtTT2NQSDA1NWpKNkw1SW00bEZhTjYwSzJDZGRGc21UWnpHVl9zMGU2R3I1aXE3ZWZGZXdRT0V0WGVJNTNqLWYxdjJjb2dtOV9R?oc=5\" target=\"_blank\">El Salvador issues alert against illness-bearing mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Inquirer.net</font>"
+      },
+      "source": {
+        "href": "https://newsinfo.inquirer.net",
+        "title": "Inquirer.net"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika virus and sex - Jamaica Observer",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika virus and sex - Jamaica Observer"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wcm1IOWpkVklHck82bVppSXF0ZHlTMXJtMl95R2ZmMm1Ea0FCM1VwNTFIN0R4bE1WeWdrWXQ1SHBtU0wzNDZfTG51a0pSNnFOZHRsS1kwZ1V6eEF1aHF6LUJtWFlPMXdLNGx2a2xqRQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1wcm1IOWpkVklHck82bVppSXF0ZHlTMXJtMl95R2ZmMm1Ea0FCM1VwNTFIN0R4bE1WeWdrWXQ1SHBtU0wzNDZfTG51a0pSNnFOZHRsS1kwZ1V6eEF1aHF6LUJtWFlPMXdLNGx2a2xqRQ?oc=5",
+      "id": "CBMib0FVX3lxTE1wcm1IOWpkVklHck82bVppSXF0ZHlTMXJtMl95R2ZmMm1Ea0FCM1VwNTFIN0R4bE1WeWdrWXQ1SHBtU0wzNDZfTG51a0pSNnFOZHRsS1kwZ1V6eEF1aHF6LUJtWFlPMXdLNGx2a2xqRQ",
+      "guidislink": false,
+      "published": "Fri, 08 Jan 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        1,
+        8,
+        8,
+        0,
+        0,
+        4,
+        8,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE1wcm1IOWpkVklHck82bVppSXF0ZHlTMXJtMl95R2ZmMm1Ea0FCM1VwNTFIN0R4bE1WeWdrWXQ1SHBtU0wzNDZfTG51a0pSNnFOZHRsS1kwZ1V6eEF1aHF6LUJtWFlPMXdLNGx2a2xqRQ?oc=5\" target=\"_blank\">Zika virus and sex</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Jamaica Observer</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE1wcm1IOWpkVklHck82bVppSXF0ZHlTMXJtMl95R2ZmMm1Ea0FCM1VwNTFIN0R4bE1WeWdrWXQ1SHBtU0wzNDZfTG51a0pSNnFOZHRsS1kwZ1V6eEF1aHF6LUJtWFlPMXdLNGx2a2xqRQ?oc=5\" target=\"_blank\">Zika virus and sex</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Jamaica Observer</font>"
+      },
+      "source": {
+        "href": "https://www.jamaicaobserver.com",
+        "title": "Jamaica Observer"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Click here to print - 7 News Belize",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Click here to print - 7 News Belize"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5tMkV3UE5QQXI5cDVKMUhOdUs2NVpCSVN6QlY4ZGpVZVdkNlpCVEdvbHhpNVJXNHpDc0ZDQUdCSlZ6dDd3V2NRbTY4ZlRDQW8xdEtpOGVWeTNOVHhCSy1uZWVPX0x5ZTV6cXR2czg2a0Q?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5tMkV3UE5QQXI5cDVKMUhOdUs2NVpCSVN6QlY4ZGpVZVdkNlpCVEdvbHhpNVJXNHpDc0ZDQUdCSlZ6dDd3V2NRbTY4ZlRDQW8xdEtpOGVWeTNOVHhCSy1uZWVPX0x5ZTV6cXR2czg2a0Q?oc=5",
+      "id": "CBMicEFVX3lxTE5tMkV3UE5QQXI5cDVKMUhOdUs2NVpCSVN6QlY4ZGpVZVdkNlpCVEdvbHhpNVJXNHpDc0ZDQUdCSlZ6dDd3V2NRbTY4ZlRDQW8xdEtpOGVWeTNOVHhCSy1uZWVPX0x5ZTV6cXR2czg2a0Q",
+      "guidislink": false,
+      "published": "Thu, 14 Jan 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        1,
+        14,
+        8,
+        0,
+        0,
+        3,
+        14,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE5tMkV3UE5QQXI5cDVKMUhOdUs2NVpCSVN6QlY4ZGpVZVdkNlpCVEdvbHhpNVJXNHpDc0ZDQUdCSlZ6dDd3V2NRbTY4ZlRDQW8xdEtpOGVWeTNOVHhCSy1uZWVPX0x5ZTV6cXR2czg2a0Q?oc=5\" target=\"_blank\">Click here to print</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">7 News Belize</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE5tMkV3UE5QQXI5cDVKMUhOdUs2NVpCSVN6QlY4ZGpVZVdkNlpCVEdvbHhpNVJXNHpDc0ZDQUdCSlZ6dDd3V2NRbTY4ZlRDQW8xdEtpOGVWeTNOVHhCSy1uZWVPX0x5ZTV6cXR2czg2a0Q?oc=5\" target=\"_blank\">Click here to print</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">7 News Belize</font>"
+      },
+      "source": {
+        "href": "https://www.7newsbelize.com",
+        "title": "7 News Belize"
+      },
+      "sub_articles": []
+    }
+  ]
+}

@@ -1,0 +1,951 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2017-10-27",
+  "window_end": "2017-11-09",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2017-10-27+before%3A2017-11-10&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2017-10-27+before:2017-11-10&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:25:36Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2017-10-27 before:2017-11-10\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2017-10-27 before:2017-11-10\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2017-10-27+before:2017-11-10&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2017-10-27+before:2017-11-10&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:25:37 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      25,
+      37,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "A Zika Vaccine Targeting NS1 Protein Protects Immunocompetent Adult Mice in a Lethal Challenge Model - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "A Zika Vaccine Targeting NS1 Protein Protects Immunocompetent Adult Mice in a Lethal Challenge Model - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAyQTQ2ZVhRbE9LVGd0WjNqQXZHSlpNemt1YmEwbXd2cjdrOVg5WkxIeDMzc09RaGpGVVV5d3pfR3NmREMtNjN5OHFfdDROeDAxbllDbzItQjE1d1dYZ3ZV?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAyQTQ2ZVhRbE9LVGd0WjNqQXZHSlpNemt1YmEwbXd2cjdrOVg5WkxIeDMzc09RaGpGVVV5d3pfR3NmREMtNjN5OHFfdDROeDAxbllDbzItQjE1d1dYZ3ZV?oc=5",
+      "id": "CBMiX0FVX3lxTFAyQTQ2ZVhRbE9LVGd0WjNqQXZHSlpNemt1YmEwbXd2cjdrOVg5WkxIeDMzc09RaGpGVVV5d3pfR3NmREMtNjN5OHFfdDROeDAxbllDbzItQjE1d1dYZ3ZV",
+      "guidislink": false,
+      "published": "Tue, 07 Nov 2017 08:00:00 GMT",
+      "published_parsed": [
+        2017,
+        11,
+        7,
+        8,
+        0,
+        0,
+        1,
+        311,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFAyQTQ2ZVhRbE9LVGd0WjNqQXZHSlpNemt1YmEwbXd2cjdrOVg5WkxIeDMzc09RaGpGVVV5d3pfR3NmREMtNjN5OHFfdDROeDAxbllDbzItQjE1d1dYZ3ZV?oc=5\" target=\"_blank\">A Zika Vaccine Targeting NS1 Protein Protects Immunocompetent Adult Mice in a Lethal Challenge Model</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFAyQTQ2ZVhRbE9LVGd0WjNqQXZHSlpNemt1YmEwbXd2cjdrOVg5WkxIeDMzc09RaGpGVVV5d3pfR3NmREMtNjN5OHFfdDROeDAxbllDbzItQjE1d1dYZ3ZV?oc=5\" target=\"_blank\">A Zika Vaccine Targeting NS1 Protein Protects Immunocompetent Adult Mice in a Lethal Challenge Model</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Some Good News, As A Zika-Exposed Baby Turns One - WAMU",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Some Good News, As A Zika-Exposed Baby Turns One - WAMU"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9VRFJNOG9QdFRaSDVWd1NYUV9WN0tGcHZObjBKeEc5eFk3SjQ5SHZ0T0FmWDNoS2xURl9ZREVkeGpGTnEwX2dhQmY2cE9rNTZFd2dUdVZBSHpYYU1uRGJUWE5TaWJkTFgwbVFybnB2TUMxeFZtcnZMUEx3?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9VRFJNOG9QdFRaSDVWd1NYUV9WN0tGcHZObjBKeEc5eFk3SjQ5SHZ0T0FmWDNoS2xURl9ZREVkeGpGTnEwX2dhQmY2cE9rNTZFd2dUdVZBSHpYYU1uRGJUWE5TaWJkTFgwbVFybnB2TUMxeFZtcnZMUEx3?oc=5",
+      "id": "CBMiekFVX3lxTE9VRFJNOG9QdFRaSDVWd1NYUV9WN0tGcHZObjBKeEc5eFk3SjQ5SHZ0T0FmWDNoS2xURl9ZREVkeGpGTnEwX2dhQmY2cE9rNTZFd2dUdVZBSHpYYU1uRGJUWE5TaWJkTFgwbVFybnB2TUMxeFZtcnZMUEx3",
+      "guidislink": false,
+      "published": "Thu, 09 Nov 2017 08:00:00 GMT",
+      "published_parsed": [
+        2017,
+        11,
+        9,
+        8,
+        0,
+        0,
+        3,
+        313,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE9VRFJNOG9QdFRaSDVWd1NYUV9WN0tGcHZObjBKeEc5eFk3SjQ5SHZ0T0FmWDNoS2xURl9ZREVkeGpGTnEwX2dhQmY2cE9rNTZFd2dUdVZBSHpYYU1uRGJUWE5TaWJkTFgwbVFybnB2TUMxeFZtcnZMUEx3?oc=5\" target=\"_blank\">Some Good News, As A Zika-Exposed Baby Turns One</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WAMU</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE9VRFJNOG9QdFRaSDVWd1NYUV9WN0tGcHZObjBKeEc5eFk3SjQ5SHZ0T0FmWDNoS2xURl9ZREVkeGpGTnEwX2dhQmY2cE9rNTZFd2dUdVZBSHpYYU1uRGJUWE5TaWJkTFgwbVFybnB2TUMxeFZtcnZMUEx3?oc=5\" target=\"_blank\">Some Good News, As A Zika-Exposed Baby Turns One</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WAMU</font>"
+      },
+      "source": {
+        "href": "https://wamu.org",
+        "title": "WAMU"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "For Zika Virus, Infecting Brains Isn't A New Trick - Columbia University Irving Medical Center",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "For Zika Virus, Infecting Brains Isn't A New Trick - Columbia University Irving Medical Center"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRU9HSW1IeFVwOVVmVGpRSnM4VEtadnh4akJPX2x6SGU2blpqX3dXRVZBN0NGQWVrTjNtVEd6SzVsbzdEWFNFQXc2UzNWV1Q1R3FDNk9xVFVLTjE1VEdwQXV1eGZabFVyd0Zfc3M1NTkyUHBqM0g2WUpkRjEzclNsZUdIQVE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRU9HSW1IeFVwOVVmVGpRSnM4VEtadnh4akJPX2x6SGU2blpqX3dXRVZBN0NGQWVrTjNtVEd6SzVsbzdEWFNFQXc2UzNWV1Q1R3FDNk9xVFVLTjE1VEdwQXV1eGZabFVyd0Zfc3M1NTkyUHBqM0g2WUpkRjEzclNsZUdIQVE?oc=5",
+      "id": "CBMihAFBVV95cUxPRU9HSW1IeFVwOVVmVGpRSnM4VEtadnh4akJPX2x6SGU2blpqX3dXRVZBN0NGQWVrTjNtVEd6SzVsbzdEWFNFQXc2UzNWV1Q1R3FDNk9xVFVLTjE1VEdwQXV1eGZabFVyd0Zfc3M1NTkyUHBqM0g2WUpkRjEzclNsZUdIQVE",
+      "guidislink": false,
+      "published": "Wed, 08 Nov 2017 08:00:00 GMT",
+      "published_parsed": [
+        2017,
+        11,
+        8,
+        8,
+        0,
+        0,
+        2,
+        312,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxPRU9HSW1IeFVwOVVmVGpRSnM4VEtadnh4akJPX2x6SGU2blpqX3dXRVZBN0NGQWVrTjNtVEd6SzVsbzdEWFNFQXc2UzNWV1Q1R3FDNk9xVFVLTjE1VEdwQXV1eGZabFVyd0Zfc3M1NTkyUHBqM0g2WUpkRjEzclNsZUdIQVE?oc=5\" target=\"_blank\">For Zika Virus, Infecting Brains Isn't A New Trick</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Columbia University Irving Medical Center</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxPRU9HSW1IeFVwOVVmVGpRSnM4VEtadnh4akJPX2x6SGU2blpqX3dXRVZBN0NGQWVrTjNtVEd6SzVsbzdEWFNFQXc2UzNWV1Q1R3FDNk9xVFVLTjE1VEdwQXV1eGZabFVyd0Zfc3M1NTkyUHBqM0g2WUpkRjEzclNsZUdIQVE?oc=5\" target=\"_blank\">For Zika Virus, Infecting Brains Isn't A New Trick</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Columbia University Irving Medical Center</font>"
+      },
+      "source": {
+        "href": "https://www.cuimc.columbia.edu",
+        "title": "Columbia University Irving Medical Center"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "The forgotten mothers and babies of Zika - CNN",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "The forgotten mothers and babies of Zika - CNN"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0zTlVqb2FHYS01a0ZCZDI0UEZnQ1NodXZvSHJDRHhoeXJyRHpjNjFWejJ2bjRmLTY5OEx2UTZPSlFsMWFHa0lReUk5Um80bEdNVE1XREpsVlh6ejhWc0ZjSzhlWmgyTG1BNTI4enpRdWxHR0lhX3o1TEhudjZycTQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0zTlVqb2FHYS01a0ZCZDI0UEZnQ1NodXZvSHJDRHhoeXJyRHpjNjFWejJ2bjRmLTY5OEx2UTZPSlFsMWFHa0lReUk5Um80bEdNVE1XREpsVlh6ejhWc0ZjSzhlWmgyTG1BNTI4enpRdWxHR0lhX3o1TEhudjZycTQ?oc=5",
+      "id": "CBMif0FVX3lxTE0zTlVqb2FHYS01a0ZCZDI0UEZnQ1NodXZvSHJDRHhoeXJyRHpjNjFWejJ2bjRmLTY5OEx2UTZPSlFsMWFHa0lReUk5Um80bEdNVE1XREpsVlh6ejhWc0ZjSzhlWmgyTG1BNTI4enpRdWxHR0lhX3o1TEhudjZycTQ",
+      "guidislink": false,
+      "published": "Thu, 02 Nov 2017 07:00:00 GMT",
+      "published_parsed": [
+        2017,
+        11,
+        2,
+        7,
+        0,
+        0,
+        3,
+        306,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE0zTlVqb2FHYS01a0ZCZDI0UEZnQ1NodXZvSHJDRHhoeXJyRHpjNjFWejJ2bjRmLTY5OEx2UTZPSlFsMWFHa0lReUk5Um80bEdNVE1XREpsVlh6ejhWc0ZjSzhlWmgyTG1BNTI4enpRdWxHR0lhX3o1TEhudjZycTQ?oc=5\" target=\"_blank\">The forgotten mothers and babies of Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNN</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE0zTlVqb2FHYS01a0ZCZDI0UEZnQ1NodXZvSHJDRHhoeXJyRHpjNjFWejJ2bjRmLTY5OEx2UTZPSlFsMWFHa0lReUk5Um80bEdNVE1XREpsVlh6ejhWc0ZjSzhlWmgyTG1BNTI4enpRdWxHR0lhX3o1TEhudjZycTQ?oc=5\" target=\"_blank\">The forgotten mothers and babies of Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNN</font>"
+      },
+      "source": {
+        "href": "https://www.cnn.com",
+        "title": "CNN"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Meeting Summary: State and Local Implementation Strategies for ... - Centers for Disease Control and Prevention | CDC (.gov)",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Meeting Summary: State and Local Implementation Strategies for ... - Centers for Disease Control and Prevention | CDC (.gov)"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBWS2VYSzJzWVlpNDg4aWhzZUo1Q1dpRFNCY0U3OFdnVlY1ekYxRFg4b29zQjlYZ1Voc3pQZjBPSmVobzdHNk1IVkxnQnpQRjZab2tLVFkybVJEdHZFUnk1WQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBWS2VYSzJzWVlpNDg4aWhzZUo1Q1dpRFNCY0U3OFdnVlY1ekYxRFg4b29zQjlYZ1Voc3pQZjBPSmVobzdHNk1IVkxnQnpQRjZab2tLVFkybVJEdHZFUnk1WQ?oc=5",
+      "id": "CBMiYEFVX3lxTFBWS2VYSzJzWVlpNDg4aWhzZUo1Q1dpRFNCY0U3OFdnVlY1ekYxRFg4b29zQjlYZ1Voc3pQZjBPSmVobzdHNk1IVkxnQnpQRjZab2tLVFkybVJEdHZFUnk1WQ",
+      "guidislink": false,
+      "published": "Fri, 10 Nov 2017 08:00:00 GMT",
+      "published_parsed": [
+        2017,
+        11,
+        10,
+        8,
+        0,
+        0,
+        4,
+        314,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTFBWS2VYSzJzWVlpNDg4aWhzZUo1Q1dpRFNCY0U3OFdnVlY1ekYxRFg4b29zQjlYZ1Voc3pQZjBPSmVobzdHNk1IVkxnQnpQRjZab2tLVFkybVJEdHZFUnk1WQ?oc=5\" target=\"_blank\">Meeting Summary: State and Local Implementation Strategies for ...</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Centers for Disease Control and Prevention | CDC (.gov)</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTFBWS2VYSzJzWVlpNDg4aWhzZUo1Q1dpRFNCY0U3OFdnVlY1ekYxRFg4b29zQjlYZ1Voc3pQZjBPSmVobzdHNk1IVkxnQnpQRjZab2tLVFkybVJEdHZFUnk1WQ?oc=5\" target=\"_blank\">Meeting Summary: State and Local Implementation Strategies for ...</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Centers for Disease Control and Prevention | CDC (.gov)</font>"
+      },
+      "source": {
+        "href": "https://www.cdc.gov",
+        "title": "Centers for Disease Control and Prevention | CDC (.gov)"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "State Zika Cases Reach 200 In 2017 - WUSF",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "State Zika Cases Reach 200 In 2017 - WUSF"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9wVld1WmdaYVBtdGtrUDF1TFpaTW9hVWFqcERtb1RpT1dxR1E2YzQ2X0w4Y3ZQOHVyUDdocllRd1RmY20tN1BfNmk0RDVCNXNqOE14dDBrdTd3NGpFYks2bTgxYVRENkVLT1RPV3ZnZy1qX28t?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9wVld1WmdaYVBtdGtrUDF1TFpaTW9hVWFqcERtb1RpT1dxR1E2YzQ2X0w4Y3ZQOHVyUDdocllRd1RmY20tN1BfNmk0RDVCNXNqOE14dDBrdTd3NGpFYks2bTgxYVRENkVLT1RPV3ZnZy1qX28t?oc=5",
+      "id": "CBMidEFVX3lxTE9wVld1WmdaYVBtdGtrUDF1TFpaTW9hVWFqcERtb1RpT1dxR1E2YzQ2X0w4Y3ZQOHVyUDdocllRd1RmY20tN1BfNmk0RDVCNXNqOE14dDBrdTd3NGpFYks2bTgxYVRENkVLT1RPV3ZnZy1qX28t",
+      "guidislink": false,
+      "published": "Sun, 29 Oct 2017 07:00:00 GMT",
+      "published_parsed": [
+        2017,
+        10,
+        29,
+        7,
+        0,
+        0,
+        6,
+        302,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE9wVld1WmdaYVBtdGtrUDF1TFpaTW9hVWFqcERtb1RpT1dxR1E2YzQ2X0w4Y3ZQOHVyUDdocllRd1RmY20tN1BfNmk0RDVCNXNqOE14dDBrdTd3NGpFYks2bTgxYVRENkVLT1RPV3ZnZy1qX28t?oc=5\" target=\"_blank\">State Zika Cases Reach 200 In 2017</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WUSF</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE9wVld1WmdaYVBtdGtrUDF1TFpaTW9hVWFqcERtb1RpT1dxR1E2YzQ2X0w4Y3ZQOHVyUDdocllRd1RmY20tN1BfNmk0RDVCNXNqOE14dDBrdTd3NGpFYks2bTgxYVRENkVLT1RPV3ZnZy1qX28t?oc=5\" target=\"_blank\">State Zika Cases Reach 200 In 2017</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WUSF</font>"
+      },
+      "source": {
+        "href": "https://www.wusf.org",
+        "title": "WUSF"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Current Zika transmission worldwide (as of 27 October 2017) - ReliefWeb",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Current Zika transmission worldwide (as of 27 October 2017) - ReliefWeb"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPd0s1c2tFMjJJOV84NEV2Mk13Mm5CdWJiNE40X3YxNV95amlVWlNkYnd2S1BTXzdROGxqT1p4OGJxdFFWTDFqWHZqSWh0djFLMHRIV0hyeGZHcGMyb2xVbWZvTzlySXFtbDhEQ085NHNZUlZJV1RPQ3U2Wmk5enhmRjhnR21IZ1pOLW5Wd25R?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPd0s1c2tFMjJJOV84NEV2Mk13Mm5CdWJiNE40X3YxNV95amlVWlNkYnd2S1BTXzdROGxqT1p4OGJxdFFWTDFqWHZqSWh0djFLMHRIV0hyeGZHcGMyb2xVbWZvTzlySXFtbDhEQ085NHNZUlZJV1RPQ3U2Wmk5enhmRjhnR21IZ1pOLW5Wd25R?oc=5",
+      "id": "CBMijgFBVV95cUxPd0s1c2tFMjJJOV84NEV2Mk13Mm5CdWJiNE40X3YxNV95amlVWlNkYnd2S1BTXzdROGxqT1p4OGJxdFFWTDFqWHZqSWh0djFLMHRIV0hyeGZHcGMyb2xVbWZvTzlySXFtbDhEQ085NHNZUlZJV1RPQ3U2Wmk5enhmRjhnR21IZ1pOLW5Wd25R",
+      "guidislink": false,
+      "published": "Fri, 27 Oct 2017 07:00:00 GMT",
+      "published_parsed": [
+        2017,
+        10,
+        27,
+        7,
+        0,
+        0,
+        4,
+        300,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxPd0s1c2tFMjJJOV84NEV2Mk13Mm5CdWJiNE40X3YxNV95amlVWlNkYnd2S1BTXzdROGxqT1p4OGJxdFFWTDFqWHZqSWh0djFLMHRIV0hyeGZHcGMyb2xVbWZvTzlySXFtbDhEQ085NHNZUlZJV1RPQ3U2Wmk5enhmRjhnR21IZ1pOLW5Wd25R?oc=5\" target=\"_blank\">Current Zika transmission worldwide (as of 27 October 2017)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ReliefWeb</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxPd0s1c2tFMjJJOV84NEV2Mk13Mm5CdWJiNE40X3YxNV95amlVWlNkYnd2S1BTXzdROGxqT1p4OGJxdFFWTDFqWHZqSWh0djFLMHRIV0hyeGZHcGMyb2xVbWZvTzlySXFtbDhEQ085NHNZUlZJV1RPQ3U2Wmk5enhmRjhnR21IZ1pOLW5Wd25R?oc=5\" target=\"_blank\">Current Zika transmission worldwide (as of 27 October 2017)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ReliefWeb</font>"
+      },
+      "source": {
+        "href": "https://reliefweb.int",
+        "title": "ReliefWeb"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Man born with Zika-related defect: 'I can't read. I can't write' - WMUR",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Man born with Zika-related defect: 'I can't read. I can't write' - WMUR"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdHp0YXhHdmhwdzdJWW1SMkZHME9aUHhaWEZpSkVUZmN3QmlSZ3FXMjlVV2p1UE1JdTB1T0tOenAzaElLemVmbEJfX2lkQVpvcER4eXpEZndGQ085Tk1GZzA4ZVdvQUROYVF4Nlk3T0c0aENxSC1nb2NPUFFJYmVSQjYwb2NFRWlnc2dIZzFZS0ZwYXJnT2hoMlBWWQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdHp0YXhHdmhwdzdJWW1SMkZHME9aUHhaWEZpSkVUZmN3QmlSZ3FXMjlVV2p1UE1JdTB1T0tOenAzaElLemVmbEJfX2lkQVpvcER4eXpEZndGQ085Tk1GZzA4ZVdvQUROYVF4Nlk3T0c0aENxSC1nb2NPUFFJYmVSQjYwb2NFRWlnc2dIZzFZS0ZwYXJnT2hoMlBWWQ?oc=5",
+      "id": "CBMimwFBVV95cUxNdHp0YXhHdmhwdzdJWW1SMkZHME9aUHhaWEZpSkVUZmN3QmlSZ3FXMjlVV2p1UE1JdTB1T0tOenAzaElLemVmbEJfX2lkQVpvcER4eXpEZndGQ085Tk1GZzA4ZVdvQUROYVF4Nlk3T0c0aENxSC1nb2NPUFFJYmVSQjYwb2NFRWlnc2dIZzFZS0ZwYXJnT2hoMlBWWQ",
+      "guidislink": false,
+      "published": "Fri, 10 Nov 2017 08:00:00 GMT",
+      "published_parsed": [
+        2017,
+        11,
+        10,
+        8,
+        0,
+        0,
+        4,
+        314,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxNdHp0YXhHdmhwdzdJWW1SMkZHME9aUHhaWEZpSkVUZmN3QmlSZ3FXMjlVV2p1UE1JdTB1T0tOenAzaElLemVmbEJfX2lkQVpvcER4eXpEZndGQ085Tk1GZzA4ZVdvQUROYVF4Nlk3T0c0aENxSC1nb2NPUFFJYmVSQjYwb2NFRWlnc2dIZzFZS0ZwYXJnT2hoMlBWWQ?oc=5\" target=\"_blank\">Man born with Zika-related defect: 'I can't read. I can't write'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WMUR</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxNdHp0YXhHdmhwdzdJWW1SMkZHME9aUHhaWEZpSkVUZmN3QmlSZ3FXMjlVV2p1UE1JdTB1T0tOenAzaElLemVmbEJfX2lkQVpvcER4eXpEZndGQ085Tk1GZzA4ZVdvQUROYVF4Nlk3T0c0aENxSC1nb2NPUFFJYmVSQjYwb2NFRWlnc2dIZzFZS0ZwYXJnT2hoMlBWWQ?oc=5\" target=\"_blank\">Man born with Zika-related defect: 'I can't read. I can't write'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WMUR</font>"
+      },
+      "source": {
+        "href": "https://www.wmur.com",
+        "title": "WMUR"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika Virus Infects Human Sertoli Cells and Modulates the Integrity of the In Vitro Blood-Testis Barrier Model - ASM Journals",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika Virus Infects Human Sertoli Cells and Modulates the Integrity of the In Vitro Blood-Testis Barrier Model - ASM Journals"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9MRTBqOERqY2dKMjU0OHFhdi15YVAtQVR6ejJzbDRodjNQN3B1OVd3R2prNEg3TmVOMXlTV3FpYS1NdE1KaWEwa21pbS04aUFCa081Q3pTcmZrT1Y0RFE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9MRTBqOERqY2dKMjU0OHFhdi15YVAtQVR6ejJzbDRodjNQN3B1OVd3R2prNEg3TmVOMXlTV3FpYS1NdE1KaWEwa21pbS04aUFCa081Q3pTcmZrT1Y0RFE?oc=5",
+      "id": "CBMiXkFVX3lxTE9MRTBqOERqY2dKMjU0OHFhdi15YVAtQVR6ejJzbDRodjNQN3B1OVd3R2prNEg3TmVOMXlTV3FpYS1NdE1KaWEwa21pbS04aUFCa081Q3pTcmZrT1Y0RFE",
+      "guidislink": false,
+      "published": "Fri, 27 Oct 2017 07:00:00 GMT",
+      "published_parsed": [
+        2017,
+        10,
+        27,
+        7,
+        0,
+        0,
+        4,
+        300,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE9MRTBqOERqY2dKMjU0OHFhdi15YVAtQVR6ejJzbDRodjNQN3B1OVd3R2prNEg3TmVOMXlTV3FpYS1NdE1KaWEwa21pbS04aUFCa081Q3pTcmZrT1Y0RFE?oc=5\" target=\"_blank\">Zika Virus Infects Human Sertoli Cells and Modulates the Integrity of the In Vitro Blood-Testis Barrier Model</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ASM Journals</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTE9MRTBqOERqY2dKMjU0OHFhdi15YVAtQVR6ejJzbDRodjNQN3B1OVd3R2prNEg3TmVOMXlTV3FpYS1NdE1KaWEwa21pbS04aUFCa081Q3pTcmZrT1Y0RFE?oc=5\" target=\"_blank\">Zika Virus Infects Human Sertoli Cells and Modulates the Integrity of the In Vitro Blood-Testis Barrier Model</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ASM Journals</font>"
+      },
+      "source": {
+        "href": "https://journals.asm.org",
+        "title": "ASM Journals"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Small genetic accident made Zika more dangerous - Science News Explores",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Small genetic accident made Zika more dangerous - Science News Explores"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQWDBuUXpHVWQ0ckp4WFNyRUZhM3VNUUJYQ0NzS1RHdzJ4R29ZclYtck4yS1pqNllaZ2NxOWZyZEV2M0RsWGxqeVUtenBQMnVWZGNoSXhTaGhXTlJHdXo2Y1ROU2Q0N01BWTNURHJYMml0VXY1Y1hPU2g3RkM1LS1Eb0N3dnJCeGMxM3c?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQWDBuUXpHVWQ0ckp4WFNyRUZhM3VNUUJYQ0NzS1RHdzJ4R29ZclYtck4yS1pqNllaZ2NxOWZyZEV2M0RsWGxqeVUtenBQMnVWZGNoSXhTaGhXTlJHdXo2Y1ROU2Q0N01BWTNURHJYMml0VXY1Y1hPU2g3RkM1LS1Eb0N3dnJCeGMxM3c?oc=5",
+      "id": "CBMiigFBVV95cUxQWDBuUXpHVWQ0ckp4WFNyRUZhM3VNUUJYQ0NzS1RHdzJ4R29ZclYtck4yS1pqNllaZ2NxOWZyZEV2M0RsWGxqeVUtenBQMnVWZGNoSXhTaGhXTlJHdXo2Y1ROU2Q0N01BWTNURHJYMml0VXY1Y1hPU2g3RkM1LS1Eb0N3dnJCeGMxM3c",
+      "guidislink": false,
+      "published": "Wed, 08 Nov 2017 08:00:00 GMT",
+      "published_parsed": [
+        2017,
+        11,
+        8,
+        8,
+        0,
+        0,
+        2,
+        312,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxQWDBuUXpHVWQ0ckp4WFNyRUZhM3VNUUJYQ0NzS1RHdzJ4R29ZclYtck4yS1pqNllaZ2NxOWZyZEV2M0RsWGxqeVUtenBQMnVWZGNoSXhTaGhXTlJHdXo2Y1ROU2Q0N01BWTNURHJYMml0VXY1Y1hPU2g3RkM1LS1Eb0N3dnJCeGMxM3c?oc=5\" target=\"_blank\">Small genetic accident made Zika more dangerous</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Science News Explores</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxQWDBuUXpHVWQ0ckp4WFNyRUZhM3VNUUJYQ0NzS1RHdzJ4R29ZclYtck4yS1pqNllaZ2NxOWZyZEV2M0RsWGxqeVUtenBQMnVWZGNoSXhTaGhXTlJHdXo2Y1ROU2Q0N01BWTNURHJYMml0VXY1Y1hPU2g3RkM1LS1Eb0N3dnJCeGMxM3c?oc=5\" target=\"_blank\">Small genetic accident made Zika more dangerous</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Science News Explores</font>"
+      },
+      "source": {
+        "href": "https://www.snexplores.org",
+        "title": "Science News Explores"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika Virus Infects Intermediate Progenitor Cells and Post-mitotic Committed Neurons in Human Fetal Brain Tissues - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika Virus Infects Intermediate Progenitor Cells and Post-mitotic Committed Neurons in Human Fetal Brain Tissues - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE00b0NaX3NVdC1fNjV4WDNFNXE1MWlvZU5CaUlYU0RNT1k2V0tPNTBDOWFKYWlnNVk3Uzh2T21XRlNkQTgzd0pNRU9MODdhQUg1VGd4T21BaXFsemFlRU1v?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE00b0NaX3NVdC1fNjV4WDNFNXE1MWlvZU5CaUlYU0RNT1k2V0tPNTBDOWFKYWlnNVk3Uzh2T21XRlNkQTgzd0pNRU9MODdhQUg1VGd4T21BaXFsemFlRU1v?oc=5",
+      "id": "CBMiX0FVX3lxTE00b0NaX3NVdC1fNjV4WDNFNXE1MWlvZU5CaUlYU0RNT1k2V0tPNTBDOWFKYWlnNVk3Uzh2T21XRlNkQTgzd0pNRU9MODdhQUg1VGd4T21BaXFsemFlRU1v",
+      "guidislink": false,
+      "published": "Wed, 01 Nov 2017 07:00:00 GMT",
+      "published_parsed": [
+        2017,
+        11,
+        1,
+        7,
+        0,
+        0,
+        2,
+        305,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE00b0NaX3NVdC1fNjV4WDNFNXE1MWlvZU5CaUlYU0RNT1k2V0tPNTBDOWFKYWlnNVk3Uzh2T21XRlNkQTgzd0pNRU9MODdhQUg1VGd4T21BaXFsemFlRU1v?oc=5\" target=\"_blank\">Zika Virus Infects Intermediate Progenitor Cells and Post-mitotic Committed Neurons in Human Fetal Brain Tissues</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE00b0NaX3NVdC1fNjV4WDNFNXE1MWlvZU5CaUlYU0RNT1k2V0tPNTBDOWFKYWlnNVk3Uzh2T21XRlNkQTgzd0pNRU9MODdhQUg1VGd4T21BaXFsemFlRU1v?oc=5\" target=\"_blank\">Zika Virus Infects Intermediate Progenitor Cells and Post-mitotic Committed Neurons in Human Fetal Brain Tissues</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika Babies Born With Abnormally Small Heads: Report - WLKY",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika Babies Born With Abnormally Small Heads: Report - WLKY"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORkJRRjZzSWJNVm4yYzJfelNjQi1PQ0ZSNkY2T3FYWk0waE5QSHBHN2R3clFqLVVzRWdLRGxTd2RDTFl2UGw2ODJOcTZYTnJNeFh0X3V6ajVKZ1Aya2piT2I3cmFZZGpqUTlnQWF1NnpnOFQ4dFpwYm9xZDFWVG10SThQOTZnNFo1bjRDdmFuUE1idw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORkJRRjZzSWJNVm4yYzJfelNjQi1PQ0ZSNkY2T3FYWk0waE5QSHBHN2R3clFqLVVzRWdLRGxTd2RDTFl2UGw2ODJOcTZYTnJNeFh0X3V6ajVKZ1Aya2piT2I3cmFZZGpqUTlnQWF1NnpnOFQ4dFpwYm9xZDFWVG10SThQOTZnNFo1bjRDdmFuUE1idw?oc=5",
+      "id": "CBMikgFBVV95cUxORkJRRjZzSWJNVm4yYzJfelNjQi1PQ0ZSNkY2T3FYWk0waE5QSHBHN2R3clFqLVVzRWdLRGxTd2RDTFl2UGw2ODJOcTZYTnJNeFh0X3V6ajVKZ1Aya2piT2I3cmFZZGpqUTlnQWF1NnpnOFQ4dFpwYm9xZDFWVG10SThQOTZnNFo1bjRDdmFuUE1idw",
+      "guidislink": false,
+      "published": "Wed, 08 Nov 2017 08:00:00 GMT",
+      "published_parsed": [
+        2017,
+        11,
+        8,
+        8,
+        0,
+        0,
+        2,
+        312,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxORkJRRjZzSWJNVm4yYzJfelNjQi1PQ0ZSNkY2T3FYWk0waE5QSHBHN2R3clFqLVVzRWdLRGxTd2RDTFl2UGw2ODJOcTZYTnJNeFh0X3V6ajVKZ1Aya2piT2I3cmFZZGpqUTlnQWF1NnpnOFQ4dFpwYm9xZDFWVG10SThQOTZnNFo1bjRDdmFuUE1idw?oc=5\" target=\"_blank\">Zika Babies Born With Abnormally Small Heads: Report</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WLKY</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxORkJRRjZzSWJNVm4yYzJfelNjQi1PQ0ZSNkY2T3FYWk0waE5QSHBHN2R3clFqLVVzRWdLRGxTd2RDTFl2UGw2ODJOcTZYTnJNeFh0X3V6ajVKZ1Aya2piT2I3cmFZZGpqUTlnQWF1NnpnOFQ4dFpwYm9xZDFWVG10SThQOTZnNFo1bjRDdmFuUE1idw?oc=5\" target=\"_blank\">Zika Babies Born With Abnormally Small Heads: Report</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WLKY</font>"
+      },
+      "source": {
+        "href": "https://www.wlky.com",
+        "title": "WLKY"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Chloroquine Blocks Zika Infection In Mice - Asian Scientist Magazine",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Chloroquine Blocks Zika Infection In Mice - Asian Scientist Magazine"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPbm41d0VIU19XTmY4RHRCclh6NnpYOE81bDJ6MUZORWU0SXA4Sl9pQjJYSnZaSmkxTTI2Y2VoU2k1M0t1NmFmN1JRcmhvX1JHSnZWcV9QWkV2WW9IRzFOY3g4Y0JGSldNTk5TdjI3VzZjRFYxVkhkTjZQTlZRaFA4OU01SjFHcmJHaHc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPbm41d0VIU19XTmY4RHRCclh6NnpYOE81bDJ6MUZORWU0SXA4Sl9pQjJYSnZaSmkxTTI2Y2VoU2k1M0t1NmFmN1JRcmhvX1JHSnZWcV9QWkV2WW9IRzFOY3g4Y0JGSldNTk5TdjI3VzZjRFYxVkhkTjZQTlZRaFA4OU01SjFHcmJHaHc?oc=5",
+      "id": "CBMiigFBVV95cUxPbm41d0VIU19XTmY4RHRCclh6NnpYOE81bDJ6MUZORWU0SXA4Sl9pQjJYSnZaSmkxTTI2Y2VoU2k1M0t1NmFmN1JRcmhvX1JHSnZWcV9QWkV2WW9IRzFOY3g4Y0JGSldNTk5TdjI3VzZjRFYxVkhkTjZQTlZRaFA4OU01SjFHcmJHaHc",
+      "guidislink": false,
+      "published": "Thu, 09 Nov 2017 08:00:00 GMT",
+      "published_parsed": [
+        2017,
+        11,
+        9,
+        8,
+        0,
+        0,
+        3,
+        313,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxPbm41d0VIU19XTmY4RHRCclh6NnpYOE81bDJ6MUZORWU0SXA4Sl9pQjJYSnZaSmkxTTI2Y2VoU2k1M0t1NmFmN1JRcmhvX1JHSnZWcV9QWkV2WW9IRzFOY3g4Y0JGSldNTk5TdjI3VzZjRFYxVkhkTjZQTlZRaFA4OU01SjFHcmJHaHc?oc=5\" target=\"_blank\">Chloroquine Blocks Zika Infection In Mice</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Asian Scientist Magazine</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxPbm41d0VIU19XTmY4RHRCclh6NnpYOE81bDJ6MUZORWU0SXA4Sl9pQjJYSnZaSmkxTTI2Y2VoU2k1M0t1NmFmN1JRcmhvX1JHSnZWcV9QWkV2WW9IRzFOY3g4Y0JGSldNTk5TdjI3VzZjRFYxVkhkTjZQTlZRaFA4OU01SjFHcmJHaHc?oc=5\" target=\"_blank\">Chloroquine Blocks Zika Infection In Mice</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Asian Scientist Magazine</font>"
+      },
+      "source": {
+        "href": "https://www.asianscientist.com",
+        "title": "Asian Scientist Magazine"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "EPA Approves Plan to Release Infected Mosquitoes to Stop Zika - Popular Mechanics",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "EPA Approves Plan to Release Infected Mosquitoes to Stop Zika - Popular Mechanics"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdkRtOXc0TFJxSWpUQ0tfT1F4UVdBci1VVnI5RWNuNlZMRXRtZzBmR2tBMEpZaTc3aDZwUXhNbXF3clZYemFjbFVZNGNpWk13cnAyXzBmbGJ4SWp3bFcyZWFGWGpMUE8yS0xweUVMenVGMDYxT3ItbVg3MF9RdjV6YklEd255Yy1YTVVUM1hMeXFEWnJFckF3Mlp0NEtPaVJFQ085b2RobFZWUDlUeE9hX0Z0TQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdkRtOXc0TFJxSWpUQ0tfT1F4UVdBci1VVnI5RWNuNlZMRXRtZzBmR2tBMEpZaTc3aDZwUXhNbXF3clZYemFjbFVZNGNpWk13cnAyXzBmbGJ4SWp3bFcyZWFGWGpMUE8yS0xweUVMenVGMDYxT3ItbVg3MF9RdjV6YklEd255Yy1YTVVUM1hMeXFEWnJFckF3Mlp0NEtPaVJFQ085b2RobFZWUDlUeE9hX0Z0TQ?oc=5",
+      "id": "CBMiswFBVV95cUxPdkRtOXc0TFJxSWpUQ0tfT1F4UVdBci1VVnI5RWNuNlZMRXRtZzBmR2tBMEpZaTc3aDZwUXhNbXF3clZYemFjbFVZNGNpWk13cnAyXzBmbGJ4SWp3bFcyZWFGWGpMUE8yS0xweUVMenVGMDYxT3ItbVg3MF9RdjV6YklEd255Yy1YTVVUM1hMeXFEWnJFckF3Mlp0NEtPaVJFQ085b2RobFZWUDlUeE9hX0Z0TQ",
+      "guidislink": false,
+      "published": "Wed, 08 Nov 2017 08:00:00 GMT",
+      "published_parsed": [
+        2017,
+        11,
+        8,
+        8,
+        0,
+        0,
+        2,
+        312,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxPdkRtOXc0TFJxSWpUQ0tfT1F4UVdBci1VVnI5RWNuNlZMRXRtZzBmR2tBMEpZaTc3aDZwUXhNbXF3clZYemFjbFVZNGNpWk13cnAyXzBmbGJ4SWp3bFcyZWFGWGpMUE8yS0xweUVMenVGMDYxT3ItbVg3MF9RdjV6YklEd255Yy1YTVVUM1hMeXFEWnJFckF3Mlp0NEtPaVJFQ085b2RobFZWUDlUeE9hX0Z0TQ?oc=5\" target=\"_blank\">EPA Approves Plan to Release Infected Mosquitoes to Stop Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Popular Mechanics</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxPdkRtOXc0TFJxSWpUQ0tfT1F4UVdBci1VVnI5RWNuNlZMRXRtZzBmR2tBMEpZaTc3aDZwUXhNbXF3clZYemFjbFVZNGNpWk13cnAyXzBmbGJ4SWp3bFcyZWFGWGpMUE8yS0xweUVMenVGMDYxT3ItbVg3MF9RdjV6YklEd255Yy1YTVVUM1hMeXFEWnJFckF3Mlp0NEtPaVJFQ085b2RobFZWUDlUeE9hX0Z0TQ?oc=5\" target=\"_blank\">EPA Approves Plan to Release Infected Mosquitoes to Stop Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Popular Mechanics</font>"
+      },
+      "source": {
+        "href": "https://www.popularmechanics.com",
+        "title": "Popular Mechanics"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Dengue study adds to evidence for antibody enhancement - CIDRAP",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Dengue study adds to evidence for antibody enhancement - CIDRAP"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWl8zUl9VNGRCUGQzdDhqb3ZaV3pfWEltMW1KUmlUOXFTNXZHbjdMTnVGS3FNZWtFU0Nya05LUERVdEVVemFoTlV6SVJaTWMyZHJmRm1SN1pxZ3YzQTNDV0c1TVRTTW1hMExrTl9vcVMyRS1RbTNTREFaYWstalIzU3JLbzE5ZTZH?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWl8zUl9VNGRCUGQzdDhqb3ZaV3pfWEltMW1KUmlUOXFTNXZHbjdMTnVGS3FNZWtFU0Nya05LUERVdEVVemFoTlV6SVJaTWMyZHJmRm1SN1pxZ3YzQTNDV0c1TVRTTW1hMExrTl9vcVMyRS1RbTNTREFaYWstalIzU3JLbzE5ZTZH?oc=5",
+      "id": "CBMiiAFBVV95cUxQWl8zUl9VNGRCUGQzdDhqb3ZaV3pfWEltMW1KUmlUOXFTNXZHbjdMTnVGS3FNZWtFU0Nya05LUERVdEVVemFoTlV6SVJaTWMyZHJmRm1SN1pxZ3YzQTNDV0c1TVRTTW1hMExrTl9vcVMyRS1RbTNTREFaYWstalIzU3JLbzE5ZTZH",
+      "guidislink": false,
+      "published": "Wed, 08 Nov 2017 08:00:00 GMT",
+      "published_parsed": [
+        2017,
+        11,
+        8,
+        8,
+        0,
+        0,
+        2,
+        312,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWl8zUl9VNGRCUGQzdDhqb3ZaV3pfWEltMW1KUmlUOXFTNXZHbjdMTnVGS3FNZWtFU0Nya05LUERVdEVVemFoTlV6SVJaTWMyZHJmRm1SN1pxZ3YzQTNDV0c1TVRTTW1hMExrTl9vcVMyRS1RbTNTREFaYWstalIzU3JLbzE5ZTZH?oc=5\" target=\"_blank\">Dengue study adds to evidence for antibody enhancement</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CIDRAP</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWl8zUl9VNGRCUGQzdDhqb3ZaV3pfWEltMW1KUmlUOXFTNXZHbjdMTnVGS3FNZWtFU0Nya05LUERVdEVVemFoTlV6SVJaTWMyZHJmRm1SN1pxZ3YzQTNDV0c1TVRTTW1hMExrTl9vcVMyRS1RbTNTREFaYWstalIzU3JLbzE5ZTZH?oc=5\" target=\"_blank\">Dengue study adds to evidence for antibody enhancement</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CIDRAP</font>"
+      },
+      "source": {
+        "href": "https://www.cidrap.umn.edu",
+        "title": "CIDRAP"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Current Zika transmission in the Caribbean (as of 27 October 2017) - ReliefWeb",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Current Zika transmission in the Caribbean (as of 27 October 2017) - ReliefWeb"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNR1NFYVdXYVk2MThoRWdqbWNhZzlPb192cEFjdlowLWZqMFVqcE1wRUw4UDJvVUY2ejk2RDRHaUxaNWRkNjlVUjNiRkR3NWRKRkhZSjVlY0QwQlNzbkg5bFJsYmZSRTNvc0RrZ2tROFNESTBfTnBodHJXM1ZrZl9rRDN1YmMzdWV0eFpZ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNR1NFYVdXYVk2MThoRWdqbWNhZzlPb192cEFjdlowLWZqMFVqcE1wRUw4UDJvVUY2ejk2RDRHaUxaNWRkNjlVUjNiRkR3NWRKRkhZSjVlY0QwQlNzbkg5bFJsYmZSRTNvc0RrZ2tROFNESTBfTnBodHJXM1ZrZl9rRDN1YmMzdWV0eFpZ?oc=5",
+      "id": "CBMiiwFBVV95cUxNR1NFYVdXYVk2MThoRWdqbWNhZzlPb192cEFjdlowLWZqMFVqcE1wRUw4UDJvVUY2ejk2RDRHaUxaNWRkNjlVUjNiRkR3NWRKRkhZSjVlY0QwQlNzbkg5bFJsYmZSRTNvc0RrZ2tROFNESTBfTnBodHJXM1ZrZl9rRDN1YmMzdWV0eFpZ",
+      "guidislink": false,
+      "published": "Fri, 27 Oct 2017 07:00:00 GMT",
+      "published_parsed": [
+        2017,
+        10,
+        27,
+        7,
+        0,
+        0,
+        4,
+        300,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxNR1NFYVdXYVk2MThoRWdqbWNhZzlPb192cEFjdlowLWZqMFVqcE1wRUw4UDJvVUY2ejk2RDRHaUxaNWRkNjlVUjNiRkR3NWRKRkhZSjVlY0QwQlNzbkg5bFJsYmZSRTNvc0RrZ2tROFNESTBfTnBodHJXM1ZrZl9rRDN1YmMzdWV0eFpZ?oc=5\" target=\"_blank\">Current Zika transmission in the Caribbean (as of 27 October 2017)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ReliefWeb</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxNR1NFYVdXYVk2MThoRWdqbWNhZzlPb192cEFjdlowLWZqMFVqcE1wRUw4UDJvVUY2ejk2RDRHaUxaNWRkNjlVUjNiRkR3NWRKRkhZSjVlY0QwQlNzbkg5bFJsYmZSRTNvc0RrZ2tROFNESTBfTnBodHJXM1ZrZl9rRDN1YmMzdWV0eFpZ?oc=5\" target=\"_blank\">Current Zika transmission in the Caribbean (as of 27 October 2017)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ReliefWeb</font>"
+      },
+      "source": {
+        "href": "https://reliefweb.int",
+        "title": "ReliefWeb"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Oh, the places your blood will go after you donate it - popsci.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Oh, the places your blood will go after you donate it - popsci.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5IdDdKT0ZsTFZKOHlmTGgyaVFPSFpkakFtbUhtTHhacXZfOUt6SnBtZjBoYjRCc2xuNmhwTmZLX1dIWjhEYzRRekRqTTMwWVc4SnJScXA4dm1RUQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5IdDdKT0ZsTFZKOHlmTGgyaVFPSFpkakFtbUhtTHhacXZfOUt6SnBtZjBoYjRCc2xuNmhwTmZLX1dIWjhEYzRRekRqTTMwWVc4SnJScXA4dm1RUQ?oc=5",
+      "id": "CBMiWkFVX3lxTE5IdDdKT0ZsTFZKOHlmTGgyaVFPSFpkakFtbUhtTHhacXZfOUt6SnBtZjBoYjRCc2xuNmhwTmZLX1dIWjhEYzRRekRqTTMwWVc4SnJScXA4dm1RUQ",
+      "guidislink": false,
+      "published": "Mon, 06 Nov 2017 08:00:00 GMT",
+      "published_parsed": [
+        2017,
+        11,
+        6,
+        8,
+        0,
+        0,
+        0,
+        310,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE5IdDdKT0ZsTFZKOHlmTGgyaVFPSFpkakFtbUhtTHhacXZfOUt6SnBtZjBoYjRCc2xuNmhwTmZLX1dIWjhEYzRRekRqTTMwWVc4SnJScXA4dm1RUQ?oc=5\" target=\"_blank\">Oh, the places your blood will go after you donate it</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">popsci.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE5IdDdKT0ZsTFZKOHlmTGgyaVFPSFpkakFtbUhtTHhacXZfOUt6SnBtZjBoYjRCc2xuNmhwTmZLX1dIWjhEYzRRekRqTTMwWVc4SnJScXA4dm1RUQ?oc=5\" target=\"_blank\">Oh, the places your blood will go after you donate it</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">popsci.com</font>"
+      },
+      "source": {
+        "href": "https://www.popsci.com",
+        "title": "popsci.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "10 Zika-Free Honeymoon Spots - Matador Network",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "10 Zika-Free Honeymoon Spots - Matador Network"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9PVDdzLTRXc1ZCbV9GNkFTMmR4X3dpdVVNTE5CaUs4azNXY1dQcmN2S3RZb19GS0VqblpGYUo3TjJyT0l3RTRKMlg4OGhXbGZySjUzTk10MG8tRWJOdTJDTHJ6RlNjZUFkSmlfQnpn?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9PVDdzLTRXc1ZCbV9GNkFTMmR4X3dpdVVNTE5CaUs4azNXY1dQcmN2S3RZb19GS0VqblpGYUo3TjJyT0l3RTRKMlg4OGhXbGZySjUzTk10MG8tRWJOdTJDTHJ6RlNjZUFkSmlfQnpn?oc=5",
+      "id": "CBMibkFVX3lxTE9PVDdzLTRXc1ZCbV9GNkFTMmR4X3dpdVVNTE5CaUs4azNXY1dQcmN2S3RZb19GS0VqblpGYUo3TjJyT0l3RTRKMlg4OGhXbGZySjUzTk10MG8tRWJOdTJDTHJ6RlNjZUFkSmlfQnpn",
+      "guidislink": false,
+      "published": "Tue, 31 Oct 2017 07:00:00 GMT",
+      "published_parsed": [
+        2017,
+        10,
+        31,
+        7,
+        0,
+        0,
+        1,
+        304,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTE9PVDdzLTRXc1ZCbV9GNkFTMmR4X3dpdVVNTE5CaUs4azNXY1dQcmN2S3RZb19GS0VqblpGYUo3TjJyT0l3RTRKMlg4OGhXbGZySjUzTk10MG8tRWJOdTJDTHJ6RlNjZUFkSmlfQnpn?oc=5\" target=\"_blank\">10 Zika-Free Honeymoon Spots</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Matador Network</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTE9PVDdzLTRXc1ZCbV9GNkFTMmR4X3dpdVVNTE5CaUs4azNXY1dQcmN2S3RZb19GS0VqblpGYUo3TjJyT0l3RTRKMlg4OGhXbGZySjUzTk10MG8tRWJOdTJDTHJ6RlNjZUFkSmlfQnpn?oc=5\" target=\"_blank\">10 Zika-Free Honeymoon Spots</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Matador Network</font>"
+      },
+      "source": {
+        "href": "https://matadornetwork.com",
+        "title": "Matador Network"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Mosquito known to carry serious diseases like yellow fever and Zika found in Indian Wells neighborhood - The Desert Sun",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Mosquito known to carry serious diseases like yellow fever and Zika found in Indian Wells neighborhood - The Desert Sun"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSGlZZU10bUJjRHp0aGJQQVBFT0t1MUljRWJwSm1FU3MxQVZlMFgyX3hmanpXMjNrTk03YTB0dVZRNGxWaXhuYUZrTjRhcGhOU1pHZkZUNWVTZ1pfSERGTklyQldaSkFDZTJDSjIxOHY5a19udk9Kb0Jxd01VVlpMUTJHRjBGZ0x2YjdmLVF1b0tleHJhQ3d2ZEZRX2ZiYlVkby1yRlBsQQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSGlZZU10bUJjRHp0aGJQQVBFT0t1MUljRWJwSm1FU3MxQVZlMFgyX3hmanpXMjNrTk03YTB0dVZRNGxWaXhuYUZrTjRhcGhOU1pHZkZUNWVTZ1pfSERGTklyQldaSkFDZTJDSjIxOHY5a19udk9Kb0Jxd01VVlpMUTJHRjBGZ0x2YjdmLVF1b0tleHJhQ3d2ZEZRX2ZiYlVkby1yRlBsQQ?oc=5",
+      "id": "CBMipwFBVV95cUxNSGlZZU10bUJjRHp0aGJQQVBFT0t1MUljRWJwSm1FU3MxQVZlMFgyX3hmanpXMjNrTk03YTB0dVZRNGxWaXhuYUZrTjRhcGhOU1pHZkZUNWVTZ1pfSERGTklyQldaSkFDZTJDSjIxOHY5a19udk9Kb0Jxd01VVlpMUTJHRjBGZ0x2YjdmLVF1b0tleHJhQ3d2ZEZRX2ZiYlVkby1yRlBsQQ",
+      "guidislink": false,
+      "published": "Mon, 06 Nov 2017 08:00:00 GMT",
+      "published_parsed": [
+        2017,
+        11,
+        6,
+        8,
+        0,
+        0,
+        0,
+        310,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxNSGlZZU10bUJjRHp0aGJQQVBFT0t1MUljRWJwSm1FU3MxQVZlMFgyX3hmanpXMjNrTk03YTB0dVZRNGxWaXhuYUZrTjRhcGhOU1pHZkZUNWVTZ1pfSERGTklyQldaSkFDZTJDSjIxOHY5a19udk9Kb0Jxd01VVlpMUTJHRjBGZ0x2YjdmLVF1b0tleHJhQ3d2ZEZRX2ZiYlVkby1yRlBsQQ?oc=5\" target=\"_blank\">Mosquito known to carry serious diseases like yellow fever and Zika found in Indian Wells neighborhood</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Desert Sun</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxNSGlZZU10bUJjRHp0aGJQQVBFT0t1MUljRWJwSm1FU3MxQVZlMFgyX3hmanpXMjNrTk03YTB0dVZRNGxWaXhuYUZrTjRhcGhOU1pHZkZUNWVTZ1pfSERGTklyQldaSkFDZTJDSjIxOHY5a19udk9Kb0Jxd01VVlpMUTJHRjBGZ0x2YjdmLVF1b0tleHJhQ3d2ZEZRX2ZiYlVkby1yRlBsQQ?oc=5\" target=\"_blank\">Mosquito known to carry serious diseases like yellow fever and Zika found in Indian Wells neighborhood</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Desert Sun</font>"
+      },
+      "source": {
+        "href": "https://www.desertsun.com",
+        "title": "The Desert Sun"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Miami reports its first Zika infection of the year - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Miami reports its first Zika infection of the year - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOWlJIOTdnck42Rk1tRFBhN0FqcTgyRW5FSGpIRTBJay1HaURHSjRzR3RlRldZLUV0UnBvd0dGMU9VYmMzVlJDZzVHUGE2d1dzbDRmeGltN3J1WmhzV3RROTJGajlXX2x5UDlaZmZCS1dWWmx0NlFyTFdIZ3U2bGYtb0R5NmllLVdjQjB1T191Zm9hMUVaUkVwRy11akxhUkEzMHd5MkZfbGNjNlhsWURfRmwtdzBkWjVWSE5aaFVfdi1vbjl0bUxuYWN2V05jY2pSNjYySkg5djltZVVmYWxsZWRWSjhGdGItU1h5YzdHSTctWnc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOWlJIOTdnck42Rk1tRFBhN0FqcTgyRW5FSGpIRTBJay1HaURHSjRzR3RlRldZLUV0UnBvd0dGMU9VYmMzVlJDZzVHUGE2d1dzbDRmeGltN3J1WmhzV3RROTJGajlXX2x5UDlaZmZCS1dWWmx0NlFyTFdIZ3U2bGYtb0R5NmllLVdjQjB1T191Zm9hMUVaUkVwRy11akxhUkEzMHd5MkZfbGNjNlhsWURfRmwtdzBkWjVWSE5aaFVfdi1vbjl0bUxuYWN2V05jY2pSNjYySkg5djltZVVmYWxsZWRWSjhGdGItU1h5YzdHSTctWnc?oc=5",
+      "id": "CBMi8wFBVV95cUxOWlJIOTdnck42Rk1tRFBhN0FqcTgyRW5FSGpIRTBJay1HaURHSjRzR3RlRldZLUV0UnBvd0dGMU9VYmMzVlJDZzVHUGE2d1dzbDRmeGltN3J1WmhzV3RROTJGajlXX2x5UDlaZmZCS1dWWmx0NlFyTFdIZ3U2bGYtb0R5NmllLVdjQjB1T191Zm9hMUVaUkVwRy11akxhUkEzMHd5MkZfbGNjNlhsWURfRmwtdzBkWjVWSE5aaFVfdi1vbjl0bUxuYWN2V05jY2pSNjYySkg5djltZVVmYWxsZWRWSjhGdGItU1h5YzdHSTctWnc",
+      "guidislink": false,
+      "published": "Mon, 06 Nov 2017 08:00:00 GMT",
+      "published_parsed": [
+        2017,
+        11,
+        6,
+        8,
+        0,
+        0,
+        0,
+        310,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi8wFBVV95cUxOWlJIOTdnck42Rk1tRFBhN0FqcTgyRW5FSGpIRTBJay1HaURHSjRzR3RlRldZLUV0UnBvd0dGMU9VYmMzVlJDZzVHUGE2d1dzbDRmeGltN3J1WmhzV3RROTJGajlXX2x5UDlaZmZCS1dWWmx0NlFyTFdIZ3U2bGYtb0R5NmllLVdjQjB1T191Zm9hMUVaUkVwRy11akxhUkEzMHd5MkZfbGNjNlhsWURfRmwtdzBkWjVWSE5aaFVfdi1vbjl0bUxuYWN2V05jY2pSNjYySkg5djltZVVmYWxsZWRWSjhGdGItU1h5YzdHSTctWnc?oc=5\" target=\"_blank\">Miami reports its first Zika infection of the year</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi8wFBVV95cUxOWlJIOTdnck42Rk1tRFBhN0FqcTgyRW5FSGpIRTBJay1HaURHSjRzR3RlRldZLUV0UnBvd0dGMU9VYmMzVlJDZzVHUGE2d1dzbDRmeGltN3J1WmhzV3RROTJGajlXX2x5UDlaZmZCS1dWWmx0NlFyTFdIZ3U2bGYtb0R5NmllLVdjQjB1T191Zm9hMUVaUkVwRy11akxhUkEzMHd5MkZfbGNjNlhsWURfRmwtdzBkWjVWSE5aaFVfdi1vbjl0bUxuYWN2V05jY2pSNjYySkg5djltZVVmYWxsZWRWSjhGdGItU1h5YzdHSTctWnc?oc=5\" target=\"_blank\">Miami reports its first Zika infection of the year</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "http://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2011-02-25",
+  "window_end": "2011-03-10",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2011-02-25+before%3A2011-03-11&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2011-02-25+before:2011-03-11&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:16:34Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2011-02-25 before:2011-03-11\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2011-02-25 before:2011-03-11\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2011-02-25+before:2011-03-11&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2011-02-25+before:2011-03-11&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:16:34 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      16,
+      34,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Passenger plane makes emergency landing after wheel falls off on flight to Newcastle - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Passenger plane makes emergency landing after wheel falls off on flight to Newcastle - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORkFORzRFZ21sai05bW1EakhBZlcyMEY2ajltcG1BMEZmZ180Zm1ZdFhRc0Q4Unl4UzJkUGxuSFFUbFZWVmZiQ1V3dGNxeUdVMk02V0Iya2V0VXhpQ2lEeGpDOW5QTHhJX0F0cDFNR2pVTW9pUGZBWTd4V28tN2lHemxXT0c3Nnd3Vzc3QzRHMEZianBwTUhwNDBCQWRRT050eENzUWxjU3o2OWZpYUR1X0YzWWhNT1UxY01nQkVNdXR5Q3Ba0gHEAUFVX3lxTE5GQU5HNEVnbWxqLTltbURqSEFmVzIwRjZqOW1wbUEwRmZnXzRmbVl0WFFzRDhSeXhTMmRQbG5IUVRsVlZWZmJDVXd0Y3F5R1UyTTZXQjJrZXRVeGlDaUR4akM5blBMeElfQXRwMU1HalVNb2lQZkFZN3hXby03aUd6bFdPRzc2d3dXNzdDNEcwRmJqcHBNSHA0MEJBZFFPTnR4Q3NRbGNTejY5ZmlhRHVfRjNZaE1PVTFjTWdCRU11dHlDcFo?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORkFORzRFZ21sai05bW1EakhBZlcyMEY2ajltcG1BMEZmZ180Zm1ZdFhRc0Q4Unl4UzJkUGxuSFFUbFZWVmZiQ1V3dGNxeUdVMk02V0Iya2V0VXhpQ2lEeGpDOW5QTHhJX0F0cDFNR2pVTW9pUGZBWTd4V28tN2lHemxXT0c3Nnd3Vzc3QzRHMEZianBwTUhwNDBCQWRRT050eENzUWxjU3o2OWZpYUR1X0YzWWhNT1UxY01nQkVNdXR5Q3Ba0gHEAUFVX3lxTE5GQU5HNEVnbWxqLTltbURqSEFmVzIwRjZqOW1wbUEwRmZnXzRmbVl0WFFzRDhSeXhTMmRQbG5IUVRsVlZWZmJDVXd0Y3F5R1UyTTZXQjJrZXRVeGlDaUR4akM5blBMeElfQXRwMU1HalVNb2lQZkFZN3hXby03aUd6bFdPRzc2d3dXNzdDNEcwRmJqcHBNSHA0MEJBZFFPTnR4Q3NRbGNTejY5ZmlhRHVfRjNZaE1PVTFjTWdCRU11dHlDcFo?oc=5",
+      "id": "CBMixAFBVV95cUxORkFORzRFZ21sai05bW1EakhBZlcyMEY2ajltcG1BMEZmZ180Zm1ZdFhRc0Q4Unl4UzJkUGxuSFFUbFZWVmZiQ1V3dGNxeUdVMk02V0Iya2V0VXhpQ2lEeGpDOW5QTHhJX0F0cDFNR2pVTW9pUGZBWTd4V28tN2lHemxXT0c3Nnd3Vzc3QzRHMEZianBwTUhwNDBCQWRRT050eENzUWxjU3o2OWZpYUR1X0YzWWhNT1UxY01nQkVNdXR5Q3Ba0gHEAUFVX3lxTE5GQU5HNEVnbWxqLTltbURqSEFmVzIwRjZqOW1wbUEwRmZnXzRmbVl0WFFzRDhSeXhTMmRQbG5IUVRsVlZWZmJDVXd0Y3F5R1UyTTZXQjJrZXRVeGlDaUR4akM5blBMeElfQXRwMU1HalVNb2lQZkFZN3hXby03aUd6bFdPRzc2d3dXNzdDNEcwRmJqcHBNSHA0MEJBZFFPTnR4Q3NRbGNTejY5ZmlhRHVfRjNZaE1PVTFjTWdCRU11dHlDcFo",
+      "guidislink": false,
+      "published": "Fri, 04 Mar 2011 08:00:00 GMT",
+      "published_parsed": [
+        2011,
+        3,
+        4,
+        8,
+        0,
+        0,
+        4,
+        63,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxORkFORzRFZ21sai05bW1EakhBZlcyMEY2ajltcG1BMEZmZ180Zm1ZdFhRc0Q4Unl4UzJkUGxuSFFUbFZWVmZiQ1V3dGNxeUdVMk02V0Iya2V0VXhpQ2lEeGpDOW5QTHhJX0F0cDFNR2pVTW9pUGZBWTd4V28tN2lHemxXT0c3Nnd3Vzc3QzRHMEZianBwTUhwNDBCQWRRT050eENzUWxjU3o2OWZpYUR1X0YzWWhNT1UxY01nQkVNdXR5Q3Ba0gHEAUFVX3lxTE5GQU5HNEVnbWxqLTltbURqSEFmVzIwRjZqOW1wbUEwRmZnXzRmbVl0WFFzRDhSeXhTMmRQbG5IUVRsVlZWZmJDVXd0Y3F5R1UyTTZXQjJrZXRVeGlDaUR4akM5blBMeElfQXRwMU1HalVNb2lQZkFZN3hXby03aUd6bFdPRzc2d3dXNzdDNEcwRmJqcHBNSHA0MEJBZFFPTnR4Q3NRbGNTejY5ZmlhRHVfRjNZaE1PVTFjTWdCRU11dHlDcFo?oc=5\" target=\"_blank\">Passenger plane makes emergency landing after wheel falls off on flight to Newcastle</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxORkFORzRFZ21sai05bW1EakhBZlcyMEY2ajltcG1BMEZmZ180Zm1ZdFhRc0Q4Unl4UzJkUGxuSFFUbFZWVmZiQ1V3dGNxeUdVMk02V0Iya2V0VXhpQ2lEeGpDOW5QTHhJX0F0cDFNR2pVTW9pUGZBWTd4V28tN2lHemxXT0c3Nnd3Vzc3QzRHMEZianBwTUhwNDBCQWRRT050eENzUWxjU3o2OWZpYUR1X0YzWWhNT1UxY01nQkVNdXR5Q3Ba0gHEAUFVX3lxTE5GQU5HNEVnbWxqLTltbURqSEFmVzIwRjZqOW1wbUEwRmZnXzRmbVl0WFFzRDhSeXhTMmRQbG5IUVRsVlZWZmJDVXd0Y3F5R1UyTTZXQjJrZXRVeGlDaUR4akM5blBMeElfQXRwMU1HalVNb2lQZkFZN3hXby03aUd6bFdPRzc2d3dXNzdDNEcwRmJqcHBNSHA0MEJBZFFPTnR4Q3NRbGNTejY5ZmlhRHVfRjNZaE1PVTFjTWdCRU11dHlDcFo?oc=5\" target=\"_blank\">Passenger plane makes emergency landing after wheel falls off on flight to Newcastle</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    }
+  ]
+}

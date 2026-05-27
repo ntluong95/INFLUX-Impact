@@ -1,0 +1,32 @@
+paths:
+  data_root: "data_hierarchical_14"
+  logs_root: "logs_hierarchical_14"
+
+query:
+  term: zika
+  language: en
+  start_date: "2010-01-01"
+  end_date: "2025-12-31"
+
+rss:
+  backend: "pygooglenews"
+  lang: "en"
+  country: "US"
+  chunk_size_days: 14
+  split_hierarchy_days: [14, 7, 3, 1]
+  split_threshold_entries: 100
+  cache_format: "json"
+  manifest_filename: "zika_rss_manifest.csv"
+  request_sleep_seconds: 1.5
+  timeout_seconds: 30
+  max_retries: 3
+  retry_backoff_seconds: 2.0
+  max_backoff_seconds: 90
+  checkpoint_every: 25
+  accept_language: "en-US,en;q=0.9"
+  force_refresh: false
+  proxy_backend: "direct"
+  http_proxy: ""
+  https_proxy: ""
+  scraping_bee_api_key: ""
+  user_agent: "Mozilla/5.0 (compatible; INFLUX-Zika-Hierarchical-14/1.0; +https://news.google.com/)"

@@ -1,0 +1,220 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2012-09-21",
+  "window_end": "2012-10-04",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2012-09-21+before%3A2012-10-05&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2012-09-21+before:2012-10-05&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:17:49Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2012-09-21 before:2012-10-05\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2012-09-21 before:2012-10-05\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2012-09-21+before:2012-10-05&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2012-09-21+before:2012-10-05&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:17:49 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      17,
+      49,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "How Mosquitoes Are Out-Smarting Humans - Smithsonian Magazine",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "How Mosquitoes Are Out-Smarting Humans - Smithsonian Magazine"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNelBleGhhZ3I0c1YwaFpJOFZlOVJCWkNYQXlic21fejhMaGZFMVM5c3hZZjhRRXdxbE9kTlByOTVSTWF3emhJZGt3SlBsUHE4ak1NbGVYaGVoYmxKYnoxbzFtbXhhYThPRUl3bWxXc3ZLR3BCUGFSRFYyQmtIaXYzLVZWc1ZXel9Fbnpsa0dMNnppZ2Vi?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNelBleGhhZ3I0c1YwaFpJOFZlOVJCWkNYQXlic21fejhMaGZFMVM5c3hZZjhRRXdxbE9kTlByOTVSTWF3emhJZGt3SlBsUHE4ak1NbGVYaGVoYmxKYnoxbzFtbXhhYThPRUl3bWxXc3ZLR3BCUGFSRFYyQmtIaXYzLVZWc1ZXel9Fbnpsa0dMNnppZ2Vi?oc=5",
+      "id": "CBMilAFBVV95cUxNelBleGhhZ3I0c1YwaFpJOFZlOVJCWkNYQXlic21fejhMaGZFMVM5c3hZZjhRRXdxbE9kTlByOTVSTWF3emhJZGt3SlBsUHE4ak1NbGVYaGVoYmxKYnoxbzFtbXhhYThPRUl3bWxXc3ZLR3BCUGFSRFYyQmtIaXYzLVZWc1ZXel9Fbnpsa0dMNnppZ2Vi",
+      "guidislink": false,
+      "published": "Thu, 04 Oct 2012 07:00:00 GMT",
+      "published_parsed": [
+        2012,
+        10,
+        4,
+        7,
+        0,
+        0,
+        3,
+        278,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNelBleGhhZ3I0c1YwaFpJOFZlOVJCWkNYQXlic21fejhMaGZFMVM5c3hZZjhRRXdxbE9kTlByOTVSTWF3emhJZGt3SlBsUHE4ak1NbGVYaGVoYmxKYnoxbzFtbXhhYThPRUl3bWxXc3ZLR3BCUGFSRFYyQmtIaXYzLVZWc1ZXel9Fbnpsa0dMNnppZ2Vi?oc=5\" target=\"_blank\">How Mosquitoes Are Out-Smarting Humans</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Smithsonian Magazine</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNelBleGhhZ3I0c1YwaFpJOFZlOVJCWkNYQXlic21fejhMaGZFMVM5c3hZZjhRRXdxbE9kTlByOTVSTWF3emhJZGt3SlBsUHE4ak1NbGVYaGVoYmxKYnoxbzFtbXhhYThPRUl3bWxXc3ZLR3BCUGFSRFYyQmtIaXYzLVZWc1ZXel9Fbnpsa0dMNnppZ2Vi?oc=5\" target=\"_blank\">How Mosquitoes Are Out-Smarting Humans</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Smithsonian Magazine</font>"
+      },
+      "source": {
+        "href": "https://www.smithsonianmag.com",
+        "title": "Smithsonian Magazine"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Norwich 1 Doncaster 0: Match report - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Norwich 1 Doncaster 0: Match report - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPak9RMlY3M0YtUjRMaXRxX2MycGl0bkxFalNaTHVqcjJpTHdRaVF2YW9PbHNuVnJoRnJITi1ySDZaUTk2MkdrTkxEbGNicVpnVEpIS18xQlB4blZRU0V6Y24xNFBQWElkMGs4TDRjc01tVklLRDRhS1dGNlhwUlNGX0pXLTA3VGhVQ2RHc1VudXNLVzU2dXd4YlpLUl81bmZRVjg4bNIBpAFBVV95cUxPak9RMlY3M0YtUjRMaXRxX2MycGl0bkxFalNaTHVqcjJpTHdRaVF2YW9PbHNuVnJoRnJITi1ySDZaUTk2MkdrTkxEbGNicVpnVEpIS18xQlB4blZRU0V6Y24xNFBQWElkMGs4TDRjc01tVklLRDRhS1dGNlhwUlNGX0pXLTA3VGhVQ2RHc1VudXNLVzU2dXd4YlpLUl81bmZRVjg4bA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPak9RMlY3M0YtUjRMaXRxX2MycGl0bkxFalNaTHVqcjJpTHdRaVF2YW9PbHNuVnJoRnJITi1ySDZaUTk2MkdrTkxEbGNicVpnVEpIS18xQlB4blZRU0V6Y24xNFBQWElkMGs4TDRjc01tVklLRDRhS1dGNlhwUlNGX0pXLTA3VGhVQ2RHc1VudXNLVzU2dXd4YlpLUl81bmZRVjg4bNIBpAFBVV95cUxPak9RMlY3M0YtUjRMaXRxX2MycGl0bkxFalNaTHVqcjJpTHdRaVF2YW9PbHNuVnJoRnJITi1ySDZaUTk2MkdrTkxEbGNicVpnVEpIS18xQlB4blZRU0V6Y24xNFBQWElkMGs4TDRjc01tVklLRDRhS1dGNlhwUlNGX0pXLTA3VGhVQ2RHc1VudXNLVzU2dXd4YlpLUl81bmZRVjg4bA?oc=5",
+      "id": "CBMipAFBVV95cUxPak9RMlY3M0YtUjRMaXRxX2MycGl0bkxFalNaTHVqcjJpTHdRaVF2YW9PbHNuVnJoRnJITi1ySDZaUTk2MkdrTkxEbGNicVpnVEpIS18xQlB4blZRU0V6Y24xNFBQWElkMGs4TDRjc01tVklLRDRhS1dGNlhwUlNGX0pXLTA3VGhVQ2RHc1VudXNLVzU2dXd4YlpLUl81bmZRVjg4bNIBpAFBVV95cUxPak9RMlY3M0YtUjRMaXRxX2MycGl0bkxFalNaTHVqcjJpTHdRaVF2YW9PbHNuVnJoRnJITi1ySDZaUTk2MkdrTkxEbGNicVpnVEpIS18xQlB4blZRU0V6Y24xNFBQWElkMGs4TDRjc01tVklLRDRhS1dGNlhwUlNGX0pXLTA3VGhVQ2RHc1VudXNLVzU2dXd4YlpLUl81bmZRVjg4bA",
+      "guidislink": false,
+      "published": "Wed, 26 Sep 2012 07:00:00 GMT",
+      "published_parsed": [
+        2012,
+        9,
+        26,
+        7,
+        0,
+        0,
+        2,
+        270,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxPak9RMlY3M0YtUjRMaXRxX2MycGl0bkxFalNaTHVqcjJpTHdRaVF2YW9PbHNuVnJoRnJITi1ySDZaUTk2MkdrTkxEbGNicVpnVEpIS18xQlB4blZRU0V6Y24xNFBQWElkMGs4TDRjc01tVklLRDRhS1dGNlhwUlNGX0pXLTA3VGhVQ2RHc1VudXNLVzU2dXd4YlpLUl81bmZRVjg4bNIBpAFBVV95cUxPak9RMlY3M0YtUjRMaXRxX2MycGl0bkxFalNaTHVqcjJpTHdRaVF2YW9PbHNuVnJoRnJITi1ySDZaUTk2MkdrTkxEbGNicVpnVEpIS18xQlB4blZRU0V6Y24xNFBQWElkMGs4TDRjc01tVklLRDRhS1dGNlhwUlNGX0pXLTA3VGhVQ2RHc1VudXNLVzU2dXd4YlpLUl81bmZRVjg4bA?oc=5\" target=\"_blank\">Norwich 1 Doncaster 0: Match report</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxPak9RMlY3M0YtUjRMaXRxX2MycGl0bkxFalNaTHVqcjJpTHdRaVF2YW9PbHNuVnJoRnJITi1ySDZaUTk2MkdrTkxEbGNicVpnVEpIS18xQlB4blZRU0V6Y24xNFBQWElkMGs4TDRjc01tVklLRDRhS1dGNlhwUlNGX0pXLTA3VGhVQ2RHc1VudXNLVzU2dXd4YlpLUl81bmZRVjg4bNIBpAFBVV95cUxPak9RMlY3M0YtUjRMaXRxX2MycGl0bkxFalNaTHVqcjJpTHdRaVF2YW9PbHNuVnJoRnJITi1ySDZaUTk2MkdrTkxEbGNicVpnVEpIS18xQlB4blZRU0V6Y24xNFBQWElkMGs4TDRjc01tVklLRDRhS1dGNlhwUlNGX0pXLTA3VGhVQ2RHc1VudXNLVzU2dXd4YlpLUl81bmZRVjg4bA?oc=5\" target=\"_blank\">Norwich 1 Doncaster 0: Match report</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Meet the new X Factor style team: The trio who'll have the tough job of creating looks for this year's finalists - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Meet the new X Factor style team: The trio who'll have the tough job of creating looks for this year's finalists - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNVEJ0M2hGR0xDcjdOajNuZTNoSTdBNFBFVTNaRDBmYmNkT1Yxc2RQTFJ0MHJ5NU83cm1nUklZdHdPZG5EaHVpVC15bDdhU1BqTmZSQ1dZRjhyWFhvSU5hSmF1WFd4VUg0NTBfSkVGNTZreHlYbFhzSGhNN1J3TWw4c2JTWDdISVpyckQ0c0M2Y0kwUmxfa1V3RFJlSlp0NDBaRTBMa2U3cXpOSVR6U2VZZ0ZIMEVBeXdtUVVPTVNBUHVPSzZ3SmlRZC1lTUJReTlZa3B4UnJwRlItaGJi0gHcAUFVX3lxTE1UQnQzaEZHTENyN05qM25lM2hJN0E0UEVVM1pEMGZiY2RPVjFzZFBMUnQwcnk1TzdybWdSSVl0d09kbkRodWlULXlsN2FTUGpOZlJDV1lGOHJYWG9JTmFKYXVYV3hVSDQ1MF9KRUY1Nmt4eVhsWHNIaE03UndNbDhzYlNYN0hJWnJyRDRzQzZjSTBSbF9rVXdEUmVKWnQ0MFpFMExrZTdxek5JVHpTZVlnRkgwRUF5d21RVU9NU0FQdU9LNndKaVFkLWVNQlF5OVlrcHhScnBGUi1oYmI?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNVEJ0M2hGR0xDcjdOajNuZTNoSTdBNFBFVTNaRDBmYmNkT1Yxc2RQTFJ0MHJ5NU83cm1nUklZdHdPZG5EaHVpVC15bDdhU1BqTmZSQ1dZRjhyWFhvSU5hSmF1WFd4VUg0NTBfSkVGNTZreHlYbFhzSGhNN1J3TWw4c2JTWDdISVpyckQ0c0M2Y0kwUmxfa1V3RFJlSlp0NDBaRTBMa2U3cXpOSVR6U2VZZ0ZIMEVBeXdtUVVPTVNBUHVPSzZ3SmlRZC1lTUJReTlZa3B4UnJwRlItaGJi0gHcAUFVX3lxTE1UQnQzaEZHTENyN05qM25lM2hJN0E0UEVVM1pEMGZiY2RPVjFzZFBMUnQwcnk1TzdybWdSSVl0d09kbkRodWlULXlsN2FTUGpOZlJDV1lGOHJYWG9JTmFKYXVYV3hVSDQ1MF9KRUY1Nmt4eVhsWHNIaE03UndNbDhzYlNYN0hJWnJyRDRzQzZjSTBSbF9rVXdEUmVKWnQ0MFpFMExrZTdxek5JVHpTZVlnRkgwRUF5d21RVU9NU0FQdU9LNndKaVFkLWVNQlF5OVlrcHhScnBGUi1oYmI?oc=5",
+      "id": "CBMi3AFBVV95cUxNVEJ0M2hGR0xDcjdOajNuZTNoSTdBNFBFVTNaRDBmYmNkT1Yxc2RQTFJ0MHJ5NU83cm1nUklZdHdPZG5EaHVpVC15bDdhU1BqTmZSQ1dZRjhyWFhvSU5hSmF1WFd4VUg0NTBfSkVGNTZreHlYbFhzSGhNN1J3TWw4c2JTWDdISVpyckQ0c0M2Y0kwUmxfa1V3RFJlSlp0NDBaRTBMa2U3cXpOSVR6U2VZZ0ZIMEVBeXdtUVVPTVNBUHVPSzZ3SmlRZC1lTUJReTlZa3B4UnJwRlItaGJi0gHcAUFVX3lxTE1UQnQzaEZHTENyN05qM25lM2hJN0E0UEVVM1pEMGZiY2RPVjFzZFBMUnQwcnk1TzdybWdSSVl0d09kbkRodWlULXlsN2FTUGpOZlJDV1lGOHJYWG9JTmFKYXVYV3hVSDQ1MF9KRUY1Nmt4eVhsWHNIaE03UndNbDhzYlNYN0hJWnJyRDRzQzZjSTBSbF9rVXdEUmVKWnQ0MFpFMExrZTdxek5JVHpTZVlnRkgwRUF5d21RVU9NU0FQdU9LNndKaVFkLWVNQlF5OVlrcHhScnBGUi1oYmI",
+      "guidislink": false,
+      "published": "Tue, 02 Oct 2012 07:00:00 GMT",
+      "published_parsed": [
+        2012,
+        10,
+        2,
+        7,
+        0,
+        0,
+        1,
+        276,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxNVEJ0M2hGR0xDcjdOajNuZTNoSTdBNFBFVTNaRDBmYmNkT1Yxc2RQTFJ0MHJ5NU83cm1nUklZdHdPZG5EaHVpVC15bDdhU1BqTmZSQ1dZRjhyWFhvSU5hSmF1WFd4VUg0NTBfSkVGNTZreHlYbFhzSGhNN1J3TWw4c2JTWDdISVpyckQ0c0M2Y0kwUmxfa1V3RFJlSlp0NDBaRTBMa2U3cXpOSVR6U2VZZ0ZIMEVBeXdtUVVPTVNBUHVPSzZ3SmlRZC1lTUJReTlZa3B4UnJwRlItaGJi0gHcAUFVX3lxTE1UQnQzaEZHTENyN05qM25lM2hJN0E0UEVVM1pEMGZiY2RPVjFzZFBMUnQwcnk1TzdybWdSSVl0d09kbkRodWlULXlsN2FTUGpOZlJDV1lGOHJYWG9JTmFKYXVYV3hVSDQ1MF9KRUY1Nmt4eVhsWHNIaE03UndNbDhzYlNYN0hJWnJyRDRzQzZjSTBSbF9rVXdEUmVKWnQ0MFpFMExrZTdxek5JVHpTZVlnRkgwRUF5d21RVU9NU0FQdU9LNndKaVFkLWVNQlF5OVlrcHhScnBGUi1oYmI?oc=5\" target=\"_blank\">Meet the new X Factor style team: The trio who'll have the tough job of creating looks for this year's finalists</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxNVEJ0M2hGR0xDcjdOajNuZTNoSTdBNFBFVTNaRDBmYmNkT1Yxc2RQTFJ0MHJ5NU83cm1nUklZdHdPZG5EaHVpVC15bDdhU1BqTmZSQ1dZRjhyWFhvSU5hSmF1WFd4VUg0NTBfSkVGNTZreHlYbFhzSGhNN1J3TWw4c2JTWDdISVpyckQ0c0M2Y0kwUmxfa1V3RFJlSlp0NDBaRTBMa2U3cXpOSVR6U2VZZ0ZIMEVBeXdtUVVPTVNBUHVPSzZ3SmlRZC1lTUJReTlZa3B4UnJwRlItaGJi0gHcAUFVX3lxTE1UQnQzaEZHTENyN05qM25lM2hJN0E0UEVVM1pEMGZiY2RPVjFzZFBMUnQwcnk1TzdybWdSSVl0d09kbkRodWlULXlsN2FTUGpOZlJDV1lGOHJYWG9JTmFKYXVYV3hVSDQ1MF9KRUY1Nmt4eVhsWHNIaE03UndNbDhzYlNYN0hJWnJyRDRzQzZjSTBSbF9rVXdEUmVKWnQ0MFpFMExrZTdxek5JVHpTZVlnRkgwRUF5d21RVU9NU0FQdU9LNndKaVFkLWVNQlF5OVlrcHhScnBGUi1oYmI?oc=5\" target=\"_blank\">Meet the new X Factor style team: The trio who'll have the tough job of creating looks for this year's finalists</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    }
+  ]
+}

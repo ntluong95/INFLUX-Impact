@@ -1,0 +1,263 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2015-04-03",
+  "window_end": "2015-04-16",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2015-04-03+before%3A2015-04-17&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2015-04-03+before:2015-04-17&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:19:48Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2015-04-03 before:2015-04-17\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2015-04-03 before:2015-04-17\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2015-04-03+before:2015-04-17&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2015-04-03+before:2015-04-17&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:19:48 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      19,
+      48,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Second Language Feedback Abolishes the “Hot Hand” Effect during Even-Probability Gambling - Journal of Neuroscience",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Second Language Feedback Abolishes the “Hot Hand” Effect during Even-Probability Gambling - Journal of Neuroscience"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1PV1ZvaXh5MXloSGk4MHFTNEx4R2kySjVoWlJTdG5fbF9MSGtVYWdlOE1BQU05cmt6MzZjQ1g5VHltaVpsSWEwZ3E5RFFhdzV4a0gwSDl3OA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1PV1ZvaXh5MXloSGk4MHFTNEx4R2kySjVoWlJTdG5fbF9MSGtVYWdlOE1BQU05cmt6MzZjQ1g5VHltaVpsSWEwZ3E5RFFhdzV4a0gwSDl3OA?oc=5",
+      "id": "CBMiV0FVX3lxTE1PV1ZvaXh5MXloSGk4MHFTNEx4R2kySjVoWlJTdG5fbF9MSGtVYWdlOE1BQU05cmt6MzZjQ1g5VHltaVpsSWEwZ3E5RFFhdzV4a0gwSDl3OA",
+      "guidislink": false,
+      "published": "Wed, 15 Apr 2015 07:00:00 GMT",
+      "published_parsed": [
+        2015,
+        4,
+        15,
+        7,
+        0,
+        0,
+        2,
+        105,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE1PV1ZvaXh5MXloSGk4MHFTNEx4R2kySjVoWlJTdG5fbF9MSGtVYWdlOE1BQU05cmt6MzZjQ1g5VHltaVpsSWEwZ3E5RFFhdzV4a0gwSDl3OA?oc=5\" target=\"_blank\">Second Language Feedback Abolishes the “Hot Hand” Effect during Even-Probability Gambling</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Journal of Neuroscience</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE1PV1ZvaXh5MXloSGk4MHFTNEx4R2kySjVoWlJTdG5fbF9MSGtVYWdlOE1BQU05cmt6MzZjQ1g5VHltaVpsSWEwZ3E5RFFhdzV4a0gwSDl3OA?oc=5\" target=\"_blank\">Second Language Feedback Abolishes the “Hot Hand” Effect during Even-Probability Gambling</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Journal of Neuroscience</font>"
+      },
+      "source": {
+        "href": "https://www.jneurosci.org",
+        "title": "Journal of Neuroscience"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Impaled by pole, Cedar Rapids woman finds her way home - The Des Moines Register",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Impaled by pole, Cedar Rapids woman finds her way home - The Des Moines Register"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNkVsdGlldVBjdUpVNGtHSXl5M3YxVjlzdW1TMEpUNzlvQXY2eXljWHdXM01GWlllUV9BeElQdXBpeE5RNk40QVlVelJfUE41dlZ2REg0Vk1VZXhvcmRyeGJHV0k2NDFGYkJEdkp3azhvbEx2VU16RkZwVnNoUnJ2aUhueXo0N25hU0tJNlhfN2pzMlRIMG83RTV4VS0?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNkVsdGlldVBjdUpVNGtHSXl5M3YxVjlzdW1TMEpUNzlvQXY2eXljWHdXM01GWlllUV9BeElQdXBpeE5RNk40QVlVelJfUE41dlZ2REg0Vk1VZXhvcmRyeGJHV0k2NDFGYkJEdkp3azhvbEx2VU16RkZwVnNoUnJ2aUhueXo0N25hU0tJNlhfN2pzMlRIMG83RTV4VS0?oc=5",
+      "id": "CBMinAFBVV95cUxNNkVsdGlldVBjdUpVNGtHSXl5M3YxVjlzdW1TMEpUNzlvQXY2eXljWHdXM01GWlllUV9BeElQdXBpeE5RNk40QVlVelJfUE41dlZ2REg0Vk1VZXhvcmRyeGJHV0k2NDFGYkJEdkp3azhvbEx2VU16RkZwVnNoUnJ2aUhueXo0N25hU0tJNlhfN2pzMlRIMG83RTV4VS0",
+      "guidislink": false,
+      "published": "Fri, 03 Apr 2015 07:00:00 GMT",
+      "published_parsed": [
+        2015,
+        4,
+        3,
+        7,
+        0,
+        0,
+        4,
+        93,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxNNkVsdGlldVBjdUpVNGtHSXl5M3YxVjlzdW1TMEpUNzlvQXY2eXljWHdXM01GWlllUV9BeElQdXBpeE5RNk40QVlVelJfUE41dlZ2REg0Vk1VZXhvcmRyeGJHV0k2NDFGYkJEdkp3azhvbEx2VU16RkZwVnNoUnJ2aUhueXo0N25hU0tJNlhfN2pzMlRIMG83RTV4VS0?oc=5\" target=\"_blank\">Impaled by pole, Cedar Rapids woman finds her way home</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Des Moines Register</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxNNkVsdGlldVBjdUpVNGtHSXl5M3YxVjlzdW1TMEpUNzlvQXY2eXljWHdXM01GWlllUV9BeElQdXBpeE5RNk40QVlVelJfUE41dlZ2REg0Vk1VZXhvcmRyeGJHV0k2NDFGYkJEdkp3azhvbEx2VU16RkZwVnNoUnJ2aUhueXo0N25hU0tJNlhfN2pzMlRIMG83RTV4VS0?oc=5\" target=\"_blank\">Impaled by pole, Cedar Rapids woman finds her way home</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Des Moines Register</font>"
+      },
+      "source": {
+        "href": "https://www.desmoinesregister.com",
+        "title": "The Des Moines Register"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Steph Curry shows off shooting skills as he scores 77 consecutive three-point attempts during Golden State Warriors practice - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Steph Curry shows off shooting skills as he scores 77 consecutive three-point attempts during Golden State Warriors practice - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxNdmV2RDZsWXltTWkwTE8wTkNTRk5wR2dqMWhUdVBmN2VZOTE3TE1qNVkxZTMteXpiVXZnTUt6a2k2X2htSHljUkNKeE1wNzJiQ0s2T2JYaHp0ekZWS21uNGdRZDRVaF9tdHgweEZ6ZldOdzhCVWtTZW1TWHZ2YUs5R0l1NUdZbnNlc1NvVDhPalU2SlZzMjUtRnZtN1c3U2RDb0NMZExFamJjQ1ZCUlJuNlZKbVJrYm9vMGZUUWp2b0lRb0ZrZmpOVVlTdktfX0xVVGQ5cFBWaWh3MW9SeFM1UWl2QWFwMmFMd0I2SXJTOEg2THlBUlJ2WUJOQS1UMG5lMENWay1rWGVsYWlYMjJPN3VOS3k2azJNWjFidTk3X0Y4Q0ZFT2dNN01GQWhKbDlBeldKN2N0RFPSAbgCQVVfeXFMTXZldkQ2bFl5bU1pMExPME5DU0ZOcEdnajFoVHVQZjdlWTkxN0xNajVZMWUzLXl6YlV2Z01LemtpNl9obUh5Y1JDSnhNcDcyYkNLNk9iWGh6dHpGVkttbjRnUWQ0VWhfbXR4MHhGemZXTnc4QlVrU2VtU1h2dmFLOUdJdTVHWW5zZXNTb1Q4T2pVNkpWczI1LUZ2bTdXN1NkQ29DTGRMRWpiY0NWQlJSbjZWSm1Sa2JvbzBmVFFqdm9JUW9Ga2ZqTlVZU3ZLX19MVVRkOXBQVmlodzFvUnhTNVFpdkFhcDJhTHdCNklyUzhINkx5QVJSdllCTkEtVDBuZTBDVmsta1hlbGFpWDIyTzd1Tkt5NmsyTVoxYnU5N19GOENGRU9nTTdNRkFoSmw5QXpXSjdjdERT?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxNdmV2RDZsWXltTWkwTE8wTkNTRk5wR2dqMWhUdVBmN2VZOTE3TE1qNVkxZTMteXpiVXZnTUt6a2k2X2htSHljUkNKeE1wNzJiQ0s2T2JYaHp0ekZWS21uNGdRZDRVaF9tdHgweEZ6ZldOdzhCVWtTZW1TWHZ2YUs5R0l1NUdZbnNlc1NvVDhPalU2SlZzMjUtRnZtN1c3U2RDb0NMZExFamJjQ1ZCUlJuNlZKbVJrYm9vMGZUUWp2b0lRb0ZrZmpOVVlTdktfX0xVVGQ5cFBWaWh3MW9SeFM1UWl2QWFwMmFMd0I2SXJTOEg2THlBUlJ2WUJOQS1UMG5lMENWay1rWGVsYWlYMjJPN3VOS3k2azJNWjFidTk3X0Y4Q0ZFT2dNN01GQWhKbDlBeldKN2N0RFPSAbgCQVVfeXFMTXZldkQ2bFl5bU1pMExPME5DU0ZOcEdnajFoVHVQZjdlWTkxN0xNajVZMWUzLXl6YlV2Z01LemtpNl9obUh5Y1JDSnhNcDcyYkNLNk9iWGh6dHpGVkttbjRnUWQ0VWhfbXR4MHhGemZXTnc4QlVrU2VtU1h2dmFLOUdJdTVHWW5zZXNTb1Q4T2pVNkpWczI1LUZ2bTdXN1NkQ29DTGRMRWpiY0NWQlJSbjZWSm1Sa2JvbzBmVFFqdm9JUW9Ga2ZqTlVZU3ZLX19MVVRkOXBQVmlodzFvUnhTNVFpdkFhcDJhTHdCNklyUzhINkx5QVJSdllCTkEtVDBuZTBDVmsta1hlbGFpWDIyTzd1Tkt5NmsyTVoxYnU5N19GOENGRU9nTTdNRkFoSmw5QXpXSjdjdERT?oc=5",
+      "id": "CBMiuAJBVV95cUxNdmV2RDZsWXltTWkwTE8wTkNTRk5wR2dqMWhUdVBmN2VZOTE3TE1qNVkxZTMteXpiVXZnTUt6a2k2X2htSHljUkNKeE1wNzJiQ0s2T2JYaHp0ekZWS21uNGdRZDRVaF9tdHgweEZ6ZldOdzhCVWtTZW1TWHZ2YUs5R0l1NUdZbnNlc1NvVDhPalU2SlZzMjUtRnZtN1c3U2RDb0NMZExFamJjQ1ZCUlJuNlZKbVJrYm9vMGZUUWp2b0lRb0ZrZmpOVVlTdktfX0xVVGQ5cFBWaWh3MW9SeFM1UWl2QWFwMmFMd0I2SXJTOEg2THlBUlJ2WUJOQS1UMG5lMENWay1rWGVsYWlYMjJPN3VOS3k2azJNWjFidTk3X0Y4Q0ZFT2dNN01GQWhKbDlBeldKN2N0RFPSAbgCQVVfeXFMTXZldkQ2bFl5bU1pMExPME5DU0ZOcEdnajFoVHVQZjdlWTkxN0xNajVZMWUzLXl6YlV2Z01LemtpNl9obUh5Y1JDSnhNcDcyYkNLNk9iWGh6dHpGVkttbjRnUWQ0VWhfbXR4MHhGemZXTnc4QlVrU2VtU1h2dmFLOUdJdTVHWW5zZXNTb1Q4T2pVNkpWczI1LUZ2bTdXN1NkQ29DTGRMRWpiY0NWQlJSbjZWSm1Sa2JvbzBmVFFqdm9JUW9Ga2ZqTlVZU3ZLX19MVVRkOXBQVmlodzFvUnhTNVFpdkFhcDJhTHdCNklyUzhINkx5QVJSdllCTkEtVDBuZTBDVmsta1hlbGFpWDIyTzd1Tkt5NmsyTVoxYnU5N19GOENGRU9nTTdNRkFoSmw5QXpXSjdjdERT",
+      "guidislink": false,
+      "published": "Wed, 15 Apr 2015 07:00:00 GMT",
+      "published_parsed": [
+        2015,
+        4,
+        15,
+        7,
+        0,
+        0,
+        2,
+        105,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuAJBVV95cUxNdmV2RDZsWXltTWkwTE8wTkNTRk5wR2dqMWhUdVBmN2VZOTE3TE1qNVkxZTMteXpiVXZnTUt6a2k2X2htSHljUkNKeE1wNzJiQ0s2T2JYaHp0ekZWS21uNGdRZDRVaF9tdHgweEZ6ZldOdzhCVWtTZW1TWHZ2YUs5R0l1NUdZbnNlc1NvVDhPalU2SlZzMjUtRnZtN1c3U2RDb0NMZExFamJjQ1ZCUlJuNlZKbVJrYm9vMGZUUWp2b0lRb0ZrZmpOVVlTdktfX0xVVGQ5cFBWaWh3MW9SeFM1UWl2QWFwMmFMd0I2SXJTOEg2THlBUlJ2WUJOQS1UMG5lMENWay1rWGVsYWlYMjJPN3VOS3k2azJNWjFidTk3X0Y4Q0ZFT2dNN01GQWhKbDlBeldKN2N0RFPSAbgCQVVfeXFMTXZldkQ2bFl5bU1pMExPME5DU0ZOcEdnajFoVHVQZjdlWTkxN0xNajVZMWUzLXl6YlV2Z01LemtpNl9obUh5Y1JDSnhNcDcyYkNLNk9iWGh6dHpGVkttbjRnUWQ0VWhfbXR4MHhGemZXTnc4QlVrU2VtU1h2dmFLOUdJdTVHWW5zZXNTb1Q4T2pVNkpWczI1LUZ2bTdXN1NkQ29DTGRMRWpiY0NWQlJSbjZWSm1Sa2JvbzBmVFFqdm9JUW9Ga2ZqTlVZU3ZLX19MVVRkOXBQVmlodzFvUnhTNVFpdkFhcDJhTHdCNklyUzhINkx5QVJSdllCTkEtVDBuZTBDVmsta1hlbGFpWDIyTzd1Tkt5NmsyTVoxYnU5N19GOENGRU9nTTdNRkFoSmw5QXpXSjdjdERT?oc=5\" target=\"_blank\">Steph Curry shows off shooting skills as he scores 77 consecutive three-point attempts during Golden State Warriors practice</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiuAJBVV95cUxNdmV2RDZsWXltTWkwTE8wTkNTRk5wR2dqMWhUdVBmN2VZOTE3TE1qNVkxZTMteXpiVXZnTUt6a2k2X2htSHljUkNKeE1wNzJiQ0s2T2JYaHp0ekZWS21uNGdRZDRVaF9tdHgweEZ6ZldOdzhCVWtTZW1TWHZ2YUs5R0l1NUdZbnNlc1NvVDhPalU2SlZzMjUtRnZtN1c3U2RDb0NMZExFamJjQ1ZCUlJuNlZKbVJrYm9vMGZUUWp2b0lRb0ZrZmpOVVlTdktfX0xVVGQ5cFBWaWh3MW9SeFM1UWl2QWFwMmFMd0I2SXJTOEg2THlBUlJ2WUJOQS1UMG5lMENWay1rWGVsYWlYMjJPN3VOS3k2azJNWjFidTk3X0Y4Q0ZFT2dNN01GQWhKbDlBeldKN2N0RFPSAbgCQVVfeXFMTXZldkQ2bFl5bU1pMExPME5DU0ZOcEdnajFoVHVQZjdlWTkxN0xNajVZMWUzLXl6YlV2Z01LemtpNl9obUh5Y1JDSnhNcDcyYkNLNk9iWGh6dHpGVkttbjRnUWQ0VWhfbXR4MHhGemZXTnc4QlVrU2VtU1h2dmFLOUdJdTVHWW5zZXNTb1Q4T2pVNkpWczI1LUZ2bTdXN1NkQ29DTGRMRWpiY0NWQlJSbjZWSm1Sa2JvbzBmVFFqdm9JUW9Ga2ZqTlVZU3ZLX19MVVRkOXBQVmlodzFvUnhTNVFpdkFhcDJhTHdCNklyUzhINkx5QVJSdllCTkEtVDBuZTBDVmsta1hlbGFpWDIyTzd1Tkt5NmsyTVoxYnU5N19GOENGRU9nTTdNRkFoSmw5QXpXSjdjdERT?oc=5\" target=\"_blank\">Steph Curry shows off shooting skills as he scores 77 consecutive three-point attempts during Golden State Warriors practice</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Masters 2015 tee times: Rory McIlroy to play with Phil Mickelson while Tiger Woods joins Jamie Donaldson at Augusta National - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Masters 2015 tee times: Rory McIlroy to play with Phil Mickelson while Tiger Woods joins Jamie Donaldson at Augusta National - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPOVRXcVVIUUw5b3Y3YVdZTm02MnpublZ0R3lnSkg0WU9ld1pScGhtbFNlMUZUaFNzc0E4OW1JTXduckI5MDByQWR1bHNhRWNJbllxV1c5T2J4c3JJeXFsaDIxa3pVV0t4TXYteXlhNElZdzQyd2FFa2FvMm8tSnFJZXV2a3ZkWmVvYWUyUUhIU1pTWGpYRjg4ejJuellIUV9qclpxR1RCUVJMNXd3ckU4czI0TjZHN3dPRkZMNWgwclVyOWRnODBnaDEtUTF2STU3WklHbEpQckhWNkphZkVRZ1dHal8taUtwRWVLSnlIVTF0WU1MMjFYaTl5QXowT0UzcC1wMWNWVTVSQmZSUGZDUkJvMGRWZUx1OTdFdF9ZUkI4d9IBogJBVV95cUxPOVRXcVVIUUw5b3Y3YVdZTm02MnpublZ0R3lnSkg0WU9ld1pScGhtbFNlMUZUaFNzc0E4OW1JTXduckI5MDByQWR1bHNhRWNJbllxV1c5T2J4c3JJeXFsaDIxa3pVV0t4TXYteXlhNElZdzQyd2FFa2FvMm8tSnFJZXV2a3ZkWmVvYWUyUUhIU1pTWGpYRjg4ejJuellIUV9qclpxR1RCUVJMNXd3ckU4czI0TjZHN3dPRkZMNWgwclVyOWRnODBnaDEtUTF2STU3WklHbEpQckhWNkphZkVRZ1dHal8taUtwRWVLSnlIVTF0WU1MMjFYaTl5QXowT0UzcC1wMWNWVTVSQmZSUGZDUkJvMGRWZUx1OTdFdF9ZUkI4dw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPOVRXcVVIUUw5b3Y3YVdZTm02MnpublZ0R3lnSkg0WU9ld1pScGhtbFNlMUZUaFNzc0E4OW1JTXduckI5MDByQWR1bHNhRWNJbllxV1c5T2J4c3JJeXFsaDIxa3pVV0t4TXYteXlhNElZdzQyd2FFa2FvMm8tSnFJZXV2a3ZkWmVvYWUyUUhIU1pTWGpYRjg4ejJuellIUV9qclpxR1RCUVJMNXd3ckU4czI0TjZHN3dPRkZMNWgwclVyOWRnODBnaDEtUTF2STU3WklHbEpQckhWNkphZkVRZ1dHal8taUtwRWVLSnlIVTF0WU1MMjFYaTl5QXowT0UzcC1wMWNWVTVSQmZSUGZDUkJvMGRWZUx1OTdFdF9ZUkI4d9IBogJBVV95cUxPOVRXcVVIUUw5b3Y3YVdZTm02MnpublZ0R3lnSkg0WU9ld1pScGhtbFNlMUZUaFNzc0E4OW1JTXduckI5MDByQWR1bHNhRWNJbllxV1c5T2J4c3JJeXFsaDIxa3pVV0t4TXYteXlhNElZdzQyd2FFa2FvMm8tSnFJZXV2a3ZkWmVvYWUyUUhIU1pTWGpYRjg4ejJuellIUV9qclpxR1RCUVJMNXd3ckU4czI0TjZHN3dPRkZMNWgwclVyOWRnODBnaDEtUTF2STU3WklHbEpQckhWNkphZkVRZ1dHal8taUtwRWVLSnlIVTF0WU1MMjFYaTl5QXowT0UzcC1wMWNWVTVSQmZSUGZDUkJvMGRWZUx1OTdFdF9ZUkI4dw?oc=5",
+      "id": "CBMiogJBVV95cUxPOVRXcVVIUUw5b3Y3YVdZTm02MnpublZ0R3lnSkg0WU9ld1pScGhtbFNlMUZUaFNzc0E4OW1JTXduckI5MDByQWR1bHNhRWNJbllxV1c5T2J4c3JJeXFsaDIxa3pVV0t4TXYteXlhNElZdzQyd2FFa2FvMm8tSnFJZXV2a3ZkWmVvYWUyUUhIU1pTWGpYRjg4ejJuellIUV9qclpxR1RCUVJMNXd3ckU4czI0TjZHN3dPRkZMNWgwclVyOWRnODBnaDEtUTF2STU3WklHbEpQckhWNkphZkVRZ1dHal8taUtwRWVLSnlIVTF0WU1MMjFYaTl5QXowT0UzcC1wMWNWVTVSQmZSUGZDUkJvMGRWZUx1OTdFdF9ZUkI4d9IBogJBVV95cUxPOVRXcVVIUUw5b3Y3YVdZTm02MnpublZ0R3lnSkg0WU9ld1pScGhtbFNlMUZUaFNzc0E4OW1JTXduckI5MDByQWR1bHNhRWNJbllxV1c5T2J4c3JJeXFsaDIxa3pVV0t4TXYteXlhNElZdzQyd2FFa2FvMm8tSnFJZXV2a3ZkWmVvYWUyUUhIU1pTWGpYRjg4ejJuellIUV9qclpxR1RCUVJMNXd3ckU4czI0TjZHN3dPRkZMNWgwclVyOWRnODBnaDEtUTF2STU3WklHbEpQckhWNkphZkVRZ1dHal8taUtwRWVLSnlIVTF0WU1MMjFYaTl5QXowT0UzcC1wMWNWVTVSQmZSUGZDUkJvMGRWZUx1OTdFdF9ZUkI4dw",
+      "guidislink": false,
+      "published": "Thu, 09 Apr 2015 07:00:00 GMT",
+      "published_parsed": [
+        2015,
+        4,
+        9,
+        7,
+        0,
+        0,
+        3,
+        99,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogJBVV95cUxPOVRXcVVIUUw5b3Y3YVdZTm02MnpublZ0R3lnSkg0WU9ld1pScGhtbFNlMUZUaFNzc0E4OW1JTXduckI5MDByQWR1bHNhRWNJbllxV1c5T2J4c3JJeXFsaDIxa3pVV0t4TXYteXlhNElZdzQyd2FFa2FvMm8tSnFJZXV2a3ZkWmVvYWUyUUhIU1pTWGpYRjg4ejJuellIUV9qclpxR1RCUVJMNXd3ckU4czI0TjZHN3dPRkZMNWgwclVyOWRnODBnaDEtUTF2STU3WklHbEpQckhWNkphZkVRZ1dHal8taUtwRWVLSnlIVTF0WU1MMjFYaTl5QXowT0UzcC1wMWNWVTVSQmZSUGZDUkJvMGRWZUx1OTdFdF9ZUkI4d9IBogJBVV95cUxPOVRXcVVIUUw5b3Y3YVdZTm02MnpublZ0R3lnSkg0WU9ld1pScGhtbFNlMUZUaFNzc0E4OW1JTXduckI5MDByQWR1bHNhRWNJbllxV1c5T2J4c3JJeXFsaDIxa3pVV0t4TXYteXlhNElZdzQyd2FFa2FvMm8tSnFJZXV2a3ZkWmVvYWUyUUhIU1pTWGpYRjg4ejJuellIUV9qclpxR1RCUVJMNXd3ckU4czI0TjZHN3dPRkZMNWgwclVyOWRnODBnaDEtUTF2STU3WklHbEpQckhWNkphZkVRZ1dHal8taUtwRWVLSnlIVTF0WU1MMjFYaTl5QXowT0UzcC1wMWNWVTVSQmZSUGZDUkJvMGRWZUx1OTdFdF9ZUkI4dw?oc=5\" target=\"_blank\">Masters 2015 tee times: Rory McIlroy to play with Phil Mickelson while Tiger Woods joins Jamie Donaldson at Augusta National</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiogJBVV95cUxPOVRXcVVIUUw5b3Y3YVdZTm02MnpublZ0R3lnSkg0WU9ld1pScGhtbFNlMUZUaFNzc0E4OW1JTXduckI5MDByQWR1bHNhRWNJbllxV1c5T2J4c3JJeXFsaDIxa3pVV0t4TXYteXlhNElZdzQyd2FFa2FvMm8tSnFJZXV2a3ZkWmVvYWUyUUhIU1pTWGpYRjg4ejJuellIUV9qclpxR1RCUVJMNXd3ckU4czI0TjZHN3dPRkZMNWgwclVyOWRnODBnaDEtUTF2STU3WklHbEpQckhWNkphZkVRZ1dHal8taUtwRWVLSnlIVTF0WU1MMjFYaTl5QXowT0UzcC1wMWNWVTVSQmZSUGZDUkJvMGRWZUx1OTdFdF9ZUkI4d9IBogJBVV95cUxPOVRXcVVIUUw5b3Y3YVdZTm02MnpublZ0R3lnSkg0WU9ld1pScGhtbFNlMUZUaFNzc0E4OW1JTXduckI5MDByQWR1bHNhRWNJbllxV1c5T2J4c3JJeXFsaDIxa3pVV0t4TXYteXlhNElZdzQyd2FFa2FvMm8tSnFJZXV2a3ZkWmVvYWUyUUhIU1pTWGpYRjg4ejJuellIUV9qclpxR1RCUVJMNXd3ckU4czI0TjZHN3dPRkZMNWgwclVyOWRnODBnaDEtUTF2STU3WklHbEpQckhWNkphZkVRZ1dHal8taUtwRWVLSnlIVTF0WU1MMjFYaTl5QXowT0UzcC1wMWNWVTVSQmZSUGZDUkJvMGRWZUx1OTdFdF9ZUkI4dw?oc=5\" target=\"_blank\">Masters 2015 tee times: Rory McIlroy to play with Phil Mickelson while Tiger Woods joins Jamie Donaldson at Augusta National</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    }
+  ]
+}

@@ -1,0 +1,822 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2025-10-03",
+  "window_end": "2025-10-16",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2025-10-03+before%3A2025-10-17&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2025-10-03+before:2025-10-17&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:32:04Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2025-10-03 before:2025-10-17\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2025-10-03 before:2025-10-17\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2025-10-03+before:2025-10-17&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2025-10-03+before:2025-10-17&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:32:04 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      32,
+      4,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Central Zika virus infection causes hypothalamic inflammation and persistent insulin resistance in adult mice - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Central Zika virus infection causes hypothalamic inflammation and persistent insulin resistance in adult mice - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5kMXdkVGFLS2pidk1UMkZjbE13ckZ2UTNBc3M5cXBNSnd5UXZVRlp0dmhwdkZqRkVWc0IxSWxMVEEwcnA2dzVzRFluSkN1azJublhvSTlxejNZNnpCci1F?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5kMXdkVGFLS2pidk1UMkZjbE13ckZ2UTNBc3M5cXBNSnd5UXZVRlp0dmhwdkZqRkVWc0IxSWxMVEEwcnA2dzVzRFluSkN1azJublhvSTlxejNZNnpCci1F?oc=5",
+      "id": "CBMiX0FVX3lxTE5kMXdkVGFLS2pidk1UMkZjbE13ckZ2UTNBc3M5cXBNSnd5UXZVRlp0dmhwdkZqRkVWc0IxSWxMVEEwcnA2dzVzRFluSkN1azJublhvSTlxejNZNnpCci1F",
+      "guidislink": false,
+      "published": "Mon, 13 Oct 2025 07:00:00 GMT",
+      "published_parsed": [
+        2025,
+        10,
+        13,
+        7,
+        0,
+        0,
+        0,
+        286,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5kMXdkVGFLS2pidk1UMkZjbE13ckZ2UTNBc3M5cXBNSnd5UXZVRlp0dmhwdkZqRkVWc0IxSWxMVEEwcnA2dzVzRFluSkN1azJublhvSTlxejNZNnpCci1F?oc=5\" target=\"_blank\">Central Zika virus infection causes hypothalamic inflammation and persistent insulin resistance in adult mice</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5kMXdkVGFLS2pidk1UMkZjbE13ckZ2UTNBc3M5cXBNSnd5UXZVRlp0dmhwdkZqRkVWc0IxSWxMVEEwcnA2dzVzRFluSkN1azJublhvSTlxejNZNnpCci1F?oc=5\" target=\"_blank\">Central Zika virus infection causes hypothalamic inflammation and persistent insulin resistance in adult mice</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "In overlooked cellular connections, this researcher charted Zika’s path to the placenta - statnews.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "In overlooked cellular connections, this researcher charted Zika’s path to the placenta - statnews.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZUppM04tV0lVZHZfR3BBTDVYRVpnekViMGZFQ0ZJMTIyT3cweEVMR3JYTHh0LUs1WGViLXdlV2QtVTh6QjdnczZRaVg3aHMyUk5TUzdYQmNUb19wOUg2aF8ta3l1RVJ2bHBFajFIYzA1dF8tNk9DMVV1OWdZd09rc0FpcjRYWWtTdVRSa25oam5PT21LTUZuYTNkbDk?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZUppM04tV0lVZHZfR3BBTDVYRVpnekViMGZFQ0ZJMTIyT3cweEVMR3JYTHh0LUs1WGViLXdlV2QtVTh6QjdnczZRaVg3aHMyUk5TUzdYQmNUb19wOUg2aF8ta3l1RVJ2bHBFajFIYzA1dF8tNk9DMVV1OWdZd09rc0FpcjRYWWtTdVRSa25oam5PT21LTUZuYTNkbDk?oc=5",
+      "id": "CBMinAFBVV95cUxPZUppM04tV0lVZHZfR3BBTDVYRVpnekViMGZFQ0ZJMTIyT3cweEVMR3JYTHh0LUs1WGViLXdlV2QtVTh6QjdnczZRaVg3aHMyUk5TUzdYQmNUb19wOUg2aF8ta3l1RVJ2bHBFajFIYzA1dF8tNk9DMVV1OWdZd09rc0FpcjRYWWtTdVRSa25oam5PT21LTUZuYTNkbDk",
+      "guidislink": false,
+      "published": "Fri, 17 Oct 2025 07:00:00 GMT",
+      "published_parsed": [
+        2025,
+        10,
+        17,
+        7,
+        0,
+        0,
+        4,
+        290,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxPZUppM04tV0lVZHZfR3BBTDVYRVpnekViMGZFQ0ZJMTIyT3cweEVMR3JYTHh0LUs1WGViLXdlV2QtVTh6QjdnczZRaVg3aHMyUk5TUzdYQmNUb19wOUg2aF8ta3l1RVJ2bHBFajFIYzA1dF8tNk9DMVV1OWdZd09rc0FpcjRYWWtTdVRSa25oam5PT21LTUZuYTNkbDk?oc=5\" target=\"_blank\">In overlooked cellular connections, this researcher charted Zika’s path to the placenta</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">statnews.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxPZUppM04tV0lVZHZfR3BBTDVYRVpnekViMGZFQ0ZJMTIyT3cweEVMR3JYTHh0LUs1WGViLXdlV2QtVTh6QjdnczZRaVg3aHMyUk5TUzdYQmNUb19wOUg2aF8ta3l1RVJ2bHBFajFIYzA1dF8tNk9DMVV1OWdZd09rc0FpcjRYWWtTdVRSa25oam5PT21LTUZuYTNkbDk?oc=5\" target=\"_blank\">In overlooked cellular connections, this researcher charted Zika’s path to the placenta</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">statnews.com</font>"
+      },
+      "source": {
+        "href": "https://www.statnews.com",
+        "title": "statnews.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Fetuses exposed to Zika virus have long-term, sex-specific immune changes, study reveals - Medical Xpress",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Fetuses exposed to Zika virus have long-term, sex-specific immune changes, study reveals - Medical Xpress"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNV3hLLVpJOXBxelJvb2lqSW1xM3BZVWo5QkhPR1h4RXVvUGhpVUVTajBtOGFoS0NJaF90N2VPV3pWcG1zMHJ0cWVkaG0tMFlPeVNPeGRpeEZGeG5Db3FuQVZwQ29qckZOVkhnanp6YlpXZVhmck1Fa1RNOGN4RXFqZw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNV3hLLVpJOXBxelJvb2lqSW1xM3BZVWo5QkhPR1h4RXVvUGhpVUVTajBtOGFoS0NJaF90N2VPV3pWcG1zMHJ0cWVkaG0tMFlPeVNPeGRpeEZGeG5Db3FuQVZwQ29qckZOVkhnanp6YlpXZVhmck1Fa1RNOGN4RXFqZw?oc=5",
+      "id": "CBMigAFBVV95cUxNV3hLLVpJOXBxelJvb2lqSW1xM3BZVWo5QkhPR1h4RXVvUGhpVUVTajBtOGFoS0NJaF90N2VPV3pWcG1zMHJ0cWVkaG0tMFlPeVNPeGRpeEZGeG5Db3FuQVZwQ29qckZOVkhnanp6YlpXZVhmck1Fa1RNOGN4RXFqZw",
+      "guidislink": false,
+      "published": "Mon, 06 Oct 2025 07:00:00 GMT",
+      "published_parsed": [
+        2025,
+        10,
+        6,
+        7,
+        0,
+        0,
+        0,
+        279,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxNV3hLLVpJOXBxelJvb2lqSW1xM3BZVWo5QkhPR1h4RXVvUGhpVUVTajBtOGFoS0NJaF90N2VPV3pWcG1zMHJ0cWVkaG0tMFlPeVNPeGRpeEZGeG5Db3FuQVZwQ29qckZOVkhnanp6YlpXZVhmck1Fa1RNOGN4RXFqZw?oc=5\" target=\"_blank\">Fetuses exposed to Zika virus have long-term, sex-specific immune changes, study reveals</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Medical Xpress</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxNV3hLLVpJOXBxelJvb2lqSW1xM3BZVWo5QkhPR1h4RXVvUGhpVUVTajBtOGFoS0NJaF90N2VPV3pWcG1zMHJ0cWVkaG0tMFlPeVNPeGRpeEZGeG5Db3FuQVZwQ29qckZOVkhnanp6YlpXZVhmck1Fa1RNOGN4RXFqZw?oc=5\" target=\"_blank\">Fetuses exposed to Zika virus have long-term, sex-specific immune changes, study reveals</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Medical Xpress</font>"
+      },
+      "source": {
+        "href": "https://medicalxpress.com",
+        "title": "Medical Xpress"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "First evidence in the UK of breeding aegypti mosquito – the main spreader of dengue, chikungunya and Zika - The Conversation",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "First evidence in the UK of breeding aegypti mosquito – the main spreader of dengue, chikungunya and Zika - The Conversation"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZzAxUXItRnpiY29mbnhMY3draThfYThLMUhWNHlQc3ZUd24zNHZtT1hid0xjRjhfNlpSX0JPMnVlREtRODFBSWdFS3ZSR1NjZXN6VjZGdzhrTHI0aFF6UUFzZTRoalBtc1JiSlVRU0wxQUMxZXVWcmRpNGlHeU5LTXdHOGFOSWwyTkZoX3NPZnV3Q01ueXQyRGVLbERVN0FJR2hneFRhaFdMbW53NUFlVTIzUnRVcS1IRnpmcWs2UXQ5MVFLNFY0aW4zSnFJSmFIUGw4?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZzAxUXItRnpiY29mbnhMY3draThfYThLMUhWNHlQc3ZUd24zNHZtT1hid0xjRjhfNlpSX0JPMnVlREtRODFBSWdFS3ZSR1NjZXN6VjZGdzhrTHI0aFF6UUFzZTRoalBtc1JiSlVRU0wxQUMxZXVWcmRpNGlHeU5LTXdHOGFOSWwyTkZoX3NPZnV3Q01ueXQyRGVLbERVN0FJR2hneFRhaFdMbW53NUFlVTIzUnRVcS1IRnpmcWs2UXQ5MVFLNFY0aW4zSnFJSmFIUGw4?oc=5",
+      "id": "CBMi0wFBVV95cUxOZzAxUXItRnpiY29mbnhMY3draThfYThLMUhWNHlQc3ZUd24zNHZtT1hid0xjRjhfNlpSX0JPMnVlREtRODFBSWdFS3ZSR1NjZXN6VjZGdzhrTHI0aFF6UUFzZTRoalBtc1JiSlVRU0wxQUMxZXVWcmRpNGlHeU5LTXdHOGFOSWwyTkZoX3NPZnV3Q01ueXQyRGVLbERVN0FJR2hneFRhaFdMbW53NUFlVTIzUnRVcS1IRnpmcWs2UXQ5MVFLNFY0aW4zSnFJSmFIUGw4",
+      "guidislink": false,
+      "published": "Wed, 08 Oct 2025 07:00:00 GMT",
+      "published_parsed": [
+        2025,
+        10,
+        8,
+        7,
+        0,
+        0,
+        2,
+        281,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZzAxUXItRnpiY29mbnhMY3draThfYThLMUhWNHlQc3ZUd24zNHZtT1hid0xjRjhfNlpSX0JPMnVlREtRODFBSWdFS3ZSR1NjZXN6VjZGdzhrTHI0aFF6UUFzZTRoalBtc1JiSlVRU0wxQUMxZXVWcmRpNGlHeU5LTXdHOGFOSWwyTkZoX3NPZnV3Q01ueXQyRGVLbERVN0FJR2hneFRhaFdMbW53NUFlVTIzUnRVcS1IRnpmcWs2UXQ5MVFLNFY0aW4zSnFJSmFIUGw4?oc=5\" target=\"_blank\">First evidence in the UK of breeding aegypti mosquito – the main spreader of dengue, chikungunya and Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Conversation</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi0wFBVV95cUxOZzAxUXItRnpiY29mbnhMY3draThfYThLMUhWNHlQc3ZUd24zNHZtT1hid0xjRjhfNlpSX0JPMnVlREtRODFBSWdFS3ZSR1NjZXN6VjZGdzhrTHI0aFF6UUFzZTRoalBtc1JiSlVRU0wxQUMxZXVWcmRpNGlHeU5LTXdHOGFOSWwyTkZoX3NPZnV3Q01ueXQyRGVLbERVN0FJR2hneFRhaFdMbW53NUFlVTIzUnRVcS1IRnpmcWs2UXQ5MVFLNFY0aW4zSnFJSmFIUGw4?oc=5\" target=\"_blank\">First evidence in the UK of breeding aegypti mosquito – the main spreader of dengue, chikungunya and Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Conversation</font>"
+      },
+      "source": {
+        "href": "https://theconversation.com",
+        "title": "The Conversation"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Combined crystallographic fragment screening and deep mutational scanning enable discovery of Zika virus NS2B-NS3 protease inhibitors - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Combined crystallographic fragment screening and deep mutational scanning enable discovery of Zika virus NS2B-NS3 protease inhibitors - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAtaGFjVmJoLWxtSjFXcWRVOHl4UGVCd2I3eG5Ob0Y1WWlTdjg0MTBXYWtaWUoxWWVfdGFoU0UxcF9BUjRvUFpEZ19HanNaUEdmRkN2amFlTVpWcUhOYmRV?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAtaGFjVmJoLWxtSjFXcWRVOHl4UGVCd2I3eG5Ob0Y1WWlTdjg0MTBXYWtaWUoxWWVfdGFoU0UxcF9BUjRvUFpEZ19HanNaUEdmRkN2amFlTVpWcUhOYmRV?oc=5",
+      "id": "CBMiX0FVX3lxTFAtaGFjVmJoLWxtSjFXcWRVOHl4UGVCd2I3eG5Ob0Y1WWlTdjg0MTBXYWtaWUoxWWVfdGFoU0UxcF9BUjRvUFpEZ19HanNaUEdmRkN2amFlTVpWcUhOYmRV",
+      "guidislink": false,
+      "published": "Wed, 08 Oct 2025 07:00:00 GMT",
+      "published_parsed": [
+        2025,
+        10,
+        8,
+        7,
+        0,
+        0,
+        2,
+        281,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFAtaGFjVmJoLWxtSjFXcWRVOHl4UGVCd2I3eG5Ob0Y1WWlTdjg0MTBXYWtaWUoxWWVfdGFoU0UxcF9BUjRvUFpEZ19HanNaUEdmRkN2amFlTVpWcUhOYmRV?oc=5\" target=\"_blank\">Combined crystallographic fragment screening and deep mutational scanning enable discovery of Zika virus NS2B-NS3 protease inhibitors</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFAtaGFjVmJoLWxtSjFXcWRVOHl4UGVCd2I3eG5Ob0Y1WWlTdjg0MTBXYWtaWUoxWWVfdGFoU0UxcF9BUjRvUFpEZ19HanNaUEdmRkN2amFlTVpWcUhOYmRV?oc=5\" target=\"_blank\">Combined crystallographic fragment screening and deep mutational scanning enable discovery of Zika virus NS2B-NS3 protease inhibitors</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Prenatal Zika virus exposure causes long-term, sex-specific immune changes in offspring, study finds - Today@Wayne",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Prenatal Zika virus exposure causes long-term, sex-specific immune changes in offspring, study finds - Today@Wayne"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPSDNXOHEyMkR5Mm0wWi1xaHJxY2Y1OU5Ob1IxMTZJSWxpanZHVmNWVHhMVFdqXzNkU09GLTBMLVNUMnRvd3dqVExJRUJSUFViU0ZJTl9kUEZHbU9XNTJoS0pqQlYzVXJZMmNDOWJLdV9DXzk4cHVVbFVpd3U0LU50VlNPQ25HaGNhYnBsS0RIVmRXYVRvM2JhT01lZVhYeUFHbUxwNGdsemZ2cm4zMlNVc2lfbUJpem81UG1DV3RRaXhfQ3YwMjVNMzR6bE1waXlfdktpU1VSbFdyUHNpNlB4LWMxSm1KX1pX?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPSDNXOHEyMkR5Mm0wWi1xaHJxY2Y1OU5Ob1IxMTZJSWxpanZHVmNWVHhMVFdqXzNkU09GLTBMLVNUMnRvd3dqVExJRUJSUFViU0ZJTl9kUEZHbU9XNTJoS0pqQlYzVXJZMmNDOWJLdV9DXzk4cHVVbFVpd3U0LU50VlNPQ25HaGNhYnBsS0RIVmRXYVRvM2JhT01lZVhYeUFHbUxwNGdsemZ2cm4zMlNVc2lfbUJpem81UG1DV3RRaXhfQ3YwMjVNMzR6bE1waXlfdktpU1VSbFdyUHNpNlB4LWMxSm1KX1pX?oc=5",
+      "id": "CBMi6AFBVV95cUxPSDNXOHEyMkR5Mm0wWi1xaHJxY2Y1OU5Ob1IxMTZJSWxpanZHVmNWVHhMVFdqXzNkU09GLTBMLVNUMnRvd3dqVExJRUJSUFViU0ZJTl9kUEZHbU9XNTJoS0pqQlYzVXJZMmNDOWJLdV9DXzk4cHVVbFVpd3U0LU50VlNPQ25HaGNhYnBsS0RIVmRXYVRvM2JhT01lZVhYeUFHbUxwNGdsemZ2cm4zMlNVc2lfbUJpem81UG1DV3RRaXhfQ3YwMjVNMzR6bE1waXlfdktpU1VSbFdyUHNpNlB4LWMxSm1KX1pX",
+      "guidislink": false,
+      "published": "Fri, 03 Oct 2025 07:00:00 GMT",
+      "published_parsed": [
+        2025,
+        10,
+        3,
+        7,
+        0,
+        0,
+        4,
+        276,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi6AFBVV95cUxPSDNXOHEyMkR5Mm0wWi1xaHJxY2Y1OU5Ob1IxMTZJSWxpanZHVmNWVHhMVFdqXzNkU09GLTBMLVNUMnRvd3dqVExJRUJSUFViU0ZJTl9kUEZHbU9XNTJoS0pqQlYzVXJZMmNDOWJLdV9DXzk4cHVVbFVpd3U0LU50VlNPQ25HaGNhYnBsS0RIVmRXYVRvM2JhT01lZVhYeUFHbUxwNGdsemZ2cm4zMlNVc2lfbUJpem81UG1DV3RRaXhfQ3YwMjVNMzR6bE1waXlfdktpU1VSbFdyUHNpNlB4LWMxSm1KX1pX?oc=5\" target=\"_blank\">Prenatal Zika virus exposure causes long-term, sex-specific immune changes in offspring, study finds</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Today@Wayne</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi6AFBVV95cUxPSDNXOHEyMkR5Mm0wWi1xaHJxY2Y1OU5Ob1IxMTZJSWxpanZHVmNWVHhMVFdqXzNkU09GLTBMLVNUMnRvd3dqVExJRUJSUFViU0ZJTl9kUEZHbU9XNTJoS0pqQlYzVXJZMmNDOWJLdV9DXzk4cHVVbFVpd3U0LU50VlNPQ25HaGNhYnBsS0RIVmRXYVRvM2JhT01lZVhYeUFHbUxwNGdsemZ2cm4zMlNVc2lfbUJpem81UG1DV3RRaXhfQ3YwMjVNMzR6bE1waXlfdktpU1VSbFdyUHNpNlB4LWMxSm1KX1pX?oc=5\" target=\"_blank\">Prenatal Zika virus exposure causes long-term, sex-specific immune changes in offspring, study finds</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Today@Wayne</font>"
+      },
+      "source": {
+        "href": "https://today.wayne.edu",
+        "title": "Today@Wayne"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Targeted indoor spraying reduces community risk of mosquito-borne viruses - University of Florida",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Targeted indoor spraying reduces community risk of mosquito-borne viruses - University of Florida"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBRSmEyZmVqUUtzM2V4MEgzWjdmamIyVWdDSW1vVV9FVEV4U1FiN24zb1Jpbkg5eFdoTVQ0anFyVlpBYjMxcmhTUzRmUnJONVBWSkRhX2RDUGo5VG8?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBRSmEyZmVqUUtzM2V4MEgzWjdmamIyVWdDSW1vVV9FVEV4U1FiN24zb1Jpbkg5eFdoTVQ0anFyVlpBYjMxcmhTUzRmUnJONVBWSkRhX2RDUGo5VG8?oc=5",
+      "id": "CBMiW0FVX3lxTFBRSmEyZmVqUUtzM2V4MEgzWjdmamIyVWdDSW1vVV9FVEV4U1FiN24zb1Jpbkg5eFdoTVQ0anFyVlpBYjMxcmhTUzRmUnJONVBWSkRhX2RDUGo5VG8",
+      "guidislink": false,
+      "published": "Thu, 09 Oct 2025 07:00:00 GMT",
+      "published_parsed": [
+        2025,
+        10,
+        9,
+        7,
+        0,
+        0,
+        3,
+        282,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTFBRSmEyZmVqUUtzM2V4MEgzWjdmamIyVWdDSW1vVV9FVEV4U1FiN24zb1Jpbkg5eFdoTVQ0anFyVlpBYjMxcmhTUzRmUnJONVBWSkRhX2RDUGo5VG8?oc=5\" target=\"_blank\">Targeted indoor spraying reduces community risk of mosquito-borne viruses</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of Florida</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTFBRSmEyZmVqUUtzM2V4MEgzWjdmamIyVWdDSW1vVV9FVEV4U1FiN24zb1Jpbkg5eFdoTVQ0anFyVlpBYjMxcmhTUzRmUnJONVBWSkRhX2RDUGo5VG8?oc=5\" target=\"_blank\">Targeted indoor spraying reduces community risk of mosquito-borne viruses</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of Florida</font>"
+      },
+      "source": {
+        "href": "https://news.ufl.edu",
+        "title": "University of Florida"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Thousands fall ill as mosquito fever explodes across southern China - ScienceDaily",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Thousands fall ill as mosquito fever explodes across southern China - ScienceDaily"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5qV0JsMmU1eUt4RkhHdTdLNWZXQWJLZ0hpWGZvYzFOZU96UTRreEVuR0pHWV9EWGd5TWR5UVJuSERwY0JCcm9zRE52aTFjTUU2ZF9pOFJJMEFneVhYZjFjOXlOZ2xYZE9ObU1xaWhiQQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5qV0JsMmU1eUt4RkhHdTdLNWZXQWJLZ0hpWGZvYzFOZU96UTRreEVuR0pHWV9EWGd5TWR5UVJuSERwY0JCcm9zRE52aTFjTUU2ZF9pOFJJMEFneVhYZjFjOXlOZ2xYZE9ObU1xaWhiQQ?oc=5",
+      "id": "CBMib0FVX3lxTE5qV0JsMmU1eUt4RkhHdTdLNWZXQWJLZ0hpWGZvYzFOZU96UTRreEVuR0pHWV9EWGd5TWR5UVJuSERwY0JCcm9zRE52aTFjTUU2ZF9pOFJJMEFneVhYZjFjOXlOZ2xYZE9ObU1xaWhiQQ",
+      "guidislink": false,
+      "published": "Fri, 10 Oct 2025 07:00:00 GMT",
+      "published_parsed": [
+        2025,
+        10,
+        10,
+        7,
+        0,
+        0,
+        4,
+        283,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE5qV0JsMmU1eUt4RkhHdTdLNWZXQWJLZ0hpWGZvYzFOZU96UTRreEVuR0pHWV9EWGd5TWR5UVJuSERwY0JCcm9zRE52aTFjTUU2ZF9pOFJJMEFneVhYZjFjOXlOZ2xYZE9ObU1xaWhiQQ?oc=5\" target=\"_blank\">Thousands fall ill as mosquito fever explodes across southern China</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ScienceDaily</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE5qV0JsMmU1eUt4RkhHdTdLNWZXQWJLZ0hpWGZvYzFOZU96UTRreEVuR0pHWV9EWGd5TWR5UVJuSERwY0JCcm9zRE52aTFjTUU2ZF9pOFJJMEFneVhYZjFjOXlOZ2xYZE9ObU1xaWhiQQ?oc=5\" target=\"_blank\">Thousands fall ill as mosquito fever explodes across southern China</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ScienceDaily</font>"
+      },
+      "source": {
+        "href": "https://www.sciencedaily.com",
+        "title": "ScienceDaily"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Brazil opens world’s largest mosquito biofactory to fight disease - upi.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Brazil opens world’s largest mosquito biofactory to fight disease - upi.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMUFRNGpqMk9oQ1J1QlU5MFg3czl3V2JtN1lRMEFrUFRGN0lCeVdpZl9vSnF0d3RWOENhVlJ2Q1BQcUVQTG5VZ1o3ejZFc2hVQTVHZ21EemxBVkRYbS1USnU4MEZuMmRVZWUtSWp0ZEhzMi0xN3c2UE1tZXh0U1hvT1VyWmM0elJINGppMFZJQkJvS092MjdrR0YtOTlYd0RXbXRaWWlYdklvWkhMWVdaUVFGVQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMUFRNGpqMk9oQ1J1QlU5MFg3czl3V2JtN1lRMEFrUFRGN0lCeVdpZl9vSnF0d3RWOENhVlJ2Q1BQcUVQTG5VZ1o3ejZFc2hVQTVHZ21EemxBVkRYbS1USnU4MEZuMmRVZWUtSWp0ZEhzMi0xN3c2UE1tZXh0U1hvT1VyWmM0elJINGppMFZJQkJvS092MjdrR0YtOTlYd0RXbXRaWWlYdklvWkhMWVdaUVFGVQ?oc=5",
+      "id": "CBMiswFBVV95cUxPMUFRNGpqMk9oQ1J1QlU5MFg3czl3V2JtN1lRMEFrUFRGN0lCeVdpZl9vSnF0d3RWOENhVlJ2Q1BQcUVQTG5VZ1o3ejZFc2hVQTVHZ21EemxBVkRYbS1USnU4MEZuMmRVZWUtSWp0ZEhzMi0xN3c2UE1tZXh0U1hvT1VyWmM0elJINGppMFZJQkJvS092MjdrR0YtOTlYd0RXbXRaWWlYdklvWkhMWVdaUVFGVQ",
+      "guidislink": false,
+      "published": "Mon, 13 Oct 2025 07:00:00 GMT",
+      "published_parsed": [
+        2025,
+        10,
+        13,
+        7,
+        0,
+        0,
+        0,
+        286,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxPMUFRNGpqMk9oQ1J1QlU5MFg3czl3V2JtN1lRMEFrUFRGN0lCeVdpZl9vSnF0d3RWOENhVlJ2Q1BQcUVQTG5VZ1o3ejZFc2hVQTVHZ21EemxBVkRYbS1USnU4MEZuMmRVZWUtSWp0ZEhzMi0xN3c2UE1tZXh0U1hvT1VyWmM0elJINGppMFZJQkJvS092MjdrR0YtOTlYd0RXbXRaWWlYdklvWkhMWVdaUVFGVQ?oc=5\" target=\"_blank\">Brazil opens world’s largest mosquito biofactory to fight disease</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">upi.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxPMUFRNGpqMk9oQ1J1QlU5MFg3czl3V2JtN1lRMEFrUFRGN0lCeVdpZl9vSnF0d3RWOENhVlJ2Q1BQcUVQTG5VZ1o3ejZFc2hVQTVHZ21EemxBVkRYbS1USnU4MEZuMmRVZWUtSWp0ZEhzMi0xN3c2UE1tZXh0U1hvT1VyWmM0elJINGppMFZJQkJvS092MjdrR0YtOTlYd0RXbXRaWWlYdklvWkhMWVdaUVFGVQ?oc=5\" target=\"_blank\">Brazil opens world’s largest mosquito biofactory to fight disease</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">upi.com</font>"
+      },
+      "source": {
+        "href": "https://www.upi.com",
+        "title": "upi.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Invasive, disease-spreading Aedes aegypti mosquito found in Santa Cruz County - CBS News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Invasive, disease-spreading Aedes aegypti mosquito found in Santa Cruz County - CBS News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNG1aUzhTeHhyOTdCaDdpUHdUWGtZZnBGZ1dhSHlCMTdZQ1UzS3FBUE5ZcHlWU1drN3BmMVRMTmZVTmJrV2p1NnFBV0hrejRlNTE1eTFESVBhR0d2NFRwWEh2SHl6YldJb0wtNWZtejVveGlwS0pwVGJNUFZmOTdENjFPU1JnTzNGNUNJOHF6VXNGektVTlNqNTJNZFE2RjRfNWpVQXJtQkpMZU5lVTA1eDFERGdrLTA3YWtF?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNG1aUzhTeHhyOTdCaDdpUHdUWGtZZnBGZ1dhSHlCMTdZQ1UzS3FBUE5ZcHlWU1drN3BmMVRMTmZVTmJrV2p1NnFBV0hrejRlNTE1eTFESVBhR0d2NFRwWEh2SHl6YldJb0wtNWZtejVveGlwS0pwVGJNUFZmOTdENjFPU1JnTzNGNUNJOHF6VXNGektVTlNqNTJNZFE2RjRfNWpVQXJtQkpMZU5lVTA1eDFERGdrLTA3YWtF?oc=5",
+      "id": "CBMiuwFBVV95cUxPNG1aUzhTeHhyOTdCaDdpUHdUWGtZZnBGZ1dhSHlCMTdZQ1UzS3FBUE5ZcHlWU1drN3BmMVRMTmZVTmJrV2p1NnFBV0hrejRlNTE1eTFESVBhR0d2NFRwWEh2SHl6YldJb0wtNWZtejVveGlwS0pwVGJNUFZmOTdENjFPU1JnTzNGNUNJOHF6VXNGektVTlNqNTJNZFE2RjRfNWpVQXJtQkpMZU5lVTA1eDFERGdrLTA3YWtF",
+      "guidislink": false,
+      "published": "Tue, 07 Oct 2025 07:00:00 GMT",
+      "published_parsed": [
+        2025,
+        10,
+        7,
+        7,
+        0,
+        0,
+        1,
+        280,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNG1aUzhTeHhyOTdCaDdpUHdUWGtZZnBGZ1dhSHlCMTdZQ1UzS3FBUE5ZcHlWU1drN3BmMVRMTmZVTmJrV2p1NnFBV0hrejRlNTE1eTFESVBhR0d2NFRwWEh2SHl6YldJb0wtNWZtejVveGlwS0pwVGJNUFZmOTdENjFPU1JnTzNGNUNJOHF6VXNGektVTlNqNTJNZFE2RjRfNWpVQXJtQkpMZU5lVTA1eDFERGdrLTA3YWtF?oc=5\" target=\"_blank\">Invasive, disease-spreading Aedes aegypti mosquito found in Santa Cruz County</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CBS News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNG1aUzhTeHhyOTdCaDdpUHdUWGtZZnBGZ1dhSHlCMTdZQ1UzS3FBUE5ZcHlWU1drN3BmMVRMTmZVTmJrV2p1NnFBV0hrejRlNTE1eTFESVBhR0d2NFRwWEh2SHl6YldJb0wtNWZtejVveGlwS0pwVGJNUFZmOTdENjFPU1JnTzNGNUNJOHF6VXNGektVTlNqNTJNZFE2RjRfNWpVQXJtQkpMZU5lVTA1eDFERGdrLTA3YWtF?oc=5\" target=\"_blank\">Invasive, disease-spreading Aedes aegypti mosquito found in Santa Cruz County</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CBS News</font>"
+      },
+      "source": {
+        "href": "https://www.cbsnews.com",
+        "title": "CBS News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Prenatal exposure to Zika virus shapes offspring neutrophil function in a sex-specific manner - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Prenatal exposure to Zika virus shapes offspring neutrophil function in a sex-specific manner - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBMYTFpUWlJaDVZc3ZCZk8ySzk1SEdVZHpscFdiM0FVYmIyZjFUQjhCcjAwU0hHSHRseDhHTU5kMkNBM3FYQVh1aUM5a0JSYjN0TU1aYy03bHRsU0JyRG5Z?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBMYTFpUWlJaDVZc3ZCZk8ySzk1SEdVZHpscFdiM0FVYmIyZjFUQjhCcjAwU0hHSHRseDhHTU5kMkNBM3FYQVh1aUM5a0JSYjN0TU1aYy03bHRsU0JyRG5Z?oc=5",
+      "id": "CBMiX0FVX3lxTFBMYTFpUWlJaDVZc3ZCZk8ySzk1SEdVZHpscFdiM0FVYmIyZjFUQjhCcjAwU0hHSHRseDhHTU5kMkNBM3FYQVh1aUM5a0JSYjN0TU1aYy03bHRsU0JyRG5Z",
+      "guidislink": false,
+      "published": "Fri, 03 Oct 2025 07:00:00 GMT",
+      "published_parsed": [
+        2025,
+        10,
+        3,
+        7,
+        0,
+        0,
+        4,
+        276,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFBMYTFpUWlJaDVZc3ZCZk8ySzk1SEdVZHpscFdiM0FVYmIyZjFUQjhCcjAwU0hHSHRseDhHTU5kMkNBM3FYQVh1aUM5a0JSYjN0TU1aYy03bHRsU0JyRG5Z?oc=5\" target=\"_blank\">Prenatal exposure to Zika virus shapes offspring neutrophil function in a sex-specific manner</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFBMYTFpUWlJaDVZc3ZCZk8ySzk1SEdVZHpscFdiM0FVYmIyZjFUQjhCcjAwU0hHSHRseDhHTU5kMkNBM3FYQVh1aUM5a0JSYjN0TU1aYy03bHRsU0JyRG5Z?oc=5\" target=\"_blank\">Prenatal exposure to Zika virus shapes offspring neutrophil function in a sex-specific manner</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Brazil: Santa Catarina records 230% increase in dengue cases in September - Outbreak News Today",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Brazil: Santa Catarina records 230% increase in dengue cases in September - Outbreak News Today"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMif0FVX3lxTE54eC1kNUdrMXp0U1RtZnd2dnk1dk9ORnUxQjEyS29OQWNYY3VJUzNFbjg5amgzeFQwN1JSU2tnUk53amdzNmotTXFnMzJ0NklUNTY3Y0MxdWVtbnY0cDRoWjVfMlRyRlJJM0YzeWF1Y2Fqa1hpbW5WWFFpMVNHN1E?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE54eC1kNUdrMXp0U1RtZnd2dnk1dk9ORnUxQjEyS29OQWNYY3VJUzNFbjg5amgzeFQwN1JSU2tnUk53amdzNmotTXFnMzJ0NklUNTY3Y0MxdWVtbnY0cDRoWjVfMlRyRlJJM0YzeWF1Y2Fqa1hpbW5WWFFpMVNHN1E?oc=5",
+      "id": "CBMif0FVX3lxTE54eC1kNUdrMXp0U1RtZnd2dnk1dk9ORnUxQjEyS29OQWNYY3VJUzNFbjg5amgzeFQwN1JSU2tnUk53amdzNmotTXFnMzJ0NklUNTY3Y0MxdWVtbnY0cDRoWjVfMlRyRlJJM0YzeWF1Y2Fqa1hpbW5WWFFpMVNHN1E",
+      "guidislink": false,
+      "published": "Mon, 06 Oct 2025 07:00:00 GMT",
+      "published_parsed": [
+        2025,
+        10,
+        6,
+        7,
+        0,
+        0,
+        0,
+        279,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE54eC1kNUdrMXp0U1RtZnd2dnk1dk9ORnUxQjEyS29OQWNYY3VJUzNFbjg5amgzeFQwN1JSU2tnUk53amdzNmotTXFnMzJ0NklUNTY3Y0MxdWVtbnY0cDRoWjVfMlRyRlJJM0YzeWF1Y2Fqa1hpbW5WWFFpMVNHN1E?oc=5\" target=\"_blank\">Brazil: Santa Catarina records 230% increase in dengue cases in September</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Outbreak News Today</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE54eC1kNUdrMXp0U1RtZnd2dnk1dk9ORnUxQjEyS29OQWNYY3VJUzNFbjg5amgzeFQwN1JSU2tnUk53amdzNmotTXFnMzJ0NklUNTY3Y0MxdWVtbnY0cDRoWjVfMlRyRlJJM0YzeWF1Y2Fqa1hpbW5WWFFpMVNHN1E?oc=5\" target=\"_blank\">Brazil: Santa Catarina records 230% increase in dengue cases in September</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Outbreak News Today</font>"
+      },
+      "source": {
+        "href": "https://outbreaknewstoday.substack.com",
+        "title": "Outbreak News Today"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Chikungunya Outbreaks Continue As Global Concern - Vax-Before-Travel",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Chikungunya Outbreaks Continue As Global Concern - Vax-Before-Travel"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSGppX3M2UlFvNDVoR0dCemt6UnRLR0FMRWJmcEVudGJBU0pDTUJzMDJpdXA1enFweU4xODN3eUlPd3h6RWkzWFFSQl9OdjlnaWJwbVlLa08wei1LUm9qWXdMVGVrUjFKdzBwOElJN3lOTjJOZ3VqN3IxRzgzNm5KQm1FUmJMU3c1WXZPVGVjSEFWUG4z?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSGppX3M2UlFvNDVoR0dCemt6UnRLR0FMRWJmcEVudGJBU0pDTUJzMDJpdXA1enFweU4xODN3eUlPd3h6RWkzWFFSQl9OdjlnaWJwbVlLa08wei1LUm9qWXdMVGVrUjFKdzBwOElJN3lOTjJOZ3VqN3IxRzgzNm5KQm1FUmJMU3c1WXZPVGVjSEFWUG4z?oc=5",
+      "id": "CBMilAFBVV95cUxQSGppX3M2UlFvNDVoR0dCemt6UnRLR0FMRWJmcEVudGJBU0pDTUJzMDJpdXA1enFweU4xODN3eUlPd3h6RWkzWFFSQl9OdjlnaWJwbVlLa08wei1LUm9qWXdMVGVrUjFKdzBwOElJN3lOTjJOZ3VqN3IxRzgzNm5KQm1FUmJMU3c1WXZPVGVjSEFWUG4z",
+      "guidislink": false,
+      "published": "Fri, 03 Oct 2025 07:00:00 GMT",
+      "published_parsed": [
+        2025,
+        10,
+        3,
+        7,
+        0,
+        0,
+        4,
+        276,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxQSGppX3M2UlFvNDVoR0dCemt6UnRLR0FMRWJmcEVudGJBU0pDTUJzMDJpdXA1enFweU4xODN3eUlPd3h6RWkzWFFSQl9OdjlnaWJwbVlLa08wei1LUm9qWXdMVGVrUjFKdzBwOElJN3lOTjJOZ3VqN3IxRzgzNm5KQm1FUmJMU3c1WXZPVGVjSEFWUG4z?oc=5\" target=\"_blank\">Chikungunya Outbreaks Continue As Global Concern</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vax-Before-Travel</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxQSGppX3M2UlFvNDVoR0dCemt6UnRLR0FMRWJmcEVudGJBU0pDTUJzMDJpdXA1enFweU4xODN3eUlPd3h6RWkzWFFSQl9OdjlnaWJwbVlLa08wei1LUm9qWXdMVGVrUjFKdzBwOElJN3lOTjJOZ3VqN3IxRzgzNm5KQm1FUmJMU3c1WXZPVGVjSEFWUG4z?oc=5\" target=\"_blank\">Chikungunya Outbreaks Continue As Global Concern</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vax-Before-Travel</font>"
+      },
+      "source": {
+        "href": "https://www.vax-before-travel.com",
+        "title": "Vax-Before-Travel"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Animal abusers are getting let off the hook. Trump and his Supreme Court are partly to blame. - Vox",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Animal abusers are getting let off the hook. Trump and his Supreme Court are partly to blame. - Vox"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUUVaZ3BGdGJrSTI0NUhwMlEwM3JkMGJFVnp6M2x3WDhFU0E3Nkk1X0F6a2IyNjIwVGEycExDWHRlQ0RObnduSHJPREo0Wjg5WnBvM0pOUTJ3RllfSHhNVFdfZTRmU0NSWk03MG9sRnNjZ2NNSGRYd0hlX0R0QVE0SzJEcw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUUVaZ3BGdGJrSTI0NUhwMlEwM3JkMGJFVnp6M2x3WDhFU0E3Nkk1X0F6a2IyNjIwVGEycExDWHRlQ0RObnduSHJPREo0Wjg5WnBvM0pOUTJ3RllfSHhNVFdfZTRmU0NSWk03MG9sRnNjZ2NNSGRYd0hlX0R0QVE0SzJEcw?oc=5",
+      "id": "CBMigwFBVV95cUxNUUVaZ3BGdGJrSTI0NUhwMlEwM3JkMGJFVnp6M2x3WDhFU0E3Nkk1X0F6a2IyNjIwVGEycExDWHRlQ0RObnduSHJPREo0Wjg5WnBvM0pOUTJ3RllfSHhNVFdfZTRmU0NSWk03MG9sRnNjZ2NNSGRYd0hlX0R0QVE0SzJEcw",
+      "guidislink": false,
+      "published": "Wed, 08 Oct 2025 07:00:00 GMT",
+      "published_parsed": [
+        2025,
+        10,
+        8,
+        7,
+        0,
+        0,
+        2,
+        281,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxNUUVaZ3BGdGJrSTI0NUhwMlEwM3JkMGJFVnp6M2x3WDhFU0E3Nkk1X0F6a2IyNjIwVGEycExDWHRlQ0RObnduSHJPREo0Wjg5WnBvM0pOUTJ3RllfSHhNVFdfZTRmU0NSWk03MG9sRnNjZ2NNSGRYd0hlX0R0QVE0SzJEcw?oc=5\" target=\"_blank\">Animal abusers are getting let off the hook. Trump and his Supreme Court are partly to blame.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vox</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxNUUVaZ3BGdGJrSTI0NUhwMlEwM3JkMGJFVnp6M2x3WDhFU0E3Nkk1X0F6a2IyNjIwVGEycExDWHRlQ0RObnduSHJPREo0Wjg5WnBvM0pOUTJ3RllfSHhNVFdfZTRmU0NSWk03MG9sRnNjZ2NNSGRYd0hlX0R0QVE0SzJEcw?oc=5\" target=\"_blank\">Animal abusers are getting let off the hook. Trump and his Supreme Court are partly to blame.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vox</font>"
+      },
+      "source": {
+        "href": "https://www.vox.com",
+        "title": "Vox"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Major research grant awarded to protect Australians from mosquito-borne diseases - Metro South Health",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Major research grant awarded to protect Australians from mosquito-borne diseases - Metro South Health"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQY0x3UEZKTFRGRGRjV0RtQlBBQVJ0QU9qS3hEVV9fS2NnNFhUUWsyQlJ3c0VGU1hFTzFNaElWdERxblpDbWdDTGVaeU5sVGhIbnFpVEc2WXRmVTlGUkZuSDNtQTFBbG1UdF85YnVyT3FGeWt6SjNtRU1rdnNYc0FoN3ZYUXFZMGFRam5fN3d4RFRNcUZYZ0NtTU15Nm81NTZKd1RnX0taMUZnMEFUQ3ZBTER6ZjA5Z3lwUFd0eFlCQnMtbm5KbmJPYjVjT3ZCbUszeWFZU0luQVZ3Y1pjLVNBYlY0UmQ1RnF1QUE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQY0x3UEZKTFRGRGRjV0RtQlBBQVJ0QU9qS3hEVV9fS2NnNFhUUWsyQlJ3c0VGU1hFTzFNaElWdERxblpDbWdDTGVaeU5sVGhIbnFpVEc2WXRmVTlGUkZuSDNtQTFBbG1UdF85YnVyT3FGeWt6SjNtRU1rdnNYc0FoN3ZYUXFZMGFRam5fN3d4RFRNcUZYZ0NtTU15Nm81NTZKd1RnX0taMUZnMEFUQ3ZBTER6ZjA5Z3lwUFd0eFlCQnMtbm5KbmJPYjVjT3ZCbUszeWFZU0luQVZ3Y1pjLVNBYlY0UmQ1RnF1QUE?oc=5",
+      "id": "CBMi6gFBVV95cUxQY0x3UEZKTFRGRGRjV0RtQlBBQVJ0QU9qS3hEVV9fS2NnNFhUUWsyQlJ3c0VGU1hFTzFNaElWdERxblpDbWdDTGVaeU5sVGhIbnFpVEc2WXRmVTlGUkZuSDNtQTFBbG1UdF85YnVyT3FGeWt6SjNtRU1rdnNYc0FoN3ZYUXFZMGFRam5fN3d4RFRNcUZYZ0NtTU15Nm81NTZKd1RnX0taMUZnMEFUQ3ZBTER6ZjA5Z3lwUFd0eFlCQnMtbm5KbmJPYjVjT3ZCbUszeWFZU0luQVZ3Y1pjLVNBYlY0UmQ1RnF1QUE",
+      "guidislink": false,
+      "published": "Thu, 09 Oct 2025 07:00:00 GMT",
+      "published_parsed": [
+        2025,
+        10,
+        9,
+        7,
+        0,
+        0,
+        3,
+        282,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi6gFBVV95cUxQY0x3UEZKTFRGRGRjV0RtQlBBQVJ0QU9qS3hEVV9fS2NnNFhUUWsyQlJ3c0VGU1hFTzFNaElWdERxblpDbWdDTGVaeU5sVGhIbnFpVEc2WXRmVTlGUkZuSDNtQTFBbG1UdF85YnVyT3FGeWt6SjNtRU1rdnNYc0FoN3ZYUXFZMGFRam5fN3d4RFRNcUZYZ0NtTU15Nm81NTZKd1RnX0taMUZnMEFUQ3ZBTER6ZjA5Z3lwUFd0eFlCQnMtbm5KbmJPYjVjT3ZCbUszeWFZU0luQVZ3Y1pjLVNBYlY0UmQ1RnF1QUE?oc=5\" target=\"_blank\">Major research grant awarded to protect Australians from mosquito-borne diseases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Metro South Health</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi6gFBVV95cUxQY0x3UEZKTFRGRGRjV0RtQlBBQVJ0QU9qS3hEVV9fS2NnNFhUUWsyQlJ3c0VGU1hFTzFNaElWdERxblpDbWdDTGVaeU5sVGhIbnFpVEc2WXRmVTlGUkZuSDNtQTFBbG1UdF85YnVyT3FGeWt6SjNtRU1rdnNYc0FoN3ZYUXFZMGFRam5fN3d4RFRNcUZYZ0NtTU15Nm81NTZKd1RnX0taMUZnMEFUQ3ZBTER6ZjA5Z3lwUFd0eFlCQnMtbm5KbmJPYjVjT3ZCbUszeWFZU0luQVZ3Y1pjLVNBYlY0UmQ1RnF1QUE?oc=5\" target=\"_blank\">Major research grant awarded to protect Australians from mosquito-borne diseases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Metro South Health</font>"
+      },
+      "source": {
+        "href": "https://www.metrosouth.health.qld.gov.au",
+        "title": "Metro South Health"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Cancún mosquito fogging targets citywide dengue risk - Puerto Vallarta News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Cancún mosquito fogging targets citywide dengue risk - Puerto Vallarta News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUkg5dHUzN3QySnBTOUU5UzBTZFZfXzd3ZXFJTGRjZDBQZG1wWVY3TVZxeUtXeEZ4UkZyTl8xUmp5bEs0VEMxZTFwbWVOTkNkcHJpLUhDZXFvMFVrMmRwYVVQT3lieFlyWXVSNEQ2dkdQcFRwb2F1QjJZREVfWkxHLUdCMG0wZHRMSDhtZmxiMHBfX3JJOHlTNzd2UXY?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPUkg5dHUzN3QySnBTOUU5UzBTZFZfXzd3ZXFJTGRjZDBQZG1wWVY3TVZxeUtXeEZ4UkZyTl8xUmp5bEs0VEMxZTFwbWVOTkNkcHJpLUhDZXFvMFVrMmRwYVVQT3lieFlyWXVSNEQ2dkdQcFRwb2F1QjJZREVfWkxHLUdCMG0wZHRMSDhtZmxiMHBfX3JJOHlTNzd2UXY?oc=5",
+      "id": "CBMinAFBVV95cUxPUkg5dHUzN3QySnBTOUU5UzBTZFZfXzd3ZXFJTGRjZDBQZG1wWVY3TVZxeUtXeEZ4UkZyTl8xUmp5bEs0VEMxZTFwbWVOTkNkcHJpLUhDZXFvMFVrMmRwYVVQT3lieFlyWXVSNEQ2dkdQcFRwb2F1QjJZREVfWkxHLUdCMG0wZHRMSDhtZmxiMHBfX3JJOHlTNzd2UXY",
+      "guidislink": false,
+      "published": "Tue, 14 Oct 2025 07:00:00 GMT",
+      "published_parsed": [
+        2025,
+        10,
+        14,
+        7,
+        0,
+        0,
+        1,
+        287,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxPUkg5dHUzN3QySnBTOUU5UzBTZFZfXzd3ZXFJTGRjZDBQZG1wWVY3TVZxeUtXeEZ4UkZyTl8xUmp5bEs0VEMxZTFwbWVOTkNkcHJpLUhDZXFvMFVrMmRwYVVQT3lieFlyWXVSNEQ2dkdQcFRwb2F1QjJZREVfWkxHLUdCMG0wZHRMSDhtZmxiMHBfX3JJOHlTNzd2UXY?oc=5\" target=\"_blank\">Cancún mosquito fogging targets citywide dengue risk</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Puerto Vallarta News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxPUkg5dHUzN3QySnBTOUU5UzBTZFZfXzd3ZXFJTGRjZDBQZG1wWVY3TVZxeUtXeEZ4UkZyTl8xUmp5bEs0VEMxZTFwbWVOTkNkcHJpLUhDZXFvMFVrMmRwYVVQT3lieFlyWXVSNEQ2dkdQcFRwb2F1QjJZREVfWkxHLUdCMG0wZHRMSDhtZmxiMHBfX3JJOHlTNzd2UXY?oc=5\" target=\"_blank\">Cancún mosquito fogging targets citywide dengue risk</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Puerto Vallarta News</font>"
+      },
+      "source": {
+        "href": "https://www.vallartadaily.com",
+        "title": "Puerto Vallarta News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Dengue mosquito detected - The Portugal News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Dengue mosquito detected - The Portugal News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdlRtSmVvN2ZJMU1ZM0VITzEwSEUzYzhmM2F2U1lhY3oxX3V0OUZrZGJLRXRLRTl2XzVVdXgyZEZiZC1qX2VwWGp5LWFGT3V6akszYzkwQUJWS1plY3hUai14VGZaUjhOV0tSV1A5QWYxd3JZZHdsbldQdU5Nbjd3TC1obUFoZw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdlRtSmVvN2ZJMU1ZM0VITzEwSEUzYzhmM2F2U1lhY3oxX3V0OUZrZGJLRXRLRTl2XzVVdXgyZEZiZC1qX2VwWGp5LWFGT3V6akszYzkwQUJWS1plY3hUai14VGZaUjhOV0tSV1A5QWYxd3JZZHdsbldQdU5Nbjd3TC1obUFoZw?oc=5",
+      "id": "CBMihgFBVV95cUxOdlRtSmVvN2ZJMU1ZM0VITzEwSEUzYzhmM2F2U1lhY3oxX3V0OUZrZGJLRXRLRTl2XzVVdXgyZEZiZC1qX2VwWGp5LWFGT3V6akszYzkwQUJWS1plY3hUai14VGZaUjhOV0tSV1A5QWYxd3JZZHdsbldQdU5Nbjd3TC1obUFoZw",
+      "guidislink": false,
+      "published": "Tue, 07 Oct 2025 07:00:00 GMT",
+      "published_parsed": [
+        2025,
+        10,
+        7,
+        7,
+        0,
+        0,
+        1,
+        280,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxOdlRtSmVvN2ZJMU1ZM0VITzEwSEUzYzhmM2F2U1lhY3oxX3V0OUZrZGJLRXRLRTl2XzVVdXgyZEZiZC1qX2VwWGp5LWFGT3V6akszYzkwQUJWS1plY3hUai14VGZaUjhOV0tSV1A5QWYxd3JZZHdsbldQdU5Nbjd3TC1obUFoZw?oc=5\" target=\"_blank\">Dengue mosquito detected</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Portugal News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxOdlRtSmVvN2ZJMU1ZM0VITzEwSEUzYzhmM2F2U1lhY3oxX3V0OUZrZGJLRXRLRTl2XzVVdXgyZEZiZC1qX2VwWGp5LWFGT3V6akszYzkwQUJWS1plY3hUai14VGZaUjhOV0tSV1A5QWYxd3JZZHdsbldQdU5Nbjd3TC1obUFoZw?oc=5\" target=\"_blank\">Dengue mosquito detected</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Portugal News</font>"
+      },
+      "source": {
+        "href": "https://www.theportugalnews.com",
+        "title": "The Portugal News"
+      },
+      "sub_articles": []
+    }
+  ]
+}

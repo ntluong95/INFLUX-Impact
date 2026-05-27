@@ -1,0 +1,779 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2022-02-11",
+  "window_end": "2022-02-24",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2022-02-11+before%3A2022-02-25&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2022-02-11+before:2022-02-25&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:29:05Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2022-02-11 before:2022-02-25\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2022-02-11 before:2022-02-25\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2022-02-11+before:2022-02-25&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2022-02-11+before:2022-02-25&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:29:05 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      29,
+      5,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Mortality from Congenital Zika Syndrome — Nationwide Cohort Study in Brazil - The New England Journal of Medicine",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Mortality from Congenital Zika Syndrome — Nationwide Cohort Study in Brazil - The New England Journal of Medicine"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5jTmZQNmlPUVdZTGNoZVM0cHU0VnNJbU84RnBFMnlMMlJHRFJ5OVNNa1d6VFluamRGOVowMC1wemc2ZmdMZGZLRTZnbUpmbDBSaVdqRHNmNUs5Rm41UlpWRA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5jTmZQNmlPUVdZTGNoZVM0cHU0VnNJbU84RnBFMnlMMlJHRFJ5OVNNa1d6VFluamRGOVowMC1wemc2ZmdMZGZLRTZnbUpmbDBSaVdqRHNmNUs5Rm41UlpWRA?oc=5",
+      "id": "CBMiYEFVX3lxTE5jTmZQNmlPUVdZTGNoZVM0cHU0VnNJbU84RnBFMnlMMlJHRFJ5OVNNa1d6VFluamRGOVowMC1wemc2ZmdMZGZLRTZnbUpmbDBSaVdqRHNmNUs5Rm41UlpWRA",
+      "guidislink": false,
+      "published": "Wed, 23 Feb 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        2,
+        23,
+        8,
+        0,
+        0,
+        2,
+        54,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTE5jTmZQNmlPUVdZTGNoZVM0cHU0VnNJbU84RnBFMnlMMlJHRFJ5OVNNa1d6VFluamRGOVowMC1wemc2ZmdMZGZLRTZnbUpmbDBSaVdqRHNmNUs5Rm41UlpWRA?oc=5\" target=\"_blank\">Mortality from Congenital Zika Syndrome — Nationwide Cohort Study in Brazil</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New England Journal of Medicine</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTE5jTmZQNmlPUVdZTGNoZVM0cHU0VnNJbU84RnBFMnlMMlJHRFJ5OVNNa1d6VFluamRGOVowMC1wemc2ZmdMZGZLRTZnbUpmbDBSaVdqRHNmNUs5Rm41UlpWRA?oc=5\" target=\"_blank\">Mortality from Congenital Zika Syndrome — Nationwide Cohort Study in Brazil</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New England Journal of Medicine</font>"
+      },
+      "source": {
+        "href": "https://www.nejm.org",
+        "title": "The New England Journal of Medicine"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Children with congenital Zika syndrome 11 times more likely to die, large study finds - Healio",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Children with congenital Zika syndrome 11 times more likely to die, large study finds - Healio"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOM0tJd1ZkYVpKOVlEVjVya1d4WjNKQzhteUVxTlNTalB4SFNtOFJCaTFLSFkyV2xMRWFlZ1VnbVhyTkRxSXVhbXlIRWhuUU1mYm9jMTJnQk1wZ1JNaE9WLTdsTHhDa3M5aHZWcjRJbFpWQ1h5XzFDa21lTW93ejBpa3B2a2FTZEdsNzVaTFRudW5KYllSTXhfbHRlU1hXVzBmcXFqUGtoWS02V05nY3ptNGlUZUxGdjhySzdNV1hSZkFOaDQ4eWFQTWhPaS1ZT0ZTcDVxamgyTQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOM0tJd1ZkYVpKOVlEVjVya1d4WjNKQzhteUVxTlNTalB4SFNtOFJCaTFLSFkyV2xMRWFlZ1VnbVhyTkRxSXVhbXlIRWhuUU1mYm9jMTJnQk1wZ1JNaE9WLTdsTHhDa3M5aHZWcjRJbFpWQ1h5XzFDa21lTW93ejBpa3B2a2FTZEdsNzVaTFRudW5KYllSTXhfbHRlU1hXVzBmcXFqUGtoWS02V05nY3ptNGlUZUxGdjhySzdNV1hSZkFOaDQ4eWFQTWhPaS1ZT0ZTcDVxamgyTQ?oc=5",
+      "id": "CBMi1wFBVV95cUxOM0tJd1ZkYVpKOVlEVjVya1d4WjNKQzhteUVxTlNTalB4SFNtOFJCaTFLSFkyV2xMRWFlZ1VnbVhyTkRxSXVhbXlIRWhuUU1mYm9jMTJnQk1wZ1JNaE9WLTdsTHhDa3M5aHZWcjRJbFpWQ1h5XzFDa21lTW93ejBpa3B2a2FTZEdsNzVaTFRudW5KYllSTXhfbHRlU1hXVzBmcXFqUGtoWS02V05nY3ptNGlUZUxGdjhySzdNV1hSZkFOaDQ4eWFQTWhPaS1ZT0ZTcDVxamgyTQ",
+      "guidislink": false,
+      "published": "Thu, 24 Feb 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        2,
+        24,
+        8,
+        0,
+        0,
+        3,
+        55,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxOM0tJd1ZkYVpKOVlEVjVya1d4WjNKQzhteUVxTlNTalB4SFNtOFJCaTFLSFkyV2xMRWFlZ1VnbVhyTkRxSXVhbXlIRWhuUU1mYm9jMTJnQk1wZ1JNaE9WLTdsTHhDa3M5aHZWcjRJbFpWQ1h5XzFDa21lTW93ejBpa3B2a2FTZEdsNzVaTFRudW5KYllSTXhfbHRlU1hXVzBmcXFqUGtoWS02V05nY3ptNGlUZUxGdjhySzdNV1hSZkFOaDQ4eWFQTWhPaS1ZT0ZTcDVxamgyTQ?oc=5\" target=\"_blank\">Children with congenital Zika syndrome 11 times more likely to die, large study finds</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Healio</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxOM0tJd1ZkYVpKOVlEVjVya1d4WjNKQzhteUVxTlNTalB4SFNtOFJCaTFLSFkyV2xMRWFlZ1VnbVhyTkRxSXVhbXlIRWhuUU1mYm9jMTJnQk1wZ1JNaE9WLTdsTHhDa3M5aHZWcjRJbFpWQ1h5XzFDa21lTW93ejBpa3B2a2FTZEdsNzVaTFRudW5KYllSTXhfbHRlU1hXVzBmcXFqUGtoWS02V05nY3ptNGlUZUxGdjhySzdNV1hSZkFOaDQ4eWFQTWhPaS1ZT0ZTcDVxamgyTQ?oc=5\" target=\"_blank\">Children with congenital Zika syndrome 11 times more likely to die, large study finds</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Healio</font>"
+      },
+      "source": {
+        "href": "https://www.healio.com",
+        "title": "Healio"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Brazilian babies born with Zika virus syndrome at greater risk of death in first three years of life than those born without - The London School of Hygiene & Tropical Medicine",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Brazilian babies born with Zika virus syndrome at greater risk of death in first three years of life than those born without - The London School of Hygiene & Tropical Medicine"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNY3dnblhaX0Z4d190TW1QRExPajd0c29FcXdqUms2NERoWVp3SUpkSnRFRzAzdFljMW0wVnlmRm5iVWw4eVA4WHlIanBRaEUyQWdLd014aDd3WS1wbGNMRU84dmZ3NkdXUGZOWFlfUmRVVWpUcktxamNyZDhGMG1FcTBsTUk1RVQyMlRFbG5jRnh0RkFkN2lyZ2V6N1lDZlV3WHI5cjN5SVFuLXNaSGd3QUJUSWN3YnlLWVlrWGIzQkg?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNY3dnblhaX0Z4d190TW1QRExPajd0c29FcXdqUms2NERoWVp3SUpkSnRFRzAzdFljMW0wVnlmRm5iVWw4eVA4WHlIanBRaEUyQWdLd014aDd3WS1wbGNMRU84dmZ3NkdXUGZOWFlfUmRVVWpUcktxamNyZDhGMG1FcTBsTUk1RVQyMlRFbG5jRnh0RkFkN2lyZ2V6N1lDZlV3WHI5cjN5SVFuLXNaSGd3QUJUSWN3YnlLWVlrWGIzQkg?oc=5",
+      "id": "CBMiwAFBVV95cUxNY3dnblhaX0Z4d190TW1QRExPajd0c29FcXdqUms2NERoWVp3SUpkSnRFRzAzdFljMW0wVnlmRm5iVWw4eVA4WHlIanBRaEUyQWdLd014aDd3WS1wbGNMRU84dmZ3NkdXUGZOWFlfUmRVVWpUcktxamNyZDhGMG1FcTBsTUk1RVQyMlRFbG5jRnh0RkFkN2lyZ2V6N1lDZlV3WHI5cjN5SVFuLXNaSGd3QUJUSWN3YnlLWVlrWGIzQkg",
+      "guidislink": false,
+      "published": "Thu, 24 Feb 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        2,
+        24,
+        8,
+        0,
+        0,
+        3,
+        55,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNY3dnblhaX0Z4d190TW1QRExPajd0c29FcXdqUms2NERoWVp3SUpkSnRFRzAzdFljMW0wVnlmRm5iVWw4eVA4WHlIanBRaEUyQWdLd014aDd3WS1wbGNMRU84dmZ3NkdXUGZOWFlfUmRVVWpUcktxamNyZDhGMG1FcTBsTUk1RVQyMlRFbG5jRnh0RkFkN2lyZ2V6N1lDZlV3WHI5cjN5SVFuLXNaSGd3QUJUSWN3YnlLWVlrWGIzQkg?oc=5\" target=\"_blank\">Brazilian babies born with Zika virus syndrome at greater risk of death in first three years of life than those born without</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The London School of Hygiene & Tropical Medicine</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNY3dnblhaX0Z4d190TW1QRExPajd0c29FcXdqUms2NERoWVp3SUpkSnRFRzAzdFljMW0wVnlmRm5iVWw4eVA4WHlIanBRaEUyQWdLd014aDd3WS1wbGNMRU84dmZ3NkdXUGZOWFlfUmRVVWpUcktxamNyZDhGMG1FcTBsTUk1RVQyMlRFbG5jRnh0RkFkN2lyZ2V6N1lDZlV3WHI5cjN5SVFuLXNaSGd3QUJUSWN3YnlLWVlrWGIzQkg?oc=5\" target=\"_blank\">Brazilian babies born with Zika virus syndrome at greater risk of death in first three years of life than those born without</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The London School of Hygiene & Tropical Medicine</font>"
+      },
+      "source": {
+        "href": "https://www.lshtm.ac.uk",
+        "title": "The London School of Hygiene & Tropical Medicine"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Duke Human Vaccine Institute Researchers Receive BIAL Award for Vaccine Technology - Duke Health",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Duke Human Vaccine Institute Researchers Receive BIAL Award for Vaccine Technology - Duke Health"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNlJodWUyblZKYUNtUDA2NjN2ODF6dndUcFFEb0tiVlRQeC14TEJqUzRDRWVwUUFhdF9yNkoyaGw4V1ZPS2xLNFFSUk5za3piX3pwVE02ZkVqSlY1dHgyWnBST1J6Rm84U18tRTR2NHh4MVhCeHlrMHA5Z3VaZEJiR1FFTzlRYzVWbU1USnZiV2J6V2lEMVhtQWd1V2dtZFdGM2xCNk8wQm92QUE1UWl5eHFmSlZIeTA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNlJodWUyblZKYUNtUDA2NjN2ODF6dndUcFFEb0tiVlRQeC14TEJqUzRDRWVwUUFhdF9yNkoyaGw4V1ZPS2xLNFFSUk5za3piX3pwVE02ZkVqSlY1dHgyWnBST1J6Rm84U18tRTR2NHh4MVhCeHlrMHA5Z3VaZEJiR1FFTzlRYzVWbU1USnZiV2J6V2lEMVhtQWd1V2dtZFdGM2xCNk8wQm92QUE1UWl5eHFmSlZIeTA?oc=5",
+      "id": "CBMitwFBVV95cUxPNlJodWUyblZKYUNtUDA2NjN2ODF6dndUcFFEb0tiVlRQeC14TEJqUzRDRWVwUUFhdF9yNkoyaGw4V1ZPS2xLNFFSUk5za3piX3pwVE02ZkVqSlY1dHgyWnBST1J6Rm84U18tRTR2NHh4MVhCeHlrMHA5Z3VaZEJiR1FFTzlRYzVWbU1USnZiV2J6V2lEMVhtQWd1V2dtZFdGM2xCNk8wQm92QUE1UWl5eHFmSlZIeTA",
+      "guidislink": false,
+      "published": "Fri, 18 Feb 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        2,
+        18,
+        8,
+        0,
+        0,
+        4,
+        49,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxPNlJodWUyblZKYUNtUDA2NjN2ODF6dndUcFFEb0tiVlRQeC14TEJqUzRDRWVwUUFhdF9yNkoyaGw4V1ZPS2xLNFFSUk5za3piX3pwVE02ZkVqSlY1dHgyWnBST1J6Rm84U18tRTR2NHh4MVhCeHlrMHA5Z3VaZEJiR1FFTzlRYzVWbU1USnZiV2J6V2lEMVhtQWd1V2dtZFdGM2xCNk8wQm92QUE1UWl5eHFmSlZIeTA?oc=5\" target=\"_blank\">Duke Human Vaccine Institute Researchers Receive BIAL Award for Vaccine Technology</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Duke Health</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxPNlJodWUyblZKYUNtUDA2NjN2ODF6dndUcFFEb0tiVlRQeC14TEJqUzRDRWVwUUFhdF9yNkoyaGw4V1ZPS2xLNFFSUk5za3piX3pwVE02ZkVqSlY1dHgyWnBST1J6Rm84U18tRTR2NHh4MVhCeHlrMHA5Z3VaZEJiR1FFTzlRYzVWbU1USnZiV2J6V2lEMVhtQWd1V2dtZFdGM2xCNk8wQm92QUE1UWl5eHFmSlZIeTA?oc=5\" target=\"_blank\">Duke Human Vaccine Institute Researchers Receive BIAL Award for Vaccine Technology</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Duke Health</font>"
+      },
+      "source": {
+        "href": "https://corporate.dukehealth.org",
+        "title": "Duke Health"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Climate change is warping our fresh water cycle – and much faster than we thought - The Conversation",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Climate change is warping our fresh water cycle – and much faster than we thought - The Conversation"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeHRQcWhVMTBQbm5oOUJucnBCOGdFd3ktWVhDWjhlUG1jSUFoSnFXN05oSXBYQTAwVGhtcmpNZE5TMHUzVkRORXl0a3V3NVJJWGdZZEt4YXhhektXYVhFZE9wdi10NTQ3YWV4bU9CTlIxRl9uU0VnNGgtSlNrS1BfRU94VXdxMDJIS3I5RzVFemZzM182enBoM0xhY1daQl9qLW5pNWVkNGFNOUtFZ0FxV2dBVVY?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeHRQcWhVMTBQbm5oOUJucnBCOGdFd3ktWVhDWjhlUG1jSUFoSnFXN05oSXBYQTAwVGhtcmpNZE5TMHUzVkRORXl0a3V3NVJJWGdZZEt4YXhhektXYVhFZE9wdi10NTQ3YWV4bU9CTlIxRl9uU0VnNGgtSlNrS1BfRU94VXdxMDJIS3I5RzVFemZzM182enBoM0xhY1daQl9qLW5pNWVkNGFNOUtFZ0FxV2dBVVY?oc=5",
+      "id": "CBMitAFBVV95cUxQeHRQcWhVMTBQbm5oOUJucnBCOGdFd3ktWVhDWjhlUG1jSUFoSnFXN05oSXBYQTAwVGhtcmpNZE5TMHUzVkRORXl0a3V3NVJJWGdZZEt4YXhhektXYVhFZE9wdi10NTQ3YWV4bU9CTlIxRl9uU0VnNGgtSlNrS1BfRU94VXdxMDJIS3I5RzVFemZzM182enBoM0xhY1daQl9qLW5pNWVkNGFNOUtFZ0FxV2dBVVY",
+      "guidislink": false,
+      "published": "Wed, 23 Feb 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        2,
+        23,
+        8,
+        0,
+        0,
+        2,
+        54,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQeHRQcWhVMTBQbm5oOUJucnBCOGdFd3ktWVhDWjhlUG1jSUFoSnFXN05oSXBYQTAwVGhtcmpNZE5TMHUzVkRORXl0a3V3NVJJWGdZZEt4YXhhektXYVhFZE9wdi10NTQ3YWV4bU9CTlIxRl9uU0VnNGgtSlNrS1BfRU94VXdxMDJIS3I5RzVFemZzM182enBoM0xhY1daQl9qLW5pNWVkNGFNOUtFZ0FxV2dBVVY?oc=5\" target=\"_blank\">Climate change is warping our fresh water cycle – and much faster than we thought</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Conversation</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxQeHRQcWhVMTBQbm5oOUJucnBCOGdFd3ktWVhDWjhlUG1jSUFoSnFXN05oSXBYQTAwVGhtcmpNZE5TMHUzVkRORXl0a3V3NVJJWGdZZEt4YXhhektXYVhFZE9wdi10NTQ3YWV4bU9CTlIxRl9uU0VnNGgtSlNrS1BfRU94VXdxMDJIS3I5RzVFemZzM182enBoM0xhY1daQl9qLW5pNWVkNGFNOUtFZ0FxV2dBVVY?oc=5\" target=\"_blank\">Climate change is warping our fresh water cycle – and much faster than we thought</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Conversation</font>"
+      },
+      "source": {
+        "href": "https://theconversation.com",
+        "title": "The Conversation"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Study by Taimoor Sohail and Jan Zika underscores impact of climate change on global water cycle - UNSW Sydney",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Study by Taimoor Sohail and Jan Zika underscores impact of climate change on global water cycle - UNSW Sydney"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMidkFVX3lxTFByTHUxM0JRdjZjNG1zeHFZU2c1dmVZYmx6NGdjZWhsUXVEd25URW9OZWtHRlFwaUYwcG4zeUQ0eXFYY3ExbUcyMlU1dk1HOGdVVFFuQjBDRnBoNXRqNkR3MGlQeXFTWmxOZHU5R21mcVhnUkRSN2c?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFByTHUxM0JRdjZjNG1zeHFZU2c1dmVZYmx6NGdjZWhsUXVEd25URW9OZWtHRlFwaUYwcG4zeUQ0eXFYY3ExbUcyMlU1dk1HOGdVVFFuQjBDRnBoNXRqNkR3MGlQeXFTWmxOZHU5R21mcVhnUkRSN2c?oc=5",
+      "id": "CBMidkFVX3lxTFByTHUxM0JRdjZjNG1zeHFZU2c1dmVZYmx6NGdjZWhsUXVEd25URW9OZWtHRlFwaUYwcG4zeUQ0eXFYY3ExbUcyMlU1dk1HOGdVVFFuQjBDRnBoNXRqNkR3MGlQeXFTWmxOZHU5R21mcVhnUkRSN2c",
+      "guidislink": false,
+      "published": "Thu, 24 Feb 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        2,
+        24,
+        8,
+        0,
+        0,
+        3,
+        55,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFByTHUxM0JRdjZjNG1zeHFZU2c1dmVZYmx6NGdjZWhsUXVEd25URW9OZWtHRlFwaUYwcG4zeUQ0eXFYY3ExbUcyMlU1dk1HOGdVVFFuQjBDRnBoNXRqNkR3MGlQeXFTWmxOZHU5R21mcVhnUkRSN2c?oc=5\" target=\"_blank\">Study by Taimoor Sohail and Jan Zika underscores impact of climate change on global water cycle</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">UNSW Sydney</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFByTHUxM0JRdjZjNG1zeHFZU2c1dmVZYmx6NGdjZWhsUXVEd25URW9OZWtHRlFwaUYwcG4zeUQ0eXFYY3ExbUcyMlU1dk1HOGdVVFFuQjBDRnBoNXRqNkR3MGlQeXFTWmxOZHU5R21mcVhnUkRSN2c?oc=5\" target=\"_blank\">Study by Taimoor Sohail and Jan Zika underscores impact of climate change on global water cycle</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">UNSW Sydney</font>"
+      },
+      "source": {
+        "href": "https://www.unsw.edu.au",
+        "title": "UNSW Sydney"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Letters to the editor: Use non-lethal practices on wolves and coyotes; McLeod-Skinner for Congress; Zika's bill is wrong - bendbulletin.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Letters to the editor: Use non-lethal practices on wolves and coyotes; McLeod-Skinner for Congress; Zika's bill is wrong - bendbulletin.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQdzdNMW5GNnI4VmNueXEwX3hXMlNnOWZna1psWFFSOW85LUstaDk4blotVG5RelNpNjB2UUFkTlI4T1pLb3MzaVUwS0ZreTNkWE9udW9zUXpkVi1EVW1lSEhqSFloMklfekFNYkxGRWVFNzI4MHY0RjhER2xCZ2tXanhxRUJ0QTNpczJyM3gxT1AxQ2ZaQ2VJVjh5MnpvMzYwYXU4bWFmTE9QZ3BBNV9vRGsxcWV4MGFWSzhxRnNxWE52X0lKN1VieDRLR1pFdzB3MXNudmNiSl8wTGNfazlWNmZiOXd6OUNj?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQdzdNMW5GNnI4VmNueXEwX3hXMlNnOWZna1psWFFSOW85LUstaDk4blotVG5RelNpNjB2UUFkTlI4T1pLb3MzaVUwS0ZreTNkWE9udW9zUXpkVi1EVW1lSEhqSFloMklfekFNYkxGRWVFNzI4MHY0RjhER2xCZ2tXanhxRUJ0QTNpczJyM3gxT1AxQ2ZaQ2VJVjh5MnpvMzYwYXU4bWFmTE9QZ3BBNV9vRGsxcWV4MGFWSzhxRnNxWE52X0lKN1VieDRLR1pFdzB3MXNudmNiSl8wTGNfazlWNmZiOXd6OUNj?oc=5",
+      "id": "CBMi6AFBVV95cUxQdzdNMW5GNnI4VmNueXEwX3hXMlNnOWZna1psWFFSOW85LUstaDk4blotVG5RelNpNjB2UUFkTlI4T1pLb3MzaVUwS0ZreTNkWE9udW9zUXpkVi1EVW1lSEhqSFloMklfekFNYkxGRWVFNzI4MHY0RjhER2xCZ2tXanhxRUJ0QTNpczJyM3gxT1AxQ2ZaQ2VJVjh5MnpvMzYwYXU4bWFmTE9QZ3BBNV9vRGsxcWV4MGFWSzhxRnNxWE52X0lKN1VieDRLR1pFdzB3MXNudmNiSl8wTGNfazlWNmZiOXd6OUNj",
+      "guidislink": false,
+      "published": "Wed, 23 Feb 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        2,
+        23,
+        8,
+        0,
+        0,
+        2,
+        54,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi6AFBVV95cUxQdzdNMW5GNnI4VmNueXEwX3hXMlNnOWZna1psWFFSOW85LUstaDk4blotVG5RelNpNjB2UUFkTlI4T1pLb3MzaVUwS0ZreTNkWE9udW9zUXpkVi1EVW1lSEhqSFloMklfekFNYkxGRWVFNzI4MHY0RjhER2xCZ2tXanhxRUJ0QTNpczJyM3gxT1AxQ2ZaQ2VJVjh5MnpvMzYwYXU4bWFmTE9QZ3BBNV9vRGsxcWV4MGFWSzhxRnNxWE52X0lKN1VieDRLR1pFdzB3MXNudmNiSl8wTGNfazlWNmZiOXd6OUNj?oc=5\" target=\"_blank\">Letters to the editor: Use non-lethal practices on wolves and coyotes; McLeod-Skinner for Congress; Zika's bill is wrong</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bendbulletin.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi6AFBVV95cUxQdzdNMW5GNnI4VmNueXEwX3hXMlNnOWZna1psWFFSOW85LUstaDk4blotVG5RelNpNjB2UUFkTlI4T1pLb3MzaVUwS0ZreTNkWE9udW9zUXpkVi1EVW1lSEhqSFloMklfekFNYkxGRWVFNzI4MHY0RjhER2xCZ2tXanhxRUJ0QTNpczJyM3gxT1AxQ2ZaQ2VJVjh5MnpvMzYwYXU4bWFmTE9QZ3BBNV9vRGsxcWV4MGFWSzhxRnNxWE52X0lKN1VieDRLR1pFdzB3MXNudmNiSl8wTGNfazlWNmZiOXd6OUNj?oc=5\" target=\"_blank\">Letters to the editor: Use non-lethal practices on wolves and coyotes; McLeod-Skinner for Congress; Zika's bill is wrong</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">bendbulletin.com</font>"
+      },
+      "source": {
+        "href": "https://bendbulletin.com",
+        "title": "bendbulletin.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "House panel OKs bill mandating HMOs, insurers provide hearing aid coverage for children - Florida Politics",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "House panel OKs bill mandating HMOs, insurers provide hearing aid coverage for children - Florida Politics"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdXZUa2xXMU9XSVE5bnVCbkdDUVIwQ2hIcE9OdXJOSGMzV1d2alVYRGsxSW9jQUdxazQ0Zk45ZmdOemwwNzhBLWN5ZmZlandnLTdHcDAyblo2TWZtdG5GbDdGdHlJRnRaZnFKRzZCM1ZMMl93TEx0NVZsTnhlRXp3cXp4bFVqOG11TFdDNkM2eEtXVHJTWkprMFBfMDNmM1B5aWxfVFBuYUtkRlVxcVlXX2pDQUFkVkN5SDBXUmp3VXpGd3E5NWdUdDQ3cw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdXZUa2xXMU9XSVE5bnVCbkdDUVIwQ2hIcE9OdXJOSGMzV1d2alVYRGsxSW9jQUdxazQ0Zk45ZmdOemwwNzhBLWN5ZmZlandnLTdHcDAyblo2TWZtdG5GbDdGdHlJRnRaZnFKRzZCM1ZMMl93TEx0NVZsTnhlRXp3cXp4bFVqOG11TFdDNkM2eEtXVHJTWkprMFBfMDNmM1B5aWxfVFBuYUtkRlVxcVlXX2pDQUFkVkN5SDBXUmp3VXpGd3E5NWdUdDQ3cw?oc=5",
+      "id": "CBMiywFBVV95cUxNdXZUa2xXMU9XSVE5bnVCbkdDUVIwQ2hIcE9OdXJOSGMzV1d2alVYRGsxSW9jQUdxazQ0Zk45ZmdOemwwNzhBLWN5ZmZlandnLTdHcDAyblo2TWZtdG5GbDdGdHlJRnRaZnFKRzZCM1ZMMl93TEx0NVZsTnhlRXp3cXp4bFVqOG11TFdDNkM2eEtXVHJTWkprMFBfMDNmM1B5aWxfVFBuYUtkRlVxcVlXX2pDQUFkVkN5SDBXUmp3VXpGd3E5NWdUdDQ3cw",
+      "guidislink": false,
+      "published": "Wed, 16 Feb 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        2,
+        16,
+        8,
+        0,
+        0,
+        2,
+        47,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxNdXZUa2xXMU9XSVE5bnVCbkdDUVIwQ2hIcE9OdXJOSGMzV1d2alVYRGsxSW9jQUdxazQ0Zk45ZmdOemwwNzhBLWN5ZmZlandnLTdHcDAyblo2TWZtdG5GbDdGdHlJRnRaZnFKRzZCM1ZMMl93TEx0NVZsTnhlRXp3cXp4bFVqOG11TFdDNkM2eEtXVHJTWkprMFBfMDNmM1B5aWxfVFBuYUtkRlVxcVlXX2pDQUFkVkN5SDBXUmp3VXpGd3E5NWdUdDQ3cw?oc=5\" target=\"_blank\">House panel OKs bill mandating HMOs, insurers provide hearing aid coverage for children</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Florida Politics</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxNdXZUa2xXMU9XSVE5bnVCbkdDUVIwQ2hIcE9OdXJOSGMzV1d2alVYRGsxSW9jQUdxazQ0Zk45ZmdOemwwNzhBLWN5ZmZlandnLTdHcDAyblo2TWZtdG5GbDdGdHlJRnRaZnFKRzZCM1ZMMl93TEx0NVZsTnhlRXp3cXp4bFVqOG11TFdDNkM2eEtXVHJTWkprMFBfMDNmM1B5aWxfVFBuYUtkRlVxcVlXX2pDQUFkVkN5SDBXUmp3VXpGd3E5NWdUdDQ3cw?oc=5\" target=\"_blank\">House panel OKs bill mandating HMOs, insurers provide hearing aid coverage for children</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Florida Politics</font>"
+      },
+      "source": {
+        "href": "https://floridapolitics.com",
+        "title": "Florida Politics"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "We're in a chemical arms race with mosquitoes, and the mozzies have an advantage - ABC News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "We're in a chemical arms race with mosquitoes, and the mozzies have an advantage - ABC News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQa0VXa3ZTeGNXT3o0WmtRMF92SFRsRkNlWVNpdE5HTlhIOHRMRjE2OHBuMVY2NTg4M1lEN1NLQUVRVUpaeXd2bnExMFd0b3lCWWNMbkxoOG8xMElWbC1sN3I3YjBlb3NTR2tSN2ljQURPaW9wSFdoX0VPSnlvbmFXSGl0MDdRX2lFWjBBVWl6M2J5aVRYSE5kallydURwbzNfeUlUcUtDUEUtaUp4ZDlUTDNkRTNzcHhZZ0E?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQa0VXa3ZTeGNXT3o0WmtRMF92SFRsRkNlWVNpdE5HTlhIOHRMRjE2OHBuMVY2NTg4M1lEN1NLQUVRVUpaeXd2bnExMFd0b3lCWWNMbkxoOG8xMElWbC1sN3I3YjBlb3NTR2tSN2ljQURPaW9wSFdoX0VPSnlvbmFXSGl0MDdRX2lFWjBBVWl6M2J5aVRYSE5kallydURwbzNfeUlUcUtDUEUtaUp4ZDlUTDNkRTNzcHhZZ0E?oc=5",
+      "id": "CBMiugFBVV95cUxQa0VXa3ZTeGNXT3o0WmtRMF92SFRsRkNlWVNpdE5HTlhIOHRMRjE2OHBuMVY2NTg4M1lEN1NLQUVRVUpaeXd2bnExMFd0b3lCWWNMbkxoOG8xMElWbC1sN3I3YjBlb3NTR2tSN2ljQURPaW9wSFdoX0VPSnlvbmFXSGl0MDdRX2lFWjBBVWl6M2J5aVRYSE5kallydURwbzNfeUlUcUtDUEUtaUp4ZDlUTDNkRTNzcHhZZ0E",
+      "guidislink": false,
+      "published": "Thu, 17 Feb 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        2,
+        17,
+        8,
+        0,
+        0,
+        3,
+        48,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxQa0VXa3ZTeGNXT3o0WmtRMF92SFRsRkNlWVNpdE5HTlhIOHRMRjE2OHBuMVY2NTg4M1lEN1NLQUVRVUpaeXd2bnExMFd0b3lCWWNMbkxoOG8xMElWbC1sN3I3YjBlb3NTR2tSN2ljQURPaW9wSFdoX0VPSnlvbmFXSGl0MDdRX2lFWjBBVWl6M2J5aVRYSE5kallydURwbzNfeUlUcUtDUEUtaUp4ZDlUTDNkRTNzcHhZZ0E?oc=5\" target=\"_blank\">We're in a chemical arms race with mosquitoes, and the mozzies have an advantage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ABC News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxQa0VXa3ZTeGNXT3o0WmtRMF92SFRsRkNlWVNpdE5HTlhIOHRMRjE2OHBuMVY2NTg4M1lEN1NLQUVRVUpaeXd2bnExMFd0b3lCWWNMbkxoOG8xMElWbC1sN3I3YjBlb3NTR2tSN2ljQURPaW9wSFdoX0VPSnlvbmFXSGl0MDdRX2lFWjBBVWl6M2J5aVRYSE5kallydURwbzNfeUlUcUtDUEUtaUp4ZDlUTDNkRTNzcHhZZ0E?oc=5\" target=\"_blank\">We're in a chemical arms race with mosquitoes, and the mozzies have an advantage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ABC News</font>"
+      },
+      "source": {
+        "href": "https://www.abc.net.au",
+        "title": "ABC News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Have you noticed aggressive mosquitoes in Sacramento? Here’s how to protect yourself - Sacramento Bee",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Have you noticed aggressive mosquitoes in Sacramento? Here’s how to protect yourself - Sacramento Bee"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBicUdXUEFHWHdOaXg2S1dNank1VUd6VWtJdndVQ09Mc01aNmJBYUpHYmx4UlhpNV9wcjZBVm9JQVExcjh0ajRUZER2SDNReGRPdXI5QXlfM2o3NkM5cnRJaGNKa3Z4Ymc0aHNwZ0NR0gFuQVVfeXFMTlpRNEdGVWRmVUdXb3JUYnk2VzJVbWFaQXdpZGZGWmhaaGRTNFIyRlVhd2drTXd5eGJMT2VvaGxlaDBTNXVxRHBEdURPUU5aOWhaMGtGMkdIUWRCeU1LR0ZqZ2s0SU95UmI1amZ5dWc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBicUdXUEFHWHdOaXg2S1dNank1VUd6VWtJdndVQ09Mc01aNmJBYUpHYmx4UlhpNV9wcjZBVm9JQVExcjh0ajRUZER2SDNReGRPdXI5QXlfM2o3NkM5cnRJaGNKa3Z4Ymc0aHNwZ0NR0gFuQVVfeXFMTlpRNEdGVWRmVUdXb3JUYnk2VzJVbWFaQXdpZGZGWmhaaGRTNFIyRlVhd2drTXd5eGJMT2VvaGxlaDBTNXVxRHBEdURPUU5aOWhaMGtGMkdIUWRCeU1LR0ZqZ2s0SU95UmI1amZ5dWc?oc=5",
+      "id": "CBMibkFVX3lxTFBicUdXUEFHWHdOaXg2S1dNank1VUd6VWtJdndVQ09Mc01aNmJBYUpHYmx4UlhpNV9wcjZBVm9JQVExcjh0ajRUZER2SDNReGRPdXI5QXlfM2o3NkM5cnRJaGNKa3Z4Ymc0aHNwZ0NR0gFuQVVfeXFMTlpRNEdGVWRmVUdXb3JUYnk2VzJVbWFaQXdpZGZGWmhaaGRTNFIyRlVhd2drTXd5eGJMT2VvaGxlaDBTNXVxRHBEdURPUU5aOWhaMGtGMkdIUWRCeU1LR0ZqZ2s0SU95UmI1amZ5dWc",
+      "guidislink": false,
+      "published": "Fri, 11 Feb 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        2,
+        11,
+        8,
+        0,
+        0,
+        4,
+        42,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTFBicUdXUEFHWHdOaXg2S1dNank1VUd6VWtJdndVQ09Mc01aNmJBYUpHYmx4UlhpNV9wcjZBVm9JQVExcjh0ajRUZER2SDNReGRPdXI5QXlfM2o3NkM5cnRJaGNKa3Z4Ymc0aHNwZ0NR0gFuQVVfeXFMTlpRNEdGVWRmVUdXb3JUYnk2VzJVbWFaQXdpZGZGWmhaaGRTNFIyRlVhd2drTXd5eGJMT2VvaGxlaDBTNXVxRHBEdURPUU5aOWhaMGtGMkdIUWRCeU1LR0ZqZ2s0SU95UmI1amZ5dWc?oc=5\" target=\"_blank\">Have you noticed aggressive mosquitoes in Sacramento? Here’s how to protect yourself</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sacramento Bee</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTFBicUdXUEFHWHdOaXg2S1dNank1VUd6VWtJdndVQ09Mc01aNmJBYUpHYmx4UlhpNV9wcjZBVm9JQVExcjh0ajRUZER2SDNReGRPdXI5QXlfM2o3NkM5cnRJaGNKa3Z4Ymc0aHNwZ0NR0gFuQVVfeXFMTlpRNEdGVWRmVUdXb3JUYnk2VzJVbWFaQXdpZGZGWmhaaGRTNFIyRlVhd2drTXd5eGJMT2VvaGxlaDBTNXVxRHBEdURPUU5aOWhaMGtGMkdIUWRCeU1LR0ZqZ2s0SU95UmI1amZ5dWc?oc=5\" target=\"_blank\">Have you noticed aggressive mosquitoes in Sacramento? Here’s how to protect yourself</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sacramento Bee</font>"
+      },
+      "source": {
+        "href": "https://www.sacbee.com",
+        "title": "Sacramento Bee"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Mosquitoes are so smart they're learning how to avoid pesticides used to kill them, study says - abcnews.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Mosquitoes are so smart they're learning how to avoid pesticides used to kill them, study says - abcnews.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNckNZZms5dDJ1ZmloWkNEUzdPVDR6Nk56b2dQZEhYM2FGMm9GQ3lqcV8yaWxHS3plVEdiUmMwVjk2QWN1YTd5OFVOLWRCSkl6VUxwUk1uMC1QVHEzeWY2UUhMX2RLd08zNkwyeFBDY0FXdnNkcFByRnBac1UzVGxlYXJhM3ZWeEpiaW16RTRVZ21NRV9SN1puZVRoV0JnSnI0YmtZ0gGoAUFVX3lxTE15cmV6eW9vRjB1b3Btbml1SUN2bnljY1pUcC1CM2w3QUE1UWtpYktVQUg0Y19ESGtVVE9zQlRUcnM5UGViZVJhUzQzM0FUWDZUTFk0SlZEbDl4UzV3NmVQVjNsVGpkR2tDd05sakhCRS1aVHAyVmpidE9iX3dKWnJ1VFB3Z0xYekpIY1VSVDVib1RGQk0ydWJyZ3NnQ0F2d2ZmMHBsWWk0dw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNckNZZms5dDJ1ZmloWkNEUzdPVDR6Nk56b2dQZEhYM2FGMm9GQ3lqcV8yaWxHS3plVEdiUmMwVjk2QWN1YTd5OFVOLWRCSkl6VUxwUk1uMC1QVHEzeWY2UUhMX2RLd08zNkwyeFBDY0FXdnNkcFByRnBac1UzVGxlYXJhM3ZWeEpiaW16RTRVZ21NRV9SN1puZVRoV0JnSnI0YmtZ0gGoAUFVX3lxTE15cmV6eW9vRjB1b3Btbml1SUN2bnljY1pUcC1CM2w3QUE1UWtpYktVQUg0Y19ESGtVVE9zQlRUcnM5UGViZVJhUzQzM0FUWDZUTFk0SlZEbDl4UzV3NmVQVjNsVGpkR2tDd05sakhCRS1aVHAyVmpidE9iX3dKWnJ1VFB3Z0xYekpIY1VSVDVib1RGQk0ydWJyZ3NnQ0F2d2ZmMHBsWWk0dw?oc=5",
+      "id": "CBMiowFBVV95cUxNckNZZms5dDJ1ZmloWkNEUzdPVDR6Nk56b2dQZEhYM2FGMm9GQ3lqcV8yaWxHS3plVEdiUmMwVjk2QWN1YTd5OFVOLWRCSkl6VUxwUk1uMC1QVHEzeWY2UUhMX2RLd08zNkwyeFBDY0FXdnNkcFByRnBac1UzVGxlYXJhM3ZWeEpiaW16RTRVZ21NRV9SN1puZVRoV0JnSnI0YmtZ0gGoAUFVX3lxTE15cmV6eW9vRjB1b3Btbml1SUN2bnljY1pUcC1CM2w3QUE1UWtpYktVQUg0Y19ESGtVVE9zQlRUcnM5UGViZVJhUzQzM0FUWDZUTFk0SlZEbDl4UzV3NmVQVjNsVGpkR2tDd05sakhCRS1aVHAyVmpidE9iX3dKWnJ1VFB3Z0xYekpIY1VSVDVib1RGQk0ydWJyZ3NnQ0F2d2ZmMHBsWWk0dw",
+      "guidislink": false,
+      "published": "Thu, 17 Feb 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        2,
+        17,
+        8,
+        0,
+        0,
+        3,
+        48,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxNckNZZms5dDJ1ZmloWkNEUzdPVDR6Nk56b2dQZEhYM2FGMm9GQ3lqcV8yaWxHS3plVEdiUmMwVjk2QWN1YTd5OFVOLWRCSkl6VUxwUk1uMC1QVHEzeWY2UUhMX2RLd08zNkwyeFBDY0FXdnNkcFByRnBac1UzVGxlYXJhM3ZWeEpiaW16RTRVZ21NRV9SN1puZVRoV0JnSnI0YmtZ0gGoAUFVX3lxTE15cmV6eW9vRjB1b3Btbml1SUN2bnljY1pUcC1CM2w3QUE1UWtpYktVQUg0Y19ESGtVVE9zQlRUcnM5UGViZVJhUzQzM0FUWDZUTFk0SlZEbDl4UzV3NmVQVjNsVGpkR2tDd05sakhCRS1aVHAyVmpidE9iX3dKWnJ1VFB3Z0xYekpIY1VSVDVib1RGQk0ydWJyZ3NnQ0F2d2ZmMHBsWWk0dw?oc=5\" target=\"_blank\">Mosquitoes are so smart they're learning how to avoid pesticides used to kill them, study says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">abcnews.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxNckNZZms5dDJ1ZmloWkNEUzdPVDR6Nk56b2dQZEhYM2FGMm9GQ3lqcV8yaWxHS3plVEdiUmMwVjk2QWN1YTd5OFVOLWRCSkl6VUxwUk1uMC1QVHEzeWY2UUhMX2RLd08zNkwyeFBDY0FXdnNkcFByRnBac1UzVGxlYXJhM3ZWeEpiaW16RTRVZ21NRV9SN1puZVRoV0JnSnI0YmtZ0gGoAUFVX3lxTE15cmV6eW9vRjB1b3Btbml1SUN2bnljY1pUcC1CM2w3QUE1UWtpYktVQUg0Y19ESGtVVE9zQlRUcnM5UGViZVJhUzQzM0FUWDZUTFk0SlZEbDl4UzV3NmVQVjNsVGpkR2tDd05sakhCRS1aVHAyVmpidE9iX3dKWnJ1VFB3Z0xYekpIY1VSVDVib1RGQk0ydWJyZ3NnQ0F2d2ZmMHBsWWk0dw?oc=5\" target=\"_blank\">Mosquitoes are so smart they're learning how to avoid pesticides used to kill them, study says</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">abcnews.com</font>"
+      },
+      "source": {
+        "href": "https://abcnews.com",
+        "title": "abcnews.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Pandemic vs. endemic vs. epidemic: What they mean - Medical News Today",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Pandemic vs. endemic vs. epidemic: What they mean - Medical News Today"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9sTkg2bGpabzlYUmJxY2JSUktQSUM3cHV4aVpYTmFhNElUVjJTZjI4OTVibDJuR0VKNHlNVjdVNUZQeTdLNnJmTkxQMW5hai1fUl9FYk5NNEdvTV80c0dBTTJYZ1FPTzc2Ny1qVDZB?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9sTkg2bGpabzlYUmJxY2JSUktQSUM3cHV4aVpYTmFhNElUVjJTZjI4OTVibDJuR0VKNHlNVjdVNUZQeTdLNnJmTkxQMW5hai1fUl9FYk5NNEdvTV80c0dBTTJYZ1FPTzc2Ny1qVDZB?oc=5",
+      "id": "CBMibkFVX3lxTE9sTkg2bGpabzlYUmJxY2JSUktQSUM3cHV4aVpYTmFhNElUVjJTZjI4OTVibDJuR0VKNHlNVjdVNUZQeTdLNnJmTkxQMW5hai1fUl9FYk5NNEdvTV80c0dBTTJYZ1FPTzc2Ny1qVDZB",
+      "guidislink": false,
+      "published": "Fri, 25 Feb 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        2,
+        25,
+        8,
+        0,
+        0,
+        4,
+        56,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTE9sTkg2bGpabzlYUmJxY2JSUktQSUM3cHV4aVpYTmFhNElUVjJTZjI4OTVibDJuR0VKNHlNVjdVNUZQeTdLNnJmTkxQMW5hai1fUl9FYk5NNEdvTV80c0dBTTJYZ1FPTzc2Ny1qVDZB?oc=5\" target=\"_blank\">Pandemic vs. endemic vs. epidemic: What they mean</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Medical News Today</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTE9sTkg2bGpabzlYUmJxY2JSUktQSUM3cHV4aVpYTmFhNElUVjJTZjI4OTVibDJuR0VKNHlNVjdVNUZQeTdLNnJmTkxQMW5hai1fUl9FYk5NNEdvTV80c0dBTTJYZ1FPTzc2Ny1qVDZB?oc=5\" target=\"_blank\">Pandemic vs. endemic vs. epidemic: What they mean</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Medical News Today</font>"
+      },
+      "source": {
+        "href": "https://www.medicalnewstoday.com",
+        "title": "Medical News Today"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Will Florida require insurance companies to cover hearing aids for children? - The FAMUAN",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Will Florida require insurance companies to cover hearing aids for children? - The FAMUAN"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSWs2M01pN0VwaXJFLU1BSmZuYXJDVGxqblZ3N3BxZk1JMzNEY1U2Y1RoQV8zZVN0ZVBfazJzQVJyZl84Yi0ydW0zU1ZQTjBBaUV6TnctajZUMDZpY2MwOUtuZkVVYmQ1NDUtbWNaQnlQcmlNX2xWeG1DbzlWR0JaZVc4T1dScDJpUE5LV2NIU2hmNGRNcEp3NWdFcUhldEZhLTdGbHkyT2RyeVAxUHN6cTVuSnhwNXFISlZj?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSWs2M01pN0VwaXJFLU1BSmZuYXJDVGxqblZ3N3BxZk1JMzNEY1U2Y1RoQV8zZVN0ZVBfazJzQVJyZl84Yi0ydW0zU1ZQTjBBaUV6TnctajZUMDZpY2MwOUtuZkVVYmQ1NDUtbWNaQnlQcmlNX2xWeG1DbzlWR0JaZVc4T1dScDJpUE5LV2NIU2hmNGRNcEp3NWdFcUhldEZhLTdGbHkyT2RyeVAxUHN6cTVuSnhwNXFISlZj?oc=5",
+      "id": "CBMiuwFBVV95cUxNSWs2M01pN0VwaXJFLU1BSmZuYXJDVGxqblZ3N3BxZk1JMzNEY1U2Y1RoQV8zZVN0ZVBfazJzQVJyZl84Yi0ydW0zU1ZQTjBBaUV6TnctajZUMDZpY2MwOUtuZkVVYmQ1NDUtbWNaQnlQcmlNX2xWeG1DbzlWR0JaZVc4T1dScDJpUE5LV2NIU2hmNGRNcEp3NWdFcUhldEZhLTdGbHkyT2RyeVAxUHN6cTVuSnhwNXFISlZj",
+      "guidislink": false,
+      "published": "Tue, 22 Feb 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        2,
+        22,
+        8,
+        0,
+        0,
+        1,
+        53,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSWs2M01pN0VwaXJFLU1BSmZuYXJDVGxqblZ3N3BxZk1JMzNEY1U2Y1RoQV8zZVN0ZVBfazJzQVJyZl84Yi0ydW0zU1ZQTjBBaUV6TnctajZUMDZpY2MwOUtuZkVVYmQ1NDUtbWNaQnlQcmlNX2xWeG1DbzlWR0JaZVc4T1dScDJpUE5LV2NIU2hmNGRNcEp3NWdFcUhldEZhLTdGbHkyT2RyeVAxUHN6cTVuSnhwNXFISlZj?oc=5\" target=\"_blank\">Will Florida require insurance companies to cover hearing aids for children?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The FAMUAN</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxNSWs2M01pN0VwaXJFLU1BSmZuYXJDVGxqblZ3N3BxZk1JMzNEY1U2Y1RoQV8zZVN0ZVBfazJzQVJyZl84Yi0ydW0zU1ZQTjBBaUV6TnctajZUMDZpY2MwOUtuZkVVYmQ1NDUtbWNaQnlQcmlNX2xWeG1DbzlWR0JaZVc4T1dScDJpUE5LV2NIU2hmNGRNcEp3NWdFcUhldEZhLTdGbHkyT2RyeVAxUHN6cTVuSnhwNXFISlZj?oc=5\" target=\"_blank\">Will Florida require insurance companies to cover hearing aids for children?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The FAMUAN</font>"
+      },
+      "source": {
+        "href": "https://www.thefamuanonline.com",
+        "title": "The FAMUAN"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "In 'Glass Microbiology,' Sculptures Explore the Science Behind Modeling Viruses and Bacteria - thisiscolossal.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "In 'Glass Microbiology,' Sculptures Explore the Science Behind Modeling Viruses and Bacteria - thisiscolossal.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5KMkticnVLTm5CZTBJYTJUOVI2TGFXVDZfZEg5dUVQM2kyWGtpb0VrcEFhSU1SeWJ0YUx5dTNsQVdsNE9sWldCRk11Y3pJMUMwOVRpd2VVY0k4SzhrQlJ0N1ZqVDQ2VkZFWFNZdm9SZVBwYlJjcUhSSEh3?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5KMkticnVLTm5CZTBJYTJUOVI2TGFXVDZfZEg5dUVQM2kyWGtpb0VrcEFhSU1SeWJ0YUx5dTNsQVdsNE9sWldCRk11Y3pJMUMwOVRpd2VVY0k4SzhrQlJ0N1ZqVDQ2VkZFWFNZdm9SZVBwYlJjcUhSSEh3?oc=5",
+      "id": "CBMiekFVX3lxTE5KMkticnVLTm5CZTBJYTJUOVI2TGFXVDZfZEg5dUVQM2kyWGtpb0VrcEFhSU1SeWJ0YUx5dTNsQVdsNE9sWldCRk11Y3pJMUMwOVRpd2VVY0k4SzhrQlJ0N1ZqVDQ2VkZFWFNZdm9SZVBwYlJjcUhSSEh3",
+      "guidislink": false,
+      "published": "Fri, 25 Feb 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        2,
+        25,
+        8,
+        0,
+        0,
+        4,
+        56,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE5KMkticnVLTm5CZTBJYTJUOVI2TGFXVDZfZEg5dUVQM2kyWGtpb0VrcEFhSU1SeWJ0YUx5dTNsQVdsNE9sWldCRk11Y3pJMUMwOVRpd2VVY0k4SzhrQlJ0N1ZqVDQ2VkZFWFNZdm9SZVBwYlJjcUhSSEh3?oc=5\" target=\"_blank\">In 'Glass Microbiology,' Sculptures Explore the Science Behind Modeling Viruses and Bacteria</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">thisiscolossal.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE5KMkticnVLTm5CZTBJYTJUOVI2TGFXVDZfZEg5dUVQM2kyWGtpb0VrcEFhSU1SeWJ0YUx5dTNsQVdsNE9sWldCRk11Y3pJMUMwOVRpd2VVY0k4SzhrQlJ0N1ZqVDQ2VkZFWFNZdm9SZVBwYlJjcUhSSEh3?oc=5\" target=\"_blank\">In 'Glass Microbiology,' Sculptures Explore the Science Behind Modeling Viruses and Bacteria</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">thisiscolossal.com</font>"
+      },
+      "source": {
+        "href": "https://www.thisiscolossal.com",
+        "title": "thisiscolossal.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Clove oil: Ideal weapon against mosquitoes - Medical Xpress",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Clove oil: Ideal weapon against mosquitoes - Medical Xpress"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdHVaMmNybS13YXpTVDNtR25uZVRwbWp0WDRqYnhyRFI3WVVrLUdOa3dkcG1XS3J0ME1HRGxmN3hPcFB2VkVneHl6cWxMQlk3S1VLTk5wMlN2dXF3N2V0TEdDVnpNRkI2YzJTRGdualZLQlBMX0Jtb3JfU3V4cnMxdjhkaw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdHVaMmNybS13YXpTVDNtR25uZVRwbWp0WDRqYnhyRFI3WVVrLUdOa3dkcG1XS3J0ME1HRGxmN3hPcFB2VkVneHl6cWxMQlk3S1VLTk5wMlN2dXF3N2V0TEdDVnpNRkI2YzJTRGdualZLQlBMX0Jtb3JfU3V4cnMxdjhkaw?oc=5",
+      "id": "CBMigwFBVV95cUxQdHVaMmNybS13YXpTVDNtR25uZVRwbWp0WDRqYnhyRFI3WVVrLUdOa3dkcG1XS3J0ME1HRGxmN3hPcFB2VkVneHl6cWxMQlk3S1VLTk5wMlN2dXF3N2V0TEdDVnpNRkI2YzJTRGdualZLQlBMX0Jtb3JfU3V4cnMxdjhkaw",
+      "guidislink": false,
+      "published": "Mon, 21 Feb 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        2,
+        21,
+        8,
+        0,
+        0,
+        0,
+        52,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxQdHVaMmNybS13YXpTVDNtR25uZVRwbWp0WDRqYnhyRFI3WVVrLUdOa3dkcG1XS3J0ME1HRGxmN3hPcFB2VkVneHl6cWxMQlk3S1VLTk5wMlN2dXF3N2V0TEdDVnpNRkI2YzJTRGdualZLQlBMX0Jtb3JfU3V4cnMxdjhkaw?oc=5\" target=\"_blank\">Clove oil: Ideal weapon against mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Medical Xpress</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxQdHVaMmNybS13YXpTVDNtR25uZVRwbWp0WDRqYnhyRFI3WVVrLUdOa3dkcG1XS3J0ME1HRGxmN3hPcFB2VkVneHl6cWxMQlk3S1VLTk5wMlN2dXF3N2V0TEdDVnpNRkI2YzJTRGdualZLQlBMX0Jtb3JfU3V4cnMxdjhkaw?oc=5\" target=\"_blank\">Clove oil: Ideal weapon against mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Medical Xpress</font>"
+      },
+      "source": {
+        "href": "https://medicalxpress.com",
+        "title": "Medical Xpress"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Impact of invasive Asian tiger mosquito in Algarve - The Portugal News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Impact of invasive Asian tiger mosquito in Algarve - The Portugal News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVHhsZDBFRGFZZG96MzF3UWhTandxdENIb2NhTm0zYXVKRVlXRHFDVndnWU10eG9hd3FCSjBlT1FJTnBPZUwtd1hSMmdXMmZiUTV3b1h6T0hHRV9pekZNSFBwbjE3SXRlUWdiWTRMTTdrTjd5Vk5NeWNFai1iOXpmdG5vSVc2RW85eW5kTkRKVWVpNFdwYjl3UW5WMEx4aEd1QXdwUzZDOA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVHhsZDBFRGFZZG96MzF3UWhTandxdENIb2NhTm0zYXVKRVlXRHFDVndnWU10eG9hd3FCSjBlT1FJTnBPZUwtd1hSMmdXMmZiUTV3b1h6T0hHRV9pekZNSFBwbjE3SXRlUWdiWTRMTTdrTjd5Vk5NeWNFai1iOXpmdG5vSVc2RW85eW5kTkRKVWVpNFdwYjl3UW5WMEx4aEd1QXdwUzZDOA?oc=5",
+      "id": "CBMipwFBVV95cUxOVHhsZDBFRGFZZG96MzF3UWhTandxdENIb2NhTm0zYXVKRVlXRHFDVndnWU10eG9hd3FCSjBlT1FJTnBPZUwtd1hSMmdXMmZiUTV3b1h6T0hHRV9pekZNSFBwbjE3SXRlUWdiWTRMTTdrTjd5Vk5NeWNFai1iOXpmdG5vSVc2RW85eW5kTkRKVWVpNFdwYjl3UW5WMEx4aEd1QXdwUzZDOA",
+      "guidislink": false,
+      "published": "Sat, 12 Feb 2022 08:00:00 GMT",
+      "published_parsed": [
+        2022,
+        2,
+        12,
+        8,
+        0,
+        0,
+        5,
+        43,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxOVHhsZDBFRGFZZG96MzF3UWhTandxdENIb2NhTm0zYXVKRVlXRHFDVndnWU10eG9hd3FCSjBlT1FJTnBPZUwtd1hSMmdXMmZiUTV3b1h6T0hHRV9pekZNSFBwbjE3SXRlUWdiWTRMTTdrTjd5Vk5NeWNFai1iOXpmdG5vSVc2RW85eW5kTkRKVWVpNFdwYjl3UW5WMEx4aEd1QXdwUzZDOA?oc=5\" target=\"_blank\">Impact of invasive Asian tiger mosquito in Algarve</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Portugal News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxOVHhsZDBFRGFZZG96MzF3UWhTandxdENIb2NhTm0zYXVKRVlXRHFDVndnWU10eG9hd3FCSjBlT1FJTnBPZUwtd1hSMmdXMmZiUTV3b1h6T0hHRV9pekZNSFBwbjE3SXRlUWdiWTRMTTdrTjd5Vk5NeWNFai1iOXpmdG5vSVc2RW85eW5kTkRKVWVpNFdwYjl3UW5WMEx4aEd1QXdwUzZDOA?oc=5\" target=\"_blank\">Impact of invasive Asian tiger mosquito in Algarve</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Portugal News</font>"
+      },
+      "source": {
+        "href": "https://www.theportugalnews.com",
+        "title": "The Portugal News"
+      },
+      "sub_articles": []
+    }
+  ]
+}

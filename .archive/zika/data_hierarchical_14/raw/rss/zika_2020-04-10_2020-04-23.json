@@ -1,0 +1,1037 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2020-04-10",
+  "window_end": "2020-04-23",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2020-04-10+before%3A2020-04-24&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2020-04-10+before:2020-04-24&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:27:36Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2020-04-10 before:2020-04-24\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2020-04-10 before:2020-04-24\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2020-04-10+before:2020-04-24&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2020-04-10+before:2020-04-24&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:27:36 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      27,
+      36,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Toddlers born with Zika virus seem to be affected in multiple ways - New Scientist",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Toddlers born with Zika virus seem to be affected in multiple ways - New Scientist"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWlIzdWVRb1JmMkplVElYNVpEeTlaQVdOSFRWOERLSU9MYVJuSmk3SFJWZ01JM1FvbWJOTDNTQWkwZTR4TXJROUhUSWhuWjBlQkljZzN2dTIwczN1RWhrNVJHb3FSSzZ4alVRUzNwYkpSSVdEd1puZHNXbGdnOXNxZVU0bFJpZGU3ZmVaLTJsZ2xlYnZtVVpsSEl1VGRQQ0lqRDA5TWVBc2xtblBjZkZIWDVR?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWlIzdWVRb1JmMkplVElYNVpEeTlaQVdOSFRWOERLSU9MYVJuSmk3SFJWZ01JM1FvbWJOTDNTQWkwZTR4TXJROUhUSWhuWjBlQkljZzN2dTIwczN1RWhrNVJHb3FSSzZ4alVRUzNwYkpSSVdEd1puZHNXbGdnOXNxZVU0bFJpZGU3ZmVaLTJsZ2xlYnZtVVpsSEl1VGRQQ0lqRDA5TWVBc2xtblBjZkZIWDVR?oc=5",
+      "id": "CBMisgFBVV95cUxPWlIzdWVRb1JmMkplVElYNVpEeTlaQVdOSFRWOERLSU9MYVJuSmk3SFJWZ01JM1FvbWJOTDNTQWkwZTR4TXJROUhUSWhuWjBlQkljZzN2dTIwczN1RWhrNVJHb3FSSzZ4alVRUzNwYkpSSVdEd1puZHNXbGdnOXNxZVU0bFJpZGU3ZmVaLTJsZ2xlYnZtVVpsSEl1VGRQQ0lqRDA5TWVBc2xtblBjZkZIWDVR",
+      "guidislink": false,
+      "published": "Tue, 21 Apr 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        4,
+        21,
+        7,
+        0,
+        0,
+        1,
+        112,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPWlIzdWVRb1JmMkplVElYNVpEeTlaQVdOSFRWOERLSU9MYVJuSmk3SFJWZ01JM1FvbWJOTDNTQWkwZTR4TXJROUhUSWhuWjBlQkljZzN2dTIwczN1RWhrNVJHb3FSSzZ4alVRUzNwYkpSSVdEd1puZHNXbGdnOXNxZVU0bFJpZGU3ZmVaLTJsZ2xlYnZtVVpsSEl1VGRQQ0lqRDA5TWVBc2xtblBjZkZIWDVR?oc=5\" target=\"_blank\">Toddlers born with Zika virus seem to be affected in multiple ways</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">New Scientist</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPWlIzdWVRb1JmMkplVElYNVpEeTlaQVdOSFRWOERLSU9MYVJuSmk3SFJWZ01JM1FvbWJOTDNTQWkwZTR4TXJROUhUSWhuWjBlQkljZzN2dTIwczN1RWhrNVJHb3FSSzZ4alVRUzNwYkpSSVdEd1puZHNXbGdnOXNxZVU0bFJpZGU3ZmVaLTJsZ2xlYnZtVVpsSEl1VGRQQ0lqRDA5TWVBc2xtblBjZkZIWDVR?oc=5\" target=\"_blank\">Toddlers born with Zika virus seem to be affected in multiple ways</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">New Scientist</font>"
+      },
+      "source": {
+        "href": "https://www.newscientist.com",
+        "title": "New Scientist"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Moderna’s mRNA Zika Vaccine Data Supports COVID-19 Vaccine Approach - BioSpace",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Moderna’s mRNA Zika Vaccine Data Supports COVID-19 Vaccine Approach - BioSpace"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSHBJQ2lsMDlmcklfQlFiYUxiRFBPRWZILUZnajNKbkc5dGcwbFRrd1FHN0pSbldPTnBhb3J0cVlzbjlldmN6dDdLczJTZDU5alk1dmRmWUs1elkyTEJZSUtkbkd4RktULVlvcDZoTFVoVVpSV0FzMUxQd01tRF9DZ2ktbVdueDJzOVVfR0RfUElJVnozTWd2WA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSHBJQ2lsMDlmcklfQlFiYUxiRFBPRWZILUZnajNKbkc5dGcwbFRrd1FHN0pSbldPTnBhb3J0cVlzbjlldmN6dDdLczJTZDU5alk1dmRmWUs1elkyTEJZSUtkbkd4RktULVlvcDZoTFVoVVpSV0FzMUxQd01tRF9DZ2ktbVdueDJzOVVfR0RfUElJVnozTWd2WA?oc=5",
+      "id": "CBMimAFBVV95cUxOSHBJQ2lsMDlmcklfQlFiYUxiRFBPRWZILUZnajNKbkc5dGcwbFRrd1FHN0pSbldPTnBhb3J0cVlzbjlldmN6dDdLczJTZDU5alk1dmRmWUs1elkyTEJZSUtkbkd4RktULVlvcDZoTFVoVVpSV0FzMUxQd01tRF9DZ2ktbVdueDJzOVVfR0RfUElJVnozTWd2WA",
+      "guidislink": false,
+      "published": "Tue, 14 Apr 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        4,
+        14,
+        7,
+        0,
+        0,
+        1,
+        105,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxOSHBJQ2lsMDlmcklfQlFiYUxiRFBPRWZILUZnajNKbkc5dGcwbFRrd1FHN0pSbldPTnBhb3J0cVlzbjlldmN6dDdLczJTZDU5alk1dmRmWUs1elkyTEJZSUtkbkd4RktULVlvcDZoTFVoVVpSV0FzMUxQd01tRF9DZ2ktbVdueDJzOVVfR0RfUElJVnozTWd2WA?oc=5\" target=\"_blank\">Moderna’s mRNA Zika Vaccine Data Supports COVID-19 Vaccine Approach</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BioSpace</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxOSHBJQ2lsMDlmcklfQlFiYUxiRFBPRWZILUZnajNKbkc5dGcwbFRrd1FHN0pSbldPTnBhb3J0cVlzbjlldmN6dDdLczJTZDU5alk1dmRmWUs1elkyTEJZSUtkbkd4RktULVlvcDZoTFVoVVpSV0FzMUxQd01tRF9DZ2ktbVdueDJzOVVfR0RfUElJVnozTWd2WA?oc=5\" target=\"_blank\">Moderna’s mRNA Zika Vaccine Data Supports COVID-19 Vaccine Approach</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BioSpace</font>"
+      },
+      "source": {
+        "href": "https://www.biospace.com",
+        "title": "BioSpace"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Moderna's COVID-19 vaccine trial starts enrolling high-dose arm - Fierce Biotech",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Moderna's COVID-19 vaccine trial starts enrolling high-dose arm - Fierce Biotech"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTHBBejI0MTJMaFlwWDNsckdSN041WHNTOGRtWTJqRWhmLXNrZ1pud3FFR0VZYkZFaU43TDEwcFNyQ0hLdjhZVmQyVUpKTUd5a2E3MmVfdEVqb2RoYTl4NXB6QmhCWGQzSExMQUJXN250Rkx3TGxpbFpGY1FvNVVhdTFDeWhUbmV3aGVJSTRBUXg4Y1NBZXVaWnFlNl9YWG1sdmJN?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTHBBejI0MTJMaFlwWDNsckdSN041WHNTOGRtWTJqRWhmLXNrZ1pud3FFR0VZYkZFaU43TDEwcFNyQ0hLdjhZVmQyVUpKTUd5a2E3MmVfdEVqb2RoYTl4NXB6QmhCWGQzSExMQUJXN250Rkx3TGxpbFpGY1FvNVVhdTFDeWhUbmV3aGVJSTRBUXg4Y1NBZXVaWnFlNl9YWG1sdmJN?oc=5",
+      "id": "CBMiowFBVV95cUxPTHBBejI0MTJMaFlwWDNsckdSN041WHNTOGRtWTJqRWhmLXNrZ1pud3FFR0VZYkZFaU43TDEwcFNyQ0hLdjhZVmQyVUpKTUd5a2E3MmVfdEVqb2RoYTl4NXB6QmhCWGQzSExMQUJXN250Rkx3TGxpbFpGY1FvNVVhdTFDeWhUbmV3aGVJSTRBUXg4Y1NBZXVaWnFlNl9YWG1sdmJN",
+      "guidislink": false,
+      "published": "Tue, 14 Apr 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        4,
+        14,
+        7,
+        0,
+        0,
+        1,
+        105,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxPTHBBejI0MTJMaFlwWDNsckdSN041WHNTOGRtWTJqRWhmLXNrZ1pud3FFR0VZYkZFaU43TDEwcFNyQ0hLdjhZVmQyVUpKTUd5a2E3MmVfdEVqb2RoYTl4NXB6QmhCWGQzSExMQUJXN250Rkx3TGxpbFpGY1FvNVVhdTFDeWhUbmV3aGVJSTRBUXg4Y1NBZXVaWnFlNl9YWG1sdmJN?oc=5\" target=\"_blank\">Moderna's COVID-19 vaccine trial starts enrolling high-dose arm</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fierce Biotech</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxPTHBBejI0MTJMaFlwWDNsckdSN041WHNTOGRtWTJqRWhmLXNrZ1pud3FFR0VZYkZFaU43TDEwcFNyQ0hLdjhZVmQyVUpKTUd5a2E3MmVfdEVqb2RoYTl4NXB6QmhCWGQzSExMQUJXN250Rkx3TGxpbFpGY1FvNVVhdTFDeWhUbmV3aGVJSTRBUXg4Y1NBZXVaWnFlNl9YWG1sdmJN?oc=5\" target=\"_blank\">Moderna's COVID-19 vaccine trial starts enrolling high-dose arm</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fierce Biotech</font>"
+      },
+      "source": {
+        "href": "https://www.fiercebiotech.com",
+        "title": "Fierce Biotech"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Africa's Increased Capacity to Diagnose and Contain Ebola and other Zoonotic Diseases with Nuclear-Derived Techniques - International Atomic Energy Agency",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Africa's Increased Capacity to Diagnose and Contain Ebola and other Zoonotic Diseases with Nuclear-Derived Techniques - International Atomic Energy Agency"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPMTFXUTJZc0lHLTN4WWQwQXlCZ0dqMVN1QjY0Tk56WkRKSTd0eXhVVFVrM3dSX2lCSjFLVERyUER6bG9ySDFlVTBGSTU3Vzl0Wm9rSUczWUhfdDNOS3JhX1Y0UnBQN0tPeHVEUmEtOUE4dnFlN1liU1d3V1dVRDRSamFFX0x2TXdVelhRVFBKZng4bGY3eGRCdm91cGlUQjF0S2NCYmFJMkZLR0dFTFJ5cHpUYnBRaEwtSjkyS0lOazlqN3Y4NTBJSHRWMjh2ZmZGT2g5RU9RYzR6VE45THVYOFlQT2FNcGs?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPMTFXUTJZc0lHLTN4WWQwQXlCZ0dqMVN1QjY0Tk56WkRKSTd0eXhVVFVrM3dSX2lCSjFLVERyUER6bG9ySDFlVTBGSTU3Vzl0Wm9rSUczWUhfdDNOS3JhX1Y0UnBQN0tPeHVEUmEtOUE4dnFlN1liU1d3V1dVRDRSamFFX0x2TXdVelhRVFBKZng4bGY3eGRCdm91cGlUQjF0S2NCYmFJMkZLR0dFTFJ5cHpUYnBRaEwtSjkyS0lOazlqN3Y4NTBJSHRWMjh2ZmZGT2g5RU9RYzR6VE45THVYOFlQT2FNcGs?oc=5",
+      "id": "CBMi5wFBVV95cUxPMTFXUTJZc0lHLTN4WWQwQXlCZ0dqMVN1QjY0Tk56WkRKSTd0eXhVVFVrM3dSX2lCSjFLVERyUER6bG9ySDFlVTBGSTU3Vzl0Wm9rSUczWUhfdDNOS3JhX1Y0UnBQN0tPeHVEUmEtOUE4dnFlN1liU1d3V1dVRDRSamFFX0x2TXdVelhRVFBKZng4bGY3eGRCdm91cGlUQjF0S2NCYmFJMkZLR0dFTFJ5cHpUYnBRaEwtSjkyS0lOazlqN3Y4NTBJSHRWMjh2ZmZGT2g5RU9RYzR6VE45THVYOFlQT2FNcGs",
+      "guidislink": false,
+      "published": "Wed, 15 Apr 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        4,
+        15,
+        7,
+        0,
+        0,
+        2,
+        106,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi5wFBVV95cUxPMTFXUTJZc0lHLTN4WWQwQXlCZ0dqMVN1QjY0Tk56WkRKSTd0eXhVVFVrM3dSX2lCSjFLVERyUER6bG9ySDFlVTBGSTU3Vzl0Wm9rSUczWUhfdDNOS3JhX1Y0UnBQN0tPeHVEUmEtOUE4dnFlN1liU1d3V1dVRDRSamFFX0x2TXdVelhRVFBKZng4bGY3eGRCdm91cGlUQjF0S2NCYmFJMkZLR0dFTFJ5cHpUYnBRaEwtSjkyS0lOazlqN3Y4NTBJSHRWMjh2ZmZGT2g5RU9RYzR6VE45THVYOFlQT2FNcGs?oc=5\" target=\"_blank\">Africa's Increased Capacity to Diagnose and Contain Ebola and other Zoonotic Diseases with Nuclear-Derived Techniques</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">International Atomic Energy Agency</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi5wFBVV95cUxPMTFXUTJZc0lHLTN4WWQwQXlCZ0dqMVN1QjY0Tk56WkRKSTd0eXhVVFVrM3dSX2lCSjFLVERyUER6bG9ySDFlVTBGSTU3Vzl0Wm9rSUczWUhfdDNOS3JhX1Y0UnBQN0tPeHVEUmEtOUE4dnFlN1liU1d3V1dVRDRSamFFX0x2TXdVelhRVFBKZng4bGY3eGRCdm91cGlUQjF0S2NCYmFJMkZLR0dFTFJ5cHpUYnBRaEwtSjkyS0lOazlqN3Y4NTBJSHRWMjh2ZmZGT2g5RU9RYzR6VE45THVYOFlQT2FNcGs?oc=5\" target=\"_blank\">Africa's Increased Capacity to Diagnose and Contain Ebola and other Zoonotic Diseases with Nuclear-Derived Techniques</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">International Atomic Energy Agency</font>"
+      },
+      "source": {
+        "href": "http://www.iaea.org",
+        "title": "International Atomic Energy Agency"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "The Military’s Pandemic Response—Supporting Civil Authorities - U.S. Government Accountability Office (.gov)",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "The Military’s Pandemic Response—Supporting Civil Authorities - U.S. Government Accountability Office (.gov)"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSW0xOTgtaGVWTzVXTVpLZndyc1RidEpjZUxiRm5iX29EZmhOMVBlRUNMMlFsdXpWMTZXMkxYeFRoWWFBUXNlSnpyMWVnT3p6aEcxZkZNZmI2Z0JHc1FlWFdXY0pWVV8yd05zdDdFYThDeHp0ajZDT2REVk9MZEZWVlliaTVzS2xrWXE0?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSW0xOTgtaGVWTzVXTVpLZndyc1RidEpjZUxiRm5iX29EZmhOMVBlRUNMMlFsdXpWMTZXMkxYeFRoWWFBUXNlSnpyMWVnT3p6aEcxZkZNZmI2Z0JHc1FlWFdXY0pWVV8yd05zdDdFYThDeHp0ajZDT2REVk9MZEZWVlliaTVzS2xrWXE0?oc=5",
+      "id": "CBMiiwFBVV95cUxPSW0xOTgtaGVWTzVXTVpLZndyc1RidEpjZUxiRm5iX29EZmhOMVBlRUNMMlFsdXpWMTZXMkxYeFRoWWFBUXNlSnpyMWVnT3p6aEcxZkZNZmI2Z0JHc1FlWFdXY0pWVV8yd05zdDdFYThDeHp0ajZDT2REVk9MZEZWVlliaTVzS2xrWXE0",
+      "guidislink": false,
+      "published": "Wed, 15 Apr 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        4,
+        15,
+        7,
+        0,
+        0,
+        2,
+        106,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSW0xOTgtaGVWTzVXTVpLZndyc1RidEpjZUxiRm5iX29EZmhOMVBlRUNMMlFsdXpWMTZXMkxYeFRoWWFBUXNlSnpyMWVnT3p6aEcxZkZNZmI2Z0JHc1FlWFdXY0pWVV8yd05zdDdFYThDeHp0ajZDT2REVk9MZEZWVlliaTVzS2xrWXE0?oc=5\" target=\"_blank\">The Military’s Pandemic Response—Supporting Civil Authorities</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">U.S. Government Accountability Office (.gov)</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSW0xOTgtaGVWTzVXTVpLZndyc1RidEpjZUxiRm5iX29EZmhOMVBlRUNMMlFsdXpWMTZXMkxYeFRoWWFBUXNlSnpyMWVnT3p6aEcxZkZNZmI2Z0JHc1FlWFdXY0pWVV8yd05zdDdFYThDeHp0ajZDT2REVk9MZEZWVlliaTVzS2xrWXE0?oc=5\" target=\"_blank\">The Military’s Pandemic Response—Supporting Civil Authorities</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">U.S. Government Accountability Office (.gov)</font>"
+      },
+      "source": {
+        "href": "https://www.gao.gov",
+        "title": "U.S. Government Accountability Office (.gov)"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Bill Maher Questions Naming of Coronavirus: \"Why Should China Get a Pass?\" - The Hollywood Reporter",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Bill Maher Questions Naming of Coronavirus: \"Why Should China Get a Pass?\" - The Hollywood Reporter"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPd2JJU21ud21Xci1BRmd3aFE2eHduYzFHMWNFaEF6U0F6SjdrSURPaDFobXFtZTVtZk16SEJzTWtnM281c01JSDdqdTVhLVhfT25nYWQ5VXUtRjlwRmtJeXVCMlUydXVKT2pVeXZGRlY1eUsycENPUFl3UjFJbWlySm1waTllTG1OQmF4ZkJlTmRpYndhdVZFNTFZM3QtQW1WdzlLZzFXMk9nV3Q4WlUtcU95UVZfc2JocjlXR0l3?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPd2JJU21ud21Xci1BRmd3aFE2eHduYzFHMWNFaEF6U0F6SjdrSURPaDFobXFtZTVtZk16SEJzTWtnM281c01JSDdqdTVhLVhfT25nYWQ5VXUtRjlwRmtJeXVCMlUydXVKT2pVeXZGRlY1eUsycENPUFl3UjFJbWlySm1waTllTG1OQmF4ZkJlTmRpYndhdVZFNTFZM3QtQW1WdzlLZzFXMk9nV3Q4WlUtcU95UVZfc2JocjlXR0l3?oc=5",
+      "id": "CBMivgFBVV95cUxPd2JJU21ud21Xci1BRmd3aFE2eHduYzFHMWNFaEF6U0F6SjdrSURPaDFobXFtZTVtZk16SEJzTWtnM281c01JSDdqdTVhLVhfT25nYWQ5VXUtRjlwRmtJeXVCMlUydXVKT2pVeXZGRlY1eUsycENPUFl3UjFJbWlySm1waTllTG1OQmF4ZkJlTmRpYndhdVZFNTFZM3QtQW1WdzlLZzFXMk9nV3Q4WlUtcU95UVZfc2JocjlXR0l3",
+      "guidislink": false,
+      "published": "Fri, 10 Apr 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        4,
+        10,
+        7,
+        0,
+        0,
+        4,
+        101,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPd2JJU21ud21Xci1BRmd3aFE2eHduYzFHMWNFaEF6U0F6SjdrSURPaDFobXFtZTVtZk16SEJzTWtnM281c01JSDdqdTVhLVhfT25nYWQ5VXUtRjlwRmtJeXVCMlUydXVKT2pVeXZGRlY1eUsycENPUFl3UjFJbWlySm1waTllTG1OQmF4ZkJlTmRpYndhdVZFNTFZM3QtQW1WdzlLZzFXMk9nV3Q4WlUtcU95UVZfc2JocjlXR0l3?oc=5\" target=\"_blank\">Bill Maher Questions Naming of Coronavirus: \"Why Should China Get a Pass?\"</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Hollywood Reporter</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPd2JJU21ud21Xci1BRmd3aFE2eHduYzFHMWNFaEF6U0F6SjdrSURPaDFobXFtZTVtZk16SEJzTWtnM281c01JSDdqdTVhLVhfT25nYWQ5VXUtRjlwRmtJeXVCMlUydXVKT2pVeXZGRlY1eUsycENPUFl3UjFJbWlySm1waTllTG1OQmF4ZkJlTmRpYndhdVZFNTFZM3QtQW1WdzlLZzFXMk9nV3Q4WlUtcU95UVZfc2JocjlXR0l3?oc=5\" target=\"_blank\">Bill Maher Questions Naming of Coronavirus: \"Why Should China Get a Pass?\"</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Hollywood Reporter</font>"
+      },
+      "source": {
+        "href": "https://www.hollywoodreporter.com",
+        "title": "The Hollywood Reporter"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Ae japonicus can experimentally transmit ZIKV and USUV. - PLOS",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Ae japonicus can experimentally transmit ZIKV and USUV. - PLOS"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNVZfXzZ5TmhmdERjX2pEYVgzU2UtMk1BYWFVN19ibENaaC14ZzhScGpYV05JWXVvTlhyckpxcS1XSllGaGt3WThEOE5JRlJYaEJ0ZzBqMFdGcXBNeHF1N3J2bFBzRDctZm41ek94TFF1OE05Q1JmaTliaHZROEtPdV9hLVpHX2hZamc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNVZfXzZ5TmhmdERjX2pEYVgzU2UtMk1BYWFVN19ibENaaC14ZzhScGpYV05JWXVvTlhyckpxcS1XSllGaGt3WThEOE5JRlJYaEJ0ZzBqMFdGcXBNeHF1N3J2bFBzRDctZm41ek94TFF1OE05Q1JmaTliaHZROEtPdV9hLVpHX2hZamc?oc=5",
+      "id": "CBMiigFBVV95cUxQNVZfXzZ5TmhmdERjX2pEYVgzU2UtMk1BYWFVN19ibENaaC14ZzhScGpYV05JWXVvTlhyckpxcS1XSllGaGt3WThEOE5JRlJYaEJ0ZzBqMFdGcXBNeHF1N3J2bFBzRDctZm41ek94TFF1OE05Q1JmaTliaHZROEtPdV9hLVpHX2hZamc",
+      "guidislink": false,
+      "published": "Sat, 18 Apr 2020 23:40:39 GMT",
+      "published_parsed": [
+        2020,
+        4,
+        18,
+        23,
+        40,
+        39,
+        5,
+        109,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxQNVZfXzZ5TmhmdERjX2pEYVgzU2UtMk1BYWFVN19ibENaaC14ZzhScGpYV05JWXVvTlhyckpxcS1XSllGaGt3WThEOE5JRlJYaEJ0ZzBqMFdGcXBNeHF1N3J2bFBzRDctZm41ek94TFF1OE05Q1JmaTliaHZROEtPdV9hLVpHX2hZamc?oc=5\" target=\"_blank\">Ae japonicus can experimentally transmit ZIKV and USUV.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PLOS</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxQNVZfXzZ5TmhmdERjX2pEYVgzU2UtMk1BYWFVN19ibENaaC14ZzhScGpYV05JWXVvTlhyckpxcS1XSllGaGt3WThEOE5JRlJYaEJ0ZzBqMFdGcXBNeHF1N3J2bFBzRDctZm41ek94TFF1OE05Q1JmaTliaHZROEtPdV9hLVpHX2hZamc?oc=5\" target=\"_blank\">Ae japonicus can experimentally transmit ZIKV and USUV.</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PLOS</font>"
+      },
+      "source": {
+        "href": "https://journals.plos.org",
+        "title": "PLOS"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "The Root of the Crisis - Colby News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "The Root of the Crisis - Colby News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA3M3Z0dUhEZnJmem1ZQWRIbkVXXzhRMG5WLTFQQzhDUzE1cklrZjg1NDdkMG1xcl9NQldkSnRrQWRRSmpDTmpETHdtbDA1Wnl1R3d1UmVOTmlCRTZVMUlmbnJB?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA3M3Z0dUhEZnJmem1ZQWRIbkVXXzhRMG5WLTFQQzhDUzE1cklrZjg1NDdkMG1xcl9NQldkSnRrQWRRSmpDTmpETHdtbDA1Wnl1R3d1UmVOTmlCRTZVMUlmbnJB?oc=5",
+      "id": "CBMiYkFVX3lxTFA3M3Z0dUhEZnJmem1ZQWRIbkVXXzhRMG5WLTFQQzhDUzE1cklrZjg1NDdkMG1xcl9NQldkSnRrQWRRSmpDTmpETHdtbDA1Wnl1R3d1UmVOTmlCRTZVMUlmbnJB",
+      "guidislink": false,
+      "published": "Fri, 17 Apr 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        4,
+        17,
+        7,
+        0,
+        0,
+        4,
+        108,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTFA3M3Z0dUhEZnJmem1ZQWRIbkVXXzhRMG5WLTFQQzhDUzE1cklrZjg1NDdkMG1xcl9NQldkSnRrQWRRSmpDTmpETHdtbDA1Wnl1R3d1UmVOTmlCRTZVMUlmbnJB?oc=5\" target=\"_blank\">The Root of the Crisis</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Colby News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTFA3M3Z0dUhEZnJmem1ZQWRIbkVXXzhRMG5WLTFQQzhDUzE1cklrZjg1NDdkMG1xcl9NQldkSnRrQWRRSmpDTmpETHdtbDA1Wnl1R3d1UmVOTmlCRTZVMUlmbnJB?oc=5\" target=\"_blank\">The Root of the Crisis</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Colby News</font>"
+      },
+      "source": {
+        "href": "https://news.colby.edu",
+        "title": "Colby News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Cleveland Clinic Establishes Global Center for Pathogen Research and Human Health - Cleveland Clinic Newsroom",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Cleveland Clinic Establishes Global Center for Pathogen Research and Human Health - Cleveland Clinic Newsroom"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQUNSQWZpaEx2MzVYbTVSWHptNzJfVnBLc29aUWtENUFlVzEwV0xxVFpLd3ZzajRsTWxOOWxDX0N2ZWxYcTVWV284cDJiUEM1RUJneFhRWHJ6dzRjSUlHQ29MRjhmaklvcnk1alloS3cyYW1TWmdnUlI1dmVkT2JNZWdQSHFrT0wwZ1VxdGNac0pKT2F6UmtiVGdvWmZkazA3YmtQOUNMdlpUQmVJOXY0dGtVc0l4dWdaQXMyU0g2UTZVRUhx?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQUNSQWZpaEx2MzVYbTVSWHptNzJfVnBLc29aUWtENUFlVzEwV0xxVFpLd3ZzajRsTWxOOWxDX0N2ZWxYcTVWV284cDJiUEM1RUJneFhRWHJ6dzRjSUlHQ29MRjhmaklvcnk1alloS3cyYW1TWmdnUlI1dmVkT2JNZWdQSHFrT0wwZ1VxdGNac0pKT2F6UmtiVGdvWmZkazA3YmtQOUNMdlpUQmVJOXY0dGtVc0l4dWdaQXMyU0g2UTZVRUhx?oc=5",
+      "id": "CBMixAFBVV95cUxNQUNSQWZpaEx2MzVYbTVSWHptNzJfVnBLc29aUWtENUFlVzEwV0xxVFpLd3ZzajRsTWxOOWxDX0N2ZWxYcTVWV284cDJiUEM1RUJneFhRWHJ6dzRjSUlHQ29MRjhmaklvcnk1alloS3cyYW1TWmdnUlI1dmVkT2JNZWdQSHFrT0wwZ1VxdGNac0pKT2F6UmtiVGdvWmZkazA3YmtQOUNMdlpUQmVJOXY0dGtVc0l4dWdaQXMyU0g2UTZVRUhx",
+      "guidislink": false,
+      "published": "Wed, 22 Apr 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        4,
+        22,
+        7,
+        0,
+        0,
+        2,
+        113,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxNQUNSQWZpaEx2MzVYbTVSWHptNzJfVnBLc29aUWtENUFlVzEwV0xxVFpLd3ZzajRsTWxOOWxDX0N2ZWxYcTVWV284cDJiUEM1RUJneFhRWHJ6dzRjSUlHQ29MRjhmaklvcnk1alloS3cyYW1TWmdnUlI1dmVkT2JNZWdQSHFrT0wwZ1VxdGNac0pKT2F6UmtiVGdvWmZkazA3YmtQOUNMdlpUQmVJOXY0dGtVc0l4dWdaQXMyU0g2UTZVRUhx?oc=5\" target=\"_blank\">Cleveland Clinic Establishes Global Center for Pathogen Research and Human Health</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cleveland Clinic Newsroom</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxNQUNSQWZpaEx2MzVYbTVSWHptNzJfVnBLc29aUWtENUFlVzEwV0xxVFpLd3ZzajRsTWxOOWxDX0N2ZWxYcTVWV284cDJiUEM1RUJneFhRWHJ6dzRjSUlHQ29MRjhmaklvcnk1alloS3cyYW1TWmdnUlI1dmVkT2JNZWdQSHFrT0wwZ1VxdGNac0pKT2F6UmtiVGdvWmZkazA3YmtQOUNMdlpUQmVJOXY0dGtVc0l4dWdaQXMyU0g2UTZVRUhx?oc=5\" target=\"_blank\">Cleveland Clinic Establishes Global Center for Pathogen Research and Human Health</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cleveland Clinic Newsroom</font>"
+      },
+      "source": {
+        "href": "https://newsroom.clevelandclinic.org",
+        "title": "Cleveland Clinic Newsroom"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Researchers target cell’s own machinery in fight against COVID-19 - Florida International University",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Researchers target cell’s own machinery in fight against COVID-19 - Florida International University"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNaXpWUnotbnh0RmlLX1VwRnpuZ2RBRjdGdjkwRTBWTUdCSEpjX19feUotVHRVWUlyNW13WDNkLWRTWmtCcHZzdEpIdmtkWGV1MDVlV1JNNnpYRXViUmJ5NjBxSzQ4ZzlQd09ZcjNuTGd4T2I5UWNmc2N3Vm9jR09VLWVXYldGMndKdFpPWDRySW4yY0JD?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNaXpWUnotbnh0RmlLX1VwRnpuZ2RBRjdGdjkwRTBWTUdCSEpjX19feUotVHRVWUlyNW13WDNkLWRTWmtCcHZzdEpIdmtkWGV1MDVlV1JNNnpYRXViUmJ5NjBxSzQ4ZzlQd09ZcjNuTGd4T2I5UWNmc2N3Vm9jR09VLWVXYldGMndKdFpPWDRySW4yY0JD?oc=5",
+      "id": "CBMilAFBVV95cUxNaXpWUnotbnh0RmlLX1VwRnpuZ2RBRjdGdjkwRTBWTUdCSEpjX19feUotVHRVWUlyNW13WDNkLWRTWmtCcHZzdEpIdmtkWGV1MDVlV1JNNnpYRXViUmJ5NjBxSzQ4ZzlQd09ZcjNuTGd4T2I5UWNmc2N3Vm9jR09VLWVXYldGMndKdFpPWDRySW4yY0JD",
+      "guidislink": false,
+      "published": "Mon, 13 Apr 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        4,
+        13,
+        7,
+        0,
+        0,
+        0,
+        104,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNaXpWUnotbnh0RmlLX1VwRnpuZ2RBRjdGdjkwRTBWTUdCSEpjX19feUotVHRVWUlyNW13WDNkLWRTWmtCcHZzdEpIdmtkWGV1MDVlV1JNNnpYRXViUmJ5NjBxSzQ4ZzlQd09ZcjNuTGd4T2I5UWNmc2N3Vm9jR09VLWVXYldGMndKdFpPWDRySW4yY0JD?oc=5\" target=\"_blank\">Researchers target cell’s own machinery in fight against COVID-19</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Florida International University</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNaXpWUnotbnh0RmlLX1VwRnpuZ2RBRjdGdjkwRTBWTUdCSEpjX19feUotVHRVWUlyNW13WDNkLWRTWmtCcHZzdEpIdmtkWGV1MDVlV1JNNnpYRXViUmJ5NjBxSzQ4ZzlQd09ZcjNuTGd4T2I5UWNmc2N3Vm9jR09VLWVXYldGMndKdFpPWDRySW4yY0JD?oc=5\" target=\"_blank\">Researchers target cell’s own machinery in fight against COVID-19</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Florida International University</font>"
+      },
+      "source": {
+        "href": "https://news.fiu.edu",
+        "title": "Florida International University"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Biotech startup with MIT Tata Center roots produces 15-minute tests for Covid-19 - MIT Energy Initiative",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Biotech startup with MIT Tata Center roots produces 15-minute tests for Covid-19 - MIT Energy Initiative"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdEhHa3hxbktOcDFpREw3aFZNM2d5cnBfaFM0RHFlWWFUQ2ZvLXRSTVhMd0xBek5sYlhVdWtJRzA0ZmdiOVJveVk5M0d6Ym45QzlwWUFnVm5HYkdhUkhZQnZRMG51dm5tMVBLTDlXd2Ezblh6VVcwRm51cWFGWHZKQ1JBQXREMFlvTWVIaVZESXBaTTZROTh0ejhMZlp4Zw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdEhHa3hxbktOcDFpREw3aFZNM2d5cnBfaFM0RHFlWWFUQ2ZvLXRSTVhMd0xBek5sYlhVdWtJRzA0ZmdiOVJveVk5M0d6Ym45QzlwWUFnVm5HYkdhUkhZQnZRMG51dm5tMVBLTDlXd2Ezblh6VVcwRm51cWFGWHZKQ1JBQXREMFlvTWVIaVZESXBaTTZROTh0ejhMZlp4Zw?oc=5",
+      "id": "CBMingFBVV95cUxQdEhHa3hxbktOcDFpREw3aFZNM2d5cnBfaFM0RHFlWWFUQ2ZvLXRSTVhMd0xBek5sYlhVdWtJRzA0ZmdiOVJveVk5M0d6Ym45QzlwWUFnVm5HYkdhUkhZQnZRMG51dm5tMVBLTDlXd2Ezblh6VVcwRm51cWFGWHZKQ1JBQXREMFlvTWVIaVZESXBaTTZROTh0ejhMZlp4Zw",
+      "guidislink": false,
+      "published": "Thu, 16 Apr 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        4,
+        16,
+        7,
+        0,
+        0,
+        3,
+        107,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQdEhHa3hxbktOcDFpREw3aFZNM2d5cnBfaFM0RHFlWWFUQ2ZvLXRSTVhMd0xBek5sYlhVdWtJRzA0ZmdiOVJveVk5M0d6Ym45QzlwWUFnVm5HYkdhUkhZQnZRMG51dm5tMVBLTDlXd2Ezblh6VVcwRm51cWFGWHZKQ1JBQXREMFlvTWVIaVZESXBaTTZROTh0ejhMZlp4Zw?oc=5\" target=\"_blank\">Biotech startup with MIT Tata Center roots produces 15-minute tests for Covid-19</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MIT Energy Initiative</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQdEhHa3hxbktOcDFpREw3aFZNM2d5cnBfaFM0RHFlWWFUQ2ZvLXRSTVhMd0xBek5sYlhVdWtJRzA0ZmdiOVJveVk5M0d6Ym45QzlwWUFnVm5HYkdhUkhZQnZRMG51dm5tMVBLTDlXd2Ezblh6VVcwRm51cWFGWHZKQ1JBQXREMFlvTWVIaVZESXBaTTZROTh0ejhMZlp4Zw?oc=5\" target=\"_blank\">Biotech startup with MIT Tata Center roots produces 15-minute tests for Covid-19</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MIT Energy Initiative</font>"
+      },
+      "source": {
+        "href": "https://energy.mit.edu",
+        "title": "MIT Energy Initiative"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "How Will Covid-19 Affect Future Travel Behavior? A Travel Crisis Expert Explains (Published 2020) - The New York Times",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "How Will Covid-19 Affect Future Travel Behavior? A Travel Crisis Expert Explains (Published 2020) - The New York Times"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5LdWJlR05OeFdYd2NDaWFicm9QWU9lSmgybXhlRWZCbnprVjNYTjZtUGRFTFRPYnF5dDVFc2JJZ001WDAwT3AydG11b3ZpNlR0X09Na0VJV243cUVQamhNMmJHZ216RmdsNmxPbGFMWUFDcklpYU5fLUFNNnFTdw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5LdWJlR05OeFdYd2NDaWFicm9QWU9lSmgybXhlRWZCbnprVjNYTjZtUGRFTFRPYnF5dDVFc2JJZ001WDAwT3AydG11b3ZpNlR0X09Na0VJV243cUVQamhNMmJHZ216RmdsNmxPbGFMWUFDcklpYU5fLUFNNnFTdw?oc=5",
+      "id": "CBMifkFVX3lxTE5LdWJlR05OeFdYd2NDaWFicm9QWU9lSmgybXhlRWZCbnprVjNYTjZtUGRFTFRPYnF5dDVFc2JJZ001WDAwT3AydG11b3ZpNlR0X09Na0VJV243cUVQamhNMmJHZ216RmdsNmxPbGFMWUFDcklpYU5fLUFNNnFTdw",
+      "guidislink": false,
+      "published": "Mon, 20 Apr 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        4,
+        20,
+        7,
+        0,
+        0,
+        0,
+        111,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE5LdWJlR05OeFdYd2NDaWFicm9QWU9lSmgybXhlRWZCbnprVjNYTjZtUGRFTFRPYnF5dDVFc2JJZ001WDAwT3AydG11b3ZpNlR0X09Na0VJV243cUVQamhNMmJHZ216RmdsNmxPbGFMWUFDcklpYU5fLUFNNnFTdw?oc=5\" target=\"_blank\">How Will Covid-19 Affect Future Travel Behavior? A Travel Crisis Expert Explains (Published 2020)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New York Times</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE5LdWJlR05OeFdYd2NDaWFicm9QWU9lSmgybXhlRWZCbnprVjNYTjZtUGRFTFRPYnF5dDVFc2JJZ001WDAwT3AydG11b3ZpNlR0X09Na0VJV243cUVQamhNMmJHZ216RmdsNmxPbGFMWUFDcklpYU5fLUFNNnFTdw?oc=5\" target=\"_blank\">How Will Covid-19 Affect Future Travel Behavior? A Travel Crisis Expert Explains (Published 2020)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New York Times</font>"
+      },
+      "source": {
+        "href": "https://www.nytimes.com",
+        "title": "The New York Times"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Black scientists hope to begin testing antiviral drug for coronavirus in two weeks - NBC News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Black scientists hope to begin testing antiviral drug for coronavirus in two weeks - NBC News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTFhsS2FGQ2N0U01IWTNPYkpfTkc0ejYxMWZqRElmajREMEdKUFlvMFI0SC1rdnV1YkoyYWd4b0VIX3lZa0xBVU8tRWxVUmwxUmhJNkMyZk5BaXBIVDV2RDRMdkhuQ2dDcjBRbTZVdzZZM0dOaWk4STRRSi15ejFqcy1mbUxRTk1SbXJrRk5CRmEwRldMc2d4NlhsZzh1bzEtVE1ZUFJVeTd6cV9nY2VFSHFqVFZZVnlf?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTFhsS2FGQ2N0U01IWTNPYkpfTkc0ejYxMWZqRElmajREMEdKUFlvMFI0SC1rdnV1YkoyYWd4b0VIX3lZa0xBVU8tRWxVUmwxUmhJNkMyZk5BaXBIVDV2RDRMdkhuQ2dDcjBRbTZVdzZZM0dOaWk4STRRSi15ejFqcy1mbUxRTk1SbXJrRk5CRmEwRldMc2d4NlhsZzh1bzEtVE1ZUFJVeTd6cV9nY2VFSHFqVFZZVnlf?oc=5",
+      "id": "CBMiuAFBVV95cUxPTFhsS2FGQ2N0U01IWTNPYkpfTkc0ejYxMWZqRElmajREMEdKUFlvMFI0SC1rdnV1YkoyYWd4b0VIX3lZa0xBVU8tRWxVUmwxUmhJNkMyZk5BaXBIVDV2RDRMdkhuQ2dDcjBRbTZVdzZZM0dOaWk4STRRSi15ejFqcy1mbUxRTk1SbXJrRk5CRmEwRldMc2d4NlhsZzh1bzEtVE1ZUFJVeTd6cV9nY2VFSHFqVFZZVnlf",
+      "guidislink": false,
+      "published": "Thu, 16 Apr 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        4,
+        16,
+        7,
+        0,
+        0,
+        3,
+        107,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTFhsS2FGQ2N0U01IWTNPYkpfTkc0ejYxMWZqRElmajREMEdKUFlvMFI0SC1rdnV1YkoyYWd4b0VIX3lZa0xBVU8tRWxVUmwxUmhJNkMyZk5BaXBIVDV2RDRMdkhuQ2dDcjBRbTZVdzZZM0dOaWk4STRRSi15ejFqcy1mbUxRTk1SbXJrRk5CRmEwRldMc2d4NlhsZzh1bzEtVE1ZUFJVeTd6cV9nY2VFSHFqVFZZVnlf?oc=5\" target=\"_blank\">Black scientists hope to begin testing antiviral drug for coronavirus in two weeks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NBC News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTFhsS2FGQ2N0U01IWTNPYkpfTkc0ejYxMWZqRElmajREMEdKUFlvMFI0SC1rdnV1YkoyYWd4b0VIX3lZa0xBVU8tRWxVUmwxUmhJNkMyZk5BaXBIVDV2RDRMdkhuQ2dDcjBRbTZVdzZZM0dOaWk4STRRSi15ejFqcy1mbUxRTk1SbXJrRk5CRmEwRldMc2d4NlhsZzh1bzEtVE1ZUFJVeTd6cV9nY2VFSHFqVFZZVnlf?oc=5\" target=\"_blank\">Black scientists hope to begin testing antiviral drug for coronavirus in two weeks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NBC News</font>"
+      },
+      "source": {
+        "href": "https://www.nbcnews.com",
+        "title": "NBC News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Aon Jumps Into the COVID-19 Fray with an Online Resource for Businesses - Risk & Insurance",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Aon Jumps Into the COVID-19 Fray with an Online Resource for Businesses - Risk & Insurance"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYWRiMWFGWVRPWmpSREFjUGY5NDhmZ0VCZDV2ZGx0dXdnZkRBWlVrTW1ST2hMMGtRTVBELTNsQy1YLUwxeHBUR1lEZWkxNTRFMUlKQUNaZnZ2LVZMZ0ZIaEpBSFFsN09pYjA4UmVHcHlkYjl6Y1RTNkZNNVo0aW9hd0NPeG5iUlNWVzhIOGZ1a2JyaElCUWdsU1hKS3VUdGRfQ1hZ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYWRiMWFGWVRPWmpSREFjUGY5NDhmZ0VCZDV2ZGx0dXdnZkRBWlVrTW1ST2hMMGtRTVBELTNsQy1YLUwxeHBUR1lEZWkxNTRFMUlKQUNaZnZ2LVZMZ0ZIaEpBSFFsN09pYjA4UmVHcHlkYjl6Y1RTNkZNNVo0aW9hd0NPeG5iUlNWVzhIOGZ1a2JyaElCUWdsU1hKS3VUdGRfQ1hZ?oc=5",
+      "id": "CBMiowFBVV95cUxNYWRiMWFGWVRPWmpSREFjUGY5NDhmZ0VCZDV2ZGx0dXdnZkRBWlVrTW1ST2hMMGtRTVBELTNsQy1YLUwxeHBUR1lEZWkxNTRFMUlKQUNaZnZ2LVZMZ0ZIaEpBSFFsN09pYjA4UmVHcHlkYjl6Y1RTNkZNNVo0aW9hd0NPeG5iUlNWVzhIOGZ1a2JyaElCUWdsU1hKS3VUdGRfQ1hZ",
+      "guidislink": false,
+      "published": "Fri, 17 Apr 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        4,
+        17,
+        7,
+        0,
+        0,
+        4,
+        108,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxNYWRiMWFGWVRPWmpSREFjUGY5NDhmZ0VCZDV2ZGx0dXdnZkRBWlVrTW1ST2hMMGtRTVBELTNsQy1YLUwxeHBUR1lEZWkxNTRFMUlKQUNaZnZ2LVZMZ0ZIaEpBSFFsN09pYjA4UmVHcHlkYjl6Y1RTNkZNNVo0aW9hd0NPeG5iUlNWVzhIOGZ1a2JyaElCUWdsU1hKS3VUdGRfQ1hZ?oc=5\" target=\"_blank\">Aon Jumps Into the COVID-19 Fray with an Online Resource for Businesses</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Risk & Insurance</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxNYWRiMWFGWVRPWmpSREFjUGY5NDhmZ0VCZDV2ZGx0dXdnZkRBWlVrTW1ST2hMMGtRTVBELTNsQy1YLUwxeHBUR1lEZWkxNTRFMUlKQUNaZnZ2LVZMZ0ZIaEpBSFFsN09pYjA4UmVHcHlkYjl6Y1RTNkZNNVo0aW9hd0NPeG5iUlNWVzhIOGZ1a2JyaElCUWdsU1hKS3VUdGRfQ1hZ?oc=5\" target=\"_blank\">Aon Jumps Into the COVID-19 Fray with an Online Resource for Businesses</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Risk & Insurance</font>"
+      },
+      "source": {
+        "href": "https://riskandinsurance.com",
+        "title": "Risk & Insurance"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "We probably won’t see the next COVID-19 coming - popsci.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "We probably won’t see the next COVID-19 coming - popsci.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPV2xYeGE5UGpVUUM5TkZORTUwcU50b1JBUFZ4U1ctNzR3LWU1R2UwNDZQZVZtNE9GZ2hwRFZSNFowYndRbGFkVUsyNzBySmxrbEtocUl2elItRUc5UXBmemFvMFQ0MlF5VVBHQzdwZE9IdThPM0Zzb19hYzd1T1liWW04TQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPV2xYeGE5UGpVUUM5TkZORTUwcU50b1JBUFZ4U1ctNzR3LWU1R2UwNDZQZVZtNE9GZ2hwRFZSNFowYndRbGFkVUsyNzBySmxrbEtocUl2elItRUc5UXBmemFvMFQ0MlF5VVBHQzdwZE9IdThPM0Zzb19hYzd1T1liWW04TQ?oc=5",
+      "id": "CBMigwFBVV95cUxPV2xYeGE5UGpVUUM5TkZORTUwcU50b1JBUFZ4U1ctNzR3LWU1R2UwNDZQZVZtNE9GZ2hwRFZSNFowYndRbGFkVUsyNzBySmxrbEtocUl2elItRUc5UXBmemFvMFQ0MlF5VVBHQzdwZE9IdThPM0Zzb19hYzd1T1liWW04TQ",
+      "guidislink": false,
+      "published": "Fri, 10 Apr 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        4,
+        10,
+        7,
+        0,
+        0,
+        4,
+        101,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxPV2xYeGE5UGpVUUM5TkZORTUwcU50b1JBUFZ4U1ctNzR3LWU1R2UwNDZQZVZtNE9GZ2hwRFZSNFowYndRbGFkVUsyNzBySmxrbEtocUl2elItRUc5UXBmemFvMFQ0MlF5VVBHQzdwZE9IdThPM0Zzb19hYzd1T1liWW04TQ?oc=5\" target=\"_blank\">We probably won’t see the next COVID-19 coming</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">popsci.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxPV2xYeGE5UGpVUUM5TkZORTUwcU50b1JBUFZ4U1ctNzR3LWU1R2UwNDZQZVZtNE9GZ2hwRFZSNFowYndRbGFkVUsyNzBySmxrbEtocUl2elItRUc5UXBmemFvMFQ0MlF5VVBHQzdwZE9IdThPM0Zzb19hYzd1T1liWW04TQ?oc=5\" target=\"_blank\">We probably won’t see the next COVID-19 coming</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">popsci.com</font>"
+      },
+      "source": {
+        "href": "https://www.popsci.com",
+        "title": "popsci.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "In defence of viruses - The Conversation",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "In defence of viruses - The Conversation"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE00NzBKWWFRaWxIdGxuR3hKUVlsUU8zNGtzVGdZX1p1MVQwbTZ3eDgyNUt2X04zOEFpYkU0Um5mREo1eUM4amJLNDBxNWFKTXMxZW5XSGt3XzMwRHRjRGxub1B6WmJsZEE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE00NzBKWWFRaWxIdGxuR3hKUVlsUU8zNGtzVGdZX1p1MVQwbTZ3eDgyNUt2X04zOEFpYkU0Um5mREo1eUM4amJLNDBxNWFKTXMxZW5XSGt3XzMwRHRjRGxub1B6WmJsZEE?oc=5",
+      "id": "CBMiZ0FVX3lxTE00NzBKWWFRaWxIdGxuR3hKUVlsUU8zNGtzVGdZX1p1MVQwbTZ3eDgyNUt2X04zOEFpYkU0Um5mREo1eUM4amJLNDBxNWFKTXMxZW5XSGt3XzMwRHRjRGxub1B6WmJsZEE",
+      "guidislink": false,
+      "published": "Wed, 22 Apr 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        4,
+        22,
+        7,
+        0,
+        0,
+        2,
+        113,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE00NzBKWWFRaWxIdGxuR3hKUVlsUU8zNGtzVGdZX1p1MVQwbTZ3eDgyNUt2X04zOEFpYkU0Um5mREo1eUM4amJLNDBxNWFKTXMxZW5XSGt3XzMwRHRjRGxub1B6WmJsZEE?oc=5\" target=\"_blank\">In defence of viruses</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Conversation</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE00NzBKWWFRaWxIdGxuR3hKUVlsUU8zNGtzVGdZX1p1MVQwbTZ3eDgyNUt2X04zOEFpYkU0Um5mREo1eUM4amJLNDBxNWFKTXMxZW5XSGt3XzMwRHRjRGxub1B6WmJsZEE?oc=5\" target=\"_blank\">In defence of viruses</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Conversation</font>"
+      },
+      "source": {
+        "href": "https://theconversation.com",
+        "title": "The Conversation"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Fauci Warned Trump Administration of Pandemic Danger As Early As 2017 - Business Insider",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Fauci Warned Trump Administration of Pandemic Danger As Early As 2017 - Business Insider"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdlhPN1dNSzU1UmsyVk9sUDZYMVlnX1BoTFF6TExVZXJEQ2Y0RW1fUThaR0tjMFVCRWdheDd6eWMzc2hOMmhzN3B4M3RMcHdIa19oZ0xzLXlzR0hOZlhoc3ZIWmtub3dKM3ZlY1NUUHN3NHF5Snhtc2lUZEYxcEY2VDRkZ2pSdUU4c1V3Q3pDRFN3UDlKaWpxQTJaZzhMdw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdlhPN1dNSzU1UmsyVk9sUDZYMVlnX1BoTFF6TExVZXJEQ2Y0RW1fUThaR0tjMFVCRWdheDd6eWMzc2hOMmhzN3B4M3RMcHdIa19oZ0xzLXlzR0hOZlhoc3ZIWmtub3dKM3ZlY1NUUHN3NHF5Snhtc2lUZEYxcEY2VDRkZ2pSdUU4c1V3Q3pDRFN3UDlKaWpxQTJaZzhMdw?oc=5",
+      "id": "CBMingFBVV95cUxQdlhPN1dNSzU1UmsyVk9sUDZYMVlnX1BoTFF6TExVZXJEQ2Y0RW1fUThaR0tjMFVCRWdheDd6eWMzc2hOMmhzN3B4M3RMcHdIa19oZ0xzLXlzR0hOZlhoc3ZIWmtub3dKM3ZlY1NUUHN3NHF5Snhtc2lUZEYxcEY2VDRkZ2pSdUU4c1V3Q3pDRFN3UDlKaWpxQTJaZzhMdw",
+      "guidislink": false,
+      "published": "Mon, 13 Apr 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        4,
+        13,
+        7,
+        0,
+        0,
+        0,
+        104,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQdlhPN1dNSzU1UmsyVk9sUDZYMVlnX1BoTFF6TExVZXJEQ2Y0RW1fUThaR0tjMFVCRWdheDd6eWMzc2hOMmhzN3B4M3RMcHdIa19oZ0xzLXlzR0hOZlhoc3ZIWmtub3dKM3ZlY1NUUHN3NHF5Snhtc2lUZEYxcEY2VDRkZ2pSdUU4c1V3Q3pDRFN3UDlKaWpxQTJaZzhMdw?oc=5\" target=\"_blank\">Fauci Warned Trump Administration of Pandemic Danger As Early As 2017</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Business Insider</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQdlhPN1dNSzU1UmsyVk9sUDZYMVlnX1BoTFF6TExVZXJEQ2Y0RW1fUThaR0tjMFVCRWdheDd6eWMzc2hOMmhzN3B4M3RMcHdIa19oZ0xzLXlzR0hOZlhoc3ZIWmtub3dKM3ZlY1NUUHN3NHF5Snhtc2lUZEYxcEY2VDRkZ2pSdUU4c1V3Q3pDRFN3UDlKaWpxQTJaZzhMdw?oc=5\" target=\"_blank\">Fauci Warned Trump Administration of Pandemic Danger As Early As 2017</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Business Insider</font>"
+      },
+      "source": {
+        "href": "https://www.businessinsider.com",
+        "title": "Business Insider"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Q&A with Mitchell Hammond: What history teaches us about pandemics - Times Colonist",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Q&A with Mitchell Hammond: What history teaches us about pandemics - Times Colonist"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTm5lZjJYZWJWSDQ4OGdORk1rNGp5djFEdE9kQXN6MzN0T3p5THlNQUZOZXVUeTZIQWc1NFJ2VE9ZT0haR2U0LV8zdGY4OGtXMFo1ZHZYVC1Fb2Z5dFZVREJvdUZhWjZBeUoyUnRVQjJWMi0xekJXdjExMS1rbDhaX3VqZWh1aDZ6NUU4YXBDRnhaOFM5Y25uRjR0WXJSTWlRcUQ3dEdNcGRKMWRCZzZj?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPTm5lZjJYZWJWSDQ4OGdORk1rNGp5djFEdE9kQXN6MzN0T3p5THlNQUZOZXVUeTZIQWc1NFJ2VE9ZT0haR2U0LV8zdGY4OGtXMFo1ZHZYVC1Fb2Z5dFZVREJvdUZhWjZBeUoyUnRVQjJWMi0xekJXdjExMS1rbDhaX3VqZWh1aDZ6NUU4YXBDRnhaOFM5Y25uRjR0WXJSTWlRcUQ3dEdNcGRKMWRCZzZj?oc=5",
+      "id": "CBMirwFBVV95cUxPTm5lZjJYZWJWSDQ4OGdORk1rNGp5djFEdE9kQXN6MzN0T3p5THlNQUZOZXVUeTZIQWc1NFJ2VE9ZT0haR2U0LV8zdGY4OGtXMFo1ZHZYVC1Fb2Z5dFZVREJvdUZhWjZBeUoyUnRVQjJWMi0xekJXdjExMS1rbDhaX3VqZWh1aDZ6NUU4YXBDRnhaOFM5Y25uRjR0WXJSTWlRcUQ3dEdNcGRKMWRCZzZj",
+      "guidislink": false,
+      "published": "Fri, 17 Apr 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        4,
+        17,
+        7,
+        0,
+        0,
+        4,
+        108,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxPTm5lZjJYZWJWSDQ4OGdORk1rNGp5djFEdE9kQXN6MzN0T3p5THlNQUZOZXVUeTZIQWc1NFJ2VE9ZT0haR2U0LV8zdGY4OGtXMFo1ZHZYVC1Fb2Z5dFZVREJvdUZhWjZBeUoyUnRVQjJWMi0xekJXdjExMS1rbDhaX3VqZWh1aDZ6NUU4YXBDRnhaOFM5Y25uRjR0WXJSTWlRcUQ3dEdNcGRKMWRCZzZj?oc=5\" target=\"_blank\">Q&amp;A with Mitchell Hammond: What history teaches us about pandemics</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Times Colonist</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxPTm5lZjJYZWJWSDQ4OGdORk1rNGp5djFEdE9kQXN6MzN0T3p5THlNQUZOZXVUeTZIQWc1NFJ2VE9ZT0haR2U0LV8zdGY4OGtXMFo1ZHZYVC1Fb2Z5dFZVREJvdUZhWjZBeUoyUnRVQjJWMi0xekJXdjExMS1rbDhaX3VqZWh1aDZ6NUU4YXBDRnhaOFM5Y25uRjR0WXJSTWlRcUQ3dEdNcGRKMWRCZzZj?oc=5\" target=\"_blank\">Q&amp;A with Mitchell Hammond: What history teaches us about pandemics</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Times Colonist</font>"
+      },
+      "source": {
+        "href": "https://www.timescolonist.com",
+        "title": "Times Colonist"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Some COVID-19 patients stricken by Guillain-Barre syndrome - Medical Xpress",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Some COVID-19 patients stricken by Guillain-Barre syndrome - Medical Xpress"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRGF3N3NRLTBPajRpM2xyUzJVSGZDR0JCZlBBUF9MdTM4V1lNNTJzZTV6NDBHUU1Ja0R0VkxTXzdPWFpjOG91elAzcXV1MDdvMjJHdDBMZFhVVjUzNDRfMHlOYkRtVFE1RzFHbDQwaEtQc1JLazk4aHJJUk9oWG5YenE0dUxoUXRoMkpMeFhOdVpQQVZweFE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRGF3N3NRLTBPajRpM2xyUzJVSGZDR0JCZlBBUF9MdTM4V1lNNTJzZTV6NDBHUU1Ja0R0VkxTXzdPWFpjOG91elAzcXV1MDdvMjJHdDBMZFhVVjUzNDRfMHlOYkRtVFE1RzFHbDQwaEtQc1JLazk4aHJJUk9oWG5YenE0dUxoUXRoMkpMeFhOdVpQQVZweFE?oc=5",
+      "id": "CBMilgFBVV95cUxNRGF3N3NRLTBPajRpM2xyUzJVSGZDR0JCZlBBUF9MdTM4V1lNNTJzZTV6NDBHUU1Ja0R0VkxTXzdPWFpjOG91elAzcXV1MDdvMjJHdDBMZFhVVjUzNDRfMHlOYkRtVFE1RzFHbDQwaEtQc1JLazk4aHJJUk9oWG5YenE0dUxoUXRoMkpMeFhOdVpQQVZweFE",
+      "guidislink": false,
+      "published": "Tue, 21 Apr 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        4,
+        21,
+        7,
+        0,
+        0,
+        1,
+        112,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxNRGF3N3NRLTBPajRpM2xyUzJVSGZDR0JCZlBBUF9MdTM4V1lNNTJzZTV6NDBHUU1Ja0R0VkxTXzdPWFpjOG91elAzcXV1MDdvMjJHdDBMZFhVVjUzNDRfMHlOYkRtVFE1RzFHbDQwaEtQc1JLazk4aHJJUk9oWG5YenE0dUxoUXRoMkpMeFhOdVpQQVZweFE?oc=5\" target=\"_blank\">Some COVID-19 patients stricken by Guillain-Barre syndrome</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Medical Xpress</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxNRGF3N3NRLTBPajRpM2xyUzJVSGZDR0JCZlBBUF9MdTM4V1lNNTJzZTV6NDBHUU1Ja0R0VkxTXzdPWFpjOG91elAzcXV1MDdvMjJHdDBMZFhVVjUzNDRfMHlOYkRtVFE1RzFHbDQwaEtQc1JLazk4aHJJUk9oWG5YenE0dUxoUXRoMkpMeFhOdVpQQVZweFE?oc=5\" target=\"_blank\">Some COVID-19 patients stricken by Guillain-Barre syndrome</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Medical Xpress</font>"
+      },
+      "source": {
+        "href": "https://medicalxpress.com",
+        "title": "Medical Xpress"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Barack Obama was my boss - here's what he taught me about crisis management - Management Today",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Barack Obama was my boss - here's what he taught me about crisis management - Management Today"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcnN1YWhZNF9tc0RPYzloNjlhLWdkTllNX0ZDWWtWZ3JZWTNzNVNUSjFrNmYxdG9IM2ZLNjFIYjFZaFlKY21vMkxBOWxiYlgxNWhpcnVuMU9OZTY4dFFYQUZfekxzajFpZEkyRFZZLVMzUmMzNHJ6Wll6T0lGZWZKQ1R4a050TzZycWNnc3hTOVZNNGRZQUdnOUJsa3R0VGJGWXM0YWJ5bUxZMHYxTGhhb1N2czBSUTJV?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcnN1YWhZNF9tc0RPYzloNjlhLWdkTllNX0ZDWWtWZ3JZWTNzNVNUSjFrNmYxdG9IM2ZLNjFIYjFZaFlKY21vMkxBOWxiYlgxNWhpcnVuMU9OZTY4dFFYQUZfekxzajFpZEkyRFZZLVMzUmMzNHJ6Wll6T0lGZWZKQ1R4a050TzZycWNnc3hTOVZNNGRZQUdnOUJsa3R0VGJGWXM0YWJ5bUxZMHYxTGhhb1N2czBSUTJV?oc=5",
+      "id": "CBMiuAFBVV95cUxOcnN1YWhZNF9tc0RPYzloNjlhLWdkTllNX0ZDWWtWZ3JZWTNzNVNUSjFrNmYxdG9IM2ZLNjFIYjFZaFlKY21vMkxBOWxiYlgxNWhpcnVuMU9OZTY4dFFYQUZfekxzajFpZEkyRFZZLVMzUmMzNHJ6Wll6T0lGZWZKQ1R4a050TzZycWNnc3hTOVZNNGRZQUdnOUJsa3R0VGJGWXM0YWJ5bUxZMHYxTGhhb1N2czBSUTJV",
+      "guidislink": false,
+      "published": "Tue, 21 Apr 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        4,
+        21,
+        7,
+        0,
+        0,
+        1,
+        112,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcnN1YWhZNF9tc0RPYzloNjlhLWdkTllNX0ZDWWtWZ3JZWTNzNVNUSjFrNmYxdG9IM2ZLNjFIYjFZaFlKY21vMkxBOWxiYlgxNWhpcnVuMU9OZTY4dFFYQUZfekxzajFpZEkyRFZZLVMzUmMzNHJ6Wll6T0lGZWZKQ1R4a050TzZycWNnc3hTOVZNNGRZQUdnOUJsa3R0VGJGWXM0YWJ5bUxZMHYxTGhhb1N2czBSUTJV?oc=5\" target=\"_blank\">Barack Obama was my boss - here's what he taught me about crisis management</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Management Today</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcnN1YWhZNF9tc0RPYzloNjlhLWdkTllNX0ZDWWtWZ3JZWTNzNVNUSjFrNmYxdG9IM2ZLNjFIYjFZaFlKY21vMkxBOWxiYlgxNWhpcnVuMU9OZTY4dFFYQUZfekxzajFpZEkyRFZZLVMzUmMzNHJ6Wll6T0lGZWZKQ1R4a050TzZycWNnc3hTOVZNNGRZQUdnOUJsa3R0VGJGWXM0YWJ5bUxZMHYxTGhhb1N2czBSUTJV?oc=5\" target=\"_blank\">Barack Obama was my boss - here's what he taught me about crisis management</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Management Today</font>"
+      },
+      "source": {
+        "href": "https://www.managementtoday.co.uk",
+        "title": "Management Today"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Ljubomir Vranjes about experience in Veszprem: It was something out of handball what wasn't OK - Handball Planet",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Ljubomir Vranjes about experience in Veszprem: It was something out of handball what wasn't OK - Handball Planet"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZ09TYjdxZkpjRXlRV2trejM4ZDFlSlA1cE9TQkwtaVoxX1hIQ3ZSbVMtdE5yY2lqbVZwMWd3d1FFa21wNnN2WWxLUmN4Qkc4YXBOb1Jxa1c0aDRxcU5CZkpVb3VQS3Q4dlVxcXhfZnNZYW53ZFZ0WlFZaERWZENZdUw2dUxiMThWVzVreDh3M3haRXhPQm42RV95Z2p1a0pNaU1BcnAybVRRRmNHa01NOUk0T0JnTEZpZ2llc3R2TndTVTQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZ09TYjdxZkpjRXlRV2trejM4ZDFlSlA1cE9TQkwtaVoxX1hIQ3ZSbVMtdE5yY2lqbVZwMWd3d1FFa21wNnN2WWxLUmN4Qkc4YXBOb1Jxa1c0aDRxcU5CZkpVb3VQS3Q4dlVxcXhfZnNZYW53ZFZ0WlFZaERWZENZdUw2dUxiMThWVzVreDh3M3haRXhPQm42RV95Z2p1a0pNaU1BcnAybVRRRmNHa01NOUk0T0JnTEZpZ2llc3R2TndTVTQ?oc=5",
+      "id": "CBMiwwFBVV95cUxQZ09TYjdxZkpjRXlRV2trejM4ZDFlSlA1cE9TQkwtaVoxX1hIQ3ZSbVMtdE5yY2lqbVZwMWd3d1FFa21wNnN2WWxLUmN4Qkc4YXBOb1Jxa1c0aDRxcU5CZkpVb3VQS3Q4dlVxcXhfZnNZYW53ZFZ0WlFZaERWZENZdUw2dUxiMThWVzVreDh3M3haRXhPQm42RV95Z2p1a0pNaU1BcnAybVRRRmNHa01NOUk0T0JnTEZpZ2llc3R2TndTVTQ",
+      "guidislink": false,
+      "published": "Tue, 21 Apr 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        4,
+        21,
+        7,
+        0,
+        0,
+        1,
+        112,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZ09TYjdxZkpjRXlRV2trejM4ZDFlSlA1cE9TQkwtaVoxX1hIQ3ZSbVMtdE5yY2lqbVZwMWd3d1FFa21wNnN2WWxLUmN4Qkc4YXBOb1Jxa1c0aDRxcU5CZkpVb3VQS3Q4dlVxcXhfZnNZYW53ZFZ0WlFZaERWZENZdUw2dUxiMThWVzVreDh3M3haRXhPQm42RV95Z2p1a0pNaU1BcnAybVRRRmNHa01NOUk0T0JnTEZpZ2llc3R2TndTVTQ?oc=5\" target=\"_blank\">Ljubomir Vranjes about experience in Veszprem: It was something out of handball what wasn't OK</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Handball Planet</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZ09TYjdxZkpjRXlRV2trejM4ZDFlSlA1cE9TQkwtaVoxX1hIQ3ZSbVMtdE5yY2lqbVZwMWd3d1FFa21wNnN2WWxLUmN4Qkc4YXBOb1Jxa1c0aDRxcU5CZkpVb3VQS3Q4dlVxcXhfZnNZYW53ZFZ0WlFZaERWZENZdUw2dUxiMThWVzVreDh3M3haRXhPQm42RV95Z2p1a0pNaU1BcnAybVRRRmNHa01NOUk0T0JnTEZpZ2llc3R2TndTVTQ?oc=5\" target=\"_blank\">Ljubomir Vranjes about experience in Veszprem: It was something out of handball what wasn't OK</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Handball Planet</font>"
+      },
+      "source": {
+        "href": "https://www.handball-planet.com",
+        "title": "Handball Planet"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Santikos offering to-go movie theater popcorn for at-home binging - MySA",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Santikos offering to-go movie theater popcorn for at-home binging - MySA"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdU5wU1JxM2Fnb0ZKRk1VcmJwMzNjaXp2NW50T1ZqQXdrWnhJYk96YVgtU1ltbkF0a3diaWpzb25lUGxYT1R2OU1LR2VXYU8zRklhSkJDWnYxelZkcC1CVXZWT3lUUllsMUR5cmRTaTJNejJ5NzFTU0k1TG8wdWh3TFRWVV9fbXFuS2dZMFVBVlhvcmtHUGszNjM2c1M5RUpMQXE3akx6blJoMWpKSzZZ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdU5wU1JxM2Fnb0ZKRk1VcmJwMzNjaXp2NW50T1ZqQXdrWnhJYk96YVgtU1ltbkF0a3diaWpzb25lUGxYT1R2OU1LR2VXYU8zRklhSkJDWnYxelZkcC1CVXZWT3lUUllsMUR5cmRTaTJNejJ5NzFTU0k1TG8wdWh3TFRWVV9fbXFuS2dZMFVBVlhvcmtHUGszNjM2c1M5RUpMQXE3akx6blJoMWpKSzZZ?oc=5",
+      "id": "CBMirwFBVV95cUxPdU5wU1JxM2Fnb0ZKRk1VcmJwMzNjaXp2NW50T1ZqQXdrWnhJYk96YVgtU1ltbkF0a3diaWpzb25lUGxYT1R2OU1LR2VXYU8zRklhSkJDWnYxelZkcC1CVXZWT3lUUllsMUR5cmRTaTJNejJ5NzFTU0k1TG8wdWh3TFRWVV9fbXFuS2dZMFVBVlhvcmtHUGszNjM2c1M5RUpMQXE3akx6blJoMWpKSzZZ",
+      "guidislink": false,
+      "published": "Thu, 23 Apr 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        4,
+        23,
+        7,
+        0,
+        0,
+        3,
+        114,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxPdU5wU1JxM2Fnb0ZKRk1VcmJwMzNjaXp2NW50T1ZqQXdrWnhJYk96YVgtU1ltbkF0a3diaWpzb25lUGxYT1R2OU1LR2VXYU8zRklhSkJDWnYxelZkcC1CVXZWT3lUUllsMUR5cmRTaTJNejJ5NzFTU0k1TG8wdWh3TFRWVV9fbXFuS2dZMFVBVlhvcmtHUGszNjM2c1M5RUpMQXE3akx6blJoMWpKSzZZ?oc=5\" target=\"_blank\">Santikos offering to-go movie theater popcorn for at-home binging</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MySA</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxPdU5wU1JxM2Fnb0ZKRk1VcmJwMzNjaXp2NW50T1ZqQXdrWnhJYk96YVgtU1ltbkF0a3diaWpzb25lUGxYT1R2OU1LR2VXYU8zRklhSkJDWnYxelZkcC1CVXZWT3lUUllsMUR5cmRTaTJNejJ5NzFTU0k1TG8wdWh3TFRWVV9fbXFuS2dZMFVBVlhvcmtHUGszNjM2c1M5RUpMQXE3akx6blJoMWpKSzZZ?oc=5\" target=\"_blank\">Santikos offering to-go movie theater popcorn for at-home binging</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MySA</font>"
+      },
+      "source": {
+        "href": "https://www.mysanantonio.com",
+        "title": "MySA"
+      },
+      "sub_articles": []
+    }
+  ]
+}

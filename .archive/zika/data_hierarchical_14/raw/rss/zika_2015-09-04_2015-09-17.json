@@ -1,0 +1,263 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2015-09-04",
+  "window_end": "2015-09-17",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2015-09-04+before%3A2015-09-18&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2015-09-04+before:2015-09-18&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:20:08Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2015-09-04 before:2015-09-18\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2015-09-04 before:2015-09-18\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2015-09-04+before:2015-09-18&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2015-09-04+before:2015-09-18&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:20:08 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      20,
+      8,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Barcelona favourites to retain Champions League while Manchester United are given 5.1 per cent chance of lifting the trophy - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Barcelona favourites to retain Champions League while Manchester United are given 5.1 per cent chance of lifting the trophy - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxOdWw5bUxqY09ncG5PVEhHZEt3NGExamN6U1p4Vm5TWXdrdmpCTlNueWowYnpLUzdrYzBKY1Z0SE1hR1RrdHJBRTVPeDU1UFBKZEZMTXFiQUhlYWstWW9qZmZvTFg1MFl0YzJrMkl6aVdKcldkbks4bVZOS3Q0Rm1LMkdSMW1ENEtLNHo2eEZLR3F6MWZSa0tYMFhhVXJHS0dMVVhHM3E1cWR0X0Uydzg4UWxDY05uQnRUTExERVhOUmY5RFBHMG1haEdJSU5yaHpYelZkUUUyTjB5Ti1ycnZZNmd6cWRiZzRhQ000YkNzVnBTSXExbXF5OE5neER6MjRQaDVqMGVCOEw5dVI3Qm9jQXlFSzF3WnROV1BDZkpZcEozVWp3ZE9TQWNB0gGqAkFVX3lxTE51bDltTGpjT2dwbk9USEdkS3c0YTFqY3pTWnhWblNZd2t2akJOU255ajBiektTN2tjMEpjVnRITWFHVGt0ckFFNU94NTVQUEpkRkxNcWJBSGVhay1Zb2pmZm9MWDUwWXRjMmsySXppV0pyV2RuSzhtVk5LdDRGbUsyR1IxbUQ0S0s0ejZ4RktHcXoxZlJrS1gwWGFVckdLR0xVWEczcTVxZHRfRTJ3ODhRbENjTm5CdFRMTERFWE5SZjlEUEcwbWFoR0lJTnJoelh6VmRRRTJOMHlOLXJydlk2Z3pxZGJnNGFDTTRiQ3NWcFNJcTFtcXk4Tmd4RHoyNFBoNWowZUI4TDl1UjdCb2NBeUVLMXdadE5XUENmSllwSjNVandkT1NBY0E?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxOdWw5bUxqY09ncG5PVEhHZEt3NGExamN6U1p4Vm5TWXdrdmpCTlNueWowYnpLUzdrYzBKY1Z0SE1hR1RrdHJBRTVPeDU1UFBKZEZMTXFiQUhlYWstWW9qZmZvTFg1MFl0YzJrMkl6aVdKcldkbks4bVZOS3Q0Rm1LMkdSMW1ENEtLNHo2eEZLR3F6MWZSa0tYMFhhVXJHS0dMVVhHM3E1cWR0X0Uydzg4UWxDY05uQnRUTExERVhOUmY5RFBHMG1haEdJSU5yaHpYelZkUUUyTjB5Ti1ycnZZNmd6cWRiZzRhQ000YkNzVnBTSXExbXF5OE5neER6MjRQaDVqMGVCOEw5dVI3Qm9jQXlFSzF3WnROV1BDZkpZcEozVWp3ZE9TQWNB0gGqAkFVX3lxTE51bDltTGpjT2dwbk9USEdkS3c0YTFqY3pTWnhWblNZd2t2akJOU255ajBiektTN2tjMEpjVnRITWFHVGt0ckFFNU94NTVQUEpkRkxNcWJBSGVhay1Zb2pmZm9MWDUwWXRjMmsySXppV0pyV2RuSzhtVk5LdDRGbUsyR1IxbUQ0S0s0ejZ4RktHcXoxZlJrS1gwWGFVckdLR0xVWEczcTVxZHRfRTJ3ODhRbENjTm5CdFRMTERFWE5SZjlEUEcwbWFoR0lJTnJoelh6VmRRRTJOMHlOLXJydlk2Z3pxZGJnNGFDTTRiQ3NWcFNJcTFtcXk4Tmd4RHoyNFBoNWowZUI4TDl1UjdCb2NBeUVLMXdadE5XUENmSllwSjNVandkT1NBY0E?oc=5",
+      "id": "CBMiqgJBVV95cUxOdWw5bUxqY09ncG5PVEhHZEt3NGExamN6U1p4Vm5TWXdrdmpCTlNueWowYnpLUzdrYzBKY1Z0SE1hR1RrdHJBRTVPeDU1UFBKZEZMTXFiQUhlYWstWW9qZmZvTFg1MFl0YzJrMkl6aVdKcldkbks4bVZOS3Q0Rm1LMkdSMW1ENEtLNHo2eEZLR3F6MWZSa0tYMFhhVXJHS0dMVVhHM3E1cWR0X0Uydzg4UWxDY05uQnRUTExERVhOUmY5RFBHMG1haEdJSU5yaHpYelZkUUUyTjB5Ti1ycnZZNmd6cWRiZzRhQ000YkNzVnBTSXExbXF5OE5neER6MjRQaDVqMGVCOEw5dVI3Qm9jQXlFSzF3WnROV1BDZkpZcEozVWp3ZE9TQWNB0gGqAkFVX3lxTE51bDltTGpjT2dwbk9USEdkS3c0YTFqY3pTWnhWblNZd2t2akJOU255ajBiektTN2tjMEpjVnRITWFHVGt0ckFFNU94NTVQUEpkRkxNcWJBSGVhay1Zb2pmZm9MWDUwWXRjMmsySXppV0pyV2RuSzhtVk5LdDRGbUsyR1IxbUQ0S0s0ejZ4RktHcXoxZlJrS1gwWGFVckdLR0xVWEczcTVxZHRfRTJ3ODhRbENjTm5CdFRMTERFWE5SZjlEUEcwbWFoR0lJTnJoelh6VmRRRTJOMHlOLXJydlk2Z3pxZGJnNGFDTTRiQ3NWcFNJcTFtcXk4Tmd4RHoyNFBoNWowZUI4TDl1UjdCb2NBeUVLMXdadE5XUENmSllwSjNVandkT1NBY0E",
+      "guidislink": false,
+      "published": "Mon, 14 Sep 2015 07:00:00 GMT",
+      "published_parsed": [
+        2015,
+        9,
+        14,
+        7,
+        0,
+        0,
+        0,
+        257,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgJBVV95cUxOdWw5bUxqY09ncG5PVEhHZEt3NGExamN6U1p4Vm5TWXdrdmpCTlNueWowYnpLUzdrYzBKY1Z0SE1hR1RrdHJBRTVPeDU1UFBKZEZMTXFiQUhlYWstWW9qZmZvTFg1MFl0YzJrMkl6aVdKcldkbks4bVZOS3Q0Rm1LMkdSMW1ENEtLNHo2eEZLR3F6MWZSa0tYMFhhVXJHS0dMVVhHM3E1cWR0X0Uydzg4UWxDY05uQnRUTExERVhOUmY5RFBHMG1haEdJSU5yaHpYelZkUUUyTjB5Ti1ycnZZNmd6cWRiZzRhQ000YkNzVnBTSXExbXF5OE5neER6MjRQaDVqMGVCOEw5dVI3Qm9jQXlFSzF3WnROV1BDZkpZcEozVWp3ZE9TQWNB0gGqAkFVX3lxTE51bDltTGpjT2dwbk9USEdkS3c0YTFqY3pTWnhWblNZd2t2akJOU255ajBiektTN2tjMEpjVnRITWFHVGt0ckFFNU94NTVQUEpkRkxNcWJBSGVhay1Zb2pmZm9MWDUwWXRjMmsySXppV0pyV2RuSzhtVk5LdDRGbUsyR1IxbUQ0S0s0ejZ4RktHcXoxZlJrS1gwWGFVckdLR0xVWEczcTVxZHRfRTJ3ODhRbENjTm5CdFRMTERFWE5SZjlEUEcwbWFoR0lJTnJoelh6VmRRRTJOMHlOLXJydlk2Z3pxZGJnNGFDTTRiQ3NWcFNJcTFtcXk4Tmd4RHoyNFBoNWowZUI4TDl1UjdCb2NBeUVLMXdadE5XUENmSllwSjNVandkT1NBY0E?oc=5\" target=\"_blank\">Barcelona favourites to retain Champions League while Manchester United are given 5.1 per cent chance of lifting the trophy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiqgJBVV95cUxOdWw5bUxqY09ncG5PVEhHZEt3NGExamN6U1p4Vm5TWXdrdmpCTlNueWowYnpLUzdrYzBKY1Z0SE1hR1RrdHJBRTVPeDU1UFBKZEZMTXFiQUhlYWstWW9qZmZvTFg1MFl0YzJrMkl6aVdKcldkbks4bVZOS3Q0Rm1LMkdSMW1ENEtLNHo2eEZLR3F6MWZSa0tYMFhhVXJHS0dMVVhHM3E1cWR0X0Uydzg4UWxDY05uQnRUTExERVhOUmY5RFBHMG1haEdJSU5yaHpYelZkUUUyTjB5Ti1ycnZZNmd6cWRiZzRhQ000YkNzVnBTSXExbXF5OE5neER6MjRQaDVqMGVCOEw5dVI3Qm9jQXlFSzF3WnROV1BDZkpZcEozVWp3ZE9TQWNB0gGqAkFVX3lxTE51bDltTGpjT2dwbk9USEdkS3c0YTFqY3pTWnhWblNZd2t2akJOU255ajBiektTN2tjMEpjVnRITWFHVGt0ckFFNU94NTVQUEpkRkxNcWJBSGVhay1Zb2pmZm9MWDUwWXRjMmsySXppV0pyV2RuSzhtVk5LdDRGbUsyR1IxbUQ0S0s0ejZ4RktHcXoxZlJrS1gwWGFVckdLR0xVWEczcTVxZHRfRTJ3ODhRbENjTm5CdFRMTERFWE5SZjlEUEcwbWFoR0lJTnJoelh6VmRRRTJOMHlOLXJydlk2Z3pxZGJnNGFDTTRiQ3NWcFNJcTFtcXk4Tmd4RHoyNFBoNWowZUI4TDl1UjdCb2NBeUVLMXdadE5XUENmSllwSjNVandkT1NBY0E?oc=5\" target=\"_blank\">Barcelona favourites to retain Champions League while Manchester United are given 5.1 per cent chance of lifting the trophy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Arsenal fans can't expect a striker to fall from heaven, blasts Arsene Wenger - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Arsenal fans can't expect a striker to fall from heaven, blasts Arsene Wenger - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQY0ZJMGdSMnd1S3lXVmZxS1dWeTU3LVhYakFCOEdhWGYwRi11T3pqS2pLZUhVTTdleHJKbEpiRkI0V1FTQUJfR2pWUmpGOC1hajk1ZzdfN3Q2X1lsYzQxNWJSOGRTMzlmeUZfVi1nSi1SbDNzQWplb1NwRXR1SjR5V3VWWHFRZUlIc3Q1dDVMdW5uZEtjdDdhdFRsd1hDaTZRY1oxTGdFUEJPdTltVUd1R1FudG9rMmJrQURiZVJkZEthdVZEVk5UUGZ5THA3MXk0ME13OFlMTi1jVy1PdVYtd3FaSDBoTEJyZkdCUnU5V2VjU1picWItWHN4XzMzMGFZQXfSAYICQVVfeXFMUGNGSTBnUjJ3dUt5V1ZmcUtXVnk1Ny1YWGpBQjhHYVhmMEYtdU96aktqS2VIVU03ZXhySmxKYkZCNFdRU0FCX0dqVlJqRjgtYWo5NWc3Xzd0Nl9ZbGM0MTViUjhkUzM5ZnlGX1YtZ0otUmwzc0FqZW9TcEV0dUo0eVd1VlhxUWVJSHN0NXQ1THVubmRLY3Q3YXRUbHdYQ2k2UWNaMUxnRVBCT3U5bVVHdUdRbnRvazJia0FEYmVSZGRLYXVWRFZOVFBmeUxwNzF5NDBNdzhZTE4tY1ctT3VWLXdxWkgwaExCcmZHQlJ1OVdlY1NaYnFiLVhzeF8zMzBhWUF3?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQY0ZJMGdSMnd1S3lXVmZxS1dWeTU3LVhYakFCOEdhWGYwRi11T3pqS2pLZUhVTTdleHJKbEpiRkI0V1FTQUJfR2pWUmpGOC1hajk1ZzdfN3Q2X1lsYzQxNWJSOGRTMzlmeUZfVi1nSi1SbDNzQWplb1NwRXR1SjR5V3VWWHFRZUlIc3Q1dDVMdW5uZEtjdDdhdFRsd1hDaTZRY1oxTGdFUEJPdTltVUd1R1FudG9rMmJrQURiZVJkZEthdVZEVk5UUGZ5THA3MXk0ME13OFlMTi1jVy1PdVYtd3FaSDBoTEJyZkdCUnU5V2VjU1picWItWHN4XzMzMGFZQXfSAYICQVVfeXFMUGNGSTBnUjJ3dUt5V1ZmcUtXVnk1Ny1YWGpBQjhHYVhmMEYtdU96aktqS2VIVU03ZXhySmxKYkZCNFdRU0FCX0dqVlJqRjgtYWo5NWc3Xzd0Nl9ZbGM0MTViUjhkUzM5ZnlGX1YtZ0otUmwzc0FqZW9TcEV0dUo0eVd1VlhxUWVJSHN0NXQ1THVubmRLY3Q3YXRUbHdYQ2k2UWNaMUxnRVBCT3U5bVVHdUdRbnRvazJia0FEYmVSZGRLYXVWRFZOVFBmeUxwNzF5NDBNdzhZTE4tY1ctT3VWLXdxWkgwaExCcmZHQlJ1OVdlY1NaYnFiLVhzeF8zMzBhWUF3?oc=5",
+      "id": "CBMiggJBVV95cUxQY0ZJMGdSMnd1S3lXVmZxS1dWeTU3LVhYakFCOEdhWGYwRi11T3pqS2pLZUhVTTdleHJKbEpiRkI0V1FTQUJfR2pWUmpGOC1hajk1ZzdfN3Q2X1lsYzQxNWJSOGRTMzlmeUZfVi1nSi1SbDNzQWplb1NwRXR1SjR5V3VWWHFRZUlIc3Q1dDVMdW5uZEtjdDdhdFRsd1hDaTZRY1oxTGdFUEJPdTltVUd1R1FudG9rMmJrQURiZVJkZEthdVZEVk5UUGZ5THA3MXk0ME13OFlMTi1jVy1PdVYtd3FaSDBoTEJyZkdCUnU5V2VjU1picWItWHN4XzMzMGFZQXfSAYICQVVfeXFMUGNGSTBnUjJ3dUt5V1ZmcUtXVnk1Ny1YWGpBQjhHYVhmMEYtdU96aktqS2VIVU03ZXhySmxKYkZCNFdRU0FCX0dqVlJqRjgtYWo5NWc3Xzd0Nl9ZbGM0MTViUjhkUzM5ZnlGX1YtZ0otUmwzc0FqZW9TcEV0dUo0eVd1VlhxUWVJSHN0NXQ1THVubmRLY3Q3YXRUbHdYQ2k2UWNaMUxnRVBCT3U5bVVHdUdRbnRvazJia0FEYmVSZGRLYXVWRFZOVFBmeUxwNzF5NDBNdzhZTE4tY1ctT3VWLXdxWkgwaExCcmZHQlJ1OVdlY1NaYnFiLVhzeF8zMzBhWUF3",
+      "guidislink": false,
+      "published": "Thu, 10 Sep 2015 07:00:00 GMT",
+      "published_parsed": [
+        2015,
+        9,
+        10,
+        7,
+        0,
+        0,
+        3,
+        253,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggJBVV95cUxQY0ZJMGdSMnd1S3lXVmZxS1dWeTU3LVhYakFCOEdhWGYwRi11T3pqS2pLZUhVTTdleHJKbEpiRkI0V1FTQUJfR2pWUmpGOC1hajk1ZzdfN3Q2X1lsYzQxNWJSOGRTMzlmeUZfVi1nSi1SbDNzQWplb1NwRXR1SjR5V3VWWHFRZUlIc3Q1dDVMdW5uZEtjdDdhdFRsd1hDaTZRY1oxTGdFUEJPdTltVUd1R1FudG9rMmJrQURiZVJkZEthdVZEVk5UUGZ5THA3MXk0ME13OFlMTi1jVy1PdVYtd3FaSDBoTEJyZkdCUnU5V2VjU1picWItWHN4XzMzMGFZQXfSAYICQVVfeXFMUGNGSTBnUjJ3dUt5V1ZmcUtXVnk1Ny1YWGpBQjhHYVhmMEYtdU96aktqS2VIVU03ZXhySmxKYkZCNFdRU0FCX0dqVlJqRjgtYWo5NWc3Xzd0Nl9ZbGM0MTViUjhkUzM5ZnlGX1YtZ0otUmwzc0FqZW9TcEV0dUo0eVd1VlhxUWVJSHN0NXQ1THVubmRLY3Q3YXRUbHdYQ2k2UWNaMUxnRVBCT3U5bVVHdUdRbnRvazJia0FEYmVSZGRLYXVWRFZOVFBmeUxwNzF5NDBNdzhZTE4tY1ctT3VWLXdxWkgwaExCcmZHQlJ1OVdlY1NaYnFiLVhzeF8zMzBhWUF3?oc=5\" target=\"_blank\">Arsenal fans can't expect a striker to fall from heaven, blasts Arsene Wenger</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiggJBVV95cUxQY0ZJMGdSMnd1S3lXVmZxS1dWeTU3LVhYakFCOEdhWGYwRi11T3pqS2pLZUhVTTdleHJKbEpiRkI0V1FTQUJfR2pWUmpGOC1hajk1ZzdfN3Q2X1lsYzQxNWJSOGRTMzlmeUZfVi1nSi1SbDNzQWplb1NwRXR1SjR5V3VWWHFRZUlIc3Q1dDVMdW5uZEtjdDdhdFRsd1hDaTZRY1oxTGdFUEJPdTltVUd1R1FudG9rMmJrQURiZVJkZEthdVZEVk5UUGZ5THA3MXk0ME13OFlMTi1jVy1PdVYtd3FaSDBoTEJyZkdCUnU5V2VjU1picWItWHN4XzMzMGFZQXfSAYICQVVfeXFMUGNGSTBnUjJ3dUt5V1ZmcUtXVnk1Ny1YWGpBQjhHYVhmMEYtdU96aktqS2VIVU03ZXhySmxKYkZCNFdRU0FCX0dqVlJqRjgtYWo5NWc3Xzd0Nl9ZbGM0MTViUjhkUzM5ZnlGX1YtZ0otUmwzc0FqZW9TcEV0dUo0eVd1VlhxUWVJSHN0NXQ1THVubmRLY3Q3YXRUbHdYQ2k2UWNaMUxnRVBCT3U5bVVHdUdRbnRvazJia0FEYmVSZGRLYXVWRFZOVFBmeUxwNzF5NDBNdzhZTE4tY1ctT3VWLXdxWkgwaExCcmZHQlJ1OVdlY1NaYnFiLVhzeF8zMzBhWUF3?oc=5\" target=\"_blank\">Arsenal fans can't expect a striker to fall from heaven, blasts Arsene Wenger</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "United Nations calls for emergency evacuation of Lesbos migrants - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "United Nations calls for emergency evacuation of Lesbos migrants - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNWExNZlhXRFVkdW96OWJaSmVrVWp2ekVIT1VPUEFiaGVaRi1LN2Zmemgyd3dUWk13Rk5SV3lNWHBOamw1eVZabVM1b2F6eGhOamhjMVpqRmlIU3BNNTFwVm9nN3c1cUVOQWNTenAtN2F0NFE2Q0tub2kweF82R2hIQmFTUEc5dE5GN1VzT0xiQUtncDB1eTRGZ2NkLUFmbHFDNEpMM1I2LU9Ya2tXOWhsUHo0Unp1dXRBN294V2VzSDc5ZzNQbU5hVVlnaWpIUGthWGtTNXJnOHRQOUoyWUJhUWEyNkx6eGdya2hlM21TNExzYmpQZ3Fv0gH3AUFVX3lxTE1YTE1mWFdEVWR1b3o5YlpKZWtVanZ6RUhPVU9QQWJoZVpGLUs3ZmZ6aDJ3d1RaTXdGTlJXeU1YcE5qbDV5VlptUzVvYXp4aE5qaGMxWmpGaUhTcE01MXBWb2c3dzVxRU5BY1N6cC03YXQ0UTZDS25vaTB4XzZHaEhCYVNQRzl0TkY3VXNPTGJBS2dwMHV5NEZnY2QtQWZscUM0SkwzUjYtT1hra1c5aGxQejRSenV1dEE3b3hXZXNINzlnM1BtTmFVWWdpakhQa2FYa1M1cmc4dFA5SjJZQmFRYTI2THp4Z3JraGUzbVM0THNialBncW8?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNWExNZlhXRFVkdW96OWJaSmVrVWp2ekVIT1VPUEFiaGVaRi1LN2Zmemgyd3dUWk13Rk5SV3lNWHBOamw1eVZabVM1b2F6eGhOamhjMVpqRmlIU3BNNTFwVm9nN3c1cUVOQWNTenAtN2F0NFE2Q0tub2kweF82R2hIQmFTUEc5dE5GN1VzT0xiQUtncDB1eTRGZ2NkLUFmbHFDNEpMM1I2LU9Ya2tXOWhsUHo0Unp1dXRBN294V2VzSDc5ZzNQbU5hVVlnaWpIUGthWGtTNXJnOHRQOUoyWUJhUWEyNkx6eGdya2hlM21TNExzYmpQZ3Fv0gH3AUFVX3lxTE1YTE1mWFdEVWR1b3o5YlpKZWtVanZ6RUhPVU9QQWJoZVpGLUs3ZmZ6aDJ3d1RaTXdGTlJXeU1YcE5qbDV5VlptUzVvYXp4aE5qaGMxWmpGaUhTcE01MXBWb2c3dzVxRU5BY1N6cC03YXQ0UTZDS25vaTB4XzZHaEhCYVNQRzl0TkY3VXNPTGJBS2dwMHV5NEZnY2QtQWZscUM0SkwzUjYtT1hra1c5aGxQejRSenV1dEE3b3hXZXNINzlnM1BtTmFVWWdpakhQa2FYa1M1cmc4dFA5SjJZQmFRYTI2THp4Z3JraGUzbVM0THNialBncW8?oc=5",
+      "id": "CBMi9wFBVV95cUxNWExNZlhXRFVkdW96OWJaSmVrVWp2ekVIT1VPUEFiaGVaRi1LN2Zmemgyd3dUWk13Rk5SV3lNWHBOamw1eVZabVM1b2F6eGhOamhjMVpqRmlIU3BNNTFwVm9nN3c1cUVOQWNTenAtN2F0NFE2Q0tub2kweF82R2hIQmFTUEc5dE5GN1VzT0xiQUtncDB1eTRGZ2NkLUFmbHFDNEpMM1I2LU9Ya2tXOWhsUHo0Unp1dXRBN294V2VzSDc5ZzNQbU5hVVlnaWpIUGthWGtTNXJnOHRQOUoyWUJhUWEyNkx6eGdya2hlM21TNExzYmpQZ3Fv0gH3AUFVX3lxTE1YTE1mWFdEVWR1b3o5YlpKZWtVanZ6RUhPVU9QQWJoZVpGLUs3ZmZ6aDJ3d1RaTXdGTlJXeU1YcE5qbDV5VlptUzVvYXp4aE5qaGMxWmpGaUhTcE01MXBWb2c3dzVxRU5BY1N6cC03YXQ0UTZDS25vaTB4XzZHaEhCYVNQRzl0TkY3VXNPTGJBS2dwMHV5NEZnY2QtQWZscUM0SkwzUjYtT1hra1c5aGxQejRSenV1dEE3b3hXZXNINzlnM1BtTmFVWWdpakhQa2FYa1M1cmc4dFA5SjJZQmFRYTI2THp4Z3JraGUzbVM0THNialBncW8",
+      "guidislink": false,
+      "published": "Sun, 06 Sep 2015 07:00:00 GMT",
+      "published_parsed": [
+        2015,
+        9,
+        6,
+        7,
+        0,
+        0,
+        6,
+        249,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi9wFBVV95cUxNWExNZlhXRFVkdW96OWJaSmVrVWp2ekVIT1VPUEFiaGVaRi1LN2Zmemgyd3dUWk13Rk5SV3lNWHBOamw1eVZabVM1b2F6eGhOamhjMVpqRmlIU3BNNTFwVm9nN3c1cUVOQWNTenAtN2F0NFE2Q0tub2kweF82R2hIQmFTUEc5dE5GN1VzT0xiQUtncDB1eTRGZ2NkLUFmbHFDNEpMM1I2LU9Ya2tXOWhsUHo0Unp1dXRBN294V2VzSDc5ZzNQbU5hVVlnaWpIUGthWGtTNXJnOHRQOUoyWUJhUWEyNkx6eGdya2hlM21TNExzYmpQZ3Fv0gH3AUFVX3lxTE1YTE1mWFdEVWR1b3o5YlpKZWtVanZ6RUhPVU9QQWJoZVpGLUs3ZmZ6aDJ3d1RaTXdGTlJXeU1YcE5qbDV5VlptUzVvYXp4aE5qaGMxWmpGaUhTcE01MXBWb2c3dzVxRU5BY1N6cC03YXQ0UTZDS25vaTB4XzZHaEhCYVNQRzl0TkY3VXNPTGJBS2dwMHV5NEZnY2QtQWZscUM0SkwzUjYtT1hra1c5aGxQejRSenV1dEE3b3hXZXNINzlnM1BtTmFVWWdpakhQa2FYa1M1cmc4dFA5SjJZQmFRYTI2THp4Z3JraGUzbVM0THNialBncW8?oc=5\" target=\"_blank\">United Nations calls for emergency evacuation of Lesbos migrants</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi9wFBVV95cUxNWExNZlhXRFVkdW96OWJaSmVrVWp2ekVIT1VPUEFiaGVaRi1LN2Zmemgyd3dUWk13Rk5SV3lNWHBOamw1eVZabVM1b2F6eGhOamhjMVpqRmlIU3BNNTFwVm9nN3c1cUVOQWNTenAtN2F0NFE2Q0tub2kweF82R2hIQmFTUEc5dE5GN1VzT0xiQUtncDB1eTRGZ2NkLUFmbHFDNEpMM1I2LU9Ya2tXOWhsUHo0Unp1dXRBN294V2VzSDc5ZzNQbU5hVVlnaWpIUGthWGtTNXJnOHRQOUoyWUJhUWEyNkx6eGdya2hlM21TNExzYmpQZ3Fv0gH3AUFVX3lxTE1YTE1mWFdEVWR1b3o5YlpKZWtVanZ6RUhPVU9QQWJoZVpGLUs3ZmZ6aDJ3d1RaTXdGTlJXeU1YcE5qbDV5VlptUzVvYXp4aE5qaGMxWmpGaUhTcE01MXBWb2c3dzVxRU5BY1N6cC03YXQ0UTZDS25vaTB4XzZHaEhCYVNQRzl0TkY3VXNPTGJBS2dwMHV5NEZnY2QtQWZscUM0SkwzUjYtT1hra1c5aGxQejRSenV1dEE3b3hXZXNINzlnM1BtTmFVWWdpakhQa2FYa1M1cmc4dFA5SjJZQmFRYTI2THp4Z3JraGUzbVM0THNialBncW8?oc=5\" target=\"_blank\">United Nations calls for emergency evacuation of Lesbos migrants</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "James Blake demands apology from NYPD cop who body-slammed him - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "James Blake demands apology from NYPD cop who body-slammed him - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNQi1HeWJoQm9xNUJnTHFMemJkcHNVTjlLQUxCR0hqVGtMaWp2ZGxaaVVjTGlPOGdodmY3LTI0MWZTUm55MWlOTU5sS0pwYXRJeThSNDdHekFYeHBnWFRwRVZ0VjNQM096X3FoOXo5NkZyZlk2blVWSUxGbE4yeTBweTl0Uzh0YmtOSG9FWWx4MGRPV3MzbnVVM3F4alZNOHlHVFlfVXZuQUNFS2hZeEVkc3EwaENpWUlwc1FHdlFWaHhDQWNRamtTZnp4ZVdzWHhHWDVZSkxCNTVSSHd3TThQdkQzV3pRdHo0TzJRaUdoRjNEWjI5Sm44TTBSb3c0cHZqdjNEUGtxZ1luMnJzTnNBTDJwb2N4ZnctdWNIbkVITmpmSUlEUzV6ejItZkxUc0XSAa8CQVVfeXFMTUItR3liaEJvcTVCZ0xxTHpiZHBzVU45S0FMQkdIalRrTGlqdmRsWmlVY0xpTzhnaHZmNy0yNDFmU1JueTFpTk1ObEtKcGF0SXk4UjQ3R3pBWHhwZ1hUcEVWdFYzUDNPel9xaDl6OTZGcmZZNm5VVklMRmxOMnkwcHk5dFM4dGJrTkhvRVlseDBkT1dzM251VTNxeGpWTTh5R1RZX1V2bkFDRUtoWXhFZHNxMGhDaVlJcHNRR3ZRVmh4Q0FjUWprU2Z6eGVXc1h4R1g1WUpMQjU1Ukh3d004UHZEM1d6UXR6NE8yUWlHaEYzRFoyOUpuOE0wUm93NHB2anYzRFBrcWdZbjJyc05zQUwycG9jeGZ3LXVjSG5FSE5qZklJRFM1enoyLWZMVHNF?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNQi1HeWJoQm9xNUJnTHFMemJkcHNVTjlLQUxCR0hqVGtMaWp2ZGxaaVVjTGlPOGdodmY3LTI0MWZTUm55MWlOTU5sS0pwYXRJeThSNDdHekFYeHBnWFRwRVZ0VjNQM096X3FoOXo5NkZyZlk2blVWSUxGbE4yeTBweTl0Uzh0YmtOSG9FWWx4MGRPV3MzbnVVM3F4alZNOHlHVFlfVXZuQUNFS2hZeEVkc3EwaENpWUlwc1FHdlFWaHhDQWNRamtTZnp4ZVdzWHhHWDVZSkxCNTVSSHd3TThQdkQzV3pRdHo0TzJRaUdoRjNEWjI5Sm44TTBSb3c0cHZqdjNEUGtxZ1luMnJzTnNBTDJwb2N4ZnctdWNIbkVITmpmSUlEUzV6ejItZkxUc0XSAa8CQVVfeXFMTUItR3liaEJvcTVCZ0xxTHpiZHBzVU45S0FMQkdIalRrTGlqdmRsWmlVY0xpTzhnaHZmNy0yNDFmU1JueTFpTk1ObEtKcGF0SXk4UjQ3R3pBWHhwZ1hUcEVWdFYzUDNPel9xaDl6OTZGcmZZNm5VVklMRmxOMnkwcHk5dFM4dGJrTkhvRVlseDBkT1dzM251VTNxeGpWTTh5R1RZX1V2bkFDRUtoWXhFZHNxMGhDaVlJcHNRR3ZRVmh4Q0FjUWprU2Z6eGVXc1h4R1g1WUpMQjU1Ukh3d004UHZEM1d6UXR6NE8yUWlHaEYzRFoyOUpuOE0wUm93NHB2anYzRFBrcWdZbjJyc05zQUwycG9jeGZ3LXVjSG5FSE5qZklJRFM1enoyLWZMVHNF?oc=5",
+      "id": "CBMirwJBVV95cUxNQi1HeWJoQm9xNUJnTHFMemJkcHNVTjlLQUxCR0hqVGtMaWp2ZGxaaVVjTGlPOGdodmY3LTI0MWZTUm55MWlOTU5sS0pwYXRJeThSNDdHekFYeHBnWFRwRVZ0VjNQM096X3FoOXo5NkZyZlk2blVWSUxGbE4yeTBweTl0Uzh0YmtOSG9FWWx4MGRPV3MzbnVVM3F4alZNOHlHVFlfVXZuQUNFS2hZeEVkc3EwaENpWUlwc1FHdlFWaHhDQWNRamtTZnp4ZVdzWHhHWDVZSkxCNTVSSHd3TThQdkQzV3pRdHo0TzJRaUdoRjNEWjI5Sm44TTBSb3c0cHZqdjNEUGtxZ1luMnJzTnNBTDJwb2N4ZnctdWNIbkVITmpmSUlEUzV6ejItZkxUc0XSAa8CQVVfeXFMTUItR3liaEJvcTVCZ0xxTHpiZHBzVU45S0FMQkdIalRrTGlqdmRsWmlVY0xpTzhnaHZmNy0yNDFmU1JueTFpTk1ObEtKcGF0SXk4UjQ3R3pBWHhwZ1hUcEVWdFYzUDNPel9xaDl6OTZGcmZZNm5VVklMRmxOMnkwcHk5dFM4dGJrTkhvRVlseDBkT1dzM251VTNxeGpWTTh5R1RZX1V2bkFDRUtoWXhFZHNxMGhDaVlJcHNRR3ZRVmh4Q0FjUWprU2Z6eGVXc1h4R1g1WUpMQjU1Ukh3d004UHZEM1d6UXR6NE8yUWlHaEYzRFoyOUpuOE0wUm93NHB2anYzRFBrcWdZbjJyc05zQUwycG9jeGZ3LXVjSG5FSE5qZklJRFM1enoyLWZMVHNF",
+      "guidislink": false,
+      "published": "Thu, 10 Sep 2015 07:00:00 GMT",
+      "published_parsed": [
+        2015,
+        9,
+        10,
+        7,
+        0,
+        0,
+        3,
+        253,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwJBVV95cUxNQi1HeWJoQm9xNUJnTHFMemJkcHNVTjlLQUxCR0hqVGtMaWp2ZGxaaVVjTGlPOGdodmY3LTI0MWZTUm55MWlOTU5sS0pwYXRJeThSNDdHekFYeHBnWFRwRVZ0VjNQM096X3FoOXo5NkZyZlk2blVWSUxGbE4yeTBweTl0Uzh0YmtOSG9FWWx4MGRPV3MzbnVVM3F4alZNOHlHVFlfVXZuQUNFS2hZeEVkc3EwaENpWUlwc1FHdlFWaHhDQWNRamtTZnp4ZVdzWHhHWDVZSkxCNTVSSHd3TThQdkQzV3pRdHo0TzJRaUdoRjNEWjI5Sm44TTBSb3c0cHZqdjNEUGtxZ1luMnJzTnNBTDJwb2N4ZnctdWNIbkVITmpmSUlEUzV6ejItZkxUc0XSAa8CQVVfeXFMTUItR3liaEJvcTVCZ0xxTHpiZHBzVU45S0FMQkdIalRrTGlqdmRsWmlVY0xpTzhnaHZmNy0yNDFmU1JueTFpTk1ObEtKcGF0SXk4UjQ3R3pBWHhwZ1hUcEVWdFYzUDNPel9xaDl6OTZGcmZZNm5VVklMRmxOMnkwcHk5dFM4dGJrTkhvRVlseDBkT1dzM251VTNxeGpWTTh5R1RZX1V2bkFDRUtoWXhFZHNxMGhDaVlJcHNRR3ZRVmh4Q0FjUWprU2Z6eGVXc1h4R1g1WUpMQjU1Ukh3d004UHZEM1d6UXR6NE8yUWlHaEYzRFoyOUpuOE0wUm93NHB2anYzRFBrcWdZbjJyc05zQUwycG9jeGZ3LXVjSG5FSE5qZklJRFM1enoyLWZMVHNF?oc=5\" target=\"_blank\">James Blake demands apology from NYPD cop who body-slammed him</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMirwJBVV95cUxNQi1HeWJoQm9xNUJnTHFMemJkcHNVTjlLQUxCR0hqVGtMaWp2ZGxaaVVjTGlPOGdodmY3LTI0MWZTUm55MWlOTU5sS0pwYXRJeThSNDdHekFYeHBnWFRwRVZ0VjNQM096X3FoOXo5NkZyZlk2blVWSUxGbE4yeTBweTl0Uzh0YmtOSG9FWWx4MGRPV3MzbnVVM3F4alZNOHlHVFlfVXZuQUNFS2hZeEVkc3EwaENpWUlwc1FHdlFWaHhDQWNRamtTZnp4ZVdzWHhHWDVZSkxCNTVSSHd3TThQdkQzV3pRdHo0TzJRaUdoRjNEWjI5Sm44TTBSb3c0cHZqdjNEUGtxZ1luMnJzTnNBTDJwb2N4ZnctdWNIbkVITmpmSUlEUzV6ejItZkxUc0XSAa8CQVVfeXFMTUItR3liaEJvcTVCZ0xxTHpiZHBzVU45S0FMQkdIalRrTGlqdmRsWmlVY0xpTzhnaHZmNy0yNDFmU1JueTFpTk1ObEtKcGF0SXk4UjQ3R3pBWHhwZ1hUcEVWdFYzUDNPel9xaDl6OTZGcmZZNm5VVklMRmxOMnkwcHk5dFM4dGJrTkhvRVlseDBkT1dzM251VTNxeGpWTTh5R1RZX1V2bkFDRUtoWXhFZHNxMGhDaVlJcHNRR3ZRVmh4Q0FjUWprU2Z6eGVXc1h4R1g1WUpMQjU1Ukh3d004UHZEM1d6UXR6NE8yUWlHaEYzRFoyOUpuOE0wUm93NHB2anYzRFBrcWdZbjJyc05zQUwycG9jeGZ3LXVjSG5FSE5qZklJRFM1enoyLWZMVHNF?oc=5\" target=\"_blank\">James Blake demands apology from NYPD cop who body-slammed him</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    }
+  ]
+}

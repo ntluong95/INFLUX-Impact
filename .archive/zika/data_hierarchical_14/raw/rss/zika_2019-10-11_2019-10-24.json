@@ -1,0 +1,693 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2019-10-11",
+  "window_end": "2019-10-24",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2019-10-11+before%3A2019-10-25&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2019-10-11+before:2019-10-25&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:27:12Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2019-10-11 before:2019-10-25\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2019-10-11 before:2019-10-25\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2019-10-11+before:2019-10-25&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2019-10-11+before:2019-10-25&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:27:12 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      27,
+      12,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Epidemiological update: second case of locally acquired Zika virus disease in Hyères, France - ecdc.europa.eu",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Epidemiological update: second case of locally acquired Zika virus disease in Hyères, France - ecdc.europa.eu"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMUVGNU8wUW9sYWRaSVFmTUxNZ2pTaGE5WXdWeE5FZmFWS2hQbG1IMVFDdU1IXzE2cE9JTFV5VU1fV2ZjMHdPSDhvdHBiWEJWc1AtMGxQVXlpREdKQlhiTjU3aFhxVHhiYkw1T0Q5azY0TEZrR1FqZjNKMEZkeHNHX0hiSWRpU2FiU1dtV0h4Z2V1OHRpNENkXzRsb3lIMWEzaW5ERXVjSTJqaVRsNFNwaUFnSnBDTTZGMlplQmozeDd4OWdB?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMUVGNU8wUW9sYWRaSVFmTUxNZ2pTaGE5WXdWeE5FZmFWS2hQbG1IMVFDdU1IXzE2cE9JTFV5VU1fV2ZjMHdPSDhvdHBiWEJWc1AtMGxQVXlpREdKQlhiTjU3aFhxVHhiYkw1T0Q5azY0TEZrR1FqZjNKMEZkeHNHX0hiSWRpU2FiU1dtV0h4Z2V1OHRpNENkXzRsb3lIMWEzaW5ERXVjSTJqaVRsNFNwaUFnSnBDTTZGMlplQmozeDd4OWdB?oc=5",
+      "id": "CBMixAFBVV95cUxPMUVGNU8wUW9sYWRaSVFmTUxNZ2pTaGE5WXdWeE5FZmFWS2hQbG1IMVFDdU1IXzE2cE9JTFV5VU1fV2ZjMHdPSDhvdHBiWEJWc1AtMGxQVXlpREdKQlhiTjU3aFhxVHhiYkw1T0Q5azY0TEZrR1FqZjNKMEZkeHNHX0hiSWRpU2FiU1dtV0h4Z2V1OHRpNENkXzRsb3lIMWEzaW5ERXVjSTJqaVRsNFNwaUFnSnBDTTZGMlplQmozeDd4OWdB",
+      "guidislink": false,
+      "published": "Wed, 23 Oct 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        10,
+        23,
+        7,
+        0,
+        0,
+        2,
+        296,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxPMUVGNU8wUW9sYWRaSVFmTUxNZ2pTaGE5WXdWeE5FZmFWS2hQbG1IMVFDdU1IXzE2cE9JTFV5VU1fV2ZjMHdPSDhvdHBiWEJWc1AtMGxQVXlpREdKQlhiTjU3aFhxVHhiYkw1T0Q5azY0TEZrR1FqZjNKMEZkeHNHX0hiSWRpU2FiU1dtV0h4Z2V1OHRpNENkXzRsb3lIMWEzaW5ERXVjSTJqaVRsNFNwaUFnSnBDTTZGMlplQmozeDd4OWdB?oc=5\" target=\"_blank\">Epidemiological update: second case of locally acquired Zika virus disease in Hyères, France</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ecdc.europa.eu</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxPMUVGNU8wUW9sYWRaSVFmTUxNZ2pTaGE5WXdWeE5FZmFWS2hQbG1IMVFDdU1IXzE2cE9JTFV5VU1fV2ZjMHdPSDhvdHBiWEJWc1AtMGxQVXlpREdKQlhiTjU3aFhxVHhiYkw1T0Q5azY0TEZrR1FqZjNKMEZkeHNHX0hiSWRpU2FiU1dtV0h4Z2V1OHRpNENkXzRsb3lIMWEzaW5ERXVjSTJqaVRsNFNwaUFnSnBDTTZGMlplQmozeDd4OWdB?oc=5\" target=\"_blank\">Epidemiological update: second case of locally acquired Zika virus disease in Hyères, France</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ecdc.europa.eu</font>"
+      },
+      "source": {
+        "href": "https://www.ecdc.europa.eu",
+        "title": "ecdc.europa.eu"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Infectious mosquitoes found in Antelope. Here’s how to prevent them from spreading - Sacramento Bee",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Infectious mosquitoes found in Antelope. Here’s how to prevent them from spreading - Sacramento Bee"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9hTUpPYmktWVIwTWowRWNKR2M4SnFBWm1SRkEtaUhyanI4YmJuQWd1OUo0WGN5ejlOVjhjNm12RGtCZko4bFAzSTJsWUtuU3V0MVlHRVRPRV9VN3NoLVhnU0NUQmlzd9IBZkFVX3lxTFBCSmsxWHZwVzRoanpZOGplODY4TGx1RXRZNTRvWVBJS3gwS0NoSy0tVGs1TUtqclVObUpKcUdYaWZyS09pdkJsSl9ZdXlUVXhLVHM5eFpkWkVkaGZQUUpoVjBRU2xzUQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9hTUpPYmktWVIwTWowRWNKR2M4SnFBWm1SRkEtaUhyanI4YmJuQWd1OUo0WGN5ejlOVjhjNm12RGtCZko4bFAzSTJsWUtuU3V0MVlHRVRPRV9VN3NoLVhnU0NUQmlzd9IBZkFVX3lxTFBCSmsxWHZwVzRoanpZOGplODY4TGx1RXRZNTRvWVBJS3gwS0NoSy0tVGs1TUtqclVObUpKcUdYaWZyS09pdkJsSl9ZdXlUVXhLVHM5eFpkWkVkaGZQUUpoVjBRU2xzUQ?oc=5",
+      "id": "CBMiZkFVX3lxTE9hTUpPYmktWVIwTWowRWNKR2M4SnFBWm1SRkEtaUhyanI4YmJuQWd1OUo0WGN5ejlOVjhjNm12RGtCZko4bFAzSTJsWUtuU3V0MVlHRVRPRV9VN3NoLVhnU0NUQmlzd9IBZkFVX3lxTFBCSmsxWHZwVzRoanpZOGplODY4TGx1RXRZNTRvWVBJS3gwS0NoSy0tVGs1TUtqclVObUpKcUdYaWZyS09pdkJsSl9ZdXlUVXhLVHM5eFpkWkVkaGZQUUpoVjBRU2xzUQ",
+      "guidislink": false,
+      "published": "Sun, 13 Oct 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        10,
+        13,
+        7,
+        0,
+        0,
+        6,
+        286,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE9hTUpPYmktWVIwTWowRWNKR2M4SnFBWm1SRkEtaUhyanI4YmJuQWd1OUo0WGN5ejlOVjhjNm12RGtCZko4bFAzSTJsWUtuU3V0MVlHRVRPRV9VN3NoLVhnU0NUQmlzd9IBZkFVX3lxTFBCSmsxWHZwVzRoanpZOGplODY4TGx1RXRZNTRvWVBJS3gwS0NoSy0tVGs1TUtqclVObUpKcUdYaWZyS09pdkJsSl9ZdXlUVXhLVHM5eFpkWkVkaGZQUUpoVjBRU2xzUQ?oc=5\" target=\"_blank\">Infectious mosquitoes found in Antelope. Here’s how to prevent them from spreading</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sacramento Bee</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE9hTUpPYmktWVIwTWowRWNKR2M4SnFBWm1SRkEtaUhyanI4YmJuQWd1OUo0WGN5ejlOVjhjNm12RGtCZko4bFAzSTJsWUtuU3V0MVlHRVRPRV9VN3NoLVhnU0NUQmlzd9IBZkFVX3lxTFBCSmsxWHZwVzRoanpZOGplODY4TGx1RXRZNTRvWVBJS3gwS0NoSy0tVGs1TUtqclVObUpKcUdYaWZyS09pdkJsSl9ZdXlUVXhLVHM5eFpkWkVkaGZQUUpoVjBRU2xzUQ?oc=5\" target=\"_blank\">Infectious mosquitoes found in Antelope. Here’s how to prevent them from spreading</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sacramento Bee</font>"
+      },
+      "source": {
+        "href": "https://www.sacbee.com",
+        "title": "Sacramento Bee"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Flexible Nanoparticle System Could Deliver Oral Drugs Safely Through Gut Into the Bloodstream - University of Miami",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Flexible Nanoparticle System Could Deliver Oral Drugs Safely Through Gut Into the Bloodstream - University of Miami"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOR2ZNcmVaOEdkRThqZ1hqWC1qU3JFNlA5dmFpbzhLUlFoMkZVci1weFBWSlFBS0s5WFZPR051YkxRcXktdDJWUkowcGVmU3NZUU9rZTUzOGc1RVNrTElDT2hQWnFOcGNIWXNJekllcjJkenJCalVhWnJpVV9NWXlSUzRPUGhINHgzV2R1VHFZMzd2RFl5U1JaTFh6Smk1NThwLXFKUVpRcXpLQ2s?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOR2ZNcmVaOEdkRThqZ1hqWC1qU3JFNlA5dmFpbzhLUlFoMkZVci1weFBWSlFBS0s5WFZPR051YkxRcXktdDJWUkowcGVmU3NZUU9rZTUzOGc1RVNrTElDT2hQWnFOcGNIWXNJekllcjJkenJCalVhWnJpVV9NWXlSUzRPUGhINHgzV2R1VHFZMzd2RFl5U1JaTFh6Smk1NThwLXFKUVpRcXpLQ2s?oc=5",
+      "id": "CBMiqwFBVV95cUxOR2ZNcmVaOEdkRThqZ1hqWC1qU3JFNlA5dmFpbzhLUlFoMkZVci1weFBWSlFBS0s5WFZPR051YkxRcXktdDJWUkowcGVmU3NZUU9rZTUzOGc1RVNrTElDT2hQWnFOcGNIWXNJekllcjJkenJCalVhWnJpVV9NWXlSUzRPUGhINHgzV2R1VHFZMzd2RFl5U1JaTFh6Smk1NThwLXFKUVpRcXpLQ2s",
+      "guidislink": false,
+      "published": "Fri, 11 Oct 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        10,
+        11,
+        7,
+        0,
+        0,
+        4,
+        284,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxOR2ZNcmVaOEdkRThqZ1hqWC1qU3JFNlA5dmFpbzhLUlFoMkZVci1weFBWSlFBS0s5WFZPR051YkxRcXktdDJWUkowcGVmU3NZUU9rZTUzOGc1RVNrTElDT2hQWnFOcGNIWXNJekllcjJkenJCalVhWnJpVV9NWXlSUzRPUGhINHgzV2R1VHFZMzd2RFl5U1JaTFh6Smk1NThwLXFKUVpRcXpLQ2s?oc=5\" target=\"_blank\">Flexible Nanoparticle System Could Deliver Oral Drugs Safely Through Gut Into the Bloodstream</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of Miami</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxOR2ZNcmVaOEdkRThqZ1hqWC1qU3JFNlA5dmFpbzhLUlFoMkZVci1weFBWSlFBS0s5WFZPR051YkxRcXktdDJWUkowcGVmU3NZUU9rZTUzOGc1RVNrTElDT2hQWnFOcGNIWXNJekllcjJkenJCalVhWnJpVV9NWXlSUzRPUGhINHgzV2R1VHFZMzd2RFl5U1JaTFh6Smk1NThwLXFKUVpRcXpLQ2s?oc=5\" target=\"_blank\">Flexible Nanoparticle System Could Deliver Oral Drugs Safely Through Gut Into the Bloodstream</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of Miami</font>"
+      },
+      "source": {
+        "href": "https://news.med.miami.edu",
+        "title": "University of Miami"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Too Hot to Handle: Loss of cytoplasmic incompatibility may hinder Wolbachia-centred disease control - BMC blog network",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Too Hot to Handle: Loss of cytoplasmic incompatibility may hinder Wolbachia-centred disease control - BMC blog network"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPbTB4eS1YMHhKSzhObWZTaGExVWhKU0dTNGExY05YRC1TNmFrMWRuWVVsU3cyY242VzRlWWFZbmxkOGpJNW41Vl9PV2dSdkRqYTZCWGM1bUZ0TFJNU0thMFgwcVRBbW1jWVFqcUI1TWQ3M3h0a2dtWFpSQXlHNDQ4dGUxdlN6QVVXbDhXWUwweEdjVXFFVGs5QlRESmg3RUVOd1VfaXhGb2g2SF9MMTFxYTZmQjVHNTM1QkVXdjBQTGZPbllSekVkQ2xSekhuaFpyWHRNQmxvOVo1aDlMcGNoSXdoTUpNYXM?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPbTB4eS1YMHhKSzhObWZTaGExVWhKU0dTNGExY05YRC1TNmFrMWRuWVVsU3cyY242VzRlWWFZbmxkOGpJNW41Vl9PV2dSdkRqYTZCWGM1bUZ0TFJNU0thMFgwcVRBbW1jWVFqcUI1TWQ3M3h0a2dtWFpSQXlHNDQ4dGUxdlN6QVVXbDhXWUwweEdjVXFFVGs5QlRESmg3RUVOd1VfaXhGb2g2SF9MMTFxYTZmQjVHNTM1QkVXdjBQTGZPbllSekVkQ2xSekhuaFpyWHRNQmxvOVo1aDlMcGNoSXdoTUpNYXM?oc=5",
+      "id": "CBMi5wFBVV95cUxPbTB4eS1YMHhKSzhObWZTaGExVWhKU0dTNGExY05YRC1TNmFrMWRuWVVsU3cyY242VzRlWWFZbmxkOGpJNW41Vl9PV2dSdkRqYTZCWGM1bUZ0TFJNU0thMFgwcVRBbW1jWVFqcUI1TWQ3M3h0a2dtWFpSQXlHNDQ4dGUxdlN6QVVXbDhXWUwweEdjVXFFVGs5QlRESmg3RUVOd1VfaXhGb2g2SF9MMTFxYTZmQjVHNTM1QkVXdjBQTGZPbllSekVkQ2xSekhuaFpyWHRNQmxvOVo1aDlMcGNoSXdoTUpNYXM",
+      "guidislink": false,
+      "published": "Fri, 18 Oct 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        10,
+        18,
+        7,
+        0,
+        0,
+        4,
+        291,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi5wFBVV95cUxPbTB4eS1YMHhKSzhObWZTaGExVWhKU0dTNGExY05YRC1TNmFrMWRuWVVsU3cyY242VzRlWWFZbmxkOGpJNW41Vl9PV2dSdkRqYTZCWGM1bUZ0TFJNU0thMFgwcVRBbW1jWVFqcUI1TWQ3M3h0a2dtWFpSQXlHNDQ4dGUxdlN6QVVXbDhXWUwweEdjVXFFVGs5QlRESmg3RUVOd1VfaXhGb2g2SF9MMTFxYTZmQjVHNTM1QkVXdjBQTGZPbllSekVkQ2xSekhuaFpyWHRNQmxvOVo1aDlMcGNoSXdoTUpNYXM?oc=5\" target=\"_blank\">Too Hot to Handle: Loss of cytoplasmic incompatibility may hinder Wolbachia-centred disease control</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BMC blog network</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi5wFBVV95cUxPbTB4eS1YMHhKSzhObWZTaGExVWhKU0dTNGExY05YRC1TNmFrMWRuWVVsU3cyY242VzRlWWFZbmxkOGpJNW41Vl9PV2dSdkRqYTZCWGM1bUZ0TFJNU0thMFgwcVRBbW1jWVFqcUI1TWQ3M3h0a2dtWFpSQXlHNDQ4dGUxdlN6QVVXbDhXWUwweEdjVXFFVGs5QlRESmg3RUVOd1VfaXhGb2g2SF9MMTFxYTZmQjVHNTM1QkVXdjBQTGZPbllSekVkQ2xSekhuaFpyWHRNQmxvOVo1aDlMcGNoSXdoTUpNYXM?oc=5\" target=\"_blank\">Too Hot to Handle: Loss of cytoplasmic incompatibility may hinder Wolbachia-centred disease control</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BMC blog network</font>"
+      },
+      "source": {
+        "href": "https://blogs.biomedcentral.com",
+        "title": "BMC blog network"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "UAMS Researcher Cardenas Receives Fulbright U.S. Scholar Award to Colombia - UAMS News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "UAMS Researcher Cardenas Receives Fulbright U.S. Scholar Award to Colombia - UAMS News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMHdsejJuZWxHZ2dsRHo3U2tOZWFxOXZ6UVg0a25rdWoyMEFLYXQxM2RNeE9ROTdKVWdmQ3ktbGVoZDNheW9jN3VKeEhyNFo2dC1IMVMyMDBPek9WOEdMZlpONjcyOS1USVRRUXpEMmVwOENUS2ZhRll6MnlUUkh6VWNJMnhaUnNQbDdPWEJsalZrSUlwcjJoWTUxM09xYnFtdDNyNERKSHlLSW8?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMHdsejJuZWxHZ2dsRHo3U2tOZWFxOXZ6UVg0a25rdWoyMEFLYXQxM2RNeE9ROTdKVWdmQ3ktbGVoZDNheW9jN3VKeEhyNFo2dC1IMVMyMDBPek9WOEdMZlpONjcyOS1USVRRUXpEMmVwOENUS2ZhRll6MnlUUkh6VWNJMnhaUnNQbDdPWEJsalZrSUlwcjJoWTUxM09xYnFtdDNyNERKSHlLSW8?oc=5",
+      "id": "CBMiqwFBVV95cUxQMHdsejJuZWxHZ2dsRHo3U2tOZWFxOXZ6UVg0a25rdWoyMEFLYXQxM2RNeE9ROTdKVWdmQ3ktbGVoZDNheW9jN3VKeEhyNFo2dC1IMVMyMDBPek9WOEdMZlpONjcyOS1USVRRUXpEMmVwOENUS2ZhRll6MnlUUkh6VWNJMnhaUnNQbDdPWEJsalZrSUlwcjJoWTUxM09xYnFtdDNyNERKSHlLSW8",
+      "guidislink": false,
+      "published": "Mon, 14 Oct 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        10,
+        14,
+        7,
+        0,
+        0,
+        0,
+        287,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMHdsejJuZWxHZ2dsRHo3U2tOZWFxOXZ6UVg0a25rdWoyMEFLYXQxM2RNeE9ROTdKVWdmQ3ktbGVoZDNheW9jN3VKeEhyNFo2dC1IMVMyMDBPek9WOEdMZlpONjcyOS1USVRRUXpEMmVwOENUS2ZhRll6MnlUUkh6VWNJMnhaUnNQbDdPWEJsalZrSUlwcjJoWTUxM09xYnFtdDNyNERKSHlLSW8?oc=5\" target=\"_blank\">UAMS Researcher Cardenas Receives Fulbright U.S. Scholar Award to Colombia</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">UAMS News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMHdsejJuZWxHZ2dsRHo3U2tOZWFxOXZ6UVg0a25rdWoyMEFLYXQxM2RNeE9ROTdKVWdmQ3ktbGVoZDNheW9jN3VKeEhyNFo2dC1IMVMyMDBPek9WOEdMZlpONjcyOS1USVRRUXpEMmVwOENUS2ZhRll6MnlUUkh6VWNJMnhaUnNQbDdPWEJsalZrSUlwcjJoWTUxM09xYnFtdDNyNERKSHlLSW8?oc=5\" target=\"_blank\">UAMS Researcher Cardenas Receives Fulbright U.S. Scholar Award to Colombia</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">UAMS News</font>"
+      },
+      "source": {
+        "href": "https://news.uams.edu",
+        "title": "UAMS News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Researchers Rediscover Fast-acting German Insecticide Lost in the Aftermath of WWII | Newswise - Newswise",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Researchers Rediscover Fast-acting German Insecticide Lost in the Aftermath of WWII | Newswise - Newswise"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOThYMXFCZnBiZ0tvX28xc2JmSkdUdGp1OEh4TDNERUVzU0MzZkJiYlBTS2VYem1DeXNDTFlZM1hmWkg4MlRDQk50MWJmX2QwbGdLdWNsNHFyaHlzVEZfV1ppd0JudFU1VTJ0bjFyUjFnTnlHUlZ3YXJsWnFHN3UtVFBoNmhzREU0SFR6S0tGbHhhTl8tVHJERV9mWDM3U3J0Y09uWjFjb09COGlVUUtPZHNQakFvMXdL0gG4AUFVX3lxTE45OFgxcUJmcGJnS29fbzFzYmZKR1R0anU4SHhMM0RFRXNTQzNmQmJiUFNLZVh6bUN5c0NMWVkzWGZaSDgyVENCTnQxYmZfZDBsZ0t1Y2w0cXJoeXNURl9XWml3Qm50VTVVMnRuMXJSMWdOeUdSVndhcmxacUc3dS1UUGg2aHNERTRIVHpLS0ZseGFOXy1UckRFX2ZYMzdTcnRjT25aMWNvT0I4aVVRS09kc1BqQW8xd0s?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOThYMXFCZnBiZ0tvX28xc2JmSkdUdGp1OEh4TDNERUVzU0MzZkJiYlBTS2VYem1DeXNDTFlZM1hmWkg4MlRDQk50MWJmX2QwbGdLdWNsNHFyaHlzVEZfV1ppd0JudFU1VTJ0bjFyUjFnTnlHUlZ3YXJsWnFHN3UtVFBoNmhzREU0SFR6S0tGbHhhTl8tVHJERV9mWDM3U3J0Y09uWjFjb09COGlVUUtPZHNQakFvMXdL0gG4AUFVX3lxTE45OFgxcUJmcGJnS29fbzFzYmZKR1R0anU4SHhMM0RFRXNTQzNmQmJiUFNLZVh6bUN5c0NMWVkzWGZaSDgyVENCTnQxYmZfZDBsZ0t1Y2w0cXJoeXNURl9XWml3Qm50VTVVMnRuMXJSMWdOeUdSVndhcmxacUc3dS1UUGg2aHNERTRIVHpLS0ZseGFOXy1UckRFX2ZYMzdTcnRjT25aMWNvT0I4aVVRS09kc1BqQW8xd0s?oc=5",
+      "id": "CBMiuAFBVV95cUxOOThYMXFCZnBiZ0tvX28xc2JmSkdUdGp1OEh4TDNERUVzU0MzZkJiYlBTS2VYem1DeXNDTFlZM1hmWkg4MlRDQk50MWJmX2QwbGdLdWNsNHFyaHlzVEZfV1ppd0JudFU1VTJ0bjFyUjFnTnlHUlZ3YXJsWnFHN3UtVFBoNmhzREU0SFR6S0tGbHhhTl8tVHJERV9mWDM3U3J0Y09uWjFjb09COGlVUUtPZHNQakFvMXdL0gG4AUFVX3lxTE45OFgxcUJmcGJnS29fbzFzYmZKR1R0anU4SHhMM0RFRXNTQzNmQmJiUFNLZVh6bUN5c0NMWVkzWGZaSDgyVENCTnQxYmZfZDBsZ0t1Y2w0cXJoeXNURl9XWml3Qm50VTVVMnRuMXJSMWdOeUdSVndhcmxacUc3dS1UUGg2aHNERTRIVHpLS0ZseGFOXy1UckRFX2ZYMzdTcnRjT25aMWNvT0I4aVVRS09kc1BqQW8xd0s",
+      "guidislink": false,
+      "published": "Fri, 11 Oct 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        10,
+        11,
+        7,
+        0,
+        0,
+        4,
+        284,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOThYMXFCZnBiZ0tvX28xc2JmSkdUdGp1OEh4TDNERUVzU0MzZkJiYlBTS2VYem1DeXNDTFlZM1hmWkg4MlRDQk50MWJmX2QwbGdLdWNsNHFyaHlzVEZfV1ppd0JudFU1VTJ0bjFyUjFnTnlHUlZ3YXJsWnFHN3UtVFBoNmhzREU0SFR6S0tGbHhhTl8tVHJERV9mWDM3U3J0Y09uWjFjb09COGlVUUtPZHNQakFvMXdL0gG4AUFVX3lxTE45OFgxcUJmcGJnS29fbzFzYmZKR1R0anU4SHhMM0RFRXNTQzNmQmJiUFNLZVh6bUN5c0NMWVkzWGZaSDgyVENCTnQxYmZfZDBsZ0t1Y2w0cXJoeXNURl9XWml3Qm50VTVVMnRuMXJSMWdOeUdSVndhcmxacUc3dS1UUGg2aHNERTRIVHpLS0ZseGFOXy1UckRFX2ZYMzdTcnRjT25aMWNvT0I4aVVRS09kc1BqQW8xd0s?oc=5\" target=\"_blank\">Researchers Rediscover Fast-acting German Insecticide Lost in the Aftermath of WWII | Newswise</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Newswise</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOThYMXFCZnBiZ0tvX28xc2JmSkdUdGp1OEh4TDNERUVzU0MzZkJiYlBTS2VYem1DeXNDTFlZM1hmWkg4MlRDQk50MWJmX2QwbGdLdWNsNHFyaHlzVEZfV1ppd0JudFU1VTJ0bjFyUjFnTnlHUlZ3YXJsWnFHN3UtVFBoNmhzREU0SFR6S0tGbHhhTl8tVHJERV9mWDM3U3J0Y09uWjFjb09COGlVUUtPZHNQakFvMXdL0gG4AUFVX3lxTE45OFgxcUJmcGJnS29fbzFzYmZKR1R0anU4SHhMM0RFRXNTQzNmQmJiUFNLZVh6bUN5c0NMWVkzWGZaSDgyVENCTnQxYmZfZDBsZ0t1Y2w0cXJoeXNURl9XWml3Qm50VTVVMnRuMXJSMWdOeUdSVndhcmxacUc3dS1UUGg2aHNERTRIVHpLS0ZseGFOXy1UckRFX2ZYMzdTcnRjT25aMWNvT0I4aVVRS09kc1BqQW8xd0s?oc=5\" target=\"_blank\">Researchers Rediscover Fast-acting German Insecticide Lost in the Aftermath of WWII | Newswise</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Newswise</font>"
+      },
+      "source": {
+        "href": "https://www.newswise.com",
+        "title": "Newswise"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Support for Zika babies and their families - Trinidad Guardian",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Support for Zika babies and their families - Trinidad Guardian"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTWUzN3phU3BFX0JJS3BYTVlNd1JVbWt0N1Fxa2NqUVZuY3JUdERxVEpKU1BYWFRjSFlBWlAwOHE4dU9jWkVwQ2c4Q2dzSjdrdGtOOVNSLTV0N3lZMzVzVk1kaUQyUzVOd3EyTXItdC0ybjF1TVkxeDNoMjZGcTlZajR5UUkxTkpBcS1kMjZfOThudWRTNFQ5RjhuNA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTWUzN3phU3BFX0JJS3BYTVlNd1JVbWt0N1Fxa2NqUVZuY3JUdERxVEpKU1BYWFRjSFlBWlAwOHE4dU9jWkVwQ2c4Q2dzSjdrdGtOOVNSLTV0N3lZMzVzVk1kaUQyUzVOd3EyTXItdC0ybjF1TVkxeDNoMjZGcTlZajR5UUkxTkpBcS1kMjZfOThudWRTNFQ5RjhuNA?oc=5",
+      "id": "CBMimwFBVV95cUxNTWUzN3phU3BFX0JJS3BYTVlNd1JVbWt0N1Fxa2NqUVZuY3JUdERxVEpKU1BYWFRjSFlBWlAwOHE4dU9jWkVwQ2c4Q2dzSjdrdGtOOVNSLTV0N3lZMzVzVk1kaUQyUzVOd3EyTXItdC0ybjF1TVkxeDNoMjZGcTlZajR5UUkxTkpBcS1kMjZfOThudWRTNFQ5RjhuNA",
+      "guidislink": false,
+      "published": "Mon, 14 Oct 2019 04:45:04 GMT",
+      "published_parsed": [
+        2019,
+        10,
+        14,
+        4,
+        45,
+        4,
+        0,
+        287,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxNTWUzN3phU3BFX0JJS3BYTVlNd1JVbWt0N1Fxa2NqUVZuY3JUdERxVEpKU1BYWFRjSFlBWlAwOHE4dU9jWkVwQ2c4Q2dzSjdrdGtOOVNSLTV0N3lZMzVzVk1kaUQyUzVOd3EyTXItdC0ybjF1TVkxeDNoMjZGcTlZajR5UUkxTkpBcS1kMjZfOThudWRTNFQ5RjhuNA?oc=5\" target=\"_blank\">Support for Zika babies and their families</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Trinidad Guardian</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxNTWUzN3phU3BFX0JJS3BYTVlNd1JVbWt0N1Fxa2NqUVZuY3JUdERxVEpKU1BYWFRjSFlBWlAwOHE4dU9jWkVwQ2c4Q2dzSjdrdGtOOVNSLTV0N3lZMzVzVk1kaUQyUzVOd3EyTXItdC0ybjF1TVkxeDNoMjZGcTlZajR5UUkxTkpBcS1kMjZfOThudWRTNFQ5RjhuNA?oc=5\" target=\"_blank\">Support for Zika babies and their families</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Trinidad Guardian</font>"
+      },
+      "source": {
+        "href": "http://www.guardian.co.tt",
+        "title": "Trinidad Guardian"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Ministry confirms 30-year-old man in Perak has Zika - NST Online",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Ministry confirms 30-year-old man in Perak has Zika - NST Online"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNjU1dm0tRkIyNXhRVjM5UmNMNWN0NkVWMTVfVWtMdHhQQzl3SkF5Z19ydkJVRkVDSjQ1Nm91WGFmR3dXMjB5Nmx3NmxLZlFVZWhsMXBnT1ZxSlRJdFFVZ0dRYmZ4a1dpaktWUUp2Q2wybUdnSTI1U1JwYlM1Ri1scVJIZ1FZUEhzS0NJWDllU2MzZk9rZWhYWEtZSlpOLTTSAaQBQVVfeXFMUGNkcG9yOGFHaEJEMVJrQUhjZVVqS1RnMnZmcDlCM1JJTlBVNmFJazVkbU9Ua2lOT3NqT3BpUTBKUzJXTVJQLWNXUF9kZFhJUTdHN0RqeUhkS2d0dDJCVFRqdUpOeGFpamFIVEdDU2Q1U3RFR0ljZnFwYmQ5LUFwbnR6TF9Wejc3WUZPci1WMk9aRTdFd2ZzX2xkeDRXU1ZXYTRySG0?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNjU1dm0tRkIyNXhRVjM5UmNMNWN0NkVWMTVfVWtMdHhQQzl3SkF5Z19ydkJVRkVDSjQ1Nm91WGFmR3dXMjB5Nmx3NmxLZlFVZWhsMXBnT1ZxSlRJdFFVZ0dRYmZ4a1dpaktWUUp2Q2wybUdnSTI1U1JwYlM1Ri1scVJIZ1FZUEhzS0NJWDllU2MzZk9rZWhYWEtZSlpOLTTSAaQBQVVfeXFMUGNkcG9yOGFHaEJEMVJrQUhjZVVqS1RnMnZmcDlCM1JJTlBVNmFJazVkbU9Ua2lOT3NqT3BpUTBKUzJXTVJQLWNXUF9kZFhJUTdHN0RqeUhkS2d0dDJCVFRqdUpOeGFpamFIVEdDU2Q1U3RFR0ljZnFwYmQ5LUFwbnR6TF9Wejc3WUZPci1WMk9aRTdFd2ZzX2xkeDRXU1ZXYTRySG0?oc=5",
+      "id": "CBMinwFBVV95cUxQNjU1dm0tRkIyNXhRVjM5UmNMNWN0NkVWMTVfVWtMdHhQQzl3SkF5Z19ydkJVRkVDSjQ1Nm91WGFmR3dXMjB5Nmx3NmxLZlFVZWhsMXBnT1ZxSlRJdFFVZ0dRYmZ4a1dpaktWUUp2Q2wybUdnSTI1U1JwYlM1Ri1scVJIZ1FZUEhzS0NJWDllU2MzZk9rZWhYWEtZSlpOLTTSAaQBQVVfeXFMUGNkcG9yOGFHaEJEMVJrQUhjZVVqS1RnMnZmcDlCM1JJTlBVNmFJazVkbU9Ua2lOT3NqT3BpUTBKUzJXTVJQLWNXUF9kZFhJUTdHN0RqeUhkS2d0dDJCVFRqdUpOeGFpamFIVEdDU2Q1U3RFR0ljZnFwYmQ5LUFwbnR6TF9Wejc3WUZPci1WMk9aRTdFd2ZzX2xkeDRXU1ZXYTRySG0",
+      "guidislink": false,
+      "published": "Tue, 15 Oct 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        10,
+        15,
+        7,
+        0,
+        0,
+        1,
+        288,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQNjU1dm0tRkIyNXhRVjM5UmNMNWN0NkVWMTVfVWtMdHhQQzl3SkF5Z19ydkJVRkVDSjQ1Nm91WGFmR3dXMjB5Nmx3NmxLZlFVZWhsMXBnT1ZxSlRJdFFVZ0dRYmZ4a1dpaktWUUp2Q2wybUdnSTI1U1JwYlM1Ri1scVJIZ1FZUEhzS0NJWDllU2MzZk9rZWhYWEtZSlpOLTTSAaQBQVVfeXFMUGNkcG9yOGFHaEJEMVJrQUhjZVVqS1RnMnZmcDlCM1JJTlBVNmFJazVkbU9Ua2lOT3NqT3BpUTBKUzJXTVJQLWNXUF9kZFhJUTdHN0RqeUhkS2d0dDJCVFRqdUpOeGFpamFIVEdDU2Q1U3RFR0ljZnFwYmQ5LUFwbnR6TF9Wejc3WUZPci1WMk9aRTdFd2ZzX2xkeDRXU1ZXYTRySG0?oc=5\" target=\"_blank\">Ministry confirms 30-year-old man in Perak has Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NST Online</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQNjU1dm0tRkIyNXhRVjM5UmNMNWN0NkVWMTVfVWtMdHhQQzl3SkF5Z19ydkJVRkVDSjQ1Nm91WGFmR3dXMjB5Nmx3NmxLZlFVZWhsMXBnT1ZxSlRJdFFVZ0dRYmZ4a1dpaktWUUp2Q2wybUdnSTI1U1JwYlM1Ri1scVJIZ1FZUEhzS0NJWDllU2MzZk9rZWhYWEtZSlpOLTTSAaQBQVVfeXFMUGNkcG9yOGFHaEJEMVJrQUhjZVVqS1RnMnZmcDlCM1JJTlBVNmFJazVkbU9Ua2lOT3NqT3BpUTBKUzJXTVJQLWNXUF9kZFhJUTdHN0RqeUhkS2d0dDJCVFRqdUpOeGFpamFIVEdDU2Q1U3RFR0ljZnFwYmQ5LUFwbnR6TF9Wejc3WUZPci1WMk9aRTdFd2ZzX2xkeDRXU1ZXYTRySG0?oc=5\" target=\"_blank\">Ministry confirms 30-year-old man in Perak has Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NST Online</font>"
+      },
+      "source": {
+        "href": "https://www.nst.com.my",
+        "title": "NST Online"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Microcephaly data still to be gathered - Trinidad and Tobago Newsday",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Microcephaly data still to be gathered - Trinidad and Tobago Newsday"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4xa0VtNTB0dWg4ZV9zMTY1NEMxVzl2OUtYdDZuT0NkT0F3MWFka0RabE1XQ2xRdEVYRkpERGRSZWxwY05SWDJtVnlxVTBveUtOb1lCU3JNelBpY1BPMUFwSVloSTdPLWFLUnhhVk05OU1DdlVUdF9NTEJORTI?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4xa0VtNTB0dWg4ZV9zMTY1NEMxVzl2OUtYdDZuT0NkT0F3MWFka0RabE1XQ2xRdEVYRkpERGRSZWxwY05SWDJtVnlxVTBveUtOb1lCU3JNelBpY1BPMUFwSVloSTdPLWFLUnhhVk05OU1DdlVUdF9NTEJORTI?oc=5",
+      "id": "CBMifEFVX3lxTE4xa0VtNTB0dWg4ZV9zMTY1NEMxVzl2OUtYdDZuT0NkT0F3MWFka0RabE1XQ2xRdEVYRkpERGRSZWxwY05SWDJtVnlxVTBveUtOb1lCU3JNelBpY1BPMUFwSVloSTdPLWFLUnhhVk05OU1DdlVUdF9NTEJORTI",
+      "guidislink": false,
+      "published": "Tue, 22 Oct 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        10,
+        22,
+        7,
+        0,
+        0,
+        1,
+        295,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE4xa0VtNTB0dWg4ZV9zMTY1NEMxVzl2OUtYdDZuT0NkT0F3MWFka0RabE1XQ2xRdEVYRkpERGRSZWxwY05SWDJtVnlxVTBveUtOb1lCU3JNelBpY1BPMUFwSVloSTdPLWFLUnhhVk05OU1DdlVUdF9NTEJORTI?oc=5\" target=\"_blank\">Microcephaly data still to be gathered</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Trinidad and Tobago Newsday</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE4xa0VtNTB0dWg4ZV9zMTY1NEMxVzl2OUtYdDZuT0NkT0F3MWFka0RabE1XQ2xRdEVYRkpERGRSZWxwY05SWDJtVnlxVTBveUtOb1lCU3JNelBpY1BPMUFwSVloSTdPLWFLUnhhVk05OU1DdlVUdF9NTEJORTI?oc=5\" target=\"_blank\">Microcephaly data still to be gathered</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Trinidad and Tobago Newsday</font>"
+      },
+      "source": {
+        "href": "https://newsday.co.tt",
+        "title": "Trinidad and Tobago Newsday"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Florida's Miami-Dade County Placed Under Mosquito-borne Illness Alert - radiojamaicanewsonline.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Florida's Miami-Dade County Placed Under Mosquito-borne Illness Alert - radiojamaicanewsonline.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObnNyWFd6dl94eXJiVXp1RXcwWjhUNmhOZF9PalpjUFJwRjdWUklUZ3c4dTJJd25fNHhYZWk5ZXdLSWNUeEFzZHp3LTd6Z3pxRTNTXzVYeUVjaHNYYldYMklrWV8tc3NWX0xGQmFNajFCVWlwV0JZLUN5NFJJcklja2l1bEZUY2dvd2JWS211UDRJWjlOYnJFclNsSnNsRDA1N1htbHVxVjh1dC1oY3c?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObnNyWFd6dl94eXJiVXp1RXcwWjhUNmhOZF9PalpjUFJwRjdWUklUZ3c4dTJJd25fNHhYZWk5ZXdLSWNUeEFzZHp3LTd6Z3pxRTNTXzVYeUVjaHNYYldYMklrWV8tc3NWX0xGQmFNajFCVWlwV0JZLUN5NFJJcklja2l1bEZUY2dvd2JWS211UDRJWjlOYnJFclNsSnNsRDA1N1htbHVxVjh1dC1oY3c?oc=5",
+      "id": "CBMirgFBVV95cUxObnNyWFd6dl94eXJiVXp1RXcwWjhUNmhOZF9PalpjUFJwRjdWUklUZ3c4dTJJd25fNHhYZWk5ZXdLSWNUeEFzZHp3LTd6Z3pxRTNTXzVYeUVjaHNYYldYMklrWV8tc3NWX0xGQmFNajFCVWlwV0JZLUN5NFJJcklja2l1bEZUY2dvd2JWS211UDRJWjlOYnJFclNsSnNsRDA1N1htbHVxVjh1dC1oY3c",
+      "guidislink": false,
+      "published": "Fri, 11 Oct 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        10,
+        11,
+        7,
+        0,
+        0,
+        4,
+        284,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxObnNyWFd6dl94eXJiVXp1RXcwWjhUNmhOZF9PalpjUFJwRjdWUklUZ3c4dTJJd25fNHhYZWk5ZXdLSWNUeEFzZHp3LTd6Z3pxRTNTXzVYeUVjaHNYYldYMklrWV8tc3NWX0xGQmFNajFCVWlwV0JZLUN5NFJJcklja2l1bEZUY2dvd2JWS211UDRJWjlOYnJFclNsSnNsRDA1N1htbHVxVjh1dC1oY3c?oc=5\" target=\"_blank\">Florida's Miami-Dade County Placed Under Mosquito-borne Illness Alert</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">radiojamaicanewsonline.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxObnNyWFd6dl94eXJiVXp1RXcwWjhUNmhOZF9PalpjUFJwRjdWUklUZ3c4dTJJd25fNHhYZWk5ZXdLSWNUeEFzZHp3LTd6Z3pxRTNTXzVYeUVjaHNYYldYMklrWV8tc3NWX0xGQmFNajFCVWlwV0JZLUN5NFJJcklja2l1bEZUY2dvd2JWS211UDRJWjlOYnJFclNsSnNsRDA1N1htbHVxVjh1dC1oY3c?oc=5\" target=\"_blank\">Florida's Miami-Dade County Placed Under Mosquito-borne Illness Alert</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">radiojamaicanewsonline.com</font>"
+      },
+      "source": {
+        "href": "https://radiojamaicanewsonline.com",
+        "title": "radiojamaicanewsonline.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "October: ERC Synergy Grant Yamauchi | News and features - University of Bristol",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "October: ERC Synergy Grant Yamauchi | News and features - University of Bristol"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONnZlbWc2NF9TNWNTdUlpRUlFQkF2RjlsQTRnU0dQbFZEZ0c5M1U3QzJmcF82NWdMWnhWWHp6MkJaeDFBcG1JdWNQWEIwRTdYSGxaRTVqLTJHanJiaHZYNXhRU09PSDRiSXpmM21yaTlLSnVHWndMRkUydFNvVDVMVQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONnZlbWc2NF9TNWNTdUlpRUlFQkF2RjlsQTRnU0dQbFZEZ0c5M1U3QzJmcF82NWdMWnhWWHp6MkJaeDFBcG1JdWNQWEIwRTdYSGxaRTVqLTJHanJiaHZYNXhRU09PSDRiSXpmM21yaTlLSnVHWndMRkUydFNvVDVMVQ?oc=5",
+      "id": "CBMigAFBVV95cUxONnZlbWc2NF9TNWNTdUlpRUlFQkF2RjlsQTRnU0dQbFZEZ0c5M1U3QzJmcF82NWdMWnhWWHp6MkJaeDFBcG1JdWNQWEIwRTdYSGxaRTVqLTJHanJiaHZYNXhRU09PSDRiSXpmM21yaTlLSnVHWndMRkUydFNvVDVMVQ",
+      "guidislink": false,
+      "published": "Fri, 11 Oct 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        10,
+        11,
+        7,
+        0,
+        0,
+        4,
+        284,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxONnZlbWc2NF9TNWNTdUlpRUlFQkF2RjlsQTRnU0dQbFZEZ0c5M1U3QzJmcF82NWdMWnhWWHp6MkJaeDFBcG1JdWNQWEIwRTdYSGxaRTVqLTJHanJiaHZYNXhRU09PSDRiSXpmM21yaTlLSnVHWndMRkUydFNvVDVMVQ?oc=5\" target=\"_blank\">October: ERC Synergy Grant Yamauchi | News and features</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of Bristol</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxONnZlbWc2NF9TNWNTdUlpRUlFQkF2RjlsQTRnU0dQbFZEZ0c5M1U3QzJmcF82NWdMWnhWWHp6MkJaeDFBcG1JdWNQWEIwRTdYSGxaRTVqLTJHanJiaHZYNXhRU09PSDRiSXpmM21yaTlLSnVHWndMRkUydFNvVDVMVQ?oc=5\" target=\"_blank\">October: ERC Synergy Grant Yamauchi | News and features</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of Bristol</font>"
+      },
+      "source": {
+        "href": "https://www.bristol.ac.uk",
+        "title": "University of Bristol"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "MOH Signs MoU With RCSI & UCD Malaysia Campus For Doctors Training In Family Medicine - CodeBlue",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "MOH Signs MoU With RCSI & UCD Malaysia Campus For Doctors Training In Family Medicine - CodeBlue"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMWxhQmdEY0VlNTBtd2M5WVlCYV9hV3FMZjhueWhlSG12a2kwb3g5MXJtOTg5akNReHRwZ3hmVWluajV4cEFuY21LV2dDTDFpNGZTT3dVNFkwbW14YkNtUUZaZGhxR3dTYk54b04xM3Eya05nV3VTeFpNYzNzdnhodVRkZGZFcVgxSVVNbjI2X2U2T25tc21HdVM2Rm92c0dLQWhEZC03NnJkZ05JX3o0b0pINFhrUGZ4OHRQMlhTRHFEalE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMWxhQmdEY0VlNTBtd2M5WVlCYV9hV3FMZjhueWhlSG12a2kwb3g5MXJtOTg5akNReHRwZ3hmVWluajV4cEFuY21LV2dDTDFpNGZTT3dVNFkwbW14YkNtUUZaZGhxR3dTYk54b04xM3Eya05nV3VTeFpNYzNzdnhodVRkZGZFcVgxSVVNbjI2X2U2T25tc21HdVM2Rm92c0dLQWhEZC03NnJkZ05JX3o0b0pINFhrUGZ4OHRQMlhTRHFEalE?oc=5",
+      "id": "CBMiwwFBVV95cUxPMWxhQmdEY0VlNTBtd2M5WVlCYV9hV3FMZjhueWhlSG12a2kwb3g5MXJtOTg5akNReHRwZ3hmVWluajV4cEFuY21LV2dDTDFpNGZTT3dVNFkwbW14YkNtUUZaZGhxR3dTYk54b04xM3Eya05nV3VTeFpNYzNzdnhodVRkZGZFcVgxSVVNbjI2X2U2T25tc21HdVM2Rm92c0dLQWhEZC03NnJkZ05JX3o0b0pINFhrUGZ4OHRQMlhTRHFEalE",
+      "guidislink": false,
+      "published": "Tue, 22 Oct 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        10,
+        22,
+        7,
+        0,
+        0,
+        1,
+        295,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMWxhQmdEY0VlNTBtd2M5WVlCYV9hV3FMZjhueWhlSG12a2kwb3g5MXJtOTg5akNReHRwZ3hmVWluajV4cEFuY21LV2dDTDFpNGZTT3dVNFkwbW14YkNtUUZaZGhxR3dTYk54b04xM3Eya05nV3VTeFpNYzNzdnhodVRkZGZFcVgxSVVNbjI2X2U2T25tc21HdVM2Rm92c0dLQWhEZC03NnJkZ05JX3o0b0pINFhrUGZ4OHRQMlhTRHFEalE?oc=5\" target=\"_blank\">MOH Signs MoU With RCSI & UCD Malaysia Campus For Doctors Training In Family Medicine</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CodeBlue</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMWxhQmdEY0VlNTBtd2M5WVlCYV9hV3FMZjhueWhlSG12a2kwb3g5MXJtOTg5akNReHRwZ3hmVWluajV4cEFuY21LV2dDTDFpNGZTT3dVNFkwbW14YkNtUUZaZGhxR3dTYk54b04xM3Eya05nV3VTeFpNYzNzdnhodVRkZGZFcVgxSVVNbjI2X2U2T25tc21HdVM2Rm92c0dLQWhEZC03NnJkZ05JX3o0b0pINFhrUGZ4OHRQMlhTRHFEalE?oc=5\" target=\"_blank\">MOH Signs MoU With RCSI & UCD Malaysia Campus For Doctors Training In Family Medicine</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CodeBlue</font>"
+      },
+      "source": {
+        "href": "https://codeblue.galencentre.org",
+        "title": "CodeBlue"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Nisha Ayub Listed On BBC 100 Women 2019 - CodeBlue",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Nisha Ayub Listed On BBC 100 Women 2019 - CodeBlue"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWE5EcUhCWnduTmptUGQ4VlFsc1BvNEFSTTNEbkRXd01fVUlvY3Etb3lKWFF6TS1nQ2l1VFNQb2wzQy04Tm40clpsamZrRVBidG9VbnpRU0RNMExpaHEwNHpxVk1LUXg5VktRandBMG5zMzZHdG9vYTNaZlczbXhIb1dnUnNCYjZh?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWE5EcUhCWnduTmptUGQ4VlFsc1BvNEFSTTNEbkRXd01fVUlvY3Etb3lKWFF6TS1nQ2l1VFNQb2wzQy04Tm40clpsamZrRVBidG9VbnpRU0RNMExpaHEwNHpxVk1LUXg5VktRandBMG5zMzZHdG9vYTNaZlczbXhIb1dnUnNCYjZh?oc=5",
+      "id": "CBMiiAFBVV95cUxPWE5EcUhCWnduTmptUGQ4VlFsc1BvNEFSTTNEbkRXd01fVUlvY3Etb3lKWFF6TS1nQ2l1VFNQb2wzQy04Tm40clpsamZrRVBidG9VbnpRU0RNMExpaHEwNHpxVk1LUXg5VktRandBMG5zMzZHdG9vYTNaZlczbXhIb1dnUnNCYjZh",
+      "guidislink": false,
+      "published": "Wed, 16 Oct 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        10,
+        16,
+        7,
+        0,
+        0,
+        2,
+        289,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWE5EcUhCWnduTmptUGQ4VlFsc1BvNEFSTTNEbkRXd01fVUlvY3Etb3lKWFF6TS1nQ2l1VFNQb2wzQy04Tm40clpsamZrRVBidG9VbnpRU0RNMExpaHEwNHpxVk1LUXg5VktRandBMG5zMzZHdG9vYTNaZlczbXhIb1dnUnNCYjZh?oc=5\" target=\"_blank\">Nisha Ayub Listed On BBC 100 Women 2019</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CodeBlue</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWE5EcUhCWnduTmptUGQ4VlFsc1BvNEFSTTNEbkRXd01fVUlvY3Etb3lKWFF6TS1nQ2l1VFNQb2wzQy04Tm40clpsamZrRVBidG9VbnpRU0RNMExpaHEwNHpxVk1LUXg5VktRandBMG5zMzZHdG9vYTNaZlczbXhIb1dnUnNCYjZh?oc=5\" target=\"_blank\">Nisha Ayub Listed On BBC 100 Women 2019</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CodeBlue</font>"
+      },
+      "source": {
+        "href": "https://codeblue.galencentre.org",
+        "title": "CodeBlue"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Gopeesingh: Minister failed to change poor diabetes drug - Trinidad and Tobago Newsday",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Gopeesingh: Minister failed to change poor diabetes drug - Trinidad and Tobago Newsday"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSmp4YXJoTTEyenpMRUM1RGowai1iY1NJa2FyRFBBWXBPU3ZPTTlTZ3JYY1d0OFBPX2k5SUI2WWV0eFNCQnptVlRWM2NQUmVNSC1rbW95dFk1ZHVZaEdRWFFaX2ppTTVMWGRna29YWHFicjYzam10NmhvaEx3b2plUDhKOExkTGRJN2JFVWJ0NzlfTDQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSmp4YXJoTTEyenpMRUM1RGowai1iY1NJa2FyRFBBWXBPU3ZPTTlTZ3JYY1d0OFBPX2k5SUI2WWV0eFNCQnptVlRWM2NQUmVNSC1rbW95dFk1ZHVZaEdRWFFaX2ppTTVMWGRna29YWHFicjYzam10NmhvaEx3b2plUDhKOExkTGRJN2JFVWJ0NzlfTDQ?oc=5",
+      "id": "CBMikwFBVV95cUxPSmp4YXJoTTEyenpMRUM1RGowai1iY1NJa2FyRFBBWXBPU3ZPTTlTZ3JYY1d0OFBPX2k5SUI2WWV0eFNCQnptVlRWM2NQUmVNSC1rbW95dFk1ZHVZaEdRWFFaX2ppTTVMWGRna29YWHFicjYzam10NmhvaEx3b2plUDhKOExkTGRJN2JFVWJ0NzlfTDQ",
+      "guidislink": false,
+      "published": "Tue, 15 Oct 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        10,
+        15,
+        7,
+        0,
+        0,
+        1,
+        288,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxPSmp4YXJoTTEyenpMRUM1RGowai1iY1NJa2FyRFBBWXBPU3ZPTTlTZ3JYY1d0OFBPX2k5SUI2WWV0eFNCQnptVlRWM2NQUmVNSC1rbW95dFk1ZHVZaEdRWFFaX2ppTTVMWGRna29YWHFicjYzam10NmhvaEx3b2plUDhKOExkTGRJN2JFVWJ0NzlfTDQ?oc=5\" target=\"_blank\">Gopeesingh: Minister failed to change poor diabetes drug</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Trinidad and Tobago Newsday</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxPSmp4YXJoTTEyenpMRUM1RGowai1iY1NJa2FyRFBBWXBPU3ZPTTlTZ3JYY1d0OFBPX2k5SUI2WWV0eFNCQnptVlRWM2NQUmVNSC1rbW95dFk1ZHVZaEdRWFFaX2ppTTVMWGRna29YWHFicjYzam10NmhvaEx3b2plUDhKOExkTGRJN2JFVWJ0NzlfTDQ?oc=5\" target=\"_blank\">Gopeesingh: Minister failed to change poor diabetes drug</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Trinidad and Tobago Newsday</font>"
+      },
+      "source": {
+        "href": "https://newsday.co.tt",
+        "title": "Trinidad and Tobago Newsday"
+      },
+      "sub_articles": []
+    }
+  ]
+}

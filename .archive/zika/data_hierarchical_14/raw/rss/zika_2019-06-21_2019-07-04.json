@@ -1,0 +1,779 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2019-06-21",
+  "window_end": "2019-07-04",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2019-06-21+before%3A2019-07-05&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2019-06-21+before:2019-07-05&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:26:57Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2019-06-21 before:2019-07-05\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2019-06-21 before:2019-07-05\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2019-06-21+before:2019-07-05&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2019-06-21+before:2019-07-05&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:26:57 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      26,
+      57,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "The Zika Virus Is Still a Threat. Here’s What the Experts Know. (Published 2019) - The New York Times",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "The Zika Virus Is Still a Threat. Here’s What the Experts Know. (Published 2019) - The New York Times"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1KZkNnRVdMeTNqa0VtblViQlNEaTNaZ19VQUZXQlI4Z2Y5MExuOGtJUkx2YVYwTEhOcE9rQ1d5a05jVmpCMGdIMGs0QjA3NHVWeG1tdGY4akNBV2QteDFyQ2o4d2dfLWNx?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1KZkNnRVdMeTNqa0VtblViQlNEaTNaZ19VQUZXQlI4Z2Y5MExuOGtJUkx2YVYwTEhOcE9rQ1d5a05jVmpCMGdIMGs0QjA3NHVWeG1tdGY4akNBV2QteDFyQ2o4d2dfLWNx?oc=5",
+      "id": "CBMiaEFVX3lxTE1KZkNnRVdMeTNqa0VtblViQlNEaTNaZ19VQUZXQlI4Z2Y5MExuOGtJUkx2YVYwTEhOcE9rQ1d5a05jVmpCMGdIMGs0QjA3NHVWeG1tdGY4akNBV2QteDFyQ2o4d2dfLWNx",
+      "guidislink": false,
+      "published": "Tue, 02 Jul 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        7,
+        2,
+        7,
+        0,
+        0,
+        1,
+        183,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE1KZkNnRVdMeTNqa0VtblViQlNEaTNaZ19VQUZXQlI4Z2Y5MExuOGtJUkx2YVYwTEhOcE9rQ1d5a05jVmpCMGdIMGs0QjA3NHVWeG1tdGY4akNBV2QteDFyQ2o4d2dfLWNx?oc=5\" target=\"_blank\">The Zika Virus Is Still a Threat. Here’s What the Experts Know. (Published 2019)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New York Times</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE1KZkNnRVdMeTNqa0VtblViQlNEaTNaZ19VQUZXQlI4Z2Y5MExuOGtJUkx2YVYwTEhOcE9rQ1d5a05jVmpCMGdIMGs0QjA3NHVWeG1tdGY4akNBV2QteDFyQ2o4d2dfLWNx?oc=5\" target=\"_blank\">The Zika Virus Is Still a Threat. Here’s What the Experts Know. (Published 2019)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New York Times</font>"
+      },
+      "source": {
+        "href": "https://www.nytimes.com",
+        "title": "The New York Times"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "More Nitrogen in Mosquito Diet Reduces Its Ability to Transmit Zika | Newswise - Newswise",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "More Nitrogen in Mosquito Diet Reduces Its Ability to Transmit Zika | Newswise - Newswise"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObUZscDl5Tk5zMmlWamFqeVNOZTVfMWJ2WDRscmtvTWVrMUdvZkhuUUt0aTlHb3hQZUFFQ2Vmbmt1UmlPcGhiZGVCYV9samlaSEx0aHFnNjlxczk1Z0tjbW5RS1V6eFNCV1BFQmxDdGVQbURsYVlmQTlxOE4tNXR1NmVKYzBiTVBZWTNKc296S193eUVzX1VkSmNhVmRKTXBLMHRv0gGjAUFVX3lxTE5tRmxwOXlOTnMyaVZqYWp5U05lNV8xYnZYNGxya29NZWsxR29mSG5RS3RpOUdveFBlQUVDZWZua3VSaU9waGJkZUJhX2xqaVpITHRocWc2OXFzOTVnS2NtblFLVXp4U0JXUEVCbEN0ZVBtRGxhWWZBOXE4Ti01dHU2ZUpjMGJNUFlZM0pzb3pLX3d5RXNfVWRKY2FWZEpNcEswdG8?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObUZscDl5Tk5zMmlWamFqeVNOZTVfMWJ2WDRscmtvTWVrMUdvZkhuUUt0aTlHb3hQZUFFQ2Vmbmt1UmlPcGhiZGVCYV9samlaSEx0aHFnNjlxczk1Z0tjbW5RS1V6eFNCV1BFQmxDdGVQbURsYVlmQTlxOE4tNXR1NmVKYzBiTVBZWTNKc296S193eUVzX1VkSmNhVmRKTXBLMHRv0gGjAUFVX3lxTE5tRmxwOXlOTnMyaVZqYWp5U05lNV8xYnZYNGxya29NZWsxR29mSG5RS3RpOUdveFBlQUVDZWZua3VSaU9waGJkZUJhX2xqaVpITHRocWc2OXFzOTVnS2NtblFLVXp4U0JXUEVCbEN0ZVBtRGxhWWZBOXE4Ti01dHU2ZUpjMGJNUFlZM0pzb3pLX3d5RXNfVWRKY2FWZEpNcEswdG8?oc=5",
+      "id": "CBMiowFBVV95cUxObUZscDl5Tk5zMmlWamFqeVNOZTVfMWJ2WDRscmtvTWVrMUdvZkhuUUt0aTlHb3hQZUFFQ2Vmbmt1UmlPcGhiZGVCYV9samlaSEx0aHFnNjlxczk1Z0tjbW5RS1V6eFNCV1BFQmxDdGVQbURsYVlmQTlxOE4tNXR1NmVKYzBiTVBZWTNKc296S193eUVzX1VkSmNhVmRKTXBLMHRv0gGjAUFVX3lxTE5tRmxwOXlOTnMyaVZqYWp5U05lNV8xYnZYNGxya29NZWsxR29mSG5RS3RpOUdveFBlQUVDZWZua3VSaU9waGJkZUJhX2xqaVpITHRocWc2OXFzOTVnS2NtblFLVXp4U0JXUEVCbEN0ZVBtRGxhWWZBOXE4Ti01dHU2ZUpjMGJNUFlZM0pzb3pLX3d5RXNfVWRKY2FWZEpNcEswdG8",
+      "guidislink": false,
+      "published": "Mon, 24 Jun 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        6,
+        24,
+        7,
+        0,
+        0,
+        0,
+        175,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxObUZscDl5Tk5zMmlWamFqeVNOZTVfMWJ2WDRscmtvTWVrMUdvZkhuUUt0aTlHb3hQZUFFQ2Vmbmt1UmlPcGhiZGVCYV9samlaSEx0aHFnNjlxczk1Z0tjbW5RS1V6eFNCV1BFQmxDdGVQbURsYVlmQTlxOE4tNXR1NmVKYzBiTVBZWTNKc296S193eUVzX1VkSmNhVmRKTXBLMHRv0gGjAUFVX3lxTE5tRmxwOXlOTnMyaVZqYWp5U05lNV8xYnZYNGxya29NZWsxR29mSG5RS3RpOUdveFBlQUVDZWZua3VSaU9waGJkZUJhX2xqaVpITHRocWc2OXFzOTVnS2NtblFLVXp4U0JXUEVCbEN0ZVBtRGxhWWZBOXE4Ti01dHU2ZUpjMGJNUFlZM0pzb3pLX3d5RXNfVWRKY2FWZEpNcEswdG8?oc=5\" target=\"_blank\">More Nitrogen in Mosquito Diet Reduces Its Ability to Transmit Zika | Newswise</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Newswise</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxObUZscDl5Tk5zMmlWamFqeVNOZTVfMWJ2WDRscmtvTWVrMUdvZkhuUUt0aTlHb3hQZUFFQ2Vmbmt1UmlPcGhiZGVCYV9samlaSEx0aHFnNjlxczk1Z0tjbW5RS1V6eFNCV1BFQmxDdGVQbURsYVlmQTlxOE4tNXR1NmVKYzBiTVBZWTNKc296S193eUVzX1VkSmNhVmRKTXBLMHRv0gGjAUFVX3lxTE5tRmxwOXlOTnMyaVZqYWp5U05lNV8xYnZYNGxya29NZWsxR29mSG5RS3RpOUdveFBlQUVDZWZua3VSaU9waGJkZUJhX2xqaVpITHRocWc2OXFzOTVnS2NtblFLVXp4U0JXUEVCbEN0ZVBtRGxhWWZBOXE4Ti01dHU2ZUpjMGJNUFlZM0pzb3pLX3d5RXNfVWRKY2FWZEpNcEswdG8?oc=5\" target=\"_blank\">More Nitrogen in Mosquito Diet Reduces Its Ability to Transmit Zika | Newswise</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Newswise</font>"
+      },
+      "source": {
+        "href": "https://www.newswise.com",
+        "title": "Newswise"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Could researchers tackle two mosquito-borne viruses with one vaccine? - YaleNews",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Could researchers tackle two mosquito-borne viruses with one vaccine? - YaleNews"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRS1BZ3BVNmlFdWJKak1HOVNJMHdYUEZZOXItSDF3eU5YdDFUVkVuLWVhS0FCUF9pQlR1RFJvdkpnWndVSEozdXhjVkhkT2h3M3U3a0Zma2dWZUVPVWVMN3NPSWRlalNsNlRXd040dDBoQW9ZN3ZqWHZqUGFwN3NWRnBtMTREOVdKcFc5akRseEFKa2tRUEVvU0tHeUU?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRS1BZ3BVNmlFdWJKak1HOVNJMHdYUEZZOXItSDF3eU5YdDFUVkVuLWVhS0FCUF9pQlR1RFJvdkpnWndVSEozdXhjVkhkT2h3M3U3a0Zma2dWZUVPVWVMN3NPSWRlalNsNlRXd040dDBoQW9ZN3ZqWHZqUGFwN3NWRnBtMTREOVdKcFc5akRseEFKa2tRUEVvU0tHeUU?oc=5",
+      "id": "CBMinAFBVV95cUxNRS1BZ3BVNmlFdWJKak1HOVNJMHdYUEZZOXItSDF3eU5YdDFUVkVuLWVhS0FCUF9pQlR1RFJvdkpnWndVSEozdXhjVkhkT2h3M3U3a0Zma2dWZUVPVWVMN3NPSWRlalNsNlRXd040dDBoQW9ZN3ZqWHZqUGFwN3NWRnBtMTREOVdKcFc5akRseEFKa2tRUEVvU0tHeUU",
+      "guidislink": false,
+      "published": "Fri, 28 Jun 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        6,
+        28,
+        7,
+        0,
+        0,
+        4,
+        179,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxNRS1BZ3BVNmlFdWJKak1HOVNJMHdYUEZZOXItSDF3eU5YdDFUVkVuLWVhS0FCUF9pQlR1RFJvdkpnWndVSEozdXhjVkhkT2h3M3U3a0Zma2dWZUVPVWVMN3NPSWRlalNsNlRXd040dDBoQW9ZN3ZqWHZqUGFwN3NWRnBtMTREOVdKcFc5akRseEFKa2tRUEVvU0tHeUU?oc=5\" target=\"_blank\">Could researchers tackle two mosquito-borne viruses with one vaccine?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">YaleNews</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxNRS1BZ3BVNmlFdWJKak1HOVNJMHdYUEZZOXItSDF3eU5YdDFUVkVuLWVhS0FCUF9pQlR1RFJvdkpnWndVSEozdXhjVkhkT2h3M3U3a0Zma2dWZUVPVWVMN3NPSWRlalNsNlRXd040dDBoQW9ZN3ZqWHZqUGFwN3NWRnBtMTREOVdKcFc5akRseEFKa2tRUEVvU0tHeUU?oc=5\" target=\"_blank\">Could researchers tackle two mosquito-borne viruses with one vaccine?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">YaleNews</font>"
+      },
+      "source": {
+        "href": "https://news.yale.edu",
+        "title": "YaleNews"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "What You Need to Know About the Zika Virus and Travel (Published 2019) - The New York Times",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "What You Need to Know About the Zika Virus and Travel (Published 2019) - The New York Times"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTm9wSUZrWXhuSnJoNlA0ZXFRVWxlN0tZbWg1Ulc3VkdrcEVPLVZnUkNkUDd4aEoxeU1BOEFnZWZLTlJ2UUVBdEJfWXVqUEhnS3RhTVBISEpCc0VCRkYteDJDTDBYUGhJX0ZqRVlPS1ExZ2RQWEpGQlpVVFRlenQ2eUJ3?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTm9wSUZrWXhuSnJoNlA0ZXFRVWxlN0tZbWg1Ulc3VkdrcEVPLVZnUkNkUDd4aEoxeU1BOEFnZWZLTlJ2UUVBdEJfWXVqUEhnS3RhTVBISEpCc0VCRkYteDJDTDBYUGhJX0ZqRVlPS1ExZ2RQWEpGQlpVVFRlenQ2eUJ3?oc=5",
+      "id": "CBMiggFBVV95cUxNTm9wSUZrWXhuSnJoNlA0ZXFRVWxlN0tZbWg1Ulc3VkdrcEVPLVZnUkNkUDd4aEoxeU1BOEFnZWZLTlJ2UUVBdEJfWXVqUEhnS3RhTVBISEpCc0VCRkYteDJDTDBYUGhJX0ZqRVlPS1ExZ2RQWEpGQlpVVFRlenQ2eUJ3",
+      "guidislink": false,
+      "published": "Tue, 02 Jul 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        7,
+        2,
+        7,
+        0,
+        0,
+        1,
+        183,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxNTm9wSUZrWXhuSnJoNlA0ZXFRVWxlN0tZbWg1Ulc3VkdrcEVPLVZnUkNkUDd4aEoxeU1BOEFnZWZLTlJ2UUVBdEJfWXVqUEhnS3RhTVBISEpCc0VCRkYteDJDTDBYUGhJX0ZqRVlPS1ExZ2RQWEpGQlpVVFRlenQ2eUJ3?oc=5\" target=\"_blank\">What You Need to Know About the Zika Virus and Travel (Published 2019)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New York Times</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxNTm9wSUZrWXhuSnJoNlA0ZXFRVWxlN0tZbWg1Ulc3VkdrcEVPLVZnUkNkUDd4aEoxeU1BOEFnZWZLTlJ2UUVBdEJfWXVqUEhnS3RhTVBISEpCc0VCRkYteDJDTDBYUGhJX0ZqRVlPS1ExZ2RQWEpGQlpVVFRlenQ2eUJ3?oc=5\" target=\"_blank\">What You Need to Know About the Zika Virus and Travel (Published 2019)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New York Times</font>"
+      },
+      "source": {
+        "href": "https://www.nytimes.com",
+        "title": "The New York Times"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "This Local Mosquito Researcher Is Trying To Build A Bug That Doesn’t Bite - DCist",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "This Local Mosquito Researcher Is Trying To Build A Bug That Doesn’t Bite - DCist"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPanpoSEt5M0FzUHloZ0xHdlRKTUo5bXN5LS1TbGE2ZWlWNVlGN1VSX0dJbWRHS2Nhcl9PTERXWDhMcm1XU21wOHVXV0ZkT1VOUVpjRzI3SjFOTExmeS1HcDVCVHo0UXVuLV92Z2dFMWR0V2VmWkJnVW5tZGd3YldmOXR1S2cxX3dDZVJjYlZjemN0UkFfekYzOUd4MWNLb1VqYmJ4Q3MtRk1RUQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPanpoSEt5M0FzUHloZ0xHdlRKTUo5bXN5LS1TbGE2ZWlWNVlGN1VSX0dJbWRHS2Nhcl9PTERXWDhMcm1XU21wOHVXV0ZkT1VOUVpjRzI3SjFOTExmeS1HcDVCVHo0UXVuLV92Z2dFMWR0V2VmWkJnVW5tZGd3YldmOXR1S2cxX3dDZVJjYlZjemN0UkFfekYzOUd4MWNLb1VqYmJ4Q3MtRk1RUQ?oc=5",
+      "id": "CBMiqgFBVV95cUxPanpoSEt5M0FzUHloZ0xHdlRKTUo5bXN5LS1TbGE2ZWlWNVlGN1VSX0dJbWRHS2Nhcl9PTERXWDhMcm1XU21wOHVXV0ZkT1VOUVpjRzI3SjFOTExmeS1HcDVCVHo0UXVuLV92Z2dFMWR0V2VmWkJnVW5tZGd3YldmOXR1S2cxX3dDZVJjYlZjemN0UkFfekYzOUd4MWNLb1VqYmJ4Q3MtRk1RUQ",
+      "guidislink": false,
+      "published": "Wed, 26 Jun 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        6,
+        26,
+        7,
+        0,
+        0,
+        2,
+        177,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxPanpoSEt5M0FzUHloZ0xHdlRKTUo5bXN5LS1TbGE2ZWlWNVlGN1VSX0dJbWRHS2Nhcl9PTERXWDhMcm1XU21wOHVXV0ZkT1VOUVpjRzI3SjFOTExmeS1HcDVCVHo0UXVuLV92Z2dFMWR0V2VmWkJnVW5tZGd3YldmOXR1S2cxX3dDZVJjYlZjemN0UkFfekYzOUd4MWNLb1VqYmJ4Q3MtRk1RUQ?oc=5\" target=\"_blank\">This Local Mosquito Researcher Is Trying To Build A Bug That Doesn’t Bite</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">DCist</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxPanpoSEt5M0FzUHloZ0xHdlRKTUo5bXN5LS1TbGE2ZWlWNVlGN1VSX0dJbWRHS2Nhcl9PTERXWDhMcm1XU21wOHVXV0ZkT1VOUVpjRzI3SjFOTExmeS1HcDVCVHo0UXVuLV92Z2dFMWR0V2VmWkJnVW5tZGd3YldmOXR1S2cxX3dDZVJjYlZjemN0UkFfekYzOUd4MWNLb1VqYmJ4Q3MtRk1RUQ?oc=5\" target=\"_blank\">This Local Mosquito Researcher Is Trying To Build A Bug That Doesn’t Bite</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">DCist</font>"
+      },
+      "source": {
+        "href": "https://dcist.com",
+        "title": "DCist"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika has arrived in Israel too; need we be worried? - The Jerusalem Post",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika has arrived in Israel too; need we be worried? - The Jerusalem Post"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeTAxUnJKZF9WSTV0alptMVVza1l3dVZLYkJ6VDRhWWJtaHFIbEkyUWFicS1EZXpXSmNOOEM5ZUdVNFlvdEQ4RXFtNFhpWFJpOEh1Sl9kblY1Y3NHaTJFZ0FxNktpNHpzY0JGc1FaUF9JdHdmZ2UxNlBEQzRkNUtyNEVnQmtvTURvOXpJQlFMc1NpNWpMcXoxeA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeTAxUnJKZF9WSTV0alptMVVza1l3dVZLYkJ6VDRhWWJtaHFIbEkyUWFicS1EZXpXSmNOOEM5ZUdVNFlvdEQ4RXFtNFhpWFJpOEh1Sl9kblY1Y3NHaTJFZ0FxNktpNHpzY0JGc1FaUF9JdHdmZ2UxNlBEQzRkNUtyNEVnQmtvTURvOXpJQlFMc1NpNWpMcXoxeA?oc=5",
+      "id": "CBMimAFBVV95cUxNeTAxUnJKZF9WSTV0alptMVVza1l3dVZLYkJ6VDRhWWJtaHFIbEkyUWFicS1EZXpXSmNOOEM5ZUdVNFlvdEQ4RXFtNFhpWFJpOEh1Sl9kblY1Y3NHaTJFZ0FxNktpNHpzY0JGc1FaUF9JdHdmZ2UxNlBEQzRkNUtyNEVnQmtvTURvOXpJQlFMc1NpNWpMcXoxeA",
+      "guidislink": false,
+      "published": "Thu, 27 Jun 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        6,
+        27,
+        7,
+        0,
+        0,
+        3,
+        178,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxNeTAxUnJKZF9WSTV0alptMVVza1l3dVZLYkJ6VDRhWWJtaHFIbEkyUWFicS1EZXpXSmNOOEM5ZUdVNFlvdEQ4RXFtNFhpWFJpOEh1Sl9kblY1Y3NHaTJFZ0FxNktpNHpzY0JGc1FaUF9JdHdmZ2UxNlBEQzRkNUtyNEVnQmtvTURvOXpJQlFMc1NpNWpMcXoxeA?oc=5\" target=\"_blank\">Zika has arrived in Israel too; need we be worried?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Jerusalem Post</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxNeTAxUnJKZF9WSTV0alptMVVza1l3dVZLYkJ6VDRhWWJtaHFIbEkyUWFicS1EZXpXSmNOOEM5ZUdVNFlvdEQ4RXFtNFhpWFJpOEh1Sl9kblY1Y3NHaTJFZ0FxNktpNHpzY0JGc1FaUF9JdHdmZ2UxNlBEQzRkNUtyNEVnQmtvTURvOXpJQlFMc1NpNWpMcXoxeA?oc=5\" target=\"_blank\">Zika has arrived in Israel too; need we be worried?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Jerusalem Post</font>"
+      },
+      "source": {
+        "href": "https://www.jpost.com",
+        "title": "The Jerusalem Post"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Best of the pest: Barksdale pest management gears up for summer - barksdale.af.mil",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Best of the pest: Barksdale pest management gears up for summer - barksdale.af.mil"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSnltSXlqbzk1TE1MLWxRTEl2Ti03c3NscEtUV2d1c0xYdXVNb3FTUVFBbVBVZFhNNktwUlRXR0FqV1lEQndVZzBoOUVMLUNUcWlQei1OUm11MnlzbmI5YkNIMWNZZDQyWjhDYndvY3RBb2UyT2VHYldUb29UcE5wRWM5SGRpTjhDeTBhZDg2NzJtcmJhVjVYSHU4QklhUkpxd01ScWFhdlNTaHQ1dkZxNTVydzNCM2oySko2bnB3?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSnltSXlqbzk1TE1MLWxRTEl2Ti03c3NscEtUV2d1c0xYdXVNb3FTUVFBbVBVZFhNNktwUlRXR0FqV1lEQndVZzBoOUVMLUNUcWlQei1OUm11MnlzbmI5YkNIMWNZZDQyWjhDYndvY3RBb2UyT2VHYldUb29UcE5wRWM5SGRpTjhDeTBhZDg2NzJtcmJhVjVYSHU4QklhUkpxd01ScWFhdlNTaHQ1dkZxNTVydzNCM2oySko2bnB3?oc=5",
+      "id": "CBMivgFBVV95cUxPSnltSXlqbzk1TE1MLWxRTEl2Ti03c3NscEtUV2d1c0xYdXVNb3FTUVFBbVBVZFhNNktwUlRXR0FqV1lEQndVZzBoOUVMLUNUcWlQei1OUm11MnlzbmI5YkNIMWNZZDQyWjhDYndvY3RBb2UyT2VHYldUb29UcE5wRWM5SGRpTjhDeTBhZDg2NzJtcmJhVjVYSHU4QklhUkpxd01ScWFhdlNTaHQ1dkZxNTVydzNCM2oySko2bnB3",
+      "guidislink": false,
+      "published": "Wed, 03 Jul 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        7,
+        3,
+        7,
+        0,
+        0,
+        2,
+        184,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPSnltSXlqbzk1TE1MLWxRTEl2Ti03c3NscEtUV2d1c0xYdXVNb3FTUVFBbVBVZFhNNktwUlRXR0FqV1lEQndVZzBoOUVMLUNUcWlQei1OUm11MnlzbmI5YkNIMWNZZDQyWjhDYndvY3RBb2UyT2VHYldUb29UcE5wRWM5SGRpTjhDeTBhZDg2NzJtcmJhVjVYSHU4QklhUkpxd01ScWFhdlNTaHQ1dkZxNTVydzNCM2oySko2bnB3?oc=5\" target=\"_blank\">Best of the pest: Barksdale pest management gears up for summer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">barksdale.af.mil</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPSnltSXlqbzk1TE1MLWxRTEl2Ti03c3NscEtUV2d1c0xYdXVNb3FTUVFBbVBVZFhNNktwUlRXR0FqV1lEQndVZzBoOUVMLUNUcWlQei1OUm11MnlzbmI5YkNIMWNZZDQyWjhDYndvY3RBb2UyT2VHYldUb29UcE5wRWM5SGRpTjhDeTBhZDg2NzJtcmJhVjVYSHU4QklhUkpxd01ScWFhdlNTaHQ1dkZxNTVydzNCM2oySko2bnB3?oc=5\" target=\"_blank\">Best of the pest: Barksdale pest management gears up for summer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">barksdale.af.mil</font>"
+      },
+      "source": {
+        "href": "https://www.barksdale.af.mil",
+        "title": "barksdale.af.mil"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Immunotherapy Targets Emerging Infectious Diseases - Genetic Engineering and Biotechnology News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Immunotherapy Targets Emerging Infectious Diseases - Genetic Engineering and Biotechnology News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaXNxNkx2bW5JTnhGSWNiTklZNGtTU2pBYUwyZTBxMHVFWm1vYUxQT0t4bTlHeG9wUTZjTWVya2poWV9lUnhyUm1Jb2Y1YkI1czlUOXVkOHl4WVBLQkkwSWJPVVRaaGJDdHI5b1lYOGtkTllTa3BUb1FkMDF1LXhnTUlpeGk4eEo4d0hBR0Vqcy0?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaXNxNkx2bW5JTnhGSWNiTklZNGtTU2pBYUwyZTBxMHVFWm1vYUxQT0t4bTlHeG9wUTZjTWVya2poWV9lUnhyUm1Jb2Y1YkI1czlUOXVkOHl4WVBLQkkwSWJPVVRaaGJDdHI5b1lYOGtkTllTa3BUb1FkMDF1LXhnTUlpeGk4eEo4d0hBR0Vqcy0?oc=5",
+      "id": "CBMikAFBVV95cUxQaXNxNkx2bW5JTnhGSWNiTklZNGtTU2pBYUwyZTBxMHVFWm1vYUxQT0t4bTlHeG9wUTZjTWVya2poWV9lUnhyUm1Jb2Y1YkI1czlUOXVkOHl4WVBLQkkwSWJPVVRaaGJDdHI5b1lYOGtkTllTa3BUb1FkMDF1LXhnTUlpeGk4eEo4d0hBR0Vqcy0",
+      "guidislink": false,
+      "published": "Mon, 01 Jul 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        7,
+        1,
+        7,
+        0,
+        0,
+        0,
+        182,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxQaXNxNkx2bW5JTnhGSWNiTklZNGtTU2pBYUwyZTBxMHVFWm1vYUxQT0t4bTlHeG9wUTZjTWVya2poWV9lUnhyUm1Jb2Y1YkI1czlUOXVkOHl4WVBLQkkwSWJPVVRaaGJDdHI5b1lYOGtkTllTa3BUb1FkMDF1LXhnTUlpeGk4eEo4d0hBR0Vqcy0?oc=5\" target=\"_blank\">Immunotherapy Targets Emerging Infectious Diseases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Genetic Engineering and Biotechnology News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxQaXNxNkx2bW5JTnhGSWNiTklZNGtTU2pBYUwyZTBxMHVFWm1vYUxQT0t4bTlHeG9wUTZjTWVya2poWV9lUnhyUm1Jb2Y1YkI1czlUOXVkOHl4WVBLQkkwSWJPVVRaaGJDdHI5b1lYOGtkTllTa3BUb1FkMDF1LXhnTUlpeGk4eEo4d0hBR0Vqcy0?oc=5\" target=\"_blank\">Immunotherapy Targets Emerging Infectious Diseases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Genetic Engineering and Biotechnology News</font>"
+      },
+      "source": {
+        "href": "https://www.genengnews.com",
+        "title": "Genetic Engineering and Biotechnology News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zapping Zika in the brain | Research | NTU Singapore - Nanyang Technological University - NTU Singapore",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zapping Zika in the brain | Research | NTU Singapore - Nanyang Technological University - NTU Singapore"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVE1laVBMRlBSbUgxUDc4T0gzYnBYM1FvOUNkRFJfUGJ0Nm85aTVPY2ZZVVl3aVdKeWVqc2M2UFZSOGp2YWtyRkY5Zko1WHJZRmdNaGk3bS04di1HSGhQekF3M0lUUV9rb3YwZVZwdURIVFNLcTZMQmwxQlM5TG8yRDBQeTBFelcyMmc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVE1laVBMRlBSbUgxUDc4T0gzYnBYM1FvOUNkRFJfUGJ0Nm85aTVPY2ZZVVl3aVdKeWVqc2M2UFZSOGp2YWtyRkY5Zko1WHJZRmdNaGk3bS04di1HSGhQekF3M0lUUV9rb3YwZVZwdURIVFNLcTZMQmwxQlM5TG8yRDBQeTBFelcyMmc?oc=5",
+      "id": "CBMiigFBVV95cUxOVE1laVBMRlBSbUgxUDc4T0gzYnBYM1FvOUNkRFJfUGJ0Nm85aTVPY2ZZVVl3aVdKeWVqc2M2UFZSOGp2YWtyRkY5Zko1WHJZRmdNaGk3bS04di1HSGhQekF3M0lUUV9rb3YwZVZwdURIVFNLcTZMQmwxQlM5TG8yRDBQeTBFelcyMmc",
+      "guidislink": false,
+      "published": "Fri, 21 Jun 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        6,
+        21,
+        7,
+        0,
+        0,
+        4,
+        172,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxOVE1laVBMRlBSbUgxUDc4T0gzYnBYM1FvOUNkRFJfUGJ0Nm85aTVPY2ZZVVl3aVdKeWVqc2M2UFZSOGp2YWtyRkY5Zko1WHJZRmdNaGk3bS04di1HSGhQekF3M0lUUV9rb3YwZVZwdURIVFNLcTZMQmwxQlM5TG8yRDBQeTBFelcyMmc?oc=5\" target=\"_blank\">Zapping Zika in the brain | Research | NTU Singapore</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nanyang Technological University - NTU Singapore</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxOVE1laVBMRlBSbUgxUDc4T0gzYnBYM1FvOUNkRFJfUGJ0Nm85aTVPY2ZZVVl3aVdKeWVqc2M2UFZSOGp2YWtyRkY5Zko1WHJZRmdNaGk3bS04di1HSGhQekF3M0lUUV9rb3YwZVZwdURIVFNLcTZMQmwxQlM5TG8yRDBQeTBFelcyMmc?oc=5\" target=\"_blank\">Zapping Zika in the brain | Research | NTU Singapore</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nanyang Technological University - NTU Singapore</font>"
+      },
+      "source": {
+        "href": "https://www.ntu.edu.sg",
+        "title": "Nanyang Technological University - NTU Singapore"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Invasive Mosquitoes Pose New Threat to South Pasadena - The South Pasadenan",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Invasive Mosquitoes Pose New Threat to South Pasadena - The South Pasadenan"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZ2ZnOFRXS1haSWRUR1lseWw2aXlIS1BZLWpHR3duTjNWSl9fSjQzakhzcGRwMXEyeTQxTHdlODRzRE5qZ0NaV0U0bGZXZHJ5emdZRTc0NC1aYTZWX3VSbkx3VzNheFpWZURHdHF2TkNLeVg1ZHVSSjE2cld0c0VpcW5VWUJYYkFz?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZ2ZnOFRXS1haSWRUR1lseWw2aXlIS1BZLWpHR3duTjNWSl9fSjQzakhzcGRwMXEyeTQxTHdlODRzRE5qZ0NaV0U0bGZXZHJ5emdZRTc0NC1aYTZWX3VSbkx3VzNheFpWZURHdHF2TkNLeVg1ZHVSSjE2cld0c0VpcW5VWUJYYkFz?oc=5",
+      "id": "CBMiiAFBVV95cUxNZ2ZnOFRXS1haSWRUR1lseWw2aXlIS1BZLWpHR3duTjNWSl9fSjQzakhzcGRwMXEyeTQxTHdlODRzRE5qZ0NaV0U0bGZXZHJ5emdZRTc0NC1aYTZWX3VSbkx3VzNheFpWZURHdHF2TkNLeVg1ZHVSSjE2cld0c0VpcW5VWUJYYkFz",
+      "guidislink": false,
+      "published": "Fri, 21 Jun 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        6,
+        21,
+        7,
+        0,
+        0,
+        4,
+        172,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZ2ZnOFRXS1haSWRUR1lseWw2aXlIS1BZLWpHR3duTjNWSl9fSjQzakhzcGRwMXEyeTQxTHdlODRzRE5qZ0NaV0U0bGZXZHJ5emdZRTc0NC1aYTZWX3VSbkx3VzNheFpWZURHdHF2TkNLeVg1ZHVSSjE2cld0c0VpcW5VWUJYYkFz?oc=5\" target=\"_blank\">Invasive Mosquitoes Pose New Threat to South Pasadena</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The South Pasadenan</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZ2ZnOFRXS1haSWRUR1lseWw2aXlIS1BZLWpHR3duTjNWSl9fSjQzakhzcGRwMXEyeTQxTHdlODRzRE5qZ0NaV0U0bGZXZHJ5emdZRTc0NC1aYTZWX3VSbkx3VzNheFpWZURHdHF2TkNLeVg1ZHVSSjE2cld0c0VpcW5VWUJYYkFz?oc=5\" target=\"_blank\">Invasive Mosquitoes Pose New Threat to South Pasadena</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The South Pasadenan</font>"
+      },
+      "source": {
+        "href": "https://southpasadenan.com",
+        "title": "The South Pasadenan"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Uses of CRISPR/Cas Biosensing Systems - News-Medical",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Uses of CRISPR/Cas Biosensing Systems - News-Medical"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQWGMyU3R3NVU0RkJrME50WjNSbGhhdGJFVG1RTE1FaVh4MzNVbl9UQzZjUENuVko4a0U0ZWJHR3lYUEdoWmdLdzR0QzY1T2F0elNGbFB2N2NnRkkzaU5laDF2S0FJTnVTMTEyV19ucTlDYm9RYmJhOE9uaUhXWG1PbHVtUnUzdllXTFFEdg?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQWGMyU3R3NVU0RkJrME50WjNSbGhhdGJFVG1RTE1FaVh4MzNVbl9UQzZjUENuVko4a0U0ZWJHR3lYUEdoWmdLdzR0QzY1T2F0elNGbFB2N2NnRkkzaU5laDF2S0FJTnVTMTEyV19ucTlDYm9RYmJhOE9uaUhXWG1PbHVtUnUzdllXTFFEdg?oc=5",
+      "id": "CBMijAFBVV95cUxQWGMyU3R3NVU0RkJrME50WjNSbGhhdGJFVG1RTE1FaVh4MzNVbl9UQzZjUENuVko4a0U0ZWJHR3lYUEdoWmdLdzR0QzY1T2F0elNGbFB2N2NnRkkzaU5laDF2S0FJTnVTMTEyV19ucTlDYm9RYmJhOE9uaUhXWG1PbHVtUnUzdllXTFFEdg",
+      "guidislink": false,
+      "published": "Thu, 04 Jul 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        7,
+        4,
+        7,
+        0,
+        0,
+        3,
+        185,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQWGMyU3R3NVU0RkJrME50WjNSbGhhdGJFVG1RTE1FaVh4MzNVbl9UQzZjUENuVko4a0U0ZWJHR3lYUEdoWmdLdzR0QzY1T2F0elNGbFB2N2NnRkkzaU5laDF2S0FJTnVTMTEyV19ucTlDYm9RYmJhOE9uaUhXWG1PbHVtUnUzdllXTFFEdg?oc=5\" target=\"_blank\">Uses of CRISPR/Cas Biosensing Systems</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">News-Medical</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQWGMyU3R3NVU0RkJrME50WjNSbGhhdGJFVG1RTE1FaVh4MzNVbl9UQzZjUENuVko4a0U0ZWJHR3lYUEdoWmdLdzR0QzY1T2F0elNGbFB2N2NnRkkzaU5laDF2S0FJTnVTMTEyV19ucTlDYm9RYmJhOE9uaUhXWG1PbHVtUnUzdllXTFFEdg?oc=5\" target=\"_blank\">Uses of CRISPR/Cas Biosensing Systems</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">News-Medical</font>"
+      },
+      "source": {
+        "href": "https://www.news-medical.net",
+        "title": "News-Medical"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "How Climate Change Can Affect Children’s Mental Health - GoodTherapy.org",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "How Climate Change Can Affect Children’s Mental Health - GoodTherapy.org"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONl94c2dIckYtQ2hiaEN4b0ZOUmtjcGxpRlZwZnhTblZRdnVzcmZjX2VmVl93TjNfYjZhRUFHbTJ1dnJPTzdzaUhyQzVPU0c4cHVkN2lYbVJZMWVFaTMxZ3JHM1RzSDRhY3V6dy1oVFRDa0xTWmIzUVNqbWZCSEFrRUZjbmZleENMbnkzRzdRZFNMeVQybE1ycXpn0gGgAUFVX3lxTE1BQUN2SUt2dzBfMGtxeXFVZ3FMaVRJTnN4T2JJSmVlbWxfbkNRa0MwOUtKcUkxNHZVVXFOOFRGMm9kS1JzVmJmQ1JXdGo0VmRTNmpiWER4bjl4MXdSTkJkYjNaeEJzU25YZEFQbDZIeVRwZnZoQlpHZUNvdmtKMFFKOUxEbEZ0cmJzZTc1cVU5VVVTM001bEpxV3ItVU82M1I?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONl94c2dIckYtQ2hiaEN4b0ZOUmtjcGxpRlZwZnhTblZRdnVzcmZjX2VmVl93TjNfYjZhRUFHbTJ1dnJPTzdzaUhyQzVPU0c4cHVkN2lYbVJZMWVFaTMxZ3JHM1RzSDRhY3V6dy1oVFRDa0xTWmIzUVNqbWZCSEFrRUZjbmZleENMbnkzRzdRZFNMeVQybE1ycXpn0gGgAUFVX3lxTE1BQUN2SUt2dzBfMGtxeXFVZ3FMaVRJTnN4T2JJSmVlbWxfbkNRa0MwOUtKcUkxNHZVVXFOOFRGMm9kS1JzVmJmQ1JXdGo0VmRTNmpiWER4bjl4MXdSTkJkYjNaeEJzU25YZEFQbDZIeVRwZnZoQlpHZUNvdmtKMFFKOUxEbEZ0cmJzZTc1cVU5VVVTM001bEpxV3ItVU82M1I?oc=5",
+      "id": "CBMimgFBVV95cUxONl94c2dIckYtQ2hiaEN4b0ZOUmtjcGxpRlZwZnhTblZRdnVzcmZjX2VmVl93TjNfYjZhRUFHbTJ1dnJPTzdzaUhyQzVPU0c4cHVkN2lYbVJZMWVFaTMxZ3JHM1RzSDRhY3V6dy1oVFRDa0xTWmIzUVNqbWZCSEFrRUZjbmZleENMbnkzRzdRZFNMeVQybE1ycXpn0gGgAUFVX3lxTE1BQUN2SUt2dzBfMGtxeXFVZ3FMaVRJTnN4T2JJSmVlbWxfbkNRa0MwOUtKcUkxNHZVVXFOOFRGMm9kS1JzVmJmQ1JXdGo0VmRTNmpiWER4bjl4MXdSTkJkYjNaeEJzU25YZEFQbDZIeVRwZnZoQlpHZUNvdmtKMFFKOUxEbEZ0cmJzZTc1cVU5VVVTM001bEpxV3ItVU82M1I",
+      "guidislink": false,
+      "published": "Mon, 24 Jun 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        6,
+        24,
+        7,
+        0,
+        0,
+        0,
+        175,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxONl94c2dIckYtQ2hiaEN4b0ZOUmtjcGxpRlZwZnhTblZRdnVzcmZjX2VmVl93TjNfYjZhRUFHbTJ1dnJPTzdzaUhyQzVPU0c4cHVkN2lYbVJZMWVFaTMxZ3JHM1RzSDRhY3V6dy1oVFRDa0xTWmIzUVNqbWZCSEFrRUZjbmZleENMbnkzRzdRZFNMeVQybE1ycXpn0gGgAUFVX3lxTE1BQUN2SUt2dzBfMGtxeXFVZ3FMaVRJTnN4T2JJSmVlbWxfbkNRa0MwOUtKcUkxNHZVVXFOOFRGMm9kS1JzVmJmQ1JXdGo0VmRTNmpiWER4bjl4MXdSTkJkYjNaeEJzU25YZEFQbDZIeVRwZnZoQlpHZUNvdmtKMFFKOUxEbEZ0cmJzZTc1cVU5VVVTM001bEpxV3ItVU82M1I?oc=5\" target=\"_blank\">How Climate Change Can Affect Children’s Mental Health</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GoodTherapy.org</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxONl94c2dIckYtQ2hiaEN4b0ZOUmtjcGxpRlZwZnhTblZRdnVzcmZjX2VmVl93TjNfYjZhRUFHbTJ1dnJPTzdzaUhyQzVPU0c4cHVkN2lYbVJZMWVFaTMxZ3JHM1RzSDRhY3V6dy1oVFRDa0xTWmIzUVNqbWZCSEFrRUZjbmZleENMbnkzRzdRZFNMeVQybE1ycXpn0gGgAUFVX3lxTE1BQUN2SUt2dzBfMGtxeXFVZ3FMaVRJTnN4T2JJSmVlbWxfbkNRa0MwOUtKcUkxNHZVVXFOOFRGMm9kS1JzVmJmQ1JXdGo0VmRTNmpiWER4bjl4MXdSTkJkYjNaeEJzU25YZEFQbDZIeVRwZnZoQlpHZUNvdmtKMFFKOUxEbEZ0cmJzZTc1cVU5VVVTM001bEpxV3ItVU82M1I?oc=5\" target=\"_blank\">How Climate Change Can Affect Children’s Mental Health</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GoodTherapy.org</font>"
+      },
+      "source": {
+        "href": "https://www.goodtherapy.org",
+        "title": "GoodTherapy.org"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "The Chosen One: Season 1 Review | Brazilian Netflix Series | O Escolhido - Heaven of Horror",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "The Chosen One: Season 1 Review | Brazilian Netflix Series | O Escolhido - Heaven of Horror"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1UQ2dHeGJYbGNkdUxTQTgxNXVCTTJUU0ttMlY4M0pBbG1oSXdHSlRMbUtwbDhtc3lPOEJmdmtRWkdOc2syR3RVTG1iWTh0eHRqZ2VmbTVINXZ5UktBQjlNQ00xdV81aVhLdHkxRzNxakVxT3V5RGVZN2xDRQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1UQ2dHeGJYbGNkdUxTQTgxNXVCTTJUU0ttMlY4M0pBbG1oSXdHSlRMbUtwbDhtc3lPOEJmdmtRWkdOc2syR3RVTG1iWTh0eHRqZ2VmbTVINXZ5UktBQjlNQ00xdV81aVhLdHkxRzNxakVxT3V5RGVZN2xDRQ?oc=5",
+      "id": "CBMie0FVX3lxTE1UQ2dHeGJYbGNkdUxTQTgxNXVCTTJUU0ttMlY4M0pBbG1oSXdHSlRMbUtwbDhtc3lPOEJmdmtRWkdOc2syR3RVTG1iWTh0eHRqZ2VmbTVINXZ5UktBQjlNQ00xdV81aVhLdHkxRzNxakVxT3V5RGVZN2xDRQ",
+      "guidislink": false,
+      "published": "Fri, 28 Jun 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        6,
+        28,
+        7,
+        0,
+        0,
+        4,
+        179,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE1UQ2dHeGJYbGNkdUxTQTgxNXVCTTJUU0ttMlY4M0pBbG1oSXdHSlRMbUtwbDhtc3lPOEJmdmtRWkdOc2syR3RVTG1iWTh0eHRqZ2VmbTVINXZ5UktBQjlNQ00xdV81aVhLdHkxRzNxakVxT3V5RGVZN2xDRQ?oc=5\" target=\"_blank\">The Chosen One: Season 1 Review | Brazilian Netflix Series | O Escolhido</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Heaven of Horror</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE1UQ2dHeGJYbGNkdUxTQTgxNXVCTTJUU0ttMlY4M0pBbG1oSXdHSlRMbUtwbDhtc3lPOEJmdmtRWkdOc2syR3RVTG1iWTh0eHRqZ2VmbTVINXZ5UktBQjlNQ00xdV81aVhLdHkxRzNxakVxT3V5RGVZN2xDRQ?oc=5\" target=\"_blank\">The Chosen One: Season 1 Review | Brazilian Netflix Series | O Escolhido</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Heaven of Horror</font>"
+      },
+      "source": {
+        "href": "https://www.heavenofhorror.com",
+        "title": "Heaven of Horror"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "How to Avoid Dengue Fever in Mexico - TripSavvy",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "How to Avoid Dengue Fever in Mexico - TripSavvy"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE05MXphVVcxWmppeTBQdUxXMnpsTHA2RGFIaldCQk1SZzVtVTJaU3lkOW5tM0Y2M3dJQXFQR2VGbm9fR3NpanY5NU1uTVFYZFI2NHpsamp2SUxsUmxMWm9MRUlOaXZEMjA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE05MXphVVcxWmppeTBQdUxXMnpsTHA2RGFIaldCQk1SZzVtVTJaU3lkOW5tM0Y2M3dJQXFQR2VGbm9fR3NpanY5NU1uTVFYZFI2NHpsamp2SUxsUmxMWm9MRUlOaXZEMjA?oc=5",
+      "id": "CBMiZ0FVX3lxTE05MXphVVcxWmppeTBQdUxXMnpsTHA2RGFIaldCQk1SZzVtVTJaU3lkOW5tM0Y2M3dJQXFQR2VGbm9fR3NpanY5NU1uTVFYZFI2NHpsamp2SUxsUmxMWm9MRUlOaXZEMjA",
+      "guidislink": false,
+      "published": "Wed, 26 Jun 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        6,
+        26,
+        7,
+        0,
+        0,
+        2,
+        177,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE05MXphVVcxWmppeTBQdUxXMnpsTHA2RGFIaldCQk1SZzVtVTJaU3lkOW5tM0Y2M3dJQXFQR2VGbm9fR3NpanY5NU1uTVFYZFI2NHpsamp2SUxsUmxMWm9MRUlOaXZEMjA?oc=5\" target=\"_blank\">How to Avoid Dengue Fever in Mexico</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TripSavvy</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE05MXphVVcxWmppeTBQdUxXMnpsTHA2RGFIaldCQk1SZzVtVTJaU3lkOW5tM0Y2M3dJQXFQR2VGbm9fR3NpanY5NU1uTVFYZFI2NHpsamp2SUxsUmxMWm9MRUlOaXZEMjA?oc=5\" target=\"_blank\">How to Avoid Dengue Fever in Mexico</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TripSavvy</font>"
+      },
+      "source": {
+        "href": "https://www.tripsavvy.com",
+        "title": "TripSavvy"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Will 'The Chosen One' Return For Season 2? The New Netflix Show Is All About Science Vs. Faith - Bustle",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Will 'The Chosen One' Return For Season 2? The New Netflix Show Is All About Science Vs. Faith - Bustle"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNmdXeGwxbXFLVGdwbHBucFQxejZJUlpWVHlTUld1WWdfRlBJYXZzS2YwdUZNUUFxTFdodi0xLVZqZ2dlMmw3RkhqWHFpeHItSi1jbkIweHU4SmRlekZkcWlGZnlZUGJBbWZBRTh6RFVYbElROEpYXzgtT24xMVlTdFA5WW1objliLWxKeWJCSVZvcE1lZXRyZjZ0a2FyeS10OFM2QkUtMGREaHo3c2UwV2RQakgyMldLR253bFl1M09ZZw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNmdXeGwxbXFLVGdwbHBucFQxejZJUlpWVHlTUld1WWdfRlBJYXZzS2YwdUZNUUFxTFdodi0xLVZqZ2dlMmw3RkhqWHFpeHItSi1jbkIweHU4SmRlekZkcWlGZnlZUGJBbWZBRTh6RFVYbElROEpYXzgtT24xMVlTdFA5WW1objliLWxKeWJCSVZvcE1lZXRyZjZ0a2FyeS10OFM2QkUtMGREaHo3c2UwV2RQakgyMldLR253bFl1M09ZZw?oc=5",
+      "id": "CBMiwgFBVV95cUxQNmdXeGwxbXFLVGdwbHBucFQxejZJUlpWVHlTUld1WWdfRlBJYXZzS2YwdUZNUUFxTFdodi0xLVZqZ2dlMmw3RkhqWHFpeHItSi1jbkIweHU4SmRlekZkcWlGZnlZUGJBbWZBRTh6RFVYbElROEpYXzgtT24xMVlTdFA5WW1objliLWxKeWJCSVZvcE1lZXRyZjZ0a2FyeS10OFM2QkUtMGREaHo3c2UwV2RQakgyMldLR253bFl1M09ZZw",
+      "guidislink": false,
+      "published": "Thu, 27 Jun 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        6,
+        27,
+        7,
+        0,
+        0,
+        3,
+        178,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNmdXeGwxbXFLVGdwbHBucFQxejZJUlpWVHlTUld1WWdfRlBJYXZzS2YwdUZNUUFxTFdodi0xLVZqZ2dlMmw3RkhqWHFpeHItSi1jbkIweHU4SmRlekZkcWlGZnlZUGJBbWZBRTh6RFVYbElROEpYXzgtT24xMVlTdFA5WW1objliLWxKeWJCSVZvcE1lZXRyZjZ0a2FyeS10OFM2QkUtMGREaHo3c2UwV2RQakgyMldLR253bFl1M09ZZw?oc=5\" target=\"_blank\">Will 'The Chosen One' Return For Season 2? The New Netflix Show Is All About Science Vs. Faith</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bustle</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNmdXeGwxbXFLVGdwbHBucFQxejZJUlpWVHlTUld1WWdfRlBJYXZzS2YwdUZNUUFxTFdodi0xLVZqZ2dlMmw3RkhqWHFpeHItSi1jbkIweHU4SmRlekZkcWlGZnlZUGJBbWZBRTh6RFVYbElROEpYXzgtT24xMVlTdFA5WW1objliLWxKeWJCSVZvcE1lZXRyZjZ0a2FyeS10OFM2QkUtMGREaHo3c2UwV2RQakgyMldLR253bFl1M09ZZw?oc=5\" target=\"_blank\">Will 'The Chosen One' Return For Season 2? The New Netflix Show Is All About Science Vs. Faith</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bustle</font>"
+      },
+      "source": {
+        "href": "https://www.bustle.com",
+        "title": "Bustle"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Conifex to sell sawmill in Fort St. James, B.C., buyer plans to rebuild - CBC",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Conifex to sell sawmill in Fort St. James, B.C., buyer plans to rebuild - CBC"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQnlpejQ5ZURWQ2dNNmRrb3RWcmdRT1lOSmJFVE1KU042QjhwZ3VoWVJMSnhmU0tUNVdEV1VXSXMyQmxZQVlBUzJ4RXJxM2ZxOUZuajZ6QkFCMzJPVnJQS3NqQnd2YkxIQTVjSGpEN1REdU40ZG1HQnRHX0ctX0RlUTBsNzgyZ2NBR05iTnV1UGtBUlR5LUlZOWpHRQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNQnlpejQ5ZURWQ2dNNmRrb3RWcmdRT1lOSmJFVE1KU042QjhwZ3VoWVJMSnhmU0tUNVdEV1VXSXMyQmxZQVlBUzJ4RXJxM2ZxOUZuajZ6QkFCMzJPVnJQS3NqQnd2YkxIQTVjSGpEN1REdU40ZG1HQnRHX0ctX0RlUTBsNzgyZ2NBR05iTnV1UGtBUlR5LUlZOWpHRQ?oc=5",
+      "id": "CBMimwFBVV95cUxNQnlpejQ5ZURWQ2dNNmRrb3RWcmdRT1lOSmJFVE1KU042QjhwZ3VoWVJMSnhmU0tUNVdEV1VXSXMyQmxZQVlBUzJ4RXJxM2ZxOUZuajZ6QkFCMzJPVnJQS3NqQnd2YkxIQTVjSGpEN1REdU40ZG1HQnRHX0ctX0RlUTBsNzgyZ2NBR05iTnV1UGtBUlR5LUlZOWpHRQ",
+      "guidislink": false,
+      "published": "Tue, 25 Jun 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        6,
+        25,
+        7,
+        0,
+        0,
+        1,
+        176,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxNQnlpejQ5ZURWQ2dNNmRrb3RWcmdRT1lOSmJFVE1KU042QjhwZ3VoWVJMSnhmU0tUNVdEV1VXSXMyQmxZQVlBUzJ4RXJxM2ZxOUZuajZ6QkFCMzJPVnJQS3NqQnd2YkxIQTVjSGpEN1REdU40ZG1HQnRHX0ctX0RlUTBsNzgyZ2NBR05iTnV1UGtBUlR5LUlZOWpHRQ?oc=5\" target=\"_blank\">Conifex to sell sawmill in Fort St. James, B.C., buyer plans to rebuild</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CBC</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxNQnlpejQ5ZURWQ2dNNmRrb3RWcmdRT1lOSmJFVE1KU042QjhwZ3VoWVJMSnhmU0tUNVdEV1VXSXMyQmxZQVlBUzJ4RXJxM2ZxOUZuajZ6QkFCMzJPVnJQS3NqQnd2YkxIQTVjSGpEN1REdU40ZG1HQnRHX0ctX0RlUTBsNzgyZ2NBR05iTnV1UGtBUlR5LUlZOWpHRQ?oc=5\" target=\"_blank\">Conifex to sell sawmill in Fort St. James, B.C., buyer plans to rebuild</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CBC</font>"
+      },
+      "source": {
+        "href": "https://www.cbc.ca",
+        "title": "CBC"
+      },
+      "sub_articles": []
+    }
+  ]
+}

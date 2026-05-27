@@ -1,0 +1,693 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2019-09-27",
+  "window_end": "2019-10-10",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2019-09-27+before%3A2019-10-11&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2019-09-27+before:2019-10-11&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:27:10Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2019-09-27 before:2019-10-11\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2019-09-27 before:2019-10-11\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2019-09-27+before:2019-10-11&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2019-09-27+before:2019-10-11&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:27:10 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      27,
+      10,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Zika Virus Infection — After the Pandemic - The New England Journal of Medicine",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika Virus Infection — After the Pandemic - The New England Journal of Medicine"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5oYlhwOFJ1WlY2eG9jcVBJdTNELU4yOGlEN3RoVFBYVXF5TU5IdFdFTHZUV0xadjB3ZWV5UFA3V1JRNTJ0ekVVYzVtbUZzVWNjSGI0WlRMdHp3aHZzZ1c5OA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5oYlhwOFJ1WlY2eG9jcVBJdTNELU4yOGlEN3RoVFBYVXF5TU5IdFdFTHZUV0xadjB3ZWV5UFA3V1JRNTJ0ekVVYzVtbUZzVWNjSGI0WlRMdHp3aHZzZ1c5OA?oc=5",
+      "id": "CBMiYEFVX3lxTE5oYlhwOFJ1WlY2eG9jcVBJdTNELU4yOGlEN3RoVFBYVXF5TU5IdFdFTHZUV0xadjB3ZWV5UFA3V1JRNTJ0ekVVYzVtbUZzVWNjSGI0WlRMdHp3aHZzZ1c5OA",
+      "guidislink": false,
+      "published": "Fri, 04 Oct 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        10,
+        4,
+        7,
+        0,
+        0,
+        4,
+        277,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTE5oYlhwOFJ1WlY2eG9jcVBJdTNELU4yOGlEN3RoVFBYVXF5TU5IdFdFTHZUV0xadjB3ZWV5UFA3V1JRNTJ0ekVVYzVtbUZzVWNjSGI0WlRMdHp3aHZzZ1c5OA?oc=5\" target=\"_blank\">Zika Virus Infection — After the Pandemic</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New England Journal of Medicine</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTE5oYlhwOFJ1WlY2eG9jcVBJdTNELU4yOGlEN3RoVFBYVXF5TU5IdFdFTHZUV0xadjB3ZWV5UFA3V1JRNTJ0ekVVYzVtbUZzVWNjSGI0WlRMdHp3aHZzZ1c5OA?oc=5\" target=\"_blank\">Zika Virus Infection — After the Pandemic</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New England Journal of Medicine</font>"
+      },
+      "source": {
+        "href": "https://www.nejm.org",
+        "title": "The New England Journal of Medicine"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika: Researchers Are Learning More About The Long-Term Consequences For Children - NPR",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika: Researchers Are Learning More About The Long-Term Consequences For Children - NPR"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQOUUwVDNKeG5qczNsTVVTY1ZBUlgzYjNqd0RPVGxDYjlnTGltVXNTMEpyN1hkaVFRcUpxVTF4dzAtOTJDMWRIcldrTXRCNjRaQWRGMTZVX0lhZDFsN2JUSWJVdEZsOXhydmRUdUJ5ZXljeHdjR2JLQ2I4MHd4YVdmT24wR29uVWo1emdPRWJnS3ZfTUtZSGt3STRuV3NmZERmYzZHZVljTHQ5VnNyU2RiZ2RaQWh3SFcySWFuUDJnRVNtTWN5N3N2cF9GcnZfN1hJU1NYdFZldXFPWDA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQOUUwVDNKeG5qczNsTVVTY1ZBUlgzYjNqd0RPVGxDYjlnTGltVXNTMEpyN1hkaVFRcUpxVTF4dzAtOTJDMWRIcldrTXRCNjRaQWRGMTZVX0lhZDFsN2JUSWJVdEZsOXhydmRUdUJ5ZXljeHdjR2JLQ2I4MHd4YVdmT24wR29uVWo1emdPRWJnS3ZfTUtZSGt3STRuV3NmZERmYzZHZVljTHQ5VnNyU2RiZ2RaQWh3SFcySWFuUDJnRVNtTWN5N3N2cF9GcnZfN1hJU1NYdFZldXFPWDA?oc=5",
+      "id": "CBMi2wFBVV95cUxQOUUwVDNKeG5qczNsTVVTY1ZBUlgzYjNqd0RPVGxDYjlnTGltVXNTMEpyN1hkaVFRcUpxVTF4dzAtOTJDMWRIcldrTXRCNjRaQWRGMTZVX0lhZDFsN2JUSWJVdEZsOXhydmRUdUJ5ZXljeHdjR2JLQ2I4MHd4YVdmT24wR29uVWo1emdPRWJnS3ZfTUtZSGt3STRuV3NmZERmYzZHZVljTHQ5VnNyU2RiZ2RaQWh3SFcySWFuUDJnRVNtTWN5N3N2cF9GcnZfN1hJU1NYdFZldXFPWDA",
+      "guidislink": false,
+      "published": "Wed, 09 Oct 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        10,
+        9,
+        7,
+        0,
+        0,
+        2,
+        282,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2wFBVV95cUxQOUUwVDNKeG5qczNsTVVTY1ZBUlgzYjNqd0RPVGxDYjlnTGltVXNTMEpyN1hkaVFRcUpxVTF4dzAtOTJDMWRIcldrTXRCNjRaQWRGMTZVX0lhZDFsN2JUSWJVdEZsOXhydmRUdUJ5ZXljeHdjR2JLQ2I4MHd4YVdmT24wR29uVWo1emdPRWJnS3ZfTUtZSGt3STRuV3NmZERmYzZHZVljTHQ5VnNyU2RiZ2RaQWh3SFcySWFuUDJnRVNtTWN5N3N2cF9GcnZfN1hJU1NYdFZldXFPWDA?oc=5\" target=\"_blank\">Zika: Researchers Are Learning More About The Long-Term Consequences For Children</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NPR</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi2wFBVV95cUxQOUUwVDNKeG5qczNsTVVTY1ZBUlgzYjNqd0RPVGxDYjlnTGltVXNTMEpyN1hkaVFRcUpxVTF4dzAtOTJDMWRIcldrTXRCNjRaQWRGMTZVX0lhZDFsN2JUSWJVdEZsOXhydmRUdUJ5ZXljeHdjR2JLQ2I4MHd4YVdmT24wR29uVWo1emdPRWJnS3ZfTUtZSGt3STRuV3NmZERmYzZHZVljTHQ5VnNyU2RiZ2RaQWh3SFcySWFuUDJnRVNtTWN5N3N2cF9GcnZfN1hJU1NYdFZldXFPWDA?oc=5\" target=\"_blank\">Zika: Researchers Are Learning More About The Long-Term Consequences For Children</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NPR</font>"
+      },
+      "source": {
+        "href": "https://www.npr.org",
+        "title": "NPR"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika virus enhances monocyte adhesion and transmigration favoring viral dissemination to neural cells - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika virus enhances monocyte adhesion and transmigration favoring viral dissemination to neural cells - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1kTmRmQ3QwaHFJbmhXYXZWRUFPZUJRQnFKVFV6MXg0ZjBGbWdIWURadUtsMko5cVJBR0RnSzZ5Sy1PSlF0SkMweFRmemhnczZiTDZ3T2JoMVpEZUJzUlBZ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1kTmRmQ3QwaHFJbmhXYXZWRUFPZUJRQnFKVFV6MXg0ZjBGbWdIWURadUtsMko5cVJBR0RnSzZ5Sy1PSlF0SkMweFRmemhnczZiTDZ3T2JoMVpEZUJzUlBZ?oc=5",
+      "id": "CBMiX0FVX3lxTE1kTmRmQ3QwaHFJbmhXYXZWRUFPZUJRQnFKVFV6MXg0ZjBGbWdIWURadUtsMko5cVJBR0RnSzZ5Sy1PSlF0SkMweFRmemhnczZiTDZ3T2JoMVpEZUJzUlBZ",
+      "guidislink": false,
+      "published": "Fri, 27 Sep 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        9,
+        27,
+        7,
+        0,
+        0,
+        4,
+        270,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1kTmRmQ3QwaHFJbmhXYXZWRUFPZUJRQnFKVFV6MXg0ZjBGbWdIWURadUtsMko5cVJBR0RnSzZ5Sy1PSlF0SkMweFRmemhnczZiTDZ3T2JoMVpEZUJzUlBZ?oc=5\" target=\"_blank\">Zika virus enhances monocyte adhesion and transmigration favoring viral dissemination to neural cells</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1kTmRmQ3QwaHFJbmhXYXZWRUFPZUJRQnFKVFV6MXg0ZjBGbWdIWURadUtsMko5cVJBR0RnSzZ5Sy1PSlF0SkMweFRmemhnczZiTDZ3T2JoMVpEZUJzUlBZ?oc=5\" target=\"_blank\">Zika virus enhances monocyte adhesion and transmigration favoring viral dissemination to neural cells</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "High susceptibility, viral dynamics and persistence of South American Zika virus in New World monkey species - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "High susceptibility, viral dynamics and persistence of South American Zika virus in New World monkey species - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9Zd29SM0NvNWV6RnJtYnhhNUlSTkllR3UwZ1p6SnJVN0tLNnFQVFk3RmFjWG1NMnQ1ZGNCWmdFeXQ4THFIV3FjcjNxNXQzMXdDVmt0RGJoN1hSV2FZUTV3?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9Zd29SM0NvNWV6RnJtYnhhNUlSTkllR3UwZ1p6SnJVN0tLNnFQVFk3RmFjWG1NMnQ1ZGNCWmdFeXQ4THFIV3FjcjNxNXQzMXdDVmt0RGJoN1hSV2FZUTV3?oc=5",
+      "id": "CBMiX0FVX3lxTE9Zd29SM0NvNWV6RnJtYnhhNUlSTkllR3UwZ1p6SnJVN0tLNnFQVFk3RmFjWG1NMnQ1ZGNCWmdFeXQ4THFIV3FjcjNxNXQzMXdDVmt0RGJoN1hSV2FZUTV3",
+      "guidislink": false,
+      "published": "Thu, 10 Oct 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        10,
+        10,
+        7,
+        0,
+        0,
+        3,
+        283,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9Zd29SM0NvNWV6RnJtYnhhNUlSTkllR3UwZ1p6SnJVN0tLNnFQVFk3RmFjWG1NMnQ1ZGNCWmdFeXQ4THFIV3FjcjNxNXQzMXdDVmt0RGJoN1hSV2FZUTV3?oc=5\" target=\"_blank\">High susceptibility, viral dynamics and persistence of South American Zika virus in New World monkey species</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9Zd29SM0NvNWV6RnJtYnhhNUlSTkllR3UwZ1p6SnJVN0tLNnFQVFk3RmFjWG1NMnQ1ZGNCWmdFeXQ4THFIV3FjcjNxNXQzMXdDVmt0RGJoN1hSV2FZUTV3?oc=5\" target=\"_blank\">High susceptibility, viral dynamics and persistence of South American Zika virus in New World monkey species</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Why viruses like Herpes and Zika will need to be reclassified, and its biotech impact - Phys.org",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Why viruses like Herpes and Zika will need to be reclassified, and its biotech impact - Phys.org"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPOENCSTBnbk1lNjdtUmZjYm84bGo1QWNSZ256OWg3Y25tMEVMeXowdDFlZTRBYlRiMmdEd3hIc3ByVVVIVnJaVjdGSnpHTzdHd0pjNTJ2Q1l2UUFtOVYyQkhYR3F3cFZXcmJkQTY3cExtaTdXdkJDSG55c21KMjlYNQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPOENCSTBnbk1lNjdtUmZjYm84bGo1QWNSZ256OWg3Y25tMEVMeXowdDFlZTRBYlRiMmdEd3hIc3ByVVVIVnJaVjdGSnpHTzdHd0pjNTJ2Q1l2UUFtOVYyQkhYR3F3cFZXcmJkQTY3cExtaTdXdkJDSG55c21KMjlYNQ?oc=5",
+      "id": "CBMigAFBVV95cUxPOENCSTBnbk1lNjdtUmZjYm84bGo1QWNSZ256OWg3Y25tMEVMeXowdDFlZTRBYlRiMmdEd3hIc3ByVVVIVnJaVjdGSnpHTzdHd0pjNTJ2Q1l2UUFtOVYyQkhYR3F3cFZXcmJkQTY3cExtaTdXdkJDSG55c21KMjlYNQ",
+      "guidislink": false,
+      "published": "Fri, 27 Sep 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        9,
+        27,
+        7,
+        0,
+        0,
+        4,
+        270,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxPOENCSTBnbk1lNjdtUmZjYm84bGo1QWNSZ256OWg3Y25tMEVMeXowdDFlZTRBYlRiMmdEd3hIc3ByVVVIVnJaVjdGSnpHTzdHd0pjNTJ2Q1l2UUFtOVYyQkhYR3F3cFZXcmJkQTY3cExtaTdXdkJDSG55c21KMjlYNQ?oc=5\" target=\"_blank\">Why viruses like Herpes and Zika will need to be reclassified, and its biotech impact</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Phys.org</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxPOENCSTBnbk1lNjdtUmZjYm84bGo1QWNSZ256OWg3Y25tMEVMeXowdDFlZTRBYlRiMmdEd3hIc3ByVVVIVnJaVjdGSnpHTzdHd0pjNTJ2Q1l2UUFtOVYyQkhYR3F3cFZXcmJkQTY3cExtaTdXdkJDSG55c21KMjlYNQ?oc=5\" target=\"_blank\">Why viruses like Herpes and Zika will need to be reclassified, and its biotech impact</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Phys.org</font>"
+      },
+      "source": {
+        "href": "https://phys.org",
+        "title": "Phys.org"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Mosquito that can spread Zika found in New England - newscentermaine.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Mosquito that can spread Zika found in New England - newscentermaine.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNU3dpRDl2UjJvOV9DVl92b1dqdlBVVkdEcW5jZmNkU0FONTlERnZ6RHdWMEhISW5JVUpTSk5hcjR6R3Q3QkNGS3RmVGp5bVBRaDVSNFo0N1hWU2ZGM0dJVy1Pa2VhWkxYMVRnT0dlNno0cHMxSy12NW5mZzZsOEdSaV9VU3A2QTA0WjB2bm9ieUpUQmZjSVU0aXNBcllKWkJubXZUX3F2MGtiQm5ZTi04VGxpMW9WcUFyTU9zczNMcHdsM3BEY1hwYWl1RnE3eXI2OU1IWDREZFQwdw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNU3dpRDl2UjJvOV9DVl92b1dqdlBVVkdEcW5jZmNkU0FONTlERnZ6RHdWMEhISW5JVUpTSk5hcjR6R3Q3QkNGS3RmVGp5bVBRaDVSNFo0N1hWU2ZGM0dJVy1Pa2VhWkxYMVRnT0dlNno0cHMxSy12NW5mZzZsOEdSaV9VU3A2QTA0WjB2bm9ieUpUQmZjSVU0aXNBcllKWkJubXZUX3F2MGtiQm5ZTi04VGxpMW9WcUFyTU9zczNMcHdsM3BEY1hwYWl1RnE3eXI2OU1IWDREZFQwdw?oc=5",
+      "id": "CBMi2gFBVV95cUxNU3dpRDl2UjJvOV9DVl92b1dqdlBVVkdEcW5jZmNkU0FONTlERnZ6RHdWMEhISW5JVUpTSk5hcjR6R3Q3QkNGS3RmVGp5bVBRaDVSNFo0N1hWU2ZGM0dJVy1Pa2VhWkxYMVRnT0dlNno0cHMxSy12NW5mZzZsOEdSaV9VU3A2QTA0WjB2bm9ieUpUQmZjSVU0aXNBcllKWkJubXZUX3F2MGtiQm5ZTi04VGxpMW9WcUFyTU9zczNMcHdsM3BEY1hwYWl1RnE3eXI2OU1IWDREZFQwdw",
+      "guidislink": false,
+      "published": "Fri, 04 Oct 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        10,
+        4,
+        7,
+        0,
+        0,
+        4,
+        277,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxNU3dpRDl2UjJvOV9DVl92b1dqdlBVVkdEcW5jZmNkU0FONTlERnZ6RHdWMEhISW5JVUpTSk5hcjR6R3Q3QkNGS3RmVGp5bVBRaDVSNFo0N1hWU2ZGM0dJVy1Pa2VhWkxYMVRnT0dlNno0cHMxSy12NW5mZzZsOEdSaV9VU3A2QTA0WjB2bm9ieUpUQmZjSVU0aXNBcllKWkJubXZUX3F2MGtiQm5ZTi04VGxpMW9WcUFyTU9zczNMcHdsM3BEY1hwYWl1RnE3eXI2OU1IWDREZFQwdw?oc=5\" target=\"_blank\">Mosquito that can spread Zika found in New England</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">newscentermaine.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxNU3dpRDl2UjJvOV9DVl92b1dqdlBVVkdEcW5jZmNkU0FONTlERnZ6RHdWMEhISW5JVUpTSk5hcjR6R3Q3QkNGS3RmVGp5bVBRaDVSNFo0N1hWU2ZGM0dJVy1Pa2VhWkxYMVRnT0dlNno0cHMxSy12NW5mZzZsOEdSaV9VU3A2QTA0WjB2bm9ieUpUQmZjSVU0aXNBcllKWkJubXZUX3F2MGtiQm5ZTi04VGxpMW9WcUFyTU9zczNMcHdsM3BEY1hwYWl1RnE3eXI2OU1IWDREZFQwdw?oc=5\" target=\"_blank\">Mosquito that can spread Zika found in New England</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">newscentermaine.com</font>"
+      },
+      "source": {
+        "href": "https://www.newscentermaine.com",
+        "title": "newscentermaine.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika known for abnormal small heads ‘found in Africa’ - SciDev.Net",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika known for abnormal small heads ‘found in Africa’ - SciDev.Net"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbVhHcnNYalNuTU5BZDhITkw5eE9rcjdiYV9tVmN5WTJvUFZSczRtcVV1ajF6TVhCWmYzbjdLN0s2R1ZNNE5HcDFaQVFiaFVicUZFNzFxSTlaY2JDQ2prbHJiV0Z2aGVIb0F6Y0VrelR0UmlZTEFNMTRNOGw2SllCR1lQR1lON1VXdVZ4YVh2aHlFQi1W?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbVhHcnNYalNuTU5BZDhITkw5eE9rcjdiYV9tVmN5WTJvUFZSczRtcVV1ajF6TVhCWmYzbjdLN0s2R1ZNNE5HcDFaQVFiaFVicUZFNzFxSTlaY2JDQ2prbHJiV0Z2aGVIb0F6Y0VrelR0UmlZTEFNMTRNOGw2SllCR1lQR1lON1VXdVZ4YVh2aHlFQi1W?oc=5",
+      "id": "CBMilAFBVV95cUxPbVhHcnNYalNuTU5BZDhITkw5eE9rcjdiYV9tVmN5WTJvUFZSczRtcVV1ajF6TVhCWmYzbjdLN0s2R1ZNNE5HcDFaQVFiaFVicUZFNzFxSTlaY2JDQ2prbHJiV0Z2aGVIb0F6Y0VrelR0UmlZTEFNMTRNOGw2SllCR1lQR1lON1VXdVZ4YVh2aHlFQi1W",
+      "guidislink": false,
+      "published": "Tue, 08 Oct 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        10,
+        8,
+        7,
+        0,
+        0,
+        1,
+        281,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxPbVhHcnNYalNuTU5BZDhITkw5eE9rcjdiYV9tVmN5WTJvUFZSczRtcVV1ajF6TVhCWmYzbjdLN0s2R1ZNNE5HcDFaQVFiaFVicUZFNzFxSTlaY2JDQ2prbHJiV0Z2aGVIb0F6Y0VrelR0UmlZTEFNMTRNOGw2SllCR1lQR1lON1VXdVZ4YVh2aHlFQi1W?oc=5\" target=\"_blank\">Zika known for abnormal small heads ‘found in Africa’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SciDev.Net</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxPbVhHcnNYalNuTU5BZDhITkw5eE9rcjdiYV9tVmN5WTJvUFZSczRtcVV1ajF6TVhCWmYzbjdLN0s2R1ZNNE5HcDFaQVFiaFVicUZFNzFxSTlaY2JDQ2prbHJiV0Z2aGVIb0F6Y0VrelR0UmlZTEFNMTRNOGw2SllCR1lQR1lON1VXdVZ4YVh2aHlFQi1W?oc=5\" target=\"_blank\">Zika known for abnormal small heads ‘found in Africa’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SciDev.Net</font>"
+      },
+      "source": {
+        "href": "https://www.scidev.net",
+        "title": "SciDev.Net"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Dissent splits authors of provocative transgenic mosquito study - Science | AAAS",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Dissent splits authors of provocative transgenic mosquito study - Science | AAAS"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObExiNHVkeU80cF9IUmwtWmdyb1B5STAzbXJEdDJkMzlXeXY0OWQwcjNQdTRiUjRTV2ZxQXhhbUlZM1BYZUo2ZWtGN0hqeUF2bDFhOFA4OGlMemViUkQ3dlc1N2F6dERTUjV4ZEZZWEhtNk02M29mQVBKRWtIZEdWZ2x0YlptaXNKdTN2aTBtODBhZFZGZFdoM1JOanl2ZkZIeVE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxObExiNHVkeU80cF9IUmwtWmdyb1B5STAzbXJEdDJkMzlXeXY0OWQwcjNQdTRiUjRTV2ZxQXhhbUlZM1BYZUo2ZWtGN0hqeUF2bDFhOFA4OGlMemViUkQ3dlc1N2F6dERTUjV4ZEZZWEhtNk02M29mQVBKRWtIZEdWZ2x0YlptaXNKdTN2aTBtODBhZFZGZFdoM1JOanl2ZkZIeVE?oc=5",
+      "id": "CBMiogFBVV95cUxObExiNHVkeU80cF9IUmwtWmdyb1B5STAzbXJEdDJkMzlXeXY0OWQwcjNQdTRiUjRTV2ZxQXhhbUlZM1BYZUo2ZWtGN0hqeUF2bDFhOFA4OGlMemViUkQ3dlc1N2F6dERTUjV4ZEZZWEhtNk02M29mQVBKRWtIZEdWZ2x0YlptaXNKdTN2aTBtODBhZFZGZFdoM1JOanl2ZkZIeVE",
+      "guidislink": false,
+      "published": "Tue, 01 Oct 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        10,
+        1,
+        7,
+        0,
+        0,
+        1,
+        274,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxObExiNHVkeU80cF9IUmwtWmdyb1B5STAzbXJEdDJkMzlXeXY0OWQwcjNQdTRiUjRTV2ZxQXhhbUlZM1BYZUo2ZWtGN0hqeUF2bDFhOFA4OGlMemViUkQ3dlc1N2F6dERTUjV4ZEZZWEhtNk02M29mQVBKRWtIZEdWZ2x0YlptaXNKdTN2aTBtODBhZFZGZFdoM1JOanl2ZkZIeVE?oc=5\" target=\"_blank\">Dissent splits authors of provocative transgenic mosquito study</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Science | AAAS</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxObExiNHVkeU80cF9IUmwtWmdyb1B5STAzbXJEdDJkMzlXeXY0OWQwcjNQdTRiUjRTV2ZxQXhhbUlZM1BYZUo2ZWtGN0hqeUF2bDFhOFA4OGlMemViUkQ3dlc1N2F6dERTUjV4ZEZZWEhtNk02M29mQVBKRWtIZEdWZ2x0YlptaXNKdTN2aTBtODBhZFZGZFdoM1JOanl2ZkZIeVE?oc=5\" target=\"_blank\">Dissent splits authors of provocative transgenic mosquito study</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Science | AAAS</font>"
+      },
+      "source": {
+        "href": "https://www.science.org",
+        "title": "Science | AAAS"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Vector control operations framework for Aedes mosquitoes - ReliefWeb",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Vector control operations framework for Aedes mosquitoes - ReliefWeb"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQWEMtVUd1YVVYV3RDZHpFNnJ6eGh1Z3hCZ2YxV1VOYmh6cjg5akl6dlVwSllONjZLOC1QdWlkbk0xRTdVSGdRR2ZnemV5SWRNbmhhWGhVak9McU5IU1FJVk56RWhmbG1XQ2JFMGhSNnRJYnN2UENiRl9fNmVJTE9SYkNrbHlMYWo1ZDdCVTlNREE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQWEMtVUd1YVVYV3RDZHpFNnJ6eGh1Z3hCZ2YxV1VOYmh6cjg5akl6dlVwSllONjZLOC1QdWlkbk0xRTdVSGdRR2ZnemV5SWRNbmhhWGhVak9McU5IU1FJVk56RWhmbG1XQ2JFMGhSNnRJYnN2UENiRl9fNmVJTE9SYkNrbHlMYWo1ZDdCVTlNREE?oc=5",
+      "id": "CBMikAFBVV95cUxQWEMtVUd1YVVYV3RDZHpFNnJ6eGh1Z3hCZ2YxV1VOYmh6cjg5akl6dlVwSllONjZLOC1QdWlkbk0xRTdVSGdRR2ZnemV5SWRNbmhhWGhVak9McU5IU1FJVk56RWhmbG1XQ2JFMGhSNnRJYnN2UENiRl9fNmVJTE9SYkNrbHlMYWo1ZDdCVTlNREE",
+      "guidislink": false,
+      "published": "Fri, 27 Sep 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        9,
+        27,
+        7,
+        0,
+        0,
+        4,
+        270,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxQWEMtVUd1YVVYV3RDZHpFNnJ6eGh1Z3hCZ2YxV1VOYmh6cjg5akl6dlVwSllONjZLOC1QdWlkbk0xRTdVSGdRR2ZnemV5SWRNbmhhWGhVak9McU5IU1FJVk56RWhmbG1XQ2JFMGhSNnRJYnN2UENiRl9fNmVJTE9SYkNrbHlMYWo1ZDdCVTlNREE?oc=5\" target=\"_blank\">Vector control operations framework for Aedes mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ReliefWeb</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxQWEMtVUd1YVVYV3RDZHpFNnJ6eGh1Z3hCZ2YxV1VOYmh6cjg5akl6dlVwSllONjZLOC1QdWlkbk0xRTdVSGdRR2ZnemV5SWRNbmhhWGhVak9McU5IU1FJVk56RWhmbG1XQ2JFMGhSNnRJYnN2UENiRl9fNmVJTE9SYkNrbHlMYWo1ZDdCVTlNREE?oc=5\" target=\"_blank\">Vector control operations framework for Aedes mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ReliefWeb</font>"
+      },
+      "source": {
+        "href": "https://reliefweb.int",
+        "title": "ReliefWeb"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Resveratrol affects Zika virus replication in vitro - Scientific Reports - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Resveratrol affects Zika virus replication in vitro - Scientific Reports - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9yNG9wSHVPS2VBcHNGX0RnSXlzWnpqb3ZuX0dsTW5XY0RwWnRaLWFBY010RU15Q2xoUWdNTmtTUTdnSEhoVVZjS1dtWEY1emtMT2J2MWpIT0t2QW5wSmFv?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9yNG9wSHVPS2VBcHNGX0RnSXlzWnpqb3ZuX0dsTW5XY0RwWnRaLWFBY010RU15Q2xoUWdNTmtTUTdnSEhoVVZjS1dtWEY1emtMT2J2MWpIT0t2QW5wSmFv?oc=5",
+      "id": "CBMiX0FVX3lxTE9yNG9wSHVPS2VBcHNGX0RnSXlzWnpqb3ZuX0dsTW5XY0RwWnRaLWFBY010RU15Q2xoUWdNTmtTUTdnSEhoVVZjS1dtWEY1emtMT2J2MWpIT0t2QW5wSmFv",
+      "guidislink": false,
+      "published": "Fri, 04 Oct 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        10,
+        4,
+        7,
+        0,
+        0,
+        4,
+        277,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9yNG9wSHVPS2VBcHNGX0RnSXlzWnpqb3ZuX0dsTW5XY0RwWnRaLWFBY010RU15Q2xoUWdNTmtTUTdnSEhoVVZjS1dtWEY1emtMT2J2MWpIT0t2QW5wSmFv?oc=5\" target=\"_blank\">Resveratrol affects Zika virus replication in vitro - Scientific Reports</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9yNG9wSHVPS2VBcHNGX0RnSXlzWnpqb3ZuX0dsTW5XY0RwWnRaLWFBY010RU15Q2xoUWdNTmtTUTdnSEhoVVZjS1dtWEY1emtMT2J2MWpIT0t2QW5wSmFv?oc=5\" target=\"_blank\">Resveratrol affects Zika virus replication in vitro - Scientific Reports</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "HIStory Statue on sale via facebook - MJVibe",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "HIStory Statue on sale via facebook - MJVibe"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9SVkRjRUozVlZRQ2ZsMHlkNUZpYUcxMkJlWFltRXZaam5VQmlBOWZqM3hUMHk1dTkzR1FURE85NXdER1RpVEZ3ZVdDTlk5UGppbERSallsdzdSMm1ZX1dsNjRwU3RxUm1MMjZF?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9SVkRjRUozVlZRQ2ZsMHlkNUZpYUcxMkJlWFltRXZaam5VQmlBOWZqM3hUMHk1dTkzR1FURE85NXdER1RpVEZ3ZVdDTlk5UGppbERSallsdzdSMm1ZX1dsNjRwU3RxUm1MMjZF?oc=5",
+      "id": "CBMia0FVX3lxTE9SVkRjRUozVlZRQ2ZsMHlkNUZpYUcxMkJlWFltRXZaam5VQmlBOWZqM3hUMHk1dTkzR1FURE85NXdER1RpVEZ3ZVdDTlk5UGppbERSallsdzdSMm1ZX1dsNjRwU3RxUm1MMjZF",
+      "guidislink": false,
+      "published": "Tue, 01 Oct 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        10,
+        1,
+        7,
+        0,
+        0,
+        1,
+        274,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE9SVkRjRUozVlZRQ2ZsMHlkNUZpYUcxMkJlWFltRXZaam5VQmlBOWZqM3hUMHk1dTkzR1FURE85NXdER1RpVEZ3ZVdDTlk5UGppbERSallsdzdSMm1ZX1dsNjRwU3RxUm1MMjZF?oc=5\" target=\"_blank\">HIStory Statue on sale via facebook</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MJVibe</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE9SVkRjRUozVlZRQ2ZsMHlkNUZpYUcxMkJlWFltRXZaam5VQmlBOWZqM3hUMHk1dTkzR1FURE85NXdER1RpVEZ3ZVdDTlk5UGppbERSallsdzdSMm1ZX1dsNjRwU3RxUm1MMjZF?oc=5\" target=\"_blank\">HIStory Statue on sale via facebook</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MJVibe</font>"
+      },
+      "source": {
+        "href": "https://www.mjvibe.com",
+        "title": "MJVibe"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "San Pedro Red Cross Branch conducts clean up at the entrance of San Mateo - The San Pedro Sun",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "San Pedro Red Cross Branch conducts clean up at the entrance of San Mateo - The San Pedro Sun"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOcTZZUUlmT1FjZ0N5bllLX2Q2bXdyV0I0YW1aTnhJTnZlR0tRTDBjMUR4MmdPMzF6LXN3TTV0bkYyenJWdk1SU1dlZ0NqYjRscmpwVkJqTC1GWVZxdTV4REhMLTU5c2xUOGhZRlBPajluMW1WdXpDX0JPa3h3OC1ZLXNvTktIUGpEbFdkMzZrc1R1YlptOXZnRDU3TU5wQ0o2OS15YmhTNlMyWGFIZThqQ1hTRGN0NUxXZDVaNlpTWTlvcjhxM1FjdlV2aXdROV9F?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOcTZZUUlmT1FjZ0N5bllLX2Q2bXdyV0I0YW1aTnhJTnZlR0tRTDBjMUR4MmdPMzF6LXN3TTV0bkYyenJWdk1SU1dlZ0NqYjRscmpwVkJqTC1GWVZxdTV4REhMLTU5c2xUOGhZRlBPajluMW1WdXpDX0JPa3h3OC1ZLXNvTktIUGpEbFdkMzZrc1R1YlptOXZnRDU3TU5wQ0o2OS15YmhTNlMyWGFIZThqQ1hTRGN0NUxXZDVaNlpTWTlvcjhxM1FjdlV2aXdROV9F?oc=5",
+      "id": "CBMi0AFBVV95cUxOcTZZUUlmT1FjZ0N5bllLX2Q2bXdyV0I0YW1aTnhJTnZlR0tRTDBjMUR4MmdPMzF6LXN3TTV0bkYyenJWdk1SU1dlZ0NqYjRscmpwVkJqTC1GWVZxdTV4REhMLTU5c2xUOGhZRlBPajluMW1WdXpDX0JPa3h3OC1ZLXNvTktIUGpEbFdkMzZrc1R1YlptOXZnRDU3TU5wQ0o2OS15YmhTNlMyWGFIZThqQ1hTRGN0NUxXZDVaNlpTWTlvcjhxM1FjdlV2aXdROV9F",
+      "guidislink": false,
+      "published": "Fri, 04 Oct 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        10,
+        4,
+        7,
+        0,
+        0,
+        4,
+        277,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxOcTZZUUlmT1FjZ0N5bllLX2Q2bXdyV0I0YW1aTnhJTnZlR0tRTDBjMUR4MmdPMzF6LXN3TTV0bkYyenJWdk1SU1dlZ0NqYjRscmpwVkJqTC1GWVZxdTV4REhMLTU5c2xUOGhZRlBPajluMW1WdXpDX0JPa3h3OC1ZLXNvTktIUGpEbFdkMzZrc1R1YlptOXZnRDU3TU5wQ0o2OS15YmhTNlMyWGFIZThqQ1hTRGN0NUxXZDVaNlpTWTlvcjhxM1FjdlV2aXdROV9F?oc=5\" target=\"_blank\">San Pedro Red Cross Branch conducts clean up at the entrance of San Mateo</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The San Pedro Sun</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxOcTZZUUlmT1FjZ0N5bllLX2Q2bXdyV0I0YW1aTnhJTnZlR0tRTDBjMUR4MmdPMzF6LXN3TTV0bkYyenJWdk1SU1dlZ0NqYjRscmpwVkJqTC1GWVZxdTV4REhMLTU5c2xUOGhZRlBPajluMW1WdXpDX0JPa3h3OC1ZLXNvTktIUGpEbFdkMzZrc1R1YlptOXZnRDU3TU5wQ0o2OS15YmhTNlMyWGFIZThqQ1hTRGN0NUxXZDVaNlpTWTlvcjhxM1FjdlV2aXdROV9F?oc=5\" target=\"_blank\">San Pedro Red Cross Branch conducts clean up at the entrance of San Mateo</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The San Pedro Sun</font>"
+      },
+      "source": {
+        "href": "https://www.sanpedrosun.com",
+        "title": "The San Pedro Sun"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Oligomeric state of the ZIKV E protein defines protective immune responses - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Oligomeric state of the ZIKV E protein defines protective immune responses - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBmejh1RW5YYlJyUkN5cVM2VTZVZjhxcmhaX19ySFdfN0VjUGdkc1hVY3NqVUFFYktwanRHV2dkWmJzd0Q1WVlrcXdYSUtzNXY1R0tjYUtqWk95eHZheTRR?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBmejh1RW5YYlJyUkN5cVM2VTZVZjhxcmhaX19ySFdfN0VjUGdkc1hVY3NqVUFFYktwanRHV2dkWmJzd0Q1WVlrcXdYSUtzNXY1R0tjYUtqWk95eHZheTRR?oc=5",
+      "id": "CBMiX0FVX3lxTFBmejh1RW5YYlJyUkN5cVM2VTZVZjhxcmhaX19ySFdfN0VjUGdkc1hVY3NqVUFFYktwanRHV2dkWmJzd0Q1WVlrcXdYSUtzNXY1R0tjYUtqWk95eHZheTRR",
+      "guidislink": false,
+      "published": "Thu, 10 Oct 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        10,
+        10,
+        7,
+        0,
+        0,
+        3,
+        283,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFBmejh1RW5YYlJyUkN5cVM2VTZVZjhxcmhaX19ySFdfN0VjUGdkc1hVY3NqVUFFYktwanRHV2dkWmJzd0Q1WVlrcXdYSUtzNXY1R0tjYUtqWk95eHZheTRR?oc=5\" target=\"_blank\">Oligomeric state of the ZIKV E protein defines protective immune responses</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFBmejh1RW5YYlJyUkN5cVM2VTZVZjhxcmhaX19ySFdfN0VjUGdkc1hVY3NqVUFFYktwanRHV2dkWmJzd0Q1WVlrcXdYSUtzNXY1R0tjYUtqWk95eHZheTRR?oc=5\" target=\"_blank\">Oligomeric state of the ZIKV E protein defines protective immune responses</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Over a dozen authorities call for instant action against mosquito plagues in Spain - Olive Press News Spain",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Over a dozen authorities call for instant action against mosquito plagues in Spain - Olive Press News Spain"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSVRtMmhjakRhX2MyWFpnblZ4QUJ4WXdTdXlEVF9TdWtwSGxUTDFVUkFaX0ExY09UNjNpWWhTdXVlVEpySnJrTjJ5UGpkSVZSLVpnbXNWbWpSay1TSklJNl9ON2hvVUVBVEI0Z1NZMmhHVE9zcjRNMDNtcndualh4RUdNYmMwc3VsSDgtMWhwcERqRzB2NlY4R0c4eG1IT1hJUksxbjJWeEI1QWJNUXhoV04tV0xkQm5DN0FCS3ZlWVRvdVVSLXZCMUEyTkZVN2c?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSVRtMmhjakRhX2MyWFpnblZ4QUJ4WXdTdXlEVF9TdWtwSGxUTDFVUkFaX0ExY09UNjNpWWhTdXVlVEpySnJrTjJ5UGpkSVZSLVpnbXNWbWpSay1TSklJNl9ON2hvVUVBVEI0Z1NZMmhHVE9zcjRNMDNtcndualh4RUdNYmMwc3VsSDgtMWhwcERqRzB2NlY4R0c4eG1IT1hJUksxbjJWeEI1QWJNUXhoV04tV0xkQm5DN0FCS3ZlWVRvdVVSLXZCMUEyTkZVN2c?oc=5",
+      "id": "CBMizwFBVV95cUxPSVRtMmhjakRhX2MyWFpnblZ4QUJ4WXdTdXlEVF9TdWtwSGxUTDFVUkFaX0ExY09UNjNpWWhTdXVlVEpySnJrTjJ5UGpkSVZSLVpnbXNWbWpSay1TSklJNl9ON2hvVUVBVEI0Z1NZMmhHVE9zcjRNMDNtcndualh4RUdNYmMwc3VsSDgtMWhwcERqRzB2NlY4R0c4eG1IT1hJUksxbjJWeEI1QWJNUXhoV04tV0xkQm5DN0FCS3ZlWVRvdVVSLXZCMUEyTkZVN2c",
+      "guidislink": false,
+      "published": "Fri, 04 Oct 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        10,
+        4,
+        7,
+        0,
+        0,
+        4,
+        277,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxPSVRtMmhjakRhX2MyWFpnblZ4QUJ4WXdTdXlEVF9TdWtwSGxUTDFVUkFaX0ExY09UNjNpWWhTdXVlVEpySnJrTjJ5UGpkSVZSLVpnbXNWbWpSay1TSklJNl9ON2hvVUVBVEI0Z1NZMmhHVE9zcjRNMDNtcndualh4RUdNYmMwc3VsSDgtMWhwcERqRzB2NlY4R0c4eG1IT1hJUksxbjJWeEI1QWJNUXhoV04tV0xkQm5DN0FCS3ZlWVRvdVVSLXZCMUEyTkZVN2c?oc=5\" target=\"_blank\">Over a dozen authorities call for instant action against mosquito plagues in Spain</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Olive Press News Spain</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxPSVRtMmhjakRhX2MyWFpnblZ4QUJ4WXdTdXlEVF9TdWtwSGxUTDFVUkFaX0ExY09UNjNpWWhTdXVlVEpySnJrTjJ5UGpkSVZSLVpnbXNWbWpSay1TSklJNl9ON2hvVUVBVEI0Z1NZMmhHVE9zcjRNMDNtcndualh4RUdNYmMwc3VsSDgtMWhwcERqRzB2NlY4R0c4eG1IT1hJUksxbjJWeEI1QWJNUXhoV04tV0xkQm5DN0FCS3ZlWVRvdVVSLXZCMUEyTkZVN2c?oc=5\" target=\"_blank\">Over a dozen authorities call for instant action against mosquito plagues in Spain</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Olive Press News Spain</font>"
+      },
+      "source": {
+        "href": "https://www.theolivepress.es",
+        "title": "Olive Press News Spain"
+      },
+      "sub_articles": []
+    }
+  ]
+}

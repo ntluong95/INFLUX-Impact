@@ -1,0 +1,435 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2011-12-22",
+  "window_end": "2012-01-20",
+  "window_days": 30,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2011-12-22+before%3A2012-01-21&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2011-12-22+before:2012-01-21&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T06:51:18Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2011-12-22 before:2012-01-21\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2011-12-22 before:2012-01-21\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2011-12-22+before:2012-01-21&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2011-12-22+before:2012-01-21&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 06:51:19 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      6,
+      51,
+      19,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Tottenham won't buy in January - Harry Redknapp - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Tottenham won't buy in January - Harry Redknapp - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVkRkQ1lnVDQ0SWJTdjBhNlA3R2dETnNkMks3WmdGN0luYjNrbnNIZ1JlZktKUjZRUEM3aU0wa2xfekN0X2RpeFlSV01pLV9vRlRaMG15N3NBV2JfNXBYSkJKVENKb09maG16XzJ6TTRGR1R5S3RPQmdMTkpzaVN2OU02TjJra1JSb29xNGRXYjNpY2RqTW0tOTlLd3lyY1hZb2ZWWDNBM2xzczh6RjhN0gGvAUFVX3lxTE5WRGRDWWdUNDRJYlN2MGE2UDdHZ0ROc2QySzdaZ0Y3SW5iM2tuc0hnUmVmS0pSNlFQQzdpTTBrbF96Q3RfZGl4WVJXTWktX29GVFowbXk3c0FXYl81cFhKQkpUQ0pvT2ZobXpfMnpNNEZHVHlLdE9CZ0xOSnNpU3Y5TTZOMmtrUlJvb3E0ZFdiM2ljZGpNbS05OUt3eXJjWFlvZlZYM0EzbHNzOHpGOE0?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVkRkQ1lnVDQ0SWJTdjBhNlA3R2dETnNkMks3WmdGN0luYjNrbnNIZ1JlZktKUjZRUEM3aU0wa2xfekN0X2RpeFlSV01pLV9vRlRaMG15N3NBV2JfNXBYSkJKVENKb09maG16XzJ6TTRGR1R5S3RPQmdMTkpzaVN2OU02TjJra1JSb29xNGRXYjNpY2RqTW0tOTlLd3lyY1hZb2ZWWDNBM2xzczh6RjhN0gGvAUFVX3lxTE5WRGRDWWdUNDRJYlN2MGE2UDdHZ0ROc2QySzdaZ0Y3SW5iM2tuc0hnUmVmS0pSNlFQQzdpTTBrbF96Q3RfZGl4WVJXTWktX29GVFowbXk3c0FXYl81cFhKQkpUQ0pvT2ZobXpfMnpNNEZHVHlLdE9CZ0xOSnNpU3Y5TTZOMmtrUlJvb3E0ZFdiM2ljZGpNbS05OUt3eXJjWFlvZlZYM0EzbHNzOHpGOE0?oc=5",
+      "id": "CBMirwFBVV95cUxOVkRkQ1lnVDQ0SWJTdjBhNlA3R2dETnNkMks3WmdGN0luYjNrbnNIZ1JlZktKUjZRUEM3aU0wa2xfekN0X2RpeFlSV01pLV9vRlRaMG15N3NBV2JfNXBYSkJKVENKb09maG16XzJ6TTRGR1R5S3RPQmdMTkpzaVN2OU02TjJra1JSb29xNGRXYjNpY2RqTW0tOTlLd3lyY1hZb2ZWWDNBM2xzczh6RjhN0gGvAUFVX3lxTE5WRGRDWWdUNDRJYlN2MGE2UDdHZ0ROc2QySzdaZ0Y3SW5iM2tuc0hnUmVmS0pSNlFQQzdpTTBrbF96Q3RfZGl4WVJXTWktX29GVFowbXk3c0FXYl81cFhKQkpUQ0pvT2ZobXpfMnpNNEZHVHlLdE9CZ0xOSnNpU3Y5TTZOMmtrUlJvb3E0ZFdiM2ljZGpNbS05OUt3eXJjWFlvZlZYM0EzbHNzOHpGOE0",
+      "guidislink": false,
+      "published": "Sun, 01 Jan 2012 08:00:00 GMT",
+      "published_parsed": [
+        2012,
+        1,
+        1,
+        8,
+        0,
+        0,
+        6,
+        1,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxOVkRkQ1lnVDQ0SWJTdjBhNlA3R2dETnNkMks3WmdGN0luYjNrbnNIZ1JlZktKUjZRUEM3aU0wa2xfekN0X2RpeFlSV01pLV9vRlRaMG15N3NBV2JfNXBYSkJKVENKb09maG16XzJ6TTRGR1R5S3RPQmdMTkpzaVN2OU02TjJra1JSb29xNGRXYjNpY2RqTW0tOTlLd3lyY1hZb2ZWWDNBM2xzczh6RjhN0gGvAUFVX3lxTE5WRGRDWWdUNDRJYlN2MGE2UDdHZ0ROc2QySzdaZ0Y3SW5iM2tuc0hnUmVmS0pSNlFQQzdpTTBrbF96Q3RfZGl4WVJXTWktX29GVFowbXk3c0FXYl81cFhKQkpUQ0pvT2ZobXpfMnpNNEZHVHlLdE9CZ0xOSnNpU3Y5TTZOMmtrUlJvb3E0ZFdiM2ljZGpNbS05OUt3eXJjWFlvZlZYM0EzbHNzOHpGOE0?oc=5\" target=\"_blank\">Tottenham won't buy in January - Harry Redknapp</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxOVkRkQ1lnVDQ0SWJTdjBhNlA3R2dETnNkMks3WmdGN0luYjNrbnNIZ1JlZktKUjZRUEM3aU0wa2xfekN0X2RpeFlSV01pLV9vRlRaMG15N3NBV2JfNXBYSkJKVENKb09maG16XzJ6TTRGR1R5S3RPQmdMTkpzaVN2OU02TjJra1JSb29xNGRXYjNpY2RqTW0tOTlLd3lyY1hZb2ZWWDNBM2xzczh6RjhN0gGvAUFVX3lxTE5WRGRDWWdUNDRJYlN2MGE2UDdHZ0ROc2QySzdaZ0Y3SW5iM2tuc0hnUmVmS0pSNlFQQzdpTTBrbF96Q3RfZGl4WVJXTWktX29GVFowbXk3c0FXYl81cFhKQkpUQ0pvT2ZobXpfMnpNNEZHVHlLdE9CZ0xOSnNpU3Y5TTZOMmtrUlJvb3E0ZFdiM2ljZGpNbS05OUt3eXJjWFlvZlZYM0EzbHNzOHpGOE0?oc=5\" target=\"_blank\">Tottenham won't buy in January - Harry Redknapp</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Vanessa Hudgens is perked up after indulging in a pampering session - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Vanessa Hudgens is perked up after indulging in a pampering session - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNzVXaXF3SjlNMzlNTUpyZURvZU9YOFJldGxheEdpY1ZPNExKSDExTnBWdTZER2thNUh4VFR0eGZQaFkyRlQxNmpLRzk3ZGFtX2FrTVpxX3V2MGNKeEIzMG1xQXFmWVFKa0g1bXdBRDRzdVdHcE52WjV1TGwwNmdMSjM0TW11ZWlJcUxDOTRCWGFpODFzX0tXa1M0a3lZTWNnX2hVQldzbEZocjg2VHRJU216Z9IBswFBVV95cUxNNzVXaXF3SjlNMzlNTUpyZURvZU9YOFJldGxheEdpY1ZPNExKSDExTnBWdTZER2thNUh4VFR0eGZQaFkyRlQxNmpLRzk3ZGFtX2FrTVpxX3V2MGNKeEIzMG1xQXFmWVFKa0g1bXdBRDRzdVdHcE52WjV1TGwwNmdMSjM0TW11ZWlJcUxDOTRCWGFpODFzX0tXa1M0a3lZTWNnX2hVQldzbEZocjg2VHRJU216Zw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNzVXaXF3SjlNMzlNTUpyZURvZU9YOFJldGxheEdpY1ZPNExKSDExTnBWdTZER2thNUh4VFR0eGZQaFkyRlQxNmpLRzk3ZGFtX2FrTVpxX3V2MGNKeEIzMG1xQXFmWVFKa0g1bXdBRDRzdVdHcE52WjV1TGwwNmdMSjM0TW11ZWlJcUxDOTRCWGFpODFzX0tXa1M0a3lZTWNnX2hVQldzbEZocjg2VHRJU216Z9IBswFBVV95cUxNNzVXaXF3SjlNMzlNTUpyZURvZU9YOFJldGxheEdpY1ZPNExKSDExTnBWdTZER2thNUh4VFR0eGZQaFkyRlQxNmpLRzk3ZGFtX2FrTVpxX3V2MGNKeEIzMG1xQXFmWVFKa0g1bXdBRDRzdVdHcE52WjV1TGwwNmdMSjM0TW11ZWlJcUxDOTRCWGFpODFzX0tXa1M0a3lZTWNnX2hVQldzbEZocjg2VHRJU216Zw?oc=5",
+      "id": "CBMiswFBVV95cUxNNzVXaXF3SjlNMzlNTUpyZURvZU9YOFJldGxheEdpY1ZPNExKSDExTnBWdTZER2thNUh4VFR0eGZQaFkyRlQxNmpLRzk3ZGFtX2FrTVpxX3V2MGNKeEIzMG1xQXFmWVFKa0g1bXdBRDRzdVdHcE52WjV1TGwwNmdMSjM0TW11ZWlJcUxDOTRCWGFpODFzX0tXa1M0a3lZTWNnX2hVQldzbEZocjg2VHRJU216Z9IBswFBVV95cUxNNzVXaXF3SjlNMzlNTUpyZURvZU9YOFJldGxheEdpY1ZPNExKSDExTnBWdTZER2thNUh4VFR0eGZQaFkyRlQxNmpLRzk3ZGFtX2FrTVpxX3V2MGNKeEIzMG1xQXFmWVFKa0g1bXdBRDRzdVdHcE52WjV1TGwwNmdMSjM0TW11ZWlJcUxDOTRCWGFpODFzX0tXa1M0a3lZTWNnX2hVQldzbEZocjg2VHRJU216Zw",
+      "guidislink": false,
+      "published": "Thu, 22 Dec 2011 08:00:00 GMT",
+      "published_parsed": [
+        2011,
+        12,
+        22,
+        8,
+        0,
+        0,
+        3,
+        356,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxNNzVXaXF3SjlNMzlNTUpyZURvZU9YOFJldGxheEdpY1ZPNExKSDExTnBWdTZER2thNUh4VFR0eGZQaFkyRlQxNmpLRzk3ZGFtX2FrTVpxX3V2MGNKeEIzMG1xQXFmWVFKa0g1bXdBRDRzdVdHcE52WjV1TGwwNmdMSjM0TW11ZWlJcUxDOTRCWGFpODFzX0tXa1M0a3lZTWNnX2hVQldzbEZocjg2VHRJU216Z9IBswFBVV95cUxNNzVXaXF3SjlNMzlNTUpyZURvZU9YOFJldGxheEdpY1ZPNExKSDExTnBWdTZER2thNUh4VFR0eGZQaFkyRlQxNmpLRzk3ZGFtX2FrTVpxX3V2MGNKeEIzMG1xQXFmWVFKa0g1bXdBRDRzdVdHcE52WjV1TGwwNmdMSjM0TW11ZWlJcUxDOTRCWGFpODFzX0tXa1M0a3lZTWNnX2hVQldzbEZocjg2VHRJU216Zw?oc=5\" target=\"_blank\">Vanessa Hudgens is perked up after indulging in a pampering session</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxNNzVXaXF3SjlNMzlNTUpyZURvZU9YOFJldGxheEdpY1ZPNExKSDExTnBWdTZER2thNUh4VFR0eGZQaFkyRlQxNmpLRzk3ZGFtX2FrTVpxX3V2MGNKeEIzMG1xQXFmWVFKa0g1bXdBRDRzdVdHcE52WjV1TGwwNmdMSjM0TW11ZWlJcUxDOTRCWGFpODFzX0tXa1M0a3lZTWNnX2hVQldzbEZocjg2VHRJU216Z9IBswFBVV95cUxNNzVXaXF3SjlNMzlNTUpyZURvZU9YOFJldGxheEdpY1ZPNExKSDExTnBWdTZER2thNUh4VFR0eGZQaFkyRlQxNmpLRzk3ZGFtX2FrTVpxX3V2MGNKeEIzMG1xQXFmWVFKa0g1bXdBRDRzdVdHcE52WjV1TGwwNmdMSjM0TW11ZWlJcUxDOTRCWGFpODFzX0tXa1M0a3lZTWNnX2hVQldzbEZocjg2VHRJU216Zw?oc=5\" target=\"_blank\">Vanessa Hudgens is perked up after indulging in a pampering session</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Tamara Ecclestone and Amy Childs help boost Ultimo's sex appeal as lingerie brand sees record year - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Tamara Ecclestone and Amy Childs help boost Ultimo's sex appeal as lingerie brand sees record year - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNUzQzS0o3R3NIamhaR2lrbDhPU3Q5b0RvRWd1X2s1aUp3MWJxOVhBNjVlSlZoaUtUVW1VMWtBVVRJakNENndPem5fbFJHekM4Ym5RMm5rRm1wYjkzLVZYenRXdHpFZkg2N1J5RDJyVEIteFphWjB2X05CRW1SampBOWZhWDZMUDIyX0N4NV9zVGNnZHhGVWN3Njd5Q0RJU0JzNWQxSXlNMjcxV0RZMHY2Ui1UZTlmbnN1bGY1SWFIeGJHUkstdHM4TmFSNUJRUkpvWjJLRFdWYUtXOTJHNExidER1SnHSAeQBQVVfeXFMTVM0M0tKN0dzSGpoWkdpa2w4T1N0OW9Eb0VndV9rNWlKdzFicTlYQTY1ZUpWaGlLVFVtVTFrQVVUSWpDRDZ3T3puX2xSR3pDOGJuUTJua0ZtcGI5My1WWHp0V3R6RWZINjdSeUQyclRCLXhaYVowdl9OQkVtUmpqQTlmYVg2TFAyMl9DeDVfc1RjZ2R4RlVjdzY3eUNESVNCczVkMUl5TTI3MVdEWTB2NlItVGU5Zm5zdWxmNUlhSHhiR1JLLXRzOE5hUjVCUVJKb1oyS0RXVmFLVzkyRzRMYnREdUpx?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNUzQzS0o3R3NIamhaR2lrbDhPU3Q5b0RvRWd1X2s1aUp3MWJxOVhBNjVlSlZoaUtUVW1VMWtBVVRJakNENndPem5fbFJHekM4Ym5RMm5rRm1wYjkzLVZYenRXdHpFZkg2N1J5RDJyVEIteFphWjB2X05CRW1SampBOWZhWDZMUDIyX0N4NV9zVGNnZHhGVWN3Njd5Q0RJU0JzNWQxSXlNMjcxV0RZMHY2Ui1UZTlmbnN1bGY1SWFIeGJHUkstdHM4TmFSNUJRUkpvWjJLRFdWYUtXOTJHNExidER1SnHSAeQBQVVfeXFMTVM0M0tKN0dzSGpoWkdpa2w4T1N0OW9Eb0VndV9rNWlKdzFicTlYQTY1ZUpWaGlLVFVtVTFrQVVUSWpDRDZ3T3puX2xSR3pDOGJuUTJua0ZtcGI5My1WWHp0V3R6RWZINjdSeUQyclRCLXhaYVowdl9OQkVtUmpqQTlmYVg2TFAyMl9DeDVfc1RjZ2R4RlVjdzY3eUNESVNCczVkMUl5TTI3MVdEWTB2NlItVGU5Zm5zdWxmNUlhSHhiR1JLLXRzOE5hUjVCUVJKb1oyS0RXVmFLVzkyRzRMYnREdUpx?oc=5",
+      "id": "CBMi5AFBVV95cUxNUzQzS0o3R3NIamhaR2lrbDhPU3Q5b0RvRWd1X2s1aUp3MWJxOVhBNjVlSlZoaUtUVW1VMWtBVVRJakNENndPem5fbFJHekM4Ym5RMm5rRm1wYjkzLVZYenRXdHpFZkg2N1J5RDJyVEIteFphWjB2X05CRW1SampBOWZhWDZMUDIyX0N4NV9zVGNnZHhGVWN3Njd5Q0RJU0JzNWQxSXlNMjcxV0RZMHY2Ui1UZTlmbnN1bGY1SWFIeGJHUkstdHM4TmFSNUJRUkpvWjJLRFdWYUtXOTJHNExidER1SnHSAeQBQVVfeXFMTVM0M0tKN0dzSGpoWkdpa2w4T1N0OW9Eb0VndV9rNWlKdzFicTlYQTY1ZUpWaGlLVFVtVTFrQVVUSWpDRDZ3T3puX2xSR3pDOGJuUTJua0ZtcGI5My1WWHp0V3R6RWZINjdSeUQyclRCLXhaYVowdl9OQkVtUmpqQTlmYVg2TFAyMl9DeDVfc1RjZ2R4RlVjdzY3eUNESVNCczVkMUl5TTI3MVdEWTB2NlItVGU5Zm5zdWxmNUlhSHhiR1JLLXRzOE5hUjVCUVJKb1oyS0RXVmFLVzkyRzRMYnREdUpx",
+      "guidislink": false,
+      "published": "Tue, 27 Dec 2011 08:00:00 GMT",
+      "published_parsed": [
+        2011,
+        12,
+        27,
+        8,
+        0,
+        0,
+        1,
+        361,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi5AFBVV95cUxNUzQzS0o3R3NIamhaR2lrbDhPU3Q5b0RvRWd1X2s1aUp3MWJxOVhBNjVlSlZoaUtUVW1VMWtBVVRJakNENndPem5fbFJHekM4Ym5RMm5rRm1wYjkzLVZYenRXdHpFZkg2N1J5RDJyVEIteFphWjB2X05CRW1SampBOWZhWDZMUDIyX0N4NV9zVGNnZHhGVWN3Njd5Q0RJU0JzNWQxSXlNMjcxV0RZMHY2Ui1UZTlmbnN1bGY1SWFIeGJHUkstdHM4TmFSNUJRUkpvWjJLRFdWYUtXOTJHNExidER1SnHSAeQBQVVfeXFMTVM0M0tKN0dzSGpoWkdpa2w4T1N0OW9Eb0VndV9rNWlKdzFicTlYQTY1ZUpWaGlLVFVtVTFrQVVUSWpDRDZ3T3puX2xSR3pDOGJuUTJua0ZtcGI5My1WWHp0V3R6RWZINjdSeUQyclRCLXhaYVowdl9OQkVtUmpqQTlmYVg2TFAyMl9DeDVfc1RjZ2R4RlVjdzY3eUNESVNCczVkMUl5TTI3MVdEWTB2NlItVGU5Zm5zdWxmNUlhSHhiR1JLLXRzOE5hUjVCUVJKb1oyS0RXVmFLVzkyRzRMYnREdUpx?oc=5\" target=\"_blank\">Tamara Ecclestone and Amy Childs help boost Ultimo's sex appeal as lingerie brand sees record year</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi5AFBVV95cUxNUzQzS0o3R3NIamhaR2lrbDhPU3Q5b0RvRWd1X2s1aUp3MWJxOVhBNjVlSlZoaUtUVW1VMWtBVVRJakNENndPem5fbFJHekM4Ym5RMm5rRm1wYjkzLVZYenRXdHpFZkg2N1J5RDJyVEIteFphWjB2X05CRW1SampBOWZhWDZMUDIyX0N4NV9zVGNnZHhGVWN3Njd5Q0RJU0JzNWQxSXlNMjcxV0RZMHY2Ui1UZTlmbnN1bGY1SWFIeGJHUkstdHM4TmFSNUJRUkpvWjJLRFdWYUtXOTJHNExidER1SnHSAeQBQVVfeXFMTVM0M0tKN0dzSGpoWkdpa2w4T1N0OW9Eb0VndV9rNWlKdzFicTlYQTY1ZUpWaGlLVFVtVTFrQVVUSWpDRDZ3T3puX2xSR3pDOGJuUTJua0ZtcGI5My1WWHp0V3R6RWZINjdSeUQyclRCLXhaYVowdl9OQkVtUmpqQTlmYVg2TFAyMl9DeDVfc1RjZ2R4RlVjdzY3eUNESVNCczVkMUl5TTI3MVdEWTB2NlItVGU5Zm5zdWxmNUlhSHhiR1JLLXRzOE5hUjVCUVJKb1oyS0RXVmFLVzkyRzRMYnREdUpx?oc=5\" target=\"_blank\">Tamara Ecclestone and Amy Childs help boost Ultimo's sex appeal as lingerie brand sees record year</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "New Year sales: If you really want to save money - avoid them! - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "New Year sales: If you really want to save money - avoid them! - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPLTBMV3c3a3dsUmFoa3BsMnJ6anpRSFJ2X2k0emd2b2JabWlwQ19Xbm5GaUlEaXJoY0JadUtSdDFxdHR0V0dFdVRvbDM4bUxCdXVrc0ZNYU0wLThFcmlra05ObzZYcGN5OE55RUhuY0JKMG1DWHc3N2hibDNsZkFSSW9PT3Q2OUpkQzFmTlFLNWhtbnVuc0JWSE53bDU0Ml9wUVRqMnEtZm1QdV9JcWVZZNIBsAFBVV95cUxPLTBMV3c3a3dsUmFoa3BsMnJ6anpRSFJ2X2k0emd2b2JabWlwQ19Xbm5GaUlEaXJoY0JadUtSdDFxdHR0V0dFdVRvbDM4bUxCdXVrc0ZNYU0wLThFcmlra05ObzZYcGN5OE55RUhuY0JKMG1DWHc3N2hibDNsZkFSSW9PT3Q2OUpkQzFmTlFLNWhtbnVuc0JWSE53bDU0Ml9wUVRqMnEtZm1QdV9JcWVZZA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPLTBMV3c3a3dsUmFoa3BsMnJ6anpRSFJ2X2k0emd2b2JabWlwQ19Xbm5GaUlEaXJoY0JadUtSdDFxdHR0V0dFdVRvbDM4bUxCdXVrc0ZNYU0wLThFcmlra05ObzZYcGN5OE55RUhuY0JKMG1DWHc3N2hibDNsZkFSSW9PT3Q2OUpkQzFmTlFLNWhtbnVuc0JWSE53bDU0Ml9wUVRqMnEtZm1QdV9JcWVZZNIBsAFBVV95cUxPLTBMV3c3a3dsUmFoa3BsMnJ6anpRSFJ2X2k0emd2b2JabWlwQ19Xbm5GaUlEaXJoY0JadUtSdDFxdHR0V0dFdVRvbDM4bUxCdXVrc0ZNYU0wLThFcmlra05ObzZYcGN5OE55RUhuY0JKMG1DWHc3N2hibDNsZkFSSW9PT3Q2OUpkQzFmTlFLNWhtbnVuc0JWSE53bDU0Ml9wUVRqMnEtZm1QdV9JcWVZZA?oc=5",
+      "id": "CBMisAFBVV95cUxPLTBMV3c3a3dsUmFoa3BsMnJ6anpRSFJ2X2k0emd2b2JabWlwQ19Xbm5GaUlEaXJoY0JadUtSdDFxdHR0V0dFdVRvbDM4bUxCdXVrc0ZNYU0wLThFcmlra05ObzZYcGN5OE55RUhuY0JKMG1DWHc3N2hibDNsZkFSSW9PT3Q2OUpkQzFmTlFLNWhtbnVuc0JWSE53bDU0Ml9wUVRqMnEtZm1QdV9JcWVZZNIBsAFBVV95cUxPLTBMV3c3a3dsUmFoa3BsMnJ6anpRSFJ2X2k0emd2b2JabWlwQ19Xbm5GaUlEaXJoY0JadUtSdDFxdHR0V0dFdVRvbDM4bUxCdXVrc0ZNYU0wLThFcmlra05ObzZYcGN5OE55RUhuY0JKMG1DWHc3N2hibDNsZkFSSW9PT3Q2OUpkQzFmTlFLNWhtbnVuc0JWSE53bDU0Ml9wUVRqMnEtZm1QdV9JcWVZZA",
+      "guidislink": false,
+      "published": "Wed, 28 Dec 2011 08:00:00 GMT",
+      "published_parsed": [
+        2011,
+        12,
+        28,
+        8,
+        0,
+        0,
+        2,
+        362,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPLTBMV3c3a3dsUmFoa3BsMnJ6anpRSFJ2X2k0emd2b2JabWlwQ19Xbm5GaUlEaXJoY0JadUtSdDFxdHR0V0dFdVRvbDM4bUxCdXVrc0ZNYU0wLThFcmlra05ObzZYcGN5OE55RUhuY0JKMG1DWHc3N2hibDNsZkFSSW9PT3Q2OUpkQzFmTlFLNWhtbnVuc0JWSE53bDU0Ml9wUVRqMnEtZm1QdV9JcWVZZNIBsAFBVV95cUxPLTBMV3c3a3dsUmFoa3BsMnJ6anpRSFJ2X2k0emd2b2JabWlwQ19Xbm5GaUlEaXJoY0JadUtSdDFxdHR0V0dFdVRvbDM4bUxCdXVrc0ZNYU0wLThFcmlra05ObzZYcGN5OE55RUhuY0JKMG1DWHc3N2hibDNsZkFSSW9PT3Q2OUpkQzFmTlFLNWhtbnVuc0JWSE53bDU0Ml9wUVRqMnEtZm1QdV9JcWVZZA?oc=5\" target=\"_blank\">New Year sales: If you really want to save money - avoid them!</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPLTBMV3c3a3dsUmFoa3BsMnJ6anpRSFJ2X2k0emd2b2JabWlwQ19Xbm5GaUlEaXJoY0JadUtSdDFxdHR0V0dFdVRvbDM4bUxCdXVrc0ZNYU0wLThFcmlra05ObzZYcGN5OE55RUhuY0JKMG1DWHc3N2hibDNsZkFSSW9PT3Q2OUpkQzFmTlFLNWhtbnVuc0JWSE53bDU0Ml9wUVRqMnEtZm1QdV9JcWVZZNIBsAFBVV95cUxPLTBMV3c3a3dsUmFoa3BsMnJ6anpRSFJ2X2k0emd2b2JabWlwQ19Xbm5GaUlEaXJoY0JadUtSdDFxdHR0V0dFdVRvbDM4bUxCdXVrc0ZNYU0wLThFcmlra05ObzZYcGN5OE55RUhuY0JKMG1DWHc3N2hibDNsZkFSSW9PT3Q2OUpkQzFmTlFLNWhtbnVuc0JWSE53bDU0Ml9wUVRqMnEtZm1QdV9JcWVZZA?oc=5\" target=\"_blank\">New Year sales: If you really want to save money - avoid them!</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Alexa Chung demonstrates her New York hipster credentials in shoot for Vero Moda - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Alexa Chung demonstrates her New York hipster credentials in shoot for Vero Moda - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNOXN2TzJXQlFkbE9DdjlhM0JLT0NpamlUbV9NX1FscHVicjlZeWx6QlR4bHZmN0VkQU1LT1o2ZUl6a2xHS0dSMnd4XzNScXBaRWh2ZVNBMUZxZ3EwMmk0RVFySXdvOWs4Z2VNUXdSeGNmYThDVkFxOHZyWndEbFhSTk1YMEo1UVZyd3lYUmZzU2hDTXBVSUNyTFlNWWVxcjVReFN2UkpTdWgtRnV3M1dTUV9qVWRYZDZHc2w0ZDFVakpWUGtzaWNJadIByAFBVV95cUxNOXN2TzJXQlFkbE9DdjlhM0JLT0NpamlUbV9NX1FscHVicjlZeWx6QlR4bHZmN0VkQU1LT1o2ZUl6a2xHS0dSMnd4XzNScXBaRWh2ZVNBMUZxZ3EwMmk0RVFySXdvOWs4Z2VNUXdSeGNmYThDVkFxOHZyWndEbFhSTk1YMEo1UVZyd3lYUmZzU2hDTXBVSUNyTFlNWWVxcjVReFN2UkpTdWgtRnV3M1dTUV9qVWRYZDZHc2w0ZDFVakpWUGtzaWNJaQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNOXN2TzJXQlFkbE9DdjlhM0JLT0NpamlUbV9NX1FscHVicjlZeWx6QlR4bHZmN0VkQU1LT1o2ZUl6a2xHS0dSMnd4XzNScXBaRWh2ZVNBMUZxZ3EwMmk0RVFySXdvOWs4Z2VNUXdSeGNmYThDVkFxOHZyWndEbFhSTk1YMEo1UVZyd3lYUmZzU2hDTXBVSUNyTFlNWWVxcjVReFN2UkpTdWgtRnV3M1dTUV9qVWRYZDZHc2w0ZDFVakpWUGtzaWNJadIByAFBVV95cUxNOXN2TzJXQlFkbE9DdjlhM0JLT0NpamlUbV9NX1FscHVicjlZeWx6QlR4bHZmN0VkQU1LT1o2ZUl6a2xHS0dSMnd4XzNScXBaRWh2ZVNBMUZxZ3EwMmk0RVFySXdvOWs4Z2VNUXdSeGNmYThDVkFxOHZyWndEbFhSTk1YMEo1UVZyd3lYUmZzU2hDTXBVSUNyTFlNWWVxcjVReFN2UkpTdWgtRnV3M1dTUV9qVWRYZDZHc2w0ZDFVakpWUGtzaWNJaQ?oc=5",
+      "id": "CBMiyAFBVV95cUxNOXN2TzJXQlFkbE9DdjlhM0JLT0NpamlUbV9NX1FscHVicjlZeWx6QlR4bHZmN0VkQU1LT1o2ZUl6a2xHS0dSMnd4XzNScXBaRWh2ZVNBMUZxZ3EwMmk0RVFySXdvOWs4Z2VNUXdSeGNmYThDVkFxOHZyWndEbFhSTk1YMEo1UVZyd3lYUmZzU2hDTXBVSUNyTFlNWWVxcjVReFN2UkpTdWgtRnV3M1dTUV9qVWRYZDZHc2w0ZDFVakpWUGtzaWNJadIByAFBVV95cUxNOXN2TzJXQlFkbE9DdjlhM0JLT0NpamlUbV9NX1FscHVicjlZeWx6QlR4bHZmN0VkQU1LT1o2ZUl6a2xHS0dSMnd4XzNScXBaRWh2ZVNBMUZxZ3EwMmk0RVFySXdvOWs4Z2VNUXdSeGNmYThDVkFxOHZyWndEbFhSTk1YMEo1UVZyd3lYUmZzU2hDTXBVSUNyTFlNWWVxcjVReFN2UkpTdWgtRnV3M1dTUV9qVWRYZDZHc2w0ZDFVakpWUGtzaWNJaQ",
+      "guidislink": false,
+      "published": "Thu, 12 Jan 2012 08:00:00 GMT",
+      "published_parsed": [
+        2012,
+        1,
+        12,
+        8,
+        0,
+        0,
+        3,
+        12,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxNOXN2TzJXQlFkbE9DdjlhM0JLT0NpamlUbV9NX1FscHVicjlZeWx6QlR4bHZmN0VkQU1LT1o2ZUl6a2xHS0dSMnd4XzNScXBaRWh2ZVNBMUZxZ3EwMmk0RVFySXdvOWs4Z2VNUXdSeGNmYThDVkFxOHZyWndEbFhSTk1YMEo1UVZyd3lYUmZzU2hDTXBVSUNyTFlNWWVxcjVReFN2UkpTdWgtRnV3M1dTUV9qVWRYZDZHc2w0ZDFVakpWUGtzaWNJadIByAFBVV95cUxNOXN2TzJXQlFkbE9DdjlhM0JLT0NpamlUbV9NX1FscHVicjlZeWx6QlR4bHZmN0VkQU1LT1o2ZUl6a2xHS0dSMnd4XzNScXBaRWh2ZVNBMUZxZ3EwMmk0RVFySXdvOWs4Z2VNUXdSeGNmYThDVkFxOHZyWndEbFhSTk1YMEo1UVZyd3lYUmZzU2hDTXBVSUNyTFlNWWVxcjVReFN2UkpTdWgtRnV3M1dTUV9qVWRYZDZHc2w0ZDFVakpWUGtzaWNJaQ?oc=5\" target=\"_blank\">Alexa Chung demonstrates her New York hipster credentials in shoot for Vero Moda</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxNOXN2TzJXQlFkbE9DdjlhM0JLT0NpamlUbV9NX1FscHVicjlZeWx6QlR4bHZmN0VkQU1LT1o2ZUl6a2xHS0dSMnd4XzNScXBaRWh2ZVNBMUZxZ3EwMmk0RVFySXdvOWs4Z2VNUXdSeGNmYThDVkFxOHZyWndEbFhSTk1YMEo1UVZyd3lYUmZzU2hDTXBVSUNyTFlNWWVxcjVReFN2UkpTdWgtRnV3M1dTUV9qVWRYZDZHc2w0ZDFVakpWUGtzaWNJadIByAFBVV95cUxNOXN2TzJXQlFkbE9DdjlhM0JLT0NpamlUbV9NX1FscHVicjlZeWx6QlR4bHZmN0VkQU1LT1o2ZUl6a2xHS0dSMnd4XzNScXBaRWh2ZVNBMUZxZ3EwMmk0RVFySXdvOWs4Z2VNUXdSeGNmYThDVkFxOHZyWndEbFhSTk1YMEo1UVZyd3lYUmZzU2hDTXBVSUNyTFlNWWVxcjVReFN2UkpTdWgtRnV3M1dTUV9qVWRYZDZHc2w0ZDFVakpWUGtzaWNJaQ?oc=5\" target=\"_blank\">Alexa Chung demonstrates her New York hipster credentials in shoot for Vero Moda</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "An accident waiting to happen? Label launches high-heeled boots for fashion-conscious ice-skaters - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "An accident waiting to happen? Label launches high-heeled boots for fashion-conscious ice-skaters - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQZG9VbW1qcXdSaFc5Q2Q3Y3V6TXhWZHpVbVAzVkt1MUk4dWd1MnpJQU12dzlMOE1EbVdPdVlyVUlja1I4UE1YSGVDa2RaOHRhNm44Sk0yWV9DbTdTQlBzU1FfdjhVYzR4aHR2WlpWd3ZGSkYwUURFcTExbDQ2aGo2WHdvRG9zdHBoTl9IUUIxRGktMUpJa0h5ZU1sR2NmNlJ3RXhOLVlKaHAyOUpJUHRXM1hTc0pRX1lWczRnb2tCU1h2dEQyR2F2TWQ3ZnMwU1RhdHpnR196N19VdlM4QkZwMURkd9IB4wFBVV95cUxQZG9VbW1qcXdSaFc5Q2Q3Y3V6TXhWZHpVbVAzVkt1MUk4dWd1MnpJQU12dzlMOE1EbVdPdVlyVUlja1I4UE1YSGVDa2RaOHRhNm44Sk0yWV9DbTdTQlBzU1FfdjhVYzR4aHR2WlpWd3ZGSkYwUURFcTExbDQ2aGo2WHdvRG9zdHBoTl9IUUIxRGktMUpJa0h5ZU1sR2NmNlJ3RXhOLVlKaHAyOUpJUHRXM1hTc0pRX1lWczRnb2tCU1h2dEQyR2F2TWQ3ZnMwU1RhdHpnR196N19VdlM4QkZwMURkdw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQZG9VbW1qcXdSaFc5Q2Q3Y3V6TXhWZHpVbVAzVkt1MUk4dWd1MnpJQU12dzlMOE1EbVdPdVlyVUlja1I4UE1YSGVDa2RaOHRhNm44Sk0yWV9DbTdTQlBzU1FfdjhVYzR4aHR2WlpWd3ZGSkYwUURFcTExbDQ2aGo2WHdvRG9zdHBoTl9IUUIxRGktMUpJa0h5ZU1sR2NmNlJ3RXhOLVlKaHAyOUpJUHRXM1hTc0pRX1lWczRnb2tCU1h2dEQyR2F2TWQ3ZnMwU1RhdHpnR196N19VdlM4QkZwMURkd9IB4wFBVV95cUxQZG9VbW1qcXdSaFc5Q2Q3Y3V6TXhWZHpVbVAzVkt1MUk4dWd1MnpJQU12dzlMOE1EbVdPdVlyVUlja1I4UE1YSGVDa2RaOHRhNm44Sk0yWV9DbTdTQlBzU1FfdjhVYzR4aHR2WlpWd3ZGSkYwUURFcTExbDQ2aGo2WHdvRG9zdHBoTl9IUUIxRGktMUpJa0h5ZU1sR2NmNlJ3RXhOLVlKaHAyOUpJUHRXM1hTc0pRX1lWczRnb2tCU1h2dEQyR2F2TWQ3ZnMwU1RhdHpnR196N19VdlM4QkZwMURkdw?oc=5",
+      "id": "CBMi4wFBVV95cUxQZG9VbW1qcXdSaFc5Q2Q3Y3V6TXhWZHpVbVAzVkt1MUk4dWd1MnpJQU12dzlMOE1EbVdPdVlyVUlja1I4UE1YSGVDa2RaOHRhNm44Sk0yWV9DbTdTQlBzU1FfdjhVYzR4aHR2WlpWd3ZGSkYwUURFcTExbDQ2aGo2WHdvRG9zdHBoTl9IUUIxRGktMUpJa0h5ZU1sR2NmNlJ3RXhOLVlKaHAyOUpJUHRXM1hTc0pRX1lWczRnb2tCU1h2dEQyR2F2TWQ3ZnMwU1RhdHpnR196N19VdlM4QkZwMURkd9IB4wFBVV95cUxQZG9VbW1qcXdSaFc5Q2Q3Y3V6TXhWZHpVbVAzVkt1MUk4dWd1MnpJQU12dzlMOE1EbVdPdVlyVUlja1I4UE1YSGVDa2RaOHRhNm44Sk0yWV9DbTdTQlBzU1FfdjhVYzR4aHR2WlpWd3ZGSkYwUURFcTExbDQ2aGo2WHdvRG9zdHBoTl9IUUIxRGktMUpJa0h5ZU1sR2NmNlJ3RXhOLVlKaHAyOUpJUHRXM1hTc0pRX1lWczRnb2tCU1h2dEQyR2F2TWQ3ZnMwU1RhdHpnR196N19VdlM4QkZwMURkdw",
+      "guidislink": false,
+      "published": "Fri, 23 Dec 2011 08:00:00 GMT",
+      "published_parsed": [
+        2011,
+        12,
+        23,
+        8,
+        0,
+        0,
+        4,
+        357,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi4wFBVV95cUxQZG9VbW1qcXdSaFc5Q2Q3Y3V6TXhWZHpVbVAzVkt1MUk4dWd1MnpJQU12dzlMOE1EbVdPdVlyVUlja1I4UE1YSGVDa2RaOHRhNm44Sk0yWV9DbTdTQlBzU1FfdjhVYzR4aHR2WlpWd3ZGSkYwUURFcTExbDQ2aGo2WHdvRG9zdHBoTl9IUUIxRGktMUpJa0h5ZU1sR2NmNlJ3RXhOLVlKaHAyOUpJUHRXM1hTc0pRX1lWczRnb2tCU1h2dEQyR2F2TWQ3ZnMwU1RhdHpnR196N19VdlM4QkZwMURkd9IB4wFBVV95cUxQZG9VbW1qcXdSaFc5Q2Q3Y3V6TXhWZHpVbVAzVkt1MUk4dWd1MnpJQU12dzlMOE1EbVdPdVlyVUlja1I4UE1YSGVDa2RaOHRhNm44Sk0yWV9DbTdTQlBzU1FfdjhVYzR4aHR2WlpWd3ZGSkYwUURFcTExbDQ2aGo2WHdvRG9zdHBoTl9IUUIxRGktMUpJa0h5ZU1sR2NmNlJ3RXhOLVlKaHAyOUpJUHRXM1hTc0pRX1lWczRnb2tCU1h2dEQyR2F2TWQ3ZnMwU1RhdHpnR196N19VdlM4QkZwMURkdw?oc=5\" target=\"_blank\">An accident waiting to happen? Label launches high-heeled boots for fashion-conscious ice-skaters</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi4wFBVV95cUxQZG9VbW1qcXdSaFc5Q2Q3Y3V6TXhWZHpVbVAzVkt1MUk4dWd1MnpJQU12dzlMOE1EbVdPdVlyVUlja1I4UE1YSGVDa2RaOHRhNm44Sk0yWV9DbTdTQlBzU1FfdjhVYzR4aHR2WlpWd3ZGSkYwUURFcTExbDQ2aGo2WHdvRG9zdHBoTl9IUUIxRGktMUpJa0h5ZU1sR2NmNlJ3RXhOLVlKaHAyOUpJUHRXM1hTc0pRX1lWczRnb2tCU1h2dEQyR2F2TWQ3ZnMwU1RhdHpnR196N19VdlM4QkZwMURkd9IB4wFBVV95cUxQZG9VbW1qcXdSaFc5Q2Q3Y3V6TXhWZHpVbVAzVkt1MUk4dWd1MnpJQU12dzlMOE1EbVdPdVlyVUlja1I4UE1YSGVDa2RaOHRhNm44Sk0yWV9DbTdTQlBzU1FfdjhVYzR4aHR2WlpWd3ZGSkYwUURFcTExbDQ2aGo2WHdvRG9zdHBoTl9IUUIxRGktMUpJa0h5ZU1sR2NmNlJ3RXhOLVlKaHAyOUpJUHRXM1hTc0pRX1lWczRnb2tCU1h2dEQyR2F2TWQ3ZnMwU1RhdHpnR196N19VdlM4QkZwMURkdw?oc=5\" target=\"_blank\">An accident waiting to happen? Label launches high-heeled boots for fashion-conscious ice-skaters</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Catholic midwives take bosses to court claiming supervising abortions breaches their human rights - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Catholic midwives take bosses to court claiming supervising abortions breaches their human rights - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQeG9qVlhnTDIyWVhFcHNHTWNDMVJoX2pXX0lUYS1qeEI5YmhXN2lqQzUxRm9QYzZoS0FfekJKQi1HZU5NZFRYb1F1dnNUTjFZRjA5SDZnUmdCMXBtQktSSDJLbW91WEd3QmlGWk9ibDlLQWJQbEJRODhibnJQT1dHbktqbkswZDJGV011a1VRdE4tTjZkVkJHYXNjSnBNR1IzYi14X1BENl9wMG5uTVN4T01sNnFOUE1pTUtNSE5DUXk0bHlBV3RZQnBwX2NPWWtic1ROdUZNWmnSAdgBQVVfeXFMUHhvalZYZ0wyMllYRXBzR01jQzFSaF9qV19JVGEtanhCOWJoVzdpakM1MUZvUGM2aEtBX3pCSkItR2VOTWRUWG9RdXZzVE4xWUYwOUg2Z1JnQjFwbUJLUkgyS21vdVhHd0JpRlpPYmw5S0FiUGxCUTg4Ym5yUE9XR25Lam5LMGQyRldNdWtVUXROLU42ZFZCR2FzY0pwTUdSM2IteF9QRDZfcDBubk1TeE9NbDZxTlBNaU1LTUhOQ1F5NGx5QVd0WUJwcF9jT1lrYnNUTnVGTVpp?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQeG9qVlhnTDIyWVhFcHNHTWNDMVJoX2pXX0lUYS1qeEI5YmhXN2lqQzUxRm9QYzZoS0FfekJKQi1HZU5NZFRYb1F1dnNUTjFZRjA5SDZnUmdCMXBtQktSSDJLbW91WEd3QmlGWk9ibDlLQWJQbEJRODhibnJQT1dHbktqbkswZDJGV011a1VRdE4tTjZkVkJHYXNjSnBNR1IzYi14X1BENl9wMG5uTVN4T01sNnFOUE1pTUtNSE5DUXk0bHlBV3RZQnBwX2NPWWtic1ROdUZNWmnSAdgBQVVfeXFMUHhvalZYZ0wyMllYRXBzR01jQzFSaF9qV19JVGEtanhCOWJoVzdpakM1MUZvUGM2aEtBX3pCSkItR2VOTWRUWG9RdXZzVE4xWUYwOUg2Z1JnQjFwbUJLUkgyS21vdVhHd0JpRlpPYmw5S0FiUGxCUTg4Ym5yUE9XR25Lam5LMGQyRldNdWtVUXROLU42ZFZCR2FzY0pwTUdSM2IteF9QRDZfcDBubk1TeE9NbDZxTlBNaU1LTUhOQ1F5NGx5QVd0WUJwcF9jT1lrYnNUTnVGTVpp?oc=5",
+      "id": "CBMi2AFBVV95cUxQeG9qVlhnTDIyWVhFcHNHTWNDMVJoX2pXX0lUYS1qeEI5YmhXN2lqQzUxRm9QYzZoS0FfekJKQi1HZU5NZFRYb1F1dnNUTjFZRjA5SDZnUmdCMXBtQktSSDJLbW91WEd3QmlGWk9ibDlLQWJQbEJRODhibnJQT1dHbktqbkswZDJGV011a1VRdE4tTjZkVkJHYXNjSnBNR1IzYi14X1BENl9wMG5uTVN4T01sNnFOUE1pTUtNSE5DUXk0bHlBV3RZQnBwX2NPWWtic1ROdUZNWmnSAdgBQVVfeXFMUHhvalZYZ0wyMllYRXBzR01jQzFSaF9qV19JVGEtanhCOWJoVzdpakM1MUZvUGM2aEtBX3pCSkItR2VOTWRUWG9RdXZzVE4xWUYwOUg2Z1JnQjFwbUJLUkgyS21vdVhHd0JpRlpPYmw5S0FiUGxCUTg4Ym5yUE9XR25Lam5LMGQyRldNdWtVUXROLU42ZFZCR2FzY0pwTUdSM2IteF9QRDZfcDBubk1TeE9NbDZxTlBNaU1LTUhOQ1F5NGx5QVd0WUJwcF9jT1lrYnNUTnVGTVpp",
+      "guidislink": false,
+      "published": "Wed, 18 Jan 2012 08:00:00 GMT",
+      "published_parsed": [
+        2012,
+        1,
+        18,
+        8,
+        0,
+        0,
+        2,
+        18,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxQeG9qVlhnTDIyWVhFcHNHTWNDMVJoX2pXX0lUYS1qeEI5YmhXN2lqQzUxRm9QYzZoS0FfekJKQi1HZU5NZFRYb1F1dnNUTjFZRjA5SDZnUmdCMXBtQktSSDJLbW91WEd3QmlGWk9ibDlLQWJQbEJRODhibnJQT1dHbktqbkswZDJGV011a1VRdE4tTjZkVkJHYXNjSnBNR1IzYi14X1BENl9wMG5uTVN4T01sNnFOUE1pTUtNSE5DUXk0bHlBV3RZQnBwX2NPWWtic1ROdUZNWmnSAdgBQVVfeXFMUHhvalZYZ0wyMllYRXBzR01jQzFSaF9qV19JVGEtanhCOWJoVzdpakM1MUZvUGM2aEtBX3pCSkItR2VOTWRUWG9RdXZzVE4xWUYwOUg2Z1JnQjFwbUJLUkgyS21vdVhHd0JpRlpPYmw5S0FiUGxCUTg4Ym5yUE9XR25Lam5LMGQyRldNdWtVUXROLU42ZFZCR2FzY0pwTUdSM2IteF9QRDZfcDBubk1TeE9NbDZxTlBNaU1LTUhOQ1F5NGx5QVd0WUJwcF9jT1lrYnNUTnVGTVpp?oc=5\" target=\"_blank\">Catholic midwives take bosses to court claiming supervising abortions breaches their human rights</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi2AFBVV95cUxQeG9qVlhnTDIyWVhFcHNHTWNDMVJoX2pXX0lUYS1qeEI5YmhXN2lqQzUxRm9QYzZoS0FfekJKQi1HZU5NZFRYb1F1dnNUTjFZRjA5SDZnUmdCMXBtQktSSDJLbW91WEd3QmlGWk9ibDlLQWJQbEJRODhibnJQT1dHbktqbkswZDJGV011a1VRdE4tTjZkVkJHYXNjSnBNR1IzYi14X1BENl9wMG5uTVN4T01sNnFOUE1pTUtNSE5DUXk0bHlBV3RZQnBwX2NPWWtic1ROdUZNWmnSAdgBQVVfeXFMUHhvalZYZ0wyMllYRXBzR01jQzFSaF9qV19JVGEtanhCOWJoVzdpakM1MUZvUGM2aEtBX3pCSkItR2VOTWRUWG9RdXZzVE4xWUYwOUg2Z1JnQjFwbUJLUkgyS21vdVhHd0JpRlpPYmw5S0FiUGxCUTg4Ym5yUE9XR25Lam5LMGQyRldNdWtVUXROLU42ZFZCR2FzY0pwTUdSM2IteF9QRDZfcDBubk1TeE9NbDZxTlBNaU1LTUhOQ1F5NGx5QVd0WUJwcF9jT1lrYnNUTnVGTVpp?oc=5\" target=\"_blank\">Catholic midwives take bosses to court claiming supervising abortions breaches their human rights</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Life begins at 40 but confidence peaks at 52 years and two months for British women - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Life begins at 40 but confidence peaks at 52 years and two months for British women - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQOXVQRzVybm8wMWl4U3Z2LXh4UFpGNmRwNWxaLWNKR0k0VkxoNjFicmUwTnlxdndZWXp0eE5DcnFHdEhZUmZhZmFHNmJfM1pIU3JmRks4d0VVWnFkVU9IRXRPdUFKVVlhaUplOTZrd3V5SExuSG14amo2NGNua1N5RHZUU05zSEVHTTMzbXBvclRfT2xUS2hkTURGc2VnX2RBNUVZcV8wazZkREpoUGhDdDdLTkNwZW00X09oVWM5RDBQVVVpVVpDSHhpZ1Y4all0OVd1WmNTbE45SkpabTF3OFM4eFlHUDRZRkpDVNIB7AFBVV95cUxQOXVQRzVybm8wMWl4U3Z2LXh4UFpGNmRwNWxaLWNKR0k0VkxoNjFicmUwTnlxdndZWXp0eE5DcnFHdEhZUmZhZmFHNmJfM1pIU3JmRks4d0VVWnFkVU9IRXRPdUFKVVlhaUplOTZrd3V5SExuSG14amo2NGNua1N5RHZUU05zSEVHTTMzbXBvclRfT2xUS2hkTURGc2VnX2RBNUVZcV8wazZkREpoUGhDdDdLTkNwZW00X09oVWM5RDBQVVVpVVpDSHhpZ1Y4all0OVd1WmNTbE45SkpabTF3OFM4eFlHUDRZRkpDVA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQOXVQRzVybm8wMWl4U3Z2LXh4UFpGNmRwNWxaLWNKR0k0VkxoNjFicmUwTnlxdndZWXp0eE5DcnFHdEhZUmZhZmFHNmJfM1pIU3JmRks4d0VVWnFkVU9IRXRPdUFKVVlhaUplOTZrd3V5SExuSG14amo2NGNua1N5RHZUU05zSEVHTTMzbXBvclRfT2xUS2hkTURGc2VnX2RBNUVZcV8wazZkREpoUGhDdDdLTkNwZW00X09oVWM5RDBQVVVpVVpDSHhpZ1Y4all0OVd1WmNTbE45SkpabTF3OFM4eFlHUDRZRkpDVNIB7AFBVV95cUxQOXVQRzVybm8wMWl4U3Z2LXh4UFpGNmRwNWxaLWNKR0k0VkxoNjFicmUwTnlxdndZWXp0eE5DcnFHdEhZUmZhZmFHNmJfM1pIU3JmRks4d0VVWnFkVU9IRXRPdUFKVVlhaUplOTZrd3V5SExuSG14amo2NGNua1N5RHZUU05zSEVHTTMzbXBvclRfT2xUS2hkTURGc2VnX2RBNUVZcV8wazZkREpoUGhDdDdLTkNwZW00X09oVWM5RDBQVVVpVVpDSHhpZ1Y4all0OVd1WmNTbE45SkpabTF3OFM4eFlHUDRZRkpDVA?oc=5",
+      "id": "CBMi7AFBVV95cUxQOXVQRzVybm8wMWl4U3Z2LXh4UFpGNmRwNWxaLWNKR0k0VkxoNjFicmUwTnlxdndZWXp0eE5DcnFHdEhZUmZhZmFHNmJfM1pIU3JmRks4d0VVWnFkVU9IRXRPdUFKVVlhaUplOTZrd3V5SExuSG14amo2NGNua1N5RHZUU05zSEVHTTMzbXBvclRfT2xUS2hkTURGc2VnX2RBNUVZcV8wazZkREpoUGhDdDdLTkNwZW00X09oVWM5RDBQVVVpVVpDSHhpZ1Y4all0OVd1WmNTbE45SkpabTF3OFM4eFlHUDRZRkpDVNIB7AFBVV95cUxQOXVQRzVybm8wMWl4U3Z2LXh4UFpGNmRwNWxaLWNKR0k0VkxoNjFicmUwTnlxdndZWXp0eE5DcnFHdEhZUmZhZmFHNmJfM1pIU3JmRks4d0VVWnFkVU9IRXRPdUFKVVlhaUplOTZrd3V5SExuSG14amo2NGNua1N5RHZUU05zSEVHTTMzbXBvclRfT2xUS2hkTURGc2VnX2RBNUVZcV8wazZkREpoUGhDdDdLTkNwZW00X09oVWM5RDBQVVVpVVpDSHhpZ1Y4all0OVd1WmNTbE45SkpabTF3OFM4eFlHUDRZRkpDVA",
+      "guidislink": false,
+      "published": "Tue, 27 Dec 2011 08:00:00 GMT",
+      "published_parsed": [
+        2011,
+        12,
+        27,
+        8,
+        0,
+        0,
+        1,
+        361,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi7AFBVV95cUxQOXVQRzVybm8wMWl4U3Z2LXh4UFpGNmRwNWxaLWNKR0k0VkxoNjFicmUwTnlxdndZWXp0eE5DcnFHdEhZUmZhZmFHNmJfM1pIU3JmRks4d0VVWnFkVU9IRXRPdUFKVVlhaUplOTZrd3V5SExuSG14amo2NGNua1N5RHZUU05zSEVHTTMzbXBvclRfT2xUS2hkTURGc2VnX2RBNUVZcV8wazZkREpoUGhDdDdLTkNwZW00X09oVWM5RDBQVVVpVVpDSHhpZ1Y4all0OVd1WmNTbE45SkpabTF3OFM4eFlHUDRZRkpDVNIB7AFBVV95cUxQOXVQRzVybm8wMWl4U3Z2LXh4UFpGNmRwNWxaLWNKR0k0VkxoNjFicmUwTnlxdndZWXp0eE5DcnFHdEhZUmZhZmFHNmJfM1pIU3JmRks4d0VVWnFkVU9IRXRPdUFKVVlhaUplOTZrd3V5SExuSG14amo2NGNua1N5RHZUU05zSEVHTTMzbXBvclRfT2xUS2hkTURGc2VnX2RBNUVZcV8wazZkREpoUGhDdDdLTkNwZW00X09oVWM5RDBQVVVpVVpDSHhpZ1Y4all0OVd1WmNTbE45SkpabTF3OFM4eFlHUDRZRkpDVA?oc=5\" target=\"_blank\">Life begins at 40 but confidence peaks at 52 years and two months for British women</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi7AFBVV95cUxQOXVQRzVybm8wMWl4U3Z2LXh4UFpGNmRwNWxaLWNKR0k0VkxoNjFicmUwTnlxdndZWXp0eE5DcnFHdEhZUmZhZmFHNmJfM1pIU3JmRks4d0VVWnFkVU9IRXRPdUFKVVlhaUplOTZrd3V5SExuSG14amo2NGNua1N5RHZUU05zSEVHTTMzbXBvclRfT2xUS2hkTURGc2VnX2RBNUVZcV8wazZkREpoUGhDdDdLTkNwZW00X09oVWM5RDBQVVVpVVpDSHhpZ1Y4all0OVd1WmNTbE45SkpabTF3OFM4eFlHUDRZRkpDVNIB7AFBVV95cUxQOXVQRzVybm8wMWl4U3Z2LXh4UFpGNmRwNWxaLWNKR0k0VkxoNjFicmUwTnlxdndZWXp0eE5DcnFHdEhZUmZhZmFHNmJfM1pIU3JmRks4d0VVWnFkVU9IRXRPdUFKVVlhaUplOTZrd3V5SExuSG14amo2NGNua1N5RHZUU05zSEVHTTMzbXBvclRfT2xUS2hkTURGc2VnX2RBNUVZcV8wazZkREpoUGhDdDdLTkNwZW00X09oVWM5RDBQVVVpVVpDSHhpZ1Y4all0OVd1WmNTbE45SkpabTF3OFM4eFlHUDRZRkpDVA?oc=5\" target=\"_blank\">Life begins at 40 but confidence peaks at 52 years and two months for British women</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    }
+  ]
+}

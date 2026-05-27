@@ -1,0 +1,779 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2019-08-02",
+  "window_end": "2019-08-15",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2019-08-02+before%3A2019-08-16&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2019-08-02+before:2019-08-16&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:27:03Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2019-08-02 before:2019-08-16\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2019-08-02 before:2019-08-16\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2019-08-02+before:2019-08-16&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2019-08-02+before:2019-08-16&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:27:03 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      27,
+      3,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Lipophilic statins inhibit Zika virus production in Vero cells - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Lipophilic statins inhibit Zika virus production in Vero cells - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1uaEpEd2lmaXZzVUgwRllSMGRfT2xZbS1VUUt4ODZyTG1YenA0a2diWEZOUlVLalJrTjhvemw0Vy1yNF9Dc0tTWkV6Ri13NkVZZ2o5dkxDbVRHcE9hdHpF?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1uaEpEd2lmaXZzVUgwRllSMGRfT2xZbS1VUUt4ODZyTG1YenA0a2diWEZOUlVLalJrTjhvemw0Vy1yNF9Dc0tTWkV6Ri13NkVZZ2o5dkxDbVRHcE9hdHpF?oc=5",
+      "id": "CBMiX0FVX3lxTE1uaEpEd2lmaXZzVUgwRllSMGRfT2xZbS1VUUt4ODZyTG1YenA0a2diWEZOUlVLalJrTjhvemw0Vy1yNF9Dc0tTWkV6Ri13NkVZZ2o5dkxDbVRHcE9hdHpF",
+      "guidislink": false,
+      "published": "Wed, 07 Aug 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        8,
+        7,
+        7,
+        0,
+        0,
+        2,
+        219,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1uaEpEd2lmaXZzVUgwRllSMGRfT2xZbS1VUUt4ODZyTG1YenA0a2diWEZOUlVLalJrTjhvemw0Vy1yNF9Dc0tTWkV6Ri13NkVZZ2o5dkxDbVRHcE9hdHpF?oc=5\" target=\"_blank\">Lipophilic statins inhibit Zika virus production in Vero cells</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1uaEpEd2lmaXZzVUgwRllSMGRfT2xZbS1VUUt4ODZyTG1YenA0a2diWEZOUlVLalJrTjhvemw0Vy1yNF9Dc0tTWkV6Ri13NkVZZ2o5dkxDbVRHcE9hdHpF?oc=5\" target=\"_blank\">Lipophilic statins inhibit Zika virus production in Vero cells</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Findings shed new light on why Zika causes birth defects in some pregnancies - The Rockefeller University",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Findings shed new light on why Zika causes birth defects in some pregnancies - The Rockefeller University"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRlRuTkpQeGpsOXdlMExJQklORTF3SDFEZWN3UnBTNzhmbjluSjRmNEVqNGtVTXc1UHV6SlFfN3NnYlM2Q3dYM1hOWlg4dzQ0akZMd1ZNLVdfYlZ1QmcxeVk3NU9hbFJDakNLd0lhdFlhWHFmSkl0aHluVHZ1OWdxdWR4NVFDaElIT2w4LTFONjZwVUtENnVYLW84aUVwSU9XcVRv?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRlRuTkpQeGpsOXdlMExJQklORTF3SDFEZWN3UnBTNzhmbjluSjRmNEVqNGtVTXc1UHV6SlFfN3NnYlM2Q3dYM1hOWlg4dzQ0akZMd1ZNLVdfYlZ1QmcxeVk3NU9hbFJDakNLd0lhdFlhWHFmSkl0aHluVHZ1OWdxdWR4NVFDaElIT2w4LTFONjZwVUtENnVYLW84aUVwSU9XcVRv?oc=5",
+      "id": "CBMiowFBVV95cUxQRlRuTkpQeGpsOXdlMExJQklORTF3SDFEZWN3UnBTNzhmbjluSjRmNEVqNGtVTXc1UHV6SlFfN3NnYlM2Q3dYM1hOWlg4dzQ0akZMd1ZNLVdfYlZ1QmcxeVk3NU9hbFJDakNLd0lhdFlhWHFmSkl0aHluVHZ1OWdxdWR4NVFDaElIT2w4LTFONjZwVUtENnVYLW84aUVwSU9XcVRv",
+      "guidislink": false,
+      "published": "Wed, 14 Aug 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        8,
+        14,
+        7,
+        0,
+        0,
+        2,
+        226,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxQRlRuTkpQeGpsOXdlMExJQklORTF3SDFEZWN3UnBTNzhmbjluSjRmNEVqNGtVTXc1UHV6SlFfN3NnYlM2Q3dYM1hOWlg4dzQ0akZMd1ZNLVdfYlZ1QmcxeVk3NU9hbFJDakNLd0lhdFlhWHFmSkl0aHluVHZ1OWdxdWR4NVFDaElIT2w4LTFONjZwVUtENnVYLW84aUVwSU9XcVRv?oc=5\" target=\"_blank\">Findings shed new light on why Zika causes birth defects in some pregnancies</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Rockefeller University</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxQRlRuTkpQeGpsOXdlMExJQklORTF3SDFEZWN3UnBTNzhmbjluSjRmNEVqNGtVTXc1UHV6SlFfN3NnYlM2Q3dYM1hOWlg4dzQ0akZMd1ZNLVdfYlZ1QmcxeVk3NU9hbFJDakNLd0lhdFlhWHFmSkl0aHluVHZ1OWdxdWR4NVFDaElIT2w4LTFONjZwVUtENnVYLW84aUVwSU9XcVRv?oc=5\" target=\"_blank\">Findings shed new light on why Zika causes birth defects in some pregnancies</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Rockefeller University</font>"
+      },
+      "source": {
+        "href": "https://www.rockefeller.edu",
+        "title": "The Rockefeller University"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "West Nile Virus vs Zika Virus Part I - UC Agriculture and Natural Resources",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "West Nile Virus vs Zika Virus Part I - UC Agriculture and Natural Resources"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNXzFKVXA2ZmFMdFJIeVk5YjhlWkpQWHJGRG5tS3pHbjBYYmVaN1Q4TzlSS3NXQ0tibm8wbXB0RlA1UjRObmh6VWxIdzFoLWpCZV9tbjd6VTlZWXFVX1ZZVkVhZ0dCMkEzNUl3V1FhdlV3X00tZ1dWQWZVTjJIMmVWRmlXcmx4T0dNT01sLTlR?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNXzFKVXA2ZmFMdFJIeVk5YjhlWkpQWHJGRG5tS3pHbjBYYmVaN1Q4TzlSS3NXQ0tibm8wbXB0RlA1UjRObmh6VWxIdzFoLWpCZV9tbjd6VTlZWXFVX1ZZVkVhZ0dCMkEzNUl3V1FhdlV3X00tZ1dWQWZVTjJIMmVWRmlXcmx4T0dNT01sLTlR?oc=5",
+      "id": "CBMijgFBVV95cUxNXzFKVXA2ZmFMdFJIeVk5YjhlWkpQWHJGRG5tS3pHbjBYYmVaN1Q4TzlSS3NXQ0tibm8wbXB0RlA1UjRObmh6VWxIdzFoLWpCZV9tbjd6VTlZWXFVX1ZZVkVhZ0dCMkEzNUl3V1FhdlV3X00tZ1dWQWZVTjJIMmVWRmlXcmx4T0dNT01sLTlR",
+      "guidislink": false,
+      "published": "Tue, 06 Aug 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        8,
+        6,
+        7,
+        0,
+        0,
+        1,
+        218,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxNXzFKVXA2ZmFMdFJIeVk5YjhlWkpQWHJGRG5tS3pHbjBYYmVaN1Q4TzlSS3NXQ0tibm8wbXB0RlA1UjRObmh6VWxIdzFoLWpCZV9tbjd6VTlZWXFVX1ZZVkVhZ0dCMkEzNUl3V1FhdlV3X00tZ1dWQWZVTjJIMmVWRmlXcmx4T0dNT01sLTlR?oc=5\" target=\"_blank\">West Nile Virus vs Zika Virus Part I</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">UC Agriculture and Natural Resources</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxNXzFKVXA2ZmFMdFJIeVk5YjhlWkpQWHJGRG5tS3pHbjBYYmVaN1Q4TzlSS3NXQ0tibm8wbXB0RlA1UjRObmh6VWxIdzFoLWpCZV9tbjd6VTlZWXFVX1ZZVkVhZ0dCMkEzNUl3V1FhdlV3X00tZ1dWQWZVTjJIMmVWRmlXcmx4T0dNT01sLTlR?oc=5\" target=\"_blank\">West Nile Virus vs Zika Virus Part I</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">UC Agriculture and Natural Resources</font>"
+      },
+      "source": {
+        "href": "https://ucanr.edu",
+        "title": "UC Agriculture and Natural Resources"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Georgia State Researchers Discover Novel Antiviral Shuts Down Replication Of Zika Virus Inside Human Cells - Georgia State University News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Georgia State Researchers Discover Novel Antiviral Shuts Down Replication Of Zika Virus Inside Human Cells - Georgia State University News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdVN5aU1WNk9kRldMYUxNQUNuM2xFNU1MbXJ1XzNnOTFHQXlfdXhhWUVyOVZTelBJeVZfN1ZhSlZyZkpRTXJQSmMzb2lpRUJvVHI2T2FDWVNIZU90NTc4VEVJUlRmN092cTd0aldoUURGMWlPbHVFcjZuNHBJclNld29TenVYd1FlR1NZTXRmdHZfYWJDM2ppelVKQnZjTWV4NU1pWFI0QXhqNVFsNV8xZllSMzZMR2MwUmFDQkt3akt0M1RxdjdnOVFjd0k3T18xdzh3OFd3?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdVN5aU1WNk9kRldMYUxNQUNuM2xFNU1MbXJ1XzNnOTFHQXlfdXhhWUVyOVZTelBJeVZfN1ZhSlZyZkpRTXJQSmMzb2lpRUJvVHI2T2FDWVNIZU90NTc4VEVJUlRmN092cTd0aldoUURGMWlPbHVFcjZuNHBJclNld29TenVYd1FlR1NZTXRmdHZfYWJDM2ppelVKQnZjTWV4NU1pWFI0QXhqNVFsNV8xZllSMzZMR2MwUmFDQkt3akt0M1RxdjdnOVFjd0k3T18xdzh3OFd3?oc=5",
+      "id": "CBMi1gFBVV95cUxPdVN5aU1WNk9kRldMYUxNQUNuM2xFNU1MbXJ1XzNnOTFHQXlfdXhhWUVyOVZTelBJeVZfN1ZhSlZyZkpRTXJQSmMzb2lpRUJvVHI2T2FDWVNIZU90NTc4VEVJUlRmN092cTd0aldoUURGMWlPbHVFcjZuNHBJclNld29TenVYd1FlR1NZTXRmdHZfYWJDM2ppelVKQnZjTWV4NU1pWFI0QXhqNVFsNV8xZllSMzZMR2MwUmFDQkt3akt0M1RxdjdnOVFjd0k3T18xdzh3OFd3",
+      "guidislink": false,
+      "published": "Thu, 15 Aug 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        8,
+        15,
+        7,
+        0,
+        0,
+        3,
+        227,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdVN5aU1WNk9kRldMYUxNQUNuM2xFNU1MbXJ1XzNnOTFHQXlfdXhhWUVyOVZTelBJeVZfN1ZhSlZyZkpRTXJQSmMzb2lpRUJvVHI2T2FDWVNIZU90NTc4VEVJUlRmN092cTd0aldoUURGMWlPbHVFcjZuNHBJclNld29TenVYd1FlR1NZTXRmdHZfYWJDM2ppelVKQnZjTWV4NU1pWFI0QXhqNVFsNV8xZllSMzZMR2MwUmFDQkt3akt0M1RxdjdnOVFjd0k3T18xdzh3OFd3?oc=5\" target=\"_blank\">Georgia State Researchers Discover Novel Antiviral Shuts Down Replication Of Zika Virus Inside Human Cells</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Georgia State University News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdVN5aU1WNk9kRldMYUxNQUNuM2xFNU1MbXJ1XzNnOTFHQXlfdXhhWUVyOVZTelBJeVZfN1ZhSlZyZkpRTXJQSmMzb2lpRUJvVHI2T2FDWVNIZU90NTc4VEVJUlRmN092cTd0aldoUURGMWlPbHVFcjZuNHBJclNld29TenVYd1FlR1NZTXRmdHZfYWJDM2ppelVKQnZjTWV4NU1pWFI0QXhqNVFsNV8xZllSMzZMR2MwUmFDQkt3akt0M1RxdjdnOVFjd0k3T18xdzh3OFd3?oc=5\" target=\"_blank\">Georgia State Researchers Discover Novel Antiviral Shuts Down Replication Of Zika Virus Inside Human Cells</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Georgia State University News</font>"
+      },
+      "source": {
+        "href": "https://news.gsu.edu",
+        "title": "Georgia State University News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Birth defects associated with Zika virus infection may depend on mother’s immune response, study suggests | Newswise - Newswise",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Birth defects associated with Zika virus infection may depend on mother’s immune response, study suggests | Newswise - Newswise"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNzFPWEdPUHZkV19CYTdkX2oxM0pweV9NWmdVWnRPRVRiT19KYjh5enhQT2tZYUZKaHhwT2VPSFJ4R3hsb0NQQnI5YmlBZUpkT2lDR01yV0FnWjNTLW9TM2Jmb2xQWjZyVzljZ0lRZEtGNjU0czBHQ3FNMEkxajh1SHV0eUw2RENCNlpSTDNnZWEzcjJCVWVGckxKb05VX01QOEx3ZzlQdUpQUWZCcFRmVld0bUJqV2tUUC1IdVFpYkRkWlJOR1ZCVDAtSThuTG1EcW1VZdIB1AFBVV95cUxQNzFPWEdPUHZkV19CYTdkX2oxM0pweV9NWmdVWnRPRVRiT19KYjh5enhQT2tZYUZKaHhwT2VPSFJ4R3hsb0NQQnI5YmlBZUpkT2lDR01yV0FnWjNTLW9TM2Jmb2xQWjZyVzljZ0lRZEtGNjU0czBHQ3FNMEkxajh1SHV0eUw2RENCNlpSTDNnZWEzcjJCVWVGckxKb05VX01QOEx3ZzlQdUpQUWZCcFRmVld0bUJqV2tUUC1IdVFpYkRkWlJOR1ZCVDAtSThuTG1EcW1VZQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNzFPWEdPUHZkV19CYTdkX2oxM0pweV9NWmdVWnRPRVRiT19KYjh5enhQT2tZYUZKaHhwT2VPSFJ4R3hsb0NQQnI5YmlBZUpkT2lDR01yV0FnWjNTLW9TM2Jmb2xQWjZyVzljZ0lRZEtGNjU0czBHQ3FNMEkxajh1SHV0eUw2RENCNlpSTDNnZWEzcjJCVWVGckxKb05VX01QOEx3ZzlQdUpQUWZCcFRmVld0bUJqV2tUUC1IdVFpYkRkWlJOR1ZCVDAtSThuTG1EcW1VZdIB1AFBVV95cUxQNzFPWEdPUHZkV19CYTdkX2oxM0pweV9NWmdVWnRPRVRiT19KYjh5enhQT2tZYUZKaHhwT2VPSFJ4R3hsb0NQQnI5YmlBZUpkT2lDR01yV0FnWjNTLW9TM2Jmb2xQWjZyVzljZ0lRZEtGNjU0czBHQ3FNMEkxajh1SHV0eUw2RENCNlpSTDNnZWEzcjJCVWVGckxKb05VX01QOEx3ZzlQdUpQUWZCcFRmVld0bUJqV2tUUC1IdVFpYkRkWlJOR1ZCVDAtSThuTG1EcW1VZQ?oc=5",
+      "id": "CBMi1AFBVV95cUxQNzFPWEdPUHZkV19CYTdkX2oxM0pweV9NWmdVWnRPRVRiT19KYjh5enhQT2tZYUZKaHhwT2VPSFJ4R3hsb0NQQnI5YmlBZUpkT2lDR01yV0FnWjNTLW9TM2Jmb2xQWjZyVzljZ0lRZEtGNjU0czBHQ3FNMEkxajh1SHV0eUw2RENCNlpSTDNnZWEzcjJCVWVGckxKb05VX01QOEx3ZzlQdUpQUWZCcFRmVld0bUJqV2tUUC1IdVFpYkRkWlJOR1ZCVDAtSThuTG1EcW1VZdIB1AFBVV95cUxQNzFPWEdPUHZkV19CYTdkX2oxM0pweV9NWmdVWnRPRVRiT19KYjh5enhQT2tZYUZKaHhwT2VPSFJ4R3hsb0NQQnI5YmlBZUpkT2lDR01yV0FnWjNTLW9TM2Jmb2xQWjZyVzljZ0lRZEtGNjU0czBHQ3FNMEkxajh1SHV0eUw2RENCNlpSTDNnZWEzcjJCVWVGckxKb05VX01QOEx3ZzlQdUpQUWZCcFRmVld0bUJqV2tUUC1IdVFpYkRkWlJOR1ZCVDAtSThuTG1EcW1VZQ",
+      "guidislink": false,
+      "published": "Wed, 07 Aug 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        8,
+        7,
+        7,
+        0,
+        0,
+        2,
+        219,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNzFPWEdPUHZkV19CYTdkX2oxM0pweV9NWmdVWnRPRVRiT19KYjh5enhQT2tZYUZKaHhwT2VPSFJ4R3hsb0NQQnI5YmlBZUpkT2lDR01yV0FnWjNTLW9TM2Jmb2xQWjZyVzljZ0lRZEtGNjU0czBHQ3FNMEkxajh1SHV0eUw2RENCNlpSTDNnZWEzcjJCVWVGckxKb05VX01QOEx3ZzlQdUpQUWZCcFRmVld0bUJqV2tUUC1IdVFpYkRkWlJOR1ZCVDAtSThuTG1EcW1VZdIB1AFBVV95cUxQNzFPWEdPUHZkV19CYTdkX2oxM0pweV9NWmdVWnRPRVRiT19KYjh5enhQT2tZYUZKaHhwT2VPSFJ4R3hsb0NQQnI5YmlBZUpkT2lDR01yV0FnWjNTLW9TM2Jmb2xQWjZyVzljZ0lRZEtGNjU0czBHQ3FNMEkxajh1SHV0eUw2RENCNlpSTDNnZWEzcjJCVWVGckxKb05VX01QOEx3ZzlQdUpQUWZCcFRmVld0bUJqV2tUUC1IdVFpYkRkWlJOR1ZCVDAtSThuTG1EcW1VZQ?oc=5\" target=\"_blank\">Birth defects associated with Zika virus infection may depend on mother’s immune response, study suggests | Newswise</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Newswise</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNzFPWEdPUHZkV19CYTdkX2oxM0pweV9NWmdVWnRPRVRiT19KYjh5enhQT2tZYUZKaHhwT2VPSFJ4R3hsb0NQQnI5YmlBZUpkT2lDR01yV0FnWjNTLW9TM2Jmb2xQWjZyVzljZ0lRZEtGNjU0czBHQ3FNMEkxajh1SHV0eUw2RENCNlpSTDNnZWEzcjJCVWVGckxKb05VX01QOEx3ZzlQdUpQUWZCcFRmVld0bUJqV2tUUC1IdVFpYkRkWlJOR1ZCVDAtSThuTG1EcW1VZdIB1AFBVV95cUxQNzFPWEdPUHZkV19CYTdkX2oxM0pweV9NWmdVWnRPRVRiT19KYjh5enhQT2tZYUZKaHhwT2VPSFJ4R3hsb0NQQnI5YmlBZUpkT2lDR01yV0FnWjNTLW9TM2Jmb2xQWjZyVzljZ0lRZEtGNjU0czBHQ3FNMEkxajh1SHV0eUw2RENCNlpSTDNnZWEzcjJCVWVGckxKb05VX01QOEx3ZzlQdUpQUWZCcFRmVld0bUJqV2tUUC1IdVFpYkRkWlJOR1ZCVDAtSThuTG1EcW1VZQ?oc=5\" target=\"_blank\">Birth defects associated with Zika virus infection may depend on mother’s immune response, study suggests | Newswise</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Newswise</font>"
+      },
+      "source": {
+        "href": "https://www.newswise.com",
+        "title": "Newswise"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "How YouTube Radicalized Brazil (Published 2019) - The New York Times",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "How YouTube Radicalized Brazil (Published 2019) - The New York Times"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMieEFVX3lxTE15MHFObmkyblBJQmRSb3hYd0xZM2tRdmtRTjV1Ul9DbldxVVc1SUU5eDdnQ1UzRG9yVklKcC1qVmYwQlNvZ1R1QUJPSDRnRXI4SFFhU1YtY3VDamFNYTFnMzNhVlZsSFJCV1RYQWo2NTRjeVRXX3R2bg?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE15MHFObmkyblBJQmRSb3hYd0xZM2tRdmtRTjV1Ul9DbldxVVc1SUU5eDdnQ1UzRG9yVklKcC1qVmYwQlNvZ1R1QUJPSDRnRXI4SFFhU1YtY3VDamFNYTFnMzNhVlZsSFJCV1RYQWo2NTRjeVRXX3R2bg?oc=5",
+      "id": "CBMieEFVX3lxTE15MHFObmkyblBJQmRSb3hYd0xZM2tRdmtRTjV1Ul9DbldxVVc1SUU5eDdnQ1UzRG9yVklKcC1qVmYwQlNvZ1R1QUJPSDRnRXI4SFFhU1YtY3VDamFNYTFnMzNhVlZsSFJCV1RYQWo2NTRjeVRXX3R2bg",
+      "guidislink": false,
+      "published": "Sun, 11 Aug 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        8,
+        11,
+        7,
+        0,
+        0,
+        6,
+        223,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE15MHFObmkyblBJQmRSb3hYd0xZM2tRdmtRTjV1Ul9DbldxVVc1SUU5eDdnQ1UzRG9yVklKcC1qVmYwQlNvZ1R1QUJPSDRnRXI4SFFhU1YtY3VDamFNYTFnMzNhVlZsSFJCV1RYQWo2NTRjeVRXX3R2bg?oc=5\" target=\"_blank\">How YouTube Radicalized Brazil (Published 2019)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New York Times</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE15MHFObmkyblBJQmRSb3hYd0xZM2tRdmtRTjV1Ul9DbldxVVc1SUU5eDdnQ1UzRG9yVklKcC1qVmYwQlNvZ1R1QUJPSDRnRXI4SFFhU1YtY3VDamFNYTFnMzNhVlZsSFJCV1RYQWo2NTRjeVRXX3R2bg?oc=5\" target=\"_blank\">How YouTube Radicalized Brazil (Published 2019)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New York Times</font>"
+      },
+      "source": {
+        "href": "https://www.nytimes.com",
+        "title": "The New York Times"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Mosquitoes now a year-round threat to Miami-Dade County - University of Miami News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Mosquitoes now a year-round threat to Miami-Dade County - University of Miami News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOelNBQzBvOEVCWm9IWTN6NXRwOExUaC1Dc2hMamlNaHA0NGYxNm50MnBtMlQ0YWg0dlFoS1FWRHlrNkpGbWd6ODVYaVQtdDFrd2M5T2xMNkZLcENyZ1puWUtmTDQ3QUdUNnNPXzFCbWFmSG5zTzJ1Tk9IRjNObW15c0Jpd3JSbU9YX0h3d0NkSEZjWkZ5c0ZmV3VOc0JMRDF5?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOelNBQzBvOEVCWm9IWTN6NXRwOExUaC1Dc2hMamlNaHA0NGYxNm50MnBtMlQ0YWg0dlFoS1FWRHlrNkpGbWd6ODVYaVQtdDFrd2M5T2xMNkZLcENyZ1puWUtmTDQ3QUdUNnNPXzFCbWFmSG5zTzJ1Tk9IRjNObW15c0Jpd3JSbU9YX0h3d0NkSEZjWkZ5c0ZmV3VOc0JMRDF5?oc=5",
+      "id": "CBMioAFBVV95cUxOelNBQzBvOEVCWm9IWTN6NXRwOExUaC1Dc2hMamlNaHA0NGYxNm50MnBtMlQ0YWg0dlFoS1FWRHlrNkpGbWd6ODVYaVQtdDFrd2M5T2xMNkZLcENyZ1puWUtmTDQ3QUdUNnNPXzFCbWFmSG5zTzJ1Tk9IRjNObW15c0Jpd3JSbU9YX0h3d0NkSEZjWkZ5c0ZmV3VOc0JMRDF5",
+      "guidislink": false,
+      "published": "Fri, 02 Aug 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        8,
+        2,
+        7,
+        0,
+        0,
+        4,
+        214,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxOelNBQzBvOEVCWm9IWTN6NXRwOExUaC1Dc2hMamlNaHA0NGYxNm50MnBtMlQ0YWg0dlFoS1FWRHlrNkpGbWd6ODVYaVQtdDFrd2M5T2xMNkZLcENyZ1puWUtmTDQ3QUdUNnNPXzFCbWFmSG5zTzJ1Tk9IRjNObW15c0Jpd3JSbU9YX0h3d0NkSEZjWkZ5c0ZmV3VOc0JMRDF5?oc=5\" target=\"_blank\">Mosquitoes now a year-round threat to Miami-Dade County</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of Miami News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxOelNBQzBvOEVCWm9IWTN6NXRwOExUaC1Dc2hMamlNaHA0NGYxNm50MnBtMlQ0YWg0dlFoS1FWRHlrNkpGbWd6ODVYaVQtdDFrd2M5T2xMNkZLcENyZ1puWUtmTDQ3QUdUNnNPXzFCbWFmSG5zTzJ1Tk9IRjNObW15c0Jpd3JSbU9YX0h3d0NkSEZjWkZ5c0ZmV3VOc0JMRDF5?oc=5\" target=\"_blank\">Mosquitoes now a year-round threat to Miami-Dade County</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of Miami News</font>"
+      },
+      "source": {
+        "href": "https://news.miami.edu",
+        "title": "University of Miami News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Dr. John Schoggins: Investigator in the Pathogenesis of Infectious Disease - UT Southwestern Medical Center",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Dr. John Schoggins: Investigator in the Pathogenesis of Infectious Disease - UT Southwestern Medical Center"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNejVKRjhmdENFT01ISXZxZDhWQW1ld0M3aEQ0VFEwN1hHUWZtVTRVbjVDNTZkd1Nmd0pPblFUY0lWanpYVW1zWFJkZm1wZ3IxbHVvcVVIQkFIbVFHY0phcGtjNndpQk1EV1Y0V1pmamlNTGNHbDMtS05NSGxNRWV0R2RsSV9xaTlDQlEwVw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNejVKRjhmdENFT01ISXZxZDhWQW1ld0M3aEQ0VFEwN1hHUWZtVTRVbjVDNTZkd1Nmd0pPblFUY0lWanpYVW1zWFJkZm1wZ3IxbHVvcVVIQkFIbVFHY0phcGtjNndpQk1EV1Y0V1pmamlNTGNHbDMtS05NSGxNRWV0R2RsSV9xaTlDQlEwVw?oc=5",
+      "id": "CBMijAFBVV95cUxNejVKRjhmdENFT01ISXZxZDhWQW1ld0M3aEQ0VFEwN1hHUWZtVTRVbjVDNTZkd1Nmd0pPblFUY0lWanpYVW1zWFJkZm1wZ3IxbHVvcVVIQkFIbVFHY0phcGtjNndpQk1EV1Y0V1pmamlNTGNHbDMtS05NSGxNRWV0R2RsSV9xaTlDQlEwVw",
+      "guidislink": false,
+      "published": "Thu, 08 Aug 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        8,
+        8,
+        7,
+        0,
+        0,
+        3,
+        220,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxNejVKRjhmdENFT01ISXZxZDhWQW1ld0M3aEQ0VFEwN1hHUWZtVTRVbjVDNTZkd1Nmd0pPblFUY0lWanpYVW1zWFJkZm1wZ3IxbHVvcVVIQkFIbVFHY0phcGtjNndpQk1EV1Y0V1pmamlNTGNHbDMtS05NSGxNRWV0R2RsSV9xaTlDQlEwVw?oc=5\" target=\"_blank\">Dr. John Schoggins: Investigator in the Pathogenesis of Infectious Disease</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">UT Southwestern Medical Center</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxNejVKRjhmdENFT01ISXZxZDhWQW1ld0M3aEQ0VFEwN1hHUWZtVTRVbjVDNTZkd1Nmd0pPblFUY0lWanpYVW1zWFJkZm1wZ3IxbHVvcVVIQkFIbVFHY0phcGtjNndpQk1EV1Y0V1pmamlNTGNHbDMtS05NSGxNRWV0R2RsSV9xaTlDQlEwVw?oc=5\" target=\"_blank\">Dr. John Schoggins: Investigator in the Pathogenesis of Infectious Disease</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">UT Southwestern Medical Center</font>"
+      },
+      "source": {
+        "href": "https://www.utsouthwestern.edu",
+        "title": "UT Southwestern Medical Center"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Multiplexed Adaptive RT-PCR Based on L-DNA Hybridization Monitoring for the Detection of Zika, Dengue, and Chikungunya RNA - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Multiplexed Adaptive RT-PCR Based on L-DNA Hybridization Monitoring for the Detection of Zika, Dengue, and Chikungunya RNA - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBldDlqOGRnMTJyWGJrOENFTTRmZTA4T2dZcV9UVld2eDRWOFM3OHl3UHpUVFdleHRoci1lR21vdlBvLVFucGg4YWI3eW1hV1I1ejlGR0ZFTklSX0drcWhv?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBldDlqOGRnMTJyWGJrOENFTTRmZTA4T2dZcV9UVld2eDRWOFM3OHl3UHpUVFdleHRoci1lR21vdlBvLVFucGg4YWI3eW1hV1I1ejlGR0ZFTklSX0drcWhv?oc=5",
+      "id": "CBMiX0FVX3lxTFBldDlqOGRnMTJyWGJrOENFTTRmZTA4T2dZcV9UVld2eDRWOFM3OHl3UHpUVFdleHRoci1lR21vdlBvLVFucGg4YWI3eW1hV1I1ejlGR0ZFTklSX0drcWhv",
+      "guidislink": false,
+      "published": "Tue, 06 Aug 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        8,
+        6,
+        7,
+        0,
+        0,
+        1,
+        218,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFBldDlqOGRnMTJyWGJrOENFTTRmZTA4T2dZcV9UVld2eDRWOFM3OHl3UHpUVFdleHRoci1lR21vdlBvLVFucGg4YWI3eW1hV1I1ejlGR0ZFTklSX0drcWhv?oc=5\" target=\"_blank\">Multiplexed Adaptive RT-PCR Based on L-DNA Hybridization Monitoring for the Detection of Zika, Dengue, and Chikungunya RNA</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFBldDlqOGRnMTJyWGJrOENFTTRmZTA4T2dZcV9UVld2eDRWOFM3OHl3UHpUVFdleHRoci1lR21vdlBvLVFucGg4YWI3eW1hV1I1ejlGR0ZFTklSX0drcWhv?oc=5\" target=\"_blank\">Multiplexed Adaptive RT-PCR Based on L-DNA Hybridization Monitoring for the Detection of Zika, Dengue, and Chikungunya RNA</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Mosquito 'spit glands' hold key to curbing malaria, study shows - EurekAlert!",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Mosquito 'spit glands' hold key to curbing malaria, study shows - EurekAlert!"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9yQVF4cmNzVTZQdUNzWHplTkpTY2dJZzZpbHVNaEtzYUlpYjhaQU1MTWtsOHh6YXp0eHRrQVVWY0FfQTR5OExYM0JMN0tZbXg0cGh3NFNBMkxibzA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9yQVF4cmNzVTZQdUNzWHplTkpTY2dJZzZpbHVNaEtzYUlpYjhaQU1MTWtsOHh6YXp0eHRrQVVWY0FfQTR5OExYM0JMN0tZbXg0cGh3NFNBMkxibzA?oc=5",
+      "id": "CBMiW0FVX3lxTE9yQVF4cmNzVTZQdUNzWHplTkpTY2dJZzZpbHVNaEtzYUlpYjhaQU1MTWtsOHh6YXp0eHRrQVVWY0FfQTR5OExYM0JMN0tZbXg0cGh3NFNBMkxibzA",
+      "guidislink": false,
+      "published": "Mon, 12 Aug 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        8,
+        12,
+        7,
+        0,
+        0,
+        0,
+        224,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE9yQVF4cmNzVTZQdUNzWHplTkpTY2dJZzZpbHVNaEtzYUlpYjhaQU1MTWtsOHh6YXp0eHRrQVVWY0FfQTR5OExYM0JMN0tZbXg0cGh3NFNBMkxibzA?oc=5\" target=\"_blank\">Mosquito 'spit glands' hold key to curbing malaria, study shows</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">EurekAlert!</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE9yQVF4cmNzVTZQdUNzWHplTkpTY2dJZzZpbHVNaEtzYUlpYjhaQU1MTWtsOHh6YXp0eHRrQVVWY0FfQTR5OExYM0JMN0tZbXg0cGh3NFNBMkxibzA?oc=5\" target=\"_blank\">Mosquito 'spit glands' hold key to curbing malaria, study shows</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">EurekAlert!</font>"
+      },
+      "source": {
+        "href": "https://www.eurekalert.org",
+        "title": "EurekAlert!"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "'The Mosquito': Cataloging A History Of Devastation By 'Our Deadliest Predator' - WBUR",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "'The Mosquito': Cataloging A History Of Devastation By 'Our Deadliest Predator' - WBUR"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMlYwTmktRnNqZFVTR2ZWRXBvZk93eUVxWlVYT21LVldoYkpONGZfWHVkSkpuU2RXNVE0dVd1VjRwWDZUX2lNV0JTVVIwb2g3SWtvU1k1OXhjVFE1Sl9UTWlqY2NJZmluSmpFcEE2cDZYdldKTmZuZzNUQWx6alFmRlFZRDQ4WGQxc3hzb1lWR1AxZEU?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMlYwTmktRnNqZFVTR2ZWRXBvZk93eUVxWlVYT21LVldoYkpONGZfWHVkSkpuU2RXNVE0dVd1VjRwWDZUX2lNV0JTVVIwb2g3SWtvU1k1OXhjVFE1Sl9UTWlqY2NJZmluSmpFcEE2cDZYdldKTmZuZzNUQWx6alFmRlFZRDQ4WGQxc3hzb1lWR1AxZEU?oc=5",
+      "id": "CBMikwFBVV95cUxNMlYwTmktRnNqZFVTR2ZWRXBvZk93eUVxWlVYT21LVldoYkpONGZfWHVkSkpuU2RXNVE0dVd1VjRwWDZUX2lNV0JTVVIwb2g3SWtvU1k1OXhjVFE1Sl9UTWlqY2NJZmluSmpFcEE2cDZYdldKTmZuZzNUQWx6alFmRlFZRDQ4WGQxc3hzb1lWR1AxZEU",
+      "guidislink": false,
+      "published": "Tue, 06 Aug 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        8,
+        6,
+        7,
+        0,
+        0,
+        1,
+        218,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxNMlYwTmktRnNqZFVTR2ZWRXBvZk93eUVxWlVYT21LVldoYkpONGZfWHVkSkpuU2RXNVE0dVd1VjRwWDZUX2lNV0JTVVIwb2g3SWtvU1k1OXhjVFE1Sl9UTWlqY2NJZmluSmpFcEE2cDZYdldKTmZuZzNUQWx6alFmRlFZRDQ4WGQxc3hzb1lWR1AxZEU?oc=5\" target=\"_blank\">'The Mosquito': Cataloging A History Of Devastation By 'Our Deadliest Predator'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WBUR</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxNMlYwTmktRnNqZFVTR2ZWRXBvZk93eUVxWlVYT21LVldoYkpONGZfWHVkSkpuU2RXNVE0dVd1VjRwWDZUX2lNV0JTVVIwb2g3SWtvU1k1OXhjVFE1Sl9UTWlqY2NJZmluSmpFcEE2cDZYdldKTmZuZzNUQWx6alFmRlFZRDQ4WGQxc3hzb1lWR1AxZEU?oc=5\" target=\"_blank\">'The Mosquito': Cataloging A History Of Devastation By 'Our Deadliest Predator'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WBUR</font>"
+      },
+      "source": {
+        "href": "https://www.wbur.org",
+        "title": "WBUR"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Invasive mosquito reaches San Joaquin County | Tracy Press News - ttownmedia.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Invasive mosquito reaches San Joaquin County | Tracy Press News - ttownmedia.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNMTJOS2pCLU4yRlB6VUduSXFrRTRWcGhtb1JSYmpQU1VoeG54WDhSRlRKVFNPSnM4QWJ1Ti1oZFF5dEtwaXVLdHhEZ1VhLXlNTFdFMmh1dGxxVTRoWXI0cDV1cjBMRmV1Zkp5V2t1eXB3aVJkdDgwNXpCRlFyOVZZcmhWanJQWnNoTWI2R0Z5VVFvTkY2YjJVZm9JOGN2cDhROFU1Ymk3OFIwOEVwMEFSM2IzUlpUMmZwbjQzODd6em1yREdmYXFWQV9Fb0p0U2hhZHBPdw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNMTJOS2pCLU4yRlB6VUduSXFrRTRWcGhtb1JSYmpQU1VoeG54WDhSRlRKVFNPSnM4QWJ1Ti1oZFF5dEtwaXVLdHhEZ1VhLXlNTFdFMmh1dGxxVTRoWXI0cDV1cjBMRmV1Zkp5V2t1eXB3aVJkdDgwNXpCRlFyOVZZcmhWanJQWnNoTWI2R0Z5VVFvTkY2YjJVZm9JOGN2cDhROFU1Ymk3OFIwOEVwMEFSM2IzUlpUMmZwbjQzODd6em1yREdmYXFWQV9Fb0p0U2hhZHBPdw?oc=5",
+      "id": "CBMi1AFBVV95cUxNMTJOS2pCLU4yRlB6VUduSXFrRTRWcGhtb1JSYmpQU1VoeG54WDhSRlRKVFNPSnM4QWJ1Ti1oZFF5dEtwaXVLdHhEZ1VhLXlNTFdFMmh1dGxxVTRoWXI0cDV1cjBMRmV1Zkp5V2t1eXB3aVJkdDgwNXpCRlFyOVZZcmhWanJQWnNoTWI2R0Z5VVFvTkY2YjJVZm9JOGN2cDhROFU1Ymk3OFIwOEVwMEFSM2IzUlpUMmZwbjQzODd6em1yREdmYXFWQV9Fb0p0U2hhZHBPdw",
+      "guidislink": false,
+      "published": "Sat, 10 Aug 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        8,
+        10,
+        7,
+        0,
+        0,
+        5,
+        222,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxNMTJOS2pCLU4yRlB6VUduSXFrRTRWcGhtb1JSYmpQU1VoeG54WDhSRlRKVFNPSnM4QWJ1Ti1oZFF5dEtwaXVLdHhEZ1VhLXlNTFdFMmh1dGxxVTRoWXI0cDV1cjBMRmV1Zkp5V2t1eXB3aVJkdDgwNXpCRlFyOVZZcmhWanJQWnNoTWI2R0Z5VVFvTkY2YjJVZm9JOGN2cDhROFU1Ymk3OFIwOEVwMEFSM2IzUlpUMmZwbjQzODd6em1yREdmYXFWQV9Fb0p0U2hhZHBPdw?oc=5\" target=\"_blank\">Invasive mosquito reaches San Joaquin County | Tracy Press News</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ttownmedia.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxNMTJOS2pCLU4yRlB6VUduSXFrRTRWcGhtb1JSYmpQU1VoeG54WDhSRlRKVFNPSnM4QWJ1Ti1oZFF5dEtwaXVLdHhEZ1VhLXlNTFdFMmh1dGxxVTRoWXI0cDV1cjBMRmV1Zkp5V2t1eXB3aVJkdDgwNXpCRlFyOVZZcmhWanJQWnNoTWI2R0Z5VVFvTkY2YjJVZm9JOGN2cDhROFU1Ymk3OFIwOEVwMEFSM2IzUlpUMmZwbjQzODd6em1yREdmYXFWQV9Fb0p0U2hhZHBPdw?oc=5\" target=\"_blank\">Invasive mosquito reaches San Joaquin County | Tracy Press News</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ttownmedia.com</font>"
+      },
+      "source": {
+        "href": "https://www.ttownmedia.com",
+        "title": "ttownmedia.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "How YouTube Misinformation Resolved a WhatsApp Mystery in Brazil (Published 2019) - The New York Times",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "How YouTube Misinformation Resolved a WhatsApp Mystery in Brazil (Published 2019) - The New York Times"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOT1NNQWV4UkZ0UDNUWEZJZVhCSmFOVnQ1bmNWTnJRcEhUMkw3eWVSeVdYRFhXaFFuZmZXYnFPTmJMdjBKbV9KdUh6M2JUdWtpOURRdlNrRF9mNFdTb2RFbGFIR3lPRExlVnI4QUoyX3hXY2hnUEx5MjdiZU1rRFpTak83ODFJRF9pZGxTMXpna0hfRGZrcnJqVE5iT3huMlVBRU1jUWJKS045NDFNeTBFTWRQRlJLZw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOT1NNQWV4UkZ0UDNUWEZJZVhCSmFOVnQ1bmNWTnJRcEhUMkw3eWVSeVdYRFhXaFFuZmZXYnFPTmJMdjBKbV9KdUh6M2JUdWtpOURRdlNrRF9mNFdTb2RFbGFIR3lPRExlVnI4QUoyX3hXY2hnUEx5MjdiZU1rRFpTak83ODFJRF9pZGxTMXpna0hfRGZrcnJqVE5iT3huMlVBRU1jUWJKS045NDFNeTBFTWRQRlJLZw?oc=5",
+      "id": "CBMitgFBVV95cUxOT1NNQWV4UkZ0UDNUWEZJZVhCSmFOVnQ1bmNWTnJRcEhUMkw3eWVSeVdYRFhXaFFuZmZXYnFPTmJMdjBKbV9KdUh6M2JUdWtpOURRdlNrRF9mNFdTb2RFbGFIR3lPRExlVnI4QUoyX3hXY2hnUEx5MjdiZU1rRFpTak83ODFJRF9pZGxTMXpna0hfRGZrcnJqVE5iT3huMlVBRU1jUWJKS045NDFNeTBFTWRQRlJLZw",
+      "guidislink": false,
+      "published": "Thu, 15 Aug 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        8,
+        15,
+        7,
+        0,
+        0,
+        3,
+        227,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxOT1NNQWV4UkZ0UDNUWEZJZVhCSmFOVnQ1bmNWTnJRcEhUMkw3eWVSeVdYRFhXaFFuZmZXYnFPTmJMdjBKbV9KdUh6M2JUdWtpOURRdlNrRF9mNFdTb2RFbGFIR3lPRExlVnI4QUoyX3hXY2hnUEx5MjdiZU1rRFpTak83ODFJRF9pZGxTMXpna0hfRGZrcnJqVE5iT3huMlVBRU1jUWJKS045NDFNeTBFTWRQRlJLZw?oc=5\" target=\"_blank\">How YouTube Misinformation Resolved a WhatsApp Mystery in Brazil (Published 2019)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New York Times</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxOT1NNQWV4UkZ0UDNUWEZJZVhCSmFOVnQ1bmNWTnJRcEhUMkw3eWVSeVdYRFhXaFFuZmZXYnFPTmJMdjBKbV9KdUh6M2JUdWtpOURRdlNrRF9mNFdTb2RFbGFIR3lPRExlVnI4QUoyX3hXY2hnUEx5MjdiZU1rRFpTak83ODFJRF9pZGxTMXpna0hfRGZrcnJqVE5iT3huMlVBRU1jUWJKS045NDFNeTBFTWRQRlJLZw?oc=5\" target=\"_blank\">How YouTube Misinformation Resolved a WhatsApp Mystery in Brazil (Published 2019)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New York Times</font>"
+      },
+      "source": {
+        "href": "https://www.nytimes.com",
+        "title": "The New York Times"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Thymol antimicrobial in corn starch can help fight mosquito-borne diseases - News-Medical",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Thymol antimicrobial in corn starch can help fight mosquito-borne diseases - News-Medical"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZlNiaTBmeVpBY1BEYWNMZVBkaWQxOGFZaUhxTS1sbFJoSTM3Z1hoenNjM0dISE9rYTJzbFFDcW90UG9qc3hhRWY4ckFObXlGQk5nSU5wZ0Vnc2NjdlBUMnozS1ptQjBBLTV2Sm5CSkN5QkpKaXdQNFFpZlpyVnV6VlFyaEZXSDN0Ykh0WnJzZ0pTNGlKdUZKVHFZeGZ1U0JRekVRTTlzVElibjd4NUZfNS14THhhenFYOUZlWHBmRQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZlNiaTBmeVpBY1BEYWNMZVBkaWQxOGFZaUhxTS1sbFJoSTM3Z1hoenNjM0dISE9rYTJzbFFDcW90UG9qc3hhRWY4ckFObXlGQk5nSU5wZ0Vnc2NjdlBUMnozS1ptQjBBLTV2Sm5CSkN5QkpKaXdQNFFpZlpyVnV6VlFyaEZXSDN0Ykh0WnJzZ0pTNGlKdUZKVHFZeGZ1U0JRekVRTTlzVElibjd4NUZfNS14THhhenFYOUZlWHBmRQ?oc=5",
+      "id": "CBMivwFBVV95cUxPZlNiaTBmeVpBY1BEYWNMZVBkaWQxOGFZaUhxTS1sbFJoSTM3Z1hoenNjM0dISE9rYTJzbFFDcW90UG9qc3hhRWY4ckFObXlGQk5nSU5wZ0Vnc2NjdlBUMnozS1ptQjBBLTV2Sm5CSkN5QkpKaXdQNFFpZlpyVnV6VlFyaEZXSDN0Ykh0WnJzZ0pTNGlKdUZKVHFZeGZ1U0JRekVRTTlzVElibjd4NUZfNS14THhhenFYOUZlWHBmRQ",
+      "guidislink": false,
+      "published": "Wed, 07 Aug 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        8,
+        7,
+        7,
+        0,
+        0,
+        2,
+        219,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxPZlNiaTBmeVpBY1BEYWNMZVBkaWQxOGFZaUhxTS1sbFJoSTM3Z1hoenNjM0dISE9rYTJzbFFDcW90UG9qc3hhRWY4ckFObXlGQk5nSU5wZ0Vnc2NjdlBUMnozS1ptQjBBLTV2Sm5CSkN5QkpKaXdQNFFpZlpyVnV6VlFyaEZXSDN0Ykh0WnJzZ0pTNGlKdUZKVHFZeGZ1U0JRekVRTTlzVElibjd4NUZfNS14THhhenFYOUZlWHBmRQ?oc=5\" target=\"_blank\">Thymol antimicrobial in corn starch can help fight mosquito-borne diseases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">News-Medical</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxPZlNiaTBmeVpBY1BEYWNMZVBkaWQxOGFZaUhxTS1sbFJoSTM3Z1hoenNjM0dISE9rYTJzbFFDcW90UG9qc3hhRWY4ckFObXlGQk5nSU5wZ0Vnc2NjdlBUMnozS1ptQjBBLTV2Sm5CSkN5QkpKaXdQNFFpZlpyVnV6VlFyaEZXSDN0Ykh0WnJzZ0pTNGlKdUZKVHFZeGZ1U0JRekVRTTlzVElibjd4NUZfNS14THhhenFYOUZlWHBmRQ?oc=5\" target=\"_blank\">Thymol antimicrobial in corn starch can help fight mosquito-borne diseases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">News-Medical</font>"
+      },
+      "source": {
+        "href": "https://www.news-medical.net",
+        "title": "News-Medical"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Building designer mozzies to do good not harm - Kids News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Building designer mozzies to do good not harm - Kids News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOdG5Eb0FJaUc3RGJCTVFPaHNNV3JfR3BnRldVdFJhX2JfQXBiY3o4S1ZBeW9zUzlKNXNZbW02OEpUYnJkbm9fbDVobzBrdnZUbGlZVU16OVJuekpoMWJ4SjN6YXl0czZfYUk0R2pJZm9WWl93SXBleDJ4cld0ZDhLVU9DbEkyaXlPZnYwODNqYk9jWkZhck1rNTB0aVpiMFlRbjhKUF9wVEhuVFlpeXdTS0FJUjlqWVk4XzZPT0hBRDhtOFpTV09Ba0c1Ul9hMUVqY3g0WWVmOV9pNDA4WFVqenhSNjdjS3pacUowMENFM3dpMVdT?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOdG5Eb0FJaUc3RGJCTVFPaHNNV3JfR3BnRldVdFJhX2JfQXBiY3o4S1ZBeW9zUzlKNXNZbW02OEpUYnJkbm9fbDVobzBrdnZUbGlZVU16OVJuekpoMWJ4SjN6YXl0czZfYUk0R2pJZm9WWl93SXBleDJ4cld0ZDhLVU9DbEkyaXlPZnYwODNqYk9jWkZhck1rNTB0aVpiMFlRbjhKUF9wVEhuVFlpeXdTS0FJUjlqWVk4XzZPT0hBRDhtOFpTV09Ba0c1Ul9hMUVqY3g0WWVmOV9pNDA4WFVqenhSNjdjS3pacUowMENFM3dpMVdT?oc=5",
+      "id": "CBMi9AFBVV95cUxOdG5Eb0FJaUc3RGJCTVFPaHNNV3JfR3BnRldVdFJhX2JfQXBiY3o4S1ZBeW9zUzlKNXNZbW02OEpUYnJkbm9fbDVobzBrdnZUbGlZVU16OVJuekpoMWJ4SjN6YXl0czZfYUk0R2pJZm9WWl93SXBleDJ4cld0ZDhLVU9DbEkyaXlPZnYwODNqYk9jWkZhck1rNTB0aVpiMFlRbjhKUF9wVEhuVFlpeXdTS0FJUjlqWVk4XzZPT0hBRDhtOFpTV09Ba0c1Ul9hMUVqY3g0WWVmOV9pNDA4WFVqenhSNjdjS3pacUowMENFM3dpMVdT",
+      "guidislink": false,
+      "published": "Tue, 13 Aug 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        8,
+        13,
+        7,
+        0,
+        0,
+        1,
+        225,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi9AFBVV95cUxOdG5Eb0FJaUc3RGJCTVFPaHNNV3JfR3BnRldVdFJhX2JfQXBiY3o4S1ZBeW9zUzlKNXNZbW02OEpUYnJkbm9fbDVobzBrdnZUbGlZVU16OVJuekpoMWJ4SjN6YXl0czZfYUk0R2pJZm9WWl93SXBleDJ4cld0ZDhLVU9DbEkyaXlPZnYwODNqYk9jWkZhck1rNTB0aVpiMFlRbjhKUF9wVEhuVFlpeXdTS0FJUjlqWVk4XzZPT0hBRDhtOFpTV09Ba0c1Ul9hMUVqY3g0WWVmOV9pNDA4WFVqenhSNjdjS3pacUowMENFM3dpMVdT?oc=5\" target=\"_blank\">Building designer mozzies to do good not harm</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Kids News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi9AFBVV95cUxOdG5Eb0FJaUc3RGJCTVFPaHNNV3JfR3BnRldVdFJhX2JfQXBiY3o4S1ZBeW9zUzlKNXNZbW02OEpUYnJkbm9fbDVobzBrdnZUbGlZVU16OVJuekpoMWJ4SjN6YXl0czZfYUk0R2pJZm9WWl93SXBleDJ4cld0ZDhLVU9DbEkyaXlPZnYwODNqYk9jWkZhck1rNTB0aVpiMFlRbjhKUF9wVEhuVFlpeXdTS0FJUjlqWVk4XzZPT0hBRDhtOFpTV09Ba0c1Ul9hMUVqY3g0WWVmOV9pNDA4WFVqenhSNjdjS3pacUowMENFM3dpMVdT?oc=5\" target=\"_blank\">Building designer mozzies to do good not harm</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Kids News</font>"
+      },
+      "source": {
+        "href": "https://www.kidsnews.com.au",
+        "title": "Kids News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Mohun Bagan done, Sony Norde eager to live his dream in Europe - Telegraph India",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Mohun Bagan done, Sony Norde eager to live his dream in Europe - Telegraph India"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOURGUnUwQS1uWVlhQ0VGUkp2MlZKcERvekpHSUM5dXcwN2xTanRFcGRlTDVjUWhGSWJZd1BYSTRibS1pQkEyNjhjOGxiV01WWDF3ZkNjcFA0STRFdTNmR2tWaXdKdFlkak15dWQ5eFNnN3J2aTJOS2NmQS1jdHRGYlBEYS05bUE2cXFZaU9rQjdmNDlEOEhPUVI4Nm44TTk0REZFMVNEVzZXMGRGemJUMNIBtgFBVV95cUxPU0kyRG0xRkhKa3hOTnp1UlFxOGliSWwtZEl1WHNLNG5YMHlyWUZULUFUX3BuaHdqYkJTYk41cWYwbFJHNUdKREhSVDNtbF9RM0c0M0dtS3BIQnBBVWtRV1pwU2xXTWgzY184WTE5SThKQWdLV1JSb1ZtU3dwNU1KbS0xcE9PZkpzZ0VXVGZGQVVvNmcwS3FHWVNnT3FVV2RWQk1lN3EzQkg2dS1oRDFNQmprZ21MZw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOURGUnUwQS1uWVlhQ0VGUkp2MlZKcERvekpHSUM5dXcwN2xTanRFcGRlTDVjUWhGSWJZd1BYSTRibS1pQkEyNjhjOGxiV01WWDF3ZkNjcFA0STRFdTNmR2tWaXdKdFlkak15dWQ5eFNnN3J2aTJOS2NmQS1jdHRGYlBEYS05bUE2cXFZaU9rQjdmNDlEOEhPUVI4Nm44TTk0REZFMVNEVzZXMGRGemJUMNIBtgFBVV95cUxPU0kyRG0xRkhKa3hOTnp1UlFxOGliSWwtZEl1WHNLNG5YMHlyWUZULUFUX3BuaHdqYkJTYk41cWYwbFJHNUdKREhSVDNtbF9RM0c0M0dtS3BIQnBBVWtRV1pwU2xXTWgzY184WTE5SThKQWdLV1JSb1ZtU3dwNU1KbS0xcE9PZkpzZ0VXVGZGQVVvNmcwS3FHWVNnT3FVV2RWQk1lN3EzQkg2dS1oRDFNQmprZ21MZw?oc=5",
+      "id": "CBMisAFBVV95cUxPOURGUnUwQS1uWVlhQ0VGUkp2MlZKcERvekpHSUM5dXcwN2xTanRFcGRlTDVjUWhGSWJZd1BYSTRibS1pQkEyNjhjOGxiV01WWDF3ZkNjcFA0STRFdTNmR2tWaXdKdFlkak15dWQ5eFNnN3J2aTJOS2NmQS1jdHRGYlBEYS05bUE2cXFZaU9rQjdmNDlEOEhPUVI4Nm44TTk0REZFMVNEVzZXMGRGemJUMNIBtgFBVV95cUxPU0kyRG0xRkhKa3hOTnp1UlFxOGliSWwtZEl1WHNLNG5YMHlyWUZULUFUX3BuaHdqYkJTYk41cWYwbFJHNUdKREhSVDNtbF9RM0c0M0dtS3BIQnBBVWtRV1pwU2xXTWgzY184WTE5SThKQWdLV1JSb1ZtU3dwNU1KbS0xcE9PZkpzZ0VXVGZGQVVvNmcwS3FHWVNnT3FVV2RWQk1lN3EzQkg2dS1oRDFNQmprZ21MZw",
+      "guidislink": false,
+      "published": "Wed, 14 Aug 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        8,
+        14,
+        7,
+        0,
+        0,
+        2,
+        226,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPOURGUnUwQS1uWVlhQ0VGUkp2MlZKcERvekpHSUM5dXcwN2xTanRFcGRlTDVjUWhGSWJZd1BYSTRibS1pQkEyNjhjOGxiV01WWDF3ZkNjcFA0STRFdTNmR2tWaXdKdFlkak15dWQ5eFNnN3J2aTJOS2NmQS1jdHRGYlBEYS05bUE2cXFZaU9rQjdmNDlEOEhPUVI4Nm44TTk0REZFMVNEVzZXMGRGemJUMNIBtgFBVV95cUxPU0kyRG0xRkhKa3hOTnp1UlFxOGliSWwtZEl1WHNLNG5YMHlyWUZULUFUX3BuaHdqYkJTYk41cWYwbFJHNUdKREhSVDNtbF9RM0c0M0dtS3BIQnBBVWtRV1pwU2xXTWgzY184WTE5SThKQWdLV1JSb1ZtU3dwNU1KbS0xcE9PZkpzZ0VXVGZGQVVvNmcwS3FHWVNnT3FVV2RWQk1lN3EzQkg2dS1oRDFNQmprZ21MZw?oc=5\" target=\"_blank\">Mohun Bagan done, Sony Norde eager to live his dream in Europe</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Telegraph India</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPOURGUnUwQS1uWVlhQ0VGUkp2MlZKcERvekpHSUM5dXcwN2xTanRFcGRlTDVjUWhGSWJZd1BYSTRibS1pQkEyNjhjOGxiV01WWDF3ZkNjcFA0STRFdTNmR2tWaXdKdFlkak15dWQ5eFNnN3J2aTJOS2NmQS1jdHRGYlBEYS05bUE2cXFZaU9rQjdmNDlEOEhPUVI4Nm44TTk0REZFMVNEVzZXMGRGemJUMNIBtgFBVV95cUxPU0kyRG0xRkhKa3hOTnp1UlFxOGliSWwtZEl1WHNLNG5YMHlyWUZULUFUX3BuaHdqYkJTYk41cWYwbFJHNUdKREhSVDNtbF9RM0c0M0dtS3BIQnBBVWtRV1pwU2xXTWgzY184WTE5SThKQWdLV1JSb1ZtU3dwNU1KbS0xcE9PZkpzZ0VXVGZGQVVvNmcwS3FHWVNnT3FVV2RWQk1lN3EzQkg2dS1oRDFNQmprZ21MZw?oc=5\" target=\"_blank\">Mohun Bagan done, Sony Norde eager to live his dream in Europe</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Telegraph India</font>"
+      },
+      "source": {
+        "href": "https://www.telegraphindia.com",
+        "title": "Telegraph India"
+      },
+      "sub_articles": []
+    }
+  ]
+}

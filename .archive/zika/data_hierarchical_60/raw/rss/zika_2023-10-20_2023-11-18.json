@@ -1,0 +1,1424 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2023-10-20",
+  "window_end": "2023-11-18",
+  "window_days": 30,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2023-10-20+before%3A2023-11-19&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2023-10-20+before:2023-11-19&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:03:42Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2023-10-20 before:2023-11-19\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2023-10-20 before:2023-11-19\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2023-10-20+before:2023-11-19&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2023-10-20+before:2023-11-19&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:03:42 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      3,
+      42,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Zika virus M protein latches and locks the E protein from transitioning to an immature state after prM cleavage - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika virus M protein latches and locks the E protein from transitioning to an immature state after prM cleavage - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE51TUFhZTY0djBtcG1OMldOQTRhYUpVOG1EWS1JMW1UY0V1NGs5TkJsMTZyeU1HMUNiX2FZQjJNWlYxejJoMTJLRDhVTWhzUE9sVnVTR3pDYy1RTDFrNnVV?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE51TUFhZTY0djBtcG1OMldOQTRhYUpVOG1EWS1JMW1UY0V1NGs5TkJsMTZyeU1HMUNiX2FZQjJNWlYxejJoMTJLRDhVTWhzUE9sVnVTR3pDYy1RTDFrNnVV?oc=5",
+      "id": "CBMiX0FVX3lxTE51TUFhZTY0djBtcG1OMldOQTRhYUpVOG1EWS1JMW1UY0V1NGs5TkJsMTZyeU1HMUNiX2FZQjJNWlYxejJoMTJLRDhVTWhzUE9sVnVTR3pDYy1RTDFrNnVV",
+      "guidislink": false,
+      "published": "Mon, 06 Nov 2023 08:00:00 GMT",
+      "published_parsed": [
+        2023,
+        11,
+        6,
+        8,
+        0,
+        0,
+        0,
+        310,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE51TUFhZTY0djBtcG1OMldOQTRhYUpVOG1EWS1JMW1UY0V1NGs5TkJsMTZyeU1HMUNiX2FZQjJNWlYxejJoMTJLRDhVTWhzUE9sVnVTR3pDYy1RTDFrNnVV?oc=5\" target=\"_blank\">Zika virus M protein latches and locks the E protein from transitioning to an immature state after prM cleavage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE51TUFhZTY0djBtcG1OMldOQTRhYUpVOG1EWS1JMW1UY0V1NGs5TkJsMTZyeU1HMUNiX2FZQjJNWlYxejJoMTJLRDhVTWhzUE9sVnVTR3pDYy1RTDFrNnVV?oc=5\" target=\"_blank\">Zika virus M protein latches and locks the E protein from transitioning to an immature state after prM cleavage</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika Infection in Pregnant Macaques Slows Fetal Growth - UC Davis",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika Infection in Pregnant Macaques Slows Fetal Growth - UC Davis"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNeGtLQnVXYXprZDA0bHEwMlhWMzFzQmlIazMtUWZWNFpyNUhfbnQ2YmptQ1FTQVJORjdDYWVENElwajh3NlMxbFo2allpQl9MOVdRMEJXMDZXUHhBeFY3X0traG55N05RR2RCLWFXaFc1Unc2Zl9ZQ3RjNERiaWF5WmE0NV90dFl6ZmVVUlA2Slc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNeGtLQnVXYXprZDA0bHEwMlhWMzFzQmlIazMtUWZWNFpyNUhfbnQ2YmptQ1FTQVJORjdDYWVENElwajh3NlMxbFo2allpQl9MOVdRMEJXMDZXUHhBeFY3X0traG55N05RR2RCLWFXaFc1Unc2Zl9ZQ3RjNERiaWF5WmE0NV90dFl6ZmVVUlA2Slc?oc=5",
+      "id": "CBMikAFBVV95cUxNeGtLQnVXYXprZDA0bHEwMlhWMzFzQmlIazMtUWZWNFpyNUhfbnQ2YmptQ1FTQVJORjdDYWVENElwajh3NlMxbFo2allpQl9MOVdRMEJXMDZXUHhBeFY3X0traG55N05RR2RCLWFXaFc1Unc2Zl9ZQ3RjNERiaWF5WmE0NV90dFl6ZmVVUlA2Slc",
+      "guidislink": false,
+      "published": "Wed, 25 Oct 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        10,
+        25,
+        7,
+        0,
+        0,
+        2,
+        298,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxNeGtLQnVXYXprZDA0bHEwMlhWMzFzQmlIazMtUWZWNFpyNUhfbnQ2YmptQ1FTQVJORjdDYWVENElwajh3NlMxbFo2allpQl9MOVdRMEJXMDZXUHhBeFY3X0traG55N05RR2RCLWFXaFc1Unc2Zl9ZQ3RjNERiaWF5WmE0NV90dFl6ZmVVUlA2Slc?oc=5\" target=\"_blank\">Zika Infection in Pregnant Macaques Slows Fetal Growth</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">UC Davis</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxNeGtLQnVXYXprZDA0bHEwMlhWMzFzQmlIazMtUWZWNFpyNUhfbnQ2YmptQ1FTQVJORjdDYWVENElwajh3NlMxbFo2allpQl9MOVdRMEJXMDZXUHhBeFY3X0traG55N05RR2RCLWFXaFc1Unc2Zl9ZQ3RjNERiaWF5WmE0NV90dFl6ZmVVUlA2Slc?oc=5\" target=\"_blank\">Zika Infection in Pregnant Macaques Slows Fetal Growth</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">UC Davis</font>"
+      },
+      "source": {
+        "href": "https://www.ucdavis.edu",
+        "title": "UC Davis"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "U.S. Scientists Deliberately Infected People With Zika—Here’s Why - Forbes",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "U.S. Scientists Deliberately Infected People With Zika—Here’s Why - Forbes"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTDdUZUlNS2dCbnVRQUlfYk9CZzZ6UXBSMG9xVkU5Z0piZ0tidmdTZGFjVktJcXVnNGxSLTl5em1heWY1SlhqQWtTNXhwZm44OFVtaUJLYWhPWGhLWDREaWlnSDJNWUFkX3NiQnI5b3V0Ylc0amN0Z1AyQXM4d3Fpd2JkNDg5UE1JSzBTTUJTN0xGLXQyNnhZNTlSTHZ0MG83M0RvaFVCSEhrU1NoWFEyMGlwdkY?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTDdUZUlNS2dCbnVRQUlfYk9CZzZ6UXBSMG9xVkU5Z0piZ0tidmdTZGFjVktJcXVnNGxSLTl5em1heWY1SlhqQWtTNXhwZm44OFVtaUJLYWhPWGhLWDREaWlnSDJNWUFkX3NiQnI5b3V0Ylc0amN0Z1AyQXM4d3Fpd2JkNDg5UE1JSzBTTUJTN0xGLXQyNnhZNTlSTHZ0MG83M0RvaFVCSEhrU1NoWFEyMGlwdkY?oc=5",
+      "id": "CBMitAFBVV95cUxNTDdUZUlNS2dCbnVRQUlfYk9CZzZ6UXBSMG9xVkU5Z0piZ0tidmdTZGFjVktJcXVnNGxSLTl5em1heWY1SlhqQWtTNXhwZm44OFVtaUJLYWhPWGhLWDREaWlnSDJNWUFkX3NiQnI5b3V0Ylc0amN0Z1AyQXM4d3Fpd2JkNDg5UE1JSzBTTUJTN0xGLXQyNnhZNTlSTHZ0MG83M0RvaFVCSEhrU1NoWFEyMGlwdkY",
+      "guidislink": false,
+      "published": "Mon, 23 Oct 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        10,
+        23,
+        7,
+        0,
+        0,
+        0,
+        296,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxNTDdUZUlNS2dCbnVRQUlfYk9CZzZ6UXBSMG9xVkU5Z0piZ0tidmdTZGFjVktJcXVnNGxSLTl5em1heWY1SlhqQWtTNXhwZm44OFVtaUJLYWhPWGhLWDREaWlnSDJNWUFkX3NiQnI5b3V0Ylc0amN0Z1AyQXM4d3Fpd2JkNDg5UE1JSzBTTUJTN0xGLXQyNnhZNTlSTHZ0MG83M0RvaFVCSEhrU1NoWFEyMGlwdkY?oc=5\" target=\"_blank\">U.S. Scientists Deliberately Infected People With Zika—Here’s Why</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Forbes</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxNTDdUZUlNS2dCbnVRQUlfYk9CZzZ6UXBSMG9xVkU5Z0piZ0tidmdTZGFjVktJcXVnNGxSLTl5em1heWY1SlhqQWtTNXhwZm44OFVtaUJLYWhPWGhLWDREaWlnSDJNWUFkX3NiQnI5b3V0Ylc0amN0Z1AyQXM4d3Fpd2JkNDg5UE1JSzBTTUJTN0xGLXQyNnhZNTlSTHZ0MG83M0RvaFVCSEhrU1NoWFEyMGlwdkY?oc=5\" target=\"_blank\">U.S. Scientists Deliberately Infected People With Zika—Here’s Why</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Forbes</font>"
+      },
+      "source": {
+        "href": "https://www.forbes.com",
+        "title": "Forbes"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Exacerbated Zika virus–induced neuropathology and microcephaly in fetuses of dengue-immune nonhuman primates - Science | AAAS",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Exacerbated Zika virus–induced neuropathology and microcephaly in fetuses of dengue-immune nonhuman primates - Science | AAAS"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1udDBIWmVlM1pPTmp0Vl9HM1JodnpzMFFTZGUxNXRNN05JVnM2NEh5OHBkT0djVkdRbGJvRXVpVFhDNXhfQURuZE92UUpBeTlYR0tvdkxaa00zS2NfanNrMWJIN0o0aTg?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1udDBIWmVlM1pPTmp0Vl9HM1JodnpzMFFTZGUxNXRNN05JVnM2NEh5OHBkT0djVkdRbGJvRXVpVFhDNXhfQURuZE92UUpBeTlYR0tvdkxaa00zS2NfanNrMWJIN0o0aTg?oc=5",
+      "id": "CBMiZ0FVX3lxTE1udDBIWmVlM1pPTmp0Vl9HM1JodnpzMFFTZGUxNXRNN05JVnM2NEh5OHBkT0djVkdRbGJvRXVpVFhDNXhfQURuZE92UUpBeTlYR0tvdkxaa00zS2NfanNrMWJIN0o0aTg",
+      "guidislink": false,
+      "published": "Wed, 25 Oct 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        10,
+        25,
+        7,
+        0,
+        0,
+        2,
+        298,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1udDBIWmVlM1pPTmp0Vl9HM1JodnpzMFFTZGUxNXRNN05JVnM2NEh5OHBkT0djVkdRbGJvRXVpVFhDNXhfQURuZE92UUpBeTlYR0tvdkxaa00zS2NfanNrMWJIN0o0aTg?oc=5\" target=\"_blank\">Exacerbated Zika virus–induced neuropathology and microcephaly in fetuses of dengue-immune nonhuman primates</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Science | AAAS</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1udDBIWmVlM1pPTmp0Vl9HM1JodnpzMFFTZGUxNXRNN05JVnM2NEh5OHBkT0djVkdRbGJvRXVpVFhDNXhfQURuZE92UUpBeTlYR0tvdkxaa00zS2NfanNrMWJIN0o0aTg?oc=5\" target=\"_blank\">Exacerbated Zika virus–induced neuropathology and microcephaly in fetuses of dengue-immune nonhuman primates</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Science | AAAS</font>"
+      },
+      "source": {
+        "href": "https://www.science.org",
+        "title": "Science | AAAS"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika virus infection during pregnancy in mice and monkeys - European Animal Research Association",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika virus infection during pregnancy in mice and monkeys - European Animal Research Association"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1yVWNITEpSb0gyVW1qcVBTM3p6UHlldkZzTkRWZDNPanBjRHhacDBGUUthSTV0TmNHbjNYOXgwUGdRR2FQUWFBRXc5VU44TEotcUV0cU5CM2lZN2ZlUHh4R0Qzb0VIclZqTjc0?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1yVWNITEpSb0gyVW1qcVBTM3p6UHlldkZzTkRWZDNPanBjRHhacDBGUUthSTV0TmNHbjNYOXgwUGdRR2FQUWFBRXc5VU44TEotcUV0cU5CM2lZN2ZlUHh4R0Qzb0VIclZqTjc0?oc=5",
+      "id": "CBMia0FVX3lxTE1yVWNITEpSb0gyVW1qcVBTM3p6UHlldkZzTkRWZDNPanBjRHhacDBGUUthSTV0TmNHbjNYOXgwUGdRR2FQUWFBRXc5VU44TEotcUV0cU5CM2lZN2ZlUHh4R0Qzb0VIclZqTjc0",
+      "guidislink": false,
+      "published": "Mon, 30 Oct 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        10,
+        30,
+        7,
+        0,
+        0,
+        0,
+        303,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE1yVWNITEpSb0gyVW1qcVBTM3p6UHlldkZzTkRWZDNPanBjRHhacDBGUUthSTV0TmNHbjNYOXgwUGdRR2FQUWFBRXc5VU44TEotcUV0cU5CM2lZN2ZlUHh4R0Qzb0VIclZqTjc0?oc=5\" target=\"_blank\">Zika virus infection during pregnancy in mice and monkeys</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">European Animal Research Association</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE1yVWNITEpSb0gyVW1qcVBTM3p6UHlldkZzTkRWZDNPanBjRHhacDBGUUthSTV0TmNHbjNYOXgwUGdRR2FQUWFBRXc5VU44TEotcUV0cU5CM2lZN2ZlUHh4R0Qzb0VIclZqTjc0?oc=5\" target=\"_blank\">Zika virus infection during pregnancy in mice and monkeys</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">European Animal Research Association</font>"
+      },
+      "source": {
+        "href": "https://www.eara.eu",
+        "title": "European Animal Research Association"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Development and pre-clinical evaluation of a Zika virus diagnostic for low resource settings - Frontiers",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Development and pre-clinical evaluation of a Zika virus diagnostic for low resource settings - Frontiers"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMUQ4NXc2OHl4V3dGRWRrbkJsblJpS3N2U1lMWXlmSlpaRTFPU1huVDRQMzd3U0w5V2RhODFjWG5JaG53NnJNdm9mbHZPVlJRN0RTVzBfTHA4Q3RlN3RjN1hnRTlINTBMTGlyc1U4Yk1WdWdZWGF4eHdFRk5VMV9oR0lZMnhlYW44UHd0VFVpR0RxRmZf?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMUQ4NXc2OHl4V3dGRWRrbkJsblJpS3N2U1lMWXlmSlpaRTFPU1huVDRQMzd3U0w5V2RhODFjWG5JaG53NnJNdm9mbHZPVlJRN0RTVzBfTHA4Q3RlN3RjN1hnRTlINTBMTGlyc1U4Yk1WdWdZWGF4eHdFRk5VMV9oR0lZMnhlYW44UHd0VFVpR0RxRmZf?oc=5",
+      "id": "CBMilAFBVV95cUxQMUQ4NXc2OHl4V3dGRWRrbkJsblJpS3N2U1lMWXlmSlpaRTFPU1huVDRQMzd3U0w5V2RhODFjWG5JaG53NnJNdm9mbHZPVlJRN0RTVzBfTHA4Q3RlN3RjN1hnRTlINTBMTGlyc1U4Yk1WdWdZWGF4eHdFRk5VMV9oR0lZMnhlYW44UHd0VFVpR0RxRmZf",
+      "guidislink": false,
+      "published": "Sun, 19 Nov 2023 08:00:00 GMT",
+      "published_parsed": [
+        2023,
+        11,
+        19,
+        8,
+        0,
+        0,
+        6,
+        323,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxQMUQ4NXc2OHl4V3dGRWRrbkJsblJpS3N2U1lMWXlmSlpaRTFPU1huVDRQMzd3U0w5V2RhODFjWG5JaG53NnJNdm9mbHZPVlJRN0RTVzBfTHA4Q3RlN3RjN1hnRTlINTBMTGlyc1U4Yk1WdWdZWGF4eHdFRk5VMV9oR0lZMnhlYW44UHd0VFVpR0RxRmZf?oc=5\" target=\"_blank\">Development and pre-clinical evaluation of a Zika virus diagnostic for low resource settings</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Frontiers</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxQMUQ4NXc2OHl4V3dGRWRrbkJsblJpS3N2U1lMWXlmSlpaRTFPU1huVDRQMzd3U0w5V2RhODFjWG5JaG53NnJNdm9mbHZPVlJRN0RTVzBfTHA4Q3RlN3RjN1hnRTlINTBMTGlyc1U4Yk1WdWdZWGF4eHdFRk5VMV9oR0lZMnhlYW44UHd0VFVpR0RxRmZf?oc=5\" target=\"_blank\">Development and pre-clinical evaluation of a Zika virus diagnostic for low resource settings</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Frontiers</font>"
+      },
+      "source": {
+        "href": "https://www.frontiersin.org",
+        "title": "Frontiers"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika virus prM protein contains cholesterol binding motifs required for virus entry and assembly - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika virus prM protein contains cholesterol binding motifs required for virus entry and assembly - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1GdF9jX2dPQlRQWllPcEFJd1pfWERmVHdqblNNMWs3UkdLTGItQXN0WmZUZ24yTks3anVoUElkNXVLalUtMGk4ZnA0M1RsRml5cndSQ0U0ajUwcG16REN3?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1GdF9jX2dPQlRQWllPcEFJd1pfWERmVHdqblNNMWs3UkdLTGItQXN0WmZUZ24yTks3anVoUElkNXVLalUtMGk4ZnA0M1RsRml5cndSQ0U0ajUwcG16REN3?oc=5",
+      "id": "CBMiX0FVX3lxTE1GdF9jX2dPQlRQWllPcEFJd1pfWERmVHdqblNNMWs3UkdLTGItQXN0WmZUZ24yTks3anVoUElkNXVLalUtMGk4ZnA0M1RsRml5cndSQ0U0ajUwcG16REN3",
+      "guidislink": false,
+      "published": "Mon, 13 Nov 2023 08:00:00 GMT",
+      "published_parsed": [
+        2023,
+        11,
+        13,
+        8,
+        0,
+        0,
+        0,
+        317,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1GdF9jX2dPQlRQWllPcEFJd1pfWERmVHdqblNNMWs3UkdLTGItQXN0WmZUZ24yTks3anVoUElkNXVLalUtMGk4ZnA0M1RsRml5cndSQ0U0ajUwcG16REN3?oc=5\" target=\"_blank\">Zika virus prM protein contains cholesterol binding motifs required for virus entry and assembly</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1GdF9jX2dPQlRQWllPcEFJd1pfWERmVHdqblNNMWs3UkdLTGItQXN0WmZUZ24yTks3anVoUElkNXVLalUtMGk4ZnA0M1RsRml5cndSQ0U0ajUwcG16REN3?oc=5\" target=\"_blank\">Zika virus prM protein contains cholesterol binding motifs required for virus entry and assembly</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Research shows maternal dengue immunity worsens birth defects caused by Zika virus - Medical Xpress",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Research shows maternal dengue immunity worsens birth defects caused by Zika virus - Medical Xpress"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONU5FSGMyS1dvRnlFNVBHQlpTLTRGS2Z3Vkw3U3l3OUpVUmVsNWQ4OFh6dG5VUjM0SkhHMWptbjJCemFXa0RQaEs5WVNlb0lCdklTdWdGZ2J0NkY2VXFzTm9QWV8wNWJEOGc0OVZzTkdBZ2E2QWpKcTVwVnBUZ3ExVG1CT3BvVGo3X3c?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONU5FSGMyS1dvRnlFNVBHQlpTLTRGS2Z3Vkw3U3l3OUpVUmVsNWQ4OFh6dG5VUjM0SkhHMWptbjJCemFXa0RQaEs5WVNlb0lCdklTdWdGZ2J0NkY2VXFzTm9QWV8wNWJEOGc0OVZzTkdBZ2E2QWpKcTVwVnBUZ3ExVG1CT3BvVGo3X3c?oc=5",
+      "id": "CBMiigFBVV95cUxONU5FSGMyS1dvRnlFNVBHQlpTLTRGS2Z3Vkw3U3l3OUpVUmVsNWQ4OFh6dG5VUjM0SkhHMWptbjJCemFXa0RQaEs5WVNlb0lCdklTdWdGZ2J0NkY2VXFzTm9QWV8wNWJEOGc0OVZzTkdBZ2E2QWpKcTVwVnBUZ3ExVG1CT3BvVGo3X3c",
+      "guidislink": false,
+      "published": "Mon, 13 Nov 2023 08:00:00 GMT",
+      "published_parsed": [
+        2023,
+        11,
+        13,
+        8,
+        0,
+        0,
+        0,
+        317,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxONU5FSGMyS1dvRnlFNVBHQlpTLTRGS2Z3Vkw3U3l3OUpVUmVsNWQ4OFh6dG5VUjM0SkhHMWptbjJCemFXa0RQaEs5WVNlb0lCdklTdWdGZ2J0NkY2VXFzTm9QWV8wNWJEOGc0OVZzTkdBZ2E2QWpKcTVwVnBUZ3ExVG1CT3BvVGo3X3c?oc=5\" target=\"_blank\">Research shows maternal dengue immunity worsens birth defects caused by Zika virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Medical Xpress</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxONU5FSGMyS1dvRnlFNVBHQlpTLTRGS2Z3Vkw3U3l3OUpVUmVsNWQ4OFh6dG5VUjM0SkhHMWptbjJCemFXa0RQaEs5WVNlb0lCdklTdWdGZ2J0NkY2VXFzTm9QWV8wNWJEOGc0OVZzTkdBZ2E2QWpKcTVwVnBUZ3ExVG1CT3BvVGo3X3c?oc=5\" target=\"_blank\">Research shows maternal dengue immunity worsens birth defects caused by Zika virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Medical Xpress</font>"
+      },
+      "source": {
+        "href": "https://medicalxpress.com",
+        "title": "Medical Xpress"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "28,267 Zika Cases Confirmed Across the Americas - Vax-Before-Travel",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "28,267 Zika Cases Confirmed Across the Americas - Vax-Before-Travel"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbDFWUmFPdlo1aENTVEZfSnNHd25PcXd2T1dYNmh2VEpYYW0wMTBGaG1JdlBUcEpWN2p2VGEzU3ZkVVhnU0pVNURyNFlkcktiaXFOVDRPYi16WlJTQUpJaC0wY3lOSmZjR253OWotTlgtckc0T0FxNk9LTE9oUk9WODl6OXlfOEo3MXpYVHREMnk?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbDFWUmFPdlo1aENTVEZfSnNHd25PcXd2T1dYNmh2VEpYYW0wMTBGaG1JdlBUcEpWN2p2VGEzU3ZkVVhnU0pVNURyNFlkcktiaXFOVDRPYi16WlJTQUpJaC0wY3lOSmZjR253OWotTlgtckc0T0FxNk9LTE9oUk9WODl6OXlfOEo3MXpYVHREMnk?oc=5",
+      "id": "CBMikAFBVV95cUxPbDFWUmFPdlo1aENTVEZfSnNHd25PcXd2T1dYNmh2VEpYYW0wMTBGaG1JdlBUcEpWN2p2VGEzU3ZkVVhnU0pVNURyNFlkcktiaXFOVDRPYi16WlJTQUpJaC0wY3lOSmZjR253OWotTlgtckc0T0FxNk9LTE9oUk9WODl6OXlfOEo3MXpYVHREMnk",
+      "guidislink": false,
+      "published": "Wed, 08 Nov 2023 08:00:00 GMT",
+      "published_parsed": [
+        2023,
+        11,
+        8,
+        8,
+        0,
+        0,
+        2,
+        312,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxPbDFWUmFPdlo1aENTVEZfSnNHd25PcXd2T1dYNmh2VEpYYW0wMTBGaG1JdlBUcEpWN2p2VGEzU3ZkVVhnU0pVNURyNFlkcktiaXFOVDRPYi16WlJTQUpJaC0wY3lOSmZjR253OWotTlgtckc0T0FxNk9LTE9oUk9WODl6OXlfOEo3MXpYVHREMnk?oc=5\" target=\"_blank\">28,267 Zika Cases Confirmed Across the Americas</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vax-Before-Travel</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxPbDFWUmFPdlo1aENTVEZfSnNHd25PcXd2T1dYNmh2VEpYYW0wMTBGaG1JdlBUcEpWN2p2VGEzU3ZkVVhnU0pVNURyNFlkcktiaXFOVDRPYi16WlJTQUpJaC0wY3lOSmZjR253OWotTlgtckc0T0FxNk9LTE9oUk9WODl6OXlfOEo3MXpYVHREMnk?oc=5\" target=\"_blank\">28,267 Zika Cases Confirmed Across the Americas</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vax-Before-Travel</font>"
+      },
+      "source": {
+        "href": "https://www.vax-before-travel.com",
+        "title": "Vax-Before-Travel"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Seroprevalence of Zika in Brazil stratified by age and geographic distribution - Cambridge University Press & Assessment",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Seroprevalence of Zika in Brazil stratified by age and geographic distribution - Cambridge University Press & Assessment"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQVmFVTE1JaWVmU0ZTWGtTeXVveHhhRExfNXE4ZGdvSE5hVUlpSF9NVUpMT1VjYURrOERyZXNvZXFkQVlONXgtelJxWlJOb1BXclhqdkNGS2l3YzdNWUNoZXN5RGRDSFdKa1NNZDNpNldYckhiU05tY05TbHB5QjJPV2RtNENSMGhEZ0lJekFDajRLbkNtYzdfUFhZVWZtakxJMi1pazFfb0xPR1didFBrVzRwa0I3clhOeFFWSkVKY19rdE9jOGFiMUpjUEtac2VuZWVfYUFVcVNVQ1cwMTcxck5xNjB3STV0djlpa0wyLUYwbTFURVpGQW5UbGRWOVRERVpUQy1zb0JlZ0luT0dqZWZQR20?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQVmFVTE1JaWVmU0ZTWGtTeXVveHhhRExfNXE4ZGdvSE5hVUlpSF9NVUpMT1VjYURrOERyZXNvZXFkQVlONXgtelJxWlJOb1BXclhqdkNGS2l3YzdNWUNoZXN5RGRDSFdKa1NNZDNpNldYckhiU05tY05TbHB5QjJPV2RtNENSMGhEZ0lJekFDajRLbkNtYzdfUFhZVWZtakxJMi1pazFfb0xPR1didFBrVzRwa0I3clhOeFFWSkVKY19rdE9jOGFiMUpjUEtac2VuZWVfYUFVcVNVQ1cwMTcxck5xNjB3STV0djlpa0wyLUYwbTFURVpGQW5UbGRWOVRERVpUQy1zb0JlZ0luT0dqZWZQR20?oc=5",
+      "id": "CBMilAJBVV95cUxQVmFVTE1JaWVmU0ZTWGtTeXVveHhhRExfNXE4ZGdvSE5hVUlpSF9NVUpMT1VjYURrOERyZXNvZXFkQVlONXgtelJxWlJOb1BXclhqdkNGS2l3YzdNWUNoZXN5RGRDSFdKa1NNZDNpNldYckhiU05tY05TbHB5QjJPV2RtNENSMGhEZ0lJekFDajRLbkNtYzdfUFhZVWZtakxJMi1pazFfb0xPR1didFBrVzRwa0I3clhOeFFWSkVKY19rdE9jOGFiMUpjUEtac2VuZWVfYUFVcVNVQ1cwMTcxck5xNjB3STV0djlpa0wyLUYwbTFURVpGQW5UbGRWOVRERVpUQy1zb0JlZ0luT0dqZWZQR20",
+      "guidislink": false,
+      "published": "Wed, 15 Nov 2023 08:00:00 GMT",
+      "published_parsed": [
+        2023,
+        11,
+        15,
+        8,
+        0,
+        0,
+        2,
+        319,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAJBVV95cUxQVmFVTE1JaWVmU0ZTWGtTeXVveHhhRExfNXE4ZGdvSE5hVUlpSF9NVUpMT1VjYURrOERyZXNvZXFkQVlONXgtelJxWlJOb1BXclhqdkNGS2l3YzdNWUNoZXN5RGRDSFdKa1NNZDNpNldYckhiU05tY05TbHB5QjJPV2RtNENSMGhEZ0lJekFDajRLbkNtYzdfUFhZVWZtakxJMi1pazFfb0xPR1didFBrVzRwa0I3clhOeFFWSkVKY19rdE9jOGFiMUpjUEtac2VuZWVfYUFVcVNVQ1cwMTcxck5xNjB3STV0djlpa0wyLUYwbTFURVpGQW5UbGRWOVRERVpUQy1zb0JlZ0luT0dqZWZQR20?oc=5\" target=\"_blank\">Seroprevalence of Zika in Brazil stratified by age and geographic distribution</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cambridge University Press & Assessment</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMilAJBVV95cUxQVmFVTE1JaWVmU0ZTWGtTeXVveHhhRExfNXE4ZGdvSE5hVUlpSF9NVUpMT1VjYURrOERyZXNvZXFkQVlONXgtelJxWlJOb1BXclhqdkNGS2l3YzdNWUNoZXN5RGRDSFdKa1NNZDNpNldYckhiU05tY05TbHB5QjJPV2RtNENSMGhEZ0lJekFDajRLbkNtYzdfUFhZVWZtakxJMi1pazFfb0xPR1didFBrVzRwa0I3clhOeFFWSkVKY19rdE9jOGFiMUpjUEtac2VuZWVfYUFVcVNVQ1cwMTcxck5xNjB3STV0djlpa0wyLUYwbTFURVpGQW5UbGRWOVRERVpUQy1zb0JlZ0luT0dqZWZQR20?oc=5\" target=\"_blank\">Seroprevalence of Zika in Brazil stratified by age and geographic distribution</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cambridge University Press & Assessment</font>"
+      },
+      "source": {
+        "href": "https://www.cambridge.org",
+        "title": "Cambridge University Press & Assessment"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Dry Survival: The Remarkable Resilience of Zika Mosquito Eggs - SciTechDaily",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Dry Survival: The Remarkable Resilience of Zika Mosquito Eggs - SciTechDaily"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPXzVzajJJcXl3ZHY0cjlXZl9DN3hzdlVhc1VGbldWaGxKZlJpNFdJVU56YWN4emJMRTB2eHkzNUZtY0xnM1BGNmlEZFpaVk1MejZSR0tLdTQ4M2MxTXZFS0g0dmNERTJfcTJlZDhiYW50aEVnb3lnX1R1VE9JZlhkMkV2ZVRTYjcyOHhxaWc1VQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPXzVzajJJcXl3ZHY0cjlXZl9DN3hzdlVhc1VGbldWaGxKZlJpNFdJVU56YWN4emJMRTB2eHkzNUZtY0xnM1BGNmlEZFpaVk1MejZSR0tLdTQ4M2MxTXZFS0g0dmNERTJfcTJlZDhiYW50aEVnb3lnX1R1VE9JZlhkMkV2ZVRTYjcyOHhxaWc1VQ?oc=5",
+      "id": "CBMijwFBVV95cUxPXzVzajJJcXl3ZHY0cjlXZl9DN3hzdlVhc1VGbldWaGxKZlJpNFdJVU56YWN4emJMRTB2eHkzNUZtY0xnM1BGNmlEZFpaVk1MejZSR0tLdTQ4M2MxTXZFS0g0dmNERTJfcTJlZDhiYW50aEVnb3lnX1R1VE9JZlhkMkV2ZVRTYjcyOHhxaWc1VQ",
+      "guidislink": false,
+      "published": "Wed, 25 Oct 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        10,
+        25,
+        7,
+        0,
+        0,
+        2,
+        298,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxPXzVzajJJcXl3ZHY0cjlXZl9DN3hzdlVhc1VGbldWaGxKZlJpNFdJVU56YWN4emJMRTB2eHkzNUZtY0xnM1BGNmlEZFpaVk1MejZSR0tLdTQ4M2MxTXZFS0g0dmNERTJfcTJlZDhiYW50aEVnb3lnX1R1VE9JZlhkMkV2ZVRTYjcyOHhxaWc1VQ?oc=5\" target=\"_blank\">Dry Survival: The Remarkable Resilience of Zika Mosquito Eggs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SciTechDaily</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxPXzVzajJJcXl3ZHY0cjlXZl9DN3hzdlVhc1VGbldWaGxKZlJpNFdJVU56YWN4emJMRTB2eHkzNUZtY0xnM1BGNmlEZFpaVk1MejZSR0tLdTQ4M2MxTXZFS0g0dmNERTJfcTJlZDhiYW50aEVnb3lnX1R1VE9JZlhkMkV2ZVRTYjcyOHhxaWc1VQ?oc=5\" target=\"_blank\">Dry Survival: The Remarkable Resilience of Zika Mosquito Eggs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">SciTechDaily</font>"
+      },
+      "source": {
+        "href": "https://scitechdaily.com",
+        "title": "SciTechDaily"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Scientists deliberately gave women Zika — here’s why - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Scientists deliberately gave women Zika — here’s why - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBGVURHOFdWSXd5enB0WWd5MkhrQ19GVmtWU1EybTRhNFVrTm13LVlJNGZyaTI2bnJoWHVLRnpkTjJaM3J6RkVUYU52bDliOS1zdU5SeWJMekRNMV8yWUJ3?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBGVURHOFdWSXd5enB0WWd5MkhrQ19GVmtWU1EybTRhNFVrTm13LVlJNGZyaTI2bnJoWHVLRnpkTjJaM3J6RkVUYU52bDliOS1zdU5SeWJMekRNMV8yWUJ3?oc=5",
+      "id": "CBMiX0FVX3lxTFBGVURHOFdWSXd5enB0WWd5MkhrQ19GVmtWU1EybTRhNFVrTm13LVlJNGZyaTI2bnJoWHVLRnpkTjJaM3J6RkVUYU52bDliOS1zdU5SeWJMekRNMV8yWUJ3",
+      "guidislink": false,
+      "published": "Sat, 21 Oct 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        10,
+        21,
+        7,
+        0,
+        0,
+        5,
+        294,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFBGVURHOFdWSXd5enB0WWd5MkhrQ19GVmtWU1EybTRhNFVrTm13LVlJNGZyaTI2bnJoWHVLRnpkTjJaM3J6RkVUYU52bDliOS1zdU5SeWJMekRNMV8yWUJ3?oc=5\" target=\"_blank\">Scientists deliberately gave women Zika — here’s why</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFBGVURHOFdWSXd5enB0WWd5MkhrQ19GVmtWU1EybTRhNFVrTm13LVlJNGZyaTI2bnJoWHVLRnpkTjJaM3J6RkVUYU52bDliOS1zdU5SeWJMekRNMV8yWUJ3?oc=5\" target=\"_blank\">Scientists deliberately gave women Zika — here’s why</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Study associates reduced activity of a key enzyme with microcephaly in Zika-infected offspring - Medical Xpress",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Study associates reduced activity of a key enzyme with microcephaly in Zika-infected offspring - Medical Xpress"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOczEyZC15T0g1ZU81azlQeVU5SmdUNFdBUS13Y3VLTnBhaklvd2lkT19SZDU2bTZpa2RtbVhYMXJ5TVVNdFlBeWdKeU5lbFlid3JWRUpNbzJlRUNrWkFMTV9FTHZCNDhieEppUC1yX2M3MnV0ZGRmRnpoX25PdmtHT3lhYi12dGNWUnJPa1B4QVJTWjBNSHVz?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOczEyZC15T0g1ZU81azlQeVU5SmdUNFdBUS13Y3VLTnBhaklvd2lkT19SZDU2bTZpa2RtbVhYMXJ5TVVNdFlBeWdKeU5lbFlid3JWRUpNbzJlRUNrWkFMTV9FTHZCNDhieEppUC1yX2M3MnV0ZGRmRnpoX25PdmtHT3lhYi12dGNWUnJPa1B4QVJTWjBNSHVz?oc=5",
+      "id": "CBMilwFBVV95cUxOczEyZC15T0g1ZU81azlQeVU5SmdUNFdBUS13Y3VLTnBhaklvd2lkT19SZDU2bTZpa2RtbVhYMXJ5TVVNdFlBeWdKeU5lbFlid3JWRUpNbzJlRUNrWkFMTV9FTHZCNDhieEppUC1yX2M3MnV0ZGRmRnpoX25PdmtHT3lhYi12dGNWUnJPa1B4QVJTWjBNSHVz",
+      "guidislink": false,
+      "published": "Tue, 24 Oct 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        10,
+        24,
+        7,
+        0,
+        0,
+        1,
+        297,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxOczEyZC15T0g1ZU81azlQeVU5SmdUNFdBUS13Y3VLTnBhaklvd2lkT19SZDU2bTZpa2RtbVhYMXJ5TVVNdFlBeWdKeU5lbFlid3JWRUpNbzJlRUNrWkFMTV9FTHZCNDhieEppUC1yX2M3MnV0ZGRmRnpoX25PdmtHT3lhYi12dGNWUnJPa1B4QVJTWjBNSHVz?oc=5\" target=\"_blank\">Study associates reduced activity of a key enzyme with microcephaly in Zika-infected offspring</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Medical Xpress</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxOczEyZC15T0g1ZU81azlQeVU5SmdUNFdBUS13Y3VLTnBhaklvd2lkT19SZDU2bTZpa2RtbVhYMXJ5TVVNdFlBeWdKeU5lbFlid3JWRUpNbzJlRUNrWkFMTV9FTHZCNDhieEppUC1yX2M3MnV0ZGRmRnpoX25PdmtHT3lhYi12dGNWUnJPa1B4QVJTWjBNSHVz?oc=5\" target=\"_blank\">Study associates reduced activity of a key enzyme with microcephaly in Zika-infected offspring</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Medical Xpress</font>"
+      },
+      "source": {
+        "href": "https://medicalxpress.com",
+        "title": "Medical Xpress"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Women Intentionally Infected With Zika Virus During Clinical Trial - Vax-Before-Travel",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Women Intentionally Infected With Zika Virus During Clinical Trial - Vax-Before-Travel"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQUp2d1F3bTk2T18teDlaSUpnT0dKU0VhTy00MEFMMDhLanU2c2k3RlJNWGw5T1kyaU1HN1ZlblZVTE9TVDltTlB3OFlUMUhWVnR1UFF1RnMtenpjdzhXX21kaERzOGhxeHJKZjlUUXNIOEhIeWFfdnZGTDB6Wmt6eUNNUjZFZXB1dnRTRVJ4c2MwQmFWTThORFVITEltZXdmRkpLd0w4dGV2QQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQUp2d1F3bTk2T18teDlaSUpnT0dKU0VhTy00MEFMMDhLanU2c2k3RlJNWGw5T1kyaU1HN1ZlblZVTE9TVDltTlB3OFlUMUhWVnR1UFF1RnMtenpjdzhXX21kaERzOGhxeHJKZjlUUXNIOEhIeWFfdnZGTDB6Wmt6eUNNUjZFZXB1dnRTRVJ4c2MwQmFWTThORFVITEltZXdmRkpLd0w4dGV2QQ?oc=5",
+      "id": "CBMiqgFBVV95cUxQQUp2d1F3bTk2T18teDlaSUpnT0dKU0VhTy00MEFMMDhLanU2c2k3RlJNWGw5T1kyaU1HN1ZlblZVTE9TVDltTlB3OFlUMUhWVnR1UFF1RnMtenpjdzhXX21kaERzOGhxeHJKZjlUUXNIOEhIeWFfdnZGTDB6Wmt6eUNNUjZFZXB1dnRTRVJ4c2MwQmFWTThORFVITEltZXdmRkpLd0w4dGV2QQ",
+      "guidislink": false,
+      "published": "Mon, 23 Oct 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        10,
+        23,
+        7,
+        0,
+        0,
+        0,
+        296,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQUp2d1F3bTk2T18teDlaSUpnT0dKU0VhTy00MEFMMDhLanU2c2k3RlJNWGw5T1kyaU1HN1ZlblZVTE9TVDltTlB3OFlUMUhWVnR1UFF1RnMtenpjdzhXX21kaERzOGhxeHJKZjlUUXNIOEhIeWFfdnZGTDB6Wmt6eUNNUjZFZXB1dnRTRVJ4c2MwQmFWTThORFVITEltZXdmRkpLd0w4dGV2QQ?oc=5\" target=\"_blank\">Women Intentionally Infected With Zika Virus During Clinical Trial</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vax-Before-Travel</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQUp2d1F3bTk2T18teDlaSUpnT0dKU0VhTy00MEFMMDhLanU2c2k3RlJNWGw5T1kyaU1HN1ZlblZVTE9TVDltTlB3OFlUMUhWVnR1UFF1RnMtenpjdzhXX21kaERzOGhxeHJKZjlUUXNIOEhIeWFfdnZGTDB6Wmt6eUNNUjZFZXB1dnRTRVJ4c2MwQmFWTThORFVITEltZXdmRkpLd0w4dGV2QQ?oc=5\" target=\"_blank\">Women Intentionally Infected With Zika Virus During Clinical Trial</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vax-Before-Travel</font>"
+      },
+      "source": {
+        "href": "https://www.vax-before-travel.com",
+        "title": "Vax-Before-Travel"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika, chikungunya and co-occurrence in Brazil: space-time clusters and associated environmental–socioeconomic factors - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika, chikungunya and co-occurrence in Brazil: space-time clusters and associated environmental–socioeconomic factors - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9lWC0yRy0wazBaVlpfNDVBSXF0VzVtTmtmc2w2T0RqSmd0RWJHVHpuVGUwaEE1emV5dEhwUG9TeGF6SHhjY0E4d0w2QUlhWXJlRWo2NUttU3E4dlJqX25N?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9lWC0yRy0wazBaVlpfNDVBSXF0VzVtTmtmc2w2T0RqSmd0RWJHVHpuVGUwaEE1emV5dEhwUG9TeGF6SHhjY0E4d0w2QUlhWXJlRWo2NUttU3E4dlJqX25N?oc=5",
+      "id": "CBMiX0FVX3lxTE9lWC0yRy0wazBaVlpfNDVBSXF0VzVtTmtmc2w2T0RqSmd0RWJHVHpuVGUwaEE1emV5dEhwUG9TeGF6SHhjY0E4d0w2QUlhWXJlRWo2NUttU3E4dlJqX25N",
+      "guidislink": false,
+      "published": "Sat, 21 Oct 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        10,
+        21,
+        7,
+        0,
+        0,
+        5,
+        294,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9lWC0yRy0wazBaVlpfNDVBSXF0VzVtTmtmc2w2T0RqSmd0RWJHVHpuVGUwaEE1emV5dEhwUG9TeGF6SHhjY0E4d0w2QUlhWXJlRWo2NUttU3E4dlJqX25N?oc=5\" target=\"_blank\">Zika, chikungunya and co-occurrence in Brazil: space-time clusters and associated environmental–socioeconomic factors</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9lWC0yRy0wazBaVlpfNDVBSXF0VzVtTmtmc2w2T0RqSmd0RWJHVHpuVGUwaEE1emV5dEhwUG9TeGF6SHhjY0E4d0w2QUlhWXJlRWo2NUttU3E4dlJqX25N?oc=5\" target=\"_blank\">Zika, chikungunya and co-occurrence in Brazil: space-time clusters and associated environmental–socioeconomic factors</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Brazil's Disease Outbreaks Are Temperature Sensitive - Vax-Before-Travel",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Brazil's Disease Outbreaks Are Temperature Sensitive - Vax-Before-Travel"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSHN3U25iZmxwbUVMclZIR0NTMkcxeXBKclR2bzB3Njk5YWZvR3dlRHl4ZUhsR21mQ0VFbWZsQ3M1b1Z2ZkZxSEZJUmlydDJuYzhqQVhCa1UwVUN1OVpmQ3kxUHZISEI0YjRJM3NVWG1zRTJFUTdvbHVMTGVVdDNSMjN0VGQtZXRSQ2NpUXNTQllZZHpndXdfbW5OS3A?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSHN3U25iZmxwbUVMclZIR0NTMkcxeXBKclR2bzB3Njk5YWZvR3dlRHl4ZUhsR21mQ0VFbWZsQ3M1b1Z2ZkZxSEZJUmlydDJuYzhqQVhCa1UwVUN1OVpmQ3kxUHZISEI0YjRJM3NVWG1zRTJFUTdvbHVMTGVVdDNSMjN0VGQtZXRSQ2NpUXNTQllZZHpndXdfbW5OS3A?oc=5",
+      "id": "CBMinAFBVV95cUxOSHN3U25iZmxwbUVMclZIR0NTMkcxeXBKclR2bzB3Njk5YWZvR3dlRHl4ZUhsR21mQ0VFbWZsQ3M1b1Z2ZkZxSEZJUmlydDJuYzhqQVhCa1UwVUN1OVpmQ3kxUHZISEI0YjRJM3NVWG1zRTJFUTdvbHVMTGVVdDNSMjN0VGQtZXRSQ2NpUXNTQllZZHpndXdfbW5OS3A",
+      "guidislink": false,
+      "published": "Sun, 12 Nov 2023 08:00:00 GMT",
+      "published_parsed": [
+        2023,
+        11,
+        12,
+        8,
+        0,
+        0,
+        6,
+        316,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxOSHN3U25iZmxwbUVMclZIR0NTMkcxeXBKclR2bzB3Njk5YWZvR3dlRHl4ZUhsR21mQ0VFbWZsQ3M1b1Z2ZkZxSEZJUmlydDJuYzhqQVhCa1UwVUN1OVpmQ3kxUHZISEI0YjRJM3NVWG1zRTJFUTdvbHVMTGVVdDNSMjN0VGQtZXRSQ2NpUXNTQllZZHpndXdfbW5OS3A?oc=5\" target=\"_blank\">Brazil's Disease Outbreaks Are Temperature Sensitive</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vax-Before-Travel</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxOSHN3U25iZmxwbUVMclZIR0NTMkcxeXBKclR2bzB3Njk5YWZvR3dlRHl4ZUhsR21mQ0VFbWZsQ3M1b1Z2ZkZxSEZJUmlydDJuYzhqQVhCa1UwVUN1OVpmQ3kxUHZISEI0YjRJM3NVWG1zRTJFUTdvbHVMTGVVdDNSMjN0VGQtZXRSQ2NpUXNTQllZZHpndXdfbW5OS3A?oc=5\" target=\"_blank\">Brazil's Disease Outbreaks Are Temperature Sensitive</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vax-Before-Travel</font>"
+      },
+      "source": {
+        "href": "https://www.vax-before-travel.com",
+        "title": "Vax-Before-Travel"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "A single amino acid substitution in the capsid protein of Zika virus contributes to a neurovirulent phenotype - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "A single amino acid substitution in the capsid protein of Zika virus contributes to a neurovirulent phenotype - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE95VHpxXzBSME93dFV5QlFkd2VxeVpBbWlXMFo1NFQyMnlmRFdyS1l5TkZwNG84eWUza09XaHRCNnl2ZWlJbVV5cHhxVXJUTEtkajJVVThxeGpnSmplNWlr?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE95VHpxXzBSME93dFV5QlFkd2VxeVpBbWlXMFo1NFQyMnlmRFdyS1l5TkZwNG84eWUza09XaHRCNnl2ZWlJbVV5cHhxVXJUTEtkajJVVThxeGpnSmplNWlr?oc=5",
+      "id": "CBMiX0FVX3lxTE95VHpxXzBSME93dFV5QlFkd2VxeVpBbWlXMFo1NFQyMnlmRFdyS1l5TkZwNG84eWUza09XaHRCNnl2ZWlJbVV5cHhxVXJUTEtkajJVVThxeGpnSmplNWlr",
+      "guidislink": false,
+      "published": "Thu, 26 Oct 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        10,
+        26,
+        7,
+        0,
+        0,
+        3,
+        299,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE95VHpxXzBSME93dFV5QlFkd2VxeVpBbWlXMFo1NFQyMnlmRFdyS1l5TkZwNG84eWUza09XaHRCNnl2ZWlJbVV5cHhxVXJUTEtkajJVVThxeGpnSmplNWlr?oc=5\" target=\"_blank\">A single amino acid substitution in the capsid protein of Zika virus contributes to a neurovirulent phenotype</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE95VHpxXzBSME93dFV5QlFkd2VxeVpBbWlXMFo1NFQyMnlmRFdyS1l5TkZwNG84eWUza09XaHRCNnl2ZWlJbVV5cHhxVXJUTEtkajJVVThxeGpnSmplNWlr?oc=5\" target=\"_blank\">A single amino acid substitution in the capsid protein of Zika virus contributes to a neurovirulent phenotype</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Genetic diversity and phylogenetic analyses of Asian lineage Zika virus whole genome sequences derived from Culex quinquefasciatus mosquitoes and urine of patients during the 2020 epidemic in Thailand - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Genetic diversity and phylogenetic analyses of Asian lineage Zika virus whole genome sequences derived from Culex quinquefasciatus mosquitoes and urine of patients during the 2020 epidemic in Thailand - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9qQWtBOTFXS1lFV1J3X2V4ZkR6UExIeVEtdU1ick4zX0hCRDQ0LWxpX1oyWi1hYjIyVEMzY0tmaVpnbWhEODVqeFFGbmUyUmxCQU55dGtLWGQyZWlQNWdZ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9qQWtBOTFXS1lFV1J3X2V4ZkR6UExIeVEtdU1ick4zX0hCRDQ0LWxpX1oyWi1hYjIyVEMzY0tmaVpnbWhEODVqeFFGbmUyUmxCQU55dGtLWGQyZWlQNWdZ?oc=5",
+      "id": "CBMiX0FVX3lxTE9qQWtBOTFXS1lFV1J3X2V4ZkR6UExIeVEtdU1ick4zX0hCRDQ0LWxpX1oyWi1hYjIyVEMzY0tmaVpnbWhEODVqeFFGbmUyUmxCQU55dGtLWGQyZWlQNWdZ",
+      "guidislink": false,
+      "published": "Fri, 27 Oct 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        10,
+        27,
+        7,
+        0,
+        0,
+        4,
+        300,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9qQWtBOTFXS1lFV1J3X2V4ZkR6UExIeVEtdU1ick4zX0hCRDQ0LWxpX1oyWi1hYjIyVEMzY0tmaVpnbWhEODVqeFFGbmUyUmxCQU55dGtLWGQyZWlQNWdZ?oc=5\" target=\"_blank\">Genetic diversity and phylogenetic analyses of Asian lineage Zika virus whole genome sequences derived from Culex quinquefasciatus mosquitoes and urine of patients during the 2020 epidemic in Thailand</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9qQWtBOTFXS1lFV1J3X2V4ZkR6UExIeVEtdU1ick4zX0hCRDQ0LWxpX1oyWi1hYjIyVEMzY0tmaVpnbWhEODVqeFFGbmUyUmxCQU55dGtLWGQyZWlQNWdZ?oc=5\" target=\"_blank\">Genetic diversity and phylogenetic analyses of Asian lineage Zika virus whole genome sequences derived from Culex quinquefasciatus mosquitoes and urine of patients during the 2020 epidemic in Thailand</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Exploring the immunogenicity of an insect-specific virus vectored Zika vaccine candidate - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Exploring the immunogenicity of an insect-specific virus vectored Zika vaccine candidate - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5xaU9JaUFTbnNfTG9KMjhHcGhrdXJVR3JlblR5Y1FzOWJ4U1d2MVY4dmpkbE8wRFcza2FOYjlLcWg4S29MVUVUYlpSd1hwdk41MC1USjQ1NFlvM0hrdnRr?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5xaU9JaUFTbnNfTG9KMjhHcGhrdXJVR3JlblR5Y1FzOWJ4U1d2MVY4dmpkbE8wRFcza2FOYjlLcWg4S29MVUVUYlpSd1hwdk41MC1USjQ1NFlvM0hrdnRr?oc=5",
+      "id": "CBMiX0FVX3lxTE5xaU9JaUFTbnNfTG9KMjhHcGhrdXJVR3JlblR5Y1FzOWJ4U1d2MVY4dmpkbE8wRFcza2FOYjlLcWg4S29MVUVUYlpSd1hwdk41MC1USjQ1NFlvM0hrdnRr",
+      "guidislink": false,
+      "published": "Wed, 15 Nov 2023 08:00:00 GMT",
+      "published_parsed": [
+        2023,
+        11,
+        15,
+        8,
+        0,
+        0,
+        2,
+        319,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5xaU9JaUFTbnNfTG9KMjhHcGhrdXJVR3JlblR5Y1FzOWJ4U1d2MVY4dmpkbE8wRFcza2FOYjlLcWg4S29MVUVUYlpSd1hwdk41MC1USjQ1NFlvM0hrdnRr?oc=5\" target=\"_blank\">Exploring the immunogenicity of an insect-specific virus vectored Zika vaccine candidate</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5xaU9JaUFTbnNfTG9KMjhHcGhrdXJVR3JlblR5Y1FzOWJ4U1d2MVY4dmpkbE8wRFcza2FOYjlLcWg4S29MVUVUYlpSd1hwdk41MC1USjQ1NFlvM0hrdnRr?oc=5\" target=\"_blank\">Exploring the immunogenicity of an insect-specific virus vectored Zika vaccine candidate</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "​Zika virus infection in Kerala: Here's how to stay safe​ - The Times of India",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "​Zika virus infection in Kerala: Here's how to stay safe​ - The Times of India"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQNUtoRlZGWm9NcHV3dE1Ea2JTcHJXQjVrNG5CdmgxR203ZzFFWHNoQUFBajhORzZYdTBBdGwwcnpSdmd6cUxJaFV0bTJDZnRYQXo5eC1jTm5zNUMzNnNQWHpuaDdWTjF2bk9QLU1FS3A0QzRxaTdKX0NjcGg4bGJTQjRTRVdBc0xwRWh2VThSUXFmVnZ6RE9HcjJxczBsNHJQeEZqbHBCQ1c1WVMtbHpJNVppbGJCN0pWUW03MW44VzNNN3N4dEFNWmR0QUZIZU5QVm5QR1ZCVlJUdFN4N2tBV3hZbGNvOXfSAe8BQVVfeXFMT2xtWUZ2THVabUR3X01ZcVdYVnkwQVozeFpjaVE2NGJOVHNPYmxKQlM5TGtoRTZlZ2tVQjY4OEZKQXFMYk1JSm1jOU5TOVpUaTdURlktTmw4Z004NjZDNEdTbTFmMk9nUFMwNWUyV2h1S2kzb24zMEJJNTMtQTBDbFRpRWpkZ0FVQjFKNDRORF9kVWRhTTJ1aWcwcTR5TlNRTzVOYkxWdFNrNUlDa05SMEtEZzBpdVo2bTFNZ1ZkYnF6NW93TFg1cU8xWk9zbUM1R3dhSTJNUEc0TDRya1l2Y0dXaDNvUFdtM3JlZUNIT1U?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQNUtoRlZGWm9NcHV3dE1Ea2JTcHJXQjVrNG5CdmgxR203ZzFFWHNoQUFBajhORzZYdTBBdGwwcnpSdmd6cUxJaFV0bTJDZnRYQXo5eC1jTm5zNUMzNnNQWHpuaDdWTjF2bk9QLU1FS3A0QzRxaTdKX0NjcGg4bGJTQjRTRVdBc0xwRWh2VThSUXFmVnZ6RE9HcjJxczBsNHJQeEZqbHBCQ1c1WVMtbHpJNVppbGJCN0pWUW03MW44VzNNN3N4dEFNWmR0QUZIZU5QVm5QR1ZCVlJUdFN4N2tBV3hZbGNvOXfSAe8BQVVfeXFMT2xtWUZ2THVabUR3X01ZcVdYVnkwQVozeFpjaVE2NGJOVHNPYmxKQlM5TGtoRTZlZ2tVQjY4OEZKQXFMYk1JSm1jOU5TOVpUaTdURlktTmw4Z004NjZDNEdTbTFmMk9nUFMwNWUyV2h1S2kzb24zMEJJNTMtQTBDbFRpRWpkZ0FVQjFKNDRORF9kVWRhTTJ1aWcwcTR5TlNRTzVOYkxWdFNrNUlDa05SMEtEZzBpdVo2bTFNZ1ZkYnF6NW93TFg1cU8xWk9zbUM1R3dhSTJNUEc0TDRya1l2Y0dXaDNvUFdtM3JlZUNIT1U?oc=5",
+      "id": "CBMi5wFBVV95cUxQNUtoRlZGWm9NcHV3dE1Ea2JTcHJXQjVrNG5CdmgxR203ZzFFWHNoQUFBajhORzZYdTBBdGwwcnpSdmd6cUxJaFV0bTJDZnRYQXo5eC1jTm5zNUMzNnNQWHpuaDdWTjF2bk9QLU1FS3A0QzRxaTdKX0NjcGg4bGJTQjRTRVdBc0xwRWh2VThSUXFmVnZ6RE9HcjJxczBsNHJQeEZqbHBCQ1c1WVMtbHpJNVppbGJCN0pWUW03MW44VzNNN3N4dEFNWmR0QUZIZU5QVm5QR1ZCVlJUdFN4N2tBV3hZbGNvOXfSAe8BQVVfeXFMT2xtWUZ2THVabUR3X01ZcVdYVnkwQVozeFpjaVE2NGJOVHNPYmxKQlM5TGtoRTZlZ2tVQjY4OEZKQXFMYk1JSm1jOU5TOVpUaTdURlktTmw4Z004NjZDNEdTbTFmMk9nUFMwNWUyV2h1S2kzb24zMEJJNTMtQTBDbFRpRWpkZ0FVQjFKNDRORF9kVWRhTTJ1aWcwcTR5TlNRTzVOYkxWdFNrNUlDa05SMEtEZzBpdVo2bTFNZ1ZkYnF6NW93TFg1cU8xWk9zbUM1R3dhSTJNUEc0TDRya1l2Y0dXaDNvUFdtM3JlZUNIT1U",
+      "guidislink": false,
+      "published": "Wed, 08 Nov 2023 08:00:00 GMT",
+      "published_parsed": [
+        2023,
+        11,
+        8,
+        8,
+        0,
+        0,
+        2,
+        312,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi5wFBVV95cUxQNUtoRlZGWm9NcHV3dE1Ea2JTcHJXQjVrNG5CdmgxR203ZzFFWHNoQUFBajhORzZYdTBBdGwwcnpSdmd6cUxJaFV0bTJDZnRYQXo5eC1jTm5zNUMzNnNQWHpuaDdWTjF2bk9QLU1FS3A0QzRxaTdKX0NjcGg4bGJTQjRTRVdBc0xwRWh2VThSUXFmVnZ6RE9HcjJxczBsNHJQeEZqbHBCQ1c1WVMtbHpJNVppbGJCN0pWUW03MW44VzNNN3N4dEFNWmR0QUZIZU5QVm5QR1ZCVlJUdFN4N2tBV3hZbGNvOXfSAe8BQVVfeXFMT2xtWUZ2THVabUR3X01ZcVdYVnkwQVozeFpjaVE2NGJOVHNPYmxKQlM5TGtoRTZlZ2tVQjY4OEZKQXFMYk1JSm1jOU5TOVpUaTdURlktTmw4Z004NjZDNEdTbTFmMk9nUFMwNWUyV2h1S2kzb24zMEJJNTMtQTBDbFRpRWpkZ0FVQjFKNDRORF9kVWRhTTJ1aWcwcTR5TlNRTzVOYkxWdFNrNUlDa05SMEtEZzBpdVo2bTFNZ1ZkYnF6NW93TFg1cU8xWk9zbUM1R3dhSTJNUEc0TDRya1l2Y0dXaDNvUFdtM3JlZUNIT1U?oc=5\" target=\"_blank\">​Zika virus infection in Kerala: Here's how to stay safe​</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Times of India</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi5wFBVV95cUxQNUtoRlZGWm9NcHV3dE1Ea2JTcHJXQjVrNG5CdmgxR203ZzFFWHNoQUFBajhORzZYdTBBdGwwcnpSdmd6cUxJaFV0bTJDZnRYQXo5eC1jTm5zNUMzNnNQWHpuaDdWTjF2bk9QLU1FS3A0QzRxaTdKX0NjcGg4bGJTQjRTRVdBc0xwRWh2VThSUXFmVnZ6RE9HcjJxczBsNHJQeEZqbHBCQ1c1WVMtbHpJNVppbGJCN0pWUW03MW44VzNNN3N4dEFNWmR0QUZIZU5QVm5QR1ZCVlJUdFN4N2tBV3hZbGNvOXfSAe8BQVVfeXFMT2xtWUZ2THVabUR3X01ZcVdYVnkwQVozeFpjaVE2NGJOVHNPYmxKQlM5TGtoRTZlZ2tVQjY4OEZKQXFMYk1JSm1jOU5TOVpUaTdURlktTmw4Z004NjZDNEdTbTFmMk9nUFMwNWUyV2h1S2kzb24zMEJJNTMtQTBDbFRpRWpkZ0FVQjFKNDRORF9kVWRhTTJ1aWcwcTR5TlNRTzVOYkxWdFNrNUlDa05SMEtEZzBpdVo2bTFNZ1ZkYnF6NW93TFg1cU8xWk9zbUM1R3dhSTJNUEc0TDRya1l2Y0dXaDNvUFdtM3JlZUNIT1U?oc=5\" target=\"_blank\">​Zika virus infection in Kerala: Here's how to stay safe​</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Times of India</font>"
+      },
+      "source": {
+        "href": "https://timesofindia.indiatimes.com",
+        "title": "The Times of India"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Costa Rica Disease Outbreaks Slow Ahead of Winter Vacations - Vax-Before-Travel",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Costa Rica Disease Outbreaks Slow Ahead of Winter Vacations - Vax-Before-Travel"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNjRyaU9kaGg0YlZkc0Q1dGNjRDQ2eGY0ODlTOGxrTjlGckVTaXpzVFpvUVp3YnVvV3JQdHpWUnVEeUFNbGVXemtRT1c5Rl9OYUVxZUtGYnZjQXNKOXdOMGZtaU5KeFRLdFRQVEJlX2ZOVGJUbXB6aGRSLTJ6U0d5VkIxZVA1RFYwNFFfcWtiWk94N2M1QlNMcUFsekR0a3ZhaGhB?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNjRyaU9kaGg0YlZkc0Q1dGNjRDQ2eGY0ODlTOGxrTjlGckVTaXpzVFpvUVp3YnVvV3JQdHpWUnVEeUFNbGVXemtRT1c5Rl9OYUVxZUtGYnZjQXNKOXdOMGZtaU5KeFRLdFRQVEJlX2ZOVGJUbXB6aGRSLTJ6U0d5VkIxZVA1RFYwNFFfcWtiWk94N2M1QlNMcUFsekR0a3ZhaGhB?oc=5",
+      "id": "CBMiowFBVV95cUxQNjRyaU9kaGg0YlZkc0Q1dGNjRDQ2eGY0ODlTOGxrTjlGckVTaXpzVFpvUVp3YnVvV3JQdHpWUnVEeUFNbGVXemtRT1c5Rl9OYUVxZUtGYnZjQXNKOXdOMGZtaU5KeFRLdFRQVEJlX2ZOVGJUbXB6aGRSLTJ6U0d5VkIxZVA1RFYwNFFfcWtiWk94N2M1QlNMcUFsekR0a3ZhaGhB",
+      "guidislink": false,
+      "published": "Sun, 12 Nov 2023 08:00:00 GMT",
+      "published_parsed": [
+        2023,
+        11,
+        12,
+        8,
+        0,
+        0,
+        6,
+        316,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxQNjRyaU9kaGg0YlZkc0Q1dGNjRDQ2eGY0ODlTOGxrTjlGckVTaXpzVFpvUVp3YnVvV3JQdHpWUnVEeUFNbGVXemtRT1c5Rl9OYUVxZUtGYnZjQXNKOXdOMGZtaU5KeFRLdFRQVEJlX2ZOVGJUbXB6aGRSLTJ6U0d5VkIxZVA1RFYwNFFfcWtiWk94N2M1QlNMcUFsekR0a3ZhaGhB?oc=5\" target=\"_blank\">Costa Rica Disease Outbreaks Slow Ahead of Winter Vacations</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vax-Before-Travel</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxQNjRyaU9kaGg0YlZkc0Q1dGNjRDQ2eGY0ODlTOGxrTjlGckVTaXpzVFpvUVp3YnVvV3JQdHpWUnVEeUFNbGVXemtRT1c5Rl9OYUVxZUtGYnZjQXNKOXdOMGZtaU5KeFRLdFRQVEJlX2ZOVGJUbXB6aGRSLTJ6U0d5VkIxZVA1RFYwNFFfcWtiWk94N2M1QlNMcUFsekR0a3ZhaGhB?oc=5\" target=\"_blank\">Costa Rica Disease Outbreaks Slow Ahead of Winter Vacations</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vax-Before-Travel</font>"
+      },
+      "source": {
+        "href": "https://www.vax-before-travel.com",
+        "title": "Vax-Before-Travel"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika virus in Maharashtra: Know symptoms, complications, prevention tips | Health - Hindustan Times",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika virus in Maharashtra: Know symptoms, complications, prevention tips | Health - Hindustan Times"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNbkFpNHU0YVhSSVRFUzZoUEJwRnNVbTZsV05zREFRUVJfNG9WUFZ5X1kwQzZKdzFPM3VzREY0ZkZqYUVaZ2Znc2EwYjYtVEp1Q00tTmpGR212dGVNZ1A4TFktclM2TWVCdURuQ2NBdlFtbF9tSTU0UG5KZEVZN2RwSVBFd2w0Q2xaVEIzV1RkcUFJclRscVhxX1JZQlZqOUNDWVdkMVZDQnBhdU9uUWlVQm9DMWptb3JXbk14YWlyVzlXcVU1M3pGLUtOSjE5NXBZMGcwdG1KTWtNNGE5a2dKVDA0dHM1M1VRekJNWXJfRG5EZ0Rla19CM9IB_gFBVV95cUxPMUpYYVdheGRHcXRNbVlOQjJwc2tuRTlhMzU4U3ZoT2RsWkozaUJCUVJ0YWVLenh3Q0FVSmxaTDdLYWhTcllwY2ZXNVZrRHMteThZNU5EbkR3MTRaVWVwRUF1dGpudU1oQUo5ajZUdVpOTnJBcWNXdExmZW1rYnpqUElOSkZxbWFicGQxdkFnU0tRMF90VHZEeFVOMW5QZUgtTGlnV2VSZ3ZMSzgwRjBiQ25fczBNN0xZX0JjOTFyS1RmQml6RVBBemdQWHlGcnBqc2NNdkdMaEtqbkNDLW52S3lHR1BMTWpWRFBpRW0yMlJLTTNqTXF0ZTVMZUl3dw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNbkFpNHU0YVhSSVRFUzZoUEJwRnNVbTZsV05zREFRUVJfNG9WUFZ5X1kwQzZKdzFPM3VzREY0ZkZqYUVaZ2Znc2EwYjYtVEp1Q00tTmpGR212dGVNZ1A4TFktclM2TWVCdURuQ2NBdlFtbF9tSTU0UG5KZEVZN2RwSVBFd2w0Q2xaVEIzV1RkcUFJclRscVhxX1JZQlZqOUNDWVdkMVZDQnBhdU9uUWlVQm9DMWptb3JXbk14YWlyVzlXcVU1M3pGLUtOSjE5NXBZMGcwdG1KTWtNNGE5a2dKVDA0dHM1M1VRekJNWXJfRG5EZ0Rla19CM9IB_gFBVV95cUxPMUpYYVdheGRHcXRNbVlOQjJwc2tuRTlhMzU4U3ZoT2RsWkozaUJCUVJ0YWVLenh3Q0FVSmxaTDdLYWhTcllwY2ZXNVZrRHMteThZNU5EbkR3MTRaVWVwRUF1dGpudU1oQUo5ajZUdVpOTnJBcWNXdExmZW1rYnpqUElOSkZxbWFicGQxdkFnU0tRMF90VHZEeFVOMW5QZUgtTGlnV2VSZ3ZMSzgwRjBiQ25fczBNN0xZX0JjOTFyS1RmQml6RVBBemdQWHlGcnBqc2NNdkdMaEtqbkNDLW52S3lHR1BMTWpWRFBpRW0yMlJLTTNqTXF0ZTVMZUl3dw?oc=5",
+      "id": "CBMi-AFBVV95cUxNbkFpNHU0YVhSSVRFUzZoUEJwRnNVbTZsV05zREFRUVJfNG9WUFZ5X1kwQzZKdzFPM3VzREY0ZkZqYUVaZ2Znc2EwYjYtVEp1Q00tTmpGR212dGVNZ1A4TFktclM2TWVCdURuQ2NBdlFtbF9tSTU0UG5KZEVZN2RwSVBFd2w0Q2xaVEIzV1RkcUFJclRscVhxX1JZQlZqOUNDWVdkMVZDQnBhdU9uUWlVQm9DMWptb3JXbk14YWlyVzlXcVU1M3pGLUtOSjE5NXBZMGcwdG1KTWtNNGE5a2dKVDA0dHM1M1VRekJNWXJfRG5EZ0Rla19CM9IB_gFBVV95cUxPMUpYYVdheGRHcXRNbVlOQjJwc2tuRTlhMzU4U3ZoT2RsWkozaUJCUVJ0YWVLenh3Q0FVSmxaTDdLYWhTcllwY2ZXNVZrRHMteThZNU5EbkR3MTRaVWVwRUF1dGpudU1oQUo5ajZUdVpOTnJBcWNXdExmZW1rYnpqUElOSkZxbWFicGQxdkFnU0tRMF90VHZEeFVOMW5QZUgtTGlnV2VSZ3ZMSzgwRjBiQ25fczBNN0xZX0JjOTFyS1RmQml6RVBBemdQWHlGcnBqc2NNdkdMaEtqbkNDLW52S3lHR1BMTWpWRFBpRW0yMlJLTTNqTXF0ZTVMZUl3dw",
+      "guidislink": false,
+      "published": "Fri, 17 Nov 2023 08:00:00 GMT",
+      "published_parsed": [
+        2023,
+        11,
+        17,
+        8,
+        0,
+        0,
+        4,
+        321,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi-AFBVV95cUxNbkFpNHU0YVhSSVRFUzZoUEJwRnNVbTZsV05zREFRUVJfNG9WUFZ5X1kwQzZKdzFPM3VzREY0ZkZqYUVaZ2Znc2EwYjYtVEp1Q00tTmpGR212dGVNZ1A4TFktclM2TWVCdURuQ2NBdlFtbF9tSTU0UG5KZEVZN2RwSVBFd2w0Q2xaVEIzV1RkcUFJclRscVhxX1JZQlZqOUNDWVdkMVZDQnBhdU9uUWlVQm9DMWptb3JXbk14YWlyVzlXcVU1M3pGLUtOSjE5NXBZMGcwdG1KTWtNNGE5a2dKVDA0dHM1M1VRekJNWXJfRG5EZ0Rla19CM9IB_gFBVV95cUxPMUpYYVdheGRHcXRNbVlOQjJwc2tuRTlhMzU4U3ZoT2RsWkozaUJCUVJ0YWVLenh3Q0FVSmxaTDdLYWhTcllwY2ZXNVZrRHMteThZNU5EbkR3MTRaVWVwRUF1dGpudU1oQUo5ajZUdVpOTnJBcWNXdExmZW1rYnpqUElOSkZxbWFicGQxdkFnU0tRMF90VHZEeFVOMW5QZUgtTGlnV2VSZ3ZMSzgwRjBiQ25fczBNN0xZX0JjOTFyS1RmQml6RVBBemdQWHlGcnBqc2NNdkdMaEtqbkNDLW52S3lHR1BMTWpWRFBpRW0yMlJLTTNqTXF0ZTVMZUl3dw?oc=5\" target=\"_blank\">Zika virus in Maharashtra: Know symptoms, complications, prevention tips | Health</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Hindustan Times</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi-AFBVV95cUxNbkFpNHU0YVhSSVRFUzZoUEJwRnNVbTZsV05zREFRUVJfNG9WUFZ5X1kwQzZKdzFPM3VzREY0ZkZqYUVaZ2Znc2EwYjYtVEp1Q00tTmpGR212dGVNZ1A4TFktclM2TWVCdURuQ2NBdlFtbF9tSTU0UG5KZEVZN2RwSVBFd2w0Q2xaVEIzV1RkcUFJclRscVhxX1JZQlZqOUNDWVdkMVZDQnBhdU9uUWlVQm9DMWptb3JXbk14YWlyVzlXcVU1M3pGLUtOSjE5NXBZMGcwdG1KTWtNNGE5a2dKVDA0dHM1M1VRekJNWXJfRG5EZ0Rla19CM9IB_gFBVV95cUxPMUpYYVdheGRHcXRNbVlOQjJwc2tuRTlhMzU4U3ZoT2RsWkozaUJCUVJ0YWVLenh3Q0FVSmxaTDdLYWhTcllwY2ZXNVZrRHMteThZNU5EbkR3MTRaVWVwRUF1dGpudU1oQUo5ajZUdVpOTnJBcWNXdExmZW1rYnpqUElOSkZxbWFicGQxdkFnU0tRMF90VHZEeFVOMW5QZUgtTGlnV2VSZ3ZMSzgwRjBiQ25fczBNN0xZX0JjOTFyS1RmQml6RVBBemdQWHlGcnBqc2NNdkdMaEtqbkNDLW52S3lHR1BMTWpWRFBpRW0yMlJLTTNqTXF0ZTVMZUl3dw?oc=5\" target=\"_blank\">Zika virus in Maharashtra: Know symptoms, complications, prevention tips | Health</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Hindustan Times</font>"
+      },
+      "source": {
+        "href": "https://www.hindustantimes.com",
+        "title": "Hindustan Times"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika Virus – Everything One Should Know About - Modern Ghana",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika Virus – Everything One Should Know About - Modern Ghana"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPaVpJMWpONG8xZm9sY1VVRFF1Xzd6MllXbjhIOW9SSTczTTFUaHZDSWxnVVdSYmJzQjFYUVIzXzRYWGFFNXZITjJzdFlWYTZYb2t0Q210emp1aDVLV1lGa29LYklMZ09yeXdFMHdlOE9fUXJpY2xCY2ZLMWx1b1lpaFoxaXQ5LXdNa3Mwaks1SHY3UG1sUlpr0gGWAUFVX3lxTE82eGxOYzVibjZYeFlrT1lldFU3MWZjVm44dXJzUWFxeFBOcmx5YmN5bkRzTmt3dy04azJhVzBjN1FoOEhOTW5Remp6R005ZkF1a3pMU0RhaVNHVnZXMUMtNXhiaGdmTnNkZjNzNGNvTHVvZXFWTEQ4Rmo0dmhPTXdUMEtrU0kwQUY2UHprd3BXTlVweE9Ddw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPaVpJMWpONG8xZm9sY1VVRFF1Xzd6MllXbjhIOW9SSTczTTFUaHZDSWxnVVdSYmJzQjFYUVIzXzRYWGFFNXZITjJzdFlWYTZYb2t0Q210emp1aDVLV1lGa29LYklMZ09yeXdFMHdlOE9fUXJpY2xCY2ZLMWx1b1lpaFoxaXQ5LXdNa3Mwaks1SHY3UG1sUlpr0gGWAUFVX3lxTE82eGxOYzVibjZYeFlrT1lldFU3MWZjVm44dXJzUWFxeFBOcmx5YmN5bkRzTmt3dy04azJhVzBjN1FoOEhOTW5Remp6R005ZkF1a3pMU0RhaVNHVnZXMUMtNXhiaGdmTnNkZjNzNGNvTHVvZXFWTEQ4Rmo0dmhPTXdUMEtrU0kwQUY2UHprd3BXTlVweE9Ddw?oc=5",
+      "id": "CBMilwFBVV95cUxPaVpJMWpONG8xZm9sY1VVRFF1Xzd6MllXbjhIOW9SSTczTTFUaHZDSWxnVVdSYmJzQjFYUVIzXzRYWGFFNXZITjJzdFlWYTZYb2t0Q210emp1aDVLV1lGa29LYklMZ09yeXdFMHdlOE9fUXJpY2xCY2ZLMWx1b1lpaFoxaXQ5LXdNa3Mwaks1SHY3UG1sUlpr0gGWAUFVX3lxTE82eGxOYzVibjZYeFlrT1lldFU3MWZjVm44dXJzUWFxeFBOcmx5YmN5bkRzTmt3dy04azJhVzBjN1FoOEhOTW5Remp6R005ZkF1a3pMU0RhaVNHVnZXMUMtNXhiaGdmTnNkZjNzNGNvTHVvZXFWTEQ4Rmo0dmhPTXdUMEtrU0kwQUY2UHprd3BXTlVweE9Ddw",
+      "guidislink": false,
+      "published": "Sat, 04 Nov 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        11,
+        4,
+        7,
+        0,
+        0,
+        5,
+        308,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxPaVpJMWpONG8xZm9sY1VVRFF1Xzd6MllXbjhIOW9SSTczTTFUaHZDSWxnVVdSYmJzQjFYUVIzXzRYWGFFNXZITjJzdFlWYTZYb2t0Q210emp1aDVLV1lGa29LYklMZ09yeXdFMHdlOE9fUXJpY2xCY2ZLMWx1b1lpaFoxaXQ5LXdNa3Mwaks1SHY3UG1sUlpr0gGWAUFVX3lxTE82eGxOYzVibjZYeFlrT1lldFU3MWZjVm44dXJzUWFxeFBOcmx5YmN5bkRzTmt3dy04azJhVzBjN1FoOEhOTW5Remp6R005ZkF1a3pMU0RhaVNHVnZXMUMtNXhiaGdmTnNkZjNzNGNvTHVvZXFWTEQ4Rmo0dmhPTXdUMEtrU0kwQUY2UHprd3BXTlVweE9Ddw?oc=5\" target=\"_blank\">Zika Virus – Everything One Should Know About</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Modern Ghana</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxPaVpJMWpONG8xZm9sY1VVRFF1Xzd6MllXbjhIOW9SSTczTTFUaHZDSWxnVVdSYmJzQjFYUVIzXzRYWGFFNXZITjJzdFlWYTZYb2t0Q210emp1aDVLV1lGa29LYklMZ09yeXdFMHdlOE9fUXJpY2xCY2ZLMWx1b1lpaFoxaXQ5LXdNa3Mwaks1SHY3UG1sUlpr0gGWAUFVX3lxTE82eGxOYzVibjZYeFlrT1lldFU3MWZjVm44dXJzUWFxeFBOcmx5YmN5bkRzTmt3dy04azJhVzBjN1FoOEhOTW5Remp6R005ZkF1a3pMU0RhaVNHVnZXMUMtNXhiaGdmTnNkZjNzNGNvTHVvZXFWTEQ4Rmo0dmhPTXdUMEtrU0kwQUY2UHprd3BXTlVweE9Ddw?oc=5\" target=\"_blank\">Zika Virus – Everything One Should Know About</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Modern Ghana</font>"
+      },
+      "source": {
+        "href": "https://www.modernghana.com",
+        "title": "Modern Ghana"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Health workers, public asked to be on alert against Zika virus - The Hindu",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Health workers, public asked to be on alert against Zika virus - The Hindu"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaEVmSFJBQnhQc0FjeEl3MnNRTGQtb0RDUmhFbzhpeW0zOV9uLW1IQjJ6alFobFJKcDVUSVppMjNaMVlqblpwOUNMek40QV9FX1lySEEwcDNzTkJpTTRLcE9fVHgweGpLLTZBWlhxRmFIc0R0cDNKV1pZOVVvRGF3LVRmczRTVnhRSkNxLXVOZ1Y1dGh3Q2dlOFZqOTkzZ01SMkxIa3g1bnVQdm51ZXhReWVtSloxV29PQlFWRjNEcnNrZ2t3WnVlR9IBzwFBVV95cUxOdUtsYzJDblZqQnpwUzRQM1BQcHZocG5FT1RoWlRCaU45OFR3YUlBczV1cmYtQWZYOTdnT2NMVjVoV1JjMHBRV3hSSG1lNnhPOVVIS2p6VkxiZWJjRXdvQUVxTDF0T2V2bWhBUi02OExma2Foalh3eGxlcVlfOFE0RmNfRFl1cWdjMENOdmFnT2Z5eGRXTVpYVFEyWi1xbFMwYWpiUThJSk5WejlBeklPRmhzaG9jVHgxNjBnRk9hdTZkWVVuV0xUTEk1Wll0LUU?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaEVmSFJBQnhQc0FjeEl3MnNRTGQtb0RDUmhFbzhpeW0zOV9uLW1IQjJ6alFobFJKcDVUSVppMjNaMVlqblpwOUNMek40QV9FX1lySEEwcDNzTkJpTTRLcE9fVHgweGpLLTZBWlhxRmFIc0R0cDNKV1pZOVVvRGF3LVRmczRTVnhRSkNxLXVOZ1Y1dGh3Q2dlOFZqOTkzZ01SMkxIa3g1bnVQdm51ZXhReWVtSloxV29PQlFWRjNEcnNrZ2t3WnVlR9IBzwFBVV95cUxOdUtsYzJDblZqQnpwUzRQM1BQcHZocG5FT1RoWlRCaU45OFR3YUlBczV1cmYtQWZYOTdnT2NMVjVoV1JjMHBRV3hSSG1lNnhPOVVIS2p6VkxiZWJjRXdvQUVxTDF0T2V2bWhBUi02OExma2Foalh3eGxlcVlfOFE0RmNfRFl1cWdjMENOdmFnT2Z5eGRXTVpYVFEyWi1xbFMwYWpiUThJSk5WejlBeklPRmhzaG9jVHgxNjBnRk9hdTZkWVVuV0xUTEk1Wll0LUU?oc=5",
+      "id": "CBMiyAFBVV95cUxNaEVmSFJBQnhQc0FjeEl3MnNRTGQtb0RDUmhFbzhpeW0zOV9uLW1IQjJ6alFobFJKcDVUSVppMjNaMVlqblpwOUNMek40QV9FX1lySEEwcDNzTkJpTTRLcE9fVHgweGpLLTZBWlhxRmFIc0R0cDNKV1pZOVVvRGF3LVRmczRTVnhRSkNxLXVOZ1Y1dGh3Q2dlOFZqOTkzZ01SMkxIa3g1bnVQdm51ZXhReWVtSloxV29PQlFWRjNEcnNrZ2t3WnVlR9IBzwFBVV95cUxOdUtsYzJDblZqQnpwUzRQM1BQcHZocG5FT1RoWlRCaU45OFR3YUlBczV1cmYtQWZYOTdnT2NMVjVoV1JjMHBRV3hSSG1lNnhPOVVIS2p6VkxiZWJjRXdvQUVxTDF0T2V2bWhBUi02OExma2Foalh3eGxlcVlfOFE0RmNfRFl1cWdjMENOdmFnT2Z5eGRXTVpYVFEyWi1xbFMwYWpiUThJSk5WejlBeklPRmhzaG9jVHgxNjBnRk9hdTZkWVVuV0xUTEk1Wll0LUU",
+      "guidislink": false,
+      "published": "Mon, 06 Nov 2023 08:00:00 GMT",
+      "published_parsed": [
+        2023,
+        11,
+        6,
+        8,
+        0,
+        0,
+        0,
+        310,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaEVmSFJBQnhQc0FjeEl3MnNRTGQtb0RDUmhFbzhpeW0zOV9uLW1IQjJ6alFobFJKcDVUSVppMjNaMVlqblpwOUNMek40QV9FX1lySEEwcDNzTkJpTTRLcE9fVHgweGpLLTZBWlhxRmFIc0R0cDNKV1pZOVVvRGF3LVRmczRTVnhRSkNxLXVOZ1Y1dGh3Q2dlOFZqOTkzZ01SMkxIa3g1bnVQdm51ZXhReWVtSloxV29PQlFWRjNEcnNrZ2t3WnVlR9IBzwFBVV95cUxOdUtsYzJDblZqQnpwUzRQM1BQcHZocG5FT1RoWlRCaU45OFR3YUlBczV1cmYtQWZYOTdnT2NMVjVoV1JjMHBRV3hSSG1lNnhPOVVIS2p6VkxiZWJjRXdvQUVxTDF0T2V2bWhBUi02OExma2Foalh3eGxlcVlfOFE0RmNfRFl1cWdjMENOdmFnT2Z5eGRXTVpYVFEyWi1xbFMwYWpiUThJSk5WejlBeklPRmhzaG9jVHgxNjBnRk9hdTZkWVVuV0xUTEk1Wll0LUU?oc=5\" target=\"_blank\">Health workers, public asked to be on alert against Zika virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Hindu</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaEVmSFJBQnhQc0FjeEl3MnNRTGQtb0RDUmhFbzhpeW0zOV9uLW1IQjJ6alFobFJKcDVUSVppMjNaMVlqblpwOUNMek40QV9FX1lySEEwcDNzTkJpTTRLcE9fVHgweGpLLTZBWlhxRmFIc0R0cDNKV1pZOVVvRGF3LVRmczRTVnhRSkNxLXVOZ1Y1dGh3Q2dlOFZqOTkzZ01SMkxIa3g1bnVQdm51ZXhReWVtSloxV29PQlFWRjNEcnNrZ2t3WnVlR9IBzwFBVV95cUxOdUtsYzJDblZqQnpwUzRQM1BQcHZocG5FT1RoWlRCaU45OFR3YUlBczV1cmYtQWZYOTdnT2NMVjVoV1JjMHBRV3hSSG1lNnhPOVVIS2p6VkxiZWJjRXdvQUVxTDF0T2V2bWhBUi02OExma2Foalh3eGxlcVlfOFE0RmNfRFl1cWdjMENOdmFnT2Z5eGRXTVpYVFEyWi1xbFMwYWpiUThJSk5WejlBeklPRmhzaG9jVHgxNjBnRk9hdTZkWVVuV0xUTEk1Wll0LUU?oc=5\" target=\"_blank\">Health workers, public asked to be on alert against Zika virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Hindu</font>"
+      },
+      "source": {
+        "href": "https://www.thehindu.com",
+        "title": "The Hindu"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Prevention Strategies Against Dengue, Chikungunya and Zika - InfoBonaire",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Prevention Strategies Against Dengue, Chikungunya and Zika - InfoBonaire"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRW5OZE9aX01qcW5oQW50Yy1vdmkzVWxYRzZHdEhva3RTZy1TTlo5dnZYY3AwWi11NkFLNmRfYVYteWdOQmxFTWNzNUtCVjdXdTF3UWZ5R2FqUndOcjNYNEwycno5VFlQRHlWbUp6eGFJUVlEbm1zOURHa21uekZKWGN6Y2FiMlZnWWc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRW5OZE9aX01qcW5oQW50Yy1vdmkzVWxYRzZHdEhva3RTZy1TTlo5dnZYY3AwWi11NkFLNmRfYVYteWdOQmxFTWNzNUtCVjdXdTF3UWZ5R2FqUndOcjNYNEwycno5VFlQRHlWbUp6eGFJUVlEbm1zOURHa21uekZKWGN6Y2FiMlZnWWc?oc=5",
+      "id": "CBMiigFBVV95cUxPRW5OZE9aX01qcW5oQW50Yy1vdmkzVWxYRzZHdEhva3RTZy1TTlo5dnZYY3AwWi11NkFLNmRfYVYteWdOQmxFTWNzNUtCVjdXdTF3UWZ5R2FqUndOcjNYNEwycno5VFlQRHlWbUp6eGFJUVlEbm1zOURHa21uekZKWGN6Y2FiMlZnWWc",
+      "guidislink": false,
+      "published": "Sun, 19 Nov 2023 08:00:00 GMT",
+      "published_parsed": [
+        2023,
+        11,
+        19,
+        8,
+        0,
+        0,
+        6,
+        323,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxPRW5OZE9aX01qcW5oQW50Yy1vdmkzVWxYRzZHdEhva3RTZy1TTlo5dnZYY3AwWi11NkFLNmRfYVYteWdOQmxFTWNzNUtCVjdXdTF3UWZ5R2FqUndOcjNYNEwycno5VFlQRHlWbUp6eGFJUVlEbm1zOURHa21uekZKWGN6Y2FiMlZnWWc?oc=5\" target=\"_blank\">Prevention Strategies Against Dengue, Chikungunya and Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">InfoBonaire</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxPRW5OZE9aX01qcW5oQW50Yy1vdmkzVWxYRzZHdEhva3RTZy1TTlo5dnZYY3AwWi11NkFLNmRfYVYteWdOQmxFTWNzNUtCVjdXdTF3UWZ5R2FqUndOcjNYNEwycno5VFlQRHlWbUp6eGFJUVlEbm1zOURHa21uekZKWGN6Y2FiMlZnWWc?oc=5\" target=\"_blank\">Prevention Strategies Against Dengue, Chikungunya and Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">InfoBonaire</font>"
+      },
+      "source": {
+        "href": "https://infobonaire.com",
+        "title": "InfoBonaire"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Karnataka health dept issues advisory after detection of Zika virus in mosquito pool in Chikkaballapura - The Indian Express",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Karnataka health dept issues advisory after detection of Zika virus in mosquito pool in Chikkaballapura - The Indian Express"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNY2xIRjVoZGdlME10cnBZa2liRU1jbTRMbXNFUjJpeFdqX0dEaW5CaU1mMlRhbExrUGw0R2hoQlB6NHhYT2hlODFhTGN1eGFQaHdiUlJZZTA3SVZLNGROcWsyS3FQaWpwMWdoaVQxZFJTaUJmNktUQ0RHaFJOWkdRQjJvN3pqQ2R6Y3dxay1sOXh5QzZObDZNRVNyTm95UU91YmJvUEJyS25NLU1PVVJtRlhPeTBuZW44bmRxdDdVYVhfQlpOWmtZVzV3a9IB0gFBVV95cUxNek15SnU1UDhMLXo4VzV0T2tWd0hJcE5PSVFhbjY3NkZvRHc5dzhxc05Jc3haemR1WE0tNmVRTTJVa2JSNWRfcVZtM19aY2E2ZkY3cUh4RUdja21DaUFHazZZMFRSWGd6ZWZmRmxZeFVpTTl2TlFURzhINmFGVjU2OHJ0YlAzLWN4bl9QeW1RaXA5Rl9qVnNDU3hEMjJNclJoVUY4YmdCcmtreE5NRGVfT0EyZElaRjZkandnWTdhNmkwU09HWFhBbUhjbm1ITzFwWmc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNY2xIRjVoZGdlME10cnBZa2liRU1jbTRMbXNFUjJpeFdqX0dEaW5CaU1mMlRhbExrUGw0R2hoQlB6NHhYT2hlODFhTGN1eGFQaHdiUlJZZTA3SVZLNGROcWsyS3FQaWpwMWdoaVQxZFJTaUJmNktUQ0RHaFJOWkdRQjJvN3pqQ2R6Y3dxay1sOXh5QzZObDZNRVNyTm95UU91YmJvUEJyS25NLU1PVVJtRlhPeTBuZW44bmRxdDdVYVhfQlpOWmtZVzV3a9IB0gFBVV95cUxNek15SnU1UDhMLXo4VzV0T2tWd0hJcE5PSVFhbjY3NkZvRHc5dzhxc05Jc3haemR1WE0tNmVRTTJVa2JSNWRfcVZtM19aY2E2ZkY3cUh4RUdja21DaUFHazZZMFRSWGd6ZWZmRmxZeFVpTTl2TlFURzhINmFGVjU2OHJ0YlAzLWN4bl9QeW1RaXA5Rl9qVnNDU3hEMjJNclJoVUY4YmdCcmtreE5NRGVfT0EyZElaRjZkandnWTdhNmkwU09HWFhBbUhjbm1ITzFwWmc?oc=5",
+      "id": "CBMiywFBVV95cUxNY2xIRjVoZGdlME10cnBZa2liRU1jbTRMbXNFUjJpeFdqX0dEaW5CaU1mMlRhbExrUGw0R2hoQlB6NHhYT2hlODFhTGN1eGFQaHdiUlJZZTA3SVZLNGROcWsyS3FQaWpwMWdoaVQxZFJTaUJmNktUQ0RHaFJOWkdRQjJvN3pqQ2R6Y3dxay1sOXh5QzZObDZNRVNyTm95UU91YmJvUEJyS25NLU1PVVJtRlhPeTBuZW44bmRxdDdVYVhfQlpOWmtZVzV3a9IB0gFBVV95cUxNek15SnU1UDhMLXo4VzV0T2tWd0hJcE5PSVFhbjY3NkZvRHc5dzhxc05Jc3haemR1WE0tNmVRTTJVa2JSNWRfcVZtM19aY2E2ZkY3cUh4RUdja21DaUFHazZZMFRSWGd6ZWZmRmxZeFVpTTl2TlFURzhINmFGVjU2OHJ0YlAzLWN4bl9QeW1RaXA5Rl9qVnNDU3hEMjJNclJoVUY4YmdCcmtreE5NRGVfT0EyZElaRjZkandnWTdhNmkwU09HWFhBbUhjbm1ITzFwWmc",
+      "guidislink": false,
+      "published": "Thu, 02 Nov 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        11,
+        2,
+        7,
+        0,
+        0,
+        3,
+        306,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxNY2xIRjVoZGdlME10cnBZa2liRU1jbTRMbXNFUjJpeFdqX0dEaW5CaU1mMlRhbExrUGw0R2hoQlB6NHhYT2hlODFhTGN1eGFQaHdiUlJZZTA3SVZLNGROcWsyS3FQaWpwMWdoaVQxZFJTaUJmNktUQ0RHaFJOWkdRQjJvN3pqQ2R6Y3dxay1sOXh5QzZObDZNRVNyTm95UU91YmJvUEJyS25NLU1PVVJtRlhPeTBuZW44bmRxdDdVYVhfQlpOWmtZVzV3a9IB0gFBVV95cUxNek15SnU1UDhMLXo4VzV0T2tWd0hJcE5PSVFhbjY3NkZvRHc5dzhxc05Jc3haemR1WE0tNmVRTTJVa2JSNWRfcVZtM19aY2E2ZkY3cUh4RUdja21DaUFHazZZMFRSWGd6ZWZmRmxZeFVpTTl2TlFURzhINmFGVjU2OHJ0YlAzLWN4bl9QeW1RaXA5Rl9qVnNDU3hEMjJNclJoVUY4YmdCcmtreE5NRGVfT0EyZElaRjZkandnWTdhNmkwU09HWFhBbUhjbm1ITzFwWmc?oc=5\" target=\"_blank\">Karnataka health dept issues advisory after detection of Zika virus in mosquito pool in Chikkaballapura</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Indian Express</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxNY2xIRjVoZGdlME10cnBZa2liRU1jbTRMbXNFUjJpeFdqX0dEaW5CaU1mMlRhbExrUGw0R2hoQlB6NHhYT2hlODFhTGN1eGFQaHdiUlJZZTA3SVZLNGROcWsyS3FQaWpwMWdoaVQxZFJTaUJmNktUQ0RHaFJOWkdRQjJvN3pqQ2R6Y3dxay1sOXh5QzZObDZNRVNyTm95UU91YmJvUEJyS25NLU1PVVJtRlhPeTBuZW44bmRxdDdVYVhfQlpOWmtZVzV3a9IB0gFBVV95cUxNek15SnU1UDhMLXo4VzV0T2tWd0hJcE5PSVFhbjY3NkZvRHc5dzhxc05Jc3haemR1WE0tNmVRTTJVa2JSNWRfcVZtM19aY2E2ZkY3cUh4RUdja21DaUFHazZZMFRSWGd6ZWZmRmxZeFVpTTl2TlFURzhINmFGVjU2OHJ0YlAzLWN4bl9QeW1RaXA5Rl9qVnNDU3hEMjJNclJoVUY4YmdCcmtreE5NRGVfT0EyZElaRjZkandnWTdhNmkwU09HWFhBbUhjbm1ITzFwWmc?oc=5\" target=\"_blank\">Karnataka health dept issues advisory after detection of Zika virus in mosquito pool in Chikkaballapura</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Indian Express</font>"
+      },
+      "source": {
+        "href": "https://indianexpress.com",
+        "title": "The Indian Express"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika virus detected in Chikkaballapura: Don't panic, says Karnataka govt - The Federal",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika virus detected in Chikkaballapura: Don't panic, says Karnataka govt - The Federal"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPUWNEVVRMMm1HMmJxVkEzNUMzRms2Q2Q2d3QxTGNWNHdVTWgtSHFoOHpiVFFxZ1h0aXNsMnJRNndFSW1vTjQzaHlVLUdjdXZROHcwTkhxWFpjcEppaVZEamRoUGlFM1RJaTc2LUhDRXo1UVhHNmJUSTMya1dsVGtKQ0NreUFyVHJGSWJWeGswUEsyM2hkeVRpREFBSUVCVzlERm1iYnlROUZsMURSa2lwYi11SnFGZ01mS3pPcGhXNVZJYU0ybmNkNTdVY2NjM1RjR0gtRQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPUWNEVVRMMm1HMmJxVkEzNUMzRms2Q2Q2d3QxTGNWNHdVTWgtSHFoOHpiVFFxZ1h0aXNsMnJRNndFSW1vTjQzaHlVLUdjdXZROHcwTkhxWFpjcEppaVZEamRoUGlFM1RJaTc2LUhDRXo1UVhHNmJUSTMya1dsVGtKQ0NreUFyVHJGSWJWeGswUEsyM2hkeVRpREFBSUVCVzlERm1iYnlROUZsMURSa2lwYi11SnFGZ01mS3pPcGhXNVZJYU0ybmNkNTdVY2NjM1RjR0gtRQ?oc=5",
+      "id": "CBMi1AFBVV95cUxPUWNEVVRMMm1HMmJxVkEzNUMzRms2Q2Q2d3QxTGNWNHdVTWgtSHFoOHpiVFFxZ1h0aXNsMnJRNndFSW1vTjQzaHlVLUdjdXZROHcwTkhxWFpjcEppaVZEamRoUGlFM1RJaTc2LUhDRXo1UVhHNmJUSTMya1dsVGtKQ0NreUFyVHJGSWJWeGswUEsyM2hkeVRpREFBSUVCVzlERm1iYnlROUZsMURSa2lwYi11SnFGZ01mS3pPcGhXNVZJYU0ybmNkNTdVY2NjM1RjR0gtRQ",
+      "guidislink": false,
+      "published": "Thu, 02 Nov 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        11,
+        2,
+        7,
+        0,
+        0,
+        3,
+        306,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxPUWNEVVRMMm1HMmJxVkEzNUMzRms2Q2Q2d3QxTGNWNHdVTWgtSHFoOHpiVFFxZ1h0aXNsMnJRNndFSW1vTjQzaHlVLUdjdXZROHcwTkhxWFpjcEppaVZEamRoUGlFM1RJaTc2LUhDRXo1UVhHNmJUSTMya1dsVGtKQ0NreUFyVHJGSWJWeGswUEsyM2hkeVRpREFBSUVCVzlERm1iYnlROUZsMURSa2lwYi11SnFGZ01mS3pPcGhXNVZJYU0ybmNkNTdVY2NjM1RjR0gtRQ?oc=5\" target=\"_blank\">Zika virus detected in Chikkaballapura: Don't panic, says Karnataka govt</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Federal</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxPUWNEVVRMMm1HMmJxVkEzNUMzRms2Q2Q2d3QxTGNWNHdVTWgtSHFoOHpiVFFxZ1h0aXNsMnJRNndFSW1vTjQzaHlVLUdjdXZROHcwTkhxWFpjcEppaVZEamRoUGlFM1RJaTc2LUhDRXo1UVhHNmJUSTMya1dsVGtKQ0NreUFyVHJGSWJWeGswUEsyM2hkeVRpREFBSUVCVzlERm1iYnlROUZsMURSa2lwYi11SnFGZ01mS3pPcGhXNVZJYU0ybmNkNTdVY2NjM1RjR0gtRQ?oc=5\" target=\"_blank\">Zika virus detected in Chikkaballapura: Don't panic, says Karnataka govt</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Federal</font>"
+      },
+      "source": {
+        "href": "https://thefederal.com",
+        "title": "The Federal"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Scientists infect volunteers with Zika in hunt for vaccines, treatments - The Fiji Times",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Scientists infect volunteers with Zika in hunt for vaccines, treatments - The Fiji Times"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYlJDUzBJMnBqY2FmdkhBM00tVF9uOEExckZCZ01kT3I3ak9KaDlDbTc2cE9MNGo5d19mS2pEUHljZEZLNkdHSmdONk04djFYSFRtTnlZaGtNMW5IT1dMS2NEdUlDdnlFMkYyTl9vZDZsVjNYck13Q053WmJjX0JKTlo5TGlySTAwdHYtSFZQcHJqQUN0MnBobzBHQU9kaFJkTXc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYlJDUzBJMnBqY2FmdkhBM00tVF9uOEExckZCZ01kT3I3ak9KaDlDbTc2cE9MNGo5d19mS2pEUHljZEZLNkdHSmdONk04djFYSFRtTnlZaGtNMW5IT1dMS2NEdUlDdnlFMkYyTl9vZDZsVjNYck13Q053WmJjX0JKTlo5TGlySTAwdHYtSFZQcHJqQUN0MnBobzBHQU9kaFJkTXc?oc=5",
+      "id": "CBMiogFBVV95cUxPYlJDUzBJMnBqY2FmdkhBM00tVF9uOEExckZCZ01kT3I3ak9KaDlDbTc2cE9MNGo5d19mS2pEUHljZEZLNkdHSmdONk04djFYSFRtTnlZaGtNMW5IT1dMS2NEdUlDdnlFMkYyTl9vZDZsVjNYck13Q053WmJjX0JKTlo5TGlySTAwdHYtSFZQcHJqQUN0MnBobzBHQU9kaFJkTXc",
+      "guidislink": false,
+      "published": "Mon, 23 Oct 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        10,
+        23,
+        7,
+        0,
+        0,
+        0,
+        296,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxPYlJDUzBJMnBqY2FmdkhBM00tVF9uOEExckZCZ01kT3I3ak9KaDlDbTc2cE9MNGo5d19mS2pEUHljZEZLNkdHSmdONk04djFYSFRtTnlZaGtNMW5IT1dMS2NEdUlDdnlFMkYyTl9vZDZsVjNYck13Q053WmJjX0JKTlo5TGlySTAwdHYtSFZQcHJqQUN0MnBobzBHQU9kaFJkTXc?oc=5\" target=\"_blank\">Scientists infect volunteers with Zika in hunt for vaccines, treatments</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Fiji Times</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxPYlJDUzBJMnBqY2FmdkhBM00tVF9uOEExckZCZ01kT3I3ak9KaDlDbTc2cE9MNGo5d19mS2pEUHljZEZLNkdHSmdONk04djFYSFRtTnlZaGtNMW5IT1dMS2NEdUlDdnlFMkYyTl9vZDZsVjNYck13Q053WmJjX0JKTlo5TGlySTAwdHYtSFZQcHJqQUN0MnBobzBHQU9kaFJkTXc?oc=5\" target=\"_blank\">Scientists infect volunteers with Zika in hunt for vaccines, treatments</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Fiji Times</font>"
+      },
+      "source": {
+        "href": "https://www.fijitimes.com.fj",
+        "title": "The Fiji Times"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika Virus Alert in Karnataka, Symptoms and Treatment - StudyIQ",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika Virus Alert in Karnataka, Symptoms and Treatment - StudyIQ"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1HN2ZMak5lSEIzbkhQc0psZ2N0cmNrbDZybXpDX0dHZmJ6Uk9Sd3lhcVFCUXR0MnlGQmp6N3BnRnd3U3B5OTJwQk5fNm9UNGh1d2xXbEFEWQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1HN2ZMak5lSEIzbkhQc0psZ2N0cmNrbDZybXpDX0dHZmJ6Uk9Sd3lhcVFCUXR0MnlGQmp6N3BnRnd3U3B5OTJwQk5fNm9UNGh1d2xXbEFEWQ?oc=5",
+      "id": "CBMiV0FVX3lxTE1HN2ZMak5lSEIzbkhQc0psZ2N0cmNrbDZybXpDX0dHZmJ6Uk9Sd3lhcVFCUXR0MnlGQmp6N3BnRnd3U3B5OTJwQk5fNm9UNGh1d2xXbEFEWQ",
+      "guidislink": false,
+      "published": "Fri, 03 Nov 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        11,
+        3,
+        7,
+        0,
+        0,
+        4,
+        307,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE1HN2ZMak5lSEIzbkhQc0psZ2N0cmNrbDZybXpDX0dHZmJ6Uk9Sd3lhcVFCUXR0MnlGQmp6N3BnRnd3U3B5OTJwQk5fNm9UNGh1d2xXbEFEWQ?oc=5\" target=\"_blank\">Zika Virus Alert in Karnataka, Symptoms and Treatment</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">StudyIQ</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE1HN2ZMak5lSEIzbkhQc0psZ2N0cmNrbDZybXpDX0dHZmJ6Uk9Sd3lhcVFCUXR0MnlGQmp6N3BnRnd3U3B5OTJwQk5fNm9UNGh1d2xXbEFEWQ?oc=5\" target=\"_blank\">Zika Virus Alert in Karnataka, Symptoms and Treatment</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">StudyIQ</font>"
+      },
+      "source": {
+        "href": "https://www.studyiq.com",
+        "title": "StudyIQ"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Kerala: Mystery sickness at Thalassery court related to Zika virus - daijiworld.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Kerala: Mystery sickness at Thalassery court related to Zika virus - daijiworld.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1sN3Q1eG51MF9aMlVqc3oyM0YzUkNBMmoxY0pWQ2ZaNGJHeFhFcWdQZnp2RHBsLWdWTWh0MVNyNTlRUnRrNUx4c3dEd1pmdmFNcTJIZVI2U3ZMdUpuZlFlSFV2clpvQVhHNXc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1sN3Q1eG51MF9aMlVqc3oyM0YzUkNBMmoxY0pWQ2ZaNGJHeFhFcWdQZnp2RHBsLWdWTWh0MVNyNTlRUnRrNUx4c3dEd1pmdmFNcTJIZVI2U3ZMdUpuZlFlSFV2clpvQVhHNXc?oc=5",
+      "id": "CBMiakFVX3lxTE1sN3Q1eG51MF9aMlVqc3oyM0YzUkNBMmoxY0pWQ2ZaNGJHeFhFcWdQZnp2RHBsLWdWTWh0MVNyNTlRUnRrNUx4c3dEd1pmdmFNcTJIZVI2U3ZMdUpuZlFlSFV2clpvQVhHNXc",
+      "guidislink": false,
+      "published": "Sat, 04 Nov 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        11,
+        4,
+        7,
+        0,
+        0,
+        5,
+        308,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE1sN3Q1eG51MF9aMlVqc3oyM0YzUkNBMmoxY0pWQ2ZaNGJHeFhFcWdQZnp2RHBsLWdWTWh0MVNyNTlRUnRrNUx4c3dEd1pmdmFNcTJIZVI2U3ZMdUpuZlFlSFV2clpvQVhHNXc?oc=5\" target=\"_blank\">Kerala: Mystery sickness at Thalassery court related to Zika virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">daijiworld.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE1sN3Q1eG51MF9aMlVqc3oyM0YzUkNBMmoxY0pWQ2ZaNGJHeFhFcWdQZnp2RHBsLWdWTWh0MVNyNTlRUnRrNUx4c3dEd1pmdmFNcTJIZVI2U3ZMdUpuZlFlSFV2clpvQVhHNXc?oc=5\" target=\"_blank\">Kerala: Mystery sickness at Thalassery court related to Zika virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">daijiworld.com</font>"
+      },
+      "source": {
+        "href": "https://www.daijiworld.com",
+        "title": "daijiworld.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika virus detected in Chikkaballapura: Karnataka Health Department issues advisory - news9live.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika virus detected in Chikkaballapura: Karnataka Health Department issues advisory - news9live.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMizAFBVV95cUxONGpJYVRJeGdLWXFCeFlCQmJCbmxCeEVvMUxZQmZoc2Q5NkhTQU00VnF4VHRUZzhQREtSb01zMG13V0NscWZ1bklWTUwwaEhpeC02bE42Ynh3VXg4V3gzbU5RQ0g0dVpnSHloWnVNLWNnaE5rRFlhaXp2WlB2WTVScjBhVG8tNmZCSlF0RktXa0J2MFZjdVk3WjBMZ20teXpnaWZ4S0VwdG5kbTcwNkhoUEVLY1lrRFJuNmtRN0FhVllxMU1CaVpkM0NqOE3SAdIBQVVfeXFMTU5EbzdKXzByQTE5eWdSRl8zRHd6dlNPWDI5dXNNN1Z5OS1PLU95Mm1iX2R1UDJ4eVZHajRmMGxhRG82Ylo1QlFtWk9LNHdCSHZmS2NmRnU3dVR2Q2VnWTZDQkp4QUo1ZHgwVHZQRVI5OEFaWnFaNVJZRTFUTUlCVW1qWjd5WmZCcHJGR25kYUZFVXZOYnZ1RHhCYXd3SllzMjctSWtIaGEzb3gyZ2FzV1RaRzN2ODJKOVgzLWtOR29FYm9aN0lvbHFvNlRSVzQzVnV3?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxONGpJYVRJeGdLWXFCeFlCQmJCbmxCeEVvMUxZQmZoc2Q5NkhTQU00VnF4VHRUZzhQREtSb01zMG13V0NscWZ1bklWTUwwaEhpeC02bE42Ynh3VXg4V3gzbU5RQ0g0dVpnSHloWnVNLWNnaE5rRFlhaXp2WlB2WTVScjBhVG8tNmZCSlF0RktXa0J2MFZjdVk3WjBMZ20teXpnaWZ4S0VwdG5kbTcwNkhoUEVLY1lrRFJuNmtRN0FhVllxMU1CaVpkM0NqOE3SAdIBQVVfeXFMTU5EbzdKXzByQTE5eWdSRl8zRHd6dlNPWDI5dXNNN1Z5OS1PLU95Mm1iX2R1UDJ4eVZHajRmMGxhRG82Ylo1QlFtWk9LNHdCSHZmS2NmRnU3dVR2Q2VnWTZDQkp4QUo1ZHgwVHZQRVI5OEFaWnFaNVJZRTFUTUlCVW1qWjd5WmZCcHJGR25kYUZFVXZOYnZ1RHhCYXd3SllzMjctSWtIaGEzb3gyZ2FzV1RaRzN2ODJKOVgzLWtOR29FYm9aN0lvbHFvNlRSVzQzVnV3?oc=5",
+      "id": "CBMizAFBVV95cUxONGpJYVRJeGdLWXFCeFlCQmJCbmxCeEVvMUxZQmZoc2Q5NkhTQU00VnF4VHRUZzhQREtSb01zMG13V0NscWZ1bklWTUwwaEhpeC02bE42Ynh3VXg4V3gzbU5RQ0g0dVpnSHloWnVNLWNnaE5rRFlhaXp2WlB2WTVScjBhVG8tNmZCSlF0RktXa0J2MFZjdVk3WjBMZ20teXpnaWZ4S0VwdG5kbTcwNkhoUEVLY1lrRFJuNmtRN0FhVllxMU1CaVpkM0NqOE3SAdIBQVVfeXFMTU5EbzdKXzByQTE5eWdSRl8zRHd6dlNPWDI5dXNNN1Z5OS1PLU95Mm1iX2R1UDJ4eVZHajRmMGxhRG82Ylo1QlFtWk9LNHdCSHZmS2NmRnU3dVR2Q2VnWTZDQkp4QUo1ZHgwVHZQRVI5OEFaWnFaNVJZRTFUTUlCVW1qWjd5WmZCcHJGR25kYUZFVXZOYnZ1RHhCYXd3SllzMjctSWtIaGEzb3gyZ2FzV1RaRzN2ODJKOVgzLWtOR29FYm9aN0lvbHFvNlRSVzQzVnV3",
+      "guidislink": false,
+      "published": "Thu, 02 Nov 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        11,
+        2,
+        7,
+        0,
+        0,
+        3,
+        306,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxONGpJYVRJeGdLWXFCeFlCQmJCbmxCeEVvMUxZQmZoc2Q5NkhTQU00VnF4VHRUZzhQREtSb01zMG13V0NscWZ1bklWTUwwaEhpeC02bE42Ynh3VXg4V3gzbU5RQ0g0dVpnSHloWnVNLWNnaE5rRFlhaXp2WlB2WTVScjBhVG8tNmZCSlF0RktXa0J2MFZjdVk3WjBMZ20teXpnaWZ4S0VwdG5kbTcwNkhoUEVLY1lrRFJuNmtRN0FhVllxMU1CaVpkM0NqOE3SAdIBQVVfeXFMTU5EbzdKXzByQTE5eWdSRl8zRHd6dlNPWDI5dXNNN1Z5OS1PLU95Mm1iX2R1UDJ4eVZHajRmMGxhRG82Ylo1QlFtWk9LNHdCSHZmS2NmRnU3dVR2Q2VnWTZDQkp4QUo1ZHgwVHZQRVI5OEFaWnFaNVJZRTFUTUlCVW1qWjd5WmZCcHJGR25kYUZFVXZOYnZ1RHhCYXd3SllzMjctSWtIaGEzb3gyZ2FzV1RaRzN2ODJKOVgzLWtOR29FYm9aN0lvbHFvNlRSVzQzVnV3?oc=5\" target=\"_blank\">Zika virus detected in Chikkaballapura: Karnataka Health Department issues advisory</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">news9live.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxONGpJYVRJeGdLWXFCeFlCQmJCbmxCeEVvMUxZQmZoc2Q5NkhTQU00VnF4VHRUZzhQREtSb01zMG13V0NscWZ1bklWTUwwaEhpeC02bE42Ynh3VXg4V3gzbU5RQ0g0dVpnSHloWnVNLWNnaE5rRFlhaXp2WlB2WTVScjBhVG8tNmZCSlF0RktXa0J2MFZjdVk3WjBMZ20teXpnaWZ4S0VwdG5kbTcwNkhoUEVLY1lrRFJuNmtRN0FhVllxMU1CaVpkM0NqOE3SAdIBQVVfeXFMTU5EbzdKXzByQTE5eWdSRl8zRHd6dlNPWDI5dXNNN1Z5OS1PLU95Mm1iX2R1UDJ4eVZHajRmMGxhRG82Ylo1QlFtWk9LNHdCSHZmS2NmRnU3dVR2Q2VnWTZDQkp4QUo1ZHgwVHZQRVI5OEFaWnFaNVJZRTFUTUlCVW1qWjd5WmZCcHJGR25kYUZFVXZOYnZ1RHhCYXd3SllzMjctSWtIaGEzb3gyZ2FzV1RaRzN2ODJKOVgzLWtOR29FYm9aN0lvbHFvNlRSVzQzVnV3?oc=5\" target=\"_blank\">Zika virus detected in Chikkaballapura: Karnataka Health Department issues advisory</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">news9live.com</font>"
+      },
+      "source": {
+        "href": "https://www.news9live.com",
+        "title": "news9live.com"
+      },
+      "sub_articles": []
+    }
+  ]
+}

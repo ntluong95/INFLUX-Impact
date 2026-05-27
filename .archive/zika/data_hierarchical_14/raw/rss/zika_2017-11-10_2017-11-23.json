@@ -1,0 +1,994 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2017-11-10",
+  "window_end": "2017-11-23",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2017-11-10+before%3A2017-11-24&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2017-11-10+before:2017-11-24&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:25:38Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2017-11-10 before:2017-11-24\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2017-11-10 before:2017-11-24\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2017-11-10+before:2017-11-24&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2017-11-10+before:2017-11-24&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:25:38 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      25,
+      38,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "A single mutation in the prM protein of Zika virus contributes to fetal microcephaly - Science | AAAS",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "A single mutation in the prM protein of Zika virus contributes to fetal microcephaly - Science | AAAS"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9UZUlKR3Mtb2dCUVVEQ0gyempWOENPekhJQno4UmdKb3VtZEtVdkxkcEh6M3lSQmF0dk1DUDAySUZTWFdFZGRDeW11WlBRTWxqQ0hnTGNVaGFMTEhZZ3RJbA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9UZUlKR3Mtb2dCUVVEQ0gyempWOENPekhJQno4UmdKb3VtZEtVdkxkcEh6M3lSQmF0dk1DUDAySUZTWFdFZGRDeW11WlBRTWxqQ0hnTGNVaGFMTEhZZ3RJbA?oc=5",
+      "id": "CBMiYEFVX3lxTE9UZUlKR3Mtb2dCUVVEQ0gyempWOENPekhJQno4UmdKb3VtZEtVdkxkcEh6M3lSQmF0dk1DUDAySUZTWFdFZGRDeW11WlBRTWxqQ0hnTGNVaGFMTEhZZ3RJbA",
+      "guidislink": false,
+      "published": "Fri, 17 Nov 2017 08:00:00 GMT",
+      "published_parsed": [
+        2017,
+        11,
+        17,
+        8,
+        0,
+        0,
+        4,
+        321,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTE9UZUlKR3Mtb2dCUVVEQ0gyempWOENPekhJQno4UmdKb3VtZEtVdkxkcEh6M3lSQmF0dk1DUDAySUZTWFdFZGRDeW11WlBRTWxqQ0hnTGNVaGFMTEhZZ3RJbA?oc=5\" target=\"_blank\">A single mutation in the prM protein of Zika virus contributes to fetal microcephaly</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Science | AAAS</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTE9UZUlKR3Mtb2dCUVVEQ0gyempWOENPekhJQno4UmdKb3VtZEtVdkxkcEh6M3lSQmF0dk1DUDAySUZTWFdFZGRDeW11WlBRTWxqQ0hnTGNVaGFMTEhZZ3RJbA?oc=5\" target=\"_blank\">A single mutation in the prM protein of Zika virus contributes to fetal microcephaly</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Science | AAAS</font>"
+      },
+      "source": {
+        "href": "https://www.science.org",
+        "title": "Science | AAAS"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "A Baby Exposed To Zika Virus Is Doing Well, One Year Later - NPR",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "A Baby Exposed To Zika Virus Is Doing Well, One Year Later - NPR"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYUtrUDZBR1d6VGV6OEZVMXgteDljcDBubmRuUl9VNUhYc2JSZll6TUJVbnRCMFkxRklMcVdrVklqakVuSi05S0VFRVltNkxaRkg2cTBIYTNuVThIM3dTbnRORVg5bEhQZjBHVHZvQzQtRmxnNndKV09LLXA1VWdtdHhVNzJoSXNHSVJwb00xS09BN3o3Rm1MU09OVmlKSmJKblhHR2ZTWjNzbW54ejVNcUlyTDRwdjVYV2ZrSg?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYUtrUDZBR1d6VGV6OEZVMXgteDljcDBubmRuUl9VNUhYc2JSZll6TUJVbnRCMFkxRklMcVdrVklqakVuSi05S0VFRVltNkxaRkg2cTBIYTNuVThIM3dTbnRORVg5bEhQZjBHVHZvQzQtRmxnNndKV09LLXA1VWdtdHhVNzJoSXNHSVJwb00xS09BN3o3Rm1MU09OVmlKSmJKblhHR2ZTWjNzbW54ejVNcUlyTDRwdjVYV2ZrSg?oc=5",
+      "id": "CBMivAFBVV95cUxPYUtrUDZBR1d6VGV6OEZVMXgteDljcDBubmRuUl9VNUhYc2JSZll6TUJVbnRCMFkxRklMcVdrVklqakVuSi05S0VFRVltNkxaRkg2cTBIYTNuVThIM3dTbnRORVg5bEhQZjBHVHZvQzQtRmxnNndKV09LLXA1VWdtdHhVNzJoSXNHSVJwb00xS09BN3o3Rm1MU09OVmlKSmJKblhHR2ZTWjNzbW54ejVNcUlyTDRwdjVYV2ZrSg",
+      "guidislink": false,
+      "published": "Wed, 15 Nov 2017 08:00:00 GMT",
+      "published_parsed": [
+        2017,
+        11,
+        15,
+        8,
+        0,
+        0,
+        2,
+        319,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxPYUtrUDZBR1d6VGV6OEZVMXgteDljcDBubmRuUl9VNUhYc2JSZll6TUJVbnRCMFkxRklMcVdrVklqakVuSi05S0VFRVltNkxaRkg2cTBIYTNuVThIM3dTbnRORVg5bEhQZjBHVHZvQzQtRmxnNndKV09LLXA1VWdtdHhVNzJoSXNHSVJwb00xS09BN3o3Rm1MU09OVmlKSmJKblhHR2ZTWjNzbW54ejVNcUlyTDRwdjVYV2ZrSg?oc=5\" target=\"_blank\">A Baby Exposed To Zika Virus Is Doing Well, One Year Later</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NPR</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxPYUtrUDZBR1d6VGV6OEZVMXgteDljcDBubmRuUl9VNUhYc2JSZll6TUJVbnRCMFkxRklMcVdrVklqakVuSi05S0VFRVltNkxaRkg2cTBIYTNuVThIM3dTbnRORVg5bEhQZjBHVHZvQzQtRmxnNndKV09LLXA1VWdtdHhVNzJoSXNHSVJwb00xS09BN3o3Rm1MU09OVmlKSmJKblhHR2ZTWjNzbW54ejVNcUlyTDRwdjVYV2ZrSg?oc=5\" target=\"_blank\">A Baby Exposed To Zika Virus Is Doing Well, One Year Later</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NPR</font>"
+      },
+      "source": {
+        "href": "https://www.npr.org",
+        "title": "NPR"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Repurposing of the anti-malaria drug chloroquine for Zika Virus treatment and prophylaxis | Scientific Reports - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Repurposing of the anti-malaria drug chloroquine for Zika Virus treatment and prophylaxis | Scientific Reports - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1UTjBETGpVRmVLMUllR0NGYzFkd0ljUGUxWkhPTlBVanRQaF90eElQVzNPZ1VGUVFOSEZEWkxVWWNuUkdYV3FDblNBUE1QdjBEclJaT0xtTUxKeWRNNVNV?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1UTjBETGpVRmVLMUllR0NGYzFkd0ljUGUxWkhPTlBVanRQaF90eElQVzNPZ1VGUVFOSEZEWkxVWWNuUkdYV3FDblNBUE1QdjBEclJaT0xtTUxKeWRNNVNV?oc=5",
+      "id": "CBMiX0FVX3lxTE1UTjBETGpVRmVLMUllR0NGYzFkd0ljUGUxWkhPTlBVanRQaF90eElQVzNPZ1VGUVFOSEZEWkxVWWNuUkdYV3FDblNBUE1QdjBEclJaT0xtTUxKeWRNNVNV",
+      "guidislink": false,
+      "published": "Fri, 17 Nov 2017 08:00:00 GMT",
+      "published_parsed": [
+        2017,
+        11,
+        17,
+        8,
+        0,
+        0,
+        4,
+        321,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1UTjBETGpVRmVLMUllR0NGYzFkd0ljUGUxWkhPTlBVanRQaF90eElQVzNPZ1VGUVFOSEZEWkxVWWNuUkdYV3FDblNBUE1QdjBEclJaT0xtTUxKeWRNNVNV?oc=5\" target=\"_blank\">Repurposing of the anti-malaria drug chloroquine for Zika Virus treatment and prophylaxis | Scientific Reports</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1UTjBETGpVRmVLMUllR0NGYzFkd0ljUGUxWkhPTlBVanRQaF90eElQVzNPZ1VGUVFOSEZEWkxVWWNuUkdYV3FDblNBUE1QdjBEclJaT0xtTUxKeWRNNVNV?oc=5\" target=\"_blank\">Repurposing of the anti-malaria drug chloroquine for Zika Virus treatment and prophylaxis | Scientific Reports</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Spotlight: Zika Research after Hurricane Maria - National Institutes of Health (.gov)",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Spotlight: Zika Research after Hurricane Maria - National Institutes of Health (.gov)"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBfWmRoM1ZHSDB3UGpnNE5fck1OU2hLVmdfU0xWY3JRUG9WaVk2VnNFNW03VHJlWmFXdmhSQ19TLUR4TkwwT0dScHJ6dGViVy1UbGJNV0ttNUtVaVVSNVBzMGl6d1ZMempWS1Z5XzJ6UHd0Rm5y?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBfWmRoM1ZHSDB3UGpnNE5fck1OU2hLVmdfU0xWY3JRUG9WaVk2VnNFNW03VHJlWmFXdmhSQ19TLUR4TkwwT0dScHJ6dGViVy1UbGJNV0ttNUtVaVVSNVBzMGl6d1ZMempWS1Z5XzJ6UHd0Rm5y?oc=5",
+      "id": "CBMidEFVX3lxTFBfWmRoM1ZHSDB3UGpnNE5fck1OU2hLVmdfU0xWY3JRUG9WaVk2VnNFNW03VHJlWmFXdmhSQ19TLUR4TkwwT0dScHJ6dGViVy1UbGJNV0ttNUtVaVVSNVBzMGl6d1ZMempWS1Z5XzJ6UHd0Rm5y",
+      "guidislink": false,
+      "published": "Mon, 20 Nov 2017 08:00:00 GMT",
+      "published_parsed": [
+        2017,
+        11,
+        20,
+        8,
+        0,
+        0,
+        0,
+        324,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTFBfWmRoM1ZHSDB3UGpnNE5fck1OU2hLVmdfU0xWY3JRUG9WaVk2VnNFNW03VHJlWmFXdmhSQ19TLUR4TkwwT0dScHJ6dGViVy1UbGJNV0ttNUtVaVVSNVBzMGl6d1ZMempWS1Z5XzJ6UHd0Rm5y?oc=5\" target=\"_blank\">Spotlight: Zika Research after Hurricane Maria</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">National Institutes of Health (.gov)</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTFBfWmRoM1ZHSDB3UGpnNE5fck1OU2hLVmdfU0xWY3JRUG9WaVk2VnNFNW03VHJlWmFXdmhSQ19TLUR4TkwwT0dScHJ6dGViVy1UbGJNV0ttNUtVaVVSNVBzMGl6d1ZMempWS1Z5XzJ6UHd0Rm5y?oc=5\" target=\"_blank\">Spotlight: Zika Research after Hurricane Maria</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">National Institutes of Health (.gov)</font>"
+      },
+      "source": {
+        "href": "https://www.nichd.nih.gov",
+        "title": "National Institutes of Health (.gov)"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika virus in French Polynesia 2013–14: anatomy of a completed outbreak - The Lancet",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika virus in French Polynesia 2013–14: anatomy of a completed outbreak - The Lancet"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQelljdnprV0JFdW1kN2gyZElmZXZTdlFkbG5yRC1vTGJXYUVXanVFcldraDFKZTJneDMxU09Nb0tqWEZpRTB0X3JtSUtZN1M3d0RQX1o1bXB4ZlhhNHFySnloUnlBbGtBTldKcGFYVl9hYWlRVDVGa3FLTi1oR0ktMklDSHFuZGdPNWF3?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQelljdnprV0JFdW1kN2gyZElmZXZTdlFkbG5yRC1vTGJXYUVXanVFcldraDFKZTJneDMxU09Nb0tqWEZpRTB0X3JtSUtZN1M3d0RQX1o1bXB4ZlhhNHFySnloUnlBbGtBTldKcGFYVl9hYWlRVDVGa3FLTi1oR0ktMklDSHFuZGdPNWF3?oc=5",
+      "id": "CBMiiwFBVV95cUxQelljdnprV0JFdW1kN2gyZElmZXZTdlFkbG5yRC1vTGJXYUVXanVFcldraDFKZTJneDMxU09Nb0tqWEZpRTB0X3JtSUtZN1M3d0RQX1o1bXB4ZlhhNHFySnloUnlBbGtBTldKcGFYVl9hYWlRVDVGa3FLTi1oR0ktMklDSHFuZGdPNWF3",
+      "guidislink": false,
+      "published": "Tue, 14 Nov 2017 08:00:00 GMT",
+      "published_parsed": [
+        2017,
+        11,
+        14,
+        8,
+        0,
+        0,
+        1,
+        318,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxQelljdnprV0JFdW1kN2gyZElmZXZTdlFkbG5yRC1vTGJXYUVXanVFcldraDFKZTJneDMxU09Nb0tqWEZpRTB0X3JtSUtZN1M3d0RQX1o1bXB4ZlhhNHFySnloUnlBbGtBTldKcGFYVl9hYWlRVDVGa3FLTi1oR0ktMklDSHFuZGdPNWF3?oc=5\" target=\"_blank\">Zika virus in French Polynesia 2013–14: anatomy of a completed outbreak</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Lancet</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxQelljdnprV0JFdW1kN2gyZElmZXZTdlFkbG5yRC1vTGJXYUVXanVFcldraDFKZTJneDMxU09Nb0tqWEZpRTB0X3JtSUtZN1M3d0RQX1o1bXB4ZlhhNHFySnloUnlBbGtBTldKcGFYVl9hYWlRVDVGa3FLTi1oR0ktMklDSHFuZGdPNWF3?oc=5\" target=\"_blank\">Zika virus in French Polynesia 2013–14: anatomy of a completed outbreak</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Lancet</font>"
+      },
+      "source": {
+        "href": "https://www.thelancet.com",
+        "title": "The Lancet"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "US Gulf Coast states: The rise of neglected tropical diseases in \"flyover nation\" - PLOS",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "US Gulf Coast states: The rise of neglected tropical diseases in \"flyover nation\" - PLOS"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1qTjNnczZiazVvWFBjbF9XNzlOc1lEUUZvUnBxdDdyVUtwSDNaald4RzI4ZlRwMjFwVnNNUHpCSUNFM21FaUlfc3R0NDEwcW0tWnRCMDl0UkpiWjhqbFlSR2pEM2szZTBBMzVaRXpRVWhvQTRCRUt5amEyZVJveFE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1qTjNnczZiazVvWFBjbF9XNzlOc1lEUUZvUnBxdDdyVUtwSDNaald4RzI4ZlRwMjFwVnNNUHpCSUNFM21FaUlfc3R0NDEwcW0tWnRCMDl0UkpiWjhqbFlSR2pEM2szZTBBMzVaRXpRVWhvQTRCRUt5amEyZVJveFE?oc=5",
+      "id": "CBMif0FVX3lxTE1qTjNnczZiazVvWFBjbF9XNzlOc1lEUUZvUnBxdDdyVUtwSDNaald4RzI4ZlRwMjFwVnNNUHpCSUNFM21FaUlfc3R0NDEwcW0tWnRCMDl0UkpiWjhqbFlSR2pEM2szZTBBMzVaRXpRVWhvQTRCRUt5amEyZVJveFE",
+      "guidislink": false,
+      "published": "Thu, 16 Nov 2017 08:00:00 GMT",
+      "published_parsed": [
+        2017,
+        11,
+        16,
+        8,
+        0,
+        0,
+        3,
+        320,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE1qTjNnczZiazVvWFBjbF9XNzlOc1lEUUZvUnBxdDdyVUtwSDNaald4RzI4ZlRwMjFwVnNNUHpCSUNFM21FaUlfc3R0NDEwcW0tWnRCMDl0UkpiWjhqbFlSR2pEM2szZTBBMzVaRXpRVWhvQTRCRUt5amEyZVJveFE?oc=5\" target=\"_blank\">US Gulf Coast states: The rise of neglected tropical diseases in \"flyover nation\"</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PLOS</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE1qTjNnczZiazVvWFBjbF9XNzlOc1lEUUZvUnBxdDdyVUtwSDNaald4RzI4ZlRwMjFwVnNNUHpCSUNFM21FaUlfc3R0NDEwcW0tWnRCMDl0UkpiWjhqbFlSR2pEM2szZTBBMzVaRXpRVWhvQTRCRUt5amEyZVJveFE?oc=5\" target=\"_blank\">US Gulf Coast states: The rise of neglected tropical diseases in \"flyover nation\"</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PLOS</font>"
+      },
+      "source": {
+        "href": "https://journals.plos.org",
+        "title": "PLOS"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Meeting Summary: State and Local Implementation Strategies for ... - Centers for Disease Control and Prevention | CDC (.gov)",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Meeting Summary: State and Local Implementation Strategies for ... - Centers for Disease Control and Prevention | CDC (.gov)"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBWS2VYSzJzWVlpNDg4aWhzZUo1Q1dpRFNCY0U3OFdnVlY1ekYxRFg4b29zQjlYZ1Voc3pQZjBPSmVobzdHNk1IVkxnQnpQRjZab2tLVFkybVJEdHZFUnk1WQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBWS2VYSzJzWVlpNDg4aWhzZUo1Q1dpRFNCY0U3OFdnVlY1ekYxRFg4b29zQjlYZ1Voc3pQZjBPSmVobzdHNk1IVkxnQnpQRjZab2tLVFkybVJEdHZFUnk1WQ?oc=5",
+      "id": "CBMiYEFVX3lxTFBWS2VYSzJzWVlpNDg4aWhzZUo1Q1dpRFNCY0U3OFdnVlY1ekYxRFg4b29zQjlYZ1Voc3pQZjBPSmVobzdHNk1IVkxnQnpQRjZab2tLVFkybVJEdHZFUnk1WQ",
+      "guidislink": false,
+      "published": "Fri, 10 Nov 2017 08:00:00 GMT",
+      "published_parsed": [
+        2017,
+        11,
+        10,
+        8,
+        0,
+        0,
+        4,
+        314,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTFBWS2VYSzJzWVlpNDg4aWhzZUo1Q1dpRFNCY0U3OFdnVlY1ekYxRFg4b29zQjlYZ1Voc3pQZjBPSmVobzdHNk1IVkxnQnpQRjZab2tLVFkybVJEdHZFUnk1WQ?oc=5\" target=\"_blank\">Meeting Summary: State and Local Implementation Strategies for ...</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Centers for Disease Control and Prevention | CDC (.gov)</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTFBWS2VYSzJzWVlpNDg4aWhzZUo1Q1dpRFNCY0U3OFdnVlY1ekYxRFg4b29zQjlYZ1Voc3pQZjBPSmVobzdHNk1IVkxnQnpQRjZab2tLVFkybVJEdHZFUnk1WQ?oc=5\" target=\"_blank\">Meeting Summary: State and Local Implementation Strategies for ...</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Centers for Disease Control and Prevention | CDC (.gov)</font>"
+      },
+      "source": {
+        "href": "https://www.cdc.gov",
+        "title": "Centers for Disease Control and Prevention | CDC (.gov)"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Anti-malaria drug shows promise as Zika virus treatment - European Pharmaceutical Review",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Anti-malaria drug shows promise as Zika virus treatment - European Pharmaceutical Review"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUHBMYkQ2MTh1Rm80bkdGbEdHWEc1YngtdDltUFVjcjhpVk5pYkd2RTRCdjFCNmJtdVJYaGdUU3ZBXzVfaXFUWENESjkxNEtMNm40dm1xV0E0V3ExTkRCX0N0Ym1IbXN0QUdFZVBsellUajMwWHJWdVZ4V1IxZWg2NnNUUDd2UQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUHBMYkQ2MTh1Rm80bkdGbEdHWEc1YngtdDltUFVjcjhpVk5pYkd2RTRCdjFCNmJtdVJYaGdUU3ZBXzVfaXFUWENESjkxNEtMNm40dm1xV0E0V3ExTkRCX0N0Ym1IbXN0QUdFZVBsellUajMwWHJWdVZ4V1IxZWg2NnNUUDd2UQ?oc=5",
+      "id": "CBMihgFBVV95cUxNUHBMYkQ2MTh1Rm80bkdGbEdHWEc1YngtdDltUFVjcjhpVk5pYkd2RTRCdjFCNmJtdVJYaGdUU3ZBXzVfaXFUWENESjkxNEtMNm40dm1xV0E0V3ExTkRCX0N0Ym1IbXN0QUdFZVBsellUajMwWHJWdVZ4V1IxZWg2NnNUUDd2UQ",
+      "guidislink": false,
+      "published": "Fri, 17 Nov 2017 08:00:00 GMT",
+      "published_parsed": [
+        2017,
+        11,
+        17,
+        8,
+        0,
+        0,
+        4,
+        321,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxNUHBMYkQ2MTh1Rm80bkdGbEdHWEc1YngtdDltUFVjcjhpVk5pYkd2RTRCdjFCNmJtdVJYaGdUU3ZBXzVfaXFUWENESjkxNEtMNm40dm1xV0E0V3ExTkRCX0N0Ym1IbXN0QUdFZVBsellUajMwWHJWdVZ4V1IxZWg2NnNUUDd2UQ?oc=5\" target=\"_blank\">Anti-malaria drug shows promise as Zika virus treatment</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">European Pharmaceutical Review</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxNUHBMYkQ2MTh1Rm80bkdGbEdHWEc1YngtdDltUFVjcjhpVk5pYkd2RTRCdjFCNmJtdVJYaGdUU3ZBXzVfaXFUWENESjkxNEtMNm40dm1xV0E0V3ExTkRCX0N0Ym1IbXN0QUdFZVBsellUajMwWHJWdVZ4V1IxZWg2NnNUUDd2UQ?oc=5\" target=\"_blank\">Anti-malaria drug shows promise as Zika virus treatment</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">European Pharmaceutical Review</font>"
+      },
+      "source": {
+        "href": "https://www.europeanpharmaceuticalreview.com",
+        "title": "European Pharmaceutical Review"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Cheap, Safe Anti-Malaria Drug Reduces Zika Virus in Mice - the-scientist.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Cheap, Safe Anti-Malaria Drug Reduces Zika Virus in Mice - the-scientist.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNU25NYmlpX0owV0NvMTNRcnFqLW5oY0hzSEhTd0FQWlQxRkg2OGVKbFJuQTdraVBBNjNIOVpnTENXZW96NHRFWkNOcWphQk9wdlE5Z09oSE5NaktZSVVhLTY0MHBSa2NxWGdFSW9IbFZMeW1aanJMc2Ffdm9EMTFOSEMyRzRsOFNEV2ZsTFY3WmNiRkpZNGc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNU25NYmlpX0owV0NvMTNRcnFqLW5oY0hzSEhTd0FQWlQxRkg2OGVKbFJuQTdraVBBNjNIOVpnTENXZW96NHRFWkNOcWphQk9wdlE5Z09oSE5NaktZSVVhLTY0MHBSa2NxWGdFSW9IbFZMeW1aanJMc2Ffdm9EMTFOSEMyRzRsOFNEV2ZsTFY3WmNiRkpZNGc?oc=5",
+      "id": "CBMilgFBVV95cUxNU25NYmlpX0owV0NvMTNRcnFqLW5oY0hzSEhTd0FQWlQxRkg2OGVKbFJuQTdraVBBNjNIOVpnTENXZW96NHRFWkNOcWphQk9wdlE5Z09oSE5NaktZSVVhLTY0MHBSa2NxWGdFSW9IbFZMeW1aanJMc2Ffdm9EMTFOSEMyRzRsOFNEV2ZsTFY3WmNiRkpZNGc",
+      "guidislink": false,
+      "published": "Fri, 17 Nov 2017 08:00:00 GMT",
+      "published_parsed": [
+        2017,
+        11,
+        17,
+        8,
+        0,
+        0,
+        4,
+        321,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxNU25NYmlpX0owV0NvMTNRcnFqLW5oY0hzSEhTd0FQWlQxRkg2OGVKbFJuQTdraVBBNjNIOVpnTENXZW96NHRFWkNOcWphQk9wdlE5Z09oSE5NaktZSVVhLTY0MHBSa2NxWGdFSW9IbFZMeW1aanJMc2Ffdm9EMTFOSEMyRzRsOFNEV2ZsTFY3WmNiRkpZNGc?oc=5\" target=\"_blank\">Cheap, Safe Anti-Malaria Drug Reduces Zika Virus in Mice</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">the-scientist.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxNU25NYmlpX0owV0NvMTNRcnFqLW5oY0hzSEhTd0FQWlQxRkg2OGVKbFJuQTdraVBBNjNIOVpnTENXZW96NHRFWkNOcWphQk9wdlE5Z09oSE5NaktZSVVhLTY0MHBSa2NxWGdFSW9IbFZMeW1aanJMc2Ffdm9EMTFOSEMyRzRsOFNEV2ZsTFY3WmNiRkpZNGc?oc=5\" target=\"_blank\">Cheap, Safe Anti-Malaria Drug Reduces Zika Virus in Mice</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">the-scientist.com</font>"
+      },
+      "source": {
+        "href": "https://www.the-scientist.com",
+        "title": "the-scientist.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika-related nerve damage caused by immune response to the virus - YaleNews",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika-related nerve damage caused by immune response to the virus - YaleNews"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdUV3Qm5LYW5DOTcwU3U5ZTN1OTNoc1FTNEg0SkVVb250bXMwYmRLVjMwVVFTdWJmdG04ck1Mc2hwUk8xOWdmY0Q4MGNNeG5peU5wNkdfWFpkemhiSjkzLW9HcERBaExYMjI0dlBmc0JBaG5mMmJteVlfalQ4WGhKZzJlMG9ZNDlEci1KeFZfZ0U?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdUV3Qm5LYW5DOTcwU3U5ZTN1OTNoc1FTNEg0SkVVb250bXMwYmRLVjMwVVFTdWJmdG04ck1Mc2hwUk8xOWdmY0Q4MGNNeG5peU5wNkdfWFpkemhiSjkzLW9HcERBaExYMjI0dlBmc0JBaG5mMmJteVlfalQ4WGhKZzJlMG9ZNDlEci1KeFZfZ0U?oc=5",
+      "id": "CBMikAFBVV95cUxNdUV3Qm5LYW5DOTcwU3U5ZTN1OTNoc1FTNEg0SkVVb250bXMwYmRLVjMwVVFTdWJmdG04ck1Mc2hwUk8xOWdmY0Q4MGNNeG5peU5wNkdfWFpkemhiSjkzLW9HcERBaExYMjI0dlBmc0JBaG5mMmJteVlfalQ4WGhKZzJlMG9ZNDlEci1KeFZfZ0U",
+      "guidislink": false,
+      "published": "Mon, 20 Nov 2017 08:00:00 GMT",
+      "published_parsed": [
+        2017,
+        11,
+        20,
+        8,
+        0,
+        0,
+        0,
+        324,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxNdUV3Qm5LYW5DOTcwU3U5ZTN1OTNoc1FTNEg0SkVVb250bXMwYmRLVjMwVVFTdWJmdG04ck1Mc2hwUk8xOWdmY0Q4MGNNeG5peU5wNkdfWFpkemhiSjkzLW9HcERBaExYMjI0dlBmc0JBaG5mMmJteVlfalQ4WGhKZzJlMG9ZNDlEci1KeFZfZ0U?oc=5\" target=\"_blank\">Zika-related nerve damage caused by immune response to the virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">YaleNews</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxNdUV3Qm5LYW5DOTcwU3U5ZTN1OTNoc1FTNEg0SkVVb250bXMwYmRLVjMwVVFTdWJmdG04ck1Mc2hwUk8xOWdmY0Q4MGNNeG5peU5wNkdfWFpkemhiSjkzLW9HcERBaExYMjI0dlBmc0JBaG5mMmJteVlfalQ4WGhKZzJlMG9ZNDlEci1KeFZfZ0U?oc=5\" target=\"_blank\">Zika-related nerve damage caused by immune response to the virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">YaleNews</font>"
+      },
+      "source": {
+        "href": "https://news.yale.edu",
+        "title": "YaleNews"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "BugBitten Mutant Zika protein is key to microcephaly - BMC blog network",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "BugBitten Mutant Zika protein is key to microcephaly - BMC blog network"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeTE0OW1uVVVGUGFLRTFFR0tuY3pwMFFFa1dhUG12UEJUOXdYNXk1MWdMcVpuX3l2dVBqLW1YSlppdkJubTdEeVh1U0Z1XzhGaXV5RG1uR1g4TGlreGMwN3RjSUxtcHdiNERsZlVIUThLVU8zRXFObGV0M19VNV9Ec3dpTFpiWkl2Ump6RjUxLXVjNVYyekdsMDg3MjQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeTE0OW1uVVVGUGFLRTFFR0tuY3pwMFFFa1dhUG12UEJUOXdYNXk1MWdMcVpuX3l2dVBqLW1YSlppdkJubTdEeVh1U0Z1XzhGaXV5RG1uR1g4TGlreGMwN3RjSUxtcHdiNERsZlVIUThLVU8zRXFObGV0M19VNV9Ec3dpTFpiWkl2Ump6RjUxLXVjNVYyekdsMDg3MjQ?oc=5",
+      "id": "CBMinAFBVV95cUxNeTE0OW1uVVVGUGFLRTFFR0tuY3pwMFFFa1dhUG12UEJUOXdYNXk1MWdMcVpuX3l2dVBqLW1YSlppdkJubTdEeVh1U0Z1XzhGaXV5RG1uR1g4TGlreGMwN3RjSUxtcHdiNERsZlVIUThLVU8zRXFObGV0M19VNV9Ec3dpTFpiWkl2Ump6RjUxLXVjNVYyekdsMDg3MjQ",
+      "guidislink": false,
+      "published": "Fri, 17 Nov 2017 08:00:00 GMT",
+      "published_parsed": [
+        2017,
+        11,
+        17,
+        8,
+        0,
+        0,
+        4,
+        321,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxNeTE0OW1uVVVGUGFLRTFFR0tuY3pwMFFFa1dhUG12UEJUOXdYNXk1MWdMcVpuX3l2dVBqLW1YSlppdkJubTdEeVh1U0Z1XzhGaXV5RG1uR1g4TGlreGMwN3RjSUxtcHdiNERsZlVIUThLVU8zRXFObGV0M19VNV9Ec3dpTFpiWkl2Ump6RjUxLXVjNVYyekdsMDg3MjQ?oc=5\" target=\"_blank\">BugBitten Mutant Zika protein is key to microcephaly</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BMC blog network</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxNeTE0OW1uVVVGUGFLRTFFR0tuY3pwMFFFa1dhUG12UEJUOXdYNXk1MWdMcVpuX3l2dVBqLW1YSlppdkJubTdEeVh1U0Z1XzhGaXV5RG1uR1g4TGlreGMwN3RjSUxtcHdiNERsZlVIUThLVU8zRXFObGV0M19VNV9Ec3dpTFpiWkl2Ump6RjUxLXVjNVYyekdsMDg3MjQ?oc=5\" target=\"_blank\">BugBitten Mutant Zika protein is key to microcephaly</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BMC blog network</font>"
+      },
+      "source": {
+        "href": "https://blogs.biomedcentral.com",
+        "title": "BMC blog network"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Florida confirms Miami’s first mosquito-borne case of Zika in 2017 - Miami Herald",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Florida confirms Miami’s first mosquito-borne case of Zika in 2017 - Miami Herald"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBmNUpDQlFONHpnRVVUdGE2RTFwdklYSVJBcDNyZWVIUGlaUHNvOWlaX1BrLXFkNm02VnBZMjJ3bklkTzJfdHNqMzdHSmd2UmZxQU11Tjh1RlZRTW1rdU53akxGUEplSkwwaUJGUzFmSWlzSFE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBmNUpDQlFONHpnRVVUdGE2RTFwdklYSVJBcDNyZWVIUGlaUHNvOWlaX1BrLXFkNm02VnBZMjJ3bklkTzJfdHNqMzdHSmd2UmZxQU11Tjh1RlZRTW1rdU53akxGUEplSkwwaUJGUzFmSWlzSFE?oc=5",
+      "id": "CBMic0FVX3lxTFBmNUpDQlFONHpnRVVUdGE2RTFwdklYSVJBcDNyZWVIUGlaUHNvOWlaX1BrLXFkNm02VnBZMjJ3bklkTzJfdHNqMzdHSmd2UmZxQU11Tjh1RlZRTW1rdU53akxGUEplSkwwaUJGUzFmSWlzSFE",
+      "guidislink": false,
+      "published": "Fri, 17 Nov 2017 08:00:00 GMT",
+      "published_parsed": [
+        2017,
+        11,
+        17,
+        8,
+        0,
+        0,
+        4,
+        321,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTFBmNUpDQlFONHpnRVVUdGE2RTFwdklYSVJBcDNyZWVIUGlaUHNvOWlaX1BrLXFkNm02VnBZMjJ3bklkTzJfdHNqMzdHSmd2UmZxQU11Tjh1RlZRTW1rdU53akxGUEplSkwwaUJGUzFmSWlzSFE?oc=5\" target=\"_blank\">Florida confirms Miami’s first mosquito-borne case of Zika in 2017</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Miami Herald</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTFBmNUpDQlFONHpnRVVUdGE2RTFwdklYSVJBcDNyZWVIUGlaUHNvOWlaX1BrLXFkNm02VnBZMjJ3bklkTzJfdHNqMzdHSmd2UmZxQU11Tjh1RlZRTW1rdU53akxGUEplSkwwaUJGUzFmSWlzSFE?oc=5\" target=\"_blank\">Florida confirms Miami’s first mosquito-borne case of Zika in 2017</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Miami Herald</font>"
+      },
+      "source": {
+        "href": "http://www.miamiherald.com",
+        "title": "Miami Herald"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Man born with Zika-related defect: 'I can't read. I can't write' - WMUR",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Man born with Zika-related defect: 'I can't read. I can't write' - WMUR"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdHp0YXhHdmhwdzdJWW1SMkZHME9aUHhaWEZpSkVUZmN3QmlSZ3FXMjlVV2p1UE1JdTB1T0tOenAzaElLemVmbEJfX2lkQVpvcER4eXpEZndGQ085Tk1GZzA4ZVdvQUROYVF4Nlk3T0c0aENxSC1nb2NPUFFJYmVSQjYwb2NFRWlnc2dIZzFZS0ZwYXJnT2hoMlBWWQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdHp0YXhHdmhwdzdJWW1SMkZHME9aUHhaWEZpSkVUZmN3QmlSZ3FXMjlVV2p1UE1JdTB1T0tOenAzaElLemVmbEJfX2lkQVpvcER4eXpEZndGQ085Tk1GZzA4ZVdvQUROYVF4Nlk3T0c0aENxSC1nb2NPUFFJYmVSQjYwb2NFRWlnc2dIZzFZS0ZwYXJnT2hoMlBWWQ?oc=5",
+      "id": "CBMimwFBVV95cUxNdHp0YXhHdmhwdzdJWW1SMkZHME9aUHhaWEZpSkVUZmN3QmlSZ3FXMjlVV2p1UE1JdTB1T0tOenAzaElLemVmbEJfX2lkQVpvcER4eXpEZndGQ085Tk1GZzA4ZVdvQUROYVF4Nlk3T0c0aENxSC1nb2NPUFFJYmVSQjYwb2NFRWlnc2dIZzFZS0ZwYXJnT2hoMlBWWQ",
+      "guidislink": false,
+      "published": "Fri, 10 Nov 2017 08:00:00 GMT",
+      "published_parsed": [
+        2017,
+        11,
+        10,
+        8,
+        0,
+        0,
+        4,
+        314,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxNdHp0YXhHdmhwdzdJWW1SMkZHME9aUHhaWEZpSkVUZmN3QmlSZ3FXMjlVV2p1UE1JdTB1T0tOenAzaElLemVmbEJfX2lkQVpvcER4eXpEZndGQ085Tk1GZzA4ZVdvQUROYVF4Nlk3T0c0aENxSC1nb2NPUFFJYmVSQjYwb2NFRWlnc2dIZzFZS0ZwYXJnT2hoMlBWWQ?oc=5\" target=\"_blank\">Man born with Zika-related defect: 'I can't read. I can't write'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WMUR</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxNdHp0YXhHdmhwdzdJWW1SMkZHME9aUHhaWEZpSkVUZmN3QmlSZ3FXMjlVV2p1UE1JdTB1T0tOenAzaElLemVmbEJfX2lkQVpvcER4eXpEZndGQ085Tk1GZzA4ZVdvQUROYVF4Nlk3T0c0aENxSC1nb2NPUFFJYmVSQjYwb2NFRWlnc2dIZzFZS0ZwYXJnT2hoMlBWWQ?oc=5\" target=\"_blank\">Man born with Zika-related defect: 'I can't read. I can't write'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WMUR</font>"
+      },
+      "source": {
+        "href": "https://www.wmur.com",
+        "title": "WMUR"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Intranasal infection and contact transmission of Zika virus in guinea pigs - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Intranasal infection and contact transmission of Zika virus in guinea pigs - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1lc2pzN2F5bUJDS3hhXzd1MTl3LXc0bDV1RkFvZ2NjTjlkaTFnVHowV0Y2N3VBb0w0OW51RmJnTTNCbEg4SEwtbGsxQ2I3OFE0LTBvNktZWW1JanAyeFRR?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1lc2pzN2F5bUJDS3hhXzd1MTl3LXc0bDV1RkFvZ2NjTjlkaTFnVHowV0Y2N3VBb0w0OW51RmJnTTNCbEg4SEwtbGsxQ2I3OFE0LTBvNktZWW1JanAyeFRR?oc=5",
+      "id": "CBMiX0FVX3lxTE1lc2pzN2F5bUJDS3hhXzd1MTl3LXc0bDV1RkFvZ2NjTjlkaTFnVHowV0Y2N3VBb0w0OW51RmJnTTNCbEg4SEwtbGsxQ2I3OFE0LTBvNktZWW1JanAyeFRR",
+      "guidislink": false,
+      "published": "Tue, 21 Nov 2017 08:00:00 GMT",
+      "published_parsed": [
+        2017,
+        11,
+        21,
+        8,
+        0,
+        0,
+        1,
+        325,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1lc2pzN2F5bUJDS3hhXzd1MTl3LXc0bDV1RkFvZ2NjTjlkaTFnVHowV0Y2N3VBb0w0OW51RmJnTTNCbEg4SEwtbGsxQ2I3OFE0LTBvNktZWW1JanAyeFRR?oc=5\" target=\"_blank\">Intranasal infection and contact transmission of Zika virus in guinea pigs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1lc2pzN2F5bUJDS3hhXzd1MTl3LXc0bDV1RkFvZ2NjTjlkaTFnVHowV0Y2N3VBb0w0OW51RmJnTTNCbEg4SEwtbGsxQ2I3OFE0LTBvNktZWW1JanAyeFRR?oc=5\" target=\"_blank\">Intranasal infection and contact transmission of Zika virus in guinea pigs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "T cells mediate cross-protection against subsequent Zika virus challenge - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "T cells mediate cross-protection against subsequent Zika virus challenge - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE44SS03NUNhUGVGMUU5OF9kOEZTNDdoclNIbWZ0U2FDa0pORm43dHgyNmEyNmNfQjBaeF9mSDcxM2Y3Q2NpRmlxa0ZKSDJhN2xGblFobmdOY2Y3UDIzZW80?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE44SS03NUNhUGVGMUU5OF9kOEZTNDdoclNIbWZ0U2FDa0pORm43dHgyNmEyNmNfQjBaeF9mSDcxM2Y3Q2NpRmlxa0ZKSDJhN2xGblFobmdOY2Y3UDIzZW80?oc=5",
+      "id": "CBMiX0FVX3lxTE44SS03NUNhUGVGMUU5OF9kOEZTNDdoclNIbWZ0U2FDa0pORm43dHgyNmEyNmNfQjBaeF9mSDcxM2Y3Q2NpRmlxa0ZKSDJhN2xGblFobmdOY2Y3UDIzZW80",
+      "guidislink": false,
+      "published": "Mon, 13 Nov 2017 08:00:00 GMT",
+      "published_parsed": [
+        2017,
+        11,
+        13,
+        8,
+        0,
+        0,
+        0,
+        317,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE44SS03NUNhUGVGMUU5OF9kOEZTNDdoclNIbWZ0U2FDa0pORm43dHgyNmEyNmNfQjBaeF9mSDcxM2Y3Q2NpRmlxa0ZKSDJhN2xGblFobmdOY2Y3UDIzZW80?oc=5\" target=\"_blank\">T cells mediate cross-protection against subsequent Zika virus challenge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE44SS03NUNhUGVGMUU5OF9kOEZTNDdoclNIbWZ0U2FDa0pORm43dHgyNmEyNmNfQjBaeF9mSDcxM2Y3Q2NpRmlxa0ZKSDJhN2xGblFobmdOY2Y3UDIzZW80?oc=5\" target=\"_blank\">T cells mediate cross-protection against subsequent Zika virus challenge</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Post-earthquake Zika virus surge: Disaster and public health threat amid climatic conduciveness - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Post-earthquake Zika virus surge: Disaster and public health threat amid climatic conduciveness - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE04U3JGa2cxdGNieGFSeF9ZSzZYRERia0hFMldVYjZ6SVZzQ1d2dnVtcF9vMURWUWZ6eGFwMGRLbkVSTkZxcTBuS20wTTNYTjFkY01nT2k1WkxMMnZBSTBz?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE04U3JGa2cxdGNieGFSeF9ZSzZYRERia0hFMldVYjZ6SVZzQ1d2dnVtcF9vMURWUWZ6eGFwMGRLbkVSTkZxcTBuS20wTTNYTjFkY01nT2k1WkxMMnZBSTBz?oc=5",
+      "id": "CBMiX0FVX3lxTE04U3JGa2cxdGNieGFSeF9ZSzZYRERia0hFMldVYjZ6SVZzQ1d2dnVtcF9vMURWUWZ6eGFwMGRLbkVSTkZxcTBuS20wTTNYTjFkY01nT2k1WkxMMnZBSTBz",
+      "guidislink": false,
+      "published": "Mon, 13 Nov 2017 08:00:00 GMT",
+      "published_parsed": [
+        2017,
+        11,
+        13,
+        8,
+        0,
+        0,
+        0,
+        317,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE04U3JGa2cxdGNieGFSeF9ZSzZYRERia0hFMldVYjZ6SVZzQ1d2dnVtcF9vMURWUWZ6eGFwMGRLbkVSTkZxcTBuS20wTTNYTjFkY01nT2k1WkxMMnZBSTBz?oc=5\" target=\"_blank\">Post-earthquake Zika virus surge: Disaster and public health threat amid climatic conduciveness</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE04U3JGa2cxdGNieGFSeF9ZSzZYRERia0hFMldVYjZ6SVZzQ1d2dnVtcF9vMURWUWZ6eGFwMGRLbkVSTkZxcTBuS20wTTNYTjFkY01nT2k1WkxMMnZBSTBz?oc=5\" target=\"_blank\">Post-earthquake Zika virus surge: Disaster and public health threat amid climatic conduciveness</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Characterization of large and small-plaque variants in the Zika virus clinical isolate ZIKV/Hu/S36/Chiba/2016 - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Characterization of large and small-plaque variants in the Zika virus clinical isolate ZIKV/Hu/S36/Chiba/2016 - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE96X0E5REVSQXI3RWp4ZFVsNTFHS2dlaDBna01GT2hrUElNejd4STg0RVpsaFNkcVpOMEZUdWpEWDFRbmZ4MWhEUUVZZnZpYzRtUzd1UHFCZ1hhTjFLODRV?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE96X0E5REVSQXI3RWp4ZFVsNTFHS2dlaDBna01GT2hrUElNejd4STg0RVpsaFNkcVpOMEZUdWpEWDFRbmZ4MWhEUUVZZnZpYzRtUzd1UHFCZ1hhTjFLODRV?oc=5",
+      "id": "CBMiX0FVX3lxTE96X0E5REVSQXI3RWp4ZFVsNTFHS2dlaDBna01GT2hrUElNejd4STg0RVpsaFNkcVpOMEZUdWpEWDFRbmZ4MWhEUUVZZnZpYzRtUzd1UHFCZ1hhTjFLODRV",
+      "guidislink": false,
+      "published": "Thu, 23 Nov 2017 08:00:00 GMT",
+      "published_parsed": [
+        2017,
+        11,
+        23,
+        8,
+        0,
+        0,
+        3,
+        327,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE96X0E5REVSQXI3RWp4ZFVsNTFHS2dlaDBna01GT2hrUElNejd4STg0RVpsaFNkcVpOMEZUdWpEWDFRbmZ4MWhEUUVZZnZpYzRtUzd1UHFCZ1hhTjFLODRV?oc=5\" target=\"_blank\">Characterization of large and small-plaque variants in the Zika virus clinical isolate ZIKV/Hu/S36/Chiba/2016</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE96X0E5REVSQXI3RWp4ZFVsNTFHS2dlaDBna01GT2hrUElNejd4STg0RVpsaFNkcVpOMEZUdWpEWDFRbmZ4MWhEUUVZZnZpYzRtUzd1UHFCZ1hhTjFLODRV?oc=5\" target=\"_blank\">Characterization of large and small-plaque variants in the Zika virus clinical isolate ZIKV/Hu/S36/Chiba/2016</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Designing Ecofriendly Bionanocomposite Assembly with Improved Antimicrobial and Potent on-site Zika Virus Vector Larvicidal Activities with its Mode of Action - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Designing Ecofriendly Bionanocomposite Assembly with Improved Antimicrobial and Potent on-site Zika Virus Vector Larvicidal Activities with its Mode of Action - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBoRGpQbGw4WmZjaDg4QlJWTnh4ZEh5RVA0U05qcHQ0M29pZWx4dXgxdUhvZzJ6cVdSUnlvX2xFQnJBdFBGaDFaVzdWYTZDbFdwX1YzaHZ3cWhGbWc4cVlV?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBoRGpQbGw4WmZjaDg4QlJWTnh4ZEh5RVA0U05qcHQ0M29pZWx4dXgxdUhvZzJ6cVdSUnlvX2xFQnJBdFBGaDFaVzdWYTZDbFdwX1YzaHZ3cWhGbWc4cVlV?oc=5",
+      "id": "CBMiX0FVX3lxTFBoRGpQbGw4WmZjaDg4QlJWTnh4ZEh5RVA0U05qcHQ0M29pZWx4dXgxdUhvZzJ6cVdSUnlvX2xFQnJBdFBGaDFaVzdWYTZDbFdwX1YzaHZ3cWhGbWc4cVlV",
+      "guidislink": false,
+      "published": "Tue, 14 Nov 2017 08:00:00 GMT",
+      "published_parsed": [
+        2017,
+        11,
+        14,
+        8,
+        0,
+        0,
+        1,
+        318,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFBoRGpQbGw4WmZjaDg4QlJWTnh4ZEh5RVA0U05qcHQ0M29pZWx4dXgxdUhvZzJ6cVdSUnlvX2xFQnJBdFBGaDFaVzdWYTZDbFdwX1YzaHZ3cWhGbWc4cVlV?oc=5\" target=\"_blank\">Designing Ecofriendly Bionanocomposite Assembly with Improved Antimicrobial and Potent on-site Zika Virus Vector Larvicidal Activities with its Mode of Action</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFBoRGpQbGw4WmZjaDg4QlJWTnh4ZEh5RVA0U05qcHQ0M29pZWx4dXgxdUhvZzJ6cVdSUnlvX2xFQnJBdFBGaDFaVzdWYTZDbFdwX1YzaHZ3cWhGbWc4cVlV?oc=5\" target=\"_blank\">Designing Ecofriendly Bionanocomposite Assembly with Improved Antimicrobial and Potent on-site Zika Virus Vector Larvicidal Activities with its Mode of Action</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Rainfall can indicate that mosquito-borne epidemics will occur weeks later - UCLA Health",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Rainfall can indicate that mosquito-borne epidemics will occur weeks later - UCLA Health"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORG9HaTR1SzhRZ2JjRTl5WktVRHhkWnNvUU1GN2luRzJMUUdoZEhIMThKdG1IczdpS215cWVSVGlDblVLWm14STIyZFFab0xGb3V3ZEVlTnEzTXZHNGR1XzlnM1hoQVNheXR4Z0RXbnFnZFFUYW9CTXFCd3gyS3FOaUhVODFMMWpfdU0zWXdjcXVaT21YQ0lpcEhDdEgyZU5JajJZQVBOOG5hMXg2ekF0alp4RQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORG9HaTR1SzhRZ2JjRTl5WktVRHhkWnNvUU1GN2luRzJMUUdoZEhIMThKdG1IczdpS215cWVSVGlDblVLWm14STIyZFFab0xGb3V3ZEVlTnEzTXZHNGR1XzlnM1hoQVNheXR4Z0RXbnFnZFFUYW9CTXFCd3gyS3FOaUhVODFMMWpfdU0zWXdjcXVaT21YQ0lpcEhDdEgyZU5JajJZQVBOOG5hMXg2ekF0alp4RQ?oc=5",
+      "id": "CBMiswFBVV95cUxORG9HaTR1SzhRZ2JjRTl5WktVRHhkWnNvUU1GN2luRzJMUUdoZEhIMThKdG1IczdpS215cWVSVGlDblVLWm14STIyZFFab0xGb3V3ZEVlTnEzTXZHNGR1XzlnM1hoQVNheXR4Z0RXbnFnZFFUYW9CTXFCd3gyS3FOaUhVODFMMWpfdU0zWXdjcXVaT21YQ0lpcEhDdEgyZU5JajJZQVBOOG5hMXg2ekF0alp4RQ",
+      "guidislink": false,
+      "published": "Tue, 21 Nov 2017 08:00:00 GMT",
+      "published_parsed": [
+        2017,
+        11,
+        21,
+        8,
+        0,
+        0,
+        1,
+        325,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxORG9HaTR1SzhRZ2JjRTl5WktVRHhkWnNvUU1GN2luRzJMUUdoZEhIMThKdG1IczdpS215cWVSVGlDblVLWm14STIyZFFab0xGb3V3ZEVlTnEzTXZHNGR1XzlnM1hoQVNheXR4Z0RXbnFnZFFUYW9CTXFCd3gyS3FOaUhVODFMMWpfdU0zWXdjcXVaT21YQ0lpcEhDdEgyZU5JajJZQVBOOG5hMXg2ekF0alp4RQ?oc=5\" target=\"_blank\">Rainfall can indicate that mosquito-borne epidemics will occur weeks later</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">UCLA Health</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxORG9HaTR1SzhRZ2JjRTl5WktVRHhkWnNvUU1GN2luRzJMUUdoZEhIMThKdG1IczdpS215cWVSVGlDblVLWm14STIyZFFab0xGb3V3ZEVlTnEzTXZHNGR1XzlnM1hoQVNheXR4Z0RXbnFnZFFUYW9CTXFCd3gyS3FOaUhVODFMMWpfdU0zWXdjcXVaT21YQ0lpcEhDdEgyZU5JajJZQVBOOG5hMXg2ekF0alp4RQ?oc=5\" target=\"_blank\">Rainfall can indicate that mosquito-borne epidemics will occur weeks later</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">UCLA Health</font>"
+      },
+      "source": {
+        "href": "https://www.uclahealth.org",
+        "title": "UCLA Health"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Drones Distribute Swarms of Sterile Mosquitoes to Stop Zika and Other Diseases - IEEE Spectrum",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Drones Distribute Swarms of Sterile Mosquitoes to Stop Zika and Other Diseases - IEEE Spectrum"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPekZ5dldRbE9FYTY4bl9wdHN1SW9xLXFJRlRZVTJ2QjFoMmZTbC1jd2VDZWxDWXU3TDJHVkRfbDMybmttbkxEX1BGNEdxeEc4UWVUYWdCNFpWWDlVNEc1bF84RWxVUEdrWHNoa0tvdHFfSmFaeW1kSDRZd25lQUQ0VG9zbnZYSFJETzUwb2R1bTZVcEpsR2VsQ3h0em9Fc1NyZV9OcWNPY9IBuwFBVV95cUxNZksxV2tHY3BJWjVkRVJreTNoUHU3UFBXbHkxQ2N6WmtnWmplbHo1bFUxcDdHWjFxc1NUcmJzOC02VlBsSlJ4VFJlcXRQclB0bEJCT1RuWWVvSktBdGdnR2IxRUZmb0dJZDB3V1owVEp3NzByVElQM2dGZlV4dG1TUFQ0VnRiS0t0Qi11RVlOY19HclVJbWVmak55VnR5T2lWbTZwa0Jfdl9JVXFGVWw2MGtnVXVSSTdjb3BJ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPekZ5dldRbE9FYTY4bl9wdHN1SW9xLXFJRlRZVTJ2QjFoMmZTbC1jd2VDZWxDWXU3TDJHVkRfbDMybmttbkxEX1BGNEdxeEc4UWVUYWdCNFpWWDlVNEc1bF84RWxVUEdrWHNoa0tvdHFfSmFaeW1kSDRZd25lQUQ0VG9zbnZYSFJETzUwb2R1bTZVcEpsR2VsQ3h0em9Fc1NyZV9OcWNPY9IBuwFBVV95cUxNZksxV2tHY3BJWjVkRVJreTNoUHU3UFBXbHkxQ2N6WmtnWmplbHo1bFUxcDdHWjFxc1NUcmJzOC02VlBsSlJ4VFJlcXRQclB0bEJCT1RuWWVvSktBdGdnR2IxRUZmb0dJZDB3V1owVEp3NzByVElQM2dGZlV4dG1TUFQ0VnRiS0t0Qi11RVlOY19HclVJbWVmak55VnR5T2lWbTZwa0Jfdl9JVXFGVWw2MGtnVXVSSTdjb3BJ?oc=5",
+      "id": "CBMipwFBVV95cUxPekZ5dldRbE9FYTY4bl9wdHN1SW9xLXFJRlRZVTJ2QjFoMmZTbC1jd2VDZWxDWXU3TDJHVkRfbDMybmttbkxEX1BGNEdxeEc4UWVUYWdCNFpWWDlVNEc1bF84RWxVUEdrWHNoa0tvdHFfSmFaeW1kSDRZd25lQUQ0VG9zbnZYSFJETzUwb2R1bTZVcEpsR2VsQ3h0em9Fc1NyZV9OcWNPY9IBuwFBVV95cUxNZksxV2tHY3BJWjVkRVJreTNoUHU3UFBXbHkxQ2N6WmtnWmplbHo1bFUxcDdHWjFxc1NUcmJzOC02VlBsSlJ4VFJlcXRQclB0bEJCT1RuWWVvSktBdGdnR2IxRUZmb0dJZDB3V1owVEp3NzByVElQM2dGZlV4dG1TUFQ0VnRiS0t0Qi11RVlOY19HclVJbWVmak55VnR5T2lWbTZwa0Jfdl9JVXFGVWw2MGtnVXVSSTdjb3BJ",
+      "guidislink": false,
+      "published": "Mon, 20 Nov 2017 08:00:00 GMT",
+      "published_parsed": [
+        2017,
+        11,
+        20,
+        8,
+        0,
+        0,
+        0,
+        324,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxPekZ5dldRbE9FYTY4bl9wdHN1SW9xLXFJRlRZVTJ2QjFoMmZTbC1jd2VDZWxDWXU3TDJHVkRfbDMybmttbkxEX1BGNEdxeEc4UWVUYWdCNFpWWDlVNEc1bF84RWxVUEdrWHNoa0tvdHFfSmFaeW1kSDRZd25lQUQ0VG9zbnZYSFJETzUwb2R1bTZVcEpsR2VsQ3h0em9Fc1NyZV9OcWNPY9IBuwFBVV95cUxNZksxV2tHY3BJWjVkRVJreTNoUHU3UFBXbHkxQ2N6WmtnWmplbHo1bFUxcDdHWjFxc1NUcmJzOC02VlBsSlJ4VFJlcXRQclB0bEJCT1RuWWVvSktBdGdnR2IxRUZmb0dJZDB3V1owVEp3NzByVElQM2dGZlV4dG1TUFQ0VnRiS0t0Qi11RVlOY19HclVJbWVmak55VnR5T2lWbTZwa0Jfdl9JVXFGVWw2MGtnVXVSSTdjb3BJ?oc=5\" target=\"_blank\">Drones Distribute Swarms of Sterile Mosquitoes to Stop Zika and Other Diseases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IEEE Spectrum</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxPekZ5dldRbE9FYTY4bl9wdHN1SW9xLXFJRlRZVTJ2QjFoMmZTbC1jd2VDZWxDWXU3TDJHVkRfbDMybmttbkxEX1BGNEdxeEc4UWVUYWdCNFpWWDlVNEc1bF84RWxVUEdrWHNoa0tvdHFfSmFaeW1kSDRZd25lQUQ0VG9zbnZYSFJETzUwb2R1bTZVcEpsR2VsQ3h0em9Fc1NyZV9OcWNPY9IBuwFBVV95cUxNZksxV2tHY3BJWjVkRVJreTNoUHU3UFBXbHkxQ2N6WmtnWmplbHo1bFUxcDdHWjFxc1NUcmJzOC02VlBsSlJ4VFJlcXRQclB0bEJCT1RuWWVvSktBdGdnR2IxRUZmb0dJZDB3V1owVEp3NzByVElQM2dGZlV4dG1TUFQ0VnRiS0t0Qi11RVlOY19HclVJbWVmak55VnR5T2lWbTZwa0Jfdl9JVXFGVWw2MGtnVXVSSTdjb3BJ?oc=5\" target=\"_blank\">Drones Distribute Swarms of Sterile Mosquitoes to Stop Zika and Other Diseases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IEEE Spectrum</font>"
+      },
+      "source": {
+        "href": "https://spectrum.ieee.org",
+        "title": "IEEE Spectrum"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Can We Track Malaria And Zika By Sound? - Forbes",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Can We Track Malaria And Zika By Sound? - Forbes"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMUh1NFV2ZTRzSGRmaUhVR0ozMm90bW1CMzJXc3ZER1g2dC1vUWZzTGJQWFliVjZDR0JTUXJubHB3M0ZWQ190Q0NtSlg2N3dnMkx1ZUo5ZDZ2TWZ3aDBjVFlFUF8zY2ZidTRXZ0UxSkRCNFNsNldWcDhzdWY2dmhyU242VUdBelBsQlBuakxKSlhrWkVjTzYzUg?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMUh1NFV2ZTRzSGRmaUhVR0ozMm90bW1CMzJXc3ZER1g2dC1vUWZzTGJQWFliVjZDR0JTUXJubHB3M0ZWQ190Q0NtSlg2N3dnMkx1ZUo5ZDZ2TWZ3aDBjVFlFUF8zY2ZidTRXZ0UxSkRCNFNsNldWcDhzdWY2dmhyU242VUdBelBsQlBuakxKSlhrWkVjTzYzUg?oc=5",
+      "id": "CBMimAFBVV95cUxNMUh1NFV2ZTRzSGRmaUhVR0ozMm90bW1CMzJXc3ZER1g2dC1vUWZzTGJQWFliVjZDR0JTUXJubHB3M0ZWQ190Q0NtSlg2N3dnMkx1ZUo5ZDZ2TWZ3aDBjVFlFUF8zY2ZidTRXZ0UxSkRCNFNsNldWcDhzdWY2dmhyU242VUdBelBsQlBuakxKSlhrWkVjTzYzUg",
+      "guidislink": false,
+      "published": "Wed, 22 Nov 2017 08:00:00 GMT",
+      "published_parsed": [
+        2017,
+        11,
+        22,
+        8,
+        0,
+        0,
+        2,
+        326,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxNMUh1NFV2ZTRzSGRmaUhVR0ozMm90bW1CMzJXc3ZER1g2dC1vUWZzTGJQWFliVjZDR0JTUXJubHB3M0ZWQ190Q0NtSlg2N3dnMkx1ZUo5ZDZ2TWZ3aDBjVFlFUF8zY2ZidTRXZ0UxSkRCNFNsNldWcDhzdWY2dmhyU242VUdBelBsQlBuakxKSlhrWkVjTzYzUg?oc=5\" target=\"_blank\">Can We Track Malaria And Zika By Sound?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Forbes</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxNMUh1NFV2ZTRzSGRmaUhVR0ozMm90bW1CMzJXc3ZER1g2dC1vUWZzTGJQWFliVjZDR0JTUXJubHB3M0ZWQ190Q0NtSlg2N3dnMkx1ZUo5ZDZ2TWZ3aDBjVFlFUF8zY2ZidTRXZ0UxSkRCNFNsNldWcDhzdWY2dmhyU242VUdBelBsQlBuakxKSlhrWkVjTzYzUg?oc=5\" target=\"_blank\">Can We Track Malaria And Zika By Sound?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Forbes</font>"
+      },
+      "source": {
+        "href": "https://www.forbes.com",
+        "title": "Forbes"
+      },
+      "sub_articles": []
+    }
+  ]
+}

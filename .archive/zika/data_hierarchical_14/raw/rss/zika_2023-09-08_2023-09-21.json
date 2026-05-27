@@ -1,0 +1,1209 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2023-09-08",
+  "window_end": "2023-09-21",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2023-09-08+before%3A2023-09-22&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2023-09-08+before:2023-09-22&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:30:22Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2023-09-08 before:2023-09-22\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2023-09-08 before:2023-09-22\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2023-09-08+before:2023-09-22&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2023-09-08+before:2023-09-22&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:30:22 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      30,
+      22,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Zika virus targets human trophoblast stem cells and prevents syncytialization in placental trophoblast organoids - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika virus targets human trophoblast stem cells and prevents syncytialization in placental trophoblast organoids - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5sdG1SV0hCTVdtbmYySGxRODlHZlV2WHRIeXlJMlBybDhqZUlSWmNoRkJuT196WnBKQTYtYU9xSXdrcFJfNGctUFo1VW9fX0hPanNFVUowZG5nNldoUjJZ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5sdG1SV0hCTVdtbmYySGxRODlHZlV2WHRIeXlJMlBybDhqZUlSWmNoRkJuT196WnBKQTYtYU9xSXdrcFJfNGctUFo1VW9fX0hPanNFVUowZG5nNldoUjJZ?oc=5",
+      "id": "CBMiX0FVX3lxTE5sdG1SV0hCTVdtbmYySGxRODlHZlV2WHRIeXlJMlBybDhqZUlSWmNoRkJuT196WnBKQTYtYU9xSXdrcFJfNGctUFo1VW9fX0hPanNFVUowZG5nNldoUjJZ",
+      "guidislink": false,
+      "published": "Fri, 08 Sep 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        9,
+        8,
+        7,
+        0,
+        0,
+        4,
+        251,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5sdG1SV0hCTVdtbmYySGxRODlHZlV2WHRIeXlJMlBybDhqZUlSWmNoRkJuT196WnBKQTYtYU9xSXdrcFJfNGctUFo1VW9fX0hPanNFVUowZG5nNldoUjJZ?oc=5\" target=\"_blank\">Zika virus targets human trophoblast stem cells and prevents syncytialization in placental trophoblast organoids</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5sdG1SV0hCTVdtbmYySGxRODlHZlV2WHRIeXlJMlBybDhqZUlSWmNoRkJuT196WnBKQTYtYU9xSXdrcFJfNGctUFo1VW9fX0hPanNFVUowZG5nNldoUjJZ?oc=5\" target=\"_blank\">Zika virus targets human trophoblast stem cells and prevents syncytialization in placental trophoblast organoids</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika virus modulates mitochondrial dynamics, mitophagy, and mitochondria-derived vesicles to facilitate viral replication in trophoblast cells - Frontiers",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika virus modulates mitochondrial dynamics, mitophagy, and mitochondria-derived vesicles to facilitate viral replication in trophoblast cells - Frontiers"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcWRlN0RWNUVCeHVQZ2pCa0FwbHBJLVhjSHl0eFFwMUt3RFRNelhJeHF3UkEwOFpyOFJXX0k5c1pGT3Y5ZWVrc2hMaUV3STJ1ellzQ1l6WmxhR1hfM3hXZklpelNnZTNnczF4NHhiSU5ZMlhib1hRMnRaZTNkVU1mUHBCdTJYd1lGYzdIM3RuakZCdw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcWRlN0RWNUVCeHVQZ2pCa0FwbHBJLVhjSHl0eFFwMUt3RFRNelhJeHF3UkEwOFpyOFJXX0k5c1pGT3Y5ZWVrc2hMaUV3STJ1ellzQ1l6WmxhR1hfM3hXZklpelNnZTNnczF4NHhiSU5ZMlhib1hRMnRaZTNkVU1mUHBCdTJYd1lGYzdIM3RuakZCdw?oc=5",
+      "id": "CBMikgFBVV95cUxNcWRlN0RWNUVCeHVQZ2pCa0FwbHBJLVhjSHl0eFFwMUt3RFRNelhJeHF3UkEwOFpyOFJXX0k5c1pGT3Y5ZWVrc2hMaUV3STJ1ellzQ1l6WmxhR1hfM3hXZklpelNnZTNnczF4NHhiSU5ZMlhib1hRMnRaZTNkVU1mUHBCdTJYd1lGYzdIM3RuakZCdw",
+      "guidislink": false,
+      "published": "Wed, 13 Sep 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        9,
+        13,
+        7,
+        0,
+        0,
+        2,
+        256,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxNcWRlN0RWNUVCeHVQZ2pCa0FwbHBJLVhjSHl0eFFwMUt3RFRNelhJeHF3UkEwOFpyOFJXX0k5c1pGT3Y5ZWVrc2hMaUV3STJ1ellzQ1l6WmxhR1hfM3hXZklpelNnZTNnczF4NHhiSU5ZMlhib1hRMnRaZTNkVU1mUHBCdTJYd1lGYzdIM3RuakZCdw?oc=5\" target=\"_blank\">Zika virus modulates mitochondrial dynamics, mitophagy, and mitochondria-derived vesicles to facilitate viral replication in trophoblast cells</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Frontiers</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxNcWRlN0RWNUVCeHVQZ2pCa0FwbHBJLVhjSHl0eFFwMUt3RFRNelhJeHF3UkEwOFpyOFJXX0k5c1pGT3Y5ZWVrc2hMaUV3STJ1ellzQ1l6WmxhR1hfM3hXZklpelNnZTNnczF4NHhiSU5ZMlhib1hRMnRaZTNkVU1mUHBCdTJYd1lGYzdIM3RuakZCdw?oc=5\" target=\"_blank\">Zika virus modulates mitochondrial dynamics, mitophagy, and mitochondria-derived vesicles to facilitate viral replication in trophoblast cells</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Frontiers</font>"
+      },
+      "source": {
+        "href": "https://www.frontiersin.org",
+        "title": "Frontiers"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Researchers combat Zika-associated fetal abnormalities using microRNA | BCM - Baylor College of Medicine | BCM",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Researchers combat Zika-associated fetal abnormalities using microRNA | BCM - Baylor College of Medicine | BCM"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZ0I0djdGYTNkdTlTd3NkMnBRVDV5U0F1YUIwWkNSX3BOLW1BNHE4b29mTllpT1pmR3hHWXJ6TW56MDFlVzc1Q0xnZXhuUjU1UU5GcDFsOWpvY3B1TFcwNUU5WkJtTDBGbnV2N0ZjaHZPdUtUTkxZZE02cmdQSERJZTNFZm04UG0yNjdFWWRUaEFHOGVpckZ0MjVB?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZ0I0djdGYTNkdTlTd3NkMnBRVDV5U0F1YUIwWkNSX3BOLW1BNHE4b29mTllpT1pmR3hHWXJ6TW56MDFlVzc1Q0xnZXhuUjU1UU5GcDFsOWpvY3B1TFcwNUU5WkJtTDBGbnV2N0ZjaHZPdUtUTkxZZE02cmdQSERJZTNFZm04UG0yNjdFWWRUaEFHOGVpckZ0MjVB?oc=5",
+      "id": "CBMimgFBVV95cUxQZ0I0djdGYTNkdTlTd3NkMnBRVDV5U0F1YUIwWkNSX3BOLW1BNHE4b29mTllpT1pmR3hHWXJ6TW56MDFlVzc1Q0xnZXhuUjU1UU5GcDFsOWpvY3B1TFcwNUU5WkJtTDBGbnV2N0ZjaHZPdUtUTkxZZE02cmdQSERJZTNFZm04UG0yNjdFWWRUaEFHOGVpckZ0MjVB",
+      "guidislink": false,
+      "published": "Thu, 21 Sep 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        9,
+        21,
+        7,
+        0,
+        0,
+        3,
+        264,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxQZ0I0djdGYTNkdTlTd3NkMnBRVDV5U0F1YUIwWkNSX3BOLW1BNHE4b29mTllpT1pmR3hHWXJ6TW56MDFlVzc1Q0xnZXhuUjU1UU5GcDFsOWpvY3B1TFcwNUU5WkJtTDBGbnV2N0ZjaHZPdUtUTkxZZE02cmdQSERJZTNFZm04UG0yNjdFWWRUaEFHOGVpckZ0MjVB?oc=5\" target=\"_blank\">Researchers combat Zika-associated fetal abnormalities using microRNA | BCM</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Baylor College of Medicine | BCM</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxQZ0I0djdGYTNkdTlTd3NkMnBRVDV5U0F1YUIwWkNSX3BOLW1BNHE4b29mTllpT1pmR3hHWXJ6TW56MDFlVzc1Q0xnZXhuUjU1UU5GcDFsOWpvY3B1TFcwNUU5WkJtTDBGbnV2N0ZjaHZPdUtUTkxZZE02cmdQSERJZTNFZm04UG0yNjdFWWRUaEFHOGVpckZ0MjVB?oc=5\" target=\"_blank\">Researchers combat Zika-associated fetal abnormalities using microRNA | BCM</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Baylor College of Medicine | BCM</font>"
+      },
+      "source": {
+        "href": "https://www.bcm.edu",
+        "title": "Baylor College of Medicine | BCM"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Discovery in Mosquitoes Could Lead to New Strategy Against Dengue Fever and Other Mosquito-Borne Viruses - Johns Hopkins Bloomberg School of Public Health",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Discovery in Mosquitoes Could Lead to New Strategy Against Dengue Fever and Other Mosquito-Borne Viruses - Johns Hopkins Bloomberg School of Public Health"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSDlRLVBORkdUMXFDTmJNQ21iMGtpaUlNQ2YyY1FsLWo5NUcyYk51Vmd0Ql83cHFBUzI5U0g5cHNIR3pwY3g3ZEtKRjdiUUtGNUFJSlI0NF9vTVBsMWthWVIzd2VadVNFREJfX1lrejZmUnoyZ3BTdUhOVV9QWmFMX2dBOHc0emVrT1Z2b2RmbDFHTGR6WDRxM3JlR1hFOFAwaXN5ZENxbkQzMGNZeTZDSGZrY3BQU2dHSlJVM1FLMG50YVpIeGtlczZyZTBaR0JmMXk5WQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSDlRLVBORkdUMXFDTmJNQ21iMGtpaUlNQ2YyY1FsLWo5NUcyYk51Vmd0Ql83cHFBUzI5U0g5cHNIR3pwY3g3ZEtKRjdiUUtGNUFJSlI0NF9vTVBsMWthWVIzd2VadVNFREJfX1lrejZmUnoyZ3BTdUhOVV9QWmFMX2dBOHc0emVrT1Z2b2RmbDFHTGR6WDRxM3JlR1hFOFAwaXN5ZENxbkQzMGNZeTZDSGZrY3BQU2dHSlJVM1FLMG50YVpIeGtlczZyZTBaR0JmMXk5WQ?oc=5",
+      "id": "CBMi1AFBVV95cUxNSDlRLVBORkdUMXFDTmJNQ21iMGtpaUlNQ2YyY1FsLWo5NUcyYk51Vmd0Ql83cHFBUzI5U0g5cHNIR3pwY3g3ZEtKRjdiUUtGNUFJSlI0NF9vTVBsMWthWVIzd2VadVNFREJfX1lrejZmUnoyZ3BTdUhOVV9QWmFMX2dBOHc0emVrT1Z2b2RmbDFHTGR6WDRxM3JlR1hFOFAwaXN5ZENxbkQzMGNZeTZDSGZrY3BQU2dHSlJVM1FLMG50YVpIeGtlczZyZTBaR0JmMXk5WQ",
+      "guidislink": false,
+      "published": "Fri, 22 Sep 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        9,
+        22,
+        7,
+        0,
+        0,
+        4,
+        265,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSDlRLVBORkdUMXFDTmJNQ21iMGtpaUlNQ2YyY1FsLWo5NUcyYk51Vmd0Ql83cHFBUzI5U0g5cHNIR3pwY3g3ZEtKRjdiUUtGNUFJSlI0NF9vTVBsMWthWVIzd2VadVNFREJfX1lrejZmUnoyZ3BTdUhOVV9QWmFMX2dBOHc0emVrT1Z2b2RmbDFHTGR6WDRxM3JlR1hFOFAwaXN5ZENxbkQzMGNZeTZDSGZrY3BQU2dHSlJVM1FLMG50YVpIeGtlczZyZTBaR0JmMXk5WQ?oc=5\" target=\"_blank\">Discovery in Mosquitoes Could Lead to New Strategy Against Dengue Fever and Other Mosquito-Borne Viruses</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Johns Hopkins Bloomberg School of Public Health</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSDlRLVBORkdUMXFDTmJNQ21iMGtpaUlNQ2YyY1FsLWo5NUcyYk51Vmd0Ql83cHFBUzI5U0g5cHNIR3pwY3g3ZEtKRjdiUUtGNUFJSlI0NF9vTVBsMWthWVIzd2VadVNFREJfX1lrejZmUnoyZ3BTdUhOVV9QWmFMX2dBOHc0emVrT1Z2b2RmbDFHTGR6WDRxM3JlR1hFOFAwaXN5ZENxbkQzMGNZeTZDSGZrY3BQU2dHSlJVM1FLMG50YVpIeGtlczZyZTBaR0JmMXk5WQ?oc=5\" target=\"_blank\">Discovery in Mosquitoes Could Lead to New Strategy Against Dengue Fever and Other Mosquito-Borne Viruses</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Johns Hopkins Bloomberg School of Public Health</font>"
+      },
+      "source": {
+        "href": "https://publichealth.jhu.edu",
+        "title": "Johns Hopkins Bloomberg School of Public Health"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Mosquito-borne Diseases - Howard County (.gov)",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Mosquito-borne Diseases - Howard County (.gov)"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9falZLeEJHbWVfWTRYT0luMzRtUXNfdS1zVlNVeXpUcC1VLTlyRkxkbVdBMTllYm05WG52ckRDRC1lSmFkbzFpUS1GVlVteFNYb2M3M1RaYXMyRG9xLVpvWDBwaHRwSUZUWWNmS3pB?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9falZLeEJHbWVfWTRYT0luMzRtUXNfdS1zVlNVeXpUcC1VLTlyRkxkbVdBMTllYm05WG52ckRDRC1lSmFkbzFpUS1GVlVteFNYb2M3M1RaYXMyRG9xLVpvWDBwaHRwSUZUWWNmS3pB?oc=5",
+      "id": "CBMibkFVX3lxTE9falZLeEJHbWVfWTRYT0luMzRtUXNfdS1zVlNVeXpUcC1VLTlyRkxkbVdBMTllYm05WG52ckRDRC1lSmFkbzFpUS1GVlVteFNYb2M3M1RaYXMyRG9xLVpvWDBwaHRwSUZUWWNmS3pB",
+      "guidislink": false,
+      "published": "Thu, 21 Sep 2023 20:02:31 GMT",
+      "published_parsed": [
+        2023,
+        9,
+        21,
+        20,
+        2,
+        31,
+        3,
+        264,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTE9falZLeEJHbWVfWTRYT0luMzRtUXNfdS1zVlNVeXpUcC1VLTlyRkxkbVdBMTllYm05WG52ckRDRC1lSmFkbzFpUS1GVlVteFNYb2M3M1RaYXMyRG9xLVpvWDBwaHRwSUZUWWNmS3pB?oc=5\" target=\"_blank\">Mosquito-borne Diseases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Howard County (.gov)</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTE9falZLeEJHbWVfWTRYT0luMzRtUXNfdS1zVlNVeXpUcC1VLTlyRkxkbVdBMTllYm05WG52ckRDRC1lSmFkbzFpUS1GVlVteFNYb2M3M1RaYXMyRG9xLVpvWDBwaHRwSUZUWWNmS3pB?oc=5\" target=\"_blank\">Mosquito-borne Diseases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Howard County (.gov)</font>"
+      },
+      "source": {
+        "href": "https://www.howardcountymd.gov",
+        "title": "Howard County (.gov)"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Health Alert – U.S. Embassy Hanoi (September 18, 2023) - U.S. Embassy & Consulate in Vietnam (.gov)",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Health Alert – U.S. Embassy Hanoi (September 18, 2023) - U.S. Embassy & Consulate in Vietnam (.gov)"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4yM1VDNWQ3eHhlYi1FNkR6YXBqa0lScnBIQzFZQmNaOGE1SVBuLWQzX2Y3Mlg2VTdTRnVmcXlnMzItNXRsY1dUSkoxN08zNnFpWkRlZ1RUamZhc0Q0MmM5d2dyMTN1YXJzZ2RsNF9HN2hJVUs1djd5T09MRllzaDQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4yM1VDNWQ3eHhlYi1FNkR6YXBqa0lScnBIQzFZQmNaOGE1SVBuLWQzX2Y3Mlg2VTdTRnVmcXlnMzItNXRsY1dUSkoxN08zNnFpWkRlZ1RUamZhc0Q0MmM5d2dyMTN1YXJzZ2RsNF9HN2hJVUs1djd5T09MRllzaDQ?oc=5",
+      "id": "CBMif0FVX3lxTE4yM1VDNWQ3eHhlYi1FNkR6YXBqa0lScnBIQzFZQmNaOGE1SVBuLWQzX2Y3Mlg2VTdTRnVmcXlnMzItNXRsY1dUSkoxN08zNnFpWkRlZ1RUamZhc0Q0MmM5d2dyMTN1YXJzZ2RsNF9HN2hJVUs1djd5T09MRllzaDQ",
+      "guidislink": false,
+      "published": "Mon, 18 Sep 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        9,
+        18,
+        7,
+        0,
+        0,
+        0,
+        261,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE4yM1VDNWQ3eHhlYi1FNkR6YXBqa0lScnBIQzFZQmNaOGE1SVBuLWQzX2Y3Mlg2VTdTRnVmcXlnMzItNXRsY1dUSkoxN08zNnFpWkRlZ1RUamZhc0Q0MmM5d2dyMTN1YXJzZ2RsNF9HN2hJVUs1djd5T09MRllzaDQ?oc=5\" target=\"_blank\">Health Alert – U.S. Embassy Hanoi (September 18, 2023)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">U.S. Embassy & Consulate in Vietnam (.gov)</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE4yM1VDNWQ3eHhlYi1FNkR6YXBqa0lScnBIQzFZQmNaOGE1SVBuLWQzX2Y3Mlg2VTdTRnVmcXlnMzItNXRsY1dUSkoxN08zNnFpWkRlZ1RUamZhc0Q0MmM5d2dyMTN1YXJzZ2RsNF9HN2hJVUs1djd5T09MRllzaDQ?oc=5\" target=\"_blank\">Health Alert – U.S. Embassy Hanoi (September 18, 2023)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">U.S. Embassy & Consulate in Vietnam (.gov)</font>"
+      },
+      "source": {
+        "href": "https://vn.usembassy.gov",
+        "title": "U.S. Embassy & Consulate in Vietnam (.gov)"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "An Inside Look at a Solution Combating Mosquito-Borne Diseases - Syracuse University",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "An Inside Look at a Solution Combating Mosquito-Borne Diseases - Syracuse University"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB2ZER2eXpIVzNvT25fSVdRVTgyb0MxVWNxZDFqWU5jc2RrSE15cFVLelNkSWNWclZEUzdZazI5ekVyTXhJTGZIU1k3WDFuREdWa3dwdTA5WjdYTG9zU0FlRDJXN1ZadERMUU15eTVYc295R09UTVBr?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB2ZER2eXpIVzNvT25fSVdRVTgyb0MxVWNxZDFqWU5jc2RrSE15cFVLelNkSWNWclZEUzdZazI5ekVyTXhJTGZIU1k3WDFuREdWa3dwdTA5WjdYTG9zU0FlRDJXN1ZadERMUU15eTVYc295R09UTVBr?oc=5",
+      "id": "CBMid0FVX3lxTFB2ZER2eXpIVzNvT25fSVdRVTgyb0MxVWNxZDFqWU5jc2RrSE15cFVLelNkSWNWclZEUzdZazI5ekVyTXhJTGZIU1k3WDFuREdWa3dwdTA5WjdYTG9zU0FlRDJXN1ZadERMUU15eTVYc295R09UTVBr",
+      "guidislink": false,
+      "published": "Tue, 12 Sep 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        9,
+        12,
+        7,
+        0,
+        0,
+        1,
+        255,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTFB2ZER2eXpIVzNvT25fSVdRVTgyb0MxVWNxZDFqWU5jc2RrSE15cFVLelNkSWNWclZEUzdZazI5ekVyTXhJTGZIU1k3WDFuREdWa3dwdTA5WjdYTG9zU0FlRDJXN1ZadERMUU15eTVYc295R09UTVBr?oc=5\" target=\"_blank\">An Inside Look at a Solution Combating Mosquito-Borne Diseases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Syracuse University</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTFB2ZER2eXpIVzNvT25fSVdRVTgyb0MxVWNxZDFqWU5jc2RrSE15cFVLelNkSWNWclZEUzdZazI5ekVyTXhJTGZIU1k3WDFuREdWa3dwdTA5WjdYTG9zU0FlRDJXN1ZadERMUU15eTVYc295R09UTVBr?oc=5\" target=\"_blank\">An Inside Look at a Solution Combating Mosquito-Borne Diseases</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Syracuse University</font>"
+      },
+      "source": {
+        "href": "https://www.syracuse.edu",
+        "title": "Syracuse University"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Let skeeters feed on you for science? Welcome to front lines of mosquito control - MPR News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Let skeeters feed on you for science? Welcome to front lines of mosquito control - MPR News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdXctbExZUnN4d2lQTGhtWDBjdmdGTFYzRnJqN2FlTUVlYmFCOS1Oa01LY2VzUXF0UUZsR0Y3eEJiX1U0ek5SUHBJNjZ4aFV5UzV6ZDBlZFVMb2o5SHBmNFZDREhpREVsWVdPNEN4N1lrRWxHSHhxN01XRzJ1X1pKTUVoRC1fOXFvR1dBWkhzZV9tM0FablZRNENaWlRVVDFxb1IzVFpINUYwckNwTjdUWUo2QUZNRi1FMXZrMw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdXctbExZUnN4d2lQTGhtWDBjdmdGTFYzRnJqN2FlTUVlYmFCOS1Oa01LY2VzUXF0UUZsR0Y3eEJiX1U0ek5SUHBJNjZ4aFV5UzV6ZDBlZFVMb2o5SHBmNFZDREhpREVsWVdPNEN4N1lrRWxHSHhxN01XRzJ1X1pKTUVoRC1fOXFvR1dBWkhzZV9tM0FablZRNENaWlRVVDFxb1IzVFpINUYwckNwTjdUWUo2QUZNRi1FMXZrMw?oc=5",
+      "id": "CBMivAFBVV95cUxOdXctbExZUnN4d2lQTGhtWDBjdmdGTFYzRnJqN2FlTUVlYmFCOS1Oa01LY2VzUXF0UUZsR0Y3eEJiX1U0ek5SUHBJNjZ4aFV5UzV6ZDBlZFVMb2o5SHBmNFZDREhpREVsWVdPNEN4N1lrRWxHSHhxN01XRzJ1X1pKTUVoRC1fOXFvR1dBWkhzZV9tM0FablZRNENaWlRVVDFxb1IzVFpINUYwckNwTjdUWUo2QUZNRi1FMXZrMw",
+      "guidislink": false,
+      "published": "Sun, 10 Sep 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        9,
+        10,
+        7,
+        0,
+        0,
+        6,
+        253,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxOdXctbExZUnN4d2lQTGhtWDBjdmdGTFYzRnJqN2FlTUVlYmFCOS1Oa01LY2VzUXF0UUZsR0Y3eEJiX1U0ek5SUHBJNjZ4aFV5UzV6ZDBlZFVMb2o5SHBmNFZDREhpREVsWVdPNEN4N1lrRWxHSHhxN01XRzJ1X1pKTUVoRC1fOXFvR1dBWkhzZV9tM0FablZRNENaWlRVVDFxb1IzVFpINUYwckNwTjdUWUo2QUZNRi1FMXZrMw?oc=5\" target=\"_blank\">Let skeeters feed on you for science? Welcome to front lines of mosquito control</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MPR News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxOdXctbExZUnN4d2lQTGhtWDBjdmdGTFYzRnJqN2FlTUVlYmFCOS1Oa01LY2VzUXF0UUZsR0Y3eEJiX1U0ek5SUHBJNjZ4aFV5UzV6ZDBlZFVMb2o5SHBmNFZDREhpREVsWVdPNEN4N1lrRWxHSHhxN01XRzJ1X1pKTUVoRC1fOXFvR1dBWkhzZV9tM0FablZRNENaWlRVVDFxb1IzVFpINUYwckNwTjdUWUo2QUZNRi1FMXZrMw?oc=5\" target=\"_blank\">Let skeeters feed on you for science? Welcome to front lines of mosquito control</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MPR News</font>"
+      },
+      "source": {
+        "href": "https://www.mprnews.org",
+        "title": "MPR News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Meet a new crop of superstars: young alumni who are crushing it - Florida International University",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Meet a new crop of superstars: young alumni who are crushing it - Florida International University"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMkhUNFZleUhlc1l5dDhtaW43TTRYT1NwRUJjRVQ1RDJjdnNYMzVjdHRVX2JTTTE0Rk1wbUhEQkYyVUY3WEk2ck8wVmxZaFFCUzlEWjNGSHZBTjF0UUE5OUtTNG44UDFQcWlIdmtBcmxFU0dXQjlfUjY5cGYtZVQ5SGVaSU5BN1RyRDcxajd3?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMkhUNFZleUhlc1l5dDhtaW43TTRYT1NwRUJjRVQ1RDJjdnNYMzVjdHRVX2JTTTE0Rk1wbUhEQkYyVUY3WEk2ck8wVmxZaFFCUzlEWjNGSHZBTjF0UUE5OUtTNG44UDFQcWlIdmtBcmxFU0dXQjlfUjY5cGYtZVQ5SGVaSU5BN1RyRDcxajd3?oc=5",
+      "id": "CBMijgFBVV95cUxQMkhUNFZleUhlc1l5dDhtaW43TTRYT1NwRUJjRVQ1RDJjdnNYMzVjdHRVX2JTTTE0Rk1wbUhEQkYyVUY3WEk2ck8wVmxZaFFCUzlEWjNGSHZBTjF0UUE5OUtTNG44UDFQcWlIdmtBcmxFU0dXQjlfUjY5cGYtZVQ5SGVaSU5BN1RyRDcxajd3",
+      "guidislink": false,
+      "published": "Fri, 15 Sep 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        9,
+        15,
+        7,
+        0,
+        0,
+        4,
+        258,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxQMkhUNFZleUhlc1l5dDhtaW43TTRYT1NwRUJjRVQ1RDJjdnNYMzVjdHRVX2JTTTE0Rk1wbUhEQkYyVUY3WEk2ck8wVmxZaFFCUzlEWjNGSHZBTjF0UUE5OUtTNG44UDFQcWlIdmtBcmxFU0dXQjlfUjY5cGYtZVQ5SGVaSU5BN1RyRDcxajd3?oc=5\" target=\"_blank\">Meet a new crop of superstars: young alumni who are crushing it</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Florida International University</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxQMkhUNFZleUhlc1l5dDhtaW43TTRYT1NwRUJjRVQ1RDJjdnNYMzVjdHRVX2JTTTE0Rk1wbUhEQkYyVUY3WEk2ck8wVmxZaFFCUzlEWjNGSHZBTjF0UUE5OUtTNG44UDFQcWlIdmtBcmxFU0dXQjlfUjY5cGYtZVQ5SGVaSU5BN1RyRDcxajd3?oc=5\" target=\"_blank\">Meet a new crop of superstars: young alumni who are crushing it</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Florida International University</font>"
+      },
+      "source": {
+        "href": "https://news.fiu.edu",
+        "title": "Florida International University"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Inside the NYPD's dismantling, takedown of violent Bronx gang - FOX 5 New York",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Inside the NYPD's dismantling, takedown of violent Bronx gang - FOX 5 New York"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBjVUFwRHJ1V2pyU3FLUVRucWN2SDFDRkNZUjU2OEo1WWNVcVVXZElUNHhMNFZtMkt6SmVhR0ZrT00zaUU1dlppQ0duOTNkNWEzSmdiLXNwckhfRk9PYlVYTEJB0gFnQVVfeXFMT0ZsZEp2MnNQVm13ZXV3UEJLUzhicDBwR2VtMDRfQXRNQi1nUndVM3VCT0F0MjBaZnhoMms3UDA0WFprNXJvaW5xeWl2VFRPYndrczVQYXVaRGJYeXpyM1BSOXVfbXR4MA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBjVUFwRHJ1V2pyU3FLUVRucWN2SDFDRkNZUjU2OEo1WWNVcVVXZElUNHhMNFZtMkt6SmVhR0ZrT00zaUU1dlppQ0duOTNkNWEzSmdiLXNwckhfRk9PYlVYTEJB0gFnQVVfeXFMT0ZsZEp2MnNQVm13ZXV3UEJLUzhicDBwR2VtMDRfQXRNQi1nUndVM3VCT0F0MjBaZnhoMms3UDA0WFprNXJvaW5xeWl2VFRPYndrczVQYXVaRGJYeXpyM1BSOXVfbXR4MA?oc=5",
+      "id": "CBMiYkFVX3lxTFBjVUFwRHJ1V2pyU3FLUVRucWN2SDFDRkNZUjU2OEo1WWNVcVVXZElUNHhMNFZtMkt6SmVhR0ZrT00zaUU1dlppQ0duOTNkNWEzSmdiLXNwckhfRk9PYlVYTEJB0gFnQVVfeXFMT0ZsZEp2MnNQVm13ZXV3UEJLUzhicDBwR2VtMDRfQXRNQi1nUndVM3VCT0F0MjBaZnhoMms3UDA0WFprNXJvaW5xeWl2VFRPYndrczVQYXVaRGJYeXpyM1BSOXVfbXR4MA",
+      "guidislink": false,
+      "published": "Fri, 22 Sep 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        9,
+        22,
+        7,
+        0,
+        0,
+        4,
+        265,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTFBjVUFwRHJ1V2pyU3FLUVRucWN2SDFDRkNZUjU2OEo1WWNVcVVXZElUNHhMNFZtMkt6SmVhR0ZrT00zaUU1dlppQ0duOTNkNWEzSmdiLXNwckhfRk9PYlVYTEJB0gFnQVVfeXFMT0ZsZEp2MnNQVm13ZXV3UEJLUzhicDBwR2VtMDRfQXRNQi1nUndVM3VCT0F0MjBaZnhoMms3UDA0WFprNXJvaW5xeWl2VFRPYndrczVQYXVaRGJYeXpyM1BSOXVfbXR4MA?oc=5\" target=\"_blank\">Inside the NYPD's dismantling, takedown of violent Bronx gang</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FOX 5 New York</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTFBjVUFwRHJ1V2pyU3FLUVRucWN2SDFDRkNZUjU2OEo1WWNVcVVXZElUNHhMNFZtMkt6SmVhR0ZrT00zaUU1dlppQ0duOTNkNWEzSmdiLXNwckhfRk9PYlVYTEJB0gFnQVVfeXFMT0ZsZEp2MnNQVm13ZXV3UEJLUzhicDBwR2VtMDRfQXRNQi1nUndVM3VCT0F0MjBaZnhoMms3UDA0WFprNXJvaW5xeWl2VFRPYndrczVQYXVaRGJYeXpyM1BSOXVfbXR4MA?oc=5\" target=\"_blank\">Inside the NYPD's dismantling, takedown of violent Bronx gang</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">FOX 5 New York</font>"
+      },
+      "source": {
+        "href": "https://www.fox5ny.com",
+        "title": "FOX 5 New York"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Pesky and Sometimes Deadly Mosquitoes - UC Agriculture and Natural Resources",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Pesky and Sometimes Deadly Mosquitoes - UC Agriculture and Natural Resources"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdE9Bdnhtb29iMHRYdmVIa3N2WTM1RzVmbXB1UFZKM2lRQ3k4dzhEaEw0dGIyN3VnSENDZExJSHdEY3dteEtOd01ocC1FVklOdHZtb0sycXZtNERuS0NPaEo5Rm90eVVuTUMzdVNwZ2s0MV9RRWM2MnJXWVoyVmlFdDc5SnBmUUg1Tlo5ZHpqZw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdE9Bdnhtb29iMHRYdmVIa3N2WTM1RzVmbXB1UFZKM2lRQ3k4dzhEaEw0dGIyN3VnSENDZExJSHdEY3dteEtOd01ocC1FVklOdHZtb0sycXZtNERuS0NPaEo5Rm90eVVuTUMzdVNwZ2s0MV9RRWM2MnJXWVoyVmlFdDc5SnBmUUg1Tlo5ZHpqZw?oc=5",
+      "id": "CBMijwFBVV95cUxQdE9Bdnhtb29iMHRYdmVIa3N2WTM1RzVmbXB1UFZKM2lRQ3k4dzhEaEw0dGIyN3VnSENDZExJSHdEY3dteEtOd01ocC1FVklOdHZtb0sycXZtNERuS0NPaEo5Rm90eVVuTUMzdVNwZ2s0MV9RRWM2MnJXWVoyVmlFdDc5SnBmUUg1Tlo5ZHpqZw",
+      "guidislink": false,
+      "published": "Thu, 14 Sep 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        9,
+        14,
+        7,
+        0,
+        0,
+        3,
+        257,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxQdE9Bdnhtb29iMHRYdmVIa3N2WTM1RzVmbXB1UFZKM2lRQ3k4dzhEaEw0dGIyN3VnSENDZExJSHdEY3dteEtOd01ocC1FVklOdHZtb0sycXZtNERuS0NPaEo5Rm90eVVuTUMzdVNwZ2s0MV9RRWM2MnJXWVoyVmlFdDc5SnBmUUg1Tlo5ZHpqZw?oc=5\" target=\"_blank\">Pesky and Sometimes Deadly Mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">UC Agriculture and Natural Resources</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxQdE9Bdnhtb29iMHRYdmVIa3N2WTM1RzVmbXB1UFZKM2lRQ3k4dzhEaEw0dGIyN3VnSENDZExJSHdEY3dteEtOd01ocC1FVklOdHZtb0sycXZtNERuS0NPaEo5Rm90eVVuTUMzdVNwZ2s0MV9RRWM2MnJXWVoyVmlFdDc5SnBmUUg1Tlo5ZHpqZw?oc=5\" target=\"_blank\">Pesky and Sometimes Deadly Mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">UC Agriculture and Natural Resources</font>"
+      },
+      "source": {
+        "href": "https://ucanr.edu",
+        "title": "UC Agriculture and Natural Resources"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Local elimination of mosquitoes is possible. Here's why we shouldn't simply kill them all - CBS News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Local elimination of mosquitoes is possible. Here's why we shouldn't simply kill them all - CBS News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPakp3RFJDV09EbzFiTjNybVhBVjBYNjlyWHVzaXI1Uk9vR21aY3FILWNuWHhTQXRuNEdHSUZobC1IZmFXUXR6UldDUS15Vkh3Q0psYlItSE43cllVNjlZeVYtLWpfamd1Yk1ZQmpGbjNIeDNhMXE2Qkp2ZXhDVVIwa25kaHAxUUdZckxGUWFURHpvMmxhMmx3N3hjMkJwTzBlaWZRXzdpQjNWMmFpRWMxelM2bW5ES1MzeFJtcUV1ZkdlNUVkZkHSAcsBQVVfeXFMTi1FT0Q3aW1FNmhjNVBpbnI1bnlWS0VmaFpfSlllMGxYdkQ1S1hhZTVnT3NXZGRDRzlJdUFjY3hySUJRWlFCYUtZdlBGdm5YVGF5ZHFFNDR3QVQzWUFyM0c4UENzaWlUUXU3X1BUY1Foczk0MlgwejJrV0NETzlTYVBjWFpDcWV2RmVfeHgxRkZnSS1CVVlBeEE2VzZsRkdqc3N6c0xYRVVoSUNKMkdjNW41Q20wV3ZsRkZUQzVTLXI2dFRVZXdZUUNsUzg?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPakp3RFJDV09EbzFiTjNybVhBVjBYNjlyWHVzaXI1Uk9vR21aY3FILWNuWHhTQXRuNEdHSUZobC1IZmFXUXR6UldDUS15Vkh3Q0psYlItSE43cllVNjlZeVYtLWpfamd1Yk1ZQmpGbjNIeDNhMXE2Qkp2ZXhDVVIwa25kaHAxUUdZckxGUWFURHpvMmxhMmx3N3hjMkJwTzBlaWZRXzdpQjNWMmFpRWMxelM2bW5ES1MzeFJtcUV1ZkdlNUVkZkHSAcsBQVVfeXFMTi1FT0Q3aW1FNmhjNVBpbnI1bnlWS0VmaFpfSlllMGxYdkQ1S1hhZTVnT3NXZGRDRzlJdUFjY3hySUJRWlFCYUtZdlBGdm5YVGF5ZHFFNDR3QVQzWUFyM0c4UENzaWlUUXU3X1BUY1Foczk0MlgwejJrV0NETzlTYVBjWFpDcWV2RmVfeHgxRkZnSS1CVVlBeEE2VzZsRkdqc3N6c0xYRVVoSUNKMkdjNW41Q20wV3ZsRkZUQzVTLXI2dFRVZXdZUUNsUzg?oc=5",
+      "id": "CBMixgFBVV95cUxPakp3RFJDV09EbzFiTjNybVhBVjBYNjlyWHVzaXI1Uk9vR21aY3FILWNuWHhTQXRuNEdHSUZobC1IZmFXUXR6UldDUS15Vkh3Q0psYlItSE43cllVNjlZeVYtLWpfamd1Yk1ZQmpGbjNIeDNhMXE2Qkp2ZXhDVVIwa25kaHAxUUdZckxGUWFURHpvMmxhMmx3N3hjMkJwTzBlaWZRXzdpQjNWMmFpRWMxelM2bW5ES1MzeFJtcUV1ZkdlNUVkZkHSAcsBQVVfeXFMTi1FT0Q3aW1FNmhjNVBpbnI1bnlWS0VmaFpfSlllMGxYdkQ1S1hhZTVnT3NXZGRDRzlJdUFjY3hySUJRWlFCYUtZdlBGdm5YVGF5ZHFFNDR3QVQzWUFyM0c4UENzaWlUUXU3X1BUY1Foczk0MlgwejJrV0NETzlTYVBjWFpDcWV2RmVfeHgxRkZnSS1CVVlBeEE2VzZsRkdqc3N6c0xYRVVoSUNKMkdjNW41Q20wV3ZsRkZUQzVTLXI2dFRVZXdZUUNsUzg",
+      "guidislink": false,
+      "published": "Wed, 13 Sep 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        9,
+        13,
+        7,
+        0,
+        0,
+        2,
+        256,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxPakp3RFJDV09EbzFiTjNybVhBVjBYNjlyWHVzaXI1Uk9vR21aY3FILWNuWHhTQXRuNEdHSUZobC1IZmFXUXR6UldDUS15Vkh3Q0psYlItSE43cllVNjlZeVYtLWpfamd1Yk1ZQmpGbjNIeDNhMXE2Qkp2ZXhDVVIwa25kaHAxUUdZckxGUWFURHpvMmxhMmx3N3hjMkJwTzBlaWZRXzdpQjNWMmFpRWMxelM2bW5ES1MzeFJtcUV1ZkdlNUVkZkHSAcsBQVVfeXFMTi1FT0Q3aW1FNmhjNVBpbnI1bnlWS0VmaFpfSlllMGxYdkQ1S1hhZTVnT3NXZGRDRzlJdUFjY3hySUJRWlFCYUtZdlBGdm5YVGF5ZHFFNDR3QVQzWUFyM0c4UENzaWlUUXU3X1BUY1Foczk0MlgwejJrV0NETzlTYVBjWFpDcWV2RmVfeHgxRkZnSS1CVVlBeEE2VzZsRkdqc3N6c0xYRVVoSUNKMkdjNW41Q20wV3ZsRkZUQzVTLXI2dFRVZXdZUUNsUzg?oc=5\" target=\"_blank\">Local elimination of mosquitoes is possible. Here's why we shouldn't simply kill them all</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CBS News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxPakp3RFJDV09EbzFiTjNybVhBVjBYNjlyWHVzaXI1Uk9vR21aY3FILWNuWHhTQXRuNEdHSUZobC1IZmFXUXR6UldDUS15Vkh3Q0psYlItSE43cllVNjlZeVYtLWpfamd1Yk1ZQmpGbjNIeDNhMXE2Qkp2ZXhDVVIwa25kaHAxUUdZckxGUWFURHpvMmxhMmx3N3hjMkJwTzBlaWZRXzdpQjNWMmFpRWMxelM2bW5ES1MzeFJtcUV1ZkdlNUVkZkHSAcsBQVVfeXFMTi1FT0Q3aW1FNmhjNVBpbnI1bnlWS0VmaFpfSlllMGxYdkQ1S1hhZTVnT3NXZGRDRzlJdUFjY3hySUJRWlFCYUtZdlBGdm5YVGF5ZHFFNDR3QVQzWUFyM0c4UENzaWlUUXU3X1BUY1Foczk0MlgwejJrV0NETzlTYVBjWFpDcWV2RmVfeHgxRkZnSS1CVVlBeEE2VzZsRkdqc3N6c0xYRVVoSUNKMkdjNW41Q20wV3ZsRkZUQzVTLXI2dFRVZXdZUUNsUzg?oc=5\" target=\"_blank\">Local elimination of mosquitoes is possible. Here's why we shouldn't simply kill them all</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CBS News</font>"
+      },
+      "source": {
+        "href": "https://www.cbsnews.com",
+        "title": "CBS News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "One Bergen resident dies of West Nile, with 8 cases in NJ. When will mosquitoes go away? - Bergen Record",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "One Bergen resident dies of West Nile, with 8 cases in NJ. When will mosquitoes go away? - Bergen Record"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZWlrd0FtRzVMUzd6M2xQaWtNWW5IanJrRHotM01acHpGa3ZhUmdJTjBUZmpfcnI5RUFNakRDa1MwMnV2S09IOUxYQ0JBYzJkZDItQVdRbVFoZDJKeldVa0JnX0JSZnpoTjQtRXdkdzY2MUFKemFxLTIxekVEODljTXR1b2VqNTZnbW9aU0JtM0t0ZFVsakc2bUhVQ2xrenNzX3FWUnlhU2xJaWwx?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZWlrd0FtRzVMUzd6M2xQaWtNWW5IanJrRHotM01acHpGa3ZhUmdJTjBUZmpfcnI5RUFNakRDa1MwMnV2S09IOUxYQ0JBYzJkZDItQVdRbVFoZDJKeldVa0JnX0JSZnpoTjQtRXdkdzY2MUFKemFxLTIxekVEODljTXR1b2VqNTZnbW9aU0JtM0t0ZFVsakc2bUhVQ2xrenNzX3FWUnlhU2xJaWwx?oc=5",
+      "id": "CBMirAFBVV95cUxQZWlrd0FtRzVMUzd6M2xQaWtNWW5IanJrRHotM01acHpGa3ZhUmdJTjBUZmpfcnI5RUFNakRDa1MwMnV2S09IOUxYQ0JBYzJkZDItQVdRbVFoZDJKeldVa0JnX0JSZnpoTjQtRXdkdzY2MUFKemFxLTIxekVEODljTXR1b2VqNTZnbW9aU0JtM0t0ZFVsakc2bUhVQ2xrenNzX3FWUnlhU2xJaWwx",
+      "guidislink": false,
+      "published": "Wed, 20 Sep 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        9,
+        20,
+        7,
+        0,
+        0,
+        2,
+        263,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxQZWlrd0FtRzVMUzd6M2xQaWtNWW5IanJrRHotM01acHpGa3ZhUmdJTjBUZmpfcnI5RUFNakRDa1MwMnV2S09IOUxYQ0JBYzJkZDItQVdRbVFoZDJKeldVa0JnX0JSZnpoTjQtRXdkdzY2MUFKemFxLTIxekVEODljTXR1b2VqNTZnbW9aU0JtM0t0ZFVsakc2bUhVQ2xrenNzX3FWUnlhU2xJaWwx?oc=5\" target=\"_blank\">One Bergen resident dies of West Nile, with 8 cases in NJ. When will mosquitoes go away?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bergen Record</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxQZWlrd0FtRzVMUzd6M2xQaWtNWW5IanJrRHotM01acHpGa3ZhUmdJTjBUZmpfcnI5RUFNakRDa1MwMnV2S09IOUxYQ0JBYzJkZDItQVdRbVFoZDJKeldVa0JnX0JSZnpoTjQtRXdkdzY2MUFKemFxLTIxekVEODljTXR1b2VqNTZnbW9aU0JtM0t0ZFVsakc2bUhVQ2xrenNzX3FWUnlhU2xJaWwx?oc=5\" target=\"_blank\">One Bergen resident dies of West Nile, with 8 cases in NJ. When will mosquitoes go away?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bergen Record</font>"
+      },
+      "source": {
+        "href": "https://www.northjersey.com",
+        "title": "Bergen Record"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "With rain comes mosquitoes – here’s what the Utah health department wants you to know - St. George News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "With rain comes mosquitoes – here’s what the Utah health department wants you to know - St. George News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPbmhIamcwZ0JnY2tJYkdsdlFZaTljQS15ZFQzVFNReFJ5SFloQ2xvNGF2NHhzX0FYaXVwOUZTUW5xbTZ5XzMwb0xZN3dsOXdMcDhuUW5lbk03VVo5Yk5FbkRLSjJQSnh5THFUejFvNmdoM3ROTDVQZUszcUpyX2Faajl3SVlDTWotSTkxQ1JtMjZwZkg5WW5xUmVyaVl2c1Y1eTFOQWdFU0pieVlUbHI1bTJ1VExFZ2l0UTJwajNQNkNXU2hRUXo2Q1FFczc1X0x4NnRVQ3RCSFQtM0NNNFdCeEc5cnhXTVRyYjJLeGRFRXFMRmdLUHN3NHgzTktFLWxNUEhn?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPbmhIamcwZ0JnY2tJYkdsdlFZaTljQS15ZFQzVFNReFJ5SFloQ2xvNGF2NHhzX0FYaXVwOUZTUW5xbTZ5XzMwb0xZN3dsOXdMcDhuUW5lbk03VVo5Yk5FbkRLSjJQSnh5THFUejFvNmdoM3ROTDVQZUszcUpyX2Faajl3SVlDTWotSTkxQ1JtMjZwZkg5WW5xUmVyaVl2c1Y1eTFOQWdFU0pieVlUbHI1bTJ1VExFZ2l0UTJwajNQNkNXU2hRUXo2Q1FFczc1X0x4NnRVQ3RCSFQtM0NNNFdCeEc5cnhXTVRyYjJLeGRFRXFMRmdLUHN3NHgzTktFLWxNUEhn?oc=5",
+      "id": "CBMigwJBVV95cUxPbmhIamcwZ0JnY2tJYkdsdlFZaTljQS15ZFQzVFNReFJ5SFloQ2xvNGF2NHhzX0FYaXVwOUZTUW5xbTZ5XzMwb0xZN3dsOXdMcDhuUW5lbk03VVo5Yk5FbkRLSjJQSnh5THFUejFvNmdoM3ROTDVQZUszcUpyX2Faajl3SVlDTWotSTkxQ1JtMjZwZkg5WW5xUmVyaVl2c1Y1eTFOQWdFU0pieVlUbHI1bTJ1VExFZ2l0UTJwajNQNkNXU2hRUXo2Q1FFczc1X0x4NnRVQ3RCSFQtM0NNNFdCeEc5cnhXTVRyYjJLeGRFRXFMRmdLUHN3NHgzTktFLWxNUEhn",
+      "guidislink": false,
+      "published": "Thu, 14 Sep 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        9,
+        14,
+        7,
+        0,
+        0,
+        3,
+        257,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwJBVV95cUxPbmhIamcwZ0JnY2tJYkdsdlFZaTljQS15ZFQzVFNReFJ5SFloQ2xvNGF2NHhzX0FYaXVwOUZTUW5xbTZ5XzMwb0xZN3dsOXdMcDhuUW5lbk03VVo5Yk5FbkRLSjJQSnh5THFUejFvNmdoM3ROTDVQZUszcUpyX2Faajl3SVlDTWotSTkxQ1JtMjZwZkg5WW5xUmVyaVl2c1Y1eTFOQWdFU0pieVlUbHI1bTJ1VExFZ2l0UTJwajNQNkNXU2hRUXo2Q1FFczc1X0x4NnRVQ3RCSFQtM0NNNFdCeEc5cnhXTVRyYjJLeGRFRXFMRmdLUHN3NHgzTktFLWxNUEhn?oc=5\" target=\"_blank\">With rain comes mosquitoes – here’s what the Utah health department wants you to know</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">St. George News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMigwJBVV95cUxPbmhIamcwZ0JnY2tJYkdsdlFZaTljQS15ZFQzVFNReFJ5SFloQ2xvNGF2NHhzX0FYaXVwOUZTUW5xbTZ5XzMwb0xZN3dsOXdMcDhuUW5lbk03VVo5Yk5FbkRLSjJQSnh5THFUejFvNmdoM3ROTDVQZUszcUpyX2Faajl3SVlDTWotSTkxQ1JtMjZwZkg5WW5xUmVyaVl2c1Y1eTFOQWdFU0pieVlUbHI1bTJ1VExFZ2l0UTJwajNQNkNXU2hRUXo2Q1FFczc1X0x4NnRVQ3RCSFQtM0NNNFdCeEc5cnhXTVRyYjJLeGRFRXFMRmdLUHN3NHgzTktFLWxNUEhn?oc=5\" target=\"_blank\">With rain comes mosquitoes – here’s what the Utah health department wants you to know</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">St. George News</font>"
+      },
+      "source": {
+        "href": "https://www.stgeorgeutah.com",
+        "title": "St. George News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Bangladesh Dengue Outbreak Kills 778 People - VOA - Voice of America English News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Bangladesh Dengue Outbreak Kills 778 People - VOA - Voice of America English News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQzhYNFAtM2F5M0pSU1U1UjREN3JfUTRIcHpvazZhc3pjU0ppWVdmVmw1eENDNWd3RFA3cVZhbm1RZEQxVVQ2eThiVlowT0h0cE9Rb2xPV2JQRko0ci13QU5CMzdVa3pnSWU2VkFOSENIUmZwaEpUWWZiVFNIVnV0M3R5TjhxMzJkYnE40gGOAUFVX3lxTE53V3BvQkNKUHNUSmxzUWFDYkkxUWxzY1FHWTRjQUNjNk1KbTNUd3FSZEFTcWpoUTNIQVlTdkM3MmhQSkNHT3FabWVGWUw3aWN3TmhyYTBoX0hFSG1oNlBFbzB6QzdzZjN5N1BNMTA4c05xZU42WXVVN0toLUZxVlEya01zZTJxRHh1X2tzTUE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQzhYNFAtM2F5M0pSU1U1UjREN3JfUTRIcHpvazZhc3pjU0ppWVdmVmw1eENDNWd3RFA3cVZhbm1RZEQxVVQ2eThiVlowT0h0cE9Rb2xPV2JQRko0ci13QU5CMzdVa3pnSWU2VkFOSENIUmZwaEpUWWZiVFNIVnV0M3R5TjhxMzJkYnE40gGOAUFVX3lxTE53V3BvQkNKUHNUSmxzUWFDYkkxUWxzY1FHWTRjQUNjNk1KbTNUd3FSZEFTcWpoUTNIQVlTdkM3MmhQSkNHT3FabWVGWUw3aWN3TmhyYTBoX0hFSG1oNlBFbzB6QzdzZjN5N1BNMTA4c05xZU42WXVVN0toLUZxVlEya01zZTJxRHh1X2tzTUE?oc=5",
+      "id": "CBMiiwFBVV95cUxPQzhYNFAtM2F5M0pSU1U1UjREN3JfUTRIcHpvazZhc3pjU0ppWVdmVmw1eENDNWd3RFA3cVZhbm1RZEQxVVQ2eThiVlowT0h0cE9Rb2xPV2JQRko0ci13QU5CMzdVa3pnSWU2VkFOSENIUmZwaEpUWWZiVFNIVnV0M3R5TjhxMzJkYnE40gGOAUFVX3lxTE53V3BvQkNKUHNUSmxzUWFDYkkxUWxzY1FHWTRjQUNjNk1KbTNUd3FSZEFTcWpoUTNIQVlTdkM3MmhQSkNHT3FabWVGWUw3aWN3TmhyYTBoX0hFSG1oNlBFbzB6QzdzZjN5N1BNMTA4c05xZU42WXVVN0toLUZxVlEya01zZTJxRHh1X2tzTUE",
+      "guidislink": false,
+      "published": "Fri, 15 Sep 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        9,
+        15,
+        7,
+        0,
+        0,
+        4,
+        258,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQzhYNFAtM2F5M0pSU1U1UjREN3JfUTRIcHpvazZhc3pjU0ppWVdmVmw1eENDNWd3RFA3cVZhbm1RZEQxVVQ2eThiVlowT0h0cE9Rb2xPV2JQRko0ci13QU5CMzdVa3pnSWU2VkFOSENIUmZwaEpUWWZiVFNIVnV0M3R5TjhxMzJkYnE40gGOAUFVX3lxTE53V3BvQkNKUHNUSmxzUWFDYkkxUWxzY1FHWTRjQUNjNk1KbTNUd3FSZEFTcWpoUTNIQVlTdkM3MmhQSkNHT3FabWVGWUw3aWN3TmhyYTBoX0hFSG1oNlBFbzB6QzdzZjN5N1BNMTA4c05xZU42WXVVN0toLUZxVlEya01zZTJxRHh1X2tzTUE?oc=5\" target=\"_blank\">Bangladesh Dengue Outbreak Kills 778 People</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">VOA - Voice of America English News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQzhYNFAtM2F5M0pSU1U1UjREN3JfUTRIcHpvazZhc3pjU0ppWVdmVmw1eENDNWd3RFA3cVZhbm1RZEQxVVQ2eThiVlowT0h0cE9Rb2xPV2JQRko0ci13QU5CMzdVa3pnSWU2VkFOSENIUmZwaEpUWWZiVFNIVnV0M3R5TjhxMzJkYnE40gGOAUFVX3lxTE53V3BvQkNKUHNUSmxzUWFDYkkxUWxzY1FHWTRjQUNjNk1KbTNUd3FSZEFTcWpoUTNIQVlTdkM3MmhQSkNHT3FabWVGWUw3aWN3TmhyYTBoX0hFSG1oNlBFbzB6QzdzZjN5N1BNMTA4c05xZU42WXVVN0toLUZxVlEya01zZTJxRHh1X2tzTUE?oc=5\" target=\"_blank\">Bangladesh Dengue Outbreak Kills 778 People</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">VOA - Voice of America English News</font>"
+      },
+      "source": {
+        "href": "https://www.voanews.com",
+        "title": "VOA - Voice of America English News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Disease-carrying mosquitoes to plague London by mid-century, experts warn - The Telegraph",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Disease-carrying mosquitoes to plague London by mid-century, experts warn - The Telegraph"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNeGM0eXNrRlhaSkZFVkZONFd5QkVrTTZrTTdaOUN4cHg4NV9EbW9NVDVtbmttTi1senVqRTFYbGdmM1o2T2VLRFktYWhudnF5SXNMY0JKd1VrUElSZzRLT0NwZlpkRFEwNHJ5UVlQMFZGTGI2Y1JDZ21fQ2RaRC1NcFdYOEx6Mlc2TS1jVGNuWUw4aDhESEZ1UTVjZHhtLVZoai1SSG9vQmN2eVB3TlBmdExOeGI1QTc5RGRtNA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNeGM0eXNrRlhaSkZFVkZONFd5QkVrTTZrTTdaOUN4cHg4NV9EbW9NVDVtbmttTi1senVqRTFYbGdmM1o2T2VLRFktYWhudnF5SXNMY0JKd1VrUElSZzRLT0NwZlpkRFEwNHJ5UVlQMFZGTGI2Y1JDZ21fQ2RaRC1NcFdYOEx6Mlc2TS1jVGNuWUw4aDhESEZ1UTVjZHhtLVZoai1SSG9vQmN2eVB3TlBmdExOeGI1QTc5RGRtNA?oc=5",
+      "id": "CBMivAFBVV95cUxNeGM0eXNrRlhaSkZFVkZONFd5QkVrTTZrTTdaOUN4cHg4NV9EbW9NVDVtbmttTi1senVqRTFYbGdmM1o2T2VLRFktYWhudnF5SXNMY0JKd1VrUElSZzRLT0NwZlpkRFEwNHJ5UVlQMFZGTGI2Y1JDZ21fQ2RaRC1NcFdYOEx6Mlc2TS1jVGNuWUw4aDhESEZ1UTVjZHhtLVZoai1SSG9vQmN2eVB3TlBmdExOeGI1QTc5RGRtNA",
+      "guidislink": false,
+      "published": "Thu, 21 Sep 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        9,
+        21,
+        7,
+        0,
+        0,
+        3,
+        264,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxNeGM0eXNrRlhaSkZFVkZONFd5QkVrTTZrTTdaOUN4cHg4NV9EbW9NVDVtbmttTi1senVqRTFYbGdmM1o2T2VLRFktYWhudnF5SXNMY0JKd1VrUElSZzRLT0NwZlpkRFEwNHJ5UVlQMFZGTGI2Y1JDZ21fQ2RaRC1NcFdYOEx6Mlc2TS1jVGNuWUw4aDhESEZ1UTVjZHhtLVZoai1SSG9vQmN2eVB3TlBmdExOeGI1QTc5RGRtNA?oc=5\" target=\"_blank\">Disease-carrying mosquitoes to plague London by mid-century, experts warn</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Telegraph</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxNeGM0eXNrRlhaSkZFVkZONFd5QkVrTTZrTTdaOUN4cHg4NV9EbW9NVDVtbmttTi1senVqRTFYbGdmM1o2T2VLRFktYWhudnF5SXNMY0JKd1VrUElSZzRLT0NwZlpkRFEwNHJ5UVlQMFZGTGI2Y1JDZ21fQ2RaRC1NcFdYOEx6Mlc2TS1jVGNuWUw4aDhESEZ1UTVjZHhtLVZoai1SSG9vQmN2eVB3TlBmdExOeGI1QTc5RGRtNA?oc=5\" target=\"_blank\">Disease-carrying mosquitoes to plague London by mid-century, experts warn</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Telegraph</font>"
+      },
+      "source": {
+        "href": "https://www.telegraph.co.uk",
+        "title": "The Telegraph"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Žika Jakšić - Vijesti.me",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Žika Jakšić - Vijesti.me"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1oYnlJcGVJcXJoc1pVS2U0ZEQzNFJmSlNFcjBoa2JxZzhaWDFYUUQ2R1VZYWV6V0JLQWkxZl9UcjY5Ml9OUGpLNVRCYTc1NmcwTm9iZWFCMWs?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1oYnlJcGVJcXJoc1pVS2U0ZEQzNFJmSlNFcjBoa2JxZzhaWDFYUUQ2R1VZYWV6V0JLQWkxZl9UcjY5Ml9OUGpLNVRCYTc1NmcwTm9iZWFCMWs?oc=5",
+      "id": "CBMiWEFVX3lxTE1oYnlJcGVJcXJoc1pVS2U0ZEQzNFJmSlNFcjBoa2JxZzhaWDFYUUQ2R1VZYWV6V0JLQWkxZl9UcjY5Ml9OUGpLNVRCYTc1NmcwTm9iZWFCMWs",
+      "guidislink": false,
+      "published": "Tue, 12 Sep 2023 14:15:58 GMT",
+      "published_parsed": [
+        2023,
+        9,
+        12,
+        14,
+        15,
+        58,
+        1,
+        255,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE1oYnlJcGVJcXJoc1pVS2U0ZEQzNFJmSlNFcjBoa2JxZzhaWDFYUUQ2R1VZYWV6V0JLQWkxZl9UcjY5Ml9OUGpLNVRCYTc1NmcwTm9iZWFCMWs?oc=5\" target=\"_blank\">Žika Jakšić</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vijesti.me</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE1oYnlJcGVJcXJoc1pVS2U0ZEQzNFJmSlNFcjBoa2JxZzhaWDFYUUQ2R1VZYWV6V0JLQWkxZl9UcjY5Ml9OUGpLNVRCYTc1NmcwTm9iZWFCMWs?oc=5\" target=\"_blank\">Žika Jakšić</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vijesti.me</font>"
+      },
+      "source": {
+        "href": "https://www.vijesti.me",
+        "title": "Vijesti.me"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Validation of flavivirus infectious clones carrying fluorescent markers for antiviral drug screening and replication studies - Frontiers",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Validation of flavivirus infectious clones carrying fluorescent markers for antiviral drug screening and replication studies - Frontiers"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN1kzWVpPdDBoOFBwQTNOXzJBc24ySXhUbnlCcDFjcUpnVjdwNWhCWHRNeUxrSTV0QU1HNzBxT0RvbkFDR3RJSk1YQ3lJWmpzRkdXWmROUVJfUlBhYUJYZm9RbHBveFFhY3VfOW5EY1BNdVFSUHM0MW9ndEhGWmFCU0pWM2hKcXJ0X0tEUThaYUJNWXg0?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN1kzWVpPdDBoOFBwQTNOXzJBc24ySXhUbnlCcDFjcUpnVjdwNWhCWHRNeUxrSTV0QU1HNzBxT0RvbkFDR3RJSk1YQ3lJWmpzRkdXWmROUVJfUlBhYUJYZm9RbHBveFFhY3VfOW5EY1BNdVFSUHM0MW9ndEhGWmFCU0pWM2hKcXJ0X0tEUThaYUJNWXg0?oc=5",
+      "id": "CBMilAFBVV95cUxQN1kzWVpPdDBoOFBwQTNOXzJBc24ySXhUbnlCcDFjcUpnVjdwNWhCWHRNeUxrSTV0QU1HNzBxT0RvbkFDR3RJSk1YQ3lJWmpzRkdXWmROUVJfUlBhYUJYZm9RbHBveFFhY3VfOW5EY1BNdVFSUHM0MW9ndEhGWmFCU0pWM2hKcXJ0X0tEUThaYUJNWXg0",
+      "guidislink": false,
+      "published": "Thu, 14 Sep 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        9,
+        14,
+        7,
+        0,
+        0,
+        3,
+        257,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxQN1kzWVpPdDBoOFBwQTNOXzJBc24ySXhUbnlCcDFjcUpnVjdwNWhCWHRNeUxrSTV0QU1HNzBxT0RvbkFDR3RJSk1YQ3lJWmpzRkdXWmROUVJfUlBhYUJYZm9RbHBveFFhY3VfOW5EY1BNdVFSUHM0MW9ndEhGWmFCU0pWM2hKcXJ0X0tEUThaYUJNWXg0?oc=5\" target=\"_blank\">Validation of flavivirus infectious clones carrying fluorescent markers for antiviral drug screening and replication studies</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Frontiers</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxQN1kzWVpPdDBoOFBwQTNOXzJBc24ySXhUbnlCcDFjcUpnVjdwNWhCWHRNeUxrSTV0QU1HNzBxT0RvbkFDR3RJSk1YQ3lJWmpzRkdXWmROUVJfUlBhYUJYZm9RbHBveFFhY3VfOW5EY1BNdVFSUHM0MW9ndEhGWmFCU0pWM2hKcXJ0X0tEUThaYUJNWXg0?oc=5\" target=\"_blank\">Validation of flavivirus infectious clones carrying fluorescent markers for antiviral drug screening and replication studies</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Frontiers</font>"
+      },
+      "source": {
+        "href": "https://www.frontiersin.org",
+        "title": "Frontiers"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "India's Nipah Virus Outbreak: What Do We Know So Far? - VOA - Voice of America English News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "India's Nipah Virus Outbreak: What Do We Know So Far? - VOA - Voice of America English News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMUtoSmRqVzlncmN6cU5vS0pZS2Z4UUpFb2ZBbWp3QkF6X0xlU3lUeWJ3WjZpWndLSlZINnBQNGNqc056Z2JpVVNlOUdEd3ZFb1EyYnpMd1BDT0FBbVB4SmZ0RktXTFR1b3IzMHkxRDlfeGNzWUFTRWhtYnJDNXBKa0ROZlc3NHl3ZHFaVjM1MzRsZnZkRkHSAZgBQVVfeXFMUGlQWk5yckJvWm5wV1h1a0ZFTnJSUVp5Qkx4YVJjajRyZWRydjd3bmRkQmV0RmhkczlKZUd3QVVSb0lJajFqNVdEVkliWGNiVm5uSjVNLWZWbjFhNm1Tc2wxRWFzV0pPQXFTekN3U2dSRkF6SFhTTkU5NUlVZmVvT19YaGlBMnBsOGUtSUJ1ZHlXMERxcG8tU0Q?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMUtoSmRqVzlncmN6cU5vS0pZS2Z4UUpFb2ZBbWp3QkF6X0xlU3lUeWJ3WjZpWndLSlZINnBQNGNqc056Z2JpVVNlOUdEd3ZFb1EyYnpMd1BDT0FBbVB4SmZ0RktXTFR1b3IzMHkxRDlfeGNzWUFTRWhtYnJDNXBKa0ROZlc3NHl3ZHFaVjM1MzRsZnZkRkHSAZgBQVVfeXFMUGlQWk5yckJvWm5wV1h1a0ZFTnJSUVp5Qkx4YVJjajRyZWRydjd3bmRkQmV0RmhkczlKZUd3QVVSb0lJajFqNVdEVkliWGNiVm5uSjVNLWZWbjFhNm1Tc2wxRWFzV0pPQXFTekN3U2dSRkF6SFhTTkU5NUlVZmVvT19YaGlBMnBsOGUtSUJ1ZHlXMERxcG8tU0Q?oc=5",
+      "id": "CBMilgFBVV95cUxQMUtoSmRqVzlncmN6cU5vS0pZS2Z4UUpFb2ZBbWp3QkF6X0xlU3lUeWJ3WjZpWndLSlZINnBQNGNqc056Z2JpVVNlOUdEd3ZFb1EyYnpMd1BDT0FBbVB4SmZ0RktXTFR1b3IzMHkxRDlfeGNzWUFTRWhtYnJDNXBKa0ROZlc3NHl3ZHFaVjM1MzRsZnZkRkHSAZgBQVVfeXFMUGlQWk5yckJvWm5wV1h1a0ZFTnJSUVp5Qkx4YVJjajRyZWRydjd3bmRkQmV0RmhkczlKZUd3QVVSb0lJajFqNVdEVkliWGNiVm5uSjVNLWZWbjFhNm1Tc2wxRWFzV0pPQXFTekN3U2dSRkF6SFhTTkU5NUlVZmVvT19YaGlBMnBsOGUtSUJ1ZHlXMERxcG8tU0Q",
+      "guidislink": false,
+      "published": "Fri, 15 Sep 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        9,
+        15,
+        7,
+        0,
+        0,
+        4,
+        258,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQMUtoSmRqVzlncmN6cU5vS0pZS2Z4UUpFb2ZBbWp3QkF6X0xlU3lUeWJ3WjZpWndLSlZINnBQNGNqc056Z2JpVVNlOUdEd3ZFb1EyYnpMd1BDT0FBbVB4SmZ0RktXTFR1b3IzMHkxRDlfeGNzWUFTRWhtYnJDNXBKa0ROZlc3NHl3ZHFaVjM1MzRsZnZkRkHSAZgBQVVfeXFMUGlQWk5yckJvWm5wV1h1a0ZFTnJSUVp5Qkx4YVJjajRyZWRydjd3bmRkQmV0RmhkczlKZUd3QVVSb0lJajFqNVdEVkliWGNiVm5uSjVNLWZWbjFhNm1Tc2wxRWFzV0pPQXFTekN3U2dSRkF6SFhTTkU5NUlVZmVvT19YaGlBMnBsOGUtSUJ1ZHlXMERxcG8tU0Q?oc=5\" target=\"_blank\">India's Nipah Virus Outbreak: What Do We Know So Far?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">VOA - Voice of America English News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQMUtoSmRqVzlncmN6cU5vS0pZS2Z4UUpFb2ZBbWp3QkF6X0xlU3lUeWJ3WjZpWndLSlZINnBQNGNqc056Z2JpVVNlOUdEd3ZFb1EyYnpMd1BDT0FBbVB4SmZ0RktXTFR1b3IzMHkxRDlfeGNzWUFTRWhtYnJDNXBKa0ROZlc3NHl3ZHFaVjM1MzRsZnZkRkHSAZgBQVVfeXFMUGlQWk5yckJvWm5wV1h1a0ZFTnJSUVp5Qkx4YVJjajRyZWRydjd3bmRkQmV0RmhkczlKZUd3QVVSb0lJajFqNVdEVkliWGNiVm5uSjVNLWZWbjFhNm1Tc2wxRWFzV0pPQXFTekN3U2dSRkF6SFhTTkU5NUlVZmVvT19YaGlBMnBsOGUtSUJ1ZHlXMERxcG8tU0Q?oc=5\" target=\"_blank\">India's Nipah Virus Outbreak: What Do We Know So Far?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">VOA - Voice of America English News</font>"
+      },
+      "source": {
+        "href": "https://www.voanews.com",
+        "title": "VOA - Voice of America English News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Asian tiger mosquito on its way to Sweden - Uppsala universitet",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Asian tiger mosquito on its way to Sweden - Uppsala universitet"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVFEtbTVoR3E5dXliSjF5aWMzLTRIajZlWGFCeEN3UXFBMENFcUJXU0p6Q2V3aTR6ejhxdUVMRE8yNi1RVlBVLVJ0QUFEbVZjWHBfT3pfVEw0LVg0UzdhMnNvcFkzWlZZLUlZUGRvdDFIWnZHRlBMVzZhSjNDcS1waXRDRTBvQU9Cd2Zv?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVFEtbTVoR3E5dXliSjF5aWMzLTRIajZlWGFCeEN3UXFBMENFcUJXU0p6Q2V3aTR6ejhxdUVMRE8yNi1RVlBVLVJ0QUFEbVZjWHBfT3pfVEw0LVg0UzdhMnNvcFkzWlZZLUlZUGRvdDFIWnZHRlBMVzZhSjNDcS1waXRDRTBvQU9Cd2Zv?oc=5",
+      "id": "CBMiiwFBVV95cUxQVFEtbTVoR3E5dXliSjF5aWMzLTRIajZlWGFCeEN3UXFBMENFcUJXU0p6Q2V3aTR6ejhxdUVMRE8yNi1RVlBVLVJ0QUFEbVZjWHBfT3pfVEw0LVg0UzdhMnNvcFkzWlZZLUlZUGRvdDFIWnZHRlBMVzZhSjNDcS1waXRDRTBvQU9Cd2Zv",
+      "guidislink": false,
+      "published": "Tue, 19 Sep 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        9,
+        19,
+        7,
+        0,
+        0,
+        1,
+        262,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVFEtbTVoR3E5dXliSjF5aWMzLTRIajZlWGFCeEN3UXFBMENFcUJXU0p6Q2V3aTR6ejhxdUVMRE8yNi1RVlBVLVJ0QUFEbVZjWHBfT3pfVEw0LVg0UzdhMnNvcFkzWlZZLUlZUGRvdDFIWnZHRlBMVzZhSjNDcS1waXRDRTBvQU9Cd2Zv?oc=5\" target=\"_blank\">Asian tiger mosquito on its way to Sweden</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Uppsala universitet</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVFEtbTVoR3E5dXliSjF5aWMzLTRIajZlWGFCeEN3UXFBMENFcUJXU0p6Q2V3aTR6ejhxdUVMRE8yNi1RVlBVLVJ0QUFEbVZjWHBfT3pfVEw0LVg0UzdhMnNvcFkzWlZZLUlZUGRvdDFIWnZHRlBMVzZhSjNDcS1waXRDRTBvQU9Cd2Zv?oc=5\" target=\"_blank\">Asian tiger mosquito on its way to Sweden</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Uppsala universitet</font>"
+      },
+      "source": {
+        "href": "https://www.uu.se",
+        "title": "Uppsala universitet"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "7 Latina Inventors Who Have Made an Impact - HipLatina",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "7 Latina Inventors Who Have Made an Impact - HipLatina"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1zbGJocXlKd05nSmd5MS1oZ2R6TzdhbmRmN08xTktoMzVjQU9vSW1zLTNYb0k2d0ctUHpYV2JvOUlsLWpCZUNjdHRwaVpqTGZG?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1zbGJocXlKd05nSmd5MS1oZ2R6TzdhbmRmN08xTktoMzVjQU9vSW1zLTNYb0k2d0ctUHpYV2JvOUlsLWpCZUNjdHRwaVpqTGZG?oc=5",
+      "id": "CBMiUEFVX3lxTE1zbGJocXlKd05nSmd5MS1oZ2R6TzdhbmRmN08xTktoMzVjQU9vSW1zLTNYb0k2d0ctUHpYV2JvOUlsLWpCZUNjdHRwaVpqTGZG",
+      "guidislink": false,
+      "published": "Thu, 21 Sep 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        9,
+        21,
+        7,
+        0,
+        0,
+        3,
+        264,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTE1zbGJocXlKd05nSmd5MS1oZ2R6TzdhbmRmN08xTktoMzVjQU9vSW1zLTNYb0k2d0ctUHpYV2JvOUlsLWpCZUNjdHRwaVpqTGZG?oc=5\" target=\"_blank\">7 Latina Inventors Who Have Made an Impact</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">HipLatina</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTE1zbGJocXlKd05nSmd5MS1oZ2R6TzdhbmRmN08xTktoMzVjQU9vSW1zLTNYb0k2d0ctUHpYV2JvOUlsLWpCZUNjdHRwaVpqTGZG?oc=5\" target=\"_blank\">7 Latina Inventors Who Have Made an Impact</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">HipLatina</font>"
+      },
+      "source": {
+        "href": "https://hiplatina.com",
+        "title": "HipLatina"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Tiger mosquitos are spotted in eight Dutch provinces - DutchNews.nl",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Tiger mosquitos are spotted in eight Dutch provinces - DutchNews.nl"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORTd3VENnUWNvUzgyUzVEVmdfX2FGQVlPQTQyeGtxMndtdTJRU3l1TzdNdTBOQ25udzNSa2JRd0RPNEpaYmVRVW5FQmlDaU9LU09FcjdhRFhCQi1aMGVzNEJuWEFyRWl3YTNiZ1drVUhSVVBGaEJsOXV5UC0temJVZTVKSGZCM1ZSdWktV2hoRQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORTd3VENnUWNvUzgyUzVEVmdfX2FGQVlPQTQyeGtxMndtdTJRU3l1TzdNdTBOQ25udzNSa2JRd0RPNEpaYmVRVW5FQmlDaU9LU09FcjdhRFhCQi1aMGVzNEJuWEFyRWl3YTNiZ1drVUhSVVBGaEJsOXV5UC0temJVZTVKSGZCM1ZSdWktV2hoRQ?oc=5",
+      "id": "CBMijwFBVV95cUxORTd3VENnUWNvUzgyUzVEVmdfX2FGQVlPQTQyeGtxMndtdTJRU3l1TzdNdTBOQ25udzNSa2JRd0RPNEpaYmVRVW5FQmlDaU9LU09FcjdhRFhCQi1aMGVzNEJuWEFyRWl3YTNiZ1drVUhSVVBGaEJsOXV5UC0temJVZTVKSGZCM1ZSdWktV2hoRQ",
+      "guidislink": false,
+      "published": "Mon, 18 Sep 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        9,
+        18,
+        7,
+        0,
+        0,
+        0,
+        261,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxORTd3VENnUWNvUzgyUzVEVmdfX2FGQVlPQTQyeGtxMndtdTJRU3l1TzdNdTBOQ25udzNSa2JRd0RPNEpaYmVRVW5FQmlDaU9LU09FcjdhRFhCQi1aMGVzNEJuWEFyRWl3YTNiZ1drVUhSVVBGaEJsOXV5UC0temJVZTVKSGZCM1ZSdWktV2hoRQ?oc=5\" target=\"_blank\">Tiger mosquitos are spotted in eight Dutch provinces</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">DutchNews.nl</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxORTd3VENnUWNvUzgyUzVEVmdfX2FGQVlPQTQyeGtxMndtdTJRU3l1TzdNdTBOQ25udzNSa2JRd0RPNEpaYmVRVW5FQmlDaU9LU09FcjdhRFhCQi1aMGVzNEJuWEFyRWl3YTNiZ1drVUhSVVBGaEJsOXV5UC0temJVZTVKSGZCM1ZSdWktV2hoRQ?oc=5\" target=\"_blank\">Tiger mosquitos are spotted in eight Dutch provinces</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">DutchNews.nl</font>"
+      },
+      "source": {
+        "href": "https://www.dutchnews.nl",
+        "title": "DutchNews.nl"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Misleading Reports on Canada's Travel Advisory to India Go Viral Amid Row - The Quint",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Misleading Reports on Canada's Travel Advisory to India Go Viral Amid Row - The Quint"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMVZHdDZWQ3RwWVBjcmY5TmllLTJHMVpCRGxoTV9qWGc0Z1FNelFaekllTjRORkxra2F1SnR1Ylo5ZWhQV2JpbnNuaDhsbEk4cE9kQllId2VJWWxQSFFQQW4yZlRQaWU0UEhQWXljUGNCZzJrWU1nYUJNSmZTS0d3bVQ1Q1h2d3hvNTR5NXdENnpmdlFOUkxGOFhCc9IBqAFBVV95cUxQc1JfYzlFTDI5S3RzMk9BWDMzVndTQi1vVDhGbHdyZ1Zyckl5OTBfbEVhdVNjR3AyOE44TFZHa3EtYWl5ZWNtQ3VMSWgtSWltMmtKX3drMjB4RHA4X1pVZ0t4ejNSNXowYmZUNVN0TUJfYnpXS0lGbmZjTGVMZFNuWHQtWGhhb0Nna3h4MEhqY3dfOVl5S0JSLU1Vc1J0ZU4zc3o5SkI0RXM?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMVZHdDZWQ3RwWVBjcmY5TmllLTJHMVpCRGxoTV9qWGc0Z1FNelFaekllTjRORkxra2F1SnR1Ylo5ZWhQV2JpbnNuaDhsbEk4cE9kQllId2VJWWxQSFFQQW4yZlRQaWU0UEhQWXljUGNCZzJrWU1nYUJNSmZTS0d3bVQ1Q1h2d3hvNTR5NXdENnpmdlFOUkxGOFhCc9IBqAFBVV95cUxQc1JfYzlFTDI5S3RzMk9BWDMzVndTQi1vVDhGbHdyZ1Zyckl5OTBfbEVhdVNjR3AyOE44TFZHa3EtYWl5ZWNtQ3VMSWgtSWltMmtKX3drMjB4RHA4X1pVZ0t4ejNSNXowYmZUNVN0TUJfYnpXS0lGbmZjTGVMZFNuWHQtWGhhb0Nna3h4MEhqY3dfOVl5S0JSLU1Vc1J0ZU4zc3o5SkI0RXM?oc=5",
+      "id": "CBMimwFBVV95cUxNMVZHdDZWQ3RwWVBjcmY5TmllLTJHMVpCRGxoTV9qWGc0Z1FNelFaekllTjRORkxra2F1SnR1Ylo5ZWhQV2JpbnNuaDhsbEk4cE9kQllId2VJWWxQSFFQQW4yZlRQaWU0UEhQWXljUGNCZzJrWU1nYUJNSmZTS0d3bVQ1Q1h2d3hvNTR5NXdENnpmdlFOUkxGOFhCc9IBqAFBVV95cUxQc1JfYzlFTDI5S3RzMk9BWDMzVndTQi1vVDhGbHdyZ1Zyckl5OTBfbEVhdVNjR3AyOE44TFZHa3EtYWl5ZWNtQ3VMSWgtSWltMmtKX3drMjB4RHA4X1pVZ0t4ejNSNXowYmZUNVN0TUJfYnpXS0lGbmZjTGVMZFNuWHQtWGhhb0Nna3h4MEhqY3dfOVl5S0JSLU1Vc1J0ZU4zc3o5SkI0RXM",
+      "guidislink": false,
+      "published": "Wed, 20 Sep 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        9,
+        20,
+        7,
+        0,
+        0,
+        2,
+        263,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxNMVZHdDZWQ3RwWVBjcmY5TmllLTJHMVpCRGxoTV9qWGc0Z1FNelFaekllTjRORkxra2F1SnR1Ylo5ZWhQV2JpbnNuaDhsbEk4cE9kQllId2VJWWxQSFFQQW4yZlRQaWU0UEhQWXljUGNCZzJrWU1nYUJNSmZTS0d3bVQ1Q1h2d3hvNTR5NXdENnpmdlFOUkxGOFhCc9IBqAFBVV95cUxQc1JfYzlFTDI5S3RzMk9BWDMzVndTQi1vVDhGbHdyZ1Zyckl5OTBfbEVhdVNjR3AyOE44TFZHa3EtYWl5ZWNtQ3VMSWgtSWltMmtKX3drMjB4RHA4X1pVZ0t4ejNSNXowYmZUNVN0TUJfYnpXS0lGbmZjTGVMZFNuWHQtWGhhb0Nna3h4MEhqY3dfOVl5S0JSLU1Vc1J0ZU4zc3o5SkI0RXM?oc=5\" target=\"_blank\">Misleading Reports on Canada's Travel Advisory to India Go Viral Amid Row</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Quint</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxNMVZHdDZWQ3RwWVBjcmY5TmllLTJHMVpCRGxoTV9qWGc0Z1FNelFaekllTjRORkxra2F1SnR1Ylo5ZWhQV2JpbnNuaDhsbEk4cE9kQllId2VJWWxQSFFQQW4yZlRQaWU0UEhQWXljUGNCZzJrWU1nYUJNSmZTS0d3bVQ1Q1h2d3hvNTR5NXdENnpmdlFOUkxGOFhCc9IBqAFBVV95cUxQc1JfYzlFTDI5S3RzMk9BWDMzVndTQi1vVDhGbHdyZ1Zyckl5OTBfbEVhdVNjR3AyOE44TFZHa3EtYWl5ZWNtQ3VMSWgtSWltMmtKX3drMjB4RHA4X1pVZ0t4ejNSNXowYmZUNVN0TUJfYnpXS0lGbmZjTGVMZFNuWHQtWGhhb0Nna3h4MEhqY3dfOVl5S0JSLU1Vc1J0ZU4zc3o5SkI0RXM?oc=5\" target=\"_blank\">Misleading Reports on Canada's Travel Advisory to India Go Viral Amid Row</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Quint</font>"
+      },
+      "source": {
+        "href": "https://www.thequint.com",
+        "title": "The Quint"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Either you live rock and roll, or you don't know what it is - vijesti.me",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Either you live rock and roll, or you don't know what it is - vijesti.me"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaW11WTc5TnhEWXVCN2phM01FSFUtMXVhVWYtSF9laTY0SlBoVmpOMUMxei1jWWRpYUFoNzVNaVlLazZ4Mkl4bGFaOW84OWcydllnZXdyTkVFNTFnY0hBdlVmT0JJSWh1SjRBYWh5OFVFTC1wZzkxNTJCb0Q4Q2wzSWRuQ3llUmNSMnFFN2ctS00yZFBDRnYxYW8xMmFIcmRXc0HSAZgBQVVfeXFMT0hEd1BWbG9tbktEcm1pV0FVZTg4ZF9ndzFmanlQQ2pkeDNoenl4RGdPUWZrY2FRN19NUlRvY0hLLVp6ZGhPQkhYUHN6SVdJbTRWQjZaWWt3RkxuaDNHenhYUEIzblp2d0ZjYmlhTVAyTlFwdDNwbFBDRzFPWGZpMm1iQ3VvTGxmeWZhNmstcWdRR0pCbU9jNkk?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOaW11WTc5TnhEWXVCN2phM01FSFUtMXVhVWYtSF9laTY0SlBoVmpOMUMxei1jWWRpYUFoNzVNaVlLazZ4Mkl4bGFaOW84OWcydllnZXdyTkVFNTFnY0hBdlVmT0JJSWh1SjRBYWh5OFVFTC1wZzkxNTJCb0Q4Q2wzSWRuQ3llUmNSMnFFN2ctS00yZFBDRnYxYW8xMmFIcmRXc0HSAZgBQVVfeXFMT0hEd1BWbG9tbktEcm1pV0FVZTg4ZF9ndzFmanlQQ2pkeDNoenl4RGdPUWZrY2FRN19NUlRvY0hLLVp6ZGhPQkhYUHN6SVdJbTRWQjZaWWt3RkxuaDNHenhYUEIzblp2d0ZjYmlhTVAyTlFwdDNwbFBDRzFPWGZpMm1iQ3VvTGxmeWZhNmstcWdRR0pCbU9jNkk?oc=5",
+      "id": "CBMiogFBVV95cUxOaW11WTc5TnhEWXVCN2phM01FSFUtMXVhVWYtSF9laTY0SlBoVmpOMUMxei1jWWRpYUFoNzVNaVlLazZ4Mkl4bGFaOW84OWcydllnZXdyTkVFNTFnY0hBdlVmT0JJSWh1SjRBYWh5OFVFTC1wZzkxNTJCb0Q4Q2wzSWRuQ3llUmNSMnFFN2ctS00yZFBDRnYxYW8xMmFIcmRXc0HSAZgBQVVfeXFMT0hEd1BWbG9tbktEcm1pV0FVZTg4ZF9ndzFmanlQQ2pkeDNoenl4RGdPUWZrY2FRN19NUlRvY0hLLVp6ZGhPQkhYUHN6SVdJbTRWQjZaWWt3RkxuaDNHenhYUEIzblp2d0ZjYmlhTVAyTlFwdDNwbFBDRzFPWGZpMm1iQ3VvTGxmeWZhNmstcWdRR0pCbU9jNkk",
+      "guidislink": false,
+      "published": "Fri, 08 Sep 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        9,
+        8,
+        7,
+        0,
+        0,
+        4,
+        251,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxOaW11WTc5TnhEWXVCN2phM01FSFUtMXVhVWYtSF9laTY0SlBoVmpOMUMxei1jWWRpYUFoNzVNaVlLazZ4Mkl4bGFaOW84OWcydllnZXdyTkVFNTFnY0hBdlVmT0JJSWh1SjRBYWh5OFVFTC1wZzkxNTJCb0Q4Q2wzSWRuQ3llUmNSMnFFN2ctS00yZFBDRnYxYW8xMmFIcmRXc0HSAZgBQVVfeXFMT0hEd1BWbG9tbktEcm1pV0FVZTg4ZF9ndzFmanlQQ2pkeDNoenl4RGdPUWZrY2FRN19NUlRvY0hLLVp6ZGhPQkhYUHN6SVdJbTRWQjZaWWt3RkxuaDNHenhYUEIzblp2d0ZjYmlhTVAyTlFwdDNwbFBDRzFPWGZpMm1iQ3VvTGxmeWZhNmstcWdRR0pCbU9jNkk?oc=5\" target=\"_blank\">Either you live rock and roll, or you don't know what it is</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">vijesti.me</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxOaW11WTc5TnhEWXVCN2phM01FSFUtMXVhVWYtSF9laTY0SlBoVmpOMUMxei1jWWRpYUFoNzVNaVlLazZ4Mkl4bGFaOW84OWcydllnZXdyTkVFNTFnY0hBdlVmT0JJSWh1SjRBYWh5OFVFTC1wZzkxNTJCb0Q4Q2wzSWRuQ3llUmNSMnFFN2ctS00yZFBDRnYxYW8xMmFIcmRXc0HSAZgBQVVfeXFMT0hEd1BWbG9tbktEcm1pV0FVZTg4ZF9ndzFmanlQQ2pkeDNoenl4RGdPUWZrY2FRN19NUlRvY0hLLVp6ZGhPQkhYUHN6SVdJbTRWQjZaWWt3RkxuaDNHenhYUEIzblp2d0ZjYmlhTVAyTlFwdDNwbFBDRzFPWGZpMm1iQ3VvTGxmeWZhNmstcWdRR0pCbU9jNkk?oc=5\" target=\"_blank\">Either you live rock and roll, or you don't know what it is</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">vijesti.me</font>"
+      },
+      "source": {
+        "href": "https://en.vijesti.me",
+        "title": "vijesti.me"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "What is nipa virus: It is transmitted to humans from animals - vijesti.me",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "What is nipa virus: It is transmitted to humans from animals - vijesti.me"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWUR5MkF5RnNVbzdBNnlRRnM4YlE3bkRmTVRzTjZRYVV5Rzk5OWw2eXdWanRmdHpuTFhMcm5zMnFCdUlod1lxcmU0VVU0Xy1heDRtdFp4OG9CRzVpa2JQVXZlR0llZmdrRzRIS05qa0ZFYXIzVmxjWDdIcUY2Rk5KMzdBczF3ZkZvYWp3dnN3QzIxWVnSAZMBQVVfeXFMTVlEeTJBeUZzVW83QTZ5UUZzOGJRN25EZk1Uc042UWFVeUc5OTlsNnl3Vmp0ZnR6bkxYTHJuczJxQnVJaHdZcXJlNFVVNF8tYXg0bXRaeDhvQkc1aWtiUFV2ZUdJZWZna0c0SEtOamtGRWFyM1ZsY1g3SHFGNkZOSjM3QXMxd2ZGb2Fqd3Zzd0MyMVlZ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWUR5MkF5RnNVbzdBNnlRRnM4YlE3bkRmTVRzTjZRYVV5Rzk5OWw2eXdWanRmdHpuTFhMcm5zMnFCdUlod1lxcmU0VVU0Xy1heDRtdFp4OG9CRzVpa2JQVXZlR0llZmdrRzRIS05qa0ZFYXIzVmxjWDdIcUY2Rk5KMzdBczF3ZkZvYWp3dnN3QzIxWVnSAZMBQVVfeXFMTVlEeTJBeUZzVW83QTZ5UUZzOGJRN25EZk1Uc042UWFVeUc5OTlsNnl3Vmp0ZnR6bkxYTHJuczJxQnVJaHdZcXJlNFVVNF8tYXg0bXRaeDhvQkc1aWtiUFV2ZUdJZWZna0c0SEtOamtGRWFyM1ZsY1g3SHFGNkZOSjM3QXMxd2ZGb2Fqd3Zzd0MyMVlZ?oc=5",
+      "id": "CBMikwFBVV95cUxNWUR5MkF5RnNVbzdBNnlRRnM4YlE3bkRmTVRzTjZRYVV5Rzk5OWw2eXdWanRmdHpuTFhMcm5zMnFCdUlod1lxcmU0VVU0Xy1heDRtdFp4OG9CRzVpa2JQVXZlR0llZmdrRzRIS05qa0ZFYXIzVmxjWDdIcUY2Rk5KMzdBczF3ZkZvYWp3dnN3QzIxWVnSAZMBQVVfeXFMTVlEeTJBeUZzVW83QTZ5UUZzOGJRN25EZk1Uc042UWFVeUc5OTlsNnl3Vmp0ZnR6bkxYTHJuczJxQnVJaHdZcXJlNFVVNF8tYXg0bXRaeDhvQkc1aWtiUFV2ZUdJZWZna0c0SEtOamtGRWFyM1ZsY1g3SHFGNkZOSjM3QXMxd2ZGb2Fqd3Zzd0MyMVlZ",
+      "guidislink": false,
+      "published": "Mon, 18 Sep 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        9,
+        18,
+        7,
+        0,
+        0,
+        0,
+        261,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxNWUR5MkF5RnNVbzdBNnlRRnM4YlE3bkRmTVRzTjZRYVV5Rzk5OWw2eXdWanRmdHpuTFhMcm5zMnFCdUlod1lxcmU0VVU0Xy1heDRtdFp4OG9CRzVpa2JQVXZlR0llZmdrRzRIS05qa0ZFYXIzVmxjWDdIcUY2Rk5KMzdBczF3ZkZvYWp3dnN3QzIxWVnSAZMBQVVfeXFMTVlEeTJBeUZzVW83QTZ5UUZzOGJRN25EZk1Uc042UWFVeUc5OTlsNnl3Vmp0ZnR6bkxYTHJuczJxQnVJaHdZcXJlNFVVNF8tYXg0bXRaeDhvQkc1aWtiUFV2ZUdJZWZna0c0SEtOamtGRWFyM1ZsY1g3SHFGNkZOSjM3QXMxd2ZGb2Fqd3Zzd0MyMVlZ?oc=5\" target=\"_blank\">What is nipa virus: It is transmitted to humans from animals</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">vijesti.me</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxNWUR5MkF5RnNVbzdBNnlRRnM4YlE3bkRmTVRzTjZRYVV5Rzk5OWw2eXdWanRmdHpuTFhMcm5zMnFCdUlod1lxcmU0VVU0Xy1heDRtdFp4OG9CRzVpa2JQVXZlR0llZmdrRzRIS05qa0ZFYXIzVmxjWDdIcUY2Rk5KMzdBczF3ZkZvYWp3dnN3QzIxWVnSAZMBQVVfeXFMTVlEeTJBeUZzVW83QTZ5UUZzOGJRN25EZk1Uc042UWFVeUc5OTlsNnl3Vmp0ZnR6bkxYTHJuczJxQnVJaHdZcXJlNFVVNF8tYXg0bXRaeDhvQkc1aWtiUFV2ZUdJZWZna0c0SEtOamtGRWFyM1ZsY1g3SHFGNkZOSjM3QXMxd2ZGb2Fqd3Zzd0MyMVlZ?oc=5\" target=\"_blank\">What is nipa virus: It is transmitted to humans from animals</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">vijesti.me</font>"
+      },
+      "source": {
+        "href": "https://en.vijesti.me",
+        "title": "vijesti.me"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Guerrero invests 27 million pesos to combat dengue, zika and chikungunya - - mexicodailypost.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Guerrero invests 27 million pesos to combat dengue, zika and chikungunya - - mexicodailypost.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNc083RTFDWDNIRF8tcnNoX1NxZ2w3RDlBcnUyN3ZERTFmMnI2akJETWdQa1lPWV9KMHkwM2sxc2NicG9MOXB6anpxMF83cHhvS25PZlZpd25ScGw4VUJpWExsMlc1Q0M3dTkyMzZHQlh1UVhKS1JkbS00enF0TnpOWnlOeEZVeU1OQjFnNmlYTklQcXN2MFN2RFRzMi10ci1vVUFKSmpPM2xJM3dWSlFSRw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNc083RTFDWDNIRF8tcnNoX1NxZ2w3RDlBcnUyN3ZERTFmMnI2akJETWdQa1lPWV9KMHkwM2sxc2NicG9MOXB6anpxMF83cHhvS25PZlZpd25ScGw4VUJpWExsMlc1Q0M3dTkyMzZHQlh1UVhKS1JkbS00enF0TnpOWnlOeEZVeU1OQjFnNmlYTklQcXN2MFN2RFRzMi10ci1vVUFKSmpPM2xJM3dWSlFSRw?oc=5",
+      "id": "CBMisAFBVV95cUxNc083RTFDWDNIRF8tcnNoX1NxZ2w3RDlBcnUyN3ZERTFmMnI2akJETWdQa1lPWV9KMHkwM2sxc2NicG9MOXB6anpxMF83cHhvS25PZlZpd25ScGw4VUJpWExsMlc1Q0M3dTkyMzZHQlh1UVhKS1JkbS00enF0TnpOWnlOeEZVeU1OQjFnNmlYTklQcXN2MFN2RFRzMi10ci1vVUFKSmpPM2xJM3dWSlFSRw",
+      "guidislink": false,
+      "published": "Fri, 08 Sep 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        9,
+        8,
+        7,
+        0,
+        0,
+        4,
+        251,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxNc083RTFDWDNIRF8tcnNoX1NxZ2w3RDlBcnUyN3ZERTFmMnI2akJETWdQa1lPWV9KMHkwM2sxc2NicG9MOXB6anpxMF83cHhvS25PZlZpd25ScGw4VUJpWExsMlc1Q0M3dTkyMzZHQlh1UVhKS1JkbS00enF0TnpOWnlOeEZVeU1OQjFnNmlYTklQcXN2MFN2RFRzMi10ci1vVUFKSmpPM2xJM3dWSlFSRw?oc=5\" target=\"_blank\">Guerrero invests 27 million pesos to combat dengue, zika and chikungunya -</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">mexicodailypost.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxNc083RTFDWDNIRF8tcnNoX1NxZ2w3RDlBcnUyN3ZERTFmMnI2akJETWdQa1lPWV9KMHkwM2sxc2NicG9MOXB6anpxMF83cHhvS25PZlZpd25ScGw4VUJpWExsMlc1Q0M3dTkyMzZHQlh1UVhKS1JkbS00enF0TnpOWnlOeEZVeU1OQjFnNmlYTklQcXN2MFN2RFRzMi10ci1vVUFKSmpPM2xJM3dWSlFSRw?oc=5\" target=\"_blank\">Guerrero invests 27 million pesos to combat dengue, zika and chikungunya -</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">mexicodailypost.com</font>"
+      },
+      "source": {
+        "href": "https://mexicodailypost.com",
+        "title": "mexicodailypost.com"
+      },
+      "sub_articles": []
+    }
+  ]
+}

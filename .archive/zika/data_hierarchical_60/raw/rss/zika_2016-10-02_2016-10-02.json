@@ -1,0 +1,607 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2016-10-02",
+  "window_end": "2016-10-02",
+  "window_days": 1,
+  "window_role": "hierarchical_child",
+  "parent_window_start": "2016-09-26",
+  "parent_window_end": "2016-10-02",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2016-10-02+before%3A2016-10-03&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2016-10-02+before:2016-10-03&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:00:09Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2016-10-02 before:2016-10-03\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2016-10-02 before:2016-10-03\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2016-10-02+before:2016-10-03&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2016-10-02+before:2016-10-03&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:00:10 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      0,
+      10,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Zika and Water Safety Education a Mission for Rutgers Alumna - Rutgers University",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika and Water Safety Education a Mission for Rutgers Alumna - Rutgers University"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONlJyT2tCTHgwSVFOb2dzYTlxY1M2WTRUZTczLUpNaHVocno1Qnktc25VUXdJSFF4Q0NpcUdBNkJUYVlNbV95QnllR3dGWm5oanJ4YjdCVkNmOVlhcm1JVVBKdDFWSjFmLWpzaTR6UUFFNW1vRVI3YThGZE9wNWNEMUJUdS1DanVRYzdz?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONlJyT2tCTHgwSVFOb2dzYTlxY1M2WTRUZTczLUpNaHVocno1Qnktc25VUXdJSFF4Q0NpcUdBNkJUYVlNbV95QnllR3dGWm5oanJ4YjdCVkNmOVlhcm1JVVBKdDFWSjFmLWpzaTR6UUFFNW1vRVI3YThGZE9wNWNEMUJUdS1DanVRYzdz?oc=5",
+      "id": "CBMiiwFBVV95cUxONlJyT2tCTHgwSVFOb2dzYTlxY1M2WTRUZTczLUpNaHVocno1Qnktc25VUXdJSFF4Q0NpcUdBNkJUYVlNbV95QnllR3dGWm5oanJ4YjdCVkNmOVlhcm1JVVBKdDFWSjFmLWpzaTR6UUFFNW1vRVI3YThGZE9wNWNEMUJUdS1DanVRYzdz",
+      "guidislink": false,
+      "published": "Sun, 02 Oct 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        10,
+        2,
+        7,
+        0,
+        0,
+        6,
+        276,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxONlJyT2tCTHgwSVFOb2dzYTlxY1M2WTRUZTczLUpNaHVocno1Qnktc25VUXdJSFF4Q0NpcUdBNkJUYVlNbV95QnllR3dGWm5oanJ4YjdCVkNmOVlhcm1JVVBKdDFWSjFmLWpzaTR6UUFFNW1vRVI3YThGZE9wNWNEMUJUdS1DanVRYzdz?oc=5\" target=\"_blank\">Zika and Water Safety Education a Mission for Rutgers Alumna</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Rutgers University</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxONlJyT2tCTHgwSVFOb2dzYTlxY1M2WTRUZTczLUpNaHVocno1Qnktc25VUXdJSFF4Q0NpcUdBNkJUYVlNbV95QnllR3dGWm5oanJ4YjdCVkNmOVlhcm1JVVBKdDFWSjFmLWpzaTR6UUFFNW1vRVI3YThGZE9wNWNEMUJUdS1DanVRYzdz?oc=5\" target=\"_blank\">Zika and Water Safety Education a Mission for Rutgers Alumna</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Rutgers University</font>"
+      },
+      "source": {
+        "href": "https://www.rutgers.edu",
+        "title": "Rutgers University"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika Virus Birth Defects Don’t Stop at Microcephaly - Time Magazine",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika Virus Birth Defects Don’t Stop at Microcephaly - Time Magazine"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8ydGd6QXJnTDhqNU5NLWp0Y1JXT1pSWm1MNzZjQS03eUVMT1V3YXdNUnZHdmcxSkNCSzBJeWJ1c3RSZ1RtVk1Zd3VTUnNKSm9fcTkxRmctMVM4U19acUlZVVU2UEViNTRON3BITHk3NXk?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8ydGd6QXJnTDhqNU5NLWp0Y1JXT1pSWm1MNzZjQS03eUVMT1V3YXdNUnZHdmcxSkNCSzBJeWJ1c3RSZ1RtVk1Zd3VTUnNKSm9fcTkxRmctMVM4U19acUlZVVU2UEViNTRON3BITHk3NXk?oc=5",
+      "id": "CBMicEFVX3lxTE8ydGd6QXJnTDhqNU5NLWp0Y1JXT1pSWm1MNzZjQS03eUVMT1V3YXdNUnZHdmcxSkNCSzBJeWJ1c3RSZ1RtVk1Zd3VTUnNKSm9fcTkxRmctMVM4U19acUlZVVU2UEViNTRON3BITHk3NXk",
+      "guidislink": false,
+      "published": "Mon, 03 Oct 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        10,
+        3,
+        7,
+        0,
+        0,
+        0,
+        277,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE8ydGd6QXJnTDhqNU5NLWp0Y1JXT1pSWm1MNzZjQS03eUVMT1V3YXdNUnZHdmcxSkNCSzBJeWJ1c3RSZ1RtVk1Zd3VTUnNKSm9fcTkxRmctMVM4U19acUlZVVU2UEViNTRON3BITHk3NXk?oc=5\" target=\"_blank\">Zika Virus Birth Defects Don’t Stop at Microcephaly</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Time Magazine</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE8ydGd6QXJnTDhqNU5NLWp0Y1JXT1pSWm1MNzZjQS03eUVMT1V3YXdNUnZHdmcxSkNCSzBJeWJ1c3RSZ1RtVk1Zd3VTUnNKSm9fcTkxRmctMVM4U19acUlZVVU2UEViNTRON3BITHk3NXk?oc=5\" target=\"_blank\">Zika Virus Birth Defects Don’t Stop at Microcephaly</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Time Magazine</font>"
+      },
+      "source": {
+        "href": "https://time.com",
+        "title": "Time Magazine"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Thailand considers Zika tests for all pregnant women - Reuters",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Thailand considers Zika tests for all pregnant women - Reuters"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOZDdmYURpZGhSVXFGNWgyNl9reklaZlhmTi15LURuSTg0SDZGZjVkQkpCd29GU19SOEI1a0l1Xzl2ZjR5TThWY3A4R3BrSzV6UUZmVlZ0cGdVRTNmS1psSWNWQUhUZ3ZGWE92cUpteWhZd2Via2J1aHNqRFVLWExoZk5KMzhtUkpTc1FSeDNWYy1HWnQ1X281ejJVX0NJWkhYUmhqQWRzVE5hLWdYZTlIc1FyX1pMZ3RhcUREOWFwWjZjcmt6UlFxRUpkSVBZOUhE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOZDdmYURpZGhSVXFGNWgyNl9reklaZlhmTi15LURuSTg0SDZGZjVkQkpCd29GU19SOEI1a0l1Xzl2ZjR5TThWY3A4R3BrSzV6UUZmVlZ0cGdVRTNmS1psSWNWQUhUZ3ZGWE92cUpteWhZd2Via2J1aHNqRFVLWExoZk5KMzhtUkpTc1FSeDNWYy1HWnQ1X281ejJVX0NJWkhYUmhqQWRzVE5hLWdYZTlIc1FyX1pMZ3RhcUREOWFwWjZjcmt6UlFxRUpkSVBZOUhE?oc=5",
+      "id": "CBMi0AFBVV95cUxOZDdmYURpZGhSVXFGNWgyNl9reklaZlhmTi15LURuSTg0SDZGZjVkQkpCd29GU19SOEI1a0l1Xzl2ZjR5TThWY3A4R3BrSzV6UUZmVlZ0cGdVRTNmS1psSWNWQUhUZ3ZGWE92cUpteWhZd2Via2J1aHNqRFVLWExoZk5KMzhtUkpTc1FSeDNWYy1HWnQ1X281ejJVX0NJWkhYUmhqQWRzVE5hLWdYZTlIc1FyX1pMZ3RhcUREOWFwWjZjcmt6UlFxRUpkSVBZOUhE",
+      "guidislink": false,
+      "published": "Mon, 03 Oct 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        10,
+        3,
+        7,
+        0,
+        0,
+        0,
+        277,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxOZDdmYURpZGhSVXFGNWgyNl9reklaZlhmTi15LURuSTg0SDZGZjVkQkpCd29GU19SOEI1a0l1Xzl2ZjR5TThWY3A4R3BrSzV6UUZmVlZ0cGdVRTNmS1psSWNWQUhUZ3ZGWE92cUpteWhZd2Via2J1aHNqRFVLWExoZk5KMzhtUkpTc1FSeDNWYy1HWnQ1X281ejJVX0NJWkhYUmhqQWRzVE5hLWdYZTlIc1FyX1pMZ3RhcUREOWFwWjZjcmt6UlFxRUpkSVBZOUhE?oc=5\" target=\"_blank\">Thailand considers Zika tests for all pregnant women</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxOZDdmYURpZGhSVXFGNWgyNl9reklaZlhmTi15LURuSTg0SDZGZjVkQkpCd29GU19SOEI1a0l1Xzl2ZjR5TThWY3A4R3BrSzV6UUZmVlZ0cGdVRTNmS1psSWNWQUhUZ3ZGWE92cUpteWhZd2Via2J1aHNqRFVLWExoZk5KMzhtUkpTc1FSeDNWYy1HWnQ1X281ejJVX0NJWkhYUmhqQWRzVE5hLWdYZTlIc1FyX1pMZ3RhcUREOWFwWjZjcmt6UlFxRUpkSVBZOUhE?oc=5\" target=\"_blank\">Thailand considers Zika tests for all pregnant women</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Reuters</font>"
+      },
+      "source": {
+        "href": "https://www.reuters.com",
+        "title": "Reuters"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "US Health Officials: Zika Funding Delay Hurt Effort to Fight Virus - VOA - Voice of America English News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "US Health Officials: Zika Funding Delay Hurt Effort to Fight Virus - VOA - Voice of America English News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQS05QNjd1cTJtUmxGTVJoU0UzM290aWVCbF9pM0NvQnBiSjlCMDJsZ1J1dHk5V3o3bjVLVGlSTlRDNmNuYVNlc3VzbjYtRnM1ZHM2cXpWYWE1bk96MWFBTmdSTHhiOFNHUlV0aVJwZVRKZjJIY3Nza3BnYTM3WkUxdHM3X3Q5TWdHMmN2Yll5ZmhYbGFtVW95SmN0VFF4eHNUaTZYetIBpwFBVV95cUxNb1BQM1I0QkVtVjJCNTR2RWVGTkxMcFRuWlEzMVY2cXNrV0h1T2c4NDlBQXlCZEF2cUlRb0JoZmFNQ0I2X1dEUXFFT2hBTGowZUg1RXoyUV9FeDduZVJHOHJJR2o3TEFWTFZRdDBJMFluVEVfbkJkWHo0dmFLNmtXNUR3SGhXaVNGSEtSYXZYQmhiTlNGRnZsbUJ5SDdjYXhPYUVFRWpkQQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQS05QNjd1cTJtUmxGTVJoU0UzM290aWVCbF9pM0NvQnBiSjlCMDJsZ1J1dHk5V3o3bjVLVGlSTlRDNmNuYVNlc3VzbjYtRnM1ZHM2cXpWYWE1bk96MWFBTmdSTHhiOFNHUlV0aVJwZVRKZjJIY3Nza3BnYTM3WkUxdHM3X3Q5TWdHMmN2Yll5ZmhYbGFtVW95SmN0VFF4eHNUaTZYetIBpwFBVV95cUxNb1BQM1I0QkVtVjJCNTR2RWVGTkxMcFRuWlEzMVY2cXNrV0h1T2c4NDlBQXlCZEF2cUlRb0JoZmFNQ0I2X1dEUXFFT2hBTGowZUg1RXoyUV9FeDduZVJHOHJJR2o3TEFWTFZRdDBJMFluVEVfbkJkWHo0dmFLNmtXNUR3SGhXaVNGSEtSYXZYQmhiTlNGRnZsbUJ5SDdjYXhPYUVFRWpkQQ?oc=5",
+      "id": "CBMipAFBVV95cUxQS05QNjd1cTJtUmxGTVJoU0UzM290aWVCbF9pM0NvQnBiSjlCMDJsZ1J1dHk5V3o3bjVLVGlSTlRDNmNuYVNlc3VzbjYtRnM1ZHM2cXpWYWE1bk96MWFBTmdSTHhiOFNHUlV0aVJwZVRKZjJIY3Nza3BnYTM3WkUxdHM3X3Q5TWdHMmN2Yll5ZmhYbGFtVW95SmN0VFF4eHNUaTZYetIBpwFBVV95cUxNb1BQM1I0QkVtVjJCNTR2RWVGTkxMcFRuWlEzMVY2cXNrV0h1T2c4NDlBQXlCZEF2cUlRb0JoZmFNQ0I2X1dEUXFFT2hBTGowZUg1RXoyUV9FeDduZVJHOHJJR2o3TEFWTFZRdDBJMFluVEVfbkJkWHo0dmFLNmtXNUR3SGhXaVNGSEtSYXZYQmhiTlNGRnZsbUJ5SDdjYXhPYUVFRWpkQQ",
+      "guidislink": false,
+      "published": "Mon, 03 Oct 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        10,
+        3,
+        7,
+        0,
+        0,
+        0,
+        277,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxQS05QNjd1cTJtUmxGTVJoU0UzM290aWVCbF9pM0NvQnBiSjlCMDJsZ1J1dHk5V3o3bjVLVGlSTlRDNmNuYVNlc3VzbjYtRnM1ZHM2cXpWYWE1bk96MWFBTmdSTHhiOFNHUlV0aVJwZVRKZjJIY3Nza3BnYTM3WkUxdHM3X3Q5TWdHMmN2Yll5ZmhYbGFtVW95SmN0VFF4eHNUaTZYetIBpwFBVV95cUxNb1BQM1I0QkVtVjJCNTR2RWVGTkxMcFRuWlEzMVY2cXNrV0h1T2c4NDlBQXlCZEF2cUlRb0JoZmFNQ0I2X1dEUXFFT2hBTGowZUg1RXoyUV9FeDduZVJHOHJJR2o3TEFWTFZRdDBJMFluVEVfbkJkWHo0dmFLNmtXNUR3SGhXaVNGSEtSYXZYQmhiTlNGRnZsbUJ5SDdjYXhPYUVFRWpkQQ?oc=5\" target=\"_blank\">US Health Officials: Zika Funding Delay Hurt Effort to Fight Virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">VOA - Voice of America English News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxQS05QNjd1cTJtUmxGTVJoU0UzM290aWVCbF9pM0NvQnBiSjlCMDJsZ1J1dHk5V3o3bjVLVGlSTlRDNmNuYVNlc3VzbjYtRnM1ZHM2cXpWYWE1bk96MWFBTmdSTHhiOFNHUlV0aVJwZVRKZjJIY3Nza3BnYTM3WkUxdHM3X3Q5TWdHMmN2Yll5ZmhYbGFtVW95SmN0VFF4eHNUaTZYetIBpwFBVV95cUxNb1BQM1I0QkVtVjJCNTR2RWVGTkxMcFRuWlEzMVY2cXNrV0h1T2c4NDlBQXlCZEF2cUlRb0JoZmFNQ0I2X1dEUXFFT2hBTGowZUg1RXoyUV9FeDduZVJHOHJJR2o3TEFWTFZRdDBJMFluVEVfbkJkWHo0dmFLNmtXNUR3SGhXaVNGSEtSYXZYQmhiTlNGRnZsbUJ5SDdjYXhPYUVFRWpkQQ?oc=5\" target=\"_blank\">US Health Officials: Zika Funding Delay Hurt Effort to Fight Virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">VOA - Voice of America English News</font>"
+      },
+      "source": {
+        "href": "https://www.voanews.com",
+        "title": "VOA - Voice of America English News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika Virus Causes Damage to Infants Beyond Microcephaly, Study Finds - WSJ",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika Virus Causes Damage to Infants Beyond Microcephaly, Study Finds - WSJ"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMitgNBVV95cUxOYi1JTmg3Z05RRmdDcExCaWJMcFZOYUdfYnJ6WVg2c0VIc3J3VkdReHVLY2sxZmp2OXpPczFySl9pejBaUE9EOWdGeVoxRXE1MnMzeVgxV2ZrOEtkZTMwc1Q0MVcxRjdvSlV6NW53UWtKWDJZMTY3bXlFYUMyUzhxWC16bzhXOTZEeEluNWRaRl9YMWFmVnNycjk3YUZoRTJCOWg4ODBubG8wN0JUU1AxRndTLUdpSmtOTzExVEY1a2VUMlFmR2FxYk55WmNIcTk3NEV3QWU1VWtabDY2UlZNek9aejV4Zm94VkUxWXV3NEczOVFvNG5pWWNoSXNPcnMybzVfejY1Sm5oQjNZaW03MEpXYjJjbWJpMHBPOHYzbW8yTm5IZHNzOF9oOEgyLXNJR2tFS3pmSFd1TzcyYWc5YXFUekMyX2dnWlktb1VnTjNyekJLNkhrUnN2M0RIUmNCN0VNYlhlY3czN2dBMTVDVFdPUURFNEJOdlBoOTVnZ3JWOTA3YkoyTmQ1bEtkUUlPV0VxckY2ZWluRzl6WmtiMjM5YVBISkN4cHdXSlpqT2tqczBJRmc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMitgNBVV95cUxOYi1JTmg3Z05RRmdDcExCaWJMcFZOYUdfYnJ6WVg2c0VIc3J3VkdReHVLY2sxZmp2OXpPczFySl9pejBaUE9EOWdGeVoxRXE1MnMzeVgxV2ZrOEtkZTMwc1Q0MVcxRjdvSlV6NW53UWtKWDJZMTY3bXlFYUMyUzhxWC16bzhXOTZEeEluNWRaRl9YMWFmVnNycjk3YUZoRTJCOWg4ODBubG8wN0JUU1AxRndTLUdpSmtOTzExVEY1a2VUMlFmR2FxYk55WmNIcTk3NEV3QWU1VWtabDY2UlZNek9aejV4Zm94VkUxWXV3NEczOVFvNG5pWWNoSXNPcnMybzVfejY1Sm5oQjNZaW03MEpXYjJjbWJpMHBPOHYzbW8yTm5IZHNzOF9oOEgyLXNJR2tFS3pmSFd1TzcyYWc5YXFUekMyX2dnWlktb1VnTjNyekJLNkhrUnN2M0RIUmNCN0VNYlhlY3czN2dBMTVDVFdPUURFNEJOdlBoOTVnZ3JWOTA3YkoyTmQ1bEtkUUlPV0VxckY2ZWluRzl6WmtiMjM5YVBISkN4cHdXSlpqT2tqczBJRmc?oc=5",
+      "id": "CBMitgNBVV95cUxOYi1JTmg3Z05RRmdDcExCaWJMcFZOYUdfYnJ6WVg2c0VIc3J3VkdReHVLY2sxZmp2OXpPczFySl9pejBaUE9EOWdGeVoxRXE1MnMzeVgxV2ZrOEtkZTMwc1Q0MVcxRjdvSlV6NW53UWtKWDJZMTY3bXlFYUMyUzhxWC16bzhXOTZEeEluNWRaRl9YMWFmVnNycjk3YUZoRTJCOWg4ODBubG8wN0JUU1AxRndTLUdpSmtOTzExVEY1a2VUMlFmR2FxYk55WmNIcTk3NEV3QWU1VWtabDY2UlZNek9aejV4Zm94VkUxWXV3NEczOVFvNG5pWWNoSXNPcnMybzVfejY1Sm5oQjNZaW03MEpXYjJjbWJpMHBPOHYzbW8yTm5IZHNzOF9oOEgyLXNJR2tFS3pmSFd1TzcyYWc5YXFUekMyX2dnWlktb1VnTjNyekJLNkhrUnN2M0RIUmNCN0VNYlhlY3czN2dBMTVDVFdPUURFNEJOdlBoOTVnZ3JWOTA3YkoyTmQ1bEtkUUlPV0VxckY2ZWluRzl6WmtiMjM5YVBISkN4cHdXSlpqT2tqczBJRmc",
+      "guidislink": false,
+      "published": "Mon, 03 Oct 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        10,
+        3,
+        7,
+        0,
+        0,
+        0,
+        277,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgNBVV95cUxOYi1JTmg3Z05RRmdDcExCaWJMcFZOYUdfYnJ6WVg2c0VIc3J3VkdReHVLY2sxZmp2OXpPczFySl9pejBaUE9EOWdGeVoxRXE1MnMzeVgxV2ZrOEtkZTMwc1Q0MVcxRjdvSlV6NW53UWtKWDJZMTY3bXlFYUMyUzhxWC16bzhXOTZEeEluNWRaRl9YMWFmVnNycjk3YUZoRTJCOWg4ODBubG8wN0JUU1AxRndTLUdpSmtOTzExVEY1a2VUMlFmR2FxYk55WmNIcTk3NEV3QWU1VWtabDY2UlZNek9aejV4Zm94VkUxWXV3NEczOVFvNG5pWWNoSXNPcnMybzVfejY1Sm5oQjNZaW03MEpXYjJjbWJpMHBPOHYzbW8yTm5IZHNzOF9oOEgyLXNJR2tFS3pmSFd1TzcyYWc5YXFUekMyX2dnWlktb1VnTjNyekJLNkhrUnN2M0RIUmNCN0VNYlhlY3czN2dBMTVDVFdPUURFNEJOdlBoOTVnZ3JWOTA3YkoyTmQ1bEtkUUlPV0VxckY2ZWluRzl6WmtiMjM5YVBISkN4cHdXSlpqT2tqczBJRmc?oc=5\" target=\"_blank\">Zika Virus Causes Damage to Infants Beyond Microcephaly, Study Finds</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMitgNBVV95cUxOYi1JTmg3Z05RRmdDcExCaWJMcFZOYUdfYnJ6WVg2c0VIc3J3VkdReHVLY2sxZmp2OXpPczFySl9pejBaUE9EOWdGeVoxRXE1MnMzeVgxV2ZrOEtkZTMwc1Q0MVcxRjdvSlV6NW53UWtKWDJZMTY3bXlFYUMyUzhxWC16bzhXOTZEeEluNWRaRl9YMWFmVnNycjk3YUZoRTJCOWg4ODBubG8wN0JUU1AxRndTLUdpSmtOTzExVEY1a2VUMlFmR2FxYk55WmNIcTk3NEV3QWU1VWtabDY2UlZNek9aejV4Zm94VkUxWXV3NEczOVFvNG5pWWNoSXNPcnMybzVfejY1Sm5oQjNZaW03MEpXYjJjbWJpMHBPOHYzbW8yTm5IZHNzOF9oOEgyLXNJR2tFS3pmSFd1TzcyYWc5YXFUekMyX2dnWlktb1VnTjNyekJLNkhrUnN2M0RIUmNCN0VNYlhlY3czN2dBMTVDVFdPUURFNEJOdlBoOTVnZ3JWOTA3YkoyTmQ1bEtkUUlPV0VxckY2ZWluRzl6WmtiMjM5YVBISkN4cHdXSlpqT2tqczBJRmc?oc=5\" target=\"_blank\">Zika Virus Causes Damage to Infants Beyond Microcephaly, Study Finds</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WSJ</font>"
+      },
+      "source": {
+        "href": "https://www.wsj.com",
+        "title": "WSJ"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "7 ways Zika can spread - Great Bend Tribune",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "7 ways Zika can spread - Great Bend Tribune"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5Sd0M3c09EbWRkMUdWZkVEWHI0RU43X2gwNEdZY3FkQmpFbldWbk5FM2plSFhwTTkxOWszT1BKRUhZa2VLbTFKZGYtazZWcG1DdTk1ekFmcll0dnpRenZGdl9vTWZMQlhzYmpiZlNoMm1OelVZUG5LRWNB?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5Sd0M3c09EbWRkMUdWZkVEWHI0RU43X2gwNEdZY3FkQmpFbldWbk5FM2plSFhwTTkxOWszT1BKRUhZa2VLbTFKZGYtazZWcG1DdTk1ekFmcll0dnpRenZGdl9vTWZMQlhzYmpiZlNoMm1OelVZUG5LRWNB?oc=5",
+      "id": "CBMiekFVX3lxTE5Sd0M3c09EbWRkMUdWZkVEWHI0RU43X2gwNEdZY3FkQmpFbldWbk5FM2plSFhwTTkxOWszT1BKRUhZa2VLbTFKZGYtazZWcG1DdTk1ekFmcll0dnpRenZGdl9vTWZMQlhzYmpiZlNoMm1OelVZUG5LRWNB",
+      "guidislink": false,
+      "published": "Mon, 03 Oct 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        10,
+        3,
+        7,
+        0,
+        0,
+        0,
+        277,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE5Sd0M3c09EbWRkMUdWZkVEWHI0RU43X2gwNEdZY3FkQmpFbldWbk5FM2plSFhwTTkxOWszT1BKRUhZa2VLbTFKZGYtazZWcG1DdTk1ekFmcll0dnpRenZGdl9vTWZMQlhzYmpiZlNoMm1OelVZUG5LRWNB?oc=5\" target=\"_blank\">7 ways Zika can spread</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Great Bend Tribune</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE5Sd0M3c09EbWRkMUdWZkVEWHI0RU43X2gwNEdZY3FkQmpFbldWbk5FM2plSFhwTTkxOWszT1BKRUhZa2VLbTFKZGYtazZWcG1DdTk1ekFmcll0dnpRenZGdl9vTWZMQlhzYmpiZlNoMm1OelVZUG5LRWNB?oc=5\" target=\"_blank\">7 ways Zika can spread</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Great Bend Tribune</font>"
+      },
+      "source": {
+        "href": "https://www.gbtribune.com",
+        "title": "Great Bend Tribune"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "5 tips to keep hotels mosquito free - Hotel Management",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "5 tips to keep hotels mosquito free - Hotel Management"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUW56QkpUVUt1QUM4NEVYOGRSX2R5NE5TQ25vTXVBNERSajRvWkdrUFk0N2phNGN6MkFyWFBfN2h0U29MTFo2U1ZCRF9fMWd6RDZVQWpkalZPaEFCS1BYbkRTMnY0d2dONUt2aXFHSHJoSkVlV1puYTBvb0JrOUpXRg?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUW56QkpUVUt1QUM4NEVYOGRSX2R5NE5TQ25vTXVBNERSajRvWkdrUFk0N2phNGN6MkFyWFBfN2h0U29MTFo2U1ZCRF9fMWd6RDZVQWpkalZPaEFCS1BYbkRTMnY0d2dONUt2aXFHSHJoSkVlV1puYTBvb0JrOUpXRg?oc=5",
+      "id": "CBMigAFBVV95cUxOUW56QkpUVUt1QUM4NEVYOGRSX2R5NE5TQ25vTXVBNERSajRvWkdrUFk0N2phNGN6MkFyWFBfN2h0U29MTFo2U1ZCRF9fMWd6RDZVQWpkalZPaEFCS1BYbkRTMnY0d2dONUt2aXFHSHJoSkVlV1puYTBvb0JrOUpXRg",
+      "guidislink": false,
+      "published": "Mon, 03 Oct 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        10,
+        3,
+        7,
+        0,
+        0,
+        0,
+        277,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxOUW56QkpUVUt1QUM4NEVYOGRSX2R5NE5TQ25vTXVBNERSajRvWkdrUFk0N2phNGN6MkFyWFBfN2h0U29MTFo2U1ZCRF9fMWd6RDZVQWpkalZPaEFCS1BYbkRTMnY0d2dONUt2aXFHSHJoSkVlV1puYTBvb0JrOUpXRg?oc=5\" target=\"_blank\">5 tips to keep hotels mosquito free</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Hotel Management</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxOUW56QkpUVUt1QUM4NEVYOGRSX2R5NE5TQ25vTXVBNERSajRvWkdrUFk0N2phNGN6MkFyWFBfN2h0U29MTFo2U1ZCRF9fMWd6RDZVQWpkalZPaEFCS1BYbkRTMnY0d2dONUt2aXFHSHJoSkVlV1puYTBvb0JrOUpXRg?oc=5\" target=\"_blank\">5 tips to keep hotels mosquito free</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Hotel Management</font>"
+      },
+      "source": {
+        "href": "https://www.hotelmanagement.net",
+        "title": "Hotel Management"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "The DayStarter: Zika relief, Biden in Florida, a 'Birth of the Nation' review and more - Tampa Bay Times",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "The DayStarter: Zika relief, Biden in Florida, a 'Birth of the Nation' review and more - Tampa Bay Times"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOaHRCd3Jib0dSQ2dqRktpb0NKcUxyVEk5OXpZVXY4MS1NX1dRcTlSSEhXQmpRRFFMQldabGZaT3NYVWdBNk9KUVFtTHhxY0YxWDI5enVnd3lyMkxpT0R1UmtWXzV2dXNEVzhGMjJuZjh0LWgxQ3RYdUI2WXp5dEZfQVVfcw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOaHRCd3Jib0dSQ2dqRktpb0NKcUxyVEk5OXpZVXY4MS1NX1dRcTlSSEhXQmpRRFFMQldabGZaT3NYVWdBNk9KUVFtTHhxY0YxWDI5enVnd3lyMkxpT0R1UmtWXzV2dXNEVzhGMjJuZjh0LWgxQ3RYdUI2WXp5dEZfQVVfcw?oc=5",
+      "id": "CBMigwFBVV95cUxOaHRCd3Jib0dSQ2dqRktpb0NKcUxyVEk5OXpZVXY4MS1NX1dRcTlSSEhXQmpRRFFMQldabGZaT3NYVWdBNk9KUVFtTHhxY0YxWDI5enVnd3lyMkxpT0R1UmtWXzV2dXNEVzhGMjJuZjh0LWgxQ3RYdUI2WXp5dEZfQVVfcw",
+      "guidislink": false,
+      "published": "Mon, 03 Oct 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        10,
+        3,
+        7,
+        0,
+        0,
+        0,
+        277,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxOaHRCd3Jib0dSQ2dqRktpb0NKcUxyVEk5OXpZVXY4MS1NX1dRcTlSSEhXQmpRRFFMQldabGZaT3NYVWdBNk9KUVFtTHhxY0YxWDI5enVnd3lyMkxpT0R1UmtWXzV2dXNEVzhGMjJuZjh0LWgxQ3RYdUI2WXp5dEZfQVVfcw?oc=5\" target=\"_blank\">The DayStarter: Zika relief, Biden in Florida, a 'Birth of the Nation' review and more</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tampa Bay Times</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxOaHRCd3Jib0dSQ2dqRktpb0NKcUxyVEk5OXpZVXY4MS1NX1dRcTlSSEhXQmpRRFFMQldabGZaT3NYVWdBNk9KUVFtTHhxY0YxWDI5enVnd3lyMkxpT0R1UmtWXzV2dXNEVzhGMjJuZjh0LWgxQ3RYdUI2WXp5dEZfQVVfcw?oc=5\" target=\"_blank\">The DayStarter: Zika relief, Biden in Florida, a 'Birth of the Nation' review and more</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tampa Bay Times</font>"
+      },
+      "source": {
+        "href": "https://www.tampabay.com",
+        "title": "Tampa Bay Times"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Town hall meetings on Zika rescheduled - Cayman Compass",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Town hall meetings on Zika rescheduled - Cayman Compass"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQankteEo0SzhjNjJhNWgySk9HbXpEM1JGalFUN1JzZ01wVmlrc2Nwc2NtYVVhblJKN1FsMmpGZTJFZFhfTmxWc2FMTHZpaUY2UURacWtHS1lyblV1U0hJQzU2aTU4N0R6UE9HWlQyOUY2Wl8teEdpYmM0OE9yajNtUEdRdWktSEk?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQankteEo0SzhjNjJhNWgySk9HbXpEM1JGalFUN1JzZ01wVmlrc2Nwc2NtYVVhblJKN1FsMmpGZTJFZFhfTmxWc2FMTHZpaUY2UURacWtHS1lyblV1U0hJQzU2aTU4N0R6UE9HWlQyOUY2Wl8teEdpYmM0OE9yajNtUEdRdWktSEk?oc=5",
+      "id": "CBMihwFBVV95cUxQankteEo0SzhjNjJhNWgySk9HbXpEM1JGalFUN1JzZ01wVmlrc2Nwc2NtYVVhblJKN1FsMmpGZTJFZFhfTmxWc2FMTHZpaUY2UURacWtHS1lyblV1U0hJQzU2aTU4N0R6UE9HWlQyOUY2Wl8teEdpYmM0OE9yajNtUEdRdWktSEk",
+      "guidislink": false,
+      "published": "Sun, 02 Oct 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        10,
+        2,
+        7,
+        0,
+        0,
+        6,
+        276,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxQankteEo0SzhjNjJhNWgySk9HbXpEM1JGalFUN1JzZ01wVmlrc2Nwc2NtYVVhblJKN1FsMmpGZTJFZFhfTmxWc2FMTHZpaUY2UURacWtHS1lyblV1U0hJQzU2aTU4N0R6UE9HWlQyOUY2Wl8teEdpYmM0OE9yajNtUEdRdWktSEk?oc=5\" target=\"_blank\">Town hall meetings on Zika rescheduled</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cayman Compass</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxQankteEo0SzhjNjJhNWgySk9HbXpEM1JGalFUN1JzZ01wVmlrc2Nwc2NtYVVhblJKN1FsMmpGZTJFZFhfTmxWc2FMTHZpaUY2UURacWtHS1lyblV1U0hJQzU2aTU4N0R6UE9HWlQyOUY2Wl8teEdpYmM0OE9yajNtUEdRdWktSEk?oc=5\" target=\"_blank\">Town hall meetings on Zika rescheduled</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Cayman Compass</font>"
+      },
+      "source": {
+        "href": "https://www.caymancompass.com",
+        "title": "Cayman Compass"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Microcephaly Symptoms | Inhabitat - Green Design, Innovation, Architecture, Green Building - Inhabitat",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Microcephaly Symptoms | Inhabitat - Green Design, Innovation, Architecture, Green Building - Inhabitat"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYktDaDVJZzUzLVZfaDg3RDF0TDlPYVpPQzBOS2ZfejlpV3VJRUxKbFRXc0xxSjcwZ0ZPdGIwUGtrU0RhQ0JmQnFjTGYxWUIzZkh0UEw2ckUtbHRSSnJkWXRjY2pSRWdaUDF1bVpZVnV1SDlnbmFKZVVxaUZhVjVwVkIzNHBZanE3d1VHalBEME80UHZsUGduaGxaRE4wakM5b3lYR2lUY0VaakUyZE5CY0NXUVdTdG5PUEk3UQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYktDaDVJZzUzLVZfaDg3RDF0TDlPYVpPQzBOS2ZfejlpV3VJRUxKbFRXc0xxSjcwZ0ZPdGIwUGtrU0RhQ0JmQnFjTGYxWUIzZkh0UEw2ckUtbHRSSnJkWXRjY2pSRWdaUDF1bVpZVnV1SDlnbmFKZVVxaUZhVjVwVkIzNHBZanE3d1VHalBEME80UHZsUGduaGxaRE4wakM5b3lYR2lUY0VaakUyZE5CY0NXUVdTdG5PUEk3UQ?oc=5",
+      "id": "CBMivAFBVV95cUxPYktDaDVJZzUzLVZfaDg3RDF0TDlPYVpPQzBOS2ZfejlpV3VJRUxKbFRXc0xxSjcwZ0ZPdGIwUGtrU0RhQ0JmQnFjTGYxWUIzZkh0UEw2ckUtbHRSSnJkWXRjY2pSRWdaUDF1bVpZVnV1SDlnbmFKZVVxaUZhVjVwVkIzNHBZanE3d1VHalBEME80UHZsUGduaGxaRE4wakM5b3lYR2lUY0VaakUyZE5CY0NXUVdTdG5PUEk3UQ",
+      "guidislink": false,
+      "published": "Mon, 03 Oct 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        10,
+        3,
+        7,
+        0,
+        0,
+        0,
+        277,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxPYktDaDVJZzUzLVZfaDg3RDF0TDlPYVpPQzBOS2ZfejlpV3VJRUxKbFRXc0xxSjcwZ0ZPdGIwUGtrU0RhQ0JmQnFjTGYxWUIzZkh0UEw2ckUtbHRSSnJkWXRjY2pSRWdaUDF1bVpZVnV1SDlnbmFKZVVxaUZhVjVwVkIzNHBZanE3d1VHalBEME80UHZsUGduaGxaRE4wakM5b3lYR2lUY0VaakUyZE5CY0NXUVdTdG5PUEk3UQ?oc=5\" target=\"_blank\">Microcephaly Symptoms | Inhabitat - Green Design, Innovation, Architecture, Green Building</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Inhabitat</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxPYktDaDVJZzUzLVZfaDg3RDF0TDlPYVpPQzBOS2ZfejlpV3VJRUxKbFRXc0xxSjcwZ0ZPdGIwUGtrU0RhQ0JmQnFjTGYxWUIzZkh0UEw2ckUtbHRSSnJkWXRjY2pSRWdaUDF1bVpZVnV1SDlnbmFKZVVxaUZhVjVwVkIzNHBZanE3d1VHalBEME80UHZsUGduaGxaRE4wakM5b3lYR2lUY0VaakUyZE5CY0NXUVdTdG5PUEk3UQ?oc=5\" target=\"_blank\">Microcephaly Symptoms | Inhabitat - Green Design, Innovation, Architecture, Green Building</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Inhabitat</font>"
+      },
+      "source": {
+        "href": "https://inhabitat.com",
+        "title": "Inhabitat"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Pregnant Women in Thailand to Test for Zika - Tempo.co English",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Pregnant Women in Thailand to Test for Zika - Tempo.co English"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPWlZKTXZzLTR5Qy11YzZXdW5La2J4S1lTb1ZNOXpJMm9vaGVOYTV0TVNDVXJxMGJiMGZPSWZmMW5ubjlxVDVDVEo2dlh2TXNjRXo3SGFLdzlxcTFlYVd5QUpzQUUweDd0VmN4R25hSFB4eUV0UWlGZVR5VjhObkk3VA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPWlZKTXZzLTR5Qy11YzZXdW5La2J4S1lTb1ZNOXpJMm9vaGVOYTV0TVNDVXJxMGJiMGZPSWZmMW5ubjlxVDVDVEo2dlh2TXNjRXo3SGFLdzlxcTFlYVd5QUpzQUUweDd0VmN4R25hSFB4eUV0UWlGZVR5VjhObkk3VA?oc=5",
+      "id": "CBMigAFBVV95cUxPWlZKTXZzLTR5Qy11YzZXdW5La2J4S1lTb1ZNOXpJMm9vaGVOYTV0TVNDVXJxMGJiMGZPSWZmMW5ubjlxVDVDVEo2dlh2TXNjRXo3SGFLdzlxcTFlYVd5QUpzQUUweDd0VmN4R25hSFB4eUV0UWlGZVR5VjhObkk3VA",
+      "guidislink": false,
+      "published": "Mon, 03 Oct 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        10,
+        3,
+        7,
+        0,
+        0,
+        0,
+        277,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxPWlZKTXZzLTR5Qy11YzZXdW5La2J4S1lTb1ZNOXpJMm9vaGVOYTV0TVNDVXJxMGJiMGZPSWZmMW5ubjlxVDVDVEo2dlh2TXNjRXo3SGFLdzlxcTFlYVd5QUpzQUUweDd0VmN4R25hSFB4eUV0UWlGZVR5VjhObkk3VA?oc=5\" target=\"_blank\">Pregnant Women in Thailand to Test for Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tempo.co English</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxPWlZKTXZzLTR5Qy11YzZXdW5La2J4S1lTb1ZNOXpJMm9vaGVOYTV0TVNDVXJxMGJiMGZPSWZmMW5ubjlxVDVDVEo2dlh2TXNjRXo3SGFLdzlxcTFlYVd5QUpzQUUweDd0VmN4R25hSFB4eUV0UWlGZVR5VjhObkk3VA?oc=5\" target=\"_blank\">Pregnant Women in Thailand to Test for Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Tempo.co English</font>"
+      },
+      "source": {
+        "href": "https://en.tempo.co",
+        "title": "Tempo.co English"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Microcephaly surveillance in Lanka - The Sunday Times, Sri Lanka",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Microcephaly surveillance in Lanka - The Sunday Times, Sri Lanka"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNFBQZFJQQW5LVi05dUxTdWl4cngzNG5DcFhVMnA5WWt5VGxXY3JvZ2ZLUHJXQVZJRjFSZWZVUGNHT01tRG5fbUphV0o4VmlZbFpwdjJUZnE1eEdwNUJsRFhsRXNTbFNyTTRJaFBrV1JkOEtKM3c2cVdqNFRxaGQ4X19NQ1lkUEVyTXZkWVZ6Y3YyRG5jQWIyNzZB?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNFBQZFJQQW5LVi05dUxTdWl4cngzNG5DcFhVMnA5WWt5VGxXY3JvZ2ZLUHJXQVZJRjFSZWZVUGNHT01tRG5fbUphV0o4VmlZbFpwdjJUZnE1eEdwNUJsRFhsRXNTbFNyTTRJaFBrV1JkOEtKM3c2cVdqNFRxaGQ4X19NQ1lkUEVyTXZkWVZ6Y3YyRG5jQWIyNzZB?oc=5",
+      "id": "CBMimgFBVV95cUxPNFBQZFJQQW5LVi05dUxTdWl4cngzNG5DcFhVMnA5WWt5VGxXY3JvZ2ZLUHJXQVZJRjFSZWZVUGNHT01tRG5fbUphV0o4VmlZbFpwdjJUZnE1eEdwNUJsRFhsRXNTbFNyTTRJaFBrV1JkOEtKM3c2cVdqNFRxaGQ4X19NQ1lkUEVyTXZkWVZ6Y3YyRG5jQWIyNzZB",
+      "guidislink": false,
+      "published": "Sun, 02 Oct 2016 07:00:00 GMT",
+      "published_parsed": [
+        2016,
+        10,
+        2,
+        7,
+        0,
+        0,
+        6,
+        276,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxPNFBQZFJQQW5LVi05dUxTdWl4cngzNG5DcFhVMnA5WWt5VGxXY3JvZ2ZLUHJXQVZJRjFSZWZVUGNHT01tRG5fbUphV0o4VmlZbFpwdjJUZnE1eEdwNUJsRFhsRXNTbFNyTTRJaFBrV1JkOEtKM3c2cVdqNFRxaGQ4X19NQ1lkUEVyTXZkWVZ6Y3YyRG5jQWIyNzZB?oc=5\" target=\"_blank\">Microcephaly surveillance in Lanka</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Sunday Times, Sri Lanka</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxPNFBQZFJQQW5LVi05dUxTdWl4cngzNG5DcFhVMnA5WWt5VGxXY3JvZ2ZLUHJXQVZJRjFSZWZVUGNHT01tRG5fbUphV0o4VmlZbFpwdjJUZnE1eEdwNUJsRFhsRXNTbFNyTTRJaFBrV1JkOEtKM3c2cVdqNFRxaGQ4X19NQ1lkUEVyTXZkWVZ6Y3YyRG5jQWIyNzZB?oc=5\" target=\"_blank\">Microcephaly surveillance in Lanka</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Sunday Times, Sri Lanka</font>"
+      },
+      "source": {
+        "href": "http://www.sundaytimes.lk",
+        "title": "The Sunday Times, Sri Lanka"
+      },
+      "sub_articles": []
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2012-10-05",
+  "window_end": "2012-10-18",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2012-10-05+before%3A2012-10-19&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2012-10-05+before:2012-10-19&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:17:50Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2012-10-05 before:2012-10-19\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2012-10-05 before:2012-10-19\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2012-10-05+before:2012-10-19&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2012-10-05+before:2012-10-19&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:17:51 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      17,
+      51,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Tom Conti: 'An open marriage didn't do us any harm!' - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Tom Conti: 'An open marriage didn't do us any harm!' - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaDlKTmtVV2JMTUlyZWdiVzNCYmdaRmJRelZORV9iMDJhbnZFeUtFeFZYaTRSa1RtSVE0Y3NOcC1uU1Y1eEh1QkNWY2xQSFQ5YmZ4cXBtMmFvVHNHcTVzUWNQSF9idVVpVjRmOE03b2hhZ2NiWWhoa0pFOFl3cmxNc0xqZ2JKVXA3NU83d3ZLOGxDZjNiVzFLWWVWVDliQdIBngFBVV95cUxNaDlKTmtVV2JMTUlyZWdiVzNCYmdaRmJRelZORV9iMDJhbnZFeUtFeFZYaTRSa1RtSVE0Y3NOcC1uU1Y1eEh1QkNWY2xQSFQ5YmZ4cXBtMmFvVHNHcTVzUWNQSF9idVVpVjRmOE03b2hhZ2NiWWhoa0pFOFl3cmxNc0xqZ2JKVXA3NU83d3ZLOGxDZjNiVzFLWWVWVDliQQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaDlKTmtVV2JMTUlyZWdiVzNCYmdaRmJRelZORV9iMDJhbnZFeUtFeFZYaTRSa1RtSVE0Y3NOcC1uU1Y1eEh1QkNWY2xQSFQ5YmZ4cXBtMmFvVHNHcTVzUWNQSF9idVVpVjRmOE03b2hhZ2NiWWhoa0pFOFl3cmxNc0xqZ2JKVXA3NU83d3ZLOGxDZjNiVzFLWWVWVDliQdIBngFBVV95cUxNaDlKTmtVV2JMTUlyZWdiVzNCYmdaRmJRelZORV9iMDJhbnZFeUtFeFZYaTRSa1RtSVE0Y3NOcC1uU1Y1eEh1QkNWY2xQSFQ5YmZ4cXBtMmFvVHNHcTVzUWNQSF9idVVpVjRmOE03b2hhZ2NiWWhoa0pFOFl3cmxNc0xqZ2JKVXA3NU83d3ZLOGxDZjNiVzFLWWVWVDliQQ?oc=5",
+      "id": "CBMingFBVV95cUxNaDlKTmtVV2JMTUlyZWdiVzNCYmdaRmJRelZORV9iMDJhbnZFeUtFeFZYaTRSa1RtSVE0Y3NOcC1uU1Y1eEh1QkNWY2xQSFQ5YmZ4cXBtMmFvVHNHcTVzUWNQSF9idVVpVjRmOE03b2hhZ2NiWWhoa0pFOFl3cmxNc0xqZ2JKVXA3NU83d3ZLOGxDZjNiVzFLWWVWVDliQdIBngFBVV95cUxNaDlKTmtVV2JMTUlyZWdiVzNCYmdaRmJRelZORV9iMDJhbnZFeUtFeFZYaTRSa1RtSVE0Y3NOcC1uU1Y1eEh1QkNWY2xQSFQ5YmZ4cXBtMmFvVHNHcTVzUWNQSF9idVVpVjRmOE03b2hhZ2NiWWhoa0pFOFl3cmxNc0xqZ2JKVXA3NU83d3ZLOGxDZjNiVzFLWWVWVDliQQ",
+      "guidislink": false,
+      "published": "Sat, 06 Oct 2012 07:00:00 GMT",
+      "published_parsed": [
+        2012,
+        10,
+        6,
+        7,
+        0,
+        0,
+        5,
+        280,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNaDlKTmtVV2JMTUlyZWdiVzNCYmdaRmJRelZORV9iMDJhbnZFeUtFeFZYaTRSa1RtSVE0Y3NOcC1uU1Y1eEh1QkNWY2xQSFQ5YmZ4cXBtMmFvVHNHcTVzUWNQSF9idVVpVjRmOE03b2hhZ2NiWWhoa0pFOFl3cmxNc0xqZ2JKVXA3NU83d3ZLOGxDZjNiVzFLWWVWVDliQdIBngFBVV95cUxNaDlKTmtVV2JMTUlyZWdiVzNCYmdaRmJRelZORV9iMDJhbnZFeUtFeFZYaTRSa1RtSVE0Y3NOcC1uU1Y1eEh1QkNWY2xQSFQ5YmZ4cXBtMmFvVHNHcTVzUWNQSF9idVVpVjRmOE03b2hhZ2NiWWhoa0pFOFl3cmxNc0xqZ2JKVXA3NU83d3ZLOGxDZjNiVzFLWWVWVDliQQ?oc=5\" target=\"_blank\">Tom Conti: 'An open marriage didn't do us any harm!'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNaDlKTmtVV2JMTUlyZWdiVzNCYmdaRmJRelZORV9iMDJhbnZFeUtFeFZYaTRSa1RtSVE0Y3NOcC1uU1Y1eEh1QkNWY2xQSFQ5YmZ4cXBtMmFvVHNHcTVzUWNQSF9idVVpVjRmOE03b2hhZ2NiWWhoa0pFOFl3cmxNc0xqZ2JKVXA3NU83d3ZLOGxDZjNiVzFLWWVWVDliQdIBngFBVV95cUxNaDlKTmtVV2JMTUlyZWdiVzNCYmdaRmJRelZORV9iMDJhbnZFeUtFeFZYaTRSa1RtSVE0Y3NOcC1uU1Y1eEh1QkNWY2xQSFQ5YmZ4cXBtMmFvVHNHcTVzUWNQSF9idVVpVjRmOE03b2hhZ2NiWWhoa0pFOFl3cmxNc0xqZ2JKVXA3NU83d3ZLOGxDZjNiVzFLWWVWVDliQQ?oc=5\" target=\"_blank\">Tom Conti: 'An open marriage didn't do us any harm!'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    }
+  ]
+}

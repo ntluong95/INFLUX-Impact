@@ -1,0 +1,263 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2012-12-28",
+  "window_end": "2013-01-10",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2012-12-28+before%3A2013-01-11&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2012-12-28+before:2013-01-11&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:18:01Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2012-12-28 before:2013-01-11\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2012-12-28 before:2013-01-11\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2012-12-28+before:2013-01-11&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2012-12-28+before:2013-01-11&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:18:02 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      18,
+      2,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Harry Redknapp wants Mohamed Diame and Jake Livermore at QPR - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Harry Redknapp wants Mohamed Diame and Jake Livermore at QPR - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSlhSSnlTeXhtZXlIZTlQdkZ3QjBIdUJQSjdmN29RSW1hVnU5dFFCWHJtZ085TzlMU3dMUG80N1Bac05BVEdIbERnYk9keDFPazV3R25zZlFDTnJKTl9QbndPS0ZDRHVrV21hZ25BV29vVU5UZ0x1em11NExxaDg5ZUtraDRSb3JkWWN3Z2FzMFVya25OR2RCX0pIeWh6aGVOLUtRZVJOUjkyTEE2ODFjLXdsMXFfSXB1N1FEcWhR0gG-AUFVX3lxTE9KWFJKeVN5eG1leUhlOVB2RndCMEh1QlBKN2Y3b1FJbWFWdTl0UUJYcm1nTzlPOUxTd0xQbzQ3UFpzTkFUR0hsRGdiT2R4MU9rNXdHbnNmUUNOckpOX1Bud09LRkNEdWtXbWFnbkFXb29VTlRnTHV6bXU0THFoODllS2toNFJvcmRZY3dnYXMwVXJrbk5HZEJfSkh5aHpoZU4tS1FlUk5SOTJMQTY4MWMtd2wxcV9JcHU3UURxaFE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSlhSSnlTeXhtZXlIZTlQdkZ3QjBIdUJQSjdmN29RSW1hVnU5dFFCWHJtZ085TzlMU3dMUG80N1Bac05BVEdIbERnYk9keDFPazV3R25zZlFDTnJKTl9QbndPS0ZDRHVrV21hZ25BV29vVU5UZ0x1em11NExxaDg5ZUtraDRSb3JkWWN3Z2FzMFVya25OR2RCX0pIeWh6aGVOLUtRZVJOUjkyTEE2ODFjLXdsMXFfSXB1N1FEcWhR0gG-AUFVX3lxTE9KWFJKeVN5eG1leUhlOVB2RndCMEh1QlBKN2Y3b1FJbWFWdTl0UUJYcm1nTzlPOUxTd0xQbzQ3UFpzTkFUR0hsRGdiT2R4MU9rNXdHbnNmUUNOckpOX1Bud09LRkNEdWtXbWFnbkFXb29VTlRnTHV6bXU0THFoODllS2toNFJvcmRZY3dnYXMwVXJrbk5HZEJfSkh5aHpoZU4tS1FlUk5SOTJMQTY4MWMtd2wxcV9JcHU3UURxaFE?oc=5",
+      "id": "CBMivgFBVV95cUxPSlhSSnlTeXhtZXlIZTlQdkZ3QjBIdUJQSjdmN29RSW1hVnU5dFFCWHJtZ085TzlMU3dMUG80N1Bac05BVEdIbERnYk9keDFPazV3R25zZlFDTnJKTl9QbndPS0ZDRHVrV21hZ25BV29vVU5UZ0x1em11NExxaDg5ZUtraDRSb3JkWWN3Z2FzMFVya25OR2RCX0pIeWh6aGVOLUtRZVJOUjkyTEE2ODFjLXdsMXFfSXB1N1FEcWhR0gG-AUFVX3lxTE9KWFJKeVN5eG1leUhlOVB2RndCMEh1QlBKN2Y3b1FJbWFWdTl0UUJYcm1nTzlPOUxTd0xQbzQ3UFpzTkFUR0hsRGdiT2R4MU9rNXdHbnNmUUNOckpOX1Bud09LRkNEdWtXbWFnbkFXb29VTlRnTHV6bXU0THFoODllS2toNFJvcmRZY3dnYXMwVXJrbk5HZEJfSkh5aHpoZU4tS1FlUk5SOTJMQTY4MWMtd2wxcV9JcHU3UURxaFE",
+      "guidislink": false,
+      "published": "Fri, 04 Jan 2013 08:00:00 GMT",
+      "published_parsed": [
+        2013,
+        1,
+        4,
+        8,
+        0,
+        0,
+        4,
+        4,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPSlhSSnlTeXhtZXlIZTlQdkZ3QjBIdUJQSjdmN29RSW1hVnU5dFFCWHJtZ085TzlMU3dMUG80N1Bac05BVEdIbERnYk9keDFPazV3R25zZlFDTnJKTl9QbndPS0ZDRHVrV21hZ25BV29vVU5UZ0x1em11NExxaDg5ZUtraDRSb3JkWWN3Z2FzMFVya25OR2RCX0pIeWh6aGVOLUtRZVJOUjkyTEE2ODFjLXdsMXFfSXB1N1FEcWhR0gG-AUFVX3lxTE9KWFJKeVN5eG1leUhlOVB2RndCMEh1QlBKN2Y3b1FJbWFWdTl0UUJYcm1nTzlPOUxTd0xQbzQ3UFpzTkFUR0hsRGdiT2R4MU9rNXdHbnNmUUNOckpOX1Bud09LRkNEdWtXbWFnbkFXb29VTlRnTHV6bXU0THFoODllS2toNFJvcmRZY3dnYXMwVXJrbk5HZEJfSkh5aHpoZU4tS1FlUk5SOTJMQTY4MWMtd2wxcV9JcHU3UURxaFE?oc=5\" target=\"_blank\">Harry Redknapp wants Mohamed Diame and Jake Livermore at QPR</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPSlhSSnlTeXhtZXlIZTlQdkZ3QjBIdUJQSjdmN29RSW1hVnU5dFFCWHJtZ085TzlMU3dMUG80N1Bac05BVEdIbERnYk9keDFPazV3R25zZlFDTnJKTl9QbndPS0ZDRHVrV21hZ25BV29vVU5UZ0x1em11NExxaDg5ZUtraDRSb3JkWWN3Z2FzMFVya25OR2RCX0pIeWh6aGVOLUtRZVJOUjkyTEE2ODFjLXdsMXFfSXB1N1FEcWhR0gG-AUFVX3lxTE9KWFJKeVN5eG1leUhlOVB2RndCMEh1QlBKN2Y3b1FJbWFWdTl0UUJYcm1nTzlPOUxTd0xQbzQ3UFpzTkFUR0hsRGdiT2R4MU9rNXdHbnNmUUNOckpOX1Bud09LRkNEdWtXbWFnbkFXb29VTlRnTHV6bXU0THFoODllS2toNFJvcmRZY3dnYXMwVXJrbk5HZEJfSkh5aHpoZU4tS1FlUk5SOTJMQTY4MWMtd2wxcV9JcHU3UURxaFE?oc=5\" target=\"_blank\">Harry Redknapp wants Mohamed Diame and Jake Livermore at QPR</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Judith O'Reilly: Doing good is harder than it looks: The woman who did 365 good deeds - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Judith O'Reilly: Doing good is harder than it looks: The woman who did 365 good deeds - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPLUk3dlZ0WmJxRFhkaXB5UDhiTGpLbFU3VncyM2F6TmFVdG1HMUIyd2ZjVkRGYXN3UWN3YWxFbFpnWDVlb0t2Vld0bmczM0lKWEhaYnA4VjNycDg2U3FDVmxoRk11TFFmUHZ0TVJYWHNqWGlscE1sSzJyejUyZnBpeEtuS1AzWlEwRFBacFBhSXoyRi1CeXZmblRYRUpZZmhmN0FWRm0zdGJXRGh3M1RVOVJ6SmFXNU9JRksyYTlQWUtjR3RzRzYxOHdhcjNPSUswc1dPdXFtUGdObDI0dFRnMnNaSERrbkZDRGZqc0U3RFBMekFr0gH0AUFVX3lxTE8tSTd2VnRaYnFEWGRpcHlQOGJMaktsVTdWdzIzYXpOYVV0bUcxQjJ3ZmNWREZhc3dRY3dhbEVsWmdYNWVvS3ZWV3RuZzMzSUpYSFpicDhWM3JwODZTcUNWbGhGTXVMUWZQdnRNUlhYc2pYaWxwTWxLMnJ6NTJmcGl4S25LUDNaUTBEUFpwUGFJejJGLUJ5dmZuVFhFSllmaGY3QVZGbTN0YldEaHczVFU5UnpKYVc1T0lGSzJhOVBZS2NHdHNHNjE4d2FyM09JSzBzV091cW1QZ05sMjR0VGcyc1pIRGtuRkNEZmpzRTdEUEx6QWs?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPLUk3dlZ0WmJxRFhkaXB5UDhiTGpLbFU3VncyM2F6TmFVdG1HMUIyd2ZjVkRGYXN3UWN3YWxFbFpnWDVlb0t2Vld0bmczM0lKWEhaYnA4VjNycDg2U3FDVmxoRk11TFFmUHZ0TVJYWHNqWGlscE1sSzJyejUyZnBpeEtuS1AzWlEwRFBacFBhSXoyRi1CeXZmblRYRUpZZmhmN0FWRm0zdGJXRGh3M1RVOVJ6SmFXNU9JRksyYTlQWUtjR3RzRzYxOHdhcjNPSUswc1dPdXFtUGdObDI0dFRnMnNaSERrbkZDRGZqc0U3RFBMekFr0gH0AUFVX3lxTE8tSTd2VnRaYnFEWGRpcHlQOGJMaktsVTdWdzIzYXpOYVV0bUcxQjJ3ZmNWREZhc3dRY3dhbEVsWmdYNWVvS3ZWV3RuZzMzSUpYSFpicDhWM3JwODZTcUNWbGhGTXVMUWZQdnRNUlhYc2pYaWxwTWxLMnJ6NTJmcGl4S25LUDNaUTBEUFpwUGFJejJGLUJ5dmZuVFhFSllmaGY3QVZGbTN0YldEaHczVFU5UnpKYVc1T0lGSzJhOVBZS2NHdHNHNjE4d2FyM09JSzBzV091cW1QZ05sMjR0VGcyc1pIRGtuRkNEZmpzRTdEUEx6QWs?oc=5",
+      "id": "CBMi9AFBVV95cUxPLUk3dlZ0WmJxRFhkaXB5UDhiTGpLbFU3VncyM2F6TmFVdG1HMUIyd2ZjVkRGYXN3UWN3YWxFbFpnWDVlb0t2Vld0bmczM0lKWEhaYnA4VjNycDg2U3FDVmxoRk11TFFmUHZ0TVJYWHNqWGlscE1sSzJyejUyZnBpeEtuS1AzWlEwRFBacFBhSXoyRi1CeXZmblRYRUpZZmhmN0FWRm0zdGJXRGh3M1RVOVJ6SmFXNU9JRksyYTlQWUtjR3RzRzYxOHdhcjNPSUswc1dPdXFtUGdObDI0dFRnMnNaSERrbkZDRGZqc0U3RFBMekFr0gH0AUFVX3lxTE8tSTd2VnRaYnFEWGRpcHlQOGJMaktsVTdWdzIzYXpOYVV0bUcxQjJ3ZmNWREZhc3dRY3dhbEVsWmdYNWVvS3ZWV3RuZzMzSUpYSFpicDhWM3JwODZTcUNWbGhGTXVMUWZQdnRNUlhYc2pYaWxwTWxLMnJ6NTJmcGl4S25LUDNaUTBEUFpwUGFJejJGLUJ5dmZuVFhFSllmaGY3QVZGbTN0YldEaHczVFU5UnpKYVc1T0lGSzJhOVBZS2NHdHNHNjE4d2FyM09JSzBzV091cW1QZ05sMjR0VGcyc1pIRGtuRkNEZmpzRTdEUEx6QWs",
+      "guidislink": false,
+      "published": "Mon, 31 Dec 2012 08:00:00 GMT",
+      "published_parsed": [
+        2012,
+        12,
+        31,
+        8,
+        0,
+        0,
+        0,
+        366,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi9AFBVV95cUxPLUk3dlZ0WmJxRFhkaXB5UDhiTGpLbFU3VncyM2F6TmFVdG1HMUIyd2ZjVkRGYXN3UWN3YWxFbFpnWDVlb0t2Vld0bmczM0lKWEhaYnA4VjNycDg2U3FDVmxoRk11TFFmUHZ0TVJYWHNqWGlscE1sSzJyejUyZnBpeEtuS1AzWlEwRFBacFBhSXoyRi1CeXZmblRYRUpZZmhmN0FWRm0zdGJXRGh3M1RVOVJ6SmFXNU9JRksyYTlQWUtjR3RzRzYxOHdhcjNPSUswc1dPdXFtUGdObDI0dFRnMnNaSERrbkZDRGZqc0U3RFBMekFr0gH0AUFVX3lxTE8tSTd2VnRaYnFEWGRpcHlQOGJMaktsVTdWdzIzYXpOYVV0bUcxQjJ3ZmNWREZhc3dRY3dhbEVsWmdYNWVvS3ZWV3RuZzMzSUpYSFpicDhWM3JwODZTcUNWbGhGTXVMUWZQdnRNUlhYc2pYaWxwTWxLMnJ6NTJmcGl4S25LUDNaUTBEUFpwUGFJejJGLUJ5dmZuVFhFSllmaGY3QVZGbTN0YldEaHczVFU5UnpKYVc1T0lGSzJhOVBZS2NHdHNHNjE4d2FyM09JSzBzV091cW1QZ05sMjR0VGcyc1pIRGtuRkNEZmpzRTdEUEx6QWs?oc=5\" target=\"_blank\">Judith O'Reilly: Doing good is harder than it looks: The woman who did 365 good deeds</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi9AFBVV95cUxPLUk3dlZ0WmJxRFhkaXB5UDhiTGpLbFU3VncyM2F6TmFVdG1HMUIyd2ZjVkRGYXN3UWN3YWxFbFpnWDVlb0t2Vld0bmczM0lKWEhaYnA4VjNycDg2U3FDVmxoRk11TFFmUHZ0TVJYWHNqWGlscE1sSzJyejUyZnBpeEtuS1AzWlEwRFBacFBhSXoyRi1CeXZmblRYRUpZZmhmN0FWRm0zdGJXRGh3M1RVOVJ6SmFXNU9JRksyYTlQWUtjR3RzRzYxOHdhcjNPSUswc1dPdXFtUGdObDI0dFRnMnNaSERrbkZDRGZqc0U3RFBMekFr0gH0AUFVX3lxTE8tSTd2VnRaYnFEWGRpcHlQOGJMaktsVTdWdzIzYXpOYVV0bUcxQjJ3ZmNWREZhc3dRY3dhbEVsWmdYNWVvS3ZWV3RuZzMzSUpYSFpicDhWM3JwODZTcUNWbGhGTXVMUWZQdnRNUlhYc2pYaWxwTWxLMnJ6NTJmcGl4S25LUDNaUTBEUFpwUGFJejJGLUJ5dmZuVFhFSllmaGY3QVZGbTN0YldEaHczVFU5UnpKYVc1T0lGSzJhOVBZS2NHdHNHNjE4d2FyM09JSzBzV091cW1QZ05sMjR0VGcyc1pIRGtuRkNEZmpzRTdEUEx6QWs?oc=5\" target=\"_blank\">Judith O'Reilly: Doing good is harder than it looks: The woman who did 365 good deeds</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Want an easy life? Don't be a firefighter, PR exec or enlist in the military, reveals new ranking of the most stressful jobs - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Want an easy life? Don't be a firefighter, PR exec or enlist in the military, reveals new ranking of the most stressful jobs - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQQXdhNTFZeVBzeWlmSEJ2OGJmZXBIeE1kN0RielM2Z1dqaEx1TFB2WlZSXzdmTktsTXk5MHBxZ3VwX3A2WXEwSzNpSG92TkFfLVN5V3RDN0RJWmNSd3B5SVNpcXpwQjl1NG9aY3pBb1F1X1d0bDZiakZ4RUwzTEpHeFl4RV9MdF8tSzltWkRWOHp4QkN5aHZxcWllanh6bWF2SllnVkxUcjgyMTVGem1RQmh5QkEyU0R0dHA1RWZnNFB5QlIycC1xVWJNM0FtM1BiSlZ5UXVhUWFZSHB0ZzZzUFZKd1rSAeQBQVVfeXFMUEF3YTUxWXlQc3lpZkhCdjhiZmVwSHhNZDdEYnpTNmdXamhMdUxQdlpWUl83Zk5LbE15OTBwcWd1cF9wNllxMEszaUhvdk5BXy1TeVd0QzdESVpjUndweUlTaXF6cEI5dTRvWmN6QW9RdV9XdGw2YmpGeEVMM0xKR3hZeEVfTHRfLUs5bVpEVjh6eEJDeWh2cXFpZWp4em1hdkpZZ1ZMVHI4MjE1RnptUUJoeUJBMlNEdHRwNUVmZzRQeUJSMnAtcVViTTNBbTNQYkpWeVF1YVFhWUhwdGc2c1BWSnda?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQQXdhNTFZeVBzeWlmSEJ2OGJmZXBIeE1kN0RielM2Z1dqaEx1TFB2WlZSXzdmTktsTXk5MHBxZ3VwX3A2WXEwSzNpSG92TkFfLVN5V3RDN0RJWmNSd3B5SVNpcXpwQjl1NG9aY3pBb1F1X1d0bDZiakZ4RUwzTEpHeFl4RV9MdF8tSzltWkRWOHp4QkN5aHZxcWllanh6bWF2SllnVkxUcjgyMTVGem1RQmh5QkEyU0R0dHA1RWZnNFB5QlIycC1xVWJNM0FtM1BiSlZ5UXVhUWFZSHB0ZzZzUFZKd1rSAeQBQVVfeXFMUEF3YTUxWXlQc3lpZkhCdjhiZmVwSHhNZDdEYnpTNmdXamhMdUxQdlpWUl83Zk5LbE15OTBwcWd1cF9wNllxMEszaUhvdk5BXy1TeVd0QzdESVpjUndweUlTaXF6cEI5dTRvWmN6QW9RdV9XdGw2YmpGeEVMM0xKR3hZeEVfTHRfLUs5bVpEVjh6eEJDeWh2cXFpZWp4em1hdkpZZ1ZMVHI4MjE1RnptUUJoeUJBMlNEdHRwNUVmZzRQeUJSMnAtcVViTTNBbTNQYkpWeVF1YVFhWUhwdGc2c1BWSnda?oc=5",
+      "id": "CBMi5AFBVV95cUxQQXdhNTFZeVBzeWlmSEJ2OGJmZXBIeE1kN0RielM2Z1dqaEx1TFB2WlZSXzdmTktsTXk5MHBxZ3VwX3A2WXEwSzNpSG92TkFfLVN5V3RDN0RJWmNSd3B5SVNpcXpwQjl1NG9aY3pBb1F1X1d0bDZiakZ4RUwzTEpHeFl4RV9MdF8tSzltWkRWOHp4QkN5aHZxcWllanh6bWF2SllnVkxUcjgyMTVGem1RQmh5QkEyU0R0dHA1RWZnNFB5QlIycC1xVWJNM0FtM1BiSlZ5UXVhUWFZSHB0ZzZzUFZKd1rSAeQBQVVfeXFMUEF3YTUxWXlQc3lpZkhCdjhiZmVwSHhNZDdEYnpTNmdXamhMdUxQdlpWUl83Zk5LbE15OTBwcWd1cF9wNllxMEszaUhvdk5BXy1TeVd0QzdESVpjUndweUlTaXF6cEI5dTRvWmN6QW9RdV9XdGw2YmpGeEVMM0xKR3hZeEVfTHRfLUs5bVpEVjh6eEJDeWh2cXFpZWp4em1hdkpZZ1ZMVHI4MjE1RnptUUJoeUJBMlNEdHRwNUVmZzRQeUJSMnAtcVViTTNBbTNQYkpWeVF1YVFhWUhwdGc2c1BWSnda",
+      "guidislink": false,
+      "published": "Thu, 03 Jan 2013 08:00:00 GMT",
+      "published_parsed": [
+        2013,
+        1,
+        3,
+        8,
+        0,
+        0,
+        3,
+        3,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi5AFBVV95cUxQQXdhNTFZeVBzeWlmSEJ2OGJmZXBIeE1kN0RielM2Z1dqaEx1TFB2WlZSXzdmTktsTXk5MHBxZ3VwX3A2WXEwSzNpSG92TkFfLVN5V3RDN0RJWmNSd3B5SVNpcXpwQjl1NG9aY3pBb1F1X1d0bDZiakZ4RUwzTEpHeFl4RV9MdF8tSzltWkRWOHp4QkN5aHZxcWllanh6bWF2SllnVkxUcjgyMTVGem1RQmh5QkEyU0R0dHA1RWZnNFB5QlIycC1xVWJNM0FtM1BiSlZ5UXVhUWFZSHB0ZzZzUFZKd1rSAeQBQVVfeXFMUEF3YTUxWXlQc3lpZkhCdjhiZmVwSHhNZDdEYnpTNmdXamhMdUxQdlpWUl83Zk5LbE15OTBwcWd1cF9wNllxMEszaUhvdk5BXy1TeVd0QzdESVpjUndweUlTaXF6cEI5dTRvWmN6QW9RdV9XdGw2YmpGeEVMM0xKR3hZeEVfTHRfLUs5bVpEVjh6eEJDeWh2cXFpZWp4em1hdkpZZ1ZMVHI4MjE1RnptUUJoeUJBMlNEdHRwNUVmZzRQeUJSMnAtcVViTTNBbTNQYkpWeVF1YVFhWUhwdGc2c1BWSnda?oc=5\" target=\"_blank\">Want an easy life? Don't be a firefighter, PR exec or enlist in the military, reveals new ranking of the most stressful jobs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi5AFBVV95cUxQQXdhNTFZeVBzeWlmSEJ2OGJmZXBIeE1kN0RielM2Z1dqaEx1TFB2WlZSXzdmTktsTXk5MHBxZ3VwX3A2WXEwSzNpSG92TkFfLVN5V3RDN0RJWmNSd3B5SVNpcXpwQjl1NG9aY3pBb1F1X1d0bDZiakZ4RUwzTEpHeFl4RV9MdF8tSzltWkRWOHp4QkN5aHZxcWllanh6bWF2SllnVkxUcjgyMTVGem1RQmh5QkEyU0R0dHA1RWZnNFB5QlIycC1xVWJNM0FtM1BiSlZ5UXVhUWFZSHB0ZzZzUFZKd1rSAeQBQVVfeXFMUEF3YTUxWXlQc3lpZkhCdjhiZmVwSHhNZDdEYnpTNmdXamhMdUxQdlpWUl83Zk5LbE15OTBwcWd1cF9wNllxMEszaUhvdk5BXy1TeVd0QzdESVpjUndweUlTaXF6cEI5dTRvWmN6QW9RdV9XdGw2YmpGeEVMM0xKR3hZeEVfTHRfLUs5bVpEVjh6eEJDeWh2cXFpZWp4em1hdkpZZ1ZMVHI4MjE1RnptUUJoeUJBMlNEdHRwNUVmZzRQeUJSMnAtcVViTTNBbTNQYkpWeVF1YVFhWUhwdGc2c1BWSnda?oc=5\" target=\"_blank\">Want an easy life? Don't be a firefighter, PR exec or enlist in the military, reveals new ranking of the most stressful jobs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Gregg's guilt-free treats: Steamed Thai-Style Mussels with Sweet Potato Chips - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Gregg's guilt-free treats: Steamed Thai-Style Mussels with Sweet Potato Chips - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSEoyU2p1TjRlcUdEYkl0OEFOVlJXZnByQUxmSFo3dmRpYVJfeTNpendsQ3NQWk40UV9pVkhpYW0yb2V1MDh6bmdaSmpqQ01vWG54Z2tvcFY4T2pTSkFNektTYWhMSlY1aV9GZUxRWlhMaWJJSElXWjNKa3kwbHpSSEdlX3RmNXd5a0EyUW95TWVxV09TbUN6TXpBelh6UXJEeUoteW54TExGSU11VG5KVFRoSC1td0NHNExTTlpENHRUU05CblRaeVJyUzJxOC1r0gHQAUFVX3lxTE9ISjJTanVONGVxR0RiSXQ4QU5WUldmcHJBTGZIWjd2ZGlhUl95M2l6d2xDc1BaTjRRX2lWSGlhbTJvZXUwOHpuZ1pKampDTW9Ybnhna29wVjhPalNKQU16S1NhaExKVjVpX0ZlTFFaWExpYklISVdaM0preTBselJIR2VfdGY1d3lrQTJRb3lNZXFXT1NtQ3pNekF6WHpRckR5Si15bnhMTEZJTXVUbkpUVGhILW13Q0c0TFNOWkQ0dFRTTkJuVFp5UnJTMnE4LWs?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSEoyU2p1TjRlcUdEYkl0OEFOVlJXZnByQUxmSFo3dmRpYVJfeTNpendsQ3NQWk40UV9pVkhpYW0yb2V1MDh6bmdaSmpqQ01vWG54Z2tvcFY4T2pTSkFNektTYWhMSlY1aV9GZUxRWlhMaWJJSElXWjNKa3kwbHpSSEdlX3RmNXd5a0EyUW95TWVxV09TbUN6TXpBelh6UXJEeUoteW54TExGSU11VG5KVFRoSC1td0NHNExTTlpENHRUU05CblRaeVJyUzJxOC1r0gHQAUFVX3lxTE9ISjJTanVONGVxR0RiSXQ4QU5WUldmcHJBTGZIWjd2ZGlhUl95M2l6d2xDc1BaTjRRX2lWSGlhbTJvZXUwOHpuZ1pKampDTW9Ybnhna29wVjhPalNKQU16S1NhaExKVjVpX0ZlTFFaWExpYklISVdaM0preTBselJIR2VfdGY1d3lrQTJRb3lNZXFXT1NtQ3pNekF6WHpRckR5Si15bnhMTEZJTXVUbkpUVGhILW13Q0c0TFNOWkQ0dFRTTkJuVFp5UnJTMnE4LWs?oc=5",
+      "id": "CBMi0AFBVV95cUxPSEoyU2p1TjRlcUdEYkl0OEFOVlJXZnByQUxmSFo3dmRpYVJfeTNpendsQ3NQWk40UV9pVkhpYW0yb2V1MDh6bmdaSmpqQ01vWG54Z2tvcFY4T2pTSkFNektTYWhMSlY1aV9GZUxRWlhMaWJJSElXWjNKa3kwbHpSSEdlX3RmNXd5a0EyUW95TWVxV09TbUN6TXpBelh6UXJEeUoteW54TExGSU11VG5KVFRoSC1td0NHNExTTlpENHRUU05CblRaeVJyUzJxOC1r0gHQAUFVX3lxTE9ISjJTanVONGVxR0RiSXQ4QU5WUldmcHJBTGZIWjd2ZGlhUl95M2l6d2xDc1BaTjRRX2lWSGlhbTJvZXUwOHpuZ1pKampDTW9Ybnhna29wVjhPalNKQU16S1NhaExKVjVpX0ZlTFFaWExpYklISVdaM0preTBselJIR2VfdGY1d3lrQTJRb3lNZXFXT1NtQ3pNekF6WHpRckR5Si15bnhMTEZJTXVUbkpUVGhILW13Q0c0TFNOWkQ0dFRTTkJuVFp5UnJTMnE4LWs",
+      "guidislink": false,
+      "published": "Fri, 11 Jan 2013 08:00:00 GMT",
+      "published_parsed": [
+        2013,
+        1,
+        11,
+        8,
+        0,
+        0,
+        4,
+        11,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSEoyU2p1TjRlcUdEYkl0OEFOVlJXZnByQUxmSFo3dmRpYVJfeTNpendsQ3NQWk40UV9pVkhpYW0yb2V1MDh6bmdaSmpqQ01vWG54Z2tvcFY4T2pTSkFNektTYWhMSlY1aV9GZUxRWlhMaWJJSElXWjNKa3kwbHpSSEdlX3RmNXd5a0EyUW95TWVxV09TbUN6TXpBelh6UXJEeUoteW54TExGSU11VG5KVFRoSC1td0NHNExTTlpENHRUU05CblRaeVJyUzJxOC1r0gHQAUFVX3lxTE9ISjJTanVONGVxR0RiSXQ4QU5WUldmcHJBTGZIWjd2ZGlhUl95M2l6d2xDc1BaTjRRX2lWSGlhbTJvZXUwOHpuZ1pKampDTW9Ybnhna29wVjhPalNKQU16S1NhaExKVjVpX0ZlTFFaWExpYklISVdaM0preTBselJIR2VfdGY1d3lrQTJRb3lNZXFXT1NtQ3pNekF6WHpRckR5Si15bnhMTEZJTXVUbkpUVGhILW13Q0c0TFNOWkQ0dFRTTkJuVFp5UnJTMnE4LWs?oc=5\" target=\"_blank\">Gregg's guilt-free treats: Steamed Thai-Style Mussels with Sweet Potato Chips</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSEoyU2p1TjRlcUdEYkl0OEFOVlJXZnByQUxmSFo3dmRpYVJfeTNpendsQ3NQWk40UV9pVkhpYW0yb2V1MDh6bmdaSmpqQ01vWG54Z2tvcFY4T2pTSkFNektTYWhMSlY1aV9GZUxRWlhMaWJJSElXWjNKa3kwbHpSSEdlX3RmNXd5a0EyUW95TWVxV09TbUN6TXpBelh6UXJEeUoteW54TExGSU11VG5KVFRoSC1td0NHNExTTlpENHRUU05CblRaeVJyUzJxOC1r0gHQAUFVX3lxTE9ISjJTanVONGVxR0RiSXQ4QU5WUldmcHJBTGZIWjd2ZGlhUl95M2l6d2xDc1BaTjRRX2lWSGlhbTJvZXUwOHpuZ1pKampDTW9Ybnhna29wVjhPalNKQU16S1NhaExKVjVpX0ZlTFFaWExpYklISVdaM0preTBselJIR2VfdGY1d3lrQTJRb3lNZXFXT1NtQ3pNekF6WHpRckR5Si15bnhMTEZJTXVUbkpUVGhILW13Q0c0TFNOWkQ0dFRTTkJuVFp5UnJTMnE4LWs?oc=5\" target=\"_blank\">Gregg's guilt-free treats: Steamed Thai-Style Mussels with Sweet Potato Chips</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    }
+  ]
+}

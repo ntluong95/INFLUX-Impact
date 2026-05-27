@@ -1,0 +1,822 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2018-04-13",
+  "window_end": "2018-04-26",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2018-04-13+before%3A2018-04-27&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2018-04-13+before:2018-04-27&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:25:59Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2018-04-13 before:2018-04-27\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2018-04-13 before:2018-04-27\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2018-04-13+before:2018-04-27&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2018-04-13+before:2018-04-27&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:25:59 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      25,
+      59,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Spatiotemporal incidence of Zika and associated environmental drivers for the 2015-2016 epidemic in Colombia - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Spatiotemporal incidence of Zika and associated environmental drivers for the 2015-2016 epidemic in Colombia - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9MQ1FoOENDMUh3U1E3dXNPeldxa2pxWWx4dEZ2RkQ0OVVwb1RLRk1iQnRmTVV0QUh1NUItQTQ3UXk1VTA5UzVCM3otZFdfZkZGVGVYaTVB?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9MQ1FoOENDMUh3U1E3dXNPeldxa2pxWWx4dEZ2RkQ0OVVwb1RLRk1iQnRmTVV0QUh1NUItQTQ3UXk1VTA5UzVCM3otZFdfZkZGVGVYaTVB?oc=5",
+      "id": "CBMiVkFVX3lxTE9MQ1FoOENDMUh3U1E3dXNPeldxa2pxWWx4dEZ2RkQ0OVVwb1RLRk1iQnRmTVV0QUh1NUItQTQ3UXk1VTA5UzVCM3otZFdfZkZGVGVYaTVB",
+      "guidislink": false,
+      "published": "Tue, 24 Apr 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        4,
+        24,
+        7,
+        0,
+        0,
+        1,
+        114,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE9MQ1FoOENDMUh3U1E3dXNPeldxa2pxWWx4dEZ2RkQ0OVVwb1RLRk1iQnRmTVV0QUh1NUItQTQ3UXk1VTA5UzVCM3otZFdfZkZGVGVYaTVB?oc=5\" target=\"_blank\">Spatiotemporal incidence of Zika and associated environmental drivers for the 2015-2016 epidemic in Colombia</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE9MQ1FoOENDMUh3U1E3dXNPeldxa2pxWWx4dEZ2RkQ0OVVwb1RLRk1iQnRmTVV0QUh1NUItQTQ3UXk1VTA5UzVCM3otZFdfZkZGVGVYaTVB?oc=5\" target=\"_blank\">Spatiotemporal incidence of Zika and associated environmental drivers for the 2015-2016 epidemic in Colombia</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "New Findings on Zika in Semen May Change Recommendations on Preventing Sexual Transmission - Contagion Live",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "New Findings on Zika in Semen May Change Recommendations on Preventing Sexual Transmission - Contagion Live"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOUR3bWpuVVRmMWlncGtRNE5wX1pLSVctV2ZZUFZRcm1ta09UVjUyRlZvZ1Q4bGlCTDFKWWNNR1h1RERPcU90c2YxN1JacmM5cGtXVlRlR2xLZWQtcE1UT0hDLXpJQXFRbWpmQ0Z3bXpXS3pidGx4d3RGQkdJSk5BU0xqcjhPWWhnN0VVdmtBM0NNSTNQX3Q1aThUZzNSQ3ZPMXotZXJzeDhxOTFIb3duQlpObW1lT29UUi1lb0lEa3E1MVE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOUR3bWpuVVRmMWlncGtRNE5wX1pLSVctV2ZZUFZRcm1ta09UVjUyRlZvZ1Q4bGlCTDFKWWNNR1h1RERPcU90c2YxN1JacmM5cGtXVlRlR2xLZWQtcE1UT0hDLXpJQXFRbWpmQ0Z3bXpXS3pidGx4d3RGQkdJSk5BU0xqcjhPWWhnN0VVdmtBM0NNSTNQX3Q1aThUZzNSQ3ZPMXotZXJzeDhxOTFIb3duQlpObW1lT29UUi1lb0lEa3E1MVE?oc=5",
+      "id": "CBMiwwFBVV95cUxNOUR3bWpuVVRmMWlncGtRNE5wX1pLSVctV2ZZUFZRcm1ta09UVjUyRlZvZ1Q4bGlCTDFKWWNNR1h1RERPcU90c2YxN1JacmM5cGtXVlRlR2xLZWQtcE1UT0hDLXpJQXFRbWpmQ0Z3bXpXS3pidGx4d3RGQkdJSk5BU0xqcjhPWWhnN0VVdmtBM0NNSTNQX3Q1aThUZzNSQ3ZPMXotZXJzeDhxOTFIb3duQlpObW1lT29UUi1lb0lEa3E1MVE",
+      "guidislink": false,
+      "published": "Thu, 26 Apr 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        4,
+        26,
+        7,
+        0,
+        0,
+        3,
+        116,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOUR3bWpuVVRmMWlncGtRNE5wX1pLSVctV2ZZUFZRcm1ta09UVjUyRlZvZ1Q4bGlCTDFKWWNNR1h1RERPcU90c2YxN1JacmM5cGtXVlRlR2xLZWQtcE1UT0hDLXpJQXFRbWpmQ0Z3bXpXS3pidGx4d3RGQkdJSk5BU0xqcjhPWWhnN0VVdmtBM0NNSTNQX3Q1aThUZzNSQ3ZPMXotZXJzeDhxOTFIb3duQlpObW1lT29UUi1lb0lEa3E1MVE?oc=5\" target=\"_blank\">New Findings on Zika in Semen May Change Recommendations on Preventing Sexual Transmission</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Contagion Live</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOUR3bWpuVVRmMWlncGtRNE5wX1pLSVctV2ZZUFZRcm1ta09UVjUyRlZvZ1Q4bGlCTDFKWWNNR1h1RERPcU90c2YxN1JacmM5cGtXVlRlR2xLZWQtcE1UT0hDLXpJQXFRbWpmQ0Z3bXpXS3pidGx4d3RGQkdJSk5BU0xqcjhPWWhnN0VVdmtBM0NNSTNQX3Q1aThUZzNSQ3ZPMXotZXJzeDhxOTFIb3duQlpObW1lT29UUi1lb0lEa3E1MVE?oc=5\" target=\"_blank\">New Findings on Zika in Semen May Change Recommendations on Preventing Sexual Transmission</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Contagion Live</font>"
+      },
+      "source": {
+        "href": "https://www.contagionlive.com",
+        "title": "Contagion Live"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "What is the Zika virus? What you need to know - NBC News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "What is the Zika virus? What you need to know - NBC News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPX0Q1Tl8tTXB0Vm54N2VDR0k5VDFCSUc4SlRBZDVJSlhOaENGTWtGNzdVZml4UGxHQ1FNX3l1MWVsV0VIY2NiQ2NBQVJtbVIzbDFmdWlheFVFMG1vWEMzNXZFZFZTMTAwNEYzdGs1dUtSLXk4VXdDSlg5TFpqUHByMFpta1o5WWRESDhWbmNR?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPX0Q1Tl8tTXB0Vm54N2VDR0k5VDFCSUc4SlRBZDVJSlhOaENGTWtGNzdVZml4UGxHQ1FNX3l1MWVsV0VIY2NiQ2NBQVJtbVIzbDFmdWlheFVFMG1vWEMzNXZFZFZTMTAwNEYzdGs1dUtSLXk4VXdDSlg5TFpqUHByMFpta1o5WWRESDhWbmNR?oc=5",
+      "id": "CBMijgFBVV95cUxPX0Q1Tl8tTXB0Vm54N2VDR0k5VDFCSUc4SlRBZDVJSlhOaENGTWtGNzdVZml4UGxHQ1FNX3l1MWVsV0VIY2NiQ2NBQVJtbVIzbDFmdWlheFVFMG1vWEMzNXZFZFZTMTAwNEYzdGs1dUtSLXk4VXdDSlg5TFpqUHByMFpta1o5WWRESDhWbmNR",
+      "guidislink": false,
+      "published": "Fri, 27 Apr 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        4,
+        27,
+        7,
+        0,
+        0,
+        4,
+        117,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxPX0Q1Tl8tTXB0Vm54N2VDR0k5VDFCSUc4SlRBZDVJSlhOaENGTWtGNzdVZml4UGxHQ1FNX3l1MWVsV0VIY2NiQ2NBQVJtbVIzbDFmdWlheFVFMG1vWEMzNXZFZFZTMTAwNEYzdGs1dUtSLXk4VXdDSlg5TFpqUHByMFpta1o5WWRESDhWbmNR?oc=5\" target=\"_blank\">What is the Zika virus? What you need to know</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NBC News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxPX0Q1Tl8tTXB0Vm54N2VDR0k5VDFCSUc4SlRBZDVJSlhOaENGTWtGNzdVZml4UGxHQ1FNX3l1MWVsV0VIY2NiQ2NBQVJtbVIzbDFmdWlheFVFMG1vWEMzNXZFZFZTMTAwNEYzdGs1dUtSLXk4VXdDSlg5TFpqUHByMFpta1o5WWRESDhWbmNR?oc=5\" target=\"_blank\">What is the Zika virus? What you need to know</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NBC News</font>"
+      },
+      "source": {
+        "href": "https://www.nbcnews.com",
+        "title": "NBC News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Nervous System Injury and Neuroimaging of Zika Virus Infection - Frontiers",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Nervous System Injury and Neuroimaging of Zika Virus Infection - Frontiers"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNT0VwSXRGcWtSZTkxVXFNSnpmZDRPY09lT2FxRGkwUEZ4U3hNYjFIQWRwelhPcmx6TUVrWmZub1hkVkxIXzk1MWxLcnVDRWtMOHhRdm5JTHRCQ3hiZVFqaFRmRE5XOTBpaUh6S1lYZGVaMDdHamU4VHppQlozU2t2d1lEcXhxbW9oUjB2RUpB?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNT0VwSXRGcWtSZTkxVXFNSnpmZDRPY09lT2FxRGkwUEZ4U3hNYjFIQWRwelhPcmx6TUVrWmZub1hkVkxIXzk1MWxLcnVDRWtMOHhRdm5JTHRCQ3hiZVFqaFRmRE5XOTBpaUh6S1lYZGVaMDdHamU4VHppQlozU2t2d1lEcXhxbW9oUjB2RUpB?oc=5",
+      "id": "CBMijgFBVV95cUxNT0VwSXRGcWtSZTkxVXFNSnpmZDRPY09lT2FxRGkwUEZ4U3hNYjFIQWRwelhPcmx6TUVrWmZub1hkVkxIXzk1MWxLcnVDRWtMOHhRdm5JTHRCQ3hiZVFqaFRmRE5XOTBpaUh6S1lYZGVaMDdHamU4VHppQlozU2t2d1lEcXhxbW9oUjB2RUpB",
+      "guidislink": false,
+      "published": "Sun, 22 Apr 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        4,
+        22,
+        7,
+        0,
+        0,
+        6,
+        112,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxNT0VwSXRGcWtSZTkxVXFNSnpmZDRPY09lT2FxRGkwUEZ4U3hNYjFIQWRwelhPcmx6TUVrWmZub1hkVkxIXzk1MWxLcnVDRWtMOHhRdm5JTHRCQ3hiZVFqaFRmRE5XOTBpaUh6S1lYZGVaMDdHamU4VHppQlozU2t2d1lEcXhxbW9oUjB2RUpB?oc=5\" target=\"_blank\">Nervous System Injury and Neuroimaging of Zika Virus Infection</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Frontiers</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxNT0VwSXRGcWtSZTkxVXFNSnpmZDRPY09lT2FxRGkwUEZ4U3hNYjFIQWRwelhPcmx6TUVrWmZub1hkVkxIXzk1MWxLcnVDRWtMOHhRdm5JTHRCQ3hiZVFqaFRmRE5XOTBpaUh6S1lYZGVaMDdHamU4VHppQlozU2t2d1lEcXhxbW9oUjB2RUpB?oc=5\" target=\"_blank\">Nervous System Injury and Neuroimaging of Zika Virus Infection</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Frontiers</font>"
+      },
+      "source": {
+        "href": "https://www.frontiersin.org",
+        "title": "Frontiers"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Mosquito-packed drones ready to join fight against Zika and other deadly diseases – UN agency - Welcome to the United Nations",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Mosquito-packed drones ready to join fight against Zika and other deadly diseases – UN agency - Welcome to the United Nations"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE45QUo2aGVXdTVBQ2dqQUhRZU54UWZXLXk3ZXRmSktnN19tdlRpVG9ObmtQbUgyaW50eThFcEZkRmhueW1vX3VhUXZ6Qmk5TFhiWVkwUS15QQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE45QUo2aGVXdTVBQ2dqQUhRZU54UWZXLXk3ZXRmSktnN19tdlRpVG9ObmtQbUgyaW50eThFcEZkRmhueW1vX3VhUXZ6Qmk5TFhiWVkwUS15QQ?oc=5",
+      "id": "CBMiV0FVX3lxTE45QUo2aGVXdTVBQ2dqQUhRZU54UWZXLXk3ZXRmSktnN19tdlRpVG9ObmtQbUgyaW50eThFcEZkRmhueW1vX3VhUXZ6Qmk5TFhiWVkwUS15QQ",
+      "guidislink": false,
+      "published": "Thu, 19 Apr 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        4,
+        19,
+        7,
+        0,
+        0,
+        3,
+        109,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE45QUo2aGVXdTVBQ2dqQUhRZU54UWZXLXk3ZXRmSktnN19tdlRpVG9ObmtQbUgyaW50eThFcEZkRmhueW1vX3VhUXZ6Qmk5TFhiWVkwUS15QQ?oc=5\" target=\"_blank\">Mosquito-packed drones ready to join fight against Zika and other deadly diseases – UN agency</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Welcome to the United Nations</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE45QUo2aGVXdTVBQ2dqQUhRZU54UWZXLXk3ZXRmSktnN19tdlRpVG9ObmtQbUgyaW50eThFcEZkRmhueW1vX3VhUXZ6Qmk5TFhiWVkwUS15QQ?oc=5\" target=\"_blank\">Mosquito-packed drones ready to join fight against Zika and other deadly diseases – UN agency</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Welcome to the United Nations</font>"
+      },
+      "source": {
+        "href": "https://news.un.org",
+        "title": "Welcome to the United Nations"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Unraveling genetic mystery next step in Zika and dengue fight - Vanderbilt University",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Unraveling genetic mystery next step in Zika and dengue fight - Vanderbilt University"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPV1daQjBodlNiNERKSHlsOEt3dUtBYXRzaGZoWlpqV1lMd3ZfamJLbWpoNFB5SDNobk9qYzlrdzlidlphY1NEaGIybEwtU29QMElscHZETGNkb21oVEtOazRsazJpWG5xc3pKcUJNa0ZxVWVyRlJ4anF6UHF2QUFWekY0LTNhODZnaFlLYjRscXd2Zk8xaFU0anc3ZjdZZExidnY4?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPV1daQjBodlNiNERKSHlsOEt3dUtBYXRzaGZoWlpqV1lMd3ZfamJLbWpoNFB5SDNobk9qYzlrdzlidlphY1NEaGIybEwtU29QMElscHZETGNkb21oVEtOazRsazJpWG5xc3pKcUJNa0ZxVWVyRlJ4anF6UHF2QUFWekY0LTNhODZnaFlLYjRscXd2Zk8xaFU0anc3ZjdZZExidnY4?oc=5",
+      "id": "CBMiowFBVV95cUxPV1daQjBodlNiNERKSHlsOEt3dUtBYXRzaGZoWlpqV1lMd3ZfamJLbWpoNFB5SDNobk9qYzlrdzlidlphY1NEaGIybEwtU29QMElscHZETGNkb21oVEtOazRsazJpWG5xc3pKcUJNa0ZxVWVyRlJ4anF6UHF2QUFWekY0LTNhODZnaFlLYjRscXd2Zk8xaFU0anc3ZjdZZExidnY4",
+      "guidislink": false,
+      "published": "Mon, 23 Apr 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        4,
+        23,
+        7,
+        0,
+        0,
+        0,
+        113,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxPV1daQjBodlNiNERKSHlsOEt3dUtBYXRzaGZoWlpqV1lMd3ZfamJLbWpoNFB5SDNobk9qYzlrdzlidlphY1NEaGIybEwtU29QMElscHZETGNkb21oVEtOazRsazJpWG5xc3pKcUJNa0ZxVWVyRlJ4anF6UHF2QUFWekY0LTNhODZnaFlLYjRscXd2Zk8xaFU0anc3ZjdZZExidnY4?oc=5\" target=\"_blank\">Unraveling genetic mystery next step in Zika and dengue fight</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vanderbilt University</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxPV1daQjBodlNiNERKSHlsOEt3dUtBYXRzaGZoWlpqV1lMd3ZfamJLbWpoNFB5SDNobk9qYzlrdzlidlphY1NEaGIybEwtU29QMElscHZETGNkb21oVEtOazRsazJpWG5xc3pKcUJNa0ZxVWVyRlJ4anF6UHF2QUFWekY0LTNhODZnaFlLYjRscXd2Zk8xaFU0anc3ZjdZZExidnY4?oc=5\" target=\"_blank\">Unraveling genetic mystery next step in Zika and dengue fight</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vanderbilt University</font>"
+      },
+      "source": {
+        "href": "https://news.vanderbilt.edu",
+        "title": "Vanderbilt University"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Congenital Zika syndrome strongly linked to seizures - CIDRAP",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Congenital Zika syndrome strongly linked to seizures - CIDRAP"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMFVZaVBISUxPYlh2Z1hCNXhCZ0FIcUJjS05pQjM3SzJwbXBidi14Z0o4aGFpS25Yelh6d0dRNTZiUjBXcjNLSktQUzJtdml5ZHZIeFZuNU4yZFZ3cHRxck9HWXJfdUJuNnM1MjN5U0JPbUtSS2F4U090bkFpa1pCVDJtemgtVDVO?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMFVZaVBISUxPYlh2Z1hCNXhCZ0FIcUJjS05pQjM3SzJwbXBidi14Z0o4aGFpS25Yelh6d0dRNTZiUjBXcjNLSktQUzJtdml5ZHZIeFZuNU4yZFZ3cHRxck9HWXJfdUJuNnM1MjN5U0JPbUtSS2F4U090bkFpa1pCVDJtemgtVDVO?oc=5",
+      "id": "CBMiiAFBVV95cUxOMFVZaVBISUxPYlh2Z1hCNXhCZ0FIcUJjS05pQjM3SzJwbXBidi14Z0o4aGFpS25Yelh6d0dRNTZiUjBXcjNLSktQUzJtdml5ZHZIeFZuNU4yZFZ3cHRxck9HWXJfdUJuNnM1MjN5U0JPbUtSS2F4U090bkFpa1pCVDJtemgtVDVO",
+      "guidislink": false,
+      "published": "Wed, 25 Apr 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        4,
+        25,
+        7,
+        0,
+        0,
+        2,
+        115,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMFVZaVBISUxPYlh2Z1hCNXhCZ0FIcUJjS05pQjM3SzJwbXBidi14Z0o4aGFpS25Yelh6d0dRNTZiUjBXcjNLSktQUzJtdml5ZHZIeFZuNU4yZFZ3cHRxck9HWXJfdUJuNnM1MjN5U0JPbUtSS2F4U090bkFpa1pCVDJtemgtVDVO?oc=5\" target=\"_blank\">Congenital Zika syndrome strongly linked to seizures</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CIDRAP</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMFVZaVBISUxPYlh2Z1hCNXhCZ0FIcUJjS05pQjM3SzJwbXBidi14Z0o4aGFpS25Yelh6d0dRNTZiUjBXcjNLSktQUzJtdml5ZHZIeFZuNU4yZFZ3cHRxck9HWXJfdUJuNnM1MjN5U0JPbUtSS2F4U090bkFpa1pCVDJtemgtVDVO?oc=5\" target=\"_blank\">Congenital Zika syndrome strongly linked to seizures</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CIDRAP</font>"
+      },
+      "source": {
+        "href": "https://www.cidrap.umn.edu",
+        "title": "CIDRAP"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Fetal demise and failed antibody therapy during Zika virus infection of pregnant macaques - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Fetal demise and failed antibody therapy during Zika virus infection of pregnant macaques - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5xc1dPdkFrUnc5TWVXLUdRT0Jza01adnI0UlRDWE1ham5aX1hfbUMzRHllVnpxc213TDJrSU1lSjBKWEZZZlphbzFZNG5rSDM3V0ptY3FKSUdETVlZbEZR?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5xc1dPdkFrUnc5TWVXLUdRT0Jza01adnI0UlRDWE1ham5aX1hfbUMzRHllVnpxc213TDJrSU1lSjBKWEZZZlphbzFZNG5rSDM3V0ptY3FKSUdETVlZbEZR?oc=5",
+      "id": "CBMiX0FVX3lxTE5xc1dPdkFrUnc5TWVXLUdRT0Jza01adnI0UlRDWE1ham5aX1hfbUMzRHllVnpxc213TDJrSU1lSjBKWEZZZlphbzFZNG5rSDM3V0ptY3FKSUdETVlZbEZR",
+      "guidislink": false,
+      "published": "Tue, 24 Apr 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        4,
+        24,
+        7,
+        0,
+        0,
+        1,
+        114,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5xc1dPdkFrUnc5TWVXLUdRT0Jza01adnI0UlRDWE1ham5aX1hfbUMzRHllVnpxc213TDJrSU1lSjBKWEZZZlphbzFZNG5rSDM3V0ptY3FKSUdETVlZbEZR?oc=5\" target=\"_blank\">Fetal demise and failed antibody therapy during Zika virus infection of pregnant macaques</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5xc1dPdkFrUnc5TWVXLUdRT0Jza01adnI0UlRDWE1ham5aX1hfbUMzRHllVnpxc213TDJrSU1lSjBKWEZZZlphbzFZNG5rSDM3V0ptY3FKSUdETVlZbEZR?oc=5\" target=\"_blank\">Fetal demise and failed antibody therapy during Zika virus infection of pregnant macaques</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Another mosquito species may carry Zika - Medical Xpress",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Another mosquito species may carry Zika - Medical Xpress"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0wMjhmdlYxRkU4eUN5SGZ5UnVYSlZwcG1JemNEb0VtUlhCUlRPODU4eTlSQVRmemxrVkt0UkZIQkJnOVlfcDNWTTI5RzJERlFMZ3VaU0s3N1RNR2JLR2NZeU9LSEZQT1lfVURDZnRKWTViSkk?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0wMjhmdlYxRkU4eUN5SGZ5UnVYSlZwcG1JemNEb0VtUlhCUlRPODU4eTlSQVRmemxrVkt0UkZIQkJnOVlfcDNWTTI5RzJERlFMZ3VaU0s3N1RNR2JLR2NZeU9LSEZQT1lfVURDZnRKWTViSkk?oc=5",
+      "id": "CBMic0FVX3lxTE0wMjhmdlYxRkU4eUN5SGZ5UnVYSlZwcG1JemNEb0VtUlhCUlRPODU4eTlSQVRmemxrVkt0UkZIQkJnOVlfcDNWTTI5RzJERlFMZ3VaU0s3N1RNR2JLR2NZeU9LSEZQT1lfVURDZnRKWTViSkk",
+      "guidislink": false,
+      "published": "Fri, 27 Apr 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        4,
+        27,
+        7,
+        0,
+        0,
+        4,
+        117,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE0wMjhmdlYxRkU4eUN5SGZ5UnVYSlZwcG1JemNEb0VtUlhCUlRPODU4eTlSQVRmemxrVkt0UkZIQkJnOVlfcDNWTTI5RzJERlFMZ3VaU0s3N1RNR2JLR2NZeU9LSEZQT1lfVURDZnRKWTViSkk?oc=5\" target=\"_blank\">Another mosquito species may carry Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Medical Xpress</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE0wMjhmdlYxRkU4eUN5SGZ5UnVYSlZwcG1JemNEb0VtUlhCUlRPODU4eTlSQVRmemxrVkt0UkZIQkJnOVlfcDNWTTI5RzJERlFMZ3VaU0s3N1RNR2JLR2NZeU9LSEZQT1lfVURDZnRKWTViSkk?oc=5\" target=\"_blank\">Another mosquito species may carry Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Medical Xpress</font>"
+      },
+      "source": {
+        "href": "https://medicalxpress.com",
+        "title": "Medical Xpress"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "After Zika and Hurricane Irma, Miami Beach Looks to Insure Tourism Tax Revenue - GovTech",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "After Zika and Hurricane Irma, Miami Beach Looks to Insure Tourism Tax Revenue - GovTech"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQT1VtVDBmX04tTURIZE9hTTIxanZHRWJtaWt0NENIOFh0OVNuZUVubUROUzNub1R3bGdHeXlEMUhNd3RIRDZoN2xVR09pc29yMm1HODJnaEw3eks4QWtkQkpYQ05zcEdpcEV2djZjLVZ0eXNfdTI2M0FJUDlLd0lsLW11Vi15V3MyV2p3MF9XdGpQcV9HRVdXUnk0eFNEOE5reWlpOUpWTFRaU2NQWWZoV1lmanpJOUJTY0E?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQT1VtVDBmX04tTURIZE9hTTIxanZHRWJtaWt0NENIOFh0OVNuZUVubUROUzNub1R3bGdHeXlEMUhNd3RIRDZoN2xVR09pc29yMm1HODJnaEw3eks4QWtkQkpYQ05zcEdpcEV2djZjLVZ0eXNfdTI2M0FJUDlLd0lsLW11Vi15V3MyV2p3MF9XdGpQcV9HRVdXUnk0eFNEOE5reWlpOUpWTFRaU2NQWWZoV1lmanpJOUJTY0E?oc=5",
+      "id": "CBMiugFBVV95cUxQT1VtVDBmX04tTURIZE9hTTIxanZHRWJtaWt0NENIOFh0OVNuZUVubUROUzNub1R3bGdHeXlEMUhNd3RIRDZoN2xVR09pc29yMm1HODJnaEw3eks4QWtkQkpYQ05zcEdpcEV2djZjLVZ0eXNfdTI2M0FJUDlLd0lsLW11Vi15V3MyV2p3MF9XdGpQcV9HRVdXUnk0eFNEOE5reWlpOUpWTFRaU2NQWWZoV1lmanpJOUJTY0E",
+      "guidislink": false,
+      "published": "Wed, 25 Apr 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        4,
+        25,
+        7,
+        0,
+        0,
+        2,
+        115,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxQT1VtVDBmX04tTURIZE9hTTIxanZHRWJtaWt0NENIOFh0OVNuZUVubUROUzNub1R3bGdHeXlEMUhNd3RIRDZoN2xVR09pc29yMm1HODJnaEw3eks4QWtkQkpYQ05zcEdpcEV2djZjLVZ0eXNfdTI2M0FJUDlLd0lsLW11Vi15V3MyV2p3MF9XdGpQcV9HRVdXUnk0eFNEOE5reWlpOUpWTFRaU2NQWWZoV1lmanpJOUJTY0E?oc=5\" target=\"_blank\">After Zika and Hurricane Irma, Miami Beach Looks to Insure Tourism Tax Revenue</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GovTech</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxQT1VtVDBmX04tTURIZE9hTTIxanZHRWJtaWt0NENIOFh0OVNuZUVubUROUzNub1R3bGdHeXlEMUhNd3RIRDZoN2xVR09pc29yMm1HODJnaEw3eks4QWtkQkpYQ05zcEdpcEV2djZjLVZ0eXNfdTI2M0FJUDlLd0lsLW11Vi15V3MyV2p3MF9XdGpQcV9HRVdXUnk0eFNEOE5reWlpOUpWTFRaU2NQWWZoV1lmanpJOUJTY0E?oc=5\" target=\"_blank\">After Zika and Hurricane Irma, Miami Beach Looks to Insure Tourism Tax Revenue</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">GovTech</font>"
+      },
+      "source": {
+        "href": "https://www.govtech.com",
+        "title": "GovTech"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Field-deployable viral diagnostics using CRISPR-Cas13 - Science | AAAS",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Field-deployable viral diagnostics using CRISPR-Cas13 - Science | AAAS"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5VSG41dTFxV0Vub0F0VW9DQWRUcVViWkl6bS1ZaUN3cUo1QTRHWktBemRSQjhUTWgwdmV6UWQxaEJ2amNrR3J1LTRPa1pHY09vVGdfNG92UVBKTXlGaWFsYQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5VSG41dTFxV0Vub0F0VW9DQWRUcVViWkl6bS1ZaUN3cUo1QTRHWktBemRSQjhUTWgwdmV6UWQxaEJ2amNrR3J1LTRPa1pHY09vVGdfNG92UVBKTXlGaWFsYQ?oc=5",
+      "id": "CBMiYEFVX3lxTE5VSG41dTFxV0Vub0F0VW9DQWRUcVViWkl6bS1ZaUN3cUo1QTRHWktBemRSQjhUTWgwdmV6UWQxaEJ2amNrR3J1LTRPa1pHY09vVGdfNG92UVBKTXlGaWFsYQ",
+      "guidislink": false,
+      "published": "Fri, 27 Apr 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        4,
+        27,
+        7,
+        0,
+        0,
+        4,
+        117,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTE5VSG41dTFxV0Vub0F0VW9DQWRUcVViWkl6bS1ZaUN3cUo1QTRHWktBemRSQjhUTWgwdmV6UWQxaEJ2amNrR3J1LTRPa1pHY09vVGdfNG92UVBKTXlGaWFsYQ?oc=5\" target=\"_blank\">Field-deployable viral diagnostics using CRISPR-Cas13</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Science | AAAS</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTE5VSG41dTFxV0Vub0F0VW9DQWRUcVViWkl6bS1ZaUN3cUo1QTRHWktBemRSQjhUTWgwdmV6UWQxaEJ2amNrR3J1LTRPa1pHY09vVGdfNG92UVBKTXlGaWFsYQ?oc=5\" target=\"_blank\">Field-deployable viral diagnostics using CRISPR-Cas13</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Science | AAAS</font>"
+      },
+      "source": {
+        "href": "https://www.science.org",
+        "title": "Science | AAAS"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Uncharted Territory in Zika Virus Research - science.gc.ca",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Uncharted Territory in Zika Virus Research - science.gc.ca"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQenZuLXhmQ2JNQkhpMTNrcDlVS1RVaVZwV21PNTF5TzVyaU1QSnB1ZWNYSUtrbkYyVkVSWThKSDJMSWhVSGVodXhQMnNWT0V6WFdQVnJ3aWR6VnRVTGQtVmRlbnVhTzVXSWFCVjZlbW1NeU01aTdTTEZqd0toSFl2M3dnS2J3Nnp2Yks3SWhFeGJHYXcxRGZwcXNCaE83cG8?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQenZuLXhmQ2JNQkhpMTNrcDlVS1RVaVZwV21PNTF5TzVyaU1QSnB1ZWNYSUtrbkYyVkVSWThKSDJMSWhVSGVodXhQMnNWT0V6WFdQVnJ3aWR6VnRVTGQtVmRlbnVhTzVXSWFCVjZlbW1NeU01aTdTTEZqd0toSFl2M3dnS2J3Nnp2Yks3SWhFeGJHYXcxRGZwcXNCaE83cG8?oc=5",
+      "id": "CBMinwFBVV95cUxQenZuLXhmQ2JNQkhpMTNrcDlVS1RVaVZwV21PNTF5TzVyaU1QSnB1ZWNYSUtrbkYyVkVSWThKSDJMSWhVSGVodXhQMnNWT0V6WFdQVnJ3aWR6VnRVTGQtVmRlbnVhTzVXSWFCVjZlbW1NeU01aTdTTEZqd0toSFl2M3dnS2J3Nnp2Yks3SWhFeGJHYXcxRGZwcXNCaE83cG8",
+      "guidislink": false,
+      "published": "Thu, 19 Apr 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        4,
+        19,
+        7,
+        0,
+        0,
+        3,
+        109,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQenZuLXhmQ2JNQkhpMTNrcDlVS1RVaVZwV21PNTF5TzVyaU1QSnB1ZWNYSUtrbkYyVkVSWThKSDJMSWhVSGVodXhQMnNWT0V6WFdQVnJ3aWR6VnRVTGQtVmRlbnVhTzVXSWFCVjZlbW1NeU01aTdTTEZqd0toSFl2M3dnS2J3Nnp2Yks3SWhFeGJHYXcxRGZwcXNCaE83cG8?oc=5\" target=\"_blank\">Uncharted Territory in Zika Virus Research</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">science.gc.ca</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQenZuLXhmQ2JNQkhpMTNrcDlVS1RVaVZwV21PNTF5TzVyaU1QSnB1ZWNYSUtrbkYyVkVSWThKSDJMSWhVSGVodXhQMnNWT0V6WFdQVnJ3aWR6VnRVTGQtVmRlbnVhTzVXSWFCVjZlbW1NeU01aTdTTEZqd0toSFl2M3dnS2J3Nnp2Yks3SWhFeGJHYXcxRGZwcXNCaE83cG8?oc=5\" target=\"_blank\">Uncharted Territory in Zika Virus Research</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">science.gc.ca</font>"
+      },
+      "source": {
+        "href": "https://science.gc.ca",
+        "title": "science.gc.ca"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika Virus May Spread By Another Mosquito Species - Sebastian Daily",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika Virus May Spread By Another Mosquito Species - Sebastian Daily"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdHkzRVFiMGEzM0JuNGdfNlBhYzktUG5WRE1uMm12VzdZOHlZd1Zubi1xbHRzblUyMDY0MzBHTE1ZWkR6NlhISFBrRmVMc0pFWkJ2emwzODhPa3d2emxxSTYzNWk0S0gxMGRFYUsyV1ZNSDR1RE1Yc1ItSm90SU9NSW1aM0JwWDFRZldtLTZIcHJUZTIwX0JJSnRuUlBBQQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdHkzRVFiMGEzM0JuNGdfNlBhYzktUG5WRE1uMm12VzdZOHlZd1Zubi1xbHRzblUyMDY0MzBHTE1ZWkR6NlhISFBrRmVMc0pFWkJ2emwzODhPa3d2emxxSTYzNWk0S0gxMGRFYUsyV1ZNSDR1RE1Yc1ItSm90SU9NSW1aM0JwWDFRZldtLTZIcHJUZTIwX0JJSnRuUlBBQQ?oc=5",
+      "id": "CBMingFBVV95cUxOdHkzRVFiMGEzM0JuNGdfNlBhYzktUG5WRE1uMm12VzdZOHlZd1Zubi1xbHRzblUyMDY0MzBHTE1ZWkR6NlhISFBrRmVMc0pFWkJ2emwzODhPa3d2emxxSTYzNWk0S0gxMGRFYUsyV1ZNSDR1RE1Yc1ItSm90SU9NSW1aM0JwWDFRZldtLTZIcHJUZTIwX0JJSnRuUlBBQQ",
+      "guidislink": false,
+      "published": "Thu, 26 Apr 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        4,
+        26,
+        7,
+        0,
+        0,
+        3,
+        116,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxOdHkzRVFiMGEzM0JuNGdfNlBhYzktUG5WRE1uMm12VzdZOHlZd1Zubi1xbHRzblUyMDY0MzBHTE1ZWkR6NlhISFBrRmVMc0pFWkJ2emwzODhPa3d2emxxSTYzNWk0S0gxMGRFYUsyV1ZNSDR1RE1Yc1ItSm90SU9NSW1aM0JwWDFRZldtLTZIcHJUZTIwX0JJSnRuUlBBQQ?oc=5\" target=\"_blank\">Zika Virus May Spread By Another Mosquito Species</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sebastian Daily</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxOdHkzRVFiMGEzM0JuNGdfNlBhYzktUG5WRE1uMm12VzdZOHlZd1Zubi1xbHRzblUyMDY0MzBHTE1ZWkR6NlhISFBrRmVMc0pFWkJ2emwzODhPa3d2emxxSTYzNWk0S0gxMGRFYUsyV1ZNSDR1RE1Yc1ItSm90SU9NSW1aM0JwWDFRZldtLTZIcHJUZTIwX0JJSnRuUlBBQQ?oc=5\" target=\"_blank\">Zika Virus May Spread By Another Mosquito Species</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sebastian Daily</font>"
+      },
+      "source": {
+        "href": "https://www.sebastiandaily.com",
+        "title": "Sebastian Daily"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "The world's deadliest animal isn't a shark or even a human - The Independent",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "The world's deadliest animal isn't a shark or even a human - The Independent"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQUEwOUFNZ0sxTXNHMV82R0kzV0FfYVBKOXBhMGpaLVJkbTVjb3ZCWXRxQ053SVUyMGVNNWpYdXVHTEROWTBPYktiSEJlZGtDaGgwcnBHeEN5anJXVnRFUW0xbXVBc2Zfc05tcG9PMFJreDJyTG5uMzlfUXNPQVBoSlNTWmxwUEwzZVZ3UUtwU085cTQtQmZ3YTVEeDJ0T0I5MUZmcmFIQkwzbkVWa3dRZ2FuSE5ybm9uUUpmUTVibXRlamJnT2xNTUlWc2hMQQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPQUEwOUFNZ0sxTXNHMV82R0kzV0FfYVBKOXBhMGpaLVJkbTVjb3ZCWXRxQ053SVUyMGVNNWpYdXVHTEROWTBPYktiSEJlZGtDaGgwcnBHeEN5anJXVnRFUW0xbXVBc2Zfc05tcG9PMFJreDJyTG5uMzlfUXNPQVBoSlNTWmxwUEwzZVZ3UUtwU085cTQtQmZ3YTVEeDJ0T0I5MUZmcmFIQkwzbkVWa3dRZ2FuSE5ybm9uUUpmUTVibXRlamJnT2xNTUlWc2hMQQ?oc=5",
+      "id": "CBMizgFBVV95cUxPQUEwOUFNZ0sxTXNHMV82R0kzV0FfYVBKOXBhMGpaLVJkbTVjb3ZCWXRxQ053SVUyMGVNNWpYdXVHTEROWTBPYktiSEJlZGtDaGgwcnBHeEN5anJXVnRFUW0xbXVBc2Zfc05tcG9PMFJreDJyTG5uMzlfUXNPQVBoSlNTWmxwUEwzZVZ3UUtwU085cTQtQmZ3YTVEeDJ0T0I5MUZmcmFIQkwzbkVWa3dRZ2FuSE5ybm9uUUpmUTVibXRlamJnT2xNTUlWc2hMQQ",
+      "guidislink": false,
+      "published": "Wed, 18 Apr 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        4,
+        18,
+        7,
+        0,
+        0,
+        2,
+        108,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxPQUEwOUFNZ0sxTXNHMV82R0kzV0FfYVBKOXBhMGpaLVJkbTVjb3ZCWXRxQ053SVUyMGVNNWpYdXVHTEROWTBPYktiSEJlZGtDaGgwcnBHeEN5anJXVnRFUW0xbXVBc2Zfc05tcG9PMFJreDJyTG5uMzlfUXNPQVBoSlNTWmxwUEwzZVZ3UUtwU085cTQtQmZ3YTVEeDJ0T0I5MUZmcmFIQkwzbkVWa3dRZ2FuSE5ybm9uUUpmUTVibXRlamJnT2xNTUlWc2hMQQ?oc=5\" target=\"_blank\">The world's deadliest animal isn't a shark or even a human</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Independent</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxPQUEwOUFNZ0sxTXNHMV82R0kzV0FfYVBKOXBhMGpaLVJkbTVjb3ZCWXRxQ053SVUyMGVNNWpYdXVHTEROWTBPYktiSEJlZGtDaGgwcnBHeEN5anJXVnRFUW0xbXVBc2Zfc05tcG9PMFJreDJyTG5uMzlfUXNPQVBoSlNTWmxwUEwzZVZ3UUtwU085cTQtQmZ3YTVEeDJ0T0I5MUZmcmFIQkwzbkVWa3dRZ2FuSE5ybm9uUUpmUTVibXRlamJnT2xNTUlWc2hMQQ?oc=5\" target=\"_blank\">The world's deadliest animal isn't a shark or even a human</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Independent</font>"
+      },
+      "source": {
+        "href": "https://www.independent.co.uk",
+        "title": "The Independent"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "NYC mice carry life-threatening bacteria, study finds - New York Post",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "NYC mice carry life-threatening bacteria, study finds - New York Post"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSVcyVmNoX0ozeVFTaFl3dWwtR3VuTlJORXAzcVUya2FGNWpOa2JwYW4xM1gtREdneU1wODdpb2p0c3otYVhaRE4tVVBwMXRkWmdCV1lJcU5HRjdrNldBOHg1c196SnZILUJHNkJzcVpSR3BIelZrdjRmLUU2clRJaXVCSmREcW5JUTFr?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSVcyVmNoX0ozeVFTaFl3dWwtR3VuTlJORXAzcVUya2FGNWpOa2JwYW4xM1gtREdneU1wODdpb2p0c3otYVhaRE4tVVBwMXRkWmdCV1lJcU5HRjdrNldBOHg1c196SnZILUJHNkJzcVpSR3BIelZrdjRmLUU2clRJaXVCSmREcW5JUTFr?oc=5",
+      "id": "CBMiiwFBVV95cUxPSVcyVmNoX0ozeVFTaFl3dWwtR3VuTlJORXAzcVUya2FGNWpOa2JwYW4xM1gtREdneU1wODdpb2p0c3otYVhaRE4tVVBwMXRkWmdCV1lJcU5HRjdrNldBOHg1c196SnZILUJHNkJzcVpSR3BIelZrdjRmLUU2clRJaXVCSmREcW5JUTFr",
+      "guidislink": false,
+      "published": "Tue, 17 Apr 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        4,
+        17,
+        7,
+        0,
+        0,
+        1,
+        107,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSVcyVmNoX0ozeVFTaFl3dWwtR3VuTlJORXAzcVUya2FGNWpOa2JwYW4xM1gtREdneU1wODdpb2p0c3otYVhaRE4tVVBwMXRkWmdCV1lJcU5HRjdrNldBOHg1c196SnZILUJHNkJzcVpSR3BIelZrdjRmLUU2clRJaXVCSmREcW5JUTFr?oc=5\" target=\"_blank\">NYC mice carry life-threatening bacteria, study finds</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">New York Post</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSVcyVmNoX0ozeVFTaFl3dWwtR3VuTlJORXAzcVUya2FGNWpOa2JwYW4xM1gtREdneU1wODdpb2p0c3otYVhaRE4tVVBwMXRkWmdCV1lJcU5HRjdrNldBOHg1c196SnZILUJHNkJzcVpSR3BIelZrdjRmLUU2clRJaXVCSmREcW5JUTFr?oc=5\" target=\"_blank\">NYC mice carry life-threatening bacteria, study finds</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">New York Post</font>"
+      },
+      "source": {
+        "href": "https://nypost.com",
+        "title": "New York Post"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "How mosquitoes without mojo could help stop disease - ABC News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "How mosquitoes without mojo could help stop disease - ABC News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOR0NtMGhvOWpPMmFTcS1Kc0phUG4xVnNJRUhpR0hrNFBDWFYyeFhwRzdXYkhMRkx0UDk1eXFlRldKeHVEQUtEbGdlQndGLUlRamxIMXBxZkdISUswLTg4UjZLM0s4WVVjNVVuWjhBTVRaNWYzZ2pIQlNKY2JXOUxtS0FCc1hqR2M0RThFNTRvT0VpaC1vYl90VEl3?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOR0NtMGhvOWpPMmFTcS1Kc0phUG4xVnNJRUhpR0hrNFBDWFYyeFhwRzdXYkhMRkx0UDk1eXFlRldKeHVEQUtEbGdlQndGLUlRamxIMXBxZkdISUswLTg4UjZLM0s4WVVjNVVuWjhBTVRaNWYzZ2pIQlNKY2JXOUxtS0FCc1hqR2M0RThFNTRvT0VpaC1vYl90VEl3?oc=5",
+      "id": "CBMimgFBVV95cUxOR0NtMGhvOWpPMmFTcS1Kc0phUG4xVnNJRUhpR0hrNFBDWFYyeFhwRzdXYkhMRkx0UDk1eXFlRldKeHVEQUtEbGdlQndGLUlRamxIMXBxZkdISUswLTg4UjZLM0s4WVVjNVVuWjhBTVRaNWYzZ2pIQlNKY2JXOUxtS0FCc1hqR2M0RThFNTRvT0VpaC1vYl90VEl3",
+      "guidislink": false,
+      "published": "Sat, 14 Apr 2018 07:00:00 GMT",
+      "published_parsed": [
+        2018,
+        4,
+        14,
+        7,
+        0,
+        0,
+        5,
+        104,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxOR0NtMGhvOWpPMmFTcS1Kc0phUG4xVnNJRUhpR0hrNFBDWFYyeFhwRzdXYkhMRkx0UDk1eXFlRldKeHVEQUtEbGdlQndGLUlRamxIMXBxZkdISUswLTg4UjZLM0s4WVVjNVVuWjhBTVRaNWYzZ2pIQlNKY2JXOUxtS0FCc1hqR2M0RThFNTRvT0VpaC1vYl90VEl3?oc=5\" target=\"_blank\">How mosquitoes without mojo could help stop disease</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ABC News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxOR0NtMGhvOWpPMmFTcS1Kc0phUG4xVnNJRUhpR0hrNFBDWFYyeFhwRzdXYkhMRkx0UDk1eXFlRldKeHVEQUtEbGdlQndGLUlRamxIMXBxZkdISUswLTg4UjZLM0s4WVVjNVVuWjhBTVRaNWYzZ2pIQlNKY2JXOUxtS0FCc1hqR2M0RThFNTRvT0VpaC1vYl90VEl3?oc=5\" target=\"_blank\">How mosquitoes without mojo could help stop disease</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ABC News</font>"
+      },
+      "source": {
+        "href": "https://www.abc.net.au",
+        "title": "ABC News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "the 20 most disturbing horror movies be warned - IMDb",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "the 20 most disturbing horror movies be warned - IMDb"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBnOC1qWkpKZzk5cm9BdzN6VURWRHczWmNIMkhlTU5OZXFJWTllcG9fZ2tjMEFqdTlmT0JGNWp6RENEZFNLLUVBQTlsdWZyams?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBnOC1qWkpKZzk5cm9BdzN6VURWRHczWmNIMkhlTU5OZXFJWTllcG9fZ2tjMEFqdTlmT0JGNWp6RENEZFNLLUVBQTlsdWZyams?oc=5",
+      "id": "CBMiT0FVX3lxTFBnOC1qWkpKZzk5cm9BdzN6VURWRHczWmNIMkhlTU5OZXFJWTllcG9fZ2tjMEFqdTlmT0JGNWp6RENEZFNLLUVBQTlsdWZyams",
+      "guidislink": false,
+      "published": "Wed, 18 Apr 2018 17:41:08 GMT",
+      "published_parsed": [
+        2018,
+        4,
+        18,
+        17,
+        41,
+        8,
+        2,
+        108,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiT0FVX3lxTFBnOC1qWkpKZzk5cm9BdzN6VURWRHczWmNIMkhlTU5OZXFJWTllcG9fZ2tjMEFqdTlmT0JGNWp6RENEZFNLLUVBQTlsdWZyams?oc=5\" target=\"_blank\">the 20 most disturbing horror movies be warned</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IMDb</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiT0FVX3lxTFBnOC1qWkpKZzk5cm9BdzN6VURWRHczWmNIMkhlTU5OZXFJWTllcG9fZ2tjMEFqdTlmT0JGNWp6RENEZFNLLUVBQTlsdWZyams?oc=5\" target=\"_blank\">the 20 most disturbing horror movies be warned</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IMDb</font>"
+      },
+      "source": {
+        "href": "https://www.imdb.com",
+        "title": "IMDb"
+      },
+      "sub_articles": []
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2014-01-10",
+  "window_end": "2014-02-08",
+  "window_days": 30,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2014-01-10+before%3A2014-02-09&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2014-01-10+before:2014-02-09&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T06:52:04Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2014-01-10 before:2014-02-09\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2014-01-10 before:2014-02-09\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2014-01-10+before:2014-02-09&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2014-01-10+before:2014-02-09&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 06:52:05 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      6,
+      52,
+      5,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Bournemouth 0 Liverpool 2: Moses and Sturridge on target as Reds book FA Cup fifth round spot - match report - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Bournemouth 0 Liverpool 2: Moses and Sturridge on target as Reds book FA Cup fifth round spot - match report - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMipAJBVV95cUxOOWd5akJZTkJubmN2VUFwUk9RZ0F3QkltcXRyeXdvNHp4R0YyZnVOb1AtTjBGVlppMVNFWkRBYVlXeU9RamNiOHZQOU5BUTlzZ1lYcmgzek4xeEtXRXhqY0QwZV9IQldweVV2SnA0ZEtkbmpZZGxSZUVZVHdQNDEyRXdLUDVOUl9HRi1MQnFpWUhsZWdkNnJPVTlkdERBdThPU25ocHZnbXdReEtTUFE1SVJaSkRvS0MzcTNRQ2hsS3RiU0RrQ096R3lndVhjYVdzOWNyY2ZSbWhQWEp3RWVPQ1V5a0RHbGZsaDRiYlM0SUpRUFdpbDVwOG44SGE1YkU4ZWZhSUpUZDZmTFZRMkJRcWNHUWhNYTZhdVo1WUNER1JWTDVX0gGkAkFVX3lxTE45Z3lqQllOQm5uY3ZVQXBST1FnQXdCSW1xdHJ5d280enhHRjJmdU5vUC1OMEZWWmkxU0VaREFhWVd5T1FqY2I4dlA5TkFROXNnWVhyaDN6TjF4S1dFeGpjRDBlX0hCV3B5VXZKcDRkS2RuallkbFJlRVlUd1A0MTJFd0tQNU5SX0dGLUxCcWlZSGxlZ2Q2ck9VOWR0REF1OE9Tbmhwdmdtd1F4S1NQUTVJUlpKRG9LQzNxM1FDaGxLdGJTRGtDT3pHeWd1WGNhV3M5Y3JjZlJtaFBYSndFZU9DVXlrREdsZmxoNGJiUzRJSlFQV2lsNXA4bjhIYTViRThlZmFJSlRkNmZMVlEyQlFxY0dRaE1hNmF1WjVZQ0RHUlZMNVc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMipAJBVV95cUxOOWd5akJZTkJubmN2VUFwUk9RZ0F3QkltcXRyeXdvNHp4R0YyZnVOb1AtTjBGVlppMVNFWkRBYVlXeU9RamNiOHZQOU5BUTlzZ1lYcmgzek4xeEtXRXhqY0QwZV9IQldweVV2SnA0ZEtkbmpZZGxSZUVZVHdQNDEyRXdLUDVOUl9HRi1MQnFpWUhsZWdkNnJPVTlkdERBdThPU25ocHZnbXdReEtTUFE1SVJaSkRvS0MzcTNRQ2hsS3RiU0RrQ096R3lndVhjYVdzOWNyY2ZSbWhQWEp3RWVPQ1V5a0RHbGZsaDRiYlM0SUpRUFdpbDVwOG44SGE1YkU4ZWZhSUpUZDZmTFZRMkJRcWNHUWhNYTZhdVo1WUNER1JWTDVX0gGkAkFVX3lxTE45Z3lqQllOQm5uY3ZVQXBST1FnQXdCSW1xdHJ5d280enhHRjJmdU5vUC1OMEZWWmkxU0VaREFhWVd5T1FqY2I4dlA5TkFROXNnWVhyaDN6TjF4S1dFeGpjRDBlX0hCV3B5VXZKcDRkS2RuallkbFJlRVlUd1A0MTJFd0tQNU5SX0dGLUxCcWlZSGxlZ2Q2ck9VOWR0REF1OE9Tbmhwdmdtd1F4S1NQUTVJUlpKRG9LQzNxM1FDaGxLdGJTRGtDT3pHeWd1WGNhV3M5Y3JjZlJtaFBYSndFZU9DVXlrREdsZmxoNGJiUzRJSlFQV2lsNXA4bjhIYTViRThlZmFJSlRkNmZMVlEyQlFxY0dRaE1hNmF1WjVZQ0RHUlZMNVc?oc=5",
+      "id": "CBMipAJBVV95cUxOOWd5akJZTkJubmN2VUFwUk9RZ0F3QkltcXRyeXdvNHp4R0YyZnVOb1AtTjBGVlppMVNFWkRBYVlXeU9RamNiOHZQOU5BUTlzZ1lYcmgzek4xeEtXRXhqY0QwZV9IQldweVV2SnA0ZEtkbmpZZGxSZUVZVHdQNDEyRXdLUDVOUl9HRi1MQnFpWUhsZWdkNnJPVTlkdERBdThPU25ocHZnbXdReEtTUFE1SVJaSkRvS0MzcTNRQ2hsS3RiU0RrQ096R3lndVhjYVdzOWNyY2ZSbWhQWEp3RWVPQ1V5a0RHbGZsaDRiYlM0SUpRUFdpbDVwOG44SGE1YkU4ZWZhSUpUZDZmTFZRMkJRcWNHUWhNYTZhdVo1WUNER1JWTDVX0gGkAkFVX3lxTE45Z3lqQllOQm5uY3ZVQXBST1FnQXdCSW1xdHJ5d280enhHRjJmdU5vUC1OMEZWWmkxU0VaREFhWVd5T1FqY2I4dlA5TkFROXNnWVhyaDN6TjF4S1dFeGpjRDBlX0hCV3B5VXZKcDRkS2RuallkbFJlRVlUd1A0MTJFd0tQNU5SX0dGLUxCcWlZSGxlZ2Q2ck9VOWR0REF1OE9Tbmhwdmdtd1F4S1NQUTVJUlpKRG9LQzNxM1FDaGxLdGJTRGtDT3pHeWd1WGNhV3M5Y3JjZlJtaFBYSndFZU9DVXlrREdsZmxoNGJiUzRJSlFQV2lsNXA4bjhIYTViRThlZmFJSlRkNmZMVlEyQlFxY0dRaE1hNmF1WjVZQ0RHUlZMNVc",
+      "guidislink": false,
+      "published": "Sat, 25 Jan 2014 08:00:00 GMT",
+      "published_parsed": [
+        2014,
+        1,
+        25,
+        8,
+        0,
+        0,
+        5,
+        25,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAJBVV95cUxOOWd5akJZTkJubmN2VUFwUk9RZ0F3QkltcXRyeXdvNHp4R0YyZnVOb1AtTjBGVlppMVNFWkRBYVlXeU9RamNiOHZQOU5BUTlzZ1lYcmgzek4xeEtXRXhqY0QwZV9IQldweVV2SnA0ZEtkbmpZZGxSZUVZVHdQNDEyRXdLUDVOUl9HRi1MQnFpWUhsZWdkNnJPVTlkdERBdThPU25ocHZnbXdReEtTUFE1SVJaSkRvS0MzcTNRQ2hsS3RiU0RrQ096R3lndVhjYVdzOWNyY2ZSbWhQWEp3RWVPQ1V5a0RHbGZsaDRiYlM0SUpRUFdpbDVwOG44SGE1YkU4ZWZhSUpUZDZmTFZRMkJRcWNHUWhNYTZhdVo1WUNER1JWTDVX0gGkAkFVX3lxTE45Z3lqQllOQm5uY3ZVQXBST1FnQXdCSW1xdHJ5d280enhHRjJmdU5vUC1OMEZWWmkxU0VaREFhWVd5T1FqY2I4dlA5TkFROXNnWVhyaDN6TjF4S1dFeGpjRDBlX0hCV3B5VXZKcDRkS2RuallkbFJlRVlUd1A0MTJFd0tQNU5SX0dGLUxCcWlZSGxlZ2Q2ck9VOWR0REF1OE9Tbmhwdmdtd1F4S1NQUTVJUlpKRG9LQzNxM1FDaGxLdGJTRGtDT3pHeWd1WGNhV3M5Y3JjZlJtaFBYSndFZU9DVXlrREdsZmxoNGJiUzRJSlFQV2lsNXA4bjhIYTViRThlZmFJSlRkNmZMVlEyQlFxY0dRaE1hNmF1WjVZQ0RHUlZMNVc?oc=5\" target=\"_blank\">Bournemouth 0 Liverpool 2: Moses and Sturridge on target as Reds book FA Cup fifth round spot - match report</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMipAJBVV95cUxOOWd5akJZTkJubmN2VUFwUk9RZ0F3QkltcXRyeXdvNHp4R0YyZnVOb1AtTjBGVlppMVNFWkRBYVlXeU9RamNiOHZQOU5BUTlzZ1lYcmgzek4xeEtXRXhqY0QwZV9IQldweVV2SnA0ZEtkbmpZZGxSZUVZVHdQNDEyRXdLUDVOUl9HRi1MQnFpWUhsZWdkNnJPVTlkdERBdThPU25ocHZnbXdReEtTUFE1SVJaSkRvS0MzcTNRQ2hsS3RiU0RrQ096R3lndVhjYVdzOWNyY2ZSbWhQWEp3RWVPQ1V5a0RHbGZsaDRiYlM0SUpRUFdpbDVwOG44SGE1YkU4ZWZhSUpUZDZmTFZRMkJRcWNHUWhNYTZhdVo1WUNER1JWTDVX0gGkAkFVX3lxTE45Z3lqQllOQm5uY3ZVQXBST1FnQXdCSW1xdHJ5d280enhHRjJmdU5vUC1OMEZWWmkxU0VaREFhWVd5T1FqY2I4dlA5TkFROXNnWVhyaDN6TjF4S1dFeGpjRDBlX0hCV3B5VXZKcDRkS2RuallkbFJlRVlUd1A0MTJFd0tQNU5SX0dGLUxCcWlZSGxlZ2Q2ck9VOWR0REF1OE9Tbmhwdmdtd1F4S1NQUTVJUlpKRG9LQzNxM1FDaGxLdGJTRGtDT3pHeWd1WGNhV3M5Y3JjZlJtaFBYSndFZU9DVXlrREdsZmxoNGJiUzRJSlFQV2lsNXA4bjhIYTViRThlZmFJSlRkNmZMVlEyQlFxY0dRaE1hNmF1WjVZQ0RHUlZMNVc?oc=5\" target=\"_blank\">Bournemouth 0 Liverpool 2: Moses and Sturridge on target as Reds book FA Cup fifth round spot - match report</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Lacina Traore gets work permit ahead of loan move to Everton - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Lacina Traore gets work permit ahead of loan move to Everton - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNWFBUkZMellON3kwNG5ZV2JIdWJ5UlowVmdFUzVFTU9SMXJZNmFKc21nczVrZVIyLV9iWEZqckpDN1VuWG12dEtpVFRZR1FFSVItd0steHNzOXVXdEpmSHdLUEpqMmtsSm84YUZpcVIzVkJxMEtXM0Rlc0ZVelhZb0dlU2ZNUlF5UTZnTDI0NWszVmJqWGRJXzhWSXdGa1lnaWNCVTF6Z3R4eFJOaGZ6OFpRZUxwTXp0cElFWmIyRUMyYWt2TTBrZmN1Y0E4Uk00aGttcUhKMNIB1wFBVV95cUxNNWFBUkZMellON3kwNG5ZV2JIdWJ5UlowVmdFUzVFTU9SMXJZNmFKc21nczVrZVIyLV9iWEZqckpDN1VuWG12dEtpVFRZR1FFSVItd0steHNzOXVXdEpmSHdLUEpqMmtsSm84YUZpcVIzVkJxMEtXM0Rlc0ZVelhZb0dlU2ZNUlF5UTZnTDI0NWszVmJqWGRJXzhWSXdGa1lnaWNCVTF6Z3R4eFJOaGZ6OFpRZUxwTXp0cElFWmIyRUMyYWt2TTBrZmN1Y0E4Uk00aGttcUhKMA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNWFBUkZMellON3kwNG5ZV2JIdWJ5UlowVmdFUzVFTU9SMXJZNmFKc21nczVrZVIyLV9iWEZqckpDN1VuWG12dEtpVFRZR1FFSVItd0steHNzOXVXdEpmSHdLUEpqMmtsSm84YUZpcVIzVkJxMEtXM0Rlc0ZVelhZb0dlU2ZNUlF5UTZnTDI0NWszVmJqWGRJXzhWSXdGa1lnaWNCVTF6Z3R4eFJOaGZ6OFpRZUxwTXp0cElFWmIyRUMyYWt2TTBrZmN1Y0E4Uk00aGttcUhKMNIB1wFBVV95cUxNNWFBUkZMellON3kwNG5ZV2JIdWJ5UlowVmdFUzVFTU9SMXJZNmFKc21nczVrZVIyLV9iWEZqckpDN1VuWG12dEtpVFRZR1FFSVItd0steHNzOXVXdEpmSHdLUEpqMmtsSm84YUZpcVIzVkJxMEtXM0Rlc0ZVelhZb0dlU2ZNUlF5UTZnTDI0NWszVmJqWGRJXzhWSXdGa1lnaWNCVTF6Z3R4eFJOaGZ6OFpRZUxwTXp0cElFWmIyRUMyYWt2TTBrZmN1Y0E4Uk00aGttcUhKMA?oc=5",
+      "id": "CBMi1wFBVV95cUxNNWFBUkZMellON3kwNG5ZV2JIdWJ5UlowVmdFUzVFTU9SMXJZNmFKc21nczVrZVIyLV9iWEZqckpDN1VuWG12dEtpVFRZR1FFSVItd0steHNzOXVXdEpmSHdLUEpqMmtsSm84YUZpcVIzVkJxMEtXM0Rlc0ZVelhZb0dlU2ZNUlF5UTZnTDI0NWszVmJqWGRJXzhWSXdGa1lnaWNCVTF6Z3R4eFJOaGZ6OFpRZUxwTXp0cElFWmIyRUMyYWt2TTBrZmN1Y0E4Uk00aGttcUhKMNIB1wFBVV95cUxNNWFBUkZMellON3kwNG5ZV2JIdWJ5UlowVmdFUzVFTU9SMXJZNmFKc21nczVrZVIyLV9iWEZqckpDN1VuWG12dEtpVFRZR1FFSVItd0steHNzOXVXdEpmSHdLUEpqMmtsSm84YUZpcVIzVkJxMEtXM0Rlc0ZVelhZb0dlU2ZNUlF5UTZnTDI0NWszVmJqWGRJXzhWSXdGa1lnaWNCVTF6Z3R4eFJOaGZ6OFpRZUxwTXp0cElFWmIyRUMyYWt2TTBrZmN1Y0E4Uk00aGttcUhKMA",
+      "guidislink": false,
+      "published": "Tue, 21 Jan 2014 08:00:00 GMT",
+      "published_parsed": [
+        2014,
+        1,
+        21,
+        8,
+        0,
+        0,
+        1,
+        21,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNWFBUkZMellON3kwNG5ZV2JIdWJ5UlowVmdFUzVFTU9SMXJZNmFKc21nczVrZVIyLV9iWEZqckpDN1VuWG12dEtpVFRZR1FFSVItd0steHNzOXVXdEpmSHdLUEpqMmtsSm84YUZpcVIzVkJxMEtXM0Rlc0ZVelhZb0dlU2ZNUlF5UTZnTDI0NWszVmJqWGRJXzhWSXdGa1lnaWNCVTF6Z3R4eFJOaGZ6OFpRZUxwTXp0cElFWmIyRUMyYWt2TTBrZmN1Y0E4Uk00aGttcUhKMNIB1wFBVV95cUxNNWFBUkZMellON3kwNG5ZV2JIdWJ5UlowVmdFUzVFTU9SMXJZNmFKc21nczVrZVIyLV9iWEZqckpDN1VuWG12dEtpVFRZR1FFSVItd0steHNzOXVXdEpmSHdLUEpqMmtsSm84YUZpcVIzVkJxMEtXM0Rlc0ZVelhZb0dlU2ZNUlF5UTZnTDI0NWszVmJqWGRJXzhWSXdGa1lnaWNCVTF6Z3R4eFJOaGZ6OFpRZUxwTXp0cElFWmIyRUMyYWt2TTBrZmN1Y0E4Uk00aGttcUhKMA?oc=5\" target=\"_blank\">Lacina Traore gets work permit ahead of loan move to Everton</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNWFBUkZMellON3kwNG5ZV2JIdWJ5UlowVmdFUzVFTU9SMXJZNmFKc21nczVrZVIyLV9iWEZqckpDN1VuWG12dEtpVFRZR1FFSVItd0steHNzOXVXdEpmSHdLUEpqMmtsSm84YUZpcVIzVkJxMEtXM0Rlc0ZVelhZb0dlU2ZNUlF5UTZnTDI0NWszVmJqWGRJXzhWSXdGa1lnaWNCVTF6Z3R4eFJOaGZ6OFpRZUxwTXp0cElFWmIyRUMyYWt2TTBrZmN1Y0E4Uk00aGttcUhKMNIB1wFBVV95cUxNNWFBUkZMellON3kwNG5ZV2JIdWJ5UlowVmdFUzVFTU9SMXJZNmFKc21nczVrZVIyLV9iWEZqckpDN1VuWG12dEtpVFRZR1FFSVItd0steHNzOXVXdEpmSHdLUEpqMmtsSm84YUZpcVIzVkJxMEtXM0Rlc0ZVelhZb0dlU2ZNUlF5UTZnTDI0NWszVmJqWGRJXzhWSXdGa1lnaWNCVTF6Z3R4eFJOaGZ6OFpRZUxwTXp0cElFWmIyRUMyYWt2TTBrZmN1Y0E4Uk00aGttcUhKMA?oc=5\" target=\"_blank\">Lacina Traore gets work permit ahead of loan move to Everton</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Kate Upton celebrates Super Bowl with high fashion football party in Vogue - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Kate Upton celebrates Super Bowl with high fashion football party in Vogue - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxObTN1WnB2aTRuekw4VlFuUmZEbkFybXZoNkJJcWYxVjRudnlPNC1YMEtJTjhNRVFTdGUtbjF5aDczaGhkQlpwTTZWMzRtN3BwTHF5UFYxMnc3NzA1YzBvbGVNeHFNXzBBMndSWWM3Mjh2aVAtS2t2c0h1R0VOR2FIMjA1Y1VqSk9rYjQzMkoxOExfTGpVRDNxa2hiaGdELTJHUzZDYXBMYkc5Z29Hc0NheVkxX3k3bmFNS0l2ZE5rSXVrSnN5dWRjc0cyMURvX0tTeHJqZFYySmFuZVQzNmJN0gHfAUFVX3lxTE5tM3VacHZpNG56TDhWUW5SZkRuQXJtdmg2QklxZjFWNG52eU80LVgwS0lOOE1FUVN0ZS1uMXloNzNoaGRCWnBNNlYzNG03cHBMcXlQVjEydzc3MDVjMG9sZU14cU1fMEEyd1JZYzcyOHZpUC1La3ZzSHVHRU5HYUgyMDVjVWpKT2tiNDMySjE4TF9MalVEM3FraGJoZ0QtMkdTNkNhcExiRzlnb0dzQ2F5WTFfeTduYU1LSXZkTmtJdWtKc3l1ZGNzRzIxRG9fS1N4cmpkVjJKYW5lVDM2Yk0?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxObTN1WnB2aTRuekw4VlFuUmZEbkFybXZoNkJJcWYxVjRudnlPNC1YMEtJTjhNRVFTdGUtbjF5aDczaGhkQlpwTTZWMzRtN3BwTHF5UFYxMnc3NzA1YzBvbGVNeHFNXzBBMndSWWM3Mjh2aVAtS2t2c0h1R0VOR2FIMjA1Y1VqSk9rYjQzMkoxOExfTGpVRDNxa2hiaGdELTJHUzZDYXBMYkc5Z29Hc0NheVkxX3k3bmFNS0l2ZE5rSXVrSnN5dWRjc0cyMURvX0tTeHJqZFYySmFuZVQzNmJN0gHfAUFVX3lxTE5tM3VacHZpNG56TDhWUW5SZkRuQXJtdmg2QklxZjFWNG52eU80LVgwS0lOOE1FUVN0ZS1uMXloNzNoaGRCWnBNNlYzNG03cHBMcXlQVjEydzc3MDVjMG9sZU14cU1fMEEyd1JZYzcyOHZpUC1La3ZzSHVHRU5HYUgyMDVjVWpKT2tiNDMySjE4TF9MalVEM3FraGJoZ0QtMkdTNkNhcExiRzlnb0dzQ2F5WTFfeTduYU1LSXZkTmtJdWtKc3l1ZGNzRzIxRG9fS1N4cmpkVjJKYW5lVDM2Yk0?oc=5",
+      "id": "CBMi3wFBVV95cUxObTN1WnB2aTRuekw4VlFuUmZEbkFybXZoNkJJcWYxVjRudnlPNC1YMEtJTjhNRVFTdGUtbjF5aDczaGhkQlpwTTZWMzRtN3BwTHF5UFYxMnc3NzA1YzBvbGVNeHFNXzBBMndSWWM3Mjh2aVAtS2t2c0h1R0VOR2FIMjA1Y1VqSk9rYjQzMkoxOExfTGpVRDNxa2hiaGdELTJHUzZDYXBMYkc5Z29Hc0NheVkxX3k3bmFNS0l2ZE5rSXVrSnN5dWRjc0cyMURvX0tTeHJqZFYySmFuZVQzNmJN0gHfAUFVX3lxTE5tM3VacHZpNG56TDhWUW5SZkRuQXJtdmg2QklxZjFWNG52eU80LVgwS0lOOE1FUVN0ZS1uMXloNzNoaGRCWnBNNlYzNG03cHBMcXlQVjEydzc3MDVjMG9sZU14cU1fMEEyd1JZYzcyOHZpUC1La3ZzSHVHRU5HYUgyMDVjVWpKT2tiNDMySjE4TF9MalVEM3FraGJoZ0QtMkdTNkNhcExiRzlnb0dzQ2F5WTFfeTduYU1LSXZkTmtJdWtKc3l1ZGNzRzIxRG9fS1N4cmpkVjJKYW5lVDM2Yk0",
+      "guidislink": false,
+      "published": "Wed, 22 Jan 2014 08:00:00 GMT",
+      "published_parsed": [
+        2014,
+        1,
+        22,
+        8,
+        0,
+        0,
+        2,
+        22,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi3wFBVV95cUxObTN1WnB2aTRuekw4VlFuUmZEbkFybXZoNkJJcWYxVjRudnlPNC1YMEtJTjhNRVFTdGUtbjF5aDczaGhkQlpwTTZWMzRtN3BwTHF5UFYxMnc3NzA1YzBvbGVNeHFNXzBBMndSWWM3Mjh2aVAtS2t2c0h1R0VOR2FIMjA1Y1VqSk9rYjQzMkoxOExfTGpVRDNxa2hiaGdELTJHUzZDYXBMYkc5Z29Hc0NheVkxX3k3bmFNS0l2ZE5rSXVrSnN5dWRjc0cyMURvX0tTeHJqZFYySmFuZVQzNmJN0gHfAUFVX3lxTE5tM3VacHZpNG56TDhWUW5SZkRuQXJtdmg2QklxZjFWNG52eU80LVgwS0lOOE1FUVN0ZS1uMXloNzNoaGRCWnBNNlYzNG03cHBMcXlQVjEydzc3MDVjMG9sZU14cU1fMEEyd1JZYzcyOHZpUC1La3ZzSHVHRU5HYUgyMDVjVWpKT2tiNDMySjE4TF9MalVEM3FraGJoZ0QtMkdTNkNhcExiRzlnb0dzQ2F5WTFfeTduYU1LSXZkTmtJdWtKc3l1ZGNzRzIxRG9fS1N4cmpkVjJKYW5lVDM2Yk0?oc=5\" target=\"_blank\">Kate Upton celebrates Super Bowl with high fashion football party in Vogue</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi3wFBVV95cUxObTN1WnB2aTRuekw4VlFuUmZEbkFybXZoNkJJcWYxVjRudnlPNC1YMEtJTjhNRVFTdGUtbjF5aDczaGhkQlpwTTZWMzRtN3BwTHF5UFYxMnc3NzA1YzBvbGVNeHFNXzBBMndSWWM3Mjh2aVAtS2t2c0h1R0VOR2FIMjA1Y1VqSk9rYjQzMkoxOExfTGpVRDNxa2hiaGdELTJHUzZDYXBMYkc5Z29Hc0NheVkxX3k3bmFNS0l2ZE5rSXVrSnN5dWRjc0cyMURvX0tTeHJqZFYySmFuZVQzNmJN0gHfAUFVX3lxTE5tM3VacHZpNG56TDhWUW5SZkRuQXJtdmg2QklxZjFWNG52eU80LVgwS0lOOE1FUVN0ZS1uMXloNzNoaGRCWnBNNlYzNG03cHBMcXlQVjEydzc3MDVjMG9sZU14cU1fMEEyd1JZYzcyOHZpUC1La3ZzSHVHRU5HYUgyMDVjVWpKT2tiNDMySjE4TF9MalVEM3FraGJoZ0QtMkdTNkNhcExiRzlnb0dzQ2F5WTFfeTduYU1LSXZkTmtJdWtKc3l1ZGNzRzIxRG9fS1N4cmpkVjJKYW5lVDM2Yk0?oc=5\" target=\"_blank\">Kate Upton celebrates Super Bowl with high fashion football party in Vogue</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Max Beesley on how marriage and fatherhood has changed him - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Max Beesley on how marriage and fatherhood has changed him - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWVBWeG5KbU90M0xwYThObWEyelYyN2ZtbFMzNWdkWW5YQi1NWjd4QVU2RlQ4T3hscXNiSktzbjZ6OGhuNDhKdld3UUI4eXQwRnp0U1lycUcybEJuNVFCRXR0Ny1Qbm1pODJ4bXMxc3F5RXFLajR4dDhRMUQ2MGJtSm9CbFB1N2otdjdpeU5XQTJqRWQ5dXEteV9sb19uUmUzRDBnX2FR0gGmAUFVX3lxTE1ZUFZ4bkptT3QzTHBhOE5tYTJ6VjI3Zm1sUzM1Z2RZblhCLU1aN3hBVTZGVDhPeGxxc2JKS3NuNno4aG40OEp2V3dRQjh5dDBGenRTWXJxRzJsQm41UUJFdHQ3LVBubWk4MnhtczFzcXlFcUtqNHh0OFExRDYwYm1Kb0JsUHU3ai12N2l5TldBMmpFZDl1cS15X2xvX25SZTNEMGdfYVE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWVBWeG5KbU90M0xwYThObWEyelYyN2ZtbFMzNWdkWW5YQi1NWjd4QVU2RlQ4T3hscXNiSktzbjZ6OGhuNDhKdld3UUI4eXQwRnp0U1lycUcybEJuNVFCRXR0Ny1Qbm1pODJ4bXMxc3F5RXFLajR4dDhRMUQ2MGJtSm9CbFB1N2otdjdpeU5XQTJqRWQ5dXEteV9sb19uUmUzRDBnX2FR0gGmAUFVX3lxTE1ZUFZ4bkptT3QzTHBhOE5tYTJ6VjI3Zm1sUzM1Z2RZblhCLU1aN3hBVTZGVDhPeGxxc2JKS3NuNno4aG40OEp2V3dRQjh5dDBGenRTWXJxRzJsQm41UUJFdHQ3LVBubWk4MnhtczFzcXlFcUtqNHh0OFExRDYwYm1Kb0JsUHU3ai12N2l5TldBMmpFZDl1cS15X2xvX25SZTNEMGdfYVE?oc=5",
+      "id": "CBMipgFBVV95cUxNWVBWeG5KbU90M0xwYThObWEyelYyN2ZtbFMzNWdkWW5YQi1NWjd4QVU2RlQ4T3hscXNiSktzbjZ6OGhuNDhKdld3UUI4eXQwRnp0U1lycUcybEJuNVFCRXR0Ny1Qbm1pODJ4bXMxc3F5RXFLajR4dDhRMUQ2MGJtSm9CbFB1N2otdjdpeU5XQTJqRWQ5dXEteV9sb19uUmUzRDBnX2FR0gGmAUFVX3lxTE1ZUFZ4bkptT3QzTHBhOE5tYTJ6VjI3Zm1sUzM1Z2RZblhCLU1aN3hBVTZGVDhPeGxxc2JKS3NuNno4aG40OEp2V3dRQjh5dDBGenRTWXJxRzJsQm41UUJFdHQ3LVBubWk4MnhtczFzcXlFcUtqNHh0OFExRDYwYm1Kb0JsUHU3ai12N2l5TldBMmpFZDl1cS15X2xvX25SZTNEMGdfYVE",
+      "guidislink": false,
+      "published": "Sat, 25 Jan 2014 08:00:00 GMT",
+      "published_parsed": [
+        2014,
+        1,
+        25,
+        8,
+        0,
+        0,
+        5,
+        25,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxNWVBWeG5KbU90M0xwYThObWEyelYyN2ZtbFMzNWdkWW5YQi1NWjd4QVU2RlQ4T3hscXNiSktzbjZ6OGhuNDhKdld3UUI4eXQwRnp0U1lycUcybEJuNVFCRXR0Ny1Qbm1pODJ4bXMxc3F5RXFLajR4dDhRMUQ2MGJtSm9CbFB1N2otdjdpeU5XQTJqRWQ5dXEteV9sb19uUmUzRDBnX2FR0gGmAUFVX3lxTE1ZUFZ4bkptT3QzTHBhOE5tYTJ6VjI3Zm1sUzM1Z2RZblhCLU1aN3hBVTZGVDhPeGxxc2JKS3NuNno4aG40OEp2V3dRQjh5dDBGenRTWXJxRzJsQm41UUJFdHQ3LVBubWk4MnhtczFzcXlFcUtqNHh0OFExRDYwYm1Kb0JsUHU3ai12N2l5TldBMmpFZDl1cS15X2xvX25SZTNEMGdfYVE?oc=5\" target=\"_blank\">Max Beesley on how marriage and fatherhood has changed him</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxNWVBWeG5KbU90M0xwYThObWEyelYyN2ZtbFMzNWdkWW5YQi1NWjd4QVU2RlQ4T3hscXNiSktzbjZ6OGhuNDhKdld3UUI4eXQwRnp0U1lycUcybEJuNVFCRXR0Ny1Qbm1pODJ4bXMxc3F5RXFLajR4dDhRMUQ2MGJtSm9CbFB1N2otdjdpeU5XQTJqRWQ5dXEteV9sb19uUmUzRDBnX2FR0gGmAUFVX3lxTE1ZUFZ4bkptT3QzTHBhOE5tYTJ6VjI3Zm1sUzM1Z2RZblhCLU1aN3hBVTZGVDhPeGxxc2JKS3NuNno4aG40OEp2V3dRQjh5dDBGenRTWXJxRzJsQm41UUJFdHQ3LVBubWk4MnhtczFzcXlFcUtqNHh0OFExRDYwYm1Kb0JsUHU3ai12N2l5TldBMmpFZDl1cS15X2xvX25SZTNEMGdfYVE?oc=5\" target=\"_blank\">Max Beesley on how marriage and fatherhood has changed him</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Brideshead Revisited's Diana Quick admits she sometimes wishes she had a facelift - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Brideshead Revisited's Diana Quick admits she sometimes wishes she had a facelift - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUjM1MDkxUnpMSDFGTTFncm03RDNxdnJfQTRzLW9vSGdkcnYzUFlRWHRtLUVIMEgtTFlLVUZTSFltMUpXMEVTWW9NaVNmcDBWal9NRkJWUUVyNGMtbjNnUTE1elQ2U2RoYUFhY2tOcmZSQXQ5VEYtZHRiM280ZEpBSDdBdDducGxCNUl4Y2x6Zjg4V2dNdmZYOTlacjFIc0pLUGJ6d004SGxHaFROaExidFNoZkhUYmJXelktbjJDWHJ5QVI2QmJLSjBtUjBPUdIBzgFBVV95cUxQUjM1MDkxUnpMSDFGTTFncm03RDNxdnJfQTRzLW9vSGdkcnYzUFlRWHRtLUVIMEgtTFlLVUZTSFltMUpXMEVTWW9NaVNmcDBWal9NRkJWUUVyNGMtbjNnUTE1elQ2U2RoYUFhY2tOcmZSQXQ5VEYtZHRiM280ZEpBSDdBdDducGxCNUl4Y2x6Zjg4V2dNdmZYOTlacjFIc0pLUGJ6d004SGxHaFROaExidFNoZkhUYmJXelktbjJDWHJ5QVI2QmJLSjBtUjBPUQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUjM1MDkxUnpMSDFGTTFncm03RDNxdnJfQTRzLW9vSGdkcnYzUFlRWHRtLUVIMEgtTFlLVUZTSFltMUpXMEVTWW9NaVNmcDBWal9NRkJWUUVyNGMtbjNnUTE1elQ2U2RoYUFhY2tOcmZSQXQ5VEYtZHRiM280ZEpBSDdBdDducGxCNUl4Y2x6Zjg4V2dNdmZYOTlacjFIc0pLUGJ6d004SGxHaFROaExidFNoZkhUYmJXelktbjJDWHJ5QVI2QmJLSjBtUjBPUdIBzgFBVV95cUxQUjM1MDkxUnpMSDFGTTFncm03RDNxdnJfQTRzLW9vSGdkcnYzUFlRWHRtLUVIMEgtTFlLVUZTSFltMUpXMEVTWW9NaVNmcDBWal9NRkJWUUVyNGMtbjNnUTE1elQ2U2RoYUFhY2tOcmZSQXQ5VEYtZHRiM280ZEpBSDdBdDducGxCNUl4Y2x6Zjg4V2dNdmZYOTlacjFIc0pLUGJ6d004SGxHaFROaExidFNoZkhUYmJXelktbjJDWHJ5QVI2QmJLSjBtUjBPUQ?oc=5",
+      "id": "CBMizgFBVV95cUxQUjM1MDkxUnpMSDFGTTFncm03RDNxdnJfQTRzLW9vSGdkcnYzUFlRWHRtLUVIMEgtTFlLVUZTSFltMUpXMEVTWW9NaVNmcDBWal9NRkJWUUVyNGMtbjNnUTE1elQ2U2RoYUFhY2tOcmZSQXQ5VEYtZHRiM280ZEpBSDdBdDducGxCNUl4Y2x6Zjg4V2dNdmZYOTlacjFIc0pLUGJ6d004SGxHaFROaExidFNoZkhUYmJXelktbjJDWHJ5QVI2QmJLSjBtUjBPUdIBzgFBVV95cUxQUjM1MDkxUnpMSDFGTTFncm03RDNxdnJfQTRzLW9vSGdkcnYzUFlRWHRtLUVIMEgtTFlLVUZTSFltMUpXMEVTWW9NaVNmcDBWal9NRkJWUUVyNGMtbjNnUTE1elQ2U2RoYUFhY2tOcmZSQXQ5VEYtZHRiM280ZEpBSDdBdDducGxCNUl4Y2x6Zjg4V2dNdmZYOTlacjFIc0pLUGJ6d004SGxHaFROaExidFNoZkhUYmJXelktbjJDWHJ5QVI2QmJLSjBtUjBPUQ",
+      "guidislink": false,
+      "published": "Sun, 09 Feb 2014 08:00:00 GMT",
+      "published_parsed": [
+        2014,
+        2,
+        9,
+        8,
+        0,
+        0,
+        6,
+        40,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxQUjM1MDkxUnpMSDFGTTFncm03RDNxdnJfQTRzLW9vSGdkcnYzUFlRWHRtLUVIMEgtTFlLVUZTSFltMUpXMEVTWW9NaVNmcDBWal9NRkJWUUVyNGMtbjNnUTE1elQ2U2RoYUFhY2tOcmZSQXQ5VEYtZHRiM280ZEpBSDdBdDducGxCNUl4Y2x6Zjg4V2dNdmZYOTlacjFIc0pLUGJ6d004SGxHaFROaExidFNoZkhUYmJXelktbjJDWHJ5QVI2QmJLSjBtUjBPUdIBzgFBVV95cUxQUjM1MDkxUnpMSDFGTTFncm03RDNxdnJfQTRzLW9vSGdkcnYzUFlRWHRtLUVIMEgtTFlLVUZTSFltMUpXMEVTWW9NaVNmcDBWal9NRkJWUUVyNGMtbjNnUTE1elQ2U2RoYUFhY2tOcmZSQXQ5VEYtZHRiM280ZEpBSDdBdDducGxCNUl4Y2x6Zjg4V2dNdmZYOTlacjFIc0pLUGJ6d004SGxHaFROaExidFNoZkhUYmJXelktbjJDWHJ5QVI2QmJLSjBtUjBPUQ?oc=5\" target=\"_blank\">Brideshead Revisited's Diana Quick admits she sometimes wishes she had a facelift</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMizgFBVV95cUxQUjM1MDkxUnpMSDFGTTFncm03RDNxdnJfQTRzLW9vSGdkcnYzUFlRWHRtLUVIMEgtTFlLVUZTSFltMUpXMEVTWW9NaVNmcDBWal9NRkJWUUVyNGMtbjNnUTE1elQ2U2RoYUFhY2tOcmZSQXQ5VEYtZHRiM280ZEpBSDdBdDducGxCNUl4Y2x6Zjg4V2dNdmZYOTlacjFIc0pLUGJ6d004SGxHaFROaExidFNoZkhUYmJXelktbjJDWHJ5QVI2QmJLSjBtUjBPUdIBzgFBVV95cUxQUjM1MDkxUnpMSDFGTTFncm03RDNxdnJfQTRzLW9vSGdkcnYzUFlRWHRtLUVIMEgtTFlLVUZTSFltMUpXMEVTWW9NaVNmcDBWal9NRkJWUUVyNGMtbjNnUTE1elQ2U2RoYUFhY2tOcmZSQXQ5VEYtZHRiM280ZEpBSDdBdDducGxCNUl4Y2x6Zjg4V2dNdmZYOTlacjFIc0pLUGJ6d004SGxHaFROaExidFNoZkhUYmJXelktbjJDWHJ5QVI2QmJLSjBtUjBPUQ?oc=5\" target=\"_blank\">Brideshead Revisited's Diana Quick admits she sometimes wishes she had a facelift</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    }
+  ]
+}

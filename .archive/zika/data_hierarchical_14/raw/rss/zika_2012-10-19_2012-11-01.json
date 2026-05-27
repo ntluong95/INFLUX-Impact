@@ -1,0 +1,349 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2012-10-19",
+  "window_end": "2012-11-01",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2012-10-19+before%3A2012-11-02&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2012-10-19+before:2012-11-02&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:17:52Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2012-10-19 before:2012-11-02\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2012-10-19 before:2012-11-02\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2012-10-19+before:2012-11-02&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2012-10-19+before:2012-11-02&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:17:53 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      17,
+      53,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Arsene Wenger to hold talks with Roy Hodgson over Jack Wilshere - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Arsene Wenger to hold talks with Roy Hodgson over Jack Wilshere - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNU44M1Y0X21iUGxXcEdxTndqdUN5TlNzYktkMUtCd2lFUFJXQVBHSGJuZXpmWkFFV3V2VnJtX1IxeU53TDZDcFpjUmJERFRIc0ZXM0RfZkJhWUJsVGtvQkFpWEFiZGU4VnFGdWo3ODdwWDZPNFBTUmp2V3BjbEdvMll6MUwzWldCUlNfdzVMSkhuSUtMOXRLaGN1WThrdzN6cERLX3RRQmlEdS1YYmfSAa4BQVVfeXFMTTVOODNWNF9tYlBsV3BHcU53anVDeU5Tc2JLZDFLQndpRVBSV0FQR0hibmV6ZlpBRVd1dlZybV9SMXlOd0w2Q3BaY1JiRERUSHNGVzNEX2ZCYVlCbFRrb0JBaVhBYmRlOFZxRnVqNzg3cFg2TzRQU1JqdldwY2xHbzJZejFMM1pXQlJTX3c1TEpIbklLTDl0S2hjdVk4a3czenBES190UUJpRHUtWGJn?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNU44M1Y0X21iUGxXcEdxTndqdUN5TlNzYktkMUtCd2lFUFJXQVBHSGJuZXpmWkFFV3V2VnJtX1IxeU53TDZDcFpjUmJERFRIc0ZXM0RfZkJhWUJsVGtvQkFpWEFiZGU4VnFGdWo3ODdwWDZPNFBTUmp2V3BjbEdvMll6MUwzWldCUlNfdzVMSkhuSUtMOXRLaGN1WThrdzN6cERLX3RRQmlEdS1YYmfSAa4BQVVfeXFMTTVOODNWNF9tYlBsV3BHcU53anVDeU5Tc2JLZDFLQndpRVBSV0FQR0hibmV6ZlpBRVd1dlZybV9SMXlOd0w2Q3BaY1JiRERUSHNGVzNEX2ZCYVlCbFRrb0JBaVhBYmRlOFZxRnVqNzg3cFg2TzRQU1JqdldwY2xHbzJZejFMM1pXQlJTX3c1TEpIbklLTDl0S2hjdVk4a3czenBES190UUJpRHUtWGJn?oc=5",
+      "id": "CBMirgFBVV95cUxNNU44M1Y0X21iUGxXcEdxTndqdUN5TlNzYktkMUtCd2lFUFJXQVBHSGJuZXpmWkFFV3V2VnJtX1IxeU53TDZDcFpjUmJERFRIc0ZXM0RfZkJhWUJsVGtvQkFpWEFiZGU4VnFGdWo3ODdwWDZPNFBTUmp2V3BjbEdvMll6MUwzWldCUlNfdzVMSkhuSUtMOXRLaGN1WThrdzN6cERLX3RRQmlEdS1YYmfSAa4BQVVfeXFMTTVOODNWNF9tYlBsV3BHcU53anVDeU5Tc2JLZDFLQndpRVBSV0FQR0hibmV6ZlpBRVd1dlZybV9SMXlOd0w2Q3BaY1JiRERUSHNGVzNEX2ZCYVlCbFRrb0JBaVhBYmRlOFZxRnVqNzg3cFg2TzRQU1JqdldwY2xHbzJZejFMM1pXQlJTX3c1TEpIbklLTDl0S2hjdVk4a3czenBES190UUJpRHUtWGJn",
+      "guidislink": false,
+      "published": "Mon, 29 Oct 2012 07:00:00 GMT",
+      "published_parsed": [
+        2012,
+        10,
+        29,
+        7,
+        0,
+        0,
+        0,
+        303,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxNNU44M1Y0X21iUGxXcEdxTndqdUN5TlNzYktkMUtCd2lFUFJXQVBHSGJuZXpmWkFFV3V2VnJtX1IxeU53TDZDcFpjUmJERFRIc0ZXM0RfZkJhWUJsVGtvQkFpWEFiZGU4VnFGdWo3ODdwWDZPNFBTUmp2V3BjbEdvMll6MUwzWldCUlNfdzVMSkhuSUtMOXRLaGN1WThrdzN6cERLX3RRQmlEdS1YYmfSAa4BQVVfeXFMTTVOODNWNF9tYlBsV3BHcU53anVDeU5Tc2JLZDFLQndpRVBSV0FQR0hibmV6ZlpBRVd1dlZybV9SMXlOd0w2Q3BaY1JiRERUSHNGVzNEX2ZCYVlCbFRrb0JBaVhBYmRlOFZxRnVqNzg3cFg2TzRQU1JqdldwY2xHbzJZejFMM1pXQlJTX3c1TEpIbklLTDl0S2hjdVk4a3czenBES190UUJpRHUtWGJn?oc=5\" target=\"_blank\">Arsene Wenger to hold talks with Roy Hodgson over Jack Wilshere</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxNNU44M1Y0X21iUGxXcEdxTndqdUN5TlNzYktkMUtCd2lFUFJXQVBHSGJuZXpmWkFFV3V2VnJtX1IxeU53TDZDcFpjUmJERFRIc0ZXM0RfZkJhWUJsVGtvQkFpWEFiZGU4VnFGdWo3ODdwWDZPNFBTUmp2V3BjbEdvMll6MUwzWldCUlNfdzVMSkhuSUtMOXRLaGN1WThrdzN6cERLX3RRQmlEdS1YYmfSAa4BQVVfeXFMTTVOODNWNF9tYlBsV3BHcU53anVDeU5Tc2JLZDFLQndpRVBSV0FQR0hibmV6ZlpBRVd1dlZybV9SMXlOd0w2Q3BaY1JiRERUSHNGVzNEX2ZCYVlCbFRrb0JBaVhBYmRlOFZxRnVqNzg3cFg2TzRQU1JqdldwY2xHbzJZejFMM1pXQlJTX3c1TEpIbklLTDl0S2hjdVk4a3czenBES190UUJpRHUtWGJn?oc=5\" target=\"_blank\">Arsene Wenger to hold talks with Roy Hodgson over Jack Wilshere</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Historically black women's college Spelman spends $1m on health and fitness drive - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Historically black women's college Spelman spends $1m on health and fitness drive - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNR1F2aU9Db09sVE56TzdXR1Y4c09LTy15VUE0aThTbmZKMDZaZGhtdnRNdFROdjExUXJaNjFLZzB5ZTVLVW9kZE9zNFJRaTktZmtUWl94VlJWMUhWekc5dndrX0Q5RTJtQUl4N3B3Y01UcXZsN3dvQmpHRnJNWU1yaDdBSHU2RkJQbWZkZGRUTjFmcnh1bzRJSktYVVI0Ty1hWFktMUZMaXhwMW5sbjNPdWE5M0pxX1l4RjZ0R2h3NS1iUndkdHpTZDRGa1fSAcwBQVVfeXFMTUdRdmlPQ29PbFROek83V0dWOHNPS08teVVBNGk4U25mSjA2WmRobXZ0TXRUTnYxMVFyWjYxS2cweWU1S1VvZGRPczRSUWk5LWZrVFpfeFZSVjFIVnpHOXZ3a19EOUUybUFJeDdwd2NNVHF2bDd3b0JqR0ZyTVlNcmg3QUh1NkZCUG1mZGRkVE4xZnJ4dW80SUpLWFVSNE8tYVhZLTFGTGl4cDFubG4zT3VhOTNKcV9ZeEY2dEdodzUtYlJ3ZHR6U2Q0RmtX?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNR1F2aU9Db09sVE56TzdXR1Y4c09LTy15VUE0aThTbmZKMDZaZGhtdnRNdFROdjExUXJaNjFLZzB5ZTVLVW9kZE9zNFJRaTktZmtUWl94VlJWMUhWekc5dndrX0Q5RTJtQUl4N3B3Y01UcXZsN3dvQmpHRnJNWU1yaDdBSHU2RkJQbWZkZGRUTjFmcnh1bzRJSktYVVI0Ty1hWFktMUZMaXhwMW5sbjNPdWE5M0pxX1l4RjZ0R2h3NS1iUndkdHpTZDRGa1fSAcwBQVVfeXFMTUdRdmlPQ29PbFROek83V0dWOHNPS08teVVBNGk4U25mSjA2WmRobXZ0TXRUTnYxMVFyWjYxS2cweWU1S1VvZGRPczRSUWk5LWZrVFpfeFZSVjFIVnpHOXZ3a19EOUUybUFJeDdwd2NNVHF2bDd3b0JqR0ZyTVlNcmg3QUh1NkZCUG1mZGRkVE4xZnJ4dW80SUpLWFVSNE8tYVhZLTFGTGl4cDFubG4zT3VhOTNKcV9ZeEY2dEdodzUtYlJ3ZHR6U2Q0RmtX?oc=5",
+      "id": "CBMizAFBVV95cUxNR1F2aU9Db09sVE56TzdXR1Y4c09LTy15VUE0aThTbmZKMDZaZGhtdnRNdFROdjExUXJaNjFLZzB5ZTVLVW9kZE9zNFJRaTktZmtUWl94VlJWMUhWekc5dndrX0Q5RTJtQUl4N3B3Y01UcXZsN3dvQmpHRnJNWU1yaDdBSHU2RkJQbWZkZGRUTjFmcnh1bzRJSktYVVI0Ty1hWFktMUZMaXhwMW5sbjNPdWE5M0pxX1l4RjZ0R2h3NS1iUndkdHpTZDRGa1fSAcwBQVVfeXFMTUdRdmlPQ29PbFROek83V0dWOHNPS08teVVBNGk4U25mSjA2WmRobXZ0TXRUTnYxMVFyWjYxS2cweWU1S1VvZGRPczRSUWk5LWZrVFpfeFZSVjFIVnpHOXZ3a19EOUUybUFJeDdwd2NNVHF2bDd3b0JqR0ZyTVlNcmg3QUh1NkZCUG1mZGRkVE4xZnJ4dW80SUpLWFVSNE8tYVhZLTFGTGl4cDFubG4zT3VhOTNKcV9ZeEY2dEdodzUtYlJ3ZHR6U2Q0RmtX",
+      "guidislink": false,
+      "published": "Fri, 02 Nov 2012 07:00:00 GMT",
+      "published_parsed": [
+        2012,
+        11,
+        2,
+        7,
+        0,
+        0,
+        4,
+        307,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxNR1F2aU9Db09sVE56TzdXR1Y4c09LTy15VUE0aThTbmZKMDZaZGhtdnRNdFROdjExUXJaNjFLZzB5ZTVLVW9kZE9zNFJRaTktZmtUWl94VlJWMUhWekc5dndrX0Q5RTJtQUl4N3B3Y01UcXZsN3dvQmpHRnJNWU1yaDdBSHU2RkJQbWZkZGRUTjFmcnh1bzRJSktYVVI0Ty1hWFktMUZMaXhwMW5sbjNPdWE5M0pxX1l4RjZ0R2h3NS1iUndkdHpTZDRGa1fSAcwBQVVfeXFMTUdRdmlPQ29PbFROek83V0dWOHNPS08teVVBNGk4U25mSjA2WmRobXZ0TXRUTnYxMVFyWjYxS2cweWU1S1VvZGRPczRSUWk5LWZrVFpfeFZSVjFIVnpHOXZ3a19EOUUybUFJeDdwd2NNVHF2bDd3b0JqR0ZyTVlNcmg3QUh1NkZCUG1mZGRkVE4xZnJ4dW80SUpLWFVSNE8tYVhZLTFGTGl4cDFubG4zT3VhOTNKcV9ZeEY2dEdodzUtYlJ3ZHR6U2Q0RmtX?oc=5\" target=\"_blank\">Historically black women's college Spelman spends $1m on health and fitness drive</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxNR1F2aU9Db09sVE56TzdXR1Y4c09LTy15VUE0aThTbmZKMDZaZGhtdnRNdFROdjExUXJaNjFLZzB5ZTVLVW9kZE9zNFJRaTktZmtUWl94VlJWMUhWekc5dndrX0Q5RTJtQUl4N3B3Y01UcXZsN3dvQmpHRnJNWU1yaDdBSHU2RkJQbWZkZGRUTjFmcnh1bzRJSktYVVI0Ty1hWFktMUZMaXhwMW5sbjNPdWE5M0pxX1l4RjZ0R2h3NS1iUndkdHpTZDRGa1fSAcwBQVVfeXFMTUdRdmlPQ29PbFROek83V0dWOHNPS08teVVBNGk4U25mSjA2WmRobXZ0TXRUTnYxMVFyWjYxS2cweWU1S1VvZGRPczRSUWk5LWZrVFpfeFZSVjFIVnpHOXZ3a19EOUUybUFJeDdwd2NNVHF2bDd3b0JqR0ZyTVlNcmg3QUh1NkZCUG1mZGRkVE4xZnJ4dW80SUpLWFVSNE8tYVhZLTFGTGl4cDFubG4zT3VhOTNKcV9ZeEY2dEdodzUtYlJ3ZHR6U2Q0RmtX?oc=5\" target=\"_blank\">Historically black women's college Spelman spends $1m on health and fitness drive</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Robin Roberts steps out into the streets of New York post-Sandy as she attends routine hospital check up - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Robin Roberts steps out into the streets of New York post-Sandy as she attends routine hospital check up - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9pR1NZblV0ellUV1BBMmVyS05ELXN6QXluSnpFNzFsUmtoZzZ6SUFuWkFFV3otdXU4NTU1dXdpZHRMaWxfVkttSDRXRjdZN1Iybm9BdktGQk1yLUF6dnlsWjhuY1E0TktENmNsblRLOEhhUnBfWE5sTU9n0gF6QVVfeXFMT2lHU1luVXR6WVRXUEEyZXJLTkQtc3pBeW5KekU3MWxSa2hnNnpJQW5aQUVXei11dTg1NTV1d2lkdExpbF9WS21INFdGN1k3UjJub0F2S0ZCTXItQXp2eWxaOG5jUTROS0Q2Y2xuVEs4SGFScF9YTmxNT2c?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9pR1NZblV0ellUV1BBMmVyS05ELXN6QXluSnpFNzFsUmtoZzZ6SUFuWkFFV3otdXU4NTU1dXdpZHRMaWxfVkttSDRXRjdZN1Iybm9BdktGQk1yLUF6dnlsWjhuY1E0TktENmNsblRLOEhhUnBfWE5sTU9n0gF6QVVfeXFMT2lHU1luVXR6WVRXUEEyZXJLTkQtc3pBeW5KekU3MWxSa2hnNnpJQW5aQUVXei11dTg1NTV1d2lkdExpbF9WS21INFdGN1k3UjJub0F2S0ZCTXItQXp2eWxaOG5jUTROS0Q2Y2xuVEs4SGFScF9YTmxNT2c?oc=5",
+      "id": "CBMiekFVX3lxTE9pR1NZblV0ellUV1BBMmVyS05ELXN6QXluSnpFNzFsUmtoZzZ6SUFuWkFFV3otdXU4NTU1dXdpZHRMaWxfVkttSDRXRjdZN1Iybm9BdktGQk1yLUF6dnlsWjhuY1E0TktENmNsblRLOEhhUnBfWE5sTU9n0gF6QVVfeXFMT2lHU1luVXR6WVRXUEEyZXJLTkQtc3pBeW5KekU3MWxSa2hnNnpJQW5aQUVXei11dTg1NTV1d2lkdExpbF9WS21INFdGN1k3UjJub0F2S0ZCTXItQXp2eWxaOG5jUTROS0Q2Y2xuVEs4SGFScF9YTmxNT2c",
+      "guidislink": false,
+      "published": "Fri, 02 Nov 2012 07:00:00 GMT",
+      "published_parsed": [
+        2012,
+        11,
+        2,
+        7,
+        0,
+        0,
+        4,
+        307,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE9pR1NZblV0ellUV1BBMmVyS05ELXN6QXluSnpFNzFsUmtoZzZ6SUFuWkFFV3otdXU4NTU1dXdpZHRMaWxfVkttSDRXRjdZN1Iybm9BdktGQk1yLUF6dnlsWjhuY1E0TktENmNsblRLOEhhUnBfWE5sTU9n0gF6QVVfeXFMT2lHU1luVXR6WVRXUEEyZXJLTkQtc3pBeW5KekU3MWxSa2hnNnpJQW5aQUVXei11dTg1NTV1d2lkdExpbF9WS21INFdGN1k3UjJub0F2S0ZCTXItQXp2eWxaOG5jUTROS0Q2Y2xuVEs4SGFScF9YTmxNT2c?oc=5\" target=\"_blank\">Robin Roberts steps out into the streets of New York post-Sandy as she attends routine hospital check up</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE9pR1NZblV0ellUV1BBMmVyS05ELXN6QXluSnpFNzFsUmtoZzZ6SUFuWkFFV3otdXU4NTU1dXdpZHRMaWxfVkttSDRXRjdZN1Iybm9BdktGQk1yLUF6dnlsWjhuY1E0TktENmNsblRLOEhhUnBfWE5sTU9n0gF6QVVfeXFMT2lHU1luVXR6WVRXUEEyZXJLTkQtc3pBeW5KekU3MWxSa2hnNnpJQW5aQUVXei11dTg1NTV1d2lkdExpbF9WS21INFdGN1k3UjJub0F2S0ZCTXItQXp2eWxaOG5jUTROS0Q2Y2xuVEs4SGFScF9YTmxNT2c?oc=5\" target=\"_blank\">Robin Roberts steps out into the streets of New York post-Sandy as she attends routine hospital check up</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Is the battle to save our ash trees already lost? Experts' dire warning after killer fungus found in 30 woodland sites - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Is the battle to save our ash trees already lost? Experts' dire warning after killer fungus found in 30 woodland sites - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZkV4cS0yQkttVnRlSThITGlyQmlWVVByT2JPU2U5ZTJxQ3lIeUdiZkpRVkJiSExqanhjVFBvWXlKMjN1RTNnVExaeWlSaXNDNVM1eDVFYzRuTFdPODRZaDh0UUhSN3dXRFdZbXQ4UEVNS1pxRXZrMldsemh0Y1gwenY3WHI3cXRDblg4U1hlMTFJQm95dk1GdkgzVExKX3dSblFaZ2xRVi1mSC0wOGZMbTY3d21yR0xNU0J5dmNPYVBVTzhvSzZ5Q3k1eHVGdnFESlFNbXp1MNIB1wFBVV95cUxOZkV4cS0yQkttVnRlSThITGlyQmlWVVByT2JPU2U5ZTJxQ3lIeUdiZkpRVkJiSExqanhjVFBvWXlKMjN1RTNnVExaeWlSaXNDNVM1eDVFYzRuTFdPODRZaDh0UUhSN3dXRFdZbXQ4UEVNS1pxRXZrMldsemh0Y1gwenY3WHI3cXRDblg4U1hlMTFJQm95dk1GdkgzVExKX3dSblFaZ2xRVi1mSC0wOGZMbTY3d21yR0xNU0J5dmNPYVBVTzhvSzZ5Q3k1eHVGdnFESlFNbXp1MA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZkV4cS0yQkttVnRlSThITGlyQmlWVVByT2JPU2U5ZTJxQ3lIeUdiZkpRVkJiSExqanhjVFBvWXlKMjN1RTNnVExaeWlSaXNDNVM1eDVFYzRuTFdPODRZaDh0UUhSN3dXRFdZbXQ4UEVNS1pxRXZrMldsemh0Y1gwenY3WHI3cXRDblg4U1hlMTFJQm95dk1GdkgzVExKX3dSblFaZ2xRVi1mSC0wOGZMbTY3d21yR0xNU0J5dmNPYVBVTzhvSzZ5Q3k1eHVGdnFESlFNbXp1MNIB1wFBVV95cUxOZkV4cS0yQkttVnRlSThITGlyQmlWVVByT2JPU2U5ZTJxQ3lIeUdiZkpRVkJiSExqanhjVFBvWXlKMjN1RTNnVExaeWlSaXNDNVM1eDVFYzRuTFdPODRZaDh0UUhSN3dXRFdZbXQ4UEVNS1pxRXZrMldsemh0Y1gwenY3WHI3cXRDblg4U1hlMTFJQm95dk1GdkgzVExKX3dSblFaZ2xRVi1mSC0wOGZMbTY3d21yR0xNU0J5dmNPYVBVTzhvSzZ5Q3k1eHVGdnFESlFNbXp1MA?oc=5",
+      "id": "CBMi1wFBVV95cUxOZkV4cS0yQkttVnRlSThITGlyQmlWVVByT2JPU2U5ZTJxQ3lIeUdiZkpRVkJiSExqanhjVFBvWXlKMjN1RTNnVExaeWlSaXNDNVM1eDVFYzRuTFdPODRZaDh0UUhSN3dXRFdZbXQ4UEVNS1pxRXZrMldsemh0Y1gwenY3WHI3cXRDblg4U1hlMTFJQm95dk1GdkgzVExKX3dSblFaZ2xRVi1mSC0wOGZMbTY3d21yR0xNU0J5dmNPYVBVTzhvSzZ5Q3k1eHVGdnFESlFNbXp1MNIB1wFBVV95cUxOZkV4cS0yQkttVnRlSThITGlyQmlWVVByT2JPU2U5ZTJxQ3lIeUdiZkpRVkJiSExqanhjVFBvWXlKMjN1RTNnVExaeWlSaXNDNVM1eDVFYzRuTFdPODRZaDh0UUhSN3dXRFdZbXQ4UEVNS1pxRXZrMldsemh0Y1gwenY3WHI3cXRDblg4U1hlMTFJQm95dk1GdkgzVExKX3dSblFaZ2xRVi1mSC0wOGZMbTY3d21yR0xNU0J5dmNPYVBVTzhvSzZ5Q3k1eHVGdnFESlFNbXp1MA",
+      "guidislink": false,
+      "published": "Mon, 29 Oct 2012 07:00:00 GMT",
+      "published_parsed": [
+        2012,
+        10,
+        29,
+        7,
+        0,
+        0,
+        0,
+        303,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZkV4cS0yQkttVnRlSThITGlyQmlWVVByT2JPU2U5ZTJxQ3lIeUdiZkpRVkJiSExqanhjVFBvWXlKMjN1RTNnVExaeWlSaXNDNVM1eDVFYzRuTFdPODRZaDh0UUhSN3dXRFdZbXQ4UEVNS1pxRXZrMldsemh0Y1gwenY3WHI3cXRDblg4U1hlMTFJQm95dk1GdkgzVExKX3dSblFaZ2xRVi1mSC0wOGZMbTY3d21yR0xNU0J5dmNPYVBVTzhvSzZ5Q3k1eHVGdnFESlFNbXp1MNIB1wFBVV95cUxOZkV4cS0yQkttVnRlSThITGlyQmlWVVByT2JPU2U5ZTJxQ3lIeUdiZkpRVkJiSExqanhjVFBvWXlKMjN1RTNnVExaeWlSaXNDNVM1eDVFYzRuTFdPODRZaDh0UUhSN3dXRFdZbXQ4UEVNS1pxRXZrMldsemh0Y1gwenY3WHI3cXRDblg4U1hlMTFJQm95dk1GdkgzVExKX3dSblFaZ2xRVi1mSC0wOGZMbTY3d21yR0xNU0J5dmNPYVBVTzhvSzZ5Q3k1eHVGdnFESlFNbXp1MA?oc=5\" target=\"_blank\">Is the battle to save our ash trees already lost? Experts' dire warning after killer fungus found in 30 woodland sites</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZkV4cS0yQkttVnRlSThITGlyQmlWVVByT2JPU2U5ZTJxQ3lIeUdiZkpRVkJiSExqanhjVFBvWXlKMjN1RTNnVExaeWlSaXNDNVM1eDVFYzRuTFdPODRZaDh0UUhSN3dXRFdZbXQ4UEVNS1pxRXZrMldsemh0Y1gwenY3WHI3cXRDblg4U1hlMTFJQm95dk1GdkgzVExKX3dSblFaZ2xRVi1mSC0wOGZMbTY3d21yR0xNU0J5dmNPYVBVTzhvSzZ5Q3k1eHVGdnFESlFNbXp1MNIB1wFBVV95cUxOZkV4cS0yQkttVnRlSThITGlyQmlWVVByT2JPU2U5ZTJxQ3lIeUdiZkpRVkJiSExqanhjVFBvWXlKMjN1RTNnVExaeWlSaXNDNVM1eDVFYzRuTFdPODRZaDh0UUhSN3dXRFdZbXQ4UEVNS1pxRXZrMldsemh0Y1gwenY3WHI3cXRDblg4U1hlMTFJQm95dk1GdkgzVExKX3dSblFaZ2xRVi1mSC0wOGZMbTY3d21yR0xNU0J5dmNPYVBVTzhvSzZ5Q3k1eHVGdnFESlFNbXp1MA?oc=5\" target=\"_blank\">Is the battle to save our ash trees already lost? Experts' dire warning after killer fungus found in 30 woodland sites</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Air passengers to get cash handouts if delayed for three hours after EU court victory - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Air passengers to get cash handouts if delayed for three hours after EU court victory - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcW9Ydk1zQlBIVVFVTmh2Z1FSRHNPVlVIeC1KVERxNGlwOEktQk9kbnV6SC1ISXAwRkxtdUY1cHhsYVZDcDI3bGZ0d09HNkliSm95SUhGMEVUQWZJM25MYmNQVlc0dlVGd0lhUFQ5LTRWVHhvR1ItVFdCZE1wZFJzSzBfT04yQzlSUGh1RXdHM09vOUtlZ2RfSVczVy14bkF0RGtGanJLY1B3b19uZjBLUlBtbDR0bmJP0gG4AUFVX3lxTE9xb1h2TXNCUEhVUVVOaHZnUVJEc09WVUh4LUpURHE0aXA4SS1CT2RudXpILUhJcDBGTG11RjVweGxhVkNwMjdsZnR3T0c2SWJKb3lJSEYwRVRBZkkzbkxiY1BWVzR2VUZ3SWFQVDktNFZUeG9HUi1UV0JkTXBkUnNLMF9PTjJDOVJQaHVFd0czT285S2VnZF9JVzNXLXhuQXREa0ZqcktjUHdvX25mMEtSUG1sNHRuYk8?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcW9Ydk1zQlBIVVFVTmh2Z1FSRHNPVlVIeC1KVERxNGlwOEktQk9kbnV6SC1ISXAwRkxtdUY1cHhsYVZDcDI3bGZ0d09HNkliSm95SUhGMEVUQWZJM25MYmNQVlc0dlVGd0lhUFQ5LTRWVHhvR1ItVFdCZE1wZFJzSzBfT04yQzlSUGh1RXdHM09vOUtlZ2RfSVczVy14bkF0RGtGanJLY1B3b19uZjBLUlBtbDR0bmJP0gG4AUFVX3lxTE9xb1h2TXNCUEhVUVVOaHZnUVJEc09WVUh4LUpURHE0aXA4SS1CT2RudXpILUhJcDBGTG11RjVweGxhVkNwMjdsZnR3T0c2SWJKb3lJSEYwRVRBZkkzbkxiY1BWVzR2VUZ3SWFQVDktNFZUeG9HUi1UV0JkTXBkUnNLMF9PTjJDOVJQaHVFd0czT285S2VnZF9JVzNXLXhuQXREa0ZqcktjUHdvX25mMEtSUG1sNHRuYk8?oc=5",
+      "id": "CBMiuAFBVV95cUxPcW9Ydk1zQlBIVVFVTmh2Z1FSRHNPVlVIeC1KVERxNGlwOEktQk9kbnV6SC1ISXAwRkxtdUY1cHhsYVZDcDI3bGZ0d09HNkliSm95SUhGMEVUQWZJM25MYmNQVlc0dlVGd0lhUFQ5LTRWVHhvR1ItVFdCZE1wZFJzSzBfT04yQzlSUGh1RXdHM09vOUtlZ2RfSVczVy14bkF0RGtGanJLY1B3b19uZjBLUlBtbDR0bmJP0gG4AUFVX3lxTE9xb1h2TXNCUEhVUVVOaHZnUVJEc09WVUh4LUpURHE0aXA4SS1CT2RudXpILUhJcDBGTG11RjVweGxhVkNwMjdsZnR3T0c2SWJKb3lJSEYwRVRBZkkzbkxiY1BWVzR2VUZ3SWFQVDktNFZUeG9HUi1UV0JkTXBkUnNLMF9PTjJDOVJQaHVFd0czT285S2VnZF9JVzNXLXhuQXREa0ZqcktjUHdvX25mMEtSUG1sNHRuYk8",
+      "guidislink": false,
+      "published": "Tue, 23 Oct 2012 07:00:00 GMT",
+      "published_parsed": [
+        2012,
+        10,
+        23,
+        7,
+        0,
+        0,
+        1,
+        297,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcW9Ydk1zQlBIVVFVTmh2Z1FSRHNPVlVIeC1KVERxNGlwOEktQk9kbnV6SC1ISXAwRkxtdUY1cHhsYVZDcDI3bGZ0d09HNkliSm95SUhGMEVUQWZJM25MYmNQVlc0dlVGd0lhUFQ5LTRWVHhvR1ItVFdCZE1wZFJzSzBfT04yQzlSUGh1RXdHM09vOUtlZ2RfSVczVy14bkF0RGtGanJLY1B3b19uZjBLUlBtbDR0bmJP0gG4AUFVX3lxTE9xb1h2TXNCUEhVUVVOaHZnUVJEc09WVUh4LUpURHE0aXA4SS1CT2RudXpILUhJcDBGTG11RjVweGxhVkNwMjdsZnR3T0c2SWJKb3lJSEYwRVRBZkkzbkxiY1BWVzR2VUZ3SWFQVDktNFZUeG9HUi1UV0JkTXBkUnNLMF9PTjJDOVJQaHVFd0czT285S2VnZF9JVzNXLXhuQXREa0ZqcktjUHdvX25mMEtSUG1sNHRuYk8?oc=5\" target=\"_blank\">Air passengers to get cash handouts if delayed for three hours after EU court victory</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcW9Ydk1zQlBIVVFVTmh2Z1FSRHNPVlVIeC1KVERxNGlwOEktQk9kbnV6SC1ISXAwRkxtdUY1cHhsYVZDcDI3bGZ0d09HNkliSm95SUhGMEVUQWZJM25MYmNQVlc0dlVGd0lhUFQ5LTRWVHhvR1ItVFdCZE1wZFJzSzBfT04yQzlSUGh1RXdHM09vOUtlZ2RfSVczVy14bkF0RGtGanJLY1B3b19uZjBLUlBtbDR0bmJP0gG4AUFVX3lxTE9xb1h2TXNCUEhVUVVOaHZnUVJEc09WVUh4LUpURHE0aXA4SS1CT2RudXpILUhJcDBGTG11RjVweGxhVkNwMjdsZnR3T0c2SWJKb3lJSEYwRVRBZkkzbkxiY1BWVzR2VUZ3SWFQVDktNFZUeG9HUi1UV0JkTXBkUnNLMF9PTjJDOVJQaHVFd0czT285S2VnZF9JVzNXLXhuQXREa0ZqcktjUHdvX25mMEtSUG1sNHRuYk8?oc=5\" target=\"_blank\">Air passengers to get cash handouts if delayed for three hours after EU court victory</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "How to get what you want this Christmas - buy it yourself: More Brits embracing trend of 'self-gifting' - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "How to get what you want this Christmas - buy it yourself: More Brits embracing trend of 'self-gifting' - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQeGlUTnB5eGgxLS1nZ3NrTFZlSndLV09mc3V4MDdhY2tuS0cxQlVxSkxTZzdZN21WS3Bya21qaS1GSEFlRjhxNmFhV3ZsWUluaklkdzVpYWJ5UzUzdGNwTHpUUDdYZU85bWNlUnEtSVdtTTZORTQxUUMyWktLM3RWUlVaRU5FWHpaM0FZaUpzcldsNERIVERUNjlrMW45MHd4eTUwUTljTm1ZYUVPZFE0X2J6T2NfUFJjaGowZzEwZHFMOEtx0gHEAUFVX3lxTFB4aVROcHl4aDEtLWdnc2tMVmVKd0tXT2ZzdXgwN2Fja25LRzFCVXFKTFNnN1k3bVZLcHJrbWppLUZIQWVGOHE2YWFXdmxZSW5qSWR3NWlhYnlTNTN0Y3BMelRQN1hlTzltY2VScS1JV21NNk5FNDFRQzJaS0szdFZSVVpFTkVYelozQVlpSnNyV2w0REhURFQ2OWsxbjkwd3h5NTBROWNObVlhRU9kUTRfYnpPY19QUmNoajBnMTBkcUw4S3E?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQeGlUTnB5eGgxLS1nZ3NrTFZlSndLV09mc3V4MDdhY2tuS0cxQlVxSkxTZzdZN21WS3Bya21qaS1GSEFlRjhxNmFhV3ZsWUluaklkdzVpYWJ5UzUzdGNwTHpUUDdYZU85bWNlUnEtSVdtTTZORTQxUUMyWktLM3RWUlVaRU5FWHpaM0FZaUpzcldsNERIVERUNjlrMW45MHd4eTUwUTljTm1ZYUVPZFE0X2J6T2NfUFJjaGowZzEwZHFMOEtx0gHEAUFVX3lxTFB4aVROcHl4aDEtLWdnc2tMVmVKd0tXT2ZzdXgwN2Fja25LRzFCVXFKTFNnN1k3bVZLcHJrbWppLUZIQWVGOHE2YWFXdmxZSW5qSWR3NWlhYnlTNTN0Y3BMelRQN1hlTzltY2VScS1JV21NNk5FNDFRQzJaS0szdFZSVVpFTkVYelozQVlpSnNyV2w0REhURFQ2OWsxbjkwd3h5NTBROWNObVlhRU9kUTRfYnpPY19QUmNoajBnMTBkcUw4S3E?oc=5",
+      "id": "CBMixAFBVV95cUxQeGlUTnB5eGgxLS1nZ3NrTFZlSndLV09mc3V4MDdhY2tuS0cxQlVxSkxTZzdZN21WS3Bya21qaS1GSEFlRjhxNmFhV3ZsWUluaklkdzVpYWJ5UzUzdGNwTHpUUDdYZU85bWNlUnEtSVdtTTZORTQxUUMyWktLM3RWUlVaRU5FWHpaM0FZaUpzcldsNERIVERUNjlrMW45MHd4eTUwUTljTm1ZYUVPZFE0X2J6T2NfUFJjaGowZzEwZHFMOEtx0gHEAUFVX3lxTFB4aVROcHl4aDEtLWdnc2tMVmVKd0tXT2ZzdXgwN2Fja25LRzFCVXFKTFNnN1k3bVZLcHJrbWppLUZIQWVGOHE2YWFXdmxZSW5qSWR3NWlhYnlTNTN0Y3BMelRQN1hlTzltY2VScS1JV21NNk5FNDFRQzJaS0szdFZSVVpFTkVYelozQVlpSnNyV2w0REhURFQ2OWsxbjkwd3h5NTBROWNObVlhRU9kUTRfYnpPY19QUmNoajBnMTBkcUw4S3E",
+      "guidislink": false,
+      "published": "Fri, 02 Nov 2012 07:00:00 GMT",
+      "published_parsed": [
+        2012,
+        11,
+        2,
+        7,
+        0,
+        0,
+        4,
+        307,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxQeGlUTnB5eGgxLS1nZ3NrTFZlSndLV09mc3V4MDdhY2tuS0cxQlVxSkxTZzdZN21WS3Bya21qaS1GSEFlRjhxNmFhV3ZsWUluaklkdzVpYWJ5UzUzdGNwTHpUUDdYZU85bWNlUnEtSVdtTTZORTQxUUMyWktLM3RWUlVaRU5FWHpaM0FZaUpzcldsNERIVERUNjlrMW45MHd4eTUwUTljTm1ZYUVPZFE0X2J6T2NfUFJjaGowZzEwZHFMOEtx0gHEAUFVX3lxTFB4aVROcHl4aDEtLWdnc2tMVmVKd0tXT2ZzdXgwN2Fja25LRzFCVXFKTFNnN1k3bVZLcHJrbWppLUZIQWVGOHE2YWFXdmxZSW5qSWR3NWlhYnlTNTN0Y3BMelRQN1hlTzltY2VScS1JV21NNk5FNDFRQzJaS0szdFZSVVpFTkVYelozQVlpSnNyV2w0REhURFQ2OWsxbjkwd3h5NTBROWNObVlhRU9kUTRfYnpPY19QUmNoajBnMTBkcUw4S3E?oc=5\" target=\"_blank\">How to get what you want this Christmas - buy it yourself: More Brits embracing trend of 'self-gifting'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxQeGlUTnB5eGgxLS1nZ3NrTFZlSndLV09mc3V4MDdhY2tuS0cxQlVxSkxTZzdZN21WS3Bya21qaS1GSEFlRjhxNmFhV3ZsWUluaklkdzVpYWJ5UzUzdGNwTHpUUDdYZU85bWNlUnEtSVdtTTZORTQxUUMyWktLM3RWUlVaRU5FWHpaM0FZaUpzcldsNERIVERUNjlrMW45MHd4eTUwUTljTm1ZYUVPZFE0X2J6T2NfUFJjaGowZzEwZHFMOEtx0gHEAUFVX3lxTFB4aVROcHl4aDEtLWdnc2tMVmVKd0tXT2ZzdXgwN2Fja25LRzFCVXFKTFNnN1k3bVZLcHJrbWppLUZIQWVGOHE2YWFXdmxZSW5qSWR3NWlhYnlTNTN0Y3BMelRQN1hlTzltY2VScS1JV21NNk5FNDFRQzJaS0szdFZSVVpFTkVYelozQVlpSnNyV2w0REhURFQ2OWsxbjkwd3h5NTBROWNObVlhRU9kUTRfYnpPY19QUmNoajBnMTBkcUw4S3E?oc=5\" target=\"_blank\">How to get what you want this Christmas - buy it yourself: More Brits embracing trend of 'self-gifting'</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    }
+  ]
+}

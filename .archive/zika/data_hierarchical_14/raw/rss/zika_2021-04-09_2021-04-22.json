@@ -1,0 +1,822 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2021-04-09",
+  "window_end": "2021-04-22",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2021-04-09+before%3A2021-04-23&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2021-04-09+before:2021-04-23&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:28:24Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2021-04-09 before:2021-04-23\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2021-04-09 before:2021-04-23\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2021-04-09+before:2021-04-23&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2021-04-09+before:2021-04-23&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:28:25 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      28,
+      25,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "The antiviral effect of metformin on zika and dengue virus infection - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "The antiviral effect of metformin on zika and dengue virus infection - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9rcEs1ZmNZQkZZalR6WWhGOElMZXJPaU9PUkRlaGNGcVpic21qY2l3a0V2djRwX1BxUnptUXJsYmlTSXpOMWVXc1E2dXdRX2NMYTFnSTNvQWQ5a0pSdTlF?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9rcEs1ZmNZQkZZalR6WWhGOElMZXJPaU9PUkRlaGNGcVpic21qY2l3a0V2djRwX1BxUnptUXJsYmlTSXpOMWVXc1E2dXdRX2NMYTFnSTNvQWQ5a0pSdTlF?oc=5",
+      "id": "CBMiX0FVX3lxTE9rcEs1ZmNZQkZZalR6WWhGOElMZXJPaU9PUkRlaGNGcVpic21qY2l3a0V2djRwX1BxUnptUXJsYmlTSXpOMWVXc1E2dXdRX2NMYTFnSTNvQWQ5a0pSdTlF",
+      "guidislink": false,
+      "published": "Thu, 22 Apr 2021 07:00:00 GMT",
+      "published_parsed": [
+        2021,
+        4,
+        22,
+        7,
+        0,
+        0,
+        3,
+        112,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9rcEs1ZmNZQkZZalR6WWhGOElMZXJPaU9PUkRlaGNGcVpic21qY2l3a0V2djRwX1BxUnptUXJsYmlTSXpOMWVXc1E2dXdRX2NMYTFnSTNvQWQ5a0pSdTlF?oc=5\" target=\"_blank\">The antiviral effect of metformin on zika and dengue virus infection</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9rcEs1ZmNZQkZZalR6WWhGOElMZXJPaU9PUkRlaGNGcVpic21qY2l3a0V2djRwX1BxUnptUXJsYmlTSXpOMWVXc1E2dXdRX2NMYTFnSTNvQWQ5a0pSdTlF?oc=5\" target=\"_blank\">The antiviral effect of metformin on zika and dengue virus infection</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Phase I Trial Of An Adenovirus Vector Vaccine for Zika Virus Shows High Immunogenicity And Safety - Infectious Disease Advisor",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Phase I Trial Of An Adenovirus Vector Vaccine for Zika Virus Shows High Immunogenicity And Safety - Infectious Disease Advisor"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYkQ2T0s5dTlja1RycFE0YVF4UjNXaWIzcUo4WDd3NmhmNjFUSHFqWG1aMFN0YllyZUlSekg0RnhPTHRFRFA0dE5pdWUxMUZQNkU0cUUzVEhxSzdPd0JwNjdWV2NvSWNuRjRTSjFTc3ZRODM5bUxpNEZXV2FZY2xVZ2tZeVFza1pFWmV1UjJWRk5nQzRNN2VjRk1mSU83VmR3MXNxUzlKZmZhVUNRYmhzb1RlSko4VWZmcWtXczNLSEJiNkE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYkQ2T0s5dTlja1RycFE0YVF4UjNXaWIzcUo4WDd3NmhmNjFUSHFqWG1aMFN0YllyZUlSekg0RnhPTHRFRFA0dE5pdWUxMUZQNkU0cUUzVEhxSzdPd0JwNjdWV2NvSWNuRjRTSjFTc3ZRODM5bUxpNEZXV2FZY2xVZ2tZeVFza1pFWmV1UjJWRk5nQzRNN2VjRk1mSU83VmR3MXNxUzlKZmZhVUNRYmhzb1RlSko4VWZmcWtXczNLSEJiNkE?oc=5",
+      "id": "CBMiwwFBVV95cUxNYkQ2T0s5dTlja1RycFE0YVF4UjNXaWIzcUo4WDd3NmhmNjFUSHFqWG1aMFN0YllyZUlSekg0RnhPTHRFRFA0dE5pdWUxMUZQNkU0cUUzVEhxSzdPd0JwNjdWV2NvSWNuRjRTSjFTc3ZRODM5bUxpNEZXV2FZY2xVZ2tZeVFza1pFWmV1UjJWRk5nQzRNN2VjRk1mSU83VmR3MXNxUzlKZmZhVUNRYmhzb1RlSko4VWZmcWtXczNLSEJiNkE",
+      "guidislink": false,
+      "published": "Tue, 13 Apr 2021 07:00:00 GMT",
+      "published_parsed": [
+        2021,
+        4,
+        13,
+        7,
+        0,
+        0,
+        1,
+        103,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYkQ2T0s5dTlja1RycFE0YVF4UjNXaWIzcUo4WDd3NmhmNjFUSHFqWG1aMFN0YllyZUlSekg0RnhPTHRFRFA0dE5pdWUxMUZQNkU0cUUzVEhxSzdPd0JwNjdWV2NvSWNuRjRTSjFTc3ZRODM5bUxpNEZXV2FZY2xVZ2tZeVFza1pFWmV1UjJWRk5nQzRNN2VjRk1mSU83VmR3MXNxUzlKZmZhVUNRYmhzb1RlSko4VWZmcWtXczNLSEJiNkE?oc=5\" target=\"_blank\">Phase I Trial Of An Adenovirus Vector Vaccine for Zika Virus Shows High Immunogenicity And Safety</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Infectious Disease Advisor</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxNYkQ2T0s5dTlja1RycFE0YVF4UjNXaWIzcUo4WDd3NmhmNjFUSHFqWG1aMFN0YllyZUlSekg0RnhPTHRFRFA0dE5pdWUxMUZQNkU0cUUzVEhxSzdPd0JwNjdWV2NvSWNuRjRTSjFTc3ZRODM5bUxpNEZXV2FZY2xVZ2tZeVFza1pFWmV1UjJWRk5nQzRNN2VjRk1mSU83VmR3MXNxUzlKZmZhVUNRYmhzb1RlSko4VWZmcWtXczNLSEJiNkE?oc=5\" target=\"_blank\">Phase I Trial Of An Adenovirus Vector Vaccine for Zika Virus Shows High Immunogenicity And Safety</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Infectious Disease Advisor</font>"
+      },
+      "source": {
+        "href": "https://www.infectiousdiseaseadvisor.com",
+        "title": "Infectious Disease Advisor"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Subgenomic flavivirus RNA (sfRNA) associated with Asian lineage Zika virus identified in three species of Ugandan bats (family Pteropodidae) | Scientific Reports - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Subgenomic flavivirus RNA (sfRNA) associated with Asian lineage Zika virus identified in three species of Ugandan bats (family Pteropodidae) | Scientific Reports - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE84WWplYjlpdzVKYTU3RkdDVEdfVWxUNzIzQ2hEcmdsMlV2ZmV0dWQ0VFVGYjhvTTRCLTJlU3pPMm9sYVBpVVFodXc5ZjdBRmZSNmo0U00yVnA5NFVqRGE4?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE84WWplYjlpdzVKYTU3RkdDVEdfVWxUNzIzQ2hEcmdsMlV2ZmV0dWQ0VFVGYjhvTTRCLTJlU3pPMm9sYVBpVVFodXc5ZjdBRmZSNmo0U00yVnA5NFVqRGE4?oc=5",
+      "id": "CBMiX0FVX3lxTE84WWplYjlpdzVKYTU3RkdDVEdfVWxUNzIzQ2hEcmdsMlV2ZmV0dWQ0VFVGYjhvTTRCLTJlU3pPMm9sYVBpVVFodXc5ZjdBRmZSNmo0U00yVnA5NFVqRGE4",
+      "guidislink": false,
+      "published": "Fri, 16 Apr 2021 07:00:00 GMT",
+      "published_parsed": [
+        2021,
+        4,
+        16,
+        7,
+        0,
+        0,
+        4,
+        106,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE84WWplYjlpdzVKYTU3RkdDVEdfVWxUNzIzQ2hEcmdsMlV2ZmV0dWQ0VFVGYjhvTTRCLTJlU3pPMm9sYVBpVVFodXc5ZjdBRmZSNmo0U00yVnA5NFVqRGE4?oc=5\" target=\"_blank\">Subgenomic flavivirus RNA (sfRNA) associated with Asian lineage Zika virus identified in three species of Ugandan bats (family Pteropodidae) | Scientific Reports</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE84WWplYjlpdzVKYTU3RkdDVEdfVWxUNzIzQ2hEcmdsMlV2ZmV0dWQ0VFVGYjhvTTRCLTJlU3pPMm9sYVBpVVFodXc5ZjdBRmZSNmo0U00yVnA5NFVqRGE4?oc=5\" target=\"_blank\">Subgenomic flavivirus RNA (sfRNA) associated with Asian lineage Zika virus identified in three species of Ugandan bats (family Pteropodidae) | Scientific Reports</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Brain organoids uncover mechanisms of virus-induced microcephaly - Karolinska Institutet",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Brain organoids uncover mechanisms of virus-induced microcephaly - Karolinska Institutet"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZDNnMFlMQ0dSY09tbEhFNWdyd21KSWx1MWJIa1BocURVZEJaNmRxS3oxb05PeEo5YWRULUhrTEZ5OFZSV0o5S1VvZ0YxVVl3V0xreFp3eEstS1laaUp0SUw0NzdWNlNEWHRjS0tJTTRSVFFiS3lLMFVGUEpvSmVRREowaHFEVXNSd3Rj?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZDNnMFlMQ0dSY09tbEhFNWdyd21KSWx1MWJIa1BocURVZEJaNmRxS3oxb05PeEo5YWRULUhrTEZ5OFZSV0o5S1VvZ0YxVVl3V0xreFp3eEstS1laaUp0SUw0NzdWNlNEWHRjS0tJTTRSVFFiS3lLMFVGUEpvSmVRREowaHFEVXNSd3Rj?oc=5",
+      "id": "CBMiiwFBVV95cUxPZDNnMFlMQ0dSY09tbEhFNWdyd21KSWx1MWJIa1BocURVZEJaNmRxS3oxb05PeEo5YWRULUhrTEZ5OFZSV0o5S1VvZ0YxVVl3V0xreFp3eEstS1laaUp0SUw0NzdWNlNEWHRjS0tJTTRSVFFiS3lLMFVGUEpvSmVRREowaHFEVXNSd3Rj",
+      "guidislink": false,
+      "published": "Fri, 09 Apr 2021 07:00:00 GMT",
+      "published_parsed": [
+        2021,
+        4,
+        9,
+        7,
+        0,
+        0,
+        4,
+        99,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZDNnMFlMQ0dSY09tbEhFNWdyd21KSWx1MWJIa1BocURVZEJaNmRxS3oxb05PeEo5YWRULUhrTEZ5OFZSV0o5S1VvZ0YxVVl3V0xreFp3eEstS1laaUp0SUw0NzdWNlNEWHRjS0tJTTRSVFFiS3lLMFVGUEpvSmVRREowaHFEVXNSd3Rj?oc=5\" target=\"_blank\">Brain organoids uncover mechanisms of virus-induced microcephaly</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Karolinska Institutet</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZDNnMFlMQ0dSY09tbEhFNWdyd21KSWx1MWJIa1BocURVZEJaNmRxS3oxb05PeEo5YWRULUhrTEZ5OFZSV0o5S1VvZ0YxVVl3V0xreFp3eEstS1laaUp0SUw0NzdWNlNEWHRjS0tJTTRSVFFiS3lLMFVGUEpvSmVRREowaHFEVXNSd3Rj?oc=5\" target=\"_blank\">Brain organoids uncover mechanisms of virus-induced microcephaly</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Karolinska Institutet</font>"
+      },
+      "source": {
+        "href": "https://news.ki.se",
+        "title": "Karolinska Institutet"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Virus Spillover and Emerging Pathogens Pick Up Speed - Contagion Live",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Virus Spillover and Emerging Pathogens Pick Up Speed - Contagion Live"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWWJtTFlWbnhOQ3NuZVBNdlNYN0xvVUdHMVNtMlFUa3pDSFJfbTQ0ZEtqa0RHRzRiTFdFWkc5WG1SWnhfU3luWkw3NzFvUEdZZWFMY09NT3ZBVlZwdDFwaHVKaWJmTWY4RGN3LUI1RmhmVG13YTJLSUFHY01tWUVCQnBYVGlBVXM3aUxJU0pDZlY?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWWJtTFlWbnhOQ3NuZVBNdlNYN0xvVUdHMVNtMlFUa3pDSFJfbTQ0ZEtqa0RHRzRiTFdFWkc5WG1SWnhfU3luWkw3NzFvUEdZZWFMY09NT3ZBVlZwdDFwaHVKaWJmTWY4RGN3LUI1RmhmVG13YTJLSUFHY01tWUVCQnBYVGlBVXM3aUxJU0pDZlY?oc=5",
+      "id": "CBMikAFBVV95cUxNWWJtTFlWbnhOQ3NuZVBNdlNYN0xvVUdHMVNtMlFUa3pDSFJfbTQ0ZEtqa0RHRzRiTFdFWkc5WG1SWnhfU3luWkw3NzFvUEdZZWFMY09NT3ZBVlZwdDFwaHVKaWJmTWY4RGN3LUI1RmhmVG13YTJLSUFHY01tWUVCQnBYVGlBVXM3aUxJU0pDZlY",
+      "guidislink": false,
+      "published": "Mon, 12 Apr 2021 07:00:00 GMT",
+      "published_parsed": [
+        2021,
+        4,
+        12,
+        7,
+        0,
+        0,
+        0,
+        102,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxNWWJtTFlWbnhOQ3NuZVBNdlNYN0xvVUdHMVNtMlFUa3pDSFJfbTQ0ZEtqa0RHRzRiTFdFWkc5WG1SWnhfU3luWkw3NzFvUEdZZWFMY09NT3ZBVlZwdDFwaHVKaWJmTWY4RGN3LUI1RmhmVG13YTJLSUFHY01tWUVCQnBYVGlBVXM3aUxJU0pDZlY?oc=5\" target=\"_blank\">Virus Spillover and Emerging Pathogens Pick Up Speed</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Contagion Live</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxNWWJtTFlWbnhOQ3NuZVBNdlNYN0xvVUdHMVNtMlFUa3pDSFJfbTQ0ZEtqa0RHRzRiTFdFWkc5WG1SWnhfU3luWkw3NzFvUEdZZWFMY09NT3ZBVlZwdDFwaHVKaWJmTWY4RGN3LUI1RmhmVG13YTJLSUFHY01tWUVCQnBYVGlBVXM3aUxJU0pDZlY?oc=5\" target=\"_blank\">Virus Spillover and Emerging Pathogens Pick Up Speed</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Contagion Live</font>"
+      },
+      "source": {
+        "href": "https://www.contagionlive.com",
+        "title": "Contagion Live"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Paradise altered: EPA approves first release of genetically modified mosquitoes in Florida Keys - Bulletin of the Atomic Scientists",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Paradise altered: EPA approves first release of genetically modified mosquitoes in Florida Keys - Bulletin of the Atomic Scientists"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRmVxRlRuY0ppWHdQa3c1RHg0bkJ0X2ZmR05GT0tuMnRZcEg2V0pWbEVpTlkxMGtsMlVtbUFEVU80dGtSQXhHX0UxaDdianQwTWU3ektBT3h4dzdXd3BOZjh5eTFvRUFTMWQ2WjUzRktUcGFCRlZLOGZWWURjaElKWU9sd1dkVUdXZkkyRGNvNS1qSFA3cS01aUVXcENNejlDQkRxNzZ0WVZoUElKMGpZRlczbGRWcHVvS2dmTHdhX1Jjb3Q4dVE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRmVxRlRuY0ppWHdQa3c1RHg0bkJ0X2ZmR05GT0tuMnRZcEg2V0pWbEVpTlkxMGtsMlVtbUFEVU80dGtSQXhHX0UxaDdianQwTWU3ektBT3h4dzdXd3BOZjh5eTFvRUFTMWQ2WjUzRktUcGFCRlZLOGZWWURjaElKWU9sd1dkVUdXZkkyRGNvNS1qSFA3cS01aUVXcENNejlDQkRxNzZ0WVZoUElKMGpZRlczbGRWcHVvS2dmTHdhX1Jjb3Q4dVE?oc=5",
+      "id": "CBMixgFBVV95cUxNRmVxRlRuY0ppWHdQa3c1RHg0bkJ0X2ZmR05GT0tuMnRZcEg2V0pWbEVpTlkxMGtsMlVtbUFEVU80dGtSQXhHX0UxaDdianQwTWU3ektBT3h4dzdXd3BOZjh5eTFvRUFTMWQ2WjUzRktUcGFCRlZLOGZWWURjaElKWU9sd1dkVUdXZkkyRGNvNS1qSFA3cS01aUVXcENNejlDQkRxNzZ0WVZoUElKMGpZRlczbGRWcHVvS2dmTHdhX1Jjb3Q4dVE",
+      "guidislink": false,
+      "published": "Mon, 19 Apr 2021 07:00:00 GMT",
+      "published_parsed": [
+        2021,
+        4,
+        19,
+        7,
+        0,
+        0,
+        0,
+        109,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxNRmVxRlRuY0ppWHdQa3c1RHg0bkJ0X2ZmR05GT0tuMnRZcEg2V0pWbEVpTlkxMGtsMlVtbUFEVU80dGtSQXhHX0UxaDdianQwTWU3ektBT3h4dzdXd3BOZjh5eTFvRUFTMWQ2WjUzRktUcGFCRlZLOGZWWURjaElKWU9sd1dkVUdXZkkyRGNvNS1qSFA3cS01aUVXcENNejlDQkRxNzZ0WVZoUElKMGpZRlczbGRWcHVvS2dmTHdhX1Jjb3Q4dVE?oc=5\" target=\"_blank\">Paradise altered: EPA approves first release of genetically modified mosquitoes in Florida Keys</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bulletin of the Atomic Scientists</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxNRmVxRlRuY0ppWHdQa3c1RHg0bkJ0X2ZmR05GT0tuMnRZcEg2V0pWbEVpTlkxMGtsMlVtbUFEVU80dGtSQXhHX0UxaDdianQwTWU3ektBT3h4dzdXd3BOZjh5eTFvRUFTMWQ2WjUzRktUcGFCRlZLOGZWWURjaElKWU9sd1dkVUdXZkkyRGNvNS1qSFA3cS01aUVXcENNejlDQkRxNzZ0WVZoUElKMGpZRlczbGRWcHVvS2dmTHdhX1Jjb3Q4dVE?oc=5\" target=\"_blank\">Paradise altered: EPA approves first release of genetically modified mosquitoes in Florida Keys</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bulletin of the Atomic Scientists</font>"
+      },
+      "source": {
+        "href": "https://thebulletin.org",
+        "title": "Bulletin of the Atomic Scientists"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "The COVID-19 vaccine does not change human DNA - Unicef",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "The COVID-19 vaccine does not change human DNA - Unicef"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPd0pIOGNuTmtSajB2c21xZFFFNkFEQ01VY2Q5OWhvRndtNzdRRjdzM3NqLVRLdEtaaXF5X1lMS242bmF4VmhZLW12RjFqT0FHX3RnVzMySVRyY0pHQ3gzdzQwQ050UnVhWF94WUlHR2hHeVVHbG9PeTZNYzl0WlZyYnZUaWJkeUJkbTdidlh6eWk?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPd0pIOGNuTmtSajB2c21xZFFFNkFEQ01VY2Q5OWhvRndtNzdRRjdzM3NqLVRLdEtaaXF5X1lMS242bmF4VmhZLW12RjFqT0FHX3RnVzMySVRyY0pHQ3gzdzQwQ050UnVhWF94WUlHR2hHeVVHbG9PeTZNYzl0WlZyYnZUaWJkeUJkbTdidlh6eWk?oc=5",
+      "id": "CBMikAFBVV95cUxPd0pIOGNuTmtSajB2c21xZFFFNkFEQ01VY2Q5OWhvRndtNzdRRjdzM3NqLVRLdEtaaXF5X1lMS242bmF4VmhZLW12RjFqT0FHX3RnVzMySVRyY0pHQ3gzdzQwQ050UnVhWF94WUlHR2hHeVVHbG9PeTZNYzl0WlZyYnZUaWJkeUJkbTdidlh6eWk",
+      "guidislink": false,
+      "published": "Wed, 14 Apr 2021 07:00:00 GMT",
+      "published_parsed": [
+        2021,
+        4,
+        14,
+        7,
+        0,
+        0,
+        2,
+        104,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxPd0pIOGNuTmtSajB2c21xZFFFNkFEQ01VY2Q5OWhvRndtNzdRRjdzM3NqLVRLdEtaaXF5X1lMS242bmF4VmhZLW12RjFqT0FHX3RnVzMySVRyY0pHQ3gzdzQwQ050UnVhWF94WUlHR2hHeVVHbG9PeTZNYzl0WlZyYnZUaWJkeUJkbTdidlh6eWk?oc=5\" target=\"_blank\">The COVID-19 vaccine does not change human DNA</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Unicef</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxPd0pIOGNuTmtSajB2c21xZFFFNkFEQ01VY2Q5OWhvRndtNzdRRjdzM3NqLVRLdEtaaXF5X1lMS242bmF4VmhZLW12RjFqT0FHX3RnVzMySVRyY0pHQ3gzdzQwQ050UnVhWF94WUlHR2hHeVVHbG9PeTZNYzl0WlZyYnZUaWJkeUJkbTdidlh6eWk?oc=5\" target=\"_blank\">The COVID-19 vaccine does not change human DNA</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Unicef</font>"
+      },
+      "source": {
+        "href": "https://www.unicef.org",
+        "title": "Unicef"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Adam Scott opts out of Tokyo Olympics golf competition - Sky Sports",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Adam Scott opts out of Tokyo Olympics golf competition - Sky Sports"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZm5kTHViSVA3NmxLZUl1Q284Vmx4V1E4ZEVTWmNLZVBGSUNEeE5LdHRFMzBYNmFsaTZTVlR2VVcxSWR6RmhRc1E4Y3hfZEdTcXlZcnRNMy11LVU1ZndCXzVCb29GeXBRMzdsbzROczZSWDdsZUZycGItcnQ4cWlSMEU2Q3BDRW9QNG80X2pWQzhDWF81MWZTcmJBeFhEM0RpWlQtSlZ0dUg?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZm5kTHViSVA3NmxLZUl1Q284Vmx4V1E4ZEVTWmNLZVBGSUNEeE5LdHRFMzBYNmFsaTZTVlR2VVcxSWR6RmhRc1E4Y3hfZEdTcXlZcnRNMy11LVU1ZndCXzVCb29GeXBRMzdsbzROczZSWDdsZUZycGItcnQ4cWlSMEU2Q3BDRW9QNG80X2pWQzhDWF81MWZTcmJBeFhEM0RpWlQtSlZ0dUg?oc=5",
+      "id": "CBMiqAFBVV95cUxPZm5kTHViSVA3NmxLZUl1Q284Vmx4V1E4ZEVTWmNLZVBGSUNEeE5LdHRFMzBYNmFsaTZTVlR2VVcxSWR6RmhRc1E4Y3hfZEdTcXlZcnRNMy11LVU1ZndCXzVCb29GeXBRMzdsbzROczZSWDdsZUZycGItcnQ4cWlSMEU2Q3BDRW9QNG80X2pWQzhDWF81MWZTcmJBeFhEM0RpWlQtSlZ0dUg",
+      "guidislink": false,
+      "published": "Thu, 22 Apr 2021 07:00:00 GMT",
+      "published_parsed": [
+        2021,
+        4,
+        22,
+        7,
+        0,
+        0,
+        3,
+        112,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZm5kTHViSVA3NmxLZUl1Q284Vmx4V1E4ZEVTWmNLZVBGSUNEeE5LdHRFMzBYNmFsaTZTVlR2VVcxSWR6RmhRc1E4Y3hfZEdTcXlZcnRNMy11LVU1ZndCXzVCb29GeXBRMzdsbzROczZSWDdsZUZycGItcnQ4cWlSMEU2Q3BDRW9QNG80X2pWQzhDWF81MWZTcmJBeFhEM0RpWlQtSlZ0dUg?oc=5\" target=\"_blank\">Adam Scott opts out of Tokyo Olympics golf competition</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sky Sports</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZm5kTHViSVA3NmxLZUl1Q284Vmx4V1E4ZEVTWmNLZVBGSUNEeE5LdHRFMzBYNmFsaTZTVlR2VVcxSWR6RmhRc1E4Y3hfZEdTcXlZcnRNMy11LVU1ZndCXzVCb29GeXBRMzdsbzROczZSWDdsZUZycGItcnQ4cWlSMEU2Q3BDRW9QNG80X2pWQzhDWF81MWZTcmJBeFhEM0RpWlQtSlZ0dUg?oc=5\" target=\"_blank\">Adam Scott opts out of Tokyo Olympics golf competition</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sky Sports</font>"
+      },
+      "source": {
+        "href": "https://www.skysports.com",
+        "title": "Sky Sports"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Man Charged With Sex Trafficking Crimes in St. Cloud Area - WJON",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Man Charged With Sex Trafficking Crimes in St. Cloud Area - WJON"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBBZFJnQXBzV0RyUUJCUHRDRndSOTY1SEt5UmZSQWlaT0ZYRDgxWTNHSmdQMXhaR3QtM3NINnRZcVA3SmM2OTIzaWVESlcycTlMT3N4ZktBRmxBV3NUdFUyM2dwNEpqSGR6NlVpWGxhY2s0VEJpdUkycEhDZ000ZkE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBBZFJnQXBzV0RyUUJCUHRDRndSOTY1SEt5UmZSQWlaT0ZYRDgxWTNHSmdQMXhaR3QtM3NINnRZcVA3SmM2OTIzaWVESlcycTlMT3N4ZktBRmxBV3NUdFUyM2dwNEpqSGR6NlVpWGxhY2s0VEJpdUkycEhDZ000ZkE?oc=5",
+      "id": "CBMif0FVX3lxTFBBZFJnQXBzV0RyUUJCUHRDRndSOTY1SEt5UmZSQWlaT0ZYRDgxWTNHSmdQMXhaR3QtM3NINnRZcVA3SmM2OTIzaWVESlcycTlMT3N4ZktBRmxBV3NUdFUyM2dwNEpqSGR6NlVpWGxhY2s0VEJpdUkycEhDZ000ZkE",
+      "guidislink": false,
+      "published": "Wed, 21 Apr 2021 07:00:00 GMT",
+      "published_parsed": [
+        2021,
+        4,
+        21,
+        7,
+        0,
+        0,
+        2,
+        111,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTFBBZFJnQXBzV0RyUUJCUHRDRndSOTY1SEt5UmZSQWlaT0ZYRDgxWTNHSmdQMXhaR3QtM3NINnRZcVA3SmM2OTIzaWVESlcycTlMT3N4ZktBRmxBV3NUdFUyM2dwNEpqSGR6NlVpWGxhY2s0VEJpdUkycEhDZ000ZkE?oc=5\" target=\"_blank\">Man Charged With Sex Trafficking Crimes in St. Cloud Area</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WJON</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTFBBZFJnQXBzV0RyUUJCUHRDRndSOTY1SEt5UmZSQWlaT0ZYRDgxWTNHSmdQMXhaR3QtM3NINnRZcVA3SmM2OTIzaWVESlcycTlMT3N4ZktBRmxBV3NUdFUyM2dwNEpqSGR6NlVpWGxhY2s0VEJpdUkycEhDZ000ZkE?oc=5\" target=\"_blank\">Man Charged With Sex Trafficking Crimes in St. Cloud Area</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WJON</font>"
+      },
+      "source": {
+        "href": "https://wjon.com",
+        "title": "WJON"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Grand Prairie's Airbus Helicopters Sells Two Mosquito-Fighting Choppers to Florida County - Fort Worth Inc.",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Grand Prairie's Airbus Helicopters Sells Two Mosquito-Fighting Choppers to Florida County - Fort Worth Inc."
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWXN1cUIxZWNrbXgtVjNxbHVPemk2SDZxb2V1U0JnVlQxaXg1Njc5QmNyZjc0NXBkb3UxVUljbTdTYjBNczJaNGJGVTM4Rkszdkd1eXlHaTM1M1dMaUllNGxINkxJWEVVT1ltV3Y4RjNpOGdYNlRHMFh4WnFJalI1UzFTRlNJMDdJWE9lbFhva01Venp4ZkE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWXN1cUIxZWNrbXgtVjNxbHVPemk2SDZxb2V1U0JnVlQxaXg1Njc5QmNyZjc0NXBkb3UxVUljbTdTYjBNczJaNGJGVTM4Rkszdkd1eXlHaTM1M1dMaUllNGxINkxJWEVVT1ltV3Y4RjNpOGdYNlRHMFh4WnFJalI1UzFTRlNJMDdJWE9lbFhva01Venp4ZkE?oc=5",
+      "id": "CBMilgFBVV95cUxOWXN1cUIxZWNrbXgtVjNxbHVPemk2SDZxb2V1U0JnVlQxaXg1Njc5QmNyZjc0NXBkb3UxVUljbTdTYjBNczJaNGJGVTM4Rkszdkd1eXlHaTM1M1dMaUllNGxINkxJWEVVT1ltV3Y4RjNpOGdYNlRHMFh4WnFJalI1UzFTRlNJMDdJWE9lbFhva01Venp4ZkE",
+      "guidislink": false,
+      "published": "Tue, 20 Apr 2021 07:00:00 GMT",
+      "published_parsed": [
+        2021,
+        4,
+        20,
+        7,
+        0,
+        0,
+        1,
+        110,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxOWXN1cUIxZWNrbXgtVjNxbHVPemk2SDZxb2V1U0JnVlQxaXg1Njc5QmNyZjc0NXBkb3UxVUljbTdTYjBNczJaNGJGVTM4Rkszdkd1eXlHaTM1M1dMaUllNGxINkxJWEVVT1ltV3Y4RjNpOGdYNlRHMFh4WnFJalI1UzFTRlNJMDdJWE9lbFhva01Venp4ZkE?oc=5\" target=\"_blank\">Grand Prairie's Airbus Helicopters Sells Two Mosquito-Fighting Choppers to Florida County</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fort Worth Inc.</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxOWXN1cUIxZWNrbXgtVjNxbHVPemk2SDZxb2V1U0JnVlQxaXg1Njc5QmNyZjc0NXBkb3UxVUljbTdTYjBNczJaNGJGVTM4Rkszdkd1eXlHaTM1M1dMaUllNGxINkxJWEVVT1ltV3Y4RjNpOGdYNlRHMFh4WnFJalI1UzFTRlNJMDdJWE9lbFhva01Venp4ZkE?oc=5\" target=\"_blank\">Grand Prairie's Airbus Helicopters Sells Two Mosquito-Fighting Choppers to Florida County</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Fort Worth Inc.</font>"
+      },
+      "source": {
+        "href": "https://fortworthinc.com",
+        "title": "Fort Worth Inc."
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Australia’s Adam Scott opts out of Tokyo Olympics golf tournament - The Guardian",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Australia’s Adam Scott opts out of Tokyo Olympics golf tournament - The Guardian"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcW0tQUpRenFNZWk4UWFFNHFFN2NkQ0J2QWhKcUlEZjBqSldma0xRWlVTN3A1U1JVLUJGWm9vZjU2RUZGdFAzZDZyN00zbnY3dnByMXRXUE5iNDhSRFN0N2E4LXJPMzRfdTFLUGMwc1VnRHNZSmpEcGVUX2FxRVBFVTlQMDdJM25XWjdPazJ0Rkpqbk9uek9udElfdnRhM3B4cDdxcmczVEU3eWpaeWVZ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcW0tQUpRenFNZWk4UWFFNHFFN2NkQ0J2QWhKcUlEZjBqSldma0xRWlVTN3A1U1JVLUJGWm9vZjU2RUZGdFAzZDZyN00zbnY3dnByMXRXUE5iNDhSRFN0N2E4LXJPMzRfdTFLUGMwc1VnRHNZSmpEcGVUX2FxRVBFVTlQMDdJM25XWjdPazJ0Rkpqbk9uek9udElfdnRhM3B4cDdxcmczVEU3eWpaeWVZ?oc=5",
+      "id": "CBMirwFBVV95cUxPcW0tQUpRenFNZWk4UWFFNHFFN2NkQ0J2QWhKcUlEZjBqSldma0xRWlVTN3A1U1JVLUJGWm9vZjU2RUZGdFAzZDZyN00zbnY3dnByMXRXUE5iNDhSRFN0N2E4LXJPMzRfdTFLUGMwc1VnRHNZSmpEcGVUX2FxRVBFVTlQMDdJM25XWjdPazJ0Rkpqbk9uek9udElfdnRhM3B4cDdxcmczVEU3eWpaeWVZ",
+      "guidislink": false,
+      "published": "Thu, 22 Apr 2021 07:00:00 GMT",
+      "published_parsed": [
+        2021,
+        4,
+        22,
+        7,
+        0,
+        0,
+        3,
+        112,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxPcW0tQUpRenFNZWk4UWFFNHFFN2NkQ0J2QWhKcUlEZjBqSldma0xRWlVTN3A1U1JVLUJGWm9vZjU2RUZGdFAzZDZyN00zbnY3dnByMXRXUE5iNDhSRFN0N2E4LXJPMzRfdTFLUGMwc1VnRHNZSmpEcGVUX2FxRVBFVTlQMDdJM25XWjdPazJ0Rkpqbk9uek9udElfdnRhM3B4cDdxcmczVEU3eWpaeWVZ?oc=5\" target=\"_blank\">Australia’s Adam Scott opts out of Tokyo Olympics golf tournament</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxPcW0tQUpRenFNZWk4UWFFNHFFN2NkQ0J2QWhKcUlEZjBqSldma0xRWlVTN3A1U1JVLUJGWm9vZjU2RUZGdFAzZDZyN00zbnY3dnByMXRXUE5iNDhSRFN0N2E4LXJPMzRfdTFLUGMwc1VnRHNZSmpEcGVUX2FxRVBFVTlQMDdJM25XWjdPazJ0Rkpqbk9uek9udElfdnRhM3B4cDdxcmczVEU3eWpaeWVZ?oc=5\" target=\"_blank\">Australia’s Adam Scott opts out of Tokyo Olympics golf tournament</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>"
+      },
+      "source": {
+        "href": "https://www.theguardian.com",
+        "title": "The Guardian"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Tanzania: Magufuli reveals why he fired an official over Zika Virus - thecitizen.co.tz",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Tanzania: Magufuli reveals why he fired an official over Zika Virus - thecitizen.co.tz"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRmtnYm1qMTRqQ1hXNTBLU0dNclBMX1kxc0RnT01FRGpnenh0azB1eVEzZUhxUEtQS294RUhnOTJCdUw0b21ORTZBaEpfc19HOGtfRDVtY2tFRjVjaEZIVjY2c0J1aG9IbEJQdDlPcHgyblNIMm50bERBR3hTZms1TjdhSjNfQmtGMjBnZ25zUzVCU2JsY0x1dlNndkpiY2c5dUg3UjdJUDZleW1zOEx2cjVaOGhibjMwRWFEOEZId2ZvSnpM?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRmtnYm1qMTRqQ1hXNTBLU0dNclBMX1kxc0RnT01FRGpnenh0azB1eVEzZUhxUEtQS294RUhnOTJCdUw0b21ORTZBaEpfc19HOGtfRDVtY2tFRjVjaEZIVjY2c0J1aG9IbEJQdDlPcHgyblNIMm50bERBR3hTZms1TjdhSjNfQmtGMjBnZ25zUzVCU2JsY0x1dlNndkpiY2c5dUg3UjdJUDZleW1zOEx2cjVaOGhibjMwRWFEOEZId2ZvSnpM?oc=5",
+      "id": "CBMixAFBVV95cUxQRmtnYm1qMTRqQ1hXNTBLU0dNclBMX1kxc0RnT01FRGpnenh0azB1eVEzZUhxUEtQS294RUhnOTJCdUw0b21ORTZBaEpfc19HOGtfRDVtY2tFRjVjaEZIVjY2c0J1aG9IbEJQdDlPcHgyblNIMm50bERBR3hTZms1TjdhSjNfQmtGMjBnZ25zUzVCU2JsY0x1dlNndkpiY2c5dUg3UjdJUDZleW1zOEx2cjVaOGhibjMwRWFEOEZId2ZvSnpM",
+      "guidislink": false,
+      "published": "Sat, 10 Apr 2021 07:00:00 GMT",
+      "published_parsed": [
+        2021,
+        4,
+        10,
+        7,
+        0,
+        0,
+        5,
+        100,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxQRmtnYm1qMTRqQ1hXNTBLU0dNclBMX1kxc0RnT01FRGpnenh0azB1eVEzZUhxUEtQS294RUhnOTJCdUw0b21ORTZBaEpfc19HOGtfRDVtY2tFRjVjaEZIVjY2c0J1aG9IbEJQdDlPcHgyblNIMm50bERBR3hTZms1TjdhSjNfQmtGMjBnZ25zUzVCU2JsY0x1dlNndkpiY2c5dUg3UjdJUDZleW1zOEx2cjVaOGhibjMwRWFEOEZId2ZvSnpM?oc=5\" target=\"_blank\">Tanzania: Magufuli reveals why he fired an official over Zika Virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">thecitizen.co.tz</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxQRmtnYm1qMTRqQ1hXNTBLU0dNclBMX1kxc0RnT01FRGpnenh0azB1eVEzZUhxUEtQS294RUhnOTJCdUw0b21ORTZBaEpfc19HOGtfRDVtY2tFRjVjaEZIVjY2c0J1aG9IbEJQdDlPcHgyblNIMm50bERBR3hTZms1TjdhSjNfQmtGMjBnZ25zUzVCU2JsY0x1dlNndkpiY2c5dUg3UjdJUDZleW1zOEx2cjVaOGhibjMwRWFEOEZId2ZvSnpM?oc=5\" target=\"_blank\">Tanzania: Magufuli reveals why he fired an official over Zika Virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">thecitizen.co.tz</font>"
+      },
+      "source": {
+        "href": "https://www.thecitizen.co.tz",
+        "title": "thecitizen.co.tz"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Brain organoids uncover various mechanisms of virus-induced microcephaly - Österreichische Akademie der Wissenschaften",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Brain organoids uncover various mechanisms of virus-induced microcephaly - Österreichische Akademie der Wissenschaften"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdC0zTkNRcmZmUHF1VWtrTW5ablhOVV9TanYxcm01Z0F0ek9uM1VFTFh0OXJXMlM2eUpfR3FsZmlyX0E1OFdZeFcwYl9uSHFpYTBnWXRHNXM5NUE5TzdITFozeGVpWlZxSllady1HUU5QaS11cWxNekM3bmdXdFlZbXk4cE1hZUxtbE82anV6VC1OalloSzMtT1NoSVJzZmVkLWlRYUh5TnMwUENVRnhHZmRtSmVBQmxaSFB1bGl4UzJMQQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdC0zTkNRcmZmUHF1VWtrTW5ablhOVV9TanYxcm01Z0F0ek9uM1VFTFh0OXJXMlM2eUpfR3FsZmlyX0E1OFdZeFcwYl9uSHFpYTBnWXRHNXM5NUE5TzdITFozeGVpWlZxSllady1HUU5QaS11cWxNekM3bmdXdFlZbXk4cE1hZUxtbE82anV6VC1OalloSzMtT1NoSVJzZmVkLWlRYUh5TnMwUENVRnhHZmRtSmVBQmxaSFB1bGl4UzJMQQ?oc=5",
+      "id": "CBMiwgFBVV95cUxQdC0zTkNRcmZmUHF1VWtrTW5ablhOVV9TanYxcm01Z0F0ek9uM1VFTFh0OXJXMlM2eUpfR3FsZmlyX0E1OFdZeFcwYl9uSHFpYTBnWXRHNXM5NUE5TzdITFozeGVpWlZxSllady1HUU5QaS11cWxNekM3bmdXdFlZbXk4cE1hZUxtbE82anV6VC1OalloSzMtT1NoSVJzZmVkLWlRYUh5TnMwUENVRnhHZmRtSmVBQmxaSFB1bGl4UzJMQQ",
+      "guidislink": false,
+      "published": "Fri, 09 Apr 2021 07:00:00 GMT",
+      "published_parsed": [
+        2021,
+        4,
+        9,
+        7,
+        0,
+        0,
+        4,
+        99,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdC0zTkNRcmZmUHF1VWtrTW5ablhOVV9TanYxcm01Z0F0ek9uM1VFTFh0OXJXMlM2eUpfR3FsZmlyX0E1OFdZeFcwYl9uSHFpYTBnWXRHNXM5NUE5TzdITFozeGVpWlZxSllady1HUU5QaS11cWxNekM3bmdXdFlZbXk4cE1hZUxtbE82anV6VC1OalloSzMtT1NoSVJzZmVkLWlRYUh5TnMwUENVRnhHZmRtSmVBQmxaSFB1bGl4UzJMQQ?oc=5\" target=\"_blank\">Brain organoids uncover various mechanisms of virus-induced microcephaly</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Österreichische Akademie der Wissenschaften</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdC0zTkNRcmZmUHF1VWtrTW5ablhOVV9TanYxcm01Z0F0ek9uM1VFTFh0OXJXMlM2eUpfR3FsZmlyX0E1OFdZeFcwYl9uSHFpYTBnWXRHNXM5NUE5TzdITFozeGVpWlZxSllady1HUU5QaS11cWxNekM3bmdXdFlZbXk4cE1hZUxtbE82anV6VC1OalloSzMtT1NoSVJzZmVkLWlRYUh5TnMwUENVRnhHZmRtSmVBQmxaSFB1bGl4UzJMQQ?oc=5\" target=\"_blank\">Brain organoids uncover various mechanisms of virus-induced microcephaly</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Österreichische Akademie der Wissenschaften</font>"
+      },
+      "source": {
+        "href": "http://www.oeaw.ac.at",
+        "title": "Österreichische Akademie der Wissenschaften"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Defective viral genomes as therapeutic interfering particles against flavivirus infection in mammalian and mosquito hosts - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Defective viral genomes as therapeutic interfering particles against flavivirus infection in mammalian and mosquito hosts - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE15ZUREY2FUcV80Njg1QzRBaVlZV0h6NDU4ZkxuTHhxTGNiN1lDZVgwOWZoLVVkdXkwQzFjZkpVY05zMzhnc1NyQmstOVVkNHdjNzl3N1drZUJ5TjZwNVBF?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE15ZUREY2FUcV80Njg1QzRBaVlZV0h6NDU4ZkxuTHhxTGNiN1lDZVgwOWZoLVVkdXkwQzFjZkpVY05zMzhnc1NyQmstOVVkNHdjNzl3N1drZUJ5TjZwNVBF?oc=5",
+      "id": "CBMiX0FVX3lxTE15ZUREY2FUcV80Njg1QzRBaVlZV0h6NDU4ZkxuTHhxTGNiN1lDZVgwOWZoLVVkdXkwQzFjZkpVY05zMzhnc1NyQmstOVVkNHdjNzl3N1drZUJ5TjZwNVBF",
+      "guidislink": false,
+      "published": "Fri, 16 Apr 2021 07:00:00 GMT",
+      "published_parsed": [
+        2021,
+        4,
+        16,
+        7,
+        0,
+        0,
+        4,
+        106,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE15ZUREY2FUcV80Njg1QzRBaVlZV0h6NDU4ZkxuTHhxTGNiN1lDZVgwOWZoLVVkdXkwQzFjZkpVY05zMzhnc1NyQmstOVVkNHdjNzl3N1drZUJ5TjZwNVBF?oc=5\" target=\"_blank\">Defective viral genomes as therapeutic interfering particles against flavivirus infection in mammalian and mosquito hosts</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE15ZUREY2FUcV80Njg1QzRBaVlZV0h6NDU4ZkxuTHhxTGNiN1lDZVgwOWZoLVVkdXkwQzFjZkpVY05zMzhnc1NyQmstOVVkNHdjNzl3N1drZUJ5TjZwNVBF?oc=5\" target=\"_blank\">Defective viral genomes as therapeutic interfering particles against flavivirus infection in mammalian and mosquito hosts</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "What Tanzanians need to know about Zika fever - thecitizen.co.tz",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "What Tanzanians need to know about Zika fever - thecitizen.co.tz"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUjNjUFdBSXlZTVBHME5HYmNzLU40amJfYVprRnhxdjZUNU1KSl8weEFnWElrZ19DMEJYdXN6WmswVFdYX3FCRDZvNnUzUEhHbHlOMDZuMktZNUxKWHc5V0dXRWRyMm9jQ2t2dVdZeV80c1RGMDRxWkgyU1FLc0tlZTNuaXRQUWs1SWJFdnlmbjRFR3JNUk1LVHVBOGVzX2xjcHNodTNoMWg?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUjNjUFdBSXlZTVBHME5HYmNzLU40amJfYVprRnhxdjZUNU1KSl8weEFnWElrZ19DMEJYdXN6WmswVFdYX3FCRDZvNnUzUEhHbHlOMDZuMktZNUxKWHc5V0dXRWRyMm9jQ2t2dVdZeV80c1RGMDRxWkgyU1FLc0tlZTNuaXRQUWs1SWJFdnlmbjRFR3JNUk1LVHVBOGVzX2xjcHNodTNoMWg?oc=5",
+      "id": "CBMiqAFBVV95cUxPUjNjUFdBSXlZTVBHME5HYmNzLU40amJfYVprRnhxdjZUNU1KSl8weEFnWElrZ19DMEJYdXN6WmswVFdYX3FCRDZvNnUzUEhHbHlOMDZuMktZNUxKWHc5V0dXRWRyMm9jQ2t2dVdZeV80c1RGMDRxWkgyU1FLc0tlZTNuaXRQUWs1SWJFdnlmbjRFR3JNUk1LVHVBOGVzX2xjcHNodTNoMWg",
+      "guidislink": false,
+      "published": "Sun, 18 Apr 2021 07:00:00 GMT",
+      "published_parsed": [
+        2021,
+        4,
+        18,
+        7,
+        0,
+        0,
+        6,
+        108,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUjNjUFdBSXlZTVBHME5HYmNzLU40amJfYVprRnhxdjZUNU1KSl8weEFnWElrZ19DMEJYdXN6WmswVFdYX3FCRDZvNnUzUEhHbHlOMDZuMktZNUxKWHc5V0dXRWRyMm9jQ2t2dVdZeV80c1RGMDRxWkgyU1FLc0tlZTNuaXRQUWs1SWJFdnlmbjRFR3JNUk1LVHVBOGVzX2xjcHNodTNoMWg?oc=5\" target=\"_blank\">What Tanzanians need to know about Zika fever</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">thecitizen.co.tz</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUjNjUFdBSXlZTVBHME5HYmNzLU40amJfYVprRnhxdjZUNU1KSl8weEFnWElrZ19DMEJYdXN6WmswVFdYX3FCRDZvNnUzUEhHbHlOMDZuMktZNUxKWHc5V0dXRWRyMm9jQ2t2dVdZeV80c1RGMDRxWkgyU1FLc0tlZTNuaXRQUWs1SWJFdnlmbjRFR3JNUk1LVHVBOGVzX2xjcHNodTNoMWg?oc=5\" target=\"_blank\">What Tanzanians need to know about Zika fever</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">thecitizen.co.tz</font>"
+      },
+      "source": {
+        "href": "https://www.thecitizen.co.tz",
+        "title": "thecitizen.co.tz"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Generation of recombinant hyperimmune globulins from diverse B-cell repertoires - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Generation of recombinant hyperimmune globulins from diverse B-cell repertoires - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1mWm5KMFJacGhUdHJLVGNJWk9tUTRfcGpSSjdmUTZxcFBGNTFRbE1fRUhTRzFKY1ZXNlBUVWZtZGZxZkhiX3BiMGtEdVBXYzI0YmJuQVB1c3FWQjRVYzRJ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1mWm5KMFJacGhUdHJLVGNJWk9tUTRfcGpSSjdmUTZxcFBGNTFRbE1fRUhTRzFKY1ZXNlBUVWZtZGZxZkhiX3BiMGtEdVBXYzI0YmJuQVB1c3FWQjRVYzRJ?oc=5",
+      "id": "CBMiX0FVX3lxTE1mWm5KMFJacGhUdHJLVGNJWk9tUTRfcGpSSjdmUTZxcFBGNTFRbE1fRUhTRzFKY1ZXNlBUVWZtZGZxZkhiX3BiMGtEdVBXYzI0YmJuQVB1c3FWQjRVYzRJ",
+      "guidislink": false,
+      "published": "Thu, 15 Apr 2021 07:00:00 GMT",
+      "published_parsed": [
+        2021,
+        4,
+        15,
+        7,
+        0,
+        0,
+        3,
+        105,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1mWm5KMFJacGhUdHJLVGNJWk9tUTRfcGpSSjdmUTZxcFBGNTFRbE1fRUhTRzFKY1ZXNlBUVWZtZGZxZkhiX3BiMGtEdVBXYzI0YmJuQVB1c3FWQjRVYzRJ?oc=5\" target=\"_blank\">Generation of recombinant hyperimmune globulins from diverse B-cell repertoires</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1mWm5KMFJacGhUdHJLVGNJWk9tUTRfcGpSSjdmUTZxcFBGNTFRbE1fRUhTRzFKY1ZXNlBUVWZtZGZxZkhiX3BiMGtEdVBXYzI0YmJuQVB1c3FWQjRVYzRJ?oc=5\" target=\"_blank\">Generation of recombinant hyperimmune globulins from diverse B-cell repertoires</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Magufuli appoints Prof Mgaya new NIMR Director - thecitizen.co.tz",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Magufuli appoints Prof Mgaya new NIMR Director - thecitizen.co.tz"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeks5cXBsTzRqcldiVnlJc3JIZG11b3g1UFBhRmtDQlBaVFN4X2FEbzVxdnRzLXM5REpxZkxvQlZtei1HRUhWNzRrQ1J1OTF5emFPV2Yzbmo3bk5qSC1iY2stX2U1bU50cmEycUZ2cGNqaEgwZVM1T0xKdGlCbFNMeHVNeGVNQU5nZDhzbEwxYkpYLXlmNUJoVEFZN0xLdHdSejJ4aDlIdFBvdw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeks5cXBsTzRqcldiVnlJc3JIZG11b3g1UFBhRmtDQlBaVFN4X2FEbzVxdnRzLXM5REpxZkxvQlZtei1HRUhWNzRrQ1J1OTF5emFPV2Yzbmo3bk5qSC1iY2stX2U1bU50cmEycUZ2cGNqaEgwZVM1T0xKdGlCbFNMeHVNeGVNQU5nZDhzbEwxYkpYLXlmNUJoVEFZN0xLdHdSejJ4aDlIdFBvdw?oc=5",
+      "id": "CBMiqgFBVV95cUxPeks5cXBsTzRqcldiVnlJc3JIZG11b3g1UFBhRmtDQlBaVFN4X2FEbzVxdnRzLXM5REpxZkxvQlZtei1HRUhWNzRrQ1J1OTF5emFPV2Yzbmo3bk5qSC1iY2stX2U1bU50cmEycUZ2cGNqaEgwZVM1T0xKdGlCbFNMeHVNeGVNQU5nZDhzbEwxYkpYLXlmNUJoVEFZN0xLdHdSejJ4aDlIdFBvdw",
+      "guidislink": false,
+      "published": "Tue, 20 Apr 2021 07:00:00 GMT",
+      "published_parsed": [
+        2021,
+        4,
+        20,
+        7,
+        0,
+        0,
+        1,
+        110,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeks5cXBsTzRqcldiVnlJc3JIZG11b3g1UFBhRmtDQlBaVFN4X2FEbzVxdnRzLXM5REpxZkxvQlZtei1HRUhWNzRrQ1J1OTF5emFPV2Yzbmo3bk5qSC1iY2stX2U1bU50cmEycUZ2cGNqaEgwZVM1T0xKdGlCbFNMeHVNeGVNQU5nZDhzbEwxYkpYLXlmNUJoVEFZN0xLdHdSejJ4aDlIdFBvdw?oc=5\" target=\"_blank\">Magufuli appoints Prof Mgaya new NIMR Director</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">thecitizen.co.tz</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeks5cXBsTzRqcldiVnlJc3JIZG11b3g1UFBhRmtDQlBaVFN4X2FEbzVxdnRzLXM5REpxZkxvQlZtei1HRUhWNzRrQ1J1OTF5emFPV2Yzbmo3bk5qSC1iY2stX2U1bU50cmEycUZ2cGNqaEgwZVM1T0xKdGlCbFNMeHVNeGVNQU5nZDhzbEwxYkpYLXlmNUJoVEFZN0xLdHdSejJ4aDlIdFBvdw?oc=5\" target=\"_blank\">Magufuli appoints Prof Mgaya new NIMR Director</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">thecitizen.co.tz</font>"
+      },
+      "source": {
+        "href": "https://www.thecitizen.co.tz",
+        "title": "thecitizen.co.tz"
+      },
+      "sub_articles": []
+    }
+  ]
+}

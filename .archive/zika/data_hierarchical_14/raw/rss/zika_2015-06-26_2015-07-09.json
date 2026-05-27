@@ -1,0 +1,306 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2015-06-26",
+  "window_end": "2015-07-09",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2015-06-26+before%3A2015-07-10&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2015-06-26+before:2015-07-10&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:19:59Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2015-06-26 before:2015-07-10\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2015-06-26 before:2015-07-10\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2015-06-26+before:2015-07-10&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2015-06-26+before:2015-07-10&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:19:59 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      19,
+      59,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Genetically Engineered Mosquitoes Reduce Dengue Transmitters by 95 Percent - Entomology Today",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Genetically Engineered Mosquitoes Reduce Dengue Transmitters by 95 Percent - Entomology Today"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbVhuMEdSU3lfbll0LUJYZUVNOFpVQ1BaaXprUWZhbEdMVl91YjN0ODRISXY3b0ZXWksxR1dFUXpTR1g1aHlhXzNPb0dpWXpyVkRjaDJIS0ZNcU9RTXBJczNyMlp3NGtFaEd6eXVoX1Q4R3Q2bnVBdzdWb0dONmhrblA5SEhuUEN3S01VSDhYQ0hJSFA2cERqckZncHpSWTZmNms1Wjk1MA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbVhuMEdSU3lfbll0LUJYZUVNOFpVQ1BaaXprUWZhbEdMVl91YjN0ODRISXY3b0ZXWksxR1dFUXpTR1g1aHlhXzNPb0dpWXpyVkRjaDJIS0ZNcU9RTXBJczNyMlp3NGtFaEd6eXVoX1Q4R3Q2bnVBdzdWb0dONmhrblA5SEhuUEN3S01VSDhYQ0hJSFA2cERqckZncHpSWTZmNms1Wjk1MA?oc=5",
+      "id": "CBMipwFBVV95cUxQbVhuMEdSU3lfbll0LUJYZUVNOFpVQ1BaaXprUWZhbEdMVl91YjN0ODRISXY3b0ZXWksxR1dFUXpTR1g1aHlhXzNPb0dpWXpyVkRjaDJIS0ZNcU9RTXBJczNyMlp3NGtFaEd6eXVoX1Q4R3Q2bnVBdzdWb0dONmhrblA5SEhuUEN3S01VSDhYQ0hJSFA2cERqckZncHpSWTZmNms1Wjk1MA",
+      "guidislink": false,
+      "published": "Fri, 03 Jul 2015 07:00:00 GMT",
+      "published_parsed": [
+        2015,
+        7,
+        3,
+        7,
+        0,
+        0,
+        4,
+        184,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxQbVhuMEdSU3lfbll0LUJYZUVNOFpVQ1BaaXprUWZhbEdMVl91YjN0ODRISXY3b0ZXWksxR1dFUXpTR1g1aHlhXzNPb0dpWXpyVkRjaDJIS0ZNcU9RTXBJczNyMlp3NGtFaEd6eXVoX1Q4R3Q2bnVBdzdWb0dONmhrblA5SEhuUEN3S01VSDhYQ0hJSFA2cERqckZncHpSWTZmNms1Wjk1MA?oc=5\" target=\"_blank\">Genetically Engineered Mosquitoes Reduce Dengue Transmitters by 95 Percent</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Entomology Today</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxQbVhuMEdSU3lfbll0LUJYZUVNOFpVQ1BaaXprUWZhbEdMVl91YjN0ODRISXY3b0ZXWksxR1dFUXpTR1g1aHlhXzNPb0dpWXpyVkRjaDJIS0ZNcU9RTXBJczNyMlp3NGtFaEd6eXVoX1Q4R3Q2bnVBdzdWb0dONmhrblA5SEhuUEN3S01VSDhYQ0hJSFA2cERqckZncHpSWTZmNms1Wjk1MA?oc=5\" target=\"_blank\">Genetically Engineered Mosquitoes Reduce Dengue Transmitters by 95 Percent</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Entomology Today</font>"
+      },
+      "source": {
+        "href": "http://entomologytoday.org",
+        "title": "Entomology Today"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "St. Kitts-Nevis Will Be Hit By Zika Virus Says CMO - The St Kitts Nevis Observer",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "St. Kitts-Nevis Will Be Hit By Zika Virus Says CMO - The St Kitts Nevis Observer"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN2l0SVduOWUxMm1kTkJ0azVZV3hSWmFIUllRbXFkREk1Ymh2dER1TTVmZ3YwcDNjdUtlcmV5b3dodUpfcm9NTzE3QnU1QmxjQUpNV3ZDYklndTlWQ2ZtLW5SaFBTZGVIbVJXX0tpUkpuNzgxMnFIODkxYkNlamQzb25IeGZ5YzlPYjBJd3lXRzlRNzhY?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN2l0SVduOWUxMm1kTkJ0azVZV3hSWmFIUllRbXFkREk1Ymh2dER1TTVmZ3YwcDNjdUtlcmV5b3dodUpfcm9NTzE3QnU1QmxjQUpNV3ZDYklndTlWQ2ZtLW5SaFBTZGVIbVJXX0tpUkpuNzgxMnFIODkxYkNlamQzb25IeGZ5YzlPYjBJd3lXRzlRNzhY?oc=5",
+      "id": "CBMilAFBVV95cUxQN2l0SVduOWUxMm1kTkJ0azVZV3hSWmFIUllRbXFkREk1Ymh2dER1TTVmZ3YwcDNjdUtlcmV5b3dodUpfcm9NTzE3QnU1QmxjQUpNV3ZDYklndTlWQ2ZtLW5SaFBTZGVIbVJXX0tpUkpuNzgxMnFIODkxYkNlamQzb25IeGZ5YzlPYjBJd3lXRzlRNzhY",
+      "guidislink": false,
+      "published": "Fri, 03 Jul 2015 07:00:00 GMT",
+      "published_parsed": [
+        2015,
+        7,
+        3,
+        7,
+        0,
+        0,
+        4,
+        184,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxQN2l0SVduOWUxMm1kTkJ0azVZV3hSWmFIUllRbXFkREk1Ymh2dER1TTVmZ3YwcDNjdUtlcmV5b3dodUpfcm9NTzE3QnU1QmxjQUpNV3ZDYklndTlWQ2ZtLW5SaFBTZGVIbVJXX0tpUkpuNzgxMnFIODkxYkNlamQzb25IeGZ5YzlPYjBJd3lXRzlRNzhY?oc=5\" target=\"_blank\">St. Kitts-Nevis Will Be Hit By Zika Virus Says CMO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The St Kitts Nevis Observer</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxQN2l0SVduOWUxMm1kTkJ0azVZV3hSWmFIUllRbXFkREk1Ymh2dER1TTVmZ3YwcDNjdUtlcmV5b3dodUpfcm9NTzE3QnU1QmxjQUpNV3ZDYklndTlWQ2ZtLW5SaFBTZGVIbVJXX0tpUkpuNzgxMnFIODkxYkNlamQzb25IeGZ5YzlPYjBJd3lXRzlRNzhY?oc=5\" target=\"_blank\">St. Kitts-Nevis Will Be Hit By Zika Virus Says CMO</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The St Kitts Nevis Observer</font>"
+      },
+      "source": {
+        "href": "https://www.thestkittsnevisobserver.com",
+        "title": "The St Kitts Nevis Observer"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Ebola Virus and Disease - Healthline",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Ebola Virus and Disease - Healthline"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5SYUxWY0c2V01PNEtxR3hBMThodHctSEl2NEMwS0ROZmRNOS1aQ3VKZ0pwNXp2eGhGN2ZzTkVVdDhEMmI1UW5RUjRCMkdxSkhtcHluaEYtMnloZzRCOFlrT3lIRjBMRU14?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5SYUxWY0c2V01PNEtxR3hBMThodHctSEl2NEMwS0ROZmRNOS1aQ3VKZ0pwNXp2eGhGN2ZzTkVVdDhEMmI1UW5RUjRCMkdxSkhtcHluaEYtMnloZzRCOFlrT3lIRjBMRU14?oc=5",
+      "id": "CBMiaEFVX3lxTE5SYUxWY0c2V01PNEtxR3hBMThodHctSEl2NEMwS0ROZmRNOS1aQ3VKZ0pwNXp2eGhGN2ZzTkVVdDhEMmI1UW5RUjRCMkdxSkhtcHluaEYtMnloZzRCOFlrT3lIRjBMRU14",
+      "guidislink": false,
+      "published": "Tue, 30 Jun 2015 07:00:00 GMT",
+      "published_parsed": [
+        2015,
+        6,
+        30,
+        7,
+        0,
+        0,
+        1,
+        181,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE5SYUxWY0c2V01PNEtxR3hBMThodHctSEl2NEMwS0ROZmRNOS1aQ3VKZ0pwNXp2eGhGN2ZzTkVVdDhEMmI1UW5RUjRCMkdxSkhtcHluaEYtMnloZzRCOFlrT3lIRjBMRU14?oc=5\" target=\"_blank\">Ebola Virus and Disease</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Healthline</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE5SYUxWY0c2V01PNEtxR3hBMThodHctSEl2NEMwS0ROZmRNOS1aQ3VKZ0pwNXp2eGhGN2ZzTkVVdDhEMmI1UW5RUjRCMkdxSkhtcHluaEYtMnloZzRCOFlrT3lIRjBMRU14?oc=5\" target=\"_blank\">Ebola Virus and Disease</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Healthline</font>"
+      },
+      "source": {
+        "href": "https://www.healthline.com",
+        "title": "Healthline"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Antibody That Targets DENV-2 Found - Asian Scientist Magazine",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Antibody That Targets DENV-2 Found - Asian Scientist Magazine"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZDUxejUwME9qY0NqdXQ5bzlhenZzY2JibENpOV9VWjRkNGRUTFdHX0I1MHFVZ1hLMWpDcTFrN0REUTU0S0VhckpsMzR1LWFYclZiMnc4VFFhN21HY2xUeEtYdHhnU1F6T1NlTE51RXUydXYtMnlnWmZpekJqRmNGcFpHTmZOdTBoeXBUeGJLOFg?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZDUxejUwME9qY0NqdXQ5bzlhenZzY2JibENpOV9VWjRkNGRUTFdHX0I1MHFVZ1hLMWpDcTFrN0REUTU0S0VhckpsMzR1LWFYclZiMnc4VFFhN21HY2xUeEtYdHhnU1F6T1NlTE51RXUydXYtMnlnWmZpekJqRmNGcFpHTmZOdTBoeXBUeGJLOFg?oc=5",
+      "id": "CBMikAFBVV95cUxNZDUxejUwME9qY0NqdXQ5bzlhenZzY2JibENpOV9VWjRkNGRUTFdHX0I1MHFVZ1hLMWpDcTFrN0REUTU0S0VhckpsMzR1LWFYclZiMnc4VFFhN21HY2xUeEtYdHhnU1F6T1NlTE51RXUydXYtMnlnWmZpekJqRmNGcFpHTmZOdTBoeXBUeGJLOFg",
+      "guidislink": false,
+      "published": "Fri, 10 Jul 2015 07:00:00 GMT",
+      "published_parsed": [
+        2015,
+        7,
+        10,
+        7,
+        0,
+        0,
+        4,
+        191,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxNZDUxejUwME9qY0NqdXQ5bzlhenZzY2JibENpOV9VWjRkNGRUTFdHX0I1MHFVZ1hLMWpDcTFrN0REUTU0S0VhckpsMzR1LWFYclZiMnc4VFFhN21HY2xUeEtYdHhnU1F6T1NlTE51RXUydXYtMnlnWmZpekJqRmNGcFpHTmZOdTBoeXBUeGJLOFg?oc=5\" target=\"_blank\">Antibody That Targets DENV-2 Found</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Asian Scientist Magazine</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxNZDUxejUwME9qY0NqdXQ5bzlhenZzY2JibENpOV9VWjRkNGRUTFdHX0I1MHFVZ1hLMWpDcTFrN0REUTU0S0VhckpsMzR1LWFYclZiMnc4VFFhN21HY2xUeEtYdHhnU1F6T1NlTE51RXUydXYtMnlnWmZpekJqRmNGcFpHTmZOdTBoeXBUeGJLOFg?oc=5\" target=\"_blank\">Antibody That Targets DENV-2 Found</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Asian Scientist Magazine</font>"
+      },
+      "source": {
+        "href": "https://www.asianscientist.com",
+        "title": "Asian Scientist Magazine"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Lady the bulldog puppy can't keep her eyes open and passes out - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Lady the bulldog puppy can't keep her eyes open and passes out - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNHAyYVhMY0N0WE42NzJONkpqdVNBc0ZSYU5GTzlxSU5vV3U5WmR3QVpzdHFmVWpBSjlFRXdvWUMtZTNBd3JpaXZIanRFZzEwVzRPalBrdVJLd3dLbnVaV215Nk5KMkFhVWNkeGsxZjBNRkNXQjc5dXRoSTZwQWgtRmo1aklQWWNoNWZrcGtDM3IzV2J3SEs3OUhybG1kZWRYZnhpek9aRXp5S0l0SFVyOFdyQlZSTkVoaXpIbmdka0tPa2pmTjdMYWo2bUFRUFRvOC1Ud1FoZTJKUzVu0gHcAUFVX3lxTFA0cDJhWExjQ3RYTjY3Mk42Smp1U0FzRlJhTkZPOXFJTm9XdTlaZHdBWnN0cWZVakFKOUVFd29ZQy1lM0F3cmlpdkhqdEVnMTBXNE9qUGt1Ukt3d0tudVpXbXk2TkoyQWFVY2R4azFmME1GQ1dCNzl1dGhJNnBBaC1GajVqSVBZY2g1Zmtwa0MzcjNXYndISzc5SHJsbWRlZFhmeGl6T1pFenlLSXRIVXI4V3JCVlJORWhpekhuZ2RrS09ramZON0xhajZtQVFQVG84LVR3UWhlMkpTNW4?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNHAyYVhMY0N0WE42NzJONkpqdVNBc0ZSYU5GTzlxSU5vV3U5WmR3QVpzdHFmVWpBSjlFRXdvWUMtZTNBd3JpaXZIanRFZzEwVzRPalBrdVJLd3dLbnVaV215Nk5KMkFhVWNkeGsxZjBNRkNXQjc5dXRoSTZwQWgtRmo1aklQWWNoNWZrcGtDM3IzV2J3SEs3OUhybG1kZWRYZnhpek9aRXp5S0l0SFVyOFdyQlZSTkVoaXpIbmdka0tPa2pmTjdMYWo2bUFRUFRvOC1Ud1FoZTJKUzVu0gHcAUFVX3lxTFA0cDJhWExjQ3RYTjY3Mk42Smp1U0FzRlJhTkZPOXFJTm9XdTlaZHdBWnN0cWZVakFKOUVFd29ZQy1lM0F3cmlpdkhqdEVnMTBXNE9qUGt1Ukt3d0tudVpXbXk2TkoyQWFVY2R4azFmME1GQ1dCNzl1dGhJNnBBaC1GajVqSVBZY2g1Zmtwa0MzcjNXYndISzc5SHJsbWRlZFhmeGl6T1pFenlLSXRIVXI4V3JCVlJORWhpekhuZ2RrS09ramZON0xhajZtQVFQVG84LVR3UWhlMkpTNW4?oc=5",
+      "id": "CBMi3AFBVV95cUxQNHAyYVhMY0N0WE42NzJONkpqdVNBc0ZSYU5GTzlxSU5vV3U5WmR3QVpzdHFmVWpBSjlFRXdvWUMtZTNBd3JpaXZIanRFZzEwVzRPalBrdVJLd3dLbnVaV215Nk5KMkFhVWNkeGsxZjBNRkNXQjc5dXRoSTZwQWgtRmo1aklQWWNoNWZrcGtDM3IzV2J3SEs3OUhybG1kZWRYZnhpek9aRXp5S0l0SFVyOFdyQlZSTkVoaXpIbmdka0tPa2pmTjdMYWo2bUFRUFRvOC1Ud1FoZTJKUzVu0gHcAUFVX3lxTFA0cDJhWExjQ3RYTjY3Mk42Smp1U0FzRlJhTkZPOXFJTm9XdTlaZHdBWnN0cWZVakFKOUVFd29ZQy1lM0F3cmlpdkhqdEVnMTBXNE9qUGt1Ukt3d0tudVpXbXk2TkoyQWFVY2R4azFmME1GQ1dCNzl1dGhJNnBBaC1GajVqSVBZY2g1Zmtwa0MzcjNXYndISzc5SHJsbWRlZFhmeGl6T1pFenlLSXRIVXI4V3JCVlJORWhpekhuZ2RrS09ramZON0xhajZtQVFQVG84LVR3UWhlMkpTNW4",
+      "guidislink": false,
+      "published": "Thu, 02 Jul 2015 07:00:00 GMT",
+      "published_parsed": [
+        2015,
+        7,
+        2,
+        7,
+        0,
+        0,
+        3,
+        183,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNHAyYVhMY0N0WE42NzJONkpqdVNBc0ZSYU5GTzlxSU5vV3U5WmR3QVpzdHFmVWpBSjlFRXdvWUMtZTNBd3JpaXZIanRFZzEwVzRPalBrdVJLd3dLbnVaV215Nk5KMkFhVWNkeGsxZjBNRkNXQjc5dXRoSTZwQWgtRmo1aklQWWNoNWZrcGtDM3IzV2J3SEs3OUhybG1kZWRYZnhpek9aRXp5S0l0SFVyOFdyQlZSTkVoaXpIbmdka0tPa2pmTjdMYWo2bUFRUFRvOC1Ud1FoZTJKUzVu0gHcAUFVX3lxTFA0cDJhWExjQ3RYTjY3Mk42Smp1U0FzRlJhTkZPOXFJTm9XdTlaZHdBWnN0cWZVakFKOUVFd29ZQy1lM0F3cmlpdkhqdEVnMTBXNE9qUGt1Ukt3d0tudVpXbXk2TkoyQWFVY2R4azFmME1GQ1dCNzl1dGhJNnBBaC1GajVqSVBZY2g1Zmtwa0MzcjNXYndISzc5SHJsbWRlZFhmeGl6T1pFenlLSXRIVXI4V3JCVlJORWhpekhuZ2RrS09ramZON0xhajZtQVFQVG84LVR3UWhlMkpTNW4?oc=5\" target=\"_blank\">Lady the bulldog puppy can't keep her eyes open and passes out</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNHAyYVhMY0N0WE42NzJONkpqdVNBc0ZSYU5GTzlxSU5vV3U5WmR3QVpzdHFmVWpBSjlFRXdvWUMtZTNBd3JpaXZIanRFZzEwVzRPalBrdVJLd3dLbnVaV215Nk5KMkFhVWNkeGsxZjBNRkNXQjc5dXRoSTZwQWgtRmo1aklQWWNoNWZrcGtDM3IzV2J3SEs3OUhybG1kZWRYZnhpek9aRXp5S0l0SFVyOFdyQlZSTkVoaXpIbmdka0tPa2pmTjdMYWo2bUFRUFRvOC1Ud1FoZTJKUzVu0gHcAUFVX3lxTFA0cDJhWExjQ3RYTjY3Mk42Smp1U0FzRlJhTkZPOXFJTm9XdTlaZHdBWnN0cWZVakFKOUVFd29ZQy1lM0F3cmlpdkhqdEVnMTBXNE9qUGt1Ukt3d0tudVpXbXk2TkoyQWFVY2R4azFmME1GQ1dCNzl1dGhJNnBBaC1GajVqSVBZY2g1Zmtwa0MzcjNXYndISzc5SHJsbWRlZFhmeGl6T1pFenlLSXRIVXI4V3JCVlJORWhpekhuZ2RrS09ramZON0xhajZtQVFQVG84LVR3UWhlMkpTNW4?oc=5\" target=\"_blank\">Lady the bulldog puppy can't keep her eyes open and passes out</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    }
+  ]
+}

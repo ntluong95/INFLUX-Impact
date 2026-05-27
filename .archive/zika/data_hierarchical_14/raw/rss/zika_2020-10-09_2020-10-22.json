@@ -1,0 +1,779 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2020-10-09",
+  "window_end": "2020-10-22",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2020-10-09+before%3A2020-10-23&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2020-10-09+before:2020-10-23&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:28:00Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2020-10-09 before:2020-10-23\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2020-10-09 before:2020-10-23\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2020-10-09+before:2020-10-23&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2020-10-09+before:2020-10-23&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:28:00 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      28,
+      0,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Antibodies targeting epitopes on the cell-surface form of NS1 protect against Zika virus infection during pregnancy - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Antibodies targeting epitopes on the cell-surface form of NS1 protect against Zika virus infection during pregnancy - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5PelFhMzA5SFExUTlaYmI2WmlxSGZWMHJNOE5TUnBaN09qQnBSZTI3UFowSFM2N25CVklEZV92ZmFDSi1BaDNsdHMxNHFoUVRHN3B1RWRvLV81ZE1NMjlv?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5PelFhMzA5SFExUTlaYmI2WmlxSGZWMHJNOE5TUnBaN09qQnBSZTI3UFowSFM2N25CVklEZV92ZmFDSi1BaDNsdHMxNHFoUVRHN3B1RWRvLV81ZE1NMjlv?oc=5",
+      "id": "CBMiX0FVX3lxTE5PelFhMzA5SFExUTlaYmI2WmlxSGZWMHJNOE5TUnBaN09qQnBSZTI3UFowSFM2N25CVklEZV92ZmFDSi1BaDNsdHMxNHFoUVRHN3B1RWRvLV81ZE1NMjlv",
+      "guidislink": false,
+      "published": "Mon, 19 Oct 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        10,
+        19,
+        7,
+        0,
+        0,
+        0,
+        293,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5PelFhMzA5SFExUTlaYmI2WmlxSGZWMHJNOE5TUnBaN09qQnBSZTI3UFowSFM2N25CVklEZV92ZmFDSi1BaDNsdHMxNHFoUVRHN3B1RWRvLV81ZE1NMjlv?oc=5\" target=\"_blank\">Antibodies targeting epitopes on the cell-surface form of NS1 protect against Zika virus infection during pregnancy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5PelFhMzA5SFExUTlaYmI2WmlxSGZWMHJNOE5TUnBaN09qQnBSZTI3UFowSFM2N25CVklEZV92ZmFDSi1BaDNsdHMxNHFoUVRHN3B1RWRvLV81ZE1NMjlv?oc=5\" target=\"_blank\">Antibodies targeting epitopes on the cell-surface form of NS1 protect against Zika virus infection during pregnancy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Are Pandemics Gender Neutral? Women's Health and COVID-19 - Frontiers",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Are Pandemics Gender Neutral? Women's Health and COVID-19 - Frontiers"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOENKaWYwc0o5NDlsRDVJcENXT2Q2SXJhell3X2tMV1czMVpTZjVhTmYwTVZjUjVaRmRocmtobWNwSlRtZG11TWJwMGZEYXpJRWx0ejFXODgwZEt0SG0zcTN2NnJPSEZaQUVITGxic3dENWFmb2pSdnRMSG83czRQc0gyM0dYVWpOV1VuVW9XVnBySGdVVE5RMWhYeVM?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOENKaWYwc0o5NDlsRDVJcENXT2Q2SXJhell3X2tMV1czMVpTZjVhTmYwTVZjUjVaRmRocmtobWNwSlRtZG11TWJwMGZEYXpJRWx0ejFXODgwZEt0SG0zcTN2NnJPSEZaQUVITGxic3dENWFmb2pSdnRMSG83czRQc0gyM0dYVWpOV1VuVW9XVnBySGdVVE5RMWhYeVM?oc=5",
+      "id": "CBMinAFBVV95cUxOOENKaWYwc0o5NDlsRDVJcENXT2Q2SXJhell3X2tMV1czMVpTZjVhTmYwTVZjUjVaRmRocmtobWNwSlRtZG11TWJwMGZEYXpJRWx0ejFXODgwZEt0SG0zcTN2NnJPSEZaQUVITGxic3dENWFmb2pSdnRMSG83czRQc0gyM0dYVWpOV1VuVW9XVnBySGdVVE5RMWhYeVM",
+      "guidislink": false,
+      "published": "Sun, 18 Oct 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        10,
+        18,
+        7,
+        0,
+        0,
+        6,
+        292,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxOOENKaWYwc0o5NDlsRDVJcENXT2Q2SXJhell3X2tMV1czMVpTZjVhTmYwTVZjUjVaRmRocmtobWNwSlRtZG11TWJwMGZEYXpJRWx0ejFXODgwZEt0SG0zcTN2NnJPSEZaQUVITGxic3dENWFmb2pSdnRMSG83czRQc0gyM0dYVWpOV1VuVW9XVnBySGdVVE5RMWhYeVM?oc=5\" target=\"_blank\">Are Pandemics Gender Neutral? Women's Health and COVID-19</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Frontiers</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxOOENKaWYwc0o5NDlsRDVJcENXT2Q2SXJhell3X2tMV1czMVpTZjVhTmYwTVZjUjVaRmRocmtobWNwSlRtZG11TWJwMGZEYXpJRWx0ejFXODgwZEt0SG0zcTN2NnJPSEZaQUVITGxic3dENWFmb2pSdnRMSG83czRQc0gyM0dYVWpOV1VuVW9XVnBySGdVVE5RMWhYeVM?oc=5\" target=\"_blank\">Are Pandemics Gender Neutral? Women's Health and COVID-19</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Frontiers</font>"
+      },
+      "source": {
+        "href": "https://www.frontiersin.org",
+        "title": "Frontiers"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika virus - International Maritime Organization",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika virus - International Maritime Organization"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8wVVdGTVNRd0pVV3ZySzNqNVNidXZPeXFaVS1YU3BYWjhNc0l1WWdSNkZXcUNaN0FYLW1MVFpjcnlpWU9Gc09uWF8wLWlmUVROdEJVUmNEV1lFNWlGbWxTRnNyYU4weHJzaGJyLWdIVXhvRWQw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8wVVdGTVNRd0pVV3ZySzNqNVNidXZPeXFaVS1YU3BYWjhNc0l1WWdSNkZXcUNaN0FYLW1MVFpjcnlpWU9Gc09uWF8wLWlmUVROdEJVUmNEV1lFNWlGbWxTRnNyYU4weHJzaGJyLWdIVXhvRWQw?oc=5",
+      "id": "CBMidEFVX3lxTE8wVVdGTVNRd0pVV3ZySzNqNVNidXZPeXFaVS1YU3BYWjhNc0l1WWdSNkZXcUNaN0FYLW1MVFpjcnlpWU9Gc09uWF8wLWlmUVROdEJVUmNEV1lFNWlGbWxTRnNyYU4weHJzaGJyLWdIVXhvRWQw",
+      "guidislink": false,
+      "published": "Sun, 18 Oct 2020 03:17:34 GMT",
+      "published_parsed": [
+        2020,
+        10,
+        18,
+        3,
+        17,
+        34,
+        6,
+        292,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE8wVVdGTVNRd0pVV3ZySzNqNVNidXZPeXFaVS1YU3BYWjhNc0l1WWdSNkZXcUNaN0FYLW1MVFpjcnlpWU9Gc09uWF8wLWlmUVROdEJVUmNEV1lFNWlGbWxTRnNyYU4weHJzaGJyLWdIVXhvRWQw?oc=5\" target=\"_blank\">Zika virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">International Maritime Organization</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMidEFVX3lxTE8wVVdGTVNRd0pVV3ZySzNqNVNidXZPeXFaVS1YU3BYWjhNc0l1WWdSNkZXcUNaN0FYLW1MVFpjcnlpWU9Gc09uWF8wLWlmUVROdEJVUmNEV1lFNWlGbWxTRnNyYU4weHJzaGJyLWdIVXhvRWQw?oc=5\" target=\"_blank\">Zika virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">International Maritime Organization</font>"
+      },
+      "source": {
+        "href": "https://www.imo.org",
+        "title": "International Maritime Organization"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "National Academy of Medicine Elects New Members - Harvard Magazine",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "National Academy of Medicine Elects New Members - Harvard Magazine"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1FcFp0OGhJeGxZenoySFQyanZRWWZWcTQ5ZW04cUFIWW90QXZsdkJobUFlNXRick1jZGdVZko5SkFjMUo2X0N2bmtuZzM1UUFoMElORHpZbUNrakpPN3laQi16ekxYYVB5OEd6NnpRS1NMTFlRMS1udG1B?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1FcFp0OGhJeGxZenoySFQyanZRWWZWcTQ5ZW04cUFIWW90QXZsdkJobUFlNXRick1jZGdVZko5SkFjMUo2X0N2bmtuZzM1UUFoMElORHpZbUNrakpPN3laQi16ekxYYVB5OEd6NnpRS1NMTFlRMS1udG1B?oc=5",
+      "id": "CBMiekFVX3lxTE1FcFp0OGhJeGxZenoySFQyanZRWWZWcTQ5ZW04cUFIWW90QXZsdkJobUFlNXRick1jZGdVZko5SkFjMUo2X0N2bmtuZzM1UUFoMElORHpZbUNrakpPN3laQi16ekxYYVB5OEd6NnpRS1NMTFlRMS1udG1B",
+      "guidislink": false,
+      "published": "Thu, 22 Oct 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        10,
+        22,
+        7,
+        0,
+        0,
+        3,
+        296,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE1FcFp0OGhJeGxZenoySFQyanZRWWZWcTQ5ZW04cUFIWW90QXZsdkJobUFlNXRick1jZGdVZko5SkFjMUo2X0N2bmtuZzM1UUFoMElORHpZbUNrakpPN3laQi16ekxYYVB5OEd6NnpRS1NMTFlRMS1udG1B?oc=5\" target=\"_blank\">National Academy of Medicine Elects New Members</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Harvard Magazine</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE1FcFp0OGhJeGxZenoySFQyanZRWWZWcTQ5ZW04cUFIWW90QXZsdkJobUFlNXRick1jZGdVZko5SkFjMUo2X0N2bmtuZzM1UUFoMElORHpZbUNrakpPN3laQi16ekxYYVB5OEd6NnpRS1NMTFlRMS1udG1B?oc=5\" target=\"_blank\">National Academy of Medicine Elects New Members</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Harvard Magazine</font>"
+      },
+      "source": {
+        "href": "https://www.harvardmagazine.com",
+        "title": "Harvard Magazine"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Lyn kinase regulates egress of flaviviruses in autophagosome-derived organelles - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Lyn kinase regulates egress of flaviviruses in autophagosome-derived organelles - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1GUGVvdjV6Ynp0N1d2MGYzaGc0Y1ZrQmRFRVB2VGFPRE5lS1d6aDRKLTFOZGJ6YnVmcElNY1FwQXNvZDFTVVBRM3J5MV9PMXdiTXhTcmxQNV8wTGM0eC13?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1GUGVvdjV6Ynp0N1d2MGYzaGc0Y1ZrQmRFRVB2VGFPRE5lS1d6aDRKLTFOZGJ6YnVmcElNY1FwQXNvZDFTVVBRM3J5MV9PMXdiTXhTcmxQNV8wTGM0eC13?oc=5",
+      "id": "CBMiX0FVX3lxTE1GUGVvdjV6Ynp0N1d2MGYzaGc0Y1ZrQmRFRVB2VGFPRE5lS1d6aDRKLTFOZGJ6YnVmcElNY1FwQXNvZDFTVVBRM3J5MV9PMXdiTXhTcmxQNV8wTGM0eC13",
+      "guidislink": false,
+      "published": "Thu, 15 Oct 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        10,
+        15,
+        7,
+        0,
+        0,
+        3,
+        289,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1GUGVvdjV6Ynp0N1d2MGYzaGc0Y1ZrQmRFRVB2VGFPRE5lS1d6aDRKLTFOZGJ6YnVmcElNY1FwQXNvZDFTVVBRM3J5MV9PMXdiTXhTcmxQNV8wTGM0eC13?oc=5\" target=\"_blank\">Lyn kinase regulates egress of flaviviruses in autophagosome-derived organelles</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1GUGVvdjV6Ynp0N1d2MGYzaGc0Y1ZrQmRFRVB2VGFPRE5lS1d6aDRKLTFOZGJ6YnVmcElNY1FwQXNvZDFTVVBRM3J5MV9PMXdiTXhTcmxQNV8wTGM0eC13?oc=5\" target=\"_blank\">Lyn kinase regulates egress of flaviviruses in autophagosome-derived organelles</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Beware of ‘Ankle Biter’ Mosquitoes - The Santa Barbara Independent",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Beware of ‘Ankle Biter’ Mosquitoes - The Santa Barbara Independent"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9YYVk0Nk9iSVFhUEN6NmMwWTRRWVRsS0MxY2hHcVJsTGFTeUY5ZDFEb1ZkR3pvRWlpMVJYTXkydEpHQjJGR2MycjRXb2VzTmVFcWhTNkxpdUZGdXFxbnl2dkdQM0x4dmhwVmNzVS1TX1pHY2RuLUg1T2h1M3o?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9YYVk0Nk9iSVFhUEN6NmMwWTRRWVRsS0MxY2hHcVJsTGFTeUY5ZDFEb1ZkR3pvRWlpMVJYTXkydEpHQjJGR2MycjRXb2VzTmVFcWhTNkxpdUZGdXFxbnl2dkdQM0x4dmhwVmNzVS1TX1pHY2RuLUg1T2h1M3o?oc=5",
+      "id": "CBMifEFVX3lxTE9YYVk0Nk9iSVFhUEN6NmMwWTRRWVRsS0MxY2hHcVJsTGFTeUY5ZDFEb1ZkR3pvRWlpMVJYTXkydEpHQjJGR2MycjRXb2VzTmVFcWhTNkxpdUZGdXFxbnl2dkdQM0x4dmhwVmNzVS1TX1pHY2RuLUg1T2h1M3o",
+      "guidislink": false,
+      "published": "Fri, 09 Oct 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        10,
+        9,
+        7,
+        0,
+        0,
+        4,
+        283,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE9YYVk0Nk9iSVFhUEN6NmMwWTRRWVRsS0MxY2hHcVJsTGFTeUY5ZDFEb1ZkR3pvRWlpMVJYTXkydEpHQjJGR2MycjRXb2VzTmVFcWhTNkxpdUZGdXFxbnl2dkdQM0x4dmhwVmNzVS1TX1pHY2RuLUg1T2h1M3o?oc=5\" target=\"_blank\">Beware of ‘Ankle Biter’ Mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Santa Barbara Independent</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE9YYVk0Nk9iSVFhUEN6NmMwWTRRWVRsS0MxY2hHcVJsTGFTeUY5ZDFEb1ZkR3pvRWlpMVJYTXkydEpHQjJGR2MycjRXb2VzTmVFcWhTNkxpdUZGdXFxbnl2dkdQM0x4dmhwVmNzVS1TX1pHY2RuLUg1T2h1M3o?oc=5\" target=\"_blank\">Beware of ‘Ankle Biter’ Mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Santa Barbara Independent</font>"
+      },
+      "source": {
+        "href": "https://www.independent.com",
+        "title": "The Santa Barbara Independent"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Trump Receives Medication Made Possible by Fetal Stem Cells; All Americans Deserve the Same Access - Congresswoman Jan Schakowsky (.gov)",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Trump Receives Medication Made Possible by Fetal Stem Cells; All Americans Deserve the Same Access - Congresswoman Jan Schakowsky (.gov)"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPb290U01kQjNVREVjc2ZNODJYcEZfcnBLXzJuT0tPcE84blI0U0duT2p5NUx5bVY5ZlFiWlM0elV5ZWZVVGRxV1BaZnhUOXlCRXlsNy1kclp2Ukg1QS1aX0Z1TG9KcmRCSHhka0RmNVZ1dmVuWjN1Qnpvdi1vMUpBRmxOSlFWakdqaUxpMjhPUzgyX1BHeHVGanZNQ29QOENFOTl1eXFHUkxDSzdFNmpGOWFGeHlfQTZ0cnpMcWRZTlFwbW53RGc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPb290U01kQjNVREVjc2ZNODJYcEZfcnBLXzJuT0tPcE84blI0U0duT2p5NUx5bVY5ZlFiWlM0elV5ZWZVVGRxV1BaZnhUOXlCRXlsNy1kclp2Ukg1QS1aX0Z1TG9KcmRCSHhka0RmNVZ1dmVuWjN1Qnpvdi1vMUpBRmxOSlFWakdqaUxpMjhPUzgyX1BHeHVGanZNQ29QOENFOTl1eXFHUkxDSzdFNmpGOWFGeHlfQTZ0cnpMcWRZTlFwbW53RGc?oc=5",
+      "id": "CBMixgFBVV95cUxPb290U01kQjNVREVjc2ZNODJYcEZfcnBLXzJuT0tPcE84blI0U0duT2p5NUx5bVY5ZlFiWlM0elV5ZWZVVGRxV1BaZnhUOXlCRXlsNy1kclp2Ukg1QS1aX0Z1TG9KcmRCSHhka0RmNVZ1dmVuWjN1Qnpvdi1vMUpBRmxOSlFWakdqaUxpMjhPUzgyX1BHeHVGanZNQ29QOENFOTl1eXFHUkxDSzdFNmpGOWFGeHlfQTZ0cnpMcWRZTlFwbW53RGc",
+      "guidislink": false,
+      "published": "Fri, 09 Oct 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        10,
+        9,
+        7,
+        0,
+        0,
+        4,
+        283,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxPb290U01kQjNVREVjc2ZNODJYcEZfcnBLXzJuT0tPcE84blI0U0duT2p5NUx5bVY5ZlFiWlM0elV5ZWZVVGRxV1BaZnhUOXlCRXlsNy1kclp2Ukg1QS1aX0Z1TG9KcmRCSHhka0RmNVZ1dmVuWjN1Qnpvdi1vMUpBRmxOSlFWakdqaUxpMjhPUzgyX1BHeHVGanZNQ29QOENFOTl1eXFHUkxDSzdFNmpGOWFGeHlfQTZ0cnpMcWRZTlFwbW53RGc?oc=5\" target=\"_blank\">Trump Receives Medication Made Possible by Fetal Stem Cells; All Americans Deserve the Same Access</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Congresswoman Jan Schakowsky (.gov)</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxPb290U01kQjNVREVjc2ZNODJYcEZfcnBLXzJuT0tPcE84blI0U0duT2p5NUx5bVY5ZlFiWlM0elV5ZWZVVGRxV1BaZnhUOXlCRXlsNy1kclp2Ukg1QS1aX0Z1TG9KcmRCSHhka0RmNVZ1dmVuWjN1Qnpvdi1vMUpBRmxOSlFWakdqaUxpMjhPUzgyX1BHeHVGanZNQ29QOENFOTl1eXFHUkxDSzdFNmpGOWFGeHlfQTZ0cnpMcWRZTlFwbW53RGc?oc=5\" target=\"_blank\">Trump Receives Medication Made Possible by Fetal Stem Cells; All Americans Deserve the Same Access</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Congresswoman Jan Schakowsky (.gov)</font>"
+      },
+      "source": {
+        "href": "http://schakowsky.house.gov",
+        "title": "Congresswoman Jan Schakowsky (.gov)"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Community engagement for COVID-19 prevention and control: a rapid evidence synthesis - BMJ Global Health",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Community engagement for COVID-19 prevention and control: a rapid evidence synthesis - BMJ Global Health"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAzUktwZXJtSW5RUFJteDJKUkVtR21RblJ2QWZhdVdfRWFkd2RjYWl0aDhLNGlkTmV2a01EcVpPZ043QWwybTRTU1JwOHlkdmVk?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAzUktwZXJtSW5RUFJteDJKUkVtR21RblJ2QWZhdVdfRWFkd2RjYWl0aDhLNGlkTmV2a01EcVpPZ043QWwybTRTU1JwOHlkdmVk?oc=5",
+      "id": "CBMiUEFVX3lxTFAzUktwZXJtSW5RUFJteDJKUkVtR21RblJ2QWZhdVdfRWFkd2RjYWl0aDhLNGlkTmV2a01EcVpPZ043QWwybTRTU1JwOHlkdmVk",
+      "guidislink": false,
+      "published": "Tue, 13 Oct 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        10,
+        13,
+        7,
+        0,
+        0,
+        1,
+        287,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTFAzUktwZXJtSW5RUFJteDJKUkVtR21RblJ2QWZhdVdfRWFkd2RjYWl0aDhLNGlkTmV2a01EcVpPZ043QWwybTRTU1JwOHlkdmVk?oc=5\" target=\"_blank\">Community engagement for COVID-19 prevention and control: a rapid evidence synthesis</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BMJ Global Health</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTFAzUktwZXJtSW5RUFJteDJKUkVtR21RblJ2QWZhdVdfRWFkd2RjYWl0aDhLNGlkTmV2a01EcVpPZ043QWwybTRTU1JwOHlkdmVk?oc=5\" target=\"_blank\">Community engagement for COVID-19 prevention and control: a rapid evidence synthesis</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BMJ Global Health</font>"
+      },
+      "source": {
+        "href": "https://gh.bmj.com",
+        "title": "BMJ Global Health"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "In ‘Fauci,’ a Doctor Whose Work and Mission Have Been Shaped by Politics (Published 2020) - The New York Times",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "In ‘Fauci,’ a Doctor Whose Work and Mission Have Been Shaped by Politics (Published 2020) - The New York Times"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPY1V2Wk8wcjY4WGl2dnhNdGFCbWdDLVp4WU5RcERGOWNwTWQyVlRESVpUMUpITUxGZ19OMWJPZ2NRcllfM210MFMwZWI0U2FhMHRHcDJtVWcxQ3cwYllBemZoUmNscUQtV0JLemt0UDQxMkJpVjRmYlVYRnBaQVdFdWR2Y1d1Q21ZeG1Kak9YNWJQbjhhTXQwcTR3?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPY1V2Wk8wcjY4WGl2dnhNdGFCbWdDLVp4WU5RcERGOWNwTWQyVlRESVpUMUpITUxGZ19OMWJPZ2NRcllfM210MFMwZWI0U2FhMHRHcDJtVWcxQ3cwYllBemZoUmNscUQtV0JLemt0UDQxMkJpVjRmYlVYRnBaQVdFdWR2Y1d1Q21ZeG1Kak9YNWJQbjhhTXQwcTR3?oc=5",
+      "id": "CBMimgFBVV95cUxPY1V2Wk8wcjY4WGl2dnhNdGFCbWdDLVp4WU5RcERGOWNwTWQyVlRESVpUMUpITUxGZ19OMWJPZ2NRcllfM210MFMwZWI0U2FhMHRHcDJtVWcxQ3cwYllBemZoUmNscUQtV0JLemt0UDQxMkJpVjRmYlVYRnBaQVdFdWR2Y1d1Q21ZeG1Kak9YNWJQbjhhTXQwcTR3",
+      "guidislink": false,
+      "published": "Mon, 19 Oct 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        10,
+        19,
+        7,
+        0,
+        0,
+        0,
+        293,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxPY1V2Wk8wcjY4WGl2dnhNdGFCbWdDLVp4WU5RcERGOWNwTWQyVlRESVpUMUpITUxGZ19OMWJPZ2NRcllfM210MFMwZWI0U2FhMHRHcDJtVWcxQ3cwYllBemZoUmNscUQtV0JLemt0UDQxMkJpVjRmYlVYRnBaQVdFdWR2Y1d1Q21ZeG1Kak9YNWJQbjhhTXQwcTR3?oc=5\" target=\"_blank\">In ‘Fauci,’ a Doctor Whose Work and Mission Have Been Shaped by Politics (Published 2020)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New York Times</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxPY1V2Wk8wcjY4WGl2dnhNdGFCbWdDLVp4WU5RcERGOWNwTWQyVlRESVpUMUpITUxGZ19OMWJPZ2NRcllfM210MFMwZWI0U2FhMHRHcDJtVWcxQ3cwYllBemZoUmNscUQtV0JLemt0UDQxMkJpVjRmYlVYRnBaQVdFdWR2Y1d1Q21ZeG1Kak9YNWJQbjhhTXQwcTR3?oc=5\" target=\"_blank\">In ‘Fauci,’ a Doctor Whose Work and Mission Have Been Shaped by Politics (Published 2020)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New York Times</font>"
+      },
+      "source": {
+        "href": "https://www.nytimes.com",
+        "title": "The New York Times"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "The Red Colored Grey Truck (2004) - IMDb",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "The Red Colored Grey Truck (2004) - IMDb"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBHQWpHTk9rT2hZNXZoa3FadHFOcE9GUG0tdkxwbzlZeUg2dHQwcG56Qno4bFgxYncyU1RmelhaOV9wM0pKbXVHUFBSdjRnajlISTBGTVZVYnN0eF9pdG9nNVUyWE8yNk0zeFdKMW43cw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBHQWpHTk9rT2hZNXZoa3FadHFOcE9GUG0tdkxwbzlZeUg2dHQwcG56Qno4bFgxYncyU1RmelhaOV9wM0pKbXVHUFBSdjRnajlISTBGTVZVYnN0eF9pdG9nNVUyWE8yNk0zeFdKMW43cw?oc=5",
+      "id": "CBMib0FVX3lxTFBHQWpHTk9rT2hZNXZoa3FadHFOcE9GUG0tdkxwbzlZeUg2dHQwcG56Qno4bFgxYncyU1RmelhaOV9wM0pKbXVHUFBSdjRnajlISTBGTVZVYnN0eF9pdG9nNVUyWE8yNk0zeFdKMW43cw",
+      "guidislink": false,
+      "published": "Fri, 23 Oct 2020 03:32:09 GMT",
+      "published_parsed": [
+        2020,
+        10,
+        23,
+        3,
+        32,
+        9,
+        4,
+        297,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTFBHQWpHTk9rT2hZNXZoa3FadHFOcE9GUG0tdkxwbzlZeUg2dHQwcG56Qno4bFgxYncyU1RmelhaOV9wM0pKbXVHUFBSdjRnajlISTBGTVZVYnN0eF9pdG9nNVUyWE8yNk0zeFdKMW43cw?oc=5\" target=\"_blank\">The Red Colored Grey Truck (2004)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IMDb</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTFBHQWpHTk9rT2hZNXZoa3FadHFOcE9GUG0tdkxwbzlZeUg2dHQwcG56Qno4bFgxYncyU1RmelhaOV9wM0pKbXVHUFBSdjRnajlISTBGTVZVYnN0eF9pdG9nNVUyWE8yNk0zeFdKMW43cw?oc=5\" target=\"_blank\">The Red Colored Grey Truck (2004)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IMDb</font>"
+      },
+      "source": {
+        "href": "https://www.imdb.com",
+        "title": "IMDb"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zooming In: Visualizing the Relative Size of Particles - Visual Capitalist",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zooming In: Visualizing the Relative Size of Particles - Visual Capitalist"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8xZDNtS1MwamNPUzUzVEVjLU94cU9xdFRXS1IxbHEteXNrWEZjb083dHhqREVVS0pZc1o3R05tNzNOR2RYNGVfUnZWT2NQVmRDaF90ZFV5X0VXazdkLVNRcV9iNEZYSXNMOUtQek9za0ZFemhibjRjVTRDajM?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8xZDNtS1MwamNPUzUzVEVjLU94cU9xdFRXS1IxbHEteXNrWEZjb083dHhqREVVS0pZc1o3R05tNzNOR2RYNGVfUnZWT2NQVmRDaF90ZFV5X0VXazdkLVNRcV9iNEZYSXNMOUtQek9za0ZFemhibjRjVTRDajM?oc=5",
+      "id": "CBMifEFVX3lxTE8xZDNtS1MwamNPUzUzVEVjLU94cU9xdFRXS1IxbHEteXNrWEZjb083dHhqREVVS0pZc1o3R05tNzNOR2RYNGVfUnZWT2NQVmRDaF90ZFV5X0VXazdkLVNRcV9iNEZYSXNMOUtQek9za0ZFemhibjRjVTRDajM",
+      "guidislink": false,
+      "published": "Sat, 10 Oct 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        10,
+        10,
+        7,
+        0,
+        0,
+        5,
+        284,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE8xZDNtS1MwamNPUzUzVEVjLU94cU9xdFRXS1IxbHEteXNrWEZjb083dHhqREVVS0pZc1o3R05tNzNOR2RYNGVfUnZWT2NQVmRDaF90ZFV5X0VXazdkLVNRcV9iNEZYSXNMOUtQek9za0ZFemhibjRjVTRDajM?oc=5\" target=\"_blank\">Zooming In: Visualizing the Relative Size of Particles</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Visual Capitalist</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE8xZDNtS1MwamNPUzUzVEVjLU94cU9xdFRXS1IxbHEteXNrWEZjb083dHhqREVVS0pZc1o3R05tNzNOR2RYNGVfUnZWT2NQVmRDaF90ZFV5X0VXazdkLVNRcV9iNEZYSXNMOUtQek9za0ZFemhibjRjVTRDajM?oc=5\" target=\"_blank\">Zooming In: Visualizing the Relative Size of Particles</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Visual Capitalist</font>"
+      },
+      "source": {
+        "href": "https://www.visualcapitalist.com",
+        "title": "Visual Capitalist"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Jinwon Life Sciences Recruits Dr. Ka Mutumani as Chief Scientific Development Officer - 아시아경제",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Jinwon Life Sciences Recruits Dr. Ka Mutumani as Chief Scientific Development Officer - 아시아경제"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBKenI0Y1BtcHRKMHJxX0ZVS2xxUjV3a3QyLXFpUFVjUGExQXZLbXFsVlk5XzlTSDVRR3dnSERJY3BZT1lVcnJuV2xnbTJzUlBQVXJGMEdGbGJTVVQ5S0Zkak5lMA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBKenI0Y1BtcHRKMHJxX0ZVS2xxUjV3a3QyLXFpUFVjUGExQXZLbXFsVlk5XzlTSDVRR3dnSERJY3BZT1lVcnJuV2xnbTJzUlBQVXJGMEdGbGJTVVQ5S0Zkak5lMA?oc=5",
+      "id": "CBMiY0FVX3lxTFBKenI0Y1BtcHRKMHJxX0ZVS2xxUjV3a3QyLXFpUFVjUGExQXZLbXFsVlk5XzlTSDVRR3dnSERJY3BZT1lVcnJuV2xnbTJzUlBQVXJGMEdGbGJTVVQ5S0Zkak5lMA",
+      "guidislink": false,
+      "published": "Mon, 19 Oct 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        10,
+        19,
+        7,
+        0,
+        0,
+        0,
+        293,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiY0FVX3lxTFBKenI0Y1BtcHRKMHJxX0ZVS2xxUjV3a3QyLXFpUFVjUGExQXZLbXFsVlk5XzlTSDVRR3dnSERJY3BZT1lVcnJuV2xnbTJzUlBQVXJGMEdGbGJTVVQ5S0Zkak5lMA?oc=5\" target=\"_blank\">Jinwon Life Sciences Recruits Dr. Ka Mutumani as Chief Scientific Development Officer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">아시아경제</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiY0FVX3lxTFBKenI0Y1BtcHRKMHJxX0ZVS2xxUjV3a3QyLXFpUFVjUGExQXZLbXFsVlk5XzlTSDVRR3dnSERJY3BZT1lVcnJuV2xnbTJzUlBQVXJGMEdGbGJTVVQ5S0Zkak5lMA?oc=5\" target=\"_blank\">Jinwon Life Sciences Recruits Dr. Ka Mutumani as Chief Scientific Development Officer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">아시아경제</font>"
+      },
+      "source": {
+        "href": "https://cm.asiae.co.kr",
+        "title": "아시아경제"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Edinson Cavani 'loves the way Facundo Pellistri plays' after pair sign for Manchester United - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Edinson Cavani 'loves the way Facundo Pellistri plays' after pair sign for Manchester United - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQMUx0YlV0Tjd4cXZ6N1ZXMXZVZXYyaDltSFBOZkh4UTk0N1hVZGxMdTBDX2VSdktoTlY1cmVsQmVPVExlcloyNEI3T3UtbWpqSExrUEE1cEFIbEZ6ZHlMX0N0UW1mUi1FWmlWX1hfX1NZWXlRMEg1M3g1NTUtNE1ZOHhseDJtaGFHY3dJQzBvbUF3dDJkRU1qMlN0SWtyMG9ENDVFWXF4Zkl2WkZzUHNseG5lUUxBR0V2VVVFdy1FYXh2cGtvWHZPT1JXcWxNbWU0d0Yzbm5YVlVSOUZHS1F4d9IB4AFBVV95cUxQMUx0YlV0Tjd4cXZ6N1ZXMXZVZXYyaDltSFBOZkh4UTk0N1hVZGxMdTBDX2VSdktoTlY1cmVsQmVPVExlcloyNEI3T3UtbWpqSExrUEE1cEFIbEZ6ZHlMX0N0UW1mUi1FWmlWX1hfX1NZWXlRMEg1M3g1NTUtNE1ZOHhseDJtaGFHY3dJQzBvbUF3dDJkRU1qMlN0SWtyMG9ENDVFWXF4Zkl2WkZzUHNseG5lUUxBR0V2VVVFdy1FYXh2cGtvWHZPT1JXcWxNbWU0d0Yzbm5YVlVSOUZHS1F4dw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQMUx0YlV0Tjd4cXZ6N1ZXMXZVZXYyaDltSFBOZkh4UTk0N1hVZGxMdTBDX2VSdktoTlY1cmVsQmVPVExlcloyNEI3T3UtbWpqSExrUEE1cEFIbEZ6ZHlMX0N0UW1mUi1FWmlWX1hfX1NZWXlRMEg1M3g1NTUtNE1ZOHhseDJtaGFHY3dJQzBvbUF3dDJkRU1qMlN0SWtyMG9ENDVFWXF4Zkl2WkZzUHNseG5lUUxBR0V2VVVFdy1FYXh2cGtvWHZPT1JXcWxNbWU0d0Yzbm5YVlVSOUZHS1F4d9IB4AFBVV95cUxQMUx0YlV0Tjd4cXZ6N1ZXMXZVZXYyaDltSFBOZkh4UTk0N1hVZGxMdTBDX2VSdktoTlY1cmVsQmVPVExlcloyNEI3T3UtbWpqSExrUEE1cEFIbEZ6ZHlMX0N0UW1mUi1FWmlWX1hfX1NZWXlRMEg1M3g1NTUtNE1ZOHhseDJtaGFHY3dJQzBvbUF3dDJkRU1qMlN0SWtyMG9ENDVFWXF4Zkl2WkZzUHNseG5lUUxBR0V2VVVFdy1FYXh2cGtvWHZPT1JXcWxNbWU0d0Yzbm5YVlVSOUZHS1F4dw?oc=5",
+      "id": "CBMi4AFBVV95cUxQMUx0YlV0Tjd4cXZ6N1ZXMXZVZXYyaDltSFBOZkh4UTk0N1hVZGxMdTBDX2VSdktoTlY1cmVsQmVPVExlcloyNEI3T3UtbWpqSExrUEE1cEFIbEZ6ZHlMX0N0UW1mUi1FWmlWX1hfX1NZWXlRMEg1M3g1NTUtNE1ZOHhseDJtaGFHY3dJQzBvbUF3dDJkRU1qMlN0SWtyMG9ENDVFWXF4Zkl2WkZzUHNseG5lUUxBR0V2VVVFdy1FYXh2cGtvWHZPT1JXcWxNbWU0d0Yzbm5YVlVSOUZHS1F4d9IB4AFBVV95cUxQMUx0YlV0Tjd4cXZ6N1ZXMXZVZXYyaDltSFBOZkh4UTk0N1hVZGxMdTBDX2VSdktoTlY1cmVsQmVPVExlcloyNEI3T3UtbWpqSExrUEE1cEFIbEZ6ZHlMX0N0UW1mUi1FWmlWX1hfX1NZWXlRMEg1M3g1NTUtNE1ZOHhseDJtaGFHY3dJQzBvbUF3dDJkRU1qMlN0SWtyMG9ENDVFWXF4Zkl2WkZzUHNseG5lUUxBR0V2VVVFdy1FYXh2cGtvWHZPT1JXcWxNbWU0d0Yzbm5YVlVSOUZHS1F4dw",
+      "guidislink": false,
+      "published": "Mon, 12 Oct 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        10,
+        12,
+        7,
+        0,
+        0,
+        0,
+        286,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi4AFBVV95cUxQMUx0YlV0Tjd4cXZ6N1ZXMXZVZXYyaDltSFBOZkh4UTk0N1hVZGxMdTBDX2VSdktoTlY1cmVsQmVPVExlcloyNEI3T3UtbWpqSExrUEE1cEFIbEZ6ZHlMX0N0UW1mUi1FWmlWX1hfX1NZWXlRMEg1M3g1NTUtNE1ZOHhseDJtaGFHY3dJQzBvbUF3dDJkRU1qMlN0SWtyMG9ENDVFWXF4Zkl2WkZzUHNseG5lUUxBR0V2VVVFdy1FYXh2cGtvWHZPT1JXcWxNbWU0d0Yzbm5YVlVSOUZHS1F4d9IB4AFBVV95cUxQMUx0YlV0Tjd4cXZ6N1ZXMXZVZXYyaDltSFBOZkh4UTk0N1hVZGxMdTBDX2VSdktoTlY1cmVsQmVPVExlcloyNEI3T3UtbWpqSExrUEE1cEFIbEZ6ZHlMX0N0UW1mUi1FWmlWX1hfX1NZWXlRMEg1M3g1NTUtNE1ZOHhseDJtaGFHY3dJQzBvbUF3dDJkRU1qMlN0SWtyMG9ENDVFWXF4Zkl2WkZzUHNseG5lUUxBR0V2VVVFdy1FYXh2cGtvWHZPT1JXcWxNbWU0d0Yzbm5YVlVSOUZHS1F4dw?oc=5\" target=\"_blank\">Edinson Cavani 'loves the way Facundo Pellistri plays' after pair sign for Manchester United</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi4AFBVV95cUxQMUx0YlV0Tjd4cXZ6N1ZXMXZVZXYyaDltSFBOZkh4UTk0N1hVZGxMdTBDX2VSdktoTlY1cmVsQmVPVExlcloyNEI3T3UtbWpqSExrUEE1cEFIbEZ6ZHlMX0N0UW1mUi1FWmlWX1hfX1NZWXlRMEg1M3g1NTUtNE1ZOHhseDJtaGFHY3dJQzBvbUF3dDJkRU1qMlN0SWtyMG9ENDVFWXF4Zkl2WkZzUHNseG5lUUxBR0V2VVVFdy1FYXh2cGtvWHZPT1JXcWxNbWU0d0Yzbm5YVlVSOUZHS1F4d9IB4AFBVV95cUxQMUx0YlV0Tjd4cXZ6N1ZXMXZVZXYyaDltSFBOZkh4UTk0N1hVZGxMdTBDX2VSdktoTlY1cmVsQmVPVExlcloyNEI3T3UtbWpqSExrUEE1cEFIbEZ6ZHlMX0N0UW1mUi1FWmlWX1hfX1NZWXlRMEg1M3g1NTUtNE1ZOHhseDJtaGFHY3dJQzBvbUF3dDJkRU1qMlN0SWtyMG9ENDVFWXF4Zkl2WkZzUHNseG5lUUxBR0V2VVVFdy1FYXh2cGtvWHZPT1JXcWxNbWU0d0Yzbm5YVlVSOUZHS1F4dw?oc=5\" target=\"_blank\">Edinson Cavani 'loves the way Facundo Pellistri plays' after pair sign for Manchester United</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "6 of the best Gold Coast chefs - Inside Gold Coast",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "6 of the best Gold Coast chefs - Inside Gold Coast"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE16dHJRbGFzUnlqeElTeV9PdVo3UURGaDE0c09CUWVqc0ZIZTJXM2lBS0JyMUNZMlZiTTFHV2JKMXZKVHlvdjRXNzRZQkd4cm1SZm56N2doWm5UZmZhWTZ5aw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE16dHJRbGFzUnlqeElTeV9PdVo3UURGaDE0c09CUWVqc0ZIZTJXM2lBS0JyMUNZMlZiTTFHV2JKMXZKVHlvdjRXNzRZQkd4cm1SZm56N2doWm5UZmZhWTZ5aw?oc=5",
+      "id": "CBMiYEFVX3lxTE16dHJRbGFzUnlqeElTeV9PdVo3UURGaDE0c09CUWVqc0ZIZTJXM2lBS0JyMUNZMlZiTTFHV2JKMXZKVHlvdjRXNzRZQkd4cm1SZm56N2doWm5UZmZhWTZ5aw",
+      "guidislink": false,
+      "published": "Wed, 14 Oct 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        10,
+        14,
+        7,
+        0,
+        0,
+        2,
+        288,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTE16dHJRbGFzUnlqeElTeV9PdVo3UURGaDE0c09CUWVqc0ZIZTJXM2lBS0JyMUNZMlZiTTFHV2JKMXZKVHlvdjRXNzRZQkd4cm1SZm56N2doWm5UZmZhWTZ5aw?oc=5\" target=\"_blank\">6 of the best Gold Coast chefs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Inside Gold Coast</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTE16dHJRbGFzUnlqeElTeV9PdVo3UURGaDE0c09CUWVqc0ZIZTJXM2lBS0JyMUNZMlZiTTFHV2JKMXZKVHlvdjRXNzRZQkd4cm1SZm56N2doWm5UZmZhWTZ5aw?oc=5\" target=\"_blank\">6 of the best Gold Coast chefs</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Inside Gold Coast</font>"
+      },
+      "source": {
+        "href": "https://www.insidegoldcoast.com.au",
+        "title": "Inside Gold Coast"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "'When City go for a centre forward, Calvert-Lewin NEEDS to be on that shortlist': says Shaun Goater - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "'When City go for a centre forward, Calvert-Lewin NEEDS to be on that shortlist': says Shaun Goater - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOUTZDVmVROExWNWNlSTZDU1JuZ2E0RlBDRVFmc3FjY3d4ZjRiTXhxdnVNNUNzcnh5Z2k0UnVVUWVUa1ppajdiU0JoS2xCZnlpVmZ4N1dSYkFySF8tc1RoZWh3VklEWmV4eEpaYTlsMUd0Tmx5VUszSXNLZlh2RHMzRDlDQ0J5ZkFkSlpqMzQtSlVxLXNTanRRYlFLdklVV21MbmdHMjN3amcxeGhPRWdrSzlLT3NkOGJPdlEwbFluM1FHX1VVeU4xX01xZHdSQ3FnSlFjNzFkSnM2cWxRUEV0S1ZNUUJWeXhIWE1jQU5vd2RSaFYxOFNGZDNVRWJHVnZ5TEp2YnFB0gGGAkFVX3lxTE5RNkNWZVE4TFY1Y2VJNkNTUm5nYTRGUENFUWZzcWNjd3hmNGJNeHF2dU01Q3NyeHlnaTRSdVVRZVRrWmlqN2JTQmhLbEJmeWlWZng3V1JiQXJIXy1zVGhlaHdWSURaZXh4SlphOWwxR3RObHlVSzNJc0tmWHZEczNEOUNDQnlmQWRKWmozNC1KVXEtc1NqdFFiUUt2SVVXbUxuZ0cyM3dqZzF4aE9FZ2tLOUtPc2Q4Yk92UTBsWW4zUUdfVVV5TjFfTXFkd1JDcWdKUWM3MWRKczZxbFFQRXRLVk1RQlZ5eEhYTWNBTm93ZFJoVjE4U0ZkM1VFYkdWdnlMSnZicUE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOUTZDVmVROExWNWNlSTZDU1JuZ2E0RlBDRVFmc3FjY3d4ZjRiTXhxdnVNNUNzcnh5Z2k0UnVVUWVUa1ppajdiU0JoS2xCZnlpVmZ4N1dSYkFySF8tc1RoZWh3VklEWmV4eEpaYTlsMUd0Tmx5VUszSXNLZlh2RHMzRDlDQ0J5ZkFkSlpqMzQtSlVxLXNTanRRYlFLdklVV21MbmdHMjN3amcxeGhPRWdrSzlLT3NkOGJPdlEwbFluM1FHX1VVeU4xX01xZHdSQ3FnSlFjNzFkSnM2cWxRUEV0S1ZNUUJWeXhIWE1jQU5vd2RSaFYxOFNGZDNVRWJHVnZ5TEp2YnFB0gGGAkFVX3lxTE5RNkNWZVE4TFY1Y2VJNkNTUm5nYTRGUENFUWZzcWNjd3hmNGJNeHF2dU01Q3NyeHlnaTRSdVVRZVRrWmlqN2JTQmhLbEJmeWlWZng3V1JiQXJIXy1zVGhlaHdWSURaZXh4SlphOWwxR3RObHlVSzNJc0tmWHZEczNEOUNDQnlmQWRKWmozNC1KVXEtc1NqdFFiUUt2SVVXbUxuZ0cyM3dqZzF4aE9FZ2tLOUtPc2Q4Yk92UTBsWW4zUUdfVVV5TjFfTXFkd1JDcWdKUWM3MWRKczZxbFFQRXRLVk1RQlZ5eEhYTWNBTm93ZFJoVjE4U0ZkM1VFYkdWdnlMSnZicUE?oc=5",
+      "id": "CBMihgJBVV95cUxOUTZDVmVROExWNWNlSTZDU1JuZ2E0RlBDRVFmc3FjY3d4ZjRiTXhxdnVNNUNzcnh5Z2k0UnVVUWVUa1ppajdiU0JoS2xCZnlpVmZ4N1dSYkFySF8tc1RoZWh3VklEWmV4eEpaYTlsMUd0Tmx5VUszSXNLZlh2RHMzRDlDQ0J5ZkFkSlpqMzQtSlVxLXNTanRRYlFLdklVV21MbmdHMjN3amcxeGhPRWdrSzlLT3NkOGJPdlEwbFluM1FHX1VVeU4xX01xZHdSQ3FnSlFjNzFkSnM2cWxRUEV0S1ZNUUJWeXhIWE1jQU5vd2RSaFYxOFNGZDNVRWJHVnZ5TEp2YnFB0gGGAkFVX3lxTE5RNkNWZVE4TFY1Y2VJNkNTUm5nYTRGUENFUWZzcWNjd3hmNGJNeHF2dU01Q3NyeHlnaTRSdVVRZVRrWmlqN2JTQmhLbEJmeWlWZng3V1JiQXJIXy1zVGhlaHdWSURaZXh4SlphOWwxR3RObHlVSzNJc0tmWHZEczNEOUNDQnlmQWRKWmozNC1KVXEtc1NqdFFiUUt2SVVXbUxuZ0cyM3dqZzF4aE9FZ2tLOUtPc2Q4Yk92UTBsWW4zUUdfVVV5TjFfTXFkd1JDcWdKUWM3MWRKczZxbFFQRXRLVk1RQlZ5eEhYTWNBTm93ZFJoVjE4U0ZkM1VFYkdWdnlMSnZicUE",
+      "guidislink": false,
+      "published": "Fri, 09 Oct 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        10,
+        9,
+        7,
+        0,
+        0,
+        4,
+        283,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihgJBVV95cUxOUTZDVmVROExWNWNlSTZDU1JuZ2E0RlBDRVFmc3FjY3d4ZjRiTXhxdnVNNUNzcnh5Z2k0UnVVUWVUa1ppajdiU0JoS2xCZnlpVmZ4N1dSYkFySF8tc1RoZWh3VklEWmV4eEpaYTlsMUd0Tmx5VUszSXNLZlh2RHMzRDlDQ0J5ZkFkSlpqMzQtSlVxLXNTanRRYlFLdklVV21MbmdHMjN3amcxeGhPRWdrSzlLT3NkOGJPdlEwbFluM1FHX1VVeU4xX01xZHdSQ3FnSlFjNzFkSnM2cWxRUEV0S1ZNUUJWeXhIWE1jQU5vd2RSaFYxOFNGZDNVRWJHVnZ5TEp2YnFB0gGGAkFVX3lxTE5RNkNWZVE4TFY1Y2VJNkNTUm5nYTRGUENFUWZzcWNjd3hmNGJNeHF2dU01Q3NyeHlnaTRSdVVRZVRrWmlqN2JTQmhLbEJmeWlWZng3V1JiQXJIXy1zVGhlaHdWSURaZXh4SlphOWwxR3RObHlVSzNJc0tmWHZEczNEOUNDQnlmQWRKWmozNC1KVXEtc1NqdFFiUUt2SVVXbUxuZ0cyM3dqZzF4aE9FZ2tLOUtPc2Q4Yk92UTBsWW4zUUdfVVV5TjFfTXFkd1JDcWdKUWM3MWRKczZxbFFQRXRLVk1RQlZ5eEhYTWNBTm93ZFJoVjE4U0ZkM1VFYkdWdnlMSnZicUE?oc=5\" target=\"_blank\">'When City go for a centre forward, Calvert-Lewin NEEDS to be on that shortlist': says Shaun Goater</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMihgJBVV95cUxOUTZDVmVROExWNWNlSTZDU1JuZ2E0RlBDRVFmc3FjY3d4ZjRiTXhxdnVNNUNzcnh5Z2k0UnVVUWVUa1ppajdiU0JoS2xCZnlpVmZ4N1dSYkFySF8tc1RoZWh3VklEWmV4eEpaYTlsMUd0Tmx5VUszSXNLZlh2RHMzRDlDQ0J5ZkFkSlpqMzQtSlVxLXNTanRRYlFLdklVV21MbmdHMjN3amcxeGhPRWdrSzlLT3NkOGJPdlEwbFluM1FHX1VVeU4xX01xZHdSQ3FnSlFjNzFkSnM2cWxRUEV0S1ZNUUJWeXhIWE1jQU5vd2RSaFYxOFNGZDNVRWJHVnZ5TEp2YnFB0gGGAkFVX3lxTE5RNkNWZVE4TFY1Y2VJNkNTUm5nYTRGUENFUWZzcWNjd3hmNGJNeHF2dU01Q3NyeHlnaTRSdVVRZVRrWmlqN2JTQmhLbEJmeWlWZng3V1JiQXJIXy1zVGhlaHdWSURaZXh4SlphOWwxR3RObHlVSzNJc0tmWHZEczNEOUNDQnlmQWRKWmozNC1KVXEtc1NqdFFiUUt2SVVXbUxuZ0cyM3dqZzF4aE9FZ2tLOUtPc2Q4Yk92UTBsWW4zUUdfVVV5TjFfTXFkd1JDcWdKUWM3MWRKczZxbFFQRXRLVk1RQlZ5eEhYTWNBTm93ZFJoVjE4U0ZkM1VFYkdWdnlMSnZicUE?oc=5\" target=\"_blank\">'When City go for a centre forward, Calvert-Lewin NEEDS to be on that shortlist': says Shaun Goater</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Poland tightens abortion laws: Protestors and riot police clash - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Poland tightens abortion laws: Protestors and riot police clash - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOFFtelpLMFRWdTB1S0dKSHBPaWhfT1Z6SHJaTGlHMlFYc2k1OUhCZm9nMUhxcGVSX2VTMjllTEF4bVZ6Sm5zdGVqdW1fQnBuaDdHc0dTUzd3cGx5YXV2elFGcFBUdGZOb2VWaDEyXzNQNXhXdFpxcTVSbXpQRUF4TVhHNDF5cFNCX0ZUdFNDLXhkM0hTdm5vNWpYYkpXTi1DSlZ4UUlZaFV2ZmxYRzF2TjJMY2JyYTRPV1lJc3M2ZjBXeUXSAcMBQVVfeXFMUDhRbXpaSzBUVnUwdUtHSkhwT2loX09WekhyWkxpRzJRWHNpNTlIQmZvZzFIcXBlUl9lUzI5ZUxBeG1Wekpuc3RlanVtX0Jwbmg3R3NHU1M3d3BseWF1dnpRRnBQVHRmTm9lVmgxMl8zUDV4V3RacXE1Um16UEVBeE1YRzQxeXBTQl9GVHRTQy14ZDNIU3ZubzVqWGJKV04tQ0pWeFFJWWhVdmZsWEcxdk4yTGNicmE0T1dZSXNzNmYwV3lF?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOFFtelpLMFRWdTB1S0dKSHBPaWhfT1Z6SHJaTGlHMlFYc2k1OUhCZm9nMUhxcGVSX2VTMjllTEF4bVZ6Sm5zdGVqdW1fQnBuaDdHc0dTUzd3cGx5YXV2elFGcFBUdGZOb2VWaDEyXzNQNXhXdFpxcTVSbXpQRUF4TVhHNDF5cFNCX0ZUdFNDLXhkM0hTdm5vNWpYYkpXTi1DSlZ4UUlZaFV2ZmxYRzF2TjJMY2JyYTRPV1lJc3M2ZjBXeUXSAcMBQVVfeXFMUDhRbXpaSzBUVnUwdUtHSkhwT2loX09WekhyWkxpRzJRWHNpNTlIQmZvZzFIcXBlUl9lUzI5ZUxBeG1Wekpuc3RlanVtX0Jwbmg3R3NHU1M3d3BseWF1dnpRRnBQVHRmTm9lVmgxMl8zUDV4V3RacXE1Um16UEVBeE1YRzQxeXBTQl9GVHRTQy14ZDNIU3ZubzVqWGJKV04tQ0pWeFFJWWhVdmZsWEcxdk4yTGNicmE0T1dZSXNzNmYwV3lF?oc=5",
+      "id": "CBMiwwFBVV95cUxQOFFtelpLMFRWdTB1S0dKSHBPaWhfT1Z6SHJaTGlHMlFYc2k1OUhCZm9nMUhxcGVSX2VTMjllTEF4bVZ6Sm5zdGVqdW1fQnBuaDdHc0dTUzd3cGx5YXV2elFGcFBUdGZOb2VWaDEyXzNQNXhXdFpxcTVSbXpQRUF4TVhHNDF5cFNCX0ZUdFNDLXhkM0hTdm5vNWpYYkpXTi1DSlZ4UUlZaFV2ZmxYRzF2TjJMY2JyYTRPV1lJc3M2ZjBXeUXSAcMBQVVfeXFMUDhRbXpaSzBUVnUwdUtHSkhwT2loX09WekhyWkxpRzJRWHNpNTlIQmZvZzFIcXBlUl9lUzI5ZUxBeG1Wekpuc3RlanVtX0Jwbmg3R3NHU1M3d3BseWF1dnpRRnBQVHRmTm9lVmgxMl8zUDV4V3RacXE1Um16UEVBeE1YRzQxeXBTQl9GVHRTQy14ZDNIU3ZubzVqWGJKV04tQ0pWeFFJWWhVdmZsWEcxdk4yTGNicmE0T1dZSXNzNmYwV3lF",
+      "guidislink": false,
+      "published": "Fri, 23 Oct 2020 07:00:00 GMT",
+      "published_parsed": [
+        2020,
+        10,
+        23,
+        7,
+        0,
+        0,
+        4,
+        297,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOFFtelpLMFRWdTB1S0dKSHBPaWhfT1Z6SHJaTGlHMlFYc2k1OUhCZm9nMUhxcGVSX2VTMjllTEF4bVZ6Sm5zdGVqdW1fQnBuaDdHc0dTUzd3cGx5YXV2elFGcFBUdGZOb2VWaDEyXzNQNXhXdFpxcTVSbXpQRUF4TVhHNDF5cFNCX0ZUdFNDLXhkM0hTdm5vNWpYYkpXTi1DSlZ4UUlZaFV2ZmxYRzF2TjJMY2JyYTRPV1lJc3M2ZjBXeUXSAcMBQVVfeXFMUDhRbXpaSzBUVnUwdUtHSkhwT2loX09WekhyWkxpRzJRWHNpNTlIQmZvZzFIcXBlUl9lUzI5ZUxBeG1Wekpuc3RlanVtX0Jwbmg3R3NHU1M3d3BseWF1dnpRRnBQVHRmTm9lVmgxMl8zUDV4V3RacXE1Um16UEVBeE1YRzQxeXBTQl9GVHRTQy14ZDNIU3ZubzVqWGJKV04tQ0pWeFFJWWhVdmZsWEcxdk4yTGNicmE0T1dZSXNzNmYwV3lF?oc=5\" target=\"_blank\">Poland tightens abortion laws: Protestors and riot police clash</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOFFtelpLMFRWdTB1S0dKSHBPaWhfT1Z6SHJaTGlHMlFYc2k1OUhCZm9nMUhxcGVSX2VTMjllTEF4bVZ6Sm5zdGVqdW1fQnBuaDdHc0dTUzd3cGx5YXV2elFGcFBUdGZOb2VWaDEyXzNQNXhXdFpxcTVSbXpQRUF4TVhHNDF5cFNCX0ZUdFNDLXhkM0hTdm5vNWpYYkpXTi1DSlZ4UUlZaFV2ZmxYRzF2TjJMY2JyYTRPV1lJc3M2ZjBXeUXSAcMBQVVfeXFMUDhRbXpaSzBUVnUwdUtHSkhwT2loX09WekhyWkxpRzJRWHNpNTlIQmZvZzFIcXBlUl9lUzI5ZUxBeG1Wekpuc3RlanVtX0Jwbmg3R3NHU1M3d3BseWF1dnpRRnBQVHRmTm9lVmgxMl8zUDV4V3RacXE1Um16UEVBeE1YRzQxeXBTQl9GVHRTQy14ZDNIU3ZubzVqWGJKV04tQ0pWeFFJWWhVdmZsWEcxdk4yTGNicmE0T1dZSXNzNmYwV3lF?oc=5\" target=\"_blank\">Poland tightens abortion laws: Protestors and riot police clash</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    }
+  ]
+}

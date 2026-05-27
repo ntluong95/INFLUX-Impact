@@ -1,0 +1,951 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2023-04-21",
+  "window_end": "2023-05-04",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2023-04-21+before%3A2023-05-05&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2023-04-21+before:2023-05-05&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:30:03Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2023-04-21 before:2023-05-05\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2023-04-21 before:2023-05-05\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2023-04-21+before:2023-05-05&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2023-04-21+before:2023-05-05&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:30:03 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      30,
+      3,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Risk of adverse pregnancy and infant outcomes associated with prenatal Zika virus infection: a post-epidemic cohort in Central-West Brazil - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Risk of adverse pregnancy and infant outcomes associated with prenatal Zika virus infection: a post-epidemic cohort in Central-West Brazil - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1KMUhHMm5JTGkzT3ByaWQ0c29hQkxOeVo2aGxtMGxPcHNyZUs4ei1RaHNocVJqV19LZ0o5Q2dtRjYxVDNIbW9xXzhzUWI1eS1HMnA4cXVOUkN2TWJ3SEQw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1KMUhHMm5JTGkzT3ByaWQ0c29hQkxOeVo2aGxtMGxPcHNyZUs4ei1RaHNocVJqV19LZ0o5Q2dtRjYxVDNIbW9xXzhzUWI1eS1HMnA4cXVOUkN2TWJ3SEQw?oc=5",
+      "id": "CBMiX0FVX3lxTE1KMUhHMm5JTGkzT3ByaWQ0c29hQkxOeVo2aGxtMGxPcHNyZUs4ei1RaHNocVJqV19LZ0o5Q2dtRjYxVDNIbW9xXzhzUWI1eS1HMnA4cXVOUkN2TWJ3SEQw",
+      "guidislink": false,
+      "published": "Fri, 05 May 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        5,
+        5,
+        7,
+        0,
+        0,
+        4,
+        125,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1KMUhHMm5JTGkzT3ByaWQ0c29hQkxOeVo2aGxtMGxPcHNyZUs4ei1RaHNocVJqV19LZ0o5Q2dtRjYxVDNIbW9xXzhzUWI1eS1HMnA4cXVOUkN2TWJ3SEQw?oc=5\" target=\"_blank\">Risk of adverse pregnancy and infant outcomes associated with prenatal Zika virus infection: a post-epidemic cohort in Central-West Brazil</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1KMUhHMm5JTGkzT3ByaWQ0c29hQkxOeVo2aGxtMGxPcHNyZUs4ei1RaHNocVJqV19LZ0o5Q2dtRjYxVDNIbW9xXzhzUWI1eS1HMnA4cXVOUkN2TWJ3SEQw?oc=5\" target=\"_blank\">Risk of adverse pregnancy and infant outcomes associated with prenatal Zika virus infection: a post-epidemic cohort in Central-West Brazil</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Broadly Neutralizing Antibody Could Lead to Zika Vaccines - Vax-Before-Travel",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Broadly Neutralizing Antibody Could Lead to Zika Vaccines - Vax-Before-Travel"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdDdlaEdUSlhmYzJ3YzE3c1RTU0cyTnJTUmRyX2lqeHM2X1pUSENvN3hlNXBoMXQ4YjBYTDl1WFJNYVFpVFZNc25mUVNJdXo0bEVtWk5SOGk0OTZRRnlYS0J3bnJldjE3enhyVW1VeEhQWndQcjI1SmlTdWZYZF9nNkpDSTgzWk1VMHFQSUFxWFl0QQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdDdlaEdUSlhmYzJ3YzE3c1RTU0cyTnJTUmRyX2lqeHM2X1pUSENvN3hlNXBoMXQ4YjBYTDl1WFJNYVFpVFZNc25mUVNJdXo0bEVtWk5SOGk0OTZRRnlYS0J3bnJldjE3enhyVW1VeEhQWndQcjI1SmlTdWZYZF9nNkpDSTgzWk1VMHFQSUFxWFl0QQ?oc=5",
+      "id": "CBMikgFBVV95cUxQdDdlaEdUSlhmYzJ3YzE3c1RTU0cyTnJTUmRyX2lqeHM2X1pUSENvN3hlNXBoMXQ4YjBYTDl1WFJNYVFpVFZNc25mUVNJdXo0bEVtWk5SOGk0OTZRRnlYS0J3bnJldjE3enhyVW1VeEhQWndQcjI1SmlTdWZYZF9nNkpDSTgzWk1VMHFQSUFxWFl0QQ",
+      "guidislink": false,
+      "published": "Thu, 27 Apr 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        4,
+        27,
+        7,
+        0,
+        0,
+        3,
+        117,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxQdDdlaEdUSlhmYzJ3YzE3c1RTU0cyTnJTUmRyX2lqeHM2X1pUSENvN3hlNXBoMXQ4YjBYTDl1WFJNYVFpVFZNc25mUVNJdXo0bEVtWk5SOGk0OTZRRnlYS0J3bnJldjE3enhyVW1VeEhQWndQcjI1SmlTdWZYZF9nNkpDSTgzWk1VMHFQSUFxWFl0QQ?oc=5\" target=\"_blank\">Broadly Neutralizing Antibody Could Lead to Zika Vaccines</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vax-Before-Travel</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxQdDdlaEdUSlhmYzJ3YzE3c1RTU0cyTnJTUmRyX2lqeHM2X1pUSENvN3hlNXBoMXQ4YjBYTDl1WFJNYVFpVFZNc25mUVNJdXo0bEVtWk5SOGk0OTZRRnlYS0J3bnJldjE3enhyVW1VeEhQWndQcjI1SmlTdWZYZF9nNkpDSTgzWk1VMHFQSUFxWFl0QQ?oc=5\" target=\"_blank\">Broadly Neutralizing Antibody Could Lead to Zika Vaccines</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Vax-Before-Travel</font>"
+      },
+      "source": {
+        "href": "https://www.vax-before-travel.com",
+        "title": "Vax-Before-Travel"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Single-cell RNA sequencing reveals the fragility of male spermatogenic cells to Zika virus-induced complement activation - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Single-cell RNA sequencing reveals the fragility of male spermatogenic cells to Zika virus-induced complement activation - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBRUFA3eVAweTNlUlZramNWbzAwZlREQjh3OW9iTFlCbmhyVWhSX3lvcEpPZmVBNjI1YjQ5ei15RlNKYkVwWG1icUpyUkl1WWJESFZkQ1JrbmVkbDl2SzZB?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBRUFA3eVAweTNlUlZramNWbzAwZlREQjh3OW9iTFlCbmhyVWhSX3lvcEpPZmVBNjI1YjQ5ei15RlNKYkVwWG1icUpyUkl1WWJESFZkQ1JrbmVkbDl2SzZB?oc=5",
+      "id": "CBMiX0FVX3lxTFBRUFA3eVAweTNlUlZramNWbzAwZlREQjh3OW9iTFlCbmhyVWhSX3lvcEpPZmVBNjI1YjQ5ei15RlNKYkVwWG1icUpyUkl1WWJESFZkQ1JrbmVkbDl2SzZB",
+      "guidislink": false,
+      "published": "Sat, 29 Apr 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        4,
+        29,
+        7,
+        0,
+        0,
+        5,
+        119,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFBRUFA3eVAweTNlUlZramNWbzAwZlREQjh3OW9iTFlCbmhyVWhSX3lvcEpPZmVBNjI1YjQ5ei15RlNKYkVwWG1icUpyUkl1WWJESFZkQ1JrbmVkbDl2SzZB?oc=5\" target=\"_blank\">Single-cell RNA sequencing reveals the fragility of male spermatogenic cells to Zika virus-induced complement activation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFBRUFA3eVAweTNlUlZramNWbzAwZlREQjh3OW9iTFlCbmhyVWhSX3lvcEpPZmVBNjI1YjQ5ei15RlNKYkVwWG1icUpyUkl1WWJESFZkQ1JrbmVkbDl2SzZB?oc=5\" target=\"_blank\">Single-cell RNA sequencing reveals the fragility of male spermatogenic cells to Zika virus-induced complement activation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Liverpool begins first human trial of new Zika vaccine - University of Liverpool",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Liverpool begins first human trial of new Zika vaccine - University of Liverpool"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPLUsxWE01ajdLZm1nZXllbVRNWVQ3elkwZ0doZmZuakFGUHB4ZXJISV9jMXk0ZXFqYk0xTjZaeHVXQUV2RXYtZFB0YU1DcGlBeEFCZGtZcVJ3YjBtZXJRYkZCd3JXR1BrRi12bGxoRTBtb0RhYjNFWkVtd1hUb3hwUGNvMmVVYktUOENaQWdNakgyUC0yaG4xOUlFMA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPLUsxWE01ajdLZm1nZXllbVRNWVQ3elkwZ0doZmZuakFGUHB4ZXJISV9jMXk0ZXFqYk0xTjZaeHVXQUV2RXYtZFB0YU1DcGlBeEFCZGtZcVJ3YjBtZXJRYkZCd3JXR1BrRi12bGxoRTBtb0RhYjNFWkVtd1hUb3hwUGNvMmVVYktUOENaQWdNakgyUC0yaG4xOUlFMA?oc=5",
+      "id": "CBMimwFBVV95cUxPLUsxWE01ajdLZm1nZXllbVRNWVQ3elkwZ0doZmZuakFGUHB4ZXJISV9jMXk0ZXFqYk0xTjZaeHVXQUV2RXYtZFB0YU1DcGlBeEFCZGtZcVJ3YjBtZXJRYkZCd3JXR1BrRi12bGxoRTBtb0RhYjNFWkVtd1hUb3hwUGNvMmVVYktUOENaQWdNakgyUC0yaG4xOUlFMA",
+      "guidislink": false,
+      "published": "Wed, 26 Apr 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        4,
+        26,
+        7,
+        0,
+        0,
+        2,
+        116,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxPLUsxWE01ajdLZm1nZXllbVRNWVQ3elkwZ0doZmZuakFGUHB4ZXJISV9jMXk0ZXFqYk0xTjZaeHVXQUV2RXYtZFB0YU1DcGlBeEFCZGtZcVJ3YjBtZXJRYkZCd3JXR1BrRi12bGxoRTBtb0RhYjNFWkVtd1hUb3hwUGNvMmVVYktUOENaQWdNakgyUC0yaG4xOUlFMA?oc=5\" target=\"_blank\">Liverpool begins first human trial of new Zika vaccine</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of Liverpool</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxPLUsxWE01ajdLZm1nZXllbVRNWVQ3elkwZ0doZmZuakFGUHB4ZXJISV9jMXk0ZXFqYk0xTjZaeHVXQUV2RXYtZFB0YU1DcGlBeEFCZGtZcVJ3YjBtZXJRYkZCd3JXR1BrRi12bGxoRTBtb0RhYjNFWkVtd1hUb3hwUGNvMmVVYktUOENaQWdNakgyUC0yaG4xOUlFMA?oc=5\" target=\"_blank\">Liverpool begins first human trial of new Zika vaccine</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of Liverpool</font>"
+      },
+      "source": {
+        "href": "https://news.liverpool.ac.uk",
+        "title": "University of Liverpool"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Finding a way to harness NK cells for cancer - Boston Children's Answers",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Finding a way to harness NK cells for cancer - Boston Children's Answers"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1DczhPakYzYTJLZTNhR1cxNzNSSjlvaEVEa2Fic0RBMjE1c0dDWXdsRG1IUjhjOFdreFB0WWh1RnctSHZ0c0dpNGtXNF81Rjk5WGYxODNSTjFwUUd3cHcxdi1pSks?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1DczhPakYzYTJLZTNhR1cxNzNSSjlvaEVEa2Fic0RBMjE1c0dDWXdsRG1IUjhjOFdreFB0WWh1RnctSHZ0c0dpNGtXNF81Rjk5WGYxODNSTjFwUUd3cHcxdi1pSks?oc=5",
+      "id": "CBMiZEFVX3lxTE1DczhPakYzYTJLZTNhR1cxNzNSSjlvaEVEa2Fic0RBMjE1c0dDWXdsRG1IUjhjOFdreFB0WWh1RnctSHZ0c0dpNGtXNF81Rjk5WGYxODNSTjFwUUd3cHcxdi1pSks",
+      "guidislink": false,
+      "published": "Mon, 01 May 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        5,
+        1,
+        7,
+        0,
+        0,
+        0,
+        121,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZEFVX3lxTE1DczhPakYzYTJLZTNhR1cxNzNSSjlvaEVEa2Fic0RBMjE1c0dDWXdsRG1IUjhjOFdreFB0WWh1RnctSHZ0c0dpNGtXNF81Rjk5WGYxODNSTjFwUUd3cHcxdi1pSks?oc=5\" target=\"_blank\">Finding a way to harness NK cells for cancer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Boston Children's Answers</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiZEFVX3lxTE1DczhPakYzYTJLZTNhR1cxNzNSSjlvaEVEa2Fic0RBMjE1c0dDWXdsRG1IUjhjOFdreFB0WWh1RnctSHZ0c0dpNGtXNF81Rjk5WGYxODNSTjFwUUd3cHcxdi1pSks?oc=5\" target=\"_blank\">Finding a way to harness NK cells for cancer</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Boston Children's Answers</font>"
+      },
+      "source": {
+        "href": "https://answers.childrenshospital.org",
+        "title": "Boston Children's Answers"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Mosquito surveillance season is underway - Southern Nevada Health District",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Mosquito surveillance season is underway - Southern Nevada Health District"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSDJtU2VJWGJQNEdrN2RTOF9PXzFrNWVhMml1ZjRSUVVsMUFmZl9ja3ptakJucUdxcXI4a3pHYVUxQ3RUMVI0NXFnWnFrTFctLUJjamxkbmoxSTVjYVYyTFltSlBDYkw3WFBKWjZQOHZqLWJ2ZVpJTENFZ1hVRE5LaGxfbHMyUURTbE9QcjEwQQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSDJtU2VJWGJQNEdrN2RTOF9PXzFrNWVhMml1ZjRSUVVsMUFmZl9ja3ptakJucUdxcXI4a3pHYVUxQ3RUMVI0NXFnWnFrTFctLUJjamxkbmoxSTVjYVYyTFltSlBDYkw3WFBKWjZQOHZqLWJ2ZVpJTENFZ1hVRE5LaGxfbHMyUURTbE9QcjEwQQ?oc=5",
+      "id": "CBMijwFBVV95cUxNSDJtU2VJWGJQNEdrN2RTOF9PXzFrNWVhMml1ZjRSUVVsMUFmZl9ja3ptakJucUdxcXI4a3pHYVUxQ3RUMVI0NXFnWnFrTFctLUJjamxkbmoxSTVjYVYyTFltSlBDYkw3WFBKWjZQOHZqLWJ2ZVpJTENFZ1hVRE5LaGxfbHMyUURTbE9QcjEwQQ",
+      "guidislink": false,
+      "published": "Fri, 05 May 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        5,
+        5,
+        7,
+        0,
+        0,
+        4,
+        125,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxNSDJtU2VJWGJQNEdrN2RTOF9PXzFrNWVhMml1ZjRSUVVsMUFmZl9ja3ptakJucUdxcXI4a3pHYVUxQ3RUMVI0NXFnWnFrTFctLUJjamxkbmoxSTVjYVYyTFltSlBDYkw3WFBKWjZQOHZqLWJ2ZVpJTENFZ1hVRE5LaGxfbHMyUURTbE9QcjEwQQ?oc=5\" target=\"_blank\">Mosquito surveillance season is underway</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Southern Nevada Health District</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxNSDJtU2VJWGJQNEdrN2RTOF9PXzFrNWVhMml1ZjRSUVVsMUFmZl9ja3ptakJucUdxcXI4a3pHYVUxQ3RUMVI0NXFnWnFrTFctLUJjamxkbmoxSTVjYVYyTFltSlBDYkw3WFBKWjZQOHZqLWJ2ZVpJTENFZ1hVRE5LaGxfbHMyUURTbE9QcjEwQQ?oc=5\" target=\"_blank\">Mosquito surveillance season is underway</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Southern Nevada Health District</font>"
+      },
+      "source": {
+        "href": "https://www.southernnevadahealthdistrict.org",
+        "title": "Southern Nevada Health District"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Four reasons disease-carrying mosquitoes could be spreading to a car tyre near you - Gavi, the Vaccine Alliance",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Four reasons disease-carrying mosquitoes could be spreading to a car tyre near you - Gavi, the Vaccine Alliance"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNS01IM3dTSHBma1RKUmY2bktSODI1OEl0ZnFZMmxKbjAzN0plcXdqSndnbE5oNm1adnJvU2dOUlFQZUZ6TVM5WHdDQ3hZbmtteDJvVlRTd09mTmZHYWNlVTFNbm5UMEJxU3RzdUlOb0RiV0hNa2JJYkxuWTdGUXg1Y0xNSDlBSGU3YzhzY3J2UDY2LUdZWlloaXAyaWVZcV8yOGRKYWJYblNWSlZuWS1Mcg?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNS01IM3dTSHBma1RKUmY2bktSODI1OEl0ZnFZMmxKbjAzN0plcXdqSndnbE5oNm1adnJvU2dOUlFQZUZ6TVM5WHdDQ3hZbmtteDJvVlRTd09mTmZHYWNlVTFNbm5UMEJxU3RzdUlOb0RiV0hNa2JJYkxuWTdGUXg1Y0xNSDlBSGU3YzhzY3J2UDY2LUdZWlloaXAyaWVZcV8yOGRKYWJYblNWSlZuWS1Mcg?oc=5",
+      "id": "CBMisAFBVV95cUxNS01IM3dTSHBma1RKUmY2bktSODI1OEl0ZnFZMmxKbjAzN0plcXdqSndnbE5oNm1adnJvU2dOUlFQZUZ6TVM5WHdDQ3hZbmtteDJvVlRTd09mTmZHYWNlVTFNbm5UMEJxU3RzdUlOb0RiV0hNa2JJYkxuWTdGUXg1Y0xNSDlBSGU3YzhzY3J2UDY2LUdZWlloaXAyaWVZcV8yOGRKYWJYblNWSlZuWS1Mcg",
+      "guidislink": false,
+      "published": "Thu, 04 May 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        5,
+        4,
+        7,
+        0,
+        0,
+        3,
+        124,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxNS01IM3dTSHBma1RKUmY2bktSODI1OEl0ZnFZMmxKbjAzN0plcXdqSndnbE5oNm1adnJvU2dOUlFQZUZ6TVM5WHdDQ3hZbmtteDJvVlRTd09mTmZHYWNlVTFNbm5UMEJxU3RzdUlOb0RiV0hNa2JJYkxuWTdGUXg1Y0xNSDlBSGU3YzhzY3J2UDY2LUdZWlloaXAyaWVZcV8yOGRKYWJYblNWSlZuWS1Mcg?oc=5\" target=\"_blank\">Four reasons disease-carrying mosquitoes could be spreading to a car tyre near you</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Gavi, the Vaccine Alliance</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxNS01IM3dTSHBma1RKUmY2bktSODI1OEl0ZnFZMmxKbjAzN0plcXdqSndnbE5oNm1adnJvU2dOUlFQZUZ6TVM5WHdDQ3hZbmtteDJvVlRTd09mTmZHYWNlVTFNbm5UMEJxU3RzdUlOb0RiV0hNa2JJYkxuWTdGUXg1Y0xNSDlBSGU3YzhzY3J2UDY2LUdZWlloaXAyaWVZcV8yOGRKYWJYblNWSlZuWS1Mcg?oc=5\" target=\"_blank\">Four reasons disease-carrying mosquitoes could be spreading to a car tyre near you</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Gavi, the Vaccine Alliance</font>"
+      },
+      "source": {
+        "href": "https://www.gavi.org",
+        "title": "Gavi, the Vaccine Alliance"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Broad-Spectrum Antivirals Could Stop Pandemics - Inside Precision Medicine",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Broad-Spectrum Antivirals Could Stop Pandemics - Inside Precision Medicine"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQazVrSGZyUkhHMkVtbDhQTVlmY3ZkUnlIeFVNeHRVbjZvZC1CSkpwMzg3WWo4ZGcxNG1oeDhQY05Lbll6Mm1BOTFfYTBxX2hRVmUtbDZmQ2dIWVhfdWdab251N0FsaXA4VWZkSWhBQy1wOEdlNDQ0WktzYjNoTmxfbXlKVFBadVlKSVRjWjUzUnkwcDV1LWdYbGNqakNvdV83eVY5bm9mYnc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQazVrSGZyUkhHMkVtbDhQTVlmY3ZkUnlIeFVNeHRVbjZvZC1CSkpwMzg3WWo4ZGcxNG1oeDhQY05Lbll6Mm1BOTFfYTBxX2hRVmUtbDZmQ2dIWVhfdWdab251N0FsaXA4VWZkSWhBQy1wOEdlNDQ0WktzYjNoTmxfbXlKVFBadVlKSVRjWjUzUnkwcDV1LWdYbGNqakNvdV83eVY5bm9mYnc?oc=5",
+      "id": "CBMiqAFBVV95cUxQazVrSGZyUkhHMkVtbDhQTVlmY3ZkUnlIeFVNeHRVbjZvZC1CSkpwMzg3WWo4ZGcxNG1oeDhQY05Lbll6Mm1BOTFfYTBxX2hRVmUtbDZmQ2dIWVhfdWdab251N0FsaXA4VWZkSWhBQy1wOEdlNDQ0WktzYjNoTmxfbXlKVFBadVlKSVRjWjUzUnkwcDV1LWdYbGNqakNvdV83eVY5bm9mYnc",
+      "guidislink": false,
+      "published": "Fri, 28 Apr 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        4,
+        28,
+        7,
+        0,
+        0,
+        4,
+        118,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxQazVrSGZyUkhHMkVtbDhQTVlmY3ZkUnlIeFVNeHRVbjZvZC1CSkpwMzg3WWo4ZGcxNG1oeDhQY05Lbll6Mm1BOTFfYTBxX2hRVmUtbDZmQ2dIWVhfdWdab251N0FsaXA4VWZkSWhBQy1wOEdlNDQ0WktzYjNoTmxfbXlKVFBadVlKSVRjWjUzUnkwcDV1LWdYbGNqakNvdV83eVY5bm9mYnc?oc=5\" target=\"_blank\">Broad-Spectrum Antivirals Could Stop Pandemics</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Inside Precision Medicine</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxQazVrSGZyUkhHMkVtbDhQTVlmY3ZkUnlIeFVNeHRVbjZvZC1CSkpwMzg3WWo4ZGcxNG1oeDhQY05Lbll6Mm1BOTFfYTBxX2hRVmUtbDZmQ2dIWVhfdWdab251N0FsaXA4VWZkSWhBQy1wOEdlNDQ0WktzYjNoTmxfbXlKVFBadVlKSVRjWjUzUnkwcDV1LWdYbGNqakNvdV83eVY5bm9mYnc?oc=5\" target=\"_blank\">Broad-Spectrum Antivirals Could Stop Pandemics</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Inside Precision Medicine</font>"
+      },
+      "source": {
+        "href": "https://www.insideprecisionmedicine.com",
+        "title": "Inside Precision Medicine"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Floods, Warm Temperatures Promote Mosquito Production - Pest Control Technology",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Floods, Warm Temperatures Promote Mosquito Production - Pest Control Technology"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTGwzN2dVbU9LN0lwMmpUdWNPM0ZNd2lsX0lNdUNXWEQ0SVV1TkFFcm12WnRrTnRDZTVtcFNjQTlMcl9iUEptWldlZDB0ZU5PMEZUNkNkcWd2RWp3aUtNeWtMbGtIMmxHU2xXV0VXeVRic3RVX1lJcnVwRlI4SFVBd3pnSjdVMjFyOXRmSg?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTGwzN2dVbU9LN0lwMmpUdWNPM0ZNd2lsX0lNdUNXWEQ0SVV1TkFFcm12WnRrTnRDZTVtcFNjQTlMcl9iUEptWldlZDB0ZU5PMEZUNkNkcWd2RWp3aUtNeWtMbGtIMmxHU2xXV0VXeVRic3RVX1lJcnVwRlI4SFVBd3pnSjdVMjFyOXRmSg?oc=5",
+      "id": "CBMijAFBVV95cUxQTGwzN2dVbU9LN0lwMmpUdWNPM0ZNd2lsX0lNdUNXWEQ0SVV1TkFFcm12WnRrTnRDZTVtcFNjQTlMcl9iUEptWldlZDB0ZU5PMEZUNkNkcWd2RWp3aUtNeWtMbGtIMmxHU2xXV0VXeVRic3RVX1lJcnVwRlI4SFVBd3pnSjdVMjFyOXRmSg",
+      "guidislink": false,
+      "published": "Mon, 01 May 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        5,
+        1,
+        7,
+        0,
+        0,
+        0,
+        121,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQTGwzN2dVbU9LN0lwMmpUdWNPM0ZNd2lsX0lNdUNXWEQ0SVV1TkFFcm12WnRrTnRDZTVtcFNjQTlMcl9iUEptWldlZDB0ZU5PMEZUNkNkcWd2RWp3aUtNeWtMbGtIMmxHU2xXV0VXeVRic3RVX1lJcnVwRlI4SFVBd3pnSjdVMjFyOXRmSg?oc=5\" target=\"_blank\">Floods, Warm Temperatures Promote Mosquito Production</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Pest Control Technology</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQTGwzN2dVbU9LN0lwMmpUdWNPM0ZNd2lsX0lNdUNXWEQ0SVV1TkFFcm12WnRrTnRDZTVtcFNjQTlMcl9iUEptWldlZDB0ZU5PMEZUNkNkcWd2RWp3aUtNeWtMbGtIMmxHU2xXV0VXeVRic3RVX1lJcnVwRlI4SFVBd3pnSjdVMjFyOXRmSg?oc=5\" target=\"_blank\">Floods, Warm Temperatures Promote Mosquito Production</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Pest Control Technology</font>"
+      },
+      "source": {
+        "href": "https://www.pctonline.com",
+        "title": "Pest Control Technology"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "How drone technology in Santa Clara County is combatting an expected heightened mosquito season after storms - ABC7 San Francisco",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "How drone technology in Santa Clara County is combatting an expected heightened mosquito season after storms - ABC7 San Francisco"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdWY2aWdfQ3BiVHB2VnFVdWd5YVBuOUxWeUpNeXJsYVEyblVLLTN2dHhjNzNKaHl1YUJHQWpwZVFUSURqY0tQLVpSck9NanlfbHJ5cERJaTRabDFRUXVOUTA2eHlEdTI1MEVvbjhuTC1CWGJ5ek5DNU9OZlNsUzROOUNTX0Y5RWFsVHNXRTFncVlhUDlEM0HSAZsBQVVfeXFMTmh4TTl4S1dVb0hpcDZOX2tSOUtWM2lYVEEyYmlZTEg5MzN2dk4yMFVZbjYyVnViaUhBaVlYMUdxYVJFYWpTNUlfdE10ajlfMTYzNXlVajFFX3BBR1VLc3M1YVc0cnU3TzlnSDFFOVRzU0lSdnd4V2l0WXhQdXZRVldTWURBRkc1b3Bsam1lbkVRMTJ0QldqUjFsQTg?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdWY2aWdfQ3BiVHB2VnFVdWd5YVBuOUxWeUpNeXJsYVEyblVLLTN2dHhjNzNKaHl1YUJHQWpwZVFUSURqY0tQLVpSck9NanlfbHJ5cERJaTRabDFRUXVOUTA2eHlEdTI1MEVvbjhuTC1CWGJ5ek5DNU9OZlNsUzROOUNTX0Y5RWFsVHNXRTFncVlhUDlEM0HSAZsBQVVfeXFMTmh4TTl4S1dVb0hpcDZOX2tSOUtWM2lYVEEyYmlZTEg5MzN2dk4yMFVZbjYyVnViaUhBaVlYMUdxYVJFYWpTNUlfdE10ajlfMTYzNXlVajFFX3BBR1VLc3M1YVc0cnU3TzlnSDFFOVRzU0lSdnd4V2l0WXhQdXZRVldTWURBRkc1b3Bsam1lbkVRMTJ0QldqUjFsQTg?oc=5",
+      "id": "CBMilgFBVV95cUxQdWY2aWdfQ3BiVHB2VnFVdWd5YVBuOUxWeUpNeXJsYVEyblVLLTN2dHhjNzNKaHl1YUJHQWpwZVFUSURqY0tQLVpSck9NanlfbHJ5cERJaTRabDFRUXVOUTA2eHlEdTI1MEVvbjhuTC1CWGJ5ek5DNU9OZlNsUzROOUNTX0Y5RWFsVHNXRTFncVlhUDlEM0HSAZsBQVVfeXFMTmh4TTl4S1dVb0hpcDZOX2tSOUtWM2lYVEEyYmlZTEg5MzN2dk4yMFVZbjYyVnViaUhBaVlYMUdxYVJFYWpTNUlfdE10ajlfMTYzNXlVajFFX3BBR1VLc3M1YVc0cnU3TzlnSDFFOVRzU0lSdnd4V2l0WXhQdXZRVldTWURBRkc1b3Bsam1lbkVRMTJ0QldqUjFsQTg",
+      "guidislink": false,
+      "published": "Wed, 03 May 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        5,
+        3,
+        7,
+        0,
+        0,
+        2,
+        123,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQdWY2aWdfQ3BiVHB2VnFVdWd5YVBuOUxWeUpNeXJsYVEyblVLLTN2dHhjNzNKaHl1YUJHQWpwZVFUSURqY0tQLVpSck9NanlfbHJ5cERJaTRabDFRUXVOUTA2eHlEdTI1MEVvbjhuTC1CWGJ5ek5DNU9OZlNsUzROOUNTX0Y5RWFsVHNXRTFncVlhUDlEM0HSAZsBQVVfeXFMTmh4TTl4S1dVb0hpcDZOX2tSOUtWM2lYVEEyYmlZTEg5MzN2dk4yMFVZbjYyVnViaUhBaVlYMUdxYVJFYWpTNUlfdE10ajlfMTYzNXlVajFFX3BBR1VLc3M1YVc0cnU3TzlnSDFFOVRzU0lSdnd4V2l0WXhQdXZRVldTWURBRkc1b3Bsam1lbkVRMTJ0QldqUjFsQTg?oc=5\" target=\"_blank\">How drone technology in Santa Clara County is combatting an expected heightened mosquito season after storms</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ABC7 San Francisco</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQdWY2aWdfQ3BiVHB2VnFVdWd5YVBuOUxWeUpNeXJsYVEyblVLLTN2dHhjNzNKaHl1YUJHQWpwZVFUSURqY0tQLVpSck9NanlfbHJ5cERJaTRabDFRUXVOUTA2eHlEdTI1MEVvbjhuTC1CWGJ5ek5DNU9OZlNsUzROOUNTX0Y5RWFsVHNXRTFncVlhUDlEM0HSAZsBQVVfeXFMTmh4TTl4S1dVb0hpcDZOX2tSOUtWM2lYVEEyYmlZTEg5MzN2dk4yMFVZbjYyVnViaUhBaVlYMUdxYVJFYWpTNUlfdE10ajlfMTYzNXlVajFFX3BBR1VLc3M1YVc0cnU3TzlnSDFFOVRzU0lSdnd4V2l0WXhQdXZRVldTWURBRkc1b3Bsam1lbkVRMTJ0QldqUjFsQTg?oc=5\" target=\"_blank\">How drone technology in Santa Clara County is combatting an expected heightened mosquito season after storms</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ABC7 San Francisco</font>"
+      },
+      "source": {
+        "href": "https://abc7news.com",
+        "title": "ABC7 San Francisco"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "The cytoplasmic N-terminal tail of Zika virus NS4A protein forms oligomers in the absence of detergent or lipids - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "The cytoplasmic N-terminal tail of Zika virus NS4A protein forms oligomers in the absence of detergent or lipids - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9RVjdVSTMxc3JhQVZ6amVfNDBzU3hUMXVIZFZuNlYtODVNRlZDWkh4MkJJVlFDM09WZHpNQjlJVnFCQmV0ekxmeGt3TzBUYm5sRTc0R2JnTXN6MlROZjZJ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9RVjdVSTMxc3JhQVZ6amVfNDBzU3hUMXVIZFZuNlYtODVNRlZDWkh4MkJJVlFDM09WZHpNQjlJVnFCQmV0ekxmeGt3TzBUYm5sRTc0R2JnTXN6MlROZjZJ?oc=5",
+      "id": "CBMiX0FVX3lxTE9RVjdVSTMxc3JhQVZ6amVfNDBzU3hUMXVIZFZuNlYtODVNRlZDWkh4MkJJVlFDM09WZHpNQjlJVnFCQmV0ekxmeGt3TzBUYm5sRTc0R2JnTXN6MlROZjZJ",
+      "guidislink": false,
+      "published": "Fri, 05 May 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        5,
+        5,
+        7,
+        0,
+        0,
+        4,
+        125,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9RVjdVSTMxc3JhQVZ6amVfNDBzU3hUMXVIZFZuNlYtODVNRlZDWkh4MkJJVlFDM09WZHpNQjlJVnFCQmV0ekxmeGt3TzBUYm5sRTc0R2JnTXN6MlROZjZJ?oc=5\" target=\"_blank\">The cytoplasmic N-terminal tail of Zika virus NS4A protein forms oligomers in the absence of detergent or lipids</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9RVjdVSTMxc3JhQVZ6amVfNDBzU3hUMXVIZFZuNlYtODVNRlZDWkh4MkJJVlFDM09WZHpNQjlJVnFCQmV0ekxmeGt3TzBUYm5sRTc0R2JnTXN6MlROZjZJ?oc=5\" target=\"_blank\">The cytoplasmic N-terminal tail of Zika virus NS4A protein forms oligomers in the absence of detergent or lipids</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Tiger mosquito in France: 71 départements on red alert | - Institut Pasteur",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Tiger mosquito in France: 71 départements on red alert | - Institut Pasteur"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTUdoT2d3OHdhT01wWmE3QVQycHR5S0FkM2JkbVRrb3pUV0NSTVhKMGxaS2M2YVllaVFDNUgwNUp6RFZKc2hHU09KYVpHVEZyQUR2d0MzSC1OaE83ZVhMYldPcUtTRGVDM3F3QUxkZGZwRjgtR2dxQ3JUelVSZjFyaW5DRlVoeHdJYXAyQ1FwcHNPOExPZ1FuSmdDaw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTUdoT2d3OHdhT01wWmE3QVQycHR5S0FkM2JkbVRrb3pUV0NSTVhKMGxaS2M2YVllaVFDNUgwNUp6RFZKc2hHU09KYVpHVEZyQUR2d0MzSC1OaE83ZVhMYldPcUtTRGVDM3F3QUxkZGZwRjgtR2dxQ3JUelVSZjFyaW5DRlVoeHdJYXAyQ1FwcHNPOExPZ1FuSmdDaw?oc=5",
+      "id": "CBMimwFBVV95cUxNTUdoT2d3OHdhT01wWmE3QVQycHR5S0FkM2JkbVRrb3pUV0NSTVhKMGxaS2M2YVllaVFDNUgwNUp6RFZKc2hHU09KYVpHVEZyQUR2d0MzSC1OaE83ZVhMYldPcUtTRGVDM3F3QUxkZGZwRjgtR2dxQ3JUelVSZjFyaW5DRlVoeHdJYXAyQ1FwcHNPOExPZ1FuSmdDaw",
+      "guidislink": false,
+      "published": "Thu, 04 May 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        5,
+        4,
+        7,
+        0,
+        0,
+        3,
+        124,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxNTUdoT2d3OHdhT01wWmE3QVQycHR5S0FkM2JkbVRrb3pUV0NSTVhKMGxaS2M2YVllaVFDNUgwNUp6RFZKc2hHU09KYVpHVEZyQUR2d0MzSC1OaE83ZVhMYldPcUtTRGVDM3F3QUxkZGZwRjgtR2dxQ3JUelVSZjFyaW5DRlVoeHdJYXAyQ1FwcHNPOExPZ1FuSmdDaw?oc=5\" target=\"_blank\">Tiger mosquito in France: 71 départements on red alert |</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Institut Pasteur</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxNTUdoT2d3OHdhT01wWmE3QVQycHR5S0FkM2JkbVRrb3pUV0NSTVhKMGxaS2M2YVllaVFDNUgwNUp6RFZKc2hHU09KYVpHVEZyQUR2d0MzSC1OaE83ZVhMYldPcUtTRGVDM3F3QUxkZGZwRjgtR2dxQ3JUelVSZjFyaW5DRlVoeHdJYXAyQ1FwcHNPOExPZ1FuSmdDaw?oc=5\" target=\"_blank\">Tiger mosquito in France: 71 départements on red alert |</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Institut Pasteur</font>"
+      },
+      "source": {
+        "href": "https://www.pasteur.fr",
+        "title": "Institut Pasteur"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Covid-19 research volume ‘dwarfs’ that of other pandemics - Research Professional News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Covid-19 research volume ‘dwarfs’ that of other pandemics - Research Professional News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWlplSm9PcWZSLWRBQy01SFc4a2ZUdEtyaXB2RlE5YmZNZ1BKWGFnUWxVLWRjY3U2cVM4Z0VUTHB1b0VPNm80QmVkUUtERHBNd1V4Z0x6NEd0S3Y3ZEtZTVRBd3JncE5HZ0hWUTItYUl5cU5KdzFSNVQ5bVFvVlZib0p5emJZa3p4MG1RT2tUSEpjNkVLSzZTQmZyMHhlYXFCaF9GYU9ELU81ZVd5Z295dWVRWkQ1b2plZmc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWlplSm9PcWZSLWRBQy01SFc4a2ZUdEtyaXB2RlE5YmZNZ1BKWGFnUWxVLWRjY3U2cVM4Z0VUTHB1b0VPNm80QmVkUUtERHBNd1V4Z0x6NEd0S3Y3ZEtZTVRBd3JncE5HZ0hWUTItYUl5cU5KdzFSNVQ5bVFvVlZib0p5emJZa3p4MG1RT2tUSEpjNkVLSzZTQmZyMHhlYXFCaF9GYU9ELU81ZVd5Z295dWVRWkQ1b2plZmc?oc=5",
+      "id": "CBMiugFBVV95cUxQWlplSm9PcWZSLWRBQy01SFc4a2ZUdEtyaXB2RlE5YmZNZ1BKWGFnUWxVLWRjY3U2cVM4Z0VUTHB1b0VPNm80QmVkUUtERHBNd1V4Z0x6NEd0S3Y3ZEtZTVRBd3JncE5HZ0hWUTItYUl5cU5KdzFSNVQ5bVFvVlZib0p5emJZa3p4MG1RT2tUSEpjNkVLSzZTQmZyMHhlYXFCaF9GYU9ELU81ZVd5Z295dWVRWkQ1b2plZmc",
+      "guidislink": false,
+      "published": "Thu, 04 May 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        5,
+        4,
+        7,
+        0,
+        0,
+        3,
+        124,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxQWlplSm9PcWZSLWRBQy01SFc4a2ZUdEtyaXB2RlE5YmZNZ1BKWGFnUWxVLWRjY3U2cVM4Z0VUTHB1b0VPNm80QmVkUUtERHBNd1V4Z0x6NEd0S3Y3ZEtZTVRBd3JncE5HZ0hWUTItYUl5cU5KdzFSNVQ5bVFvVlZib0p5emJZa3p4MG1RT2tUSEpjNkVLSzZTQmZyMHhlYXFCaF9GYU9ELU81ZVd5Z295dWVRWkQ1b2plZmc?oc=5\" target=\"_blank\">Covid-19 research volume ‘dwarfs’ that of other pandemics</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Research Professional News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxQWlplSm9PcWZSLWRBQy01SFc4a2ZUdEtyaXB2RlE5YmZNZ1BKWGFnUWxVLWRjY3U2cVM4Z0VUTHB1b0VPNm80QmVkUUtERHBNd1V4Z0x6NEd0S3Y3ZEtZTVRBd3JncE5HZ0hWUTItYUl5cU5KdzFSNVQ5bVFvVlZib0p5emJZa3p4MG1RT2tUSEpjNkVLSzZTQmZyMHhlYXFCaF9GYU9ELU81ZVd5Z295dWVRWkQ1b2plZmc?oc=5\" target=\"_blank\">Covid-19 research volume ‘dwarfs’ that of other pandemics</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Research Professional News</font>"
+      },
+      "source": {
+        "href": "https://www.researchprofessionalnews.com",
+        "title": "Research Professional News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Arranta Bio Signs mRNA Therapeutic Manufacturing Contract with MIT - Genetic Engineering and Biotechnology News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Arranta Bio Signs mRNA Therapeutic Manufacturing Contract with MIT - Genetic Engineering and Biotechnology News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNkIyZkFyay1EdFM1eHptZDVTMG8zcmZFaHJfM05SZi12TnhUTmxTcUowdHUtajk0cFBPMkxCRlAyVFRaYkkxcXM4Wm1RYklhVTY1SFJtMEtQdEYycW1wd2llV2gtZVdScm55eEdMMW1JUVVIbjViQmFyb21VTmZNX3RsYUw2WHpOMTBwUkVvT1N1TTNqMmhEUkRCNlMyMXFp?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNkIyZkFyay1EdFM1eHptZDVTMG8zcmZFaHJfM05SZi12TnhUTmxTcUowdHUtajk0cFBPMkxCRlAyVFRaYkkxcXM4Wm1RYklhVTY1SFJtMEtQdEYycW1wd2llV2gtZVdScm55eEdMMW1JUVVIbjViQmFyb21VTmZNX3RsYUw2WHpOMTBwUkVvT1N1TTNqMmhEUkRCNlMyMXFp?oc=5",
+      "id": "CBMioAFBVV95cUxQNkIyZkFyay1EdFM1eHptZDVTMG8zcmZFaHJfM05SZi12TnhUTmxTcUowdHUtajk0cFBPMkxCRlAyVFRaYkkxcXM4Wm1RYklhVTY1SFJtMEtQdEYycW1wd2llV2gtZVdScm55eEdMMW1JUVVIbjViQmFyb21VTmZNX3RsYUw2WHpOMTBwUkVvT1N1TTNqMmhEUkRCNlMyMXFp",
+      "guidislink": false,
+      "published": "Fri, 28 Apr 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        4,
+        28,
+        7,
+        0,
+        0,
+        4,
+        118,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxQNkIyZkFyay1EdFM1eHptZDVTMG8zcmZFaHJfM05SZi12TnhUTmxTcUowdHUtajk0cFBPMkxCRlAyVFRaYkkxcXM4Wm1RYklhVTY1SFJtMEtQdEYycW1wd2llV2gtZVdScm55eEdMMW1JUVVIbjViQmFyb21VTmZNX3RsYUw2WHpOMTBwUkVvT1N1TTNqMmhEUkRCNlMyMXFp?oc=5\" target=\"_blank\">Arranta Bio Signs mRNA Therapeutic Manufacturing Contract with MIT</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Genetic Engineering and Biotechnology News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxQNkIyZkFyay1EdFM1eHptZDVTMG8zcmZFaHJfM05SZi12TnhUTmxTcUowdHUtajk0cFBPMkxCRlAyVFRaYkkxcXM4Wm1RYklhVTY1SFJtMEtQdEYycW1wd2llV2gtZVdScm55eEdMMW1JUVVIbjViQmFyb21VTmZNX3RsYUw2WHpOMTBwUkVvT1N1TTNqMmhEUkRCNlMyMXFp?oc=5\" target=\"_blank\">Arranta Bio Signs mRNA Therapeutic Manufacturing Contract with MIT</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Genetic Engineering and Biotechnology News</font>"
+      },
+      "source": {
+        "href": "https://www.genengnews.com",
+        "title": "Genetic Engineering and Biotechnology News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "‘Breathing difficulties’ warning: Here is where Broward was aerial spraying to kill mosquitoes: - WPLG Local 10",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "‘Breathing difficulties’ warning: Here is where Broward was aerial spraying to kill mosquitoes: - WPLG Local 10"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQeS02Y05jOXpFQTE5dkl6LXljZ1RFSmY0SC1PZG90WHBpS09GREtlTU1qNGJUNFd5eXpuNm5tUmM1Z2FjZ1JfRUVMUnV4aTlGaU1vajVEdUFOZS1hNFJxWEtBMmFDcE4tRldBVV9xSHU3TlA1Xzd1Qk5GQkF4ZHNwRk1ZRTBMUlZEQ3d0MWNLZWFBMmdlY0Flcjc0QllWNHIxTEg1MGV6QWVDMWk5bEZKcmNSTEdCU1Z2TmdZUHBNbm1CS1Y5aE1iS3BkQm96WU1QSkxWLQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQeS02Y05jOXpFQTE5dkl6LXljZ1RFSmY0SC1PZG90WHBpS09GREtlTU1qNGJUNFd5eXpuNm5tUmM1Z2FjZ1JfRUVMUnV4aTlGaU1vajVEdUFOZS1hNFJxWEtBMmFDcE4tRldBVV9xSHU3TlA1Xzd1Qk5GQkF4ZHNwRk1ZRTBMUlZEQ3d0MWNLZWFBMmdlY0Flcjc0QllWNHIxTEg1MGV6QWVDMWk5bEZKcmNSTEdCU1Z2TmdZUHBNbm1CS1Y5aE1iS3BkQm96WU1QSkxWLQ?oc=5",
+      "id": "CBMi1AFBVV95cUxQeS02Y05jOXpFQTE5dkl6LXljZ1RFSmY0SC1PZG90WHBpS09GREtlTU1qNGJUNFd5eXpuNm5tUmM1Z2FjZ1JfRUVMUnV4aTlGaU1vajVEdUFOZS1hNFJxWEtBMmFDcE4tRldBVV9xSHU3TlA1Xzd1Qk5GQkF4ZHNwRk1ZRTBMUlZEQ3d0MWNLZWFBMmdlY0Flcjc0QllWNHIxTEg1MGV6QWVDMWk5bEZKcmNSTEdCU1Z2TmdZUHBNbm1CS1Y5aE1iS3BkQm96WU1QSkxWLQ",
+      "guidislink": false,
+      "published": "Tue, 25 Apr 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        4,
+        25,
+        7,
+        0,
+        0,
+        1,
+        115,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxQeS02Y05jOXpFQTE5dkl6LXljZ1RFSmY0SC1PZG90WHBpS09GREtlTU1qNGJUNFd5eXpuNm5tUmM1Z2FjZ1JfRUVMUnV4aTlGaU1vajVEdUFOZS1hNFJxWEtBMmFDcE4tRldBVV9xSHU3TlA1Xzd1Qk5GQkF4ZHNwRk1ZRTBMUlZEQ3d0MWNLZWFBMmdlY0Flcjc0QllWNHIxTEg1MGV6QWVDMWk5bEZKcmNSTEdCU1Z2TmdZUHBNbm1CS1Y5aE1iS3BkQm96WU1QSkxWLQ?oc=5\" target=\"_blank\">‘Breathing difficulties’ warning: Here is where Broward was aerial spraying to kill mosquitoes:</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WPLG Local 10</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxQeS02Y05jOXpFQTE5dkl6LXljZ1RFSmY0SC1PZG90WHBpS09GREtlTU1qNGJUNFd5eXpuNm5tUmM1Z2FjZ1JfRUVMUnV4aTlGaU1vajVEdUFOZS1hNFJxWEtBMmFDcE4tRldBVV9xSHU3TlA1Xzd1Qk5GQkF4ZHNwRk1ZRTBMUlZEQ3d0MWNLZWFBMmdlY0Flcjc0QllWNHIxTEg1MGV6QWVDMWk5bEZKcmNSTEdCU1Z2TmdZUHBNbm1CS1Y5aE1iS3BkQm96WU1QSkxWLQ?oc=5\" target=\"_blank\">‘Breathing difficulties’ warning: Here is where Broward was aerial spraying to kill mosquitoes:</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WPLG Local 10</font>"
+      },
+      "source": {
+        "href": "https://www.local10.com",
+        "title": "WPLG Local 10"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "CNBC's Meg Tirell Joins CNN as Medical Correspondent - ADWEEK",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "CNBC's Meg Tirell Joins CNN as Medical Correspondent - ADWEEK"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNzVnTzctNmRudFdXOUwtV0FmSUdDUkxEbGlyWGxpTk5jME9ZQUFPb0c4dVFxR1RMb2xPSlh4VVV6SEluYllUUGhfTllqeXlmb3BkcDRVVkw3Zll3Q2kxMDBxSXZPSWJJblZXMWFkWVlNRWlja1FsVnY5WERvRmljQ1lNLWJvbmh5VXhaQQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNzVnTzctNmRudFdXOUwtV0FmSUdDUkxEbGlyWGxpTk5jME9ZQUFPb0c4dVFxR1RMb2xPSlh4VVV6SEluYllUUGhfTllqeXlmb3BkcDRVVkw3Zll3Q2kxMDBxSXZPSWJJblZXMWFkWVlNRWlja1FsVnY5WERvRmljQ1lNLWJvbmh5VXhaQQ?oc=5",
+      "id": "CBMijAFBVV95cUxNNzVnTzctNmRudFdXOUwtV0FmSUdDUkxEbGlyWGxpTk5jME9ZQUFPb0c4dVFxR1RMb2xPSlh4VVV6SEluYllUUGhfTllqeXlmb3BkcDRVVkw3Zll3Q2kxMDBxSXZPSWJJblZXMWFkWVlNRWlja1FsVnY5WERvRmljQ1lNLWJvbmh5VXhaQQ",
+      "guidislink": false,
+      "published": "Wed, 26 Apr 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        4,
+        26,
+        7,
+        0,
+        0,
+        2,
+        116,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxNNzVnTzctNmRudFdXOUwtV0FmSUdDUkxEbGlyWGxpTk5jME9ZQUFPb0c4dVFxR1RMb2xPSlh4VVV6SEluYllUUGhfTllqeXlmb3BkcDRVVkw3Zll3Q2kxMDBxSXZPSWJJblZXMWFkWVlNRWlja1FsVnY5WERvRmljQ1lNLWJvbmh5VXhaQQ?oc=5\" target=\"_blank\">CNBC's Meg Tirell Joins CNN as Medical Correspondent</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ADWEEK</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxNNzVnTzctNmRudFdXOUwtV0FmSUdDUkxEbGlyWGxpTk5jME9ZQUFPb0c4dVFxR1RMb2xPSlh4VVV6SEluYllUUGhfTllqeXlmb3BkcDRVVkw3Zll3Q2kxMDBxSXZPSWJJblZXMWFkWVlNRWlja1FsVnY5WERvRmljQ1lNLWJvbmh5VXhaQQ?oc=5\" target=\"_blank\">CNBC's Meg Tirell Joins CNN as Medical Correspondent</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ADWEEK</font>"
+      },
+      "source": {
+        "href": "https://www.adweek.com",
+        "title": "ADWEEK"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "OHSU board extends Pres. Danny Jacobs' contract, but not without dissent - The Business Journals",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "OHSU board extends Pres. Danny Jacobs' contract, but not without dissent - The Business Journals"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTHZCcm1iOHhhZERLbktSWEV5OXVlOUd3eGV5NVE0cUtTM0ctWWZXTHpTNHRzOXpKc2k2U1J5Sk40ZVVweXNPT09kRjhTeDJSd1hlc2pmWGF3ZmJrRV9sZWFKbkVFX0d1WTR0TDY4NXd4Rkx3Zzg5WXdFalR2WDBnMk5JMEgtSDJqZ3JoYk1zbUgwXzlBdkZ2aFZlWVJlTGhFdlE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTHZCcm1iOHhhZERLbktSWEV5OXVlOUd3eGV5NVE0cUtTM0ctWWZXTHpTNHRzOXpKc2k2U1J5Sk40ZVVweXNPT09kRjhTeDJSd1hlc2pmWGF3ZmJrRV9sZWFKbkVFX0d1WTR0TDY4NXd4Rkx3Zzg5WXdFalR2WDBnMk5JMEgtSDJqZ3JoYk1zbUgwXzlBdkZ2aFZlWVJlTGhFdlE?oc=5",
+      "id": "CBMiogFBVV95cUxNTHZCcm1iOHhhZERLbktSWEV5OXVlOUd3eGV5NVE0cUtTM0ctWWZXTHpTNHRzOXpKc2k2U1J5Sk40ZVVweXNPT09kRjhTeDJSd1hlc2pmWGF3ZmJrRV9sZWFKbkVFX0d1WTR0TDY4NXd4Rkx3Zzg5WXdFalR2WDBnMk5JMEgtSDJqZ3JoYk1zbUgwXzlBdkZ2aFZlWVJlTGhFdlE",
+      "guidislink": false,
+      "published": "Fri, 21 Apr 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        4,
+        21,
+        7,
+        0,
+        0,
+        4,
+        111,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxNTHZCcm1iOHhhZERLbktSWEV5OXVlOUd3eGV5NVE0cUtTM0ctWWZXTHpTNHRzOXpKc2k2U1J5Sk40ZVVweXNPT09kRjhTeDJSd1hlc2pmWGF3ZmJrRV9sZWFKbkVFX0d1WTR0TDY4NXd4Rkx3Zzg5WXdFalR2WDBnMk5JMEgtSDJqZ3JoYk1zbUgwXzlBdkZ2aFZlWVJlTGhFdlE?oc=5\" target=\"_blank\">OHSU board extends Pres. Danny Jacobs' contract, but not without dissent</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Business Journals</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxNTHZCcm1iOHhhZERLbktSWEV5OXVlOUd3eGV5NVE0cUtTM0ctWWZXTHpTNHRzOXpKc2k2U1J5Sk40ZVVweXNPT09kRjhTeDJSd1hlc2pmWGF3ZmJrRV9sZWFKbkVFX0d1WTR0TDY4NXd4Rkx3Zzg5WXdFalR2WDBnMk5JMEgtSDJqZ3JoYk1zbUgwXzlBdkZ2aFZlWVJlTGhFdlE?oc=5\" target=\"_blank\">OHSU board extends Pres. Danny Jacobs' contract, but not without dissent</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Business Journals</font>"
+      },
+      "source": {
+        "href": "https://www.bizjournals.com",
+        "title": "The Business Journals"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "France’s mosquito season is here. Here are tips on how to avoid them - The Connexion",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "France’s mosquito season is here. Here are tips on how to avoid them - The Connexion"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbWFWV0VQNVNaVlpwbkp2RDZjSS10SmZIaTNsRERqcFJVVU5lazNhMTZrRmNIRmROenpVS2loTExVQ2diRHp1enlRb2phU3ZQc19KdHVxS3ptVklJdlFybVU1Qk1qdVF5czExVnZtbndjSjBnZjNrNG04NGFsUXJURXlZbXJBckdUaGZKQUlLemZnb1ZCVzk4czRpaUpPb1BIeXU1cFpaemZaeE1sejVR?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbWFWV0VQNVNaVlpwbkp2RDZjSS10SmZIaTNsRERqcFJVVU5lazNhMTZrRmNIRmROenpVS2loTExVQ2diRHp1enlRb2phU3ZQc19KdHVxS3ptVklJdlFybVU1Qk1qdVF5czExVnZtbndjSjBnZjNrNG04NGFsUXJURXlZbXJBckdUaGZKQUlLemZnb1ZCVzk4czRpaUpPb1BIeXU1cFpaemZaeE1sejVR?oc=5",
+      "id": "CBMirwFBVV95cUxPbWFWV0VQNVNaVlpwbkp2RDZjSS10SmZIaTNsRERqcFJVVU5lazNhMTZrRmNIRmROenpVS2loTExVQ2diRHp1enlRb2phU3ZQc19KdHVxS3ptVklJdlFybVU1Qk1qdVF5czExVnZtbndjSjBnZjNrNG04NGFsUXJURXlZbXJBckdUaGZKQUlLemZnb1ZCVzk4czRpaUpPb1BIeXU1cFpaemZaeE1sejVR",
+      "guidislink": false,
+      "published": "Thu, 27 Apr 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        4,
+        27,
+        7,
+        0,
+        0,
+        3,
+        117,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxPbWFWV0VQNVNaVlpwbkp2RDZjSS10SmZIaTNsRERqcFJVVU5lazNhMTZrRmNIRmROenpVS2loTExVQ2diRHp1enlRb2phU3ZQc19KdHVxS3ptVklJdlFybVU1Qk1qdVF5czExVnZtbndjSjBnZjNrNG04NGFsUXJURXlZbXJBckdUaGZKQUlLemZnb1ZCVzk4czRpaUpPb1BIeXU1cFpaemZaeE1sejVR?oc=5\" target=\"_blank\">France’s mosquito season is here. Here are tips on how to avoid them</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Connexion</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxPbWFWV0VQNVNaVlpwbkp2RDZjSS10SmZIaTNsRERqcFJVVU5lazNhMTZrRmNIRmROenpVS2loTExVQ2diRHp1enlRb2phU3ZQc19KdHVxS3ptVklJdlFybVU1Qk1qdVF5czExVnZtbndjSjBnZjNrNG04NGFsUXJURXlZbXJBckdUaGZKQUlLemZnb1ZCVzk4czRpaUpPb1BIeXU1cFpaemZaeE1sejVR?oc=5\" target=\"_blank\">France’s mosquito season is here. Here are tips on how to avoid them</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Connexion</font>"
+      },
+      "source": {
+        "href": "https://www.connexionfrance.com",
+        "title": "The Connexion"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "More than 5.900 adult mosquitoes captured in 2022, no Aedes albopictus contaminated - Sul Informação",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "More than 5.900 adult mosquitoes captured in 2022, no Aedes albopictus contaminated - Sul Informação"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOLVU5bm53a3htNzAycVM1Yy1pTFppeXluam5hQ1Y1Vm1XaDBsdWtDUEN0SEtKYXNUdklJUTY4eXp2YlFubVNWUXVwMW5SY01BQWQ5NmxwTWQxUzRiM1ZfV2IzcWZNZFFTQ3lVczlxWDFGaGdXVW1zMkdkSXdHRE5USmRMY0gzMjZjLWVIdTdsdzZPWkJZcUdveHFOQ05ON0pTQS1VVkdld3pfaW52cFJOM3AtNzRjZGVLTWc3M1F0emc1ZC1GRGc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOLVU5bm53a3htNzAycVM1Yy1pTFppeXluam5hQ1Y1Vm1XaDBsdWtDUEN0SEtKYXNUdklJUTY4eXp2YlFubVNWUXVwMW5SY01BQWQ5NmxwTWQxUzRiM1ZfV2IzcWZNZFFTQ3lVczlxWDFGaGdXVW1zMkdkSXdHRE5USmRMY0gzMjZjLWVIdTdsdzZPWkJZcUdveHFOQ05ON0pTQS1VVkdld3pfaW52cFJOM3AtNzRjZGVLTWc3M1F0emc1ZC1GRGc?oc=5",
+      "id": "CBMixgFBVV95cUxOLVU5bm53a3htNzAycVM1Yy1pTFppeXluam5hQ1Y1Vm1XaDBsdWtDUEN0SEtKYXNUdklJUTY4eXp2YlFubVNWUXVwMW5SY01BQWQ5NmxwTWQxUzRiM1ZfV2IzcWZNZFFTQ3lVczlxWDFGaGdXVW1zMkdkSXdHRE5USmRMY0gzMjZjLWVIdTdsdzZPWkJZcUdveHFOQ05ON0pTQS1VVkdld3pfaW52cFJOM3AtNzRjZGVLTWc3M1F0emc1ZC1GRGc",
+      "guidislink": false,
+      "published": "Mon, 01 May 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        5,
+        1,
+        7,
+        0,
+        0,
+        0,
+        121,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxOLVU5bm53a3htNzAycVM1Yy1pTFppeXluam5hQ1Y1Vm1XaDBsdWtDUEN0SEtKYXNUdklJUTY4eXp2YlFubVNWUXVwMW5SY01BQWQ5NmxwTWQxUzRiM1ZfV2IzcWZNZFFTQ3lVczlxWDFGaGdXVW1zMkdkSXdHRE5USmRMY0gzMjZjLWVIdTdsdzZPWkJZcUdveHFOQ05ON0pTQS1VVkdld3pfaW52cFJOM3AtNzRjZGVLTWc3M1F0emc1ZC1GRGc?oc=5\" target=\"_blank\">More than 5.900 adult mosquitoes captured in 2022, no Aedes albopictus contaminated</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sul Informação</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxOLVU5bm53a3htNzAycVM1Yy1pTFppeXluam5hQ1Y1Vm1XaDBsdWtDUEN0SEtKYXNUdklJUTY4eXp2YlFubVNWUXVwMW5SY01BQWQ5NmxwTWQxUzRiM1ZfV2IzcWZNZFFTQ3lVczlxWDFGaGdXVW1zMkdkSXdHRE5USmRMY0gzMjZjLWVIdTdsdzZPWkJZcUdveHFOQ05ON0pTQS1VVkdld3pfaW52cFJOM3AtNzRjZGVLTWc3M1F0emc1ZC1GRGc?oc=5\" target=\"_blank\">More than 5.900 adult mosquitoes captured in 2022, no Aedes albopictus contaminated</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sul Informação</font>"
+      },
+      "source": {
+        "href": "https://www.sulinformacao.pt",
+        "title": "Sul Informação"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "World Mosquito Day 2022: Which Mosquitoes Are More Dangerous - Onlymyhealth",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "World Mosquito Day 2022: Which Mosquitoes Are More Dangerous - Onlymyhealth"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQeVgwR3l1UUlGY1NMdzZOR3NNMUtLbC16YzVtVk03R1NpbEFkR29SUWM5VmhhUDVGWWF1SUZYT3RNcF9oQjhzRHZKdjg1dEtPRVhlNkNiSUdYelpKTjNYcXRMejIxZ3VJVFhRLU02Z2VOanBtUy1KT1FpYmlraFctSg?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQeVgwR3l1UUlGY1NMdzZOR3NNMUtLbC16YzVtVk03R1NpbEFkR29SUWM5VmhhUDVGWWF1SUZYT3RNcF9oQjhzRHZKdjg1dEtPRVhlNkNiSUdYelpKTjNYcXRMejIxZ3VJVFhRLU02Z2VOanBtUy1KT1FpYmlraFctSg?oc=5",
+      "id": "CBMigAFBVV95cUxQeVgwR3l1UUlGY1NMdzZOR3NNMUtLbC16YzVtVk03R1NpbEFkR29SUWM5VmhhUDVGWWF1SUZYT3RNcF9oQjhzRHZKdjg1dEtPRVhlNkNiSUdYelpKTjNYcXRMejIxZ3VJVFhRLU02Z2VOanBtUy1KT1FpYmlraFctSg",
+      "guidislink": false,
+      "published": "Tue, 25 Apr 2023 07:00:00 GMT",
+      "published_parsed": [
+        2023,
+        4,
+        25,
+        7,
+        0,
+        0,
+        1,
+        115,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxQeVgwR3l1UUlGY1NMdzZOR3NNMUtLbC16YzVtVk03R1NpbEFkR29SUWM5VmhhUDVGWWF1SUZYT3RNcF9oQjhzRHZKdjg1dEtPRVhlNkNiSUdYelpKTjNYcXRMejIxZ3VJVFhRLU02Z2VOanBtUy1KT1FpYmlraFctSg?oc=5\" target=\"_blank\">World Mosquito Day 2022: Which Mosquitoes Are More Dangerous</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Onlymyhealth</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxQeVgwR3l1UUlGY1NMdzZOR3NNMUtLbC16YzVtVk03R1NpbEFkR29SUWM5VmhhUDVGWWF1SUZYT3RNcF9oQjhzRHZKdjg1dEtPRVhlNkNiSUdYelpKTjNYcXRMejIxZ3VJVFhRLU02Z2VOanBtUy1KT1FpYmlraFctSg?oc=5\" target=\"_blank\">World Mosquito Day 2022: Which Mosquitoes Are More Dangerous</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Onlymyhealth</font>"
+      },
+      "source": {
+        "href": "https://www.onlymyhealth.com",
+        "title": "Onlymyhealth"
+      },
+      "sub_articles": []
+    }
+  ]
+}

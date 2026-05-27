@@ -1,0 +1,650 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2016-03-06",
+  "window_end": "2016-03-06",
+  "window_days": 1,
+  "window_role": "hierarchical_child",
+  "parent_window_start": "2016-02-29",
+  "parent_window_end": "2016-03-06",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2016-03-06+before%3A2016-03-07&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2016-03-06+before:2016-03-07&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T06:04:07Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2016-03-06 before:2016-03-07\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2016-03-06 before:2016-03-07\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2016-03-06+before:2016-03-07&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2016-03-06+before:2016-03-07&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 06:04:07 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      6,
+      4,
+      7,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Zika has pregnant women in the U.S. worried, and doctors have few answers - The Washington Post",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika has pregnant women in the U.S. worried, and doctors have few answers - The Washington Post"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQcmRITWZOb3dtc2xRTFlSRU54NzRHUG1CLTkxMnNaVnhfNWM1aGxGYUYyS1RnNkduUWMxZlBNQU5FTl9PYWZ5SmdobW5NUEVxMTAxaHlOYVdFaWlIekxORjZabnNER1ZTWlF5WUtQZUxGSlhKa2RhLVQ3TS1PRXlhclVwbkRtand1R0l5VE01MWhYamhMRkdIQkxocUI5cktVRlYwZHpXLWhpcmxxSGV2RGFOWGZFZk5mMFNNS3RReHBVS0ZKZGkwWFhwaWkzV2cxeV9Wd2pkTEVCVkkyeTlhNUhVRkFXbnhGaEluZncyV2dpWDBUOFhHWld1aHEtYTVBc2RXOEVGY1NJcFAzclZQTnpn?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQcmRITWZOb3dtc2xRTFlSRU54NzRHUG1CLTkxMnNaVnhfNWM1aGxGYUYyS1RnNkduUWMxZlBNQU5FTl9PYWZ5SmdobW5NUEVxMTAxaHlOYVdFaWlIekxORjZabnNER1ZTWlF5WUtQZUxGSlhKa2RhLVQ3TS1PRXlhclVwbkRtand1R0l5VE01MWhYamhMRkdIQkxocUI5cktVRlYwZHpXLWhpcmxxSGV2RGFOWGZFZk5mMFNNS3RReHBVS0ZKZGkwWFhwaWkzV2cxeV9Wd2pkTEVCVkkyeTlhNUhVRkFXbnhGaEluZncyV2dpWDBUOFhHWld1aHEtYTVBc2RXOEVGY1NJcFAzclZQTnpn?oc=5",
+      "id": "CBMikgJBVV95cUxQcmRITWZOb3dtc2xRTFlSRU54NzRHUG1CLTkxMnNaVnhfNWM1aGxGYUYyS1RnNkduUWMxZlBNQU5FTl9PYWZ5SmdobW5NUEVxMTAxaHlOYVdFaWlIekxORjZabnNER1ZTWlF5WUtQZUxGSlhKa2RhLVQ3TS1PRXlhclVwbkRtand1R0l5VE01MWhYamhMRkdIQkxocUI5cktVRlYwZHpXLWhpcmxxSGV2RGFOWGZFZk5mMFNNS3RReHBVS0ZKZGkwWFhwaWkzV2cxeV9Wd2pkTEVCVkkyeTlhNUhVRkFXbnhGaEluZncyV2dpWDBUOFhHWld1aHEtYTVBc2RXOEVGY1NJcFAzclZQTnpn",
+      "guidislink": false,
+      "published": "Mon, 07 Mar 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        3,
+        7,
+        8,
+        0,
+        0,
+        0,
+        67,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgJBVV95cUxQcmRITWZOb3dtc2xRTFlSRU54NzRHUG1CLTkxMnNaVnhfNWM1aGxGYUYyS1RnNkduUWMxZlBNQU5FTl9PYWZ5SmdobW5NUEVxMTAxaHlOYVdFaWlIekxORjZabnNER1ZTWlF5WUtQZUxGSlhKa2RhLVQ3TS1PRXlhclVwbkRtand1R0l5VE01MWhYamhMRkdIQkxocUI5cktVRlYwZHpXLWhpcmxxSGV2RGFOWGZFZk5mMFNNS3RReHBVS0ZKZGkwWFhwaWkzV2cxeV9Wd2pkTEVCVkkyeTlhNUhVRkFXbnhGaEluZncyV2dpWDBUOFhHWld1aHEtYTVBc2RXOEVGY1NJcFAzclZQTnpn?oc=5\" target=\"_blank\">Zika has pregnant women in the U.S. worried, and doctors have few answers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Washington Post</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikgJBVV95cUxQcmRITWZOb3dtc2xRTFlSRU54NzRHUG1CLTkxMnNaVnhfNWM1aGxGYUYyS1RnNkduUWMxZlBNQU5FTl9PYWZ5SmdobW5NUEVxMTAxaHlOYVdFaWlIekxORjZabnNER1ZTWlF5WUtQZUxGSlhKa2RhLVQ3TS1PRXlhclVwbkRtand1R0l5VE01MWhYamhMRkdIQkxocUI5cktVRlYwZHpXLWhpcmxxSGV2RGFOWGZFZk5mMFNNS3RReHBVS0ZKZGkwWFhwaWkzV2cxeV9Wd2pkTEVCVkkyeTlhNUhVRkFXbnhGaEluZncyV2dpWDBUOFhHWld1aHEtYTVBc2RXOEVGY1NJcFAzclZQTnpn?oc=5\" target=\"_blank\">Zika has pregnant women in the U.S. worried, and doctors have few answers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Washington Post</font>"
+      },
+      "source": {
+        "href": "https://www.washingtonpost.com",
+        "title": "The Washington Post"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Stopping Zika: Here come the mutant mosquitoes! - CNN",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Stopping Zika: Here come the mutant mosquitoes! - CNN"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5XbGcteTE1UXJfRVFxR3RMSllLVk9VZmJzUUZwaUtyQXRDbF8wSHdFNTdpbDhZbmxUR3poTllVN1JLUm4zYlZ1MkZOY2JuZlB6emlLd056V2FRblRDMHB6Z2lwNFFoUnNGUTNpeFp3?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5XbGcteTE1UXJfRVFxR3RMSllLVk9VZmJzUUZwaUtyQXRDbF8wSHdFNTdpbDhZbmxUR3poTllVN1JLUm4zYlZ1MkZOY2JuZlB6emlLd056V2FRblRDMHB6Z2lwNFFoUnNGUTNpeFp3?oc=5",
+      "id": "CBMibkFVX3lxTE5XbGcteTE1UXJfRVFxR3RMSllLVk9VZmJzUUZwaUtyQXRDbF8wSHdFNTdpbDhZbmxUR3poTllVN1JLUm4zYlZ1MkZOY2JuZlB6emlLd056V2FRblRDMHB6Z2lwNFFoUnNGUTNpeFp3",
+      "guidislink": false,
+      "published": "Mon, 07 Mar 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        3,
+        7,
+        8,
+        0,
+        0,
+        0,
+        67,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTE5XbGcteTE1UXJfRVFxR3RMSllLVk9VZmJzUUZwaUtyQXRDbF8wSHdFNTdpbDhZbmxUR3poTllVN1JLUm4zYlZ1MkZOY2JuZlB6emlLd056V2FRblRDMHB6Z2lwNFFoUnNGUTNpeFp3?oc=5\" target=\"_blank\">Stopping Zika: Here come the mutant mosquitoes!</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNN</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTE5XbGcteTE1UXJfRVFxR3RMSllLVk9VZmJzUUZwaUtyQXRDbF8wSHdFNTdpbDhZbmxUR3poTllVN1JLUm4zYlZ1MkZOY2JuZlB6emlLd056V2FRblRDMHB6Z2lwNFFoUnNGUTNpeFp3?oc=5\" target=\"_blank\">Stopping Zika: Here come the mutant mosquitoes!</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNN</font>"
+      },
+      "source": {
+        "href": "https://www.cnn.com",
+        "title": "CNN"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Here's What We Know Now About Zika and Birth Defects - National Geographic",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Here's What We Know Now About Zika and Birth Defects - National Geographic"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNLUo1YXQ3YnBVdnVoWW5sRmt0clF3RndFbk5HbXZTN0pPcExkcldTMkJxeWowN1BlRXBGUXpPeFd4SGJjWDVpZnZ5bjk3UXVrb2pURi1HWFRWTjg3VFo0TWVHX3VEVGZ0RUhBN1VhLUhaeUl3cWJnSWdNTW1sb3BUOHEwUWE2cUxGUGxWaDNxT09iR1VoOWM1VXZGZTU?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNLUo1YXQ3YnBVdnVoWW5sRmt0clF3RndFbk5HbXZTN0pPcExkcldTMkJxeWowN1BlRXBGUXpPeFd4SGJjWDVpZnZ5bjk3UXVrb2pURi1HWFRWTjg3VFo0TWVHX3VEVGZ0RUhBN1VhLUhaeUl3cWJnSWdNTW1sb3BUOHEwUWE2cUxGUGxWaDNxT09iR1VoOWM1VXZGZTU?oc=5",
+      "id": "CBMinAFBVV95cUxNLUo1YXQ3YnBVdnVoWW5sRmt0clF3RndFbk5HbXZTN0pPcExkcldTMkJxeWowN1BlRXBGUXpPeFd4SGJjWDVpZnZ5bjk3UXVrb2pURi1HWFRWTjg3VFo0TWVHX3VEVGZ0RUhBN1VhLUhaeUl3cWJnSWdNTW1sb3BUOHEwUWE2cUxGUGxWaDNxT09iR1VoOWM1VXZGZTU",
+      "guidislink": false,
+      "published": "Mon, 07 Mar 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        3,
+        7,
+        8,
+        0,
+        0,
+        0,
+        67,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxNLUo1YXQ3YnBVdnVoWW5sRmt0clF3RndFbk5HbXZTN0pPcExkcldTMkJxeWowN1BlRXBGUXpPeFd4SGJjWDVpZnZ5bjk3UXVrb2pURi1HWFRWTjg3VFo0TWVHX3VEVGZ0RUhBN1VhLUhaeUl3cWJnSWdNTW1sb3BUOHEwUWE2cUxGUGxWaDNxT09iR1VoOWM1VXZGZTU?oc=5\" target=\"_blank\">Here's What We Know Now About Zika and Birth Defects</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">National Geographic</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxNLUo1YXQ3YnBVdnVoWW5sRmt0clF3RndFbk5HbXZTN0pPcExkcldTMkJxeWowN1BlRXBGUXpPeFd4SGJjWDVpZnZ5bjk3UXVrb2pURi1HWFRWTjg3VFo0TWVHX3VEVGZ0RUhBN1VhLUhaeUl3cWJnSWdNTW1sb3BUOHEwUWE2cUxGUGxWaDNxT09iR1VoOWM1VXZGZTU?oc=5\" target=\"_blank\">Here's What We Know Now About Zika and Birth Defects</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">National Geographic</font>"
+      },
+      "source": {
+        "href": "https://www.nationalgeographic.com",
+        "title": "National Geographic"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Countries, territories and areas reporting Zika virus, microcephaly and Guillain-Barré syndrome, 2007-2016 - ReliefWeb",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Countries, territories and areas reporting Zika virus, microcephaly and Guillain-Barré syndrome, 2007-2016 - ReliefWeb"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeVBsNGhKSC1HYmc3Q1RFUmhCQUxkV1VmUDdPaHJJMkhfV1RSN0FZMTd4enlpbkFRaUFWVHBycGVIbU5LVFdJa1d2T3l3S2h6R0pZeFZiSnB5bUwwN0Q3TG5nRU5jSFFzOVlnX1l4cmhJcnVaRWNiUXBmTEpFeFZYWlc1ZVU5aHBWQks3RDVwVWRmTUYza1EzX3lOeVVsX0YyTDBqTExZd0ZpVXByRjA0eWJDbFVxUQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeVBsNGhKSC1HYmc3Q1RFUmhCQUxkV1VmUDdPaHJJMkhfV1RSN0FZMTd4enlpbkFRaUFWVHBycGVIbU5LVFdJa1d2T3l3S2h6R0pZeFZiSnB5bUwwN0Q3TG5nRU5jSFFzOVlnX1l4cmhJcnVaRWNiUXBmTEpFeFZYWlc1ZVU5aHBWQks3RDVwVWRmTUYza1EzX3lOeVVsX0YyTDBqTExZd0ZpVXByRjA0eWJDbFVxUQ?oc=5",
+      "id": "CBMitgFBVV95cUxOeVBsNGhKSC1HYmc3Q1RFUmhCQUxkV1VmUDdPaHJJMkhfV1RSN0FZMTd4enlpbkFRaUFWVHBycGVIbU5LVFdJa1d2T3l3S2h6R0pZeFZiSnB5bUwwN0Q3TG5nRU5jSFFzOVlnX1l4cmhJcnVaRWNiUXBmTEpFeFZYWlc1ZVU5aHBWQks3RDVwVWRmTUYza1EzX3lOeVVsX0YyTDBqTExZd0ZpVXByRjA0eWJDbFVxUQ",
+      "guidislink": false,
+      "published": "Mon, 07 Mar 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        3,
+        7,
+        8,
+        0,
+        0,
+        0,
+        67,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxOeVBsNGhKSC1HYmc3Q1RFUmhCQUxkV1VmUDdPaHJJMkhfV1RSN0FZMTd4enlpbkFRaUFWVHBycGVIbU5LVFdJa1d2T3l3S2h6R0pZeFZiSnB5bUwwN0Q3TG5nRU5jSFFzOVlnX1l4cmhJcnVaRWNiUXBmTEpFeFZYWlc1ZVU5aHBWQks3RDVwVWRmTUYza1EzX3lOeVVsX0YyTDBqTExZd0ZpVXByRjA0eWJDbFVxUQ?oc=5\" target=\"_blank\">Countries, territories and areas reporting Zika virus, microcephaly and Guillain-Barré syndrome, 2007-2016</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ReliefWeb</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxOeVBsNGhKSC1HYmc3Q1RFUmhCQUxkV1VmUDdPaHJJMkhfV1RSN0FZMTd4enlpbkFRaUFWVHBycGVIbU5LVFdJa1d2T3l3S2h6R0pZeFZiSnB5bUwwN0Q3TG5nRU5jSFFzOVlnX1l4cmhJcnVaRWNiUXBmTEpFeFZYWlc1ZVU5aHBWQks3RDVwVWRmTUYza1EzX3lOeVVsX0YyTDBqTExZd0ZpVXByRjA0eWJDbFVxUQ?oc=5\" target=\"_blank\">Countries, territories and areas reporting Zika virus, microcephaly and Guillain-Barré syndrome, 2007-2016</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">ReliefWeb</font>"
+      },
+      "source": {
+        "href": "https://reliefweb.int",
+        "title": "ReliefWeb"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Having a baby in the Zika capital - BBC",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Having a baby in the Zika capital - BBC"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9raDZndlZqbUs1eVgzd2JHeWJ3NGdlcXEyMmREaWZ6dk1YcUZCVDY3b1lYN1FFNkRiRGFEeWVNT1J4bnhfNkRYMkg2SGlPRkhEdlBhYQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9raDZndlZqbUs1eVgzd2JHeWJ3NGdlcXEyMmREaWZ6dk1YcUZCVDY3b1lYN1FFNkRiRGFEeWVNT1J4bnhfNkRYMkg2SGlPRkhEdlBhYQ?oc=5",
+      "id": "CBMiVEFVX3lxTE9raDZndlZqbUs1eVgzd2JHeWJ3NGdlcXEyMmREaWZ6dk1YcUZCVDY3b1lYN1FFNkRiRGFEeWVNT1J4bnhfNkRYMkg2SGlPRkhEdlBhYQ",
+      "guidislink": false,
+      "published": "Mon, 07 Mar 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        3,
+        7,
+        8,
+        0,
+        0,
+        0,
+        67,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE9raDZndlZqbUs1eVgzd2JHeWJ3NGdlcXEyMmREaWZ6dk1YcUZCVDY3b1lYN1FFNkRiRGFEeWVNT1J4bnhfNkRYMkg2SGlPRkhEdlBhYQ?oc=5\" target=\"_blank\">Having a baby in the Zika capital</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiVEFVX3lxTE9raDZndlZqbUs1eVgzd2JHeWJ3NGdlcXEyMmREaWZ6dk1YcUZCVDY3b1lYN1FFNkRiRGFEeWVNT1J4bnhfNkRYMkg2SGlPRkhEdlBhYQ?oc=5\" target=\"_blank\">Having a baby in the Zika capital</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">BBC</font>"
+      },
+      "source": {
+        "href": "https://www.bbc.com",
+        "title": "BBC"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "This Biotech Billionaire Says He Fights Zika Better Than the UN - Bloomberg.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "This Biotech Billionaire Says He Fights Zika Better Than the UN - Bloomberg.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUXJhQTlsakMwOS1rbFQxd1BxakcxZFpURkJPTlJkZmpNSjlzMDRvamJaSnpqNEVOYzZmNFA2OGtUc1R4SVFsWUQ2VHFSdjJtZWlvQmhRVTJELVF2SFVubEtOLVRHNm1lT0I5VklfM2w1T1lHTENqdE1ONWFGOU1SMVNRdGRDN3ZjMzFFZFlPektwMEJuVUFoUjlKTks3czBsNWJBal9UbHBxbnNQZFQyRE1GV1I?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUXJhQTlsakMwOS1rbFQxd1BxakcxZFpURkJPTlJkZmpNSjlzMDRvamJaSnpqNEVOYzZmNFA2OGtUc1R4SVFsWUQ2VHFSdjJtZWlvQmhRVTJELVF2SFVubEtOLVRHNm1lT0I5VklfM2w1T1lHTENqdE1ONWFGOU1SMVNRdGRDN3ZjMzFFZFlPektwMEJuVUFoUjlKTks3czBsNWJBal9UbHBxbnNQZFQyRE1GV1I?oc=5",
+      "id": "CBMitAFBVV95cUxOUXJhQTlsakMwOS1rbFQxd1BxakcxZFpURkJPTlJkZmpNSjlzMDRvamJaSnpqNEVOYzZmNFA2OGtUc1R4SVFsWUQ2VHFSdjJtZWlvQmhRVTJELVF2SFVubEtOLVRHNm1lT0I5VklfM2w1T1lHTENqdE1ONWFGOU1SMVNRdGRDN3ZjMzFFZFlPektwMEJuVUFoUjlKTks3czBsNWJBal9UbHBxbnNQZFQyRE1GV1I",
+      "guidislink": false,
+      "published": "Mon, 07 Mar 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        3,
+        7,
+        8,
+        0,
+        0,
+        0,
+        67,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxOUXJhQTlsakMwOS1rbFQxd1BxakcxZFpURkJPTlJkZmpNSjlzMDRvamJaSnpqNEVOYzZmNFA2OGtUc1R4SVFsWUQ2VHFSdjJtZWlvQmhRVTJELVF2SFVubEtOLVRHNm1lT0I5VklfM2w1T1lHTENqdE1ONWFGOU1SMVNRdGRDN3ZjMzFFZFlPektwMEJuVUFoUjlKTks3czBsNWJBal9UbHBxbnNQZFQyRE1GV1I?oc=5\" target=\"_blank\">This Biotech Billionaire Says He Fights Zika Better Than the UN</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxOUXJhQTlsakMwOS1rbFQxd1BxakcxZFpURkJPTlJkZmpNSjlzMDRvamJaSnpqNEVOYzZmNFA2OGtUc1R4SVFsWUQ2VHFSdjJtZWlvQmhRVTJELVF2SFVubEtOLVRHNm1lT0I5VklfM2w1T1lHTENqdE1ONWFGOU1SMVNRdGRDN3ZjMzFFZFlPektwMEJuVUFoUjlKTks3czBsNWJBal9UbHBxbnNQZFQyRE1GV1I?oc=5\" target=\"_blank\">This Biotech Billionaire Says He Fights Zika Better Than the UN</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Bloomberg.com</font>"
+      },
+      "source": {
+        "href": "https://www.bloomberg.com",
+        "title": "Bloomberg.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika causes concern for mothers - loyolamaroon.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika causes concern for mothers - loyolamaroon.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUDBteXVUbFg2TzE3NFEtY3I3bGhncEJFLVhOZDFNcVFjdTNNdFhCY3hza1JVWkdDU0VEMzVSd0phbmlQVnh6NUVqdjltMFJmdmwzNHZGT0JkaFJQWV9sN09BNUktSV9neTVfVU5CVm43N3U1VWVZV3RkazNIOGYwUXZ2eFJycWJxZ3NsLXZn?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUDBteXVUbFg2TzE3NFEtY3I3bGhncEJFLVhOZDFNcVFjdTNNdFhCY3hza1JVWkdDU0VEMzVSd0phbmlQVnh6NUVqdjltMFJmdmwzNHZGT0JkaFJQWV9sN09BNUktSV9neTVfVU5CVm43N3U1VWVZV3RkazNIOGYwUXZ2eFJycWJxZ3NsLXZn?oc=5",
+      "id": "CBMijgFBVV95cUxOUDBteXVUbFg2TzE3NFEtY3I3bGhncEJFLVhOZDFNcVFjdTNNdFhCY3hza1JVWkdDU0VEMzVSd0phbmlQVnh6NUVqdjltMFJmdmwzNHZGT0JkaFJQWV9sN09BNUktSV9neTVfVU5CVm43N3U1VWVZV3RkazNIOGYwUXZ2eFJycWJxZ3NsLXZn",
+      "guidislink": false,
+      "published": "Sun, 06 Mar 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        3,
+        6,
+        8,
+        0,
+        0,
+        6,
+        66,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxOUDBteXVUbFg2TzE3NFEtY3I3bGhncEJFLVhOZDFNcVFjdTNNdFhCY3hza1JVWkdDU0VEMzVSd0phbmlQVnh6NUVqdjltMFJmdmwzNHZGT0JkaFJQWV9sN09BNUktSV9neTVfVU5CVm43N3U1VWVZV3RkazNIOGYwUXZ2eFJycWJxZ3NsLXZn?oc=5\" target=\"_blank\">Zika causes concern for mothers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">loyolamaroon.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxOUDBteXVUbFg2TzE3NFEtY3I3bGhncEJFLVhOZDFNcVFjdTNNdFhCY3hza1JVWkdDU0VEMzVSd0phbmlQVnh6NUVqdjltMFJmdmwzNHZGT0JkaFJQWV9sN09BNUktSV9neTVfVU5CVm43N3U1VWVZV3RkazNIOGYwUXZ2eFJycWJxZ3NsLXZn?oc=5\" target=\"_blank\">Zika causes concern for mothers</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">loyolamaroon.com</font>"
+      },
+      "source": {
+        "href": "https://loyolamaroon.com",
+        "title": "loyolamaroon.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Stopping Zika: The GMO mosquito that kills his own offspring - CNN",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Stopping Zika: The GMO mosquito that kills his own offspring - CNN"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMicEFVX3lxTE13MEdZSlpDYzVyYWVvOFpFYWM3aDVvRV9JSFY2cW93eTNhRVRuUEktMXE2SHFmd3N4VDJkSW5TRUllM09CZjd1MXR6eVNySkNFMTJ3WEdicllvZjc5RHVsaHhMZnk1REc0V3lpY1BCU2Y?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE13MEdZSlpDYzVyYWVvOFpFYWM3aDVvRV9JSFY2cW93eTNhRVRuUEktMXE2SHFmd3N4VDJkSW5TRUllM09CZjd1MXR6eVNySkNFMTJ3WEdicllvZjc5RHVsaHhMZnk1REc0V3lpY1BCU2Y?oc=5",
+      "id": "CBMicEFVX3lxTE13MEdZSlpDYzVyYWVvOFpFYWM3aDVvRV9JSFY2cW93eTNhRVRuUEktMXE2SHFmd3N4VDJkSW5TRUllM09CZjd1MXR6eVNySkNFMTJ3WEdicllvZjc5RHVsaHhMZnk1REc0V3lpY1BCU2Y",
+      "guidislink": false,
+      "published": "Mon, 07 Mar 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        3,
+        7,
+        8,
+        0,
+        0,
+        0,
+        67,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE13MEdZSlpDYzVyYWVvOFpFYWM3aDVvRV9JSFY2cW93eTNhRVRuUEktMXE2SHFmd3N4VDJkSW5TRUllM09CZjd1MXR6eVNySkNFMTJ3WEdicllvZjc5RHVsaHhMZnk1REc0V3lpY1BCU2Y?oc=5\" target=\"_blank\">Stopping Zika: The GMO mosquito that kills his own offspring</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNN</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE13MEdZSlpDYzVyYWVvOFpFYWM3aDVvRV9JSFY2cW93eTNhRVRuUEktMXE2SHFmd3N4VDJkSW5TRUllM09CZjd1MXR6eVNySkNFMTJ3WEdicllvZjc5RHVsaHhMZnk1REc0V3lpY1BCU2Y?oc=5\" target=\"_blank\">Stopping Zika: The GMO mosquito that kills his own offspring</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNN</font>"
+      },
+      "source": {
+        "href": "https://www.cnn.com",
+        "title": "CNN"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Here’s what Zika virus symptoms look like in pregnant women - Global News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Here’s what Zika virus symptoms look like in pregnant women - Global News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPckRNaHRGNjJOQndiejNLSmVsd3RxRjQ5Y0tvN0ozQmJfaktVdTVKVWtKTXpfN1A5RU1vclFJRGNkbnBoOE9LbTlMcml0LWtPY2tPRDNLQ0UyRXNnNXV5cFNoVndPNmNFaFQ0QThTUDZfeF9rdkszN3JBX1BHd2hiNW91UGktS3ctRVBTN282LTh1RFlkbEtpaGtR?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPckRNaHRGNjJOQndiejNLSmVsd3RxRjQ5Y0tvN0ozQmJfaktVdTVKVWtKTXpfN1A5RU1vclFJRGNkbnBoOE9LbTlMcml0LWtPY2tPRDNLQ0UyRXNnNXV5cFNoVndPNmNFaFQ0QThTUDZfeF9rdkszN3JBX1BHd2hiNW91UGktS3ctRVBTN282LTh1RFlkbEtpaGtR?oc=5",
+      "id": "CBMimgFBVV95cUxPckRNaHRGNjJOQndiejNLSmVsd3RxRjQ5Y0tvN0ozQmJfaktVdTVKVWtKTXpfN1A5RU1vclFJRGNkbnBoOE9LbTlMcml0LWtPY2tPRDNLQ0UyRXNnNXV5cFNoVndPNmNFaFQ0QThTUDZfeF9rdkszN3JBX1BHd2hiNW91UGktS3ctRVBTN282LTh1RFlkbEtpaGtR",
+      "guidislink": false,
+      "published": "Mon, 07 Mar 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        3,
+        7,
+        8,
+        0,
+        0,
+        0,
+        67,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxPckRNaHRGNjJOQndiejNLSmVsd3RxRjQ5Y0tvN0ozQmJfaktVdTVKVWtKTXpfN1A5RU1vclFJRGNkbnBoOE9LbTlMcml0LWtPY2tPRDNLQ0UyRXNnNXV5cFNoVndPNmNFaFQ0QThTUDZfeF9rdkszN3JBX1BHd2hiNW91UGktS3ctRVBTN282LTh1RFlkbEtpaGtR?oc=5\" target=\"_blank\">Here’s what Zika virus symptoms look like in pregnant women</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Global News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxPckRNaHRGNjJOQndiejNLSmVsd3RxRjQ5Y0tvN0ozQmJfaktVdTVKVWtKTXpfN1A5RU1vclFJRGNkbnBoOE9LbTlMcml0LWtPY2tPRDNLQ0UyRXNnNXV5cFNoVndPNmNFaFQ0QThTUDZfeF9rdkszN3JBX1BHd2hiNW91UGktS3ctRVBTN282LTh1RFlkbEtpaGtR?oc=5\" target=\"_blank\">Here’s what Zika virus symptoms look like in pregnant women</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Global News</font>"
+      },
+      "source": {
+        "href": "https://globalnews.ca",
+        "title": "Global News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika threat looms over Rayalaseema - The Hindu",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika threat looms over Rayalaseema - The Hindu"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTkFLU3VIcU9oOGFucGEwR0NwMjYzT3d3MTdiTHcyRWFvUGVGZ0hSSG9sZ25jX1BGRGE1LUlTcnVnVWR2YW9RLVpVeDZyYThlS1NpWU0xYjJpREpJRDg5aW1xWnVJX3BGa0VUdGVkRHhVMHRCQ3ZzLWFQTF9uWWprUEFfYTNOQVlXOS1SNHRVZFZ3dFM5T0FPMDhxZUZqVnEydnZhR1R0cUV4N1nSAbIBQVVfeXFMTUZjdjk4SXhwMW1yNjg3SU5QZllDSzZaQTdWX3I2OEcyM3JvYzdlQmpzVVFnZGZoVFc1eXRDV2Q4RzY3c1hYdVlkRFJNQkloZVhLNnVHczJmQWNMNzlfSGM3dlpTZGpyY2R3REtKTkpTV2JGRllvQ1pHaFJmdXVPX3AwczVnV2JOM0Vsbm9vM25HdndiS0VSMmNjenExd2ZIenpKTmphOTR4OGIzLUszcFlrZw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTkFLU3VIcU9oOGFucGEwR0NwMjYzT3d3MTdiTHcyRWFvUGVGZ0hSSG9sZ25jX1BGRGE1LUlTcnVnVWR2YW9RLVpVeDZyYThlS1NpWU0xYjJpREpJRDg5aW1xWnVJX3BGa0VUdGVkRHhVMHRCQ3ZzLWFQTF9uWWprUEFfYTNOQVlXOS1SNHRVZFZ3dFM5T0FPMDhxZUZqVnEydnZhR1R0cUV4N1nSAbIBQVVfeXFMTUZjdjk4SXhwMW1yNjg3SU5QZllDSzZaQTdWX3I2OEcyM3JvYzdlQmpzVVFnZGZoVFc1eXRDV2Q4RzY3c1hYdVlkRFJNQkloZVhLNnVHczJmQWNMNzlfSGM3dlpTZGpyY2R3REtKTkpTV2JGRllvQ1pHaFJmdXVPX3AwczVnV2JOM0Vsbm9vM25HdndiS0VSMmNjenExd2ZIenpKTmphOTR4OGIzLUszcFlrZw?oc=5",
+      "id": "CBMiqwFBVV95cUxOTkFLU3VIcU9oOGFucGEwR0NwMjYzT3d3MTdiTHcyRWFvUGVGZ0hSSG9sZ25jX1BGRGE1LUlTcnVnVWR2YW9RLVpVeDZyYThlS1NpWU0xYjJpREpJRDg5aW1xWnVJX3BGa0VUdGVkRHhVMHRCQ3ZzLWFQTF9uWWprUEFfYTNOQVlXOS1SNHRVZFZ3dFM5T0FPMDhxZUZqVnEydnZhR1R0cUV4N1nSAbIBQVVfeXFMTUZjdjk4SXhwMW1yNjg3SU5QZllDSzZaQTdWX3I2OEcyM3JvYzdlQmpzVVFnZGZoVFc1eXRDV2Q4RzY3c1hYdVlkRFJNQkloZVhLNnVHczJmQWNMNzlfSGM3dlpTZGpyY2R3REtKTkpTV2JGRllvQ1pHaFJmdXVPX3AwczVnV2JOM0Vsbm9vM25HdndiS0VSMmNjenExd2ZIenpKTmphOTR4OGIzLUszcFlrZw",
+      "guidislink": false,
+      "published": "Sun, 06 Mar 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        3,
+        6,
+        8,
+        0,
+        0,
+        6,
+        66,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTkFLU3VIcU9oOGFucGEwR0NwMjYzT3d3MTdiTHcyRWFvUGVGZ0hSSG9sZ25jX1BGRGE1LUlTcnVnVWR2YW9RLVpVeDZyYThlS1NpWU0xYjJpREpJRDg5aW1xWnVJX3BGa0VUdGVkRHhVMHRCQ3ZzLWFQTF9uWWprUEFfYTNOQVlXOS1SNHRVZFZ3dFM5T0FPMDhxZUZqVnEydnZhR1R0cUV4N1nSAbIBQVVfeXFMTUZjdjk4SXhwMW1yNjg3SU5QZllDSzZaQTdWX3I2OEcyM3JvYzdlQmpzVVFnZGZoVFc1eXRDV2Q4RzY3c1hYdVlkRFJNQkloZVhLNnVHczJmQWNMNzlfSGM3dlpTZGpyY2R3REtKTkpTV2JGRllvQ1pHaFJmdXVPX3AwczVnV2JOM0Vsbm9vM25HdndiS0VSMmNjenExd2ZIenpKTmphOTR4OGIzLUszcFlrZw?oc=5\" target=\"_blank\">Zika threat looms over Rayalaseema</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Hindu</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTkFLU3VIcU9oOGFucGEwR0NwMjYzT3d3MTdiTHcyRWFvUGVGZ0hSSG9sZ25jX1BGRGE1LUlTcnVnVWR2YW9RLVpVeDZyYThlS1NpWU0xYjJpREpJRDg5aW1xWnVJX3BGa0VUdGVkRHhVMHRCQ3ZzLWFQTF9uWWprUEFfYTNOQVlXOS1SNHRVZFZ3dFM5T0FPMDhxZUZqVnEydnZhR1R0cUV4N1nSAbIBQVVfeXFMTUZjdjk4SXhwMW1yNjg3SU5QZllDSzZaQTdWX3I2OEcyM3JvYzdlQmpzVVFnZGZoVFc1eXRDV2Q4RzY3c1hYdVlkRFJNQkloZVhLNnVHczJmQWNMNzlfSGM3dlpTZGpyY2R3REtKTkpTV2JGRllvQ1pHaFJmdXVPX3AwczVnV2JOM0Vsbm9vM25HdndiS0VSMmNjenExd2ZIenpKTmphOTR4OGIzLUszcFlrZw?oc=5\" target=\"_blank\">Zika threat looms over Rayalaseema</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Hindu</font>"
+      },
+      "source": {
+        "href": "https://www.thehindu.com",
+        "title": "The Hindu"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika virus detected in PH - Inquirer.net",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika virus detected in PH - Inquirer.net"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4tQVNjT1l3d3NOU2ttY0dELUlYNWNJYUsweklKcFpiVFQ4eWRuWWJJOUkxQWo1Y192N0hBM0k4Q05zVjVkNkZFQU9EUTFkRUt6cGlPVzFqNVdPbU9wN182WUhzcW5rVk9CRXJJRXNDWdIBdEFVX3lxTFByWk9la1NMMVVRb19NSFNnamp4RGt1X1JkeUE1T0JMMGxueWVCOHN2dFU1MTYxN1l4eE0tVnNKcjdTUjBjcFNtNXVJcEV2d3dvQl93S0hMRGNMOXlualBwTldPUE5YMWxCNDBlM0FpSFZkX213?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4tQVNjT1l3d3NOU2ttY0dELUlYNWNJYUsweklKcFpiVFQ4eWRuWWJJOUkxQWo1Y192N0hBM0k4Q05zVjVkNkZFQU9EUTFkRUt6cGlPVzFqNVdPbU9wN182WUhzcW5rVk9CRXJJRXNDWdIBdEFVX3lxTFByWk9la1NMMVVRb19NSFNnamp4RGt1X1JkeUE1T0JMMGxueWVCOHN2dFU1MTYxN1l4eE0tVnNKcjdTUjBjcFNtNXVJcEV2d3dvQl93S0hMRGNMOXlualBwTldPUE5YMWxCNDBlM0FpSFZkX213?oc=5",
+      "id": "CBMib0FVX3lxTE4tQVNjT1l3d3NOU2ttY0dELUlYNWNJYUsweklKcFpiVFQ4eWRuWWJJOUkxQWo1Y192N0hBM0k4Q05zVjVkNkZFQU9EUTFkRUt6cGlPVzFqNVdPbU9wN182WUhzcW5rVk9CRXJJRXNDWdIBdEFVX3lxTFByWk9la1NMMVVRb19NSFNnamp4RGt1X1JkeUE1T0JMMGxueWVCOHN2dFU1MTYxN1l4eE0tVnNKcjdTUjBjcFNtNXVJcEV2d3dvQl93S0hMRGNMOXlualBwTldPUE5YMWxCNDBlM0FpSFZkX213",
+      "guidislink": false,
+      "published": "Sun, 06 Mar 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        3,
+        6,
+        8,
+        0,
+        0,
+        6,
+        66,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE4tQVNjT1l3d3NOU2ttY0dELUlYNWNJYUsweklKcFpiVFQ4eWRuWWJJOUkxQWo1Y192N0hBM0k4Q05zVjVkNkZFQU9EUTFkRUt6cGlPVzFqNVdPbU9wN182WUhzcW5rVk9CRXJJRXNDWdIBdEFVX3lxTFByWk9la1NMMVVRb19NSFNnamp4RGt1X1JkeUE1T0JMMGxueWVCOHN2dFU1MTYxN1l4eE0tVnNKcjdTUjBjcFNtNXVJcEV2d3dvQl93S0hMRGNMOXlualBwTldPUE5YMWxCNDBlM0FpSFZkX213?oc=5\" target=\"_blank\">Zika virus detected in PH</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Inquirer.net</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE4tQVNjT1l3d3NOU2ttY0dELUlYNWNJYUsweklKcFpiVFQ4eWRuWWJJOUkxQWo1Y192N0hBM0k4Q05zVjVkNkZFQU9EUTFkRUt6cGlPVzFqNVdPbU9wN182WUhzcW5rVk9CRXJJRXNDWdIBdEFVX3lxTFByWk9la1NMMVVRb19NSFNnamp4RGt1X1JkeUE1T0JMMGxueWVCOHN2dFU1MTYxN1l4eE0tVnNKcjdTUjBjcFNtNXVJcEV2d3dvQl93S0hMRGNMOXlualBwTldPUE5YMWxCNDBlM0FpSFZkX213?oc=5\" target=\"_blank\">Zika virus detected in PH</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Inquirer.net</font>"
+      },
+      "source": {
+        "href": "https://newsinfo.inquirer.net",
+        "title": "Inquirer.net"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika could be carried by NZ mosquito - RNZ",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika could be carried by NZ mosquito - RNZ"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMlJkSkpacEpaeDVuN1FoOHlpYWV6T2xYVDYzanRCMUh3dFNFVkR5dHkwR0NIY2lNZWE0UHJhUFZPVE9ucGlTQldZeFpQNVJKSVRTZ05DY3BHYy10QVpsTXh2MEdwdFVNUjdoa24wb0dsa08zazhzcXRkWTBKSTZLLWsxSkdpUQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMlJkSkpacEpaeDVuN1FoOHlpYWV6T2xYVDYzanRCMUh3dFNFVkR5dHkwR0NIY2lNZWE0UHJhUFZPVE9ucGlTQldZeFpQNVJKSVRTZ05DY3BHYy10QVpsTXh2MEdwdFVNUjdoa24wb0dsa08zazhzcXRkWTBKSTZLLWsxSkdpUQ?oc=5",
+      "id": "CBMihgFBVV95cUxQMlJkSkpacEpaeDVuN1FoOHlpYWV6T2xYVDYzanRCMUh3dFNFVkR5dHkwR0NIY2lNZWE0UHJhUFZPVE9ucGlTQldZeFpQNVJKSVRTZ05DY3BHYy10QVpsTXh2MEdwdFVNUjdoa24wb0dsa08zazhzcXRkWTBKSTZLLWsxSkdpUQ",
+      "guidislink": false,
+      "published": "Sun, 06 Mar 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        3,
+        6,
+        8,
+        0,
+        0,
+        6,
+        66,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxQMlJkSkpacEpaeDVuN1FoOHlpYWV6T2xYVDYzanRCMUh3dFNFVkR5dHkwR0NIY2lNZWE0UHJhUFZPVE9ucGlTQldZeFpQNVJKSVRTZ05DY3BHYy10QVpsTXh2MEdwdFVNUjdoa24wb0dsa08zazhzcXRkWTBKSTZLLWsxSkdpUQ?oc=5\" target=\"_blank\">Zika could be carried by NZ mosquito</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">RNZ</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxQMlJkSkpacEpaeDVuN1FoOHlpYWV6T2xYVDYzanRCMUh3dFNFVkR5dHkwR0NIY2lNZWE0UHJhUFZPVE9ucGlTQldZeFpQNVJKSVRTZ05DY3BHYy10QVpsTXh2MEdwdFVNUjdoa24wb0dsa08zazhzcXRkWTBKSTZLLWsxSkdpUQ?oc=5\" target=\"_blank\">Zika could be carried by NZ mosquito</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">RNZ</font>"
+      },
+      "source": {
+        "href": "https://www.rnz.co.nz",
+        "title": "RNZ"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Stopping Zika: Mass sterilization of male mosquitoes - CNN",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Stopping Zika: Mass sterilization of male mosquitoes - CNN"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8tcDZSd2xsLTAtRDhjcU9Id0c0N2l3NHR4S0JPd1pCeko2V1hrTTdpdG1oMm5oT1QxWGYzVFRKalpqX2NmSDFGNkp5YWRXenAtUzNNQUx1d2hQMmNaSDZMcEJGUnJpMWJZemRoczJ4TWs4VWs?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8tcDZSd2xsLTAtRDhjcU9Id0c0N2l3NHR4S0JPd1pCeko2V1hrTTdpdG1oMm5oT1QxWGYzVFRKalpqX2NmSDFGNkp5YWRXenAtUzNNQUx1d2hQMmNaSDZMcEJGUnJpMWJZemRoczJ4TWs4VWs?oc=5",
+      "id": "CBMic0FVX3lxTE8tcDZSd2xsLTAtRDhjcU9Id0c0N2l3NHR4S0JPd1pCeko2V1hrTTdpdG1oMm5oT1QxWGYzVFRKalpqX2NmSDFGNkp5YWRXenAtUzNNQUx1d2hQMmNaSDZMcEJGUnJpMWJZemRoczJ4TWs4VWs",
+      "guidislink": false,
+      "published": "Mon, 07 Mar 2016 08:00:00 GMT",
+      "published_parsed": [
+        2016,
+        3,
+        7,
+        8,
+        0,
+        0,
+        0,
+        67,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE8tcDZSd2xsLTAtRDhjcU9Id0c0N2l3NHR4S0JPd1pCeko2V1hrTTdpdG1oMm5oT1QxWGYzVFRKalpqX2NmSDFGNkp5YWRXenAtUzNNQUx1d2hQMmNaSDZMcEJGUnJpMWJZemRoczJ4TWs4VWs?oc=5\" target=\"_blank\">Stopping Zika: Mass sterilization of male mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNN</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE8tcDZSd2xsLTAtRDhjcU9Id0c0N2l3NHR4S0JPd1pCeko2V1hrTTdpdG1oMm5oT1QxWGYzVFRKalpqX2NmSDFGNkp5YWRXenAtUzNNQUx1d2hQMmNaSDZMcEJGUnJpMWJZemRoczJ4TWs4VWs?oc=5\" target=\"_blank\">Stopping Zika: Mass sterilization of male mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNN</font>"
+      },
+      "source": {
+        "href": "https://www.cnn.com",
+        "title": "CNN"
+      },
+      "sub_articles": []
+    }
+  ]
+}

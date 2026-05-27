@@ -1,0 +1,779 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2020-11-20",
+  "window_end": "2020-12-03",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2020-11-20+before%3A2020-12-04&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2020-11-20+before:2020-12-04&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:28:06Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2020-11-20 before:2020-12-04\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2020-11-20 before:2020-12-04\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2020-11-20+before:2020-12-04&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2020-11-20+before:2020-12-04&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:28:06 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      28,
+      6,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Enhanced Zika virus susceptibility of globally invasive Aedes aegypti populations - Science | AAAS",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Enhanced Zika virus susceptibility of globally invasive Aedes aegypti populations - Science | AAAS"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1fUnpTcnpwVG5yZDl0MHZyc2gzN0RfZGNaNWtQa0ZvRXFzeXRlYTZHNGJQdjJSZVJfN2JfbmNPcjZ5dTRSTDhVN3NrbWVkUWxITUxXdTN0eU1wTENmXzF2eQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1fUnpTcnpwVG5yZDl0MHZyc2gzN0RfZGNaNWtQa0ZvRXFzeXRlYTZHNGJQdjJSZVJfN2JfbmNPcjZ5dTRSTDhVN3NrbWVkUWxITUxXdTN0eU1wTENmXzF2eQ?oc=5",
+      "id": "CBMiYEFVX3lxTE1fUnpTcnpwVG5yZDl0MHZyc2gzN0RfZGNaNWtQa0ZvRXFzeXRlYTZHNGJQdjJSZVJfN2JfbmNPcjZ5dTRSTDhVN3NrbWVkUWxITUxXdTN0eU1wTENmXzF2eQ",
+      "guidislink": false,
+      "published": "Fri, 20 Nov 2020 08:00:00 GMT",
+      "published_parsed": [
+        2020,
+        11,
+        20,
+        8,
+        0,
+        0,
+        4,
+        325,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTE1fUnpTcnpwVG5yZDl0MHZyc2gzN0RfZGNaNWtQa0ZvRXFzeXRlYTZHNGJQdjJSZVJfN2JfbmNPcjZ5dTRSTDhVN3NrbWVkUWxITUxXdTN0eU1wTENmXzF2eQ?oc=5\" target=\"_blank\">Enhanced Zika virus susceptibility of globally invasive Aedes aegypti populations</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Science | AAAS</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTE1fUnpTcnpwVG5yZDl0MHZyc2gzN0RfZGNaNWtQa0ZvRXFzeXRlYTZHNGJQdjJSZVJfN2JfbmNPcjZ5dTRSTDhVN3NrbWVkUWxITUxXdTN0eU1wTENmXzF2eQ?oc=5\" target=\"_blank\">Enhanced Zika virus susceptibility of globally invasive Aedes aegypti populations</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Science | AAAS</font>"
+      },
+      "source": {
+        "href": "https://www.science.org",
+        "title": "Science | AAAS"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Commonly used antibiotic shows promise for combating Zika infections - National Institutes of Health (.gov)",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Commonly used antibiotic shows promise for combating Zika infections - National Institutes of Health (.gov)"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObUFMZGE1b0Q3M09ISWlNRklnMENicFFPMkNDV3JCemtiQ1hkQVUyeklNR1pHYmFKcEdkZEc1VG54VVhDRTNDMExFOXVXMGVGT0VsbXY3WkFNRkF6a0pLcW9hUmIxS3RQR1JfdmVkeXM1R1BSeWpuZUhBVlRoSTVZOGZJMDFpMTl1b1pjZGhDazdDYVJxSFh3c2VZajhLZDNyZkduNGkzekY0YWk4Mm1R?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObUFMZGE1b0Q3M09ISWlNRklnMENicFFPMkNDV3JCemtiQ1hkQVUyeklNR1pHYmFKcEdkZEc1VG54VVhDRTNDMExFOXVXMGVGT0VsbXY3WkFNRkF6a0pLcW9hUmIxS3RQR1JfdmVkeXM1R1BSeWpuZUhBVlRoSTVZOGZJMDFpMTl1b1pjZGhDazdDYVJxSFh3c2VZajhLZDNyZkduNGkzekY0YWk4Mm1R?oc=5",
+      "id": "CBMirwFBVV95cUxObUFMZGE1b0Q3M09ISWlNRklnMENicFFPMkNDV3JCemtiQ1hkQVUyeklNR1pHYmFKcEdkZEc1VG54VVhDRTNDMExFOXVXMGVGT0VsbXY3WkFNRkF6a0pLcW9hUmIxS3RQR1JfdmVkeXM1R1BSeWpuZUhBVlRoSTVZOGZJMDFpMTl1b1pjZGhDazdDYVJxSFh3c2VZajhLZDNyZkduNGkzekY0YWk4Mm1R",
+      "guidislink": false,
+      "published": "Tue, 24 Nov 2020 08:00:00 GMT",
+      "published_parsed": [
+        2020,
+        11,
+        24,
+        8,
+        0,
+        0,
+        1,
+        329,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxObUFMZGE1b0Q3M09ISWlNRklnMENicFFPMkNDV3JCemtiQ1hkQVUyeklNR1pHYmFKcEdkZEc1VG54VVhDRTNDMExFOXVXMGVGT0VsbXY3WkFNRkF6a0pLcW9hUmIxS3RQR1JfdmVkeXM1R1BSeWpuZUhBVlRoSTVZOGZJMDFpMTl1b1pjZGhDazdDYVJxSFh3c2VZajhLZDNyZkduNGkzekY0YWk4Mm1R?oc=5\" target=\"_blank\">Commonly used antibiotic shows promise for combating Zika infections</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">National Institutes of Health (.gov)</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxObUFMZGE1b0Q3M09ISWlNRklnMENicFFPMkNDV3JCemtiQ1hkQVUyeklNR1pHYmFKcEdkZEc1VG54VVhDRTNDMExFOXVXMGVGT0VsbXY3WkFNRkF6a0pLcW9hUmIxS3RQR1JfdmVkeXM1R1BSeWpuZUhBVlRoSTVZOGZJMDFpMTl1b1pjZGhDazdDYVJxSFh3c2VZajhLZDNyZkduNGkzekY0YWk4Mm1R?oc=5\" target=\"_blank\">Commonly used antibiotic shows promise for combating Zika infections</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">National Institutes of Health (.gov)</font>"
+      },
+      "source": {
+        "href": "https://www.nih.gov",
+        "title": "National Institutes of Health (.gov)"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Super resolution microscopy and deep learning identify Zika virus reorganization of the endoplasmic reticulum - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Super resolution microscopy and deep learning identify Zika virus reorganization of the endoplasmic reticulum - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAtUVJmenhkUzdUeTdSaG91dVdueWRvaVZ6VmFfc0dNU3JIaWRBYlliZ0lUTGw0Vm1HcVFiYWZRY3paOHFiQWlWd0VrY3ZhQTd1c3Y3akJyRXhOSTExMFBV?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAtUVJmenhkUzdUeTdSaG91dVdueWRvaVZ6VmFfc0dNU3JIaWRBYlliZ0lUTGw0Vm1HcVFiYWZRY3paOHFiQWlWd0VrY3ZhQTd1c3Y3akJyRXhOSTExMFBV?oc=5",
+      "id": "CBMiX0FVX3lxTFAtUVJmenhkUzdUeTdSaG91dVdueWRvaVZ6VmFfc0dNU3JIaWRBYlliZ0lUTGw0Vm1HcVFiYWZRY3paOHFiQWlWd0VrY3ZhQTd1c3Y3akJyRXhOSTExMFBV",
+      "guidislink": false,
+      "published": "Tue, 01 Dec 2020 08:00:00 GMT",
+      "published_parsed": [
+        2020,
+        12,
+        1,
+        8,
+        0,
+        0,
+        1,
+        336,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFAtUVJmenhkUzdUeTdSaG91dVdueWRvaVZ6VmFfc0dNU3JIaWRBYlliZ0lUTGw0Vm1HcVFiYWZRY3paOHFiQWlWd0VrY3ZhQTd1c3Y3akJyRXhOSTExMFBV?oc=5\" target=\"_blank\">Super resolution microscopy and deep learning identify Zika virus reorganization of the endoplasmic reticulum</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFAtUVJmenhkUzdUeTdSaG91dVdueWRvaVZ6VmFfc0dNU3JIaWRBYlliZ0lUTGw0Vm1HcVFiYWZRY3paOHFiQWlWd0VrY3ZhQTd1c3Y3akJyRXhOSTExMFBV?oc=5\" target=\"_blank\">Super resolution microscopy and deep learning identify Zika virus reorganization of the endoplasmic reticulum</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Tetracycline antibiotics show promise against Zika virus - Drug Target Review",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Tetracycline antibiotics show promise against Zika virus - Drug Target Review"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMDI3MVhvUVRNTXdILUNLNWhwZExlaDdpVXJQZEFTZEUwbFcxY0w0MHlQekFmaTBhSlJiZG9rTktVa25aSFlYYkhVckxBRk1uZWZTekhObDdTRDh0UzExZFEtdlVyVFpUR1Vnd05fN3pDbmZnSEk1V0JlQzlOQ2RHSHUzakJJN0N6UWk3ZmVyM3lCRm1Jb2xiajdvV191SmZWNmxz?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMDI3MVhvUVRNTXdILUNLNWhwZExlaDdpVXJQZEFTZEUwbFcxY0w0MHlQekFmaTBhSlJiZG9rTktVa25aSFlYYkhVckxBRk1uZWZTekhObDdTRDh0UzExZFEtdlVyVFpUR1Vnd05fN3pDbmZnSEk1V0JlQzlOQ2RHSHUzakJJN0N6UWk3ZmVyM3lCRm1Jb2xiajdvV191SmZWNmxz?oc=5",
+      "id": "CBMiowFBVV95cUxQMDI3MVhvUVRNTXdILUNLNWhwZExlaDdpVXJQZEFTZEUwbFcxY0w0MHlQekFmaTBhSlJiZG9rTktVa25aSFlYYkhVckxBRk1uZWZTekhObDdTRDh0UzExZFEtdlVyVFpUR1Vnd05fN3pDbmZnSEk1V0JlQzlOQ2RHSHUzakJJN0N6UWk3ZmVyM3lCRm1Jb2xiajdvV191SmZWNmxz",
+      "guidislink": false,
+      "published": "Wed, 25 Nov 2020 08:00:00 GMT",
+      "published_parsed": [
+        2020,
+        11,
+        25,
+        8,
+        0,
+        0,
+        2,
+        330,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxQMDI3MVhvUVRNTXdILUNLNWhwZExlaDdpVXJQZEFTZEUwbFcxY0w0MHlQekFmaTBhSlJiZG9rTktVa25aSFlYYkhVckxBRk1uZWZTekhObDdTRDh0UzExZFEtdlVyVFpUR1Vnd05fN3pDbmZnSEk1V0JlQzlOQ2RHSHUzakJJN0N6UWk3ZmVyM3lCRm1Jb2xiajdvV191SmZWNmxz?oc=5\" target=\"_blank\">Tetracycline antibiotics show promise against Zika virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Drug Target Review</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxQMDI3MVhvUVRNTXdILUNLNWhwZExlaDdpVXJQZEFTZEUwbFcxY0w0MHlQekFmaTBhSlJiZG9rTktVa25aSFlYYkhVckxBRk1uZWZTekhObDdTRDh0UzExZFEtdlVyVFpUR1Vnd05fN3pDbmZnSEk1V0JlQzlOQ2RHSHUzakJJN0N6UWk3ZmVyM3lCRm1Jb2xiajdvV191SmZWNmxz?oc=5\" target=\"_blank\">Tetracycline antibiotics show promise against Zika virus</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Drug Target Review</font>"
+      },
+      "source": {
+        "href": "https://www.drugtargetreview.com",
+        "title": "Drug Target Review"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Why Does A Virus Cause Problems In One Region But Not Another? A Study Offers Insight - NPR",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Why Does A Virus Cause Problems In One Region But Not Another? A Study Offers Insight - NPR"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOVy1yLUJYSDZtRjlQR3hCSHY2dllaRE8zV1BHTmZtUGhfdjRlWkdOSDlSWVB1WnJZZW05akJQanpYeFE0WlUzUmNwbG9lMmpJNTN6S0VXdW12RkpBVmpQUFU4Rks5dTA5SFM3RHBHeC1veVlUZE5LVVJRSzlydzdUYnI5dWRNX20zcDRBUE5nSndwRnJ2dHlKZGFtUTJiUjJqeDEtOW9tX3pVZjc1aTRsNENxSjRfdEx3b1doTUh3ZThZM1JUYjRZendKUzlLTlJSSzBZQzdWUHJyam8?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOVy1yLUJYSDZtRjlQR3hCSHY2dllaRE8zV1BHTmZtUGhfdjRlWkdOSDlSWVB1WnJZZW05akJQanpYeFE0WlUzUmNwbG9lMmpJNTN6S0VXdW12RkpBVmpQUFU4Rks5dTA5SFM3RHBHeC1veVlUZE5LVVJRSzlydzdUYnI5dWRNX20zcDRBUE5nSndwRnJ2dHlKZGFtUTJiUjJqeDEtOW9tX3pVZjc1aTRsNENxSjRfdEx3b1doTUh3ZThZM1JUYjRZendKUzlLTlJSSzBZQzdWUHJyam8?oc=5",
+      "id": "CBMi2wFBVV95cUxOVy1yLUJYSDZtRjlQR3hCSHY2dllaRE8zV1BHTmZtUGhfdjRlWkdOSDlSWVB1WnJZZW05akJQanpYeFE0WlUzUmNwbG9lMmpJNTN6S0VXdW12RkpBVmpQUFU4Rks5dTA5SFM3RHBHeC1veVlUZE5LVVJRSzlydzdUYnI5dWRNX20zcDRBUE5nSndwRnJ2dHlKZGFtUTJiUjJqeDEtOW9tX3pVZjc1aTRsNENxSjRfdEx3b1doTUh3ZThZM1JUYjRZendKUzlLTlJSSzBZQzdWUHJyam8",
+      "guidislink": false,
+      "published": "Fri, 20 Nov 2020 08:00:00 GMT",
+      "published_parsed": [
+        2020,
+        11,
+        20,
+        8,
+        0,
+        0,
+        4,
+        325,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2wFBVV95cUxOVy1yLUJYSDZtRjlQR3hCSHY2dllaRE8zV1BHTmZtUGhfdjRlWkdOSDlSWVB1WnJZZW05akJQanpYeFE0WlUzUmNwbG9lMmpJNTN6S0VXdW12RkpBVmpQUFU4Rks5dTA5SFM3RHBHeC1veVlUZE5LVVJRSzlydzdUYnI5dWRNX20zcDRBUE5nSndwRnJ2dHlKZGFtUTJiUjJqeDEtOW9tX3pVZjc1aTRsNENxSjRfdEx3b1doTUh3ZThZM1JUYjRZendKUzlLTlJSSzBZQzdWUHJyam8?oc=5\" target=\"_blank\">Why Does A Virus Cause Problems In One Region But Not Another? A Study Offers Insight</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NPR</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi2wFBVV95cUxOVy1yLUJYSDZtRjlQR3hCSHY2dllaRE8zV1BHTmZtUGhfdjRlWkdOSDlSWVB1WnJZZW05akJQanpYeFE0WlUzUmNwbG9lMmpJNTN6S0VXdW12RkpBVmpQUFU4Rks5dTA5SFM3RHBHeC1veVlUZE5LVVJRSzlydzdUYnI5dWRNX20zcDRBUE5nSndwRnJ2dHlKZGFtUTJiUjJqeDEtOW9tX3pVZjc1aTRsNENxSjRfdEx3b1doTUh3ZThZM1JUYjRZendKUzlLTlJSSzBZQzdWUHJyam8?oc=5\" target=\"_blank\">Why Does A Virus Cause Problems In One Region But Not Another? A Study Offers Insight</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">NPR</font>"
+      },
+      "source": {
+        "href": "https://www.npr.org",
+        "title": "NPR"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "JABSOM PhD students honored for work in tropical medicine - John A. Burns School of Medicine",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "JABSOM PhD students honored for work in tropical medicine - John A. Burns School of Medicine"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNd3JlU2xvLXp2ZWdleUhGVGxqYnN2em9LQTZxOXl2M1dldDlwSzhlRkVIQXZZWWVUZWkwUy1uUWJsLTktQ3dEbkxkUzc4ZHE4ZEV5cjVySzZTYndjc3RaRzdQZDlaWWFQZENCa2w1Q0ZhOTJlbHYwQTdTM0Z6THpFUF90V1pTY0NWZmtZbmFob2tqaEE5ZkFFUlpiMmdkaDBvWlY1Z3hZSGUySE15U0VxUXAtSQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNd3JlU2xvLXp2ZWdleUhGVGxqYnN2em9LQTZxOXl2M1dldDlwSzhlRkVIQXZZWWVUZWkwUy1uUWJsLTktQ3dEbkxkUzc4ZHE4ZEV5cjVySzZTYndjc3RaRzdQZDlaWWFQZENCa2w1Q0ZhOTJlbHYwQTdTM0Z6THpFUF90V1pTY0NWZmtZbmFob2tqaEE5ZkFFUlpiMmdkaDBvWlY1Z3hZSGUySE15U0VxUXAtSQ?oc=5",
+      "id": "CBMiswFBVV95cUxNd3JlU2xvLXp2ZWdleUhGVGxqYnN2em9LQTZxOXl2M1dldDlwSzhlRkVIQXZZWWVUZWkwUy1uUWJsLTktQ3dEbkxkUzc4ZHE4ZEV5cjVySzZTYndjc3RaRzdQZDlaWWFQZENCa2w1Q0ZhOTJlbHYwQTdTM0Z6THpFUF90V1pTY0NWZmtZbmFob2tqaEE5ZkFFUlpiMmdkaDBvWlY1Z3hZSGUySE15U0VxUXAtSQ",
+      "guidislink": false,
+      "published": "Fri, 04 Dec 2020 08:00:00 GMT",
+      "published_parsed": [
+        2020,
+        12,
+        4,
+        8,
+        0,
+        0,
+        4,
+        339,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxNd3JlU2xvLXp2ZWdleUhGVGxqYnN2em9LQTZxOXl2M1dldDlwSzhlRkVIQXZZWWVUZWkwUy1uUWJsLTktQ3dEbkxkUzc4ZHE4ZEV5cjVySzZTYndjc3RaRzdQZDlaWWFQZENCa2w1Q0ZhOTJlbHYwQTdTM0Z6THpFUF90V1pTY0NWZmtZbmFob2tqaEE5ZkFFUlpiMmdkaDBvWlY1Z3hZSGUySE15U0VxUXAtSQ?oc=5\" target=\"_blank\">JABSOM PhD students honored for work in tropical medicine</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">John A. Burns School of Medicine</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxNd3JlU2xvLXp2ZWdleUhGVGxqYnN2em9LQTZxOXl2M1dldDlwSzhlRkVIQXZZWWVUZWkwUy1uUWJsLTktQ3dEbkxkUzc4ZHE4ZEV5cjVySzZTYndjc3RaRzdQZDlaWWFQZENCa2w1Q0ZhOTJlbHYwQTdTM0Z6THpFUF90V1pTY0NWZmtZbmFob2tqaEE5ZkFFUlpiMmdkaDBvWlY1Z3hZSGUySE15U0VxUXAtSQ?oc=5\" target=\"_blank\">JABSOM PhD students honored for work in tropical medicine</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">John A. Burns School of Medicine</font>"
+      },
+      "source": {
+        "href": "https://jabsom.hawaii.edu",
+        "title": "John A. Burns School of Medicine"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "USAMRIID Scientist Receives Medal of Honor from French Military - army.mil",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "USAMRIID Scientist Receives Medal of Honor from French Military - army.mil"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNa3lOYXUtY095aENEWW54NmhCMkJHY3gtVW5PMV9acWlYM3pPRVp4aGI1bGhQZUxjTDFWWXo5d2xkWDRBRzlqWGc5UFFhcEw0ZHF0NjB2ZXE1c2Z3clF6U055RzdtWVZzZVpMTWFmc3hMVjc2Yjg2MW5PUXhZMDlXb1hDTmo5OXBSOHFyX0YzNDRMMWdFS1hFLWFaTTZRdThn0gGmAUFVX3lxTFBRTEwydGtzNnZPQmlwLUg4TWtlXzRXbmw2NmZ0U2p2aFJJMVE1NzMzQzN4Q283bGU0WFNpazFwazBkcFViQzhuZUxqdXBRS1hwU0JlWVBETlZwRnBwZGxhdHlpMGJURUE3YklTV3BrVWE2SURCbk11MUFLdTlRRlFKVlZDa2ROcmNHT2RhSGhHQmZRaDRwU2RIVFpLaldCOHlZakJfNXc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNa3lOYXUtY095aENEWW54NmhCMkJHY3gtVW5PMV9acWlYM3pPRVp4aGI1bGhQZUxjTDFWWXo5d2xkWDRBRzlqWGc5UFFhcEw0ZHF0NjB2ZXE1c2Z3clF6U055RzdtWVZzZVpMTWFmc3hMVjc2Yjg2MW5PUXhZMDlXb1hDTmo5OXBSOHFyX0YzNDRMMWdFS1hFLWFaTTZRdThn0gGmAUFVX3lxTFBRTEwydGtzNnZPQmlwLUg4TWtlXzRXbmw2NmZ0U2p2aFJJMVE1NzMzQzN4Q283bGU0WFNpazFwazBkcFViQzhuZUxqdXBRS1hwU0JlWVBETlZwRnBwZGxhdHlpMGJURUE3YklTV3BrVWE2SURCbk11MUFLdTlRRlFKVlZDa2ROcmNHT2RhSGhHQmZRaDRwU2RIVFpLaldCOHlZakJfNXc?oc=5",
+      "id": "CBMioAFBVV95cUxNa3lOYXUtY095aENEWW54NmhCMkJHY3gtVW5PMV9acWlYM3pPRVp4aGI1bGhQZUxjTDFWWXo5d2xkWDRBRzlqWGc5UFFhcEw0ZHF0NjB2ZXE1c2Z3clF6U055RzdtWVZzZVpMTWFmc3hMVjc2Yjg2MW5PUXhZMDlXb1hDTmo5OXBSOHFyX0YzNDRMMWdFS1hFLWFaTTZRdThn0gGmAUFVX3lxTFBRTEwydGtzNnZPQmlwLUg4TWtlXzRXbmw2NmZ0U2p2aFJJMVE1NzMzQzN4Q283bGU0WFNpazFwazBkcFViQzhuZUxqdXBRS1hwU0JlWVBETlZwRnBwZGxhdHlpMGJURUE3YklTV3BrVWE2SURCbk11MUFLdTlRRlFKVlZDa2ROcmNHT2RhSGhHQmZRaDRwU2RIVFpLaldCOHlZakJfNXc",
+      "guidislink": false,
+      "published": "Fri, 20 Nov 2020 08:00:00 GMT",
+      "published_parsed": [
+        2020,
+        11,
+        20,
+        8,
+        0,
+        0,
+        4,
+        325,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNa3lOYXUtY095aENEWW54NmhCMkJHY3gtVW5PMV9acWlYM3pPRVp4aGI1bGhQZUxjTDFWWXo5d2xkWDRBRzlqWGc5UFFhcEw0ZHF0NjB2ZXE1c2Z3clF6U055RzdtWVZzZVpMTWFmc3hMVjc2Yjg2MW5PUXhZMDlXb1hDTmo5OXBSOHFyX0YzNDRMMWdFS1hFLWFaTTZRdThn0gGmAUFVX3lxTFBRTEwydGtzNnZPQmlwLUg4TWtlXzRXbmw2NmZ0U2p2aFJJMVE1NzMzQzN4Q283bGU0WFNpazFwazBkcFViQzhuZUxqdXBRS1hwU0JlWVBETlZwRnBwZGxhdHlpMGJURUE3YklTV3BrVWE2SURCbk11MUFLdTlRRlFKVlZDa2ROcmNHT2RhSGhHQmZRaDRwU2RIVFpLaldCOHlZakJfNXc?oc=5\" target=\"_blank\">USAMRIID Scientist Receives Medal of Honor from French Military</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">army.mil</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNa3lOYXUtY095aENEWW54NmhCMkJHY3gtVW5PMV9acWlYM3pPRVp4aGI1bGhQZUxjTDFWWXo5d2xkWDRBRzlqWGc5UFFhcEw0ZHF0NjB2ZXE1c2Z3clF6U055RzdtWVZzZVpMTWFmc3hMVjc2Yjg2MW5PUXhZMDlXb1hDTmo5OXBSOHFyX0YzNDRMMWdFS1hFLWFaTTZRdThn0gGmAUFVX3lxTFBRTEwydGtzNnZPQmlwLUg4TWtlXzRXbmw2NmZ0U2p2aFJJMVE1NzMzQzN4Q283bGU0WFNpazFwazBkcFViQzhuZUxqdXBRS1hwU0JlWVBETlZwRnBwZGxhdHlpMGJURUE3YklTV3BrVWE2SURCbk11MUFLdTlRRlFKVlZDa2ROcmNHT2RhSGhHQmZRaDRwU2RIVFpLaldCOHlZakJfNXc?oc=5\" target=\"_blank\">USAMRIID Scientist Receives Medal of Honor from French Military</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">army.mil</font>"
+      },
+      "source": {
+        "href": "https://www.army.mil",
+        "title": "army.mil"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Sylvester Researcher Finds FDA-Approved Antiviral Drug Can Be Delivered Via Nanoparticle for COVID-19 - University of Miami",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Sylvester Researcher Finds FDA-Approved Antiviral Drug Can Be Delivered Via Nanoparticle for COVID-19 - University of Miami"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPYmdqRW5rLUhHakZOa3FEYW1EMGZVNUM4akRvc1dRY1FFbWk2a2E2eFlCaXdzWkJ5YXVLejRqaFRXMGV6czBxanppM0RuQ1pJdEtZbWMyR0NmZlhQM2xLblhDYlVhS3h0TUEzQVAxYjR5RU9Vb2dUYW8wWm8yZ2h5WkdobUtTeTNBcDU2VnhVVjhzV0twVmdJanI0Tjd3NHh4QWxKUzUxQ3lFTzZqQno1TGRtYXlrTF9uMXNwNlFMcjhsVGktVF9nMw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPYmdqRW5rLUhHakZOa3FEYW1EMGZVNUM4akRvc1dRY1FFbWk2a2E2eFlCaXdzWkJ5YXVLejRqaFRXMGV6czBxanppM0RuQ1pJdEtZbWMyR0NmZlhQM2xLblhDYlVhS3h0TUEzQVAxYjR5RU9Vb2dUYW8wWm8yZ2h5WkdobUtTeTNBcDU2VnhVVjhzV0twVmdJanI0Tjd3NHh4QWxKUzUxQ3lFTzZqQno1TGRtYXlrTF9uMXNwNlFMcjhsVGktVF9nMw?oc=5",
+      "id": "CBMiyAFBVV95cUxPYmdqRW5rLUhHakZOa3FEYW1EMGZVNUM4akRvc1dRY1FFbWk2a2E2eFlCaXdzWkJ5YXVLejRqaFRXMGV6czBxanppM0RuQ1pJdEtZbWMyR0NmZlhQM2xLblhDYlVhS3h0TUEzQVAxYjR5RU9Vb2dUYW8wWm8yZ2h5WkdobUtTeTNBcDU2VnhVVjhzV0twVmdJanI0Tjd3NHh4QWxKUzUxQ3lFTzZqQno1TGRtYXlrTF9uMXNwNlFMcjhsVGktVF9nMw",
+      "guidislink": false,
+      "published": "Wed, 02 Dec 2020 08:00:00 GMT",
+      "published_parsed": [
+        2020,
+        12,
+        2,
+        8,
+        0,
+        0,
+        2,
+        337,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxPYmdqRW5rLUhHakZOa3FEYW1EMGZVNUM4akRvc1dRY1FFbWk2a2E2eFlCaXdzWkJ5YXVLejRqaFRXMGV6czBxanppM0RuQ1pJdEtZbWMyR0NmZlhQM2xLblhDYlVhS3h0TUEzQVAxYjR5RU9Vb2dUYW8wWm8yZ2h5WkdobUtTeTNBcDU2VnhVVjhzV0twVmdJanI0Tjd3NHh4QWxKUzUxQ3lFTzZqQno1TGRtYXlrTF9uMXNwNlFMcjhsVGktVF9nMw?oc=5\" target=\"_blank\">Sylvester Researcher Finds FDA-Approved Antiviral Drug Can Be Delivered Via Nanoparticle for COVID-19</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of Miami</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxPYmdqRW5rLUhHakZOa3FEYW1EMGZVNUM4akRvc1dRY1FFbWk2a2E2eFlCaXdzWkJ5YXVLejRqaFRXMGV6czBxanppM0RuQ1pJdEtZbWMyR0NmZlhQM2xLblhDYlVhS3h0TUEzQVAxYjR5RU9Vb2dUYW8wWm8yZ2h5WkdobUtTeTNBcDU2VnhVVjhzV0twVmdJanI0Tjd3NHh4QWxKUzUxQ3lFTzZqQno1TGRtYXlrTF9uMXNwNlFMcjhsVGktVF9nMw?oc=5\" target=\"_blank\">Sylvester Researcher Finds FDA-Approved Antiviral Drug Can Be Delivered Via Nanoparticle for COVID-19</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of Miami</font>"
+      },
+      "source": {
+        "href": "https://news.med.miami.edu",
+        "title": "University of Miami"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Who should get a covid-19 vaccine first? - MIT Technology Review",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Who should get a covid-19 vaccine first? - MIT Technology Review"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcUptSHdOX202bW4xcWY2VzNacEx1QXVzMFBqVWdOWVZKdnFaQm5BODhBY2t2NTNyaXpIMW5KYVZFZDJ0X21NWUdPbTRKM2N4RmkyWUJLY29qMG9RazJvQy0za25MYmJ5ZXVLd2dlVFJ1UTF5el8xRjFZUlFYT1hMc3JlWDNlMnpTaDRibWY2YmMyc0tjcldN0gGcAUFVX3lxTE5LSGFTa2RfNUVTUWNXdHNLR2NkOUpTR0FfcEtIazhxTW5JTnRSaWRTY3NZTUV1WWNobmhWUUVjRjRkVWEwc3loRTVvN0tYaWxSdjNKY3NDOVJ5aTBsYVRQczBrbUpYYnB1eUdkTkNXVWxwN1JzbXJMZEoxNWpYLXFBT3dXOTZKeEpFVXdoY2QxenQzaEtwdmJxZExCMw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcUptSHdOX202bW4xcWY2VzNacEx1QXVzMFBqVWdOWVZKdnFaQm5BODhBY2t2NTNyaXpIMW5KYVZFZDJ0X21NWUdPbTRKM2N4RmkyWUJLY29qMG9RazJvQy0za25MYmJ5ZXVLd2dlVFJ1UTF5el8xRjFZUlFYT1hMc3JlWDNlMnpTaDRibWY2YmMyc0tjcldN0gGcAUFVX3lxTE5LSGFTa2RfNUVTUWNXdHNLR2NkOUpTR0FfcEtIazhxTW5JTnRSaWRTY3NZTUV1WWNobmhWUUVjRjRkVWEwc3loRTVvN0tYaWxSdjNKY3NDOVJ5aTBsYVRQczBrbUpYYnB1eUdkTkNXVWxwN1JzbXJMZEoxNWpYLXFBT3dXOTZKeEpFVXdoY2QxenQzaEtwdmJxZExCMw?oc=5",
+      "id": "CBMilwFBVV95cUxPcUptSHdOX202bW4xcWY2VzNacEx1QXVzMFBqVWdOWVZKdnFaQm5BODhBY2t2NTNyaXpIMW5KYVZFZDJ0X21NWUdPbTRKM2N4RmkyWUJLY29qMG9RazJvQy0za25MYmJ5ZXVLd2dlVFJ1UTF5el8xRjFZUlFYT1hMc3JlWDNlMnpTaDRibWY2YmMyc0tjcldN0gGcAUFVX3lxTE5LSGFTa2RfNUVTUWNXdHNLR2NkOUpTR0FfcEtIazhxTW5JTnRSaWRTY3NZTUV1WWNobmhWUUVjRjRkVWEwc3loRTVvN0tYaWxSdjNKY3NDOVJ5aTBsYVRQczBrbUpYYnB1eUdkTkNXVWxwN1JzbXJMZEoxNWpYLXFBT3dXOTZKeEpFVXdoY2QxenQzaEtwdmJxZExCMw",
+      "guidislink": false,
+      "published": "Fri, 20 Nov 2020 08:00:00 GMT",
+      "published_parsed": [
+        2020,
+        11,
+        20,
+        8,
+        0,
+        0,
+        4,
+        325,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxPcUptSHdOX202bW4xcWY2VzNacEx1QXVzMFBqVWdOWVZKdnFaQm5BODhBY2t2NTNyaXpIMW5KYVZFZDJ0X21NWUdPbTRKM2N4RmkyWUJLY29qMG9RazJvQy0za25MYmJ5ZXVLd2dlVFJ1UTF5el8xRjFZUlFYT1hMc3JlWDNlMnpTaDRibWY2YmMyc0tjcldN0gGcAUFVX3lxTE5LSGFTa2RfNUVTUWNXdHNLR2NkOUpTR0FfcEtIazhxTW5JTnRSaWRTY3NZTUV1WWNobmhWUUVjRjRkVWEwc3loRTVvN0tYaWxSdjNKY3NDOVJ5aTBsYVRQczBrbUpYYnB1eUdkTkNXVWxwN1JzbXJMZEoxNWpYLXFBT3dXOTZKeEpFVXdoY2QxenQzaEtwdmJxZExCMw?oc=5\" target=\"_blank\">Who should get a covid-19 vaccine first?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MIT Technology Review</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxPcUptSHdOX202bW4xcWY2VzNacEx1QXVzMFBqVWdOWVZKdnFaQm5BODhBY2t2NTNyaXpIMW5KYVZFZDJ0X21NWUdPbTRKM2N4RmkyWUJLY29qMG9RazJvQy0za25MYmJ5ZXVLd2dlVFJ1UTF5el8xRjFZUlFYT1hMc3JlWDNlMnpTaDRibWY2YmMyc0tjcldN0gGcAUFVX3lxTE5LSGFTa2RfNUVTUWNXdHNLR2NkOUpTR0FfcEtIazhxTW5JTnRSaWRTY3NZTUV1WWNobmhWUUVjRjRkVWEwc3loRTVvN0tYaWxSdjNKY3NDOVJ5aTBsYVRQczBrbUpYYnB1eUdkTkNXVWxwN1JzbXJMZEoxNWpYLXFBT3dXOTZKeEpFVXdoY2QxenQzaEtwdmJxZExCMw?oc=5\" target=\"_blank\">Who should get a covid-19 vaccine first?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MIT Technology Review</font>"
+      },
+      "source": {
+        "href": "https://www.technologyreview.com",
+        "title": "MIT Technology Review"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Why the Pfizer and Moderna Vaccines Need to Be Kept So Cold - The Wire Science",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Why the Pfizer and Moderna Vaccines Need to Be Kept So Cold - The Wire Science"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPT1g3eXNoUUVLRnVYZTFYYVc3eTJXNzZFVjJBZXMxQWgzTHB0bzZyMHdCOTY4eDZIR1F5WGpXLVJldGVzay1aUFlheHZTTXdLWHpfZEU2SmUtRjRxOVZad0gyLUZTdVRsdk9EelZvcW5MUmhXQ3ZoUlhiVUFlUmhMYmxLdw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPT1g3eXNoUUVLRnVYZTFYYVc3eTJXNzZFVjJBZXMxQWgzTHB0bzZyMHdCOTY4eDZIR1F5WGpXLVJldGVzay1aUFlheHZTTXdLWHpfZEU2SmUtRjRxOVZad0gyLUZTdVRsdk9EelZvcW5MUmhXQ3ZoUlhiVUFlUmhMYmxLdw?oc=5",
+      "id": "CBMigwFBVV95cUxPT1g3eXNoUUVLRnVYZTFYYVc3eTJXNzZFVjJBZXMxQWgzTHB0bzZyMHdCOTY4eDZIR1F5WGpXLVJldGVzay1aUFlheHZTTXdLWHpfZEU2SmUtRjRxOVZad0gyLUZTdVRsdk9EelZvcW5MUmhXQ3ZoUlhiVUFlUmhMYmxLdw",
+      "guidislink": false,
+      "published": "Fri, 20 Nov 2020 08:00:00 GMT",
+      "published_parsed": [
+        2020,
+        11,
+        20,
+        8,
+        0,
+        0,
+        4,
+        325,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxPT1g3eXNoUUVLRnVYZTFYYVc3eTJXNzZFVjJBZXMxQWgzTHB0bzZyMHdCOTY4eDZIR1F5WGpXLVJldGVzay1aUFlheHZTTXdLWHpfZEU2SmUtRjRxOVZad0gyLUZTdVRsdk9EelZvcW5MUmhXQ3ZoUlhiVUFlUmhMYmxLdw?oc=5\" target=\"_blank\">Why the Pfizer and Moderna Vaccines Need to Be Kept So Cold</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Wire Science</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxPT1g3eXNoUUVLRnVYZTFYYVc3eTJXNzZFVjJBZXMxQWgzTHB0bzZyMHdCOTY4eDZIR1F5WGpXLVJldGVzay1aUFlheHZTTXdLWHpfZEU2SmUtRjRxOVZad0gyLUZTdVRsdk9EelZvcW5MUmhXQ3ZoUlhiVUFlUmhMYmxLdw?oc=5\" target=\"_blank\">Why the Pfizer and Moderna Vaccines Need to Be Kept So Cold</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Wire Science</font>"
+      },
+      "source": {
+        "href": "https://science.thewire.in",
+        "title": "The Wire Science"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Want to Know More About mRNA Before Your COVID Jab? - MedPage Today",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Want to Know More About mRNA Before Your COVID Jab? - MedPage Today"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBSZkRsZ05wUjRCckJ3UkpOQjBfWFljZ21kdHdXeFR1dU5nR3V1N3U3M2RJS09MNnFkNV9zeDk4NFlrVEpOUnZqTHZQdmQ1Tm9vSVQ2LS1nUmVwb1BtWHgzMm5McUlLRTBjOUJyaw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBSZkRsZ05wUjRCckJ3UkpOQjBfWFljZ21kdHdXeFR1dU5nR3V1N3U3M2RJS09MNnFkNV9zeDk4NFlrVEpOUnZqTHZQdmQ1Tm9vSVQ2LS1nUmVwb1BtWHgzMm5McUlLRTBjOUJyaw?oc=5",
+      "id": "CBMibEFVX3lxTFBSZkRsZ05wUjRCckJ3UkpOQjBfWFljZ21kdHdXeFR1dU5nR3V1N3U3M2RJS09MNnFkNV9zeDk4NFlrVEpOUnZqTHZQdmQ1Tm9vSVQ2LS1nUmVwb1BtWHgzMm5McUlLRTBjOUJyaw",
+      "guidislink": false,
+      "published": "Thu, 03 Dec 2020 08:00:00 GMT",
+      "published_parsed": [
+        2020,
+        12,
+        3,
+        8,
+        0,
+        0,
+        3,
+        338,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTFBSZkRsZ05wUjRCckJ3UkpOQjBfWFljZ21kdHdXeFR1dU5nR3V1N3U3M2RJS09MNnFkNV9zeDk4NFlrVEpOUnZqTHZQdmQ1Tm9vSVQ2LS1nUmVwb1BtWHgzMm5McUlLRTBjOUJyaw?oc=5\" target=\"_blank\">Want to Know More About mRNA Before Your COVID Jab?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MedPage Today</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTFBSZkRsZ05wUjRCckJ3UkpOQjBfWFljZ21kdHdXeFR1dU5nR3V1N3U3M2RJS09MNnFkNV9zeDk4NFlrVEpOUnZqTHZQdmQ1Tm9vSVQ2LS1nUmVwb1BtWHgzMm5McUlLRTBjOUJyaw?oc=5\" target=\"_blank\">Want to Know More About mRNA Before Your COVID Jab?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MedPage Today</font>"
+      },
+      "source": {
+        "href": "https://www.medpagetoday.com",
+        "title": "MedPage Today"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "SARS-CoV-2-induced lung pathology: AHR as a candidate therapeutic target - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "SARS-CoV-2-induced lung pathology: AHR as a candidate therapeutic target - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE40ZFNmTnBySERlZFVRM2tCUkdoN3R6eGUzMnRJaGRhVmpnRG5HUDhpbk1SRjREQzc5cW5IU1JxQm54cW5Lb3VmRFFiX1UzNTNPdVlvWGg3ZllCVmJZaWY0?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE40ZFNmTnBySERlZFVRM2tCUkdoN3R6eGUzMnRJaGRhVmpnRG5HUDhpbk1SRjREQzc5cW5IU1JxQm54cW5Lb3VmRFFiX1UzNTNPdVlvWGg3ZllCVmJZaWY0?oc=5",
+      "id": "CBMiX0FVX3lxTE40ZFNmTnBySERlZFVRM2tCUkdoN3R6eGUzMnRJaGRhVmpnRG5HUDhpbk1SRjREQzc5cW5IU1JxQm54cW5Lb3VmRFFiX1UzNTNPdVlvWGg3ZllCVmJZaWY0",
+      "guidislink": false,
+      "published": "Tue, 01 Dec 2020 08:00:00 GMT",
+      "published_parsed": [
+        2020,
+        12,
+        1,
+        8,
+        0,
+        0,
+        1,
+        336,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE40ZFNmTnBySERlZFVRM2tCUkdoN3R6eGUzMnRJaGRhVmpnRG5HUDhpbk1SRjREQzc5cW5IU1JxQm54cW5Lb3VmRFFiX1UzNTNPdVlvWGg3ZllCVmJZaWY0?oc=5\" target=\"_blank\">SARS-CoV-2-induced lung pathology: AHR as a candidate therapeutic target</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE40ZFNmTnBySERlZFVRM2tCUkdoN3R6eGUzMnRJaGRhVmpnRG5HUDhpbk1SRjREQzc5cW5IU1JxQm54cW5Lb3VmRFFiX1UzNTNPdVlvWGg3ZllCVmJZaWY0?oc=5\" target=\"_blank\">SARS-CoV-2-induced lung pathology: AHR as a candidate therapeutic target</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Building healthy communities in urban Brazilian slums - University of Liverpool",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Building healthy communities in urban Brazilian slums - University of Liverpool"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQlB1VmppYjM5X3hDNExPSnlVemhhZzJKTDdKUkhiYk9GX3lHdnh1eUVydl81MEVuY3E1T0F5YWd0QXVjRWpZRlhXMWhhRFJCNnVfU0E5bUlUbmpEbndXVUpXSzBiemJybmxQWUVwTmk5SHhaVjhfMmFXZHpaWmF6VmIzcXFnTlRYS25kRWlfT3BmTm9pLUVoOHZ3?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQlB1VmppYjM5X3hDNExPSnlVemhhZzJKTDdKUkhiYk9GX3lHdnh1eUVydl81MEVuY3E1T0F5YWd0QXVjRWpZRlhXMWhhRFJCNnVfU0E5bUlUbmpEbndXVUpXSzBiemJybmxQWUVwTmk5SHhaVjhfMmFXZHpaWmF6VmIzcXFnTlRYS25kRWlfT3BmTm9pLUVoOHZ3?oc=5",
+      "id": "CBMimgFBVV95cUxPQlB1VmppYjM5X3hDNExPSnlVemhhZzJKTDdKUkhiYk9GX3lHdnh1eUVydl81MEVuY3E1T0F5YWd0QXVjRWpZRlhXMWhhRFJCNnVfU0E5bUlUbmpEbndXVUpXSzBiemJybmxQWUVwTmk5SHhaVjhfMmFXZHpaWmF6VmIzcXFnTlRYS25kRWlfT3BmTm9pLUVoOHZ3",
+      "guidislink": false,
+      "published": "Fri, 20 Nov 2020 08:00:00 GMT",
+      "published_parsed": [
+        2020,
+        11,
+        20,
+        8,
+        0,
+        0,
+        4,
+        325,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxPQlB1VmppYjM5X3hDNExPSnlVemhhZzJKTDdKUkhiYk9GX3lHdnh1eUVydl81MEVuY3E1T0F5YWd0QXVjRWpZRlhXMWhhRFJCNnVfU0E5bUlUbmpEbndXVUpXSzBiemJybmxQWUVwTmk5SHhaVjhfMmFXZHpaWmF6VmIzcXFnTlRYS25kRWlfT3BmTm9pLUVoOHZ3?oc=5\" target=\"_blank\">Building healthy communities in urban Brazilian slums</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of Liverpool</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxPQlB1VmppYjM5X3hDNExPSnlVemhhZzJKTDdKUkhiYk9GX3lHdnh1eUVydl81MEVuY3E1T0F5YWd0QXVjRWpZRlhXMWhhRFJCNnVfU0E5bUlUbmpEbndXVUpXSzBiemJybmxQWUVwTmk5SHhaVjhfMmFXZHpaWmF6VmIzcXFnTlRYS25kRWlfT3BmTm9pLUVoOHZ3?oc=5\" target=\"_blank\">Building healthy communities in urban Brazilian slums</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of Liverpool</font>"
+      },
+      "source": {
+        "href": "https://news.liverpool.ac.uk",
+        "title": "University of Liverpool"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Pakistan-born doctor Dr Umair Shah to lead Washington's COVID-19 strategy - The News International",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Pakistan-born doctor Dr Umair Shah to lead Washington's COVID-19 strategy - The News International"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQWN3ZEUxOU8tQXdxdDBXTzlMUnNPcjdfNHFWSXNleGcyczhabWYyQktndjlFSkMyQ3BUel9OLTRIc1RHLXl4QmktZWF5RV84YWN0MFQ1cDh2dl9GY19BQVl6WjVRUWNQSHRKci1CSjhVOTlBR0ZKR181NUY2cTB0aHFESEZtUkdxTjFyeHVyQkNLdGJNRnFGV0FMX0FmRVI1b2ZXSy1nMUE4V0dhUG9JWTRUMNIBrwFBVV95cUxPTjRveE9JdVl4YzNmbjY2SU56RHBBbFBkaks0X1hUdWRkdGdLcEFfdV9ZNHZkdHVucU11d3VfYVJYdUdneExod1U3Y3NmREVBckZfMGxmNFRXNjlZSzhLSE9jVXdVQVFueVNOWVZPY29RYzJreVhqTEx0d19ScjZtUWxRRV95ZU1Qb2dyTngyRFprU0w2RGpySnRITjBVRGZSS3ctMGdNUHFCSjhheHVR?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQWN3ZEUxOU8tQXdxdDBXTzlMUnNPcjdfNHFWSXNleGcyczhabWYyQktndjlFSkMyQ3BUel9OLTRIc1RHLXl4QmktZWF5RV84YWN0MFQ1cDh2dl9GY19BQVl6WjVRUWNQSHRKci1CSjhVOTlBR0ZKR181NUY2cTB0aHFESEZtUkdxTjFyeHVyQkNLdGJNRnFGV0FMX0FmRVI1b2ZXSy1nMUE4V0dhUG9JWTRUMNIBrwFBVV95cUxPTjRveE9JdVl4YzNmbjY2SU56RHBBbFBkaks0X1hUdWRkdGdLcEFfdV9ZNHZkdHVucU11d3VfYVJYdUdneExod1U3Y3NmREVBckZfMGxmNFRXNjlZSzhLSE9jVXdVQVFueVNOWVZPY29RYzJreVhqTEx0d19ScjZtUWxRRV95ZU1Qb2dyTngyRFprU0w2RGpySnRITjBVRGZSS3ctMGdNUHFCSjhheHVR?oc=5",
+      "id": "CBMiswFBVV95cUxNQWN3ZEUxOU8tQXdxdDBXTzlMUnNPcjdfNHFWSXNleGcyczhabWYyQktndjlFSkMyQ3BUel9OLTRIc1RHLXl4QmktZWF5RV84YWN0MFQ1cDh2dl9GY19BQVl6WjVRUWNQSHRKci1CSjhVOTlBR0ZKR181NUY2cTB0aHFESEZtUkdxTjFyeHVyQkNLdGJNRnFGV0FMX0FmRVI1b2ZXSy1nMUE4V0dhUG9JWTRUMNIBrwFBVV95cUxPTjRveE9JdVl4YzNmbjY2SU56RHBBbFBkaks0X1hUdWRkdGdLcEFfdV9ZNHZkdHVucU11d3VfYVJYdUdneExod1U3Y3NmREVBckZfMGxmNFRXNjlZSzhLSE9jVXdVQVFueVNOWVZPY29RYzJreVhqTEx0d19ScjZtUWxRRV95ZU1Qb2dyTngyRFprU0w2RGpySnRITjBVRGZSS3ctMGdNUHFCSjhheHVR",
+      "guidislink": false,
+      "published": "Fri, 20 Nov 2020 08:00:00 GMT",
+      "published_parsed": [
+        2020,
+        11,
+        20,
+        8,
+        0,
+        0,
+        4,
+        325,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxNQWN3ZEUxOU8tQXdxdDBXTzlMUnNPcjdfNHFWSXNleGcyczhabWYyQktndjlFSkMyQ3BUel9OLTRIc1RHLXl4QmktZWF5RV84YWN0MFQ1cDh2dl9GY19BQVl6WjVRUWNQSHRKci1CSjhVOTlBR0ZKR181NUY2cTB0aHFESEZtUkdxTjFyeHVyQkNLdGJNRnFGV0FMX0FmRVI1b2ZXSy1nMUE4V0dhUG9JWTRUMNIBrwFBVV95cUxPTjRveE9JdVl4YzNmbjY2SU56RHBBbFBkaks0X1hUdWRkdGdLcEFfdV9ZNHZkdHVucU11d3VfYVJYdUdneExod1U3Y3NmREVBckZfMGxmNFRXNjlZSzhLSE9jVXdVQVFueVNOWVZPY29RYzJreVhqTEx0d19ScjZtUWxRRV95ZU1Qb2dyTngyRFprU0w2RGpySnRITjBVRGZSS3ctMGdNUHFCSjhheHVR?oc=5\" target=\"_blank\">Pakistan-born doctor Dr Umair Shah to lead Washington's COVID-19 strategy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The News International</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxNQWN3ZEUxOU8tQXdxdDBXTzlMUnNPcjdfNHFWSXNleGcyczhabWYyQktndjlFSkMyQ3BUel9OLTRIc1RHLXl4QmktZWF5RV84YWN0MFQ1cDh2dl9GY19BQVl6WjVRUWNQSHRKci1CSjhVOTlBR0ZKR181NUY2cTB0aHFESEZtUkdxTjFyeHVyQkNLdGJNRnFGV0FMX0FmRVI1b2ZXSy1nMUE4V0dhUG9JWTRUMNIBrwFBVV95cUxPTjRveE9JdVl4YzNmbjY2SU56RHBBbFBkaks0X1hUdWRkdGdLcEFfdV9ZNHZkdHVucU11d3VfYVJYdUdneExod1U3Y3NmREVBckZfMGxmNFRXNjlZSzhLSE9jVXdVQVFueVNOWVZPY29RYzJreVhqTEx0d19ScjZtUWxRRV95ZU1Qb2dyTngyRFprU0w2RGpySnRITjBVRGZSS3ctMGdNUHFCSjhheHVR?oc=5\" target=\"_blank\">Pakistan-born doctor Dr Umair Shah to lead Washington's COVID-19 strategy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The News International</font>"
+      },
+      "source": {
+        "href": "https://www.thenews.com.pk",
+        "title": "The News International"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Everton suffer blow as left back Lucas Digne could be out for two months with ankle injury - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Everton suffer blow as left back Lucas Digne could be out for two months with ankle injury - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPODhiUFMyWkRubmttQzBtM25DMWg5djRjOXI3M2lYMVJTSW9pVlg1MWlwT2FCTkJHTVhKOTJIWWtPVlZRLXpHTVBMWUxOdnVQeDFXVkdDV1VHN3lYZjVFazJjWDNuQkZwaV96WU1DaFJuUzJvWWx4S2RveEFiODFQSXZRb1FwdkpOZjNTejZDb1RqN24yQWF6QWE2VkdUYWFvM0VjLTB3UEdnRHp6dW81bU80TV9pVzRidmNueDlweVp2ZW9HWWk1RVFEWWNiMm9MN0syNdIB1AFBVV95cUxPODhiUFMyWkRubmttQzBtM25DMWg5djRjOXI3M2lYMVJTSW9pVlg1MWlwT2FCTkJHTVhKOTJIWWtPVlZRLXpHTVBMWUxOdnVQeDFXVkdDV1VHN3lYZjVFazJjWDNuQkZwaV96WU1DaFJuUzJvWWx4S2RveEFiODFQSXZRb1FwdkpOZjNTejZDb1RqN24yQWF6QWE2VkdUYWFvM0VjLTB3UEdnRHp6dW81bU80TV9pVzRidmNueDlweVp2ZW9HWWk1RVFEWWNiMm9MN0syNQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPODhiUFMyWkRubmttQzBtM25DMWg5djRjOXI3M2lYMVJTSW9pVlg1MWlwT2FCTkJHTVhKOTJIWWtPVlZRLXpHTVBMWUxOdnVQeDFXVkdDV1VHN3lYZjVFazJjWDNuQkZwaV96WU1DaFJuUzJvWWx4S2RveEFiODFQSXZRb1FwdkpOZjNTejZDb1RqN24yQWF6QWE2VkdUYWFvM0VjLTB3UEdnRHp6dW81bU80TV9pVzRidmNueDlweVp2ZW9HWWk1RVFEWWNiMm9MN0syNdIB1AFBVV95cUxPODhiUFMyWkRubmttQzBtM25DMWg5djRjOXI3M2lYMVJTSW9pVlg1MWlwT2FCTkJHTVhKOTJIWWtPVlZRLXpHTVBMWUxOdnVQeDFXVkdDV1VHN3lYZjVFazJjWDNuQkZwaV96WU1DaFJuUzJvWWx4S2RveEFiODFQSXZRb1FwdkpOZjNTejZDb1RqN24yQWF6QWE2VkdUYWFvM0VjLTB3UEdnRHp6dW81bU80TV9pVzRidmNueDlweVp2ZW9HWWk1RVFEWWNiMm9MN0syNQ?oc=5",
+      "id": "CBMi1AFBVV95cUxPODhiUFMyWkRubmttQzBtM25DMWg5djRjOXI3M2lYMVJTSW9pVlg1MWlwT2FCTkJHTVhKOTJIWWtPVlZRLXpHTVBMWUxOdnVQeDFXVkdDV1VHN3lYZjVFazJjWDNuQkZwaV96WU1DaFJuUzJvWWx4S2RveEFiODFQSXZRb1FwdkpOZjNTejZDb1RqN24yQWF6QWE2VkdUYWFvM0VjLTB3UEdnRHp6dW81bU80TV9pVzRidmNueDlweVp2ZW9HWWk1RVFEWWNiMm9MN0syNdIB1AFBVV95cUxPODhiUFMyWkRubmttQzBtM25DMWg5djRjOXI3M2lYMVJTSW9pVlg1MWlwT2FCTkJHTVhKOTJIWWtPVlZRLXpHTVBMWUxOdnVQeDFXVkdDV1VHN3lYZjVFazJjWDNuQkZwaV96WU1DaFJuUzJvWWx4S2RveEFiODFQSXZRb1FwdkpOZjNTejZDb1RqN24yQWF6QWE2VkdUYWFvM0VjLTB3UEdnRHp6dW81bU80TV9pVzRidmNueDlweVp2ZW9HWWk1RVFEWWNiMm9MN0syNQ",
+      "guidislink": false,
+      "published": "Thu, 26 Nov 2020 08:00:00 GMT",
+      "published_parsed": [
+        2020,
+        11,
+        26,
+        8,
+        0,
+        0,
+        3,
+        331,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxPODhiUFMyWkRubmttQzBtM25DMWg5djRjOXI3M2lYMVJTSW9pVlg1MWlwT2FCTkJHTVhKOTJIWWtPVlZRLXpHTVBMWUxOdnVQeDFXVkdDV1VHN3lYZjVFazJjWDNuQkZwaV96WU1DaFJuUzJvWWx4S2RveEFiODFQSXZRb1FwdkpOZjNTejZDb1RqN24yQWF6QWE2VkdUYWFvM0VjLTB3UEdnRHp6dW81bU80TV9pVzRidmNueDlweVp2ZW9HWWk1RVFEWWNiMm9MN0syNdIB1AFBVV95cUxPODhiUFMyWkRubmttQzBtM25DMWg5djRjOXI3M2lYMVJTSW9pVlg1MWlwT2FCTkJHTVhKOTJIWWtPVlZRLXpHTVBMWUxOdnVQeDFXVkdDV1VHN3lYZjVFazJjWDNuQkZwaV96WU1DaFJuUzJvWWx4S2RveEFiODFQSXZRb1FwdkpOZjNTejZDb1RqN24yQWF6QWE2VkdUYWFvM0VjLTB3UEdnRHp6dW81bU80TV9pVzRidmNueDlweVp2ZW9HWWk1RVFEWWNiMm9MN0syNQ?oc=5\" target=\"_blank\">Everton suffer blow as left back Lucas Digne could be out for two months with ankle injury</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxPODhiUFMyWkRubmttQzBtM25DMWg5djRjOXI3M2lYMVJTSW9pVlg1MWlwT2FCTkJHTVhKOTJIWWtPVlZRLXpHTVBMWUxOdnVQeDFXVkdDV1VHN3lYZjVFazJjWDNuQkZwaV96WU1DaFJuUzJvWWx4S2RveEFiODFQSXZRb1FwdkpOZjNTejZDb1RqN24yQWF6QWE2VkdUYWFvM0VjLTB3UEdnRHp6dW81bU80TV9pVzRidmNueDlweVp2ZW9HWWk1RVFEWWNiMm9MN0syNdIB1AFBVV95cUxPODhiUFMyWkRubmttQzBtM25DMWg5djRjOXI3M2lYMVJTSW9pVlg1MWlwT2FCTkJHTVhKOTJIWWtPVlZRLXpHTVBMWUxOdnVQeDFXVkdDV1VHN3lYZjVFazJjWDNuQkZwaV96WU1DaFJuUzJvWWx4S2RveEFiODFQSXZRb1FwdkpOZjNTejZDb1RqN24yQWF6QWE2VkdUYWFvM0VjLTB3UEdnRHp6dW81bU80TV9pVzRidmNueDlweVp2ZW9HWWk1RVFEWWNiMm9MN0syNQ?oc=5\" target=\"_blank\">Everton suffer blow as left back Lucas Digne could be out for two months with ankle injury</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Real-life Mowgli lives in jungle & walks 20 miles a day after being bullied - The Sun",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Real-life Mowgli lives in jungle & walks 20 miles a day after being bullied - The Sun"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSXdMMElucTBDWk1xWE1TRUt5cm5iZTFESEUzOFRiaTdQcEFDRU1aR2RjSHhDbWZheG1iVmszOVRTTEhQVWhnWlNyRWpnWHlnRW9QU2NEV3h5RXlMY3QtVUdLeS1SOWY1UTFBSlRlM3oxQ0c2bXBjT0xUUGJnUVk3RU8yY092NkRFWENrS3RoS0t4VWs?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSXdMMElucTBDWk1xWE1TRUt5cm5iZTFESEUzOFRiaTdQcEFDRU1aR2RjSHhDbWZheG1iVmszOVRTTEhQVWhnWlNyRWpnWHlnRW9QU2NEV3h5RXlMY3QtVUdLeS1SOWY1UTFBSlRlM3oxQ0c2bXBjT0xUUGJnUVk3RU8yY092NkRFWENrS3RoS0t4VWs?oc=5",
+      "id": "CBMikwFBVV95cUxQSXdMMElucTBDWk1xWE1TRUt5cm5iZTFESEUzOFRiaTdQcEFDRU1aR2RjSHhDbWZheG1iVmszOVRTTEhQVWhnWlNyRWpnWHlnRW9QU2NEV3h5RXlMY3QtVUdLeS1SOWY1UTFBSlRlM3oxQ0c2bXBjT0xUUGJnUVk3RU8yY092NkRFWENrS3RoS0t4VWs",
+      "guidislink": false,
+      "published": "Mon, 30 Nov 2020 08:00:00 GMT",
+      "published_parsed": [
+        2020,
+        11,
+        30,
+        8,
+        0,
+        0,
+        0,
+        335,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxQSXdMMElucTBDWk1xWE1TRUt5cm5iZTFESEUzOFRiaTdQcEFDRU1aR2RjSHhDbWZheG1iVmszOVRTTEhQVWhnWlNyRWpnWHlnRW9QU2NEV3h5RXlMY3QtVUdLeS1SOWY1UTFBSlRlM3oxQ0c2bXBjT0xUUGJnUVk3RU8yY092NkRFWENrS3RoS0t4VWs?oc=5\" target=\"_blank\">Real-life Mowgli lives in jungle & walks 20 miles a day after being bullied</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Sun</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxQSXdMMElucTBDWk1xWE1TRUt5cm5iZTFESEUzOFRiaTdQcEFDRU1aR2RjSHhDbWZheG1iVmszOVRTTEhQVWhnWlNyRWpnWHlnRW9QU2NEV3h5RXlMY3QtVUdLeS1SOWY1UTFBSlRlM3oxQ0c2bXBjT0xUUGJnUVk3RU8yY092NkRFWENrS3RoS0t4VWs?oc=5\" target=\"_blank\">Real-life Mowgli lives in jungle & walks 20 miles a day after being bullied</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Sun</font>"
+      },
+      "source": {
+        "href": "https://www.thesun.co.uk",
+        "title": "The Sun"
+      },
+      "sub_articles": []
+    }
+  ]
+}

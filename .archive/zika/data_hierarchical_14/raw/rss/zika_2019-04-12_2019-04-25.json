@@ -1,0 +1,736 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2019-04-12",
+  "window_end": "2019-04-25",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2019-04-12+before%3A2019-04-26&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2019-04-12+before:2019-04-26&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:26:47Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2019-04-12 before:2019-04-26\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2019-04-12 before:2019-04-26\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2019-04-12+before:2019-04-26&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2019-04-12+before:2019-04-26&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:26:48 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      26,
+      48,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Differential human antibody repertoires following Zika infection and the implications for serodiagnostics and disease outcome - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Differential human antibody repertoires following Zika infection and the implications for serodiagnostics and disease outcome - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5BVkdla3JKcWkzZkh2cWdqYWdxUXVrekJacWktY3NUU1J3cU9aSGhrbHQyMEpoaXN2U1JCY01ub3lDVTNXZVlRTzFrQkZwMms4SUdUeWZDM2FnYzRpckZZ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5BVkdla3JKcWkzZkh2cWdqYWdxUXVrekJacWktY3NUU1J3cU9aSGhrbHQyMEpoaXN2U1JCY01ub3lDVTNXZVlRTzFrQkZwMms4SUdUeWZDM2FnYzRpckZZ?oc=5",
+      "id": "CBMiX0FVX3lxTE5BVkdla3JKcWkzZkh2cWdqYWdxUXVrekJacWktY3NUU1J3cU9aSGhrbHQyMEpoaXN2U1JCY01ub3lDVTNXZVlRTzFrQkZwMms4SUdUeWZDM2FnYzRpckZZ",
+      "guidislink": false,
+      "published": "Fri, 26 Apr 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        4,
+        26,
+        7,
+        0,
+        0,
+        4,
+        116,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5BVkdla3JKcWkzZkh2cWdqYWdxUXVrekJacWktY3NUU1J3cU9aSGhrbHQyMEpoaXN2U1JCY01ub3lDVTNXZVlRTzFrQkZwMms4SUdUeWZDM2FnYzRpckZZ?oc=5\" target=\"_blank\">Differential human antibody repertoires following Zika infection and the implications for serodiagnostics and disease outcome</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5BVkdla3JKcWkzZkh2cWdqYWdxUXVrekJacWktY3NUU1J3cU9aSGhrbHQyMEpoaXN2U1JCY01ub3lDVTNXZVlRTzFrQkZwMms4SUdUeWZDM2FnYzRpckZZ?oc=5\" target=\"_blank\">Differential human antibody repertoires following Zika infection and the implications for serodiagnostics and disease outcome</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Fighting Zika in the Children's Carnival - IFRC",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Fighting Zika in the Children's Carnival - IFRC"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8yalFhaGJ5YU1SRTBOcXctbWlDc3M0Mkltb0I3aTd2d2Q0TnVCSEt5eU5tUG5xSUdnMFJkczM5MTQ0aTlaQlFrLV8zQlpja1drUnY2WlYtMkl2N016QlY5akhaTmRWS1hYekRKZVNn?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8yalFhaGJ5YU1SRTBOcXctbWlDc3M0Mkltb0I3aTd2d2Q0TnVCSEt5eU5tUG5xSUdnMFJkczM5MTQ0aTlaQlFrLV8zQlpja1drUnY2WlYtMkl2N016QlY5akhaTmRWS1hYekRKZVNn?oc=5",
+      "id": "CBMibkFVX3lxTE8yalFhaGJ5YU1SRTBOcXctbWlDc3M0Mkltb0I3aTd2d2Q0TnVCSEt5eU5tUG5xSUdnMFJkczM5MTQ0aTlaQlFrLV8zQlpja1drUnY2WlYtMkl2N016QlY5akhaTmRWS1hYekRKZVNn",
+      "guidislink": false,
+      "published": "Thu, 18 Apr 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        4,
+        18,
+        7,
+        0,
+        0,
+        3,
+        108,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTE8yalFhaGJ5YU1SRTBOcXctbWlDc3M0Mkltb0I3aTd2d2Q0TnVCSEt5eU5tUG5xSUdnMFJkczM5MTQ0aTlaQlFrLV8zQlpja1drUnY2WlYtMkl2N016QlY5akhaTmRWS1hYekRKZVNn?oc=5\" target=\"_blank\">Fighting Zika in the Children's Carnival</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IFRC</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTE8yalFhaGJ5YU1SRTBOcXctbWlDc3M0Mkltb0I3aTd2d2Q0TnVCSEt5eU5tUG5xSUdnMFJkczM5MTQ0aTlaQlFrLV8zQlpja1drUnY2WlYtMkl2N016QlY5akhaTmRWS1hYekRKZVNn?oc=5\" target=\"_blank\">Fighting Zika in the Children's Carnival</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">IFRC</font>"
+      },
+      "source": {
+        "href": "https://www.ifrc.org",
+        "title": "IFRC"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Microbiologist named Penn Presidential Professor - Penn Today",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Microbiologist named Penn Presidential Professor - Penn Today"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPV1hKS2RRVVdXdnVGSWVsM0RlTUtJOGhsdzN3RnNnMjdhNG5sZHM0a280a3dwaW1BZ1ZJd0lacU8tcXdpYVdleFVUX3JaenhxbUJvWlVKbGVtcE4zSUY1ai1sbUptOUlNWVhMdkJheDhkZ0RBVEtPcXVaZmFWbHFhZWFWU0hMOU9O?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPV1hKS2RRVVdXdnVGSWVsM0RlTUtJOGhsdzN3RnNnMjdhNG5sZHM0a280a3dwaW1BZ1ZJd0lacU8tcXdpYVdleFVUX3JaenhxbUJvWlVKbGVtcE4zSUY1ai1sbUptOUlNWVhMdkJheDhkZ0RBVEtPcXVaZmFWbHFhZWFWU0hMOU9O?oc=5",
+      "id": "CBMiiAFBVV95cUxPV1hKS2RRVVdXdnVGSWVsM0RlTUtJOGhsdzN3RnNnMjdhNG5sZHM0a280a3dwaW1BZ1ZJd0lacU8tcXdpYVdleFVUX3JaenhxbUJvWlVKbGVtcE4zSUY1ai1sbUptOUlNWVhMdkJheDhkZ0RBVEtPcXVaZmFWbHFhZWFWU0hMOU9O",
+      "guidislink": false,
+      "published": "Fri, 26 Apr 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        4,
+        26,
+        7,
+        0,
+        0,
+        4,
+        116,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPV1hKS2RRVVdXdnVGSWVsM0RlTUtJOGhsdzN3RnNnMjdhNG5sZHM0a280a3dwaW1BZ1ZJd0lacU8tcXdpYVdleFVUX3JaenhxbUJvWlVKbGVtcE4zSUY1ai1sbUptOUlNWVhMdkJheDhkZ0RBVEtPcXVaZmFWbHFhZWFWU0hMOU9O?oc=5\" target=\"_blank\">Microbiologist named Penn Presidential Professor</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Penn Today</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPV1hKS2RRVVdXdnVGSWVsM0RlTUtJOGhsdzN3RnNnMjdhNG5sZHM0a280a3dwaW1BZ1ZJd0lacU8tcXdpYVdleFVUX3JaenhxbUJvWlVKbGVtcE4zSUY1ai1sbUptOUlNWVhMdkJheDhkZ0RBVEtPcXVaZmFWbHFhZWFWU0hMOU9O?oc=5\" target=\"_blank\">Microbiologist named Penn Presidential Professor</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Penn Today</font>"
+      },
+      "source": {
+        "href": "https://penntoday.upenn.edu",
+        "title": "Penn Today"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Unveiling the Map to Designing Treatments for Dengue and Zika Viruses - a-star.edu.sg",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Unveiling the Map to Designing Treatments for Dengue and Zika Viruses - a-star.edu.sg"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNa3ZSRmpWRGctV2JEUEs4Mi1waWw4c2E4R25HR1BMMTJtWnRod3N0dUh2ZWdsRVo2N0FyMzJyS3c1dkh1NkRFR1RYNDFMeklsUm1Ed0l2eVhhd3VuakJtc21nVW9XQ1o1ZzMtMnZDRlZVekR3RXRuMEZpY0YxY216NmhnVHBFTWdEYmxZQjlZUFN4SGtWSDBJNTFpaVlGZXlaLTlwWC1ucHNnVlhjRzUzOU9OTy1GSEVqQ3ZSc1dpX0JFbmNOUXpORDJ3?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNa3ZSRmpWRGctV2JEUEs4Mi1waWw4c2E4R25HR1BMMTJtWnRod3N0dUh2ZWdsRVo2N0FyMzJyS3c1dkh1NkRFR1RYNDFMeklsUm1Ed0l2eVhhd3VuakJtc21nVW9XQ1o1ZzMtMnZDRlZVekR3RXRuMEZpY0YxY216NmhnVHBFTWdEYmxZQjlZUFN4SGtWSDBJNTFpaVlGZXlaLTlwWC1ucHNnVlhjRzUzOU9OTy1GSEVqQ3ZSc1dpX0JFbmNOUXpORDJ3?oc=5",
+      "id": "CBMiygFBVV95cUxNa3ZSRmpWRGctV2JEUEs4Mi1waWw4c2E4R25HR1BMMTJtWnRod3N0dUh2ZWdsRVo2N0FyMzJyS3c1dkh1NkRFR1RYNDFMeklsUm1Ed0l2eVhhd3VuakJtc21nVW9XQ1o1ZzMtMnZDRlZVekR3RXRuMEZpY0YxY216NmhnVHBFTWdEYmxZQjlZUFN4SGtWSDBJNTFpaVlGZXlaLTlwWC1ucHNnVlhjRzUzOU9OTy1GSEVqQ3ZSc1dpX0JFbmNOUXpORDJ3",
+      "guidislink": false,
+      "published": "Wed, 24 Apr 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        4,
+        24,
+        7,
+        0,
+        0,
+        2,
+        114,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxNa3ZSRmpWRGctV2JEUEs4Mi1waWw4c2E4R25HR1BMMTJtWnRod3N0dUh2ZWdsRVo2N0FyMzJyS3c1dkh1NkRFR1RYNDFMeklsUm1Ed0l2eVhhd3VuakJtc21nVW9XQ1o1ZzMtMnZDRlZVekR3RXRuMEZpY0YxY216NmhnVHBFTWdEYmxZQjlZUFN4SGtWSDBJNTFpaVlGZXlaLTlwWC1ucHNnVlhjRzUzOU9OTy1GSEVqQ3ZSc1dpX0JFbmNOUXpORDJ3?oc=5\" target=\"_blank\">Unveiling the Map to Designing Treatments for Dengue and Zika Viruses</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">a-star.edu.sg</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxNa3ZSRmpWRGctV2JEUEs4Mi1waWw4c2E4R25HR1BMMTJtWnRod3N0dUh2ZWdsRVo2N0FyMzJyS3c1dkh1NkRFR1RYNDFMeklsUm1Ed0l2eVhhd3VuakJtc21nVW9XQ1o1ZzMtMnZDRlZVekR3RXRuMEZpY0YxY216NmhnVHBFTWdEYmxZQjlZUFN4SGtWSDBJNTFpaVlGZXlaLTlwWC1ucHNnVlhjRzUzOU9OTy1GSEVqQ3ZSc1dpX0JFbmNOUXpORDJ3?oc=5\" target=\"_blank\">Unveiling the Map to Designing Treatments for Dengue and Zika Viruses</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">a-star.edu.sg</font>"
+      },
+      "source": {
+        "href": "https://www.a-star.edu.sg",
+        "title": "a-star.edu.sg"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "This Smartphone App Could Diagnose Your UTI Faster than a Laboratory - PBS",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "This Smartphone App Could Diagnose Your UTI Faster than a Laboratory - PBS"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVVN3Q0hJS2dOT3ptSFBKRUs3bjQtbUoxVHZBZ21YOVNHaFpEVGhZZGhQSmJwTXhfcmwwSURXY01OSFJwdHhOb1FaaEd1bDVqaWtmZV9jS1N5b1BUak1wdjBfMlgybVhDbllENmx3SG92S0FobmRvX3JsNnpYbnlielNxOEE0LWxHSzYtNUlIOA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVVN3Q0hJS2dOT3ptSFBKRUs3bjQtbUoxVHZBZ21YOVNHaFpEVGhZZGhQSmJwTXhfcmwwSURXY01OSFJwdHhOb1FaaEd1bDVqaWtmZV9jS1N5b1BUak1wdjBfMlgybVhDbllENmx3SG92S0FobmRvX3JsNnpYbnlielNxOEE0LWxHSzYtNUlIOA?oc=5",
+      "id": "CBMijwFBVV95cUxOVVN3Q0hJS2dOT3ptSFBKRUs3bjQtbUoxVHZBZ21YOVNHaFpEVGhZZGhQSmJwTXhfcmwwSURXY01OSFJwdHhOb1FaaEd1bDVqaWtmZV9jS1N5b1BUak1wdjBfMlgybVhDbllENmx3SG92S0FobmRvX3JsNnpYbnlielNxOEE0LWxHSzYtNUlIOA",
+      "guidislink": false,
+      "published": "Tue, 16 Apr 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        4,
+        16,
+        7,
+        0,
+        0,
+        1,
+        106,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxOVVN3Q0hJS2dOT3ptSFBKRUs3bjQtbUoxVHZBZ21YOVNHaFpEVGhZZGhQSmJwTXhfcmwwSURXY01OSFJwdHhOb1FaaEd1bDVqaWtmZV9jS1N5b1BUak1wdjBfMlgybVhDbllENmx3SG92S0FobmRvX3JsNnpYbnlielNxOEE0LWxHSzYtNUlIOA?oc=5\" target=\"_blank\">This Smartphone App Could Diagnose Your UTI Faster than a Laboratory</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PBS</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxOVVN3Q0hJS2dOT3ptSFBKRUs3bjQtbUoxVHZBZ21YOVNHaFpEVGhZZGhQSmJwTXhfcmwwSURXY01OSFJwdHhOb1FaaEd1bDVqaWtmZV9jS1N5b1BUak1wdjBfMlgybVhDbllENmx3SG92S0FobmRvX3JsNnpYbnlielNxOEE0LWxHSzYtNUlIOA?oc=5\" target=\"_blank\">This Smartphone App Could Diagnose Your UTI Faster than a Laboratory</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">PBS</font>"
+      },
+      "source": {
+        "href": "https://www.pbs.org",
+        "title": "PBS"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "CDC Guidelines on Preventing Bug Bites - Contemporary Clinic",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "CDC Guidelines on Preventing Bug Bites - Contemporary Clinic"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPOHZtaVZxaWZIbUpSZndzUC1QZ1lKY29fanM1c3RCTWFFRUo0WkJ3aHg4OEp5aDZtTkFqMTd0cjdFcy1sNzMycURIZjJud19vc0RCMlc4MjVfamd2UldkRUxtUFY0cDlHNmJSQzh6RFNqaUJac1RwdTVTMkhoNDdNSlFvbUU?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPOHZtaVZxaWZIbUpSZndzUC1QZ1lKY29fanM1c3RCTWFFRUo0WkJ3aHg4OEp5aDZtTkFqMTd0cjdFcy1sNzMycURIZjJud19vc0RCMlc4MjVfamd2UldkRUxtUFY0cDlHNmJSQzh6RFNqaUJac1RwdTVTMkhoNDdNSlFvbUU?oc=5",
+      "id": "CBMihAFBVV95cUxPOHZtaVZxaWZIbUpSZndzUC1QZ1lKY29fanM1c3RCTWFFRUo0WkJ3aHg4OEp5aDZtTkFqMTd0cjdFcy1sNzMycURIZjJud19vc0RCMlc4MjVfamd2UldkRUxtUFY0cDlHNmJSQzh6RFNqaUJac1RwdTVTMkhoNDdNSlFvbUU",
+      "guidislink": false,
+      "published": "Tue, 16 Apr 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        4,
+        16,
+        7,
+        0,
+        0,
+        1,
+        106,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxPOHZtaVZxaWZIbUpSZndzUC1QZ1lKY29fanM1c3RCTWFFRUo0WkJ3aHg4OEp5aDZtTkFqMTd0cjdFcy1sNzMycURIZjJud19vc0RCMlc4MjVfamd2UldkRUxtUFY0cDlHNmJSQzh6RFNqaUJac1RwdTVTMkhoNDdNSlFvbUU?oc=5\" target=\"_blank\">CDC Guidelines on Preventing Bug Bites</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Contemporary Clinic</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxPOHZtaVZxaWZIbUpSZndzUC1QZ1lKY29fanM1c3RCTWFFRUo0WkJ3aHg4OEp5aDZtTkFqMTd0cjdFcy1sNzMycURIZjJud19vc0RCMlc4MjVfamd2UldkRUxtUFY0cDlHNmJSQzh6RFNqaUJac1RwdTVTMkhoNDdNSlFvbUU?oc=5\" target=\"_blank\">CDC Guidelines on Preventing Bug Bites</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Contemporary Clinic</font>"
+      },
+      "source": {
+        "href": "https://www.contemporaryclinic.com",
+        "title": "Contemporary Clinic"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Experts on the environment and climate change - University of California, Riverside",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Experts on the environment and climate change - University of California, Riverside"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMlFOWms5R09CZ2VYU2VFSmp3d0czeUpTN0s1NjNNSDJ5aTNlaXF2czNrdzVrN21fWWZHUnJYRTVDSC1xeDZmekxFQmtRV2h3aTNlcC1qNTdvdE1qeHdVMXRwMWRsMUJCR2tablFwTnV6eU5WbGZlZloxdDZ5TjVzX2tZQllpdw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMlFOWms5R09CZ2VYU2VFSmp3d0czeUpTN0s1NjNNSDJ5aTNlaXF2czNrdzVrN21fWWZHUnJYRTVDSC1xeDZmekxFQmtRV2h3aTNlcC1qNTdvdE1qeHdVMXRwMWRsMUJCR2tablFwTnV6eU5WbGZlZloxdDZ5TjVzX2tZQllpdw?oc=5",
+      "id": "CBMihgFBVV95cUxOMlFOWms5R09CZ2VYU2VFSmp3d0czeUpTN0s1NjNNSDJ5aTNlaXF2czNrdzVrN21fWWZHUnJYRTVDSC1xeDZmekxFQmtRV2h3aTNlcC1qNTdvdE1qeHdVMXRwMWRsMUJCR2tablFwTnV6eU5WbGZlZloxdDZ5TjVzX2tZQllpdw",
+      "guidislink": false,
+      "published": "Wed, 24 Apr 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        4,
+        24,
+        7,
+        0,
+        0,
+        2,
+        114,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxOMlFOWms5R09CZ2VYU2VFSmp3d0czeUpTN0s1NjNNSDJ5aTNlaXF2czNrdzVrN21fWWZHUnJYRTVDSC1xeDZmekxFQmtRV2h3aTNlcC1qNTdvdE1qeHdVMXRwMWRsMUJCR2tablFwTnV6eU5WbGZlZloxdDZ5TjVzX2tZQllpdw?oc=5\" target=\"_blank\">Experts on the environment and climate change</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of California, Riverside</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxOMlFOWms5R09CZ2VYU2VFSmp3d0czeUpTN0s1NjNNSDJ5aTNlaXF2czNrdzVrN21fWWZHUnJYRTVDSC1xeDZmekxFQmtRV2h3aTNlcC1qNTdvdE1qeHdVMXRwMWRsMUJCR2tablFwTnV6eU5WbGZlZloxdDZ5TjVzX2tZQllpdw?oc=5\" target=\"_blank\">Experts on the environment and climate change</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of California, Riverside</font>"
+      },
+      "source": {
+        "href": "https://news.ucr.edu",
+        "title": "University of California, Riverside"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Researchers identify how liver cells protect against viral attacks - Medical Xpress",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Researchers identify how liver cells protect against viral attacks - Medical Xpress"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA0T09Ia1RXeGJscWFEZzBoWmRKeVNvNU5JSV9yQnp4UTNjR1hTZU9lR205NkdPQ2FjS0p0Nm5HOUpmckdQck16Uld5V0hJUDdTQVl5NWRaVzVQRldMOWR2MVFxYU92M3U0YjVVQl9n?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA0T09Ia1RXeGJscWFEZzBoWmRKeVNvNU5JSV9yQnp4UTNjR1hTZU9lR205NkdPQ2FjS0p0Nm5HOUpmckdQck16Uld5V0hJUDdTQVl5NWRaVzVQRldMOWR2MVFxYU92M3U0YjVVQl9n?oc=5",
+      "id": "CBMibkFVX3lxTFA0T09Ia1RXeGJscWFEZzBoWmRKeVNvNU5JSV9yQnp4UTNjR1hTZU9lR205NkdPQ2FjS0p0Nm5HOUpmckdQck16Uld5V0hJUDdTQVl5NWRaVzVQRldMOWR2MVFxYU92M3U0YjVVQl9n",
+      "guidislink": false,
+      "published": "Mon, 15 Apr 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        4,
+        15,
+        7,
+        0,
+        0,
+        0,
+        105,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTFA0T09Ia1RXeGJscWFEZzBoWmRKeVNvNU5JSV9yQnp4UTNjR1hTZU9lR205NkdPQ2FjS0p0Nm5HOUpmckdQck16Uld5V0hJUDdTQVl5NWRaVzVQRldMOWR2MVFxYU92M3U0YjVVQl9n?oc=5\" target=\"_blank\">Researchers identify how liver cells protect against viral attacks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Medical Xpress</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTFA0T09Ia1RXeGJscWFEZzBoWmRKeVNvNU5JSV9yQnp4UTNjR1hTZU9lR205NkdPQ2FjS0p0Nm5HOUpmckdQck16Uld5V0hJUDdTQVl5NWRaVzVQRldMOWR2MVFxYU92M3U0YjVVQl9n?oc=5\" target=\"_blank\">Researchers identify how liver cells protect against viral attacks</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Medical Xpress</font>"
+      },
+      "source": {
+        "href": "https://medicalxpress.com",
+        "title": "Medical Xpress"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Opinion | Climate’s Troubling Unknown Unknowns (Published 2019) - The New York Times",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Opinion | Climate’s Troubling Unknown Unknowns (Published 2019) - The New York Times"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPamxrWDRVc3VwcnZlOTEyTzZZX2dObno2V0hpM1NsdEJLa280aGJyYjlFbFVhdl9vZ054MnJHdGVTLWFodzFEUUZSMlFsOWRseEM3RXBuWEZhTFNmaGJtQlVuS3h2U1pGZ3c2UmRBR01neTI1RVJsRURVSEpzYXh1aWllOWxsWlhMQTBXVHFYUjM?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPamxrWDRVc3VwcnZlOTEyTzZZX2dObno2V0hpM1NsdEJLa280aGJyYjlFbFVhdl9vZ054MnJHdGVTLWFodzFEUUZSMlFsOWRseEM3RXBuWEZhTFNmaGJtQlVuS3h2U1pGZ3c2UmRBR01neTI1RVJsRURVSEpzYXh1aWllOWxsWlhMQTBXVHFYUjM?oc=5",
+      "id": "CBMikAFBVV95cUxPamxrWDRVc3VwcnZlOTEyTzZZX2dObno2V0hpM1NsdEJLa280aGJyYjlFbFVhdl9vZ054MnJHdGVTLWFodzFEUUZSMlFsOWRseEM3RXBuWEZhTFNmaGJtQlVuS3h2U1pGZ3c2UmRBR01neTI1RVJsRURVSEpzYXh1aWllOWxsWlhMQTBXVHFYUjM",
+      "guidislink": false,
+      "published": "Sun, 21 Apr 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        4,
+        21,
+        7,
+        0,
+        0,
+        6,
+        111,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxPamxrWDRVc3VwcnZlOTEyTzZZX2dObno2V0hpM1NsdEJLa280aGJyYjlFbFVhdl9vZ054MnJHdGVTLWFodzFEUUZSMlFsOWRseEM3RXBuWEZhTFNmaGJtQlVuS3h2U1pGZ3c2UmRBR01neTI1RVJsRURVSEpzYXh1aWllOWxsWlhMQTBXVHFYUjM?oc=5\" target=\"_blank\">Opinion | Climate’s Troubling Unknown Unknowns (Published 2019)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New York Times</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxPamxrWDRVc3VwcnZlOTEyTzZZX2dObno2V0hpM1NsdEJLa280aGJyYjlFbFVhdl9vZ054MnJHdGVTLWFodzFEUUZSMlFsOWRseEM3RXBuWEZhTFNmaGJtQlVuS3h2U1pGZ3c2UmRBR01neTI1RVJsRURVSEpzYXh1aWllOWxsWlhMQTBXVHFYUjM?oc=5\" target=\"_blank\">Opinion | Climate’s Troubling Unknown Unknowns (Published 2019)</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The New York Times</font>"
+      },
+      "source": {
+        "href": "https://www.nytimes.com",
+        "title": "The New York Times"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "How to keep mosquitoes away - popsci.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "How to keep mosquitoes away - popsci.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB0a2ZQZkQ5OWtpbmpFWTJNZjhFWEYtZHh4ZXJmNmlUNHBEZkRKTFBRQXZiYkFjeExRY3VwVk1VTXM3X3hsemUyakhmdlZfTlllc0lzWUx0THpwakowenRHZG13?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB0a2ZQZkQ5OWtpbmpFWTJNZjhFWEYtZHh4ZXJmNmlUNHBEZkRKTFBRQXZiYkFjeExRY3VwVk1VTXM3X3hsemUyakhmdlZfTlllc0lzWUx0THpwakowenRHZG13?oc=5",
+      "id": "CBMiYkFVX3lxTFB0a2ZQZkQ5OWtpbmpFWTJNZjhFWEYtZHh4ZXJmNmlUNHBEZkRKTFBRQXZiYkFjeExRY3VwVk1VTXM3X3hsemUyakhmdlZfTlllc0lzWUx0THpwakowenRHZG13",
+      "guidislink": false,
+      "published": "Wed, 24 Apr 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        4,
+        24,
+        7,
+        0,
+        0,
+        2,
+        114,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTFB0a2ZQZkQ5OWtpbmpFWTJNZjhFWEYtZHh4ZXJmNmlUNHBEZkRKTFBRQXZiYkFjeExRY3VwVk1VTXM3X3hsemUyakhmdlZfTlllc0lzWUx0THpwakowenRHZG13?oc=5\" target=\"_blank\">How to keep mosquitoes away</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">popsci.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTFB0a2ZQZkQ5OWtpbmpFWTJNZjhFWEYtZHh4ZXJmNmlUNHBEZkRKTFBRQXZiYkFjeExRY3VwVk1VTXM3X3hsemUyakhmdlZfTlllc0lzWUx0THpwakowenRHZG13?oc=5\" target=\"_blank\">How to keep mosquitoes away</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">popsci.com</font>"
+      },
+      "source": {
+        "href": "https://www.popsci.com",
+        "title": "popsci.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Watch out Texans! These are five of the most common pests to avoid this season - Corpus Christi Caller-Times",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Watch out Texans! These are five of the most common pests to avoid this season - Corpus Christi Caller-Times"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPVDZQaXdJV1Jqdkk3UXlZUHY4VGxENVVvaE5SbkYyLWtSenBmSEI5QjBMQXpaYkVXRFNfQjhLSXI2Y3lncnRDWVFHR2ROaF8xRVItUGRNSEJqV1BDOVRfNFJRbEo1djF4OTdnS3MySFFCMGI1cWJjMjdfVk1jWnV2SzVJTXlyeHp0enFFSGktY2RXbURISnlkUjRRa1ZLQV9fOF9NQzZLcWhBNjVzZ3dWMkF1Mjg5MGNFdDBMNXdtZkpXLU5JcTZGZ1hmeHdEVVZ0aWxEQ2NvNXBTQQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPVDZQaXdJV1Jqdkk3UXlZUHY4VGxENVVvaE5SbkYyLWtSenBmSEI5QjBMQXpaYkVXRFNfQjhLSXI2Y3lncnRDWVFHR2ROaF8xRVItUGRNSEJqV1BDOVRfNFJRbEo1djF4OTdnS3MySFFCMGI1cWJjMjdfVk1jWnV2SzVJTXlyeHp0enFFSGktY2RXbURISnlkUjRRa1ZLQV9fOF9NQzZLcWhBNjVzZ3dWMkF1Mjg5MGNFdDBMNXdtZkpXLU5JcTZGZ1hmeHdEVVZ0aWxEQ2NvNXBTQQ?oc=5",
+      "id": "CBMi2gFBVV95cUxPVDZQaXdJV1Jqdkk3UXlZUHY4VGxENVVvaE5SbkYyLWtSenBmSEI5QjBMQXpaYkVXRFNfQjhLSXI2Y3lncnRDWVFHR2ROaF8xRVItUGRNSEJqV1BDOVRfNFJRbEo1djF4OTdnS3MySFFCMGI1cWJjMjdfVk1jWnV2SzVJTXlyeHp0enFFSGktY2RXbURISnlkUjRRa1ZLQV9fOF9NQzZLcWhBNjVzZ3dWMkF1Mjg5MGNFdDBMNXdtZkpXLU5JcTZGZ1hmeHdEVVZ0aWxEQ2NvNXBTQQ",
+      "guidislink": false,
+      "published": "Thu, 18 Apr 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        4,
+        18,
+        7,
+        0,
+        0,
+        3,
+        108,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxPVDZQaXdJV1Jqdkk3UXlZUHY4VGxENVVvaE5SbkYyLWtSenBmSEI5QjBMQXpaYkVXRFNfQjhLSXI2Y3lncnRDWVFHR2ROaF8xRVItUGRNSEJqV1BDOVRfNFJRbEo1djF4OTdnS3MySFFCMGI1cWJjMjdfVk1jWnV2SzVJTXlyeHp0enFFSGktY2RXbURISnlkUjRRa1ZLQV9fOF9NQzZLcWhBNjVzZ3dWMkF1Mjg5MGNFdDBMNXdtZkpXLU5JcTZGZ1hmeHdEVVZ0aWxEQ2NvNXBTQQ?oc=5\" target=\"_blank\">Watch out Texans! These are five of the most common pests to avoid this season</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Corpus Christi Caller-Times</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi2gFBVV95cUxPVDZQaXdJV1Jqdkk3UXlZUHY4VGxENVVvaE5SbkYyLWtSenBmSEI5QjBMQXpaYkVXRFNfQjhLSXI2Y3lncnRDWVFHR2ROaF8xRVItUGRNSEJqV1BDOVRfNFJRbEo1djF4OTdnS3MySFFCMGI1cWJjMjdfVk1jWnV2SzVJTXlyeHp0enFFSGktY2RXbURISnlkUjRRa1ZLQV9fOF9NQzZLcWhBNjVzZ3dWMkF1Mjg5MGNFdDBMNXdtZkpXLU5JcTZGZ1hmeHdEVVZ0aWxEQ2NvNXBTQQ?oc=5\" target=\"_blank\">Watch out Texans! These are five of the most common pests to avoid this season</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Corpus Christi Caller-Times</font>"
+      },
+      "source": {
+        "href": "https://www.caller.com",
+        "title": "Corpus Christi Caller-Times"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Prince Harry, Meghan Markle Accused Of Tricking Public That Duchess Wasn’t Pregnant - Latin Times",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Prince Harry, Meghan Markle Accused Of Tricking Public That Duchess Wasn’t Pregnant - Latin Times"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObnBJVEZrTGhOSzhJZDZwMXRkZ19USUZ1V0JVR241TWI2YlM1b2RmRmFXV3VhczRRUkxieXpJSHVxN1lYenNDZ200UnM4LXphTTFHUlRJbjRpWFBjV1ZZQV9yNnZrQS1ZV0F2TlRhZ29FWHRqZmZSSW5HUVJtSTdIT3J1V25NZ2pDNGVPeUVrRVNlWUZ2S0F4ZU9Rd3pUVWR6emhUOGJQNGJUa2s?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObnBJVEZrTGhOSzhJZDZwMXRkZ19USUZ1V0JVR241TWI2YlM1b2RmRmFXV3VhczRRUkxieXpJSHVxN1lYenNDZ200UnM4LXphTTFHUlRJbjRpWFBjV1ZZQV9yNnZrQS1ZV0F2TlRhZ29FWHRqZmZSSW5HUVJtSTdIT3J1V25NZ2pDNGVPeUVrRVNlWUZ2S0F4ZU9Rd3pUVWR6emhUOGJQNGJUa2s?oc=5",
+      "id": "CBMiqwFBVV95cUxObnBJVEZrTGhOSzhJZDZwMXRkZ19USUZ1V0JVR241TWI2YlM1b2RmRmFXV3VhczRRUkxieXpJSHVxN1lYenNDZ200UnM4LXphTTFHUlRJbjRpWFBjV1ZZQV9yNnZrQS1ZV0F2TlRhZ29FWHRqZmZSSW5HUVJtSTdIT3J1V25NZ2pDNGVPeUVrRVNlWUZ2S0F4ZU9Rd3pUVWR6emhUOGJQNGJUa2s",
+      "guidislink": false,
+      "published": "Thu, 18 Apr 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        4,
+        18,
+        7,
+        0,
+        0,
+        3,
+        108,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxObnBJVEZrTGhOSzhJZDZwMXRkZ19USUZ1V0JVR241TWI2YlM1b2RmRmFXV3VhczRRUkxieXpJSHVxN1lYenNDZ200UnM4LXphTTFHUlRJbjRpWFBjV1ZZQV9yNnZrQS1ZV0F2TlRhZ29FWHRqZmZSSW5HUVJtSTdIT3J1V25NZ2pDNGVPeUVrRVNlWUZ2S0F4ZU9Rd3pUVWR6emhUOGJQNGJUa2s?oc=5\" target=\"_blank\">Prince Harry, Meghan Markle Accused Of Tricking Public That Duchess Wasn’t Pregnant</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Latin Times</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxObnBJVEZrTGhOSzhJZDZwMXRkZ19USUZ1V0JVR241TWI2YlM1b2RmRmFXV3VhczRRUkxieXpJSHVxN1lYenNDZ200UnM4LXphTTFHUlRJbjRpWFBjV1ZZQV9yNnZrQS1ZV0F2TlRhZ29FWHRqZmZSSW5HUVJtSTdIT3J1V25NZ2pDNGVPeUVrRVNlWUZ2S0F4ZU9Rd3pUVWR6emhUOGJQNGJUa2s?oc=5\" target=\"_blank\">Prince Harry, Meghan Markle Accused Of Tricking Public That Duchess Wasn’t Pregnant</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Latin Times</font>"
+      },
+      "source": {
+        "href": "https://www.latintimes.com",
+        "title": "Latin Times"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Where will world’s next killer diseases come from? - The Guardian Nigeria News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Where will world’s next killer diseases come from? - The Guardian Nigeria News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZy1GcUVDVUNSZ29ZOHU1eU55V1BmWUJXTU9iN1RfZzF5V2ZCZUZTazkyM2kzQVFfUDJCdl84b05DOWNNM09vZ25YbmE4eVhzZEVJZW85Q3o1aFR0Mkx6eGE2UVljMFFKZ2tiR0RfSFVZc3dzTG9wYW94QWdKcWZHS011WW9PS3VGRjVza0V3?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZy1GcUVDVUNSZ29ZOHU1eU55V1BmWUJXTU9iN1RfZzF5V2ZCZUZTazkyM2kzQVFfUDJCdl84b05DOWNNM09vZ25YbmE4eVhzZEVJZW85Q3o1aFR0Mkx6eGE2UVljMFFKZ2tiR0RfSFVZc3dzTG9wYW94QWdKcWZHS011WW9PS3VGRjVza0V3?oc=5",
+      "id": "CBMijgFBVV95cUxOZy1GcUVDVUNSZ29ZOHU1eU55V1BmWUJXTU9iN1RfZzF5V2ZCZUZTazkyM2kzQVFfUDJCdl84b05DOWNNM09vZ25YbmE4eVhzZEVJZW85Q3o1aFR0Mkx6eGE2UVljMFFKZ2tiR0RfSFVZc3dzTG9wYW94QWdKcWZHS011WW9PS3VGRjVza0V3",
+      "guidislink": false,
+      "published": "Tue, 16 Apr 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        4,
+        16,
+        7,
+        0,
+        0,
+        1,
+        106,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxOZy1GcUVDVUNSZ29ZOHU1eU55V1BmWUJXTU9iN1RfZzF5V2ZCZUZTazkyM2kzQVFfUDJCdl84b05DOWNNM09vZ25YbmE4eVhzZEVJZW85Q3o1aFR0Mkx6eGE2UVljMFFKZ2tiR0RfSFVZc3dzTG9wYW94QWdKcWZHS011WW9PS3VGRjVza0V3?oc=5\" target=\"_blank\">Where will world’s next killer diseases come from?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian Nigeria News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxOZy1GcUVDVUNSZ29ZOHU1eU55V1BmWUJXTU9iN1RfZzF5V2ZCZUZTazkyM2kzQVFfUDJCdl84b05DOWNNM09vZ25YbmE4eVhzZEVJZW85Q3o1aFR0Mkx6eGE2UVljMFFKZ2tiR0RfSFVZc3dzTG9wYW94QWdKcWZHS011WW9PS3VGRjVza0V3?oc=5\" target=\"_blank\">Where will world’s next killer diseases come from?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian Nigeria News</font>"
+      },
+      "source": {
+        "href": "https://guardian.ng",
+        "title": "The Guardian Nigeria News"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Romelu Lukaku hints at Manchester United exit as he continues to flirt with move to Serie A - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Romelu Lukaku hints at Manchester United exit as he continues to flirt with move to Serie A - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOZzBYblpBVzJ0d0gxYnNkLXMwZkNPdk5ZSmRkdjVuRUVqdmpUaVJMbjlWdVZqaGktaHNRQ1pYZUZvTEtrbU93RFM4YjNSQUN2QlpzUjlpR3dXd1AzRzZfOHBLZlQtMXJkckxsanFaSE5qR2dsTGhReG5MMzNmQjNYdXQ4bU9mbW9BUFJjTnpIdFdpaUdZN2Y2WGEtbGdoNW5HRTZQOGI5Q2lIVmFBWGZKMkNBMGplcE10bGpNS1g4YlNlbXZpcWlhWEFzV203bGlrOVBZWUlTR0xMOVktYkItV09iWmZScnowS0tSWkNhcEdfQkVsZnZqdnN4X3paQdIB_gFBVV95cUxOZzBYblpBVzJ0d0gxYnNkLXMwZkNPdk5ZSmRkdjVuRUVqdmpUaVJMbjlWdVZqaGktaHNRQ1pYZUZvTEtrbU93RFM4YjNSQUN2QlpzUjlpR3dXd1AzRzZfOHBLZlQtMXJkckxsanFaSE5qR2dsTGhReG5MMzNmQjNYdXQ4bU9mbW9BUFJjTnpIdFdpaUdZN2Y2WGEtbGdoNW5HRTZQOGI5Q2lIVmFBWGZKMkNBMGplcE10bGpNS1g4YlNlbXZpcWlhWEFzV203bGlrOVBZWUlTR0xMOVktYkItV09iWmZScnowS0tSWkNhcEdfQkVsZnZqdnN4X3paQQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOZzBYblpBVzJ0d0gxYnNkLXMwZkNPdk5ZSmRkdjVuRUVqdmpUaVJMbjlWdVZqaGktaHNRQ1pYZUZvTEtrbU93RFM4YjNSQUN2QlpzUjlpR3dXd1AzRzZfOHBLZlQtMXJkckxsanFaSE5qR2dsTGhReG5MMzNmQjNYdXQ4bU9mbW9BUFJjTnpIdFdpaUdZN2Y2WGEtbGdoNW5HRTZQOGI5Q2lIVmFBWGZKMkNBMGplcE10bGpNS1g4YlNlbXZpcWlhWEFzV203bGlrOVBZWUlTR0xMOVktYkItV09iWmZScnowS0tSWkNhcEdfQkVsZnZqdnN4X3paQdIB_gFBVV95cUxOZzBYblpBVzJ0d0gxYnNkLXMwZkNPdk5ZSmRkdjVuRUVqdmpUaVJMbjlWdVZqaGktaHNRQ1pYZUZvTEtrbU93RFM4YjNSQUN2QlpzUjlpR3dXd1AzRzZfOHBLZlQtMXJkckxsanFaSE5qR2dsTGhReG5MMzNmQjNYdXQ4bU9mbW9BUFJjTnpIdFdpaUdZN2Y2WGEtbGdoNW5HRTZQOGI5Q2lIVmFBWGZKMkNBMGplcE10bGpNS1g4YlNlbXZpcWlhWEFzV203bGlrOVBZWUlTR0xMOVktYkItV09iWmZScnowS0tSWkNhcEdfQkVsZnZqdnN4X3paQQ?oc=5",
+      "id": "CBMi_gFBVV95cUxOZzBYblpBVzJ0d0gxYnNkLXMwZkNPdk5ZSmRkdjVuRUVqdmpUaVJMbjlWdVZqaGktaHNRQ1pYZUZvTEtrbU93RFM4YjNSQUN2QlpzUjlpR3dXd1AzRzZfOHBLZlQtMXJkckxsanFaSE5qR2dsTGhReG5MMzNmQjNYdXQ4bU9mbW9BUFJjTnpIdFdpaUdZN2Y2WGEtbGdoNW5HRTZQOGI5Q2lIVmFBWGZKMkNBMGplcE10bGpNS1g4YlNlbXZpcWlhWEFzV203bGlrOVBZWUlTR0xMOVktYkItV09iWmZScnowS0tSWkNhcEdfQkVsZnZqdnN4X3paQdIB_gFBVV95cUxOZzBYblpBVzJ0d0gxYnNkLXMwZkNPdk5ZSmRkdjVuRUVqdmpUaVJMbjlWdVZqaGktaHNRQ1pYZUZvTEtrbU93RFM4YjNSQUN2QlpzUjlpR3dXd1AzRzZfOHBLZlQtMXJkckxsanFaSE5qR2dsTGhReG5MMzNmQjNYdXQ4bU9mbW9BUFJjTnpIdFdpaUdZN2Y2WGEtbGdoNW5HRTZQOGI5Q2lIVmFBWGZKMkNBMGplcE10bGpNS1g4YlNlbXZpcWlhWEFzV203bGlrOVBZWUlTR0xMOVktYkItV09iWmZScnowS0tSWkNhcEdfQkVsZnZqdnN4X3paQQ",
+      "guidislink": false,
+      "published": "Thu, 25 Apr 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        4,
+        25,
+        7,
+        0,
+        0,
+        3,
+        115,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi_gFBVV95cUxOZzBYblpBVzJ0d0gxYnNkLXMwZkNPdk5ZSmRkdjVuRUVqdmpUaVJMbjlWdVZqaGktaHNRQ1pYZUZvTEtrbU93RFM4YjNSQUN2QlpzUjlpR3dXd1AzRzZfOHBLZlQtMXJkckxsanFaSE5qR2dsTGhReG5MMzNmQjNYdXQ4bU9mbW9BUFJjTnpIdFdpaUdZN2Y2WGEtbGdoNW5HRTZQOGI5Q2lIVmFBWGZKMkNBMGplcE10bGpNS1g4YlNlbXZpcWlhWEFzV203bGlrOVBZWUlTR0xMOVktYkItV09iWmZScnowS0tSWkNhcEdfQkVsZnZqdnN4X3paQdIB_gFBVV95cUxOZzBYblpBVzJ0d0gxYnNkLXMwZkNPdk5ZSmRkdjVuRUVqdmpUaVJMbjlWdVZqaGktaHNRQ1pYZUZvTEtrbU93RFM4YjNSQUN2QlpzUjlpR3dXd1AzRzZfOHBLZlQtMXJkckxsanFaSE5qR2dsTGhReG5MMzNmQjNYdXQ4bU9mbW9BUFJjTnpIdFdpaUdZN2Y2WGEtbGdoNW5HRTZQOGI5Q2lIVmFBWGZKMkNBMGplcE10bGpNS1g4YlNlbXZpcWlhWEFzV203bGlrOVBZWUlTR0xMOVktYkItV09iWmZScnowS0tSWkNhcEdfQkVsZnZqdnN4X3paQQ?oc=5\" target=\"_blank\">Romelu Lukaku hints at Manchester United exit as he continues to flirt with move to Serie A</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi_gFBVV95cUxOZzBYblpBVzJ0d0gxYnNkLXMwZkNPdk5ZSmRkdjVuRUVqdmpUaVJMbjlWdVZqaGktaHNRQ1pYZUZvTEtrbU93RFM4YjNSQUN2QlpzUjlpR3dXd1AzRzZfOHBLZlQtMXJkckxsanFaSE5qR2dsTGhReG5MMzNmQjNYdXQ4bU9mbW9BUFJjTnpIdFdpaUdZN2Y2WGEtbGdoNW5HRTZQOGI5Q2lIVmFBWGZKMkNBMGplcE10bGpNS1g4YlNlbXZpcWlhWEFzV203bGlrOVBZWUlTR0xMOVktYkItV09iWmZScnowS0tSWkNhcEdfQkVsZnZqdnN4X3paQdIB_gFBVV95cUxOZzBYblpBVzJ0d0gxYnNkLXMwZkNPdk5ZSmRkdjVuRUVqdmpUaVJMbjlWdVZqaGktaHNRQ1pYZUZvTEtrbU93RFM4YjNSQUN2QlpzUjlpR3dXd1AzRzZfOHBLZlQtMXJkckxsanFaSE5qR2dsTGhReG5MMzNmQjNYdXQ4bU9mbW9BUFJjTnpIdFdpaUdZN2Y2WGEtbGdoNW5HRTZQOGI5Q2lIVmFBWGZKMkNBMGplcE10bGpNS1g4YlNlbXZpcWlhWEFzV203bGlrOVBZWUlTR0xMOVktYkItV09iWmZScnowS0tSWkNhcEdfQkVsZnZqdnN4X3paQQ?oc=5\" target=\"_blank\">Romelu Lukaku hints at Manchester United exit as he continues to flirt with move to Serie A</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Top cop admits his officers do not fully investigate up to 60% of crimes - Daily Mail",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Top cop admits his officers do not fully investigate up to 60% of crimes - Daily Mail"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMTZYTmZOeXpKZmlYM2JWRTNPSGRBY2s5Nmc0UUQ0S0Vnb3A4alV1QWU5a1ZmRWFyajJfcXFNMzl6cjlvWG9TTjZoR1BmTmtHV3R3ZFVncU9YVFZkaVNpcWo1LXNxa3g1OWlwQkdPbDVESDJZdGo2NFdDVFk1aGJYVW9tMXlWcFd6NjRuYzhjQTNKNGJILUlsZl9seEpyNURxR1Fnd1F1WkNSdTlqbGxJdEsxd9IBswFBVV95cUxPMTZYTmZOeXpKZmlYM2JWRTNPSGRBY2s5Nmc0UUQ0S0Vnb3A4alV1QWU5a1ZmRWFyajJfcXFNMzl6cjlvWG9TTjZoR1BmTmtHV3R3ZFVncU9YVFZkaVNpcWo1LXNxa3g1OWlwQkdPbDVESDJZdGo2NFdDVFk1aGJYVW9tMXlWcFd6NjRuYzhjQTNKNGJILUlsZl9seEpyNURxR1Fnd1F1WkNSdTlqbGxJdEsxdw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMTZYTmZOeXpKZmlYM2JWRTNPSGRBY2s5Nmc0UUQ0S0Vnb3A4alV1QWU5a1ZmRWFyajJfcXFNMzl6cjlvWG9TTjZoR1BmTmtHV3R3ZFVncU9YVFZkaVNpcWo1LXNxa3g1OWlwQkdPbDVESDJZdGo2NFdDVFk1aGJYVW9tMXlWcFd6NjRuYzhjQTNKNGJILUlsZl9seEpyNURxR1Fnd1F1WkNSdTlqbGxJdEsxd9IBswFBVV95cUxPMTZYTmZOeXpKZmlYM2JWRTNPSGRBY2s5Nmc0UUQ0S0Vnb3A4alV1QWU5a1ZmRWFyajJfcXFNMzl6cjlvWG9TTjZoR1BmTmtHV3R3ZFVncU9YVFZkaVNpcWo1LXNxa3g1OWlwQkdPbDVESDJZdGo2NFdDVFk1aGJYVW9tMXlWcFd6NjRuYzhjQTNKNGJILUlsZl9seEpyNURxR1Fnd1F1WkNSdTlqbGxJdEsxdw?oc=5",
+      "id": "CBMiswFBVV95cUxPMTZYTmZOeXpKZmlYM2JWRTNPSGRBY2s5Nmc0UUQ0S0Vnb3A4alV1QWU5a1ZmRWFyajJfcXFNMzl6cjlvWG9TTjZoR1BmTmtHV3R3ZFVncU9YVFZkaVNpcWo1LXNxa3g1OWlwQkdPbDVESDJZdGo2NFdDVFk1aGJYVW9tMXlWcFd6NjRuYzhjQTNKNGJILUlsZl9seEpyNURxR1Fnd1F1WkNSdTlqbGxJdEsxd9IBswFBVV95cUxPMTZYTmZOeXpKZmlYM2JWRTNPSGRBY2s5Nmc0UUQ0S0Vnb3A4alV1QWU5a1ZmRWFyajJfcXFNMzl6cjlvWG9TTjZoR1BmTmtHV3R3ZFVncU9YVFZkaVNpcWo1LXNxa3g1OWlwQkdPbDVESDJZdGo2NFdDVFk1aGJYVW9tMXlWcFd6NjRuYzhjQTNKNGJILUlsZl9seEpyNURxR1Fnd1F1WkNSdTlqbGxJdEsxdw",
+      "guidislink": false,
+      "published": "Tue, 23 Apr 2019 07:00:00 GMT",
+      "published_parsed": [
+        2019,
+        4,
+        23,
+        7,
+        0,
+        0,
+        1,
+        113,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxPMTZYTmZOeXpKZmlYM2JWRTNPSGRBY2s5Nmc0UUQ0S0Vnb3A4alV1QWU5a1ZmRWFyajJfcXFNMzl6cjlvWG9TTjZoR1BmTmtHV3R3ZFVncU9YVFZkaVNpcWo1LXNxa3g1OWlwQkdPbDVESDJZdGo2NFdDVFk1aGJYVW9tMXlWcFd6NjRuYzhjQTNKNGJILUlsZl9seEpyNURxR1Fnd1F1WkNSdTlqbGxJdEsxd9IBswFBVV95cUxPMTZYTmZOeXpKZmlYM2JWRTNPSGRBY2s5Nmc0UUQ0S0Vnb3A4alV1QWU5a1ZmRWFyajJfcXFNMzl6cjlvWG9TTjZoR1BmTmtHV3R3ZFVncU9YVFZkaVNpcWo1LXNxa3g1OWlwQkdPbDVESDJZdGo2NFdDVFk1aGJYVW9tMXlWcFd6NjRuYzhjQTNKNGJILUlsZl9seEpyNURxR1Fnd1F1WkNSdTlqbGxJdEsxdw?oc=5\" target=\"_blank\">Top cop admits his officers do not fully investigate up to 60% of crimes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxPMTZYTmZOeXpKZmlYM2JWRTNPSGRBY2s5Nmc0UUQ0S0Vnb3A4alV1QWU5a1ZmRWFyajJfcXFNMzl6cjlvWG9TTjZoR1BmTmtHV3R3ZFVncU9YVFZkaVNpcWo1LXNxa3g1OWlwQkdPbDVESDJZdGo2NFdDVFk1aGJYVW9tMXlWcFd6NjRuYzhjQTNKNGJILUlsZl9seEpyNURxR1Fnd1F1WkNSdTlqbGxJdEsxd9IBswFBVV95cUxPMTZYTmZOeXpKZmlYM2JWRTNPSGRBY2s5Nmc0UUQ0S0Vnb3A4alV1QWU5a1ZmRWFyajJfcXFNMzl6cjlvWG9TTjZoR1BmTmtHV3R3ZFVncU9YVFZkaVNpcWo1LXNxa3g1OWlwQkdPbDVESDJZdGo2NFdDVFk1aGJYVW9tMXlWcFd6NjRuYzhjQTNKNGJILUlsZl9seEpyNURxR1Fnd1F1WkNSdTlqbGxJdEsxdw?oc=5\" target=\"_blank\">Top cop admits his officers do not fully investigate up to 60% of crimes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Daily Mail</font>"
+      },
+      "source": {
+        "href": "https://www.dailymail.co.uk",
+        "title": "Daily Mail"
+      },
+      "sub_articles": []
+    }
+  ]
+}

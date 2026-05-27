@@ -1,0 +1,779 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2022-03-25",
+  "window_end": "2022-04-07",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2022-03-25+before%3A2022-04-08&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2022-03-25+before:2022-04-08&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:29:11Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2022-03-25 before:2022-04-08\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2022-03-25 before:2022-04-08\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2022-03-25+before:2022-04-08&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2022-03-25+before:2022-04-08&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:29:11 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      29,
+      11,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Video: Inside the Insectary: How BU Scientists Study Diseases from Mosquitoes—without Getting Bitten - Boston University",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Video: Inside the Insectary: How BU Scientists Study Diseases from Mosquitoes—without Getting Bitten - Boston University"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbS1ZbkRJZ3A5aTlrYUJnX01lbEZWWFlqaWQ3SmZLaHZIM3pFSjJnMmFJcU83T3hBSVpsTm90aVlET3hpdXpvclJNdjJsdzI4X2l6ZlZhUXF6V2JrYjJVSF9ja2N5X2MzWGotdUZiaDFia0Q3U0tJVXFNRFN1QVltcUdSMFZwWWZZNVlRVllnR0ZOSWQzMVlIV3A5SjVvUEdFQnE4MA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbS1ZbkRJZ3A5aTlrYUJnX01lbEZWWFlqaWQ3SmZLaHZIM3pFSjJnMmFJcU83T3hBSVpsTm90aVlET3hpdXpvclJNdjJsdzI4X2l6ZlZhUXF6V2JrYjJVSF9ja2N5X2MzWGotdUZiaDFia0Q3U0tJVXFNRFN1QVltcUdSMFZwWWZZNVlRVllnR0ZOSWQzMVlIV3A5SjVvUEdFQnE4MA?oc=5",
+      "id": "CBMipAFBVV95cUxQbS1ZbkRJZ3A5aTlrYUJnX01lbEZWWFlqaWQ3SmZLaHZIM3pFSjJnMmFJcU83T3hBSVpsTm90aVlET3hpdXpvclJNdjJsdzI4X2l6ZlZhUXF6V2JrYjJVSF9ja2N5X2MzWGotdUZiaDFia0Q3U0tJVXFNRFN1QVltcUdSMFZwWWZZNVlRVllnR0ZOSWQzMVlIV3A5SjVvUEdFQnE4MA",
+      "guidislink": false,
+      "published": "Mon, 04 Apr 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        4,
+        4,
+        7,
+        0,
+        0,
+        0,
+        94,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxQbS1ZbkRJZ3A5aTlrYUJnX01lbEZWWFlqaWQ3SmZLaHZIM3pFSjJnMmFJcU83T3hBSVpsTm90aVlET3hpdXpvclJNdjJsdzI4X2l6ZlZhUXF6V2JrYjJVSF9ja2N5X2MzWGotdUZiaDFia0Q3U0tJVXFNRFN1QVltcUdSMFZwWWZZNVlRVllnR0ZOSWQzMVlIV3A5SjVvUEdFQnE4MA?oc=5\" target=\"_blank\">Video: Inside the Insectary: How BU Scientists Study Diseases from Mosquitoes—without Getting Bitten</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Boston University</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxQbS1ZbkRJZ3A5aTlrYUJnX01lbEZWWFlqaWQ3SmZLaHZIM3pFSjJnMmFJcU83T3hBSVpsTm90aVlET3hpdXpvclJNdjJsdzI4X2l6ZlZhUXF6V2JrYjJVSF9ja2N5X2MzWGotdUZiaDFia0Q3U0tJVXFNRFN1QVltcUdSMFZwWWZZNVlRVllnR0ZOSWQzMVlIV3A5SjVvUEdFQnE4MA?oc=5\" target=\"_blank\">Video: Inside the Insectary: How BU Scientists Study Diseases from Mosquitoes—without Getting Bitten</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Boston University</font>"
+      },
+      "source": {
+        "href": "https://www.bu.edu",
+        "title": "Boston University"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "UN health agency launches bid to stop a new global pandemic - Welcome to the United Nations",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "UN health agency launches bid to stop a new global pandemic - Welcome to the United Nations"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9tSDZXT3Yta1JJUTJGNEhiVk5UdmZzd2JNUnZpS2YyQU1qVEg3S0pCTVNtcmJkYmFyUkdhaXBIX2tqUmJFZUJuS1ZRV09veGcwOU1IUFFTSQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9tSDZXT3Yta1JJUTJGNEhiVk5UdmZzd2JNUnZpS2YyQU1qVEg3S0pCTVNtcmJkYmFyUkdhaXBIX2tqUmJFZUJuS1ZRV09veGcwOU1IUFFTSQ?oc=5",
+      "id": "CBMiV0FVX3lxTE9tSDZXT3Yta1JJUTJGNEhiVk5UdmZzd2JNUnZpS2YyQU1qVEg3S0pCTVNtcmJkYmFyUkdhaXBIX2tqUmJFZUJuS1ZRV09veGcwOU1IUFFTSQ",
+      "guidislink": false,
+      "published": "Thu, 31 Mar 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        3,
+        31,
+        7,
+        0,
+        0,
+        3,
+        90,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE9tSDZXT3Yta1JJUTJGNEhiVk5UdmZzd2JNUnZpS2YyQU1qVEg3S0pCTVNtcmJkYmFyUkdhaXBIX2tqUmJFZUJuS1ZRV09veGcwOU1IUFFTSQ?oc=5\" target=\"_blank\">UN health agency launches bid to stop a new global pandemic</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Welcome to the United Nations</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE9tSDZXT3Yta1JJUTJGNEhiVk5UdmZzd2JNUnZpS2YyQU1qVEg3S0pCTVNtcmJkYmFyUkdhaXBIX2tqUmJFZUJuS1ZRV09veGcwOU1IUFFTSQ?oc=5\" target=\"_blank\">UN health agency launches bid to stop a new global pandemic</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Welcome to the United Nations</font>"
+      },
+      "source": {
+        "href": "https://news.un.org",
+        "title": "Welcome to the United Nations"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "WHO Launches Global Initiative To Tackle Deadly Insect-Borne ‘Arboviruses’ - Health Policy Watch",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "WHO Launches Global Initiative To Tackle Deadly Insect-Borne ‘Arboviruses’ - Health Policy Watch"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1QR1Y0RF9DcUtGdEdEeHVyT2ZqYTRqWV9SUk5tLTFRdXJYVHN5WUxka21ZTHVVS0VVY1dCTFNydXk2a3RzNkJxV3BEbHRqOEVvaUxsZXg3T0pNT2Q0bHlRZVM5c19HekdaUFFQRnh4ZVg0ckpNUGxBYXBGYVhuUQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1QR1Y0RF9DcUtGdEdEeHVyT2ZqYTRqWV9SUk5tLTFRdXJYVHN5WUxka21ZTHVVS0VVY1dCTFNydXk2a3RzNkJxV3BEbHRqOEVvaUxsZXg3T0pNT2Q0bHlRZVM5c19HekdaUFFQRnh4ZVg0ckpNUGxBYXBGYVhuUQ?oc=5",
+      "id": "CBMifkFVX3lxTE1QR1Y0RF9DcUtGdEdEeHVyT2ZqYTRqWV9SUk5tLTFRdXJYVHN5WUxka21ZTHVVS0VVY1dCTFNydXk2a3RzNkJxV3BEbHRqOEVvaUxsZXg3T0pNT2Q0bHlRZVM5c19HekdaUFFQRnh4ZVg0ckpNUGxBYXBGYVhuUQ",
+      "guidislink": false,
+      "published": "Thu, 31 Mar 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        3,
+        31,
+        7,
+        0,
+        0,
+        3,
+        90,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE1QR1Y0RF9DcUtGdEdEeHVyT2ZqYTRqWV9SUk5tLTFRdXJYVHN5WUxka21ZTHVVS0VVY1dCTFNydXk2a3RzNkJxV3BEbHRqOEVvaUxsZXg3T0pNT2Q0bHlRZVM5c19HekdaUFFQRnh4ZVg0ckpNUGxBYXBGYVhuUQ?oc=5\" target=\"_blank\">WHO Launches Global Initiative To Tackle Deadly Insect-Borne ‘Arboviruses’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Health Policy Watch</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE1QR1Y0RF9DcUtGdEdEeHVyT2ZqYTRqWV9SUk5tLTFRdXJYVHN5WUxka21ZTHVVS0VVY1dCTFNydXk2a3RzNkJxV3BEbHRqOEVvaUxsZXg3T0pNT2Q0bHlRZVM5c19HekdaUFFQRnh4ZVg0ckpNUGxBYXBGYVhuUQ?oc=5\" target=\"_blank\">WHO Launches Global Initiative To Tackle Deadly Insect-Borne ‘Arboviruses’</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Health Policy Watch</font>"
+      },
+      "source": {
+        "href": "https://healthpolicy-watch.news",
+        "title": "Health Policy Watch"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Enhancement of prime editing via xrRNA motif-joined pegRNA - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Enhancement of prime editing via xrRNA motif-joined pegRNA - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9lMnE0cXRLZ0NnSU9wQWtJZUFoMDhzRGozWW5IOE95YjVPaVotZlVQVzdnZjI2VUhZNVJVNHFiYTZGa1U4akZUcThjQmg0Uk81cVZ6THg1RVZ3dWV1WWhV?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9lMnE0cXRLZ0NnSU9wQWtJZUFoMDhzRGozWW5IOE95YjVPaVotZlVQVzdnZjI2VUhZNVJVNHFiYTZGa1U4akZUcThjQmg0Uk81cVZ6THg1RVZ3dWV1WWhV?oc=5",
+      "id": "CBMiX0FVX3lxTE9lMnE0cXRLZ0NnSU9wQWtJZUFoMDhzRGozWW5IOE95YjVPaVotZlVQVzdnZjI2VUhZNVJVNHFiYTZGa1U4akZUcThjQmg0Uk81cVZ6THg1RVZ3dWV1WWhV",
+      "guidislink": false,
+      "published": "Wed, 06 Apr 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        4,
+        6,
+        7,
+        0,
+        0,
+        2,
+        96,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9lMnE0cXRLZ0NnSU9wQWtJZUFoMDhzRGozWW5IOE95YjVPaVotZlVQVzdnZjI2VUhZNVJVNHFiYTZGa1U4akZUcThjQmg0Uk81cVZ6THg1RVZ3dWV1WWhV?oc=5\" target=\"_blank\">Enhancement of prime editing via xrRNA motif-joined pegRNA</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9lMnE0cXRLZ0NnSU9wQWtJZUFoMDhzRGozWW5IOE95YjVPaVotZlVQVzdnZjI2VUhZNVJVNHFiYTZGa1U4akZUcThjQmg0Uk81cVZ6THg1RVZ3dWV1WWhV?oc=5\" target=\"_blank\">Enhancement of prime editing via xrRNA motif-joined pegRNA</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "\"Aggressive\" mosquito species is abundant in Iowa - Axios",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "\"Aggressive\" mosquito species is abundant in Iowa - Axios"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQUNsN2ozOGdlb3VvTUV4RG1DdWd5VlJHTFdfcGxkemRVd3g4T3pjTVUtYkVjajlaajU4X093QjNUWTdyTXRsX1VDUUt0MDZlbzd4aXplLU4wR2RmelhzR3JJV1ZiWGh0Sk9rUHhaLTBJaGZYR2VEZnhVaEppRi02T2dxRVowZzA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQUNsN2ozOGdlb3VvTUV4RG1DdWd5VlJHTFdfcGxkemRVd3g4T3pjTVUtYkVjajlaajU4X093QjNUWTdyTXRsX1VDUUt0MDZlbzd4aXplLU4wR2RmelhzR3JJV1ZiWGh0Sk9rUHhaLTBJaGZYR2VEZnhVaEppRi02T2dxRVowZzA?oc=5",
+      "id": "CBMihwFBVV95cUxOQUNsN2ozOGdlb3VvTUV4RG1DdWd5VlJHTFdfcGxkemRVd3g4T3pjTVUtYkVjajlaajU4X093QjNUWTdyTXRsX1VDUUt0MDZlbzd4aXplLU4wR2RmelhzR3JJV1ZiWGh0Sk9rUHhaLTBJaGZYR2VEZnhVaEppRi02T2dxRVowZzA",
+      "guidislink": false,
+      "published": "Wed, 06 Apr 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        4,
+        6,
+        7,
+        0,
+        0,
+        2,
+        96,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxOQUNsN2ozOGdlb3VvTUV4RG1DdWd5VlJHTFdfcGxkemRVd3g4T3pjTVUtYkVjajlaajU4X093QjNUWTdyTXRsX1VDUUt0MDZlbzd4aXplLU4wR2RmelhzR3JJV1ZiWGh0Sk9rUHhaLTBJaGZYR2VEZnhVaEppRi02T2dxRVowZzA?oc=5\" target=\"_blank\">\"Aggressive\" mosquito species is abundant in Iowa</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Axios</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxOQUNsN2ozOGdlb3VvTUV4RG1DdWd5VlJHTFdfcGxkemRVd3g4T3pjTVUtYkVjajlaajU4X093QjNUWTdyTXRsX1VDUUt0MDZlbzd4aXplLU4wR2RmelhzR3JJV1ZiWGh0Sk9rUHhaLTBJaGZYR2VEZnhVaEppRi02T2dxRVowZzA?oc=5\" target=\"_blank\">\"Aggressive\" mosquito species is abundant in Iowa</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Axios</font>"
+      },
+      "source": {
+        "href": "https://www.axios.com",
+        "title": "Axios"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "UC San Diego Biology Lab Receives $1.4M Grant to Fight Malaria Spread - UC San Diego Today",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "UC San Diego Biology Lab Receives $1.4M Grant to Fight Malaria Spread - UC San Diego Today"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUEwyLWl3OW5Ra1VfQ0ZNWFZHM3RxcUl2N19jMzJFYXBZTjNlZ2FNNE9NanJDNndKT1QwcUFjT2NYWFNMQXpLMHd4bm5kYXdMUUlBQzVUNjJLb2p5WVRqTzV2R2I5MHl1VHZDS3ZBaDRnUjYybUllNm8zN2J2dEhJRkxoczdqOGE1bFhleXhvaFlpdTk2X1FRSkpMdmpldw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUEwyLWl3OW5Ra1VfQ0ZNWFZHM3RxcUl2N19jMzJFYXBZTjNlZ2FNNE9NanJDNndKT1QwcUFjT2NYWFNMQXpLMHd4bm5kYXdMUUlBQzVUNjJLb2p5WVRqTzV2R2I5MHl1VHZDS3ZBaDRnUjYybUllNm8zN2J2dEhJRkxoczdqOGE1bFhleXhvaFlpdTk2X1FRSkpMdmpldw?oc=5",
+      "id": "CBMingFBVV95cUxOUEwyLWl3OW5Ra1VfQ0ZNWFZHM3RxcUl2N19jMzJFYXBZTjNlZ2FNNE9NanJDNndKT1QwcUFjT2NYWFNMQXpLMHd4bm5kYXdMUUlBQzVUNjJLb2p5WVRqTzV2R2I5MHl1VHZDS3ZBaDRnUjYybUllNm8zN2J2dEhJRkxoczdqOGE1bFhleXhvaFlpdTk2X1FRSkpMdmpldw",
+      "guidislink": false,
+      "published": "Wed, 30 Mar 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        3,
+        30,
+        7,
+        0,
+        0,
+        2,
+        89,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxOUEwyLWl3OW5Ra1VfQ0ZNWFZHM3RxcUl2N19jMzJFYXBZTjNlZ2FNNE9NanJDNndKT1QwcUFjT2NYWFNMQXpLMHd4bm5kYXdMUUlBQzVUNjJLb2p5WVRqTzV2R2I5MHl1VHZDS3ZBaDRnUjYybUllNm8zN2J2dEhJRkxoczdqOGE1bFhleXhvaFlpdTk2X1FRSkpMdmpldw?oc=5\" target=\"_blank\">UC San Diego Biology Lab Receives $1.4M Grant to Fight Malaria Spread</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">UC San Diego Today</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxOUEwyLWl3OW5Ra1VfQ0ZNWFZHM3RxcUl2N19jMzJFYXBZTjNlZ2FNNE9NanJDNndKT1QwcUFjT2NYWFNMQXpLMHd4bm5kYXdMUUlBQzVUNjJLb2p5WVRqTzV2R2I5MHl1VHZDS3ZBaDRnUjYybUllNm8zN2J2dEhJRkxoczdqOGE1bFhleXhvaFlpdTk2X1FRSkpMdmpldw?oc=5\" target=\"_blank\">UC San Diego Biology Lab Receives $1.4M Grant to Fight Malaria Spread</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">UC San Diego Today</font>"
+      },
+      "source": {
+        "href": "https://today.ucsd.edu",
+        "title": "UC San Diego Today"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Mosquito metamorphosis through a macro lens - University of Georgia Office of Research",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Mosquito metamorphosis through a macro lens - University of Georgia Office of Research"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMif0FVX3lxTE05REZWV3JhYmxNOUFnZ0IzU2haUmtrczI3Smh2Y3VhX3JvaTVKN2NYZzFoanVCTlZIUzRIWVg5cE0zUHJDZHNQZFdxa0xZem5zMXd2WGh1RmtXaXVxVXFTejRXRVI2bTlJenJZM2k5M2JHVzFNV21paDRCQVVoZ1E?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE05REZWV3JhYmxNOUFnZ0IzU2haUmtrczI3Smh2Y3VhX3JvaTVKN2NYZzFoanVCTlZIUzRIWVg5cE0zUHJDZHNQZFdxa0xZem5zMXd2WGh1RmtXaXVxVXFTejRXRVI2bTlJenJZM2k5M2JHVzFNV21paDRCQVVoZ1E?oc=5",
+      "id": "CBMif0FVX3lxTE05REZWV3JhYmxNOUFnZ0IzU2haUmtrczI3Smh2Y3VhX3JvaTVKN2NYZzFoanVCTlZIUzRIWVg5cE0zUHJDZHNQZFdxa0xZem5zMXd2WGh1RmtXaXVxVXFTejRXRVI2bTlJenJZM2k5M2JHVzFNV21paDRCQVVoZ1E",
+      "guidislink": false,
+      "published": "Wed, 30 Mar 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        3,
+        30,
+        7,
+        0,
+        0,
+        2,
+        89,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE05REZWV3JhYmxNOUFnZ0IzU2haUmtrczI3Smh2Y3VhX3JvaTVKN2NYZzFoanVCTlZIUzRIWVg5cE0zUHJDZHNQZFdxa0xZem5zMXd2WGh1RmtXaXVxVXFTejRXRVI2bTlJenJZM2k5M2JHVzFNV21paDRCQVVoZ1E?oc=5\" target=\"_blank\">Mosquito metamorphosis through a macro lens</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of Georgia Office of Research</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE05REZWV3JhYmxNOUFnZ0IzU2haUmtrczI3Smh2Y3VhX3JvaTVKN2NYZzFoanVCTlZIUzRIWVg5cE0zUHJDZHNQZFdxa0xZem5zMXd2WGh1RmtXaXVxVXFTejRXRVI2bTlJenJZM2k5M2JHVzFNV21paDRCQVVoZ1E?oc=5\" target=\"_blank\">Mosquito metamorphosis through a macro lens</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">University of Georgia Office of Research</font>"
+      },
+      "source": {
+        "href": "https://research.uga.edu",
+        "title": "University of Georgia Office of Research"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Why a U.S. Company Plans to Release 2.4 Billion Genetically Modified Mosquitoes - Smithsonian Magazine",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Why a U.S. Company Plans to Release 2.4 Billion Genetically Modified Mosquitoes - Smithsonian Magazine"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOM1JmQnMxRzMzODVXc25LUjVNNlZEalltcnViajRlU09mQTlNa0ZXT1FiNFdXZm0xT2JBVW1DUFFHNWI2dzJya2RjcHNwQ0Rrb0EyNUg1Q3pZQzAtaTU2OFFZSjZJd0lWa01TTXE1enVrV280cm9vNFoycXhKQURid0Y1WDNPdE5tSjB3ekstMGcxYS1oU1FtV2ZIZ3AwMXIzLWF6WEd2ZVcwVVIwR203MkFFdUZTRzJ3ZDFOVzlWRWk?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOM1JmQnMxRzMzODVXc25LUjVNNlZEalltcnViajRlU09mQTlNa0ZXT1FiNFdXZm0xT2JBVW1DUFFHNWI2dzJya2RjcHNwQ0Rrb0EyNUg1Q3pZQzAtaTU2OFFZSjZJd0lWa01TTXE1enVrV280cm9vNFoycXhKQURid0Y1WDNPdE5tSjB3ekstMGcxYS1oU1FtV2ZIZ3AwMXIzLWF6WEd2ZVcwVVIwR203MkFFdUZTRzJ3ZDFOVzlWRWk?oc=5",
+      "id": "CBMiwAFBVV95cUxOM1JmQnMxRzMzODVXc25LUjVNNlZEalltcnViajRlU09mQTlNa0ZXT1FiNFdXZm0xT2JBVW1DUFFHNWI2dzJya2RjcHNwQ0Rrb0EyNUg1Q3pZQzAtaTU2OFFZSjZJd0lWa01TTXE1enVrV280cm9vNFoycXhKQURid0Y1WDNPdE5tSjB3ekstMGcxYS1oU1FtV2ZIZ3AwMXIzLWF6WEd2ZVcwVVIwR203MkFFdUZTRzJ3ZDFOVzlWRWk",
+      "guidislink": false,
+      "published": "Wed, 30 Mar 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        3,
+        30,
+        7,
+        0,
+        0,
+        2,
+        89,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxOM1JmQnMxRzMzODVXc25LUjVNNlZEalltcnViajRlU09mQTlNa0ZXT1FiNFdXZm0xT2JBVW1DUFFHNWI2dzJya2RjcHNwQ0Rrb0EyNUg1Q3pZQzAtaTU2OFFZSjZJd0lWa01TTXE1enVrV280cm9vNFoycXhKQURid0Y1WDNPdE5tSjB3ekstMGcxYS1oU1FtV2ZIZ3AwMXIzLWF6WEd2ZVcwVVIwR203MkFFdUZTRzJ3ZDFOVzlWRWk?oc=5\" target=\"_blank\">Why a U.S. Company Plans to Release 2.4 Billion Genetically Modified Mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Smithsonian Magazine</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxOM1JmQnMxRzMzODVXc25LUjVNNlZEalltcnViajRlU09mQTlNa0ZXT1FiNFdXZm0xT2JBVW1DUFFHNWI2dzJya2RjcHNwQ0Rrb0EyNUg1Q3pZQzAtaTU2OFFZSjZJd0lWa01TTXE1enVrV280cm9vNFoycXhKQURid0Y1WDNPdE5tSjB3ekstMGcxYS1oU1FtV2ZIZ3AwMXIzLWF6WEd2ZVcwVVIwR203MkFFdUZTRzJ3ZDFOVzlWRWk?oc=5\" target=\"_blank\">Why a U.S. Company Plans to Release 2.4 Billion Genetically Modified Mosquitoes</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Smithsonian Magazine</font>"
+      },
+      "source": {
+        "href": "https://www.smithsonianmag.com",
+        "title": "Smithsonian Magazine"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "The Global Pandemic Preparedness Summit 2022: On the road to 100-Day vaccines - CEPI",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "The Global Pandemic Preparedness Summit 2022: On the road to 100-Day vaccines - CEPI"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQN1pERGlZS1FDeU83TmQ0TVVKY3BNWVBkZFE3TWxmZlZaOWU1ZjNnbDg5dGhEdzhOa2FjeGlTbkZQQklrdWZYd2EzR19KcFBpWnBNOEdkVWI4dVE4VHBmcWpzRERYOWIzbVBfdlFPM2l6aUFyZXlJdUNrSjF5YjFoeHJpbDJYZw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQN1pERGlZS1FDeU83TmQ0TVVKY3BNWVBkZFE3TWxmZlZaOWU1ZjNnbDg5dGhEdzhOa2FjeGlTbkZQQklrdWZYd2EzR19KcFBpWnBNOEdkVWI4dVE4VHBmcWpzRERYOWIzbVBfdlFPM2l6aUFyZXlJdUNrSjF5YjFoeHJpbDJYZw?oc=5",
+      "id": "CBMihgFBVV95cUxQN1pERGlZS1FDeU83TmQ0TVVKY3BNWVBkZFE3TWxmZlZaOWU1ZjNnbDg5dGhEdzhOa2FjeGlTbkZQQklrdWZYd2EzR19KcFBpWnBNOEdkVWI4dVE4VHBmcWpzRERYOWIzbVBfdlFPM2l6aUFyZXlJdUNrSjF5YjFoeHJpbDJYZw",
+      "guidislink": false,
+      "published": "Mon, 28 Mar 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        3,
+        28,
+        7,
+        0,
+        0,
+        0,
+        87,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxQN1pERGlZS1FDeU83TmQ0TVVKY3BNWVBkZFE3TWxmZlZaOWU1ZjNnbDg5dGhEdzhOa2FjeGlTbkZQQklrdWZYd2EzR19KcFBpWnBNOEdkVWI4dVE4VHBmcWpzRERYOWIzbVBfdlFPM2l6aUFyZXlJdUNrSjF5YjFoeHJpbDJYZw?oc=5\" target=\"_blank\">The Global Pandemic Preparedness Summit 2022: On the road to 100-Day vaccines</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CEPI</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxQN1pERGlZS1FDeU83TmQ0TVVKY3BNWVBkZFE3TWxmZlZaOWU1ZjNnbDg5dGhEdzhOa2FjeGlTbkZQQklrdWZYd2EzR19KcFBpWnBNOEdkVWI4dVE4VHBmcWpzRERYOWIzbVBfdlFPM2l6aUFyZXlJdUNrSjF5YjFoeHJpbDJYZw?oc=5\" target=\"_blank\">The Global Pandemic Preparedness Summit 2022: On the road to 100-Day vaccines</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CEPI</font>"
+      },
+      "source": {
+        "href": "https://cepi.net",
+        "title": "CEPI"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "No connection between major disease outbreaks and US election years - Africa Check",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "No connection between major disease outbreaks and US election years - Africa Check"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOV3QyRzQ5VlZHQ3JLS2J0RTA4d05SS1Rtd2JFWEVDdjBBZDQxbEJ2cFBlWHYtWkk2M0ptOUwwdU04SVZhd2ZVZDM4ZzJ6WTAydTY3YWU1Wk15WDZLZnljWHRpY0xvMExXUHNHWHFqTEpOMXpZbG5BNUJJZ3EzbnJDbnY1UDhRQXdrQUd4cHZqWDUwZFFEcHlkYVFNNkZ5c0tHQS1Ub0FpdnVhbjVpX2FZTUxLdVR6UQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOV3QyRzQ5VlZHQ3JLS2J0RTA4d05SS1Rtd2JFWEVDdjBBZDQxbEJ2cFBlWHYtWkk2M0ptOUwwdU04SVZhd2ZVZDM4ZzJ6WTAydTY3YWU1Wk15WDZLZnljWHRpY0xvMExXUHNHWHFqTEpOMXpZbG5BNUJJZ3EzbnJDbnY1UDhRQXdrQUd4cHZqWDUwZFFEcHlkYVFNNkZ5c0tHQS1Ub0FpdnVhbjVpX2FZTUxLdVR6UQ?oc=5",
+      "id": "CBMitgFBVV95cUxOV3QyRzQ5VlZHQ3JLS2J0RTA4d05SS1Rtd2JFWEVDdjBBZDQxbEJ2cFBlWHYtWkk2M0ptOUwwdU04SVZhd2ZVZDM4ZzJ6WTAydTY3YWU1Wk15WDZLZnljWHRpY0xvMExXUHNHWHFqTEpOMXpZbG5BNUJJZ3EzbnJDbnY1UDhRQXdrQUd4cHZqWDUwZFFEcHlkYVFNNkZ5c0tHQS1Ub0FpdnVhbjVpX2FZTUxLdVR6UQ",
+      "guidislink": false,
+      "published": "Wed, 30 Mar 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        3,
+        30,
+        7,
+        0,
+        0,
+        2,
+        89,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxOV3QyRzQ5VlZHQ3JLS2J0RTA4d05SS1Rtd2JFWEVDdjBBZDQxbEJ2cFBlWHYtWkk2M0ptOUwwdU04SVZhd2ZVZDM4ZzJ6WTAydTY3YWU1Wk15WDZLZnljWHRpY0xvMExXUHNHWHFqTEpOMXpZbG5BNUJJZ3EzbnJDbnY1UDhRQXdrQUd4cHZqWDUwZFFEcHlkYVFNNkZ5c0tHQS1Ub0FpdnVhbjVpX2FZTUxLdVR6UQ?oc=5\" target=\"_blank\">No connection between major disease outbreaks and US election years</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Africa Check</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxOV3QyRzQ5VlZHQ3JLS2J0RTA4d05SS1Rtd2JFWEVDdjBBZDQxbEJ2cFBlWHYtWkk2M0ptOUwwdU04SVZhd2ZVZDM4ZzJ6WTAydTY3YWU1Wk15WDZLZnljWHRpY0xvMExXUHNHWHFqTEpOMXpZbG5BNUJJZ3EzbnJDbnY1UDhRQXdrQUd4cHZqWDUwZFFEcHlkYVFNNkZ5c0tHQS1Ub0FpdnVhbjVpX2FZTUxLdVR6UQ?oc=5\" target=\"_blank\">No connection between major disease outbreaks and US election years</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Africa Check</font>"
+      },
+      "source": {
+        "href": "https://africacheck.org",
+        "title": "Africa Check"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Insect-borne viruses may trigger next pandemic, warn health experts - World News - WION",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Insect-borne viruses may trigger next pandemic, warn health experts - World News - WION"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNWpaVV90Ylh3TnFUbDBaYy1UQVN4Qm81Z1hwcjhtd0tqMzk2amNKUzJsMHBXbUJUaENsaWFoNUZ5ZENkeUxjQTRfZHlDbmVzcWNDOGRJSjFqb2lLX2tzWXdjQXV1ejNOMTZ4STZwRVNzcnRtM0tKWl9nUGpmdTVCQXZuZnNfQ2tWejFzYWl5NGQyQjhLU19FdHh6a1pPQUNQeDdURTdR0gGrAUFVX3lxTE1SdFhuODNYUEVCaHNPU2hYWGJFR1h0ZWlKRGdRVngwS29TRURFX1JoeGdPV0RpbGJ2Vm1yNnc0aFJMQUNsNXI3SFRLRTFxeUd3Z012cGJWWUh0cHRnQWFBMHkwRVA2Rld1RTBETUZvTVNqUzk2blgzVnFieW84aW1oclpMMEFpZm9SN1lwWUhvZ3ZrWlNXRW4yWEhxOTBZZTBmRVRjNlBmQXV1Yw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNWpaVV90Ylh3TnFUbDBaYy1UQVN4Qm81Z1hwcjhtd0tqMzk2amNKUzJsMHBXbUJUaENsaWFoNUZ5ZENkeUxjQTRfZHlDbmVzcWNDOGRJSjFqb2lLX2tzWXdjQXV1ejNOMTZ4STZwRVNzcnRtM0tKWl9nUGpmdTVCQXZuZnNfQ2tWejFzYWl5NGQyQjhLU19FdHh6a1pPQUNQeDdURTdR0gGrAUFVX3lxTE1SdFhuODNYUEVCaHNPU2hYWGJFR1h0ZWlKRGdRVngwS29TRURFX1JoeGdPV0RpbGJ2Vm1yNnc0aFJMQUNsNXI3SFRLRTFxeUd3Z012cGJWWUh0cHRnQWFBMHkwRVA2Rld1RTBETUZvTVNqUzk2blgzVnFieW84aW1oclpMMEFpZm9SN1lwWUhvZ3ZrWlNXRW4yWEhxOTBZZTBmRVRjNlBmQXV1Yw?oc=5",
+      "id": "CBMipgFBVV95cUxNNWpaVV90Ylh3TnFUbDBaYy1UQVN4Qm81Z1hwcjhtd0tqMzk2amNKUzJsMHBXbUJUaENsaWFoNUZ5ZENkeUxjQTRfZHlDbmVzcWNDOGRJSjFqb2lLX2tzWXdjQXV1ejNOMTZ4STZwRVNzcnRtM0tKWl9nUGpmdTVCQXZuZnNfQ2tWejFzYWl5NGQyQjhLU19FdHh6a1pPQUNQeDdURTdR0gGrAUFVX3lxTE1SdFhuODNYUEVCaHNPU2hYWGJFR1h0ZWlKRGdRVngwS29TRURFX1JoeGdPV0RpbGJ2Vm1yNnc0aFJMQUNsNXI3SFRLRTFxeUd3Z012cGJWWUh0cHRnQWFBMHkwRVA2Rld1RTBETUZvTVNqUzk2blgzVnFieW84aW1oclpMMEFpZm9SN1lwWUhvZ3ZrWlNXRW4yWEhxOTBZZTBmRVRjNlBmQXV1Yw",
+      "guidislink": false,
+      "published": "Thu, 31 Mar 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        3,
+        31,
+        7,
+        0,
+        0,
+        3,
+        90,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxNNWpaVV90Ylh3TnFUbDBaYy1UQVN4Qm81Z1hwcjhtd0tqMzk2amNKUzJsMHBXbUJUaENsaWFoNUZ5ZENkeUxjQTRfZHlDbmVzcWNDOGRJSjFqb2lLX2tzWXdjQXV1ejNOMTZ4STZwRVNzcnRtM0tKWl9nUGpmdTVCQXZuZnNfQ2tWejFzYWl5NGQyQjhLU19FdHh6a1pPQUNQeDdURTdR0gGrAUFVX3lxTE1SdFhuODNYUEVCaHNPU2hYWGJFR1h0ZWlKRGdRVngwS29TRURFX1JoeGdPV0RpbGJ2Vm1yNnc0aFJMQUNsNXI3SFRLRTFxeUd3Z012cGJWWUh0cHRnQWFBMHkwRVA2Rld1RTBETUZvTVNqUzk2blgzVnFieW84aW1oclpMMEFpZm9SN1lwWUhvZ3ZrWlNXRW4yWEhxOTBZZTBmRVRjNlBmQXV1Yw?oc=5\" target=\"_blank\">Insect-borne viruses may trigger next pandemic, warn health experts - World News</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WION</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxNNWpaVV90Ylh3TnFUbDBaYy1UQVN4Qm81Z1hwcjhtd0tqMzk2amNKUzJsMHBXbUJUaENsaWFoNUZ5ZENkeUxjQTRfZHlDbmVzcWNDOGRJSjFqb2lLX2tzWXdjQXV1ejNOMTZ4STZwRVNzcnRtM0tKWl9nUGpmdTVCQXZuZnNfQ2tWejFzYWl5NGQyQjhLU19FdHh6a1pPQUNQeDdURTdR0gGrAUFVX3lxTE1SdFhuODNYUEVCaHNPU2hYWGJFR1h0ZWlKRGdRVngwS29TRURFX1JoeGdPV0RpbGJ2Vm1yNnc0aFJMQUNsNXI3SFRLRTFxeUd3Z012cGJWWUh0cHRnQWFBMHkwRVA2Rld1RTBETUZvTVNqUzk2blgzVnFieW84aW1oclpMMEFpZm9SN1lwWUhvZ3ZrWlNXRW4yWEhxOTBZZTBmRVRjNlBmQXV1Yw?oc=5\" target=\"_blank\">Insect-borne viruses may trigger next pandemic, warn health experts - World News</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WION</font>"
+      },
+      "source": {
+        "href": "https://www.wionews.com",
+        "title": "WION"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Peter Rea, Coach of Reebok ZAP Fitness speaks about Tyler Pennel, Nicole DiMercurio and Joanna Thompson racing well in Boston's brutal conditions - RunBlogRun",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Peter Rea, Coach of Reebok ZAP Fitness speaks about Tyler Pennel, Nicole DiMercurio and Joanna Thompson racing well in Boston's brutal conditions - RunBlogRun"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPMjhDZlZ4aWp3N3FjOVI2Y3FVbjgtTFFhQzctVVotVWdxNHhrTzlhdklXLVVtOFVLWTFtLWRyZ1c3Q3BFSmF1UmVTeUpfbnU2Qk1aaWwyQjZEaG9tV2p0SVZHdGl5LWhNR3dpWXJ4T0JQMFpCUlVBYUlIbFQ4RHdyRjlkeEZ2M3RaVEZZQVhBWU9HbG9vM3V1bFc4eUEzZ0dhb3FGZUlaaWpad2RwaWtsa2x6Q3AtN3RTSkNpaWlYR2R2d3M4VDMxZnFvbElkMTYzMy1yNzVXbw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPMjhDZlZ4aWp3N3FjOVI2Y3FVbjgtTFFhQzctVVotVWdxNHhrTzlhdklXLVVtOFVLWTFtLWRyZ1c3Q3BFSmF1UmVTeUpfbnU2Qk1aaWwyQjZEaG9tV2p0SVZHdGl5LWhNR3dpWXJ4T0JQMFpCUlVBYUlIbFQ4RHdyRjlkeEZ2M3RaVEZZQVhBWU9HbG9vM3V1bFc4eUEzZ0dhb3FGZUlaaWpad2RwaWtsa2x6Q3AtN3RTSkNpaWlYR2R2d3M4VDMxZnFvbElkMTYzMy1yNzVXbw?oc=5",
+      "id": "CBMi1wFBVV95cUxPMjhDZlZ4aWp3N3FjOVI2Y3FVbjgtTFFhQzctVVotVWdxNHhrTzlhdklXLVVtOFVLWTFtLWRyZ1c3Q3BFSmF1UmVTeUpfbnU2Qk1aaWwyQjZEaG9tV2p0SVZHdGl5LWhNR3dpWXJ4T0JQMFpCUlVBYUlIbFQ4RHdyRjlkeEZ2M3RaVEZZQVhBWU9HbG9vM3V1bFc4eUEzZ0dhb3FGZUlaaWpad2RwaWtsa2x6Q3AtN3RTSkNpaWlYR2R2d3M4VDMxZnFvbElkMTYzMy1yNzVXbw",
+      "guidislink": false,
+      "published": "Fri, 01 Apr 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        4,
+        1,
+        7,
+        0,
+        0,
+        4,
+        91,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxPMjhDZlZ4aWp3N3FjOVI2Y3FVbjgtTFFhQzctVVotVWdxNHhrTzlhdklXLVVtOFVLWTFtLWRyZ1c3Q3BFSmF1UmVTeUpfbnU2Qk1aaWwyQjZEaG9tV2p0SVZHdGl5LWhNR3dpWXJ4T0JQMFpCUlVBYUlIbFQ4RHdyRjlkeEZ2M3RaVEZZQVhBWU9HbG9vM3V1bFc4eUEzZ0dhb3FGZUlaaWpad2RwaWtsa2x6Q3AtN3RTSkNpaWlYR2R2d3M4VDMxZnFvbElkMTYzMy1yNzVXbw?oc=5\" target=\"_blank\">Peter Rea, Coach of Reebok ZAP Fitness speaks about Tyler Pennel, Nicole DiMercurio and Joanna Thompson racing well in Boston's brutal conditions</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">RunBlogRun</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxPMjhDZlZ4aWp3N3FjOVI2Y3FVbjgtTFFhQzctVVotVWdxNHhrTzlhdklXLVVtOFVLWTFtLWRyZ1c3Q3BFSmF1UmVTeUpfbnU2Qk1aaWwyQjZEaG9tV2p0SVZHdGl5LWhNR3dpWXJ4T0JQMFpCUlVBYUlIbFQ4RHdyRjlkeEZ2M3RaVEZZQVhBWU9HbG9vM3V1bFc4eUEzZ0dhb3FGZUlaaWpad2RwaWtsa2x6Q3AtN3RTSkNpaWlYR2R2d3M4VDMxZnFvbElkMTYzMy1yNzVXbw?oc=5\" target=\"_blank\">Peter Rea, Coach of Reebok ZAP Fitness speaks about Tyler Pennel, Nicole DiMercurio and Joanna Thompson racing well in Boston's brutal conditions</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">RunBlogRun</font>"
+      },
+      "source": {
+        "href": "https://www.runblogrun.com",
+        "title": "RunBlogRun"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "9 Foolproof Tricks to Avoid Tick-Borne Illnesses—Including One That’s More Dangerous Than Lyme - The Healthy @Reader's Digest",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "9 Foolproof Tricks to Avoid Tick-Borne Illnesses—Including One That’s More Dangerous Than Lyme - The Healthy @Reader's Digest"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xdFFoU1ByeDVYTTVDYnk4akQ1c1p3OEpqYngtbjhORFVNUUljTU1KdDFzVzV4dnc4bExoT2dqRnNIYkdKaHl1TkFtem9HRXJONFZXMmhScEwzd3p3Y1lBc3BROWFURUNTWVhXMQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xdFFoU1ByeDVYTTVDYnk4akQ1c1p3OEpqYngtbjhORFVNUUljTU1KdDFzVzV4dnc4bExoT2dqRnNIYkdKaHl1TkFtem9HRXJONFZXMmhScEwzd3p3Y1lBc3BROWFURUNTWVhXMQ?oc=5",
+      "id": "CBMibEFVX3lxTE9xdFFoU1ByeDVYTTVDYnk4akQ1c1p3OEpqYngtbjhORFVNUUljTU1KdDFzVzV4dnc4bExoT2dqRnNIYkdKaHl1TkFtem9HRXJONFZXMmhScEwzd3p3Y1lBc3BROWFURUNTWVhXMQ",
+      "guidislink": false,
+      "published": "Wed, 30 Mar 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        3,
+        30,
+        7,
+        0,
+        0,
+        2,
+        89,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE9xdFFoU1ByeDVYTTVDYnk4akQ1c1p3OEpqYngtbjhORFVNUUljTU1KdDFzVzV4dnc4bExoT2dqRnNIYkdKaHl1TkFtem9HRXJONFZXMmhScEwzd3p3Y1lBc3BROWFURUNTWVhXMQ?oc=5\" target=\"_blank\">9 Foolproof Tricks to Avoid Tick-Borne Illnesses—Including One That’s More Dangerous Than Lyme</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Healthy @Reader's Digest</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE9xdFFoU1ByeDVYTTVDYnk4akQ1c1p3OEpqYngtbjhORFVNUUljTU1KdDFzVzV4dnc4bExoT2dqRnNIYkdKaHl1TkFtem9HRXJONFZXMmhScEwzd3p3Y1lBc3BROWFURUNTWVhXMQ?oc=5\" target=\"_blank\">9 Foolproof Tricks to Avoid Tick-Borne Illnesses—Including One That’s More Dangerous Than Lyme</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Healthy @Reader's Digest</font>"
+      },
+      "source": {
+        "href": "https://www.thehealthy.com",
+        "title": "The Healthy @Reader's Digest"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Could computer models be the key to better COVID vaccines? - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Could computer models be the key to better COVID vaccines? - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5GZlhJLWx0amJYVTg0Qk9oZDB4YjNubHZ4QnMzMUFGZERnV2xZMEtuZVEyanlfWjdFWXBuX0lacDQ4WkNfWXNSc184U3VhenFtZHY0LTMwS1BlY1NISWt3?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5GZlhJLWx0amJYVTg0Qk9oZDB4YjNubHZ4QnMzMUFGZERnV2xZMEtuZVEyanlfWjdFWXBuX0lacDQ4WkNfWXNSc184U3VhenFtZHY0LTMwS1BlY1NISWt3?oc=5",
+      "id": "CBMiX0FVX3lxTE5GZlhJLWx0amJYVTg0Qk9oZDB4YjNubHZ4QnMzMUFGZERnV2xZMEtuZVEyanlfWjdFWXBuX0lacDQ4WkNfWXNSc184U3VhenFtZHY0LTMwS1BlY1NISWt3",
+      "guidislink": false,
+      "published": "Tue, 05 Apr 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        4,
+        5,
+        7,
+        0,
+        0,
+        1,
+        95,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5GZlhJLWx0amJYVTg0Qk9oZDB4YjNubHZ4QnMzMUFGZERnV2xZMEtuZVEyanlfWjdFWXBuX0lacDQ4WkNfWXNSc184U3VhenFtZHY0LTMwS1BlY1NISWt3?oc=5\" target=\"_blank\">Could computer models be the key to better COVID vaccines?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5GZlhJLWx0amJYVTg0Qk9oZDB4YjNubHZ4QnMzMUFGZERnV2xZMEtuZVEyanlfWjdFWXBuX0lacDQ4WkNfWXNSc184U3VhenFtZHY0LTMwS1BlY1NISWt3?oc=5\" target=\"_blank\">Could computer models be the key to better COVID vaccines?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Foreign Office travel advice for Argentina: watch out for petty crime, strikes and Falklands' related protests - MercoPress",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Foreign Office travel advice for Argentina: watch out for petty crime, strikes and Falklands' related protests - MercoPress"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPWEg1R0JtM2dyQWFXYjlETkpzUWFWcUl2X1Z3akZvZWhXWXd0bmU3WDd6dFJNQVhzOW9LTDhyYnBMRTkwRjNRdW0xNTZqbUJtWHRQeWp5UVdJcUxmcEJHNi1uMWRVbzc5MzNQcTUyM3hnMUx4aVhLYjBMX05iZ0xxV3ZwSmNXcjNlampJR2FaclQ2TnY1Q3lyZnh3UmZ1aEF0VFRVdTVzR2JRdTkycHJzNENHbmNia0xUdVdRWThxZUl0eS02elE4Q2JqRnJfck1RR0RVd2NCSEprLS1K?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPWEg1R0JtM2dyQWFXYjlETkpzUWFWcUl2X1Z3akZvZWhXWXd0bmU3WDd6dFJNQVhzOW9LTDhyYnBMRTkwRjNRdW0xNTZqbUJtWHRQeWp5UVdJcUxmcEJHNi1uMWRVbzc5MzNQcTUyM3hnMUx4aVhLYjBMX05iZ0xxV3ZwSmNXcjNlampJR2FaclQ2TnY1Q3lyZnh3UmZ1aEF0VFRVdTVzR2JRdTkycHJzNENHbmNia0xUdVdRWThxZUl0eS02elE4Q2JqRnJfck1RR0RVd2NCSEprLS1K?oc=5",
+      "id": "CBMi3AFBVV95cUxPWEg1R0JtM2dyQWFXYjlETkpzUWFWcUl2X1Z3akZvZWhXWXd0bmU3WDd6dFJNQVhzOW9LTDhyYnBMRTkwRjNRdW0xNTZqbUJtWHRQeWp5UVdJcUxmcEJHNi1uMWRVbzc5MzNQcTUyM3hnMUx4aVhLYjBMX05iZ0xxV3ZwSmNXcjNlampJR2FaclQ2TnY1Q3lyZnh3UmZ1aEF0VFRVdTVzR2JRdTkycHJzNENHbmNia0xUdVdRWThxZUl0eS02elE4Q2JqRnJfck1RR0RVd2NCSEprLS1K",
+      "guidislink": false,
+      "published": "Tue, 05 Apr 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        4,
+        5,
+        7,
+        0,
+        0,
+        1,
+        95,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxPWEg1R0JtM2dyQWFXYjlETkpzUWFWcUl2X1Z3akZvZWhXWXd0bmU3WDd6dFJNQVhzOW9LTDhyYnBMRTkwRjNRdW0xNTZqbUJtWHRQeWp5UVdJcUxmcEJHNi1uMWRVbzc5MzNQcTUyM3hnMUx4aVhLYjBMX05iZ0xxV3ZwSmNXcjNlampJR2FaclQ2TnY1Q3lyZnh3UmZ1aEF0VFRVdTVzR2JRdTkycHJzNENHbmNia0xUdVdRWThxZUl0eS02elE4Q2JqRnJfck1RR0RVd2NCSEprLS1K?oc=5\" target=\"_blank\">Foreign Office travel advice for Argentina: watch out for petty crime, strikes and Falklands' related protests</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MercoPress</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi3AFBVV95cUxPWEg1R0JtM2dyQWFXYjlETkpzUWFWcUl2X1Z3akZvZWhXWXd0bmU3WDd6dFJNQVhzOW9LTDhyYnBMRTkwRjNRdW0xNTZqbUJtWHRQeWp5UVdJcUxmcEJHNi1uMWRVbzc5MzNQcTUyM3hnMUx4aVhLYjBMX05iZ0xxV3ZwSmNXcjNlampJR2FaclQ2TnY1Q3lyZnh3UmZ1aEF0VFRVdTVzR2JRdTkycHJzNENHbmNia0xUdVdRWThxZUl0eS02elE4Q2JqRnJfck1RR0RVd2NCSEprLS1K?oc=5\" target=\"_blank\">Foreign Office travel advice for Argentina: watch out for petty crime, strikes and Falklands' related protests</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MercoPress</font>"
+      },
+      "source": {
+        "href": "https://en.mercopress.com",
+        "title": "MercoPress"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "8 Ways to Prevent Birth Defects Before and During Pregnancy - The Healthy @Reader's Digest",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "8 Ways to Prevent Birth Defects Before and During Pregnancy - The Healthy @Reader's Digest"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1oRzBrZXB2VG4yc0NvcGNqajZaY3Nqc3Q1ZVk4Y2RpWEgwMTRzUlJ2N01ia3hCSEdOTnlTRE1ZZ0VVNmVYeTh1b0FfS003ZTJBWGRaTHJTU3QwQThvUmFDV3pKWDNab0FPQS1j?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1oRzBrZXB2VG4yc0NvcGNqajZaY3Nqc3Q1ZVk4Y2RpWEgwMTRzUlJ2N01ia3hCSEdOTnlTRE1ZZ0VVNmVYeTh1b0FfS003ZTJBWGRaTHJTU3QwQThvUmFDV3pKWDNab0FPQS1j?oc=5",
+      "id": "CBMia0FVX3lxTE1oRzBrZXB2VG4yc0NvcGNqajZaY3Nqc3Q1ZVk4Y2RpWEgwMTRzUlJ2N01ia3hCSEdOTnlTRE1ZZ0VVNmVYeTh1b0FfS003ZTJBWGRaTHJTU3QwQThvUmFDV3pKWDNab0FPQS1j",
+      "guidislink": false,
+      "published": "Wed, 30 Mar 2022 07:00:00 GMT",
+      "published_parsed": [
+        2022,
+        3,
+        30,
+        7,
+        0,
+        0,
+        2,
+        89,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE1oRzBrZXB2VG4yc0NvcGNqajZaY3Nqc3Q1ZVk4Y2RpWEgwMTRzUlJ2N01ia3hCSEdOTnlTRE1ZZ0VVNmVYeTh1b0FfS003ZTJBWGRaTHJTU3QwQThvUmFDV3pKWDNab0FPQS1j?oc=5\" target=\"_blank\">8 Ways to Prevent Birth Defects Before and During Pregnancy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Healthy @Reader's Digest</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE1oRzBrZXB2VG4yc0NvcGNqajZaY3Nqc3Q1ZVk4Y2RpWEgwMTRzUlJ2N01ia3hCSEdOTnlTRE1ZZ0VVNmVYeTh1b0FfS003ZTJBWGRaTHJTU3QwQThvUmFDV3pKWDNab0FPQS1j?oc=5\" target=\"_blank\">8 Ways to Prevent Birth Defects Before and During Pregnancy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Healthy @Reader's Digest</font>"
+      },
+      "source": {
+        "href": "https://www.thehealthy.com",
+        "title": "The Healthy @Reader's Digest"
+      },
+      "sub_articles": []
+    }
+  ]
+}

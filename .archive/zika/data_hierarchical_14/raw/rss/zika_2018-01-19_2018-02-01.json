@@ -1,0 +1,1381 @@
+{
+  "backend": "pygooglenews",
+  "query": "zika",
+  "window_start": "2018-01-19",
+  "window_end": "2018-02-01",
+  "window_days": 14,
+  "window_role": "base",
+  "parent_window_start": "",
+  "parent_window_end": "",
+  "language": "en",
+  "lang": "en",
+  "country": "US",
+  "feed_url": "https://news.google.com/rss/search?q=zika+after%3A2018-01-19+before%3A2018-02-02&ceid=US:en&hl=en&gl=US",
+  "response_url": "https://news.google.com/rss/search?q=zika+after:2018-01-19+before:2018-02-02&ceid=US:en&hl=en-US&gl=US",
+  "http_status": 200,
+  "retrieved_at": "2026-03-23T07:25:47Z",
+  "feed": {
+    "generator_detail": {
+      "name": "NFE/5.0"
+    },
+    "generator": "NFE/5.0",
+    "title": "\"zika after:2018-01-19 before:2018-02-02\" - Google News",
+    "title_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "\"zika after:2018-01-19 before:2018-02-02\" - Google News"
+    },
+    "links": [
+      {
+        "rel": "alternate",
+        "type": "text/html",
+        "href": "https://news.google.com/search?q=zika+after:2018-01-19+before:2018-02-02&ceid=US:en&hl=en-US&gl=US"
+      }
+    ],
+    "link": "https://news.google.com/search?q=zika+after:2018-01-19+before:2018-02-02&ceid=US:en&hl=en-US&gl=US",
+    "language": "en-US",
+    "publisher": "news-webmaster@google.com",
+    "publisher_detail": {
+      "email": "news-webmaster@google.com"
+    },
+    "rights": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions.",
+    "rights_detail": {
+      "type": "text/plain",
+      "language": null,
+      "base": "",
+      "value": "Copyright © 2026 Google. All rights reserved. This XML feed is made available solely for the purpose of rendering Google News results within a personal feed reader for personal, non-commercial use. Any other use of the feed is expressly prohibited. By accessing this feed or using these results in any manner whatsoever, you agree to be bound by the foregoing restrictions."
+    },
+    "updated": "Mon, 23 Mar 2026 07:25:48 GMT",
+    "updated_parsed": [
+      2026,
+      3,
+      23,
+      7,
+      25,
+      48,
+      0,
+      82,
+      0
+    ],
+    "image": {
+      "title": "Google News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Google News"
+      },
+      "href": "https://lh3.googleusercontent.com/-DR60l-K8vnyi99NZovm9HlXyZwQ85GMDxiwJWzoasZYCUrPuUM_P_4Rb7ei03j-0nRs0c4F=w256",
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/"
+        }
+      ],
+      "link": "https://news.google.com/",
+      "height": 256,
+      "width": 256
+    },
+    "subtitle": "Google News",
+    "subtitle_detail": {
+      "type": "text/html",
+      "language": null,
+      "base": "",
+      "value": "Google News"
+    }
+  },
+  "entries": [
+    {
+      "title": "Zika virus infection elicits auto-antibodies to C1q - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika virus infection elicits auto-antibodies to C1q - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1tZm9oQkNYWmk5LUVPTXZiSjJDV1UzRkVoZTdiRXd6LTJYcnFydGxCMmxUMlJ4VlpmMlo0WmtnckNVUmFiOVAzRnZ2VGZ5QzU1WDkybC14b2ZVYVJFSGEw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1tZm9oQkNYWmk5LUVPTXZiSjJDV1UzRkVoZTdiRXd6LTJYcnFydGxCMmxUMlJ4VlpmMlo0WmtnckNVUmFiOVAzRnZ2VGZ5QzU1WDkybC14b2ZVYVJFSGEw?oc=5",
+      "id": "CBMiX0FVX3lxTE1tZm9oQkNYWmk5LUVPTXZiSjJDV1UzRkVoZTdiRXd6LTJYcnFydGxCMmxUMlJ4VlpmMlo0WmtnckNVUmFiOVAzRnZ2VGZ5QzU1WDkybC14b2ZVYVJFSGEw",
+      "guidislink": false,
+      "published": "Tue, 30 Jan 2018 08:00:00 GMT",
+      "published_parsed": [
+        2018,
+        1,
+        30,
+        8,
+        0,
+        0,
+        1,
+        30,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1tZm9oQkNYWmk5LUVPTXZiSjJDV1UzRkVoZTdiRXd6LTJYcnFydGxCMmxUMlJ4VlpmMlo0WmtnckNVUmFiOVAzRnZ2VGZ5QzU1WDkybC14b2ZVYVJFSGEw?oc=5\" target=\"_blank\">Zika virus infection elicits auto-antibodies to C1q</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE1tZm9oQkNYWmk5LUVPTXZiSjJDV1UzRkVoZTdiRXd6LTJYcnFydGxCMmxUMlJ4VlpmMlo0WmtnckNVUmFiOVAzRnZ2VGZ5QzU1WDkybC14b2ZVYVJFSGEw?oc=5\" target=\"_blank\">Zika virus infection elicits auto-antibodies to C1q</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Population-Based Surveillance of Birth Defects Potentially Related ... - Centers for Disease Control and Prevention | CDC (.gov)",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Population-Based Surveillance of Birth Defects Potentially Related ... - Centers for Disease Control and Prevention | CDC (.gov)"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE01T2lkdzdXdTJPOWoteEVnTEROV2RHV3RqYnJ3aFJtLWE1aGYxUk9BcEtUS1ZYdXNZWVJwVEhFay14QXpTWHFNcjNIRnFiSVJ6b05TMUFsendDZXA3a2FNSg?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE01T2lkdzdXdTJPOWoteEVnTEROV2RHV3RqYnJ3aFJtLWE1aGYxUk9BcEtUS1ZYdXNZWVJwVEhFay14QXpTWHFNcjNIRnFiSVJ6b05TMUFsendDZXA3a2FNSg?oc=5",
+      "id": "CBMiYEFVX3lxTE01T2lkdzdXdTJPOWoteEVnTEROV2RHV3RqYnJ3aFJtLWE1aGYxUk9BcEtUS1ZYdXNZWVJwVEhFay14QXpTWHFNcjNIRnFiSVJ6b05TMUFsendDZXA3a2FNSg",
+      "guidislink": false,
+      "published": "Fri, 26 Jan 2018 08:00:00 GMT",
+      "published_parsed": [
+        2018,
+        1,
+        26,
+        8,
+        0,
+        0,
+        4,
+        26,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTE01T2lkdzdXdTJPOWoteEVnTEROV2RHV3RqYnJ3aFJtLWE1aGYxUk9BcEtUS1ZYdXNZWVJwVEhFay14QXpTWHFNcjNIRnFiSVJ6b05TMUFsendDZXA3a2FNSg?oc=5\" target=\"_blank\">Population-Based Surveillance of Birth Defects Potentially Related ...</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Centers for Disease Control and Prevention | CDC (.gov)</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTE01T2lkdzdXdTJPOWoteEVnTEROV2RHV3RqYnJ3aFJtLWE1aGYxUk9BcEtUS1ZYdXNZWVJwVEhFay14QXpTWHFNcjNIRnFiSVJ6b05TMUFsendDZXA3a2FNSg?oc=5\" target=\"_blank\">Population-Based Surveillance of Birth Defects Potentially Related ...</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Centers for Disease Control and Prevention | CDC (.gov)</font>"
+      },
+      "source": {
+        "href": "https://www.cdc.gov",
+        "title": "Centers for Disease Control and Prevention | CDC (.gov)"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika brain damage may go undetected in pregnancy - UW Medicine | Newsroom",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika brain damage may go undetected in pregnancy - UW Medicine | Newsroom"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNTJWN2xIdVZWSmdvb0lQZVBYRmIxR25TamQ4U2ZwNTVxWjdrN3QtQTd4SW01a2dYM2hsYzM4VnVkQkc2cnAzaHpHeGFYN1M0TlZKcWVUSHFXTUlacWY5R2VCY3UxNWVBZmJ1TzNVZlMtVU9OeERFTXgwRm83a0tDUFlTWkZ3U1ZTdnJZ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNTJWN2xIdVZWSmdvb0lQZVBYRmIxR25TamQ4U2ZwNTVxWjdrN3QtQTd4SW01a2dYM2hsYzM4VnVkQkc2cnAzaHpHeGFYN1M0TlZKcWVUSHFXTUlacWY5R2VCY3UxNWVBZmJ1TzNVZlMtVU9OeERFTXgwRm83a0tDUFlTWkZ3U1ZTdnJZ?oc=5",
+      "id": "CBMiiwFBVV95cUxNNTJWN2xIdVZWSmdvb0lQZVBYRmIxR25TamQ4U2ZwNTVxWjdrN3QtQTd4SW01a2dYM2hsYzM4VnVkQkc2cnAzaHpHeGFYN1M0TlZKcWVUSHFXTUlacWY5R2VCY3UxNWVBZmJ1TzNVZlMtVU9OeERFTXgwRm83a0tDUFlTWkZ3U1ZTdnJZ",
+      "guidislink": false,
+      "published": "Fri, 02 Feb 2018 08:00:00 GMT",
+      "published_parsed": [
+        2018,
+        2,
+        2,
+        8,
+        0,
+        0,
+        4,
+        33,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNTJWN2xIdVZWSmdvb0lQZVBYRmIxR25TamQ4U2ZwNTVxWjdrN3QtQTd4SW01a2dYM2hsYzM4VnVkQkc2cnAzaHpHeGFYN1M0TlZKcWVUSHFXTUlacWY5R2VCY3UxNWVBZmJ1TzNVZlMtVU9OeERFTXgwRm83a0tDUFlTWkZ3U1ZTdnJZ?oc=5\" target=\"_blank\">Zika brain damage may go undetected in pregnancy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">UW Medicine | Newsroom</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNTJWN2xIdVZWSmdvb0lQZVBYRmIxR25TamQ4U2ZwNTVxWjdrN3QtQTd4SW01a2dYM2hsYzM4VnVkQkc2cnAzaHpHeGFYN1M0TlZKcWVUSHFXTUlacWY5R2VCY3UxNWVBZmJ1TzNVZlMtVU9OeERFTXgwRm83a0tDUFlTWkZ3U1ZTdnJZ?oc=5\" target=\"_blank\">Zika brain damage may go undetected in pregnancy</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">UW Medicine | Newsroom</font>"
+      },
+      "source": {
+        "href": "https://newsroom.uw.edu",
+        "title": "UW Medicine | Newsroom"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Like Zika, West Nile virus causes fetal brain damage, death in mice - WashU Medicine",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Like Zika, West Nile virus causes fetal brain damage, death in mice - WashU Medicine"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUTJhZThvSlRzcVdSZVl6ZEZpSmJocDZfWlpqOGphUHpLMnhXLTRPaGpEbFlWelhOWEZ4eTd3V1Z5dktCM2FQYnJTYVYyWTF6bEdpV0ZjeE84ajBlcVp5LU9KcWNvWFR3ZVRDYzg0X0RRT1cwRXRGRE1jNER2LXpzNmc5ODV1dXZKOHNsWld4WFJDaGZoUUpVb2NLUQ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUTJhZThvSlRzcVdSZVl6ZEZpSmJocDZfWlpqOGphUHpLMnhXLTRPaGpEbFlWelhOWEZ4eTd3V1Z5dktCM2FQYnJTYVYyWTF6bEdpV0ZjeE84ajBlcVp5LU9KcWNvWFR3ZVRDYzg0X0RRT1cwRXRGRE1jNER2LXpzNmc5ODV1dXZKOHNsWld4WFJDaGZoUUpVb2NLUQ?oc=5",
+      "id": "CBMimwFBVV95cUxNUTJhZThvSlRzcVdSZVl6ZEZpSmJocDZfWlpqOGphUHpLMnhXLTRPaGpEbFlWelhOWEZ4eTd3V1Z5dktCM2FQYnJTYVYyWTF6bEdpV0ZjeE84ajBlcVp5LU9KcWNvWFR3ZVRDYzg0X0RRT1cwRXRGRE1jNER2LXpzNmc5ODV1dXZKOHNsWld4WFJDaGZoUUpVb2NLUQ",
+      "guidislink": false,
+      "published": "Wed, 31 Jan 2018 08:00:00 GMT",
+      "published_parsed": [
+        2018,
+        1,
+        31,
+        8,
+        0,
+        0,
+        2,
+        31,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxNUTJhZThvSlRzcVdSZVl6ZEZpSmJocDZfWlpqOGphUHpLMnhXLTRPaGpEbFlWelhOWEZ4eTd3V1Z5dktCM2FQYnJTYVYyWTF6bEdpV0ZjeE84ajBlcVp5LU9KcWNvWFR3ZVRDYzg0X0RRT1cwRXRGRE1jNER2LXpzNmc5ODV1dXZKOHNsWld4WFJDaGZoUUpVb2NLUQ?oc=5\" target=\"_blank\">Like Zika, West Nile virus causes fetal brain damage, death in mice</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WashU Medicine</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxNUTJhZThvSlRzcVdSZVl6ZEZpSmJocDZfWlpqOGphUHpLMnhXLTRPaGpEbFlWelhOWEZ4eTd3V1Z5dktCM2FQYnJTYVYyWTF6bEdpV0ZjeE84ajBlcVp5LU9KcWNvWFR3ZVRDYzg0X0RRT1cwRXRGRE1jNER2LXpzNmc5ODV1dXZKOHNsWld4WFJDaGZoUUpVb2NLUQ?oc=5\" target=\"_blank\">Like Zika, West Nile virus causes fetal brain damage, death in mice</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WashU Medicine</font>"
+      },
+      "source": {
+        "href": "https://medicine.washu.edu",
+        "title": "WashU Medicine"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika is on the rise - army.mil",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika is on the rise - army.mil"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBRbkJCMTVDbVFlbjgwdXlvekFJOWNORk1LNDFuM2pCb3dkR3h1UGVUY2pVSUlHeU04UTNCLXA4bGpKMDc4TGFUdU5uMHRIMkN5VWYwTWcxWlp0OTEyOUFZdll0Zm1lUdIBa0FVX3lxTE9ERUxEak5hZVNWZlJSZWdBdy0xUEM2djlGTWc4SWJZaUZsZEo2MmlKWkNHZ213bjZ4STlVdU1fUTRFanBxWmdFQ2ZEb3ctX2NjazB1NF9lMGgwTXlLcGRBdWpBWW9ETkRWSFRF?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBRbkJCMTVDbVFlbjgwdXlvekFJOWNORk1LNDFuM2pCb3dkR3h1UGVUY2pVSUlHeU04UTNCLXA4bGpKMDc4TGFUdU5uMHRIMkN5VWYwTWcxWlp0OTEyOUFZdll0Zm1lUdIBa0FVX3lxTE9ERUxEak5hZVNWZlJSZWdBdy0xUEM2djlGTWc4SWJZaUZsZEo2MmlKWkNHZ213bjZ4STlVdU1fUTRFanBxWmdFQ2ZEb3ctX2NjazB1NF9lMGgwTXlLcGRBdWpBWW9ETkRWSFRF?oc=5",
+      "id": "CBMiZkFVX3lxTFBRbkJCMTVDbVFlbjgwdXlvekFJOWNORk1LNDFuM2pCb3dkR3h1UGVUY2pVSUlHeU04UTNCLXA4bGpKMDc4TGFUdU5uMHRIMkN5VWYwTWcxWlp0OTEyOUFZdll0Zm1lUdIBa0FVX3lxTE9ERUxEak5hZVNWZlJSZWdBdy0xUEM2djlGTWc4SWJZaUZsZEo2MmlKWkNHZ213bjZ4STlVdU1fUTRFanBxWmdFQ2ZEb3ctX2NjazB1NF9lMGgwTXlLcGRBdWpBWW9ETkRWSFRF",
+      "guidislink": false,
+      "published": "Mon, 29 Jan 2018 08:00:00 GMT",
+      "published_parsed": [
+        2018,
+        1,
+        29,
+        8,
+        0,
+        0,
+        0,
+        29,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTFBRbkJCMTVDbVFlbjgwdXlvekFJOWNORk1LNDFuM2pCb3dkR3h1UGVUY2pVSUlHeU04UTNCLXA4bGpKMDc4TGFUdU5uMHRIMkN5VWYwTWcxWlp0OTEyOUFZdll0Zm1lUdIBa0FVX3lxTE9ERUxEak5hZVNWZlJSZWdBdy0xUEM2djlGTWc4SWJZaUZsZEo2MmlKWkNHZ213bjZ4STlVdU1fUTRFanBxWmdFQ2ZEb3ctX2NjazB1NF9lMGgwTXlLcGRBdWpBWW9ETkRWSFRF?oc=5\" target=\"_blank\">Zika is on the rise</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">army.mil</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTFBRbkJCMTVDbVFlbjgwdXlvekFJOWNORk1LNDFuM2pCb3dkR3h1UGVUY2pVSUlHeU04UTNCLXA4bGpKMDc4TGFUdU5uMHRIMkN5VWYwTWcxWlp0OTEyOUFZdll0Zm1lUdIBa0FVX3lxTE9ERUxEak5hZVNWZlJSZWdBdy0xUEM2djlGTWc4SWJZaUZsZEo2MmlKWkNHZ213bjZ4STlVdU1fUTRFanBxWmdFQ2ZEb3ctX2NjazB1NF9lMGgwTXlLcGRBdWpBWW9ETkRWSFRF?oc=5\" target=\"_blank\">Zika is on the rise</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">army.mil</font>"
+      },
+      "source": {
+        "href": "https://www.army.mil",
+        "title": "army.mil"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Not just Zika: Other mosquito-borne viruses may cause birth defects, study suggests - statnews.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Not just Zika: Other mosquito-borne viruses may cause birth defects, study suggests - statnews.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBwQWFCZUFmOGdwSVhoV0FRVE5rLUFRWGJHMlBpc19pOERkNlRPNFM1TU5PTlhFdk5Ta2szak1DeWxYTDdOZzMzZWgtcWZ3bTlSdFFiekIzTnl2Nkd1N3RrVVpxMmU1WWE3NEhydGkwenRXRmZIOUl6cg?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBwQWFCZUFmOGdwSVhoV0FRVE5rLUFRWGJHMlBpc19pOERkNlRPNFM1TU5PTlhFdk5Ta2szak1DeWxYTDdOZzMzZWgtcWZ3bTlSdFFiekIzTnl2Nkd1N3RrVVpxMmU1WWE3NEhydGkwenRXRmZIOUl6cg?oc=5",
+      "id": "CBMieEFVX3lxTFBwQWFCZUFmOGdwSVhoV0FRVE5rLUFRWGJHMlBpc19pOERkNlRPNFM1TU5PTlhFdk5Ta2szak1DeWxYTDdOZzMzZWgtcWZ3bTlSdFFiekIzTnl2Nkd1N3RrVVpxMmU1WWE3NEhydGkwenRXRmZIOUl6cg",
+      "guidislink": false,
+      "published": "Wed, 31 Jan 2018 08:00:00 GMT",
+      "published_parsed": [
+        2018,
+        1,
+        31,
+        8,
+        0,
+        0,
+        2,
+        31,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTFBwQWFCZUFmOGdwSVhoV0FRVE5rLUFRWGJHMlBpc19pOERkNlRPNFM1TU5PTlhFdk5Ta2szak1DeWxYTDdOZzMzZWgtcWZ3bTlSdFFiekIzTnl2Nkd1N3RrVVpxMmU1WWE3NEhydGkwenRXRmZIOUl6cg?oc=5\" target=\"_blank\">Not just Zika: Other mosquito-borne viruses may cause birth defects, study suggests</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">statnews.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTFBwQWFCZUFmOGdwSVhoV0FRVE5rLUFRWGJHMlBpc19pOERkNlRPNFM1TU5PTlhFdk5Ta2szak1DeWxYTDdOZzMzZWgtcWZ3bTlSdFFiekIzTnl2Nkd1N3RrVVpxMmU1WWE3NEhydGkwenRXRmZIOUl6cg?oc=5\" target=\"_blank\">Not just Zika: Other mosquito-borne viruses may cause birth defects, study suggests</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">statnews.com</font>"
+      },
+      "source": {
+        "href": "https://www.statnews.com",
+        "title": "statnews.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "FDA Grants Fast Track Designation to Takeda's Zika Vaccine Candidate - Contagion Live",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "FDA Grants Fast Track Designation to Takeda's Zika Vaccine Candidate - Contagion Live"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVVlLdTZIdjQybHk1YUM1YUtQa2dUOWl2TFNFX1djemp0ZlFzSS0yazFOQldxUFdxMGE5aGNsai1ITHI1X3NteFFFLWpaaDdoRU9KblZ4UnAzQnRJbUQ5ODh0MHlaeEYwNGRaSVRUcDdxRjl6VWZRdjhqTS02VTN0R2ItMno4bHIweTFvTlNscndidEJTVUZfRllaZ0NoVFNlTUpHcg?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVVlLdTZIdjQybHk1YUM1YUtQa2dUOWl2TFNFX1djemp0ZlFzSS0yazFOQldxUFdxMGE5aGNsai1ITHI1X3NteFFFLWpaaDdoRU9KblZ4UnAzQnRJbUQ5ODh0MHlaeEYwNGRaSVRUcDdxRjl6VWZRdjhqTS02VTN0R2ItMno4bHIweTFvTlNscndidEJTVUZfRllaZ0NoVFNlTUpHcg?oc=5",
+      "id": "CBMipAFBVV95cUxPVVlLdTZIdjQybHk1YUM1YUtQa2dUOWl2TFNFX1djemp0ZlFzSS0yazFOQldxUFdxMGE5aGNsai1ITHI1X3NteFFFLWpaaDdoRU9KblZ4UnAzQnRJbUQ5ODh0MHlaeEYwNGRaSVRUcDdxRjl6VWZRdjhqTS02VTN0R2ItMno4bHIweTFvTlNscndidEJTVUZfRllaZ0NoVFNlTUpHcg",
+      "guidislink": false,
+      "published": "Tue, 30 Jan 2018 08:00:00 GMT",
+      "published_parsed": [
+        2018,
+        1,
+        30,
+        8,
+        0,
+        0,
+        1,
+        30,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxPVVlLdTZIdjQybHk1YUM1YUtQa2dUOWl2TFNFX1djemp0ZlFzSS0yazFOQldxUFdxMGE5aGNsai1ITHI1X3NteFFFLWpaaDdoRU9KblZ4UnAzQnRJbUQ5ODh0MHlaeEYwNGRaSVRUcDdxRjl6VWZRdjhqTS02VTN0R2ItMno4bHIweTFvTlNscndidEJTVUZfRllaZ0NoVFNlTUpHcg?oc=5\" target=\"_blank\">FDA Grants Fast Track Designation to Takeda's Zika Vaccine Candidate</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Contagion Live</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxPVVlLdTZIdjQybHk1YUM1YUtQa2dUOWl2TFNFX1djemp0ZlFzSS0yazFOQldxUFdxMGE5aGNsai1ITHI1X3NteFFFLWpaaDdoRU9KblZ4UnAzQnRJbUQ5ODh0MHlaeEYwNGRaSVRUcDdxRjl6VWZRdjhqTS02VTN0R2ItMno4bHIweTFvTlNscndidEJTVUZfRllaZ0NoVFNlTUpHcg?oc=5\" target=\"_blank\">FDA Grants Fast Track Designation to Takeda's Zika Vaccine Candidate</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Contagion Live</font>"
+      },
+      "source": {
+        "href": "https://www.contagionlive.com",
+        "title": "Contagion Live"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "A Private Place Where HIV, Zika and Ebola Hide - Scientific American",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "A Private Place Where HIV, Zika and Ebola Hide - Scientific American"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjJpWm03T1NGWnN3ZGJEQ1ZHUGNGUkdSYTZZN0FnVklMdjBTQ1RvT0hIelJ2QXluTGppMkhPcmpTSjh0XzFTb015eXB3Mjg3M0szVVNSeFJETnR3ZHNCSTBiYlVfajU5bTRZX01XaVBEMGE2eHMzTDBuLTBoV0JnOVlhNF9lOThlanNpWDh3TDlEcWc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjJpWm03T1NGWnN3ZGJEQ1ZHUGNGUkdSYTZZN0FnVklMdjBTQ1RvT0hIelJ2QXluTGppMkhPcmpTSjh0XzFTb015eXB3Mjg3M0szVVNSeFJETnR3ZHNCSTBiYlVfajU5bTRZX01XaVBEMGE2eHMzTDBuLTBoV0JnOVlhNF9lOThlanNpWDh3TDlEcWc?oc=5",
+      "id": "CBMikwFBVV95cUxNWjJpWm03T1NGWnN3ZGJEQ1ZHUGNGUkdSYTZZN0FnVklMdjBTQ1RvT0hIelJ2QXluTGppMkhPcmpTSjh0XzFTb015eXB3Mjg3M0szVVNSeFJETnR3ZHNCSTBiYlVfajU5bTRZX01XaVBEMGE2eHMzTDBuLTBoV0JnOVlhNF9lOThlanNpWDh3TDlEcWc",
+      "guidislink": false,
+      "published": "Fri, 26 Jan 2018 08:00:00 GMT",
+      "published_parsed": [
+        2018,
+        1,
+        26,
+        8,
+        0,
+        0,
+        4,
+        26,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjJpWm03T1NGWnN3ZGJEQ1ZHUGNGUkdSYTZZN0FnVklMdjBTQ1RvT0hIelJ2QXluTGppMkhPcmpTSjh0XzFTb015eXB3Mjg3M0szVVNSeFJETnR3ZHNCSTBiYlVfajU5bTRZX01XaVBEMGE2eHMzTDBuLTBoV0JnOVlhNF9lOThlanNpWDh3TDlEcWc?oc=5\" target=\"_blank\">A Private Place Where HIV, Zika and Ebola Hide</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Scientific American</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjJpWm03T1NGWnN3ZGJEQ1ZHUGNGUkdSYTZZN0FnVklMdjBTQ1RvT0hIelJ2QXluTGppMkhPcmpTSjh0XzFTb015eXB3Mjg3M0szVVNSeFJETnR3ZHNCSTBiYlVfajU5bTRZX01XaVBEMGE2eHMzTDBuLTBoV0JnOVlhNF9lOThlanNpWDh3TDlEcWc?oc=5\" target=\"_blank\">A Private Place Where HIV, Zika and Ebola Hide</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Scientific American</font>"
+      },
+      "source": {
+        "href": "https://www.scientificamerican.com",
+        "title": "Scientific American"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Mouse study hints West Nile may cause Zika-like birth defects - CIDRAP",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Mouse study hints West Nile may cause Zika-like birth defects - CIDRAP"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPX3NCNE5EV05mTm5kYzNOR1pnblVZZ19hYjFjTG52MTlwMk9ZUTlwQ3ZWNmd2ZE01SEtTTE9qZTBiMERXajlrR1dsQ19zQVBJTVhrN010Snl1bTlwaWpqQU80TDllSmtmNlRxVnJ5NFAwTEJ2WEZJc0hHTmlHdVJHVllZSklqekZ1WVBYbzFzdGhBck9uRG95Qg?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPX3NCNE5EV05mTm5kYzNOR1pnblVZZ19hYjFjTG52MTlwMk9ZUTlwQ3ZWNmd2ZE01SEtTTE9qZTBiMERXajlrR1dsQ19zQVBJTVhrN010Snl1bTlwaWpqQU80TDllSmtmNlRxVnJ5NFAwTEJ2WEZJc0hHTmlHdVJHVllZSklqekZ1WVBYbzFzdGhBck9uRG95Qg?oc=5",
+      "id": "CBMimAFBVV95cUxPX3NCNE5EV05mTm5kYzNOR1pnblVZZ19hYjFjTG52MTlwMk9ZUTlwQ3ZWNmd2ZE01SEtTTE9qZTBiMERXajlrR1dsQ19zQVBJTVhrN010Snl1bTlwaWpqQU80TDllSmtmNlRxVnJ5NFAwTEJ2WEZJc0hHTmlHdVJHVllZSklqekZ1WVBYbzFzdGhBck9uRG95Qg",
+      "guidislink": false,
+      "published": "Wed, 31 Jan 2018 08:00:00 GMT",
+      "published_parsed": [
+        2018,
+        1,
+        31,
+        8,
+        0,
+        0,
+        2,
+        31,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxPX3NCNE5EV05mTm5kYzNOR1pnblVZZ19hYjFjTG52MTlwMk9ZUTlwQ3ZWNmd2ZE01SEtTTE9qZTBiMERXajlrR1dsQ19zQVBJTVhrN010Snl1bTlwaWpqQU80TDllSmtmNlRxVnJ5NFAwTEJ2WEZJc0hHTmlHdVJHVllZSklqekZ1WVBYbzFzdGhBck9uRG95Qg?oc=5\" target=\"_blank\">Mouse study hints West Nile may cause Zika-like birth defects</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CIDRAP</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxPX3NCNE5EV05mTm5kYzNOR1pnblVZZ19hYjFjTG52MTlwMk9ZUTlwQ3ZWNmd2ZE01SEtTTE9qZTBiMERXajlrR1dsQ19zQVBJTVhrN010Snl1bTlwaWpqQU80TDllSmtmNlRxVnJ5NFAwTEJ2WEZJc0hHTmlHdVJHVllZSklqekZ1WVBYbzFzdGhBck9uRG95Qg?oc=5\" target=\"_blank\">Mouse study hints West Nile may cause Zika-like birth defects</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CIDRAP</font>"
+      },
+      "source": {
+        "href": "https://www.cidrap.umn.edu",
+        "title": "CIDRAP"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Forget Ebola, Sars and Zika: ticks are the next global health threat - The Guardian",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Forget Ebola, Sars and Zika: ticks are the next global health threat - The Guardian"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdDNpdUdRN1JIMTBFMGI4bkRtY1ExWThKb19zR01wTklOOVNEa2MwUXVhNDBsQl9oYVVvcFJVR2pNd2pSdHdCaFcwd3ZZWlk1QzFqbEhaTmxQZ1lYY3lITlZoUlNVZHlUdXZkUWtaQk8tbTBRdDdIcVdzMzZmYXRhclNXOFFCOWp5V2dFVVBWV3Z1cGJxZzJqNGhBQzRNT3c1UjR2NUEwc1kxSEJfQk0zOGthc2RLbkNiOWJV?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdDNpdUdRN1JIMTBFMGI4bkRtY1ExWThKb19zR01wTklOOVNEa2MwUXVhNDBsQl9oYVVvcFJVR2pNd2pSdHdCaFcwd3ZZWlk1QzFqbEhaTmxQZ1lYY3lITlZoUlNVZHlUdXZkUWtaQk8tbTBRdDdIcVdzMzZmYXRhclNXOFFCOWp5V2dFVVBWV3Z1cGJxZzJqNGhBQzRNT3c1UjR2NUEwc1kxSEJfQk0zOGthc2RLbkNiOWJV?oc=5",
+      "id": "CBMiuwFBVV95cUxPdDNpdUdRN1JIMTBFMGI4bkRtY1ExWThKb19zR01wTklOOVNEa2MwUXVhNDBsQl9oYVVvcFJVR2pNd2pSdHdCaFcwd3ZZWlk1QzFqbEhaTmxQZ1lYY3lITlZoUlNVZHlUdXZkUWtaQk8tbTBRdDdIcVdzMzZmYXRhclNXOFFCOWp5V2dFVVBWV3Z1cGJxZzJqNGhBQzRNT3c1UjR2NUEwc1kxSEJfQk0zOGthc2RLbkNiOWJV",
+      "guidislink": false,
+      "published": "Thu, 25 Jan 2018 08:00:00 GMT",
+      "published_parsed": [
+        2018,
+        1,
+        25,
+        8,
+        0,
+        0,
+        3,
+        25,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdDNpdUdRN1JIMTBFMGI4bkRtY1ExWThKb19zR01wTklOOVNEa2MwUXVhNDBsQl9oYVVvcFJVR2pNd2pSdHdCaFcwd3ZZWlk1QzFqbEhaTmxQZ1lYY3lITlZoUlNVZHlUdXZkUWtaQk8tbTBRdDdIcVdzMzZmYXRhclNXOFFCOWp5V2dFVVBWV3Z1cGJxZzJqNGhBQzRNT3c1UjR2NUEwc1kxSEJfQk0zOGthc2RLbkNiOWJV?oc=5\" target=\"_blank\">Forget Ebola, Sars and Zika: ticks are the next global health threat</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdDNpdUdRN1JIMTBFMGI4bkRtY1ExWThKb19zR01wTklOOVNEa2MwUXVhNDBsQl9oYVVvcFJVR2pNd2pSdHdCaFcwd3ZZWlk1QzFqbEhaTmxQZ1lYY3lITlZoUlNVZHlUdXZkUWtaQk8tbTBRdDdIcVdzMzZmYXRhclNXOFFCOWp5V2dFVVBWV3Z1cGJxZzJqNGhBQzRNT3c1UjR2NUEwc1kxSEJfQk0zOGthc2RLbkNiOWJV?oc=5\" target=\"_blank\">Forget Ebola, Sars and Zika: ticks are the next global health threat</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian</font>"
+      },
+      "source": {
+        "href": "https://www.theguardian.com",
+        "title": "The Guardian"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Blocking Zika virus vertical transmission - Scientific Reports - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Blocking Zika virus vertical transmission - Scientific Reports - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBwUTMxRlQyd1ctVVYtbncwaGhOS3VyLWtsWE4wR3Y3ZzZBUnV6OHl3TDlIM0dOUU02OU5jWFY5SjBRODY1Tjl6ZDF2UUFlc2lxbDYxdlpqbVY5VkZnQnU4?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBwUTMxRlQyd1ctVVYtbncwaGhOS3VyLWtsWE4wR3Y3ZzZBUnV6OHl3TDlIM0dOUU02OU5jWFY5SjBRODY1Tjl6ZDF2UUFlc2lxbDYxdlpqbVY5VkZnQnU4?oc=5",
+      "id": "CBMiX0FVX3lxTFBwUTMxRlQyd1ctVVYtbncwaGhOS3VyLWtsWE4wR3Y3ZzZBUnV6OHl3TDlIM0dOUU02OU5jWFY5SjBRODY1Tjl6ZDF2UUFlc2lxbDYxdlpqbVY5VkZnQnU4",
+      "guidislink": false,
+      "published": "Fri, 19 Jan 2018 08:00:00 GMT",
+      "published_parsed": [
+        2018,
+        1,
+        19,
+        8,
+        0,
+        0,
+        4,
+        19,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFBwUTMxRlQyd1ctVVYtbncwaGhOS3VyLWtsWE4wR3Y3ZzZBUnV6OHl3TDlIM0dOUU02OU5jWFY5SjBRODY1Tjl6ZDF2UUFlc2lxbDYxdlpqbVY5VkZnQnU4?oc=5\" target=\"_blank\">Blocking Zika virus vertical transmission - Scientific Reports</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFBwUTMxRlQyd1ctVVYtbncwaGhOS3VyLWtsWE4wR3Y3ZzZBUnV6OHl3TDlIM0dOUU02OU5jWFY5SjBRODY1Tjl6ZDF2UUFlc2lxbDYxdlpqbVY5VkZnQnU4?oc=5\" target=\"_blank\">Blocking Zika virus vertical transmission - Scientific Reports</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika vaccine candidate receives FDA fast track designation - European Pharmaceutical Review",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika vaccine candidate receives FDA fast track designation - European Pharmaceutical Review"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVUM4a1hyOGdOVnN1cTBIMVZSbGs1OGhjdkd0WmRpV1EyUUdSWllaSDVDUnVIQkE0UDV6cHhVZzZySW5lMzVEYllfd284aU11WldLMFFzNlNTSkxvN3JQbFkxX2x5bUVlMlZ6bU9UaXFFRGIwR29KZVZoWTE2WnctYkpDME5PRUNId05aZnhRUERnR3F6Q1VZ?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVUM4a1hyOGdOVnN1cTBIMVZSbGs1OGhjdkd0WmRpV1EyUUdSWllaSDVDUnVIQkE0UDV6cHhVZzZySW5lMzVEYllfd284aU11WldLMFFzNlNTSkxvN3JQbFkxX2x5bUVlMlZ6bU9UaXFFRGIwR29KZVZoWTE2WnctYkpDME5PRUNId05aZnhRUERnR3F6Q1VZ?oc=5",
+      "id": "CBMilwFBVV95cUxQVUM4a1hyOGdOVnN1cTBIMVZSbGs1OGhjdkd0WmRpV1EyUUdSWllaSDVDUnVIQkE0UDV6cHhVZzZySW5lMzVEYllfd284aU11WldLMFFzNlNTSkxvN3JQbFkxX2x5bUVlMlZ6bU9UaXFFRGIwR29KZVZoWTE2WnctYkpDME5PRUNId05aZnhRUERnR3F6Q1VZ",
+      "guidislink": false,
+      "published": "Tue, 30 Jan 2018 08:00:00 GMT",
+      "published_parsed": [
+        2018,
+        1,
+        30,
+        8,
+        0,
+        0,
+        1,
+        30,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxQVUM4a1hyOGdOVnN1cTBIMVZSbGs1OGhjdkd0WmRpV1EyUUdSWllaSDVDUnVIQkE0UDV6cHhVZzZySW5lMzVEYllfd284aU11WldLMFFzNlNTSkxvN3JQbFkxX2x5bUVlMlZ6bU9UaXFFRGIwR29KZVZoWTE2WnctYkpDME5PRUNId05aZnhRUERnR3F6Q1VZ?oc=5\" target=\"_blank\">Zika vaccine candidate receives FDA fast track designation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">European Pharmaceutical Review</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxQVUM4a1hyOGdOVnN1cTBIMVZSbGs1OGhjdkd0WmRpV1EyUUdSWllaSDVDUnVIQkE0UDV6cHhVZzZySW5lMzVEYllfd284aU11WldLMFFzNlNTSkxvN3JQbFkxX2x5bUVlMlZ6bU9UaXFFRGIwR29KZVZoWTE2WnctYkpDME5PRUNId05aZnhRUERnR3F6Q1VZ?oc=5\" target=\"_blank\">Zika vaccine candidate receives FDA fast track designation</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">European Pharmaceutical Review</font>"
+      },
+      "source": {
+        "href": "https://www.europeanpharmaceuticalreview.com",
+        "title": "European Pharmaceutical Review"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Researchers identify three new mosquito vectors of Zika in Mexico - Healio",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Researchers identify three new mosquito vectors of Zika in Mexico - Healio"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeFJ1T2dNS2hpUV9RUHd2YkttREtGX2otVkdpRGtpdFR2bThRN2cyQU9od3d1a3QwdEFxem9jb3NRbXVRTlltb294UjluYTBvZU9EeVJ1TGl1U2g0bkE3Wk5rRmdDSDBhVXB5cFB0Sm5aUkFGaVg5TnExcy00Vk8wQjBSa0lndFFBOVAzM2oyT3Q1cVpudXBZUk9qdW5CY3dyWnIzaXliTm9JcXRWQlp0SE5PQ01HeExvbFM2RXNB?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeFJ1T2dNS2hpUV9RUHd2YkttREtGX2otVkdpRGtpdFR2bThRN2cyQU9od3d1a3QwdEFxem9jb3NRbXVRTlltb294UjluYTBvZU9EeVJ1TGl1U2g0bkE3Wk5rRmdDSDBhVXB5cFB0Sm5aUkFGaVg5TnExcy00Vk8wQjBSa0lndFFBOVAzM2oyT3Q1cVpudXBZUk9qdW5CY3dyWnIzaXliTm9JcXRWQlp0SE5PQ01HeExvbFM2RXNB?oc=5",
+      "id": "CBMivgFBVV95cUxQeFJ1T2dNS2hpUV9RUHd2YkttREtGX2otVkdpRGtpdFR2bThRN2cyQU9od3d1a3QwdEFxem9jb3NRbXVRTlltb294UjluYTBvZU9EeVJ1TGl1U2g0bkE3Wk5rRmdDSDBhVXB5cFB0Sm5aUkFGaVg5TnExcy00Vk8wQjBSa0lndFFBOVAzM2oyT3Q1cVpudXBZUk9qdW5CY3dyWnIzaXliTm9JcXRWQlp0SE5PQ01HeExvbFM2RXNB",
+      "guidislink": false,
+      "published": "Thu, 25 Jan 2018 08:00:00 GMT",
+      "published_parsed": [
+        2018,
+        1,
+        25,
+        8,
+        0,
+        0,
+        3,
+        25,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxQeFJ1T2dNS2hpUV9RUHd2YkttREtGX2otVkdpRGtpdFR2bThRN2cyQU9od3d1a3QwdEFxem9jb3NRbXVRTlltb294UjluYTBvZU9EeVJ1TGl1U2g0bkE3Wk5rRmdDSDBhVXB5cFB0Sm5aUkFGaVg5TnExcy00Vk8wQjBSa0lndFFBOVAzM2oyT3Q1cVpudXBZUk9qdW5CY3dyWnIzaXliTm9JcXRWQlp0SE5PQ01HeExvbFM2RXNB?oc=5\" target=\"_blank\">Researchers identify three new mosquito vectors of Zika in Mexico</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Healio</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxQeFJ1T2dNS2hpUV9RUHd2YkttREtGX2otVkdpRGtpdFR2bThRN2cyQU9od3d1a3QwdEFxem9jb3NRbXVRTlltb294UjluYTBvZU9EeVJ1TGl1U2g0bkE3Wk5rRmdDSDBhVXB5cFB0Sm5aUkFGaVg5TnExcy00Vk8wQjBSa0lndFFBOVAzM2oyT3Q1cVpudXBZUk9qdW5CY3dyWnIzaXliTm9JcXRWQlp0SE5PQ01HeExvbFM2RXNB?oc=5\" target=\"_blank\">Researchers identify three new mosquito vectors of Zika in Mexico</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Healio</font>"
+      },
+      "source": {
+        "href": "https://www.healio.com",
+        "title": "Healio"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "A New Government Report Finds the Zika Virus Caused a Big Uptick in Serious Birth Defects in 2016 - psmag.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "A New Government Report Finds the Zika Virus Caused a Big Uptick in Serious Birth Defects in 2016 - psmag.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSFEteHZjMUdCdzV2SlR3NmRYRXh4bjRua2lkamxydVlnN3NIbVN3QUlPR2Z1N2hORWlnc3J0NE54aVV4Qlc3XzlTS0lmQldibHdIaHNqSTVGYnZUQ2UtQXZyNWN2d0U3d21qMXZGMWhla1h5SVRkcmVrTlVMcXhsajNDTFZsemRzRHJRUGVjVGM?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSFEteHZjMUdCdzV2SlR3NmRYRXh4bjRua2lkamxydVlnN3NIbVN3QUlPR2Z1N2hORWlnc3J0NE54aVV4Qlc3XzlTS0lmQldibHdIaHNqSTVGYnZUQ2UtQXZyNWN2d0U3d21qMXZGMWhla1h5SVRkcmVrTlVMcXhsajNDTFZsemRzRHJRUGVjVGM?oc=5",
+      "id": "CBMikAFBVV95cUxNSFEteHZjMUdCdzV2SlR3NmRYRXh4bjRua2lkamxydVlnN3NIbVN3QUlPR2Z1N2hORWlnc3J0NE54aVV4Qlc3XzlTS0lmQldibHdIaHNqSTVGYnZUQ2UtQXZyNWN2d0U3d21qMXZGMWhla1h5SVRkcmVrTlVMcXhsajNDTFZsemRzRHJRUGVjVGM",
+      "guidislink": false,
+      "published": "Thu, 25 Jan 2018 08:00:00 GMT",
+      "published_parsed": [
+        2018,
+        1,
+        25,
+        8,
+        0,
+        0,
+        3,
+        25,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxNSFEteHZjMUdCdzV2SlR3NmRYRXh4bjRua2lkamxydVlnN3NIbVN3QUlPR2Z1N2hORWlnc3J0NE54aVV4Qlc3XzlTS0lmQldibHdIaHNqSTVGYnZUQ2UtQXZyNWN2d0U3d21qMXZGMWhla1h5SVRkcmVrTlVMcXhsajNDTFZsemRzRHJRUGVjVGM?oc=5\" target=\"_blank\">A New Government Report Finds the Zika Virus Caused a Big Uptick in Serious Birth Defects in 2016</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">psmag.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxNSFEteHZjMUdCdzV2SlR3NmRYRXh4bjRua2lkamxydVlnN3NIbVN3QUlPR2Z1N2hORWlnc3J0NE54aVV4Qlc3XzlTS0lmQldibHdIaHNqSTVGYnZUQ2UtQXZyNWN2d0U3d21qMXZGMWhla1h5SVRkcmVrTlVMcXhsajNDTFZsemRzRHJRUGVjVGM?oc=5\" target=\"_blank\">A New Government Report Finds the Zika Virus Caused a Big Uptick in Serious Birth Defects in 2016</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">psmag.com</font>"
+      },
+      "source": {
+        "href": "https://psmag.com",
+        "title": "psmag.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Lab-Bred Mosquitoes To Fly Near Miami To Help Combat Zika - WUSF",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Lab-Bred Mosquitoes To Fly Near Miami To Help Combat Zika - WUSF"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPeVljdndFZGtDUENlLVNhN0hQWXRlRGpoN3g0R3FOSWNtbnc1RTJTMV9Rek03RnlPMERfLTI5WndhcWMyekZQdmFGdXNmT1dTVjZNZENWUExNZDU0cXZFNzRwWDQ2VGxtdXRuYy0xNllfbGhqYUd4QUtUWGtQN0tubk9oTnl4TkEta0xOd2dOdXIySGc?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPeVljdndFZGtDUENlLVNhN0hQWXRlRGpoN3g0R3FOSWNtbnc1RTJTMV9Rek03RnlPMERfLTI5WndhcWMyekZQdmFGdXNmT1dTVjZNZENWUExNZDU0cXZFNzRwWDQ2VGxtdXRuYy0xNllfbGhqYUd4QUtUWGtQN0tubk9oTnl4TkEta0xOd2dOdXIySGc?oc=5",
+      "id": "CBMikwFBVV95cUxPeVljdndFZGtDUENlLVNhN0hQWXRlRGpoN3g0R3FOSWNtbnc1RTJTMV9Rek03RnlPMERfLTI5WndhcWMyekZQdmFGdXNmT1dTVjZNZENWUExNZDU0cXZFNzRwWDQ2VGxtdXRuYy0xNllfbGhqYUd4QUtUWGtQN0tubk9oTnl4TkEta0xOd2dOdXIySGc",
+      "guidislink": false,
+      "published": "Tue, 30 Jan 2018 08:00:00 GMT",
+      "published_parsed": [
+        2018,
+        1,
+        30,
+        8,
+        0,
+        0,
+        1,
+        30,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxPeVljdndFZGtDUENlLVNhN0hQWXRlRGpoN3g0R3FOSWNtbnc1RTJTMV9Rek03RnlPMERfLTI5WndhcWMyekZQdmFGdXNmT1dTVjZNZENWUExNZDU0cXZFNzRwWDQ2VGxtdXRuYy0xNllfbGhqYUd4QUtUWGtQN0tubk9oTnl4TkEta0xOd2dOdXIySGc?oc=5\" target=\"_blank\">Lab-Bred Mosquitoes To Fly Near Miami To Help Combat Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WUSF</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxPeVljdndFZGtDUENlLVNhN0hQWXRlRGpoN3g0R3FOSWNtbnc1RTJTMV9Rek03RnlPMERfLTI5WndhcWMyekZQdmFGdXNmT1dTVjZNZENWUExNZDU0cXZFNzRwWDQ2VGxtdXRuYy0xNllfbGhqYUd4QUtUWGtQN0tubk9oTnl4TkEta0xOd2dOdXIySGc?oc=5\" target=\"_blank\">Lab-Bred Mosquitoes To Fly Near Miami To Help Combat Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">WUSF</font>"
+      },
+      "source": {
+        "href": "https://www.wusf.org",
+        "title": "WUSF"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Brain genes hint at why Zika doesn’t always cause microcephaly - New Scientist",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Brain genes hint at why Zika doesn’t always cause microcephaly - New Scientist"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPclpabWdJcm9saXJ6SnloTU9UMkZ0WWV5bTBfajVJQjhxWFZjVi1MRlFwRk1sMmhVOHc4bHNCbXB4WVpDNVJrZGxvNU8takhKelp6TTdrenVTNzZlcFRsTG81ZGtjTHFzNXdKWFpiVFVOdWFzbGtUVFJDbk45Q0JQM0tZX0NmVC1ta1dtRnVPOTZnUFBVUlgxdnZuaHpjR0FoQkxuUHZsVFhpbUk?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPclpabWdJcm9saXJ6SnloTU9UMkZ0WWV5bTBfajVJQjhxWFZjVi1MRlFwRk1sMmhVOHc4bHNCbXB4WVpDNVJrZGxvNU8takhKelp6TTdrenVTNzZlcFRsTG81ZGtjTHFzNXdKWFpiVFVOdWFzbGtUVFJDbk45Q0JQM0tZX0NmVC1ta1dtRnVPOTZnUFBVUlgxdnZuaHpjR0FoQkxuUHZsVFhpbUk?oc=5",
+      "id": "CBMiqwFBVV95cUxPclpabWdJcm9saXJ6SnloTU9UMkZ0WWV5bTBfajVJQjhxWFZjVi1MRlFwRk1sMmhVOHc4bHNCbXB4WVpDNVJrZGxvNU8takhKelp6TTdrenVTNzZlcFRsTG81ZGtjTHFzNXdKWFpiVFVOdWFzbGtUVFJDbk45Q0JQM0tZX0NmVC1ta1dtRnVPOTZnUFBVUlgxdnZuaHpjR0FoQkxuUHZsVFhpbUk",
+      "guidislink": false,
+      "published": "Fri, 02 Feb 2018 08:00:00 GMT",
+      "published_parsed": [
+        2018,
+        2,
+        2,
+        8,
+        0,
+        0,
+        4,
+        33,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxPclpabWdJcm9saXJ6SnloTU9UMkZ0WWV5bTBfajVJQjhxWFZjVi1MRlFwRk1sMmhVOHc4bHNCbXB4WVpDNVJrZGxvNU8takhKelp6TTdrenVTNzZlcFRsTG81ZGtjTHFzNXdKWFpiVFVOdWFzbGtUVFJDbk45Q0JQM0tZX0NmVC1ta1dtRnVPOTZnUFBVUlgxdnZuaHpjR0FoQkxuUHZsVFhpbUk?oc=5\" target=\"_blank\">Brain genes hint at why Zika doesn’t always cause microcephaly</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">New Scientist</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxPclpabWdJcm9saXJ6SnloTU9UMkZ0WWV5bTBfajVJQjhxWFZjVi1MRlFwRk1sMmhVOHc4bHNCbXB4WVpDNVJrZGxvNU8takhKelp6TTdrenVTNzZlcFRsTG81ZGtjTHFzNXdKWFpiVFVOdWFzbGtUVFJDbk45Q0JQM0tZX0NmVC1ta1dtRnVPOTZnUFBVUlgxdnZuaHpjR0FoQkxuUHZsVFhpbUk?oc=5\" target=\"_blank\">Brain genes hint at why Zika doesn’t always cause microcephaly</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">New Scientist</font>"
+      },
+      "source": {
+        "href": "https://www.newscientist.com",
+        "title": "New Scientist"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika vaccine development: two years on from the outbreak - The Pharmaceutical Journal",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika vaccine development: two years on from the outbreak - The Pharmaceutical Journal"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObnNidlJLVUFkczg3TTkyRnFKWWJZenVpOWdQcnljZmE1MFZxVXFPUkVOLV9jX1FUbFMtempyLUIzWVpKVGdMVmI0R2QtekR2VEEyOGFxX0Q3YV84SFBvR2hxR3kwVnI4ZE5Kc0l1Um5zclJuVHFIc185OXZJeGxOMDR3ZGVheGMzZzBiV012cFJfQTNaTzhoODNwalVqcC1qVjFvMTFTRzE3Zw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObnNidlJLVUFkczg3TTkyRnFKWWJZenVpOWdQcnljZmE1MFZxVXFPUkVOLV9jX1FUbFMtempyLUIzWVpKVGdMVmI0R2QtekR2VEEyOGFxX0Q3YV84SFBvR2hxR3kwVnI4ZE5Kc0l1Um5zclJuVHFIc185OXZJeGxOMDR3ZGVheGMzZzBiV012cFJfQTNaTzhoODNwalVqcC1qVjFvMTFTRzE3Zw?oc=5",
+      "id": "CBMiqgFBVV95cUxObnNidlJLVUFkczg3TTkyRnFKWWJZenVpOWdQcnljZmE1MFZxVXFPUkVOLV9jX1FUbFMtempyLUIzWVpKVGdMVmI0R2QtekR2VEEyOGFxX0Q3YV84SFBvR2hxR3kwVnI4ZE5Kc0l1Um5zclJuVHFIc185OXZJeGxOMDR3ZGVheGMzZzBiV012cFJfQTNaTzhoODNwalVqcC1qVjFvMTFTRzE3Zw",
+      "guidislink": false,
+      "published": "Thu, 01 Feb 2018 08:00:00 GMT",
+      "published_parsed": [
+        2018,
+        2,
+        1,
+        8,
+        0,
+        0,
+        3,
+        32,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxObnNidlJLVUFkczg3TTkyRnFKWWJZenVpOWdQcnljZmE1MFZxVXFPUkVOLV9jX1FUbFMtempyLUIzWVpKVGdMVmI0R2QtekR2VEEyOGFxX0Q3YV84SFBvR2hxR3kwVnI4ZE5Kc0l1Um5zclJuVHFIc185OXZJeGxOMDR3ZGVheGMzZzBiV012cFJfQTNaTzhoODNwalVqcC1qVjFvMTFTRzE3Zw?oc=5\" target=\"_blank\">Zika vaccine development: two years on from the outbreak</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Pharmaceutical Journal</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxObnNidlJLVUFkczg3TTkyRnFKWWJZenVpOWdQcnljZmE1MFZxVXFPUkVOLV9jX1FUbFMtempyLUIzWVpKVGdMVmI0R2QtekR2VEEyOGFxX0Q3YV84SFBvR2hxR3kwVnI4ZE5Kc0l1Um5zclJuVHFIc185OXZJeGxOMDR3ZGVheGMzZzBiV012cFJfQTNaTzhoODNwalVqcC1qVjFvMTFTRzE3Zw?oc=5\" target=\"_blank\">Zika vaccine development: two years on from the outbreak</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Pharmaceutical Journal</font>"
+      },
+      "source": {
+        "href": "https://pharmaceutical-journal.com",
+        "title": "The Pharmaceutical Journal"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "What is Zika, where did the virus come from and what happens if I catch it? - The Telegraph",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "What is Zika, where did the virus come from and what happens if I catch it? - The Telegraph"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTHRLa0d5eWJDLTZkaDBuYUZrY29FSUljdXgzTVRZUkNrRlFIRFZfY1luZlNDVmxoeWhhdUM0QndPZ09RcUZTMGpDd3lkX0Q0SHBxTUlMNUpwSGdPS1U4NGl0VEFkM2ctUnp4LTJPQVVKeTR0Rjc2SGpYZmNlbjB3VEtzdGd0VndRdVRfWXZrSkVBUWZDTXQxaXBFbkNsUkVDd3c?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTHRLa0d5eWJDLTZkaDBuYUZrY29FSUljdXgzTVRZUkNrRlFIRFZfY1luZlNDVmxoeWhhdUM0QndPZ09RcUZTMGpDd3lkX0Q0SHBxTUlMNUpwSGdPS1U4NGl0VEFkM2ctUnp4LTJPQVVKeTR0Rjc2SGpYZmNlbjB3VEtzdGd0VndRdVRfWXZrSkVBUWZDTXQxaXBFbkNsUkVDd3c?oc=5",
+      "id": "CBMiogFBVV95cUxQTHRLa0d5eWJDLTZkaDBuYUZrY29FSUljdXgzTVRZUkNrRlFIRFZfY1luZlNDVmxoeWhhdUM0QndPZ09RcUZTMGpDd3lkX0Q0SHBxTUlMNUpwSGdPS1U4NGl0VEFkM2ctUnp4LTJPQVVKeTR0Rjc2SGpYZmNlbjB3VEtzdGd0VndRdVRfWXZrSkVBUWZDTXQxaXBFbkNsUkVDd3c",
+      "guidislink": false,
+      "published": "Thu, 01 Feb 2018 08:00:00 GMT",
+      "published_parsed": [
+        2018,
+        2,
+        1,
+        8,
+        0,
+        0,
+        3,
+        32,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxQTHRLa0d5eWJDLTZkaDBuYUZrY29FSUljdXgzTVRZUkNrRlFIRFZfY1luZlNDVmxoeWhhdUM0QndPZ09RcUZTMGpDd3lkX0Q0SHBxTUlMNUpwSGdPS1U4NGl0VEFkM2ctUnp4LTJPQVVKeTR0Rjc2SGpYZmNlbjB3VEtzdGd0VndRdVRfWXZrSkVBUWZDTXQxaXBFbkNsUkVDd3c?oc=5\" target=\"_blank\">What is Zika, where did the virus come from and what happens if I catch it?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Telegraph</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxQTHRLa0d5eWJDLTZkaDBuYUZrY29FSUljdXgzTVRZUkNrRlFIRFZfY1luZlNDVmxoeWhhdUM0QndPZ09RcUZTMGpDd3lkX0Q0SHBxTUlMNUpwSGdPS1U4NGl0VEFkM2ctUnp4LTJPQVVKeTR0Rjc2SGpYZmNlbjB3VEtzdGd0VndRdVRfWXZrSkVBUWZDTXQxaXBFbkNsUkVDd3c?oc=5\" target=\"_blank\">What is Zika, where did the virus come from and what happens if I catch it?</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Telegraph</font>"
+      },
+      "source": {
+        "href": "https://www.telegraph.co.uk",
+        "title": "The Telegraph"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Discordant congenital Zika syndrome twins show differential in vitro viral susceptibility of neural progenitor cells - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Discordant congenital Zika syndrome twins show differential in vitro viral susceptibility of neural progenitor cells - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5McF9QVmF1RnkxZzI2YlU5M1RReU1wcUZoUi1lZnJvdk9KLXJlS0hRYkU3ZGVaM3ZOM0RqaERGT3d6LU1UdTFITWRCY0VtbDVWVHBXVy1zcUQ3SXBjN3Zn?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5McF9QVmF1RnkxZzI2YlU5M1RReU1wcUZoUi1lZnJvdk9KLXJlS0hRYkU3ZGVaM3ZOM0RqaERGT3d6LU1UdTFITWRCY0VtbDVWVHBXVy1zcUQ3SXBjN3Zn?oc=5",
+      "id": "CBMiX0FVX3lxTE5McF9QVmF1RnkxZzI2YlU5M1RReU1wcUZoUi1lZnJvdk9KLXJlS0hRYkU3ZGVaM3ZOM0RqaERGT3d6LU1UdTFITWRCY0VtbDVWVHBXVy1zcUQ3SXBjN3Zn",
+      "guidislink": false,
+      "published": "Fri, 02 Feb 2018 08:00:00 GMT",
+      "published_parsed": [
+        2018,
+        2,
+        2,
+        8,
+        0,
+        0,
+        4,
+        33,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5McF9QVmF1RnkxZzI2YlU5M1RReU1wcUZoUi1lZnJvdk9KLXJlS0hRYkU3ZGVaM3ZOM0RqaERGT3d6LU1UdTFITWRCY0VtbDVWVHBXVy1zcUQ3SXBjN3Zn?oc=5\" target=\"_blank\">Discordant congenital Zika syndrome twins show differential in vitro viral susceptibility of neural progenitor cells</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5McF9QVmF1RnkxZzI2YlU5M1RReU1wcUZoUi1lZnJvdk9KLXJlS0hRYkU3ZGVaM3ZOM0RqaERGT3d6LU1UdTFITWRCY0VtbDVWVHBXVy1zcUQ3SXBjN3Zn?oc=5\" target=\"_blank\">Discordant congenital Zika syndrome twins show differential in vitro viral susceptibility of neural progenitor cells</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "An evolutionary NS1 mutation enhances Zika virus evasion of host interferon induction - Nature",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "An evolutionary NS1 mutation enhances Zika virus evasion of host interferon induction - Nature"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE16RFlHX1c5a3h5eGloRWJkeVloVVZLTnpaQ1lYVkM5M25jVE13UXdhYlBKcGZQSTZJVmw5X1lKd0J2QTFkaHNpTVotUmdSSkV1TEhiNUFPNXFhLWl6ajl3?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE16RFlHX1c5a3h5eGloRWJkeVloVVZLTnpaQ1lYVkM5M25jVE13UXdhYlBKcGZQSTZJVmw5X1lKd0J2QTFkaHNpTVotUmdSSkV1TEhiNUFPNXFhLWl6ajl3?oc=5",
+      "id": "CBMiX0FVX3lxTE16RFlHX1c5a3h5eGloRWJkeVloVVZLTnpaQ1lYVkM5M25jVE13UXdhYlBKcGZQSTZJVmw5X1lKd0J2QTFkaHNpTVotUmdSSkV1TEhiNUFPNXFhLWl6ajl3",
+      "guidislink": false,
+      "published": "Mon, 29 Jan 2018 08:00:00 GMT",
+      "published_parsed": [
+        2018,
+        1,
+        29,
+        8,
+        0,
+        0,
+        0,
+        29,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE16RFlHX1c5a3h5eGloRWJkeVloVVZLTnpaQ1lYVkM5M25jVE13UXdhYlBKcGZQSTZJVmw5X1lKd0J2QTFkaHNpTVotUmdSSkV1TEhiNUFPNXFhLWl6ajl3?oc=5\" target=\"_blank\">An evolutionary NS1 mutation enhances Zika virus evasion of host interferon induction</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE16RFlHX1c5a3h5eGloRWJkeVloVVZLTnpaQ1lYVkM5M25jVE13UXdhYlBKcGZQSTZJVmw5X1lKd0J2QTFkaHNpTVotUmdSSkV1TEhiNUFPNXFhLWl6ajl3?oc=5\" target=\"_blank\">An evolutionary NS1 mutation enhances Zika virus evasion of host interferon induction</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Nature</font>"
+      },
+      "source": {
+        "href": "https://www.nature.com",
+        "title": "Nature"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Relatives of Zika virus may also cause birth defects: study - Xinhua | English.news.cn - 新华网",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Relatives of Zika virus may also cause birth defects: study - Xinhua | English.news.cn - 新华网"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5SdjBqeEdhaDdPWDE2d1pSb1BwcW5XdU95REVqSzJHa0R6dnNZS2tISlM0Zm9MVWZMRGxVTUM4ZVVnOS0wa3hvdlpYVnYzeGRDWFNiTUYxMWpQRWtSMkZQeVJ2OURsdHFicVdz?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5SdjBqeEdhaDdPWDE2d1pSb1BwcW5XdU95REVqSzJHa0R6dnNZS2tISlM0Zm9MVWZMRGxVTUM4ZVVnOS0wa3hvdlpYVnYzeGRDWFNiTUYxMWpQRWtSMkZQeVJ2OURsdHFicVdz?oc=5",
+      "id": "CBMia0FVX3lxTE5SdjBqeEdhaDdPWDE2d1pSb1BwcW5XdU95REVqSzJHa0R6dnNZS2tISlM0Zm9MVWZMRGxVTUM4ZVVnOS0wa3hvdlpYVnYzeGRDWFNiTUYxMWpQRWtSMkZQeVJ2OURsdHFicVdz",
+      "guidislink": false,
+      "published": "Thu, 01 Feb 2018 08:00:00 GMT",
+      "published_parsed": [
+        2018,
+        2,
+        1,
+        8,
+        0,
+        0,
+        3,
+        32,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE5SdjBqeEdhaDdPWDE2d1pSb1BwcW5XdU95REVqSzJHa0R6dnNZS2tISlM0Zm9MVWZMRGxVTUM4ZVVnOS0wa3hvdlpYVnYzeGRDWFNiTUYxMWpQRWtSMkZQeVJ2OURsdHFicVdz?oc=5\" target=\"_blank\">Relatives of Zika virus may also cause birth defects: study - Xinhua | English.news.cn</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">新华网</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE5SdjBqeEdhaDdPWDE2d1pSb1BwcW5XdU95REVqSzJHa0R6dnNZS2tISlM0Zm9MVWZMRGxVTUM4ZVVnOS0wa3hvdlpYVnYzeGRDWFNiTUYxMWpQRWtSMkZQeVJ2OURsdHFicVdz?oc=5\" target=\"_blank\">Relatives of Zika virus may also cause birth defects: study - Xinhua | English.news.cn</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">新华网</font>"
+      },
+      "source": {
+        "href": "http://www.xinhuanet.com",
+        "title": "新华网"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Doctors Warn: West Nile Virus Endemic to Israel May Cause Zika-like Birth Defects - Haaretz",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Doctors Warn: West Nile Virus Endemic to Israel May Cause Zika-like Birth Defects - Haaretz"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQLVJWSXptdjJpa29fbzg2VTRoTXNvOGJOazhjb1dmZTM0ZHgxeEE5a0dzQ3VpNVlCX0lwU0RTd2puSHZxU1BPVk83dGFHQTg2SGFveUZkaU9mWXEzSGxJZ21abmczZ1ppS0JsYTBGcDE2anNISm9vWkwtbGx4WXByNGVER0hXZGlCSWp4OHhiT3ZxVUNteEhLTlh2UFhiN1g4aFZrU296aTJZUTdWLW16ZEszRjdYbTN6ZmdZZ19SNEtLSUZQV1FZaUhyU0JGX3JMT0Z4eUNSS3lqeGFwTW1xa1EzZUFKVzY3VGhuZFVvSHo2dDlRQnJj?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQLVJWSXptdjJpa29fbzg2VTRoTXNvOGJOazhjb1dmZTM0ZHgxeEE5a0dzQ3VpNVlCX0lwU0RTd2puSHZxU1BPVk83dGFHQTg2SGFveUZkaU9mWXEzSGxJZ21abmczZ1ppS0JsYTBGcDE2anNISm9vWkwtbGx4WXByNGVER0hXZGlCSWp4OHhiT3ZxVUNteEhLTlh2UFhiN1g4aFZrU296aTJZUTdWLW16ZEszRjdYbTN6ZmdZZ19SNEtLSUZQV1FZaUhyU0JGX3JMT0Z4eUNSS3lqeGFwTW1xa1EzZUFKVzY3VGhuZFVvSHo2dDlRQnJj?oc=5",
+      "id": "CBMi9wFBVV95cUxQLVJWSXptdjJpa29fbzg2VTRoTXNvOGJOazhjb1dmZTM0ZHgxeEE5a0dzQ3VpNVlCX0lwU0RTd2puSHZxU1BPVk83dGFHQTg2SGFveUZkaU9mWXEzSGxJZ21abmczZ1ppS0JsYTBGcDE2anNISm9vWkwtbGx4WXByNGVER0hXZGlCSWp4OHhiT3ZxVUNteEhLTlh2UFhiN1g4aFZrU296aTJZUTdWLW16ZEszRjdYbTN6ZmdZZ19SNEtLSUZQV1FZaUhyU0JGX3JMT0Z4eUNSS3lqeGFwTW1xa1EzZUFKVzY3VGhuZFVvSHo2dDlRQnJj",
+      "guidislink": false,
+      "published": "Fri, 02 Feb 2018 08:00:00 GMT",
+      "published_parsed": [
+        2018,
+        2,
+        2,
+        8,
+        0,
+        0,
+        4,
+        33,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi9wFBVV95cUxQLVJWSXptdjJpa29fbzg2VTRoTXNvOGJOazhjb1dmZTM0ZHgxeEE5a0dzQ3VpNVlCX0lwU0RTd2puSHZxU1BPVk83dGFHQTg2SGFveUZkaU9mWXEzSGxJZ21abmczZ1ppS0JsYTBGcDE2anNISm9vWkwtbGx4WXByNGVER0hXZGlCSWp4OHhiT3ZxVUNteEhLTlh2UFhiN1g4aFZrU296aTJZUTdWLW16ZEszRjdYbTN6ZmdZZ19SNEtLSUZQV1FZaUhyU0JGX3JMT0Z4eUNSS3lqeGFwTW1xa1EzZUFKVzY3VGhuZFVvSHo2dDlRQnJj?oc=5\" target=\"_blank\">Doctors Warn: West Nile Virus Endemic to Israel May Cause Zika-like Birth Defects</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Haaretz</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMi9wFBVV95cUxQLVJWSXptdjJpa29fbzg2VTRoTXNvOGJOazhjb1dmZTM0ZHgxeEE5a0dzQ3VpNVlCX0lwU0RTd2puSHZxU1BPVk83dGFHQTg2SGFveUZkaU9mWXEzSGxJZ21abmczZ1ppS0JsYTBGcDE2anNISm9vWkwtbGx4WXByNGVER0hXZGlCSWp4OHhiT3ZxVUNteEhLTlh2UFhiN1g4aFZrU296aTJZUTdWLW16ZEszRjdYbTN6ZmdZZ19SNEtLSUZQV1FZaUhyU0JGX3JMT0Z4eUNSS3lqeGFwTW1xa1EzZUFKVzY3VGhuZFVvSHo2dDlRQnJj?oc=5\" target=\"_blank\">Doctors Warn: West Nile Virus Endemic to Israel May Cause Zika-like Birth Defects</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Haaretz</font>"
+      },
+      "source": {
+        "href": "https://www.haaretz.com",
+        "title": "Haaretz"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Poor Women Of Color Bear The Brunt Of Zika Burden In Brazil - HuffPost",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Poor Women Of Color Bear The Brunt Of Zika Burden In Brazil - HuffPost"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOX21xRUFoZlZLVnlmUHM3SHdJN3ZmU2o5NUlBc1FZeGU1WTFaU3dkX0lVVHB1X19yb3luNXk1bkFudGpMRnJNT3pMY0FHbV9mVU42aV9TemhUZW9fZWk3X0xrc3g5VDNpei1RRS1RU2lTY1dpRnFCbFZYZkp3RUhpSGxzaHJ1cC1xZmVhcUprLXJuOTjSAZgBQVVfeXFMTWV6T2pVR3FuSjBLNndtN2FPSVpzVHlNa21Rcmp0NjVLUC1ucFBncXFEV0FJRm5oMmZ1cG1fNUh2Z3pVSXBoLUNVSHlJQm5hZ2QxNjNSY0VsTjk3LUZTNjc4SVpvb01iRk5GRzl1ZFNGYVFqcm55aHlmcjd3T1hzVDBvSXZ4X0RYWW8xbmxFM1NFQUlsbnFINjI?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOX21xRUFoZlZLVnlmUHM3SHdJN3ZmU2o5NUlBc1FZeGU1WTFaU3dkX0lVVHB1X19yb3luNXk1bkFudGpMRnJNT3pMY0FHbV9mVU42aV9TemhUZW9fZWk3X0xrc3g5VDNpei1RRS1RU2lTY1dpRnFCbFZYZkp3RUhpSGxzaHJ1cC1xZmVhcUprLXJuOTjSAZgBQVVfeXFMTWV6T2pVR3FuSjBLNndtN2FPSVpzVHlNa21Rcmp0NjVLUC1ucFBncXFEV0FJRm5oMmZ1cG1fNUh2Z3pVSXBoLUNVSHlJQm5hZ2QxNjNSY0VsTjk3LUZTNjc4SVpvb01iRk5GRzl1ZFNGYVFqcm55aHlmcjd3T1hzVDBvSXZ4X0RYWW8xbmxFM1NFQUlsbnFINjI?oc=5",
+      "id": "CBMikwFBVV95cUxOX21xRUFoZlZLVnlmUHM3SHdJN3ZmU2o5NUlBc1FZeGU1WTFaU3dkX0lVVHB1X19yb3luNXk1bkFudGpMRnJNT3pMY0FHbV9mVU42aV9TemhUZW9fZWk3X0xrc3g5VDNpei1RRS1RU2lTY1dpRnFCbFZYZkp3RUhpSGxzaHJ1cC1xZmVhcUprLXJuOTjSAZgBQVVfeXFMTWV6T2pVR3FuSjBLNndtN2FPSVpzVHlNa21Rcmp0NjVLUC1ucFBncXFEV0FJRm5oMmZ1cG1fNUh2Z3pVSXBoLUNVSHlJQm5hZ2QxNjNSY0VsTjk3LUZTNjc4SVpvb01iRk5GRzl1ZFNGYVFqcm55aHlmcjd3T1hzVDBvSXZ4X0RYWW8xbmxFM1NFQUlsbnFINjI",
+      "guidislink": false,
+      "published": "Wed, 24 Jan 2018 08:00:00 GMT",
+      "published_parsed": [
+        2018,
+        1,
+        24,
+        8,
+        0,
+        0,
+        2,
+        24,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxOX21xRUFoZlZLVnlmUHM3SHdJN3ZmU2o5NUlBc1FZeGU1WTFaU3dkX0lVVHB1X19yb3luNXk1bkFudGpMRnJNT3pMY0FHbV9mVU42aV9TemhUZW9fZWk3X0xrc3g5VDNpei1RRS1RU2lTY1dpRnFCbFZYZkp3RUhpSGxzaHJ1cC1xZmVhcUprLXJuOTjSAZgBQVVfeXFMTWV6T2pVR3FuSjBLNndtN2FPSVpzVHlNa21Rcmp0NjVLUC1ucFBncXFEV0FJRm5oMmZ1cG1fNUh2Z3pVSXBoLUNVSHlJQm5hZ2QxNjNSY0VsTjk3LUZTNjc4SVpvb01iRk5GRzl1ZFNGYVFqcm55aHlmcjd3T1hzVDBvSXZ4X0RYWW8xbmxFM1NFQUlsbnFINjI?oc=5\" target=\"_blank\">Poor Women Of Color Bear The Brunt Of Zika Burden In Brazil</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">HuffPost</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxOX21xRUFoZlZLVnlmUHM3SHdJN3ZmU2o5NUlBc1FZeGU1WTFaU3dkX0lVVHB1X19yb3luNXk1bkFudGpMRnJNT3pMY0FHbV9mVU42aV9TemhUZW9fZWk3X0xrc3g5VDNpei1RRS1RU2lTY1dpRnFCbFZYZkp3RUhpSGxzaHJ1cC1xZmVhcUprLXJuOTjSAZgBQVVfeXFMTWV6T2pVR3FuSjBLNndtN2FPSVpzVHlNa21Rcmp0NjVLUC1ucFBncXFEV0FJRm5oMmZ1cG1fNUh2Z3pVSXBoLUNVSHlJQm5hZ2QxNjNSY0VsTjk3LUZTNjc4SVpvb01iRk5GRzl1ZFNGYVFqcm55aHlmcjd3T1hzVDBvSXZ4X0RYWW8xbmxFM1NFQUlsbnFINjI?oc=5\" target=\"_blank\">Poor Women Of Color Bear The Brunt Of Zika Burden In Brazil</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">HuffPost</font>"
+      },
+      "source": {
+        "href": "https://www.huffpost.com",
+        "title": "HuffPost"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "More birth defects reported in states with local spread of Zika, including Florida - Miami Herald",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "More birth defects reported in states with local spread of Zika, including Florida - Miami Herald"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMic0FVX3lxTE91ajdFVlNyUXJnMkFPa3E2VGFLWE9BZEY0QmxfWHJQSmR4bjF3bHd3TE80YzdsU2tvbGstN0xWLUYweWlZYU0yekpLNThUTUNIeWxYd2ZhZTRSci01RnRBTVN1cTJTWE1lRTlMOWdiWDZCUk3SAXRBVV95cUxOazBPNkw0TlR1ajdXZGhWeU5vR3AxODRyLWxna0ZVcHJDZG1oM01WRjlyRXdMd2kwbkg3QlN4SjQxclViUjNQUkV5cTllSU9rcVN5UlV6bnNpc2xLdk9MUUNlclFqeGZScFJmZWoxT0JjM0FnVA?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE91ajdFVlNyUXJnMkFPa3E2VGFLWE9BZEY0QmxfWHJQSmR4bjF3bHd3TE80YzdsU2tvbGstN0xWLUYweWlZYU0yekpLNThUTUNIeWxYd2ZhZTRSci01RnRBTVN1cTJTWE1lRTlMOWdiWDZCUk3SAXRBVV95cUxOazBPNkw0TlR1ajdXZGhWeU5vR3AxODRyLWxna0ZVcHJDZG1oM01WRjlyRXdMd2kwbkg3QlN4SjQxclViUjNQUkV5cTllSU9rcVN5UlV6bnNpc2xLdk9MUUNlclFqeGZScFJmZWoxT0JjM0FnVA?oc=5",
+      "id": "CBMic0FVX3lxTE91ajdFVlNyUXJnMkFPa3E2VGFLWE9BZEY0QmxfWHJQSmR4bjF3bHd3TE80YzdsU2tvbGstN0xWLUYweWlZYU0yekpLNThUTUNIeWxYd2ZhZTRSci01RnRBTVN1cTJTWE1lRTlMOWdiWDZCUk3SAXRBVV95cUxOazBPNkw0TlR1ajdXZGhWeU5vR3AxODRyLWxna0ZVcHJDZG1oM01WRjlyRXdMd2kwbkg3QlN4SjQxclViUjNQUkV5cTllSU9rcVN5UlV6bnNpc2xLdk9MUUNlclFqeGZScFJmZWoxT0JjM0FnVA",
+      "guidislink": false,
+      "published": "Thu, 25 Jan 2018 08:00:00 GMT",
+      "published_parsed": [
+        2018,
+        1,
+        25,
+        8,
+        0,
+        0,
+        3,
+        25,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE91ajdFVlNyUXJnMkFPa3E2VGFLWE9BZEY0QmxfWHJQSmR4bjF3bHd3TE80YzdsU2tvbGstN0xWLUYweWlZYU0yekpLNThUTUNIeWxYd2ZhZTRSci01RnRBTVN1cTJTWE1lRTlMOWdiWDZCUk3SAXRBVV95cUxOazBPNkw0TlR1ajdXZGhWeU5vR3AxODRyLWxna0ZVcHJDZG1oM01WRjlyRXdMd2kwbkg3QlN4SjQxclViUjNQUkV5cTllSU9rcVN5UlV6bnNpc2xLdk9MUUNlclFqeGZScFJmZWoxT0JjM0FnVA?oc=5\" target=\"_blank\">More birth defects reported in states with local spread of Zika, including Florida</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Miami Herald</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE91ajdFVlNyUXJnMkFPa3E2VGFLWE9BZEY0QmxfWHJQSmR4bjF3bHd3TE80YzdsU2tvbGstN0xWLUYweWlZYU0yekpLNThUTUNIeWxYd2ZhZTRSci01RnRBTVN1cTJTWE1lRTlMOWdiWDZCUk3SAXRBVV95cUxOazBPNkw0TlR1ajdXZGhWeU5vR3AxODRyLWxna0ZVcHJDZG1oM01WRjlyRXdMd2kwbkg3QlN4SjQxclViUjNQUkV5cTllSU9rcVN5UlV6bnNpc2xLdk9MUUNlclFqeGZScFJmZWoxT0JjM0FnVA?oc=5\" target=\"_blank\">More birth defects reported in states with local spread of Zika, including Florida</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Miami Herald</font>"
+      },
+      "source": {
+        "href": "http://www.miamiherald.com",
+        "title": "Miami Herald"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Waging war against the mosquito: Split-gene drive could hinder spread of Zika - Genetic Literacy Project",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Waging war against the mosquito: Split-gene drive could hinder spread of Zika - Genetic Literacy Project"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSEdFak1hWldyakZNSEEweWNQR0hjTnAtUkowYXB2UF9Sc3ZrSEtaVkRncjBxSnBjVHZTdnNtLXI1SjZlSDhnUXo5a1V3RlU2Ny00X1RBUmJyVFc1WkhSVkZoU212TlNyUzNRQWNLWDNVVjBLUV9iWW9UbFBlc05pWC1UbG1PTWwtVENhc3Zta2lzZUNRSldqMzZ1VFVvdWU4UGJlUw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSEdFak1hWldyakZNSEEweWNQR0hjTnAtUkowYXB2UF9Sc3ZrSEtaVkRncjBxSnBjVHZTdnNtLXI1SjZlSDhnUXo5a1V3RlU2Ny00X1RBUmJyVFc1WkhSVkZoU212TlNyUzNRQWNLWDNVVjBLUV9iWW9UbFBlc05pWC1UbG1PTWwtVENhc3Zta2lzZUNRSldqMzZ1VFVvdWU4UGJlUw?oc=5",
+      "id": "CBMipAFBVV95cUxOSEdFak1hWldyakZNSEEweWNQR0hjTnAtUkowYXB2UF9Sc3ZrSEtaVkRncjBxSnBjVHZTdnNtLXI1SjZlSDhnUXo5a1V3RlU2Ny00X1RBUmJyVFc1WkhSVkZoU212TlNyUzNRQWNLWDNVVjBLUV9iWW9UbFBlc05pWC1UbG1PTWwtVENhc3Zta2lzZUNRSldqMzZ1VFVvdWU4UGJlUw",
+      "guidislink": false,
+      "published": "Mon, 29 Jan 2018 08:00:00 GMT",
+      "published_parsed": [
+        2018,
+        1,
+        29,
+        8,
+        0,
+        0,
+        0,
+        29,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxOSEdFak1hWldyakZNSEEweWNQR0hjTnAtUkowYXB2UF9Sc3ZrSEtaVkRncjBxSnBjVHZTdnNtLXI1SjZlSDhnUXo5a1V3RlU2Ny00X1RBUmJyVFc1WkhSVkZoU212TlNyUzNRQWNLWDNVVjBLUV9iWW9UbFBlc05pWC1UbG1PTWwtVENhc3Zta2lzZUNRSldqMzZ1VFVvdWU4UGJlUw?oc=5\" target=\"_blank\">Waging war against the mosquito: Split-gene drive could hinder spread of Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Genetic Literacy Project</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxOSEdFak1hWldyakZNSEEweWNQR0hjTnAtUkowYXB2UF9Sc3ZrSEtaVkRncjBxSnBjVHZTdnNtLXI1SjZlSDhnUXo5a1V3RlU2Ny00X1RBUmJyVFc1WkhSVkZoU212TlNyUzNRQWNLWDNVVjBLUV9iWW9UbFBlc05pWC1UbG1PTWwtVENhc3Zta2lzZUNRSldqMzZ1VFVvdWU4UGJlUw?oc=5\" target=\"_blank\">Waging war against the mosquito: Split-gene drive could hinder spread of Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Genetic Literacy Project</font>"
+      },
+      "source": {
+        "href": "https://geneticliteracyproject.org",
+        "title": "Genetic Literacy Project"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Bacteria block transmission of Zika and Dengue viruses - https://debuglies.com",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Bacteria block transmission of Zika and Dengue viruses - https://debuglies.com"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNekNvRnNvc1pjYmtyUUpMZW56TDY1RmVTUGJSZ3l6WVcyS0xMTFNIc2NaTlF2cWh0alVSWmhFM1JEdEdxdEtlVG80cTl3anJTT2llb2Q4dzZvSTk1TFFhejBlVnZKVzU1Z2tWUjZ3SWtndlRyYm9iOGhSeE9MZk9oT0VyZ3huS2NSaTFMaEtlSGhiZw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNekNvRnNvc1pjYmtyUUpMZW56TDY1RmVTUGJSZ3l6WVcyS0xMTFNIc2NaTlF2cWh0alVSWmhFM1JEdEdxdEtlVG80cTl3anJTT2llb2Q4dzZvSTk1TFFhejBlVnZKVzU1Z2tWUjZ3SWtndlRyYm9iOGhSeE9MZk9oT0VyZ3huS2NSaTFMaEtlSGhiZw?oc=5",
+      "id": "CBMikgFBVV95cUxNekNvRnNvc1pjYmtyUUpMZW56TDY1RmVTUGJSZ3l6WVcyS0xMTFNIc2NaTlF2cWh0alVSWmhFM1JEdEdxdEtlVG80cTl3anJTT2llb2Q4dzZvSTk1TFFhejBlVnZKVzU1Z2tWUjZ3SWtndlRyYm9iOGhSeE9MZk9oT0VyZ3huS2NSaTFMaEtlSGhiZw",
+      "guidislink": false,
+      "published": "Sat, 27 Jan 2018 08:00:00 GMT",
+      "published_parsed": [
+        2018,
+        1,
+        27,
+        8,
+        0,
+        0,
+        5,
+        27,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxNekNvRnNvc1pjYmtyUUpMZW56TDY1RmVTUGJSZ3l6WVcyS0xMTFNIc2NaTlF2cWh0alVSWmhFM1JEdEdxdEtlVG80cTl3anJTT2llb2Q4dzZvSTk1TFFhejBlVnZKVzU1Z2tWUjZ3SWtndlRyYm9iOGhSeE9MZk9oT0VyZ3huS2NSaTFMaEtlSGhiZw?oc=5\" target=\"_blank\">Bacteria block transmission of Zika and Dengue viruses</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">https://debuglies.com</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxNekNvRnNvc1pjYmtyUUpMZW56TDY1RmVTUGJSZ3l6WVcyS0xMTFNIc2NaTlF2cWh0alVSWmhFM1JEdEdxdEtlVG80cTl3anJTT2llb2Q4dzZvSTk1TFFhejBlVnZKVzU1Z2tWUjZ3SWtndlRyYm9iOGhSeE9MZk9oT0VyZ3huS2NSaTFMaEtlSGhiZw?oc=5\" target=\"_blank\">Bacteria block transmission of Zika and Dengue viruses</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">https://debuglies.com</font>"
+      },
+      "source": {
+        "href": "https://debuglies.com",
+        "title": "https://debuglies.com"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Genetically-Modified, Bacteria-Infected Mosquitoes Used to Fight Zika - The Weather Channel",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Genetically-Modified, Bacteria-Infected Mosquitoes Used to Fight Zika - The Weather Channel"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQ0V4bmtobTl3aGdwd0l3UUJOb3dGR2RSX2dOb0dlTUdFdWhPZ3RSdDNiZjdfR3JiNXhQY2FDQjk2dk5FYzNKN0o4Ukw0YmdqUkwzX2JLLWU4V3QyTEZvVkM4QWZhVmtlOTEwVkNqcHVZVC1fU2xtWU9SZlVSc1lleE5DdXotZ2U5TDhKNUEzbnVTV2JLbjdNb3VDeVZxVTVmWExR?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQ0V4bmtobTl3aGdwd0l3UUJOb3dGR2RSX2dOb0dlTUdFdWhPZ3RSdDNiZjdfR3JiNXhQY2FDQjk2dk5FYzNKN0o4Ukw0YmdqUkwzX2JLLWU4V3QyTEZvVkM4QWZhVmtlOTEwVkNqcHVZVC1fU2xtWU9SZlVSc1lleE5DdXotZ2U5TDhKNUEzbnVTV2JLbjdNb3VDeVZxVTVmWExR?oc=5",
+      "id": "CBMiowFBVV95cUxQQ0V4bmtobTl3aGdwd0l3UUJOb3dGR2RSX2dOb0dlTUdFdWhPZ3RSdDNiZjdfR3JiNXhQY2FDQjk2dk5FYzNKN0o4Ukw0YmdqUkwzX2JLLWU4V3QyTEZvVkM4QWZhVmtlOTEwVkNqcHVZVC1fU2xtWU9SZlVSc1lleE5DdXotZ2U5TDhKNUEzbnVTV2JLbjdNb3VDeVZxVTVmWExR",
+      "guidislink": false,
+      "published": "Wed, 31 Jan 2018 08:00:00 GMT",
+      "published_parsed": [
+        2018,
+        1,
+        31,
+        8,
+        0,
+        0,
+        2,
+        31,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxQQ0V4bmtobTl3aGdwd0l3UUJOb3dGR2RSX2dOb0dlTUdFdWhPZ3RSdDNiZjdfR3JiNXhQY2FDQjk2dk5FYzNKN0o4Ukw0YmdqUkwzX2JLLWU4V3QyTEZvVkM4QWZhVmtlOTEwVkNqcHVZVC1fU2xtWU9SZlVSc1lleE5DdXotZ2U5TDhKNUEzbnVTV2JLbjdNb3VDeVZxVTVmWExR?oc=5\" target=\"_blank\">Genetically-Modified, Bacteria-Infected Mosquitoes Used to Fight Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Weather Channel</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxQQ0V4bmtobTl3aGdwd0l3UUJOb3dGR2RSX2dOb0dlTUdFdWhPZ3RSdDNiZjdfR3JiNXhQY2FDQjk2dk5FYzNKN0o4Ukw0YmdqUkwzX2JLLWU4V3QyTEZvVkM4QWZhVmtlOTEwVkNqcHVZVC1fU2xtWU9SZlVSc1lleE5DdXotZ2U5TDhKNUEzbnVTV2JLbjdNb3VDeVZxVTVmWExR?oc=5\" target=\"_blank\">Genetically-Modified, Bacteria-Infected Mosquitoes Used to Fight Zika</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Weather Channel</font>"
+      },
+      "source": {
+        "href": "https://weather.com",
+        "title": "The Weather Channel"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Zika mosquitoes discovered in Turkey - Armenpress",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Zika mosquitoes discovered in Turkey - Armenpress"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1iaDdib2lGLURJNzZ2cXBoMXJ6U05tQ2ZfRjhVLXhCRmw1Q0RhdzFzTjVyUnZQMHNGcGVKdkpMalQtMjBiZEpIZmtkeFlSSjlQ0gFWQVVfeXFMTlA5UXN3dzRGcVdhcDh6MXNDUDFweTdPbU1XaGVrY2puTV9qeDBYdTdFOHRqeFR2Qk44THRwb0JxcG9Vck1wT3ZReHVvMWVkNDNVWkVaSEE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1iaDdib2lGLURJNzZ2cXBoMXJ6U05tQ2ZfRjhVLXhCRmw1Q0RhdzFzTjVyUnZQMHNGcGVKdkpMalQtMjBiZEpIZmtkeFlSSjlQ0gFWQVVfeXFMTlA5UXN3dzRGcVdhcDh6MXNDUDFweTdPbU1XaGVrY2puTV9qeDBYdTdFOHRqeFR2Qk44THRwb0JxcG9Vck1wT3ZReHVvMWVkNDNVWkVaSEE?oc=5",
+      "id": "CBMiUEFVX3lxTE1iaDdib2lGLURJNzZ2cXBoMXJ6U05tQ2ZfRjhVLXhCRmw1Q0RhdzFzTjVyUnZQMHNGcGVKdkpMalQtMjBiZEpIZmtkeFlSSjlQ0gFWQVVfeXFMTlA5UXN3dzRGcVdhcDh6MXNDUDFweTdPbU1XaGVrY2puTV9qeDBYdTdFOHRqeFR2Qk44THRwb0JxcG9Vck1wT3ZReHVvMWVkNDNVWkVaSEE",
+      "guidislink": false,
+      "published": "Mon, 29 Jan 2018 08:00:00 GMT",
+      "published_parsed": [
+        2018,
+        1,
+        29,
+        8,
+        0,
+        0,
+        0,
+        29,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTE1iaDdib2lGLURJNzZ2cXBoMXJ6U05tQ2ZfRjhVLXhCRmw1Q0RhdzFzTjVyUnZQMHNGcGVKdkpMalQtMjBiZEpIZmtkeFlSSjlQ0gFWQVVfeXFMTlA5UXN3dzRGcVdhcDh6MXNDUDFweTdPbU1XaGVrY2puTV9qeDBYdTdFOHRqeFR2Qk44THRwb0JxcG9Vck1wT3ZReHVvMWVkNDNVWkVaSEE?oc=5\" target=\"_blank\">Zika mosquitoes discovered in Turkey</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Armenpress</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMiUEFVX3lxTE1iaDdib2lGLURJNzZ2cXBoMXJ6U05tQ2ZfRjhVLXhCRmw1Q0RhdzFzTjVyUnZQMHNGcGVKdkpMalQtMjBiZEpIZmtkeFlSSjlQ0gFWQVVfeXFMTlA5UXN3dzRGcVdhcDh6MXNDUDFweTdPbU1XaGVrY2puTV9qeDBYdTdFOHRqeFR2Qk44THRwb0JxcG9Vck1wT3ZReHVvMWVkNDNVWkVaSEE?oc=5\" target=\"_blank\">Zika mosquitoes discovered in Turkey</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Armenpress</font>"
+      },
+      "source": {
+        "href": "https://armenpress.am",
+        "title": "Armenpress"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "Decoded: How Zika virus impairs foetal development - theweek.in",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "Decoded: How Zika virus impairs foetal development - theweek.in"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZUdVNmpJakdrNXJBbFMtWmZBeEFXYk11dzJqNWlITDFDZUVrRGNyc19HaGRkWk9wLW1WMnljQ0xXdjh4NHphMmdHamRqaXc1OWtnY2FwWnByTVNoVzhZcU5PS0ZtckgzRGlVWlppRzdUSXF3Q01xZ2F6Qzk0TVF3WW9sc3Exb1JyOEg4WmxVOTNWR1NpYkE?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZUdVNmpJakdrNXJBbFMtWmZBeEFXYk11dzJqNWlITDFDZUVrRGNyc19HaGRkWk9wLW1WMnljQ0xXdjh4NHphMmdHamRqaXc1OWtnY2FwWnByTVNoVzhZcU5PS0ZtckgzRGlVWlppRzdUSXF3Q01xZ2F6Qzk0TVF3WW9sc3Exb1JyOEg4WmxVOTNWR1NpYkE?oc=5",
+      "id": "CBMilgFBVV95cUxQZUdVNmpJakdrNXJBbFMtWmZBeEFXYk11dzJqNWlITDFDZUVrRGNyc19HaGRkWk9wLW1WMnljQ0xXdjh4NHphMmdHamRqaXc1OWtnY2FwWnByTVNoVzhZcU5PS0ZtckgzRGlVWlppRzdUSXF3Q01xZ2F6Qzk0TVF3WW9sc3Exb1JyOEg4WmxVOTNWR1NpYkE",
+      "guidislink": false,
+      "published": "Mon, 22 Jan 2018 08:00:00 GMT",
+      "published_parsed": [
+        2018,
+        1,
+        22,
+        8,
+        0,
+        0,
+        0,
+        22,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQZUdVNmpJakdrNXJBbFMtWmZBeEFXYk11dzJqNWlITDFDZUVrRGNyc19HaGRkWk9wLW1WMnljQ0xXdjh4NHphMmdHamRqaXc1OWtnY2FwWnByTVNoVzhZcU5PS0ZtckgzRGlVWlppRzdUSXF3Q01xZ2F6Qzk0TVF3WW9sc3Exb1JyOEg4WmxVOTNWR1NpYkE?oc=5\" target=\"_blank\">Decoded: How Zika virus impairs foetal development</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">theweek.in</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQZUdVNmpJakdrNXJBbFMtWmZBeEFXYk11dzJqNWlITDFDZUVrRGNyc19HaGRkWk9wLW1WMnljQ0xXdjh4NHphMmdHamRqaXc1OWtnY2FwWnByTVNoVzhZcU5PS0ZtckgzRGlVWlppRzdUSXF3Q01xZ2F6Qzk0TVF3WW9sc3Exb1JyOEg4WmxVOTNWR1NpYkE?oc=5\" target=\"_blank\">Decoded: How Zika virus impairs foetal development</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">theweek.in</font>"
+      },
+      "source": {
+        "href": "https://www.theweek.in",
+        "title": "theweek.in"
+      },
+      "sub_articles": []
+    },
+    {
+      "title": "More birth defects in U.S. areas with Zika: U.S. health officials - TVC News",
+      "title_detail": {
+        "type": "text/plain",
+        "language": null,
+        "base": "",
+        "value": "More birth defects in U.S. areas with Zika: U.S. health officials - TVC News"
+      },
+      "links": [
+        {
+          "rel": "alternate",
+          "type": "text/html",
+          "href": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZDRLdW50aW5OOElUQThoMDBiaUZjTnktclFtS19TZmFSNTRRME04eXNJN254dmNtUFVBVmlQVU84VmZJS2k1OUpMNHJ4YXNUaUJWN0FRdndRSEQ1ZFBtNGJfV3JFOGVyUkZDWURSdy0tOEFUU0ZkU1lHRkVxTmI4amRmaDhROW55LW1BTnhqcw?oc=5"
+        }
+      ],
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZDRLdW50aW5OOElUQThoMDBiaUZjTnktclFtS19TZmFSNTRRME04eXNJN254dmNtUFVBVmlQVU84VmZJS2k1OUpMNHJ4YXNUaUJWN0FRdndRSEQ1ZFBtNGJfV3JFOGVyUkZDWURSdy0tOEFUU0ZkU1lHRkVxTmI4amRmaDhROW55LW1BTnhqcw?oc=5",
+      "id": "CBMijwFBVV95cUxQZDRLdW50aW5OOElUQThoMDBiaUZjTnktclFtS19TZmFSNTRRME04eXNJN254dmNtUFVBVmlQVU84VmZJS2k1OUpMNHJ4YXNUaUJWN0FRdndRSEQ1ZFBtNGJfV3JFOGVyUkZDWURSdy0tOEFUU0ZkU1lHRkVxTmI4amRmaDhROW55LW1BTnhqcw",
+      "guidislink": false,
+      "published": "Fri, 26 Jan 2018 08:00:00 GMT",
+      "published_parsed": [
+        2018,
+        1,
+        26,
+        8,
+        0,
+        0,
+        4,
+        26,
+        0
+      ],
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxQZDRLdW50aW5OOElUQThoMDBiaUZjTnktclFtS19TZmFSNTRRME04eXNJN254dmNtUFVBVmlQVU84VmZJS2k1OUpMNHJ4YXNUaUJWN0FRdndRSEQ1ZFBtNGJfV3JFOGVyUkZDWURSdy0tOEFUU0ZkU1lHRkVxTmI4amRmaDhROW55LW1BTnhqcw?oc=5\" target=\"_blank\">More birth defects in U.S. areas with Zika: U.S. health officials</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TVC News</font>",
+      "summary_detail": {
+        "type": "text/html",
+        "language": null,
+        "base": "",
+        "value": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxQZDRLdW50aW5OOElUQThoMDBiaUZjTnktclFtS19TZmFSNTRRME04eXNJN254dmNtUFVBVmlQVU84VmZJS2k1OUpMNHJ4YXNUaUJWN0FRdndRSEQ1ZFBtNGJfV3JFOGVyUkZDWURSdy0tOEFUU0ZkU1lHRkVxTmI4amRmaDhROW55LW1BTnhqcw?oc=5\" target=\"_blank\">More birth defects in U.S. areas with Zika: U.S. health officials</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TVC News</font>"
+      },
+      "source": {
+        "href": "https://www.tvcnews.tv",
+        "title": "TVC News"
+      },
+      "sub_articles": []
+    }
+  ]
+}
