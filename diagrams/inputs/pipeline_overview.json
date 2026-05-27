@@ -1,6 +1,0 @@
-{
-  "method_content": "Corpus: multilingual news articles on emerging pests and pathogens across three domains (human, animal, plant) and four languages (en, fr, es, pt). Retrieve Google News RSS at scale, apply deterministic cleaning and de-duplication, and remove blocked or non-news domains. Then run Step 3 ensemble relevance filtering with K=3 independent headline classifiers and retain only the relevant subset R, shrinking the corpus from N articles to N_R. Kept articles proceed to full-text extraction and then BERTopic for impact-oriented topic discovery.",
-  "figure_caption": "Overview of the INFLUX Impact pipeline for pathogen-news cascading impact analysis",
-  "figure_type": "horizontal methodology pipeline",
-  "style_notes": "Left-to-right flow with colored stage boxes, clear arrows, domain/language intake at the left, and a funnel annotation showing N to N_R before full-text extraction and BERTopic."
-}

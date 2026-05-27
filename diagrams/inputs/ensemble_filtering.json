@@ -1,6 +1,0 @@
-{
-  "method_content": "For each article a_i and target EPP h, run K=3 independent relevance classifiers. Each classifier outputs a binary label y_hat_ik, a probability p_ik in [0,1], and evidence spans e_ik. Aggregate with weighted probability pooling p_bar_i = sum_k w_k p_ik, where sum_k w_k = 1. Classify an article as relevant only when p_bar_i >= theta and the agreement rate Agree_i = (1/K) sum_k 1(y_hat_ik = 1) >= tau. After the decision, consolidate supporting evidence spans. Tune w_k, theta, and tau on a human-labeled validation set S to maximize precision subject to a minimum recall.",
-  "figure_caption": "Ensemble LLM relevance filtering architecture with weighted probability pooling and dual-threshold decision",
-  "figure_type": "parallel ensemble decision workflow",
-  "style_notes": "Show three parallel classifier branches converging into an aggregation block, include the key formulas inside or below the aggregation and decision stages, and close with evidence consolidation plus a validation feedback loop."
-}
