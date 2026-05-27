@@ -1,0 +1,208 @@
+Human + animal emergence fill log
+Workbook: /Users/luongnguyen/Library/CloudStorage/OneDrive-SharedLibraries-Kungl.Vetenskapsakademien/INFLUX - Documents/3_EPPImpacts/4_LuongImpactWork/INFLUX Impact/data/inputs/EPPs master list.xlsx
+Fallback rows: 204
+
+16	human	Coccidioides spp.	Coccidioides spp.	fallback_human:coccidioides spp.
+18	human	Mucorales order	Mucorales order	fallback_human:mucorales order
+27	human	aspergillosis	Aspergillus fumigatus	fallback_human:aspergillosis
+28	human	candidiasis	Candida albicans	fallback_human:candidiasis
+29	human	candidiasis	Candida parapsilosis	fallback_human:candidiasis
+30	human	candidiasis	Candida tropicalis	fallback_human:candidiasis
+31	human	candidiasis	Nakaseomyces glabratus	fallback_human:candidiasis
+34	human	toxoplasmosis	Toxoplasma gondii	fallback_human:toxoplasmosis
+36	human	Gonnorheae	Neisseria gonorrhoeae	fallback_human:gonnorheae
+38	human	enteroinvasive diarrhea, diarrheagenic Escherichia coli infection	Escherichia coli [STEC, EPEC]	fallback_human:enteroinvasive diarrhea, diarrheagenic escherichia coli infection
+40	human	pneumococcal disease	Streptococcus pneumoniae	fallback_human:pneumococcal disease
+48	human	hepatitis A	Hepatovirus A	fallback_human:hepatitis a
+52	human	Acinetobacter baumannii infection	Acinetobacter baumannii	fallback_human:acinetobacter baumannii infection
+54	human	campylobacteriosis	Campylobacter jejuni	fallback_human:campylobacteriosis
+55	human	Chlamydia	Chlamydia trachomatis	fallback_human:chlamydia
+56	human	Klebsiella pneumoniae infection	Klebsiella pneumoniae	fallback_human:klebsiella pneumoniae infection
+57	human	Haemophilus influenzae infection	Haemophilus influenzae	fallback_human:haemophilus influenzae infection
+60	human	group A streptococcal infection	Streptococcus pyogenes	fallback_human:group a streptococcal infection
+62	human	granulomatous amebic encephalitis	Balamuthia mandrillaris	fallback_human:granulomatous amebic encephalitis
+63	human	cyclosporiasis	Cyclospora cayetanensis	fallback_human:cyclosporiasis
+64	human	amebiasis	Entamoeba histolytica	fallback_human:amebiasis
+65	human	Trichomoniasis	Trichomonas vaginalis	fallback_human:trichomoniasis
+66	human	Trypanosomiasis	Trypanosoma spp.	fallback_human:trypanosomiasis
+67	human	primary amebic meningoencephalitis	Naegleria fowleri	fallback_human:primary amebic meningoencephalitis
+69	human	Enterococcus faecium infection	Enterococcus faecium	fallback_human:enterococcus faecium infection
+70	human	Pseudomonas aeruginosa infection	Pseudomonas aeruginosa	fallback_human:pseudomonas aeruginosa infection
+71	human	Staphylococcus aureus infection	Staphylococcus aureus	fallback_human:staphylococcus aureus infection
+72	human	acute gastroenteritis	Caliciviruses	fallback_human:acute gastroenteritis
+78	human	listeriosis	Listeria monocytogenes	fallback_human:listeriosis
+79	human	human papillomavirus infection	Human papillomavirus	fallback_human:human papillomavirus infection
+80	human	group B streptococcal infection	Streptococcus agalactiae	fallback_human:group b streptococcal infection
+81	human	Syphilis	Treponema pallidum	fallback_human:syphilis
+82	human	yersiniosis	Yersinia enterocolitica	fallback_human:yersiniosis
+83	human	histoplasmosis	Histoplasma spp.	fallback_human:histoplasmosis
+84	human	paracoccidioidomycosis	Paracoccidioides spp.	fallback_human:paracoccidioidomycosis
+85	human	cryptococcosis	Cryptococcus gattii	fallback_human:cryptococcosis
+86	human	cryptococcosis	Cryptococcus neoformans	fallback_human:cryptococcosis
+87	human	lomentosporiosis	Lomentospora prolificans	fallback_human:lomentosporiosis
+88	human	scedosporiosis	Scedosporium spp.	fallback_human:scedosporiosis
+89	human	fusariosis	Fusarium spp.	fallback_human:fusariosis
+90	human	candidiasis	Pichia kudriavzeveii	fallback_human:candidiasis
+93	human	microsporidiosis	Microsporidia phylum	fallback_human:microsporidiosis
+107	human	lymphocytic choriomeningitis	Mammarenavirus choriomeningitidis	fallback_human:lymphocytic choriomeningitis
+108	human	Bolivian hemorrhagic fever	Mammarenavirus machupoense	fallback_human:bolivian hemorrhagic fever
+109	human	lymphocytic choriomeningitis	Mammarenavirus choriomeningitidis	fallback_human:lymphocytic choriomeningitis
+110	human	Pichinde virus	Mammarenavirus caliense [Pichinde virus]	fallback_human:pichinde virus
+111	human	Tacaribe virus	Mammarenavirus tacaribeense	fallback_human:tacaribe virus
+118	human	Tetanus	Clostridium tetani	fallback_human:tetanus
+119	human	diphtheria	Corynebacterium diphtheriae	fallback_human:diphtheria
+120	human	Citrobacter infection	Citrobacter spp.	fallback_human:citrobacter infection
+121	human	Enterobacter infection	Enterobacter spp.	fallback_human:enterobacter infection
+129	human	Maporal virus	Maporal orthohantavirus [Maporal virus]	fallback_human:maporal virus
+132	human	Morganella infection	Morganella spp.	fallback_human:morganella infection
+133	human	Proteus infection	Proteus spp.	fallback_human:proteus infection
+134	human	herpes simplex infection	Simplexvirus spp. [Simplexvirus humanalpha1; Simplexvirus humanalpha2]	fallback_human:herpes simplex infection
+135	human	varicella (chickenpox); herpes zoster	Varicellovirus humanalpha3 [Human alphaherpesvirus 3]	fallback_human:varicella (chickenpox); herpes zoster
+143	human	Punta Toro fever	Phlebovirus toroense [Punta Toro virus]	fallback_human:punta toro fever
+146	human	enterovirus infection	Enterovirus A [enterovirus A71]	fallback_human:enterovirus infection
+147	human	enterovirus infection	Enterovirus B [coxsackievirus B3; echovirus 11; echovirus 30]	fallback_human:enterovirus infection
+148	human	enterovirus infection	Enterovirus D [enterovirus D68]	fallback_human:enterovirus infection
+149	human	common cold	Rhinovirus A	fallback_human:common cold
+150	human	common cold	Rhinovirus B	fallback_human:common cold
+151	human	common cold	Rhinovirus C	fallback_human:common cold
+154	human	rotavirus gastroenteritis	Rotavirus spp.	fallback_human:rotavirus gastroenteritis
+160	human	Serratia infection	Serratia spp.	fallback_human:serratia infection
+161	animal	Algal toxicosis		fallback_animal:algal toxicosis
+162	animal	Chemical poisoning		fallback_animal:chemical poisoning
+163	animal	Mycotoxicosis		fallback_animal:mycotoxicosis
+164	animal	Unusual morbidity or mortality event		fallback_animal:unusual morbidity or mortality event
+167	animal	Malignant catarrhal fever	Alcelaphine gammaherpesvirus 1 [Ovine gammaherpesvirus 2]	fallback_animal:malignant catarrhal fever
+168	animal	Bovine anaplasmosis	Anaplasma marginale	fallback_animal:bovine anaplasmosis
+174	animal	Turkey rhinotracheitis	Avian metapneumovirus [Subgroup A, B, C, D]	fallback_animal:turkey rhinotracheitis
+175	animal	Infectious bursal disease	Avibirnavirus gallinae	fallback_animal:infectious bursal disease
+177	animal	Bovine babesiosis	Babesia bovis [Babesia bigemina, Babesia divergens]	fallback_animal:bovine babesiosis
+178	animal	Babesiosis	Babesia spp.	fallback_animal:babesiosis
+179	animal	Anthrax	Bacillus anthracis	fallback_animal:anthrax
+182	animal	Baylisascariasis	Baylisascaris procyonis	fallback_animal:baylisascariasis
+186	animal	Bonamiosis	Bonamia exitiosa	fallback_animal:bonamiosis
+187	animal	Bonamiosis	Bonamia ostreae	fallback_animal:bonamiosis
+188	animal	Border disease	Border disease virus	fallback_animal:border disease
+189	animal	Atrophic rhinitis of swine	Bordetella bronchiseptica [Pasteurella multocida toxigenic strains]	fallback_animal:atrophic rhinitis of swine
+190	animal	Borreliasis	Borrelia spp. [Borrelia burgdorferi, B. afzelii, B. garinii]	fallback_animal:borreliasis
+191	animal	Infectious bovine rhinotracheitis/infectious pustular vulvovaginitis	Bovine alphaherpesvirus 1	fallback_animal:infectious bovine rhinotracheitis/infectious pustular vulvovaginitis
+192	animal	Enzootic bovine leukosis	Bovine leukemia virus	fallback_animal:enzootic bovine leukosis
+193	animal	Ovine epididymitis	Brucella ovis	fallback_animal:ovine epididymitis
+194	animal	Brucellosis	Brucella spp. [Brucella abortus, B. melitensis, B. suis, B. canis, B. ovis]	fallback_animal:brucellosis
+195	animal	Glanders	Burkholderia mallei	fallback_animal:glanders
+197	animal	Bovine genital campylobacteriosis	Campylobacter fetus [Campylobacter fetus subsp. venerealis]	fallback_animal:bovine genital campylobacteriosis
+198	animal	Campylobacteriosis	Campylobacter jejuni [Campylobacter coli]	fallback_animal:campylobacteriosis
+199	animal	Necrotising hepatopancreatitis	Candidatus Hepatobacter penaei	fallback_animal:necrotising hepatopancreatitis
+201	animal	Morbillivirosis	Canine morbillivirus [Feline morbillivirus]	fallback_animal:morbillivirosis
+202	animal	Caprine arthritis/encephalitis	Caprine arthritis encephalitis virus	fallback_animal:caprine arthritis/encephalitis
+204	animal	Carp edema	Carp edema virus	fallback_animal:carp edema
+205	animal	Fibropapillomatosis	Chelonid fibropapilloma-associated herpesvirus	fallback_animal:fibropapillomatosis
+206	animal	Enzootic abortion of ewes	Chlamydia abortus	fallback_animal:enzootic abortion of ewes
+207	animal	Ovine chlamydiosis	Chlamydia abortus	fallback_animal:ovine chlamydiosis
+208	animal	Avian chlamydiosis	Chlamydia psittaci	fallback_animal:avian chlamydiosis
+210	animal	Old world screwworm myiasis	Chrysomya bezziana	fallback_animal:old world screwworm myiasis
+212	animal	Botulism	Clostridium botulinum [Types A, B, C, D, E, F, G]	fallback_animal:botulism
+213	animal	New world screwworm myiasis	Cochliomyia hominivorax	fallback_animal:new world screwworm myiasis
+214	animal	Infection with covert mortality nodavirus	Covert mortality nodavirus	fallback_animal:infection with covert mortality nodavirus
+215	animal	Q fever	Coxiella burnetii	fallback_animal:q fever
+216	animal	Crimean-Congo haemorrhagic fever	Crimean-Congo hemorrhagic fever orthonairovirus	fallback_animal:crimean-congo haemorrhagic fever
+217	animal	Cryptosporidiosis	Cryptosporidium spp. [Cryptosporidium parvum, C. hominis]	fallback_animal:cryptosporidiosis
+220	animal	Duck virus hepatitis	Duck hepatitis A virus [DHAV-1, DHAV-2, DHAV-3]	fallback_animal:duck virus hepatitis
+221	animal	Equine encephalomyelitis (Eastern)	Eastern equine encephalitis virus	fallback_animal:equine encephalomyelitis (eastern)
+222	animal	Hydatidosis	Echinococcus granulosus	fallback_animal:hydatidosis
+223	animal	Alveolar echinococcosis	Echinococcus multilocularis	fallback_animal:alveolar echinococcosis
+224	animal	Echinococcosis	Echinococcus spp. [Echinococcus granulosus, Echinococcus multilocularis]	fallback_animal:echinococcosis
+225	animal	Heartwater	Ehrlichia ruminantium	fallback_animal:heartwater
+226	animal	Encephalomyocarditis	Encephalomyocarditis virus	fallback_animal:encephalomyocarditis
+227	animal	Infection with Enterocytozoon hepatopenaei	Enterocytozoon hepatopenaei	fallback_animal:infection with enterocytozoon hepatopenaei
+228	animal	Swine vesicular disease	Enterovirus suid 1	fallback_animal:swine vesicular disease
+229	animal	Epizootic haematopoietic necrosis disease	Epizootic haematopoietic necrosis virus	fallback_animal:epizootic haematopoietic necrosis disease
+230	animal	Epizootic haemorrhagic disease	Epizootic hemorrhagic disease virus [8 serotypes (1-8)]	fallback_animal:epizootic haemorrhagic disease
+231	animal	Epizootic hemorrhagic disease (EHD)	Epizootic hemorrhagic disease virus	fallback_animal:epizootic hemorrhagic disease (ehd)
+232	animal	Equine viral rhinopneumonitis	Equid alphaherpesvirus 1	fallback_animal:equine viral rhinopneumonitis
+235	animal	Verocytotoxigenic Escherichia coli infection	Escherichia coli [VTEC / STEC / EHEC strains]	fallback_animal:verocytotoxigenic escherichia coli infection
+236	animal	Fasciolosis	Fasciola gigantica	fallback_animal:fasciolosis
+237	animal	Fasciolosis	Fascioloides magna	fallback_animal:fasciolosis
+238	animal	Feline leukaemia	Feline leukemia virus	fallback_animal:feline leukaemia
+241	animal	Fowl pox	Fowlpox virus	fallback_animal:fowl pox
+242	animal	Tularemia	Francisella tularensis [Subspecies tularensis, holarctica, mediasiatica, novicida]	fallback_animal:tularemia
+243	animal	Marek's disease	Gallid alphaherpesvirus 2	fallback_animal:marek's disease
+244	animal	Avian infectious bronchitis	Gammacoronavirus gallus	fallback_animal:avian infectious bronchitis
+245	animal	Gyrodactylosis	Gyrodactylus salaris	fallback_animal:gyrodactylosis
+246	animal	Hendra virus infection	Henipavirus hendraense	fallback_animal:hendra virus infection
+247	animal	Epizootic lymphangitis	Histoplasma farciminosum	fallback_animal:epizootic lymphangitis
+248	animal	Avian infectious laryngotracheitis	Iltovirus gallid2	fallback_animal:avian infectious laryngotracheitis
+250	animal	Megalocytivirus disease	Infectious spleen and kidney necrosis virus [Red seabream iridovirus]	fallback_animal:megalocytivirus disease
+255	animal	Influenza A virus of swine	Influenza A virus [H1N1, H1N2, H3N2]	fallback_animal:influenza a virus of swine
+256	animal	Low pathogenic avian influenza	Influenza A virus [Multiple LPAI subtypes]	fallback_animal:low pathogenic avian influenza
+258	animal	Ovine pulmonary adenocarcinoma	Jaagsiekte sheep retrovirus	fallback_animal:ovine pulmonary adenocarcinoma
+260	animal	European brown hare syndrome	Lagovirus europaeus [RHDV2 (GI.2)]	fallback_animal:european brown hare syndrome
+262	animal	Leishmaniosis	Leishmania spp. [Leishmania donovani, L. infantum, L. braziliensis, L. major, L. tropica]	fallback_animal:leishmaniosis
+264	animal	Leptospirosis	Leptospira interrogans	fallback_animal:leptospirosis
+265	animal	Leptospirosis	Leptospira spp. [Leptospira interrogans, L. borgpetersenii, L. kirschneri]	fallback_animal:leptospirosis
+266	animal	Listeriosis	Listeria monocytogenes	fallback_animal:listeriosis
+267	animal	Louping ill	Louping ill virus	fallback_animal:louping ill
+271	animal	Maedi-visna	Maedi-visna virus	fallback_animal:maedi-visna
+272	animal	Marteiliosis	Marteilia refringens	fallback_animal:marteiliosis
+273	animal	Morbillivirosis in non-human primates	Measles morbillivirus	fallback_animal:morbillivirosis in non-human primates
+274	animal	Megalocytivirus disease	Megalocytivirus pagrus1 [Red seabream iridovirus]	fallback_animal:megalocytivirus disease
+278	animal	Morbillivirosis	Morbillivirus spp.	fallback_animal:morbillivirosis
+279	animal	Diseases of bees	Multiple pathogens [Varroa destructor, Aethina tumida, American foulbrood, European foulbrood]	fallback_animal:diseases of bees
+280	animal	Zoonoses from non-human primates	Multiple pathogens	fallback_animal:zoonoses from non-human primates
+281	animal	Avian tuberculosis	Mycobacterium avium [Mycobacterium avium subsp. avium]	fallback_animal:avian tuberculosis
+282	animal	Paratuberculosis	Mycobacterium avium subsp. paratuberculosis	fallback_animal:paratuberculosis
+283	animal	Mammalian tuberculosis	Mycobacterium bovis [Mycobacterium tuberculosis complex]	fallback_animal:mammalian tuberculosis
+284	animal	Contagious agalactia	Mycoplasma agalactiae [Mycoplasma mycoides, M. putrefaciens, M. capricolum]	fallback_animal:contagious agalactia
+285	animal	Contagious caprine pleuropneumonia	Mycoplasma capricolum subsp. capripneumoniae	fallback_animal:contagious caprine pleuropneumonia
+286	animal	Avian mycoplasmosis	Mycoplasma gallisepticum	fallback_animal:avian mycoplasmosis
+287	animal	Contagious bovine pleuropneumonia	Mycoplasma mycoides subsp. mycoides	fallback_animal:contagious bovine pleuropneumonia
+288	animal	Avian mycoplasmosis	Mycoplasma synoviae	fallback_animal:avian mycoplasmosis
+289	animal	Nairobi sheep disease	Nairovirus spp. [Dugbe nairovirus, Ganjam virus]	fallback_animal:nairobi sheep disease
+292	animal	Infectious haematopoietic necrosis	Novirhabdovirus salmonid [Infectious hematopoietic necrosis virus]	fallback_animal:infectious haematopoietic necrosis
+298	animal	Filovirosis	Orthoebolavirus spp. [Marburgvirus, Cuevavirus]	fallback_animal:filovirosis
+299	animal	Hantavirosis	Orthohantavirus spp. [Sin Nombre orthohantavirus, Hantaan orthohantavirus, Seoul orthohantavirus]	fallback_animal:hantavirosis
+301	animal	Papillomatosis	Papillomavirus spp.	fallback_animal:papillomatosis
+302	animal	Paramyxovirosis	Paramyxovirus spp.	fallback_animal:paramyxovirosis
+303	animal	Parvovirosis	Parvovirus spp. [Carnivore parvovirus, Canine parvovirus, Feline panleukopenia virus]	fallback_animal:parvovirosis
+304	animal	Fowl cholera	Pasteurella multocida [Serotypes A, B, D, E, F]	fallback_animal:fowl cholera
+305	animal	Haemorrhagic septicaemia	Pasteurella multocida [Serotype B:2, E:2]	fallback_animal:haemorrhagic septicaemia
+306	animal	Pasteurellosis	Pasteurella multocida [Mannheimia haemolytica]	fallback_animal:pasteurellosis
+307	animal	Infectious myonecrosis	Penaeid shrimp infectious myonecrosis virus	fallback_animal:infectious myonecrosis
+308	animal	Hypodermal and haematopoietic necrosis	Penstylhamaparvovirus decapod1	fallback_animal:hypodermal and haematopoietic necrosis
+309	animal	Infectious hypodermal and haematopoietic necrosis	Penstylhamaparvovirus decapod1	fallback_animal:infectious hypodermal and haematopoietic necrosis
+310	animal	Perkinsosis	Perkinsus marinus	fallback_animal:perkinsosis
+311	animal	Perkinsosis	Perkinsus olseni	fallback_animal:perkinsosis
+314	animal	Bunyaviral diseases of animals	Phlebovirus spp. [Schmallenberg virus, Akabane virus, Cache Valley virus]	fallback_animal:bunyaviral diseases of animals
+315	animal	Morbillivirosis	Phocine morbillivirus [Cetacean morbillivirus]	fallback_animal:morbillivirosis
+316	animal	Malaria	Plasmodium spp. [Plasmodium falciparum, P. vivax, P. malariae, P. ovale]	fallback_animal:malaria
+317	animal	Circovirosis	Porcine circovirus 2 [PCV2, PCV3]	fallback_animal:circovirosis
+319	animal	Pox viruses infection	Poxvirus spp.	fallback_animal:pox viruses infection
+320	animal	Immunodeficiency virus infection	Primate lentivirus [SIV, FIV]	fallback_animal:immunodeficiency virus infection
+323	animal	Psoroptic mange	Psoroptes ovis	fallback_animal:psoroptic mange
+324	animal	Ranavirosis	Ranavirus spp.	fallback_animal:ranavirosis
+325	animal	Fowl typhoid	Salmonella enterica [Salmonella Gallinarum]	fallback_animal:fowl typhoid
+326	animal	Pullorum disease	Salmonella enterica [Salmonella Pullorum]	fallback_animal:pullorum disease
+327	animal	Salmonellosis	Salmonella enterica [Multiple serovars, Salmonella Abortusovis]	fallback_animal:salmonellosis
+329	animal	Mange	Sarcoptes scabiei [Demodex spp., Psoroptes spp.]	fallback_animal:mange
+330	animal	Scabies	Sarcoptes scabiei	fallback_animal:scabies
+333	animal	Bovine cysticercosis	Taenia saginata	fallback_animal:bovine cysticercosis
+334	animal	Porcine cysticercosis	Taenia solium	fallback_animal:porcine cysticercosis
+335	animal	Cysticercosis	Taenia spp. [Taenia solium, Taenia saginata, Taenia multiceps]	fallback_animal:cysticercosis
+336	animal	Contagious equine metritis	Taylorella equigenitalis	fallback_animal:contagious equine metritis
+337	animal	Teschovirus encephalomyelitis	Teschovirus aphthovirus A	fallback_animal:teschovirus encephalomyelitis
+338	animal	Equine piroplasmosis	Theileria equi [Babesia caballi]	fallback_animal:equine piroplasmosis
+339	animal	Theileriosis	Theileria spp. [Theileria parva, Theileria annulata]	fallback_animal:theileriosis
+340	animal	Tick-borne encephalitis	Tick-borne encephalitis virus [European subtype, Siberian subtype, Far Eastern subtype]	fallback_animal:tick-borne encephalitis
+342	animal	Toxoplasmosis	Toxoplasma gondii	fallback_animal:toxoplasmosis
+344	animal	Trichinellosis	Trichinella spp. [Trichinella spiralis, T. nativa, T. britovi, T. pseudospiralis, Trichinella nelsoni, T. zimbabwensis, T. papuae]	fallback_animal:trichinellosis
+345	animal	Trichomonosis	Trichomonas foetus	fallback_animal:trichomonosis
+346	animal	Trichomonosis	Trichomonas gallinae	fallback_animal:trichomonosis
+347	animal	Trypanosomiasis (tsetse transmitted)	Trypanosoma brucei [Trypanosoma congolense, Trypanosoma vivax]	fallback_animal:trypanosomiasis (tsetse transmitted)
+348	animal	Dourine	Trypanosoma equiperdum	fallback_animal:dourine
+349	animal	Surra	Trypanosoma evansi	fallback_animal:surra
+350	animal	Nosemosis of honey bees	Vairimorpha apis [Vairimorpha ceranae]	fallback_animal:nosemosis of honey bees
+351	animal	Aujeszky's disease (AD)	Varicellovirus suidalpha1 [Suid alphaherpesvirus 1]	fallback_animal:aujeszky's disease (ad)
+356	animal	Equine encephalomyelitis (Western)	Western equine encephalitis virus	fallback_animal:equine encephalomyelitis (western)
+358	animal	Yellow fever	Yellow fever virus	fallback_animal:yellow fever
+359	animal	Yersiniosis	Yersinia enterocolitica	fallback_animal:yersiniosis
+360	animal	Plague	Yersinia pestis	fallback_animal:plague
+361	animal	Yersiniosis pseudotuberculosis	Yersinia pseudotuberculosis	fallback_animal:yersiniosis pseudotuberculosis

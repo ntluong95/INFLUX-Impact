@@ -1,0 +1,513 @@
+Plant emergence fill log
+Workbook: /Users/luongnguyen/Library/CloudStorage/OneDrive-SharedLibraries-Kungl.Vetenskapsakademien/INFLUX - Documents/3_EPPImpacts/4_LuongImpactWork/INFLUX Impact/data/inputs/EPPs master list.xlsx
+Fallback rows: 509
+
+362	China jute	Abutilon theophrasti	fallback:plant_taxon
+363	hispid starbur, hispid starburr, bristly starbur	Acanthospermum hispidum	fallback:plant_taxon
+364	Russian knapweed	Acroptilon repens	fallback:invasive_plant
+365	"Powells pigweed", "Powells amaranth"	Amaranthus powellii	fallback:invasive_plant
+366	redroot amaranth	Amaranthus retroflexus	fallback:plant_taxon
+367	pigweed, spiny amaranth	Amaranthus spinosus	fallback:invasive_plant
+368	ragweeds		fallback:invasive_plant
+369	common ragweed	Ambrosia artemisiifolia	fallback:invasive_plant
+370	weakleaf bur ragweed, weakleaf burr ragweed, ragweed	Ambrosia confertiflora	fallback:invasive_plant
+371	woollyleaf bur ragweed, woollyleaf burr ragweed, bur ragweed, lagoonweed, woollyleaf bursage, woollyleaf franseria, woollyleaf povertyweed	Ambrosia grayi	fallback:invasive_plant
+372	Cuman ragweed, western ragweed, perennial ragweed	Ambrosia psilostachya	fallback:invasive_plant
+373	slimleaf bur ragweed, slimleaf burr ragweed, field ragweed	Ambrosia tenuifolia	fallback:invasive_plant
+374	giant ragweed	Ambrosia trifida	fallback:invasive_plant
+375	South American cucurbit fruit fly	Anastrepha grandis	fallback:fruit_fly
+379	eastern filbert blight pathogen	Anisogramma anomala	fallback:fungal
+380	black bean aphid	Aphis spiraecola	fallback:arthropod_genus
+381	cotton aphid	Aphis gossypii	fallback:arthropod_genus
+382	pea foot rot fungus	Didymella pinodes	fallback:fungal
+383	potato/tomato psyllid	Bactericera cockerelli	fallback:arthropod_genus
+384	carambola fruit fly	Bactrocera carambolae	fallback:fruit_fly
+385	guava fruit fly	Bactrocera correcta	fallback:fruit_fly
+386	cucumber fruit fly	Zeugodacus cucumis	fallback:fruit_fly
+387	melon fly	Zeugodacus cucurbitae	fallback:fruit_fly
+394	peach fruit fly	Bactrocera zonata	fallback:fruit_fly
+395	sweet potato whitefly	Bemisia tabaci	fallback:arthropod_genus
+396	grass mildew	Blumeria graminis	fallback:fungal
+397	Asian trampsnail	Bradybaena similaris	fallback:mollusc
+398	lettuce downy mildew	Bremia lactucae	fallback:fungal
+399	passionvine mite		fallback:sap_feeder
+400	plum psyllid	Cacopsylla pruni	fallback:arthropod_genus
+401	pear psyllid	Cacopsylla pyri	fallback:arthropod_genus
+402	hedge bindweed	Calystegia sepium	fallback:invasive_plant
+403	coast sandbur	Cenchrus spinifex	fallback:plant_taxon
+404	prostrate spurge, prostrate sandmat, blue weed, ground spurge	Euphorbia prostrata	fallback:invasive_plant
+405	serpent spurge, matted sandmat	Euphorbia serpens	fallback:invasive_plant
+406	striped riceborer	Chilo suppressalis	fallback:arthropod
+407	oblique banded leafroller	Choristoneura rosaceana	fallback:arthropod_genus
+408	soybean looper	Chrysodeixis includens	fallback:arthropod_genus
+409	citricola scale	Coccus pseudomagnoliarum	fallback:arthropod_genus
+410	common dayflower, Asiatic dayflower	Commelina communis	fallback:plant_taxon
+411	plum curculio	Conotrachelus nenuphar	fallback:arthropod_genus
+414	dodder		fallback:invasive_plant
+415	field dodder	Cuscuta campestris	fallback:invasive_plant
+416	greater dodder	Cuscuta europaea	fallback:invasive_plant
+417	codling moth	Cydia pomonella	fallback:arthropod_genus
+418	chufa flatsedge, chufa, yellow nutgrass, yellow nutsedge	Cyperus esculentus	fallback:invasive_plant
+419	cécidomyie du févier, honeylocust podgall midge	Dasineura gleditchiae	fallback:arthropod_genus
+420	citrus whitefly	Dialeurodes citri	fallback:arthropod_genus
+422	East Indian crabgrass	Digitaria setigera	fallback:invasive_plant
+423	Russian wheat aphid	Diuraphis noxia	fallback:arthropod_genus
+424	cockspur grass	Echinochloa crus-galli	fallback:invasive_plant
+425	goosegrass	Eleusine indica	fallback:invasive_plant
+426	threespike grass	Eleusine tristachya	fallback:invasive_plant
+427	citrus scab fungus	Elsinoë fawcettii	fallback:fungal
+428	woolly apple aphid	Eriosoma lanigerum	fallback:arthropod_genus
+429	grass mildew	Blumeria graminis	fallback:fungal
+430	cypress spurge	Euphorbia cyparissias	fallback:invasive_plant
+431	"Davids spurge", Toothed Spurge	Euphorbia davidii	fallback:invasive_plant
+432	ridgeseed spurge, ribseed sandmat	Euphorbia glyptosperma	fallback:invasive_plant
+433	grassleaf spurge	Euphorbia graminea	fallback:invasive_plant
+434	moleplant, cañamón purgante, gopher plant, caper spurge	Euphorbia lathyris	fallback:invasive_plant
+435	milk purslane, prostrate spurge, spotted spurge, spotted sandmat	Euphorbia maculata	fallback:invasive_plant
+436	eyebane, upright spotted spurge, nodding spurge	Euphorbia nutans	fallback:invasive_plant
+437	matted sandmat, creeping spurge, round-leafed spurge	Euphorbia serpens	fallback:invasive_plant
+438	western flower thrips	Frankliniella occidentalis	fallback:arthropod
+439	oriental fruit moth	Grapholita molesta	fallback:arthropod_genus
+440	cotton bollworm	Helicoverpa armigera	fallback:arthropod_genus
+441	corn earworm	Helicoverpa zea	fallback:arthropod_genus
+443	soybean cyst nematode	Heterodera glycines	fallback:nematode
+444	corn cyst nematode	Heterodera zeae	fallback:nematode
+445	foxtail barley	Hordeum jubatum	fallback:plant_taxon
+446	moonflower	Ipomoea alba	fallback:plant_taxon
+447	Chinese water-spinach	Ipomoea aquatica	fallback:plant_taxon
+448	beach morning-glory	Ipomoea imperati	fallback:plant_taxon
+449	blue dawnflower	Ipomoea indica	fallback:plant_taxon
+451	pea leafminer	Liriomyza huidobrensis	fallback:arthropod_genus
+452	vegetable leafminer	Liriomyza sativae	fallback:arthropod_genus
+453	celery leafminer	Liriomyza trifolii	fallback:arthropod_genus
+454	rice water weevil	Lissorhoptrus oryzophilus	fallback:arthropod
+455	hibiscus mealybug	Maconellicoccus hirsutus	fallback:arthropod_genus
+456	tobacco hornworm	Manduca sexta	fallback:arthropod_genus
+457	perennial canker of apple	Neofabraea perennans	fallback:fungal
+458	locust gall midge	Obolodiplosis robiniae	fallback:arthropod_genus
+459	bean fly	Ophiomyia phaseoli	fallback:arthropod_genus
+460	witchgrass	Panicum capillare	fallback:invasive_plant
+461	fall panicum	Panicum dichotomiflorum	fallback:plant_taxon
+462	switchgrass	Panicum virgatum	fallback:invasive_plant
+463	citrus red mite	Panonychus citri	fallback:arthropod_genus
+464	Santa Maria feverfew, ragweed parthenium, whitetop weed	Parthenium hysterophorus	fallback:invasive_plant
+465	pink bollworm	Pectinophora gossypiella	fallback:arthropod_genus
+466	banana aphid	Pentalonia nigronervosa	fallback:arthropod_genus
+467	Mexican mealybug	Phenacoccus madeirensis	fallback:arthropod_genus
+468	Solenopsis mealybug	Phenacoccus solenopsis	fallback:arthropod_genus
+469	potato gangrene	Boeremia foveata	fallback:plant_taxon
+470	potato tuberworm	Phthorimaea operculella	fallback:arthropod_genus
+472	potato pink rot fungus	Phytophthora megasperma	fallback:fungal
+473	buckeye rot agent	Phytophthora nicotianae var. nicotianae	fallback:fungal
+474	Walnut twig borer	Pityophthorus juglandis	fallback:forest_insect
+476	glasshouse mealybug	Pseudococcus viburni	fallback:arthropod_genus
+477	American grape mealybug	Pseudococcus maritimus	fallback:arthropod_genus
+478	obscure mealybug	Pseudococcus viburni	fallback:arthropod_genus
+479	brown peach aphid	Pterochloroides persicae	fallback:arthropod_genus
+480	cereal rust	Puccinia graminis	fallback:fungal
+481	green shield scale	Pulvinaria psidii	fallback:arthropod_genus
+482	barley net-spot blotch disease agent	Pyrenophora teres	fallback:fungal
+483	banana-root nematode	Radopholus similis	fallback:nematode
+484	cherry fruit fly, cherry maggot, trypète des cerises	Rhagoletis cingulata	fallback:fruit_fly
+485	walnut husk fly, husk maggot, mouche des brous du noyer	Rhagoletis completa	fallback:fruit_fly
+486	western cherry fruit fly	Rhagoletis indifferens	fallback:fruit_fly
+487	apple maggot	Rhagoletis pomonella	fallback:fruit_fly
+488	roundheaded appletree borer	Saperda candida	fallback:arthropod
+490	avocado thrips	Scirtothrips perseae	fallback:arthropod
+491	Egyptian sesban	Sesbania sesban	fallback:plant_taxon
+492	bur cucumber, wall bur cucumber, oneseed bur cucumber, sicyos anguleux, nimble-Kate, star cucumber	Sicyos angulatus	fallback:plant_taxon
+493	yellow sugarcane aphid	Sipha flava	fallback:arthropod_genus
+494	New Zealand nightshade	Solanum aviculare	fallback:invasive_plant
+495	silverleaf nightshade, tomato weed, trompillo, white horsenettle, white nightshade	Solanum elaeagnifolium	fallback:invasive_plant
+496	orangeberry nightshade, lanceleaf nightshade	Solanum lanceolatum	fallback:invasive_plant
+497	earleaf nightshade	Solanum mauritianum	fallback:invasive_plant
+498	hoe nightshade, ground-cherry nightshade, hairy nightshade	Solanum physalifolium	fallback:invasive_plant
+499	buffalobur nightshade, buffalobur, horned nightshade, Colorado bur, Kansas thistle, Mexican thistle, Texas thistle	Solanum rostratum	fallback:invasive_plant
+500	Brazilian nightshade	Solanum seaforthianum	fallback:invasive_plant
+501	sticky nightshade	Solanum sisymbriifolium	fallback:invasive_plant
+502	cutleaf nightshade, cut-leaf nightshade	Solanum triflorum	fallback:invasive_plant
+503	Johnson grass	Sorghum halepense	fallback:invasive_plant
+505	African cotton leafworm	Spodoptera littoralis	fallback:plant_taxon
+509	Guatemalan potato tuber moth	Tecia solanivora	fallback:arthropod
+510	potato smut	Thecaphora solani	fallback:fungal
+511	plague thrips	Thrips imaginis	fallback:arthropod
+512	brown citrus aphid	Aphis citricidus	fallback:arthropod_genus
+513	papaya fruit fly	Anastrepha curvicauda	fallback:fruit_fly
+514	bandedwinged whitefly		fallback:sap_feeder
+515	castor bean whitefly	Trialeurodes ricini	fallback:sap_feeder
+516	greenhouse whitefly	Trialeurodes vaporariorum	fallback:sap_feeder
+517	bullhead, caltrop, Mexican sandbur, Texas sandbur, puncture vine, goathead	Tribulus terrestris	fallback:plant_taxon
+518	arrowhead scale	Unaspis yanonensis	fallback:sap_feeder
+519	loose smut of oats	Ustilago segetum var. avenae	fallback:fungal
+520	corn smut	Ustilago maydis	fallback:fungal
+521	loose smut of barley	Ustilago segetum var. nuda	fallback:fungal
+522	spiny cocklebur, Bathurst burr, cocklebur, spiny cockleburr	Xanthium spinosum	fallback:plant_taxon
+523	cocklebur	Xanthium strumarium	fallback:plant_taxon
+524	smaller tea tortrix	Adoxophyes honmai	fallback:plant_taxon
+525	summer fruit tortrix moth	Adoxophyes orana	fallback:arthropod
+526	black cutworm moth	Agrotis ipsilon	fallback:fungal
+527	cowpea aphid	Aphis craccivora	fallback:arthropod_genus
+528	black bean aphid	Aphis fabae	fallback:arthropod_genus
+529	soybean aphid	Aphis glycines	fallback:arthropod_genus
+530	buckthorn aphid	Aphis nasturtii	fallback:arthropod_genus
+531	fruittree leafroller	Archips argyrospilus	fallback:arthropod
+532	redbanded leafroller	Argyrotaenia velutinana	fallback:fungal
+533	potato aphid	Aulacorthum solani	fallback:sap_feeder
+535	hairy chinch bug, punaise velue	Blissus hirtus	fallback:plant_taxon
+536	cabbage aphid	Brevicoryne brassicae	fallback:sap_feeder
+537	clover mite	Bryobia praetiosa	fallback:sap_feeder
+538	almond moth	Cadra cautella	fallback:arthropod_genus
+539	cabbage seed weevil	Ceutorhynchus assimilis	fallback:arthropod
+540	cabbage stem weevil	Ceutorhynchus pallidactylus	fallback:arthropod
+541	tropical bed bug	Cimex hemipterus	fallback:plant_taxon
+542	bed bug	Cimex lectularius	fallback:plant_taxon
+543	rice leaffolder	Cnaphalocrocis medinalis	fallback:plant_taxon
+544	banana borer	Cosmopolites sordidus	fallback:arthropod
+545	little gray punkie	Culicoides furens	fallback:plant_taxon
+546	turnip maggot, mouche du navet	Delia floralis	fallback:plant_taxon
+547	bean seed maggot	Delia florilega	fallback:plant_taxon
+548	seedcorn maggot, mouche des semis	Delia platura	fallback:plant_taxon
+549	sugarcane borer	Diatraea saccharalis	fallback:arthropod
+550	fruit fly	Drosophila melanogaster	fallback:fruit_fly
+551	Mediterranean flour moth	Ephestia kuehniella	fallback:arthropod
+552	onion bulb fly, syrphe des bulbes	Eumerus strigatus	fallback:arthropod
+553	sand cutworm, ver-gris arénicole	Euxoa detersa	fallback:arthropod
+554	darksided cutworm, ver-gris moissonneur, Reaper Dart	Euxoa messoria	fallback:arthropod
+555	redbacked cutworm, ver-gris à dos rouge	Euxoa ochrogaster	fallback:arthropod
+556	white cutworm, ver-gris blanc	Euxoa scandens	fallback:arthropod
+557	little house fly	Fannia canicularis	fallback:arthropod
+558	horn fly	Haematobia irritans	fallback:arthropod
+559	tobacco budworm	Chloridea virescens	fallback:arthropod
+560	corn earworm	Helicoverpa zea	fallback:arthropod_genus
+561	mealy plum aphid	Hyalopterus pruni	fallback:sap_feeder
+562	alfalfa weevil	Hypera postica	fallback:arthropod
+563	coffee berry borer	Hypothenemus hampei	fallback:arthropod
+564	rice earhead bug	Leptocorisa acuta	fallback:plant_taxon
+565	cabbage moth	Mamestra brassicae	fallback:arthropod
+566	narcissus bulb fly, mouche des narcisses	Merodon equestris	fallback:arthropod
+567	face fly	Musca autumnalis	fallback:arthropod
+568	house fly	Musca domestica	fallback:arthropod
+569	black cherry aphid	Myzus cerasi	fallback:sap_feeder
+570	green peach aphid	Myzus persicae	fallback:sap_feeder
+571	lettuce aphid	Nasonovia ribisnigri	fallback:sap_feeder
+572	green rice leafhopper	Nephotettix cincticeps	fallback:sap_feeder
+573	Asian corn borer	Ostrinia furnacalis	fallback:arthropod
+574	European corn borer	Ostrinia nubilalis	fallback:arthropod
+575	spotted tentiform leafminer	Phyllonorycter blancardella	fallback:arthropod
+576	cabbage white	Artogeia rapae	fallback:plant_taxon
+577	cheese skipper, asticot du fromage	Piophila casei	fallback:plant_taxon
+578	vine mealybug	Planococcus ficus	fallback:sap_feeder
+579	Indianmeal moth	Plodia interpunctella	fallback:arthropod
+580	diamondback moth	Plutella xylostella	fallback:arthropod
+581	northern blowfly	Protophormia terraenovae	fallback:fungal
+582	soybean looper	Chrysodeixis includens	fallback:arthropod_genus
+583	bird cherry-oat aphid	Rhopalosiphum padi	fallback:sap_feeder
+584	lesser grain borer	Rhyzopertha dominica	fallback:arthropod
+585	greenbug	Schizaphis graminum	fallback:plant_taxon
+586	purple stem borer	Sesamia inferens	fallback:arthropod
+587	simulie à pattes blanches, whitestockinged black fly	Simulium venustum	fallback:arthropod
+588	English grain aphid	Sitobion avenae	fallback:sap_feeder
+589	granary weevil	Sitophilus granarius	fallback:arthropod
+590	rice weevil	Sitophilus oryzae	fallback:arthropod
+591	strawberry mite	Tetranychus turkestani	fallback:arthropod_genus
+592	casemaking clothes moth	Tinea pellionella	fallback:arthropod
+593	silverleaf whitefly	Bemisia argentifolii	fallback:arthropod_genus
+594	citrus scab fungus	Elsinoë fawcettii	fallback:fungal
+595	hoe nightshade, hairy nightshade, nightshade	Solanum sarrachoides	fallback:invasive_plant
+596	cabbage looper	Trichoplusia ni	fallback:arthropod
+597	crescentmarked lily aphid	Neomyzus circumflexus	fallback:sap_feeder
+598	southern corn leaf blight pathogen	Cochliobolus heterostrophus	fallback:fungal
+599	sweet potato weevil	Cylas formicarius	fallback:arthropod
+602	Mexican corn rootworm	Diabrotica virgifera zeae	fallback:fungal
+603	oriental chestnut gall wasp	Dryocosmus kuriphilus	fallback:plant_taxon
+604	cherry fruitworm	Grapholita packardi	fallback:arthropod_genus
+605	lesser appleworm	Grapholita prunivora	fallback:arthropod_genus
+606	marshelder, horseweed, giant marshelder, false ragweed, burweed marshelder, rag sumpweed, carelessweed, giant sumpweed	Iva xanthiifolia	fallback:invasive_plant
+607	bean plataspid	Megacopta cribraria	fallback:plant_taxon
+608	three-cornered alfalfa treehopper	Spissistilus festinus	fallback:plant_taxon
+609	American dagger nematode	Xiphinema americanum sensu stricto	fallback:nematode
+610	apple ermine moth	Yponomeuta malinella	fallback:arthropod
+611	dusky wireworm	Agriotes obscurus	fallback:plant_taxon
+612	cotton leafworm, Cotton Moth	Alabama argillacea	fallback:arthropod
+613	lesser mealworm	Alphitobius diaperinus	fallback:plant_taxon
+614	Mediterranean flour moth	Ephestia kuehniella	fallback:arthropod
+615	azuki bean weevil	Callosobruchus chinensis	fallback:arthropod
+616	cowpea weevil	Callosobruchus maculatus	fallback:arthropod
+617	southern potato wireworm	Conoderus falli	fallback:plant_taxon
+618	tobacco wireworm	Conoderus vespertinus	fallback:plant_taxon
+619	diamondback moth parasitoid	Cotesia vestalis	fallback:arthropod
+620	almond moth	Cadra cautella	fallback:arthropod_genus
+621	neotropical brown stinkbug	Euschistus heros	fallback:sap_feeder
+622	pacific coast wireworm, Pacific Coast wireworm, taupin du Pacifique	Pheletes canus	fallback:plant_taxon
+623	tomato hornworm	Manduca quinquemaculata	fallback:arthropod_genus
+624	western predatory mite	Galendromus occidentalis	fallback:sap_feeder
+625	southern green stink bug	Nezara viridula	fallback:plant_taxon
+626	northern fowl mite	Ornithonyssus sylviarum	fallback:sap_feeder
+627	black scale	Saissetia oleae	fallback:sap_feeder
+628	maize weevil	Sitophilus zeamais	fallback:arthropod
+629	strawberry mite	Tetranychus turkestani	fallback:arthropod_genus
+630	yellow clover aphid	Therioaphis maculata	fallback:sap_feeder
+631	Mexican bean weevil	Zabrotes subfasciatus	fallback:fungal
+632	carrot rust fly	Chamaepsila rosae	fallback:fungal
+633	European chafer	Amphimallon majalis	fallback:plant_taxon
+634	cherry fruitworm	Grapholita packardi	fallback:arthropod_genus
+635	grass mildew		fallback:fungal
+636	cucumber fruit fly	Zeugodacus cucumis	fallback:fruit_fly
+637	grass mildew	Blumeria graminis f. sp. hordei	fallback:fungal
+639	Acrobasis pirivorella	Acrobasis pirivorella	fallback:arthropod_genus
+640	sticky snakeroot, crofton weed, Maui pamakani, Mexican devil	Ageratina adenophora	fallback:invasive_plant
+641	Agrilus anxius	Agrilus anxius	fallback:arthropod
+642	Agrilus bilineatus	Agrilus bilineatus	fallback:arthropod
+643	Agrilus fleischeri	Agrilus fleischeri	fallback:arthropod
+644	Agrilus mali	Agrilus mali	fallback:arthropod
+646	citrus spiny whitefly	Aleurocanthus spiniferus	fallback:arthropod_genus
+647	Aleurocanthus woglumi	Aleurocanthus woglumi	fallback:arthropod_genus
+649	Alternaria mali	Alternaria mali	fallback:fungal
+650	"Palmers amaranth", carelessweed	Amaranthus palmeri	fallback:invasive_plant
+651	Nemorimyza maculosa	Nemorimyza maculosa	fallback:arthropod_genus
+653	broomsedge	Andropogon virginicus	fallback:invasive_plant
+656	pepper weevil	Anthonomus eugenii	fallback:arthropod
+657	boll weevil	Anthonomus grandis grandis	fallback:arthropod
+658	Anthonomus signatus	Anthonomus signatus	fallback:plant_taxon
+659	Aphelenchoides besseyi	Aphelenchoides besseyi	fallback:nematode
+660	black knot	Apiosporina morbosa	fallback:fungal
+661	Apriona cinerea	Apriona cinerea	fallback:plant_taxon
+662	Apriona germari	Apriona germari	fallback:plant_taxon
+663	Apriona rugicollis	Apriona rugicollis	fallback:plant_taxon
+664	Apriona rugicollis	Apriona rugicollis	fallback:plant_taxon
+665	lodgepole pine dwarf mistletoe, American dwarf mistletoe	Arceuthobium americanum	fallback:plant_taxon
+666	Arceuthobium minutissimum	Arceuthobium minutissimum	fallback:plant_taxon
+667	hemlock dwarf mistletoe	Arceuthobium tsugense	fallback:plant_taxon
+668	Arceuthobium vaginatum subsp. cryptopodum	Arceuthobium vaginatum subsp. cryptopodum	fallback:generic
+669	Aromia bungii	Aromia bungii	fallback:plant_taxon
+670	Atropellis piniphila	Atropellis piniphila	fallback:plant_taxon
+671	eastern baccharis	Baccharis halimifolia	fallback:plant_taxon
+676	Exomala orientalis	Exomala orientalis	fallback:plant_taxon
+678	Paraburkholderia caryophylli	Paraburkholderia caryophylli	fallback:bacterial
+679	Cacoecimorpha pronubana	Cacoecimorpha pronubana	fallback:plant_taxon
+680	geranium bronze	Cacyreus marshalli	fallback:plant_taxon
+681	balloonvine	Cardiospermum grandiflorum	fallback:plant_taxon
+682	tsuru-ume-mo-doki, Asian bittersweet, oriental bittersweet, Asiatic bittersweet	Celastrus orbiculatus	fallback:plant_taxon
+687	Ceratothripoides brunneus	Ceratothripoides brunneus	fallback:plant_taxon
+688	Ceratothripoides claratris	Ceratothripoides claratris	fallback:plant_taxon
+689	large aspen tortrix	Choristoneura conflictana	fallback:arthropod_genus
+690	eastern spruce budworm	Choristoneura fumiferana	fallback:forest_insect
+691	western spruce budworm	Choristoneura occidentalis	fallback:forest_insect
+692	flatheaded appletree borer	Chrysobothris femorata	fallback:arthropod
+693	Ciborinia camelliae	Ciborinia camelliae	fallback:plant_taxon
+694	Clavibacter insidiosus	Clavibacter insidiosus	fallback:bacterial
+697	Coniferiporia weirii	Coniferiporia weirii	fallback:plant_taxon
+698	Andean pampas grass, pampasgrass, purple pampasgrass, selloa pampasgrass, selloa pampas grass, purple pampas grass	Cortaderia jubata	fallback:invasive_plant
+699	swamp stonecrop	Crassula helmsii	fallback:plant_taxon
+700	Crisicoccus pini	Crisicoccus pini	fallback:arthropod_genus
+701	Cronartium coleosporioides	Cronartium coleosporioides	fallback:fungal
+702	Cronartium fusiforme	Cronartium fusiforme	fallback:fungal
+703	Cronartium kamtschaticum	Cronartium kamtschaticum	fallback:fungal
+704	Cronartium quercuum	Cronartium quercuum	fallback:fungal
+705	lesser pumpkin fly	Dacus ciliatus	fallback:arthropod
+706	roundheaded pine beetle	Dendroctonus adjunctus	fallback:forest_insect
+707	western pine beetle	Dendroctonus brevicomis	fallback:forest_insect
+708	southern pine beetle	Dendroctonus frontalis	fallback:forest_insect
+709	mountain pine beetle	Dendroctonus ponderosae	fallback:forest_insect
+710	Douglas fir beetle	Dendroctonus pseudotsugae	fallback:forest_insect
+711	spruce beetle	Dendroctonus rufipennis	fallback:forest_insect
+712	red turpentine beetle	Dendroctonus valens	fallback:arthropod
+713	Siberian slik moth	Dendrolimus sibiricus	fallback:arthropod
+714	Japanese hemlock caterpillar	Dendrolimus superans	fallback:arthropod
+715	Diaporthe vaccinii	Diaporthe vaccinii	fallback:fungal
+717	ray blight fungus	Stagonosporopsis chrysanthemi	fallback:fungal
+718	Ditylenchus dipsaci	Ditylenchus dipsaci	fallback:nematode
+720	western balsam bark beele	Dryocoetes confusus	fallback:plant_taxon
+721	perennial veldt grass	Ehrharta calycina	fallback:invasive_plant
+722	Garella musculana	Garella musculana	fallback:plant_taxon
+724	Pantoea stewartii subsp. stewartii	Pantoea stewartii subsp. stewartii	fallback:bacterial
+725	oriental spider mite	Eutetranychus orientalis	fallback:sap_feeder
+726	oriental beetle	Exomala orientalis	fallback:arthropod
+728	Fusarium foetens	Fusarium foetens	fallback:fungal
+732	Glomerella gossypii	Glomerella gossypii	fallback:fungal
+733	Gnathotrichus sulcatus	Gnathotrichus sulcatus	fallback:plant_taxon
+734	Gonipterus scutellatus	Gonipterus scutellatus	fallback:plant_taxon
+736	Gymnocoronis spilanthoides	Gymnocoronis spilanthoides	fallback:plant_taxon
+737	Gymnosporangium asiaticum	Gymnosporangium asiaticum	fallback:fungal
+738	Gymnosporangium globosum	Gymnosporangium globosum	fallback:fungal
+739	Gymnosporangium juniperi-virginianae	Gymnosporangium juniperi-virginianae	fallback:fungal
+740	Gymnosporangium yamadae	Gymnosporangium yamadae	fallback:fungal
+741	Hakea sericea	Hakea sericea	fallback:plant_taxon
+742	Heracleum persicum	Heracleum persicum	fallback:invasive_plant
+743	Heracleum sosnowskyi	Heracleum sosnowskyi	fallback:invasive_plant
+744	Trichoferus campestris	Trichoferus campestris	fallback:arthropod
+746	African black beetle	Heteronychus arator	fallback:arthropod
+747	glassy-winged sharpshooter	Homalodisca vitripennis	fallback:plant_taxon
+748	Japanese hop	Humulus scandens	fallback:invasive_plant
+749	Humulus scandens	Humulus scandens	fallback:invasive_plant
+750	floating pennyroyal, floating marsh pennywort, floating marshpennywort	Hydrocotyle ranunculoides	fallback:plant_taxon
+751	sixspined ips, calligraphe, coarsewriting engraver	Ips calligraphus	fallback:forest_insect
+752	Ips confusus	Ips confusus	fallback:arthropod
+753	eastern fivespined ips, scolyte à grand corselet, southern pine engraver	Ips grandicollis	fallback:forest_insect
+754	Ips hauseri	Ips hauseri	fallback:arthropod
+755	Ips lecontei	Ips lecontei	fallback:arthropod
+756	North American pine engraver	Ips pini	fallback:forest_insect
+757	larch engraver beetle	Ips subelongatus	fallback:arthropod
+758	Keiferia lycopersicella	Keiferia lycopersicella	fallback:plant_taxon
+759	brown spot needle blight	Lecanosticta acicola	fallback:fungal
+760	Lepidosaphes ussuriensis	Lepidosaphes ussuriensis	fallback:plant_taxon
+761	sericea lespedeza	Lespedeza cuneata	fallback:invasive_plant
+762	Lespedeza cuneata	Lespedeza cuneata	fallback:invasive_plant
+763	Leucinodes orbonalis	Leucinodes orbonalis	fallback:arthropod_genus
+764	Japanese maple scale	Lopholeucaspis japonica	fallback:sap_feeder
+765	large-flower primrose-willow	Ludwigia grandiflora	fallback:invasive_plant
+766	floating primrose, creeping waterprimrose, floating primrosewillow, floating primrose-willow	Ludwigia peploides	fallback:invasive_plant
+767	Uruguay waterprimrose, water primrose, Uruguayan primrosewillow, Uruguayan primrose-willow	Ludwigia grandiflora	fallback:invasive_plant
+769	Japanese climbing fern	Lygodium japonicum	fallback:invasive_plant
+770	rosy gypsy moth	Lymantria mathura	fallback:arthropod
+771	forest tent caterpillar	Malacosoma disstria	fallback:arthropod
+772	Megaplatypus mutatus	Megaplatypus mutatus	fallback:plant_taxon
+773	Melampsora medusae	Melampsora medusae	fallback:plant_taxon
+774	Meloidogyne graminicola	Meloidogyne graminicola	fallback:nematode
+775	silky cane weevil	Metamasius hemipterus	fallback:arthropod
+776	Nepal grass	Microstegium vimineum	fallback:invasive_plant
+778	Japanese pine sawyer	Monochamus alternatus	fallback:forest_insect
+779	Monochamus carolinensis	Monochamus carolinensis	fallback:arthropod
+780	balsam fir sawyer	Monochamus marmorator	fallback:forest_insect
+781	spotted pine sawyer	Monochamus mutator	fallback:forest_insect
+782	northeastern sawyer	Monochamus notatus	fallback:arthropod
+783	southern pine sawyer	Monochamus titillator	fallback:forest_insect
+784	broadleaf water-milfoil, changeleaf parrotfeather, two-leaf water-milfoil, twoleaf watermilfoil	Myriophyllum heterophyllum	fallback:fungal
+785	Nacobbus aberrans	Nacobbus aberrans	fallback:nematode
+786	Naupactus leucoloma	Naupactus leucoloma	fallback:plant_taxon
+787	South American fruit tree weevil	Naupactus xanthographus	fallback:arthropod
+788	Neoleucinodes elegantalis	Neoleucinodes elegantalis	fallback:plant_taxon
+789	Oemona hirta	Oemona hirta	fallback:plant_taxon
+790	Oligonychus perditus	Oligonychus perditus	fallback:arthropod_genus
+791	Opogona sacchari	Opogona sacchari	fallback:plant_taxon
+792	Douglas fir tussock moth	Orgyia pseudotsugata	fallback:arthropod
+793	Pantoea stewartii subsp. stewartii	Pantoea stewartii subsp. stewartii	fallback:bacterial
+794	Paysandisia archon	Paysandisia archon	fallback:plant_taxon
+795	Pseudocercospora angolensis	Pseudocercospora angolensis	fallback:fungal
+796	Coniferiporia weirii	Coniferiporia weirii	fallback:plant_taxon
+797	Phialophora cinerescens	Phialophora cinerescens	fallback:fungal
+799	Phymatotrichopsis omnivora	Phymatotrichopsis omnivora	fallback:fungal
+805	Pissodes nemorensis	Pissodes nemorensis	fallback:arthropod
+806	Pissodes strobi	Pissodes strobi	fallback:arthropod
+807	Pissodes terminalis	Pissodes terminalis	fallback:arthropod
+809	Platynota stultana	Platynota stultana	fallback:arthropod_genus
+810	Megaplatypus mutatus	Megaplatypus mutatus	fallback:plant_taxon
+811	Plenodomus tracheiphilus	Plenodomus tracheiphilus	fallback:plant_taxon
+812	Polygraphus proximus	Polygraphus proximus	fallback:arthropod
+814	Japanese beetle	Popillia japonica	fallback:arthropod
+815	Premnotrypes latithorax	Premnotrypes latithorax	fallback:plant_taxon
+816	Premnotrypes vorax	Premnotrypes vorax	fallback:plant_taxon
+817	Prodiplosis longifila	Prodiplosis longifila	fallback:arthropod_genus
+818	ironwood	Prosopis juliflora	fallback:plant_taxon
+819	Pseudocercospora angolensis	Pseudocercospora angolensis	fallback:fungal
+820	Pseudomonas syringae	Pseudomonas syringae	fallback:bacterial
+821	Pseudopityophthorus minutissimus	Pseudopityophthorus minutissimus	fallback:plant_taxon
+822	Puccinia hemerocallidis	Puccinia hemerocallidis	fallback:fungal
+823	Puccinia horiana	Puccinia horiana	fallback:fungal
+824	Puccinia pittieriana	Puccinia pittieriana	fallback:fungal
+828	Comstockaspis perniciosa	Comstockaspis perniciosa	fallback:plant_taxon
+829	Radopholus similis citrus race	Radopholus similis citrus race	fallback:nematode
+832	blueberry fruit fly	Rhagoletis mendax	fallback:fruit_fly
+833	Ripersiella hibisci	Ripersiella hibisci	fallback:sap_feeder
+835	Rhynchophorus palmarum	Rhynchophorus palmarum	fallback:arthropod_genus
+836	African payal, kariba weed, water fern, aquarium watermoss, giant salvinia, kariba-weed	Salvinia molesta	fallback:invasive_plant
+837	Scirtothrips aurantii	Scirtothrips aurantii	fallback:arthropod
+838	Scirtothrips citri	Scirtothrips citri	fallback:arthropod
+839	Scirtothrips dorsalis	Scirtothrips dorsalis	fallback:arthropod
+841	Scolytus morawitzi	Scolytus morawitzi	fallback:plant_taxon
+842	Septoria malagutii	Septoria malagutii	fallback:plant_taxon
+843	Ophiognomonia clavigignenti-juglandacearum	Ophiognomonia clavigignenti-juglandacearum	fallback:plant_taxon
+844	Sphaerulina musiva	Sphaerulina musiva	fallback:fungal
+845	southern armyworm	Spodoptera eridania	fallback:arthropod
+847	Stagonosporopsis andigena	Stagonosporopsis andigena	fallback:fungal
+848	Stagonosporopsis chrysanthemi	Stagonosporopsis chrysanthemi	fallback:fungal
+849	Stagonosporopsis crystalliniformis	Stagonosporopsis crystalliniformis	fallback:fungal
+850	Stegophora ulmea	Stegophora ulmea	fallback:fungal
+851	Stenocarpella macrospora	Stenocarpella macrospora	fallback:fungal
+852	Stenocarpella maydis	Stenocarpella maydis	fallback:fungal
+853	Sternochetus mangiferae	Sternochetus mangiferae	fallback:arthropod_genus
+855	red spider mite	Tetranychus evansi	fallback:arthropod_genus
+856	Tetranychus mexicanus	Tetranychus mexicanus	fallback:arthropod_genus
+857	Tetropium gracilicorne	Tetropium gracilicorne	fallback:arthropod
+858	Thekopsora minima	Thekopsora minima	fallback:fungal
+859	Thrips palmi	Thrips palmi	fallback:arthropod
+861	candleberry-tree	Triadica sebifera	fallback:plant_taxon
+862	Trichoferus campestris	Trichoferus campestris	fallback:arthropod
+864	Unaspis citri	Unaspis citri	fallback:plant_taxon
+868	Xanthomonas euvesicatoria pv. euvesicatoria	Xanthomonas euvesicatoria pv. euvesicatoria	fallback:bacterial
+871	Xanthomonas euvesicatoria pv. perforans	Xanthomonas euvesicatoria pv. perforans	fallback:bacterial
+872	Xanthomonas vesicatoria	Xanthomonas vesicatoria	fallback:bacterial
+875	Manchurian wildrice	Zizania latifolia	fallback:plant_taxon
+877	Grapholita inopinata	Grapholita inopinata	fallback:arthropod_genus
+878	glassy-winged sharpshooter	Homalodisca vitripennis	fallback:plant_taxon
+879	Ophiognomonia clavigignenti-juglandacearum	Ophiognomonia clavigignenti-juglandacearum	fallback:plant_taxon
+880	Aculops fuchsiae	Aculops fuchsiae	fallback:arthropod_genus
+882	Curtobacterium flaccumfaciens pv. flaccumfaciens	Curtobacterium flaccumfaciens pv. flaccumfaciens	fallback:bacterial
+883	Curtobacterium flaccumfaciens pv. oortii	Curtobacterium flaccumfaciens pv. oortii	fallback:bacterial
+884	Plenodomus tracheiphilus	Plenodomus tracheiphilus	fallback:plant_taxon
+885	Diabrotica speciosa	Diabrotica speciosa	fallback:fungal
+886	Diabrotica undecimpunctata undecimpunctata	Diabrotica undecimpunctata undecimpunctata	fallback:fungal
+887	spotted cucumber beetle	Diabrotica undecimpunctata howardi	fallback:fungal
+888	Epitrix cucumeris	Epitrix cucumeris	fallback:arthropod_genus
+889	Epitrix papa	Epitrix papa	fallback:arthropod_genus
+890	Epitrix subcrinita	Epitrix subcrinita	fallback:arthropod_genus
+891	Epitrix tuberis	Epitrix tuberis	fallback:arthropod_genus
+892	Ageratina adenophora	Ageratina adenophora	fallback:plant_taxon
+894	Garella musculana	Garella musculana	fallback:plant_taxon
+896	Gonipterus gibberus	Gonipterus gibberus	fallback:plant_taxon
+897	Gymnandrosoma aurantianum	Gymnandrosoma aurantianum	fallback:arthropod_genus
+899	Leucinodes africensis	Leucinodes africensis	fallback:arthropod_genus
+900	Leucinodes pseudorbonalis	Leucinodes pseudorbonalis	fallback:arthropod_genus
+901	Leucinodes rimavallis	Leucinodes rimavallis	fallback:arthropod_genus
+902	Argentine stem weevil	Listronotus bonariensis	fallback:arthropod
+903	eastern tent caterpillar	Malacosoma americanum	fallback:arthropod
+906	Meloidogyne fallax	Meloidogyne fallax	fallback:nematode
+907	Meloidogyne mali	Meloidogyne mali	fallback:nematode
+908	brown spot needle blight	Lecanosticta acicola	fallback:fungal
+909	Sphaerulina musiva	Sphaerulina musiva	fallback:fungal
+910	Nemorimyza maculosa	Nemorimyza maculosa	fallback:arthropod_genus
+911	Plenodomus tracheiphilus	Plenodomus tracheiphilus	fallback:plant_taxon
+913	Pseudomonas syringae pv. aesculi	Pseudomonas syringae pv. aesculi	fallback:bacterial
+914	Pseudomonas syringae pv. papulans	Pseudomonas syringae pv. papulans	fallback:bacterial
+915	Pseudomonas syringae pv. pisi	Pseudomonas syringae pv. pisi	fallback:bacterial
+917	candleberry-tree	Triadica sebifera	fallback:plant_taxon
+918	Sirex ermak	Sirex ermak	fallback:arthropod
+919	Thaumatotibia leucotreta	Thaumatotibia leucotreta	fallback:arthropod_genus
+920	Trogoderma granarium	Trogoderma granarium	fallback:arthropod_genus
+922	Daktulosphaira vitifoliae	Daktulosphaira vitifoliae	fallback:arthropod_genus
+924	Xanthomonas axonopodis pv. vesicatoria	Xanthomonas axonopodis pv. vesicatoria	fallback:bacterial
+926	Xanthomonas oryzae pv. oryzicola	Xanthomonas oryzae pv. oryzicola	fallback:bacterial
+928	Xylotrechus namanganensis	Xylotrechus namanganensis	fallback:arthropod
+929	Exomala orientalis	Exomala orientalis	fallback:plant_taxon
+930	Naupactus leucoloma	Naupactus leucoloma	fallback:plant_taxon
+931	Pseudomonas syringae pv. syringae	Pseudomonas syringae pv. syringae	fallback:bacterial
+932	Xanthomonas arboricola pv. corylina	Xanthomonas arboricola pv. corylina	fallback:bacterial
+933	Fusarium oxysporum f. sp. melonis	Fusarium oxysporum f. sp. melonis	fallback:fungal
+934	Fusarium oxysporum f. sp. lycopersici	Fusarium oxysporum f. sp. lycopersici	fallback:fungal
+935	Fusarium oxysporum f. sp. radicis-lycopersici	Fusarium oxysporum f. sp. radicis-lycopersici	fallback:fungal
+936	Pseudomonas syringae pv. lapsa	Pseudomonas syringae pv. lapsa	fallback:bacterial
+937	Xanthomonas arboricola pv. pruni	Xanthomonas arboricola pv. pruni	fallback:bacterial
+938	Comstockaspis perniciosa	Comstockaspis perniciosa	fallback:plant_taxon
+939	Curtobacterium flaccumfaciens pv. poinsettiae	Curtobacterium flaccumfaciens pv. poinsettiae	fallback:bacterial
+940	Fusarium oxysporum f. sp. lactucae	Fusarium oxysporum f. sp. lactucae	fallback:fungal
+941	Meloidogyne ethiopica	Meloidogyne ethiopica	fallback:nematode
+942	Meloidogyne luci	Meloidogyne luci	fallback:nematode
+943	Phyllocoptes fructiphilus	Phyllocoptes fructiphilus	fallback:arthropod_genus
+947	Pseudomonas syringae pv. persicae	Pseudomonas syringae pv. persicae	fallback:bacterial
+948	Xanthomonas arboricola pv. corylina	Xanthomonas arboricola pv. corylina	fallback:bacterial
+949	Xanthomonas arboricola pv. fragariae	Xanthomonas arboricola pv. fragariae	fallback:bacterial
+950	Xanthomonas euvesicatoria pv. allii	Xanthomonas euvesicatoria pv. allii	fallback:bacterial
+951	Xanthomonas axonopodis pv. dieffenbachiae	Xanthomonas axonopodis pv. dieffenbachiae	fallback:bacterial
+952	Xanthomonas citri pv. malvacearum	Xanthomonas citri pv. malvacearum	fallback:bacterial
+953	Xanthomonas phaseoli pv. phaseoli	Xanthomonas phaseoli pv. phaseoli	fallback:bacterial
+954	Xanthomonas axonopodis pv. poinsettiicola	Xanthomonas axonopodis pv. poinsettiicola	fallback:bacterial
+955	Xanthomonas axonopodis pv. vesicatoria	Xanthomonas axonopodis pv. vesicatoria	fallback:bacterial
+956	Xanthomonas oryzae pv. oryzae	Xanthomonas oryzae pv. oryzae	fallback:bacterial
+957	Xanthomonas phaseoli pv. dieffenbachiae	Xanthomonas phaseoli pv. dieffenbachiae	fallback:bacterial
+958	Xanthomonas translucens pv. translucens	Xanthomonas translucens pv. translucens	fallback:bacterial
+960	Fusarium oxysporum f. sp. dianthi	Fusarium oxysporum f. sp. dianthi	fallback:fungal
+961	Fusarium oxysporum f. sp. gladioli	Fusarium oxysporum f. sp. gladioli	fallback:fungal
+962	Fusarium oxysporum f. sp. tulipae	Fusarium oxysporum f. sp. tulipae	fallback:fungal
+963	Euwallacea fornicatus sensu lato	Euwallacea fornicatus sensu lato	fallback:arthropod
+964	Pseudomonas syringae pv. allii	Pseudomonas syringae pv. allii	fallback:bacterial
+966	Trirachys sartus	Trirachys sartus	fallback:plant_taxon
