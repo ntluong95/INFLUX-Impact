@@ -31,7 +31,11 @@ build/
 .Rproj.user/
 
 # Data & outputs
-data/
+data/*
+!data/inputs/
+data/inputs/*
+!data/inputs/epp_emergence_analysis_*.py
+!data/inputs/README-openai-epp-emergence.md
 data_hierarchical/
 data_hierarchical_14/
 data_hierarchical_60/
