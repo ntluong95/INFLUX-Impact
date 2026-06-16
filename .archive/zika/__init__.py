@@ -1,1 +1,0 @@
-"""Zika pipeline package."""
