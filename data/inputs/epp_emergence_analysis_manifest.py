@@ -36,6 +36,13 @@ def build_run_manifest(
             "case_sensitive": bool(args.case_sensitive),
             "selected_row_count": len(selected_rows),
         },
+        "llm": {
+            "search_provider": args.search_provider,
+            "review_provider": args.review_provider,
+            "search_model": args.search_model,
+            "review_model": args.review_model_resolved,
+            "web_search": bool(args.web_search),
+        },
         "batching": {
             "batch_size": batch_size,
             "batch_count": (len(selected_rows) + batch_size - 1) // batch_size,
@@ -91,6 +98,7 @@ def write_manifest(manifest: dict[str, Any], path: Path) -> Path:
 def print_dataset_summary(manifest: dict[str, Any]) -> None:
     dataset = manifest["input_dataset"]
     selection = manifest["selection"]
+    llm = manifest["llm"]
     batching = manifest["batching"]
     print(f"Input workbook: {dataset['workbook']}")
     print(
@@ -102,6 +110,10 @@ def print_dataset_summary(manifest: dict[str, Any]) -> None:
         f"Selected rows: {selection['selected_row_count']} | "
         f"Batch size: {batching['batch_size']} | "
         f"Batch count: {batching['batch_count']}"
+    )
+    print(
+        f"Search: {llm['search_provider']} / {llm['search_model']} | "
+        f"Review: {llm['review_provider']} / {llm['review_model']}"
     )
 
 

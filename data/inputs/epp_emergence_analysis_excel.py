@@ -30,8 +30,11 @@ def load_json(path: Path) -> dict[str, Any]:
 def write_excel_from_payload(payload: dict[str, Any], output_path: Path) -> Path:
     output_path.parent.mkdir(parents=True, exist_ok=True)
     readme_rows = [
-        {"Field": "Workbook", "Value": "OpenAI EPP emergence event output"},
-        {"Field": "Model", "Value": payload.get("metadata", {}).get("model", "")},
+        {"Field": "Workbook", "Value": "EPP emergence event output"},
+        {"Field": "Search provider", "Value": payload.get("metadata", {}).get("search_provider", "")},
+        {"Field": "Search model", "Value": payload.get("metadata", {}).get("search_model", "")},
+        {"Field": "Review provider", "Value": payload.get("metadata", {}).get("review_provider", "")},
+        {"Field": "Review model", "Value": payload.get("metadata", {}).get("review_model", "")},
         {"Field": "Event definition", "Value": EVENT_DEFINITION},
         {"Field": "Generated at UTC", "Value": payload.get("metadata", {}).get("generated_at_utc", "")},
     ]
@@ -79,7 +82,12 @@ def epp_summary_row(input_row: dict[str, Any], parsed: dict[str, Any], result: d
         "Emergence event count 2005-2025": parsed.get("emergence_event_count_2005_2025", ""),
         "No event reason": parsed.get("no_event_reason", ""),
         "Quality notes": parsed.get("quality_notes", ""),
-        "OpenAI response ID": result.get("openai_response_id", ""),
+        "Provider": result.get("provider", ""),
+        "Provider model": result.get("model", result.get("openai_model", result.get("claude_model", ""))),
+        "Provider response ID": result.get(
+            "response_id",
+            result.get("openai_response_id", result.get("claude_response_id", "")),
+        ),
     }
 
 

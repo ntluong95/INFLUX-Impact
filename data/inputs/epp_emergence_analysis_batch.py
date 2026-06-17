@@ -4,7 +4,7 @@ import re
 from pathlib import Path
 from typing import Any
 
-from epp_emergence_analysis_api import call_review_openai, call_search_openai
+from epp_emergence_analysis_api import call_review_provider, call_search_provider
 from epp_emergence_analysis_config import STANDARD_NAME_COLUMN, now_slug
 from epp_emergence_analysis_excel import load_json, write_excel_from_payload, write_json
 
@@ -34,7 +34,7 @@ def resolve_run_dir(args: Any) -> Path:
 
 
 def process_batches(
-    client: Any,
+    clients: dict[str, Any],
     selected_rows: list[dict[str, Any]],
     country_rows: list[dict[str, Any]],
     country_rows_text: str,
@@ -45,13 +45,13 @@ def process_batches(
     outputs: list[Path] = []
     for batch_index, rows in enumerate(chunk_rows(selected_rows, args.batch_size), start=1):
         batch_dir = run_dir / f"batch_{batch_index:03d}"
-        curated = process_batch(client, rows, country_rows, country_rows_text, args, batch_dir, stems)
+        curated = process_batch(clients, rows, country_rows, country_rows_text, args, batch_dir, stems)
         outputs.append(curated)
     return outputs
 
 
 def process_batch(
-    client: Any,
+    clients: dict[str, Any],
     rows: list[dict[str, Any]],
     country_rows: list[dict[str, Any]],
     country_rows_text: str,
@@ -67,13 +67,13 @@ def process_batch(
         print(f"Batch {batch_dir.name}: search input row {row_id} - {row.get(STANDARD_NAME_COLUMN)}")
         search_path = search_dir / f"{stems[row_id]}.json"
         review_path = review_dir / f"{stems[row_id]}.json"
-        search_result = load_json(search_path) if search_path.exists() else call_search_openai(
-            client, row, country_rows_text, args
+        search_result = load_json(search_path) if search_path.exists() else call_search_provider(
+            clients, row, country_rows_text, args
         )
         write_json(search_result, search_path)
         print(f"Batch {batch_dir.name}: review input row {row_id} - {row.get(STANDARD_NAME_COLUMN)}")
-        review_result = load_json(review_path) if review_path.exists() else call_review_openai(
-            client, row, country_rows_text, search_result, args
+        review_result = load_json(review_path) if review_path.exists() else call_review_provider(
+            clients, row, country_rows_text, search_result, args
         )
         write_json(review_result, review_path)
         results.append(review_result)
@@ -93,9 +93,12 @@ def batch_metadata(args: Any, batch_dir: Path) -> dict[str, Any]:
     return {
         "generated_at_utc": now_slug(),
         "batch_dir": str(batch_dir),
-        "search_model": args.model,
-        "review_model": args.review_model or args.model,
-        "base_url": args.base_url,
+        "search_provider": args.search_provider,
+        "review_provider": args.review_provider,
+        "search_model": args.search_model,
+        "review_model": args.review_model_resolved,
+        "openai_base_url": args.openai_base_url,
+        "claude_base_url": args.claude_base_url,
         "batch_size": args.batch_size,
         "web_search": args.web_search,
     }

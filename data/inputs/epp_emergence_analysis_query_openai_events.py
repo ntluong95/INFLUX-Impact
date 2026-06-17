@@ -8,10 +8,14 @@ from pathlib import Path
 from typing import Any
 
 from epp_emergence_analysis_batch import process_batches, resolve_run_dir, unique_stems
+from epp_emergence_analysis_api import build_api_clients, list_provider_models, resolve_runtime_args
 from epp_emergence_analysis_config import (
+    DEFAULT_CLAUDE_BASE_URL,
+    DEFAULT_OPENAI_BASE_URL,
     DEFAULT_OUTPUT_DIR,
     DEFAULT_WORKBOOK,
     PROJECT_ROOT,
+    PROVIDERS,
 )
 from epp_emergence_analysis_manifest import (
     build_run_manifest,
@@ -30,14 +34,28 @@ from epp_emergence_analysis_workbook import (
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Query OpenAI for EPP emergence events and export JSON plus Excel."
+        description="Query OpenAI or Claude for EPP emergence events and export JSON plus Excel."
     )
     parser.add_argument("--workbook", type=Path, default=DEFAULT_WORKBOOK)
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR)
     parser.add_argument("--run-dir", type=Path, help="Existing or new run folder for batch outputs.")
-    parser.add_argument("--model", default="gpt-5.1")
-    parser.add_argument("--review-model", help="Model for peer review. Defaults to --model.")
-    parser.add_argument("--base-url", default="https://api.openai.com/v1")
+    parser.add_argument("--provider", choices=PROVIDERS, help="Use one provider for both search and review.")
+    parser.add_argument("--search-provider", choices=PROVIDERS, help="Provider for the search prompt.")
+    parser.add_argument("--review-provider", choices=PROVIDERS, help="Provider for the verification prompt.")
+    parser.add_argument("--model", help="Searcher model. Defaults by provider.")
+    parser.add_argument(
+        "--review-model",
+        help="Review model. Defaults to --model when providers match, otherwise the review provider default.",
+    )
+    parser.add_argument(
+        "--base-url",
+        "--openai-base-url",
+        dest="openai_base_url",
+        default=DEFAULT_OPENAI_BASE_URL,
+        help="OpenAI API base URL. --base-url is kept for compatibility.",
+    )
+    parser.add_argument("--claude-base-url", default=DEFAULT_CLAUDE_BASE_URL)
+    parser.add_argument("--timeout-seconds", type=int, default=120)
     parser.add_argument("--names", nargs="*", default=[])
     parser.add_argument("--names-file", type=Path)
     parser.add_argument("--row-indices", nargs="*", type=int, default=[])
@@ -61,7 +79,8 @@ def parse_args() -> argparse.Namespace:
         help="Print input dataset details and all batch memberships.",
     )
     parser.add_argument("--list-models", action="store_true", help="List model IDs available to your API key.")
-    return parser.parse_args()
+    parser.add_argument("--list-model-provider", choices=PROVIDERS, help="Provider to list. Defaults to search provider.")
+    return resolve_runtime_args(parser.parse_args())
 
 
 def build_payload(
@@ -104,28 +123,24 @@ def main() -> int:
     args = parse_args()
     try:
         from dotenv import load_dotenv
-        from openai import OpenAI
     except ModuleNotFoundError as exc:
         if not args.dry_run:
             raise RuntimeError(
                 "Missing API dependency. Install project dependencies or run: "
-                "python3 -m pip install openai python-dotenv"
+                "python3 -m pip install python-dotenv"
             ) from exc
-        OpenAI = None
         load_dotenv = None
 
     if args.list_models:
-        if load_dotenv is None or OpenAI is None:
+        if load_dotenv is None:
             raise RuntimeError(
                 "Missing API dependency. Install project dependencies or run: "
-                "python3 -m pip install openai python-dotenv"
+                "python3 -m pip install python-dotenv"
             )
         load_dotenv(PROJECT_ROOT / ".env")
-        if not os.getenv("OPENAI_API_KEY"):
-            raise RuntimeError(f"OPENAI_API_KEY not found. Add it to {PROJECT_ROOT / '.env'} or the environment.")
-        print(f"Using API base URL: {args.base_url}")
-        models = sorted(model.id for model in OpenAI(base_url=args.base_url).models.list().data)
-        for model in models:
+        provider = args.list_model_provider or args.search_provider
+        print(f"Listing {provider} models.")
+        for model in list_provider_models(provider, args):
             print(model)
         return 0
 
@@ -148,21 +163,21 @@ def main() -> int:
     if args.dry_run:
         return 0
 
-    if load_dotenv is None or OpenAI is None:
+    if load_dotenv is None:
         raise RuntimeError(
             "Missing API dependency. Install project dependencies or run: "
-            "python3 -m pip install openai python-dotenv"
+            "python3 -m pip install python-dotenv"
         )
 
     load_dotenv(PROJECT_ROOT / ".env")
-    if not os.getenv("OPENAI_API_KEY"):
+    if "openai" in {args.search_provider, args.review_provider} and not os.getenv("OPENAI_API_KEY"):
         raise RuntimeError(f"OPENAI_API_KEY not found. Add it to {PROJECT_ROOT / '.env'} or the environment.")
 
     args.run_dir = resolve_run_dir(args)
     manifest_path = write_manifest(manifest, args.run_dir / "batch_manifest.json")
     print(f"Batch manifest: {manifest_path}")
-    client = OpenAI(base_url=args.base_url)
-    curated_paths = process_batches(client, selected_rows, country_rows, country_rows_text, args)
+    clients = build_api_clients(args)
+    curated_paths = process_batches(clients, selected_rows, country_rows, country_rows_text, args)
     for path in curated_paths:
         print(f"Curated batch JSON: {path}")
         print(f"Curated batch Excel: {path.with_suffix('.xlsx')}")

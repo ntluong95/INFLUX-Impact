@@ -10,7 +10,7 @@ from epp_emergence_analysis_excel import load_json, write_excel_from_payload
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Convert saved OpenAI EPP emergence-event JSON to Excel."
+        description="Convert saved EPP emergence-event JSON to Excel."
     )
     parser.add_argument("json_path", type=Path)
     parser.add_argument("--output", type=Path, help="Output .xlsx path. Defaults beside JSON.")

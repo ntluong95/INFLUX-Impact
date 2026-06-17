@@ -12,6 +12,11 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parents[1]
 DEFAULT_WORKBOOK = SCRIPT_DIR / "EPPs input file.xlsx"
 DEFAULT_OUTPUT_DIR = SCRIPT_DIR / "openai_outputs"
+DEFAULT_OPENAI_BASE_URL = "https://api.openai.com/v1"
+DEFAULT_CLAUDE_BASE_URL = "https://api.anthropic.com"
+DEFAULT_OPENAI_MODEL = "gpt-5.1"
+DEFAULT_CLAUDE_MODEL = "claude-sonnet-4-6"
+PROVIDERS = ("openai", "claude")
 MAIN_SHEET = "Main list"
 COUNTRY_SHEET_CANDIDATES = ("Country", "Country sheet")
 STANDARD_NAME_COLUMN = "Scientific name_standardize"
@@ -37,3 +42,15 @@ def now_slug() -> str:
 
 def yes_no(value: Any) -> str:
     return "Yes" if bool(value) else "No"
+
+
+def normalize_provider(value: str | None) -> str:
+    provider = (value or "openai").strip().lower()
+    if provider not in PROVIDERS:
+        raise ValueError(f"Unsupported provider '{value}'. Choose one of: {', '.join(PROVIDERS)}.")
+    return provider
+
+
+def default_model_for_provider(provider: str) -> str:
+    provider = normalize_provider(provider)
+    return DEFAULT_CLAUDE_MODEL if provider == "claude" else DEFAULT_OPENAI_MODEL

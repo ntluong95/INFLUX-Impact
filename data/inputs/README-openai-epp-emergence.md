@@ -1,11 +1,22 @@
-# OpenAI EPP emergence-event scripts
+# EPP emergence-event LLM scripts
 
 These scripts sit beside `EPPs input file.xlsx` and read:
 
 - `Main list`
 - `Country`
 
-They load `OPENAI_API_KEY` from the project-root `.env` file and call the OpenAI Responses API with `gpt-5.1` by default.
+They load API keys from the project-root `.env` file.
+
+```dotenv
+OPENAI_API_KEY=...
+ANTHROPIC_API_KEY=...
+```
+
+By default, both roles use OpenAI with `gpt-5.1`. You can opt in by role:
+
+- Search prompt provider: `--search-provider openai|claude`
+- Verification prompt provider: `--review-provider openai|claude`
+- Both roles at once: `--provider openai|claude`
 
 Default workflow:
 
@@ -20,7 +31,7 @@ The API instruction prompt is stored verbatim in `epp_emergence_analysis_prompt.
 If imports are missing in a fresh environment, install the project dependencies or run:
 
 ```bash
-python3 -m pip install openai python-dotenv pandas openpyxl
+python3 -m pip install openai python-dotenv pandas openpyxl requests
 ```
 
 ## Run by standardized scientific names
@@ -30,7 +41,7 @@ python3 data/inputs/epp_emergence_analysis_query_openai_events.py \
   --names "Vibrio cholerae" "Xylella fastidiosa"
 ```
 
-Outputs are written in batch folders:
+Outputs are written in batch folders. The default output folder name is kept for backward compatibility:
 
 ```text
 data/inputs/openai_outputs/epp_emergence_run_YYYYMMDD_HHMMSS/
@@ -83,6 +94,39 @@ python3 data/inputs/epp_emergence_analysis_query_openai_events.py \
   --review-reasoning-effort high
 ```
 
+Use OpenAI for the search prompt and Claude for the verification prompt:
+
+```bash
+python3 data/inputs/epp_emergence_analysis_query_openai_events.py \
+  --names "Orthoflavivirus denguei" \
+  --search-provider openai \
+  --review-provider claude \
+  --model gpt-5.1 \
+  --review-model claude-opus-4-8
+```
+
+Use Claude for both prompts:
+
+```bash
+python3 data/inputs/epp_emergence_analysis_query_openai_events.py \
+  --names "Orthoflavivirus denguei" \
+  --provider claude \
+  --model claude-sonnet-4-6 \
+  --review-model claude-opus-4-8
+```
+
+Run all rows in batches with OpenAI search and Claude verification:
+
+```bash
+python3 data/inputs/epp_emergence_analysis_query_openai_events.py \
+  --all \
+  --batch-size 30 \
+  --search-provider openai \
+  --review-provider claude \
+  --model gpt-5.1 \
+  --review-model claude-opus-4-8
+```
+
 If a row has many events and the script reports incomplete JSON, rerun with a larger output cap:
 
 ```bash
@@ -124,12 +168,20 @@ python3 data/inputs/epp_emergence_analysis_query_openai_events.py \
   --dry-run
 ```
 
-## Check available OpenAI models
+## Check available models
 
 If `gpt-5.1` returns `model not found`, list the model IDs available to your API key:
 
 ```bash
 python3 data/inputs/epp_emergence_analysis_query_openai_events.py --list-models
+```
+
+For Claude:
+
+```bash
+python3 data/inputs/epp_emergence_analysis_query_openai_events.py \
+  --list-models \
+  --list-model-provider claude
 ```
 
 The script defaults to the official OpenAI API base URL:
@@ -143,8 +195,10 @@ If you intentionally use an OpenAI-compatible gateway, pass it explicitly:
 ```bash
 python3 data/inputs/epp_emergence_analysis_query_openai_events.py \
   --list-models \
-  --base-url "https://your-gateway.example/v1"
+  --openai-base-url "https://your-gateway.example/v1"
 ```
+
+For a Claude-compatible gateway, pass `--claude-base-url`.
 
 Then rerun with one of those IDs:
 
@@ -161,4 +215,4 @@ python3 data/inputs/epp_emergence_analysis_convert_json_to_excel.py \
   data/inputs/openai_outputs/openai_epp_emergence_events_YYYYMMDD_HHMMSS.json
 ```
 
-Outputs are written to `data/inputs/openai_outputs/`.
+Outputs are written to `data/inputs/openai_outputs/` unless you pass `--output-dir`.

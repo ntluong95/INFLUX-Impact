@@ -52,8 +52,8 @@ You are an expert in the study of emerging pests and pathogens, including both h
 Please critically review a work by ChatGPT which list the major emergence events of the Emerging pests and pathogens (EPPs). Add a new column called “Review” for the following:
 •	Which events have been missed and should be added. For missing events, please add dedicated rows under the according EPP
 •	Which should be considered for exclusion.
-o	Not a major event
-o	Event does not exist
+    o	Not a major event
+    o	Event does not exist
 •	Flag for review in case of misclassification of emergence categories.
 Here is the original prompt to create the Excel file
 {ORIGINAL_USER_PROMPT}
