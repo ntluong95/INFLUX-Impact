@@ -57,6 +57,44 @@ def create_structured_response(
     search_context_size: str,
     include_review: bool,
 ) -> Any:
+    request = build_structured_response_request(
+        instructions=instructions,
+        user_input=user_input,
+        model=model,
+        max_output_tokens=max_output_tokens,
+        reasoning_effort=reasoning_effort,
+        store=store,
+        web_search=web_search,
+        search_context_size=search_context_size,
+        include_review=include_review,
+    )
+    try:
+        return client.responses.create(**request)
+    except Exception as exc:
+        if is_model_not_found_error(exc, model):
+            raise RuntimeError(
+                f"OpenAI model '{model}' is not available to this API key. "
+                "Run this script with --list-models, then retry with --model MODEL_ID."
+            ) from exc
+        if not web_search:
+            raise
+        print(f"OpenAI web-search request failed; retrying without web search: {exc}")
+        request.pop("tools", None)
+        request.pop("include", None)
+        return client.responses.create(**request)
+
+
+def build_structured_response_request(
+    instructions: str,
+    user_input: str,
+    model: str,
+    max_output_tokens: int,
+    reasoning_effort: str,
+    store: bool,
+    web_search: bool,
+    search_context_size: str,
+    include_review: bool,
+) -> dict[str, Any]:
     request: dict[str, Any] = {
         "model": model,
         "instructions": instructions,
@@ -76,20 +114,7 @@ def create_structured_response(
     if web_search:
         request["tools"] = [{"type": "web_search_preview", "search_context_size": search_context_size}]
         request["include"] = ["web_search_call.action.sources"]
-    try:
-        return client.responses.create(**request)
-    except Exception as exc:
-        if is_model_not_found_error(exc, model):
-            raise RuntimeError(
-                f"OpenAI model '{model}' is not available to this API key. "
-                "Run this script with --list-models, then retry with --model MODEL_ID."
-            ) from exc
-        if not web_search:
-            raise
-        print(f"OpenAI web-search request failed; retrying without web search: {exc}")
-        request.pop("tools", None)
-        request.pop("include", None)
-        return client.responses.create(**request)
+    return request
 
 
 def call_search_openai(
