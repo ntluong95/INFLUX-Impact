@@ -43,21 +43,20 @@ If imports are missing in a fresh environment, install the project dependencies 
 python3 -m pip install openai python-dotenv pandas openpyxl requests
 ```
 
-If macOS refuses to install into the system Python, create a virtual
-environment and use that interpreter:
+Recommended setup with `uv`:
 
 ```bash
-python3 -m venv .venv-epp
-. .venv-epp/bin/activate
-python -m pip install openai python-dotenv pandas openpyxl requests
+python3 -m pip install --user uv
+UV="$HOME/Library/Python/3.9/bin/uv"
+"$UV" venv .venv
+"$UV" pip install --python .venv/bin/python openai python-dotenv pandas openpyxl requests
 ```
 
-Then either keep the virtual environment active, or replace `python3` in the
-examples below with the virtual-environment interpreter. For example, if you
-are using the temporary environment created earlier in this project:
+Then either activate the environment, or set `PYTHON` to the venv interpreter:
 
 ```bash
-PYTHON="/tmp/influx-epp-venv/bin/python"
+source .venv/bin/activate
+PYTHON=".venv/bin/python"
 ```
 
 ## Way 1: Run directly, not using Batch API
@@ -234,7 +233,7 @@ submitting a paid job. This step does not call OpenAI, but later `submit-*` and
 
 ```bash
 RUN_DIR="data/inputs/openai_outputs/epp_openai_batch_$(date -u +%Y%m%d_%H%M%S)"
-PYTHON="/tmp/influx-epp-venv/bin/python"
+PYTHON=".venv/bin/python"
 
 "$PYTHON" data/inputs/epp_emergence_analysis_openai_batch_api.py prepare-search \
   --run-dir "$RUN_DIR" \
@@ -249,7 +248,7 @@ PYTHON="/tmp/influx-epp-venv/bin/python"
 ### Submit the search batch
 
 ```bash
-PYTHON="/tmp/influx-epp-venv/bin/python"
+PYTHON=".venv/bin/python"
 
 "$PYTHON" data/inputs/epp_emergence_analysis_openai_batch_api.py submit-search \
   --run-dir "$RUN_DIR" \
@@ -267,8 +266,8 @@ Poll until the search batch status is `completed`. When completed, this also
 downloads per-EPP search JSON files:
 
 ```bash
-PYTHON="/tmp/influx-epp-venv/bin/python"
-RUN_DIR="data/inputs/openai_outputs/epp_openai_batch_20260618_141226"
+PYTHON=".venv/bin/python"
+# RUN_DIR="data/inputs/openai_outputs/epp_openai_batch_20260622_090347"
 "$PYTHON" data/inputs/epp_emergence_analysis_openai_batch_api.py poll-search \
   --run-dir "$RUN_DIR"
 ```

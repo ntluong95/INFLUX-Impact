@@ -32,8 +32,7 @@ def client_for(openai_base_url: str) -> Any:
         raise RuntimeError(
             "The OpenAI SDK is required for submit/poll actions. "
             "Install dependencies with: python3 -m pip install openai python-dotenv pandas openpyxl requests. "
-            "If you already created the project venv, run with: "
-            'PYTHON="/tmp/influx-epp-venv/bin/python"'
+            "If you already created the project venv, run with: PYTHON=\".venv/bin/python\""
         ) from exc
     return OpenAI(base_url=openai_base_url)
 
@@ -75,8 +74,7 @@ def download_output(openai_base_url: str, file_id: str) -> list[dict[str, Any]]:
         raise RuntimeError(
             "The requests package is required to download Batch API output files. "
             "Install dependencies with: python3 -m pip install openai python-dotenv pandas openpyxl requests. "
-            "If you already created the project venv, run with: "
-            'PYTHON="/tmp/influx-epp-venv/bin/python"'
+            "If you already created the project venv, run with: PYTHON=\".venv/bin/python\""
         ) from exc
     url = f"{openai_base_url.rstrip('/')}/files/{file_id}/content"
     response = requests.get(url, headers={"Authorization": f"Bearer {api_key}"}, timeout=600)
